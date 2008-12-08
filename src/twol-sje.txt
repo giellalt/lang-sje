@@ -9,7 +9,8 @@ Alphabet
   á é í 
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
-  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß ç
+  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß 
+;
 
 Sets
   Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å ;
@@ -18,9 +19,11 @@ Sets
   V      = a       e       i ï           o           u       y   æ ä ø ö å ;
 
 
-Definitions
+!Definitions
 
-!  Dummy     =   %^DISIMP: %^1UML: %^2UML: %^3UML: %^3sUML: %^3dUML: %^iæUML: ;
+!  Dummy     =   
 
 Rules
  
+"Dummyrule, to be removed" 
+e:i <=> _ j ;
