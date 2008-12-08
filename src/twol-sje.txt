@@ -1,0 +1,26 @@
+! Pite Sámi TWOLC file
+!
+! $Id: twol-sjd.txt 17701 2008-03-08 22:28:08Z trond $
+!
+!
+
+Alphabet
+  a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å
+  á é í 
+  Å Ä Ö Ø Æ Á
+  Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß ç
+
+Sets
+  Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å ;
+  C      =   b c d   f g h     j k l m n   p q r s t   v w x   z           ;
+  CJV    =   b c d   f g h       k l m n   p q r s t     w x   z           ;
+  V      = a       e       i ï           o           u       y   æ ä ø ö å ;
+
+
+Definitions
+
+!  Dummy     =   %^DISIMP: %^1UML: %^2UML: %^3UML: %^3sUML: %^3dUML: %^iæUML: ;
+
+Rules
+ 
