@@ -1,0 +1,6 @@
+LEXICON CS 
++CS: # ;
+
+LEXICON Subjunction
+ahte CS ;
+
