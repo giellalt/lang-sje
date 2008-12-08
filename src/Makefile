@@ -66,7 +66,7 @@ pronoun-sje-lex.txt punct-sje-lex.txt verb-sje-lex.txt
 	compose-result \n\
 	save-result ../bin/sje.save \n\
 	quit \n" > ../../tmp/sje-save-script
-	@lexc -utf8 < ../../tmp/sje-save-script
+	@lexc < ../../tmp/sje-save-script
 	rm -f ../../tmp/sje-save-script
 
 twol-sje.bin: ../bin/twol-sje.bin
@@ -83,7 +83,7 @@ twol-sje.bin: ../bin/twol-sje.bin
 	compile \n\
 	save-binary ../bin/twol-sje.bin \n\
 	quit \n" > ../../tmp/twol-sje-script
-	@twolc -utf8 < ../../tmp/twol-sje-script
+	@twolc < ../../tmp/twol-sje-script
 	@rm -f ../../tmp/twol-sje-script
 
 clean:
