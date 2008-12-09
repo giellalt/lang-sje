@@ -1,3 +1,20 @@
 LEXICON Noun 
 
-# ;
+juollkie N_EVEN "jalka" ; ! JL juol'kie
+riejjtuo N_EVEN "työkalu" ; ! JL riej'tuo
+namma    N_EVEN "nimi" ; 
+vuorrpie N_EVEN "onni, arpa" ;
+
+kistah KISTAH "rukkanen" ;
+
+almatj       ALMATJ "ihminen" ;
+vanas:vatnas ALMATJ "vene" ;
+
+ålmaaj ÅLMAAJ "" ;
+
+ååpppaa ÅÅPPPAA ;
+
+aahhtjie ÅÅPPPAA ;
+
+
+

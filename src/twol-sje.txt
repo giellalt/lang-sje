@@ -10,20 +10,55 @@ Alphabet
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß 
+  %>:0
+  
+  %^WG:0 %^jDEL:0 %^MONB4J:0 
 ;
 
 Sets
   Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å ;
-  C      =   b c d   f g h     j k l m n   p q r s t   v w x   z           ;
-  CJV    =   b c d   f g h       k l m n   p q r s t     w x   z           ;
-  V      = a       e       i ï           o           u       y   æ ä ø ö å ;
-
-
+  Cns    =   b c d   f g h     j k l m n   p q r s t   v w x   z           ;
+  Vow    = a       e       i ï           o           u       y   æ ä ø ö å ;
+  WeG    =  %^WG %^jDEL ;
+  
 !Definitions
 
 !  Dummy     =   
 
 Rules
  
-"Dummyrule, to be removed" 
-e:i <=> _ j ;
+ 
+! Consonant gradation rules
+
+"Consonant Gradation for xxy:xy" 
+Cx:0 <=> Cx _ Cy Vow+: WeG:0 ;
+     where Cx in (j j j l l l r r r s)
+           Cy in (p t k p t k p t k j) 
+          matched ;
+
+!€ juollkie^WG
+!€ juol0kie0
+
+!€ juollkie^jDELj
+!€ juol0ki00j
+
+
+"Vowel Deletion in front of j"
+Vx:0 <=> Vy _ %^jDEL:0 ;
+     where Vx in (e o)
+           Vy in (i u)
+           matched ;
+
+
+"aa in front of j 1"
+i:a <=> _ e: %^MONB4J:0 ;
+
+
+"aa in front of j 2"
+e:a <=> i: _ %^MONB4J:0 ;
+
+"o deletion in front of j"
+o:0 <=> u _ %^MONB4J:0 ;
+
+!€ riejjtuo%^MONB4Jj
+!€ ruejjtu00j
