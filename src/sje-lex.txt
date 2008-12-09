@@ -13,43 +13,91 @@
 
 ! Nominal MSP
 +Sg +Pl
-+Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Par
++Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Abe
 +Ord
 +Qst
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
-%^WG %^DI
+%^WG    ! weak grade
+%^jDEL  ! vowel deletion in front of j
+%^MONB4J ! ie to aa (before j), uo to u before j
 
 ! Key lexicon
 
 LEXICON Root
 
 Noun ;
-Propernoun ;
-Verb ;
-Adjective ;
-Adverb ;
-Conjunction ;
-Subjunction ;
-Interjection ;
-Numeral ;
-Pronoun ;
-Postposition ;
-Punctuation ;
-Particle ;
+!Propernoun ;
+!Verb ;
+!Adjective ;
+!Adverb ;
+!Conjunction ;
+!Subjunction ;
+!Interjection ;
+!Numeral ;
+!Pronoun ;
+!Postposition ;
+!Punctuation ;
+!Particle ;
 
 
-! =========
+
+
+
+! ========== !
 ! Inflection !
+! ========== !
 
-! Noun inflection
+!juollkie+N+Abe	     morf =======> upper
+!juollkie^WG>htahk   trans
+!				     
+!juollkie^WG>Abehtahk   mphon
+!juol0kie00htahk	 trans ======> lower
+
+! Noun 
 ! ===============
 
+LEXICON N_EVEN
++N:              N_EVEN_S ;
++N:%^WG          N_EVEN_W ;
++N:%^jDEL%>j     N_EVEN_J ;
++N+Sg+Ill:%^MONB4Jj K ;
 
+LEXICON N_EVEN_S
++Sg+Nom:    K ;
++Ess:%>n K ;
+
+LEXICON N_EVEN_W
++Sg+Gen:     K ;
++Sg+Acc:%>v  K ;
++Sg+Ine:%>n K ;
++Sg+Ela:%>st K ;
++Abe:%>htahk K ; ! Normally
++Abe:%>htaka K ; ! Informants S and Bj 
++Pl+Nom:%>h  K ;
+
+LEXICON N_EVEN_J
++Sg+Com:n   K ;
++Sg+Com:na  K ; !variant
++Pl+Gen:    K ;
++Pl+Acc:t   K ;
++Pl+Ine:n   K ;
++Pl+Ela:st  K ;
++Pl+Ill:ta  K ;
++Pl+Com:    K ;
+
+LEXICON KISTAH
+#;
+
+LEXICON ÅÅPPPAA
+#;
+
+LEXICON ALMATJ
+#;
 
 
 
 
 LEXICON K
 # ;
-+Qst:го # ; ! Dummy clitic only!
+! +Qst:go # ; ! Dummy clitic only!
