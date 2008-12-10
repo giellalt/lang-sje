@@ -3,5 +3,5 @@
 LEXICON adv
 +Adv: # ;
 
-LEXICON Adverb 
-;
+LEXICON Adverb
+bar adv "only" ;
