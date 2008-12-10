@@ -5,3 +5,4 @@ LEXICON adv
 
 LEXICON Adverb
 bar adv "only" ;
+buoragijt adv "well" ;
