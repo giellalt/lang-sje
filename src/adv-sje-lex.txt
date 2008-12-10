@@ -1,2 +1,7 @@
+! Adverbs
+
+LEXICON adv
++Adv: # ;
+
 LEXICON Adverb 
-#;
+;
