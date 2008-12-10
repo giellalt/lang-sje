@@ -29,7 +29,7 @@ TEMP = ../../tmp
 # (makes the Makefile truly language independent for
 # the Sami languages)
 # sme and smj uses ismX-norm, to ensure that the generated paradigm only
-# includes the normatively correct forms. We don't have such an fst for smn
+# includes the normatively correct forms. We don't have such an fst for sje
 # yet, thus we use the regular fst.
 SAVEFILE = $(wildcard $(FSTDIR)/isj?.fst)
 
@@ -427,7 +427,7 @@ prop-paradigm: prop-para.ptest savefile
 
 # Make sure there is an available smX.save in the parent directory:
 savefile:
-	@cd $(SRCDIR)/ && $(MAKE) ifst TARGET=smn
+	@cd $(SRCDIR)/ && $(MAKE) ifst TARGET=sje
 
 # Word form generation:
 # ---------------------
@@ -540,7 +540,7 @@ savefile:
 # ==============
 
 # Usage:
-# make twol-test (extracts the test words from src/twol-smn.txt, and runs them
+# make twol-test (extracts the test words from src/twol-sje.txt, and runs them
 #                 through both the normative and descriptive twols)
 # make twol-pos  (tests for the positive test pairs, output to twol-pos.out)
 # make twol-neg  (tests for the positive test pairs, output to twol-neg.out)
@@ -556,7 +556,7 @@ M4 = m4
 M4FLAGS = 
 
 
-twol-extract: ../src/twol-smn.txt
+twol-extract: ../src/twol-sje.txt
 	@echo
 	@echo "*** Extracting twol tests ***"
 	@echo
@@ -572,7 +572,7 @@ twol-test-desc: twol-desc twol-extract
 	@echo
 	@echo "*** Testing descriptive twolc rules ***"
 	@echo
-	@printf "install-binary ../bin/twol-smn-descriptive.bin \n\
+	@printf "install-binary ../bin/twol-sje-descriptive.bin \n\
 	pair-test-file $(FILE) twol-$(TYPE)-desc.out \n\
 	quit \n" > $(TEMP)/twol-test-desc-script
 	$(TWOLC) < $(TEMP)/twol-test-desc-script
@@ -582,7 +582,7 @@ twol-test-norm: twol-norm twol-extract
 	@echo
 	@echo "*** Testing normative twolc rules ***"
 	@echo
-	@printf "install-binary ../bin/twol-smn.bin \n\
+	@printf "install-binary ../bin/twol-sje.bin \n\
 	pair-test-file $(FILE) twol-$(TYPE)-norm.out \n\
 	quit \n" > $(TEMP)/twol-test-norm-script
 	$(TWOLC) < $(TEMP)/twol-test-norm-script
@@ -592,9 +592,9 @@ twol-test-norm: twol-norm twol-extract
 # Make sure there are up-to-date twol binaries:
 twol: twol-desc twol-norm
 twol-desc:
-	@cd $(SRCDIR)/ && $(MAKE) TARGET=smn twol-descriptive
+	@cd $(SRCDIR)/ && $(MAKE) TARGET=sje twol-descriptive
 twol-norm:
-	@cd $(SRCDIR)/ && $(MAKE) TARGET=smn twol
+	@cd $(SRCDIR)/ && $(MAKE) TARGET=sje twol
 
 
 twol-pos: TYPE=pos
