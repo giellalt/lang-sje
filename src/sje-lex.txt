@@ -14,7 +14,7 @@
 ! Nominal MSP
 +Sg +Pl
 +Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Abe
-+Ord
++Ord +Card
 +Qst
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
@@ -34,7 +34,7 @@ Noun ;
 !Conjunction ;
 !Subjunction ;
 !Interjection ;
-!Numeral ;
+Numeral ;
 !Pronoun ;
 !Postposition ;
 !Punctuation ;
