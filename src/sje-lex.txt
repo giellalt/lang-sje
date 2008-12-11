@@ -28,7 +28,7 @@ LEXICON Root
 
 Noun ;
 !Propernoun ;
-!Verb ;
+Verb ;
 !Adjective ;
 !Adverb ;
 !Conjunction ;
@@ -68,7 +68,7 @@ LEXICON N_EVEN_S
 +Ess:%>n K ;
 
 LEXICON N_EVEN_W
-+Sg+Gen:     K ;
++Sg+Gen:%>0  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>st K ;
@@ -89,7 +89,7 @@ LEXICON N_EVEN_J
 LEXICON KISTAH
 #;
 
-LEXICON ÅÅPPPAA
+LEXICON ÅÅPPAA
 #;
 
 LEXICON ALMATJ
@@ -97,7 +97,59 @@ LEXICON ALMATJ
 
 
 
-
 LEXICON K
 # ;
 ! +Qst:go # ; ! Dummy clitic only!
+
+LEXICON BÅHTET
+ 
++V:     BÅHTET_S ;
++V:%^WG BÅHTET_W ;
+
+
+LEXICON BÅHTET_S
++Inf:%>et  #;
++Ind+Prs+Sg3+:a #;
++Ind+Prs+Du1+:in #;
++Ind+Prs+Du2:iepehtien #;
++Ind+Prs+Du3:iepan #;
++Ind+Prs+Pl1:iep #;
++Ind+Prs+Pl2:iepihtit #;
++Ind+Prs+Pl3:ih #;
++Ind+Prt+Sg1:iv #;
++Ind+Prt+Sg2:ih #;
++Ind+Prt+Pl3:in #; 
+
+LEXICON BÅHTET_W
++Ind+Prs+Sg1:%>av #;
++Ind+Prs+Sg2:%>ah #;
++Ind+Prs+Du3:%>iepah #;
++Ind+Prt+Sg3:%>ij #;
++Ind+Prt+Du1:%>ijmen #;
++Ind+Prt+Du2:%>ijten #;
++Ind+Prt+Du3:%>ijkah #;
++Ind+Prt+Du3:%>ijkan #;
++Ind+Prt+Pl1:%>ijmeh #;
++Ind+Prt+Pl2:%>ijteh #;
+! 
+! 
+! 
+! 
+!LEXICON V_ODD
+!+V+Ind+Prs+Sg+:
+!+V+Ind+Prs+Sg+:
+!+V+Ind+Prs+Sg+:
+!+V+Ind+Prs+Du+:
+!+V+Ind+Prs+Du+:
+!+V+Ind+Prs+Du+:
+!+V+Ind+Prs+Pl+:
+!+V+Ind+Prs+Pl+:
+!+V+Ind+Prs+Pl+:
+! 
+! 
+
+
+
+
+
+
