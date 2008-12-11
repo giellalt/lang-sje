@@ -1,2 +1,12 @@
 LEXICON Verb
-# ;
+
+! nammadit:nammad NAMMADIT    "kalla någon vid namn" ;
+
+båhtet:båht BÅHTET "komma" ;
+
+
+
+! vessot:vess VESSOT "leva, må" ;
+! 
+! årrot:årr   ÅRROT   "bo, vara" ;
+! 
