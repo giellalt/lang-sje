@@ -35,6 +35,18 @@ Cx:0 <=> Cx _ Cy Vow+: WeG:0 ;
      where Cx in (j j j l l l r r r s)
            Cy in (p t k p t k p t k j) 
           matched ;
+         
+!"Consonant Gradation for hx:x"
+"Delete h"
+h:0 <=> Vow+ _ Cx: WeG:0 ;
+    where Cx in (p t k) ;
+    
+"change unvoiced to voiced"
+Cx:Cy <=> h: _ WeG:0 ;
+    where Cx in (p t k)
+          Cy in (b d g)
+          matched ;
+
 
 !€ juollkie^WG
 !€ juol0kie0
