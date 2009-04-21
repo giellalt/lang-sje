@@ -1,6 +1,6 @@
 ! Pite Sámi TWOLC file
 !
-! $Id: twol-sjd.txt 17701 2008-03-08 22:28:08Z trond $
+! $Id$
 !
 !
 
