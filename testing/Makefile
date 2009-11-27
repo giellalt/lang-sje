@@ -31,7 +31,7 @@ TEMP = ../../tmp
 # sme and smj uses ismX-norm, to ensure that the generated paradigm only
 # includes the normatively correct forms. We don't have such an fst for sje
 # yet, thus we use the regular fst.
-SAVEFILE = $(wildcard $(FSTDIR)/isj?.fst)
+SAVEFILE = $(FSTDIR)/isje.fst
 
 # Copied from old LS makefile:
 # Bond, James Bond
@@ -427,6 +427,9 @@ prop-paradigm: prop-para.ptest savefile
 
 # Make sure there is an available smX.save in the parent directory:
 savefile:
+	@echo
+	@echo "*** Go to $$GTHOME and make the required transducer: ***"
+	@echo
 	@cd $(SRCDIR)/ && $(MAKE) $(notdir $(SAVEFILE)) TARGET=sje
 
 # Word form generation:
