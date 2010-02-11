@@ -3,8 +3,8 @@
 LEXICON Numeral
 
 nolla num "noll, zero" ;
-+Card ;
-+Ord ;
+Card ;
+Ord ;
 
 LEXICON Card
 ákkta num "ett, one" ;
