@@ -1,0 +1,11 @@
++V+Inf
++V+Ind+Prs+Sg3
++V+Ind+Prs+Du1
++V+Ind+Prs+Du2
++V+Ind+Prs+Du3
++V+Ind+Prs+Pl1
++V+Ind+Prs+Pl2
++V+Ind+Prs+Pl3
++V+Ind+Prt+Sg1
++V+Ind+Prt+Sg2
++V+Ind+Prt+Pl3
