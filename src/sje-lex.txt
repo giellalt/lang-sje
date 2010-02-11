@@ -113,16 +113,16 @@ LEXICON BÅHTET
 
 LEXICON BÅHTET_S
 +Inf:%>et  #;
-+Ind+Prs+Sg3+:a #;
-+Ind+Prs+Du1+:in #;
-+Ind+Prs+Du2:iepehtien #;
-+Ind+Prs+Du3:iepan #;
-+Ind+Prs+Pl1:iep #;
-+Ind+Prs+Pl2:iepihtit #;
-+Ind+Prs+Pl3:ih #;
-+Ind+Prt+Sg1:iv #;
-+Ind+Prt+Sg2:ih #;
-+Ind+Prt+Pl3:in #; 
++Ind+Prs+Sg3:%>a #;
++Ind+Prs+Du1:%>in #;
++Ind+Prs+Du2:%>iepehtien #;
++Ind+Prs+Du3:%>iepan #;
++Ind+Prs+Pl1:%>iep #;
++Ind+Prs+Pl2:%>iepihtit #;
++Ind+Prs+Pl3:%>ih #;
++Ind+Prt+Sg1:%>iv #;
++Ind+Prt+Sg2:%>ih #;
++Ind+Prt+Pl3:%>in #; 
 
 LEXICON BÅHTET_W
 +Ind+Prs+Sg1:%>av #;
