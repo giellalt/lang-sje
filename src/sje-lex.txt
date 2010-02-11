@@ -27,18 +27,18 @@
 LEXICON Root
 
 Noun ;
-!Propernoun ;
+Propernoun ;
 Verb ;
-!Adjective ;
-!Adverb ;
-!Conjunction ;
-!Subjunction ;
-!Interjection ;
+Adjective ;
+Adverb ;
+Conjunction ;
+Subjunction ;
+Interjection ;
 Numeral ;
-!Pronoun ;
-!Postposition ;
-!Punctuation ;
-!Particle ;
+Pronoun ;
+Postposition ;
+Punctuation ;
+Particle ;
 
 
 
@@ -89,11 +89,15 @@ LEXICON N_EVEN_J
 LEXICON KISTAH
 #;
 
-LEXICON ÅÅPPAA
+LEXICON ÅÅPPPAA
 #;
 
 LEXICON ALMATJ
 #;
+
+LEXICON ÅLMAAJ
+#;
+
 
 
 
