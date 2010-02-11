@@ -14,7 +14,8 @@ vanas:vatnas ALMATJ "vene" ;
 
 ååpppaa ÅÅPPPAA ;
 
-aahhtjie ÅÅPPPAA ;
+!aahhtjie ÅÅPPPAA ;
+aahhtjie N_EVEN ;
 
 
 
