@@ -1,36 +1,38 @@
 #!/usr/bin/perl -w
 use utf8 ;
-
+
 while (<>)
 
 {
-s/akta//g ;
-s/aktse//g ;
-s/duhát//g ;
-s/giehtja//g ;
-s/gietjav//g ;
-s/gietja//g ;
-s/guhtta//g ;
-s/guokta//g ;
-s/guok//g ;
-s/gáktsa//g ;
-s/gålmmå//g ;
-s/lågenan//g ;
-s/lågev//g ;
-s/låhke//g ;
-s/låhke#akta#tuvsán//g ;
-s/låk//g ;
-s/milijåvnnå//g ;
-s/miljona//g ;
-s/millijåvnnå//g ;
-s/milliárdda//g ;
-s/niellja//g ;
-s/niellje//g ;
-s/tjuode//g ;
-s/tjuohte//g ;
-s/tjuot//g ;
-s/tuvsán//g ;
-s/vihtta//g ;
+s/vihtta//g ;			 # 5
+s/tuvsán//g ;			 # 1000
+s/tjuot//g ;			 # 100short
+s/tjuohte//g ;			 # 100
+s/tjuode//g ;			 # 100gen
+s/niellje//g ;			 # 4
+s/niellje//g ;       ### Delete doublet
+s/niellja//g ;			 # 
+s/milliárdda//g ;		 # 
+s/millijåvnnå//g ;		 # 
+s/miljona//g ;			 # 
+s/milijåvnnå//g ;		 # 
+s/låk//g ;				 # 10
+s/låhke//g ;			 # 10
+s/låhke#akta#tuvsán//g ; # 11000
+s/lågev//g ;			 # teen
+s/lågenan//g ;			 # ten
+s/gålmmå//g ;			 # 3
+s/gáktsa//g ;			 # 8
+s/guokta//g ;        ### Delete doublet
+s/guokta//g ;        ### Delete doublet
+s/guok//g ;				 # 2
+s/guhtta//g ;			 # 6
+s/gietjav//g ;       ### Delete doublet
+s/gietja//g ;			 # 7
+s/giehtja//g ;       ### Delete doublet
+s/duhát//g ;         ### Delete doublet
+s/aktse//g ;			 # 9
+s/akta//g ;				 # 1
 
 
 print ;
