@@ -74,6 +74,7 @@ LEXICON N_EVEN_W
 +Sg+Ela:%>st K ;
 +Abe:%>htahk K ; ! Normally
 +Abe:%>htaka K ; ! Informants S and Bj 
++Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>h  K ;
 
 LEXICON N_EVEN_J
