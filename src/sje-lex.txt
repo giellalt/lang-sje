@@ -100,13 +100,25 @@ LEXICON ÅLMAAJ
 #;
 
 
+! Verbs
 
 
-LEXICON K
-# ;
-! +Qst:go # ; ! Dummy clitic only!
+LEXICON SLADDJIT
+BÅHTET ;
+
+LEXICON ÅRROT
+BÅHTET ;
+
+LEXICON VESSOT
+BÅHTET ;
+
+LEXICON VUODDJAT
+BÅHTET ;
+
 
 LEXICON BÅHTET
+BÅHTET ;
+
  
 +V:     BÅHTET_S ;
 +V:%^WG BÅHTET_W ;
@@ -156,5 +168,15 @@ LEXICON BÅHTET_W
 
 
 
+
+
+
+
+
+
+
+LEXICON K
+# ;
+! +Qst:go # ; ! Dummy clitic only!
 
 
