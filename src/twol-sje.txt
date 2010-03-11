@@ -16,9 +16,9 @@ Alphabet
 ;
 
 Sets
-  Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å ;
-  Cns    =   b c d   f g h     j k l m n   p q r s t   v w x   z           ;
-  Vow    = a       e       i ï           o           u       y   æ ä ø ö å ;
+  Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å á é í ó ú ;
+  Cns    =     b c d   f g h     j k l m n   p q r s t   v w x   z           ;
+  Vow    = a      e       i ï           o           u       y   æ ä ø ö å  á é í ó ú ;
   WeG    =  %^WG %^jDEL ;
   
 !Definitions
@@ -30,12 +30,31 @@ Rules
  
 ! Consonant gradation rules
 
-"Consonant Gradation for xxy:xy" 
-Cx:0 <=> Cx _ Cy Vow:+ WeG:0 ;
-     where Cx in (j j j l l l r r r s)
-           Cy in (p t k p t k p t k j) 
+
+"Consonant Gradation for xx:x" 
+Cx:0 <=> Vow Cx _  Vow:+ WeG:0 ;
+     where Cx in ( m n s r f v ) ;
+         
+"Consonant Gradation for xyy:xy" 
+Cy:0 <=> Cx _ Cy Vow:+ WeG:0 ;
+     where Cx in ( j  )
+           Cy in ( d  )  
           matched ;
          
+
+"Consonant Gradation for xxy:xy" 
+Cx:0 <=> Cx _ Cy Vow:+ WeG:0 ;
+     where Cx in (j j j b d g k l l l l r r r s d )
+           Cy in (p t k j j j s p t k g p t k j n )  
+          matched ;
+         
+"Consonant Gradation for hxxy:hxy" 
+Cx:0 <=> h Cx _ Cy Vow:+ WeG:0 ;
+     where Cx in ( d t )
+           Cy in ( j j )  
+          matched ;
+         
+
 !"Consonant Gradation for hx:x"
 "Delete h"
 h:0 <=> Vow+ _ Cx: WeG:0 ;
