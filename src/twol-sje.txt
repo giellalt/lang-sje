@@ -43,7 +43,7 @@ Cy:0 <=> Cx _ Cy Vow:+ WeG:0 ;
          
 
 "Consonant Gradation for xxy:xy" 
-Cx:0 <=> Cx _ Cy Vow:+ WeG:0 ;
+Cx:0 <=> Vow: Cx _ Cy Vow:+ WeG:0 ;
      where Cx in (j j j b d g k l l l l r r r s d )
            Cy in (p t k j j j s p t k g p t k j n )  
           matched ;
@@ -66,6 +66,12 @@ Cx:Cy <=> h: _ WeG:0 ;
           Cy in (b d g)
           matched ;
 
+"Consonant Gradation for xN:N" 
+Cx:0 <=> Vow _ Cy Vow:+ WeG:0 ;
+    where Cx in (p t k)
+          Cy in (m n n)
+          matched ;
+         
 
 !€ juollkie^WG
 !€ juol0kie0
