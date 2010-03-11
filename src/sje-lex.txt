@@ -99,6 +99,9 @@ LEXICON ALMATJ
 LEXICON ÅLMAAJ
 #;
 
+LEXICON BIENA ! is of course not even...
++N:%^WG N_EVEN_S ;
++N:ga N_EVEN_W ; 
 
 ! Verbs
 

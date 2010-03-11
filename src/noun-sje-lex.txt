@@ -45,5 +45,5 @@ suäjtne N_EVEN "hö" ;
 riehpe N_EVEN "räv" ;
 
 
-biena:bietnaga ALMATJ "koira" ; ! patently wrong
+biena:bietna BIENA "koira" ; ! patently wrong
 
