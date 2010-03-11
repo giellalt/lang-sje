@@ -2,12 +2,12 @@ LEXICON Noun
 
 juollkie N_EVEN "jalka" ; ! JL juol'kie
 riejjtuo N_EVEN "työkalu" ; ! JL riej'tuo
-namma    N_EVEN "nimi" ; 
+namma N_EVEN "nimi" ; 
 vuorrpie N_EVEN "onni, arpa" ;
 
 kistah KISTAH "rukkanen" ;
 
-almatj       ALMATJ "ihminen" ;
+almatj ALMATJ "ihminen" ;
 vanas:vatnas ALMATJ "vene" ;
 
 ålmaaj ÅLMAAJ "" ;
@@ -18,4 +18,32 @@ vanas:vatnas ALMATJ "vene" ;
 aahhtjie N_EVEN ;
 
 
+
+! Added for Bodø.
+! Check and incorporate
+
+
+
+näjdda N_EVEN "flicka" ;
+tea N_EVEN "tee" ;
+káffa N_EVEN "kahvi" ;
+liddja N_EVEN "lie" ;
+njalla N_EVEN "härbre" ;
+mánna N_EVEN "barn" ;
+väkksa N_EVEN "tjur" ;
+fikssa N_EVEN "ladugård" ;
+gussa N_EVEN "ko" ;
+gaj’tsa N_EVEN "get" ;
+sav’tsa N_EVEN "får" ;
+áhttje N_EVEN "far" ;
+gajtsamäl’kke N_EVEN "getmjölk" ;
+gusamäl’kke N_EVEN "komjölk" ;
+buvtsomäl’kke N_EVEN "renmjölk" ;
+äddne N_EVEN "mor" ;
+bárdne N_EVEN "son" ;
+suäjtne N_EVEN "hö" ;
+riehpe N_EVEN "räv" ;
+
+
+biena:bietnaga ALMATJ "koira" ; ! patently wrong
 
