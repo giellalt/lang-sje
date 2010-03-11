@@ -4,9 +4,21 @@ LEXICON Verb
 
 båhtet:båht BÅHTET "komma" ;
 
+vuoddjat:vuoddj VUODDJAT ;
+mannat:mann VUODDJAT ;
 
+vuällget:vuällg BÅHTET ;
+båhttjet:båhttj BÅHTET ;
+basset:bass BÅHTET ;
 
-! vessot:vess VESSOT "leva, må" ;
-! 
-! årrot:årr   ÅRROT   "bo, vara" ;
-! 
+släddjit:släddj SLADDJIT ;
+málestit:málest SLADDJIT ;
+
+jåhkot:jåhk ÅRROT ;
+årrot:årr ÅRROT ;
+bårrot:bårr ÅRROT ;
+
+vessot:vess VESSOT "leva, må" ;
+
+årrot:årr ÅRROT "bo, vara" ;
+
