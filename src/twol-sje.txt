@@ -47,8 +47,8 @@ Rules
 
 "Consonant Gradation for xx:x" 
 Cx:0 <=> Vow Cx _  Vow:+ WeG:0 ;
-     where Cx in ( m n s r f v ) ;
-         
+     where Cx in ( p t k m n s r f v j ) ;
+
 "Consonant Gradation for xyy:xy" 
 Cy:0 <=> Cx _ Cy Vow:+ WeG:0 ;
      where Cx in ( j  )
