@@ -4,6 +4,17 @@
 # Here we build the final generator , an inverted transducer of the analyzer.
 # It is dependent upon sje.save
 
+XFST = xfst
+LEXC = lexc
+TWOLC = twolc
+
+ifeq (victorio.uit.no, $(shell hostname))
+XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+LEXC = /opt/sami/xerox/bin/lexc -utf8
+TWOLC = /opt/sami/xerox/bin/twolc -utf8
+endif
+
+
 isje.fst: ../bin/isje.fst
 ../bin/isje.fst: ../bin/sje.fst
 	@echo
@@ -13,7 +24,7 @@ isje.fst: ../bin/isje.fst
 	invert net \n\
 	save stack ../bin/isje.fst \n\
 	quit \n" > ../../tmp/isje-fst-script
-	@xfst < ../../tmp/isje-fst-script
+	$(XFST) < ../../tmp/isje-fst-script
 	@rm -f ../../tmp/isje-fst-script
 
 
@@ -28,7 +39,7 @@ sje.fst: ../bin/sje.fst
 	[@\"../bin/caseconv.fst\"]] ; \n\
 	save stack ../bin/sje.fst \n\
 	quit \n" > ../../tmp/sje-fst-script
-	@xfst < ../../tmp/sje-fst-script
+	$(XFST) < ../../tmp/sje-fst-script
 	@rm -f ../../tmp/sje-fst-script
 
 
@@ -43,7 +54,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../../tmp/caseconv-script
-	@xfst < ../../tmp/caseconv-script
+	$(XFST) < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
 
 
@@ -66,7 +77,7 @@ pronoun-sje-lex.txt punct-sje-lex.txt verb-sje-lex.txt
 	compose-result \n\
 	save-result ../bin/sje.save \n\
 	quit \n" > ../../tmp/sje-save-script
-	@lexc < ../../tmp/sje-save-script
+	$(LEXC) < ../../tmp/sje-save-script
 	rm -f ../../tmp/sje-save-script
 
 twol-sje.bin: ../bin/twol-sje.bin
@@ -83,7 +94,7 @@ twol-sje.bin: ../bin/twol-sje.bin
 	compile \n\
 	save-binary ../bin/twol-sje.bin \n\
 	quit \n" > ../../tmp/twol-sje-script
-	@twolc < ../../tmp/twol-sje-script
+	$(TWOLC) < ../../tmp/twol-sje-script
 	@rm -f ../../tmp/twol-sje-script
 
 clean:
