@@ -20,9 +20,10 @@ Personal ;
 ! =================
 
 LEXICON Personal
+!only SG - how do you add DU & PL?
 mån:m  pers_1 ;
-!dån:d  pers_2 ;
-!sån:n  pers_3 ;
+dån:d  pers_2 ;
+sån:n  pers_3 ;
 
 
 LEXICON pers_1
@@ -34,9 +35,23 @@ LEXICON pers_1
 +Pron+Pers+Sg+Ela:uvvste  K ;
 +Pron+Pers+Sg+Com:ujna    K ;
 
+LEXICON pers_2
++Pron+Pers+Sg+Nom:        K ;
++Pron+Pers+Sg+Acc:uv      K ;
++Pron+Pers+Sg+Gen:uv      K ;
++Pron+Pers+Sg+Ill:unje    K ;
++Pron+Pers+Sg+Ine:uvne    K ;
++Pron+Pers+Sg+Ela:uvvste  K ;
++Pron+Pers+Sg+Com:ujna    K ;
 
-!LEXICON pers_2
-!+Pron+Pers+Sg+Ill:ннӭ     K ;
+LEXICON pers_3
++Pron+Pers+Sg+Nom:        K ;
++Pron+Pers+Sg+Acc:uv      K ;
++Pron+Pers+Sg+Gen:uv      K ;
++Pron+Pers+Sg+Ill:unje    K ;
++Pron+Pers+Sg+Ine:uvne    K ;
++Pron+Pers+Sg+Ela:uvvste  K ;
++Pron+Pers+Sg+Com:ujna    K ;
 
 
 !LEXICON Demonstrative
