@@ -64,7 +64,8 @@ all: n-g.summary \
 	 v-g.summary \
 	 v-a.summary \
 	 num-a.summary \
-	 num-g.summary
+	 num-g.summary \
+	 pron-a.summary 
 #	 a-g.summary \
 #	 a-a.summary
 
