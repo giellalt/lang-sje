@@ -20,7 +20,6 @@ Personal ;
 ! =================
 
 LEXICON Personal
-!only SG - how do you add DU & PL?
 mån:m  pers_1 ;
 dån:d  pers_2 ;
 sån:s  pers_3 ;
@@ -34,6 +33,20 @@ LEXICON pers_1
 +Pron+Pers+Sg+Ine:uvne    K ;
 +Pron+Pers+Sg+Ela:uvvste  K ;
 +Pron+Pers+Sg+Com:ujna    K ;
++Pron+Pers+Du+Nom:        K ;
++Pron+Pers+Du+Acc:unuov   K ;
++Pron+Pers+Du+Gen:unuo    K ;
++Pron+Pers+Du+Ill:unnuj   K ;
++Pron+Pers+Du+Ine:unuon   K ;
++Pron+Pers+Du+Ela:unuost  K ;
++Pron+Pers+Du+Com:unujn   K ;
++Pron+Pers+Pl+Nom:        K ;
++Pron+Pers+Pl+Acc:ijáv    K ;
++Pron+Pers+Pl+Gen:ijá     K ;
++Pron+Pers+Pl+Ill:ijjaj   K ;
++Pron+Pers+Pl+Ine:iján    K ;
++Pron+Pers+Pl+Ela:ijást   K ;
++Pron+Pers+Pl+Com:ijájn   K ;
 
 LEXICON pers_2
 +Pron+Pers+Sg+Nom:        K ;
@@ -43,6 +56,20 @@ LEXICON pers_2
 +Pron+Pers+Sg+Ine:uvne    K ;
 +Pron+Pers+Sg+Ela:uvvste  K ;
 +Pron+Pers+Sg+Com:ujna    K ;
++Pron+Pers+Du+Nom:        K ;
++Pron+Pers+Du+Acc:unuov   K ;
++Pron+Pers+Du+Gen:unuo    K ;
++Pron+Pers+Du+Ill:unnuj   K ;
++Pron+Pers+Du+Ine:unuon   K ;
++Pron+Pers+Du+Ela:unuost  K ;
++Pron+Pers+Du+Com:unujn   K ;
++Pron+Pers+Pl+Nom:        K ;
++Pron+Pers+Pl+Acc:ijáv    K ;
++Pron+Pers+Pl+Gen:ijá     K ;
++Pron+Pers+Pl+Ill:ijjaj   K ;
++Pron+Pers+Pl+Ine:iján    K ;
++Pron+Pers+Pl+Ela:ijást   K ;
++Pron+Pers+Pl+Com:ijájn   K ;
 
 LEXICON pers_3
 +Pron+Pers+Sg+Nom:        K ;
@@ -52,6 +79,20 @@ LEXICON pers_3
 +Pron+Pers+Sg+Ine:uvne    K ;
 +Pron+Pers+Sg+Ela:uvvste  K ;
 +Pron+Pers+Sg+Com:ujna    K ;
++Pron+Pers+Du+Nom:        K ;
++Pron+Pers+Du+Acc:unuov   K ;
++Pron+Pers+Du+Gen:unuo    K ;
++Pron+Pers+Du+Ill:unnuj   K ;
++Pron+Pers+Du+Ine:unuon   K ;
++Pron+Pers+Du+Ela:unuost  K ;
++Pron+Pers+Du+Com:unujn   K ;
++Pron+Pers+Pl+Nom:        K ;
++Pron+Pers+Pl+Acc:ijáv    K ;
++Pron+Pers+Pl+Gen:ijá     K ;
++Pron+Pers+Pl+Ill:ijjaj   K ;
++Pron+Pers+Pl+Ine:iján    K ;
++Pron+Pers+Pl+Ela:ijást   K ;
++Pron+Pers+Pl+Com:ijájn   K ;
 
 
 !LEXICON Demonstrative
