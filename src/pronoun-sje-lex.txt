@@ -23,7 +23,7 @@ LEXICON Personal
 !only SG - how do you add DU & PL?
 mån:m  pers_1 ;
 dån:d  pers_2 ;
-sån:n  pers_3 ;
+sån:s  pers_3 ;
 
 
 LEXICON pers_1
