@@ -15,61 +15,32 @@
 LEXICON Pronoun 
 
 Personal ;
-Demonstrative ;
-Reflexive ;
-
 
 ! Personal pronouns
 ! =================
 
-! a = stem му-, то-, со-
-! b = stem мы-, то-, со-
-! c = stem мы-, ты-, сы-
-! d = stem ми-, ти-, си-
-
 LEXICON Personal
-мунн:му  pers_a ;
-мунн:мы  pers_b ;
-мунн:мы  pers_c ;
-мунн:ми  pers_d ;
-тонн:то  pers_a ;
-тонн:то  pers_b ;
-тонн:ты  pers_c ;
-тонн:ти  pers_d ;
-сонн:со  pers_a ;
-сонн:со  pers_b ;
-сонн:сы  pers_c ;
-сонн:си  pers_d ;
+mån:m  pers_1 ;
+!dån:d  pers_2 ;
+!sån:n  pers_3 ;
 
 
-LEXICON pers_a
-+Pron+Pers+Sg+Nom:нн      K ;
-+Pron+Pers+Sg+Gen:н	      K ;
-+Pron+Pers+Sg+Acc:н	      K ;
-+Pron+Pers+Sg+Ess:энѣ     K ;
-+Pron+Pers+Sg+Ine:есьт    K ;
-+Pron+Pers+Sg+Ela:нха     K ;
-+Pron+Pers+Sg+Com:нэнѣ    K ;
-
-LEXICON pers_b
-+Pron+Pers+Sg+Ill:ннӭ     K ;
-
-LEXICON pers_c
-+Pron+Pers+Pl+Nom:йй      K ;
-+Pron+Pers+Pl+Ill:йе      K ;
-
-LEXICON pers_d
-+Pron+Pers+Pl+Gen:н		  K ;
-+Pron+Pers+Pl+Acc:нэтѣ	  K ;
-+Pron+Pers+Pl+Ess:ннэнѣ	  K ;
-+Pron+Pers+Pl+Ine:нэнѣ	  K ;
-+Pron+Pers+Pl+Ela:нэха	  K ;
-+Pron+Pers+Pl+Com:нэгуэйм K ;
+LEXICON pers_1
++Pron+Pers+Sg+Nom:        K ;
++Pron+Pers+Sg+Acc:uv      K ;
++Pron+Pers+Sg+Gen:uv      K ;
++Pron+Pers+Sg+Ill:unje    K ;
++Pron+Pers+Sg+Ine:uvne    K ;
++Pron+Pers+Sg+Ela:uvvste  K ;
++Pron+Pers+Sg+Com:ujna    K ;
 
 
+!LEXICON pers_2
+!+Pron+Pers+Sg+Ill:ннӭ     K ;
 
-LEXICON Demonstrative
-# ;
 
-LEXICON Reflexive
-# ;
+!LEXICON Demonstrative
+!# ;
+
+!LEXICON Reflexive
+!# ;
