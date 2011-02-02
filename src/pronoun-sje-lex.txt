@@ -42,7 +42,14 @@ LEXICON pers
 +Pron+Pers+Du+Ine:unuon   K ;
 +Pron+Pers+Du+Ela:unuost  K ;
 +Pron+Pers+Du+Com:unujn   K ;
-
++Pron+Pers+Pl+Nom:ij      K ;
++Pron+Pers+Pl+Nom:ija     K ;
++Pron+Pers+Pl+Acc:ijáv    K ;
++Pron+Pers+Pl+Gen:ijá     K ;
++Pron+Pers+Pl+Ill:ijjaj   K ;
++Pron+Pers+Pl+Ine:iján    K ;
++Pron+Pers+Pl+Ela:ijást   K ;
++Pron+Pers+Pl+Com:ijájn   K ;
 
 !LEXICON Demonstrative
 !# ;
