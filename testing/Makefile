@@ -20,7 +20,7 @@ FSTDIR = ../bin
 
 # Directory for the source files (which compile into fst's):
 # Changed this to point into the directory where the common makefile is:
-SRCDIR = ../../
+SRCDIR = ../..
 
 # The temp directory:
 TEMP = ../../tmp
