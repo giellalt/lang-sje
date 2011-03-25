@@ -30,6 +30,8 @@
 +Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Abe
 +Ord +Card
 +Qst
++Prop +Ani +Mal +Fem +Sur +Plc +Org +Obj ! Semantic properties of names
+
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
 %^WG    ! weak grade
