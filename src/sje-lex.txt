@@ -134,17 +134,26 @@ BÅHTET ;
 LEXICON VUODDJAT
 BÅHTET ;
 
-
-LEXICON BÅHTET
+LEXICON REKKNUT
 BÅHTET ;
 
+LEXICON BRUVKKUT
+BÅHTET ;
+
+LEXICON VADTSAT
+BÅHTET ;
+
+LEXICON LÅHKÅT
+BÅHTET ;
+
+LEXICON BÅHTET
  
 +V:     BÅHTET_S ;
 +V:%^WG BÅHTET_W ;
 
 
 LEXICON BÅHTET_S
-+Inf:%>et  #;
++Inf:%>et # ;
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Du1:%>in #;
 +Ind+Prs+Du2:%>iepehtien #;
@@ -167,22 +176,36 @@ LEXICON BÅHTET_W
 +Ind+Prt+Du3:%>ijkan #;
 +Ind+Prt+Pl1:%>ijmeh #;
 +Ind+Prt+Pl2:%>ijteh #;
-! 
-! 
-! 
-! 
-!LEXICON V_ODD
-!+V+Ind+Prs+Sg+:
-!+V+Ind+Prs+Sg+:
-!+V+Ind+Prs+Sg+:
-!+V+Ind+Prs+Du+:
-!+V+Ind+Prs+Du+:
-!+V+Ind+Prs+Du+:
-!+V+Ind+Prs+Pl+:
-!+V+Ind+Prs+Pl+:
-!+V+Ind+Prs+Pl+:
-! 
-! 
+
+LEXICON NAMMADIT
++V+Inf:%>it # ;
++V+Ind+Prs: V_ODD_IND_PRS ;
++V+Ind+Prt: V_ODD_IND_PRT ;
+
+LEXICON V_ODD_IND_PRS
++Sg1:%>av # ; 
++Sg2:%>ah # ; 
++Sg3: # ; 
++Sg3:%>a # ; 
++Du1:%>in # ; 
++Du2:%>iehpien # ; 
++Du3:%>iehpaa # ; 
++Pl1:%>ip # ; 
++Pl2:%>ihpit # ; 
++Pl3:%>ih # ; 
+
+LEXICON V_ODD_IND_PRT
++Sg1:%>iv # ; 
++Sg2:%>ih # ; 
++Sg3:%>ij # ; 
++Du1:%>ijmien # ; 
++Du2:%>iejtien # ; 
++Du3:%>iejkaa # ; 
++Pl1:%>iejmieh # ; 
++Pl2:%>iejtieh # ; 
++Pl3:%>im # ; 
+ 
+ 
 
 
 
