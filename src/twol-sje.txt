@@ -44,6 +44,9 @@ Rules
  
 ! Consonant gradation rules
 
+"Consonant Gradation for hxx:hx" 
+Cx:0 <=> Vow h Cx _ ( j ) Vow:+ WeG:0 ;
+     where Cx in ( t ) ;
 
 "Consonant Gradation for xx:x" 
 Cx:0 <=> Vow Cx _  Vow:+ WeG:0 ;
@@ -58,8 +61,8 @@ Cy:0 <=> Cx _ Cy Vow:+ WeG:0 ;
 
 "Consonant Gradation for xxy:xy" 
 Cx:0 <=> Vow: Cx _ Cy Vow:+ WeG:0 ;
-     where Cx in (j j j b d g k l l l l r r r s d )
-           Cy in (p t k j j j s p t k g p t k j n )  
+     where Cx in (j j j b d g k l l l l l r r r s d k )
+           Cy in (p t k j j j s p t k g j p t k j n n )  
           matched ;
          
 "Consonant Gradation for hxxy:hxy" 
