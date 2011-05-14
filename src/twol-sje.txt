@@ -45,28 +45,28 @@ Rules
 ! Consonant gradation rules
 
 "Consonant Gradation for hxx:hx" 
-Cx:0 <=> Vow h Cx _ ( j ) Vow:+ WeG:0 ;
+Cx:0 <=> Vow h Cx _ ( j ) (Vow:+) WeG: ;
      where Cx in ( t ) ;
 
 "Consonant Gradation for xx:x" 
-Cx:0 <=> Vow Cx _  Vow:+ WeG:0 ;
+Cx:0 <=> Vow Cx _  (Vow:+) WeG: ;
      where Cx in ( p t k m n s r f v j ) ;
 
 "Consonant Gradation for xyy:xy" 
-Cy:0 <=> Cx _ Cy Vow:+ WeG:0 ;
+Cy:0 <=> Cx _ Cy (Vow:+) WeG: ;
      where Cx in ( j  )
            Cy in ( d  )  
           matched ;
          
 
 "Consonant Gradation for xxy:xy" 
-Cx:0 <=> Vow: Cx _ Cy Vow:+ WeG:0 ;
+Cx:0 <=> Vow: Cx _ Cy (Vow:+) WeG: ;
      where Cx in (j j j b d g k l l l l l r r r s d k )
            Cy in (p t k j j j s p t k g j p t k j n n )  
           matched ;
          
 "Consonant Gradation for hxxy:hxy" 
-Cx:0 <=> h Cx _ Cy Vow:+ WeG:0 ;
+Cx:0 <=> h Cx _ Cy (Vow:+) WeG: ;
      where Cx in ( d t )
            Cy in ( j j )  
           matched ;
@@ -74,17 +74,17 @@ Cx:0 <=> h Cx _ Cy Vow:+ WeG:0 ;
 
 !"Consonant Gradation for hx:x"
 "Delete h"
-h:0 <=> Vow+ _ Cx: WeG:0 ;
+h:0 <=> Vow+ _ Cx: (Vow:+) WeG: ;
     where Cx in (p t k) ;
     
 "change unvoiced to voiced"
-Cx:Cy <=> h: _ WeG:0 ;
+Cx:Cy <=> h: _ (Vow:+) WeG: ;
     where Cx in (p t k)
           Cy in (b d g)
           matched ;
 
 "Consonant Gradation for xN:N" 
-Cx:0 <=> Vow _ Cy Vow:+ WeG:0 ;
+Cx:0 <=> Vow _ Cy (Vow:+) WeG: ;
     where Cx in (p t k)
           Cy in (m n n)
           matched ;

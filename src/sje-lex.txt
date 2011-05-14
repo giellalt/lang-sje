@@ -156,8 +156,8 @@ LEXICON BÅHTET_S
 +Inf:%>et # ;
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Du1:%>in #;
-+Ind+Prs+Du2:%>iepehtien #;
 +Ind+Prs+Du3:%>iepan #;
++Ind+Prs+Du3:%>iepah #;
 +Ind+Prs+Pl1:%>iep #;
 +Ind+Prs+Pl2:%>iepihtit #;
 +Ind+Prs+Pl3:%>ih #;
@@ -168,7 +168,8 @@ LEXICON BÅHTET_S
 LEXICON BÅHTET_W
 +Ind+Prs+Sg1:%>av #;
 +Ind+Prs+Sg2:%>ah #;
-+Ind+Prs+Du3:%>iepah #;
++Ind+Prs+Du2:%>iepehtien #;
+
 +Ind+Prt+Sg3:%>ij #;
 +Ind+Prt+Du1:%>ijmen #;
 +Ind+Prt+Du2:%>ijten #;

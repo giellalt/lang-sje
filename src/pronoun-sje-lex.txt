@@ -24,24 +24,28 @@ mån:m  pers ;
 dån:d  pers ;
 sån:s  pers ;
 
-
 LEXICON pers
 +Pron+Pers+Sg+Nom:ån      K ;
 +Pron+Pers+Sg+Nom:ånnå    K ;
 +Pron+Pers+Sg+Acc:uv      K ;
 +Pron+Pers+Sg+Gen:uv      K ;
 +Pron+Pers+Sg+Ill:unje    K ;
++Pron+Pers+Sg+Ill:unji    K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Ine:uvne    K ;
-+Pron+Pers+Sg+Ela:uvvste  K ;
++Pron+Pers+Sg+Ela:uvvste  K ; 
++Pron+Pers+Sg+Ela:uvsste  K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Com:ujna    K ;
+
 +Pron+Pers+Du+Nom:åj      K ;
 +Pron+Pers+Du+Nom:åjå     K ;
++Pron+Pers+Du+Nom:ååj     K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Du+Acc:unuov   K ;
 +Pron+Pers+Du+Gen:unuo    K ;
 +Pron+Pers+Du+Ill:unnuj   K ;
 +Pron+Pers+Du+Ine:unuon   K ;
 +Pron+Pers+Du+Ela:unuost  K ;
 +Pron+Pers+Du+Com:unujn   K ;
+
 +Pron+Pers+Pl+Nom:ij      K ;
 +Pron+Pers+Pl+Nom:ija     K ;
 +Pron+Pers+Pl+Acc:ijáv    K ;
@@ -50,6 +54,10 @@ LEXICON pers
 +Pron+Pers+Pl+Ine:iján    K ;
 +Pron+Pers+Pl+Ela:ijást   K ;
 +Pron+Pers+Pl+Com:ijájn   K ;
+
++Pron+Pers+Ess+Sg:ånnan # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
++Pron+Pers+Ess+Du:unnuon # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
+
 
 !LEXICON Demonstrative
 !# ;
