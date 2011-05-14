@@ -183,7 +183,6 @@ råggåstit:råggåst NAMMADIT "rycka upp, bända upp" ;
 verttit:vertt SLADDJIT "vara tvungen"  ; 
 gräv'vit:gräv'v SLADDJIT "begrava"  ; 
 dulvvit:dulvv SLADDJIT "få högvatten"  ; 
-tjiebot:tjieb ÅRROT "hals"  ; 
 nåjddot:nåjdd ÅRROT "jd göra nåjdkonster (sija nujddun de gjorde nåjdkonster)"  ; 
 såggot:sågg ÅRROT "dö, omkomma"  ; 
 gilljot:gillj ÅRROT "lj skrika, gassta"  ; 
@@ -196,7 +195,7 @@ guohtot:guoht ÅRROT "d beta"  ;
 gáhtot:gáht ÅRROT "d försvinna"  ; 
 biehttot:biehtt ÅRROT "ht förmana, avråda"  ; 
 bruvkkut:bruvkk BRUVKKUT "bruka, ha för vana (bruvkkujin dahkat de brukade göra)" ; 
-bruvkkut:bruvkk BRUVKKUT "bruka" ; 
+
 gävdnut:gävdn BRUVKKUT "finnas" ; 
 rekknut:rekkn REKKNUT "kn räkna" ; 
 fär'rut:fär'r BRUVKKUT "fara" ; 
