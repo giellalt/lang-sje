@@ -14,6 +14,64 @@
 
 
 
+
+LEXICON LE
+
+le+V+Ind+Prs: LEPRS ; 
+le+V+Ind+Prt: LEPRT ; 
+le+V+Ind+Pot: LEPOT ;
+le+V+PrfPrc:lam # ;
+
+LEXICON LEPRS
++Sg1:lev # ; 
++Sg2:leh # ; 
++Sg3:le # ; 
++Sg3:lie # ; 
++Du1:lin # ; 
++Du1:len # ; 
++Du1:lien # ; 
++Du2:lehpien # ; 
++Du2:liehpien # ; 
++Du3:lepá # ; 
++Pl1:lip # ; 
++Pl1:lihp # ; 
++Pl1:lep # ; 
++Pl1:liehp # ; 
++Pl2:lihpit # ; 
++Pl2:liehpit # ; 
++Pl3:leh # ; 
++Pl3:lieh # ; 
+
+LEXICON LEPRT
++Sg1:lijjiv    # ; 
++Sg1:liv    # ; 
++Sg2:lih    # ; 
++Sg2:lijih    # ; 
++Sg2:lijjih    # ; 
++Sg3:lij    # ; 
++Du1:lijmien # ; 
++Du2:lijtien # ; 
++Du3:lijkán # ; 
++Pl1:lijmieh # ; 
++Pl2:lijtieh # ; 
++Pl3:lijjin    # ; 
++Pl3:lijin    # ; 
++Pl3:lin    # ; 
+
+LEXICON LEPOT
++Sg1:litjav # ; 
++Sg2:litjah # ; 
++Sg3:litj # ; 
++Du1:litjin # ; 
++Du2:litjapiehtien # ; 
++Du3:litjapah # ; 
++Du3:litjapan # ; 
++Pl1:litjap # ; 
++Pl2:litjapiht # ; 
++Pl2:litjapihtit # ; 
++Pl3:litjih # ; 
+
+
 LEXICON ATJA
 atja+V+Ind+Prs: ATJAPRS ; 
 atja+V+Ind+Prt: ATJAPRT ; 
@@ -55,8 +113,8 @@ LEXICON IJPRS
 +Du2:iehpien # ; 
 +Du2:ehpien # ; 
 +Du2:ihpien # ; 
-+Du3:iepaa # ; 
-+Du3:iepaan # ; 
++Du3:iepá # ; 
++Du3:iepán # ; 
 +Pl1:iehp # ; 
 +Pl1:iep # ; 
 +Pl2:iehpit # ; 
@@ -71,8 +129,8 @@ LEXICON IJPRT
 +Du1:ittjijmen # ; 
 +Du2:iejtien # ; 
 +Du2:ittjijtien # ; 
-+Du3:iejkaan # ; 
-+Du3:ittjijkaa # ; 
++Du3:iejkán # ; 
++Du3:ittjijká # ; 
 +Pl1:iejmieh # ; 
 +Pl1:ittjijmeh # ; 
 +Pl2:iejtieh # ; 
@@ -104,6 +162,8 @@ LEXICON IJOPT
 
 
 LEXICON Verb
+
+ LE "vara" ;
 
  ATJA "skola" ; 
  IJ "inte" ;
