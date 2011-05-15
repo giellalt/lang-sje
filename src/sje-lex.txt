@@ -132,7 +132,9 @@ LEXICON VESSOT
 BÅHTET ;
 
 LEXICON VUODDJAT
-BÅHTET ;
++V+Inf:%>at # ; 
++V:     BÅHTET_S ;
++V:%^WG BÅHTET_W ;
 
 LEXICON REKKNUT
 BÅHTET ;
@@ -147,13 +149,12 @@ LEXICON LÅHKÅT
 BÅHTET ;
 
 LEXICON BÅHTET
- 
++Inf:%>et # ; 
 +V:     BÅHTET_S ;
 +V:%^WG BÅHTET_W ;
 
 
 LEXICON BÅHTET_S
-+Inf:%>et # ;
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Du1:%>in #;
 +Ind+Prs+Du3:%>iepan #;
