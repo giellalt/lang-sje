@@ -1,6 +1,6 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 %                                                                              %
-%   List of morphological and syntactic tags used in the Kildin Sámi corpus    %
+%   List of morphological and syntactic tags used in the Pite Sámi corpus    %
 %                                                                              %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 
@@ -164,10 +164,11 @@ Nom	Nominative
 Gen	Genitive
 Acc	Accusative
 Ill	Illative
-Loc	Locative
+Ine	Inessive
+Ela	Elative
 Com	Comitative
 Ess	Essive
-Par	Partitive
+Abe	Abessive
 #Case
 
 Attr	Attribute
@@ -195,24 +196,26 @@ Prt	Preterite Tense
 
 Ind	Indicative
 Cond	Conditional
-Imprt	Imperative
-ImprtII	Imperative II
-Pot	Potential
+Imp	Imperative
+Opt	Optative
 #Mood
 
 Sg1	1. Person Singular
 Sg2	2. Person Singular
 Sg3	3. Person Singular
+Du1	1. Person Dual
+Du2	2. Person Dual
+Du3	3. Person Dual
 Pl1	1. Person Plural
 Pl2	2. Person Plural
 Pl3	3. Person Plural
 ConNeg	Negative form of the verb
 #Person-Number
 
-IV=TV
-TV	Transitive verb
-IV	Intransitive verb
-#Transitivity
+#IV=TV
+#TV	Transitive verb
+#IV	Intransitive verb
+##Transitivity
 
 Neg	Negative verb
 #Polarity
@@ -226,21 +229,21 @@ VAbess	Verb Abessive
 Ger	Gerund
 #Infinite
 
-Qst	Question Particle
-Foc/han Focus/han Particle
-Foc/ge Focus/ge Particle
-Foc/gen Focus/gen Particle
-Foc/ges Focus/ges Particle
-Foc/gis Focus/gis Particle
-Foc/naj Focus/naj Particle
-Foc/ba Focus/ba Particle
-Foc/ban Focus/ban Particle
-Foc/be Focus/be Particle
-Foc/hal Focus/hal Particle
-Foc/han Focus/han Particle
-Foc/bat Focus/bat Particle
-Foc/son Focus/son Particle
-#Clitic
+#Qst	Question Particle
+#Foc/han Focus/han Particle
+#Foc/ge Focus/ge Particle
+#Foc/gen Focus/gen Particle
+#Foc/ges Focus/ges Particle
+#Foc/gis Focus/gis Particle
+#Foc/naj Focus/naj Particle
+#Foc/ba Focus/ba Particle
+#Foc/ban Focus/ban Particle
+#Foc/be Focus/be Particle
+#Foc/hal Focus/hal Particle
+#Foc/han Focus/han Particle
+#Foc/bat Focus/bat Particle
+#Foc/son Focus/son Particle
+##Clitic
 
 ABBR	Abbreviation
 ACR	Acronym
