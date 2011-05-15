@@ -84,6 +84,7 @@ gussa N_EVEN "ko" ;
 gädde N_EVEN "vall" ;
 gähtto N_EVEN "ht  berättelse" ;
 gäjdno N_EVEN "jn väg" ;
+gärgge N_EVEN "sten" ;
 gärggelahpa N_EVEN "stenblock (överskjutande)" ;
 gåhte N_EVEN "d  kåta" ;
 hegga N_EVEN "liv" ;
