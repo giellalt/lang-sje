@@ -20,3 +20,9 @@ LEXICON adv
 LEXICON Adverb
 bar adv "only" ;
 buoragijt adv "well" ;
+juo adv "redan" ;
+de adv "så" ;
+gu adv "när" ;
+áj adv "också" ;
+dalle adv ;
+dálle adv ;
