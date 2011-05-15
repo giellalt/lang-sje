@@ -15,6 +15,8 @@
 LEXICON Pronoun 
 
 Personal ;
+Demonstrative ;
+Relative ;
 
 ! Personal pronouns
 ! =================
@@ -59,8 +61,67 @@ LEXICON pers
 +Pron+Pers+Ess+Du:unnuon # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
 
-!LEXICON Demonstrative
-!# ;
+LEXICON Demonstrative
+dat+Pron+Det+Sg+Nom:dat # ;
+dat+Pron+Det+Sg+Nom:daht # ;
+dat+Pron+Det+Sg+Acc:dav # ;
+dat+Pron+Det+Sg+Gen:dan # ;
+dat+Pron+Det+Sg+Ill:dasa # ;
+dat+Pron+Det+Sg+Ine:danne # ;
+dat+Pron+Det+Sg+Ela:das'te # ; 
+dat+Pron+Det+Sg+Ela:daste # ; ! kanskje??
+dat+Pron+Det+Sg+Com:dajna # ;
+dat+Pron+Det+Sg+Ess:dánnien # ;
+dat+Pron+Det+Pl+Nom:dah # ;
+dat+Pron+Det+Pl+Nom:daha # ;
+dat+Pron+Det+Pl+Acc:dajt # ;
+dat+Pron+Det+Pl+Gen:daj # ;
+dat+Pron+Det+Pl+Ill:dajta # ;
+dat+Pron+Det+Pl+Ine:daj'tne # ;
+dat+Pron+Det+Pl+Ine:dajtne # ; !kanskje?
+dat+Pron+Det+Pl+Ela:daj'ste # ;
+dat+Pron+Det+Pl+Ela:dajste # ; !kanskje?
+dat+Pron+Det+Pl+Com:daj # ;
+
+
+LEXICON Relative
+gie+Pron+Det+Sg+Nom:gie # ;
+gie+Pron+Det+Sg+Acc:giev # ;
+gie+Pron+Det+Sg+Gen:gien # ;
+gie+Pron+Det+Sg+Ill:giesa # ;
+gie+Pron+Det+Sg+Ine:gien'ne # ;
+gie+Pron+Det+Sg+Ela:gies'te # ;
+gie+Pron+Det+Sg+Com:giejna # ;
+gie+Pron+Det+Sg+Ess:gien'nien # ;
+gie+Pron+Det+Pl+Nom:gieh # ;
+gie+Pron+Det+Pl+Acc:giejt # ;
+gie+Pron+Det+Pl+Gen:giej # ;
+gie+Pron+Det+Pl+Ill:giejta # ;
+gie+Pron+Det+Pl+Ine:giejtne # ;
+gie+Pron+Det+Pl+Ela:giej'ste # ;
+gie+Pron+Det+Pl+Ela:giejste # ; ! kanskje
+gie+Pron+Det+Pl+Com:giej # ;
+
+mij+Pron+Det+Sg+Nom:mij # ;
+mij+Pron+Det+Sg+Acc:mav # ;
+mij+Pron+Det+Sg+Acc:máv # ;
+mij+Pron+Det+Sg+Gen:man # ;
+mij+Pron+Det+Sg+Ill:masa # ;
+mij+Pron+Det+Sg+Ine:manne # ;
+mij+Pron+Det+Sg+Ela:mas'te # ;
+mij+Pron+Det+Sg+Com:majna # ;
+mij+Pron+Det+Sg+Ess:manien # ;
+mij+Pron+Det+Pl+Nom:mah # ;
+mij+Pron+Det+Pl+Acc:majt # ;
+mij+Pron+Det+Pl+Gen:maj # ;
+mij+Pron+Det+Pl+Ill:majta # ;
+mij+Pron+Det+Pl+Ine:majtne # ;
+mij+Pron+Det+Pl+Ine:maj'tne # ; !kanskje
+mij+Pron+Det+Pl+Ela:maj'ste # ;
+mij+Pron+Det+Pl+Ela:majste # ; ! kanskje
+mij+Pron+Det+Pl+Com:maj # ;
+
+
 
 !LEXICON Reflexive
 !# ;
