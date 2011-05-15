@@ -19,5 +19,6 @@ LEXICON Conjunction
 ja CC ;
 de CC ;
 valla CC ;
+jus CC ;
 
 

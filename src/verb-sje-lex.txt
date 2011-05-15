@@ -199,6 +199,7 @@ vessot:vess VESSOT "leva, må" ;
 !gur&#8217;rit:gur&#8217;r SLADDJIT "klättra" ; 
 !gur’rit:gur’r SLADDJIT "klättra" ; 
 !tsábmestuvvut:tsábmestuvvut  "v bli slagen" ; 
+
 adnalit:adnal NAMMADIT "greppa" ; 
 adnet:adn BÅHTET "n ha, äga (inij han hade, ägde)" ;
 balkestit:balkest NAMMADIT "kasta" ; 
@@ -273,7 +274,7 @@ låhkågåhtet:låhkågåht BÅHTET "d  börja läsa" ;
 låhkåt:låhk LÅHKÅT "g läsa" ; 
 mannat:mann VUODDJAT "n gå, fara" ;
 mujttalit:mujttal NAMMADIT "berätta" ; 
-mujttát:mujtt VADTSAT "komma ihåg" ; 
+mujttát:mujtt VADTSAAT "komma ihåg" ; 
 máhttet:máhtt BÅHTET "ht kunna" ;
 njuovvat:njuovv VUODDJAT "v flå" ;
 närridallat:närridall VUODDJAT "l  bli retad" ;
@@ -328,7 +329,7 @@ vuojdnet:vuojdn BÅHTET "jn se, titta" ;
 vuolgget:vuolgg BÅHTET "fara" ;
 vurkkit:vurkk SLADDJIT "gömma undan"  ; 
 vádtset:vádts BÅHTET "dts  gå" ;
-vádtsát:vádts VADTSAT "börja gå" ; ! contr á
+vádtsát:vádts VADTSAAT "börja gå" ; ! contr á
 vágodit:vágod NAMMADIT "förmana, varna" ; 
 válldet:válld BÅHTET "ta" ;
 vásset:váss BÅHTET "passera" ;
@@ -340,4 +341,4 @@ vädtjat:vädtj VUODDJAT "hämta" ;
 åhtsålit:åhtsål NAMMADIT "sakna" ; 
 åsestit:åsest NAMMADIT "handla" ; 
 åđđájit:åđđáj NAMMADIT "somna" ; 
-åđđát:åđđ VADTSAT "somna" ; 
+åđđát:åđđ VADTSAAT "somna" ; 

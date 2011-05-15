@@ -17,6 +17,8 @@ LEXICON Pronoun
 Personal ;
 Demonstrative ;
 Relative ;
+Reflexive ;
+
 
 ! Personal pronouns
 ! =================
@@ -123,5 +125,75 @@ mij+Pron+Det+Pl+Com:maj # ;
 
 
 
-!LEXICON Reflexive
-!# ;
+LEXICON Reflexive
+iehtja+Pron+Refl+Sg+Nom:iehtja # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
+iehtja+Pron+Refl+Sg+Gen+PxSg1:iehtjan # ;
+iehtja+Pron+Refl+Sg+Ill+PxSg1:iehtjasan # ;
+iehtja+Pron+Refl+Sg+Ine+PxSg1:ietjanan # ;
+iehtja+Pron+Refl+Sg+Ela+PxSg1:ietjastan # ;
+iehtja+Pron+Refl+Sg+Com+PxSg1:ietjajnan # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxSg2:ietjavt # ;
+iehtja+Pron+Refl+Sg+Gen+PxSg2:ietjat # ;
+iehtja+Pron+Refl+Sg+Ill+PxSg2:iehtjasat # ;
+iehtja+Pron+Refl+Sg+Ine+PxSg2:iejanat # ;
+iehtja+Pron+Refl+Sg+Ela+PxSg2:ietjastat # ;
+iehtja+Pron+Refl+Sg+Com+PxSg2:ietjajnat # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxSg3:ietjavs # ;
+iehtja+Pron+Refl+Sg+Gen+PxSg3:ietjas # ;
+iehtja+Pron+Refl+Sg+Ill+PxSg3:iehtjasis # ;
+iehtja+Pron+Refl+Sg+Ine+PxSg3:ietjanis # ;
+iehtja+Pron+Refl+Sg+Ela+PxSg3:ietjastis # ;
+iehtja+Pron+Refl+Sg+Com+PxSg3:ietjajnis # ;
+
+
+iehtja+Pron+Refl+Sg+Acc+PxDu1:iehtjamenien # ;
+iehtja+Pron+Refl+Sg+Gen+PxDu1:iehtjanen # ;
+iehtja+Pron+Refl+Sg+Ill+PxDu1:iehtjasenien # ;
+iehtja+Pron+Refl+Sg+Ine+PxDu1:ietjamenien # ;
+iehtja+Pron+Refl+Sg+Ela+PxDu1:ietjastenien # ;
+iehtja+Pron+Refl+Sg+Com+PxDu1:ietjajnenien # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxDu2:ietjavten # ;
+iehtja+Pron+Refl+Sg+Gen+PxDu2:ietjaten # ;
+iehtja+Pron+Refl+Sg+Ill+PxDu2:iehtjasetien # ;
+iehtja+Pron+Refl+Sg+Ine+PxDu2:ietjanetien # ;
+iehtja+Pron+Refl+Sg+Ela+PxDu2:ietjastetien # ;
+iehtja+Pron+Refl+Sg+Com+PxDu2:ietjajnetien # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxDu3:ietjavska # ;
+iehtja+Pron+Refl+Sg+Gen+PxDu3:ietjaska # ;
+iehtja+Pron+Refl+Sg+Ill+PxDu3:iehtjaseská # ;
+iehtja+Pron+Refl+Sg+Ine+PxDu3:ietjaneská # ;
+iehtja+Pron+Refl+Sg+Ela+PxDu3:ietjasteská # ;
+iehtja+Pron+Refl+Sg+Com+PxDu3:ietjajneská # ;
+
+
+
+
+iehtja+Pron+Refl+Sg+Acc+PxPl1:iehtjameh # ;
+iehtja+Pron+Refl+Sg+Gen+PxPl1:iehtjaneh # ;
+iehtja+Pron+Refl+Sg+Ill+PxPl1:iehtjasenieh # ;
+iehtja+Pron+Refl+Sg+Ine+PxPl1:ietjamenieh # ;
+iehtja+Pron+Refl+Sg+Ela+PxPl1:ietjastenieh # ;
+iehtja+Pron+Refl+Sg+Com+PxPl1:ietjajnenieh # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxPl2:ietjavteh # ;
+iehtja+Pron+Refl+Sg+Gen+PxPl2:ietjateh # ;
+iehtja+Pron+Refl+Sg+Ill+PxPl2:iehtjasetieh # ;
+iehtja+Pron+Refl+Sg+Ine+PxPl2:ietjanetieh # ;
+iehtja+Pron+Refl+Sg+Ela+PxPl2:ietjastetieh # ;
+iehtja+Pron+Refl+Sg+Com+PxPl2:ietjajnetieh # ;
+
+iehtja+Pron+Refl+Sg+Acc+PxPl3:ietjavseh # ;
+iehtja+Pron+Refl+Sg+Gen+PxPl3:ietjaseh # ;
+iehtja+Pron+Refl+Sg+Ill+PxPl3:iehtjasesieh # ;
+iehtja+Pron+Refl+Sg+Ine+PxPl3:ietjanesieh # ;
+iehtja+Pron+Refl+Sg+Ela+PxPl3:ietjastesieh # ;
+iehtja+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
+
+
+
