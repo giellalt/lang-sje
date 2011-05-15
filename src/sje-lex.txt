@@ -21,7 +21,9 @@
 ! Verbal MSP
 +Prs +Fut +Prt +Prf 
 +Ind +Imp +Cond +Opt
-+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Sg1 +Sg2 +Sg3 
++Du1 +Du2 +Du3
++Pl1 +Pl2 +Pl3
 +Inf
 +Pos +Neg +ConNeg
 
@@ -32,7 +34,7 @@
 +Qst
 +Prop +Ani +Mal +Fem +Sur +Plc +Org +Obj ! Semantic properties of names
 
-!+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
 %^WG    ! weak grade
 %^jDEL  ! vowel deletion in front of j
@@ -110,7 +112,24 @@ LEXICON ÅÅPPPAA
 #;
 
 LEXICON ALMATJ
-#;
++N+Sg+Nom:%^WG PX ;
++N+Sg+Acc:av PX ;
++N+Sg+Gen:a PX ;
++N+Sg+Ill:ij PX ;
++N+Sg+Ine:in PX ;
++N+Sg+Ela:ist PX ;
++N+Sg+Com:ijn PX ;
++N+Sg+Ess:in PX ;
++N+Abe:ahtá PX ;
++N+Pl+Nom:ah PX ;
++N+Pl+Acc:ijt PX ;
++N+Pl+Gen:ij PX ;
++N+Pl+Ill:ijta PX ;
++N+Pl+Ine:ijn PX ;
++N+Pl+Ela:ist PX ;
++N+Pl+Com:ij PX ;
+
+
 
 LEXICON ÅLMAAJ
 #;
@@ -119,8 +138,15 @@ LEXICON BIENA ! is of course not even...
 +N:%^WG N_EVEN_S ;
 +N:ga N_EVEN_W ; 
 
-! Verbs
 
+LEXICON PX
+# ;
+
+
+
+! ===== !
+! Verbs !
+! ===== !
 
 LEXICON SLADDJIT
 BÅHTET ;
