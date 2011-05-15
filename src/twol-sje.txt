@@ -54,8 +54,8 @@ Cx:0 <=> Vow Cx _  (Vow:+) WeG: ;
 
 "Consonant Gradation for xyy:xy" 
 Cy:0 <=> Cx _ Cy (Vow:+) WeG: ;
-     where Cx in ( j  )
-           Cy in ( d  )  
+     where Cx in ( j r l )
+           Cy in ( d b g )  
           matched ;
          
 
