@@ -17,4 +17,7 @@ LEXICON CC
 
 LEXICON Conjunction
 ja CC ;
+de CC ;
+valla CC ;
+
 

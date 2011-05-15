@@ -39,7 +39,7 @@ aahhtjie N_EVEN ;
 
 
 
-
+klåhkkár ALMATJ "klockare" ;
 árbbe N_EVEN "arv" ;
 Gálldesbuovdda N_EVEN "xxx" ;
 Vuodna N_EVEN "n Norge" ;
