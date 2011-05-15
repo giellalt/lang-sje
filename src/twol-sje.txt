@@ -70,7 +70,6 @@ Cx:0 <=> h Cx _ Cy (Vow:+) (Cns:+) WeG: ;
      where Cx in ( d t )
            Cy in ( j j )  
           matched ;
-         
 
 !"Consonant Gradation for hx:x"
 "Delete h"
@@ -84,7 +83,7 @@ Cx:Cy <=> h: _ (Vow:+) (Cns:+) WeG: ;
           matched ;
 
 "Consonant Gradation for xN:N" 
-Cx:0 <=> Vow _ Cy (Vow:+) (Cns:+) WeG: ;
+Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) WeG: ;
     where Cx in (p t k)
           Cy in (m n n)
           matched ;
