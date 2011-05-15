@@ -24,7 +24,7 @@ kistah KISTAH "rukkanen" ;
 almatj ALMATJ "ihminen" ;
 vanas:vatnas ALMATJ "vene" ;
 
-ålmaaj ÅLMAAJ ;
+ålmáj:ålpm ÅLMAAJ ;
 
 ååpppaa ÅÅPPPAA ;
 
@@ -37,8 +37,8 @@ aahhtjie N_EVEN ;
 ! Check and incorporate
 
 
-
-
+sarves ALMATJ ;
+sápme N_EVEN ;
 klåhkkár ALMATJ "klockare" ;
 árbbe N_EVEN "arv" ;
 Gálldesbuovdda N_EVEN "xxx" ;

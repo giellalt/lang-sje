@@ -13,5 +13,5 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Adjective
-#;
+stuorra A_EVEN ;
 

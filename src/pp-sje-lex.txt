@@ -17,3 +17,5 @@ LEXICON PP ! These are the indeclieable ones
 
 LEXICON Postposition
 dihte PP ;
+birra PP ;
+

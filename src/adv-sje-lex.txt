@@ -26,3 +26,8 @@ gu adv "när" ;
 áj adv "också" ;
 dalle adv ;
 dálle adv ;
+sisa adv ;
+ulgun adv ;
+nåv adv ;
+
+
