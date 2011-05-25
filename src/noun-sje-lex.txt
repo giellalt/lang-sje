@@ -48,9 +48,9 @@ biedno N_EVEN "n bön, andakt" ;
 biehkke N_EVEN "hk bit" ;
 biejvve N_EVEN "dag" ;
 bielle N_EVEN "l sida" ;
-biena:bietna BIENA "koira" ; ! patently wrong
+biena:biednag BIENA "koira" ; ! patently wrong
 buolvva  N_EVEN "lv generation" ;
-buvtsomäl’kke N_EVEN "renmjölk" ;
+buvtsomälkke N_EVEN "renmjölk" ;
 báhko N_EVEN "g ord" ;
 báktte N_EVEN "kt klippa, stenblock" ;
 bálkka N_EVEN "lk lön" ;
@@ -107,6 +107,7 @@ lánnda N_EVEN "land" ;
 lávllomvärssa N_EVEN "xxx" ;
 lånestiejje N_EVEN "frälsare" ;
 muorra N_EVEN "träd" ;
+mälkke N_EVEN "mjölk" ;
 mánna N_EVEN "barn" ;
 mánno N_EVEN "måne" ;
 mánnábálle N_EVEN "l  barndom" ;

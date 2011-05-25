@@ -67,11 +67,11 @@ Particle ;
 ! Inflection !
 ! ========== !
 
-!juollkie+N+Abe	     morf =======> upper
+!juollkie+N+Abe             morf =======> upper
 !juollkie^WG>htahk   trans
-!				     
+!                                     
 !juollkie^WG>Abehtahk   mphon
-!juol0kie00htahk	 trans ======> lower
+!juol0kie00htahk         trans ======> lower
 
 ! Noun 
 ! ===============
@@ -155,10 +155,30 @@ LEXICON ÅLMAAJ
 +N+Pl+Com:áj PX ;
 
 
-LEXICON BIENA ! is of course not even...
-+N:%^WG N_EVEN_S ;
-+N:ga N_EVEN_W ; 
+LEXICON BIENA
++N:%^WG BIENASHORT ;
++N: BIENALONG ;
 
+LEXICON BIENALONG
++N+Sg+Acc:av PX ;
++N+Sg+Gen:a PX ;
++N+Sg+Ill:aj PX ;
++N+Sg+Ine:an PX ;
++N+Sg+Ela:ast PX ;
++N+Sg+Com:ajn PX ;
++N+Abe:ahtahk PX ;
++N+Pl+Nom:ah PX ;
++N+Pl+Acc:ajt PX ;
++N+Pl+Gen:aj PX ;
++N+Pl+Ill:ajta PX ;
++N+Pl+Ine:ajn PX ;
++N+Pl+Ela:ast PX ;
++N+Pl+Com:aj PX ;
+
+
+LEXICON BIENASHORT
++Sg+Nom: PX ;
++Ess:%>n PX ;
 
 LEXICON PX
 # ;
@@ -339,5 +359,4 @@ LEXICON V_ODD_IND_PRT
 LEXICON K
 # ;
 ! +Qst:go # ; ! Dummy clitic only!
-
 
