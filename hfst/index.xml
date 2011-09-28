@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
-    <locale>sms</locale>
-    <title>Skolt Sami (Divvun)</title>
+    <locale>sje</locale>
+    <title>Pite Sami (Divvun)</title>
     <description>
-        Koltansaamen demo-oikaisuluku, joka perustuu HFST-tekniikaan ja
+        Pite saamen demo-oikaisuluku, joka perustuu HFST-tekniikaan ja
         Divvun kielimalleihin.
     </description>
     <version vcsrev="@PACKAGE_REVISION@">20110901</version>
@@ -14,7 +14,7 @@
         website="http://www.divvun.no/"/>
   </info>
   <acceptor type="general" id="acceptor.default.hfst">
-    <title>Skolt Sámi lexicon</title>
+    <title>Pite Sámi lexicon</title>
     <description>
         Sanasto description goes here.
     </description>
