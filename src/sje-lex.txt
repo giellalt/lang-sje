@@ -208,7 +208,39 @@ LEXICON SLADDJIT
 BÅHTET ;
 
 LEXICON ÅRROT
-BÅHTET ;
++V:     ÅRROT_S ;
++V:%^WG ÅRROT_W ;
+
+LEXICON ÅRROT_S
++Inf:%>ot # ; 
++GerII:%>omin # ;
++PrfPrc:%>om # ;
+
++Ind+Prs+Sg3:%>u #;
++Ind+Prs+Du1:%>un #;
++Ind+Prs+Du3:%>uba #;
++Ind+Prs+Pl1:%>op #;
++Ind+Prs+Pl3: #;
++Ind+Prt+Sg1:%>v #;
++Ind+Prt+Sg2:%>h #;
++Ind+Prt+Pl3:%>n #; 
+
+LEXICON ÅRROT_W
++GerI:%>udin # ; 
++VAdv:u # ;
++Sup:%>utjit # ;
++Vabe:%>uhk # ;
+
++Ind+Prs+Sg1:%>av #;
++Ind+Prs+Sg2:%>ah #;
++Ind+Prs+Du2:%>iepehtien #;
++Ind+Prt+Sg3:%>ij #;
++Ind+Prt+Du1:%>ijmen #;
++Ind+Prt+Du2:%>ijten #;
++Ind+Prt+Du3:%>ijkah #;
++Ind+Prt+Du3:%>ijkan #;
++Ind+Prt+Pl1:%>ijmeh #;
++Ind+Prt+Pl2:%>ijteh #;
 
 LEXICON VESSOT
 BÅHTET ;
