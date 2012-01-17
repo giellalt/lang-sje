@@ -13,9 +13,9 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON PP ! These are the indeclieable ones 
-+Po: #;
++Po: # ;
 
 LEXICON Postposition
-dihte PP ;
+dihta PP ;
 birra PP ;
 
