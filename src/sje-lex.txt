@@ -268,7 +268,43 @@ VUODDJAT_W ;
 
 
 LEXICON LÅHKÅT
-BÅHTET ;
++V:     LÅHKÅT_S ;
++V:%^WG LÅHKÅT_W ;
+
+LEXICON LÅHKÅT_S
++Inf:%>åt # ; 
++GerII:%>åmin # ; ! ???
++PrfPrc:%>åm # ;
+
++Ind+Prs+Sg3:%>a #;
++Ind+Prs+Sg3:%>á #;
++Ind+Prs+Du1:%>in #;
++Ind+Prs+Du3:%>iepan #;
++Ind+Prs+Du3:%>iepah #;
++Ind+Prs+Pl1:%>iep #;
++Ind+Prs+Pl2:%>iepihtit #;
++Ind+Prs+Pl3:%>ih #;
++Ind+Prt+Sg1:%>iv #;
++Ind+Prt+Sg2:%>ih #;
++Ind+Prt+Pl3:%>in #; 
+
+LEXICON LÅHKÅT_W
++GerI:%>ietin # ; 
++VAdv:ie # ;
++Sup:%>átjit # ;
++Vabe:%>iehk # ;
+
++Ind+Prs+Sg1:%>av #;
++Ind+Prs+Sg2:%>ah #;
++Ind+Prs+Du2:%>iepehtien #;
++Ind+Prt+Sg3:%>ij #;
++Ind+Prt+Du1:%>ijmen #;
++Ind+Prt+Du2:%>ijten #;
++Ind+Prt+Du3:%>ijkah #;
++Ind+Prt+Du3:%>ijkan #;
++Ind+Prt+Pl1:%>ijmeh #;
++Ind+Prt+Pl2:%>ijteh #;
+
 
 LEXICON BÅHTET
 +V:     BÅHTET_S ;
