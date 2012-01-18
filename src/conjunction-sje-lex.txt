@@ -20,5 +20,6 @@ ja CC ;
 de CC ;
 valla CC ;
 jus CC ;
+jala CC ;
 
 
