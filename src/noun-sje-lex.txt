@@ -26,7 +26,7 @@ vanas:vatnas ALMATJ "vene" ;
 
 ålmáj:ålpm ÅLMAAJ ;
 
-ååpppaa ÅÅPPPAA ;
+åbbá ÅÅPPPAA ;
 
 !aahhtjie ÅÅPPPAA ;
 aahhtjie N_EVEN ;
