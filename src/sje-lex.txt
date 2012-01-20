@@ -94,7 +94,8 @@ LEXICON N_EVEN_W
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>st K ;
-+Abe:%>htahk K ; ! Normally
++Abe:%>htahk K ; ! Lehtiranta
++Abe:%>dak K ; ! Norm
 +Abe:%>htaka K ; ! Informants S and Bj 
 +Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>h  K ;
@@ -278,15 +279,15 @@ LEXICON LÅHKÅT_S
 
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Sg3:%>á #;
-+Ind+Prs+Du1:%>in #;
-+Ind+Prs+Du3:%>iepan #;
-+Ind+Prs+Du3:%>iepah #;
-+Ind+Prs+Pl1:%>iep #;
-+Ind+Prs+Pl2:%>iepihtit #;
-+Ind+Prs+Pl3:%>ih #;
-+Ind+Prt+Sg1:%>iv #;
-+Ind+Prt+Sg2:%>ih #;
-+Ind+Prt+Pl3:%>in #; 
++Ind+Prs+Du1:%>ån #;
++Ind+Prs+Du3:%>åpan #;
++Ind+Prs+Du3:%>åpah #;
++Ind+Prs+Pl1:%>åp #;
++Ind+Prs+Pl2:%>åpihtit #;
++Ind+Prs+Pl3:%>åh #;
++Ind+Prt+Sg1:%>åv #;
++Ind+Prt+Sg2:%>åh #;
++Ind+Prt+Pl3:%>ån #; 
 
 LEXICON LÅHKÅT_W
 +GerI:%>ietin # ; 
