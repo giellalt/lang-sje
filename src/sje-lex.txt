@@ -118,16 +118,8 @@ LEXICON ÅÅPPPAA
 +N: ÅBBÁCASE ;
 
 LEXICON ÅBBÁCASE
-               ÅBBÀCASE_S ;
-:%^WG          ÅBBÁCASE_W ;
-:%^jDEL%>j     ÅBBACASE_J ;
-+Sg+Ill:%^MONB4Jj K ;
-
-LEXICON ÅBBÀCASE_S
 +Sg+Nom:    K ;
 +Ess:%>n K ;
-
-LEXICON ÅBBÁCASE_W
 +Sg+Gen:%>0  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
@@ -137,17 +129,16 @@ LEXICON ÅBBÁCASE_W
 +Abe:%>htaka K ; ! Informants S and Bj 
 +Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>0  K ;
-
-LEXICON ÅBBACASE_J
-+Sg+Com:n   K ;
-+Sg+Com:na  K ; !variant
-+Pl+Gen:    K ;
-+Pl+Acc:t   K ;
-+Pl+Ine:n   K ;
-+Pl+Ela:st  K ;
-+Pl+Ill:ta  K ; !Lehtiranta
-+Pl+Ill:da  K ; !norm
-+Pl+Com:    K ;
++Sg+Ill:%^MONB4Jj K ;
++Sg+Com:jn   K ;
++Sg+Com:jna  K ; !variant
++Pl+Gen:j    K ;
++Pl+Acc:jt   K ;
++Pl+Ine:jn   K ;
++Pl+Ela:jst  K ;
++Pl+Ill:jta  K ; !Lehtiranta
++Pl+Ill:jda  K ; !norm
++Pl+Com:j    K ;
 
 
 LEXICON ALMATJ
