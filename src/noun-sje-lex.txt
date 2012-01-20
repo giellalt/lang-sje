@@ -36,7 +36,7 @@ aahhtjie N_EVEN ;
 ! Added for Bodø.
 ! Check and incorporate
 
-
+álddo N_EVEN ;
 sarves ALMATJ ;
 sápme N_EVEN ;
 klåhkkár ALMATJ "klockare" ;
