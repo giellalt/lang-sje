@@ -53,7 +53,7 @@ Cx:0 <=> Vow h Cx _ ( j ) (Vow:+) (Cns:+) WeG: ;
 Cx:0 <=> Vow Cx _  (Vow:+) (Cns:+) WeG: ;
      where Cx in ( p t k m n s r f v j ) ;
 
-"Consonant Gradation for xyy:xy, eventually, for xxy:xy !!!" 
+"Consonant Gradation for xyy:xy, eventually, for xxy:xy" 
 Cy:0 <=> Cx _ Cy (Vow:+) (Cns:+) WeG: ;
  where Cx in ( b b b b b b b d d d f f f g g g j j j j j j j j j k k l l l l l l l l l l l m m m m n n n p p r r r r r r r r r r s s s s s t t t t d g k l r s ŋ ŋ ŋ )
        Cy in ( d j l m n r t j k n d n t d l ŋ b d g k l r s t v s t j b d f g j k p s t v b g p s d j t s t b d f g j k p s t v j k n p t j k m s v v v v v v g k n )  
