@@ -41,6 +41,9 @@
 %^jDEL  ! vowel deletion in front of j
 %^MONB4J ! ie to aa (before j), uo to u before j
 
++Use/Sub ! Not part of standard
++Use/NG  ! Part of standard, but not generated
+
 ! Key lexicon
 
 LEXICON Root
@@ -130,15 +133,15 @@ LEXICON ÅBBÁCASE
 +Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>0  K ;
 +Sg+Ill:%^MONB4Jj K ;
-+Sg+Com:jn   K ;
-+Sg+Com:jna  K ; !variant
-+Pl+Gen:j    K ;
-+Pl+Acc:jt   K ;
-+Pl+Ine:jn   K ;
-+Pl+Ela:jst  K ;
-+Pl+Ill:jta  K ; !Lehtiranta
-+Pl+Ill:jda  K ; !norm
-+Pl+Com:j    K ;
++Sg+Com:%>jn   K ;
++Sg+Com:%>jna  K ; !variant
++Pl+Gen:%>j    K ;
++Pl+Acc:%>jt   K ;
++Pl+Ine:%>jn   K ;
++Pl+Ela:%>jst  K ;
++Pl+Ill:%>jta  K ; !Lehtiranta
++Pl+Ill:%>jda  K ; !norm
++Pl+Com:%>j    K ;
 
 
 LEXICON ALMATJ
@@ -239,17 +242,19 @@ LEXICON ÅRROT
 
 LEXICON ÅRROT_S
 +Inf:%>ot # ; 
-+GerII:%>omin # ;
-+PrfPrc:%>om # ;
++GerII:%>umin # ;
++PrfPrc:%>um # ;
 
 +Ind+Prs+Sg3:%>u #;
 +Ind+Prs+Du1:%>un #;
-+Ind+Prs+Du3:%>uba #;
++Ind+Prs+Du2:%>obehtin #;
++Ind+Prs+Du3:%>oba #;
 +Ind+Prs+Pl1:%>op #;
-+Ind+Prs+Pl3: #;
-+Ind+Prt+Sg1:%>v #;
-+Ind+Prt+Sg2:%>h #;
-+Ind+Prt+Pl3:%>n #; 
++Ind+Prs+Pl2:%>obihtit #;
++Ind+Prs+Pl3:%>u #;
++Ind+Prt+Sg1:%>uv #;
++Ind+Prt+Sg2:%>u #;
++Ind+Prt+Pl3:%>un #; 
 
 LEXICON ÅRROT_W
 +GerI:%>udin # ; 
@@ -257,40 +262,32 @@ LEXICON ÅRROT_W
 +Sup:%>utjit # ;
 +Vabe:%>uhk # ;
 
-+Ind+Prs+Sg1:%>av #;
-+Ind+Prs+Sg2:%>ah #;
-+Ind+Prs+Du2:%>iepehtien #;
-+Ind+Prt+Sg3:%>ij #;
-+Ind+Prt+Du1:%>ijmen #;
-+Ind+Prt+Du2:%>ijten #;
-+Ind+Prt+Du3:%>ijkah #;
-+Ind+Prt+Du3:%>ijkan #;
-+Ind+Prt+Pl1:%>ijmeh #;
-+Ind+Prt+Pl2:%>ijteh #;
++Ind+Prs+Sg1:%>ov #;
++Ind+Prs+Sg2:%>o #;
++Ind+Prt+Sg3:%>oj #;
++Ind+Prt+Du1:%>ojmen #;
++Ind+Prt+Du2:%>ojden #;
++Ind+Prt+Du3:%>ojga #;
++Ind+Prt+Du3:%>ojgan #;
++Ind+Prt+Pl1:%>ojme #;
++Ind+Prt+Pl2:%>ojde #;
 
 LEXICON VESSOT
-BÅHTET ;
+ÅRROT ;
 
-LEXICON VUODDJAT
-+V+Inf:%>at # ; 
-+V:     VUODDJAT_S ;
-+V:%^WG VUODDJAT_W ;
-
-LEXICON REKKNUT
-BÅHTET ;
-
-LEXICON BRUVKKUT
-BÅHTET ;
+LEXICON BALLAT
++V:     BALLAT_S ;
++V:%^WG BALLAT_W ;
 
 LEXICON VADTSAAT
 +V:     VADTSAAT_S ;
 +V:%^WG VADTSAAT_W ;
 
 LEXICON VADTSAAT_S
-VUODDJAT_S ;
+BALLAT_S ;
 
 LEXICON VADTSAAT_W
-VUODDJAT_W ;
+BALLAT_W ;
 
 
 LEXICON LÅHKÅT
@@ -304,15 +301,15 @@ LEXICON LÅHKÅT_S
 
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Sg3:%>á #;
-+Ind+Prs+Du1:%>ån #;
-+Ind+Prs+Du3:%>åpan #;
-+Ind+Prs+Du3:%>åpah #;
++Ind+Prs+Du1:%>in #;
++Ind+Prs+Du2:%>åbehtin #;
++Ind+Prs+Du3:%>åba #;
 +Ind+Prs+Pl1:%>åp #;
-+Ind+Prs+Pl2:%>åpihtit #;
-+Ind+Prs+Pl3:%>åh #;
-+Ind+Prt+Sg1:%>åv #;
-+Ind+Prt+Sg2:%>åh #;
-+Ind+Prt+Pl3:%>ån #; 
++Ind+Prs+Pl2:%>åbihtit #;
++Ind+Prs+Pl3:%>i #;
++Ind+Prt+Sg1:%>iv #;
++Ind+Prt+Sg2:%>i #;
++Ind+Prt+Pl3:%>in #; 
 
 LEXICON LÅHKÅT_W
 +GerI:%>ietin # ; 
@@ -320,16 +317,14 @@ LEXICON LÅHKÅT_W
 +Sup:%>átjit # ;
 +Vabe:%>iehk # ;
 
-+Ind+Prs+Sg1:%>av #;
-+Ind+Prs+Sg2:%>ah #;
-+Ind+Prs+Du2:%>iepehtien #;
-+Ind+Prt+Sg3:%>ij #;
-+Ind+Prt+Du1:%>ijmen #;
-+Ind+Prt+Du2:%>ijten #;
-+Ind+Prt+Du3:%>ijkah #;
-+Ind+Prt+Du3:%>ijkan #;
-+Ind+Prt+Pl1:%>ijmeh #;
-+Ind+Prt+Pl2:%>ijteh #;
++Ind+Prs+Sg1:%>åv #;
++Ind+Prs+Sg2:%>å #;
++Ind+Prt+Sg3:%>åj #;
++Ind+Prt+Du1:%>åjmen #;
++Ind+Prt+Du2:%>åjden #;
++Ind+Prt+Du3:%>åjga #;
++Ind+Prt+Pl1:%>åjme #;
++Ind+Prt+Pl2:%>åjde #;
 
 
 LEXICON BÅHTET
@@ -339,20 +334,19 @@ LEXICON BÅHTET
 
 LEXICON BÅHTET_S
 +Inf:%>et # ; 
-+Inf:%>iet # ;  ! JL
 +GerII:%>iemin # ;
 +PrfPrc:%>ám # ;
 
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Sg3:%>á #;
 +Ind+Prs+Du1:%>in #;
-+Ind+Prs+Du3:%>iepan #;
-+Ind+Prs+Du3:%>iepah #;
-+Ind+Prs+Pl1:%>iep #;
-+Ind+Prs+Pl2:%>iepihtit #;
-+Ind+Prs+Pl3:%>ih #;
++Ind+Prs+Du2:%>ebehtin #;
++Ind+Prs+Du3:%>eba #;
++Ind+Prs+Pl1:%>ep #;
++Ind+Prs+Pl2:%>ebihtit #;
++Ind+Prs+Pl3:%>i #;
 +Ind+Prt+Sg1:%>iv #;
-+Ind+Prt+Sg2:%>ih #;
++Ind+Prt+Sg2:%>i #;
 +Ind+Prt+Pl3:%>in #; 
 
 LEXICON BÅHTET_W
@@ -361,20 +355,42 @@ LEXICON BÅHTET_W
 +Sup:%>átjit # ;
 +Vabe:%>iehk # ;
 
-+Ind+Prs+Sg1:%>av #;
-+Ind+Prs+Sg2:%>ah #;
-+Ind+Prs+Du2:%>iepehtien #;
++Ind+Prs+Sg1:%>áv #;
++Ind+Prs+Sg2:%>á #;
 +Ind+Prt+Sg3:%>ij #;
 +Ind+Prt+Du1:%>ijmen #;
-+Ind+Prt+Du2:%>ijten #;
-+Ind+Prt+Du3:%>ijkah #;
-+Ind+Prt+Du3:%>ijkan #;
-+Ind+Prt+Pl1:%>ijmeh #;
-+Ind+Prt+Pl2:%>ijteh #;
++Ind+Prt+Du2:%>ijden #;
++Ind+Prt+Du3:%>ijga #;
++Ind+Prt+Pl1:%>ijme #;
++Ind+Prt+Pl2:%>ijde #;
 
 
+LEXICON KONTR
++V+Inf:%>t # ; 
++V+PrfPrc:%>m #;
 
-LEXICON VUODDJAT_S
++V+Ind+Prs+Sg1:%>v #;
++V+Ind+Prs+Sg2: #;
++V+Ind+Prs+Sg3: #;
++V+Ind+Prs+Du1:%>jin #;
++V+Ind+Prs+Du2:%>behten #;
++V+Ind+Prs+Du3:%>ba #;
++V+Ind+Prs+Pl1:%>p #;
++V+Ind+Prs+Pl2:%>bihtit #;
++V+Ind+Prs+Pl3:%>ji #;
+
++V+Ind+Prt+Sg1:%>jiv #;
++V+Ind+Prt+Sg2:%>ji #;
++V+Ind+Prt+Sg3:%>ji #;
++V+Ind+Prt+Du1:%>jmen #;
++V+Ind+Prt+Du2:%>jden #;
++V+Ind+Prt+Du3:%>jga #;
++V+Ind+Prt+Pl1:%>jma #;
++V+Ind+Prt+Pl2:%>jda #;
++V+Ind+Prt+Pl3:%>jin #;
+
+
+LEXICON BALLAT_S
 +Inf:%>at # ; 
 +GerII:%>amin # ;
 +PrfPrc:%>am # ;
@@ -390,7 +406,7 @@ LEXICON VUODDJAT_S
 +Ind+Prt+Sg2:%>ih #;
 +Ind+Prt+Pl3:%>in #; 
 
-LEXICON VUODDJAT_W
+LEXICON BALLAT_W
 +GerI:%>atin # ; 
 +VAdv:%>a # ;
 +Sup:%>atjit # ;
