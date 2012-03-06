@@ -44,6 +44,12 @@
 +Use/Sub ! Not part of standard
 +Use/NG  ! Part of standard, but not generated
 
+
+d2 t2 j2 h2 g2 ! Variable consonants, undergo Auslautherdung
+               ! NB! This is the opposite of the sme pattern
+
+
+
 ! Key lexicon
 
 LEXICON Root
@@ -101,7 +107,7 @@ LEXICON N_EVEN_W
 +Abe:%>dak K ; ! Norm
 +Abe:%>htaka K ; ! Informants S and Bj 
 +Abe:%>htak K ; ! Informants S and Bj 
-+Pl+Nom:%>h  K ;
++Pl+Nom:%>0  K ;
 
 LEXICON N_EVEN_J
 +Sg+Com:n   K ;
@@ -154,10 +160,10 @@ LEXICON ALMATJ
 +N+Sg+Com:ijn PX ;
 +N+Sg+Ess:in PX ;
 +N+Abe:ahtá PX ;
-+N+Pl+Nom:ah PX ;
++N+Pl+Nom:a PX ;
 +N+Pl+Acc:ijt PX ;
 +N+Pl+Gen:ij PX ;
-+N+Pl+Ill:ijta PX ;
++N+Pl+Ill:ijda PX ;
 +N+Pl+Ine:ijn PX ;
 +N+Pl+Ela:ist PX ;
 +N+Pl+Com:ij PX ;
@@ -196,10 +202,10 @@ LEXICON BIENALONG
 +N+Sg+Ela:ast PX ;
 +N+Sg+Com:ajn PX ;
 +N+Abe:ahtahk PX ;
-+N+Pl+Nom:ah PX ;
++N+Pl+Nom:a PX ;
 +N+Pl+Acc:ajt PX ;
 +N+Pl+Gen:aj PX ;
-+N+Pl+Ill:ajta PX ;
++N+Pl+Ill:adta PX ;
 +N+Pl+Ine:ajn PX ;
 +N+Pl+Ela:ast PX ;
 +N+Pl+Com:aj PX ;
@@ -356,7 +362,9 @@ LEXICON BÅHTET_W
 +Vabe:%>iehk # ;
 
 +Ind+Prs+Sg1:%>áv #;
++Ind+Prs+Sg1:%>av #;
 +Ind+Prs+Sg2:%>á #;
++Ind+Prs+Sg2:%>a #;
 +Ind+Prt+Sg3:%>ij #;
 +Ind+Prt+Du1:%>ijmen #;
 +Ind+Prt+Du2:%>ijden #;
@@ -381,12 +389,12 @@ LEXICON KONTR
 
 +V+Ind+Prt+Sg1:%>jiv #;
 +V+Ind+Prt+Sg2:%>ji #;
-+V+Ind+Prt+Sg3:%>ji #;
++V+Ind+Prt+Sg3:%>j #;
 +V+Ind+Prt+Du1:%>jmen #;
 +V+Ind+Prt+Du2:%>jden #;
 +V+Ind+Prt+Du3:%>jga #;
-+V+Ind+Prt+Pl1:%>jma #;
-+V+Ind+Prt+Pl2:%>jda #;
++V+Ind+Prt+Pl1:%>jme #;
++V+Ind+Prt+Pl2:%>jde #;
 +V+Ind+Prt+Pl3:%>jin #;
 
 
@@ -396,32 +404,30 @@ LEXICON BALLAT_S
 +PrfPrc:%>am # ;
 +Ind+Prs+Sg3:%>á #;
 +Ind+Prs+Du1:%>in #;
-+Ind+Prs+Du2:%>apehtien #;
-+Ind+Prs+Du3:%>apan #;
-+Ind+Prs+Du3:%>apah #;
++Ind+Prs+Du2:%>abehtin #;
++Ind+Prs+Du3:%>aba #;
 +Ind+Prs+Pl1:%>ap #;
-+Ind+Prs+Pl2:%>apihtit #;
-+Ind+Prs+Pl3:%>ih #;
++Ind+Prs+Pl2:%>abihtit #;
++Ind+Prs+Pl3:%>i #;
 +Ind+Prt+Sg1:%>iv #;
-+Ind+Prt+Sg2:%>ih #;
++Ind+Prt+Sg2:%>i #;
 +Ind+Prt+Pl3:%>in #; 
 
 LEXICON BALLAT_W
-+GerI:%>atin # ; 
++GerI:%>adin # ; 
 +VAdv:%>a # ;
-+Sup:%>atjit # ;
 +Sup:%>atjit # ;
 +Vabe:%>ahk # ;
 
+    
 +Ind+Prs+Sg1:%>av #;
-+Ind+Prs+Sg2:%>ah #;
++Ind+Prs+Sg2:%>a #;
 +Ind+Prt+Sg3:%>aj #;
 +Ind+Prt+Du1:%>ajmen #;
-+Ind+Prt+Du2:%>ajten #;
-+Ind+Prt+Du3:%>ajkah #;
-+Ind+Prt+Du3:%>ajkan #;
-+Ind+Prt+Pl1:%>ajmeh #;
-+Ind+Prt+Pl2:%>ajteh #;
++Ind+Prt+Du2:%>ajden #;
++Ind+Prt+Du3:%>ajga #;
++Ind+Prt+Pl1:%>ajme #;
++Ind+Prt+Pl2:%>ajde #;
 
 
 
@@ -433,26 +439,26 @@ LEXICON NAMMADIT
 
 LEXICON V_ODD_IND_PRS
 +Sg1:%>av # ; 
-+Sg2:%>ah # ; 
-+Sg3: # ; 
++Sg2:%>a # ; 
++Sg3: # ; !oregelbunden
 +Sg3:%>a # ; 
 +Du1:%>in # ; 
-+Du2:%>iehpien # ; 
-+Du3:%>iehpaa # ; 
++Du2:%>ihpen # ; 
++Du3:%>ebá # ; 
 +Pl1:%>ip # ; 
 +Pl2:%>ihpit # ; 
-+Pl3:%>ih # ; 
++Pl3:%>i # ; 
 
 LEXICON V_ODD_IND_PRT
 +Sg1:%>iv # ; 
-+Sg2:%>ih # ; 
++Sg2:%>i # ; 
 +Sg3:%>ij # ; 
-+Du1:%>ijmien # ; 
-+Du2:%>iejtien # ; 
-+Du3:%>iejkaa # ; 
-+Pl1:%>iejmieh # ; 
-+Pl2:%>iejtieh # ; 
-+Pl3:%>im # ; 
++Du1:%>ijmen # ; 
++Du2:%>ijden # ; 
++Du3:%>ijga # ; 
++Pl1:%>ijme # ; 
++Pl2:%>ijde # ; 
++Pl3:%>in # ; 
  
  
 
