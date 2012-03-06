@@ -24,6 +24,7 @@ Alphabet
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß 
+  d2:d t2:t j2:j h2:h g2:g
   %>:0
   
   %^WG:0 %^jDEL:0 %^MONB4J:0 
@@ -123,3 +124,15 @@ o:0 <=> u _ %^MONB4J:0 ;
 
 !€ riejjtuo%^MONB4Jj
 !€ ruejjtu00j
+
+"Auslautherdung"
+Cx:Cy <=> _ .#. ;
+    where Cx in ( d2 h2 g2 )
+          Cy in ( t  j  k  )
+          matched ;
+
+"Word Final Consonant Cluster Simplification"
+t2:0 <=> s _ .#. ;
+
+"Fricative Auslautherdung"
+s:t <=> _ j2: .#. ;
