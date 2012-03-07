@@ -21,14 +21,13 @@ vuorrpie N_EVEN "onni, arpa" ;
 
 kistah KISTAH "rukkanen" ;
 
-almatj ALMATJ "ihminen" ;
-vanas:vatnas ALMATJ "vene" ;
+almatj N_ODD "ihminen" ;
+vanas:vatnas N_ODD "vene" ;
 
 ålmáj:ålpm ÅLMAAJ ;
 
 åbbá ÅÅPPPAA ;
 
-!aahhtjie ÅÅPPPAA ;
 aahhtjie N_EVEN ;
 
 
@@ -36,11 +35,11 @@ aahhtjie N_EVEN ;
 ! Added for Bodø.
 ! Check and incorporate
 
-álddo N_EVEN ;
-sarves ALMATJ ;
-sápme N_EVEN ;
-klåhkkár ALMATJ "klockare" ;
-árbbe N_EVEN "arv" ;
+álldo N_EVEN ;
+sarves N_CONTR_C ;
+sábme N_EVEN ;
+klåhkkár N_ODD "klockare" ;
+árrbe N_EVEN "arv" ;
 Gálldesbuovdda N_EVEN "xxx" ;
 Vuodna N_EVEN "n Norge" ;
 albme N_EVEN "lm himmel" ;
@@ -65,6 +64,7 @@ didnadiejje N_EVEN "de som ropar/skriker" ;
 dáffo N_EVEN "trakt (dán dáfon här i trakten)" ;
 dálvve N_EVEN "vinter" ;
 dåbbmobäjvve N_EVEN "domedagen" ;
+dållå N_EVEN "eld" ;
 fikssa N_EVEN "ladugård" ;
 fálldo N_EVEN "renko" ;
 gajtsamäl’kke N_EVEN "getmjölk" ;
@@ -84,21 +84,22 @@ gussa N_EVEN "ko" ;
 gädde N_EVEN "vall" ;
 gähtto N_EVEN "ht  berättelse" ;
 gäjdno N_EVEN "jn väg" ;
-gärgge N_EVEN "sten" ;
-gärggelahpa N_EVEN "stenblock (överskjutande)" ;
+gärrge N_EVEN "sten" ;
+gärrgelahpa N_EVEN "stenblock (överskjutande)" ;
 gåhte N_EVEN "d  kåta" ;
 hegga N_EVEN "liv" ;
 hägga N_EVEN "liv" ;
 hälbme N_EVEN "kjol" ;
-härgge N_EVEN "härk, renoxe" ;
+härrge N_EVEN "härk, renoxe" ;
 iello N_EVEN "l renhjord" ;
 jahke N_EVEN "g år" ;
 juojgga N_EVEN "jojka" ;
 juovva N_EVEN "stor sten" ;
 jávrre N_EVEN "sjö" ;
 jávrrelådde N_EVEN "sjöfågel" ;
+jåhkå N_EVEN "älv" ;
 jåhkågádde N_EVEN "strand" ;
-jårbbodahka N_EVEN "rundhet" ;
+jårrbodahka N_EVEN "rundhet" ;
 kujdna N_EVEN "jn  kvinna" ;
 káffa N_EVEN "kahvi" ;
 liddja N_EVEN "lie" ;
