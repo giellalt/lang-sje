@@ -92,7 +92,7 @@ LEXICON EVENCASE
                N_EVEN_S ;
 :%^WG          N_EVEN_W ;
 :%^jDEL%>j     N_EVEN_J ;
-+Sg+Ill:%^MONB4Jj K ;
++Sg+Ill:%>%^MONB4Jj K ;
 
 LEXICON N_EVEN_S
 +Sg+Nom:    K ;
@@ -110,8 +110,8 @@ LEXICON N_EVEN_W
 +Pl+Nom:%>0  K ;
 
 LEXICON N_EVEN_J
-+Sg+Com:n   K ;
-+Sg+Com:na  K ; !variant
++Sg+Com:%^MONB4Jn   K ;
++Sg+Com:%^MONB4Jna  K ; !variant
 +Pl+Gen:    K ;
 +Pl+Acc:t   K ;
 +Pl+Ine:n   K ;
@@ -150,7 +150,7 @@ LEXICON ÅBBÁCASE
 +Pl+Com:%>j    K ;
 
 
-LEXICON ALMATJ
+LEXICON N_ODD
 +N+Sg+Nom:%^WG PX ;
 +N+Sg+Acc:av PX ;
 +N+Sg+Gen:a PX ;
@@ -168,7 +168,8 @@ LEXICON ALMATJ
 +N+Pl+Ela:ist PX ;
 +N+Pl+Com:ij PX ;
 
-
+LEXICON N_CONTR_C
+ÅLMAAJ ; ! skall ordnas till
 
 LEXICON ÅLMAAJ
 +N+Sg+Nom:%^WGáj PX ;
@@ -373,7 +374,7 @@ LEXICON BÅHTET_W
 +Ind+Prt+Pl2:%>ijde #;
 
 
-LEXICON KONTR
+LEXICON V_CONTR
 +V+Inf:%>t # ; 
 +V+PrfPrc:%>m #;
 
