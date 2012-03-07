@@ -24,7 +24,7 @@ kistah KISTAH "rukkanen" ;
 almatj N_ODD "ihminen" ;
 vanas:vatnas N_ODD "vene" ;
 
-ålmáj:ålpm ÅLMAAJ ;
+ålmáj:ålbm ÅLMAAJ ;
 
 åbbá ÅÅPPPAA ;
 
