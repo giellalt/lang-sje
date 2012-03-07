@@ -23,17 +23,26 @@ Alphabet
   á é í 
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
-  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß 
+  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
   d2:d t2:t j2:j h2:h g2:g
-  %>:0
   
   %^WG:0 %^jDEL:0 %^MONB4J:0 
+
+! Morpheme boundaries:
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+ %< ! Inflectional prefx
+ %> ! Inflectional suffix
+ #  ! Word boundary for both lexicalised and dynamic compounds
+ %^ ! (exceptional) soft hyphenation point
+
+! End of alphabet definitions
 ;
 
 Sets
   Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å á é í ó ú ;
-  Cns    =     b c d   f g h     j k l m n   p q r s t   v w x   z           ;
-  Vow    = a      e       i ï           o           u       y   æ ä ø ö å  á é í ó ú ;
+  Cns    =   b c d   f g h     j k l m n   p q r s t   v w x   z                     ;
+  Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú ;
   WeG    =  %^WG %^jDEL ;
   Dummy  =  %^WG %^jDEL ;
   
