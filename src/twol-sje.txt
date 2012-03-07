@@ -61,7 +61,7 @@ Cx:0 <=> Vow h Cx _ ( j ) (Vow:+) (Cns:+) WeG: ;
 
 "Consonant Gradation for xx:x" 
 Cx:0 <=> Vow Cx _  (Vow:+) (Cns:+) WeG: ;
-     where Cx in ( p t k m n s r f v j ) ;
+     where Cx in ( p t k m n s r f v ) ; ! OBS fjerna j pga av ijja
 
 "Consonant Gradation for xyy:xy, eventually, for xxy:xy" 
 Cx:0 <=> Cx _ Cy (Vow:+) (Cns:+) WeG: ;
