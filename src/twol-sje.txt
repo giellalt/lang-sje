@@ -86,7 +86,7 @@ Cx:Cy <=> h: _ (Vow:+) (Cns:+) WeG: ;
 
 "Consonant Gradation for xN:N" 
 Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) WeG: ;
-    where Cx in (p t k)
+    where Cx in (b t k)
           Cy in (m n n)
           matched ;
          
