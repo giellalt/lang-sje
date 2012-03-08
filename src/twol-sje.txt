@@ -25,6 +25,7 @@ Alphabet
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
   d2:d t2:t j2:j h2:h g2:g
+  ':0
   
   %^WG:0 %^jDEL:0 %^MONB4J:0 
 
@@ -60,7 +61,7 @@ Cx:0 <=> Vow h Cx _ ( j ) (Vow:+) (Cns:+) WeG: ;
      where Cx in ( t ) ;
 
 "Consonant Gradation for xx:x" 
-Cx:0 <=> Vow Cx _  (Vow:+) (Cns:+) WeG: ;
+Cx:0 <=> Vow Cx _  Vow:+ (Cns:+) WeG: ;
      where Cx in ( p t k m n s r f v ) ; ! OBS fjerna j pga av ijja
 
 "Consonant Gradation for xyy:xy, eventually, for xxy:xy" 
