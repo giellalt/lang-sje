@@ -23,6 +23,8 @@ kistah KISTAH "rukkanen" ;
 
 almatj N_ODD "ihminen" ;
 vanas:vatnas N_ODD "vene" ;
+gahper GAHPER "huva" ; ! no consonant gradation
+máles:mállás N_ODD ; ! with cg
 
 ålmáj:ålbm ÅLMAAJ ;
 
