@@ -40,6 +40,7 @@ aahhtjie N_EVEN ;
 álldo N_EVEN "renko" ;
 árrbe N_EVEN "arv" ;
 albme N_EVEN "lm himmel" ;
+biebbmo:biebbmo N_EVEN "mat" ;
 biedno N_EVEN "n bön, andakt" ;
 biehkke N_EVEN "hk bit" ;
 bielle N_EVEN "l sida" ;
