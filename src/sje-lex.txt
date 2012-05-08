@@ -179,9 +179,6 @@ LEXICON N_EVEN_J
 +Pl+Ill:da  K ; !norm
 +Pl+Com:    K ;
 
-LEXICON KISTAH
-#;
-
 LEXICON ÅÅPPPAA
 +N: ÅBBÁCASE ;
 
