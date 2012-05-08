@@ -144,12 +144,18 @@ LEXICON RHyph ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
 ! Noun 
 ! ===============
 
+
+
+LEXICON N_EVEN_NOCG
++N: EVENCASE ;
++N: N_EVEN_W ; ! No CG here
+
 LEXICON N_EVEN
 +N: EVENCASE ;
++N:^WG N_EVEN_W ; ! CG here
 
 LEXICON EVENCASE
                N_EVEN_S ;
-:%^WG          N_EVEN_W ;
 :%^jDEL%>j     N_EVEN_J ;
 +Sg+Ill:%>%^MONB4Jj K ;
 
