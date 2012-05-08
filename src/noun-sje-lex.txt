@@ -29,12 +29,6 @@ vuorrpe N_EVEN "onni, arpa" ;
 ålmáj:ålbm ÅLMAAJ ;
 
 åbbá ÅÅPPPAA ;
-
-! Added for Bodø.
-! Check and incorporate
-
-Gálldesbuovvda N_EVEN "xxx" ;
-Vuodna N_EVEN "n Norge" ;
 albme N_EVEN "lm himmel" ;
 asske N_EVEN "sk" ; 
 biedno N_EVEN "n bön, andakt" ;
