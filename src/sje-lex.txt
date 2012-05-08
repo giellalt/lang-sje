@@ -72,18 +72,18 @@ d2 t2 j2 h2 g2 ! Variable consonants, undergo Auslautherdung
 LEXICON Root
 
 Noun ;
-ProperNoun ;
+!ProperNoun ;
 Verb ;
-Adjective ;
-Adverb ;
+!Adjective ;
+!Adverb ;
 Conjunction ;
 Subjunction ;
 Interjection ;
-Numeral ;
+!Numeral ;
 Pronoun ;
 Postposition ;
-Abbreviation ;
-Punctuation ;
+!Abbreviation ;
+!Punctuation ;
 Particle ;
 
 
@@ -98,14 +98,14 @@ Particle ;
 LEXICON R
                      +Use/Circ+Cmp#:# Noun ;                       ! This is the normal case.           
       @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Verb ;        ! Flag diacr declares that the compound   
-      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Adjective ;   ! needs a N tag later in the derivation  
+!      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Adjective ;   ! needs a N tag later in the derivation  
                 +Hyph+Use/Circ+Cmp#:%- Noun ;                      ! These 3 cases add a hyphen, so     
  @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Verb ;      ! Sem-julggaštus and maana-gåetie       
- @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Adjective ; ! are allowed.                 
+! @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Adjective ; ! are allowed.                 
 
 ! +Use/Circ+Cmp%-#:%-# Acronym ;    ! maana-tv, "lomme-cd-spelar" ! No acronyms for sje yet.
- +Use/Circ+Cmp%-#:%-# Numeral ;    ! maana-tv, "lomme-cd-spelar"
- +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for non-hyph.
+! +Use/Circ+Cmp%-#:%-# Numeral ;    ! maana-tv, "lomme-cd-spelar"
+! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for non-hyph.
                                    ! words. viessu-London goes through here.
 
          +RCmpnd:%- ENDLEX ;     ! This to take care of Oahpo- ja dutkandept - want this in speller
@@ -117,10 +117,10 @@ LEXICON RHyph ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
 
                 +Use/Circ+Cmp%-#:%-# Noun ;                                     ! This is the normal case.
  @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Verb ;       ! Flag diacr declares that the compound
- @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Adjective ; ! needs a N tag later in the derivation
+! @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Adjective ; ! needs a N tag later in the derivation
 
 ! +Use/Circ+Cmp%-#:%-# Acronym ;    ! maana-tv, "lomme-cd-spelar"
- +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for hyph-words.
+! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for hyph-words.
                                ! London-Hull is covered here, whereas Hull-viessu
                                ! is covered by RHyph + Noun.
 
