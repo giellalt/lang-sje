@@ -13,4 +13,4 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON ProperNoun
-# ;
+Ann-Charlotte N_EVEN ;
