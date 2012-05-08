@@ -14,3 +14,5 @@
 
 LEXICON ProperNoun
 Ann-Charlotte N_EVEN ;
+Gálldesbuovvda N_EVEN "xxx" ;
+Vuodna N_EVEN "n Norge" ;
