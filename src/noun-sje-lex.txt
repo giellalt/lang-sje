@@ -47,7 +47,7 @@ bievvla N_EVEN "vl";
 bijjla N_EVEN "jl"; 
 bijjpa N_EVEN "jp"; 
 billga N_EVEN "lg"; 
-binna N_EVEN "nn";      
+binna N_EVEN_NOCG "nn";      
 buollva  N_EVEN "lv generation" ;
 buvdna N_EVEN "vn"; 
 buvtsomällke N_EVEN "lk renmjölk" ;
