@@ -71,20 +71,20 @@ d2 t2 j2 h2 g2 ! Variable consonants, undergo Auslautherdung
 
 LEXICON Root
 
-Noun ;
-!ProperNoun ;
-Verb ;
-!Adjective ;
-!Adverb ;
-Conjunction ;
-Subjunction ;
-Interjection ;
-!Numeral ;
-Pronoun ;
-Postposition ;
-!Abbreviation ;
-!Punctuation ;
-Particle ;
+ Abbreviation ;
+ Adjective ;
+ Adverb ;
+ Conjunction ;
+ Interjection ;
+ Noun ;
+ Numeral ;
+ Particle ;
+ Postposition ;
+ Pronoun ;
+ ProperNoun ;
+ Punctuation ;
+ Subjunction ;
+ Verb ;
 
 
 
