@@ -167,6 +167,7 @@ LEXICON N_EVEN_W
 +Sg+Gen:%>0  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
++Sg+Ela:%>s K ;
 +Sg+Ela:%>st K ;
 +Abe:%>htahk K ; ! Lehtiranta
 +Abe:%>dak K ; ! Norm
@@ -180,6 +181,7 @@ LEXICON N_EVEN_J
 +Pl+Gen:    K ;
 +Pl+Acc:t   K ;
 +Pl+Ine:n   K ;
++Pl+Ela:s  K ;
 +Pl+Ela:st  K ;
 +Pl+Ill:ta  K ; !Lehtiranta
 +Pl+Ill:da  K ; !norm
@@ -279,6 +281,33 @@ LEXICON BIENALONG
 LEXICON BIENASHORT
 +Sg+Nom: PX ;
 +Ess:%>n PX ;
+
+
+
+LEXICON N_CONTR
++N: CONTRNOMSG ;
++N: CONTROBL ;
+
+LEXICON CONTRNOMSG
++Sg+Nom:%^MONB4Joj K ;
+ 
+LEXICON CONTROBL 
++Sg+Acc:uv PX ;
++Sg+Gen:u PX ;
++Sg+Ill:uj PX ;
++Sg+Ine:un PX ;
++Sg+Ela:ust PX ;
++Sg+Com:ujn PX ;
++Abe:udak PX ;
++Pl+Nom:u PX ;
++Pl+Acc:ujt PX ;
++Pl+Gen:uj PX ;
++Pl+Ill:ujda PX ;
++Pl+Ine:ujn PX ;
++Pl+Ela:ujs PX ;
++Pl+Com:uj PX ;
+
+
 
 LEXICON PX
 # ;
