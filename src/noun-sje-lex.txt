@@ -21,10 +21,15 @@ vanas:vadnas N_ODD "vene" ;
 gahper GAHPER "huva" ; ! no consonant gradation
 máles:mállás N_ODD ; ! with cg
 
-juällke N_EVEN "jalka" ; ! JL juol'kie
+juällge N_EVEN "jalka" ; ! JL juol'kie
 räjjdo N_EVEN "työkalu" ; ! JL riej'tuo
 namma N_EVEN "nimi" ; 
 vuorrpe N_EVEN "onni, arpa" ;
+
+ålol N_EVEN ; 
+båtsoj:buhts N_CONTR ; 
+suoloj:suoll N_CONTR ; 
+sarves:sarrv N_CONTR ; 
 
 ålmáj:ålbm ÅLMAAJ ;
 
@@ -42,6 +47,7 @@ bijjla N_EVEN "jl" ;
 bijjpa N_EVEN "jp" ; 
 billga N_EVEN "lg" ; 
 binna N_EVEN_NOCG "nn" ;      
+bunndi N_EVEN ;
 buollva  N_EVEN "lv generation" ;
 buvdna N_EVEN "vn" ; 
 buvtsomällke N_EVEN "lk renmjölk" ;
@@ -146,6 +152,7 @@ hägga N_EVEN_NOCG "gg liv" ;
 hälbme N_EVEN "lm kjol" ; 
 härrge N_EVEN "rg härk, renoxe" ;
 härrá N_EVEN_NOCG "rr" ; 
+iello N_EVEN ;
 idja N_EVEN "j natt" ;
 iello N_EVEN "l renhjord" ;
 ijja N_EVEN "j natt" ;
