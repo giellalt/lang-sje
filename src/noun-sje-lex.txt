@@ -26,7 +26,7 @@ räjjdo N_EVEN "työkalu" ; ! JL riej'tuo
 namma N_EVEN "nimi" ; 
 vuorrpe N_EVEN "onni, arpa" ;
 
-ålol N_EVEN ; 
+ålol:ullul N_ODD ; 
 båtsoj:buhts N_CONTR ; 
 suoloj:suoll N_CONTR ; 
 sarves:sarrv N_CONTR ; 
