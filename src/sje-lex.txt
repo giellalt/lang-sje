@@ -41,6 +41,7 @@
 %^WG    ! weak grade
 %^jDEL  ! vowel deletion in front of j
 %^MONB4J ! ie to aa (before j), uo to u before j
+%^CDEL   ! Deleting final consonant, biednag
 
 +Use/Sub ! Not part of standard
 +Use/NG  ! Part of standard, but not generated
@@ -169,10 +170,9 @@ LEXICON N_EVEN_W
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>s K ;
 +Sg+Ela:%>st K ;
-+Abe:%>htahk K ; ! Lehtiranta
 +Abe:%>dak K ; ! Norm
-+Abe:%>htaka K ; ! Informants S and Bj 
-+Abe:%>htak K ; ! Informants S and Bj 
+!+Abe:%>htaka K ; ! Informants S and Bj 
+!+Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>0  K ;
 
 LEXICON N_EVEN_J
@@ -183,7 +183,6 @@ LEXICON N_EVEN_J
 +Pl+Ine:n   K ;
 +Pl+Ela:s  K ;
 +Pl+Ela:st  K ;
-+Pl+Ill:ta  K ; !Lehtiranta
 +Pl+Ill:da  K ; !norm
 +Pl+Com:    K ;
 
@@ -197,10 +196,9 @@ LEXICON ÅBBÁCASE
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>st K ;
-+Abe:%>htahk K ; ! Lehtiranta
 +Abe:%>dak K ; ! Norm
-+Abe:%>htaka K ; ! Informants S and Bj 
-+Abe:%>htak K ; ! Informants S and Bj 
+!+Abe:%>htaka K ; ! Informants S and Bj 
+!+Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>0  K ;
 +Sg+Ill:%^MONB4Jj K ;
 +Sg+Com:%>jn   K ;
@@ -209,28 +207,33 @@ LEXICON ÅBBÁCASE
 +Pl+Acc:%>jt   K ;
 +Pl+Ine:%>jn   K ;
 +Pl+Ela:%>jst  K ;
-+Pl+Ill:%>jta  K ; !Lehtiranta
 +Pl+Ill:%>jda  K ; !norm
 +Pl+Com:%>j    K ;
 
+LEXICON N_ODD_VV
++N+Sg+Nom:%^WG%^MONB4J PX ;
++N: ODD_OBLIQUE ;
 
 LEXICON N_ODD
 +N+Sg+Nom:%^WG PX ;
-+N+Sg+Acc:av PX ;
-+N+Sg+Gen:a PX ;
-+N+Sg+Ill:ij PX ;
-+N+Sg+Ine:in PX ;
-+N+Sg+Ela:ist PX ;
-+N+Sg+Com:ijn PX ;
-+N+Sg+Ess:in PX ;
-+N+Abe:ahtá PX ;
-+N+Pl+Nom:a PX ;
-+N+Pl+Acc:ijt PX ;
-+N+Pl+Gen:ij PX ;
-+N+Pl+Ill:ijda PX ;
-+N+Pl+Ine:ijn PX ;
-+N+Pl+Ela:ist PX ;
-+N+Pl+Com:ij PX ;
++N: ODD_OBLIQUE ;
+
+LEXICON ODD_OBLIQUE
++Sg+Acc:av PX ;
++Sg+Gen:a PX ;
++Sg+Ill:ij PX ;
++Sg+Ine:in PX ;
++Sg+Ela:is PX ; ! -ist ??
++Sg+Com:ijn PX ;
++Ess:in PX ;
++Abe:ahtá PX ;
++Pl+Nom:a PX ;
++Pl+Acc:ijt PX ;
++Pl+Gen:ij PX ;
++Pl+Ill:ijda PX ;
++Pl+Ine:ijn PX ;
++Pl+Ela:ijs PX ;
++Pl+Com:ij PX ;
 
 LEXICON N_CONTR_C
 ÅLMAAJ ; ! skall ordnas till
@@ -245,11 +248,11 @@ LEXICON ÅLMAAJ
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;
 +N+Ess:%^WGán PX ;
-+N+Abe:áhtahk PX ;
++N+Abe:áhtahk PX ; ! XXX
 +N+Pl+Nom:áh PX ;
 +N+Pl+Acc:ájt PX ;
 +N+Pl+Gen:áj PX ;
-+N+Pl+Ill:ájta PX ;
++N+Pl+Ill:ájda PX ;
 +N+Pl+Ine:ájn PX ;
 +N+Pl+Ela:ást PX ;
 +N+Pl+Com:áj PX ;
@@ -272,15 +275,15 @@ LEXICON BIENALONG
 +N+Pl+Nom:a PX ;
 +N+Pl+Acc:ajt PX ;
 +N+Pl+Gen:aj PX ;
-+N+Pl+Ill:adta PX ;
++N+Pl+Ill:ajda PX ;
 +N+Pl+Ine:ajn PX ;
 +N+Pl+Ela:ast PX ;
 +N+Pl+Com:aj PX ;
 
 
 LEXICON BIENASHORT
-+Sg+Nom: PX ;
-+Ess:%>n PX ;
++Sg+Nom:%^WG%^CDEL PX ;
++Ess:%^WG%^CDEL%>n PX ;
 
 
 
@@ -321,6 +324,7 @@ LEXICON PX
 LEXICON A_EVEN
 +A+Attr: # ;
 +A: EVENCASE ;
++A:^WG N_EVEN_W ; ! CG here
 
 
 
