@@ -59,15 +59,15 @@ Tests:
     juällge+N+Pl+Ill: juolgijda
     juällge+N+Pl+Ine: juolgijn
     juällge+N+Pl+Ela: [juolgijst, juolgijs]
-    juällge+N+Pl+Com: juolgej
+    juällge+N+Pl+Com: juolgij
     juällge+N+Ess: juällgen
-    juällge+N+Abe: juällgedak
+    juällge+N+Abe: juolgedak
 
   Noun - iello: # -o-stammar
     iello+N+Sg+Nom: iello
     iello+N+Sg+Gen: ielo
     iello+N+Sg+Acc: ielov
-    iello+N+Sg+Ill: ielloj
+    iello+N+Sg+Ill: elluj
     iello+N+Sg+Ine: ielon
     iello+N+Sg+Ela: [ielost, ielos]
     iello+N+Sg+Com: elujn
@@ -79,7 +79,7 @@ Tests:
     iello+N+Pl+Ela: [ielojst, ielojs]
     iello+N+Pl+Com: ieloj
     iello+N+Ess: iellon
-    iello+N+Abe: iellodak
+    iello+N+Abe: ielodak
 
   Noun - bunndi: # -i-stammar
     bunndi+N+Sg+Nom: bunndi
@@ -97,7 +97,7 @@ Tests:
     bunndi+N+Pl+Ela: [bundijst, bundijs]
     bunndi+N+Pl+Com: bundij
     bunndi+N+Ess: bunndin
-    bunndi+N+Abe: bunndidak
+    bunndi+N+Abe: bundidak
 
 
   Noun - almatj: # -udda utan stv och vokalv
@@ -105,13 +105,13 @@ Tests:
     almatj+N+Sg+Gen: almatja
     almatj+N+Sg+Acc: almatjav
     almatj+N+Sg+Ill: almatjij
-    almatj+N+Sg+Ine: almatjn
-    almatj+N+Sg+Ela: almatjist
+    almatj+N+Sg+Ine: almatjin
+    almatj+N+Sg+Ela: almatjis
     almatj+N+Sg+Com: almatjijn
     almatj+N+Pl+Nom: almatja
     almatj+N+Pl+Gen: almatjij
     almatj+N+Pl+Acc: almatjijt
-    almatj+N+Pl+Ill: almatjiida
+    almatj+N+Pl+Ill: almatjijda
     almatj+N+Pl+Ine: almatjijn
     almatj+N+Pl+Ela: almatjijs
     almatj+N+Pl+Com: almatjij
@@ -124,12 +124,12 @@ Tests:
     ålol+N+Sg+Acc: ullulav
     ålol+N+Sg+Ill: ullulij
     ålol+N+Sg+Ine: ulluln
-    ålol+N+Sg+Ela: ullulist
+    ålol+N+Sg+Ela: ullulis
     ålol+N+Sg+Com: ullulijn
     ålol+N+Pl+Nom: ullula
     ålol+N+Pl+Gen: ullulij
     ålol+N+Pl+Acc: ullulijt
-    ålol+N+Pl+Ill: ulluliida
+    ålol+N+Pl+Ill: ullulijda
     ålol+N+Pl+Ine: ullulijn
     ålol+N+Pl+Ela: ullulijs
     ålol+N+Pl+Com: ullulij
@@ -142,12 +142,12 @@ Tests:
     vanas+N+Sg+Acc: vadnasav
     vanas+N+Sg+Ill: vadnasij
     vanas+N+Sg+Ine: vadnasin
-    vanas+N+Sg+Ela: vadnasist
+    vanas+N+Sg+Ela: vadnasis
     vanas+N+Sg+Com: vadnasijn
     vanas+N+Pl+Nom: vadnasa
     vanas+N+Pl+Gen: vadnasij
     vanas+N+Pl+Acc: vadnasijt
-    vanas+N+Pl+Ill: vadnasiida
+    vanas+N+Pl+Ill: vadnasijda
     vanas+N+Pl+Ine: vadnasijn
     vanas+N+Pl+Ela: vadnasijs
     vanas+N+Pl+Com: vadnasij
@@ -160,12 +160,12 @@ Tests:
     biena+N+Sg+Acc: biednagav
     biena+N+Sg+Ill: biednagij
     biena+N+Sg+Ine: biednagin
-    biena+N+Sg+Ela: biednagist
+    biena+N+Sg+Ela: biednagis
     biena+N+Sg+Com: biednagijn
     biena+N+Pl+Nom: biednaga
     biena+N+Pl+Gen: biednagij
     biena+N+Pl+Acc: biednagijt
-    biena+N+Pl+Ill: biednagiida
+    biena+N+Pl+Ill: biednagijda
     biena+N+Pl+Ine: biednagijn
     biena+N+Pl+Ela: biednagijs
     biena+N+Pl+Com: biednagij
