@@ -261,29 +261,29 @@ LEXICON GAHPER
 N_ODD ;
 
 LEXICON BIENA
-+N:%^WG BIENASHORT ;
++N:%^WG%^CDEL BIENASHORT ;
 +N: BIENALONG ;
 
 LEXICON BIENALONG
-+N+Sg+Acc:av PX ;
-+N+Sg+Gen:a PX ;
-+N+Sg+Ill:aj PX ;
-+N+Sg+Ine:an PX ;
-+N+Sg+Ela:ast PX ;
-+N+Sg+Com:ajn PX ;
-+N+Abe:ahtahk PX ;
-+N+Pl+Nom:a PX ;
-+N+Pl+Acc:ajt PX ;
-+N+Pl+Gen:aj PX ;
-+N+Pl+Ill:ajda PX ;
-+N+Pl+Ine:ajn PX ;
-+N+Pl+Ela:ast PX ;
-+N+Pl+Com:aj PX ;
++Sg+Acc:av PX ;
++Sg+Gen:a PX ;
++Sg+Ill:ij PX ;
++Sg+Ine:in PX ;
++Sg+Ela:is PX ;
++Sg+Com:ijn PX ;
++Ess:in PX ;
++Abe:ahtá PX ;
++Pl+Nom:a PX ;
++Pl+Acc:ijt PX ;
++Pl+Gen:ij PX ;
++Pl+Ill:ijda PX ;
++Pl+Ine:ijn PX ;
++Pl+Ela:is PX ;
++Pl+Com:ij PX ;
 
 
 LEXICON BIENASHORT
-+Sg+Nom:%^WG%^CDEL PX ;
-+Ess:%^WG%^CDEL%>n PX ;
++Sg+Nom: PX ;
 
 
 
