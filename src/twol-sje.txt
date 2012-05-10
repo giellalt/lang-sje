@@ -110,7 +110,7 @@ Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 ! =====================
 
 "Final Consonant Deletion"          
-Cx:0 <=> _ %^CDEL: ;
+Cx:0 <=> _ (Dummy:) %^CDEL: ;
 	where Cx in ( b d g ) ; 
 
 
