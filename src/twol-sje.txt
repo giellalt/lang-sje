@@ -150,16 +150,13 @@ o:u <=> _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 
 
 
-"aa in front of j 1"
-i:a <=> _ e: %^MONB4J:0 ;
-
 
 "aa in front of j 2"
-e:a <=> i: _ %^MONB4J:0 ;
+e:á <=>  _ %>: %^MONB4J:0 ;
 
 
 "o deletion in front of j"
-o:0 <=> u _ %^MONB4J:0 ;
+o:0 <=> u _ %>: %^MONB4J:0 ;
 
 "i deletion in front of j"
 i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
