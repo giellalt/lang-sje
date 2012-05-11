@@ -33,7 +33,7 @@ sarves:sarrv N_CONTR ;
 
 ålmáj:ålbm ÅLMAAJ ;
 
-åbbá ÅÅPPPAA ;
+åbbá N_EVEN_NOCG ;
 albme N_EVEN "lm himmel" ;
 asske N_EVEN "sk" ; 
 biedno N_EVEN "n bön, andakt" ;
