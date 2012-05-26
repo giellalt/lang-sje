@@ -101,7 +101,7 @@ LEXICON ATJAPRT
 LEXICON IJ
 +V+Neg+Prs: IJPRS ;
 +V+Neg+Prt: IJPRT ;
-+V+Neg+Imp: IJIMP ;
++V+Neg+Imprt: IJIMP ;
 +V+Neg+Opt: IJOPT ;
 
 LEXICON IJPRS
