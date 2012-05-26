@@ -20,7 +20,7 @@
 
 ! Verbal MSP
 +Prs +Fut +Prt +Prf 
-+Ind +Imp +Cond +Opt
++Ind +Imprt +Cond +Opt
 +Sg1 +Sg2 +Sg3 
 +Du1 +Du2 +Du3
 +Pl1 +Pl2 +Pl3
@@ -38,10 +38,6 @@
 
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
-%^WG    ! weak grade
-%^jDEL  ! vowel deletion in front of j
-%^MONB4J ! e to á (before j), o to u before j
-%^CDEL   ! Deleting final consonant, biednag
 
 +Use/Sub ! Not part of standard
 +Use/NG  ! Part of standard, but not generated
@@ -50,6 +46,12 @@
 +RCmpnd
 +Use/-Spell
 +CmpN/First
+
+%^WG    ! weak grade
+%^jDEL  ! vowel deletion in front of j
+%^MONB4J ! e to á (before j), o to u before j
+%^CDEL   ! Deleting final consonant, biednag
+%^MON    ! Monophthong in contract
 
 d2 t2 j2 h2 g2 ! Variable consonants, undergo Auslautherdung
                ! NB! This is the opposite of the sme pattern
@@ -146,6 +148,8 @@ LEXICON RHyph ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
 ! ===============
 
 
+! even-syllabic
+! -------------
 
 LEXICON N_EVEN_NOCG
 +N: EVENCASE ;
@@ -158,6 +162,9 @@ LEXICON N_EVEN
 LEXICON EVENCASE
                N_EVEN_S ;
 :%^jDEL%>j     N_EVEN_J ;
+N_EVEN_ILL ;
+
+LEXICON N_EVEN_ILL
 +Sg+Ill:%>%^MONB4Jj K ;
 
 LEXICON N_EVEN_S
@@ -187,13 +194,21 @@ LEXICON N_EVEN_J
 +Pl+Com:    K ;
 
 
+! odd-syllabic
+! ------------
+
 LEXICON N_ODD_VV
 +N+Sg+Nom:%^WG%^MONB4J PX ;
 +N: ODD_OBLIQUE ;
 
-LEXICON N_ODD
+LEXICON N_ODD_CG
 +N+Sg+Nom:%^WG PX ;
 +N: ODD_OBLIQUE ;
+
+LEXICON N_ODD
++N+Sg+Nom: PX ;
++N: ODD_OBLIQUE ;
+
 
 LEXICON ODD_OBLIQUE
 +Sg+Acc:av PX ;
@@ -213,6 +228,41 @@ LEXICON ODD_OBLIQUE
 +Pl+Ela+Use/Sub:ijs PX ;
 +Pl+Ela:ijst PX ;
 +Pl+Com:ij PX ;
+
+
+! contracted
+! ----------
+
+! initial contlex
+
+LEXICON SARVES
+ +N:%^WG SARVES-NE ;
+ +N:%^MON CONTR-OTH ;
+
+LEXICON SUOLOJ
+ +N:%^WG SUOLOJ-NE ;
+ +N:%^MON CONTR-OTH ;
+
+
+! ne contlex
+
+LEXICON SARVES-NE
+ +Sg+Nom:%>s K ;
+ +Ess:%>n K ;
+
+LEXICON SUOLOJ-NE
+ +Sg+Nom:%>j K ;
+ +Ess:%>n K ;
+
+
+! other contlex
+
+LEXICON CONTR-OTH
+ N_EVEN_ILL ;
+ N_EVEN_W ;
+ 
+
+! under construction
 
 LEXICON N_CONTR_C
 ÅLMAAJ ; ! skall ordnas till
@@ -238,8 +288,9 @@ LEXICON ÅLMAAJ
 +N+Pl+Ela:ájst PX ;
 +N+Pl+Com:áj PX ;
 
-LEXICON GAHPER
-N_ODD ;
+LEXICON N_ODD_NOCG
++N+Sg+Nom: PX ;
++N: ODD_OBLIQUE ;
 
 LEXICON BIENA
 +N:%^WG%^CDEL BIENASHORT ;
