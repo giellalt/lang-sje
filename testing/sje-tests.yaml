@@ -15,7 +15,7 @@ Tests:
     muorra+N+Sg+Acc: muorav
     muorra+N+Sg+Ill: muorraj
     muorra+N+Sg+Ine: muoran
-    muorra+N+Sg+Ela: muorast
+    muorra+N+Sg+Ela: [muorast, muoras]
     muorra+N+Sg+Com: muorajn
     muorra+N+Pl+Nom: muora
     muorra+N+Pl+Gen: muoraj
@@ -33,7 +33,7 @@ Tests:
     dållå+N+Sg+Acc: dålåv
     dållå+N+Sg+Ill: dållåj
     dållå+N+Sg+Ine: dålån
-    dållå+N+Sg+Ela: dålåst
+    dållå+N+Sg+Ela: [dålåst, dålås]
     dållå+N+Sg+Com: dålåjn
     dållå+N+Pl+Nom: dålå
     dållå+N+Pl+Gen: dålåj
@@ -106,14 +106,14 @@ Tests:
     almatj+N+Sg+Acc: almatjav
     almatj+N+Sg+Ill: almatjij
     almatj+N+Sg+Ine: almatjin
-    almatj+N+Sg+Ela: almatjis
+    almatj+N+Sg+Ela: [almatjist, almatjis]
     almatj+N+Sg+Com: almatjijn
     almatj+N+Pl+Nom: almatja
     almatj+N+Pl+Gen: almatjij
     almatj+N+Pl+Acc: almatjijt
     almatj+N+Pl+Ill: almatjijda
     almatj+N+Pl+Ine: almatjijn
-    almatj+N+Pl+Ela: almatjijs
+    almatj+N+Pl+Ela: [almatjijst, almatjijs]
     almatj+N+Pl+Com: almatjij
     almatj+N+Ess: almatjin
     almatj+N+Abe: almatjahtá
@@ -124,14 +124,14 @@ Tests:
     ålol+N+Sg+Acc: ullulav
     ålol+N+Sg+Ill: ullulij
     ålol+N+Sg+Ine: ulluln
-    ålol+N+Sg+Ela: ullulis
+    ålol+N+Sg+Ela: [ullulist, ullulis]
     ålol+N+Sg+Com: ullulijn
     ålol+N+Pl+Nom: ullula
     ålol+N+Pl+Gen: ullulij
     ålol+N+Pl+Acc: ullulijt
     ålol+N+Pl+Ill: ullulijda
     ålol+N+Pl+Ine: ullulijn
-    ålol+N+Pl+Ela: ullulijs
+    ålol+N+Pl+Ela: [ullulijst, ullulijs]
     ålol+N+Pl+Com: ullulij
     ålol+N+Ess: ullulin
     ålol+N+Abe: ullulahtá
@@ -142,14 +142,14 @@ Tests:
     vanas+N+Sg+Acc: vadnasav
     vanas+N+Sg+Ill: vadnasij
     vanas+N+Sg+Ine: vadnasin
-    vanas+N+Sg+Ela: vadnasis
+    vanas+N+Sg+Ela: [vadnasist, vadnasis]
     vanas+N+Sg+Com: vadnasijn
     vanas+N+Pl+Nom: vadnasa
     vanas+N+Pl+Gen: vadnasij
     vanas+N+Pl+Acc: vadnasijt
     vanas+N+Pl+Ill: vadnasijda
     vanas+N+Pl+Ine: vadnasijn
-    vanas+N+Pl+Ela: vadnasijs
+    vanas+N+Pl+Ela: [vadnasijst, vadnasijs]
     vanas+N+Pl+Com: vadnasij
     vanas+N+Ess: vadnasin
     vanas+N+Abe: vadnasahtá
@@ -160,14 +160,14 @@ Tests:
     biena+N+Sg+Acc: biednagav
     biena+N+Sg+Ill: biednagij
     biena+N+Sg+Ine: biednagin
-    biena+N+Sg+Ela: biednagis
+    biena+N+Sg+Ela: [biednagis, biednagis]
     biena+N+Sg+Com: biednagijn
     biena+N+Pl+Nom: biednaga
     biena+N+Pl+Gen: biednagij
     biena+N+Pl+Acc: biednagijt
     biena+N+Pl+Ill: biednagijda
     biena+N+Pl+Ine: biednagijn
-    biena+N+Pl+Ela: biednagijs
+    biena+N+Pl+Ela: [biednagijst, biednagijs]
     biena+N+Pl+Com: biednagij
     biena+N+Ess: biednagin
     biena+N+Abe: biednagahtá
@@ -178,14 +178,14 @@ Tests:
     ålmáj+N+Sg+Acc: ålbmáv
     ålmáj+N+Sg+Ill: ålbmáj
     ålmáj+N+Sg+Ine: ålbmán
-    ålmáj+N+Sg+Ela: ålbmást
+    ålmáj+N+Sg+Ela: [ålbmást, ålbmás]
     ålmáj+N+Sg+Com: ålbmájn
     ålmáj+N+Pl+Nom: ålbmá
     ålmáj+N+Pl+Gen: ålbmáj
     ålmáj+N+Pl+Acc: ålbmájt
     ålmáj+N+Pl+Ill: ålbmájda
     ålmáj+N+Pl+Ine: ålbmájn
-    ålmáj+N+Pl+Ela: ålbmájs
+    ålmáj+N+Pl+Ela: [ålbmájst, ålbmájs]
     ålmáj+N+Pl+Com: ålbmáj
     ålmáj+N+Ess: ålbmán
     ålmáj+N+Abe: ålbmádak
@@ -196,14 +196,14 @@ Tests:
     båtsoj+N+Sg+Acc: buhtsuv
     båtsoj+N+Sg+Ill: buhtsuj
     båtsoj+N+Sg+Ine: buhtsun
-    båtsoj+N+Sg+Ela: buhtsust
+    båtsoj+N+Sg+Ela: [buhtsust, buhtsus]
     båtsoj+N+Sg+Com: buhtsujn
     båtsoj+N+Pl+Nom: buhtsu
     båtsoj+N+Pl+Gen: buhtsuj
     båtsoj+N+Pl+Acc: buhtsujt
     båtsoj+N+Pl+Ill: buhtsujda
     båtsoj+N+Pl+Ine: buhtsujn
-    båtsoj+N+Pl+Ela: buhtsujs
+    båtsoj+N+Pl+Ela: [buhtsujst, buhtsujs]
     båtsoj+N+Pl+Com: buhtsuj
     båtsoj+N+Ess: buhtsun
     båtsoj+N+Abe: buhtsudak
@@ -214,14 +214,14 @@ Tests:
     suoloj+N+Sg+Acc: sulluv
     suoloj+N+Sg+Ill: sulluj
     suoloj+N+Sg+Ine: sullun
-    suoloj+N+Sg+Ela: sullust
+    suoloj+N+Sg+Ela: [sullust, sullus]
     suoloj+N+Sg+Com: sullujn
     suoloj+N+Pl+Nom: sullu
     suoloj+N+Pl+Gen: sulluj
     suoloj+N+Pl+Acc: sullujt
     suoloj+N+Pl+Ill: sullujda
     suoloj+N+Pl+Ine: sullujn
-    suoloj+N+Pl+Ela: sullujs
+    suoloj+N+Pl+Ela: [sullujs, sullujst]
     suoloj+N+Pl+Com: sulluj
     suoloj+N+Ess: sullun
     suoloj+N+Abe: sulludak
@@ -232,16 +232,23 @@ Tests:
     sarves+N+Sg+Acc: sarvváv
     sarves+N+Sg+Ill: sarvváj
     sarves+N+Sg+Ine: sarvván
-    sarves+N+Sg+Ela: sarvvást
+    sarves+N+Sg+Ela: [sarvvást, sarvvás]
     sarves+N+Sg+Com: sarvvájn
     sarves+N+Pl+Nom: sarvvá
     sarves+N+Pl+Gen: sarvváj
     sarves+N+Pl+Acc: sarvvájt
     sarves+N+Pl+Ill: sarvvájda
     sarves+N+Pl+Ine: sarvvájn
-    sarves+N+Pl+Ela: sarvvájs
+    sarves+N+Pl+Ela: [sarvvájst, sarvvájs]
     sarves+N+Pl+Com: sarvváj
     sarves+N+Ess: sarvván
     sarves+N+Abe: sarvvádak
     
+
+  Noun - vanas: # Korttest: -udda med stv men utan vokalv
+    vanas+N+Sg+Nom: vanas
+    vanas+N+Sg+Gen: vadnasa
+    vanas+N+Sg+Ill: vadnasij
+    vanas+N+Pl+Gen: vadnasij
+
     
