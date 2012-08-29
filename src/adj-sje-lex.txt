@@ -15,3 +15,24 @@
 LEXICON Adjective
 stuorra A_EVEN ;
 
+unne A_EVEN ;
+gävvra A_EVEN ;
+bånndá A_EVEN ;
+fávvro A_EVEN ;
+hiejjo A_EVEN ;
+nävvre A_EVEN ;
+nuorra A_EVEN ;
+buorre A_EVEN ;
+tjábbe A_EVEN ; !tjábbe har ingen stadieväxling
+låjje A_EVEN ;
+ådne A_EVEN ;
+iedna A_EVEN ;
+binna A_EVEN ; !binna har ingen stadieväxkling
+njállge A_EVEN ;
+
+bivval A_ODD ;
+basstel A_ODD ;
+suddes A_ODD ; !vokalförändring till suddás
+mälggat A_ODD ; !-t ändras till -d, mälggada
+tjáhppat A_ODD ; ! -t ändras till -d, tjáhppada
+vuoras A_ODD ; !stadieväxling till vuorrasa
