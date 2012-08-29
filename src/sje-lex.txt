@@ -236,6 +236,26 @@ LEXICON ODD_OBLIQUE
 +Pl+Com:ij PX ;
 
 
+LEXICON ODD_OBLIQUE_U
++Sg+Acc:uv PX ;
++Sg+Gen:u PX ;
++Sg+Ill:ij PX ;
++Sg+Ine:in PX ;
++Sg+Ela+Use/Sub:is PX ; 
++Sg+Ela:ist PX ; 
++Sg+Com:ijn PX ;
++Ess:in PX ;
++Abe:uhtá PX ;
++Pl+Nom:u PX ;
++Pl+Acc:ijt PX ;
++Pl+Gen:ij PX ;
++Pl+Ill:ijda PX ;
++Pl+Ine:ijn PX ;
++Pl+Ela+Use/Sub:ijs PX ;
++Pl+Ela:ijst PX ;
++Pl+Com:ij PX ;
+
+
 ! contracted
 ! ----------
 
@@ -368,7 +388,17 @@ LEXICON A_EVEN
 +A: EVENCASE ;
 +A:^WG N_EVEN_W ; ! CG here
 
++A+Comp+Nom:^WGp # ;
++A+Comp:^WGb ODD_OBLIQUE_U ;
 
+
+LEXICON A_ODD
++A+Attr: # ;
++A+Sg+Nom: PX ;
++A: ODD_OBLIQUE ;
+
++A+Comp+Nom:ap # ;
++A+Comp:abb ODD_OBLIQUE_U ;
 
 
 
