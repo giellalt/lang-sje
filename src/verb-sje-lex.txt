@@ -106,39 +106,38 @@ LEXICON IJ
 
 LEXICON IJPRS
 +Sg1:iv    # ; 
-+Sg2:ih    # ; 
++Sg2:i    # ; 
 +Sg3:ij    # ; 
-+Du1:ien # ; 
-+Du2:iehpien # ; 
-+Du2:ehpien # ; 
-+Du2:ihpien # ; 
-+Du3:iepá # ; 
-+Du3:iepán # ; 
-+Pl1:iehp # ; 
-+Pl1:iep # ; 
-+Pl2:iehpit # ; 
-+Pl2:ihpit # ; 
-+Pl3:ieh   # ; 
++Du1:en # ; 
++Du2:ehpen # ;   
++Du3:ieba # ; 
++Du3:eba # ; 
++Pl1:iehpe # ; 
++Pl1:ep # ; 
++Pl2:ehpit # ;  
++Pl3:ie   # ;
++Pl3:e   # ;
 
 LEXICON IJPRT
-+Sg1:ittjiv    # ; 
-+Sg2:ittjih    # ; 
-+Sg3:ittjij    # ; 
-+Du1:iejmien # ; 
-+Du1:ittjijmen # ; 
-+Du2:iejtien # ; 
-+Du2:ittjijtien # ; 
-+Du3:iejkán # ; 
-+Du3:ittjijká # ; 
-+Pl1:iejmieh # ; 
-+Pl1:ittjijmeh # ; 
-+Pl2:iejtieh # ; 
-+Pl2:ittjijteh # ; 
-+Pl3:ittjin    # ; 
++Sg1:idtjiv    # ; 
++Sg2:idtji    # ; 
++Sg3:idtjij    # ; 
++Du1:ejme # ; 
++Du1:idtjijme # ; 
++Du2:ejde  # ; 
++Du2:idtjijde # ; 
++Du3:ejga # ; 
++Du3:idtjijga # ; 
++Pl1:ejme # ; 
++Pl1:idtjijme # ; 
++Pl2:ejde # ; 
++Pl2:idtjijde # ; 
++Pl3:idtjin    # ;
+
 
 LEXICON IJIMP
-+Sg2:ielieh  # ;
-+Du2:iellien # ; 
++Sg2:iele  # ;
++Du2:iellen # ; 
 +Du3:iellit  # ;
                         
 LEXICON IJOPT                      
