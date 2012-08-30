@@ -382,9 +382,33 @@ LEXICON PX
 ! Adjectives !
 ! ========== !
 
+LEXICON A_EVEN_A
++A+Attr:WG%>a # ;
+A_EVEN ;
+
+LEXICON A_EVEN_AA
++A+Attr:%>a # ;
+A_EVEN ;
+
+LEXICON A_EVEN_E
++A+Attr:WG%>e # ;
+A_EVEN ;
+
+LEXICON A_EVEN_IES
++A+Attr:WG%>ies # ;
+A_EVEN ;
+
+LEXICON A_EVEN_B
++A+Attr:^WG%>s # ;
+A_EVEN ;
+
+
+LEXICON A_EVEN_0
++A+Attr: # ;
+A_EVEN ;
 
 LEXICON A_EVEN
-+A+Attr: # ;
+!+A+Attr: # ;
 +A: EVENCASE ;
 +A:^WG N_EVEN_W ; ! CG here
 
