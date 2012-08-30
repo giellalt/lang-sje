@@ -13,26 +13,41 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Adjective
-stuorra A_EVEN ;
+stuorre A_EVEN_A ;
 
-unne A_EVEN ;
-gävvra A_EVEN ;
-bånndá A_EVEN ;
-fávvro A_EVEN ;
-hiejjo A_EVEN ;
-nävvre A_EVEN ;
-nuorra A_EVEN ;
-buorre A_EVEN ;
-tjábbe A_EVEN ; !tjábbe har ingen stadieväxling
-låjje A_EVEN ;
-ådne A_EVEN ;
-iedna A_EVEN ;
-binna A_EVEN ; !binna har ingen stadieväxkling
-njállge A_EVEN ;
+unne A_EVEN_AA ;
+gävvra A_EVEN_IES ; 
+bånndá A_EVEN_B ; 
+fávvro A_EVEN_B ; 
+hiejjo A_EVEN_B ; 
+nävvre A_EVEN_IES ;
+nuorra A_EVEN_0 ;
+buorre A_EVEN_0 ;
+tjábbe A_EVEN_AA ; !tjábbe har ingen stv i attr eller i komparering
+låjje A_EVEN_B ; 
+ådne A_EVEN_B ; 
+ådne A_EVEN_AA ; !alternativ attributiv form ådna ej stv.
+iedna A_EVEN_0 ;
+binna A_EVEN_0 ; !binna har ingen stadieväxling i komparering
+njállge A_EVEN_B ; 
+almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
+assá A_EVEN_B ; !attributiv form assás utan stadiev., ej heller i komparering
+gåbbde A_EVEN_B ; 
+maŋŋe A_EVEN_E ;
+uhttse A_EVEN_B ;
+tjalmedibme A_EVEN_0 ; !attr. tjalmedis
+vuojnudibme A_EVEN_0 ; !attr. vuojnudis
 
 bivval A_ODD ;
 basstel A_ODD ;
-suddes A_ODD ; !vokalförändring till suddás
-mälggat A_ODD ; !-t ändras till -d, mälggada
-tjáhppat A_ODD ; ! -t ändras till -d, tjáhppada
-vuoras A_ODD ; !stadieväxling till vuorrasa
+dulutj A_ODD ; 
+gassak A_ODD ; !böjningsstam gassag-, attributiv gassa 
+gullis A_ODD ; !attributiv form gullisis
+suddes A_ODD ; !böjningsstam suddás-
+mårret A_ODD ; !böjningsstam mårred- attr. mårredis
+mälggat A_ODD ; !böjningsstam mälggad-
+såmes A_ODD ; !böjningsstam såbmás-
+tjáhppat A_ODD ; ! böjningsstam tjáhppad-
+tjuorak A_ODD ; !böjningsstam tjuorag-
+vuoras A_ODD ; !böjningsstam vuorras-
+åhpes A_ODD ; !böjningsstam åhpás-
