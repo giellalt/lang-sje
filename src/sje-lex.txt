@@ -425,8 +425,46 @@ LEXICON A_ODD
 +A+Comp:abb ODD_OBLIQUE_U ;
 
 
+LEXICON A_ODD_K
++A+Attr: # ; !rätta detta!
++A+Sg+Nom:k PX ;
++A:g ODD_OBLIQUE ;
+
++A+Comp+Nom:ap # ;
++A+Comp:abb ODD_OBLIQUE_U ;
+
+LEXICON A_ODD_T
++A+Attr:t # ; !rätta detta, tjähppis
++A+Sg+Nom:t PX ;
++A:d ODD_OBLIQUE ;
+
++A+Comp+Nom:ap # ;
++A+Comp:abb ODD_OBLIQUE_U ;
+
+LEXICON A_ODD_SIS
++A+Attr:sis # ; !rätta detta!
++A+Sg+Nom:s PX ;
++A:s ODD_OBLIQUE ;
+
++A+Comp+Nom:ap # ;
++A+Comp:abb ODD_OBLIQUE_U ;
+
+LEXICON A_ODD_DIS
++A+Attr:dis # ; !rätta detta!
++A+Sg+Nom:t PX ;
++A:d ODD_OBLIQUE ;
+
++A+Comp+Nom:ap # ;
++A+Comp:abb ODD_OBLIQUE_U ;
 
 
+LEXICON A_ODD_k_K
++A+Attr:k # ; 
++A+Sg+Nom:k PX ;
++A:g ODD_OBLIQUE ;
+
++A+Comp+Nom:ap # ;
++A+Comp:abb ODD_OBLIQUE_U ;
 
 
 ! ===== !
