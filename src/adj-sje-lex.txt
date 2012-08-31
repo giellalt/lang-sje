@@ -15,20 +15,20 @@
 LEXICON Adjective
 stuorre A_EVEN_A ;
 
-unne A_EVEN_AA ;
-gävvra A_EVEN_IES ; 
+unne:unn A_EVEN_NOCG_0 ; !rätta
+gävvra:g A_EVEN_IES ; !rätta
 bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ; 
 hiejjo A_EVEN_B ; 
-nävvre A_EVEN_IES ;
+nävvre A_EVEN_IES ; !rätta
 nuorra A_EVEN_0 ;
 buorre A_EVEN_0 ;
-tjábbe A_EVEN_AA ; !tjábbe har ingen stv i attr eller i komparering
+tjábbe A_EVEN_AA ; 
 låjje A_EVEN_B ; 
 ådne A_EVEN_B ; 
-ådne A_EVEN_AA ; !alternativ attributiv form ådna ej stv.
+ådne A_EVEN_AA ; !alternativ attributiv form ådna 
 iedna A_EVEN_0 ;
-binna A_EVEN_0 ; !binna har ingen stadieväxling i komparering
+binna A_EVEN_NOCG_0 ; !fel i plural, rätta
 njállge A_EVEN_B ; 
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
 assá A_EVEN_B ; !attributiv form assás utan stadiev., ej heller i komparering
@@ -41,13 +41,13 @@ vuojnudibme A_EVEN_0 ; !attr. vuojnudis
 bivval A_ODD ;
 basstel A_ODD ;
 dulutj A_ODD ; 
-gassak:gassa A_ODD_K ;  !rätta!
-gullis:gulli A_ODD_SIS ; !rätta!attributiv form gullisis
-suddes A_ODD ; !böjningsstam suddás-
-mårret:mårre A_ODD_DIS ; !rätta..böjningsstam mårred- attr. mårredis
+gassak:gassa A_ODD_K ;  
+gullis:gulli A_ODD_SIS ; 
+suddes:sudd A_ODD_Á ; 
+mårret:mårre A_ODD_DIS ; 
 mällgat:mällga A_ODD_T ; 
-såmes A_ODD ; !böjningsstam såbmás-
-tjáhppat:tjáhppa A_ODD_T ; !rätta till tjähppis
-tjuorak:tjuora A_ODD_k_K ; !böjningsstam tjuorag-
-vuoras A_ODD ; !böjningsstam vuorras-
-åhpes A_ODD ; !böjningsstam åhpás-
+såmes:så A_ODD_B ; 
+tjáhppat:tj A_ODD_T ; 
+tjuorak:tjuora A_ODD_k_K ; 
+vuoras:vuor A_ODD_R ; 
+åhpes:åhp A_ODD_Á ; 

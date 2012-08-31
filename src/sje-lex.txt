@@ -155,7 +155,7 @@ LEXICON RHyph ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
 
 LEXICON N_EVEN_NOCG
 +N: EVENCASE ;
-+N: N_EVEN_W ; ! No CG here
++N: N_EVEN_W ; ! No CG here, ingen stadieväxling
 
 LEXICON N_EVEN
 +N: EVENCASE ;
@@ -239,21 +239,21 @@ LEXICON ODD_OBLIQUE
 LEXICON ODD_OBLIQUE_U
 +Sg+Acc:uv PX ;
 +Sg+Gen:u PX ;
-+Sg+Ill:ij PX ;
-+Sg+Ine:in PX ;
-+Sg+Ela+Use/Sub:is PX ; 
-+Sg+Ela:ist PX ; 
-+Sg+Com:ijn PX ;
-+Ess:in PX ;
++Sg+Ill:uj PX ;
++Sg+Ine:un PX ;
++Sg+Ela+Use/Sub:us PX ; 
++Sg+Ela:ust PX ; 
++Sg+Com:ujn PX ;
++Ess:un PX ;
 +Abe:uhtá PX ;
 +Pl+Nom:u PX ;
-+Pl+Acc:ijt PX ;
-+Pl+Gen:ij PX ;
-+Pl+Ill:ijda PX ;
-+Pl+Ine:ijn PX ;
-+Pl+Ela+Use/Sub:ijs PX ;
-+Pl+Ela:ijst PX ;
-+Pl+Com:ij PX ;
++Pl+Acc:ujt PX ;
++Pl+Gen:uj PX ;
++Pl+Ill:ujda PX ;
++Pl+Ine:ujn PX ;
++Pl+Ela+Use/Sub:ujs PX ;
++Pl+Ela:ujst PX ;
++Pl+Com:uj PX ;
 
 
 ! contracted
@@ -383,7 +383,7 @@ LEXICON PX
 ! ========== !
 
 LEXICON A_EVEN_A
-+A+Attr:WG%>a # ;
++A+Attr:%^WG%>a # ;
 A_EVEN ;
 
 LEXICON A_EVEN_AA
@@ -391,29 +391,42 @@ LEXICON A_EVEN_AA
 A_EVEN ;
 
 LEXICON A_EVEN_E
-+A+Attr:WG%>e # ;
++A+Attr:%^WG%>e # ;
 A_EVEN ;
 
 LEXICON A_EVEN_IES
-+A+Attr:WG%>ies # ;
++A+Attr:%^WG%>ies # ;
 A_EVEN ;
+
 
 LEXICON A_EVEN_B
-+A+Attr:^WG%>s # ;
++A+Attr:%^WG%>s # ;
 A_EVEN ;
-
 
 LEXICON A_EVEN_0
 +A+Attr: # ;
 A_EVEN ;
 
+LEXICON A_EVEN_NOCG_0
++A+Attr: # ;
+A_EVEN_NOCG ;
+
+
+
 LEXICON A_EVEN
 !+A+Attr: # ;
 +A: EVENCASE ;
-+A:^WG N_EVEN_W ; ! CG here
++A:%^WG N_EVEN_W ; ! CG here
++A+Comp+Sg+Nom:%^WGp # ;
++A+Comp:%^WGb ODD_OBLIQUE_U ;
 
-+A+Comp+Nom:^WGp # ;
-+A+Comp:^WGb ODD_OBLIQUE_U ;
+LEXICON A_EVEN_NOCG
++A: EVENCASE ;
++A: N_EVEN_W ; ! No CG here
++A+Comp+Sg+Nom:%>p # ;
++A+Comp:%>b ODD_OBLIQUE_U ;
+
+
 
 
 LEXICON A_ODD
@@ -421,41 +434,63 @@ LEXICON A_ODD
 +A+Sg+Nom: PX ;
 +A: ODD_OBLIQUE ;
 
-+A+Comp+Nom:ap # ;
-+A+Comp:abb ODD_OBLIQUE_U ;
++A+Comp+Sg+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 
+LEXICON A_ODD_B
++A+Attr:mes # ;
++A+Sg+Nom:mes PX ;
++A:bmás ODD_OBLIQUE ;
 
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
+
+LEXICON A_ODD_R
++A+Attr:as # ;
++A+Sg+Nom:as PX ;
++A:ras ODD_OBLIQUE ;
+
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
+
+LEXICON A_ODD_Á
++A+Attr:es # ;
++A+Sg+Nom:es PX ;
++A:ás ODD_OBLIQUE ;
+
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 LEXICON A_ODD_K
-+A+Attr: # ; !rätta detta!
++A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
 +A:g ODD_OBLIQUE ;
 
-+A+Comp+Nom:ap # ;
-+A+Comp:abb ODD_OBLIQUE_U ;
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 
 LEXICON A_ODD_T
-+A+Attr:t # ; !rätta detta, tjähppis
-+A+Sg+Nom:t PX ;
-+A:d ODD_OBLIQUE ;
++A+Attr:ähppis # ; 
++A+Sg+Nom:áhppat PX ;
++A:áhppad ODD_OBLIQUE ;
 
-+A+Comp+Nom:ap # ;
-+A+Comp:abb ODD_OBLIQUE_U ;
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 
 LEXICON A_ODD_SIS
-+A+Attr:sis # ; !rätta detta!
++A+Attr:sis # ; 
 +A+Sg+Nom:s PX ;
 +A:s ODD_OBLIQUE ;
 
-+A+Comp+Nom:ap # ;
-+A+Comp:abb ODD_OBLIQUE_U ;
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 
 LEXICON A_ODD_DIS
-+A+Attr:dis # ; !rätta detta!
++A+Attr:dis # ; 
 +A+Sg+Nom:t PX ;
 +A:d ODD_OBLIQUE ;
 
-+A+Comp+Nom:ap # ;
-+A+Comp:abb ODD_OBLIQUE_U ;
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 
 
 LEXICON A_ODD_k_K
@@ -463,8 +498,8 @@ LEXICON A_ODD_k_K
 +A+Sg+Nom:k PX ;
 +A:g ODD_OBLIQUE ;
 
-+A+Comp+Nom:ap # ;
-+A+Comp:abb ODD_OBLIQUE_U ;
++A+Comp+Nom:up # ;
++A+Comp:ubb ODD_OBLIQUE_U ;
 
 
 ! ===== !
