@@ -65,7 +65,7 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xx:x" 
 Cx:0 <=> Vow: Cx _  Vow:+ (Cns:+) ( Dummy: ) WeG: ;
-     where Cx in ( p t k m n s r l f j v ) ; ! OBS fjerna j pga av ijja, och in igen för ijja
+     where Cx in ( t k m n s r l f j v ) ; ! OBS fjerna j pga av ijja, och in igen för ijja
 
 "Consonant Gradation for xxy:xy" 
 Cx:0 <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
@@ -79,7 +79,7 @@ Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
            Cy in ( j n )  
           matched ;
          
-"Consonant Gradation for hxxy:hxy" 
+"Consonant Gradation for hxxy:hxy" ! ACS: hddj finst inte, httj finst
 Cx:0 <=> h Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( d t )
            Cy in ( j j )  
@@ -101,7 +101,7 @@ Cx:Cy <=> h: _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xN:N" 
 Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-    where Cx in (b t k)
+    where Cx in (b d g)
           Cy in (m n n)
           matched ;
           
