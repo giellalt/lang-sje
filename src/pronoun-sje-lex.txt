@@ -36,31 +36,31 @@ LEXICON pers
 +Pron+Pers+Sg+Ill:unje    K ;
 +Pron+Pers+Sg+Ill:unji    K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Ine:uvne    K ;
++Pron+Pers+Sg+Ine:ujna    K ; !nordlig variant
 +Pron+Pers+Sg+Ela:uvvste  K ; 
 +Pron+Pers+Sg+Ela:uvsste  K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Com:ujna    K ;
 
 +Pron+Pers+Du+Nom:åj      K ;
 +Pron+Pers+Du+Nom:åjå     K ;
-+Pron+Pers+Du+Nom:ååj     K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
-+Pron+Pers+Du+Acc:unuov   K ;
-+Pron+Pers+Du+Gen:unuo    K ;
++Pron+Pers+Du+Acc:unuv   K ;
++Pron+Pers+Du+Gen:unu    K ;
 +Pron+Pers+Du+Ill:unnuj   K ;
-+Pron+Pers+Du+Ine:unuon   K ;
-+Pron+Pers+Du+Ela:unuost  K ;
++Pron+Pers+Du+Ine:unun   K ;
++Pron+Pers+Du+Ela:unust  K ;
 +Pron+Pers+Du+Com:unujn   K ;
 
 +Pron+Pers+Pl+Nom:ij      K ;
 +Pron+Pers+Pl+Nom:ija     K ;
-+Pron+Pers+Pl+Acc:ijáv    K ;
-+Pron+Pers+Pl+Gen:ijá     K ;
-+Pron+Pers+Pl+Ill:ijjaj   K ;
-+Pron+Pers+Pl+Ine:iján    K ;
-+Pron+Pers+Pl+Ela:ijást   K ;
-+Pron+Pers+Pl+Com:ijájn   K ;
++Pron+Pers+Pl+Acc:ijav    K ;
++Pron+Pers+Pl+Gen:ija     K ;
++Pron+Pers+Pl+Ill:ijjij   K ;
++Pron+Pers+Pl+Ine:ijan    K ;
++Pron+Pers+Pl+Ela:ijast   K ;
++Pron+Pers+Pl+Com:ijajn   K ;
 
 +Pron+Pers+Ess+Sg:ånnan # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
-+Pron+Pers+Ess+Du:unnuon # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
++Pron+Pers+Ess+Du:unnun # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
 
 LEXICON Demonstrative
@@ -72,54 +72,72 @@ dat+Pron+Det+Sg+Ine:danne # ;
 dat+Pron+Det+Sg+Ela:daste # ; 
 dat+Pron+Det+Sg+Ela:daste # ; ! kanskje??
 dat+Pron+Det+Sg+Com:dajna # ;
-dat+Pron+Det+Sg+Ess:dánnien # ;
-dat+Pron+Det+Pl+Nom:dah # ;
-dat+Pron+Det+Pl+Nom:daha # ;
-dat+Pron+Det+Pl+Acc:dajd # ;
+dat+Pron+Det+Sg+Ess:danen # ;
+dat+Pron+Det+Pl+Nom:da # ;
+dat+Pron+Det+Pl+Acc:dajt # ;
 dat+Pron+Det+Pl+Gen:daj # ;
 dat+Pron+Det+Pl+Ill:dajda # ;
-dat+Pron+Det+Pl+Ine:dajtne # ;
-dat+Pron+Det+Pl+Ine:dajtne # ; !kanskje?
-dat+Pron+Det+Pl+Ela:dajste # ;
+dat+Pron+Det+Pl+Ine:dajn # ;
+dat+Pron+Det+Pl+Ine:dajdne # ; !kanskje?
+dat+Pron+Det+Pl+Ela:dajst # ;
 dat+Pron+Det+Pl+Ela:dajste # ; !kanskje?
 dat+Pron+Det+Pl+Com:daj # ;
 
 
+dat+Pron+Det+Sg+Nom:dát # ;
+dat+Pron+Det+Sg+Acc:dáv # ;
+dat+Pron+Det+Sg+Gen:dán # ;
+dat+Pron+Det+Sg+Ill:dása # ;
+dat+Pron+Det+Sg+Ine:dánne # ;
+dat+Pron+Det+Sg+Ela:dáste # ; 
+dat+Pron+Det+Sg+Ela:dáste # ; ! kanskje??
+dat+Pron+Det+Sg+Com:dájna # ;
+dat+Pron+Det+Sg+Ess:dánen # ;
+dat+Pron+Det+Pl+Nom:dá # ;
+dat+Pron+Det+Pl+Acc:dájt # ;
+dat+Pron+Det+Pl+Gen:dáj # ;
+dat+Pron+Det+Pl+Ill:dájda # ;
+dat+Pron+Det+Pl+Ine:dájn # ;
+dat+Pron+Det+Pl+Ine:dájdne # ; !kanskje?
+dat+Pron+Det+Pl+Ela:dájst # ;
+dat+Pron+Det+Pl+Ela:dájste # ; !kanskje?
+dat+Pron+Det+Pl+Com:dáj # ;
+
+
 LEXICON Relative
-gie+Pron+Det+Sg+Nom:gie # ;
-gie+Pron+Det+Sg+Acc:giev # ;
-gie+Pron+Det+Sg+Gen:gien # ;
-gie+Pron+Det+Sg+Ill:giesa # ;
-gie+Pron+Det+Sg+Ine:gienne # ;
-gie+Pron+Det+Sg+Ela:gieste # ;
-gie+Pron+Det+Sg+Com:giejna # ;
-gie+Pron+Det+Sg+Ess:giennien # ;
-gie+Pron+Det+Pl+Nom:gieh # ;
-gie+Pron+Det+Pl+Acc:giejd # ;
-gie+Pron+Det+Pl+Gen:giej # ;
-gie+Pron+Det+Pl+Ill:giejda # ;
-gie+Pron+Det+Pl+Ine:giejdne # ;
-gie+Pron+Det+Pl+Ela:giejste # ;
-gie+Pron+Det+Pl+Ela:giejste # ; ! kanskje
-gie+Pron+Det+Pl+Com:giej # ;
+gie+Pron+Det+Sg+Nom:ge # ;
+gie+Pron+Det+Sg+Acc:gev # ;
+gie+Pron+Det+Sg+Gen:gen # ;
+gie+Pron+Det+Sg+Ill:gesa # ;
+gie+Pron+Det+Sg+Ine:gänne # ;
+gie+Pron+Det+Sg+Ela:gässte # ;
+gie+Pron+Det+Sg+Com:gejna # ;
+gie+Pron+Det+Sg+Ess:gännen # ;
+gie+Pron+Det+Pl+Nom:ge # ;
+gie+Pron+Det+Pl+Acc:gejt # ;
+gie+Pron+Det+Pl+Gen:gej # ;
+gie+Pron+Det+Pl+Ill:gejda # ;
+gie+Pron+Det+Pl+Ine:gäjdne # ;
+gie+Pron+Det+Pl+Ela:gäjste # ;
+gie+Pron+Det+Pl+Ela:gäjjste # ; ! kanskje
+gie+Pron+Det+Pl+Com:gej # ;
 
 mij+Pron+Det+Sg+Nom:mij # ;
 mij+Pron+Det+Sg+Acc:mav # ;
-mij+Pron+Det+Sg+Acc:máv # ;
 mij+Pron+Det+Sg+Gen:man # ;
 mij+Pron+Det+Sg+Ill:masa # ;
 mij+Pron+Det+Sg+Ine:manne # ;
-mij+Pron+Det+Sg+Ela:mas'te # ;
+mij+Pron+Det+Sg+Ela:masste # ;
 mij+Pron+Det+Sg+Com:majna # ;
-mij+Pron+Det+Sg+Ess:manien # ;
-mij+Pron+Det+Pl+Nom:mah # ;
-mij+Pron+Det+Pl+Acc:majd # ;
+mij+Pron+Det+Sg+Ess:manen # ;
+mij+Pron+Det+Pl+Nom:ma # ;
+mij+Pron+Det+Pl+Acc:majt # ;
 mij+Pron+Det+Pl+Gen:maj # ;
 mij+Pron+Det+Pl+Ill:majda # ;
 mij+Pron+Det+Pl+Ine:majdne # ;
 mij+Pron+Det+Pl+Ine:majtne # ; !kanskje
 mij+Pron+Det+Pl+Ela:majste # ;
-mij+Pron+Det+Pl+Ela:majste # ; ! kanskje
+mij+Pron+Det+Pl+Ela:majjste # ; ! kanskje
 mij+Pron+Det+Pl+Com:maj # ;
 
 
