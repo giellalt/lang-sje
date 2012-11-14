@@ -1,0 +1,706 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+! ============================= !
+! File containing abbreviations !
+! ============================= !
+
+
+! Lexica for adding tags and periods
+! ----------------------------------
+
+! Splitting in 3 groups, because of the preprocessor
+! - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LEXICON Abbreviation
+ITRAB ;
+TRNUMAB ;
+TRAB ;
+
+! Now splitting according to POS, and according to dot or not
+! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+! First collecting POS info, *-noun, *-adv, etc.
+! Also splitting when in doubt: -noun-adj => -noun and -adj
+! Then pointing to two contlexes, a dot-one and a non-dot-one.
+
+!LEXICON ab ! No POS, don't know what pos
+!ab-nodot ;
+!ab-dot ;
+
+! Some of these POS
+!LEXICON ab-noun-adj
+! ab-noun ;
+! ab-adj ;
+
+LEXICON ab-dot-noun-adj
+ab-dot-noun ;
+ab-dot-adj ;
+
+LEXICON ab-noun
+ab-nodot-noun ;
+ab-dot-noun ;
+
+LEXICON ab-adj
+ab-nodot-adj ;
+ab-dot-adj ;
+
+LEXICON ab-adv
+ab-nodot-adv ;
+ab-dot-adv ;
+
+LEXICON ab-num
+ab-nodot-num ;
+ab-dot-num;
+
+!still not in use.
+!LEXICON ab-cc
+!ab-nodot-cc ;
+!ab-dot-cc ;
+
+
+! Here come POS and Case tags, and no period.
+
+LEXICON ab-nodot-noun ! The bulk
++N+ABBR+Attr: # ; ! no period, that is.
++N+ABBR+Nom: # ; ! no period, that is.
++N+ABBR+Acc:%>%:m # ; ! no period, that is.
++N+ABBR+Gen:%>%:n # ; ! no period, that is.
++N+ABBR+Ill:%>%:se # ; ! no period, that is.
++N+ABBR+Ine:%>%:sne # ; ! no period, that is.
++N+ABBR+Ela:%>%:ste # ; ! no period, that is.
++N+ABBR+Com:%>%:ine # ; ! no period, that is.
++N+ABBR+Ess:%>%:ine # ; ! no period, that is.
++N+ABBR:%> RHyph ;
+
+LEXICON ab-nodot-adj
+!+ABBR: # ; ! no period, that is.
++A+ABBR+Attr: # ; ! no period, that is.
++A+ABBR+Nom: # ; ! no period, that is.
++N+ABBR+Acc:%>%:m # ; ! no period, that is.
++N+ABBR+Gen:%>%:n # ; ! no period, that is.
++N+ABBR+Ill:%>%:se # ; ! no period, that is.
++N+ABBR+Ine:%>%:sne # ; ! no period, that is.
++N+ABBR+Ela:%>%:ste # ; ! no period, that is.
++N+ABBR+Com:%>%:ine # ; ! no period, that is.
++N+ABBR+Ess:%>%:ine # ; ! no period, that is.
++A+ABBR:%> RHyph ;
+
+LEXICON ab-nodot-adv
++Adv+ABBR: # ; ! Adv without case, consider this.
+
+LEXICON ab-nodot-num
++Num+ABBR+Nom: # ; ! no period, that is.
++Num+ABBR:%> RHyph ;
+
+
+! Still not in use.
+!LEXICON ab-nodot-cc
+! +ABBR+CC: # ; ! no period, that is.
+
+! noun the default POS
+!LEXICON ab-nodot ! default
+!+N+ABBR+Attr: # ; ! no period, that is.
+!+N+ABBR+Nom: # ; ! no period, that is.
+!+N+ABBR:%> RHyph ;
+
+
+! Here come POS and Case tags, with the period added.
+
+!LEXICON ab-dot ! Default
+! +ABBR:%. # ;
+!+N+ABBR+Attr:%. # ;
+!+N+ABBR+Nom:%. # ;
+
+LEXICON ab-dot-noun ! This is the lexicon for abbrs that must have a period.
++N+ABBR+Attr:%. # ;
++N+ABBR+Nom:%. # ;
+
+LEXICON ab-dot-adj ! This is the lexicon for abbrs that must have a period.
+! +ABBR:%. # ;
++A+ABBR+Attr:%. # ;
++A+ABBR+Nom:%. # ;
+
+LEXICON ab-dot-adv ! This is the lexicon for abbrs that must have a period.
++Adv+ABBR:%. # ; ! Adv without case.
+
+LEXICON ab-dot-num ! This is the lexicon for abbrs that must have a period.
+! +ABBR:%. # ;
++N+ABBR+Num+Nom:%. # ;
+
+LEXICON ab-dot-cc
++CC+ABBR:%. # ;
+
+! Adding case suffixes to the abbrs in a tentative manner, to test it
+! out. The problem with the original treatment represented by the first,
+! outcommented member of the two lexica) is that especially intransiv
+
+
+! Then, as an afterthought, come our two verbs, gč. and vrd.
+
+!LEXICON ab-verb ! A lexicon for "gč." and perhaps also other abbreviated verbs.
+! ab-dot-verb ;
+! ab-nodot-verb ;
+! Not in use
+LEXICON ab-dot-verb
++V+ABBR+TV+Imprt:%. # ; ! Period.
+
+!LEXICON ab-nodot-verb
+! +ABBR+V+TV+Imprt: # ; ! No period.
+! Not in use.
+
+
+
+
+! The abbreviation lexicon itself
+! -------------------------------
+
+
+
+! =============================================== !
+! Intransitive abbreviations !
+! =============================================== !
+
+LEXICON ITRAB
+
+! List the beginning of the alphabet, !
+! in order to account for numbering !
+! of paragraphs etc. !
+
+1p+Use/Circ:1p ab-noun ; ! !
+2p+Use/Circ:2p ab-noun ; ! !
+3p+Use/Circ:3p ab-noun ; ! !
+a ab-noun ; !adjektiiva !
+a.-g+Use/Circ:a.-g ab-dot-noun; !
+a./g+Use/Circ:a./g ab-dot-noun; !
+abess:abess ab-noun ;
+3-st ab-dot-noun ;
+abl ab-noun ;
+abstr ab-adj ;
+adess ab-noun ;
+adj ab-noun ;
+a.D ab-dot-noun ;
+at ab-dot-noun ;
+can ab-dot-noun ;
+kan ab-dot-noun ;
+adv ab-noun ;
+pred ab-noun ;
+advl ab-noun ;
+affekt ab-noun ;
+akk ab-noun ;
+akt ab-adv ;
+all ab-noun ;
+am ab-dot-adv ; !
+anat ab-dot-adj ; !anatomalaš !
+att ab-noun ;
+attr ab-noun ;
+biol ab-dot-adj ; !
+bot ab-dot-adj ; !
+r ab-dot-adj ; !
+bto ab-dot-adv ; !
+ca ab-dot-adv ; !
+cal ab-noun ; !
+cc ab-dot-adv ; !
+dat ab-dot-noun ;
+d.d ab-dot-adv ; !
+ded ab-dot-noun ; !
+dept ab-dot-noun ; !
+u.b ab-dot-noun ; !
+do ab-dot-adv ; !
+dub ab-dot-adv ;
+dus		ab-dot-adv ;                        !
+ess ab-noun ;
+etc ab-dot-adv ; !
+euf ab-dot-adv ; !
+fac ab-noun ; !
+ff ab-adv ; !
+fin ab-noun ;
+fol ab-dot-adv ; !
+fr ab-noun ; !
+gen ab-noun ;
+geogr ab-dot-adj ; !geografiijas !
+geom ab-dot-adj ; !geometrihkala !š
+ger ab-dot-noun ;
+ggl ab-dot-noun ; !
+gl ab-dot-noun  ; !
+gl.rs ab-dot-noun ; !
+ill ab-noun ;
+imp ab-noun ;
+impers ab-dot-noun ;
+impf ab-noun ;
+imprt ab-noun ;
+ind ab-noun ;
+indekl ab-dot-noun ;
+inf ab-noun ;
+ing ab-dot-noun ; !
+instr ab-noun ;
+interr ab-dot-adj ;
+intr ab-dot-adj ;
+jed ab-dot-adv  ; !
+j.i ab-dot-adv  ;
+js ab-dot-adv  ; !
+jur ab-dot-adj ; !juridihkalaš !
+jv ab-adv ; !
+kom ab-noun ;
+komp ab-noun ;
+kond ab-noun ;
+konj ab-noun ;
+konkr ab-dot-adj; !konkrehta
+Kr ab-noun ; !
+kl ab-dot-noun ;
+lok ab-dot-noun ; !lokatiiva
+lp ab-dot-noun ; !laktapartihkkal
+m ab-noun ;
+m.fl ab-dot-adv  ;
+matem ab-dot-adj ; !matematihkalaš
+milj ab-num ;
+miljo ab-dot-num ;
+mKr ab-dot-noun   ;
+ml ab-noun ;
+p.b ab-dot-noun ;
+mrd ab-num ;
+nom ab-noun ;
+obj ab-noun ;
+od.prp ab-dot-noun   ;
+oKr ab-dot-adv ;
+op.cit ab-dot-noun   ;
+osd ab-dot-noun   ;
+part ab-dot-noun ; !partihkkal
+partit ab-dot-noun ; !partitiiva
+perf ab-dot-noun   ;
+pf ab-dot-noun   ;
+phil ab-dot-noun   ;
+pl ab-dot-noun   ;
+postp ab-dot-noun ;
+pot ab-noun ;
+pr ab-dot-adv ;
+prep ab-dot-noun ;
+pres ab-noun ;
+pret ab-noun ;
+prf ab-dot-noun   ;
+pron ab-dot-noun ;
+prot ab-dot-noun   ;
+prs ab-dot-noun ;
+prt ab-noun ;
+prv ab-dot-noun   ;
+pst ab-noun ;
+refl ab-adj ;
+rel ab-dot-noun ;
+relat ab-dot-adj ; !relatiiva
+relig ab-dot-noun ;
+res ab-dot-noun   ;
+ru ab-dot-noun   ;
+s.v ab-dot-adv ;
+sek ab-noun ;
+sg ab-dot-noun   ;
+sl ab-dot-adv ;
+spd ab-dot-noun ;
+Spd ab-dot-noun ; !
+stip ab-dot-noun ;
+subj ab-noun ;
+subst ab-noun ;
+sup ab-dot-noun ;
+tabl ab-dot-noun ;
+tan ab-noun ; !tangeansa
+temp ab-dot-noun ; !temporála
+trans ab-dot-noun ;
+transl ab-dot-noun ;
+
+
+
+! ============================================================ !
+! Abreviations who are transitive in front of numerals !
+! ============================================================ !
+
+LEXICON TRNUMAB
+! For abbrs for which numerals are complements, but other
+! words not necessarily are. This group treats arabic numerals as
+! if it were transitive but letters as if it were intransitive.
+! TODO: Bug the fact that these abbrs do not distinguish between
+! cap and small letters, whereast he ITRAB ones do.
+
+
+
+Apd ab-dot-noun   ; !
+Bnr ab-dot-noun ; !
+Gnr ab-noun ; !
+Kommunenr ab-dot-noun ;
+Pb ab-noun ; ! Postbox
+Postnr ab-dot-noun ;
+Rt ab-dot-noun   ; !
+S.nr ab-noun ; !
+O.nr ab-noun ; !
+alm ab-dot-adj ; !
+bnr ab-noun ; !
+fnr ab-noun ;
+gnr ab-dot-noun ; !
+jnr ab-dot-noun ; !
+kapp ab-dot-noun ; !
+kr ab-noun ; !
+nr ab-noun ; ! Nr nicht !
+s ab-noun ; !
+tab ab-noun ; ! or: Add capital Tab. !
+tlf ab-dot-noun ; !
+vnr ab-dot-noun ; !
+konv ab-dot-noun ;
+ILO-konv:ILO%-konv ab-dot-noun ;
+
+
+
+! =============================================== !
+! Transitive abbreviations !
+! =============================================== !
+
+LEXICON TRAB
+! For abbrs that always have a constituent following it.
+
+! from here pointing to two types of TRAB:
+! TRAB heads (gč. ...) here called h-ab and h-ab-dot
+! TRAB attributes (St. ...) here called ab and ab-dot or at-ab?
+
+!
+!Od ab-dot-noun   ; !
+1.aman ab-dot-noun ; ! !1.amanuensis
+Adr ab-dot-noun ; !Adreassa
+aman ab-dot-noun ; !amanuenssa
+anár ab-dot-adj ; !anársámegiella
+art ab-dot-noun ; !artihkkal, artium
+ass ab-dot-noun ; !assisteanta, assortemeanta
+adr ab-dot-noun ; !adreassa
+avd ab-dot-noun ; !
+avd.dir ab-dot-noun ; !
+Avd.dir ab-dot-noun   ; !Advelingsdirektør
+bd ab-dot-noun ; !
+biht ab-dot-noun ; !
+Bj ab-dot-noun ; !Bjørn, Bjarne
+bbl ab-noun ; !Bargobirašláhka
+bnr ab-dot-noun ;
+bs ab-dot-verb ;
+bv ab-dot-noun ;
+cand.mag ab-dot-noun ; !
+cand.oecon ab-dot-noun ; !
+cand.philol ab-dot-noun ; !
+cand.real ab-dot-noun ; !
+cand.scient ab-dot-noun ; !
+cand.theol ab-dot-noun ; !
+cand ab-dot-noun ; !
+Chr ab-dot-noun   ; !Christian
+d.l ab-dot-noun ; !
+Dep ab-dot-noun   ; !Departemeantta
+dipl.ing ab-dot-noun ; !
+dipl.ins ab-dot-noun ; !
+dir ab-dot-noun ; !direktevra
+dr ab-dot-noun ; !doktor
+dr.art ab-dot-noun ; !doktor artium
+dr.med ab-dot-noun ; !
+dr.philos ab-dot-noun ; !
+dr.theol ab-dot-noun ; !
+gl.res ab-dot-noun ;
+al ab-dot-noun ;
+pers ab-dot-noun ;
+gt ab-dot-noun ;
+mus ab-dot-noun ;
+Jak ab-dot-noun ;
+kat ab-dot-noun ;
+korr ab-dot-noun ;
+kto ab-dot-noun ;
+lab ab-dot-noun ;
+lat ab-dot-noun ;
+log ab-dot-noun ;
+med ab-dot-noun ;
+miner ab-dot-noun ;
+mod ab-dot-noun ;
+neg ab-dot-noun ;
+nto ab-dot-noun ;
+obsol ab-dot-noun ;
+op ab-dot-noun ;
+ord ab-dot-noun ;
+pa ab-dot-noun ;
+par ab-dot-noun ;
+part.prf ab-dot-noun ;
+pass ab-dot-noun ;
+pic ab-noun ;
+pm ab-dot-noun ;
+pos ab-dot-noun ;
+post ab-dot-noun ;
+pp ab-dot-noun ;
+pt ab-dot-noun ;
+pts ab-dot-noun ;
+tlg ab-dot-noun ;
+reg ab-dot-noun ;
+rek ab-dot-noun ;
+sic ab-dot-noun ;
+st ab-dot-noun ;
+vol ab-dot-noun ;
+vulg ab-dot-noun ;
+st.prp ab-dot-noun ;
+Edv ab-dot-noun ; !Edvard
+ex ab-noun ; !
+fax ab-dot-noun ;
+fenr ab-dot-noun ; !
+fig ab-dot-noun   ; !
+Gnr ab-dot-noun ;
+gen.lt ab-dot-noun ; !
+genr ab-dot-noun ; !
+genr.lt ab-dot-noun ; !
+germ ab-dot-adj   ; !
+H.K.H ab-dot-noun   ; !Hans/hennes kongelige høyhet
+H.M ab-dot-noun   ; !Hans/hennes majestet
+h.r.adv ab-dot-noun   ; !
+hr ab-dot-noun   ; !
+inkl ab-dot-adj ; !
+Innst ab-dot-noun   ; !Innstilling
+i.s ab-dot-adv ;
+isl ab-dot-noun   ; !
+Joh:Joh ab-noun ; !Johannes
+Johs ab-dot-noun ; !Johannes
+juovlam ab-dot-noun ; !
+kapt ab-dot-noun ; !
+kard ab-dot-noun ; !
+koord ab-dot-noun ; !
+korp ab-dot-noun ; !
+korpr ab-dot-noun ; !
+Kr ab-dot-noun ; !Kristian, Kristin, Kristus
+lekt ab-dot-noun ; !
+lic ab-dot-noun ; !
+lnr ab-dot-noun   ; !
+ltn ab-dot-noun ; !
+Luk ab-noun ; !Lukas
+lul ab-dot-noun   ; !lullisámegiela, lulesamisk
+mag ab-dot-noun   ; !
+mag.art ab-dot-noun ; !
+merc ab-dot-noun   ; !
+milj ab-dot-num ; !
+mr ab-dot-noun   ; !
+Mr ab-dot-noun ; !
+mrs ab-dot-noun   ; !
+Mrs ab-dot-noun ; !
+ms ab-dot-noun   ; !
+Ms ab-dot-noun ; !
+obl ab-dot-adj   ; !
+oblt ab-dot-noun   ; !
+Od.prop ab-dot-noun ; !Odeldikkeproposišuvdna
+Od.prp ab-dot-noun ; !Odeldikkeproposišuvdna
+Od.prp.nr ab-dot-noun ; !
+odont ab-dot-noun ; !
+oecon ab-dot-noun   ; !
+ordf ab-dot-noun ; !ordførar
+Ot ab-dot-noun ; !
+Ot.prop ab-noun ; !
+Ot.prop.nr ab-noun ; !Odelstingsproposisjon nummer
+Ot.prp ab-noun ; !
+Ot.prp.nr ab-noun ; !Odelstingsproposisjon nummer
+Oth.prop ab-noun ; !h?
+Oth.prp ab-noun ; !
+Oth ab-dot-noun ; !
+overs ab-dot-noun   ; !oversatt, oversetter
+ped ab-dot-noun   ; !padagoga, pedagogihkka, pedagogalaš
+pharm ab-dot-adj ; !
+philol ab-dot-noun   ; !
+pol ab-dot-adj ; !
+polit ab-dot-adj ; !
+priv ab-dot-adj ; !
+pro ab-noun ; !
+prof ab-dot-noun ; !
+prp ab-dot-noun   ; !
+psychol ab-dot-noun ; !
+psyk ab-dot-adj ; !
+red ab-dot-noun ; !
+res.kap ab-dot-noun ; !
+resipr ab-dot-adj ; !resiprohka TRAB or ITRAB?
+Rom ab-noun ; !Girje romalaččaide
+Seb ab-dot-noun ; !Sebastian, Sebedeus
+spes.ped ab-dot-noun ; !spesiála
+St ab-noun ; !
+St.meld ab-noun ; !
+St.meld.nr ab-noun ; !
+St.nr ab-noun ; !
+St.prp ab-noun ; !Stortingsproposisjon
+St.prp.nr ab-noun ; !Stortingsproposisjon nummer
+stud ab-dot-noun ; !
+stud.philol ab-dot-noun ; !
+su ab-dot-adv ; ! sullii
+sugr ab-dot-adj ; !suoma-ugralaš
+tel ab-dot-noun ;
+tlf ab-dot-noun ;
+vit.ass ab-dot-noun ; !
+vs ab-dot-cc ; !
+
+! Here comes the initials
+! They are found in names etc.
+! Removed the -dot from this lexicon, the
+! periods are stripped from the preprocessor anyway.
+
+
+
+! Here comes the initials
+! They are found in names etc.
+! Removed the -dot from this lexicon, the
+! periods are stripped from the preprocessor anyway.
+A+Use/-Spell:A ab-nodot-noun; !
+B+Use/-Spell:B ab-nodot-noun; !
+C+Use/-Spell:C ab-nodot-noun; !
+D+Use/-Spell:D ab-nodot-noun; !
+E+Use/-Spell:E ab-nodot-noun; !
+F+Use/-Spell:F ab-nodot-noun; !
+G+Use/-Spell:G ab-nodot-noun; !
+H+Use/-Spell:H ab-nodot-noun; !
+I+Use/-Spell:I ab-nodot-noun; !
+J+Use/-Spell:J ab-nodot-noun; !
+K+Use/-Spell:K ab-nodot-noun; !
+L+Use/-Spell:L ab-nodot-noun; !
+M+Use/-Spell:M ab-nodot-noun; !
+N+Use/-Spell:N ab-nodot-noun; !
+O+Use/-Spell:O ab-nodot-noun; !
+P+Use/-Spell:P ab-nodot-noun; !
+Q+Use/-Spell:Q ab-nodot-noun; !
+R+Use/-Spell:R ab-nodot-noun; !
+S+Use/-Spell:S ab-nodot-noun; !
+T+Use/-Spell:T ab-nodot-noun; !
+U+Use/-Spell:U ab-nodot-noun; !
+V+Use/-Spell:V ab-nodot-noun; !
+W+Use/-Spell:W ab-nodot-noun; !
+X+Use/-Spell:X ab-nodot-noun; !
+Y+Use/-Spell:Y ab-nodot-noun; !
+Z+Use/-Spell:Z ab-nodot-noun; !
+Æ+Use/-Spell:Æ ab-nodot-noun; !
+Ø+Use/-Spell:Ø ab-nodot-noun; !
+Å+Use/-Spell:Å ab-nodot-noun; !
+Ä+Use/-Spell:Ä ab-nodot-noun; !
+Ö+Use/-Spell:Ö ab-nodot-noun; !
+Č+Use/-Spell:Č ab-nodot-noun; !
+Š+Use/-Spell:Š ab-nodot-noun; !
+Ž+Use/-Spell:Ž ab-nodot-noun;
+Ŧ+Use/-Spell:Ŧ ab-nodot-noun;
+Đ+Use/-Spell:Đ ab-nodot-noun;
+Ŋ+Use/-Spell:Ŋ ab-nodot-noun;
+Á+Use/-Spell:Á ab-nodot-noun;
+
+ž+Use/-Spell+CmpN/First:ž ab-nodot-noun;
+á+Use/-Spell+CmpN/First:á ab-nodot-noun;
+ŋ+Use/-Spell+CmpN/First:ŋ ab-nodot-noun;
+đ+Use/-Spell+CmpN/First:đ ab-nodot-noun;
+ŧ+Use/-Spell+CmpN/First:ŧ ab-nodot-noun;
+a+Use/-Spell+CmpN/First:a ab-nodot-noun; !
+b+Use/-Spell+CmpN/First:b ab-nodot-noun; !
+c+Use/-Spell+CmpN/First:c ab-nodot-noun; !
+d+Use/-Spell+CmpN/First:d ab-nodot-noun; !
+e+Use/-Spell+CmpN/First:e ab-nodot-noun; !
+f+Use/-Spell+CmpN/First:f ab-nodot-noun; !
+g+Use/-Spell+CmpN/First:g ab-nodot-noun; !
+h+Use/-Spell+CmpN/First:h ab-nodot-noun; !
+i+Use/-Spell+CmpN/First:i ab-nodot-noun; !
+j+Use/-Spell+CmpN/First:j ab-nodot-noun; !
+k+Use/-Spell+CmpN/First:k ab-nodot-noun; !
+l+Use/-Spell+CmpN/First:l ab-nodot-noun; !
+m+Use/-Spell+CmpN/First:m ab-nodot-noun; !
+n+Use/-Spell+CmpN/First:n ab-nodot-noun; !
+o+Use/-Spell+CmpN/First:o ab-nodot-noun; !
+p+Use/-Spell+CmpN/First:p ab-nodot-noun; !
+q+Use/-Spell+CmpN/First:q ab-nodot-noun; !
+r+Use/-Spell+CmpN/First:r ab-nodot-noun; !
+s+Use/-Spell+CmpN/First:s ab-nodot-noun; !
+t+Use/-Spell+CmpN/First:t ab-nodot-noun; !
+u+Use/-Spell+CmpN/First:u ab-nodot-noun; !
+v+Use/-Spell+CmpN/First:v ab-nodot-noun; !
+w+Use/-Spell+CmpN/First:w ab-nodot-noun; !
+x+Use/-Spell+CmpN/First:x ab-nodot-noun; !
+y+Use/-Spell+CmpN/First:y ab-nodot-noun; !
+z+Use/-Spell+CmpN/First:z ab-nodot-noun; !
+æ+Use/-Spell+CmpN/First:æ ab-nodot-noun; !
+ø+Use/-Spell+CmpN/First:ø ab-nodot-noun; !
+å+Use/-Spell+CmpN/First:å ab-nodot-noun; !
+ä+Use/-Spell+CmpN/First:ä ab-nodot-noun; !
+ö+Use/-Spell+CmpN/First:ö ab-nodot-noun; !
+č+Use/-Spell+CmpN/First:č ab-nodot-noun; !
+š+Use/-Spell+CmpN/First:š ab-nodot-noun; !
+
+
+A+Use/-Spell:A ab-dot-noun; !
+B+Use/-Spell:B ab-dot-noun; !
+C+Use/-Spell:C ab-dot-noun; !
+D+Use/-Spell:D ab-dot-noun; !
+E+Use/-Spell:E ab-dot-noun; !
+F+Use/-Spell:F ab-dot-noun; !
+G+Use/-Spell:G ab-dot-noun; !
+H+Use/-Spell:H ab-dot-noun; !
+I+Use/-Spell:I ab-dot-noun; !
+J+Use/-Spell:J ab-dot-noun; !
+K+Use/-Spell:K ab-dot-noun; !
+L+Use/-Spell:L ab-dot-noun; !
+M+Use/-Spell:M ab-dot-noun; !
+N+Use/-Spell:N ab-dot-noun; !
+O+Use/-Spell:O ab-dot-noun; !
+P+Use/-Spell:P ab-dot-noun; !
+Q+Use/-Spell:Q ab-dot-noun; !
+R+Use/-Spell:R ab-dot-noun; !
+S+Use/-Spell:S ab-dot-noun; !
+T+Use/-Spell:T ab-dot-noun; !
+U+Use/-Spell:U ab-dot-noun; !
+V+Use/-Spell:V ab-dot-noun; !
+W+Use/-Spell:W ab-dot-noun; !
+X+Use/-Spell:X ab-dot-noun; !
+Y+Use/-Spell:Y ab-dot-noun; !
+Z+Use/-Spell:Z ab-dot-noun; !
+Æ+Use/-Spell:Æ ab-dot-noun; !
+Ø+Use/-Spell:Ø ab-dot-noun; !
+Å+Use/-Spell:Å ab-dot-noun; !
+Ä+Use/-Spell:Ä ab-dot-noun; !
+Ö+Use/-Spell:Ö ab-dot-noun; !
+Č+Use/-Spell:Č ab-dot-noun; !
+Š+Use/-Spell:Š ab-dot-noun; !
+Ž+Use/-Spell:Ž ab-dot-noun;
+Ŧ+Use/-Spell:Ŧ ab-dot-noun;
+Đ+Use/-Spell:Đ ab-dot-noun;
+Ŋ+Use/-Spell:Ŋ ab-dot-noun;
+Á+Use/-Spell:Á ab-dot-noun;
+
+ž+Use/-Spell:ž ab-dot-noun;
+á+Use/-Spell:á ab-dot-noun;
+ŋ+Use/-Spell:ŋ ab-dot-noun;
+đ+Use/-Spell:đ ab-dot-noun;
+ŧ+Use/-Spell:ŧ ab-dot-noun;
+a+Use/-Spell:a ab-dot-noun; !
+b+Use/-Spell:b ab-dot-noun; !
+c+Use/-Spell:c ab-dot-noun; !
+d+Use/-Spell:d ab-dot-noun; !
+e+Use/-Spell:e ab-dot-noun; !
+f+Use/-Spell:f ab-dot-noun; !
+g+Use/-Spell:g ab-dot-noun; !
+h+Use/-Spell:h ab-dot-noun; !
+i+Use/-Spell:i ab-dot-noun; !
+j+Use/-Spell:j ab-dot-noun; !
+k+Use/-Spell:k ab-dot-noun; !
+l+Use/-Spell:l ab-dot-noun; !
+m+Use/-Spell:m ab-dot-noun; !
+n+Use/-Spell:n ab-dot-noun; !
+o+Use/-Spell:o ab-dot-noun; !
+p+Use/-Spell:p ab-dot-noun; !
+q+Use/-Spell:q ab-dot-noun; !
+r+Use/-Spell:r ab-dot-noun; !
+s+Use/-Spell:s ab-dot-noun; !
+t+Use/-Spell:t ab-dot-noun; !
+u+Use/-Spell:u ab-dot-noun; !
+v+Use/-Spell:v ab-dot-noun; !
+w+Use/-Spell:w ab-dot-noun; !
+x+Use/-Spell:x ab-dot-noun; !
+y+Use/-Spell:y ab-dot-noun; !
+z+Use/-Spell:z ab-dot-noun; !
+æ+Use/-Spell:æ ab-dot-noun; !
+ø+Use/-Spell:ø ab-dot-noun; !
+å+Use/-Spell:å ab-dot-noun; !
+ä+Use/-Spell:ä ab-dot-noun; !
+ö+Use/-Spell:ö ab-dot-noun; !
+č+Use/-Spell:č ab-dot-noun; !
+š+Use/-Spell:š ab-dot-noun; !
