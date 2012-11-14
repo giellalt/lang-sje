@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-    Multichar_Symbols
+Multichar_Symbols
 
 ! POS
 +N +V +A 
@@ -90,9 +90,3 @@ LEXICON Root
  Punctuation ;
  Subjunction ;
  Verb ;
-
-
-
-
-
-
