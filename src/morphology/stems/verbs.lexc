@@ -1,0 +1,398 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+
+
+
+LEXICON LE
+
+le+V+Ind+Prs: LEPRS ; 
+le+V+Ind+Prt: LEPRT ; 
+le+V+Ind+Pot: LEPOT ;
+le+V+PrfPrc:lam # ;
+
+LEXICON LEPRS
++Sg1:läv # ; 
++Sg1:lev # ; 
++Sg2:lä # ;  
++Sg3:lä # ; 
++Sg3:le # ; 
++Du1:lin # ; 
++Du1:len # ; 
++Du2:lihpen # ; 
++Du2:lähpen # ;  
++Du3:läbá # ; 
++Pl1:läp # ; 
++Pl1:lip # ; 
++Pl1:lep # ; 
++Pl2:lihpit # ; 
++Pl2:lehpit # ; 
++Pl3:lin # ; 
++Pl3:lä # ;
+
+LEXICON LEPRT
++Sg1:lijjiv    # ; 
++Sg1:lijiv    # ;  
++Sg2:lijji    # ; 
++Sg2:liji    # ;  
++Sg3:lij    # ; 
++Du1:lijmen # ; 
++Du1:lijmin # ; 
++Du2:lijden # ; 
++Du3:lijga # ; 
++Pl1:lijme # ; 
++Pl2:lijde # ; 
++Pl3:lidjin    # ;  
++Pl3:lijjin    # ; 
++Pl3:lin    # ; 
+
+LEXICON LEPOT
++Sg1:litjav # ; 
++Sg2:litjah # ; 
++Sg3:litj # ; 
++Du1:litjin # ; 
++Du2:litjapiehtien # ; 
++Du3:litjapah # ; 
++Du3:litjapan # ; 
++Pl1:litjap # ; 
++Pl2:litjapiht # ; 
++Pl2:litjapihtit # ; 
++Pl3:litjih # ; 
+
+
+LEXICON ATJA
+atja+V+Ind+Prs: ATJAPRS ; 
+atja+V+Ind+Prt: ATJAPRT ; 
+
+
+LEXICON ATJAPRS
++Sg1:atjav      # ; 
++Sg2:atjah      # ; 
++Sg3:atja       # ; 
++Du1:itjin      # ; 
++Du2:atjabihten # ; 
++Du3:atjaba     # ; 
++Pl1:atjap      # ; 
++Pl2:atjabihtit # ; 
++Pl3:itjih      # ; 
+
+LEXICON ATJAPRT
++Sg1:itjiv    # ; 
++Sg2:itjih    # ; 
++Sg3:atjaj    # ; 
++Du1:atjajmen # ; 
++Du2:atjajden # ; 
++Du3:atjajgan # ; 
++Pl1:atjajmeh # ; 
++Pl2:atjajdeh # ; 
++Pl3:itjin    # ; 
+
+LEXICON IJ
++V+Neg+Prs: IJPRS ;
++V+Neg+Prt: IJPRT ;
++V+Neg+Imprt: IJIMP ;
++V+Neg+Opt: IJOPT ;
+
+LEXICON IJPRS
++Sg1:iv    # ; 
++Sg2:i    # ; 
++Sg3:ij    # ; 
++Du1:en # ; 
++Du2:ehpen # ;   
++Du3:ieba # ; 
++Du3:eba # ; 
++Pl1:iehpe # ; 
++Pl1:ep # ; 
++Pl2:ehpit # ;  
++Pl3:ie   # ;
++Pl3:e   # ;
+
+LEXICON IJPRT
++Sg1:idtjiv    # ; 
++Sg2:idtji    # ; 
++Sg3:idtjij    # ; 
++Du1:ejme # ; 
++Du1:idtjijme # ; 
++Du2:ejde  # ; 
++Du2:idtjijde # ; 
++Du3:ejga # ; 
++Du3:idtjijga # ; 
++Pl1:ejme # ; 
++Pl1:idtjijme # ; 
++Pl2:ejde # ; 
++Pl2:idtjijde # ; 
++Pl3:idtjin    # ;
+
+
+LEXICON IJIMP
++Sg2:iele  # ;
++Du2:iellen # ; 
++Du3:iellit  # ;
+                        
+LEXICON IJOPT                      
++Sg1:alluv    # ;
++Sg2:alluh    # ;
++Sg3:allus    # ;
++Du1:iellun   # ;
++Du1:allun    # ;
++Du2:ielluten # ;
++Du2:alluten  # ;
++Du3:ielluska # ;
++Du3:alluska  # ;
++Pl1:iellup   # ;
++Pl1:allup    # ;
++Pl2:ielluteh # ;
++Pl2:alluteh  # ;
++Pl3:ielluseh # ;
++Pl3:alluseh  # ;
+
+
+
+LEXICON Verb
+
+ LE "vara" ;
+
+ ATJA "skola" ; 
+ IJ "inte" ;
+
+nammadit:nammad2 NAMMADIT "kalla någon vid namn" ; 
+
+båhtet:båht BÅHTET "komma" ; ! JL ie
+
+vuoddjat:vuoddj BALLAT ; ! JL a
+mannat:mann BALLAT ; 
+
+vuällget:vuällg BÅHTET ; 
+båhttjet:båhttj BÅHTET ; 
+basset:bass BÅHTET ; 
+
+släddjit:släddji V_CONTR ; 
+málestit:málest2 NAMMADIT ; 
+
+jåhkot:jåhk ÅRROT ; ! JL uo
+bårrot:bårr ÅRROT ; 
+
+vessot:vess VESSOT "leva, må" ;
+
+årrot:årr ÅRROT "bo, vara" ;
+
+
+
+! -----------
+
+
+!bal&#8217;lát:bal&#8217;lát "bli rädd" ; 
+!bal’lát:bal’lát "bli rädd" ; 
+!gur&#8217;rit:gur&#8217;ri V_CONTR "klättra" ; 
+!gur’rit:gur’ri V_CONTR "klättra" ; 
+!tsábmestuvvut:tsábmestuvvut  "v bli slagen" ; 
+
+adnalit:adnal NAMMADIT "greppa" ; 
+adnet:adn BÅHTET "n ha, äga (inij han hade, ägde)" ;
+ájttsat:ájtts BALLAT " jts upptäcka" ;
+állget:állg BÅHTET "lg börja (äddne älgij mor började)" ;
+balkestit:balkest2 NAMMADIT "kasta" ; 
+ballat:ball BALLAT "l  vara rädd" ;
+basset:bass BÅHTET "s steka" ;
+biehttot:biehtt ÅRROT "ht förmana, avråda"  ; 
+biejjat:biejj BALLAT "j sätta, lägga, ställa" ;
+bieljeduhtet:bieljeduht BÅHTET "ht  göra döv" ;
+bivddet:bivdd BÅHTET "vd fånga, jaga, fiska" ;
+bruvkkut:bruvkku V_CONTR "bruka, ha för vana (bruvkkujin dahkat de brukade göra)" ; 
+bulligåhtet:bulligåht BÅHTET "d börja brinna" ;
+buollet:buoll BÅHTET "l  brinna" ;
+bádjat:bádj BALLAT "j låta" ;
+báhtarit:báhtar NAMMADIT "fly" ; 
+báhtset:báhts BÅHTET "ts stanna, bli kvar (härgge bätsij härken stannade)" ;
+bájttet:bájtt BÅHTET "jt skina" ;
+bállet:báll BÅHTET "l gräva" ;
+bähttet:bähtt BÅHTET "ht  lura" ;
+båhtet:båht BÅHTET "d  komma" ;
+båhtjet:båhtj BÅHTET "tj mjölka" ;
+dahkat:dahk BALLAT "g göra, tillverka" ;
+dibddet:dibdd BÅHTET " bd låta" ;
+didnadit:didnad2 NAMMADIT "skrika, ropa" ; 
+diehtet:dieht BÅHTET "d veta" ;
+dulvvit:dulvvi V_CONTR "få högvatten"  ; 
+durrut:durru V_CONTR "börja strida" ; 
+dádjadit:dádjad2 NAMMADIT "förstå" ;
+dárbahit:dárbah2 NAMMADIT "behöva" ; 
+dåbddåt:dåbdd LÅHKÅT "bd känna, känna igen" ; 
+fierrat:fierr BALLAT "r drunkna" ;
+färrut:färru V_CONTR "fara" ; 
+gahtjat:gahtj BALLAT "tj fråga" ;
+gallgat:gallg BALLAT "skall (verb)" ;
+gatjadit:gatjad2 NAMMADIT "fråga" ; 
+gijttalit:gijttal NAMMADIT "tacka" ; 
+gilljot:gillj ÅRROT "lj skrika, gassta"  ; 
+grävvit:grävvi V_CONTR "begrava"  ; 
+gullat:gull BALLAT "l höra" ;
+gulldalit:gulldal NAMMADIT "lyssna" ; 
+guohtot:guoht ÅRROT "d beta"  ; 
+guohtsalit:guohtsal NAMMADIT "springa (om fyrfota djur)" ; 
+guohtsat:guohts BALLAT "ts klättra" ;
+guovllat:guovll BALLAT "vl titta, kika" ;
+gáhtot:gáht ÅRROT "d försvinna"  ; 
+gállet:gáll BÅHTET "l vada" ;
+gávdnat:gávdn BALLAT "dn hitta, finna" ;
+gávnadit:gávnad2 NAMMADIT "träffas" ; 
+gävdnut:gävdnu V_CONTR "finnas" ; 
+gåhtjoduvvat:gåhtjoduvvat BALLAT "v kallas" ;
+gåhttjot:gåhttj ÅRROT "htj kalla, benämna"  ; 
+habsádallat:habsádall BALLAT "l  lukta" ;
+håhkkånit:håhkkån NAMMADIT "dö" ; 
+hållåt:håll LÅHKÅT "l säga" ; 
+jahttet:jahtt BÅHTET "ht säga" ;
+juojgadit:juojgad2 NAMMADIT "jojka något eller någon?" ;
+juajggat:juajgg BALLAT "jg jojka" ;
+jábmet:jábm BÅHTET "m dö" ;
+jáhkket:jáhkk BÅHTET "hk tro" ;
+jávestit:jávest2 NAMMADIT "täcka över med jord" ; 
+jåhtet:jåht BÅHTET "d flytta" ;
+jårgedit:jårged2 NAMMADIT "vända sig" ; 
+lieradit:lierad2 NAMMADIT "lära ut, undervisa" ; 
+lierrat:lierr BALLAT "r lära sig" ;
+lierrit:lierri V_CONTR "lära sig"  ; 
+livudahttet:livudahtt BÅHTET "ht få att vila" ;
+livvadit:livvad2 NAMMADIT "ligga och vila (om djur)" ; 
+lávllot:lávll ÅRROT "vl sjunga"  ; 
+láđđat:láđđ BALLAT "đ anfalla" ;
+lägit:lägi V_CONTR "laga"  ; 
+lågådit:lågåd2 NAMMADIT "låta någon läsa" ; 
+låhkågåhtet:låhkågåht BÅHTET "d  börja läsa" ;
+låhkåt:låhk LÅHKÅT "g läsa" ; 
+mannat:mann BALLAT "n gå, fara" ;
+máhttet:máhtt BÅHTET "ht kunna" ;
+mujttalit:mujttal NAMMADIT "berätta" ; 
+mujttát:mujttá V_CONTR "komma ihåg" ;
+mujttet:mujtt BÅHTET "jt minnas" ; 
+njuovvat:njuovv BALLAT "v flå" ;
+närridallat:närridall BALLAT "l  bli retad" ;
+närrit:närri V_CONTR "retas"  ; 
+nåjddot:nåjdd ÅRROT "jd göra nåjdkonster (sija nujddun de gjorde nåjdkonster)"  ; 
+rekknut:rekknu V_CONTR "räkna" ; 
+riegádit:riegád2 NAMMADIT "födas" ; 
+ruojadit:ruojad2 NAMMADIT "skrika, vråla" ;
+räjdnuhit:räjdnuh2 NAMMADIT "valla renar" ; 
+råggåstit:råggåst2 NAMMADIT "rycka upp, bända upp" ; 
+råhkat:råhk BALLAT "be" ;
+råhkålit:råhkål NAMMADIT "be" ; 
+råhkåstallat:råhkåstall BALLAT "l tillbedja" ;
+råhkåt:råhk LÅHKÅT "g be en bön" ; 
+sihtat:siht BALLAT "d  vilja" ;
+sjaddat:sjadd BALLAT "dd bli, växa" ;
+sjivnnjedit:sjivnnjed2 NAMMADIT "(religiös) skapa" ; 
+skáladit:skálad2 NAMMADIT "stångas (om kämpande rentjurar vid brunst)" ; 
+skånårdit:skånård2 NAMMADIT "beta i lugn och ro" ; 
+slábmat:slábm BALLAT "m falla ihop" ;
+stivrrit:stivrri V_CONTR "styra"  ; 
+stávadit:stávad2 NAMMADIT "stava" ; 
+subtsastallat:subtsastall BALLAT "l  berätta" ;
+subtsastit:subtsast2 NAMMADIT "berätta" ; 
+sviŋgodit:sviŋgod2 NAMMADIT "röra sig (om träd)" ; 
+sviŋŋgat:sviŋŋg BALLAT "ŋg röra sig (om träd)" ;
+sviŋŋgájdallat:sviŋŋgájdall BALLAT "l röra sig (om träd)" ;
+svärrut:svärru V_CONTR "svara" ; 
+sáŋardit:sáŋard2 NAMMADIT "sakna" ; 
+såggot:sågg ÅRROT "gg dö, omkomma"  ; 
+såjttet:såjtt BÅHTET "jt  råka (inträffa)" ;
+tjassket:tjassk BÅHTET "sk kasta" ;
+tjuggit:tjuggi V_CONTR "sticka"  ; 
+tjuhkkit:tjuhkki V_CONTR "samla, föra ihop"  ; 
+tjuodtjot:tjuodtj ÅRROT "dtj stå"  ; 
+tjuojggat:tjuojgg BALLAT "jg åka skidor" ;
+tjágŋat:tjágŋ BALLAT "ŋ krypa in" ;
+tjáhtjet:tjáhtj BÅHTET "tj peka med fingret" ;
+tjállet:tjáll BÅHTET "l skriva" ;
+tjátjástallat:tjátjástall BALLAT "l peka med fingret" ;
+tjågget:tjågg BÅHTET "gg samla" ;
+tjåhkkåhit:tjåhkkåh2 NAMMADIT "sitta" ; 
+tsábmestit:tsábmest2 NAMMADIT "slå ner" ; 
+usjudit:usjud2 NAMMADIT "tänka" ; 
+vaddet:vadd BÅHTET "dd ge" ;
+verttit:vertti V_CONTR "vara tvungen"  ; 
+viehkedit:viehked2 NAMMADIT "hjälpa" ; 
+vierrodallat:vierrodall BALLAT "l offra" ;
+vierrodit:vierrod2 NAMMADIT "offra" ; 
+viessot:viess ÅRROT "s leva, må"  ; 
+vuäjdnet:vuäjdn BÅHTET "jn se, titta" ;
+vuällget:vuällg BÅHTET "l fara" ;
+vurkkit:vurkki V_CONTR "gömma undan"  ; 
+vádtset:vádts BÅHTET "dts  gå" ;
+vádtsát:vádtsá V_CONTR "börja gå" ; ! contr á
+vágodit:vágod2 NAMMADIT "förmana, varna" ; 
+válldet:válld BÅHTET "ld ta" ;
+vásset:váss BÅHTET "s passera" ;
+vásstedit:vássted2 NAMMADIT "svara" ; 
+vädtjat:vädtj BALLAT "dtj hämta" ;
+ådtjot:ådtj ÅRROT "dtj få"  ; 
+åhtsålit:åhtsål NAMMADIT "sakna" ; 
+åsestit:åsest2 NAMMADIT "handla" ; 
+åđđájit:åđđáj NAMMADIT "somna" ; 
+åđđát:åđđá V_CONTR "somna" ; 
+nuggdat:nuggd BALLAT ; 
+slammgat:slammg BALLAT ; 
+ábbjat:ábbj BALLAT ; 
+ábjjat:ábjj BALLAT ; 
+tjäkktjat:tjäkktj BALLAT ; 
+gåbttjat:gåbttj BALLAT ; 
+gahttjat:gahttj BALLAT ; 
+gahttjat:gahttj BALLAT ; 
+gåpttjat:gåpttj BALLAT ; 
+njisskat:njissk BALLAT ; 
+bualdnat:bualdn BALLAT ; 
+buollnat:buolln BALLAT ; 
+gahppat:gahpp BALLAT ; 
+gahppat:gahpp BALLAT ; 
+gáhppat:gáhpp BALLAT ; 
+gassŋat:gassŋ BALLAT ; 
+oadet:oade BÅHTET ; 
+åddet:ådde BÅHTET ; 
+gåddet:gådde BÅHTET ; 
+gåddet:gådde BÅHTET ; 
+balldet:ballde BÅHTET ; 
+bivvdet:bivvde BÅHTET ; 
+gåŋŋiet:gåŋŋie BÅHTET ; 
+tsabbmet:tsabbme BÅHTET ; 
+vuojnnet:vuojnne BÅHTET ; 
+gåppset:gåppse BÅHTET ; 
+gåppset:gåppse BÅHTET ; 
+gåpsset:gåpsse BÅHTET ; 
+åhtset:åhtse BÅHTET ; 
+åhtset:åhtse BÅHTET ; 
+nihtet:nihte BÅHTET ; 
+luäjjtet:luäjjte BÅHTET ; 
+bäjjstet:bäjjste BÅHTET ; 
+beijsstet:beijsste BÅHTET ; 
+luojttet:luojtte BÅHTET ; 
+luäjttet:luäjtte BÅHTET ; 
+åŋŋet:åŋŋe BÅHTET ; 
+gibbnjit:gibbnji V_CONTR ;
+diŋŋgot:diŋŋgo ÅRROT ; 
+buodnjot:buodnjo ÅRROT ; 
+bårrsjot:bårrsjo ÅRROT ; 
+vilssjot:vilssjo ÅRROT ; 
+bårssjot:bårssjo ÅRROT ; 
+njissjkot:njissjko ÅRROT ; 
+sjvássjkot:sjvássjko ÅRROT ; 
+hávsskot:hávssko ÅRROT ; 
+såbbtsot:såbbtso ÅRROT ; 
+soabttsot:soabttso ÅRROT ; 
+agŋot:agŋo ÅRROT ; 
+ággŋot:ággŋo ÅRROT ; 
+budnjut:budnju V_CONTR ; 
+gågglut:gågglu V_CONTR ; 
+gåpptjåt:gåpptj LÅHKÅT ;
+gåjjkåt:gåjjk LÅHKÅT ;
+åhtsåt:åhts LÅHKÅT ;
