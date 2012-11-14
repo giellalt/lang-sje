@@ -1,0 +1,58 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+
+
+
+
+
+! Prefixing and compounding
+! =========================
+
+
+! This is for regular compounding. All entries NOT requiring a hyphen should point to this:
+LEXICON R
+                     +Use/Circ+Cmp#:# Noun ;                       ! This is the normal case.           
+      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Verb ;        ! Flag diacr declares that the compound   
+!      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Adjective ;   ! needs a N tag later in the derivation  
+                +Hyph+Use/Circ+Cmp#:%- Noun ;                      ! These 3 cases add a hyphen, so     
+ @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Verb ;      ! Sem-julggaštus and maana-gåetie       
+! @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Adjective ; ! are allowed.                 
+
+! +Use/Circ+Cmp%-#:%-# Acronym ;    ! maana-tv, "lomme-cd-spelar" ! No acronyms for sje yet.
+! +Use/Circ+Cmp%-#:%-# Numeral ;    ! maana-tv, "lomme-cd-spelar"
+! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for non-hyph.
+                                   ! words. viessu-London goes through here.
+
+         +RCmpnd:%- ENDLEX ;     ! This to take care of Oahpo- ja dutkandept - want this in speller
+
+
+! This is for compounding with hyphen. All entries REQUIRING a hyphen should point to this:
+LEXICON RHyph ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
+              ! NBNBNB!!! The hyphen should be added here! NOT in the other lexicons!
+
+                +Use/Circ+Cmp%-#:%-# Noun ;                                     ! This is the normal case.
+ @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Verb ;       ! Flag diacr declares that the compound
+! @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Adjective ; ! needs a N tag later in the derivation
+
+! +Use/Circ+Cmp%-#:%-# Acronym ;    ! maana-tv, "lomme-cd-spelar"
+! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for hyph-words.
+                               ! London-Hull is covered here, whereas Hull-viessu
+                               ! is covered by RHyph + Noun.
+
+         +RCmpnd:%- ENDLEX ;      ! This to take care of Oahpo- ja dutkandept - want this in speller
+
+! Proper noun compounds without hyphens are NOT presently covered - if they were
+! to be added, they need to be marked +Use/Sub. Examples: LondonHull & viessuLondon.
+
