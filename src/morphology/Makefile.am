@@ -28,6 +28,7 @@ GT_LEXC_SRCS=\
 				stems/adverbs.lexc \
 				stems/conjunctions.lexc \
 				stems/interjections.lexc \
+				stems/nouns.lexc \
 				stems/numerals.lexc \
 				stems/particles.lexc \
 				stems/pronouns.lexc \
