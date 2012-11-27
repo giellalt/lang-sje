@@ -11,20 +11,39 @@ Tests:
 
   Adjektiv - gävvra: # -a-stammar
     gävvra+A+Sg+Nom: gävvra
-    gävvra+A+Attr: gävvra
+    gävvra+A+Attr: gievvres
     gävvra+A+Sg+Gen: gävra
     gävvra+A+Sg+Acc: gävrav
     gävvra+A+Sg+Ill: gävvraj
     gävvra+A+Sg+Ine: gävran
-    gävvra+A+Sg+Ela: [gävrast, gävras]
+    gävvra+A+Sg+Ela: gävrast
     gävvra+A+Sg+Com: gävrajn
     gävvra+A+Pl+Nom: gävra
     gävvra+A+Pl+Gen: gävraj
     gävvra+A+Pl+Acc: gävrajt
     gävvra+A+Pl+Ill: gävrajda
     gävvra+A+Pl+Ine: gävrajn
-    gävvra+A+Pl+Ela: [gävrajst, gävrajs]
+    gävvra+A+Pl+Ela: gävrajst
     gävvra+A+Pl+Com: gävraj
     gävvra+A+Ess: gävvran
     gävvra+A+Abe: gävradak
+
+  Adjektiv - nuorra: # -a-stammar
+    nuorra+A+Sg+Nom: nuorra
+    nuorra+A+Attr: nuorra
+    nuorra+A+Sg+Gen: nuora
+    nuorra+A+Sg+Acc: nuorav
+    nuorra+A+Sg+Ill: nuorraj
+    nuorra+A+Sg+Ine: nuoran
+    nuorra+A+Sg+Ela: nuorast
+    nuorra+A+Sg+Com: nuorajn
+    nuorra+A+Pl+Nom: nuora
+    nuorra+A+Pl+Gen: nuoraj
+    nuorra+A+Pl+Acc: nuorajt
+    nuorra+A+Pl+Ill: nuorajda
+    nuorra+A+Pl+Ine: nuorajn
+    nuorra+A+Pl+Ela: nuorajst
+    nuorra+A+Pl+Com: nuoraj
+    nuorra+A+Ess: nuorran
+    nuorra+A+Abe: nuoradak
 
