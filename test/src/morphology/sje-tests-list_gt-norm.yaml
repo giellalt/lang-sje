@@ -25,13 +25,13 @@ Tests:
     asske+N+Sg+Gen: aske
 
   Noun - biebbmo: # Even syll
-    biebbmo+N+Sg+Gen: biebmo
+    biebbmo+N+Sg+Gen: biebmoXXX
 
   Noun - biedno: # Even syll
-    biedno+N+Sg+Gen: bieno
+    biedno+N+Sg+Gen: bienoXXX
 
   Noun - biehkke: # Even syll
-    biehkke+N+Sg+Gen: biehkke
+    biehkke+N+Sg+Gen: biehke
 
   Noun - biehtse: # Even syll
     biehtse+N+Sg+Gen: bietse
@@ -40,13 +40,13 @@ Tests:
     bielle+N+Sg+Gen: biele
 
   Noun - biena: # Even syll
-    biena+N+Sg+Gen: bienaXXXXXXXX
+    biena+N+Sg+Gen: biednaga
 
   Noun - biesse: # Even syll
     biesse+N+Sg+Gen: biese
 
   Noun - bievvla: # Even syll
-    bievvla+N+Sg+Gen: bievla
+    bievvla+N+Sg+Gen: bievlaXXXX
 
   Noun - bijjla: # Even syll
     bijjla+N+Sg+Gen: bijla
@@ -58,19 +58,16 @@ Tests:
     billga+N+Sg+Gen: bilga
 
   Noun - binna: # Even syll
-    binna+N+Sg+Gen: bina
-
-  Noun - boarrka: # Even syll
-    boarrka+N+Sg+Gen: boarka
+    binna+N+Sg+Gen: binaXXXXX
 
   Noun - buollva: # Even syll
-    buollva+N+Sg+Gen: buolva
+    buollva+N+Sg+Gen: buolvaXXX
 
   Noun - buvdna: # Even syll
     buvdna+N+Sg+Gen: buvna
 
   Noun - buvtsomällke: # Even syll
-    buvtsomällke+N+Sg+Gen: buvtsomälke
+    buvtsomällke+N+Sg+Gen: buvtsomielke
 
   Noun - báhko: # Even syll
     báhko+N+Sg+Gen: bágo
@@ -85,34 +82,34 @@ Tests:
     bállka+N+Sg+Gen: bálka
 
   Noun - bárdne: # Even syll
-    bárdne+N+Sg+Gen: bárdne
+    bárdne+N+Sg+Gen: bárne
 
   Noun - bássma: # Even syll
-    bássma+N+Sg+Gen: bássma
+    bássma+N+Sg+Gen: básma
 
   Noun - bäbbmo: # Even syll
-    bäbbmo+N+Sg+Gen: bäbmo
+    bäbbmo+N+Sg+Gen: biebmo
 
   Noun - bäbmo: # Even syll
-    bäbmo+N+Sg+Gen: bämo
+    bäbmo+N+Sg+Gen: biebmo
 
   Noun - bäjjve: # Even syll
-    bäjjve+N+Sg+Gen: bäjve
+    bäjjve+N+Sg+Gen: biejve
 
   Noun - bäjssko: # Even syll
-    bäjssko+N+Sg+Gen: bäjsko
+    bäjssko+N+Sg+Gen: biejsko
 
   Noun - bälle: # Even syll
-    bälle+N+Sg+Gen: bäle
+    bälle+N+Sg+Gen: biele
 
   Noun - bärdna: # Even syll
-    bärdna+N+Sg+Gen: bärdna
+    bärdna+N+Sg+Gen: bierna
 
   Noun - bässe: # Even syll
-    bässe+N+Sg+Gen: bäse
+    bässe+N+Sg+Gen: biese
 
   Noun - bävvla: # Even syll
-    bävvla+N+Sg+Gen: bävla
+    bävvla+N+Sg+Gen: bievla
 
   Noun - bäŋŋka: # Even syll
     bäŋŋka+N+Sg+Gen: bäŋka
@@ -121,19 +118,19 @@ Tests:
     båddne+N+Sg+Gen: bådne
 
   Noun - båddnje: # Even syll
-    båddnje+N+Sg+Gen: båddnje
+    båddnje+N+Sg+Gen: båddnjexxxx
 
   Noun - bådne: # Even syll
     bådne+N+Sg+Gen: båne
 
   Noun - båjjtjå: # Even syll
-    båjjtjå+N+Sg+Gen: båjjtjå
+    båjjtjå+N+Sg+Gen: båjtjå
 
   Noun - båldne: # Even syll
-    båldne+N+Sg+Gen: båldne
+    båldne+N+Sg+Gen: bålne
 
   Noun - bålldne: # Even syll
-    bålldne+N+Sg+Gen: bålldne
+    bålldne+N+Sg+Gen: båldne
 
   Noun - bånnda: # Even syll
     bånnda+N+Sg+Gen: bånda
@@ -142,22 +139,22 @@ Tests:
     bånndá+N+Sg+Gen: båndá
 
   Noun - båssjo: # Even syll
-    båssjo+N+Sg+Gen: båsjo
+    båssjo+N+Sg+Gen: båssjo
 
   Noun - båtsojjåhtejsábme: # Even syll
     båtsojjåhtejsábme+N+Sg+Gen: båtsojjåhtejsáme
 
   Noun - båtsojlahkke: # Even syll
-    båtsojlahkke+N+Sg+Gen: båtsojlahkke
+    båtsojlahkke+N+Sg+Gen: båtsojlahke
 
   Noun - båttkå: # Even syll
-    båttkå+N+Sg+Gen: båttkåXXXXXXXX
+    båttkå+N+Sg+Gen: båtkå
 
   Noun - didnadäddje: # Even syll
-    didnadäddje+N+Sg+Gen: didnadäddjeXXXXXXXX
+    didnadäddje+N+Sg+Gen: didnadäddje
 
   Noun - didnadäjje: # Even syll
-    didnadäjje+N+Sg+Gen: didnadäje
+    didnadäjje+N+Sg+Gen: didnadäjje
 
   Noun - dimbar: # Even syll
     dimbar+N+Sg+Gen: dimbara
@@ -181,7 +178,7 @@ Tests:
     dámmpa+N+Sg+Gen: dámpa
 
   Noun - dåbbmobäjjve: # Even syll
-    dåbbmobäjjve+N+Sg+Gen: dåbbmobäjve
+    dåbbmobäjjve+N+Sg+Gen: dåbbmobiejve
 
   Noun - dållå: # Even syll
     dållå+N+Sg+Gen: dålå
@@ -190,31 +187,28 @@ Tests:
     fiello+N+Sg+Gen: fielo
 
   Noun - fuällke: # Even syll
-    fuällke+N+Sg+Gen: fuälke
+    fuällke+N+Sg+Gen: fuolke
 
   Noun - fáhttsa: # Even syll
-    fáhttsa+N+Sg+Gen: fáhttsaXXXXXXXX
+    fáhttsa+N+Sg+Gen: fáhtsa
 
   Noun - fálffo: # Even syll
-    fálffo+N+Sg+Gen: fálffo
-
-  Noun - fármme: # Even syll
-    fármme+N+Sg+Gen: fármme
+    fálffo+N+Sg+Gen: fálfo
 
   Noun - fáttme: # Even syll
-    fáttme+N+Sg+Gen: fáttmeXXXXXXXX
+    fáttme+N+Sg+Gen: fátme
 
   Noun - fáŋŋga: # Even syll
     fáŋŋga+N+Sg+Gen: fáŋga
 
   Noun - fällo: # Even syll
-    fällo+N+Sg+Gen: fälo
+    fällo+N+Sg+Gen: fiello
 
   Noun - fävvsa: # Even syll
-    fävvsa+N+Sg+Gen: fävvsa
+    fävvsa+N+Sg+Gen: fievsa
 
   Noun - fävvse: # Even syll
-    fävvse+N+Sg+Gen: fävvse
+    fävvse+N+Sg+Gen: fievse
 
   Noun - gabnnja: # Even syll
     gabnnja+N+Sg+Gen: gabnja
@@ -226,7 +220,7 @@ Tests:
     gahper+N+Sg+Gen: gahpera
 
   Noun - gajtsamällke: # Even syll
-    gajtsamällke+N+Sg+Gen: gajtsamälke
+    gajtsamällke+N+Sg+Gen: gajtsamielke
 
   Noun - gappte: # Even syll
     gappte+N+Sg+Gen: gapte
@@ -235,7 +229,7 @@ Tests:
     gasskaijja+N+Sg+Gen: gasskaija
 
   Noun - gidda: # Even syll
-    gidda+N+Sg+Gen: gidda
+    gidda+N+Sg+Gen: gida
 
   Noun - gidá: # Even syll
     gidá+N+Sg+Gen: gidá
