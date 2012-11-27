@@ -73,6 +73,9 @@ LEXICON A_ODD
 +A+Comp+Sg+Nom:up # ;
 +A+Comp:ubb ODD_OBLIQUE_U ;
 
++A+Superl+Nom:umos # ;
++A+Superl:ubmos # ;
+
 LEXICON A_ODD_B
 +A+Attr:mes # ;
 +A+Sg+Nom:mes PX ;
@@ -96,6 +99,7 @@ LEXICON A_ODD_Á
 
 +A+Comp+Nom:up # ;
 +A+Comp:ubb ODD_OBLIQUE_U ;
+
 LEXICON A_ODD_K
 +A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
@@ -104,6 +108,9 @@ LEXICON A_ODD_K
 +A+Comp+Nom:up # ;
 +A+Comp:ubb ODD_OBLIQUE_U ;
 
++A+Superl+Nom:umos # ;
++A+Superl:ubmos # ;m
+
 LEXICON A_ODD_T
 +A+Attr:ähppis # ; 
 +A+Sg+Nom:áhppat PX ;
@@ -111,6 +118,9 @@ LEXICON A_ODD_T
 
 +A+Comp+Nom:up # ;
 +A+Comp:ubb ODD_OBLIQUE_U ;
+
++A+Superl+Nom:umos #
++A+Superl:ubmos #
 
 LEXICON A_ODD_SIS
 +A+Attr:sis # ; 
