@@ -119,8 +119,8 @@ LEXICON A_ODD_T
 +A+Comp+Nom:up # ;
 +A+Comp:ubb ODD_OBLIQUE_U ;
 
-+A+Superl+Nom:umos #
-+A+Superl:ubmos #
++A+Superl+Nom:umos # ;
++A+Superl:ubmos # ;
 
 LEXICON A_ODD_SIS
 +A+Attr:sis # ; 
