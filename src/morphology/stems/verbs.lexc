@@ -99,10 +99,10 @@ LEXICON ATJAPRT
 +Pl3:itjin    # ; 
 
 LEXICON IJ
-+V+Neg+Prs: IJPRS ;
-+V+Neg+Prt: IJPRT ;
-+V+Neg+Imprt: IJIMP ;
-+V+Neg+Opt: IJOPT ;
+ij+V+Neg+Prs: IJPRS ;
+ij+V+Neg+Prt: IJPRT ;
+ij+V+Neg+Imprt: IJIMP ;
+ij+V+Neg+Opt: IJOPT ;
 
 LEXICON IJPRS
 +Sg1:iv    # ; 
