@@ -2,7 +2,7 @@
 ! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
-! This program is free software; you can redistribute and/or modify
+! This program is free software ; you can redistribute and/or modify
 ! this file under the terms of the GNU General Public License as published by
 ! the Free Software Foundation, either version 3 of the License, or
 ! (at your option) any later version. The GNU General Public License
@@ -21,7 +21,7 @@ LEXICON Noun
 ! juällge: # -e-stammar N_EVEN
 ! iello: # -o-stammar	 N_EVEN
 ! bunndi: # -i-stammar	 N_EVEN
-! åbbá: # utan stv      N_EVEN_NOCG
+! åbbá: # utan stv N_EVEN_NOCG
 
 ! almatj: # -udda utan stv och vokalv	 N_ODD
 ! ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
@@ -30,15 +30,15 @@ LEXICON Noun
 ! bena: # -udda med stv och vokalslut	 BIENA
 ! 
 ! ålmáj: # -kontrakta med stv och utan vokf SUOLOJ
-! båtsoj: # -kontrakta med vokf			    SUOLOJ
-! suoloj: # -kontrakta utan stv			    SUOLOJ
-! sarves: # -kontrakta utan stv			    SARVES
+! båtsoj: # -kontrakta med vokf			 SUOLOJ
+! suoloj: # -kontrakta utan stv			 SUOLOJ
+! sarves: # -kontrakta utan stv			 SARVES
 
 gissta N_EVEN "rukkanen" ;
 almatj N_ODD "ihminen" ;
 vanas:vadnas N_ODD_CG "vene" ;
 gahper N_ODD "huva" ; ! no consonant gradation
-máles:mállás N_ODD_CG; ! with cg
+máles:mállás N_ODD_CG ; ! with cg
 
 juällge N_EVEN "jalka" ; 
 räjjdo N_EVEN "työkalu" ;
@@ -47,7 +47,7 @@ vuorrpe N_EVEN "onni, arpa" ;
 
 ålol:ullul N_ODD_CG_VV ; 
 båtsoj:buhtsu N_CONTR ; 
-suoloj:suollu SUOLOJ ;  ! N_CONTR
+suoloj:suollu SUOLOJ ; ! N_CONTR
 sarves:sarrve SARVES ; ! N_CONTR ; 
 
 ålmáj:ålbm ÅLMAAJ ;
@@ -66,16 +66,16 @@ bievvla N_EVEN "vl" ;
 bijjla N_EVEN "jl" ; 
 bijjpa N_EVEN "jp" ; 
 billga N_EVEN "lg" ; 
-binna N_EVEN_NOCG "nn" ;      
+binna N_EVEN_NOCG "nn" ; 
 bunndi N_EVEN ;
-buollva  N_EVEN "lv generation" ;
+buollva N_EVEN "lv generation" ;
 buvdna N_EVEN "vn" ; 
 buvtsomällke N_EVEN "lk renmjölk" ;
 báhko N_EVEN "g ord" ;
 bákkte N_EVEN "kt klippa, stenblock" ;
-bálle N_EVEN "l  gång" ;
+bálle N_EVEN "l gång" ;
 bállka N_EVEN "lk lön" ;
-bárdne  N_EVEN_NOCG "rdn son" ;
+bárdne N_EVEN_NOCG "rdn son" ;
 bárdne N_EVEN "rn son" ;
 bássma N_EVEN "sm" ; 
 bäbbmo N_EVEN "bm mat" ; 
@@ -85,14 +85,14 @@ bäjjsko N_EVEN "jsk" ;
 bälle N_EVEN "l sida" ;
 bärdna N_EVEN "rdn björn" ;
 bärdna N_EVEN_NOCG "rn björn" ;
-bässe N_EVEN_NOCG "ss näver" ;  
+bässe N_EVEN_NOCG "ss näver" ; 
 bävvla N_EVEN "vl" ; 
 bäŋŋka N_EVEN "ŋk" ; 
 båddne N_EVEN "dn" ; 
 båddnje N_EVEN "dnj" ; 
 båddne:bådne N_EVEN ; 
 båjjtjå N_EVEN "jtj" ; 
-båldne N_EVEN "ln" ;   
+båldne N_EVEN "ln" ; 
 bånndá N_EVEN "nd" ; 
 båssjo N_EVEN "sj" ; 
 båtsojjåhtejsábme N_EVEN "m xxx" ;
@@ -100,7 +100,7 @@ båtsojlahkke N_EVEN "hk xxx" ;
 båttkå N_EVEN "tk" ; 
 didnadäddje N_EVEN "de som ropar/skriker" ;
 didnadäjje N_EVEN_NOCG "de som ropar/skriker" ;
-dimbar N_ODD_CG"mmb" ; 
+dimbar N_ODD_CG "mmb" ; 
 duädde N_EVEN_NOCG ; 
 dábbde N_EVEN "bd" ; 
 dáffo N_EVEN "f trakt (dán dáfon här i trakten)" ;
@@ -111,7 +111,7 @@ dåbbmobäjjve N_EVEN "j domedagen" ;
 dållå N_EVEN "l eld" ; 
 fuällke N_EVEN "lk" ; 
 fáhttsa N_EVEN "hts" ; 
-fállfo N_EVEN "lf" ;  
+fállfo N_EVEN "lf" ; 
 fáttme N_EVEN "tm" ; 
 fáŋŋga N_EVEN "ŋg" ; 
 fällo N_EVEN "l" ; 
@@ -121,7 +121,7 @@ gadtsa N_EVEN_NOCG ;
 gajtsamällke N_EVEN "lk getmjölk" ;
 gappte N_EVEN "pt" ; 
 gasskaijja N_EVEN "j midnatt" ;
-gidda N_EVEN "d" ;   
+gidda N_EVEN "d" ; 
 giehta N_EVEN "d hand" ;
 giehtje N_EVEN "tj" ; 
 giesse N_EVEN "s sommar" ;
@@ -134,13 +134,13 @@ giđđa N_EVEN "đ vår" ;
 grássebáhkko N_EVEN "hk gräsbacke" ;
 guabbla N_EVEN "bl" ; 
 guarrba N_EVEN "rb" ; 
-gukte  N_EVEN_NOCG "hur, så som" ;
+gukte N_EVEN_NOCG "hur, så som" ;
 gummo:gum'mo N_EVEN_NOCG "mm gumma" ;
 gummpi N_EVEN "mp varg" ; 
 guobbla N_EVEN "bl" ; 
 guällbe N_EVEN "lb golv" ;
-guolle N_EVEN "l" ;  
-guosmak N_ODD_CG;  
+guolle N_EVEN "l" ; 
+guosmak N_ODD_CG ; 
 gurbmá N_EVEN "m" ; 
 gurmmá N_EVEN "m" ; ! dialekt?
 gurrte N_EVEN "rt" ; 
@@ -153,15 +153,15 @@ gárrde N_EVEN "rd" ;
 gárrtsa N_EVEN "rts" ; 
 gäbdne N_EVEN "bn" ; 
 gädde N_EVEN_NOCG "vall" ;
-gähtto N_EVEN "ht  berättelse" ;
+gähtto N_EVEN "ht berättelse" ;
 gäjdno N_EVEN "jn väg" ;
 gärrge N_EVEN "rg sten" ;
 gärrgelahpa N_EVEN "b stenblock (överskjutande)" ;
 gättke N_EVEN "tk" ; 
-gåhte N_EVEN "d  kåta" ;
+gåhte N_EVEN "d kåta" ;
 gålbmå N_EVEN "lm" ; 
 gållse N_EVEN "ls" ; 
-gårdne N_EVEN "rn" ;  
+gårdne N_EVEN "rn" ; 
 gårrså N_EVEN "rs" ; 
 gårrtje N_EVEN "rtj" ; 
 gåvdnje N_EVEN "vnj" ; 
@@ -186,7 +186,7 @@ jårrbodahka N_EVEN "g rundhet" ;
 kaffa N_EVEN "f" ; 
 kammba N_EVEN "mb" ; 
 klåhkkár N_ODD "klockare" ;
-kujdna N_EVEN "jn  kvinna" ;
+kujdna N_EVEN "jn kvinna" ;
 káffa:káf'fa N_EVEN_NOCG "kahvi" ;
 kånnsta N_EVEN "nst" ; 
 lassta N_EVEN "st" ; 
@@ -195,18 +195,18 @@ lihtte N_EVEN "ht" ;
 livva N_EVEN "v vila" ;
 luadda N_EVEN "d" ; 
 luakkta N_EVEN "kt" ; 
-luhpe N_EVEN_NOCG "hp" ;  
-luovve N_EVEN "v" ;  
-lusspe N_EVEN "sp"; 
-luäppte N_EVEN "pt"; 
+luhpe N_EVEN_NOCG "hp" ; 
+luovve N_EVEN "v" ; 
+lusspe N_EVEN "sp" ; 
+luäppte N_EVEN "pt" ; 
 lábbtje:lábtje N_EVEN ; ! bbtj som lemma, godta Nom = btj
-lábbtje N_EVEN "btj"; 
-lájjbe N_EVEN "jb"; 
+lábbtje N_EVEN "btj" ; 
+lájjbe N_EVEN "jb" ; 
 lánnda N_EVEN "nd land" ;
-lássta N_EVEN "st"; 
+lássta N_EVEN "st" ; 
 lávvlomvärrsa N_EVEN "rs xxx" ;
 länjggá N_EVEN "jg" ; 
-lännska N_EVEN "nsk"; 
+lännska N_EVEN "nsk" ; 
 lådde N_EVEN_NOCG ; 
 lånestiejje N_EVEN "frälsare" ; 
 mannje N_EVEN ; 
@@ -214,7 +214,7 @@ muorra N_EVEN "träd" ;
 muvvra N_EVEN ; 
 mánno N_EVEN "måne" ;
 mánná N_EVEN "barn" ;
-mánnábálle N_EVEN "l  barndom" ;
+mánnábálle N_EVEN "l barndom" ;
 mällke N_EVEN "mjölk" ;
 måhkke N_EVEN ; 
 mårrse N_EVEN ; 
@@ -237,17 +237,17 @@ rabbda N_EVEN ;
 ragátmánno N_EVEN "september" ;
 ragátájjge N_EVEN "brunsttid" ;
 rassta N_EVEN "över" ;
-rebij:rephih N_ODD_CG"räv" ; ! XXX 
+rebij:rephih N_ODD_CG "räv" ; ! XXX 
 rijjka N_EVEN "jk rike" ;
 rimmste N_EVEN ; 
-rissja N_EVEN ;   
+rissja N_EVEN ; 
 ruävvde N_EVEN "vd järn" ;
 rádje N_EVEN ; 
 ráddna N_EVEN "kamrat" ;
 ráffe N_EVEN "f frid" ;
 rájje N_EVEN_NOCG ; 
 rássjo N_EVEN "regn" ;
-rávdno N_EVEN ;  
+rávdno N_EVEN ; 
 rávve N_EVEN ; 
 rännta N_EVEN ; 
 rässjme N_EVEN ; 
@@ -262,7 +262,7 @@ savvtsa N_EVEN "får" ;
 savvun N_ODD ; 
 sievalådde N_EVEN_NOCG "sjöfågel" ;
 sijjda N_EVEN " jd flyttlag" ;
-sillba  N_EVEN "lb silver" ;
+sillba N_EVEN "lb silver" ;
 sivvun N_ODD ; 
 skuojjve N_EVEN "skepnad" ;
 skuvvle N_EVEN "vl skola" ;
@@ -295,7 +295,7 @@ säjjbe N_EVEN " jb svans" ;
 såhkevuobme N_EVEN "m björkskog" ;
 tea N_EVEN "te" ;
 tjakktja N_EVEN " ktj höst" ;
-tjarrva N_EVEN ;  
+tjarrva N_EVEN ; 
 tjuavvtja N_EVEN ; 
 tjukktje N_EVEN " ktj tjädertupp" ;
 tjuvvde N_EVEN "vd finger" ;
@@ -309,7 +309,7 @@ tsuapptsa N_EVEN ;
 tsuabbtsa N_EVEN ; 
 ukksa N_EVEN ; 
 vanntsa N_EVEN ;
-vanas N_ODD_CG"båt" ; 
+vanas N_ODD_CG "båt" ; 
 vassje N_EVEN "hat" ;
 viellja N_EVEN ; 
 vierro N_EVEN "offer" ;!kolla om det heter värro
@@ -319,9 +319,9 @@ vuakksa N_EVEN "tjur" ;
 vuassa N_EVEN ; 
 vuobme N_EVEN "skog" ;
 vuobmelådde N_EVEN "skogsfågel" ;
-vuolle N_EVEN "l  jojk" ;
+vuolle N_EVEN "l jojk" ;
 vuäbbne N_EVEN ; 
-vuävvda N_EVEN " vd skog,skogsland" ;
+vuävvda N_EVEN "vd skog,skogsland" ;
 vágge N_EVEN_NOCG "dal" ;
 vájbmo N_EVEN "hjärta" ; 
 várre N_EVEN "berg, fjäll" ;
