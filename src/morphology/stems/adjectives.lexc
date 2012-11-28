@@ -33,7 +33,7 @@ njállge A_EVEN_B ;
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
 assá A_EVEN_B ; !attributiv form assás utan stadiev., ej heller i komparering
 gåbbde A_EVEN_B ; 
-maŋŋe A_EVEN_E ;
+maŋŋe A_EVEN_0 ;
 uhttse A_EVEN_B ;
 tjalmedibme A_EVEN_0 ; !attr. tjalmedis
 vuojnudibme A_EVEN_0 ; !attr. vuojnudis

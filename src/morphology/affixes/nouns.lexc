@@ -38,9 +38,13 @@ LEXICON N_EVEN_NOCG
 
 LEXICON N_EVEN
 +N: EVENCASE ;
-+N:^WG N_EVEN_W ; ! CG here
++N:%^WG N_EVEN_W ; ! CG here
 
 LEXICON EVENCASE
++Sg+Nom:    K ;
+EVENOBLIQUE ;
+
+LEXICON EVENOBLIQUE 
                N_EVEN_S ;
 :%^jDEL%>j     N_EVEN_J ;
 N_EVEN_ILL ;
@@ -49,11 +53,10 @@ LEXICON N_EVEN_ILL
 +Sg+Ill:%>%^MONB4Jj K ;
 
 LEXICON N_EVEN_S
-+Sg+Nom:    K ;
 +Ess:%>n K ;
 
 LEXICON N_EVEN_W
-+Sg+Gen:%>0  K ;
++Sg+Gen:  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela+Use/Sub:%>s K ;
