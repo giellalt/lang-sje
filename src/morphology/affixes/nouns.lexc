@@ -67,14 +67,14 @@ LEXICON N_EVEN_W
 +Pl+Nom:%>0  K ;
 
 LEXICON N_EVEN_J
-+Sg+Com:%^MONB4Jn   K ;
++Sg+Com:%^MONB4Jn   K ; !norm
 +Sg+Com:%^MONB4Jna  K ; !variant
 +Pl+Gen:    K ;
 +Pl+Acc:t   K ;
 +Pl+Ine:n   K ;
 +Pl+Ela+Use/Sub:s  K ;
-+Pl+Ela:st  K ;
-+Pl+Ill:da  K ; !norm
++Pl+Ela:st  K ; !norm
++Pl+Ill:da  K ; 
 +Pl+Com:    K ;
 
 
@@ -99,6 +99,10 @@ LEXICON N_ODD
 
 
 LEXICON ODD_OBLIQUE
++Abe:ahtá PX ;
+ODD_OBLIQUE_COMMON ;
+
+LEXICON ODD_OBLIQUE_COMMON
 +Sg+Acc:av PX ;
 +Sg+Gen:a PX ;
 +Sg+Ill:ij PX ;
@@ -107,7 +111,6 @@ LEXICON ODD_OBLIQUE
 +Sg+Ela:ist PX ; 
 +Sg+Com:ijn PX ;
 +Ess:in PX ;
-+Abe:ahtá PX ;
 +Pl+Nom:a PX ;
 +Pl+Acc:ijt PX ;
 +Pl+Gen:ij PX ;
@@ -119,6 +122,10 @@ LEXICON ODD_OBLIQUE
 
 
 LEXICON ODD_OBLIQUE_U
++Abe:uhtá PX ;
+ODD_OBLIQUE_U_COMMON ;
+
+LEXICON ODD_OBLIQUE_U_COMMON
 +Sg+Acc:uv PX ;
 +Sg+Gen:u PX ;
 +Sg+Ill:uj PX ;
@@ -127,7 +134,6 @@ LEXICON ODD_OBLIQUE_U
 +Sg+Ela:ust PX ; 
 +Sg+Com:ujn PX ;
 +Ess:un PX ;
-+Abe:uhtá PX ;
 +Pl+Nom:u PX ;
 +Pl+Acc:ujt PX ;
 +Pl+Gen:uj PX ;
@@ -181,7 +187,7 @@ LEXICON ÅLMAAJ
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
 +N+Sg+Ine:án PX ;
-+N+Sg+Ela+Use/Sub:ást PX ;
++N+Sg+Ela+Use/Sub:ás PX ;
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;

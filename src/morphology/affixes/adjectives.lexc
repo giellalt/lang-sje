@@ -60,12 +60,14 @@ LEXICON A_EVEN_NOCG
 +A: COMPSUP ;
 
 LEXICON COMPSUP
-+A+Comp+Sg+Nom:%^WGp # ;
-+A+Comp:%^WGb ODD_OBLIQUE_U ;
++Comp+Sg+Nom:%^WGp # ;
++Comp+Attr:%^WGp # ;
++Comp:%^WGb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Sg+Nom:%^WGmus # ;
-+A+Superl:%^WGmussa EVENCASE ;
-+A+Superl:%^WGmussa%^WG  N_EVEN_W ; ! CG here
++Superl+Sg+Nom:%^WGmus # ;
++Superl+Attr:%^WGmus # ;
++Superl:%^WGmussa EVENCASE ;
++Superl:%^WGmussa%^WG  N_EVEN_W ; ! CG here
 
 
 
@@ -73,101 +75,107 @@ LEXICON COMPSUP
 LEXICON A_ODD
 +A+Attr: # ;
 +A+Sg+Nom: PX ;
-+A: ODD_OBLIQUE ;
++A: ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Sg+Nom:up # ;
-+A+Comp:ubbo ODD_OBLIQUE_U ; !ej stv. jæmnst. ill, kom.,ess.-u
++Comp+Sg+Nom:up # ;
++Comp:ubbo ODD_OBLIQUE_U_COMMON ; !ej stv. jæmnst. ill, kom.,ess.-u
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmosa # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
 
 LEXICON A_ODD_B
 +A+Attr:mes # ;
 +A+Sg+Nom:mes PX ;
-+A:bmás ODD_OBLIQUE ;
++A:bmás ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubbo ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubbo ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmosa # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
+
 
 LEXICON A_ODD_R
 +A+Attr:as # ;
 +A+Sg+Nom:as PX ;
-+A:ras ODD_OBLIQUE ;
++A:ras ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubbo ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubbo ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmosa # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
+
 
 LEXICON A_ODD_Á
 +A+Attr:es # ;
 +A+Sg+Nom:es PX ;
-+A:ás ODD_OBLIQUE ;
++A:ás ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubb ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmos # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
 
 LEXICON A_ODD_K
 +A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
-+A:g ODD_OBLIQUE ;
++A:g ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubb ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmos # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
 
 LEXICON A_ODD_T
 +A+Attr:ähppis # ; 
 +A+Sg+Nom:áhppat PX ;
-+A:áhppad ODD_OBLIQUE ;
++A:áhppad ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubb ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmos # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
+
 
 LEXICON A_ODD_SIS
 +A+Attr:sis # ; 
 +A+Sg+Nom:s PX ;
-+A:s ODD_OBLIQUE ;
++A:s ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubb ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmos # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
 
 LEXICON A_ODD_DIS
 +A+Attr:dis # ; 
 +A+Sg+Nom:t PX ;
-+A:d ODD_OBLIQUE ;
++A:d ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubb ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmos # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
+
 
 LEXICON A_ODD_k_K
 +A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
-+A:g ODD_OBLIQUE ;
++A:g ODD_OBLIQUE_COMMON ;
 
-+A+Comp+Nom:up # ;
-+A+Comp:ubb ODD_OBLIQUE_U ;
++Comp+Nom:up # ;
++Comp:ubb ODD_OBLIQUE_U_COMMON ;
 
-+A+Superl+Nom:umos # ;
-+A+Superl:ubmos # ;
++Superl+Nom:umos # ;
++Superl:ubmos ODD_OBLIQUE_COMMON ; 
+
+
 
 	
 
