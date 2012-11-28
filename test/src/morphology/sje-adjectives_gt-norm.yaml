@@ -46,4 +46,21 @@ Tests:
     nuorra+A+Pl+Com: nuoraj
     nuorra+A+Ess: nuorran
     nuorra+A+Abe: nuoradak
+    nuorra+A+Comp+Sg+Nom: nuorap
+    nuorra+A+Comp+Attr: nuorap
+    nuorrabu+A+Comp+Sg+Gen: nuorabu
+    nuorrabu+A+Comp+Sg+Acc: nuorabuv
+    nuorrabu+A+Comp+Sg+Ill: nuorrabuj
+    nuorrabu+A+Comp+Sg+Ine: nuorabun
+    nuorrabu+A+Comp+Sg+Ela: nuorabust
+    nuorrabu+A+Comp+Sg+Com: nuorabujn
+    nuorrabu+A+Comp+Pl+Nom: nuorabu
+    nuorrabu+A+Comp+Pl+Gen: nuorabuj
+    nuorrabu+A+Comp+Pl+Acc: nuorabujt
+    nuorrabu+A+Comp+Pl+Ill: nuorabujda
+    nuorrabu+A+Comp+Pl+Ine: nuorabujn
+    nuorrabu+A+Comp+Pl+Ela: nuorabujst
+    nuorrabu+A+Comp+Pl+Com: nuorabuj
+    nuorrabu+A+Comp+Ess: nuorrabun
+    nuorrabu+A+Comp+Abe: nuorabudak
 
