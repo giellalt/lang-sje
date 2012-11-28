@@ -11,22 +11,22 @@ Tests:
 
   Adjektiv - gävvra: # -a-stammar
     gävvra+A+Sg+Nom: gävvra
-    gävvra+A+Attr: gievvres
-    gävvra+A+Sg+Gen: gävra
-    gävvra+A+Sg+Acc: gävrav
+    gävvra+A+Attr: gievres
+    gävvra+A+Sg+Gen: gievra
+    gävvra+A+Sg+Acc: gievrav
     gävvra+A+Sg+Ill: gävvraj
-    gävvra+A+Sg+Ine: gävran
-    gävvra+A+Sg+Ela: gävrast
-    gävvra+A+Sg+Com: gävrajn
-    gävvra+A+Pl+Nom: gävra
-    gävvra+A+Pl+Gen: gävraj
-    gävvra+A+Pl+Acc: gävrajt
-    gävvra+A+Pl+Ill: gävrajda
-    gävvra+A+Pl+Ine: gävrajn
-    gävvra+A+Pl+Ela: gävrajst
-    gävvra+A+Pl+Com: gävraj
+    gävvra+A+Sg+Ine: gievran
+    gävvra+A+Sg+Ela: gievrast
+    gävvra+A+Sg+Com: gievrajn
+    gävvra+A+Pl+Nom: gievra
+    gävvra+A+Pl+Gen: gievraj
+    gävvra+A+Pl+Acc: gievrajt
+    gävvra+A+Pl+Ill: gievrajda
+    gävvra+A+Pl+Ine: gievrajn
+    gävvra+A+Pl+Ela: gievrajst
+    gävvra+A+Pl+Com: gievraj
     gävvra+A+Ess: gävvran
-    gävvra+A+Abe: gävradak
+    gävvra+A+Abe: gievradak
 
   Adjektiv - nuorra: # -a-stammar
     nuorra+A+Sg+Nom: nuorra
@@ -45,22 +45,20 @@ Tests:
     nuorra+A+Pl+Ela: nuorajst
     nuorra+A+Pl+Com: nuoraj
     nuorra+A+Ess: nuorran
-    nuorra+A+Abe: nuoradak
     nuorra+A+Comp+Sg+Nom: nuorap
     nuorra+A+Comp+Attr: nuorap
-    nuorrabu+A+Comp+Sg+Gen: nuorabu
-    nuorrabu+A+Comp+Sg+Acc: nuorabuv
-    nuorrabu+A+Comp+Sg+Ill: nuorrabuj
-    nuorrabu+A+Comp+Sg+Ine: nuorabun
-    nuorrabu+A+Comp+Sg+Ela: nuorabust
-    nuorrabu+A+Comp+Sg+Com: nuorabujn
-    nuorrabu+A+Comp+Pl+Nom: nuorabu
-    nuorrabu+A+Comp+Pl+Gen: nuorabuj
-    nuorrabu+A+Comp+Pl+Acc: nuorabujt
-    nuorrabu+A+Comp+Pl+Ill: nuorabujda
-    nuorrabu+A+Comp+Pl+Ine: nuorabujn
-    nuorrabu+A+Comp+Pl+Ela: nuorabujst
-    nuorrabu+A+Comp+Pl+Com: nuorabuj
-    nuorrabu+A+Comp+Ess: nuorrabun
-    nuorrabu+A+Comp+Abe: nuorabudak
+    nuorra+A+Comp+Sg+Gen: nuorabu
+    nuorra+A+Comp+Sg+Acc: nuorabuv
+    nuorra+A+Comp+Sg+Ill: nuorabuj
+    nuorra+A+Comp+Sg+Ine: nuorabun
+    nuorra+A+Comp+Sg+Ela: nuorabust
+    nuorra+A+Comp+Sg+Com: nuorabujn
+    nuorra+A+Comp+Pl+Nom: nuorabu
+    nuorra+A+Comp+Pl+Gen: nuorabuj
+    nuorra+A+Comp+Pl+Acc: nuorabujt
+    nuorra+A+Comp+Pl+Ill: nuorabujda
+    nuorra+A+Comp+Pl+Ine: nuorabujn
+    nuorra+A+Comp+Pl+Ela: nuorabujst
+    nuorra+A+Comp+Pl+Com: nuorabuj
+    nuorra+A+Comp+Ess: nuorabun
 
