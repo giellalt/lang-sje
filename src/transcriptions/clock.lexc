@@ -122,19 +122,18 @@ LEXICON AFTpunkt
  +Use/NA:  HOUR ;  ! 2    = göökte
 
 LEXICON BEF
- 2%0:luhkie%               TOHALF ;
- 21:uktsie%                TOHALF ;
- 22:gaektsie%              TOHALF ;
- 23:tjïjhtje%              TOHALF ;
- 24:govhte%                TOHALF ;
- 25:vïjhte%                TOHALF ;  
- 26:njieljie%              TOHALF ;  
- 26+Use/NG:njielje%        TOHALF ;  
- 26+Use/NG:nieljie%        TOHALF ;  
- 26+Use/NG:nielje%         TOHALF ;  
- 27:golme%                 TOHALF ;
- 28:göökte%                TOHALF ; 
- 29:akte%                  TOHALF ;
+ 2%0:lågev%               TOHALF ;
+ 21:oktje%                TOHALF ;
+ 22:gáktja%              TOHALF ;
+ 23:gietjav%              TOHALF ;
+ 24:guhtta%                TOHALF ;
+ 25:vihtta%                TOHALF ;  
+ 26:niellja%              TOHALF ;  
+ 26+Use/NG:niellje%        TOHALF ;  
+ 27:gålmmå%                 TOHALF ;
+ 28:guakta%                TOHALF ; 
+ 29:akta%                  TOHALF ;
+ ! från här och nedöver är det sydsamiska
  3%0:bielie%               HOUR ;
  31:akte%                  OVERHALF ;
  32:göökte%                OVERHALF ;
