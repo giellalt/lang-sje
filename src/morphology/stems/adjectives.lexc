@@ -15,29 +15,34 @@
 LEXICON Adjective
 stuorre A_EVEN_A ;
 
-unne:unn A_EVEN_NOCG_0 ; !rätta
-gävvra:g A_EVEN_IES ; !rätta
-bånndá A_EVEN_B ; 
-fávvro A_EVEN_B ; 
-hiejjo A_EVEN_B ; 
-nävvre A_EVEN_B ;
-nuorra A_EVEN_0 ;
-buorre A_EVEN_0 ;
-tjábbe A_EVEN_AA ; 
-låjje A_EVEN_B ; 
-ådne A_EVEN_B ; 
-ådne A_EVEN_AA ; !alternativ attributiv form ådna 
-iedna A_EVEN_0 ;
-binna A_EVEN_NOCG_0 ; !fel i plural, rätta
-njállge A_EVEN_B ; 
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
 assá A_EVEN_B ; !attributiv form assás utan stadiev., ej heller i komparering
+binna A_EVEN_NOCG_0 ; !fel i plural, rätta
+buorre A_EVEN_0 ;gävvra:g A_EVEN_IES ; !rätta
+bånndá A_EVEN_B ; 
+fávvro A_EVEN_B ;
 gåbbde A_EVEN_B ; 
-maŋŋe A_EVEN_0 ;
+hiejjo A_EVEN_B ;
+hiedjo A_EVEN_B ;
+iedna A_EVEN_0 ;
+låjje A_EVEN_B ;
+maŋŋe A_EVEN_0 ;njállge A_EVEN_B ;  
+nuorra A_EVEN_0 ;
+nävvre A_EVEN_B ;
+stuorra A_EVEN_0 ;
+tjábbe A_EVEN_AA ;
+tjalmedibme A_EVEN_0 ; !attr. tjalmedis 
 uhttse A_EVEN_B ;
-tjalmedibme A_EVEN_0 ; !attr. tjalmedis
+unne:unn A_EVEN_NOCG_0 ; !rätta
 vuojnudibme A_EVEN_0 ; !attr. vuojnudis
+ådne A_EVEN_B ; 
+ådne A_EVEN_AA ; !alternativ attributiv form ådna 
 
+
+
+
+
+ aset:ase A_ODD_DIS ;
 bivval A_ODD ;
 basstel A_ODD ;
 dulutj A_ODD ; 
@@ -45,7 +50,7 @@ gassak:gassa A_ODD_K ;
 gullis:gulli A_ODD_SIS ; 
 suddes:sudd A_ODD_Á ; 
 mårret:mårre A_ODD_DIS ; 
-mällgat:mällga A_ODD_T ; 
+mällgat:mällga A_ODD_M ; 
 såmes:så A_ODD_B ; 
 tjáhppat:tj A_ODD_T ; 
 tjuorak:tjuora A_ODD_k_K ; 
