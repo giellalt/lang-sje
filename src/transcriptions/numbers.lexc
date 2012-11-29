@@ -35,18 +35,15 @@ ONES ;			     ! 1-9
 
 LEXICON ONESG
 akta% :  1GIGA ;
-guokta:2 GIGA ;
-guok:2 GIGA ;
+guakta:2 GIGA ;
 gålmmå:3 GIGA ;
 niellja:4 GIGA ;
 niellje:4 GIGA ;
 vihtta:5 GIGA ;
 guhtta:6 GIGA ;
-gietja:7 GIGA ;
 gietjav:7 GIGA ;
-giehtja:7 GIGA ;
-gáktsa:8 GIGA ;
-aktse:9 GIGA ; 
+gáktja:8 GIGA ;
+oktje:9 GIGA ; 
 
 LEXICON 1GIGA
 milliárdda% :1 OVERMILLIONS ;
@@ -55,18 +52,15 @@ LEXICON GIGA
 % milliárdda% : OVERMILLIONS ;
 
 LEXICON HUNDREDSM
-guokta:2  CUODIM ;
-guok:2 CUODIM ;
+guakta:2 CUODIM ;
 gålmmå:3 CUODIM ;
 niellja:4 CUODIM ;
 niellje:4 CUODIM ;
 vihtta:5 CUODIM ;
 guhtta:6 CUODIM ;
-gietja:7 CUODIM ;
 gietjav:7 CUODIM ;
-giehtja:7 CUODIM ;
-gáktsa:8 CUODIM ;
-aktse:9 CUODIM ;
+gáktja:8 CUODIM ;
+oktje:9 CUODIM ; 
 
 LEXICON CUODIM
 tjuode: HUNDREDM ; !200, not 100
@@ -82,55 +76,46 @@ LEXICON TEENSM
 
 LEXICON TEENM
 akta:1 LOHKAIM ;
-guokta:2 LOHKAIM ;
-guok:2 LOHKAIM ;
+guakta:2 LOHKAIM ;
 gålmmå:3 LOHKAIM ;
 niellja:4 LOHKAIM ;
 niellje:4 LOHKAIM ;
 vihtta:5 LOHKAIM ;
 guhtta:6 LOHKAIM ;
-gietja:7 LOHKAIM ;
 gietjav:7 LOHKAIM ;
-giehtja:7 LOHKAIM ;
-gáktsa:8 LOHKAIM ;
-aktse:9 LOHKAIM ;
+gáktja:8 LOHKAIM ;
+oktje:9 LOHKAIM ; 
 
 LEXICON LOHKAIM
 lågenan: MILJON ;
 
 LEXICON TENSM
 låhke:1%0 MILJON ;
-guokta:2 LÅGEVM ;
-guok:2 LÅGEVM ;
+guakta:2 LÅGEVM ;
 gålmmå:3 LÅGEVM ;
 niellja:4 LÅGEVM ;
 niellje:4 LÅGEVM ;
 vihtta:5 LÅGEVM ;
 guhtta:6 LÅGEVM ;
-gietja:7 LÅGEVM ;
 gietjav:7 LÅGEVM ;
-giehtja:7 LÅGEVM ;
-gáktsa:8 LÅGEVM ;
-aktse:9 LÅGEVM ;
+gáktja:8 LÅGEVM ;
+oktje:9 LÅGEVM ; 
 
 LEXICON LÅGEVM
-låhke:%0 MILJON ;
+låk:%0 MILJON ;
 låk: ONESM ;
 
 LEXICON ONESM
 akta% :  1MILJON ;
-guokta:2 MILJON ;
-guok:2 MILJON ;
+guakta:2 MILJON ;
 gålmmå:3 MILJON ;
 niellja:4 MILJON ;
 niellje:4 MILJON ;
 vihtta:5 MILJON ;
 guhtta:6 MILJON ;
-gietja:7 MILJON ;
 gietjav:7 MILJON ;
-giehtja:7 MILJON ;
-gáktsa:8 MILJON ;
-aktse:9 MILJON ; 
+gáktja:8 MILJON ;
+oktje:9 MILJON ; 
 
 LEXICON 1MILJON
 millijåvnnå% :1 OVERTHOUSANDS ;
@@ -176,18 +161,15 @@ tuvsán:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0%0%0%0 # ;	     !  x000000
 
 LEXICON HUNDREDST
-guokta:2  CUODIT ;	! 200000-299999
-guok:2 CUODIT ;
-gålmmå:3 CUODIT ;	! 300000-399999
-niellja:4 CUODIT ;	! 400000-499999
+guakta:2 CUODIT ;
+gålmmå:3 CUODIT ;
+niellja:4 CUODIT ;
 niellje:4 CUODIT ;
-vihtta:5 CUODIT ;	! 500000-599999
-guhtta:6 CUODIT ;	! 600000-699999
-gietja:7 CUODIT ;
-gietjav:7 CUODIT ;	! 700000-799999
-giehtja:7 CUODIT ;
-gáktsa:8 CUODIT ;	! 800000-899999
-aktse:9 CUODIT ;	! 900000-999999
+vihtta:5 CUODIT ;
+guhtta:6 CUODIT ;
+gietjav:7 CUODIT ;
+gáktja:8 CUODIT ;
+oktje:9 CUODIT ; 
 
 LEXICON CUODIT
 tjuode: HUNDREDT ;	! 200000-199999
@@ -205,35 +187,29 @@ LEXICON TEENST
 LEXICON TEENT
 lågev:%0 THOUSANDS ;
 akta:1 LOHKAIT ;
-guokta:2 LOHKAIT ;
-guok:2 LOHKAIT ;
+guakta:2 LOHKAIT ;
 gålmmå:3 LOHKAIT ;
 niellja:4 LOHKAIT ;
 niellje:4 LOHKAIT ;
 vihtta:5 LOHKAIT ;
 guhtta:6 LOHKAIT ;
-gietja:7 LOHKAIT ;
 gietjav:7 LOHKAIT ;
-giehtja:7 LOHKAIT ;
-gáktsa:8 LOHKAIT ;
-aktse:9 LOHKAIT ;
+gáktja:8 LOHKAIT ;
+oktje:9 LOHKAIT ; 
 
 LEXICON LOHKAIT
 lågenan: THOUSANDS ;
 
 LEXICON TENST
-guokta:2 LÅGEVT ;
-guok:2 LÅGEVT ;
+guakta:2 LÅGEVT ;
 gålmmå:3 LÅGEVT ;
 niellja:4 LÅGEVT ;
 niellje:4 LÅGEVT ;
 vihtta:5 LÅGEVT ;
 guhtta:6 LÅGEVT ;
-gietja:7 LÅGEVT ;
 gietjav:7 LÅGEVT ;
-giehtja:7 LÅGEVT ;
-gáktsa:8 LÅGEVT ;
-aktse:9 LÅGEVT ;
+gáktja:8 LÅGEVT ;
+oktje:9 LÅGEVT ; 
 
 LEXICON LÅGEVT
 låhke:%0 THOUSANDS ;
@@ -241,18 +217,15 @@ låhke#akta#tuvsán:1 THOUSAND ;
 låk: ONEST ;
 
 LEXICON ONEST
-guokta:2 THOUSANDS ;
-guok:2 THOUSANDS ;
+guakta:2 THOUSANDS ;
 gålmmå:3 THOUSANDS ;
 niellja:4 THOUSANDS ;
 niellje:4 THOUSANDS ;
 vihtta:5 THOUSANDS ;
 guhtta:6 THOUSANDS ;
-gietja:7 THOUSANDS ;
 gietjav:7 THOUSANDS ;
-giehtja:7 THOUSANDS ;
-gáktsa:8 THOUSANDS ;
-aktse:9 THOUSANDS ;
+gáktja:8 THOUSANDS ;
+oktje:9 THOUSANDS ; 
 
 LEXICON THOUSANDS      ! x > 1
 tuvsán: THOUSAND ;
@@ -275,18 +248,15 @@ tjuohte:1 HUNDRED ;
 tjuot:1 HUNDRED ;
 
 LEXICON HUNDREDS
-guokta:2  CUODI ;
-guok:2 CUODI ;
+guakta:2 CUODI ;
 gålmmå:3 CUODI ;
 niellja:4 CUODI ;
 niellje:4 CUODI ;
 vihtta:5 CUODI ;
 guhtta:6 CUODI ;
-gietja:7 CUODI ;
 gietjav:7 CUODI ;
-giehtja:7 CUODI ;
-gáktsa:8 CUODI ;
-aktse:9 CUODI ;
+gáktja:8 CUODI ;
+oktje:9 CUODI ; 
 
 LEXICON CUODI
 tjuode: HUNDRED ;
@@ -303,51 +273,42 @@ lågenan:1 TEEN2 ;
 
 LEXICON TEEN
 akta:1 LOHKAI ;
-guokta:2 LOHKAI ;
-guok:2 LOHKAI ;
+guakta:2 LOHKAI ;
 gålmmå:3 LOHKAI ;
 niellja:4 LOHKAI ;
 niellje:4 LOHKAI ;
 vihtta:5 LOHKAI ;
 guhtta:6 LOHKAI ;
-gietja:7 LOHKAI ;
 gietjav:7 LOHKAI ;
-giehtja:7 LOHKAI ;
-gáktsa:8 LOHKAI ;
-aktse:9 LOHKAI ;
+gáktja:8 LOHKAI ;
+oktje:9 LOHKAI ; 
 
 LEXICON TEEN2
 akta:1 # ;
-guokta:2 # ;
-guok:2 # ;
+guakta:2 # ;
 gålmmå:3 # ;
 niellja:4 # ;
 niellje:4 # ;
 vihtta:5 # ;
 guhtta:6 # ;
-gietja:7 # ;
 gietjav:7 # ;
-giehtja:7 # ;
-gáktsa:8 # ;
-aktse:9 # ;
+gáktja:8 # ;
+oktje:9 # ; 
 
 LEXICON LOHKAI
 lågenan: # ;
 
 LEXICON TENS
 lågev:1%0 # ;
-guokta:2 LÅGEV ;
-guok:2 LÅGEV ;
+guakta:2 LÅGEV ;
 gålmmå:3 LÅGEV ;
 niellja:4 LÅGEV ;
 niellje:4 LÅGEV ;
 vihtta:5 LÅGEV ;
 guhtta:6 LÅGEV ;
-gietja:7 LÅGEV ;
 gietjav:7 LÅGEV ;
-giehtja:7 LÅGEV ;
-gáktsa:8 LÅGEV ;
-aktse:9 LÅGEV ;
+gáktja:8 LÅGEV ;
+oktje:9 LÅGEV ; 
 
 LEXICON LÅGEV
 låhke:%0 # ;
@@ -356,16 +317,13 @@ låk: ONES ;
 
 LEXICON ONES
 akta:1 # ;
-guokta:2 # ;
-guok:2 # ;
+guakta:2 # ;
 gålmmå:3 # ;
 niellja:4 # ;
 niellje:4 # ;
 vihtta:5 # ;
 guhtta:6 # ;
-gietja:7 # ;
 gietjav:7 # ;
-giehtja:7 # ;
-gáktsa:8 # ;
-aktse:9 # ;
+gáktja:8 # ;
+oktje:9 # ; 
 
