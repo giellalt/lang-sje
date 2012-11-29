@@ -154,8 +154,9 @@ e:á <=>  _ %>: [ %^MONB4J:0 | %^MON ] ;
 
 
 "o deletion in front of j"
-o:0 <=> u _ Cns:* Vow:* %>: %^MONB4J:0 ;
+o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 ! uo > u
+! not a-stems, muorraj
 
 "i deletion in front of j"
 i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;

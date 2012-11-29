@@ -56,7 +56,6 @@ LEXICON ÅRROT_W
 +Ind+Prt+Du1:%>ojmen #;
 +Ind+Prt+Du2:%>ojden #;
 +Ind+Prt+Du3:%>ojga #;
-+Ind+Prt+Du3:%>ojgan #;
 +Ind+Prt+Pl1:%>ojme #;
 +Ind+Prt+Pl2:%>ojde #;
 
@@ -100,9 +99,9 @@ LEXICON LÅHKÅT_S
 +Ind+Prt+Pl3:%>in #; 
 
 LEXICON LÅHKÅT_W
-+GerI:%>ietin # ; 
++GerI:%>ådin # ; 
 +VAdv:ie # ;
-+Sup:%>átjit # ;
++Sup:%>åtjit # ;
 +Vabe:%>iehk # ;
 
 +Ind+Prs+Sg1:%>åv #;
@@ -122,7 +121,7 @@ LEXICON BÅHTET
 
 LEXICON BÅHTET_S
 +Inf:%>et # ; 
-+GerII:%>iemin # ;
++GerII:%>emin # ;
 +PrfPrc:%>ám # ;
 
 +Ind+Prs+Sg3:%>a #;
@@ -138,7 +137,7 @@ LEXICON BÅHTET_S
 +Ind+Prt+Pl3:%>in #; 
 
 LEXICON BÅHTET_W
-+GerI:%>ietin # ; 
++GerI:%>edin # ; 
 +VAdv:ie # ;
 +Sup:%>átjit # ;
 +Vabe:%>iehk # ;
@@ -158,12 +157,18 @@ LEXICON BÅHTET_W
 LEXICON V_CONTR
 +V+Inf:%>t # ; 
 +V+PrfPrc:%>m #;
++V+GerII:%>min # ;
++V+GerI:%>din # ; 
++V+VAdv:ie # ;
++V+Sup:%>tjit # ;
++V+Vabe:%>iehk # ;
 
 +V+Ind+Prs+Sg1:%>v #;
 +V+Ind+Prs+Sg2: #;
 +V+Ind+Prs+Sg3: #;
 +V+Ind+Prs+Du1:%>jin #;
-+V+Ind+Prs+Du2:%>behten #;
++V+Ind+Prs+Du2:%>behtin #;
++V+Ind+Prs+Du2:%>bähtten #;
 +V+Ind+Prs+Du3:%>ba #;
 +V+Ind+Prs+Pl1:%>p #;
 +V+Ind+Prs+Pl2:%>bihtit #;
@@ -225,7 +230,8 @@ LEXICON V_ODD_IND_PRS
 +Sg3: # ; !oregelbunden
 +Sg3:%>a # ; 
 +Du1:%>in # ; 
-+Du2:%>ihpen # ; 
++Du2:%>iehpen # ;
++Du2:%>ähppen # ; 
 +Du3:%>ebá # ; 
 +Pl1:%>ip # ; 
 +Pl2:%>ihpit # ; 
