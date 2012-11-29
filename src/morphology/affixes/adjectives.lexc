@@ -110,6 +110,12 @@ LEXICON A_ODD_K
 +A:g ODD_OBLIQUE_COMMON ;
 +A: ODD_COMPSUP ;
 
+LEXICON A_ODD_M
++A+Attr:t # ; 
++A+Sg+Nom:t PX ;
++A:d ODD_OBLIQUE_COMMON ;
++A: ODD_COMPSUP ;
+
 LEXICON A_ODD_T
 +A+Attr:ähppis # ; 
 +A+Sg+Nom:áhppat PX ;
