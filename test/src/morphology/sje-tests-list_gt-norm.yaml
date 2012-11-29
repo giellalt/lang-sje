@@ -9,12 +9,6 @@ Config:
 
 Tests:
     
-  Noun - Gálldesbuovvda: # Even syll
-    Gálldesbuovvda+N+Sg+Gen: Gálldesbuovda
-
-  Noun - Vuodna: # Even syll
-    Vuodna+N+Sg+Gen: Vuona
-
   Noun - albme: # Even syll
     albme+N+Sg+Gen: alme
 
@@ -45,8 +39,8 @@ Tests:
   Noun - biesse: # Even syll
     biesse+N+Sg+Gen: biese
 
-  Noun - bievvla: # Even syll
-    bievvla+N+Sg+Gen: bievlaXXXX
+  Noun - bävvla: # Even syll
+    bävvla+N+Sg+Gen: bievla
 
   Noun - bijjla: # Even syll
     bijjla+N+Sg+Gen: bijla
