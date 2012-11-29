@@ -21,32 +21,37 @@
 LEXICON A_EVEN_A
 +A+Attr:%^WG%>a # ;
 A_EVEN ;
++A:%^WG COMPSUP ;
 
 LEXICON A_EVEN_AA
 +A+Attr:%>a # ;
 A_EVEN ;
++A:%^WG COMPSUP ;
 
 LEXICON A_EVEN_E
 +A+Attr:%^WG%>e # ;
 A_EVEN ;
++A:%^WG COMPSUP ;
 
 LEXICON A_EVEN_IES
 +A+Attr:%^WG%>es # ;
 A_EVEN ;
-
++A:%^WG COMPSUP ;
 
 LEXICON A_EVEN_B
 +A+Attr:%^WG%>s # ;
 A_EVEN ;
++A:%^WG COMPSUP ;
 
 LEXICON A_EVEN_0
 +A+Attr: # ;
 A_EVEN ;
++A:%^WG COMPSUP ;
 
 LEXICON A_EVEN_NOCG_0
 +A+Attr: # ;
 A_EVEN_NOCG ;
-
++A:%^WG COMPSUP ;
 
 
 LEXICON A_EVEN
