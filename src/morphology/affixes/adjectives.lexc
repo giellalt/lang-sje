@@ -76,106 +76,70 @@ LEXICON A_ODD
 +A+Attr: # ;
 +A+Sg+Nom: PX ;
 +A: ODD_OBLIQUE_COMMON ;
++A: ODD_COMPSUP ;
 
-+Comp+Sg+Nom:up # ;
-+Comp:ubbo ODD_OBLIQUE_U_COMMON ; !ej stv. jæmnst. ill, kom.,ess.-u
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
 
 LEXICON A_ODD_B
 +A+Attr:mes # ;
 +A+Sg+Nom:mes PX ;
 +A:bmás ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubbo ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A: ODD_COMPSUP ;
 
 
 LEXICON A_ODD_R
 +A+Attr:as # ;
 +A+Sg+Nom:as PX ;
 +A:ras ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubbo ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A: ODD_COMPSUP ;
 
 
 LEXICON A_ODD_Á
 +A+Attr:es # ;
 +A+Sg+Nom:es PX ;
 +A:ás ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubb ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A: ODD_COMPSUP ;
 
 LEXICON A_ODD_K
 +A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
 +A:g ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubb ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A: ODD_COMPSUP ;
 
 LEXICON A_ODD_T
 +A+Attr:ähppis # ; 
 +A+Sg+Nom:áhppat PX ;
 +A:áhppad ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubb ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A:áhppad ODD_COMPSUP ;
 
 
 LEXICON A_ODD_SIS
 +A+Attr:sis # ; 
 +A+Sg+Nom:s PX ;
 +A:s ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubb ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A: ODD_COMPSUP ;
 
 LEXICON A_ODD_DIS
 +A+Attr:dis # ; 
 +A+Sg+Nom:t PX ;
 +A:d ODD_OBLIQUE_COMMON ;
-
-+Comp+Nom:up # ;
-+Comp:ubb ODD_OBLIQUE_U_COMMON ;
-
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++A: ODD_COMPSUP ;
 
 
 LEXICON A_ODD_k_K
 +A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
 +A:g ODD_OBLIQUE_COMMON ;
++A: ODD_COMPSUP ;
 
-+Comp+Nom:up # ;
-+Comp:ubb ODD_OBLIQUE_U_COMMON ;
+
+LEXICON ODD_COMPSUP
++Comp+Sg+Nom:up # ;
++Comp:ubbo N_EVEN_W ; !ändra till ej stv, jämn.st.o-stam
++Comp:ubbo               N_EVEN_S ;
++Comp:%>ubbo%>j     N_EVEN_J ;
 
 +Superl+Nom:umos # ;
 +Superl:ubmos ODD_OBLIQUE_COMMON ; 
-
-
 
 	
 
