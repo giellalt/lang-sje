@@ -68,9 +68,10 @@ Cx:0 <=> Vow: Cx _  Vow:+ (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( t k m n s r l f j v ) ; ! OBS fjerna j pga av ijja, och in igen för ijja
 
 "Consonant Gradation for xxy:xy" 
-Cx:0 <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
- where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v )
-       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m s t v j b d f g k p s t v b g p s d j t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s )  
+!Cx:0 <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+ where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
+       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s t )  
           matched ;
          
 "Consonant Gradation for xy:y" 
@@ -167,6 +168,13 @@ i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
 
  !€ juällge^WG
  !€ juol0ge0
+
+"ä to ie in weak grade 1"
+ä:e <=> :i _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
+
+"ä to ie in weak grade 2"
+0:i <=> _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
+
 
 "u to å in odd stems"
 u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^MONB4J:0 ;

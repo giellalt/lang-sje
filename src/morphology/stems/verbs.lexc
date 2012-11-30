@@ -31,7 +31,7 @@ LEXICON LEPRS
 +Du1:lin # ; 
 +Du1:len # ; 
 +Du2:lihpen # ; 
-+Du2:lähpen # ;  
++Du2:lähppen # ;  
 +Du3:läbá # ; 
 +Pl1:läp # ; 
 +Pl1:lip # ; 
@@ -58,17 +58,16 @@ LEXICON LEPRT
 +Pl3:lin    # ; 
 
 LEXICON LEPOT
-+Sg1:litjav # ; 
-+Sg2:litjah # ; 
-+Sg3:litj # ; 
-+Du1:litjin # ; 
-+Du2:litjapiehtien # ; 
-+Du3:litjapah # ; 
-+Du3:litjapan # ; 
-+Pl1:litjap # ; 
-+Pl2:litjapiht # ; 
-+Pl2:litjapihtit # ; 
-+Pl3:litjih # ; 
++Sg1:lidtjav # ; 
++Sg2:lidtja # ; 
++Sg3:lidtj # ; 
++Du1:lidtjin # ; 
++Du2:lidtjabehtin # ; 
++Du3:lidtjaba # ; 
++Du3:lidtjaban # ; 
++Pl1:lidtjap # ;  
++Pl2:lidtjabihtit # ; 
++Pl3:lidtji # ; 
 
 
 LEXICON ATJA
@@ -111,7 +110,7 @@ LEXICON IJPRS
 +Du1:en # ; 
 +Du2:ehpen # ;   
 +Du3:ieba # ; 
-+Du3:eba # ; 
++Du3:ebá # ; 
 +Pl1:iehpe # ; 
 +Pl1:ep # ; 
 +Pl2:ehpit # ;  
@@ -123,9 +122,9 @@ LEXICON IJPRT
 +Sg2:idtji    # ; 
 +Sg3:idtjij    # ; 
 +Du1:ejme # ; 
-+Du1:idtjijme # ; 
++Du1:idtjijmen # ; 
 +Du2:ejde  # ; 
-+Du2:idtjijde # ; 
++Du2:idtjijden # ; 
 +Du3:ejga # ; 
 +Du3:idtjijga # ; 
 +Pl1:ejme # ; 
