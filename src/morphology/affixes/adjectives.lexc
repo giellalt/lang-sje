@@ -53,6 +53,10 @@ LEXICON A_EVEN_NOCG_0
 A_EVEN_NOCG ;
 +A:%^WG COMPSUP ;
 
+LEXICON A_EVEN_NOCG_S
++A+Attr:%>s # ; !är det rätt kod
+A_EVEN_NOCG ;
++A:%^WG COMPSUP_A ;
 
 LEXICON A_EVEN
 +A: EVENCASE ;  ! Nom, Ess, Ill
@@ -62,7 +66,7 @@ LEXICON A_EVEN
 LEXICON A_EVEN_NOCG
 +A: EVENCASE ;
 +A: N_EVEN_W ; ! No CG here
-+A: COMPSUP ;
++A:%^WG COMPSUP ;
 
 LEXICON COMPSUP
 +Comp+Sg+Nom:%^WGp # ;
@@ -74,6 +78,15 @@ LEXICON COMPSUP
 +Superl:%^WGmussa EVENCASE ;
 +Superl:%^WGmussa%^WG  N_EVEN_W ; ! CG here
 
+LEXICON COMPSUP_A
++Comp+Sg+Nom:%^p # ;
++Comp+Attr:%^p # ;
++Comp:%^b ODD_OBLIQUE_U_COMMON ;
+
++Superl+Sg+Nom:%^WGmus # ;
++Superl+Attr:%^WGmus # ;
++Superl:%^WGmussa EVENCASE ;
++Superl:%^WGmussa%^WG  N_EVEN_W ; ! CG here
 
 
 

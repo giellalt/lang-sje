@@ -16,33 +16,53 @@ LEXICON Adjective
 stuorre A_EVEN_A ;
 
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
-assá A_EVEN_B ; !attributiv form assás utan stadiev., ej heller i komparering
-binna A_EVEN_NOCG_0 ; !fel i plural, rätta
-buorre A_EVEN_0 ;gävvra:g A_EVEN_IES ; !rätta
+assá A_EVEN_NOCG_S ; !vill stadieväxla, fungerar ej
+binna A_EVEN_NOCG_0 ; !komparering fungerar ej
+buorre A_EVEN_0 ;
+buäjjde A_EVEN_B ; 
+gävvra A_EVEN_B ; !omljud fungerar ej
 bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ;
-gåbbde A_EVEN_B ; 
+gárrtje A_EVEN_B ; !fungerar ej
+guhkke A_EVEN_B ; 
+gåbbde A_EVEN_B ;
+gädtse A_EVEN_NOCG_S ; !giedtses omljud fungerar ej
+gähppe A_EVEN_B ; !giehpes omljud fungerar ej
+hárrge A_EVEN_B ;
+hávvske A_EVEN_B ; 
 hiejjo A_EVEN_B ;
 hiedjo A_EVEN_B ;
 iedna A_EVEN_0 ;
+jállo A_EVEN_B ; 
 låjje A_EVEN_B ;
-maŋŋe A_EVEN_0 ;njállge A_EVEN_B ;  
+maŋŋe A_EVEN_0 ;
+njállge A_EVEN_B ;
+njárrbe A_EVEN_B ;   
 nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
+sájjge A_EVEN_B ;
+sávvre A_EVEN_B ;
+sjullo A_EVEN_B ;
+smávve A_EVEN_B ;   
 stuorra A_EVEN_0 ;
+sägge A_EVEN_NOCG_S ; !siegges
 tjábbe A_EVEN_AA ;
-tjalmedibme A_EVEN_0 ; !attr. tjalmedis 
+tjavvga A_EVEN_NOCG_0 ; !även tjåvvga-tjåvges finnes
+tjalmedibme A_EVEN_0 ; !attr. tjalmedis
+tjähppe A_EVEN_B ; !tjiehpes
 uhttse A_EVEN_B ;
-unne:unn A_EVEN_NOCG_0 ; !rätta
+unne A_EVEN_AA ;
+vájvve A_EVEN_B ;
+vuodnje A_EVEN_B ;
 vuojnudibme A_EVEN_0 ; !attr. vuojnudis
 ådne A_EVEN_B ; 
-ådne A_EVEN_AA ; !alternativ attributiv form ådna 
+ådne A_EVEN_AA ;  
 
 
 
 
 
- aset:ase A_ODD_DIS ;
+aset:ase A_ODD_DIS ;
 bivval A_ODD ;
 basstel A_ODD ;
 dulutj A_ODD ; 
