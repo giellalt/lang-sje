@@ -12,7 +12,12 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-Multichar_Symbols
+! ========================================================================== !
+! !!               !!!Pite Sámi morphological analyser                       !
+! ========================================================================== !
+ 
+
+Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 ! POS
 +N +V +A 
