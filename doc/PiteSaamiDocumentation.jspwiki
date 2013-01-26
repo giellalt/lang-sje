@@ -1,0 +1,21 @@
+
+
+These pages document our Pite Saami parser.
+
+* [Links to generated source file documentation|Links.html]
+
+
+!!! Source files
+* [stems|https://victorio.uit.no/langtech/trunk/langs/sje/src/morphology/stems/]   
+  / [affixes|https://victorio.uit.no/langtech/trunk/langs/sje/src/morphology/affixes/] 
+  / [twolc|https://victorio.uit.no/langtech/trunk/langs/sje/src/phonology/sje-phon.twolc]   
+  / [yaml|https://victorio.uit.no/langtech/trunk/langs/sje/test/src/morphology/]
+  / [paradigm|http://giellatekno.uit.no/cgi/p-sje.fin.html]
+  / [text|http://giellatekno.uit.no/cgi/d-sje.fin.html]
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/sje/src/morphology/root.lexc]   
+* [A list of morphological tags|../common/MorphologicalTags.html]
+
+
