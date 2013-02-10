@@ -1,0 +1,4022 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document xml:lang="en">
+  <header>
+
+<title>Verbböjning pitesamiska </title>
+  </header>
+<body>
+<section>
+
+<title>Jämnstaviga stammer</title>
+
+
+<P>De flesta Jämnstaviga verb har
+stadieväxling.  I infinitiv står ordstammen i starkstadium och
+under böjningen växlar stark- och svagstadium, vilket framgår av
+böjningsmönstret. Vissa stamkonsonanttyper (grupper av konsonanter
+mellan första och andra stavelsen) saknar denna växling, vilket är
+en skillnad jämfört med lulesamiskan inom Jokkmokk/ Gällivare, se
+dokumentet stadieväxlingsserier.</P>
+<P>
+</P>
+<P>
+</P>
+<P><em>Omljud:</em></P>
+<P>De flesta verb har vokalförändringar
+i böjningsmönstret. Vokalförändringarna följer givna regler.
+Vokalförändringar i första stavelsen styrs av vokalen i andra
+stavelsen, formulerade i en omljudstabell av Olavi Korhonen.</P>
+<P>
+</P>
+<P>Första stavelsen vokal ändras såvida
+andra stavelsen vokal är u eller i enligt följande regler:</P>
+<P>1. Diftongen <I>ua</I> (grad III)/<I>uo</I>
+(grad II) i första stavelsen övergår till <I>u</I> om andra
+stavelsens vokal är <I>u</I> eller <I>i</I>, ex.
+<I>juajggat~juojgav~jujggin</I>.</P>
+<P>2. Diftongen <I>uä</I> (grad III)/<I>uo</I>
+(grad II) i första stavelsen övergår till <I>u</I> såvida andra
+stavelsens vokal är <I>u</I> eller <I>i</I>, ex.
+<I>vuäjdnet~vuojnáv~vujnij.</I></P>
+<P>3. Den långa vokalen <I>ä</I> (grad
+III)/<I>ie</I> (grad II) i första stavelsen övergår till långt <I>e</I>
+om andra stavelsens vokal är <I>u</I> eller <I>i</I>.</P>
+<P>4. Vokalen <I>å</I> i första
+stavelsen övergår till långt <I>u</I> om andra stavelsens vokal är
+<I>u </I>eller <I>i</I>.</P>
+<P>5. Den långa vokalen <I>á</I> i
+första stavelsen övergår till långt <I>ä</I> om andra stavelsens
+vokal är <I>u</I> eller <I>i</I>. 
+</P>
+<P>6. Vokalen <I>a</I> i första stavelsen
+övergår till <I>i</I> om andra stavelsens vokal är <I>u</I> eller
+<I>i</I>.</P>
+<P>
+</P>
+<P><em>a-stammar med kort
+vokal i första stavelsen</em></P>
+<P>
+</P>
+<P><em>Gullat (ll/l)</em></P>
+<P>Exempel på verb med identisk böjning;
+<I>galggat (gg/g), dahkat (hk/g) sihtat (ht/d), sjaddat (dd/dd),
+ballat, dagadallat (ll/l), naddat (dd/dd), -dahtjat (htj/tj),
+måráduvvat (vv/v), juhkat (hk/g), tjajbmat (bm/m), barrgat (rrg/rg)</I></P>
+<P>
+</P>
+<TABLE border="1">
+	<TR>
+		<TD>
+			<P>person 
+			</P>
+		</TD>
+		<TD>
+			<P>Lehtiranta/ <I>Halász</I></P>
+		</TD>
+		<TD>
+			<P>Korhonen/ Steggo</P>
+		</TD>
+		<TD>
+			<P>Arjeplogs-gruppen 
+			</P>
+			<P>/ <I>M. Sjaggo</I></P>
+		</TD>
+		<TD>
+			<P>Lule-samiska</P>
+		</TD>
+		<TD>
+			<P>Giella-tekno, gerundium,
+			verbalsubstantiv, presens particip, verbgenitiv och imperativ ej
+			inlagt 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens</P>
+		</TD>
+		<TD>
+			<P>kullat/ <I>gullat</I></P>
+		</TD>
+		<TD>
+			<P>gullat</P>
+		</TD>
+		<TD>
+			<P>gullat, barrgat</P>
+		</TD>
+		<TD>
+			<P>gullat</P>
+		</TD>
+		<TD>
+			<P>gullat</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P>kulav/<I>guláv</I></P>
+		</TD>
+		<TD>
+			<P>gulav</P>
+		</TD>
+		<TD>
+			<P>gulav/ <I>guláv</I></P>
+		</TD>
+		<TD>
+			<P>guláv</P>
+		</TD>
+		<TD>
+			<P>gulav 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>kulah/ <I>gulá</I></P>
+		</TD>
+		<TD>
+			<P>gula</P>
+		</TD>
+		<TD>
+			<P>gula/<I>gulá</I></P>
+		</TD>
+		<TD>
+			<P>gulá</P>
+		</TD>
+		<TD>
+			<P>gula</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P>kullaa/ <I>gullá</I></P>
+		</TD>
+		<TD>
+			<P>gullá</P>
+		</TD>
+		<TD>
+			<P>gullá, bedja /<I>gullá</I></P>
+		</TD>
+		<TD>
+			<P>gullá</P>
+		</TD>
+		<TD>
+			<P>gullá</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P>kullin/ <I>gullin</I></P>
+		</TD>
+		<TD>
+			<P>gullin</P>
+		</TD>
+		<TD>
+			<P>gullin, birrgin/ <I>gullin</I></P>
+		</TD>
+		<TD>
+			<P>gullin</P>
+		</TD>
+		<TD>
+			<P>gullin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>kullapehtien</P>
+			<P>/<I>gullabehtin, gullabihtin</I></P>
+		</TD>
+		<TD>
+			<P>gulla-behtin</P>
+		</TD>
+		<TD>
+			<P>gullabehtin, barrgábähtin/ <I>gullabähtten</I></P>
+		</TD>
+		<TD>
+			<P>gullabihtte</P>
+		</TD>
+		<TD>
+			<P>gulla-behtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P>kullapah, -pan/<I>gullaba</I></P>
+		</TD>
+		<TD>
+			<P>gullaba</P>
+		</TD>
+		<TD>
+			<P>gullaba/ <I>gullaba</I></P>
+		</TD>
+		<TD>
+			<P>gullaba</P>
+		</TD>
+		<TD>
+			<P>gullaba</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P>kullap/</P>
+			<P><I>gullabe</I></P>
+		</TD>
+		<TD>
+			<P>gullap</P>
+		</TD>
+		<TD>
+			<P>gullap/ <I>gullap</I></P>
+		</TD>
+		<TD>
+			<P>gullap</P>
+		</TD>
+		<TD>
+			<P>gullap</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P>kullapihtit/ <I>gullabihtit</I></P>
+		</TD>
+		<TD>
+			<P>gullabihtit</P>
+		</TD>
+		<TD>
+			<P>gullabehtit/ <I>gullabihtit</I></P>
+		</TD>
+		<TD>
+			<P>gullabihtit</P>
+		</TD>
+		<TD>
+			<P>gulla-bihtit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P>kullih/ <I>gulli</I></P>
+		</TD>
+		<TD>
+			<P>gulli</P>
+		</TD>
+		<TD>
+			<P>gulli, birrgi/ <I>gulli</I></P>
+		</TD>
+		<TD>
+			<P>gulli</P>
+		</TD>
+		<TD>
+			<P>gulli</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Preteritum</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P>kulliv/<I>gulliv</I></P>
+		</TD>
+		<TD>
+			<P>gulliv</P>
+		</TD>
+		<TD>
+			<P>gulliv, birrgiv/ <I>gulliv</I></P>
+		</TD>
+		<TD>
+			<P>gulliv</P>
+		</TD>
+		<TD>
+			<P>gulliv</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>kullih/<I>gulli</I></P>
+		</TD>
+		<TD>
+			<P>gulli</P>
+		</TD>
+		<TD>
+			<P>gulli, birrgi/ <I>gulli</I></P>
+		</TD>
+		<TD>
+			<P>gulli</P>
+		</TD>
+		<TD>
+			<P>gulli</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P>kulaj/<I>guláj</I></P>
+		</TD>
+		<TD>
+			<P>gulaj</P>
+		</TD>
+		<TD>
+			<P>gulaj/ <I>guláj</I></P>
+		</TD>
+		<TD>
+			<P>guláj</P>
+		</TD>
+		<TD>
+			<P>gulaj 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P>kulajmen/ <I>gulájmen</I></P>
+		</TD>
+		<TD>
+			<P>gulajmen</P>
+		</TD>
+		<TD>
+			<P>gulajmin/ <I>gulájma</I></P>
+		</TD>
+		<TD>
+			<P>gulájma</P>
+		</TD>
+		<TD>
+			<P>gula-jmen 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>kulajten/ <I>gulájden</I></P>
+		</TD>
+		<TD>
+			<P>gulajden</P>
+		</TD>
+		<TD>
+			<P>gulajdin/ <I>gulájda</I></P>
+		</TD>
+		<TD>
+			<P>gulájda</P>
+		</TD>
+		<TD>
+			<P>gulajden 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P>kulajkah~</P>
+			<P>-kan/</P>
+			<P><I>gullájgan</I></P>
+		</TD>
+		<TD>
+			<P>gulajga</P>
+		</TD>
+		<TD>
+			<P>gulajga/ <I>gulájga</I></P>
+		</TD>
+		<TD>
+			<P>gulájga</P>
+		</TD>
+		<TD>
+			<P>gulajga</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P>kulajmeh/ <I>gulájme</I></P>
+		</TD>
+		<TD>
+			<P>gulajme</P>
+		</TD>
+		<TD>
+			<P>gulajme/</P>
+			<P><I>gulájma</I></P>
+		</TD>
+		<TD>
+			<P>gulájma</P>
+		</TD>
+		<TD>
+			<P>gulajme</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P>kulajteh/ <I>gulájde</I></P>
+		</TD>
+		<TD>
+			<P>gulajde</P>
+		</TD>
+		<TD>
+			<P><I>gulajde/</I></P>
+			<P><I>gulájda</I></P>
+		</TD>
+		<TD>
+			<P>gulájda</P>
+		</TD>
+		<TD>
+			<P>gulajde</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P>kullin/ <I>gullin</I></P>
+		</TD>
+		<TD>
+			<P>gullin</P>
+		</TD>
+		<TD>
+			<P>gullin, birrgin/ <I>gullin</I></P>
+		</TD>
+		<TD>
+			<P>gullin</P>
+		</TD>
+		<TD>
+			<P>gullin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Imperativ 1</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>kulah/ <I>gulá</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gulla/ gulá</P>
+		</TD>
+		<TD>
+			<P>gulá</P>
+		</TD>
+		<TD>
+			<P>gula,
+			lägg in i GT 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>kullien/ <I>gullin</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gullin, birrgin/ <I>gulle</I>n</P>
+		</TD>
+		<TD>
+			<P>gulle</P>
+		</TD>
+		<TD>
+			<P>gullen
+			ändra i GT</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dij</P>
+		</TD>
+		<TD>
+			<P>kullit/ <I>gullit</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gullit, birrgit/ <I>gullit</I></P>
+		</TD>
+		<TD>
+			<P>gullit</P>
+		</TD>
+		<TD>
+			<P>gullit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Perf.particip</P>
+		</TD>
+		<TD>
+			<P>kullam</P>
+		</TD>
+		<TD>
+			<P>gullam</P>
+		</TD>
+		<TD>
+			<P>gullam/ <I>gullam</I></P>
+		</TD>
+		<TD>
+			<P>gullam</P>
+		</TD>
+		<TD>
+			<P>gullam</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>negeringsform</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gula</P>
+		</TD>
+		<TD>
+			<P>gula/ <I>gulá</I></P>
+		</TD>
+		<TD>
+			<P>gulá</P>
+		</TD>
+		<TD>
+			<P>gula</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium I/ tillståndsform- håller på att</P>
+		</TD>
+		<TD>
+			<P>kullamin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>juhkamin</P>
+			<P><I>gullamin</I></P>
+		</TD>
+		<TD>
+			<P>gullamin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+			<P>gullamin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium II/ samtidighets-form- under det att…</P>
+		</TD>
+		<TD>
+			<P>kulatin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>jugadin</P>
+		</TD>
+		<TD>
+			<P>guládijn</P>
+		</TD>
+		<TD>
+			<P>guladin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Supinum- för att</P>
+		</TD>
+		<TD>
+			<P>kulatjit</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>gulátjit</I></P>
+		</TD>
+		<TD>
+			<P>gulátjit</P>
+		</TD>
+		<TD>
+			<P>gulatjit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens particip/ Handlarnomen, den som gör ..</P>
+		</TD>
+		<TD>
+			<P>kullie</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>barrge, juhkke 
+			</P>
+			<P><I>juhkke</I></P>
+		</TD>
+		<TD>
+			<P>gul´le</P>
+		</TD>
+		<TD>
+			<P>barrge</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Verbal-substantiv/</P>
+			<P>Handlings-nomen (-ning, -ande)</P>
+		</TD>
+		<TD>
+			<P>kullam</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gullam</P>
+		</TD>
+		<TD>
+			<P>gullam</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>verbgenitiv (genom att)</P>
+		</TD>
+		<TD>
+			<P>kula</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gulá</P>
+		</TD>
+		<TD>
+			<P>gula</P>
+		</TD>
+	</TR>
+</TABLE>
+<P>
+</P>
+<P>
+</P>
+<P><em>a-stammar med lång
+vokal i första stavelsen</em></P>
+<P>
+</P>
+<P><em>Sávvat (vv/v)</em></P>
+<P>Exempel på verb som har identisk
+böjning; <I>viehkat (hk/g), slábmat (bm/m), fierrat (rr/r), lierrat
+(rr/r), tjágŋat
+(gŋ/ŋ)</I></P>
+<P>
+</P>
+<TABLE border="1">
+	<TR>
+		<TD>
+			<P>Person</P>
+		</TD>
+		<TD>
+			<P>Lehtiranta/ <I>Halász</I></P>
+		</TD>
+		<TD>
+			<P>Korhonen/</P>
+			<P>Steggo</P>
+		</TD>
+		<TD>
+			<P>Arjeplogs- gruppen/</P>
+			<P> <I>M. Sjaggo</I></P>
+		</TD>
+		<TD>
+			<P>Lule-samiska</P>
+		</TD>
+		<TD>
+			<P>Giella-</P>
+			<P>Tekno</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens</P>
+		</TD>
+		<TD>
+			<P><I>sávvat</I></P>
+		</TD>
+		<TD>
+			<P>sávvat</P>
+		</TD>
+		<TD>
+			<P>sávvat</P>
+		</TD>
+		<TD>
+			<P>sávvat</P>
+		</TD>
+		<TD>
+			<P>sávvat</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P><I>sávav</I></P>
+		</TD>
+		<TD>
+			<P>sávav</P>
+		</TD>
+		<TD>
+			<P>sávav/ <I>sávav</I></P>
+		</TD>
+		<TD>
+			<P>sávav</P>
+		</TD>
+		<TD>
+			<P>sávav</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P><I>sáva</I></P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+		<TD>
+			<P>sáva/ <I>sáva</I></P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P><I>sávva</I></P>
+		</TD>
+		<TD>
+			<P>sávvá</P>
+		</TD>
+		<TD>
+			<P>sávvá/ <I>sávvá</I></P>
+		</TD>
+		<TD>
+			<P>sávvá</P>
+		</TD>
+		<TD>
+			<P>sávvá</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P><I>sävvin</I></P>
+		</TD>
+		<TD>
+			<P>sävvin</P>
+		</TD>
+		<TD>
+			<P>sävvin/ <I>sávvin</I></P>
+		</TD>
+		<TD>
+			<P>sávvin</P>
+		</TD>
+		<TD>
+			<P>sävvin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P><I>sávvabihtin</I></P>
+		</TD>
+		<TD>
+			<P>sávvabehtin</P>
+		</TD>
+		<TD>
+			<P>sávvabehtin/ <I>sávvabähtten</I></P>
+		</TD>
+		<TD>
+			<P>sávva-bihtte</P>
+		</TD>
+		<TD>
+			<P>sávva-behtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P><I>sávvaba</I></P>
+		</TD>
+		<TD>
+			<P>sávvaba</P>
+		</TD>
+		<TD>
+			<P>sávvaba/ <I>sávvaba</I></P>
+		</TD>
+		<TD>
+			<P>sávvaba</P>
+		</TD>
+		<TD>
+			<P>sávvaba</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P><I>sávvap</I></P>
+		</TD>
+		<TD>
+			<P>sávvap</P>
+		</TD>
+		<TD>
+			<P>sávvap/ <I>sávvap</I></P>
+		</TD>
+		<TD>
+			<P>sávvap</P>
+		</TD>
+		<TD>
+			<P>sávvap</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P><I>sávvabihtit</I></P>
+		</TD>
+		<TD>
+			<P>sávvabihtit</P>
+		</TD>
+		<TD>
+			<P>sávvabehtit/ <I>sávvabihtit</I></P>
+		</TD>
+		<TD>
+			<P>sávvabihtit</P>
+		</TD>
+		<TD>
+			<P>sávva-bihtit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P><I>sävvi</I></P>
+		</TD>
+		<TD>
+			<P>sävvi</P>
+		</TD>
+		<TD>
+			<P>sävvi/ <I>sávvi</I></P>
+		</TD>
+		<TD>
+			<P>sávvi</P>
+		</TD>
+		<TD>
+			<P>sävvi</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Preteritum</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P><I>sävviv</I></P>
+		</TD>
+		<TD>
+			<P>sävviv</P>
+		</TD>
+		<TD>
+			<P>sävviv/<I>sávviv</I></P>
+		</TD>
+		<TD>
+			<P>sávviv</P>
+		</TD>
+		<TD>
+			<P>sävviv</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P><I>sävvi</I></P>
+		</TD>
+		<TD>
+			<P>sävvi</P>
+		</TD>
+		<TD>
+			<P>sävvi/ <I>sávvi</I></P>
+		</TD>
+		<TD>
+			<P>sávvi</P>
+		</TD>
+		<TD>
+			<P>sävvi</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P><I>sávaj</I></P>
+		</TD>
+		<TD>
+			<P>sávaj</P>
+		</TD>
+		<TD>
+			<P>sávaj/ <I>sávaj</I></P>
+		</TD>
+		<TD>
+			<P>sávaj</P>
+		</TD>
+		<TD>
+			<P>sávaj</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P><I>sávajmen</I></P>
+		</TD>
+		<TD>
+			<P>sávajmen</P>
+		</TD>
+		<TD>
+			<P>sávajmin/ <I>sávajma</I></P>
+		</TD>
+		<TD>
+			<P>sávajma</P>
+		</TD>
+		<TD>
+			<P>sávajmen</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P><I>sávajden</I></P>
+		</TD>
+		<TD>
+			<P>sávajden</P>
+		</TD>
+		<TD>
+			<P>sávajdin/ <I>sávajda</I> 
+			</P>
+		</TD>
+		<TD>
+			<P>sávajda</P>
+		</TD>
+		<TD>
+			<P>sávajden</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P><I>sávajgan</I></P>
+		</TD>
+		<TD>
+			<P>sávajga</P>
+		</TD>
+		<TD>
+			<P>sávajga/ <I>sávajga</I></P>
+		</TD>
+		<TD>
+			<P>sávajga</P>
+		</TD>
+		<TD>
+			<P>sávajga</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P><I>sávajme</I></P>
+		</TD>
+		<TD>
+			<P>sávajme</P>
+		</TD>
+		<TD>
+			<P>sávajme/ <I>sávajma</I></P>
+		</TD>
+		<TD>
+			<P>sávajma</P>
+		</TD>
+		<TD>
+			<P>sávajme</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P><I>sávajde</I></P>
+		</TD>
+		<TD>
+			<P>sávajde</P>
+		</TD>
+		<TD>
+			<P>sávajde/ <I>sávajda</I></P>
+		</TD>
+		<TD>
+			<P>sávajda</P>
+		</TD>
+		<TD>
+			<P>sávajde</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P><I>sävvin</I></P>
+		</TD>
+		<TD>
+			<P>sävvin</P>
+		</TD>
+		<TD>
+			<P>sävvin/ <I>sávvin</I></P>
+		</TD>
+		<TD>
+			<P>sávvin</P>
+		</TD>
+		<TD>
+			<P>sävvin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Imperativ 1</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P><I>sáva</I></P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+		<TD>
+			<P><I>sáva</I></P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+		<TD>
+			<P>viega</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P><I>sävvin</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>sávven</I></P>
+		</TD>
+		<TD>
+			<P>sávve</P>
+		</TD>
+		<TD>
+			<P>viehken</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dij</P>
+		</TD>
+		<TD>
+			<P><I>sävvit</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>sávvit</I></P>
+		</TD>
+		<TD>
+			<P>sávvit</P>
+		</TD>
+		<TD>
+			<P>viehkat</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Perf.particip</P>
+		</TD>
+		<TD>
+			<P><I>sávvam</I></P>
+		</TD>
+		<TD>
+			<P>sávvam</P>
+		</TD>
+		<TD>
+			<P><I>sávvam</I></P>
+		</TD>
+		<TD>
+			<P>sávvam</P>
+		</TD>
+		<TD>
+			<P>sávvam</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>negeringsform</P>
+		</TD>
+		<TD>
+			<P><I>sáva</I></P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+		<TD>
+			<P>sáva/ <I>sáva</I></P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+		<TD>
+			<P>sáva</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium I/ håller på att</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>viehkamin<I> sávvamin</I></P>
+		</TD>
+		<TD>
+			<P>viehkamin</P>
+		</TD>
+		<TD>
+			<P>viehka-min</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium II/ samtidighets-formen- under det att.. 
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>viegadin</P>
+		</TD>
+		<TD>
+			<P>viegadijn</P>
+		</TD>
+		<TD>
+			<P>viegadin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Supinum- 
+			</P>
+			<P>för att</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>viegatjit</I></P>
+		</TD>
+		<TD>
+			<P>viegatjit</P>
+		</TD>
+		<TD>
+			<P>viegatjit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens- particip/ Handlarnomen, den som gör.. 
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>lär´re </I>
+			</P>
+		</TD>
+		<TD>
+			<P>viehkke</P>
+		</TD>
+		<TD>
+			<P>vähkke</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Verbal-substantiv/</P>
+			<P>Handlings-nomen (-ning, -ande)</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>viegan</P>
+		</TD>
+		<TD>
+			<P>viehkam</P>
+		</TD>
+		<TD>
+			<P>viehkam</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>verbgenitiv (genom att)</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>viega</P>
+		</TD>
+		<TD>
+			<P>viega</P>
+		</TD>
+	</TR>
+</TABLE>
+<P>
+</P>
+<P><em>e-stammar</em></P>
+<P>
+</P>
+<P><em>Båhtet, (ht/d)</em></P>
+<P>Exempel på verb med identisk böjning;
+<I>adnet (dn/n), báhtset (hts/ts), vuäjdnet (jdn/jn), vádtset
+(dts/dts), gállet (ll/l), válldet (lld/ld), bállet (ll/l), jáhkket
+(hkk/hk), gåddet (dd/dd)</I></P>
+<P>
+</P>
+<P>
+</P>
+<TABLE border="1">
+	<TR>
+		<TD>
+			<P>Person</P>
+		</TD>
+		<TD>
+			<P>Lehtiranta/ <I>Halász</I></P>
+		</TD>
+		<TD>
+			<P>Korhonen</P>
+			<P>/Steggo</P>
+		</TD>
+		<TD>
+			<P>Arjeplogs- gruppen/ 
+			</P>
+			<P><I>M. Sjaggo</I></P>
+		</TD>
+		<TD>
+			<P>Lule-samiska</P>
+		</TD>
+		<TD>
+			<P>Giella-</P>
+			<P>tekno</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens</P>
+		</TD>
+		<TD>
+			<P>pååhtiet/</P>
+			<P><I>båhtet</I></P>
+		</TD>
+		<TD>
+			<P>båhtet</P>
+		</TD>
+		<TD>
+			<P>båhtet, adnet</P>
+		</TD>
+		<TD>
+			<P>boahtet</P>
+		</TD>
+		<TD>
+			<P>båhtet</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P>pååtaav/ <I>bådav</I></P>
+		</TD>
+		<TD>
+			<P>bådáv</P>
+		</TD>
+		<TD>
+			<P>bådav, anáv / <I>bådáv</I></P>
+		</TD>
+		<TD>
+			<P>boadáv*</P>
+		</TD>
+		<TD>
+			<P>bådáv, bådav</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>pååtaah/ <I>båda</I></P>
+		</TD>
+		<TD>
+			<P>bådá</P>
+		</TD>
+		<TD>
+			<P>båda, aná / 
+			</P>
+			<P><I>bådá</I></P>
+		</TD>
+		<TD>
+			<P>boadá</P>
+		</TD>
+		<TD>
+			<P>bådá, båda</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P>pååtaa/ <I>båhta</I></P>
+		</TD>
+		<TD>
+			<P>båhtá</P>
+		</TD>
+		<TD>
+			<P>båhta, adna/ <I>båhtá</I></P>
+		</TD>
+		<TD>
+			<P>boahtá</P>
+		</TD>
+		<TD>
+			<P>båhtá, båhta</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P>pååhtin/ <I>buhtin</I></P>
+		</TD>
+		<TD>
+			<P>buhtin</P>
+		</TD>
+		<TD>
+			<P>buhtin, ednin<I>/</I></P>
+			<P><I>buhtin</I></P>
+		</TD>
+		<TD>
+			<P>båhtin</P>
+		</TD>
+		<TD>
+			<P>buhtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>pååtiepehtien /<I>båhtebihtin</I></P>
+		</TD>
+		<TD>
+			<P>båhte-behtin</P>
+		</TD>
+		<TD>
+			<P>båhte-behten, adnebehtin<I>/</I> <I>båhte-bähtten</I></P>
+		</TD>
+		<TD>
+			<P>boahte-bihtte</P>
+		</TD>
+		<TD>
+			<P>båhte-behtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P>pååtiehpah, 
+			</P>
+			<P>-pan/ <I>båhteba</I></P>
+		</TD>
+		<TD>
+			<P>båhteba</P>
+		</TD>
+		<TD>
+			<P>båhteba/ <I>båhteba</I></P>
+		</TD>
+		<TD>
+			<P>boahteba</P>
+		</TD>
+		<TD>
+			<P>båhteba</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P>pååhtiep/ <I>båhtep</I></P>
+		</TD>
+		<TD>
+			<P>båhtep</P>
+		</TD>
+		<TD>
+			<P>båhtep/ <I>båhtep</I></P>
+		</TD>
+		<TD>
+			<P>boahtep</P>
+		</TD>
+		<TD>
+			<P>båhtep</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P>pååhtiepihtit /<I>båhtebihtit</I></P>
+		</TD>
+		<TD>
+			<P>båhte-bihtit</P>
+		</TD>
+		<TD>
+			<P>båhtebehtit/ <I>båhtebihtit</I></P>
+		</TD>
+		<TD>
+			<P>boahtebihtit</P>
+		</TD>
+		<TD>
+			<P>båhte-bihtit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P>pååhtih/ <I>buhti</I></P>
+		</TD>
+		<TD>
+			<P>buhti</P>
+		</TD>
+		<TD>
+			<P>buhti/ <I>buhti</I></P>
+		</TD>
+		<TD>
+			<P>båhti</P>
+		</TD>
+		<TD>
+			<P>buhti</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Preteritum</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P>pååhtiv/ <I>buhtiv</I></P>
+		</TD>
+		<TD>
+			<P>buhtiv</P>
+		</TD>
+		<TD>
+			<P>buhtiv, idniv /<I>buhtiv</I></P>
+		</TD>
+		<TD>
+			<P>båhtiv</P>
+		</TD>
+		<TD>
+			<P>buhtiv</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>pååhtih/ <I>buhti</I></P>
+		</TD>
+		<TD>
+			<P>buhti</P>
+		</TD>
+		<TD>
+			<P>buhti/ <I>buhti</I></P>
+		</TD>
+		<TD>
+			<P>båhti</P>
+		</TD>
+		<TD>
+			<P>buhti</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P>pååtij/ <I>bådij</I></P>
+		</TD>
+		<TD>
+			<P>budij</P>
+		</TD>
+		<TD>
+			<P>budij/ <I>budij</I></P>
+		</TD>
+		<TD>
+			<P>bådij</P>
+		</TD>
+		<TD>
+			<P>budij</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P>pååtijmen/ <I>bådijmen</I></P>
+		</TD>
+		<TD>
+			<P>budijmen</P>
+		</TD>
+		<TD>
+			<P>budijmen/ <I>budijma</I></P>
+		</TD>
+		<TD>
+			<P>bådijma</P>
+		</TD>
+		<TD>
+			<P>budijmen</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>pååtijten/ <I>bådijden</I></P>
+		</TD>
+		<TD>
+			<P>budijden</P>
+		</TD>
+		<TD>
+			<P>budijden/ <I>budijda</I></P>
+		</TD>
+		<TD>
+			<P>bådijda</P>
+		</TD>
+		<TD>
+			<P>budijden</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P>pååtijkah~-kan/ <I>bådijgan</I></P>
+		</TD>
+		<TD>
+			<P>budijga</P>
+		</TD>
+		<TD>
+			<P>budijga/ <I>budijga</I></P>
+		</TD>
+		<TD>
+			<P>bådijga</P>
+		</TD>
+		<TD>
+			<P>budijga</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P>pååtijmeh/ <I>bådijme</I></P>
+		</TD>
+		<TD>
+			<P>budijme</P>
+		</TD>
+		<TD>
+			<P>budijme/ <I>budijma</I></P>
+		</TD>
+		<TD>
+			<P>bådijma</P>
+		</TD>
+		<TD>
+			<P>budijme</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P>pååtijteh/ <I>bådijde</I></P>
+		</TD>
+		<TD>
+			<P>budijde</P>
+		</TD>
+		<TD>
+			<P>budijde/ <I>budijda</I></P>
+		</TD>
+		<TD>
+			<P>bådijda</P>
+		</TD>
+		<TD>
+			<P>budijde</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P>pååhtin/ <I>buhtin</I></P>
+		</TD>
+		<TD>
+			<P>buhtin</P>
+		</TD>
+		<TD>
+			<P>buhtin/ <I>buhtin</I></P>
+		</TD>
+		<TD>
+			<P>båhtin</P>
+		</TD>
+		<TD>
+			<P>buhtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Imperativ 1</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>pååtieh/ <I>både</I> 
+			</P>
+		</TD>
+		<TD>
+			<P>både</P>
+		</TD>
+		<TD>
+			<P><I>både</I></P>
+		</TD>
+		<TD>
+			<P>boade</P>
+		</TD>
+		<TD>
+			<P>både</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>pååhtien/ <I>båhtin</I></P>
+		</TD>
+		<TD>
+			<P>båhten</P>
+		</TD>
+		<TD>
+			<P><I>båhten</I></P>
+		</TD>
+		<TD>
+			<P>boahte</P>
+		</TD>
+		<TD>
+			<P>båhten</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dij</P>
+		</TD>
+		<TD>
+			<P>pååhtit/ <I>båhtit</I></P>
+		</TD>
+		<TD>
+			<P>buhtit</P>
+		</TD>
+		<TD>
+			<P><I>buhtit</I></P>
+		</TD>
+		<TD>
+			<P>båhtit</P>
+		</TD>
+		<TD>
+			<P>buhtit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Perf.particip</P>
+		</TD>
+		<TD>
+			<P>pååhtaam</P>
+		</TD>
+		<TD>
+			<P>båhtám</P>
+		</TD>
+		<TD>
+			<P>båhtám/ <I>båhtám</I></P>
+		</TD>
+		<TD>
+			<P>boahtám</P>
+		</TD>
+		<TD>
+			<P>båhtám</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>negeringsform</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>både</P>
+		</TD>
+		<TD>
+			<P><I>både</I></P>
+		</TD>
+		<TD>
+			<P>boade</P>
+		</TD>
+		<TD>
+			<P>både</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium I- håller på att</P>
+		</TD>
+		<TD>
+			<P>pååhtiemin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>luäjjtemin, jåhtemin,<I> båhtemin</I></P>
+		</TD>
+		<TD>
+			<P>boahtemin</P>
+		</TD>
+		<TD>
+			<P>jåhtemin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Gerundium II/ samtidighets-form 
+			</P>
+		</TD>
+		<TD>
+			<P>pååtietin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>jådedin</P>
+		</TD>
+		<TD>
+			<P>boadedijn</P>
+		</TD>
+		<TD>
+			<P>jådedin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Supinum- 
+			</P>
+			<P>för att</P>
+		</TD>
+		<TD>
+			<P>pååtaatjit</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>jådatjit<I>/</I></P>
+			<P><I>jådatjit</I></P>
+		</TD>
+		<TD>
+			<P>boadetjit</P>
+		</TD>
+		<TD>
+			<P>jådátjit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens- particip/ Handlarnomen</P>
+		</TD>
+		<TD>
+			<P>pååh´tie</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>vadtje</I></P>
+		</TD>
+		<TD>
+			<P>boahtte</P>
+		</TD>
+		<TD>
+			<P>båhtte</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Verbal-substantiv/</P>
+			<P>Handlings-nomen (-ning, -ande)</P>
+		</TD>
+		<TD>
+			<P>pååhtiem</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gälldim, jåhtem</P>
+		</TD>
+		<TD>
+			<P>boahtem</P>
+		</TD>
+		<TD>
+			<P>jåhtem</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>verbgenitiv (genom att)</P>
+		</TD>
+		<TD>
+			<P>pååtie</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>boade</P>
+		</TD>
+		<TD>
+			<P>både</P>
+		</TD>
+	</TR>
+</TABLE>
+<P>
+</P>
+<OL>
+	<LI><P>oa växlar till å framför kortvokal i andra stavelsen enligt lulesamisk omljudsregel</P></LI>
+</OL>
+<P>** avviker från omljudstabellen</P>
+<P>
+</P>
+<P><em>o-stammar</em></P>
+<P>
+</P>
+<P><em>Gårrot (Gårr</em><em>u</em><em>t,
+arjeplogsgruppen) (rr/r), Goarrot (saL), Viessot (ss/s), Årrot
+(rr/r)</em></P>
+<P>Exempel på verb med identisk böjning;
+<I>tjuadtjot (dtj/dtj), ådtjot (dtj/dtj), guohtot (ht/d), såggot
+(gg/gg), gilljot (llj/lj)</I></P>
+<P>
+</P>
+<TABLE border="1">
+	<TR>
+		<TD>
+			<P>Person</P>
+		</TD>
+		<TD>
+			<P>Lehtiranta/ <I>Halász</I></P>
+		</TD>
+		<TD>
+			<P>Korhonen</P>
+			<P>/Steggo</P>
+		</TD>
+		<TD>
+			<P>Arjeplogs- gruppen/</P>
+			<P> <I>M. Sjaggo</I> 
+			</P>
+		</TD>
+		<TD>
+			<P>Lule-</P>
+			<P>samiska</P>
+		</TD>
+		<TD>
+			<P>Giella-</P>
+			<P>tekno</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens</P>
+		</TD>
+		<TD>
+			<P>kååruot/ (<I>duasstot</I>)</P>
+		</TD>
+		<TD>
+			<P>gårrot</P>
+		</TD>
+		<TD>
+			<P>årrot/viessot / <I>gårrut</I></P>
+		</TD>
+		<TD>
+			<P>goarrot*</P>
+		</TD>
+		<TD>
+			<P>gårrot</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P>kååruov/ <I>dustuv</I></P>
+		</TD>
+		<TD>
+			<P>gårov</P>
+		</TD>
+		<TD>
+			<P>årruv ,viesov / <I>gårov</I></P>
+		</TD>
+		<TD>
+			<P>goarov , viesov</P>
+		</TD>
+		<TD>
+			<P>gårov</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>kååruoh/ <I>dustu</I></P>
+		</TD>
+		<TD>
+			<P>gåro</P>
+		</TD>
+		<TD>
+			<P>årru, vieso/ <I>gåro</I></P>
+		</TD>
+		<TD>
+			<P>goaro, vieso</P>
+		</TD>
+		<TD>
+			<P>gåro</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P>kåårru/ <I>dusstu</I></P>
+		</TD>
+		<TD>
+			<P>gurru</P>
+		</TD>
+		<TD>
+			<P>urru, viesso/ <I>gurru</I></P>
+		</TD>
+		<TD>
+			<P>gårru, viessu</P>
+		</TD>
+		<TD>
+			<P>gurru</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P>kåårrun/ <I>dusttun</I></P>
+		</TD>
+		<TD>
+			<P>gurrun</P>
+		</TD>
+		<TD>
+			<P>urrun / <I>gurrun</I></P>
+		</TD>
+		<TD>
+			<P>gårrun, viessun</P>
+		</TD>
+		<TD>
+			<P>gurrun</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>kåårruo-pehtien/ <I>dusstubihtin</I></P>
+		</TD>
+		<TD>
+			<P>gårro-behtin</P>
+		</TD>
+		<TD>
+			<P>årrobähtten/ <I>gårrobähtten</I></P>
+		</TD>
+		<TD>
+			<P>goarrobihtte, viessobihtte</P>
+		</TD>
+		<TD>
+			<P>gårro-</P>
+			<P>behtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P>kåårruopah,</P>
+			<P> -pan/ <I>dusstuba</I></P>
+		</TD>
+		<TD>
+			<P>gårroba</P>
+		</TD>
+		<TD>
+			<P>årroba,  viesoba/ <I>gårroba</I></P>
+		</TD>
+		<TD>
+			<P>goarroba, viessoba</P>
+		</TD>
+		<TD>
+			<P>gårroba, 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P>kåårruop/ <I>dusstup </I>
+			</P>
+		</TD>
+		<TD>
+			<P>gårrop</P>
+		</TD>
+		<TD>
+			<P>årråp, viessop/ <I>gårrop</I></P>
+		</TD>
+		<TD>
+			<P>goarrop, viessop</P>
+		</TD>
+		<TD>
+			<P>gårrop</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P>kåårruopihtit</P>
+			<P>/<I>dusstubihtit</I></P>
+		</TD>
+		<TD>
+			<P>gårro-bihtit</P>
+		</TD>
+		<TD>
+			<P>årrobehtit, viessobehtit/ <I>gårrobihtit</I></P>
+		</TD>
+		<TD>
+			<P>goarrobihtit, viessobihtit</P>
+		</TD>
+		<TD>
+			<P>gårro-bihtit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P>kåårruh/ <I>dusstu</I> 
+			</P>
+		</TD>
+		<TD>
+			<P>gurru</P>
+		</TD>
+		<TD>
+			<P>urru, viesso/ <I>gurru</I></P>
+		</TD>
+		<TD>
+			<P>gårru, viessu</P>
+		</TD>
+		<TD>
+			<P>gurru</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>preteritum</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P>kåårruv/ <I>dusstuv</I> 
+			</P>
+		</TD>
+		<TD>
+			<P>gurruv</P>
+		</TD>
+		<TD>
+			<P>urruv, vissov, <I>gurruv</I></P>
+		</TD>
+		<TD>
+			<P>gårruv, viessuv</P>
+		</TD>
+		<TD>
+			<P>gurruv</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>kåårruh/ <I>dusstu</I></P>
+		</TD>
+		<TD>
+			<P>gurru</P>
+		</TD>
+		<TD>
+			<P>urru, visso, <I>gurru</I></P>
+		</TD>
+		<TD>
+			<P>gårru, viessu</P>
+		</TD>
+		<TD>
+			<P>gurru</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P>kååruoj/</P>
+			<P><I>dustuj</I></P>
+		</TD>
+		<TD>
+			<P>gåroj</P>
+		</TD>
+		<TD>
+			<P>åruj, viesoj, <I>gåroj</I></P>
+		</TD>
+		<TD>
+			<P>goaroj, viesoj</P>
+		</TD>
+		<TD>
+			<P>gåroj</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P>kååruojmen/ <I>dustujmen</I></P>
+		</TD>
+		<TD>
+			<P>gårojmen</P>
+		</TD>
+		<TD>
+			<P>årujmen, viesojmin, g<I>årojma</I></P>
+		</TD>
+		<TD>
+			<P>goarojma, viesojma</P>
+		</TD>
+		<TD>
+			<P>gåroj-men</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>kååruojten/ <I>dustujden</I></P>
+		</TD>
+		<TD>
+			<P>gårojden</P>
+		</TD>
+		<TD>
+			<P>årujden, viesojdin, <I>gårojda</I></P>
+		</TD>
+		<TD>
+			<P>goarojda, viesojda</P>
+		</TD>
+		<TD>
+			<P>gåroj-den</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P>kååruojkah ~</P>
+			<P>-kan/ <I>dustujgan</I></P>
+		</TD>
+		<TD>
+			<P>gårojga</P>
+		</TD>
+		<TD>
+			<P>årujga, viesojga, <I>gårojga</I></P>
+		</TD>
+		<TD>
+			<P>goarojga, viesojga</P>
+		</TD>
+		<TD>
+			<P>gårojga</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P>kååruojmeh/ <I>dustujme</I> 
+			</P>
+		</TD>
+		<TD>
+			<P>gårojme</P>
+		</TD>
+		<TD>
+			<P>årojme/</P>
+			<P>årujme, viesojme, <I>gårojma</I></P>
+		</TD>
+		<TD>
+			<P>goarojma, viesojma</P>
+		</TD>
+		<TD>
+			<P>gårojme</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P>kååruojteh/ <I>dustujde</I></P>
+		</TD>
+		<TD>
+			<P>gårojde</P>
+		</TD>
+		<TD>
+			<P>årujde, viesojde, <I>gårojda</I></P>
+		</TD>
+		<TD>
+			<P>goarojda, viesojda</P>
+		</TD>
+		<TD>
+			<P>gårojde</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, sij</P>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>kåårrun/ <I>dusstun</I></P>
+		</TD>
+		<TD>
+			<P>gurrun</P>
+		</TD>
+		<TD>
+			<P>urrun, vissun, <I>gurrun</I></P>
+		</TD>
+		<TD>
+			<P>gårrun, viessun</P>
+		</TD>
+		<TD>
+			<P>gurrun</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Imperativ 1</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P>kååruojh/ <I>dustu</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>gåro</I></P>
+		</TD>
+		<TD>
+			<P>goaro</P>
+		</TD>
+		<TD>
+			<P>gåro</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P>kåårruon/ <I>dusttun</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>gårron</I></P>
+		</TD>
+		<TD>
+			<P>goarro</P>
+		</TD>
+		<TD>
+			<P>gårron</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dij</P>
+		</TD>
+		<TD>
+			<P>kåårrut/ <I>dusttut</I></P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>gurrut</I></P>
+		</TD>
+		<TD>
+			<P>gårrut</P>
+		</TD>
+		<TD>
+			<P>gurrut</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Perf.particip</P>
+		</TD>
+		<TD>
+			<P>kåårrum/ <I>dusttun</I></P>
+		</TD>
+		<TD>
+			<P>gurrum</P>
+		</TD>
+		<TD>
+			<P>urrum, vissum, gurrom, <I>gurrum</I></P>
+		</TD>
+		<TD>
+			<P>gårrum, viessum</P>
+		</TD>
+		<TD>
+			<P>gurrum</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>negerings-form</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gåro</P>
+		</TD>
+		<TD>
+			<P>åro, vieso, <I>gåro</I></P>
+		</TD>
+		<TD>
+			<P>goaro, vieso</P>
+		</TD>
+		<TD>
+			<P>gåro</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium I- håller på att</P>
+		</TD>
+		<TD>
+			<P>kåårruomin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>skavvomin, tjåsskomin,</P>
+			<P>årromin<I>, gårromin</I></P>
+		</TD>
+		<TD>
+			<P>goarromin</P>
+		</TD>
+		<TD>
+			<P>gårromin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium II/ samtidighets-form</P>
+		</TD>
+		<TD>
+			<P>kååruotin</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>goarodijn</P>
+		</TD>
+		<TD>
+			<P>gårodin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Supinum- för att</P>
+		</TD>
+		<TD>
+			<P>kåårutjit</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><A NAME="_GoBack"></A><I>går</I><I>u</I><I>tjit</I></P>
+		</TD>
+		<TD>
+			<P>goarotjit gårutjit</P>
+		</TD>
+		<TD>
+			<P>gårotjit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens particip</P>
+		</TD>
+		<TD>
+			<P>kåår´ruo</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>gårro</I></P>
+		</TD>
+		<TD>
+			<P>goarro</P>
+		</TD>
+		<TD>
+			<P>gårro</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Verbal-substantiv/</P>
+			<P>Handlings-nomen (-ning, -ande)</P>
+		</TD>
+		<TD>
+			<P>kåårruom</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gårrum, guohtom</P>
+		</TD>
+		<TD>
+			<P>oaggom,</P>
+			<P>goarrom</P>
+		</TD>
+		<TD>
+			<P>gårrom</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>verbgenitiv (genom att)</P>
+		</TD>
+		<TD>
+			<P>kååruo</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>goaro</P>
+		</TD>
+		<TD>
+			<P>gåro</P>
+		</TD>
+	</TR>
+</TABLE>
+<P>
+</P>
+<P>* oa växlar till å framför kort
+vokal i andra stavelsen (saL)</P>
+<P> 
+</P>
+<P><em>å-stammar</em></P>
+<P>
+</P>
+<P><em>Bårråt (rr/r)</em></P>
+<P>Exempelverb som böjs likadant; jårråt
+(rr/r),hållåt (ll/l)</P>
+<P>
+</P>
+<TABLE border="1">
+	<TR>
+		<TD>
+			<P>Person</P>
+		</TD>
+		<TD>
+			<P>Lehtiranta/ <I>Halász</I></P>
+		</TD>
+		<TD>
+			<P>Korhonen/</P>
+			<P>Steggo</P>
+		</TD>
+		<TD>
+			<P>Arjeplogs- gruppen/ <I>M. Sjaggo</I></P>
+		</TD>
+		<TD>
+			<P>Lule-samiska</P>
+		</TD>
+		<TD>
+			<P>Giella-</P>
+			<P>Tekno</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens</P>
+		</TD>
+		<TD>
+			<P><I>bårråt</I></P>
+		</TD>
+		<TD>
+			<P>bårråt</P>
+		</TD>
+		<TD>
+			<P>bårråt</P>
+		</TD>
+		<TD>
+			<P>bårråt</P>
+		</TD>
+		<TD>
+			<P>bårråt</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P><I>båråv</I></P>
+		</TD>
+		<TD>
+			<P>båråv</P>
+		</TD>
+		<TD>
+			<P>båråv/ <I>båråv</I></P>
+		</TD>
+		<TD>
+			<P>båråv</P>
+		</TD>
+		<TD>
+			<P>båråv</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P><I>bårå</I></P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårå/ <I>bårå</I></P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P><I>bårrá</I></P>
+		</TD>
+		<TD>
+			<P>bårrá</P>
+		</TD>
+		<TD>
+			<P>bårra/ <I>bårrá</I></P>
+		</TD>
+		<TD>
+			<P>bårrå</P>
+		</TD>
+		<TD>
+			<P>bårrá, bårra</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P><I>burrin</I></P>
+		</TD>
+		<TD>
+			<P>burrin</P>
+		</TD>
+		<TD>
+			<P>burrin/ <I>burrin</I></P>
+		</TD>
+		<TD>
+			<P>bårrin</P>
+		</TD>
+		<TD>
+			<P>burrin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P><I>bårråbihtin</I></P>
+		</TD>
+		<TD>
+			<P>bårrå- behtin</P>
+		</TD>
+		<TD>
+			<P>bårråbehtin/ <I>bårråbähtten</I></P>
+		</TD>
+		<TD>
+			<P>bårråbihtte</P>
+		</TD>
+		<TD>
+			<P>bårrå-behtin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P><I>bårråba</I></P>
+		</TD>
+		<TD>
+			<P>bårraba</P>
+		</TD>
+		<TD>
+			<P>bårråba/ <I>bårråba</I></P>
+		</TD>
+		<TD>
+			<P>bårråba</P>
+		</TD>
+		<TD>
+			<P>bårråba</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P><I>bårråbe</I></P>
+		</TD>
+		<TD>
+			<P>bårråp</P>
+		</TD>
+		<TD>
+			<P>bårråp/ <I>bårråp</I></P>
+		</TD>
+		<TD>
+			<P>bårråp</P>
+		</TD>
+		<TD>
+			<P>bårråp</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P><I>bårråbihtit</I></P>
+		</TD>
+		<TD>
+			<P>bårråbihtit</P>
+		</TD>
+		<TD>
+			<P>bårråbehtit/ <I>bårråbihtit</I></P>
+		</TD>
+		<TD>
+			<P>bårråbihtit</P>
+		</TD>
+		<TD>
+			<P>bårrå- bihtit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P><I>burri</I></P>
+		</TD>
+		<TD>
+			<P>burri</P>
+		</TD>
+		<TD>
+			<P>burre/ <I>burri</I></P>
+		</TD>
+		<TD>
+			<P>bårri</P>
+		</TD>
+		<TD>
+			<P>burri</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>preteritum</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mån</P>
+		</TD>
+		<TD>
+			<P><I>burriv</I></P>
+		</TD>
+		<TD>
+			<P>burriv</P>
+		</TD>
+		<TD>
+			<P>burriv/ <I>burriv</I></P>
+		</TD>
+		<TD>
+			<P>bårriv</P>
+		</TD>
+		<TD>
+			<P>burriv</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P><I>burri</I></P>
+		</TD>
+		<TD>
+			<P>burri</P>
+		</TD>
+		<TD>
+			<P>burre/ <I>burri</I></P>
+		</TD>
+		<TD>
+			<P>bårri</P>
+		</TD>
+		<TD>
+			<P>burri</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sån</P>
+		</TD>
+		<TD>
+			<P><I>båråj</I></P>
+		</TD>
+		<TD>
+			<P>båråj</P>
+		</TD>
+		<TD>
+			<P>båråj/ <I>båråj</I></P>
+		</TD>
+		<TD>
+			<P>båråj</P>
+		</TD>
+		<TD>
+			<P>båråj</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Måj</P>
+		</TD>
+		<TD>
+			<P><I>båråjmen</I></P>
+		</TD>
+		<TD>
+			<P>båråjmen</P>
+		</TD>
+		<TD>
+			<P>båråjmen/ <I>båråjma</I></P>
+		</TD>
+		<TD>
+			<P>båråjma</P>
+		</TD>
+		<TD>
+			<P>båråjmen</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P><I>båråjden</I></P>
+		</TD>
+		<TD>
+			<P>båråjden</P>
+		</TD>
+		<TD>
+			<P>båråjden/ <I>båråjda</I></P>
+		</TD>
+		<TD>
+			<P>båråjda</P>
+		</TD>
+		<TD>
+			<P>båråjden</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Såj</P>
+		</TD>
+		<TD>
+			<P><I>båråjgan</I></P>
+		</TD>
+		<TD>
+			<P>båråjga</P>
+		</TD>
+		<TD>
+			<P>båråjga/ <I>båråjga</I></P>
+		</TD>
+		<TD>
+			<P>båråjga</P>
+		</TD>
+		<TD>
+			<P>båråjga</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Mija, Mij</P>
+		</TD>
+		<TD>
+			<P><I>båråjme</I></P>
+		</TD>
+		<TD>
+			<P>båråjme</P>
+		</TD>
+		<TD>
+			<P>båråjme/ <I>båråjma</I></P>
+		</TD>
+		<TD>
+			<P>båråjma</P>
+		</TD>
+		<TD>
+			<P>båråjme</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dija, Dij</P>
+		</TD>
+		<TD>
+			<P><I>båråjde</I></P>
+		</TD>
+		<TD>
+			<P>båråjde</P>
+		</TD>
+		<TD>
+			<P>båråjde/ <I>båråjda</I></P>
+		</TD>
+		<TD>
+			<P>båråjda</P>
+		</TD>
+		<TD>
+			<P>båråjde</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Sija, Sij</P>
+		</TD>
+		<TD>
+			<P><I>burrin</I></P>
+		</TD>
+		<TD>
+			<P>burrin</P>
+		</TD>
+		<TD>
+			<P>burrin/ <I>burrin</I></P>
+		</TD>
+		<TD>
+			<P>bårrin</P>
+		</TD>
+		<TD>
+			<P>burrin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Imperativ 1</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dån</P>
+		</TD>
+		<TD>
+			<P><I>bårå</I></P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårrå/ <I>bårå</I></P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dåj</P>
+		</TD>
+		<TD>
+			<P><I>burrin</I></P>
+		</TD>
+		<TD>
+			<P>bårren</P>
+		</TD>
+		<TD>
+			<P>bårrin/ <I>bårren</I></P>
+		</TD>
+		<TD>
+			<P>bårre</P>
+		</TD>
+		<TD>
+			<P>bårren</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Dij</P>
+		</TD>
+		<TD>
+			<P><I>burrit</I></P>
+		</TD>
+		<TD>
+			<P>burrit</P>
+		</TD>
+		<TD>
+			<P>burrit/ <I>burrit</I></P>
+		</TD>
+		<TD>
+			<P>bårrit</P>
+		</TD>
+		<TD>
+			<P>burrit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Perf.particip</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>bårråm</P>
+		</TD>
+		<TD>
+			<P>bårråm/ <I>bårråm</I></P>
+		</TD>
+		<TD>
+			<P>bårråm</P>
+		</TD>
+		<TD>
+			<P>bårråm</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>negeringsform</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårå/ <I>bårå</I></P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium I- håller på att</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>gåjjkåmin<I>, bårråmin</I></P>
+		</TD>
+		<TD>
+			<P>bårråmin</P>
+		</TD>
+		<TD>
+			<P>bårråmin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>gerundium II/ samtidighets-form</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>bårådijn</P>
+		</TD>
+		<TD>
+			<P>bårådin</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Supinum- för att</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>båråtjit</I></P>
+		</TD>
+		<TD>
+			<P>båråtjit</P>
+		</TD>
+		<TD>
+			<P>båråtjit</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Presens- particip/ handlarnomen</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P><I>låhkke, bårre</I></P>
+		</TD>
+		<TD>
+			<P>bår´re</P>
+		</TD>
+		<TD>
+			<P>bårre</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Verbal-substantiv/</P>
+			<P>Handlings-nomen (-ning, -ande)</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>bårråm</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>verbgenitiv (genom att)</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>
+			</P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+		<TD>
+			<P>bårå</P>
+		</TD>
+	</TR>
+</TABLE>
+</section>
+</body>
+</document>
