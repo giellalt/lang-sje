@@ -10,6 +10,12 @@
 
 !!! Grammatical issues
 
+* [Jamnstaviga verb|Verbbojning_Pitesamiska_jamnst.html]
+* [Uddastaviga verb|Verbbojning_Pitesamiska_uddast.html]
+* [Adjektiv|Adjektivbojning.html			   ]
+
+!!! Tags
+
 * [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/sje/src/morphology/root.lexc]   
 * [A list of morphological tags|../common/MorphologicalTags.html]
 
