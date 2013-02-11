@@ -15,48 +15,72 @@
 LEXICON Adjective
 stuorre A_EVEN_A ;
 
+állke A_EVEN_NOCG_S ; !kolla
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
 assá A_EVEN_NOCG_S ; !vill stadieväxla, fungerar ej
+basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !komparering fungerar ej
 buorre A_EVEN_0 ;
-buäjjde A_EVEN_B ; 
-gävvra A_EVEN_B ; !omljud fungerar ej
+buossje A_EVEN_B ; !alternativ form buässjaj:buässja-
+buäjjde A_EVEN_B ;
 bånndá A_EVEN_B ; 
+dájjge A_EVEN_B ; 
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ; !fungerar ej
 guhkke A_EVEN_B ; 
 gåbbde A_EVEN_B ;
 gädtse A_EVEN_NOCG_S ; !giedtses omljud fungerar ej
 gähppe A_EVEN_B ; !giehpes omljud fungerar ej
+gävvra A_EVEN_B ; !omljud fungerar ej
 hárrge A_EVEN_B ;
 hávvske A_EVEN_B ; 
 hiejjo A_EVEN_B ;
 hiedjo A_EVEN_B ;
+hådje A_EVEN_B ;
 iedna A_EVEN_0 ;
-jállo A_EVEN_B ; 
+jállo A_EVEN_B ;
+järrme A_EVEN_B ;
+järbme A_EVEN_B ;
 låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;
-njállge A_EVEN_B ;
+njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus
 njárrbe A_EVEN_B ;   
 nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
 sájjge A_EVEN_B ;
 sávvre A_EVEN_B ;
 sjullo A_EVEN_B ;
-smávve A_EVEN_B ;   
+sjullo A_EVEN_B ;
+slinntso A_EVEN_B ;
+smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
-sägge A_EVEN_NOCG_S ; !siegges
+stuorra A_EVEN_IES ; !även predikativ stuor
+sägge A_EVEN_NOCG_S ; !siegges, ingen stadieväxling vid komparation
 tjábbe A_EVEN_AA ;
-tjavvga A_EVEN_NOCG_0 ; !även tjåvvga-tjåvges finnes
-tjalmedibme A_EVEN_0 ; !attr. tjalmedis
-tjähppe A_EVEN_B ; !tjiehpes
+tjåvvga A_EVEN_IES ; !kolla
+tjavvga A_EVEN_NOCG_0 ; !ändra- ingen stadieväxling
+tjähppe A_EVEN_B ;
 uhttse A_EVEN_B ;
 unne A_EVEN_AA ;
-vájvve A_EVEN_B ;
+vájjve A_EVEN_B ;
+vallje A_EVEN_B ;
+vasste A_EVEN_B ;
 vuodnje A_EVEN_B ;
-vuojnudibme A_EVEN_0 ; !attr. vuojnudis
-ådne A_EVEN_B ; 
-ådne A_EVEN_AA ;  
+ådne A_EVEN_B ;
+ådne A_EVEN_AA ;
+
+
+
+ballvagis A_EVEN_0 ; !ss s attr. ballvagis
+bargodibme A_EVEN_0 ; !bm:m attr. bargodis
+gulligis A_EVEN_0 ; ! ss s attr. gulligis
+sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis 
+tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
+tjierrulis A_EVEN_0 ; !ss s attr. tjierrulis
+unugis A_EVEN_0 ; !ss s attr. unugis
+vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
+ 
+  
 
 
 
