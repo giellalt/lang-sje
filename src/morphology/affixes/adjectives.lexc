@@ -68,6 +68,7 @@ LEXICON A_EVEN_NOCG
 +A: N_EVEN_W ; ! No CG here
 +A:%^WG COMPSUP ;
 
+
 LEXICON COMPSUP
 +Comp+Sg+Nom:%^WGp # ;
 +Comp+Attr:%^WGp # ;
