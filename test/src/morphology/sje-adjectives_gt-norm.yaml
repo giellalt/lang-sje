@@ -11,7 +11,7 @@ Tests:
 
   Adjektiv - gävvra: # -a-stammar
     gävvra+A+Sg+Nom: gävvra
-    gävvra+A+Attr: gievres
+    gävvra+A+Attr: gievras
     gävvra+A+Sg+Gen: gievra
     gävvra+A+Sg+Acc: gievrav
     gävvra+A+Sg+Ill: gävvraj
@@ -61,4 +61,72 @@ Tests:
     nuorra+A+Comp+Pl+Ela: nuorabujst
     nuorra+A+Comp+Pl+Com: nuorabuj
     nuorra+A+Comp+Ess: nuorabun
+
+  Adjektiv - tjáhppat: # -a-stammar
+    tjáhppat+A+Sg+Nom: tjáhppat
+    tjáhppat+A+Attr: tjähppis
+    tjáhppat+A+Sg+Gen: tjáhppada
+    tjáhppat+A+Sg+Acc: tjáhppadav
+    tjáhppat+A+Sg+Ill: tjáhppadij
+    tjáhppat+A+Sg+Ine: tjáhppadin
+    tjáhppat+A+Sg+Ela: tjáhppadist
+    tjáhppat+A+Sg+Com: tjáhppadijn
+    tjáhppat+A+Pl+Nom: tjáhppada
+    tjáhppat+A+Pl+Gen: tjáhppadij
+    tjáhppat+A+Pl+Acc: tjáhppadijt
+    tjáhppat+A+Pl+Ill: tjáhppadijda
+    tjáhppat+A+Pl+Ine: tjáhppadijn
+    tjáhppat+A+Pl+Ela: tjáhppadijst
+    tjáhppat+A+Pl+Com: tjáhppadij
+    tjáhppat+A+Ess: tjáhppadin
+    tjáhppat+A+Comp+Sg+Nom: tjáhppadup
+    tjáhppat+A+Comp+Attr: tjáhppadup
+    tjáhppat+A+Comp+Sg+Gen: tjáhppadubbo
+    tjáhppat+A+Comp+Sg+Acc: tjáhppadubbov
+    tjáhppat+A+Comp+Sg+Ill: tjáhppadubbuj
+    tjáhppat+A+Comp+Sg+Ine: tjáhppadubbon
+    tjáhppat+A+Comp+Sg+Ela: tjáhppadubbost
+    tjáhppat+A+Comp+Sg+Com: [tjáhppadubbujn, tjáhppadubbujna]
+    tjáhppat+A+Comp+Pl+Nom: tjáhppadubbo
+    tjáhppat+A+Comp+Pl+Gen: tjáhppadubboj
+    tjáhppat+A+Comp+Pl+Acc: tjáhppadubbojt
+    tjáhppat+A+Comp+Pl+Ill: tjáhppadubbojda
+    tjáhppat+A+Comp+Pl+Ine: tjáhppadubbojn
+    tjáhppat+A+Comp+Pl+Ela: tjáhppadubbojst
+    tjáhppat+A+Comp+Pl+Com: tjáhppadubboj
+    tjáhppat+A+Comp+Ess: tjáhppadubbon
+
+  Adjektiv - hávvske: # -e-stammar
+    hávvske+A+Sg+Nom: hávvske
+    hávvske+A+Attr: hávskes
+    hávvske+A+Sg+Gen: hávske
+    hávvske+A+Sg+Acc: hávskev
+    hávvske+A+Sg+Ill: hávvskáj
+    hávvske+A+Sg+Ine: hávsken
+    hávvske+A+Sg+Ela: hávskest
+    hávvske+A+Sg+Com: hávskijn
+    hávvske+A+Pl+Nom: hávske
+    hávvske+A+Pl+Gen: hávskij
+    hávvske+A+Pl+Acc: hávskijt
+    hávvske+A+Pl+Ill: hávskijda
+    hávvske+A+Pl+Ine: hávskijn
+    hávvske+A+Pl+Ela: hávskijst
+    hávvske+A+Pl+Com: hávskij
+    hávvske+A+Ess: hávvsken
+    hávvske+A+Comp+Sg+Nom: hávskep
+    hávvske+A+Comp+Attr: hávskep
+    hávvske+A+Comp+Sg+Gen: hávskebu
+    hávvske+A+Comp+Sg+Acc: hávskebuv
+    hávvske+A+Comp+Sg+Ill: hávskebuj
+    hávvske+A+Comp+Sg+Ine: hávskebun
+    hávvske+A+Comp+Sg+Ela: hávskebust
+    hávvske+A+Comp+Sg+Com: hávskebujn
+    hávvske+A+Comp+Pl+Nom: hávskebu
+    hávvske+A+Comp+Pl+Gen: hávskebuj
+    hávvske+A+Comp+Pl+Acc: hávskebujt
+    hávvske+A+Comp+Pl+Ill: hávskebujda
+    hávvske+A+Comp+Pl+Ine: hávskebujn
+    hávvske+A+Comp+Pl+Ela: hávskebujst
+    hávvske+A+Comp+Pl+Com: hávskebuj
+    hávvske+A+Comp+Ess: hávskebun
 
