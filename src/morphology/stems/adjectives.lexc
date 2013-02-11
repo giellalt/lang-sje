@@ -15,14 +15,14 @@
 LEXICON Adjective
 stuorre A_EVEN_A ;
 
-állke A_EVEN_NOCG_S ; !kolla
+állke A_EVEN_NOCG_S ; !kolla stadiev. fungerar ej
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
-assá A_EVEN_NOCG_S ; !vill stadieväxla, fungerar ej
+assá A_EVEN_NOCG_S ; !stadieväxling fungerar ej
 basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !komparering fungerar ej
 buorre A_EVEN_0 ;
 buossje A_EVEN_B ; !alternativ form buässjaj:buässja-
-buäjjde A_EVEN_B ;
+buäjjde A_EVEN_B ; !fungerar ej
 bånndá A_EVEN_B ; 
 dájjge A_EVEN_B ; 
 fávvro A_EVEN_B ;
@@ -41,9 +41,10 @@ iedna A_EVEN_0 ;
 jállo A_EVEN_B ;
 järrme A_EVEN_B ;
 järbme A_EVEN_B ;
+lihkulatj A_EVEN_0 ; !växlar till lihkuladtja vid komparering
 låjje A_EVEN_B ;
-maŋŋe A_EVEN_0 ;
-njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus
+maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
+njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus, vokalväxling
 njárrbe A_EVEN_B ;   
 nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
@@ -54,20 +55,20 @@ sjullo A_EVEN_B ;
 slinntso A_EVEN_B ;
 smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
-stuorra A_EVEN_IES ; !även predikativ stuor
+stuorra A_EVEN_IES ; !även predikativ stuor, fel kod
 sägge A_EVEN_NOCG_S ; !siegges, ingen stadieväxling vid komparation
 tjábbe A_EVEN_AA ;
-tjåvvga A_EVEN_IES ; !kolla
+tjåvvga A_EVEN_IES ; !fel kod
 tjavvga A_EVEN_NOCG_0 ; !ändra- ingen stadieväxling
 tjähppe A_EVEN_B ;
-uhttse A_EVEN_B ;
-unne A_EVEN_AA ;
+uhttse A_EVEN_B ; !stadieväxling fungerar ej
+unne A_EVEN_AA ; !fel kod
 vájjve A_EVEN_B ;
 vallje A_EVEN_B ;
 vasste A_EVEN_B ;
-vuodnje A_EVEN_B ;
+vuodnje A_EVEN_B ; !stadieväxling fungerar ej
 ådne A_EVEN_B ;
-ådne A_EVEN_AA ;
+ådne A_EVEN_AA ; !fel kod
 
 
 
