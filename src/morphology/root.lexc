@@ -13,15 +13,17 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ========================================================================== !
-! !!               !!!Pite Sámi morphological analyser                       !
+! !!               !!!Pite Sámi morphological analyser                       
 ! ========================================================================== !
  
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
-! POS
-+N +V +A 
-+Adv +CC +CS +Interj +Pron +Num
+!! POS
++N +V +A 	                     
++Adv +CC +CS                     
++Interj 	                     
++Pron +Num	                     
 
 ! Verbal MSP
 +Prs +Fut +Prt +Prf 
@@ -31,17 +33,30 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Pl1 +Pl2 +Pl3
 +Inf
 +Pos +Neg +ConNeg
-+GerI +GerII +PrfPrc +VAbess +Sup +VAdv
++GerI +GerII +PrfPrc 
++VAbess +Sup +VAdv
 +Cmp
 
-! Nominal MSP
+!! Nominal MSP
 +Sg +Pl
-+Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Abe
+
+!! Case
+
++Nom +Acc +Gen 
++Ill +Ine +Ela 
++Com +Ess +Abe
 +Ord +Card
 +Qst
-+Prop +Ani +Mal +Fem +Sur +Plc +Org +Obj ! Semantic properties of names
 
-+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+!! Semantic properties of names
+
++Prop +Ani 
++Mal +Fem +Sur 
++Plc +Org +Obj 
+
+
++PxSg1 +PxSg2 +PxSg3 
++PxPl1 +PxPl2 +PxPl3
 
 
 +Use/Sub ! Not part of standard
