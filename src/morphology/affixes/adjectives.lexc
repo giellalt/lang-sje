@@ -26,7 +26,7 @@ A_EVEN ;
 LEXICON A_EVEN_AA
 +A+Attr:%>a # ;
 A_EVEN ;
-+A:%^WG COMPSUP ;
++A:%^WG COMPSUP ; !ändra vg
 
 LEXICON A_EVEN_E
 +A+Attr:%^WG%>e # ;
@@ -51,12 +51,12 @@ A_EVEN ;
 LEXICON A_EVEN_NOCG_0
 +A+Attr: # ;
 A_EVEN_NOCG ;
-+A:%^WG COMPSUP ;
++A: COMPSUP ;
 
 LEXICON A_EVEN_NOCG_S
-+A+Attr:%>s # ; !är det rätt kod
++A+Attr:%>s # ; 
 A_EVEN_NOCG ;
-+A:%^WG COMPSUP_A ;
++A: COMPSUP_A ;
 
 LEXICON A_EVEN
 +A: EVENCASE ;  ! Nom, Ess, Ill
@@ -70,32 +70,38 @@ LEXICON A_EVEN_NOCG
 
 
 LEXICON COMPSUP
-+Comp+Sg+Nom:%^WGp # ;
-+Comp+Attr:%^WGp # ;
-+Comp:%^WGb ODD_OBLIQUE_U_COMMON ;
++Comp+Sg+Nom:%^WG%>p # ;
++Comp+Attr:%^WG%>p # ;
++Comp:%^WG%>b ODD_OBLIQUE_U_COMMON ;
 
-+Superl+Sg+Nom:%^WGmus # ;
-+Superl+Attr:%^WGmus # ;
-+Superl:%^WGmussa EVENCASE ;
-+Superl:%^WGmussa%^WG  N_EVEN_W ; ! CG here
++Superl+Sg+Nom:%^WG%>mus # ;
++Superl+Attr:%^WG%>mus # ;
++Superl:%^WG%>mussa EVENCASE ;
++Superl:%^WG%>mussa%^WG  N_EVEN_W ; ! CG here
 
 LEXICON COMPSUP_A
-+Comp+Sg+Nom:%^p # ;
-+Comp+Attr:%^p # ;
-+Comp:%^b ODD_OBLIQUE_U_COMMON ;
++Comp+Sg+Nom:%>p # ;
++Comp+Attr:%>p # ;
++Comp:%>b ODD_OBLIQUE_U_COMMON ;
 
-+Superl+Sg+Nom:%^WGmus # ;
-+Superl+Attr:%^WGmus # ;
-+Superl:%^WGmussa EVENCASE ;
-+Superl:%^WGmussa%^WG  N_EVEN_W ; ! CG here
++Superl+Sg+Nom:%^WG%>mus # ;
++Superl+Attr:%^WG%>mus # ;
++Superl:%^WG%>mussa EVENCASE ;
++Superl:%^WG%>mussa%^WG  N_EVEN_W ; ! CG here
 
 
 
 LEXICON A_ODD
-+A+Attr: # ;
++A+Attr:is # ;
 +A+Sg+Nom: PX ;
 +A: ODD_OBLIQUE_COMMON ;
 +A: ODD_COMPSUP ;
+
+LEXICON A_ODD_GIS
++A+Attr:gis # ; 
++A+Sg+Nom:k PX ;
++A:g ODD_OBLIQUE_COMMON ;
++A:g ODD_COMPSUP ;
 
 
 LEXICON A_ODD_B
@@ -109,14 +115,38 @@ LEXICON A_ODD_R
 +A+Attr:as # ;
 +A+Sg+Nom:as PX ;
 +A:ras ODD_OBLIQUE_COMMON ;
-+A: ODD_COMPSUP ;
++A:ras ODD_COMPSUP ;
 
 
 LEXICON A_ODD_Á
 +A+Attr:es # ;
 +A+Sg+Nom:es PX ;
 +A:ás ODD_OBLIQUE_COMMON ;
-+A: ODD_COMPSUP ;
++A:ás ODD_COMPSUP ;
+
+LEXICON A_ODD_C
++A+Attr:des # ;
++A+Sg+Nom:des PX ;
++A:vdás ODD_OBLIQUE_COMMON ;
++A:vdás ODD_COMPSUP ;
+
+LEXICON A_ODD_D
++A+Attr:kes # ;
++A+Sg+Nom:kes PX ;
++A:skás ODD_OBLIQUE_COMMON ;
++A:skás ODD_COMPSUP ;
+
+LEXICON A_ODD_E
++A+Attr:es # ;
++A+Sg+Nom:es PX ;
++A:pás ODD_OBLIQUE_COMMON ;
++A:pás ODD_COMPSUP ;
+
+LEXICON A_ODD_F
++A+Attr:es # ;
++A+Sg+Nom:es PX ;
++A:rás ODD_OBLIQUE_COMMON ;
++A:rás ODD_COMPSUP ;
 
 LEXICON A_ODD_K
 +A+Attr:k # ; 
@@ -124,11 +154,7 @@ LEXICON A_ODD_K
 +A:g ODD_OBLIQUE_COMMON ;
 +A: ODD_COMPSUP ;
 
-LEXICON A_ODD_M
-+A+Attr:t # ; 
-+A+Sg+Nom:t PX ;
-+A:d ODD_OBLIQUE_COMMON ;
-+A: ODD_COMPSUP ;
+
 
 LEXICON A_ODD_T
 +A+Attr:ähppis # ; 
@@ -147,24 +173,25 @@ LEXICON A_ODD_DIS
 +A+Attr:dis # ; 
 +A+Sg+Nom:t PX ;
 +A:d ODD_OBLIQUE_COMMON ;
-+A: ODD_COMPSUP ;
++A:d ODD_COMPSUP ;
+
 
 
 LEXICON A_ODD_k_K
 +A+Attr:k # ; 
 +A+Sg+Nom:k PX ;
 +A:g ODD_OBLIQUE_COMMON ;
-+A: ODD_COMPSUP ;
++A:g ODD_COMPSUP ;
 
 
 LEXICON ODD_COMPSUP
-+Comp+Sg+Nom:up # ;
-+Comp:ubbo N_EVEN_W ; !ändra till ej stv, jämn.st.o-stam
-+Comp:ubbo               N_EVEN_S ;
-+Comp:%>ubbo%>j     N_EVEN_J ;
++Comp+Sg+Nom:%>up # ;
++Comp:%>ubbo N_EVEN_W ; !ändra till ej stv, jämn.st.o-stam
++Comp:%>ubbo               N_EVEN_S ;
++Comp:%>ubboj     N_EVEN_J ;
 
-+Superl+Nom:umos # ;
-+Superl:ubmos ODD_OBLIQUE_COMMON ; 
++Superl+Nom:%>umos # ;
++Superl:%>ubmos ODD_OBLIQUE_COMMON ; 
 
 	
 

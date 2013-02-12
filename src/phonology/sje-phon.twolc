@@ -182,4 +182,6 @@ u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^MONB4J:0 ;
  !€ ullul^WG^MONB4J
  !€ ål0ol
 
+"Delete stem final a before e initial suffix"
+a:0 <=> _  (Dummy:) %>: e ;
 
