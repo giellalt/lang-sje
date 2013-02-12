@@ -15,23 +15,23 @@
 LEXICON Adjective
 stuorre A_EVEN_A ;
 
-állke A_EVEN_NOCG_S ; !kolla stadiev. fungerar ej
+állke A_EVEN_NOCG_S ; !finns i två former állkep, álkep
 almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
-assá A_EVEN_NOCG_S ; !stadieväxling fungerar ej
+assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !komparering fungerar ej
 buorre A_EVEN_0 ;
-buossje A_EVEN_B ; !alternativ form buässjaj:buässja-
+buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-
 buäjjde A_EVEN_B ; !fungerar ej
 bånndá A_EVEN_B ; 
 dájjge A_EVEN_B ; 
 fávvro A_EVEN_B ;
-gárrtje A_EVEN_B ; !fungerar ej
+gárrtje A_EVEN_B ;
 guhkke A_EVEN_B ; 
 gåbbde A_EVEN_B ;
 gädtse A_EVEN_NOCG_S ; !giedtses omljud fungerar ej
-gähppe A_EVEN_B ; !giehpes omljud fungerar ej
-gävvra A_EVEN_B ; !omljud fungerar ej
+gähppe A_EVEN_B ; 
+gävvra A_EVEN_B ; 
 hárrge A_EVEN_B ;
 hávvske A_EVEN_B ; 
 hiejjo A_EVEN_B ;
@@ -55,11 +55,11 @@ sjullo A_EVEN_B ;
 slinntso A_EVEN_B ;
 smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
-stuorra A_EVEN_IES ; !även predikativ stuor, fel kod
+stuorra A_EVEN_IES ; !även predikativ stuor
 sägge A_EVEN_NOCG_S ; !siegges, ingen stadieväxling vid komparation
 tjábbe A_EVEN_AA ;
-tjåvvga A_EVEN_IES ; !fel kod
-tjavvga A_EVEN_NOCG_0 ; !ändra- ingen stadieväxling
+tjåvvga A_EVEN_IES ; 
+tjavvga A_EVEN_NOCG_0 ; ! stadieväxling funkar ej
 tjähppe A_EVEN_B ;
 uhttse A_EVEN_B ; !stadieväxling fungerar ej
 unne A_EVEN_AA ; !fel kod
@@ -87,17 +87,35 @@ vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
 
 
 
-aset:ase A_ODD_DIS ;
-bivval A_ODD ;
-basstel A_ODD ;
-dulutj A_ODD ; 
-gassak:gassa A_ODD_K ;  
-gullis:gulli A_ODD_SIS ; 
-suddes:sudd A_ODD_Á ; 
+aset:ase A_ODD_DIS ; !komp funkar ej på DIS
+bavrek:bavre A_ODD_GIS ; 
+livák:livá A_ODD_GIS ;
+máhtak:máhta A_ODD_GIS ;
+máhtalk:máhtal A_ODD_GIS ;
+njálmuk:njálmu A_ODD_GIS ;
+njálbmuk:njálbmu A_ODD_GIS ;
+sjnjutjok:sjnjutju A_ODD_GIS ; 
+tjuorguk:tjuorgu A_ODD_GIS ;
+tjáhket:tjáhke A_ODD_DIS ;
+várrok:várro A_ODD_GIS ;
+bivval A_ODD ; 
+gullis A_ODD ;
+háhppel A_ODD ;
+basstel A_ODD ; 
+nággár A_ODD ;
+tjiegŋal A_ODD ;
+vassjal A_ODD ;
+dulutj A_ODD ;    
+suddes:sudd A_ODD_Á ;  !komp funkar ej på Á
+tjavdes:tjav A_ODD_C ; !kolla alla härifrån
+tjåskes:tjås A_ODD_D ;  
+åhpes:åhp A_ODD_E ;  
+stuores:stuor A_ODD_F ;  
+rádes:rád A_ODD_Á ;  
 mårret:mårre A_ODD_DIS ; 
-mällgat:mällga A_ODD_M ; 
+mällgat:mällga A_ODD_DIS ; 
 såmes:så A_ODD_B ; 
 tjáhppat:tj A_ODD_T ; 
 tjuorak:tjuora A_ODD_k_K ; 
 vuoras:vuor A_ODD_R ; 
-åhpes:åhp A_ODD_Á ; 
+ 
