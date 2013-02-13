@@ -15,61 +15,65 @@
 
 
 ! ========== !
-! Adjectives !
+!! !!!Adjectives !
 ! ========== !
 
-LEXICON A_EVEN_A
+!! Här är lexikon för adjektivsböjning.
+!! Först jämnstaviga, så uddastaviga, och sen nån gång kontrakta.
+!! Efteråt kommer morfologin, som också spiller över i nouns.lexc.
+
+LEXICON A_EVEN_A !!= @CODE@ är likastaviga med a-attr
 +A+Attr:%^WG%>a # ;
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_AA
+LEXICON A_EVEN_AA !!= @CODE@ är likastaviga ocskå med a-attr ???!!
 +A+Attr:%>a # ;
 A_EVEN ;
 +A:%^WG COMPSUP ; !ändra vg
 
-LEXICON A_EVEN_E
+LEXICON A_EVEN_E !!= @CODE@ är likastaviga med e-attr
 +A+Attr:%^WG%>e # ;
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_IES
+LEXICON A_EVEN_IES !!= @CODE@ 
 +A+Attr:%^WG%>es # ;
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_B
+LEXICON A_EVEN_B !!= @CODE@ 
 +A+Attr:%^WG%>s # ;
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_0
+LEXICON A_EVEN_0 !!= @CODE@ 
 +A+Attr: # ;
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_NOCG_0
+LEXICON A_EVEN_NOCG_0 !!= @CODE@ 
 +A+Attr: # ;
 A_EVEN_NOCG ;
 +A: COMPSUP ;
 
-LEXICON A_EVEN_NOCG_S
+LEXICON A_EVEN_NOCG_S !!= @CODE@ 
 +A+Attr:%>s # ; 
 A_EVEN_NOCG ;
 +A: COMPSUP_A ;
 
-LEXICON A_EVEN
+LEXICON A_EVEN !!= @CODE@ 
 +A: EVENCASE ;  ! Nom, Ess, Ill
 +A:%^WG N_EVEN_W ; ! CG: Acc, Gen, etc.
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_NOCG
+LEXICON A_EVEN_NOCG !!= @CODE@ 
 +A: EVENCASE ;
 +A: N_EVEN_W ; ! No CG here
 +A:%^WG COMPSUP ;
 
 
-LEXICON COMPSUP
+LEXICON COMPSUP !!= @CODE@ 
 +Comp+Sg+Nom:%^WG%>p # ;
 +Comp+Attr:%^WG%>p # ;
 +Comp:%^WG%>b ODD_OBLIQUE_U_COMMON ;
@@ -79,7 +83,7 @@ LEXICON COMPSUP
 +Superl:%^WG%>mussa EVENCASE ;
 +Superl:%^WG%>mussa%^WG  N_EVEN_W ; ! CG here
 
-LEXICON COMPSUP_A
+LEXICON COMPSUP_A !!= @CODE@ 
 +Comp+Sg+Nom:%>p # ;
 +Comp+Attr:%>p # ;
 +Comp:%>b ODD_OBLIQUE_U_COMMON ;
@@ -91,13 +95,13 @@ LEXICON COMPSUP_A
 
 
 
-LEXICON A_ODD
+LEXICON A_ODD !!= @CODE@ är uddastaviga
 +A+Attr:is # ;
 +A+Sg+Nom: PX ;
 +A: ODD_OBLIQUE_COMMON ;
 +A: ODD_COMPSUP ;
 
-LEXICON A_ODD_GIS
+LEXICON A_ODD_GIS !!= @CODE@ är  d
 +A+Attr:gis # ; 
 +A+Sg+Nom:k PX ;
 +A:g ODD_OBLIQUE_COMMON ;
@@ -108,7 +112,7 @@ LEXICON A_ODD_B
 +A+Attr:mes # ;
 +A+Sg+Nom:mes PX ;
 +A:bmás ODD_OBLIQUE_COMMON ;
-+A: ODD_COMPSUP ;
++A:bmás ODD_COMPSUP ;
 
 
 LEXICON A_ODD_R
@@ -118,7 +122,7 @@ LEXICON A_ODD_R
 +A:ras ODD_COMPSUP ;
 
 
-LEXICON A_ODD_Á
+LEXICON A_ODD_AA
 +A+Attr:es # ;
 +A+Sg+Nom:es PX ;
 +A:ás ODD_OBLIQUE_COMMON ;
@@ -191,7 +195,7 @@ LEXICON ODD_COMPSUP
 +Comp:%>ubboj     N_EVEN_J ;
 
 +Superl+Nom:%>umos # ;
-+Superl:%>ubmos ODD_OBLIQUE_COMMON ; 
++Superl:%>ubmus ODD_OBLIQUE_COMMON ; 
 
 	
 
