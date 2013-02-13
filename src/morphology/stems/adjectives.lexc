@@ -87,7 +87,7 @@ vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
 
 
 
-aset:ase A_ODD_DIS ; !komp funkar ej på DIS
+aset:ase A_ODD_DIS ; !lägg in uj, ujn samt kasus i sup. gäller alla
 bavrek:bavre A_ODD_GIS ; 
 livák:livá A_ODD_GIS ;
 máhtak:máhta A_ODD_GIS ;
@@ -106,16 +106,16 @@ nággár A_ODD ;
 tjiegŋal A_ODD ;
 vassjal A_ODD ;
 dulutj A_ODD ;    
-suddes:sudd A_ODD_Á ;  !komp funkar ej på Á
-tjavdes:tjav A_ODD_C ; !kolla alla härifrån
+suddes:sudd A_ODD_AA ;  
+tjavdes:tjav A_ODD_C ; 
 tjåskes:tjås A_ODD_D ;  
 åhpes:åhp A_ODD_E ;  
 stuores:stuor A_ODD_F ;  
-rádes:rád A_ODD_Á ;  
+rádes:rád A_ODD_AA ;  
 mårret:mårre A_ODD_DIS ; 
 mällgat:mällga A_ODD_DIS ; 
 såmes:så A_ODD_B ; 
-tjáhppat:tj A_ODD_T ; 
+tjáhppat:tj A_ODD_T ;  
 tjuorak:tjuora A_ODD_k_K ; 
 vuoras:vuor A_ODD_R ; 
  

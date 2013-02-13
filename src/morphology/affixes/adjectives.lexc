@@ -13,7 +13,6 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 
-
 ! ========== !
 !! !!!Adjectives !
 ! ========== !
@@ -30,7 +29,7 @@ A_EVEN ;
 LEXICON A_EVEN_AA !!= @CODE@ är likastaviga ocskå med a-attr ???!!
 +A+Attr:%>a # ;
 A_EVEN ;
-+A:%^WG COMPSUP ; !ändra vg
++A:%^WG COMPSUP ; ! ändra vg
 
 LEXICON A_EVEN_E !!= @CODE@ är likastaviga med e-attr
 +A+Attr:%^WG%>e # ;
