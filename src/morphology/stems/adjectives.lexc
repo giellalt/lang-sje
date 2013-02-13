@@ -87,7 +87,7 @@ vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
 
 
 
-aset:ase A_ODD_DIS ; !lägg in uj, ujn samt kasus i sup. gäller alla
+aset:ase A_ODD_DIS ; !lägg in uj, ujn istället för ojn, oj
 bavrek:bavre A_ODD_GIS ; 
 livák:livá A_ODD_GIS ;
 máhtak:máhta A_ODD_GIS ;
@@ -117,5 +117,27 @@ mällgat:mällga A_ODD_DIS ;
 såmes:så A_ODD_B ; 
 tjáhppat:tj A_ODD_T ;  
 tjuorak:tjuora A_ODD_k_K ; 
-vuoras:vuor A_ODD_R ; 
- 
+vuoras:vuor A_ODD_R ;
+
+báhkas:báhk A_ODD_G ; 
+dimes:di A_ODD_H ; 
+lieggas:l A_ODD_I ;
+luvás:luv A_ODD_J ;
+rájnas:ráj A_ODD_K ;
+práres:prár A_ODD_L ;
+galmas:gal A_ODD_M ;
+galmas:gal A_ODD_N ;
+sjkiebtjas:sjk A_ODD_O ;
+njuallgat:njuallga A_ODD_P ;
+vuollak:vuolla A_ODD_Q ;
+blávvat:blávv A_ODD_S ;
+grávvat:grávv A_ODD_S ;
+rávvat:rávv A_ODD_S ;
+rusjkat:rusjk A_ODD_S ;
+visskat:vissk A_ODD_S ;
+vällgat:vällg A_ODD_S ;
+jallgat:j A_ODD_U ;
+jallgat:jallga A_ODD_P ;
+suohkat:su A_ODD_X ;
+tjuavvgat:tju A_ODD_Y ;
+buorremielak:buorremiela A_ODD_Z ;
