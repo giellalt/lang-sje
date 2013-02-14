@@ -16,20 +16,20 @@ LEXICON Adjective
 stuorre A_EVEN_A ;
 
 állke A_EVEN_NOCG_S ; !finns i två former állkep, álkep
-almelatj A_EVEN_0 ; !växlar till almeladtja vid komparering
+almelalatj:almela A_EVEN_D ; !växlar till almeladtja vid komparering
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !komparering fungerar ej
 buorre A_EVEN_0 ;
 buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-
-buäjjde A_EVEN_B ; !fungerar ej
+buäjjde A_EVEN_B ;
 bånndá A_EVEN_B ; 
 dájjge A_EVEN_B ; 
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
 guhkke A_EVEN_B ; 
 gåbbde A_EVEN_B ;
-gädtse A_EVEN_NOCG_S ; !giedtses omljud fungerar ej
+gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos 
 gähppe A_EVEN_B ; 
 gävvra A_EVEN_B ; 
 hárrge A_EVEN_B ;
@@ -41,7 +41,7 @@ iedna A_EVEN_0 ;
 jállo A_EVEN_B ;
 järrme A_EVEN_B ;
 järbme A_EVEN_B ;
-lihkulatj A_EVEN_0 ; !växlar till lihkuladtja vid komparering
+lihkulatj:lihkula A_EVEN_D ; !växlar till lihkuladtja vid komparering
 låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus, vokalväxling
@@ -56,7 +56,7 @@ slinntso A_EVEN_B ;
 smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
-sägge A_EVEN_NOCG_S ; !siegges, ingen stadieväxling vid komparation
+sägge A_EVEN_NOCG_S ; !siegges, oljud fungerar ej
 tjábbe A_EVEN_AA ;
 tjåvvga A_EVEN_IES ; 
 tjavvga A_EVEN_NOCG_0 ; ! stadieväxling funkar ej
@@ -72,12 +72,12 @@ vuodnje A_EVEN_B ; !stadieväxling fungerar ej
 
 
 
-ballvagis A_EVEN_0 ; !ss s attr. ballvagis
+ballvagis A_EVEN_C ; !ss s attr. ballvagis
 bargodibme A_EVEN_0 ; !bm:m attr. bargodis
-gulligis A_EVEN_0 ; ! ss s attr. gulligis
+gulligis A_EVEN_C ; ! ss s attr. gulligis
 sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis 
 tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
-tjierrulis A_EVEN_0 ; !ss s attr. tjierrulis
+tjierrulis A_EVEN_C ; !ss s attr. tjierrulis
 unugis A_EVEN_0 ; !ss s attr. unugis
 vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
  
@@ -87,7 +87,7 @@ vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
 
 
 
-aset:ase A_ODD_DIS ; !lägg in uj, ujn istället för ojn, oj
+aset:ase A_ODD_DIS ; !kasusböjning fel i komparativ i alla uddastaviga adj. o blir u i alla komp. pl. former fast det ska vara o, böjer ej i ill. sg
 bavrek:bavre A_ODD_GIS ; 
 livák:livá A_ODD_GIS ;
 máhtak:máhta A_ODD_GIS ;
@@ -101,11 +101,9 @@ várrok:várro A_ODD_GIS ;
 bivval A_ODD ; 
 gullis A_ODD ;
 háhppel A_ODD ;
-basstel A_ODD ; 
 nággár A_ODD ;
 tjiegŋal A_ODD ;
 vassjal A_ODD ;
-dulutj A_ODD ;    
 suddes:sudd A_ODD_AA ;  
 tjavdes:tjav A_ODD_C ; 
 tjåskes:tjås A_ODD_D ;  
@@ -141,3 +139,19 @@ jallgat:jallga A_ODD_P ;
 suohkat:su A_ODD_X ;
 tjuavvgat:tju A_ODD_Y ;
 buorremielak:buorremiela A_ODD_Z ;
+
+gájvas:gáj A_ODD_BB ;
+lusjgos A_ODD_Å ;
+sjlusgos A_ODD_Å ;
+stumbu:stumbu A_ODD_Ä ;
+amás:a A_ODD_Ö ;
+árvas:árv A_ODD_BB ;
+gieres:g A_ODD_CC ;
+gilos:gil A_ODD_DD ;
+
+ávos A_ODD_Å ;
+basstel A_ODD_Å ;
+dulutj A_ODD_Å ;
+hánes:ha A_ODD_FF ;
+luovas:luov A_ODD_GG ;
+måskås:mås A_ODD_HH ;
