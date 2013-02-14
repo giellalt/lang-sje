@@ -30,12 +30,12 @@ Alphabet
   %^WG:0 %^jDEL:0 %^MONB4J:0 %^CDEL:0 %^MON:0
 
 ! Morpheme boundaries:
- «  ! Derivational prefix
- »  ! Derivational suffix
- %< ! Inflectional prefx
- %> ! Inflectional suffix
- #  ! Word boundary for both lexicalised and dynamic compounds
- %^ ! (exceptional) soft hyphenation point
+ «    ! Derivational prefix
+ »    ! Derivational suffix
+ %<:0 ! Inflectional prefx
+ %>:0 ! Inflectional suffix
+ #    ! Word boundary for both lexicalised and dynamic compounds
+ %^   ! (exceptional) soft hyphenation point
 
 ! End of alphabet definitions
 ;
@@ -80,11 +80,8 @@ Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
            Cy in ( j n )  
           matched ;
          
-"Consonant Gradation for hxxy:hxy" ! ACS: hddj finst inte, httj finst
-Cx:0 <=> h Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-     where Cx in ( d t )
-           Cy in ( j j )  
-          matched ;
+"Consonant Gradation for httj:htj" ! ACS: hddj finst inte, httj finst
+t:0 <=> h t _ j (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 !"Consonant Gradation for hx:x"
 "Delete h"
@@ -132,11 +129,14 @@ s:t <=> _ j2: .#. ;
 ! Vowel rules 
 ! ===========          
         
-"Vowel Shortening in Front of j-initial suffixes"
- e:i <=> Cns _ Dummy:* %>: j ;
- 
+"Vowel Shortening e to i in Front of j-initial suffixes"
+ e:i <=> Cns _ (Dummy:*) ( %>:) j ;
+ 	
  !€ riehpe>jt
  !€ r0e0bi0jt
+
+ !€ tjahppadubbo>jt
+ !€ tjahppadubbo0jt
 
 
 "Vowel Deletion in front of j"
@@ -151,7 +151,7 @@ o:u <=> _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 
 
 "aa in front of j"
-e:á <=>  _ %>: [ %^MONB4J:0 | %^MON ] ;
+e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
 
 
 "o deletion in front of j"
@@ -163,17 +163,17 @@ o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
 ! ie > e
 
-"uä to uo in weak grade"
+"u ae to u o in weak grade"
 ä:o <=> u _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
 
  !€ juällge^WG
  !€ juol0ge0
 
-"ä to ie in weak grade 1"
-ä:e <=> :i _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
+"ae to ie in weak grade 1"
+ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
 
-"ä to ie in weak grade 2"
-0:i <=> _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
+"ae to ie in weak grade 2"
+0:i <=> [Cns|#] _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
 
 
 "u to å in odd stems"

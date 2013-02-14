@@ -46,6 +46,18 @@ LEXICON A_EVEN_B !!= @CODE@
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
+LEXICON A_EVEN_C !!= @CODE@ experiment, fungerar ej ex. ballvagis:ballvagisa
++A+Attr: # ;
++A:a A_EVEN ;
++A:a COMPSUP ;
+
+LEXICON A_EVEN_D !!= @CODE@ ex. almelatj:almeladtja
++A+Attr:tj # ;
++A:dtja A_EVEN ;
++A:dtja COMPSUP ;
+
+ 
+
 LEXICON A_EVEN_0 !!= @CODE@ 
 +A+Attr: # ;
 A_EVEN ;
@@ -261,6 +273,62 @@ LEXICON A_ODD_Z  !!= @CODE@ är uddastaviga ex buorremielak:buorremielag-/buorre
 +A:g ODD_OBLIQUE_COMMON ;
 +A:g ODD_COMPSUP ;
 
+LEXICON A_ODD_Å  !!= @CODE@ är uddastaviga ex lusjgos:lusjgos-
++A+Attr: # ;
++A+Sg+Nom: PX ;
++A: ODD_OBLIQUE_COMMON ;
++A: ODD_COMPSUP ;
+
+LEXICON A_ODD_Ä  !!= @CODE@ är uddastaviga ex stumbu:stumbus-
++A+Attr:s # ;
++A+Sg+Nom: PX ;
++A:s ODD_OBLIQUE_COMMON ;
++A:s ODD_COMPSUP ;
+
+LEXICON A_ODD_Ö  !!= @CODE@ är uddastaviga ex amás:abmás
++A+Attr:más # ;
++A+Sg+Nom:más PX ;
++A:bmas ODD_OBLIQUE_COMMON ;
++A:bmas ODD_COMPSUP ;
+
+LEXICON A_ODD_BB  !!= @CODE@ är uddastaviga ex árvas:árvvas-
++A+Attr:vas # ;
++A+Sg+Nom:vas PX ;
++A:jvas ODD_OBLIQUE_COMMON ;
++A:jvas ODD_COMPSUP ;
+
+LEXICON A_ODD_CC  !!= @CODE@ är uddastaviga ex gieres:gärrás
++A+Attr:ieres # ;
++A+Sg+Nom:ieres PX ;
++A:ärrás ODD_OBLIQUE_COMMON ;
++A:ärrás ODD_COMPSUP ;
+
+LEXICON A_ODD_DD  !!= @CODE@ är uddastaviga ex gilos:gillus-
++A+Attr:os # ;
++A+Sg+Nom:os PX ;
++A:lus ODD_OBLIQUE_COMMON ;
++A:lus ODD_COMPSUP ;
+
+LEXICON A_ODD_FF !!= @CODE@ är uddastaviga ex.hánes:hádnás
++A+Attr:nes # ; 
++A+Sg+Nom:nes PX ;
++A:dnás ODD_OBLIQUE_COMMON ;
++A:dnás ODD_COMPSUP ;
+
+LEXICON A_ODD_GG  !!= @CODE@ är uddastaviga ex luovas:luovvas-
++A+Attr:as # ;
++A+Sg+Nom:as PX ;
++A:vas ODD_OBLIQUE_COMMON ;
++A:vas ODD_COMPSUP ;
+
+LEXICON A_ODD_HH  !!= @CODE@ är uddastaviga ex måskås:måsskås-
++A+Attr:kås # ;
++A+Sg+Nom:kås PX ;
++A:skås ODD_OBLIQUE_COMMON ;
++A:skås ODD_COMPSUP ;
+
+
+
 LEXICON A_ODD_DIS  !!= @CODE@ är uddastaviga ex aset:ased-
 +A+Attr:dis # ; 
 +A+Sg+Nom:t PX ;
@@ -280,7 +348,7 @@ LEXICON ODD_COMPSUP
 +Comp+Sg+Nom:%>up # ;
 +Comp:%>ubbo N_EVEN_W ; !ändra till ej stv, jämn.st.o-stam
 +Comp:%>ubbo               N_EVEN_S ;
-+Comp:%>ubboj     N_EVEN_J ;
++Comp:%>ubbo%>j^MONB4J     N_EVEN_J ;
 
 +Superl+Nom:%>umos # ;
 +Superl:%>ubmus ODD_OBLIQUE_COMMON ; 
