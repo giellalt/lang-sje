@@ -13,14 +13,14 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ============================= !
-! File containing abbreviations !
+!! !!!File containing abbreviations 
 ! ============================= !
 
 
-! Lexica for adding tags and periods
+!! Lexica for adding tags and periods
 ! ----------------------------------
 
-! Splitting in 3 groups, because of the preprocessor
+!! Splitting in 3 groups, because of the preprocessor
 ! - - - - - - - - - - - - - - - - - - - - - - - - -
 
 LEXICON Abbreviation
@@ -70,9 +70,9 @@ ab-dot-num;
 !ab-dot-cc ;
 
 
-! Here come POS and Case tags, and no period.
 
-LEXICON ab-nodot-noun ! The bulk
+LEXICON ab-nodot-noun !!0 @  The bulk
+!! Here come POS and Case tags, and no period.
 +N+ABBR+Attr: # ; ! no period, that is.
 +N+ABBR+Nom: # ; ! no period, that is.
 +N+ABBR+Acc:%>%:m # ; ! no period, that is.

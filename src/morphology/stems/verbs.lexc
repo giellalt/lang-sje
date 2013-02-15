@@ -13,16 +13,16 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 
+!! !!!Verb
 
-
-LEXICON LE
+LEXICON LE !!= * @CODE@ 
 
 le+V+Ind+Prs: LEPRS ; 
 le+V+Ind+Prt: LEPRT ; 
 le+V+Ind+Pot: LEPOT ;
 le+V+PrfPrc:lam # ;
 
-LEXICON LEPRS
+LEXICON LEPRS !!= * @CODE@ 
 +Sg1:läv # ; 
 +Sg1:lev # ; 
 +Sg2:lä # ;  
@@ -41,7 +41,7 @@ LEXICON LEPRS
 +Pl3:lin # ; 
 +Pl3:lä # ;
 
-LEXICON LEPRT
+LEXICON LEPRT !!= * @CODE@ 
 +Sg1:lijjiv    # ; 
 +Sg1:lijiv    # ;  
 +Sg2:lijji    # ; 
@@ -70,13 +70,13 @@ LEXICON LEPOT
 +Pl3:lidtji # ; 
 
 
-LEXICON ATJA
+LEXICON ATJA !!= * @CODE@ 
 atja+V+Ind+Prs: ATJAPRS ; 
 atja+V+Ind+Prt: ATJAPRT ; 
 
 
-LEXICON ATJAPRS
-+Sg1:atjav      # ; 
+LEXICON ATJAPRS !!= * @CODE@ 
++Sg1:atjav      # ;  !!= * @CODE@ 
 +Sg2:atjah      # ; 
 +Sg3:atja       # ; 
 +Du1:itjin      # ; 
@@ -86,8 +86,8 @@ LEXICON ATJAPRS
 +Pl2:atjabihtit # ; 
 +Pl3:itjih      # ; 
 
-LEXICON ATJAPRT
-+Sg1:itjiv    # ; 
+LEXICON ATJAPRT !!= * @CODE@ 
++Sg1:itjiv    # ;  !!= * @CODE@ 
 +Sg2:itjih    # ; 
 +Sg3:atjaj    # ; 
 +Du1:atjajmen # ; 
@@ -97,14 +97,14 @@ LEXICON ATJAPRT
 +Pl2:atjajdeh # ; 
 +Pl3:itjin    # ; 
 
-LEXICON IJ
+LEXICON IJ !!= * @CODE@ 
 ij+V+Neg+Prs: IJPRS ;
 ij+V+Neg+Prt: IJPRT ;
 ij+V+Neg+Imprt: IJIMP ;
 ij+V+Neg+Opt: IJOPT ;
 
-LEXICON IJPRS
-+Sg1:iv    # ; 
+LEXICON IJPRS !!= * @CODE@ 
++Sg1:iv    # ;  !!= * @CODE@ 
 +Sg2:i    # ; 
 +Sg3:ij    # ; 
 +Du1:en # ; 
@@ -117,8 +117,8 @@ LEXICON IJPRS
 +Pl3:ie   # ;
 +Pl3:e   # ;
 
-LEXICON IJPRT
-+Sg1:idtjiv    # ; 
+LEXICON IJPRT !!= * @CODE@ 
++Sg1:idtjiv    # ;  !!= * @CODE@ 
 +Sg2:idtji    # ; 
 +Sg3:idtjij    # ; 
 +Du1:ejme # ; 
@@ -134,13 +134,13 @@ LEXICON IJPRT
 +Pl3:idtjin    # ;
 
 
-LEXICON IJIMP
-+Sg2:iele  # ;
+LEXICON IJIMP !!= * @CODE@ 
++Sg2:iele  # ; !!= * @CODE@ 
 +Du2:iellen # ; 
 +Du3:iellit  # ;
                         
-LEXICON IJOPT                      
-+Sg1:alluv    # ;
+LEXICON IJOPT                !!= * @CODE@        
++Sg1:alluv    # ; !!= * @CODE@ 
 +Sg2:alluh    # ;
 +Sg3:allus    # ;
 +Du1:iellun   # ;
@@ -158,31 +158,31 @@ LEXICON IJOPT
 
 
 
-LEXICON Verb
+LEXICON Verb  !!= * @CODE@ 
 
- LE "vara" ;
+ LE "vara" ; !!= * @CODE@ 
 
- ATJA "skola" ; 
- IJ "inte" ;
+ ATJA "skola" ;  !!= * @CODE@ 
+ IJ "inte" ; !!= * @CODE@ 
 
-nammadit:nammad2 NAMMADIT "kalla någon vid namn" ; 
+nammadit:nammad2 NAMMADIT "kalla någon vid namn" ;  !!= * @CODE@ 
 
-båhtet:båht BÅHTET "komma" ; ! JL ie
+båhtet:båht BÅHTET "komma" ;  !!= * @CODE@ 
 
-vuoddjat:vuoddj BALLAT ; ! JL a
+vuoddjat:vuoddj BALLAT ;  !!= * @CODE@ 
 mannat:mann BALLAT ; 
 
 vuällget:vuällg BÅHTET ; 
 båhttjet:båhttj BÅHTET ; 
 basset:bass BÅHTET ; 
 
-släddjit:släddji V_CONTR ; 
+släddjit:släddji V_CONTR ;  !!= * @CODE@ 
 málestit:málest2 NAMMADIT ; 
 
-jåhkot:jåhk ÅRROT ; ! JL uo
+jåhkot:jåhk ÅRROT ;  !!= * @CODE@ 
 bårrot:bårr ÅRROT ; 
 
-vessot:vess VESSOT "leva, må" ;
+vessot:vess VESSOT "leva, må" ; !!= * @CODE@ 
 
 årrot:årr ÅRROT "bo, vara" ;
 
