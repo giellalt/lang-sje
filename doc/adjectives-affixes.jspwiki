@@ -16,7 +16,13 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_0  växlar till lihkuladtja vid komparering
+ * LEXICON A_EVEN_C  experiment, fungerar ej ex. ballvagis:ballvagisa
+
+ LEXICON A_EVEN_D  ex. almelatj:almeladtja
+
+
+
+ LEXICON A_EVEN_0  
 
  * LEXICON A_EVEN_NOCG_0  
 
@@ -94,7 +100,27 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_Z   är uddastaviga ex buorremielak:buorremielag-/buorremielak
 
- * LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
+ * LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
+
+ LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
+
+ LEXICON A_ODD_Ö   är uddastaviga ex amás:abmás
+
+ LEXICON A_ODD_BB   är uddastaviga ex árvas:árvvas-
+
+ LEXICON A_ODD_CC   är uddastaviga ex gieres:gärrás
+
+ LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
+
+ LEXICON A_ODD_FF  är uddastaviga ex.hánes:hádnás
+
+ LEXICON A_ODD_GG   är uddastaviga ex luovas:luovvas-
+
+ LEXICON A_ODD_HH   är uddastaviga ex måskås:måsskås-
+
+
+
+ LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
 
 
 
