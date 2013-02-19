@@ -59,7 +59,6 @@ LEXICON A_EVEN_D !!= @CODE@ ex. almelatj:almeladtja
  
 
 LEXICON A_EVEN_0 !!= @CODE@ 
->>>>>>> .r71072
 +A+Attr: # ;
 A_EVEN ;
 +A:%^WG COMPSUP ;
