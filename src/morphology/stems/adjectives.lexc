@@ -19,15 +19,14 @@ stuorre A_EVEN_A ;
 almelalatj:almela A_EVEN_D ; !växlar till almeladtja vid komparering
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
-binna A_EVEN_NOCG_0 ; !komparering fungerar ej
+binna A_EVEN_NOCG_0 ; !testa om det funkar
 buorre A_EVEN_0 ;
-buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-
+buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
-bånndá A_EVEN_B ; 
-dájjge A_EVEN_B ; 
+bånndá A_EVEN_B ;  
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
-guhkke A_EVEN_B ; 
+guhkke A_EVEN_AA ; !kolla om det fungerar
 gåbbde A_EVEN_B ;
 gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos 
 gähppe A_EVEN_B ; 
@@ -44,7 +43,7 @@ järbme A_EVEN_B ;
 lihkulatj:lihkula A_EVEN_D ; !växlar till lihkuladtja vid komparering
 låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
-njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus, vokalväxling
+njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus
 njárrbe A_EVEN_B ;   
 nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
@@ -56,31 +55,30 @@ slinntso A_EVEN_B ;
 smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
-sägge A_EVEN_NOCG_S ; !siegges, oljud fungerar ej
-tjábbe A_EVEN_AA ;
+sägge A_EVEN_NOCG_S ; !siegges, omljud fungerar ej
+tjábbe:tjább A_EVEN_BB ; !kolla om det fungerar 
 tjåvvga A_EVEN_IES ; 
-tjavvga A_EVEN_NOCG_0 ; ! stadieväxling funkar ej
+tjavvga A_EVEN_NOCG_0 ; ! kolla om det funkar
 tjähppe A_EVEN_B ;
 uhttse A_EVEN_B ; !stadieväxling fungerar ej
-unne A_EVEN_AA ; !fel kod
+unne A_EVEN_BB ; !kolla om det funkar
 vájjve A_EVEN_B ;
 vallje A_EVEN_B ;
 vasste A_EVEN_B ;
 vuodnje A_EVEN_B ; !stadieväxling fungerar ej
 ådne A_EVEN_B ;
-ådne A_EVEN_AA ; !fel kod
+ådne:ådn A_EVEN_A ; !testa
+ballvagis A_EVEN_C ;
+fábmogis A_EVEN_C ; 
+gullogis A_EVEN_C ; 
+tjierrulis A_EVEN_C ; 
+unugis A_EVEN_C ;
+ånegatj:åneg A_EVEN_D ;
 
-
-
-ballvagis A_EVEN_C ; !ss s attr. ballvagis
+vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 bargodibme A_EVEN_0 ; !bm:m attr. bargodis
-gulligis A_EVEN_C ; ! ss s attr. gulligis
 sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis 
-tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
-tjierrulis A_EVEN_C ; !ss s attr. tjierrulis
-unugis A_EVEN_0 ; !ss s attr. unugis
-vuojnudibme A_EVEN_0 ; !bm.m attr. vuojnudis
- 
+tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis 
   
 
 
@@ -109,7 +107,8 @@ tjavdes:tjav A_ODD_C ;
 tjåskes:tjås A_ODD_D ;  
 åhpes:åhp A_ODD_E ;  
 stuores:stuor A_ODD_F ;  
-rádes:rád A_ODD_AA ;  
+rádes:rád A_ODD_AA ;  !inlagt även alt.form rádep, rádemus
+rádes:rád A_ODD_ÖÖ ;  !inlagt även alt.form rádásup
 mårret:mårre A_ODD_DIS ; 
 mällgat:mällga A_ODD_DIS ; 
 såmes:så A_ODD_B ; 
@@ -120,7 +119,7 @@ vuoras:vuor A_ODD_R ;
 báhkas:báhk A_ODD_G ; 
 dimes:di A_ODD_H ; 
 lieggas:l A_ODD_I ;
-luvás:luv A_ODD_J ;
+luovas:lu A_ODD_J ;
 rájnas:ráj A_ODD_K ;
 práres:prár A_ODD_L ;
 galmas:gal A_ODD_M ;
@@ -133,7 +132,7 @@ grávvat:grávv A_ODD_S ;
 rávvat:rávv A_ODD_S ;
 rusjkat:rusjk A_ODD_S ;
 visskat:vissk A_ODD_S ;
-vällgat:vällg A_ODD_S ;
+
 jallgat:j A_ODD_U ;
 jallgat:jallga A_ODD_P ;
 suohkat:su A_ODD_X ;
@@ -152,6 +151,48 @@ gilos:gil A_ODD_DD ;
 ávos A_ODD_Å ;
 basstel A_ODD_Å ;
 dulutj A_ODD_Å ;
-hánes:ha A_ODD_FF ;
+hánes:há A_ODD_FF ;
 luovas:luov A_ODD_GG ;
 måskås:mås A_ODD_HH ;
+tjielgos:tj A_ODD_II ; 
+garras:garra A_ODD_KK ;
+allak:alla A_ODD_Q ;
+gassak:gassa A_ODD_Q ;
+måskos:m A_ODD_LL ;
+nanos:n A_ODD_MM ;
+nieros:n A_ODD_NN ;
+rabás:ra A_ODD_OO ;
+vájbas:vájb A_ODD_PP ;
+gåjkes:gåj A_ODD_QQ ; 
+låssåt:låsså A_ODD_P ;
+
+
+buorak:buora A_ODD_GIS ; 
+tjalmak:tjalma A_ODD_GIS ;
+vällgat:v A_ODD_VV ;
+suojmas:su A_ODD_XX ;
+suojmas:su A_ODD_YY ;
+dájgas:dájg A_ODD_ZZ ;
+rájnas:ráj A_ODD_ÄÄ ;
+åvros A_ODD_Å ;
+gåstås:gås A_ODD_ÅÅ ;
+gåstås:gås A_ODD_RR ; !funkar ej i komp.det blir sss
+allak:all A_ODD_TT ;
+gåjkes:gåj A_ODD_SS ; !
+låssåt:l A_ODD_UU ; !funkar ej i komp. det blir sss
+
+
+mivkes:miv A_EVEN_KONTR_E ; !ej testat härifrån
+suvres:suv A_EVEN_KONTR_G ;
+buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje
+låmmsjáj:låm A_EVEN_KONTR_D ; 
+gärrgáj:gärrgá A_EVEN_KONTR_B ;
+sádnes:sád A_EVEN_KONTR_A ;
+mårráj:mårrá A_EVEN_KONTR_B ;
+hålláj:hållá A_EVEN_KONTR_B ;
+sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ;
+
+
+
+
+
