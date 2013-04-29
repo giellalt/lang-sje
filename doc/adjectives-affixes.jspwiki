@@ -10,16 +10,19 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_AA  är likastaviga ocskå med a-attr ???!!
 
+ LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
+
  * LEXICON A_EVEN_E  är likastaviga med e-attr
 
  * LEXICON A_EVEN_IES  
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_C  experiment, fungerar ej ex. ballvagis:ballvagisa
+ * LEXICON A_EVEN_C 
 
  LEXICON A_EVEN_D  ex. almelatj:almeladtja
 
+ LEXICON A_EVEN_G  ex. almelatj:almeladtja
 
 
  LEXICON A_EVEN_0  
@@ -118,11 +121,47 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  LEXICON A_ODD_HH   är uddastaviga ex måskås:måsskås-
 
+ LEXICON A_ODD_II   är uddastaviga ex tjielgos:tjellgus
+
+
+ LEXICON A_ODD_KK   är uddastaviga ex garras:garras-, garra
+
+ LEXICON A_ODD_LL   är uddastaviga ex måskos:musskus-
+
+ LEXICON A_ODD_MM   är uddastaviga ex nanos:ninnus-
+
+ LEXICON A_ODD_NN   är uddastaviga ex nieros:nerrus-
+
+ LEXICON A_ODD_OO   är uddastaviga ex rabás:rahpás-
+
+ LEXICON A_ODD_PP   är uddastaviga ex vájbas:vájbbas-
+
+ LEXICON A_ODD_QQ   är uddastaviga ex gåjkes:gåjjkås-
+
+ LEXICON A_ODD_RR   är uddastaviga ex gåstes:gåsstås- oregelbundet gåsstep, gåsstemus alt. komp.
+
+ LEXICON A_ODD_SS   är uddastaviga ex gåjkes:gåjkkås, oregelbundet gåjjkep, gåjjkemus alt komp
+
+ LEXICON A_ODD_TT   är uddastaviga ex allak:allag- oregelbunden allep, allemus som alt. komp.
+
+ LEXICON A_ODD_UU   är uddastaviga ex låssåt:låssåd-/lussis oregelbunden låssep, låssemus alt. komp.
 
 
  LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
 
+ LEXICON A_ODD_VV   är uddastaviga ex blávvat:vällgat/vellgis
 
+ LEXICON A_ODD_XX   är uddastaviga ex suojmas:suajjmas
+
+ LEXICON A_ODD_YY   är uddastaviga ex suojmas:suajbmas
+
+ LEXICON A_ODD_ZZ   är uddastaviga ex dájgas/dájges
+
+ LEXICON A_ODD_ÅÅ   är uddastaviga ex gåstås:gåsstås-
+
+ LEXICON A_ODD_ÄÄ   är uddastaviga ex rájnes:rájjnas-
+
+ LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep
 
  * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
 
@@ -131,3 +170,16 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
+ LEXICON A_EVEN_KONTR_A , exempel sádnes.sáddná-
+
+ LEXICON A_EVEN_KONTR_B , exempel gärrgáj:gärrgá-
+
+ LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
+
+ LEXICON A_EVEN_KONTR_D , exempel låmmsjáj:låmmsjá/låmmsjes (attr)
+
+ LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
+
+ LEXICON A_EVEN_KONTR_F , exempel buässjáj:buässjá/buosjes (attr)
+
+ LEXICON A_EVEN_KONTR_G , exempel suvres:suvvrá/suvra (attr)
