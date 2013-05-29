@@ -64,7 +64,7 @@ LEXICON VESSOT
 
 LEXICON BALLAT
 +V:     BALLAT_S ;
-+V:%^WG BALLAT_W ;
++V:a%^WG BALLAT_W ;
 
 LEXICON VADTSAAT
 +V:     VADTSAAT_S ;
@@ -186,44 +186,45 @@ LEXICON V_CONTR
 
 
 LEXICON BALLAT_S
-+Inf:%>at # ; 
-+GerII:%>amin # ;
-+PrfPrc:%>am # ;
-+PrsPrc:%>e # ; !nytt ej testat
-+PrsPrc:%>aj # ; !nytt ej testat
-+Imp+Du2:%>en # ; !nytt ej testat
-+Imp+Pl2:%>it #; !nytt ej testat
++Inf:a%>t # ; 
++GerII:a%>min # ;
++PrfPrc:a%>m # ;
++PrsPrc:e # ; !nytt ej testat
++PrsPrc:a%>j # ; !nytt ej testat
++Imp+Du2:e%>n # ; !nytt ej testat
++Imp+Pl2:i%>t #; !nytt ej testat
 
-+Ind+Prs+Sg3:%>á #;
-+Ind+Prs+Du1:%>in #;
-+Ind+Prs+Du2:%>abehtin #;
-+Ind+Prs+Du3:%>aba #;
-+Ind+Prs+Pl1:%>ap #;
-+Ind+Prs+Pl2:%>abihtit #;
-+Ind+Prs+Pl3:%>i #;
-+Ind+Prt+Sg1:%>iv #;
-+Ind+Prt+Sg2:%>i #;
-+Ind+Prt+Pl3:%>in #; 
++Ind+Prs+Sg3:á #;
++Ind+Prs+Du1:i%>n #;
++Ind+Prs+Du2:a%>behtin #;
++Ind+Prs+Du2:a%>bähttin #;
++Ind+Prs+Du3:a%>ba #;
++Ind+Prs+Pl1:a%>p #;
++Ind+Prs+Pl2:a%>bihtit #;
++Ind+Prs+Pl3:i #;
++Ind+Prt+Sg1:i%>v #;
++Ind+Prt+Sg2:i #;
++Ind+Prt+Pl3:i%>n #; 
 
 LEXICON BALLAT_W
-+GerI:%>adin # ; 
-+VAdv:%>a # ;
-+Sup:%>atjit # ;
-+Vabe:%>ahk # ;
-+Pot:%>tj V_ODD_IND_PRS # ; !analysatorn känner ej pot
-+Imp+Sg2:%>a #; !nytt ej testat
-+Vsubst:%>am #; !nytt ej testat
-+Vgen:%>a #; !nytt ej testat 
++GerI:%>din # ; 
++VAdv: # ;
++Sup:%>tjit # ;
++Vabe:%>hk # ;
++Pot:%>tj V_ODD_IND_PRS ; 
++Imp+Sg2: #; 
++Vsubst:%>m #; 
++Vgen: #;  
 
     
-+Ind+Prs+Sg1:%>av #;
-+Ind+Prs+Sg2:%>a #;
-+Ind+Prt+Sg3:%>aj #;
-+Ind+Prt+Du1:%>ajmen #;
-+Ind+Prt+Du2:%>ajden #;
-+Ind+Prt+Du3:%>ajga #;
-+Ind+Prt+Pl1:%>ajme #;
-+Ind+Prt+Pl2:%>ajde #;
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2: #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmen #;
++Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du3:%>jga #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
 
 
 
