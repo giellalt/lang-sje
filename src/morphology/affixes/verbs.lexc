@@ -189,6 +189,11 @@ LEXICON BALLAT_S
 +Inf:%>at # ; 
 +GerII:%>amin # ;
 +PrfPrc:%>am # ;
++PrsPrc:%>e # ; !nytt ej testat
++PrsPrc:%>aj # ; !nytt ej testat
++Imp+Du2:%>en # ; !nytt ej testat
++Imp+Pl2:%>it #; !nytt ej testat
+
 +Ind+Prs+Sg3:%>á #;
 +Ind+Prs+Du1:%>in #;
 +Ind+Prs+Du2:%>abehtin #;
@@ -205,6 +210,10 @@ LEXICON BALLAT_W
 +VAdv:%>a # ;
 +Sup:%>atjit # ;
 +Vabe:%>ahk # ;
++Pot:%>tj V_ODD_IND_PRS # ; !analysatorn känner ej pot
++Imp+Sg2:%>a #; !nytt ej testat
++Vsubst:%>am #; !nytt ej testat
++Vgen:%>a #; !nytt ej testat 
 
     
 +Ind+Prs+Sg1:%>av #;
