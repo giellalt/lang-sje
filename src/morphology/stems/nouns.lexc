@@ -323,6 +323,7 @@ vuäbbne N_EVEN "bn" ;
 vuävvda N_EVEN "vd skog,skogsland" ;
 vágge N_EVEN_NOCG "dal" ;
 vájbmo N_EVEN "jm hjärta" ; 
+vájbmo:vájmmo N_EVEN "jm hjärta" ; 
 várre N_EVEN "r berg, fjäll" ;
 vähkke N_EVEN "hk hjälp" ;
 vällja N_EVEN "lj bror" ;
