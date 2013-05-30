@@ -30,8 +30,12 @@ LEXICON ÅRROT
 
 LEXICON ÅRROT_S
 +Inf:%>ot # ; 
-+GerII:%>umin # ;
++GerII:%>omin # ;
 +PrfPrc:%>um # ;
++PrsPrc:o # ; 
++Imp+Du2:o%>n # ; 
++Imp+Pl2:u%>t #;
++Vsubst:%>om #; 
 
 +Ind+Prs+Sg3:%>u #;
 +Ind+Prs+Du1:%>un #;
@@ -47,8 +51,11 @@ LEXICON ÅRROT_S
 LEXICON ÅRROT_W
 +GerI:%>udin # ; 
 +VAdv:u # ;
-+Sup:%>utjit # ;
-+Vabe:%>uhk # ;
++Sup:%>otjit # ;
++Vabe:%>uk # ; !nytt, ej testat
++Pot:%>otj V_ODD_IND_PRS ; ! nytt ej testat
++Imp+Sg2:o #; 
+ +Vgen:o #;  
 
 +Ind+Prs+Sg1:%>ov #;
 +Ind+Prs+Sg2:%>o #;
@@ -81,10 +88,15 @@ LEXICON LÅHKÅT
 +V:     LÅHKÅT_S ;
 +V:%^WG LÅHKÅT_W ;
 
-LEXICON LÅHKÅT_S
+LEXICON LÅHKÅT_S !låhk
 +Inf:%>åt # ; 
 +GerII:%>åmin # ; ! ???
 +PrfPrc:%>åm # ;
++PrsPrc:e # ; 
++PrsPrc:e%>j # ; 
++Imp+Du2:e%>n # ; 
++Imp+Pl2:i%>t #;
++Vsubst:%>åm #;  
 
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Sg3:%>á #;
@@ -98,11 +110,14 @@ LEXICON LÅHKÅT_S
 +Ind+Prt+Sg2:%>i #;
 +Ind+Prt+Pl3:%>in #; 
 
-LEXICON LÅHKÅT_W
+LEXICON LÅHKÅT_W !låg
 +GerI:%>ådin # ; 
 +VAdv:ie # ;
 +Sup:%>åtjit # ;
-+Vabe:%>iehk # ;
++Vabe:%>ek # ; !nytt, ej testat
++Pot:%>åtj V_ODD_IND_PRS ; ! nytt ej testat
++Imp+Sg2:å #; 
++Vgen:å #;  
 
 +Ind+Prs+Sg1:%>åv #;
 +Ind+Prs+Sg2:%>å #;
@@ -119,14 +134,15 @@ LEXICON BÅHTET
 +V:%^WG BÅHTET_W ;
 
 
-LEXICON BÅHTET_S
+LEXICON BÅHTET_S !inga starkst. former fungerar
 +Inf:%>et # ; 
 +GerII:%>emin # ;
 +PrfPrc:%>ám # ;
 +PrsPrc:e # ; 
 +PrsPrc:e%>j # ; 
 +Imp+Du2:e%>n # ; 
-+Imp+Pl2:i%>t #; 
++Imp+Pl2:i%>t #;
++Vsubst:%>em #; 
 
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Sg3:%>á #;
@@ -144,10 +160,10 @@ LEXICON BÅHTET_W !båd
 +GerI:%>edin # ; 
 +VAdv:ie # ;
 +Sup:%>átjit # ;
-+Vabe:%>iehk # ;
-+Pot:%>etj V_ODD_IND_PRS ; 
++Vabe:%>ek # ; !nytt, ej testat
++Pot:%>itj V_ODD_IND_PRS ; ! nytt ej testat
 +Imp+Sg2:e #; 
-+Vsubst:%>em #; 
+ 
 +Vgen:e #;  
 
 +Ind+Prs+Sg1:%>áv #;
@@ -201,6 +217,7 @@ LEXICON BALLAT_S !ball, omljud skanas alla former med i i andra stavelsen skifta
 +PrsPrc:a%>j # ; 
 +Imp+Du2:e%>n # ; 
 +Imp+Pl2:i%>t #; 
++Vsubst:%>am #; 
 
 +Ind+Prs+Sg3:á #;
 +Ind+Prs+Du1:i%>n #;
@@ -218,13 +235,11 @@ LEXICON BALLAT_W !bala
 +GerI:%>din # ; 
 +VAdv: # ;
 +Sup:%>tjit # ;
-+Vabe:%>hk # ; !funkar ej
-+Pot:%>tj V_ODD_IND_PRS ; 
++Vabe:%>k # ; !nytt, ej testat
++Pot:%>tj V_ODD_IND_PRS ; !du 2 och pl 2 fungerar ej
 +Imp+Sg2: #; 
-+Vsubst:%>m #; 
 +Vgen: #;  
 
-    
 +Ind+Prs+Sg1:%>v #;
 +Ind+Prs+Sg2: #;
 +Ind+Prt+Sg3:%>j #;
@@ -237,10 +252,33 @@ LEXICON BALLAT_W !bala
 
 
 
-LEXICON NAMMADIT
+LEXICON NAMMADIT !nammad
 +V+Inf:%>it # ;
 +V+Ind+Prs: V_ODD_IND_PRS ;
 +V+Ind+Prt: V_ODD_IND_PRT ;
+
++GerI:%>ittijn # ; 
++Sup:%>itjit # ;
++Vabe:%>ak # ;  
++Vgen:a #; 
++GerII:a%>me # ;
++PrfPrc:a%>m # ;
++PrsPrc:äddje # ; 
++Imp+Sg2:a #;  
++Imp+Du2:e%>htin # ; 
++Imp+Pl2:i%>htit #; 
++Vsubst:%>im #;
+
++Pot+Sg1:%>ittjav #;
++Pot+Sg2:%>ittja #;
++Pot+Sg3:%>itj #;
++Pot+Du1:%>ittjin #;
++Pot+Du2:%>ittjabiehten #;
++Pot+Du2:%>ittjabähtten #;
++Pot+Du3:%>ittjaba #;
++Pot+Pl1:%>ittjap #;
++Pot+Pl2:%>ittjabihtit #;
++Pot+Pl3:%>ittji #;  
 
 LEXICON V_ODD_IND_PRS
 +Sg1:%>av # ; 
@@ -250,7 +288,7 @@ LEXICON V_ODD_IND_PRS
 +Du1:%>in # ; 
 +Du2:%>iehpen # ;
 +Du2:%>ähppen # ; 
-+Du3:%>ebá # ; 
++Du3:%>iebá # ; 
 +Pl1:%>ip # ; 
 +Pl2:%>ihpit # ; 
 +Pl3:%>i # ; 
