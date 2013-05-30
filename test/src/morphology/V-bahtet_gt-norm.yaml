@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - båhtet: # Verb 'to bring' - ei tsekattu
+     båhtet+V+Inf: båhtet
+     båhtet+V+Ind+Prs+Sg1: bådav
+     båhtet+V+Ind+Prs+Sg2: båda
+     båhtet+V+Ind+Prs+Sg3: båhtá
+     båhtet+V+Ind+Prs+Du1: båhtin
+     båhtet+V+Ind+Prs+Du2: båhtebehtin
+     båhtet+V+Ind+Prs+Du3: båhteba
+     båhtet+V+Ind+Prs+Pl1: båhtep
+     båhtet+V+Ind+Prs+Pl2: båhtebihtit
+     båhtet+V+Ind+Prs+Pl3: båhti
+
+     båhtet+V+Ind+Prt+Sg1: båhtiv
+     båhtet+V+Ind+Prt+Sg2: båhti
+     båhtet+V+Ind+Prt+Sg3: bådij
+     båhtet+V+Ind+Prt+Du1: bådijmen
+     båhtet+V+Ind+Prt+Du2: bådijden
+     båhtet+V+Ind+Prt+Du3: bådijga
+     båhtet+V+Ind+Prt+Pl1: bådijme
+     båhtet+V+Ind+Prt+Pl2: bådijde
+     båhtet+V+Ind+Prt+Pl3: båhtin
+

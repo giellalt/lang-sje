@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - nammadit: # Verb 'to bring' - ei tsekattu
+     nammadit+V+Inf: nammadit
+     nammadit+V+Ind+Prs+Sg1: nammadav
+     nammadit+V+Ind+Prs+Sg2: nammada
+     nammadit+V+Ind+Prs+Sg3: [nammat, nammada]
+     nammadit+V+Ind+Prs+Du1: nammadin
+     nammadit+V+Ind+Prs+Du2: [nammadähppen, nammadiehpen]
+     nammadit+V+Ind+Prs+Du3: nammadebá
+     nammadit+V+Ind+Prs+Pl1: nammadip
+     nammadit+V+Ind+Prs+Pl2: nammadihpit
+     nammadit+V+Ind+Prs+Pl3: nammadi
+
+     nammadit+V+Ind+Prt+Sg1: nammadiv
+     nammadit+V+Ind+Prt+Sg2: nammadi
+     nammadit+V+Ind+Prt+Sg3: nammadij
+     nammadit+V+Ind+Prt+Du1: nammadijmen
+     nammadit+V+Ind+Prt+Du2: nammadijden
+     nammadit+V+Ind+Prt+Du3: nammadijga
+     nammadit+V+Ind+Prt+Pl1: nammadijme
+     nammadit+V+Ind+Prt+Pl2: nammadijde
+     nammadit+V+Ind+Prt+Pl3: nammadin
+
