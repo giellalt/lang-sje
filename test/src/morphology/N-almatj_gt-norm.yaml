@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - almatj: # -udda utan stv och vokalv
+    almatj+N+Sg+Nom: almatj
+    almatj+N+Sg+Gen: almatja
+    almatj+N+Sg+Acc: almatjav
+    almatj+N+Sg+Ill: almatjij
+    almatj+N+Sg+Ine: almatjin
+    almatj+N+Sg+Ela: almatjist
+    almatj+N+Sg+Com: almatjijn
+    almatj+N+Pl+Nom: almatja
+    almatj+N+Pl+Gen: almatjij
+    almatj+N+Pl+Acc: almatjijt
+    almatj+N+Pl+Ill: almatjijda
+    almatj+N+Pl+Ine: almatjijn
+    almatj+N+Pl+Ela: almatjijst
+    almatj+N+Pl+Com: almatjij
+    almatj+N+Ess: almatjin
+    almatj+N+Abe: almatjahtá
+
+

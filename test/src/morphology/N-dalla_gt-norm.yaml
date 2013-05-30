@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - dållå: # -å-stammar
+    dållå+N+Sg+Nom: dållå
+    dållå+N+Sg+Gen: dålå
+    dållå+N+Sg+Acc: dålåv
+    dållå+N+Sg+Ill: dållåj
+    dållå+N+Sg+Ine: dålån
+    dållå+N+Sg+Ela: dålåst
+    dållå+N+Sg+Com: dålåjn
+    dållå+N+Pl+Nom: dålå
+    dållå+N+Pl+Gen: dålåj
+    dållå+N+Pl+Acc: dålåjt
+    dållå+N+Pl+Ill: dålåjda
+    dållå+N+Pl+Ine: dålåjn
+    dållå+N+Pl+Ela: dålåjst
+    dållå+N+Pl+Com: dålåj
+    dållå+N+Ess: dållån
+    dållå+N+Abe: dålådak
+

@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+  Noun - iello: # -o-stammar
+    iello+N+Sg+Nom: iello
+    iello+N+Sg+Gen: ielo
+    iello+N+Sg+Acc: ielov
+    iello+N+Sg+Ill: elluj
+    iello+N+Sg+Ine: ielon
+    iello+N+Sg+Ela: ielost
+    iello+N+Sg+Com: elujn
+    iello+N+Pl+Nom: ielo
+    iello+N+Pl+Gen: ieloj
+    iello+N+Pl+Acc: ielojt
+    iello+N+Pl+Ill: ielojda
+    iello+N+Pl+Ine: ielojn
+    iello+N+Pl+Ela: ielojst
+    iello+N+Pl+Com: ieloj
+    iello+N+Ess: iellon
+    iello+N+Abe: ielodak
+
