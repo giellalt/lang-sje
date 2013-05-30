@@ -123,6 +123,10 @@ LEXICON BÅHTET_S
 +Inf:%>et # ; 
 +GerII:%>emin # ;
 +PrfPrc:%>ám # ;
++PrsPrc:e # ; 
++PrsPrc:e%>j # ; 
++Imp+Du2:e%>n # ; 
++Imp+Pl2:i%>t #; 
 
 +Ind+Prs+Sg3:%>a #;
 +Ind+Prs+Sg3:%>á #;
@@ -136,11 +140,15 @@ LEXICON BÅHTET_S
 +Ind+Prt+Sg2:%>i #;
 +Ind+Prt+Pl3:%>in #; 
 
-LEXICON BÅHTET_W
+LEXICON BÅHTET_W !båd
 +GerI:%>edin # ; 
 +VAdv:ie # ;
 +Sup:%>átjit # ;
 +Vabe:%>iehk # ;
++Pot:%>etj V_ODD_IND_PRS ; 
++Imp+Sg2:e #; 
++Vsubst:%>em #; 
++Vgen:e #;  
 
 +Ind+Prs+Sg1:%>áv #;
 +Ind+Prs+Sg1:%>av #;
@@ -185,32 +193,32 @@ LEXICON V_CONTR
 +V+Ind+Prt+Pl3:%>jin #;
 
 
-LEXICON BALLAT_S
+LEXICON BALLAT_S !ball, omljud skanas alla former med i i andra stavelsen skiftar till i i första
 +Inf:a%>t # ; 
 +GerII:a%>min # ;
 +PrfPrc:a%>m # ;
-+PrsPrc:e # ; !nytt ej testat
-+PrsPrc:a%>j # ; !nytt ej testat
-+Imp+Du2:e%>n # ; !nytt ej testat
-+Imp+Pl2:i%>t #; !nytt ej testat
++PrsPrc:e # ; 
++PrsPrc:a%>j # ; 
++Imp+Du2:e%>n # ; 
++Imp+Pl2:i%>t #; 
 
 +Ind+Prs+Sg3:á #;
 +Ind+Prs+Du1:i%>n #;
-+Ind+Prs+Du2:a%>behtin #;
-+Ind+Prs+Du2:a%>bähttin #;
++Ind+Prs+Du2:a%>behtin #; !funkar ej
++Ind+Prs+Du2:a%>bähttin #; !funkar ej
 +Ind+Prs+Du3:a%>ba #;
 +Ind+Prs+Pl1:a%>p #;
-+Ind+Prs+Pl2:a%>bihtit #;
-+Ind+Prs+Pl3:i #;
++Ind+Prs+Pl2:a%>bihtit #; !funkar ej
++Ind+Prs+Pl3:i #; 
 +Ind+Prt+Sg1:i%>v #;
 +Ind+Prt+Sg2:i #;
 +Ind+Prt+Pl3:i%>n #; 
 
-LEXICON BALLAT_W
+LEXICON BALLAT_W !bala
 +GerI:%>din # ; 
 +VAdv: # ;
 +Sup:%>tjit # ;
-+Vabe:%>hk # ;
++Vabe:%>hk # ; !funkar ej
 +Pot:%>tj V_ODD_IND_PRS ; 
 +Imp+Sg2: #; 
 +Vsubst:%>m #; 
