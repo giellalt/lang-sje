@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - bunndi: # -i-stammar
+    bunndi+N+Sg+Nom: bunndi
+    bunndi+N+Sg+Gen: bundi
+    bunndi+N+Sg+Acc: bundiv
+    bunndi+N+Sg+Ill: bunndij
+    bunndi+N+Sg+Ine: bundin
+    bunndi+N+Sg+Ela: bundist
+    bunndi+N+Sg+Com: bundijn
+    bunndi+N+Pl+Nom: bundi
+    bunndi+N+Pl+Gen: bundij
+    bunndi+N+Pl+Acc: bundijt
+    bunndi+N+Pl+Ill: bundijda
+    bunndi+N+Pl+Ine: bundijn
+    bunndi+N+Pl+Ela: bundijst
+    bunndi+N+Pl+Com: bundij
+    bunndi+N+Ess: bunndin
+    bunndi+N+Abe: bundidak
+

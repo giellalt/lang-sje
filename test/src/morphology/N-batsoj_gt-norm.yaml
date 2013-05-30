@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - båtsoj: # -kontrakta med vokf
+    båtsoj+N+Sg+Nom: båtsoj
+    båtsoj+N+Sg+Gen: buhtsu
+    båtsoj+N+Sg+Acc: buhtsuv
+    båtsoj+N+Sg+Ill: buhtsuj
+    båtsoj+N+Sg+Ine: buhtsun
+    båtsoj+N+Sg+Ela: buhtsust
+    båtsoj+N+Sg+Com: buhtsujn
+    båtsoj+N+Pl+Nom: buhtsu
+    båtsoj+N+Pl+Gen: buhtsuj
+    båtsoj+N+Pl+Acc: buhtsujt
+    båtsoj+N+Pl+Ill: buhtsujda
+    båtsoj+N+Pl+Ine: buhtsujn
+    båtsoj+N+Pl+Ela: buhtsujst
+    båtsoj+N+Pl+Com: buhtsuj
+    båtsoj+N+Ess: buhtsun
+    båtsoj+N+Abe: buhtsudak
+

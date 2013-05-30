@@ -1,0 +1,32 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+  Noun - ålol: # -udda med stv och vokalv
+    ålol+N+Sg+Nom: ålol
+    ålol+N+Sg+Gen: ullula
+    ålol+N+Sg+Acc: ullulav
+    ålol+N+Sg+Ill: ullulij
+    ålol+N+Sg+Ine: ulluln
+    ålol+N+Sg+Ela: ullulist
+    ålol+N+Sg+Com: ullulijn
+    ålol+N+Pl+Nom: ullula
+    ålol+N+Pl+Gen: ullulij
+    ålol+N+Pl+Acc: ullulijt
+    ålol+N+Pl+Ill: ullulijda
+    ålol+N+Pl+Ine: ullulijn
+    ålol+N+Pl+Ela: ullulijst
+    ålol+N+Pl+Com: ullulij
+    ålol+N+Ess: ullulin
+    ålol+N+Abe: ullulahtá
+
+ 
+ 

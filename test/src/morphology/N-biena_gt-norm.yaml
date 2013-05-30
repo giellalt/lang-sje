@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - biena: # -udda med stv och vokalslut
+    biena+N+Sg+Nom: biena
+    biena+N+Sg+Gen: biednaga
+    biena+N+Sg+Acc: biednagav
+    biena+N+Sg+Ill: biednagij
+    biena+N+Sg+Ine: biednagin
+    biena+N+Sg+Ela: biednagist
+    biena+N+Sg+Com: biednagijn
+    biena+N+Pl+Nom: biednaga
+    biena+N+Pl+Gen: biednagij
+    biena+N+Pl+Acc: biednagijt
+    biena+N+Pl+Ill: biednagijda
+    biena+N+Pl+Ine: biednagijn
+    biena+N+Pl+Ela: biednagijst
+    biena+N+Pl+Com: biednagij
+    biena+N+Ess: biednagin
+    biena+N+Abe: biednagahtá
+
+ 
+ 

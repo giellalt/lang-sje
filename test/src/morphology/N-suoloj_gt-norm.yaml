@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+  Noun - suoloj: # -kontrakta utan stv
+    suoloj+N+Sg+Nom: [suoloj, sullu]
+    suoloj+N+Sg+Gen: sullu
+    suoloj+N+Sg+Acc: sulluv
+    suoloj+N+Sg+Ill: sulluj
+    suoloj+N+Sg+Ine: sullun
+    suoloj+N+Sg+Ela: sullust
+    suoloj+N+Sg+Com: sullujn
+    suoloj+N+Pl+Nom: sullu
+    suoloj+N+Pl+Gen: sulluj
+    suoloj+N+Pl+Acc: sullujt
+    suoloj+N+Pl+Ill: sullujda
+    suoloj+N+Pl+Ine: sullujn
+    suoloj+N+Pl+Ela: sullujst
+    suoloj+N+Pl+Com: sulluj
+    suoloj+N+Ess: sullun
+    suoloj+N+Abe: sulludak
+

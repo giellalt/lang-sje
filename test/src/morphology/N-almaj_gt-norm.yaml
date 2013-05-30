@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - ålmáj: # -kontrakta med stv och utan vokf
+    ålmáj+N+Sg+Nom: ålmáj
+    ålmáj+N+Sg+Gen: ålbmá
+    ålmáj+N+Sg+Acc: ålbmáv
+    ålmáj+N+Sg+Ill: ålbmáj
+    ålmáj+N+Sg+Ine: ålbmán
+    ålmáj+N+Sg+Ela: ålbmást
+    ålmáj+N+Sg+Com: ålbmájn
+    ålmáj+N+Pl+Nom: ålbmá
+    ålmáj+N+Pl+Gen: ålbmáj
+    ålmáj+N+Pl+Acc: ålbmájt
+    ålmáj+N+Pl+Ill: ålbmájda
+    ålmáj+N+Pl+Ine: ålbmájn
+    ålmáj+N+Pl+Ela: ålbmájst
+    ålmáj+N+Pl+Com: ålbmáj
+    ålmáj+N+Ess: ålbmán
+    ålmáj+N+Abe: ålbmádak
+
+ 

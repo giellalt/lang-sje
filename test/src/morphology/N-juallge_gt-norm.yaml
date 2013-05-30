@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - juällge: # -e-stammar
+    juällge+N+Sg+Nom: juällge
+    juällge+N+Sg+Gen: juolge
+    juällge+N+Sg+Acc: juolgev
+    juällge+N+Sg+Ill: juällgáj
+    juällge+N+Sg+Ine: juolgen
+    juällge+N+Sg+Ela: juolgest
+    juällge+N+Sg+Com: juolgijn
+    juällge+N+Pl+Nom: juolge
+    juällge+N+Pl+Gen: juolgij
+    juällge+N+Pl+Acc: juolgijt
+    juällge+N+Pl+Ill: juolgijda
+    juällge+N+Pl+Ine: juolgijn
+    juällge+N+Pl+Ela: juolgijst
+    juällge+N+Pl+Com: juolgij
+    juällge+N+Ess: juällgen
+    juällge+N+Abe: juolgedak
+
