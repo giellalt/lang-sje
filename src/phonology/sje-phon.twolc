@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-! Pite Sámi TWOLC file
+!! !!!Pite Sámi TWOLC file
 !
 ! $Id$
 !
@@ -51,85 +51,103 @@ Sets
 
 !  Dummy     =   
 
+!! !!!Rules
+
 Rules
  
  
-! Consonant gradation rules
+!! !!Consonant gradation rules
 
-"Consonant Gradation for htt(j):ht(j)" 
+"Consonant Gradation for htt(j):ht(j)"
+!! __@RULENAME@__  
 t:0 <=> Vow: h t _ ( j ) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
-"Consonant Gradation for hxx:hx" 
+"Consonant Gradation for hxx:hx"
+!! __@RULENAME@__  
 Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( p t k ) ;
 
-"Consonant Gradation for xx:x" 
+"Consonant Gradation for xx:x"
+!! __@RULENAME@__  
 Cx:0 <=> Vow: Cx _  Vow:+ (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( t k m n s r l f j v ) ; ! OBS fjerna j pga av ijja, och in igen för ijja
 
-"Consonant Gradation for xxy:xy" 
+"Consonant Gradation for xxy:xy"
+!! __@RULENAME@__  
 !Cx:0 <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
  where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
        Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s t )  
           matched ;
          
-"Consonant Gradation for xy:y" 
+"Consonant Gradation for xy:y"
+!! __@RULENAME@__  
 Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( d d )
            Cy in ( j n )  
           matched ;
          
-"Consonant Gradation for httj:htj" ! ACS: hddj finst inte, httj finst
+"Consonant Gradation for httj:htj"
+!! __@RULENAME@__  ACS: hddj finst inte, httj finst
 t:0 <=> h t _ j (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
-!"Consonant Gradation for hx:x"
+!! !!Consonant Gradation for hx:x
+
 "Delete h"
+!! __@RULENAME@__  
 h:  <=> Vow+ _ Cx: (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (p t k) ;
 
 "Delete h before ts"
+!! __@RULENAME@__  
 h:0 <=> Vow+ _ t s Vow:+ (Cns:+) ( Dummy: ) WeG: ;
     
 "change unvoiced to voiced"
+!! __@RULENAME@__  
 Cx:Cy <=> h: _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (p t k)
           Cy in (b d g)
           matched ;
 
-"Consonant Gradation for xN:N" 
+"Consonant Gradation for xN:N"
+!! __@RULENAME@__  
 Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (b d g)
           Cy in (m n n)
           matched ;
           
 
-! Other consonant rules 
+!! !!Other consonant rules 
 ! =====================
 
-"Final Consonant Deletion"          
+"Final Consonant Deletion"
+!! __@RULENAME@__  
 Cx:0 <=> _ (Dummy:) %^CDEL: ;
 	where Cx in ( b d g ) ; 
 
 
 "Auslautherdung"
+!! __@RULENAME@__  
 Cx:Cy <=> _ .#. ;
     where Cx in ( d2 h2 g2 )
           Cy in ( t  j  k  )
           matched ;
 
 "Word Final Consonant Cluster Simplification"
+!! __@RULENAME@__  
 t2:0 <=> s _ .#. ;
 
 "Fricative Auslautherdung"
+!! __@RULENAME@__  
 s:t <=> _ j2: .#. ;
 
           
 ! ===========          
-! Vowel rules 
+!! !!Vowel rules 
 ! ===========          
         
 "Vowel Shortening e to i in Front of j-initial suffixes"
+!! __@RULENAME@__  
  e:i <=> Cns _ (Dummy:*) ( %>:) j ;
  	
  !€ riehpe>jt
@@ -140,48 +158,58 @@ s:t <=> _ j2: .#. ;
 
 
 "Vowel Deletion in front of j"
+!! __@RULENAME@__  
 Vx:0 <=> Vy _ %^jDEL:0 ;
      where Vx in (e o)
            Vy in (i u)
            matched ;
 
 "o to u in front of j"
+!! __@RULENAME@__  
 o:u <=> _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 ! This rule works both for Ill (without the jDEL) and for Com Sg (with it)
 
 
 "aa in front of j"
+!! __@RULENAME@__  
 e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
 
 
 "o deletion in front of j"
+!! __@RULENAME@__  
 o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 ! uo > u
 ! not a-stems, muorraj
 
 "i deletion in front of j"
+!! __@RULENAME@__  
 i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
 ! ie > e
 
 "u ae to u o in weak grade"
+!! __@RULENAME@__  
 ä:o <=> u _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
 
  !€ juällge^WG
  !€ juol0ge0
 
 "ae to ie in weak grade 1"
+!! __@RULENAME@__  
 ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
 
 "ae to ie in weak grade 2"
+!! __@RULENAME@__  
 0:i <=> [Cns|#] _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
 
 
 "u to å in odd stems"
+!! __@RULENAME@__  
 u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^MONB4J:0 ;
 
  !€ ullul^WG^MONB4J
  !€ ål0ol
 
 "Delete stem final a before e initial suffix"
+!! __@RULENAME@__  
 a:0 <=> _  (Dummy:) %>: e ;
 
