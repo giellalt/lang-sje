@@ -10,7 +10,8 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki \
-		  adjectives-affixes.jspwiki
+		  adjectives-affixes.jspwiki \
+		  sje-phon-phonology.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
