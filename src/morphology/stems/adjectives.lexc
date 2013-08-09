@@ -19,7 +19,7 @@ stuorre A_EVEN_A ;
 almelalatj:almela A_EVEN_D ; !växlar till almeladtja vid komparering
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
-binna A_EVEN_NOCG_0 ; !testa om det funkar
+binna A_EVEN_NOCG_0 ; !funkar ej
 buorre A_EVEN_0 ;
 buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
@@ -43,22 +43,23 @@ järbme A_EVEN_B ;
 lihkulatj:lihkula A_EVEN_D ; !växlar till lihkuladtja vid komparering
 låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
-njállge A_EVEN_B ; !alternativ attributiv form njálga, komparering njálgap, njálgamus alt. njállgap, njallgajmus
+njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
 njárrbe A_EVEN_B ;   
 nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
 sájjge A_EVEN_B ;
 sávvre A_EVEN_B ;
 sjullo A_EVEN_B ;
-sjullo A_EVEN_B ;
 slinntso A_EVEN_B ;
 smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
 sägge A_EVEN_NOCG_S ; !siegges, omljud fungerar ej
-tjábbe:tjább A_EVEN_BB ; !kolla om det fungerar 
-tjåvvga A_EVEN_IES ; 
-tjavvga A_EVEN_NOCG_0 ; ! kolla om det funkar
+tjábbe:tjább A_EVEN_BB ; !funkar 
+tjåvvgå A_EVEN_IES ; 
+tjavvga A_EVEN_0 ; ! kolla om det funkar, dubbelcheckat hit
+
+
 tjähppe A_EVEN_B ;
 uhttse A_EVEN_B ; !stadieväxling fungerar ej
 unne A_EVEN_BB ; !kolla om det funkar
