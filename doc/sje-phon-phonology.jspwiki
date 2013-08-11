@@ -1,4 +1,5 @@
 
+!!!Pite Sámi TWOLC file
 
 
 
@@ -7,71 +8,76 @@
 
 
 
+!!!Rules
 
 
 
- * "Consonant Gradation for htt(j):ht(j)"   
+!!Consonant gradation rules
 
- * "Consonant Gradation for hxx:hx"   
+__Consonant Gradation for htt(j):ht(j)__  
 
- * "Consonant Gradation for xx:x"   
+__Consonant Gradation for hxx:hx__  
 
- * "Consonant Gradation for xxy:xy"   
+__Consonant Gradation for xx:x__  
 
- * "Consonant Gradation for xy:y"   
+__Consonant Gradation for xxy:xy__  
 
- * "Consonant Gradation for httj:htj"   ACS: hddj finst inte, httj finst
+__Consonant Gradation for xy:y__  
+
+__Consonant Gradation for httj:htj__  ACS: hddj finst inte, httj finst
 
 !!Consonant Gradation for hx:x
 
- * "Delete h"   
+__Delete h__  
 
- * "Delete h before ts"   
+__Delete h before ts__  
 
- * "change unvoiced to voiced"   
+__change unvoiced to voiced__  
 
- * "Consonant Gradation for xN:N"   
-
-
-
- * "Final Consonant Deletion"   
+__Consonant Gradation for xN:N__  
 
 
- * "Auslautherdung"   
+!!Other consonant rules 
 
- * "Word Final Consonant Cluster Simplification"   
-
- * "Fricative Auslautherdung"   
+__Final Consonant Deletion__  
 
 
+__Auslautherdung__  
 
- * "Vowel Shortening e to i in Front of j-initial suffixes"   
+__Word Final Consonant Cluster Simplification__  
 
-
-
-
- * "Vowel Deletion in front of j"   
-
- * "o to u in front of j"   
+__Fricative Auslautherdung__  
 
 
- * "aa in front of j"   
+!!Vowel rules 
+
+__Vowel Shortening e to i in Front of j-initial suffixes__  
 
 
- * "o deletion in front of j"   
-
- * "i deletion in front of j"   
-
- * "u ae to u o in weak grade"   
 
 
- * "ae to ie in weak grade 1"   
+__Vowel Deletion in front of j__  
 
- * "ae to ie in weak grade 2"   
-
-
- * "u to å in odd stems"   
+__o to u in front of j__  
 
 
- * "Delete stem final a before e initial suffix"   
+__aa in front of j__  
+
+
+__o deletion in front of j__  
+
+__i deletion in front of j__  
+
+__u ae to u o in weak grade__  
+
+
+__ae to ie in weak grade 1__  
+
+__ae to ie in weak grade 2__  
+
+
+__u to å in odd stems__  
+
+
+__Delete stem final a before e initial suffix__  
 
