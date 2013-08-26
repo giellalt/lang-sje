@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verbs - ballat: # -a-stammar
+    ballat+V+Inf: ballat
+    
+    ballat+V+Ind+Prs+Sg1: balav
+    ballat+V+Ind+Prs+Sg2: bala
+    ballat+V+Ind+Prs+Sg3: ballá
+    ballat+V+Ind+Prs+Du1: ballin
+    ballat+V+Ind+Prs+Du2: [ballabehtin, ballabähttin]
+    ballat+V+Ind+Prs+Du3: ballaba
+    ballat+V+Ind+Prs+Pl1: ballap
+    ballat+V+Ind+Prs+Pl2: ballabihtit
+    ballat+V+Ind+Prs+Pl3: balli
+
+    ballat+V+Ind+Prt+Sg1: balliv
+    ballat+V+Ind+Prt+Sg2: balli
+    ballat+V+Ind+Prt+Sg3: balaj
+    ballat+V+Ind+Prt+Du1: balajmen
+    ballat+V+Ind+Prt+Du2: balajden
+    ballat+V+Ind+Prt+Du3: balajga
+    ballat+V+Ind+Prt+Pl1: balajme
+    ballat+V+Ind+Prt+Pl2: balajde
+    ballat+V+Ind+Prt+Pl3: ballin
+
+    ballat+V+Pot+Prs+Sg1: balliv
+    ballat+V+Pot+Prs+Sg2: balli
+    ballat+V+Pot+Prs+Sg3: balaj
+    ballat+V+Pot+Prs+Du1: balav
+    ballat+V+Pot+Prs+Du2: balav
+    ballat+V+Pot+Prs+Du3: balaj
+    ballat+V+Pot+Prs+Pl1: balajmen
+    ballat+V+Pot+Prs+Pl2: bala
+    ballat+V+Pot+Prs+Pl3: balav
