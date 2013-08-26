@@ -82,7 +82,9 @@ Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
          
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+!Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+
      where Cx in ( d d )
            Cy in ( j n )  
           matched ;
@@ -186,16 +188,22 @@ o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
 ! ie > e
 
+"u ae to u in front of i"
+ä:0 <=> u _ Cns:* (Dummy:) %>: i ;
+
+"aa to ae in front of i"
+á:ä <=> [Cns|#] _ Cns:* (Dummy:) %>: i ;
+
 "u ae to u o in weak grade"
 !! __@RULENAME@__  
-ä:o <=> u _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
+ä:o <=> u _ Cns:+ (Vow:+) (Dummy:) WeG: %>:0 [ Vow: - i ] ;
 
  !€ juällge^WG
  !€ juol0ge0
 
 "ae to ie in weak grade 1"
 !! __@RULENAME@__  
-ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ ( Dummy: ) WeG: ;
+ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ (Dummy:) WeG: ;
 
 "ae to ie in weak grade 2"
 !! __@RULENAME@__  
@@ -213,3 +221,6 @@ u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^MONB4J:0 ;
 !! __@RULENAME@__  
 a:0 <=> _  (Dummy:) %>: e ;
 
+!!!"uä to uo in weak grade of e-stem"
+!!!!!__@RULENAME@__  
+!!!vä:o <=> [Cns|#] u _ Cns:* e: ( Dummy: ) WeG: ;

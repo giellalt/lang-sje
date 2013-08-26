@@ -90,7 +90,7 @@ LEXICON LÅHKÅT
 
 LEXICON LÅHKÅT_S !låhk
 +Inf:%>åt # ; 
-+GerII:%>åmin # ; ! ???
++GerII:%>åmin # ; 
 +PrfPrc:%>åm # ;
 +PrsPrc:e # ; 
 +PrsPrc:e%>j # ; 
@@ -177,7 +177,6 @@ LEXICON BÅHTET_W !båd
 +Ind+Prt+Pl2:%>ijde #;
 
 
-LEXICON SLADDJIT
 LEXICON V_CONTR !nytt ej testat
 +V+Inf:%>t # ; 
 +V+PrfPrc:%>m #;
@@ -187,7 +186,7 @@ LEXICON V_CONTR !nytt ej testat
 +V+VAdv: # ;
 +V+Sup:%>tjit # ;
 +V+Vabe:%>k # ;
-+V+Pot:%>itj V_ODD_IND_PRS ; 
++V+Pot:%>tj V_ODD_IND_PRS ; 
 +V+Imp+Sg2: #;
 +V+Imp+Du2:%>bähtten # ;
 +V+Imp+Du2:%>jehtin # ; 
@@ -295,9 +294,9 @@ LEXICON V_ODD_IND_PRS
 +Sg3: # ; !oregelbunden
 +Sg3:%>a # ; 
 +Du1:%>in # ; 
-+Du2:%>iehpen # ;
++Du2:%>ehpin # ;
 +Du2:%>ähppen # ; 
-+Du3:%>iebá # ; 
++Du3:%>ebá # ; 
 +Pl1:%>ip # ; 
 +Pl2:%>ihpit # ; 
 +Pl3:%>i # ; 
