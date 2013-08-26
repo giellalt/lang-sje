@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - tjerrut: # Verb 'to bring' - ei tsekattu
+     tjerrut+V+Inf: tjerrut
+     tjerrut+V+Ind+Prs+Sg1: tjerruv
+     tjerrut+V+Ind+Prs+Sg2: tjerru
+     tjerrut+V+Ind+Prs+Sg3: tjerru
+     tjerrut+V+Ind+Prs+Du1: tjerrujin
+     tjerrut+V+Ind+Prs+Du2: tjerrubehtin
+     tjerrut+V+Ind+Prs+Du3: tjerruba
+     tjerrut+V+Ind+Prs+Pl1: tjerrup
+     tjerrut+V+Ind+Prs+Pl2: tjerrubihtit
+     tjerrut+V+Ind+Prs+Pl3: tjerruji
+
+     tjerrut+V+Ind+Prt+Sg1: tjerrujiv
+     tjerrut+V+Ind+Prt+Sg2: tjerruji
+     tjerrut+V+Ind+Prt+Sg3: tjerruj
+     tjerrut+V+Ind+Prt+Du1: tjerrujmen
+     tjerrut+V+Ind+Prt+Du2: tjerrujden
+     tjerrut+V+Ind+Prt+Du3: tjerrujga
+     tjerrut+V+Ind+Prt+Pl1: tjerrujme
+     tjerrut+V+Ind+Prt+Pl2: tjerrujde
+     tjerrut+V+Ind+Prt+Pl3: tjerrujin
+
+     tjerrut+V+Pot+Sg1: tjerrutjav
+     tjerrut+V+Pot+Sg2: tjerrutja
+     tjerrut+V+Pot+Sg3: tjerrutj
+     tjerrut+V+Pot+Du1: tjerrutjin
+     tjerrut+V+Pot+Du2: [tjerrutjehpin, tjerrutjähppen] 
+     tjerrut+V+Pot+Du3: tjerrutjebá
+     tjerrut+V+Pot+Pl1: tjerrutjip
+     tjerrut+V+Pot+Pl2: tjerrutjihpit
+     tjerrut+V+Pot+Pl3: tjerrutji
+
