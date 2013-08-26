@@ -242,7 +242,7 @@ Tests:
     gimmsja+N+Sg+Gen: gimsja
 
   Noun - gintal: # Even syll
-    gintal+N+Sg+Gen: gintala
+    gintal+N+Sg+Gen: ginntala
 
   Noun - girrje: # Even syll
     girrje+N+Sg+Gen: girje
@@ -266,7 +266,7 @@ Tests:
     guarrba+N+Sg+Gen: guorba
 
   Noun - guäkkte: # Even syll
-    guäkkte+N+Sg+Gen: gukte
+    guäkkte+N+Sg+Gen: guokte
 
   Noun - gummo: # Even syll
     gummo+N+Sg+Gen: gummo
@@ -284,13 +284,13 @@ Tests:
     guolle+N+Sg+Gen: guole
 
   Noun - guosmak: # Even syll
-    guosmak+N+Sg+Gen: guosmak
+    guosmak+N+Sg+Gen: guosmaga
 
   Noun - gurbmá: # Even syll
     gurbmá+N+Sg+Gen: gurmá
 
   Noun - gurmmá: # Even syll
-    gurbmá+N+Sg+Gen: gurbmá
+    gurmmá+N+Sg+Gen: gurmá
 
   Noun - gurrte: # Even syll
     gurrte+N+Sg+Gen: gurte
@@ -300,7 +300,6 @@ Tests:
 
   Noun - gussa: # Even syll
     gussa+N+Sg+Gen: gusa
-
   Noun - gájjse: # Even syll
     gájjse+N+Sg+Gen: gájse
 
@@ -326,7 +325,7 @@ Tests:
     gähtto+N+Sg+Gen: giehto
 
   Noun - gäjdno: # Even syll
-    gäjdno+N+Sg+Gen: gäjdno
+    gäjdno+N+Sg+Gen: giejno
 
   Noun - gärrge: # Even syll
     gärrge+N+Sg+Gen: gierge
@@ -376,14 +375,12 @@ Tests:
   Noun - hälbme: # Even syll
     hälbme+N+Sg+Gen: hielme
 
-  Noun - härra: # Even syll
-    härra+N+Sg+Gen: hierra
-
+ 
   Noun - härrge: # Even syll
     härrge+N+Sg+Gen: hierge
 
   Noun - härrá: # Even syll
-    härrá+N+Sg+Gen: hierrá
+    härrá+N+Sg+Gen: härrá
 
   Noun - idja: # Even syll
     idja+N+Sg+Gen: ija
@@ -455,13 +452,13 @@ Tests:
     luadda+N+Sg+Gen: luodda
 
   Noun - luakkta: # Even syll
-    luakkta+N+Sg+Gen: luakta
+    luakkta+N+Sg+Gen: luokta
 
-  Noun - luhpe: # Even syll
-    luhpe+N+Sg+Gen: lube
+  Noun - låhpe: # Even syll
+    låhpe+N+Sg+Gen: låbe
 
-  Noun - luodda: # Even syll
-    luodda+N+Sg+Gen: luodda
+  Noun - luadda: # Even syll
+    luadda+N+Sg+Gen: luodda
 
   Noun - luovve: # Even syll
     luovve+N+Sg+Gen: luove
@@ -553,11 +550,11 @@ Tests:
   Noun - njidtje: # Even syll
     njidtje+N+Sg+Gen: njidtje
 
-  Noun - njisskat: # Even syll
-    njisskat+N+Sg+Gen: njisskata
+  Noun - njissjkom: # Even syll
+    njissjkom+N+Sg+Gen: njissjkoma
 
-  Noun - nuohtte: # Even syll
-    nuohtte+N+Sg+Gen: nuohte
+  Noun - nuähtte: # Even syll
+    nuähtte+N+Sg+Gen: nuohte
 
   Noun - náhkke: # Even syll
     náhkke+N+Sg+Gen: náhke
@@ -569,10 +566,7 @@ Tests:
     námme+N+Sg+Gen: náme
 
   Noun - násste: # Even syll
-    násste+N+Sg+Gen: náste
-
-  Noun - näggda: # Even syll
-    näggda+N+Sg+Gen: nägdda
+    násste+N+Sg+Gen: náste 
 
   Noun - näjjda: # Even syll
     näjjda+N+Sg+Gen: niejda
@@ -598,11 +592,8 @@ Tests:
   Noun - rebij: # Even syll
     rebij+N+Sg+Gen: riepeha
 
-  Noun - riemmste: # Even syll
-    riemmste+N+Sg+Gen: riemmste
-
-  Noun - riessjme: # Even syll
-    riessjme+N+Sg+Gen: riessjme
+  Noun - rämmste: # Even syll
+    rämmste+N+Sg+Gen: riemste
 
   Noun - rijjka: # Even syll
     rijjka+N+Sg+Gen: rijka
@@ -638,7 +629,7 @@ Tests:
     rássjo+N+Sg+Gen: rásjo
 
   Noun - rávdno: # Even syll
-    rávdno+N+Sg+Gen: rávdno
+    rávdno+N+Sg+Gen: rávno
 
   Noun - rávnno: # Even syll
     rávnno+N+Sg+Gen: rávno
@@ -650,7 +641,7 @@ Tests:
     räjjdo+N+Sg+Gen: riejdo
 
   Noun - rännta: # Even syll
-    rännta+N+Sg+Gen: rännta
+    rännta+N+Sg+Gen: ränta
 
   Noun - rässjme: # Even syll
     rässjme+N+Sg+Gen: riesjme
@@ -675,7 +666,10 @@ Tests:
 
   Noun - sajje: # Even syll
     sajje+N+Sg+Gen: saje
-
+    
+  Noun - sadje: # Even syll
+    sadje+N+Sg+Gen: saje
+    
   Noun - sarves: # Even syll
     sarves+N+Sg+Gen: sarvvá
 
@@ -749,7 +743,7 @@ Tests:
     suptsas+N+Sg+Gen: supptsasa
 
   Noun - suäjdne: # Even syll
-    suäjdne+N+Sg+Gen: suojdne
+    suäjdne+N+Sg+Gen: suojne
 
   Noun - suäŋŋer: # Even syll
     suäŋŋer+N+Sg+Gen: suäŋŋera
@@ -809,13 +803,13 @@ Tests:
     tjáhtse+N+Sg+Gen: tjátse
 
   Noun - tjäkktja: # Even syll
-    tjäkktja+N+Sg+Gen: tjäkktja
+    tjäkktja+N+Sg+Gen: tjäktja
 
   Noun - tjännsta: # Even syll
     tjännsta+N+Sg+Gen: tjiensta
 
   Noun - tjänntá: # Even syll
-    tjänntá+N+Sg+Gen: tjänntá
+    tjänntá+N+Sg+Gen: tjäntá
 
   Noun - tjårrve: # Even syll
     tjårrve+N+Sg+Gen: tjårve
@@ -842,19 +836,19 @@ Tests:
     viellja+N+Sg+Gen: vielja
 
   Noun - vierro: # Even syll
-    vierro+N+Sg+Gen: vieroXXXXXXX
+    vierro+N+Sg+Gen: viero
 
   Noun - vierrodimájjge: # Even syll
     vierrodimájjge+N+Sg+Gen: vierrodimájge
 
   Noun - vippsja: # Even syll
-    vippsja+N+Sg+Gen: vippsja
+    vippsja+N+Sg+Gen: vipsja
 
-  Noun - vuakksa: # Even syll
-    vuakksa+N+Sg+Gen: vuaksa
+  Noun - vuaksa: # Even syll
+    vuaksa+N+Sg+Gen: vuaksa
 
   Noun - vuassa: # Even syll
-    vuassa+N+Sg+Gen: vuasa
+    vuassa+N+Sg+Gen: vuosa
 
   Noun - vuobme: # Even syll
     vuobme+N+Sg+Gen: vuome
@@ -865,41 +859,44 @@ Tests:
   Noun - vuolle: # Even syll
     vuolle+N+Sg+Gen: vuole
 
-  Noun - vuorrpe: # Even syll
-    vuorrpe+N+Sg+Gen: vuorpe
+  Noun - vuärrbe: # Even syll
+    vuärrbe+N+Sg+Gen: vuorbe
 
   Noun - vuäbbne: # Even syll
-    vuäbbne+N+Sg+Gen: vuäbne
+    vuäbbne+N+Sg+Gen: vuobne
 
-  Noun - vuävvda: # Even syll
-    vuävvda+N+Sg+Gen: vuävda
+  Noun - vuävvde: # Even syll
+    vuävvde+N+Sg+Gen: vuovde
 
   Noun - vágge: # Even syll
     vágge+N+Sg+Gen: vágge
 
   Noun - vájbmo: # Even syll
+    vájbmo+N+Sg+Nom: [vájbmo, vájmmo]
     vájbmo+N+Sg+Gen: vájmo
-
-  Noun - vájmmo: # Even syll
-    vájmmo+N+Sg+Gen: vájmmo
 
   Noun - várre: # Even syll
     várre+N+Sg+Gen: váre
 
   Noun - vähkke: # Even syll
+    vähkke+N+Sg+Nom: vähkke
     vähkke+N+Sg+Gen: vähkke
 
   Noun - vällja: # Even syll
-    vällja+N+Sg+Gen: välja
+    vällja+N+Sg+Nom: vällja
+    vällja+N+Sg+Gen: vielja
 
   Noun - Árjapluovve: # Even syll
+    Árjapluovve+N+Sg+Nom: Árjapluovve
     Árjapluovve+N+Sg+Gen: Árjapluove
 
   Noun - áddjá: # Even syll
-    áddjá+N+Sg+Gen: áddjáXXXXXXXX
+    áddjá+N+Sg+Nom: áddjá 
+    áddjá+N+Sg+Gen: ádjá 
 
   Noun - áhkká: # Even syll
-    áhkká+N+Sg+Gen: áhkká
+    áhkká+N+Sg+Nom: áhkká
+    áhkká+N+Sg+Gen: áhká
 
   Noun - áhpe: # Even syll
     áhpe+N+Sg+Gen: ábe
@@ -913,8 +910,8 @@ Tests:
   Noun - ájjro: # Even syll
     ájjro+N+Sg+Gen: ájro
 
-  Noun - ájjá: # Even syll
-    ájjá+N+Sg+Gen: ádjága
+  Noun - ája: # Even syll
+    ája+N+Sg+Gen: ádjaga
 
   Noun - ákksjo: # Even syll
     ákksjo+N+Sg+Gen: áksjo
@@ -932,7 +929,7 @@ Tests:
     átjárájjde+N+Sg+Gen: átjárájde
 
   Noun - ávvke: # Even syll
-    ávvke+N+Sg+Gen: ávvke
+    ávvke+N+Sg+Gen: ávke
 
   Noun - ávvo: # Even syll
     ávvo+N+Sg+Gen: ávo
