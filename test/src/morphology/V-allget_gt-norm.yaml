@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - állget: # Verb 'to see' - ei tsekattu
+     állget+V+Inf: állget
+     állget+V+Ind+Prs+Sg1: álgáv
+     állget+V+Ind+Prs+Sg2: álgá
+     állget+V+Ind+Prs+Sg3: állgá
+     állget+V+Ind+Prs+Du1: ällgin
+     állget+V+Ind+Prs+Du2: állgebehtin
+     állget+V+Ind+Prs+Du3: állgeba
+     állget+V+Ind+Prs+Pl1: állgep
+     állget+V+Ind+Prs+Pl2: állgebihtit
+     állget+V+Ind+Prs+Pl3: ällgi
+
+     állget+V+Ind+Prt+Sg1: ällgiv
+     állget+V+Ind+Prt+Sg2: ällgi
+     állget+V+Ind+Prt+Sg3: älgij
+     állget+V+Ind+Prt+Du1: älgijmen
+     állget+V+Ind+Prt+Du2: älgijden
+     állget+V+Ind+Prt+Du3: älgijga
+     állget+V+Ind+Prt+Pl1: älgijme
+     állget+V+Ind+Prt+Pl2: älgijde
+     állget+V+Ind+Prt+Pl3: ällgin
+
+     állget+V+Pot+Sg1: älgitjav
+     állget+V+Pot+Sg2: älgitja
+     állget+V+Pot+Sg3: älgitj
+     állget+V+Pot+Du1: älgitjin
+     állget+V+Pot+Du2: älgitjehpin
+     állget+V+Pot+Du3: älgitjebá
+     állget+V+Pot+Pl1: älgitjip
+     állget+V+Pot+Pl2: älgitjihpit
+     állget+V+Pot+Pl3: älgitji
+

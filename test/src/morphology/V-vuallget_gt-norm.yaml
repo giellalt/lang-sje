@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - vuällget: # Verb 'to see' - ei tsekattu
+     vuällget+V+Inf: vuällget
+     vuällget+V+Ind+Prs+Sg1: vuolgáv
+     vuällget+V+Ind+Prs+Sg2: vuolgá
+     vuällget+V+Ind+Prs+Sg3: vuällgá
+     vuällget+V+Ind+Prs+Du1: vullgin
+     vuällget+V+Ind+Prs+Du2: vuällgebehtin
+     vuällget+V+Ind+Prs+Du3: vuällgeba
+     vuällget+V+Ind+Prs+Pl1: vuällgep
+     vuällget+V+Ind+Prs+Pl2: vuällgebihtit
+     vuällget+V+Ind+Prs+Pl3: vullgi
+
+     vuällget+V+Ind+Prt+Sg1: vullgiv
+     vuällget+V+Ind+Prt+Sg2: vullgi
+     vuällget+V+Ind+Prt+Sg3: vulgij
+     vuällget+V+Ind+Prt+Du1: vulgijmen
+     vuällget+V+Ind+Prt+Du2: vulgijden
+     vuällget+V+Ind+Prt+Du3: vulgijga
+     vuällget+V+Ind+Prt+Pl1: vulgijme
+     vuällget+V+Ind+Prt+Pl2: vulgijde
+     vuällget+V+Ind+Prt+Pl3: vullgin
+
+     vuällget+V+Pot+Sg1: vulgitjav
+     vuällget+V+Pot+Sg2: vulgitja
+     vuällget+V+Pot+Sg3: vulgitj
+     vuällget+V+Pot+Du1: vulgitjin
+     vuällget+V+Pot+Du2: vulgitjehpin
+     vuällget+V+Pot+Du3: vulgitjebá
+     vuällget+V+Pot+Pl1: vulgitjip
+     vuällget+V+Pot+Pl2: vulgitjihpit
+     vuällget+V+Pot+Pl3: vulgitji
+
