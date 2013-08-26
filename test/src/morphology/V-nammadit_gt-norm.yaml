@@ -38,11 +38,11 @@ Tests:
 
      nammadit+V+Pot+Sg1: nammadittjav
      nammadit+V+Pot+Sg2: nammadittja
-     nammadit+V+Pot+Sg3: nammadittja
+     nammadit+V+Pot+Sg3: nammaditj
      nammadit+V+Pot+Du1: nammadittjin
-     nammadit+V+Pot+Du2: nammadittjahppen
-     nammadit+V+Pot+Du3: nammadittjajga
-     nammadit+V+Pot+Pl1: nammadittjajme
-     nammadit+V+Pot+Pl2: nammadittjajde
-     nammadit+V+Pot+Pl3: nammadittjan
+     nammadit+V+Pot+Du2: [nammadittjabiehten, nammadittjabähtten]
+     nammadit+V+Pot+Du3: nammadittjaba
+     nammadit+V+Pot+Pl1: nammadittjap
+     nammadit+V+Pot+Pl2: nammadittjabihtit
+     nammadit+V+Pot+Pl3: nammadittji
 
