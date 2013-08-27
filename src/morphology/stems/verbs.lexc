@@ -179,7 +179,7 @@ basset:bass BÅHTET ;
 släddjit:släddji V_CONTR ;  !!= * @CODE@ 
 málestit:málest2 NAMMADIT ; 
 
-jåhkot:jåhk ÅRROT ;  !!= * @CODE@ 
+jåhkot:jåhk ÅRROT ;  !! finns detta ord = * @CODE@ 
 bårrot:bårr ÅRROT ; 
 
 vessot:vess VESSOT "leva, må" ; !!= * @CODE@ 
@@ -198,42 +198,57 @@ tjerrut:tjerru V_CONTR ;
 !gur’rit:gur’ri V_CONTR "klättra" ; 
 !tsábmestuvvut:tsábmestuvvut  "v bli slagen" ; 
 
+ábbjat:ábbj BALLAT ; 
 adnalit:adnal NAMMADIT "greppa" ; 
 adnet:adn BÅHTET "n ha, äga (inij han hade, ägde)" ;
 ájttsat:ájtts BALLAT " jts upptäcka" ;
 állget:állg BÅHTET "lg börja (äddne älgij mor började)" ;
+bádjat:bádj BALLAT "j låta" ;
+báhtarit:báhtar NAMMADIT "fly" ; 
+báhtset:báhts BÅHTET "ts stanna, bli kvar (härgge bätsij härken stannade)" ;
+bájttet:bájtt BÅHTET "jt skina" ;
 balkestit:balkest2 NAMMADIT "kasta" ; 
 ballat:ball BALLAT "l  vara rädd" ;
+balldet:balld BÅHTET ;  
+bállet:báll BÅHTET "l gräva" ;
 basset:bass BÅHTET "s steka" ;
 biehttot:biehtt ÅRROT "ht förmana, avråda"  ; 
 biejjat:biejj BALLAT "j sätta, lägga, ställa" ;
 bieljeduhtet:bieljeduht BÅHTET "ht  göra döv" ;
 bivddet:bivdd BÅHTET "vd fånga, jaga, fiska" ;
-bruvkkut:bruvkku V_CONTR "bruka, ha för vana (bruvkkujin dahkat de brukade göra)" ; 
+bruvkkut:bruvkku V_CONTR "bruka, ha för vana (bruvkkujin dahkat de brukade göra)" ;
+bualdnat:bualdn BALLAT ; 
+buollnat:buolln BALLAT ;  
 bulligåhtet:bulligåht BÅHTET "d börja brinna" ;
 buollet:buoll BÅHTET "l  brinna" ;
-bádjat:bádj BALLAT "j låta" ;
-báhtarit:báhtar NAMMADIT "fly" ; 
-báhtset:báhts BÅHTET "ts stanna, bli kvar (härgge bätsij härken stannade)" ;
-bájttet:bájtt BÅHTET "jt skina" ;
-bállet:báll BÅHTET "l gräva" ;
-bähttet:bähtt BÅHTET "ht  lura" ;
 båhtet:båht BÅHTET "d  komma" ;
 båhtjet:båhtj BÅHTET "tj mjölka" ;
+bårråt:bårr LÅHKÅT "g äta" ; 
+bähttet:bähtt BÅHTET "ht  lura" ;
+dádjadit:dádjad2 NAMMADIT "förstå" ;
 dahkat:dahk BALLAT "g göra, tillverka" ;
-dibddet:dibdd BÅHTET " bd låta" ;
+dárbahit:dárbah2 NAMMADIT "behöva" ;dibddet:dibdd BÅHTET " bd låta" ;
 didnadit:didnad2 NAMMADIT "skrika, ropa" ; 
 diehtet:dieht BÅHTET "d veta" ;
 dulvvit:dulvvi V_CONTR "få högvatten"  ; 
 durrut:durru V_CONTR "börja strida" ; 
-dádjadit:dádjad2 NAMMADIT "förstå" ;
-dárbahit:dárbah2 NAMMADIT "behöva" ; 
 dåbddåt:dåbdd LÅHKÅT "bd känna, känna igen" ; 
 fierrat:fierr BALLAT "r drunkna" ;
 färrut:färru V_CONTR "fara" ; 
+gahppat:gahpp BALLAT ; 
+gáhppat:gáhpp BALLAT ; 
+
 gahtjat:gahtj BALLAT "tj fråga" ;
+gahttjat:gahttj BALLAT ; 
+
+gáhtot:gáht ÅRROT "d försvinna"  ; 
+gállet:gáll BÅHTET "l vada" ;
 gallgat:gallg BALLAT "skall (verb)" ;
+gassŋat:gassŋ BALLAT ; 
 gatjadit:gatjad2 NAMMADIT "fråga" ; 
+gávdnat:gávdn BALLAT "dn hitta, finna" ;
+gávnadit:gávnad2 NAMMADIT "träffas" ; 
+
 gijttalit:gijttal NAMMADIT "tacka" ; 
 gilljot:gillj ÅRROT "lj skrika, gassta"  ; 
 grävvit:grävvi V_CONTR "begrava"  ; 
@@ -243,133 +258,135 @@ guohtot:guoht ÅRROT "d beta"  ;
 guohtsalit:guohtsal NAMMADIT "springa (om fyrfota djur)" ; 
 guohtsat:guohts BALLAT "ts klättra" ;
 guovllat:guovll BALLAT "vl titta, kika" ;
-gáhtot:gáht ÅRROT "d försvinna"  ; 
-gállet:gáll BÅHTET "l vada" ;
-gávdnat:gávdn BALLAT "dn hitta, finna" ;
-gávnadit:gávnad2 NAMMADIT "träffas" ; 
-gävdnut:gävdnu V_CONTR "finnas" ; 
+
+gåddet:gådd BÅHTET ; 
 gåhtjoduvvat:gåhtjoduvvat BALLAT "v kallas" ;
 gåhttjot:gåhttj ÅRROT "htj kalla, benämna"  ; 
+gåpttjat:gåpttj BALLAT ; 
+gävdnut:gävdnu V_CONTR "finnas" ; 
 habsádallat:habsádall BALLAT "l  lukta" ;
 håhkkånit:håhkkån NAMMADIT "dö" ; 
 hållåt:håll LÅHKÅT "l säga" ; 
-jahttet:jahtt BÅHTET "ht säga" ;
-juojgadit:juojgad2 NAMMADIT "jojka något eller någon?" ;
-juajggat:juajgg BALLAT "jg jojka" ;
+
 jábmet:jábm BÅHTET "m dö" ;
 jáhkket:jáhkk BÅHTET "hk tro" ;
+jahttet:jahtt BÅHTET "ht säga" ;
 jávestit:jávest2 NAMMADIT "täcka över med jord" ; 
+juajggat:juajgg BALLAT "jg jojka" ;
+juojgadit:juojgad2 NAMMADIT "jojka något eller någon?" ;
 jåhtet:jåht BÅHTET "d flytta" ;
 jårgedit:jårged2 NAMMADIT "vända sig" ; 
+lávllot:lávll ÅRROT "vl sjunga"  ; 
+láđđat:láđđ BALLAT "đ anfalla" ;
 lieradit:lierad2 NAMMADIT "lära ut, undervisa" ; 
 lierrat:lierr BALLAT "r lära sig" ;
 lierrit:lierri V_CONTR "lära sig"  ; 
-livudahttet:livudahtt BÅHTET "ht få att vila" ;
 livvadit:livvad2 NAMMADIT "ligga och vila (om djur)" ; 
-lávllot:lávll ÅRROT "vl sjunga"  ; 
-láđđat:láđđ BALLAT "đ anfalla" ;
-lägit:lägi V_CONTR "laga"  ; 
+livudahttet:livudahtt BÅHTET "ht få att vila" ;
 lågådit:lågåd2 NAMMADIT "låta någon läsa" ; 
 låhkågåhtet:låhkågåht BÅHTET "d  börja läsa" ;
 låhkåt:låhk LÅHKÅT "g läsa" ; 
+lägit:lägi V_CONTR "laga"  ; 
 mannat:mann BALLAT "n gå, fara" ;
 máhttet:máhtt BÅHTET "ht kunna" ;
 mujttalit:mujttal NAMMADIT "berätta" ; 
 mujttát:mujttá V_CONTR "komma ihåg" ;
 mujttet:mujtt BÅHTET "jt minnas" ; 
+njisskat:njissk BALLAT ; 
 njuovvat:njuovv BALLAT "v flå" ;
+nuggdat:nuggd BALLAT ; 
+nåjddot:nåjdd ÅRROT "jd göra nåjdkonster (sija nujddun de gjorde nåjdkonster)"  ; 
 närridallat:närridall BALLAT "l  bli retad" ;
 närrit:närri V_CONTR "retas"  ; 
-nåjddot:nåjdd ÅRROT "jd göra nåjdkonster (sija nujddun de gjorde nåjdkonster)"  ; 
 rekknut:rekknu V_CONTR "räkna" ; 
 riegádit:riegád2 NAMMADIT "födas" ; 
 ruojadit:ruojad2 NAMMADIT "skrika, vråla" ;
-räjdnuhit:räjdnuh2 NAMMADIT "valla renar" ; 
 råggåstit:råggåst2 NAMMADIT "rycka upp, bända upp" ; 
 råhkat:råhk BALLAT "be" ;
 råhkålit:råhkål NAMMADIT "be" ; 
 råhkåstallat:råhkåstall BALLAT "l tillbedja" ;
 råhkåt:råhk LÅHKÅT "g be en bön" ; 
+räjdnuhit:räjdnuh2 NAMMADIT "valla renar" ;
+sáŋardit:sáŋard2 NAMMADIT "sakna" ; 
 sihtat:siht BALLAT "d  vilja" ;
 sjaddat:sjadd BALLAT "dd bli, växa" ;
 sjivnnjedit:sjivnnjed2 NAMMADIT "(religiös) skapa" ; 
 skáladit:skálad2 NAMMADIT "stångas (om kämpande rentjurar vid brunst)" ; 
 skånårdit:skånård2 NAMMADIT "beta i lugn och ro" ; 
 slábmat:slábm BALLAT "m falla ihop" ;
-stivrrit:stivrri V_CONTR "styra"  ; 
+slammgat:slammg BALLAT ; 
 stávadit:stávad2 NAMMADIT "stava" ; 
+stivrrit:stivrri V_CONTR "styra"  ; 
 subtsastallat:subtsastall BALLAT "l  berätta" ;
 subtsastit:subtsast2 NAMMADIT "berätta" ; 
 sviŋgodit:sviŋgod2 NAMMADIT "röra sig (om träd)" ; 
-sviŋŋgat:sviŋŋg BALLAT "ŋg röra sig (om träd)" ;
 sviŋŋgájdallat:sviŋŋgájdall BALLAT "l röra sig (om träd)" ;
+sviŋŋgat:sviŋŋg BALLAT "ŋg röra sig (om träd)" ;
 svärrut:svärru V_CONTR "svara" ; 
-sáŋardit:sáŋard2 NAMMADIT "sakna" ; 
 såggot:sågg ÅRROT "gg dö, omkomma"  ; 
 såjttet:såjtt BÅHTET "jt  råka (inträffa)" ;
-tjassket:tjassk BÅHTET "sk kasta" ;
-tjuggit:tjuggi V_CONTR "sticka"  ; 
-tjuhkkit:tjuhkki V_CONTR "samla, föra ihop"  ; 
-tjuodtjot:tjuodtj ÅRROT "dtj stå"  ; 
-tjuojggat:tjuojgg BALLAT "jg åka skidor" ;
 tjágŋat:tjágŋ BALLAT "ŋ krypa in" ;
 tjáhtjet:tjáhtj BÅHTET "tj peka med fingret" ;
 tjállet:tjáll BÅHTET "l skriva" ;
 tjátjástallat:tjátjástall BALLAT "l peka med fingret" ;
+tjassket:tjassk BÅHTET "sk kasta" ;
+tjerrut:tjerru V_CONTR "börja gråta" ;
+tjierrot:tjierr ÅRROT "r gråta"  ;
+
+tjuggit:tjuggi V_CONTR "sticka"  ; 
+tjuhkkit:tjuhkki V_CONTR "samla, föra ihop"  ; 
+tjuodtjot:tjuodtj ÅRROT "dtj stå"  ; 
+tjuojggat:tjuojgg BALLAT "jg åka skidor" ;
+
 tjågget:tjågg BÅHTET "gg samla" ;
 tjåhkkåhit:tjåhkkåh2 NAMMADIT "sitta" ; 
-tsábmestit:tsábmest2 NAMMADIT "slå ner" ; 
+tsabbmet:tsabbm BÅHTET ; 
+tsábmestit:tsábmest2 NAMMADIT "slå ner" ;
+tjäkktjat:tjäkktj BALLAT ;  
 usjudit:usjud2 NAMMADIT "tänka" ; 
 vaddet:vadd BÅHTET "dd ge" ;
-verttit:vertti V_CONTR "vara tvungen"  ; 
-viehkedit:viehked2 NAMMADIT "hjälpa" ; 
-vierrodallat:vierrodall BALLAT "l offra" ;
-vierrodit:vierrod2 NAMMADIT "offra" ; 
-viessot:viess ÅRROT "s leva, må"  ; 
-vuäjdnet:vuäjdn BÅHTET "jn se, titta" ;
-vuällget:vuällg BÅHTET "l fara" ;
-vurkkit:vurkki V_CONTR "gömma undan"  ; 
-vádtset:vádts BÅHTET "dts  gå" ;
 vádtsát:vádtsá V_CONTR "börja gå" ; ! contr á
+vádtset:vádts BÅHTET "dts  gå" ;
 vágodit:vágod2 NAMMADIT "förmana, varna" ; 
 válldet:válld BÅHTET "ld ta" ;
 vásset:váss BÅHTET "s passera" ;
 vásstedit:vássted2 NAMMADIT "svara" ; 
+verttit:vertti V_CONTR "vara tvungen"  ; 
+viehkedit:viehked2 NAMMADIT "hjälpa" ;
+vierrodallat:vierrodall BALLAT "l offra" ;
+vierrodit:vierrod2 NAMMADIT "offra" ;
+viessot:viess ÅRROT "s leva, må"  ;
+vurkkit:vurkki V_CONTR "gömma undan"  ; 
+vuäjdnet:vuäjdn BÅHTET "jn se, titta" ;
+vuällget:vuällg BÅHTET "l fara" ;
 vädtjat:vädtj BALLAT "dtj hämta" ;
-ådtjot:ådtj ÅRROT "dtj få"  ; 
-åhtsålit:åhtsål NAMMADIT "sakna" ; 
-åsestit:åsest2 NAMMADIT "handla" ; 
+ådet:åd BÅHTET "sova" ; 
 åđđájit:åđđáj NAMMADIT "somna" ; 
 åđđát:åđđá V_CONTR "somna" ; 
-nuggdat:nuggd BALLAT ; 
-slammgat:slammg BALLAT ; 
-ábbjat:ábbj BALLAT ; 
-ábjjat:ábjj BALLAT ; 
-tjäkktjat:tjäkktj BALLAT ; 
-gåbttjat:gåbttj BALLAT ; 
-gahttjat:gahttj BALLAT ; 
-gahttjat:gahttj BALLAT ; 
-gåpttjat:gåpttj BALLAT ; 
-njisskat:njissk BALLAT ; 
-bualdnat:bualdn BALLAT ; 
-buollnat:buolln BALLAT ; 
-gahppat:gahpp BALLAT ; 
-gahppat:gahpp BALLAT ; 
-gáhppat:gáhpp BALLAT ; 
-gassŋat:gassŋ BALLAT ; 
-oadet:oad BÅHTET ; 
-åddet:ådd BÅHTET ; 
-gåddet:gådd BÅHTET ; 
-gåddet:gådd BÅHTET ; 
-balldet:balld BÅHTET ; 
-bivvdet:bivvd BÅHTET ; 
-gåŋŋiet:gåŋŋi BÅHTET ; 
-tsabbmet:tsabbm BÅHTET ; 
+ådtjot:ådtj ÅRROT "dtj få"  ; 
+åhtsålit:åhtsål NAMMADIT "sakna" ;
+årret:årr BÅHTET "sova" ;  
+åsestit:åsest2 NAMMADIT "handla" ; 
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+gåŋŋiet:gåŋŋi BÅHTET ; !gå igenom dessa
+
 vuojnnet:vuojnn BÅHTET ; 
-gåppset:gåpps BÅHTET ; 
-gåppset:gåpps BÅHTET ; 
 gåpsset:gåpss BÅHTET ; 
-åhtset:åhts BÅHTET ; 
+
 åhtset:åhts BÅHTET ; 
 nihtet:niht BÅHTET ; 
 luäjjtet:luäjjt BÅHTET ; 
