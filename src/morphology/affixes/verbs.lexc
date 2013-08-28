@@ -53,7 +53,7 @@ LEXICON ÅRROT_W
 +VAdv:u # ; !ej utforskat
 +Sup:%>otjit # ;
 +Vabe:%>uk # ; !nytt, ej utforskat
-+Pot:%>otj V_ODD_IND_PRS ; ! nytt ej testat
++Pot:%>otj V_ODD_IND_PRS ; 
 +Imp+Sg2:o #; 
  +Vgen:o #;  
 
@@ -180,7 +180,7 @@ LEXICON BÅHTET_W !båd
 LEXICON V_CONTR 
 +V+Inf:%>t # ; 
 +V+PrfPrc:%>m #;
-+PrsPrc:%>däddje # ; ! nytt ej testat
++PrsPrc:%>däddje # ; 
 +V+GerII:%>min # ;
 +V+GerI:%>din # ; 
 +V+VAdv: # ; !ej utforskat
@@ -230,7 +230,7 @@ LEXICON BALLAT_S !ball, omljud saknas i alla former med i i andra stavelsen skif
 +Ind+Prs+Sg3:á #;
 +Ind+Prs+Du1:i%>n #;
 +Ind+Prs+Du2:a%>behtin #; 
-+Ind+Prs+Du2:a%>bähtten #; !funkar ej
++Ind+Prs+Du2:a%>bähtten #; 
 +Ind+Prs+Du3:a%>ba #;
 +Ind+Prs+Pl1:a%>p #;
 +Ind+Prs+Pl2:a%>bihtit #; 
@@ -244,7 +244,7 @@ LEXICON BALLAT_W !bala
 +VAdv: # ; !ej utforskat
 +Sup:%>tjit # ;
 +Vabe:%>k # ; !ej utforskat
-+Pot:%>tj V_ODD_IND_PRS ; ! du 2 funkar ej
++Pot:%>tj V_ODD_IND_PRS ; 
 +Imp+Sg2: #; 
 +Vgen: #;  
 
@@ -296,7 +296,7 @@ LEXICON V_ODD_IND_PRS
 +Du1:%>in # ; 
 +Du2:%>ehpin # ;
 +Du2:%>ähppen # ; 
-+Du3:%>iebá # ; ! funkar ej
++Du3:%>iebá # ; 
 +Pl1:%>ip # ; 
 +Pl2:%>ihpit # ; 
 +Pl3:%>i # ; 
