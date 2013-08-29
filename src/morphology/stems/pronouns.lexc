@@ -34,7 +34,7 @@ LEXICON pers
 +Pron+Pers+Sg+Acc:uv      K ;
 +Pron+Pers+Sg+Gen:uv      K ;
 +Pron+Pers+Sg+Ill:unje    K ;
-+Pron+Pers+Sg+Ill:unji    K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
++Pron+Pers+Sg+Ill:unje    K ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Ine:uvne    K ;
 +Pron+Pers+Sg+Ine:ujna    K ; !nordlig variant
 +Pron+Pers+Sg+Ela:uvvste  K ; 
@@ -71,6 +71,7 @@ dat+Pron+Det+Sg+Ine:danne # ;
 dat+Pron+Det+Sg+Ela:dasste # ; 
 dat+Pron+Det+Sg+Com:dajna # ;
 dat+Pron+Det+Sg+Ess:danen # ;
+
 dat+Pron+Det+Pl+Nom:da # ;
 dat+Pron+Det+Pl+Acc:dajt # ;
 dat+Pron+Det+Pl+Gen:daj # ;
@@ -90,18 +91,33 @@ dat+Pron+Det+Sg+Ine:dánne # ;
 dat+Pron+Det+Sg+Ela:dásste # ; 
 dat+Pron+Det+Sg+Com:dájna # ;
 dat+Pron+Det+Sg+Ess:dánen # ;
-dat+Pron+Det+Pl+Nom:dá # ;
-dat+Pron+Det+Pl+Acc:dájt # ;
-dat+Pron+Det+Pl+Gen:dáj # ;
-dat+Pron+Det+Pl+Ill:dájda # ;
-dat+Pron+Det+Pl+Ine:dájn # ;
-dat+Pron+Det+Pl+Ine:dájdne # ; 
-dat+Pron+Det+Pl+Ela:dájst # ;
-dat+Pron+Det+Pl+Ela:dájste # ; 
-dat+Pron+Det+Pl+Com:dáj # ;
+
+dat+Pron+Det+Pl+Nom:duot # ;
+dat+Pron+Det+Pl+Acc:duov # ;
+dat+Pron+Det+Pl+Gen:duon # ;
+dat+Pron+Det+Pl+Ill:duosi # ;
+dat+Pron+Det+Pl+Ine:duänna # ; 
+dat+Pron+Det+Pl+Ela:duässta # ; 
+dat+Pron+Det+Pl+Com:duojna # ;
+
+dat+Pron+Det+Sg+Nom:duot # ;
+dat+Pron+Det+Sg+Acc:duov # ;
+dat+Pron+Det+Sg+Gen:duon # ;
+dat+Pron+Det+Sg+Ill:duosi # ;
+dat+Pron+Det+Sg+Ine:duänna # ;
+dat+Pron+Det+Sg+Ela:duässta # ; 
+dat+Pron+Det+Sg+Com:duojna # ;
 
 
-LEXICON Relative
+dat+Pron+Det+Pl+Nom:duo # ;
+dat+Pron+Det+Pl+Acc:duojt # ;
+dat+Pron+Det+Pl+Gen:duoj # ;
+dat+Pron+Det+Pl+Ill:duojda # ;
+dat+Pron+Det+Pl+Ine:duojn # ; 
+dat+Pron+Det+Pl+Ela:duojs # ; 
+dat+Pron+Det+Pl+Com:duoj # ;
+
+LEXICON Relative !predikativ ställning
 gie+Pron+Det+Sg+Nom:ge # ;
 gie+Pron+Det+Sg+Acc:gev # ;
 gie+Pron+Det+Sg+Gen:gen # ;
@@ -110,6 +126,7 @@ gie+Pron+Det+Sg+Ine:gänne # ;
 gie+Pron+Det+Sg+Ela:gässte # ;
 gie+Pron+Det+Sg+Com:gejna # ;
 gie+Pron+Det+Sg+Ess:gännen # ;
+
 gie+Pron+Det+Pl+Nom:ge # ;
 gie+Pron+Det+Pl+Acc:gejt # ;
 gie+Pron+Det+Pl+Gen:gej # ;
@@ -127,6 +144,7 @@ mij+Pron+Det+Sg+Ine:manne # ;
 mij+Pron+Det+Sg+Ela:masste # ;
 mij+Pron+Det+Sg+Com:majna # ;
 mij+Pron+Det+Sg+Ess:manen # ;
+
 mij+Pron+Det+Pl+Nom:ma # ;
 mij+Pron+Det+Pl+Acc:majt # ;
 mij+Pron+Det+Pl+Gen:maj # ;
@@ -136,10 +154,63 @@ mij+Pron+Det+Pl+Ela:majste # ;
 mij+Pron+Det+Pl+Ela:majjste # ; ! kanskje
 mij+Pron+Det+Pl+Com:maj # ;
 
+LEXICON Relative !attributiv ställning
+gie+Pron+Det+Sg+Nom:guhte # ;
+gie+Pron+Det+Sg+Acc:gudi # ;
+gie+Pron+Det+Sg+Gen:gudi # ;
+gie+Pron+Det+Sg+Ill:gudi # ;
+gie+Pron+Det+Sg+Ine:gudin # ;
+gie+Pron+Det+Sg+Ela:gudit # ;
+gie+Pron+Det+Sg+Com:gudijn # ;
+gie+Pron+Det+Sg+Ess:guhtin # ;
+
+gie+Pron+Det+Pl+Nom:gudi # ;
+gie+Pron+Det+Pl+Acc:gudijt # ;
+gie+Pron+Det+Pl+Gen:gudij # ;
+gie+Pron+Det+Pl+Ill:gudijda # ;
+gie+Pron+Det+Pl+Ine:gudijn # ;
+gie+Pron+Det+Pl+Ela:gudijst # ;
+gie+Pron+Det+Pl+Com:gudij # ;
+
+mij+Pron+Det+Sg+Nom:mij # ;
+mij+Pron+Det+Sg+Acc:mav # ;
+mij+Pron+Det+Sg+Gen:man # ;
+mij+Pron+Det+Sg+Ill:man # ;
+mij+Pron+Det+Sg+Ine:man # ;
+mij+Pron+Det+Sg+Ela:mat # ;
+mij+Pron+Det+Sg+Com:majna # ;
+mij+Pron+Det+Sg+Ess:manen # ;
+
+mij+Pron+Det+Pl+Nom:ma # ;
+mij+Pron+Det+Pl+Acc:majt # ;
+mij+Pron+Det+Pl+Gen:maj # ;
+mij+Pron+Det+Pl+Ill:majda # ;
+mij+Pron+Det+Pl+Ine:majn # ;
+mij+Pron+Det+Pl+Ela:majst # ;
+mij+Pron+Det+Pl+Com:maj # ;
+
+
+LEXICON Relative !predikativ ställning
+goabba+Pron+Det+Sg+Nom:gåbba # ;
+goabba+Pron+Det+Sg+Acc:gåbbav # ;
+goabba+Pron+Det+Sg+Gen:gåbba # ;
+goabba+Pron+Det+Sg+Ill:gåbbaj # ;
+goabba+Pron+Det+Sg+Ine:gåbban # ;
+goabba+Pron+Det+Sg+Ela:gåbbast # ; 
+goabba+Pron+Det+Sg+Com:gåbbajn # ;
+goabba+Pron+Det+Sg+Ess:gåbban # ;
+
+goabba+Pron+Det+Pl+Nom:gåbba # ;
+goabba+Pron+Det+Pl+Acc:gåbbajt # ;
+goabba+Pron+Det+Pl+Gen:gåbbaj # ;
+goabba+Pron+Det+Pl+Ill:gåbbajda # ;
+goabba+Pron+Det+Pl+Ine:gåbbajn # ; 
+goabba+Pron+Det+Pl+Ela:gåbbajst # ; 
+goabba+Pron+Det+Pl+Com:gåbbaj # ;
 
 
 LEXICON Reflexive
-iehtja+Pron+Refl+Sg+Nom:iehtja # ;
+iehtja+Pron+Refl+Sg+Nom:iehtja # ; !Martin Sjaggo huvudinformant
 
 iehtja+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
 iehtja+Pron+Refl+Sg+Acc+PxSg1:iehtjanav # ;
@@ -169,7 +240,7 @@ iehtja+Pron+Refl+Sg+Com+PxSg3:ietjajnis # ;
 iehtja+Pron+Refl+Sg+Acc+PxDu1:iehtjamijt # ;
 iehtja+Pron+Refl+Sg+Acc+PxDu1:iehtjamenien # ;
 iehtja+Pron+Refl+Sg+Gen+PxDu1:iehtjame # ;
-iehtja+Pron+Refl+Sg+Ill+PxDu1:iehtjamijde # ;
+iehtja+Pron+Refl+Sg+Ill+PxDu1:iehtjamijda # ;
 iehtja+Pron+Refl+Sg+Ine+PxDu1:ietjaminne # ;
 iehtja+Pron+Refl+Sg+Ela+PxDu1:ietjanisste # ; !ietjanist?
 iehtja+Pron+Refl+Sg+Com+PxDu1:ietjajnimme # ;
@@ -178,20 +249,19 @@ iehtja+Pron+Refl+Sg+Com+PxDu1:ietjajnenien # ;
 iehtja+Pron+Refl+Sg+Acc+PxDu2:ietjadi # ;
 iehtja+Pron+Refl+Sg+Acc+PxDu2:ietjavten # ;
 iehtja+Pron+Refl+Sg+Gen+PxDu2:ietjade # ;
-iehtja+Pron+Refl+Sg+Ill+PxDu2:iehtjadijde # ;
+iehtja+Pron+Refl+Sg+Ill+PxDu2:iehtjadijda # ;
 iehtja+Pron+Refl+Sg+Ine+PxDu2:ietjanit # ;
-iehtja+Pron+Refl+Sg+Ela+PxDu2:ietjastisste # ; !ietjastist?
+iehtja+Pron+Refl+Sg+Ela+PxDu2:ietjastisste # ; !ietjastit?
 iehtja+Pron+Refl+Sg+Com+PxDu2:ietjajnit # ;
 
 iehtja+Pron+Refl+Sg+Acc+PxDu3:ietjasijt # ;
 iehtja+Pron+Refl+Sg+Acc+PxDu3:ietjavska # ;
 iehtja+Pron+Refl+Sg+Gen+PxDu3:ietjaska # ;
-iehtja+Pron+Refl+Sg+Ill+PxDu3:iehtjasijde # ;
+iehtja+Pron+Refl+Sg+Ill+PxDu3:iehtjasijda # ;
 iehtja+Pron+Refl+Sg+Ill+PxDu3:iehtjasiska # ;
 iehtja+Pron+Refl+Sg+Ine+PxDu3:ietjaniska # ;
 iehtja+Pron+Refl+Sg+Ela+PxDu3:ietjastiska # ;
 iehtja+Pron+Refl+Sg+Com+PxDu3:ietjajniska # ;
-
 
 
 iehtja+Pron+Refl+Sg+Acc+PxPl1:iehtjamijt # ;
@@ -204,7 +274,7 @@ iehtja+Pron+Refl+Sg+Com+PxPl1:ietjajnimme # ;
 iehtja+Pron+Refl+Sg+Com+PxPl1:ietjajnenieh # ;
 
 iehtja+Pron+Refl+Sg+Acc+PxPl2:ietjadijt # ;
-iehtja+Pron+Refl+Sg+Acc+PxPl2:ietjavte # ;
+iehtja+Pron+Refl+Sg+Acc+PxPl2:ietjavde # ;
 iehtja+Pron+Refl+Sg+Gen+PxPl2:ietjade # ;
 iehtja+Pron+Refl+Sg+Ill+PxPl2:iehtjasit # ;
 iehtja+Pron+Refl+Sg+Ine+PxPl2:ietjanit # ;
