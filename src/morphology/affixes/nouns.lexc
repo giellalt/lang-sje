@@ -85,7 +85,7 @@ LEXICON N_ODD_VV
 +N+Sg+Nom:%^MONB4J PX ;
 +N: ODD_OBLIQUE ;
 
-LEXICON N_ODD_CG
+LEXICON N_ODD_CG !stadieväxling fungerar ej
 +N+Sg+Nom:%^WG PX ;
 +N: ODD_OBLIQUE ;
 
@@ -111,6 +111,8 @@ LEXICON ODD_OBLIQUE_COMMON
 +Sg+Ela:ist PX ; 
 +Sg+Com:ijn PX ;
 +Ess:in PX ;
+
+
 +Pl+Nom:a PX ;
 +Pl+Acc:ijt PX ;
 +Pl+Gen:ij PX ;
@@ -160,11 +162,11 @@ LEXICON SUOLOJ
 
 ! ne contlex
 
-LEXICON SARVES-NE
+LEXICON SARVES-NE !nominativ, essiv samt alla former med -j, förutom sg.ill  fungerar ej
  +Sg+Nom:%>s K ;
  +Ess:%>n K ;
 
-LEXICON SUOLOJ-NE
+LEXICON SUOLOJ-NE !nominativ, essiv samt alla former med -j, förutom sg.ill fungerar ej, båtsoj:buhtsu fungerar ej
  +Sg+Nom:%>j K ;
  +Ess:%>n K ;
 
@@ -179,7 +181,7 @@ LEXICON CONTR-OTH
 ! under construction
 
 LEXICON N_CONTR_C
-ÅLMAAJ ; ! skall ordnas till
+ÅLMAAJ ; 
 
 LEXICON ÅLMAAJ
 +N+Sg+Nom:%^WGáj PX ;
