@@ -45,7 +45,7 @@ räjjdo N_EVEN "työkalu" ;
 namma N_EVEN "nimi" ; 
 vuorrpe N_EVEN "onni, arpa" ;
 
-!genomgånget augusti
+!OBS genomgånget i augusti, de flesta omljud är ännu inte inlagda, com.sg i o-stammar fungerar ej, ill.sg i e-stammar fungerar ej, vissa stadieväxlingar fungerar ej, inga kontrakta fungerar
 
 ålol:ullul N_ODD_CG_VV ; 
 
@@ -58,30 +58,30 @@ hábres:hábbrá SARVES ;
 åbbá N_EVEN_NOCG ;
 
 áddjá N_EVEN "dj" ; !fungerar
-ájjge N_EVEN "jg tid" ; !svagstadium fungerar ej
-ájjro N_EVEN "jr" ; !svagstadie fungerar ej
+ájjge N_EVEN "jg tid" ; !fungerar allt utom ill.sg
+ájjro N_EVEN "jr" ; !fungerar alla former utom com.sg u framför j i svagstadium 
 áhkká N_EVEN "hk" ; !fungerar
-áhpe N_EVEN "b" ; !stadieväxling fungerar, ej illativ
+áhpe N_EVEN "b" ; !fungerar allt utom ill.sg
 áhttje N_EVEN " htj far" ; !svagstadium fungerar ej
 ája:ádjaga N_ODD_CG ; !fungerar ej
 
-ákksjo N_EVEN "ksj" ; !svagstadium fungerar ej
-álldo N_EVEN "ld renko" ; !svagstadium fungerar ej
+ákksjo N_EVEN "ksj" ; !fungerar allt utom com.sg, uj 
+álldo N_EVEN "ld renko" ; !fungerar allt utom com.sg uj
 Árjapluovve N_EVEN "v" ; !svagstadium fungerar ej
-árrbe N_EVEN "rb arv" ; !svagstadium fungerar ej
-árrpo N_EVEN "rp" ; !svagstadium fungerar ej
+árrbe N_EVEN "rb arv" ; !fungerar  allt utom ill.sg
+árrpo N_EVEN "rp" ; !fungerar 
 átjárájjde N_EVEN "jd blixt, oväder" ; !svagstadium fungerar ej
 ávvke N_EVEN "vk" ; !nominativ finns ej, stadieväxling fungerar ej
-ávvo N_EVEN "v lycka" ;
+ávvo N_EVEN "v lycka" ; !fungerar allt utom com.sg u-ljud
 albme N_EVEN "lm himmel" ; !fungerar allt utom sg.ill
-asske N_EVEN "sk" ; !svagstadium fungerar ej
+asske N_EVEN "sk" ; !fungerar allt utom ill.sg 
 bena:bednag BIENA "koira" ; !fungerar
-biedno N_EVEN "n bön, andakt" ; !stadieväxling fungerar, former med uj fungerar ej, lägg in omljud
-biehkke N_EVEN "hk bit" ;
-biehtse N_EVEN "ts" ; 
-bielle N_EVEN "l sida" ;
+biedno N_EVEN "n bön, andakt" ; !fungerar allt utom com.sg uj
+biehkke N_EVEN "hk bit" ; !stadieväxling fungerar, i-former fungerar ej
+biehtse N_EVEN "ts" ; !fungerar alla former utom ill.sg.
+bielle N_EVEN "l sida" ; !fungerar allt utom i-former och ill.sg
 biena:biednag BIENA "koira" ; !fungerar
-biesse N_EVEN "s fågelbo" ; 
+biesse N_EVEN "s fågelbo" ; !fungerar allt utom i-former
 bievvla N_EVEN "vl" ; 
 bijjla N_EVEN "jl" ; 
 bijjpa N_EVEN "jp" ; 
@@ -201,7 +201,7 @@ juovva N_EVEN "v stor sten" ;
 jåhkå N_EVEN "g älv" ;
 jåhkågádde N_EVEN_NOCG "dd strand" ;
 jårrbodahka N_EVEN "g rundhet" ;
-kaffa N_EVEN "f" ;
+kaffa:kaffa N_EVEN "f" ;
 káffa:káf'fa N_EVEN_NOCG "kahvi" ; 
 kammba N_EVEN "mb" ; 
 klåhkkár N_ODD "klockare" ; !fungerar
@@ -231,7 +231,7 @@ mannje N_EVEN "nj" ;
 mánno N_EVEN "n måne" ;
 mánná N_EVEN "n barn" ;
 mánnábálle N_EVEN "l barndom" ;
-muorra N_EVEN "r träd" ;
+muorra:muorra N_EVEN "r träd" ;
 muvvra N_EVEN "vr" ; 
 mällke N_EVEN "lk mjölk" ;
 måhkke N_EVEN "hk" ; 
