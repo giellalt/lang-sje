@@ -69,7 +69,7 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _  (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow: Cx _   ( Vow:+ (Cns:+)) ( Dummy: ) WeG: ;
      where Cx in ( t k m n s r l f j v ) ; ! OBS fjerna j pga av ijja, och in igen för ijja
 
 "Consonant Gradation for xxy:xy"

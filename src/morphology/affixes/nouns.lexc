@@ -36,6 +36,19 @@ LEXICON N_EVEN_NOCG
 +N: EVENCASE ;
 +N: N_EVEN_W ; ! No CG here, ingen stadieväxling
 
+! LEXICON N_EVEN_a
+! N_EVEN ;
+! LEXICON N_EVEN_e
+! N_EVEN ;
+! LEXICON N_EVEN_o
+! N_EVEN ;
+! LEXICON N_EVEN_å
+! N_EVEN ;
+! LEXICON N_EVEN_á
+! N_EVEN ;
+! LEXICON N_EVEN_i
+! N_EVEN ;
+
 LEXICON N_EVEN
 +N: EVENCASE ;
 +N:%^WG N_EVEN_W ; ! CG here
