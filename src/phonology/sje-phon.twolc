@@ -24,7 +24,7 @@ Alphabet
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
-  d2:d t2:t j2:j h2:h g2:g
+  d2:d t2:t j2:j h2:h g2:g ŋ
   ':0
   
   %^WG:0 %^jDEL:0 %^MONB4J:0 %^CDEL:0 %^MON:0
@@ -62,10 +62,21 @@ Rules
 !! __@RULENAME@__  
 t:0 <=> Vow: h t _ ( j ) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
+"Consonant Gradation for xdn:xn"
+!! __@RULENAME@__  
+d:0 <=> Vow: Cx _ n (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+     where Cx in ( j v l ) ;
+
+
+         
+!"Consonant Gradation for httj:htj"
+!!! __@RULENAME@__  ACS: hddj finst inte, httj finst
+!t:0 <=> h t _ j (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+
 "Consonant Gradation for hxx:hx"
 !! __@RULENAME@__  
 Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-     where Cx in ( p t k ) ;
+     where Cx in ( p k ) ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
@@ -88,16 +99,12 @@ Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( d d )
            Cy in ( j n )  
           matched ;
-         
-"Consonant Gradation for httj:htj"
-!! __@RULENAME@__  ACS: hddj finst inte, httj finst
-t:0 <=> h t _ j (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 !! !!Consonant Gradation for hx:x
 
 "Delete h"
 !! __@RULENAME@__  
-h:0  <=> Vow+ _ Cx: (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+h:0  <=> 
     where Cx in (p t k) ;
 
 "Delete h before ts"
@@ -114,8 +121,8 @@ Cx:Cy <=> h: _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 "Consonant Gradation for xN:N"
 !! __@RULENAME@__  
 Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-    where Cx in (b d g)
-          Cy in (m n n)
+    where Cx in (b d g g )
+          Cy in (m n n ŋ )
           matched ;
           
 
