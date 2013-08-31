@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Adjektiv - gävvra: # -a-stammar
+    gävvra+A+Sg+Nom: gävvra
+    gävvra+A+Attr: gievras
+    gävvra+A+Sg+Gen: gievra
+    gävvra+A+Sg+Acc: gievrav
+    gävvra+A+Sg+Ill: gävvraj
+    gävvra+A+Sg+Ine: gievran
+    gävvra+A+Sg+Ela: gievrast
+    gävvra+A+Sg+Com: gievrajn
+    gävvra+A+Pl+Nom: gievra
+    gävvra+A+Pl+Gen: gievraj
+    gävvra+A+Pl+Acc: gievrajt
+    gävvra+A+Pl+Ill: gievrajda
+    gävvra+A+Pl+Ine: gievrajn
+    gävvra+A+Pl+Ela: gievrajst
+    gävvra+A+Pl+Com: gievraj
+    gävvra+A+Ess: gävvran
+    gävvra+A+Abe: gievradak
