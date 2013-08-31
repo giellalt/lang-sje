@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+  Adjektiv - tjáhppat: # -a-stammar
+    tjáhppat+A+Sg+Nom: tjáhppat
+    tjáhppat+A+Attr: tjähppis
+    tjáhppat+A+Sg+Gen: tjáhppada
+    tjáhppat+A+Sg+Acc: tjáhppadav
+    tjáhppat+A+Sg+Ill: tjáhppadij
+    tjáhppat+A+Sg+Ine: tjáhppadin
+    tjáhppat+A+Sg+Ela: tjáhppadist
+    tjáhppat+A+Sg+Com: tjáhppadijn
+    tjáhppat+A+Pl+Nom: tjáhppada
+    tjáhppat+A+Pl+Gen: tjáhppadij
+    tjáhppat+A+Pl+Acc: tjáhppadijt
+    tjáhppat+A+Pl+Ill: tjáhppadijda
+    tjáhppat+A+Pl+Ine: tjáhppadijn
+    tjáhppat+A+Pl+Ela: tjáhppadijst
+    tjáhppat+A+Pl+Com: tjáhppadij
+    tjáhppat+A+Ess: tjáhppadin
+    tjáhppat+A+Comp+Sg+Nom: tjáhppadup
+    tjáhppat+A+Comp+Attr: tjáhppadup
+    tjáhppat+A+Comp+Sg+Gen: tjáhppadubbo
+    tjáhppat+A+Comp+Sg+Acc: tjáhppadubbov
+    tjáhppat+A+Comp+Sg+Ill: tjáhppadubbuj
+    tjáhppat+A+Comp+Sg+Ine: tjáhppadubbon
+    tjáhppat+A+Comp+Sg+Ela: tjáhppadubbost
+    tjáhppat+A+Comp+Sg+Com: [tjáhppadubbujn, tjáhppadubbujna]
+    tjáhppat+A+Comp+Pl+Nom: tjáhppadubbo
+    tjáhppat+A+Comp+Pl+Gen: tjáhppadubboj
+    tjáhppat+A+Comp+Pl+Acc: tjáhppadubbojt
+    tjáhppat+A+Comp+Pl+Ill: tjáhppadubbojda
+    tjáhppat+A+Comp+Pl+Ine: tjáhppadubbojn
+    tjáhppat+A+Comp+Pl+Ela: tjáhppadubbojst
+    tjáhppat+A+Comp+Pl+Com: tjáhppadubboj
+    tjáhppat+A+Comp+Ess: tjáhppadubbon
+
