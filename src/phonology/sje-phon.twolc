@@ -95,7 +95,6 @@ Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 !! __@RULENAME@__  
 !Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-
      where Cx in ( d d )
            Cy in ( j n )  
           matched ;
@@ -104,7 +103,7 @@ Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 "Delete h"
 !! __@RULENAME@__  
-h:0  <=> 
+h:0  <=> Vow _ Cx  (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (p t k) ;
 
 "Delete h before ts"
