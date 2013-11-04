@@ -43,6 +43,7 @@ LEXICON ÅRROT_S
 +Ind+Prs+Du3:%>oba #;
 +Ind+Prs+Pl1:%>op #;
 +Ind+Prs+Pl2:%>obihtit #;
++Ind+Prs+Pl2:a%>obehtit #;
 +Ind+Prs+Pl3:%>u #;
 +Ind+Prt+Sg1:%>uv #;
 +Ind+Prt+Sg2:%>u #;
@@ -105,6 +106,7 @@ LEXICON LÅHKÅT_S !låhk inga omljud å till u är inlagda
 +Ind+Prs+Du3:%>åba #;
 +Ind+Prs+Pl1:%>åp #;
 +Ind+Prs+Pl2:%>åbihtit #;
++Ind+Prs+Pl2:a%>åbehtit #;
 +Ind+Prs+Pl3:%>i #;
 +Ind+Prt+Sg1:%>iv #;
 +Ind+Prt+Sg2:%>i #;
@@ -151,6 +153,7 @@ LEXICON BÅHTET_S !omljud å till u fungerar ej
 +Ind+Prs+Du3:%>eba #;
 +Ind+Prs+Pl1:%>ep #;
 +Ind+Prs+Pl2:%>ebihtit #;
++Ind+Prs+Pl2:a%>ebehtit #;
 +Ind+Prs+Pl3:%>i #;
 +Ind+Prt+Sg1:%>iv #;
 +Ind+Prt+Sg2:%>i #;
@@ -204,6 +207,7 @@ LEXICON V_CONTR
 +V+Ind+Prs+Du3:%>ba #;
 +V+Ind+Prs+Pl1:%>p #;
 +V+Ind+Prs+Pl2:%>bihtit #;
++V+Ind+Prs+Pl2:a%>behtit #;
 +V+Ind+Prs+Pl3:%>ji #;
 
 +V+Ind+Prt+Sg1:%>jiv #;
@@ -234,6 +238,7 @@ LEXICON BALLAT_S !ball, omljud saknas i alla former med i i andra stavelsen skif
 +Ind+Prs+Du3:a%>ba #;
 +Ind+Prs+Pl1:a%>p #;
 +Ind+Prs+Pl2:a%>bihtit #; 
++Ind+Prs+Pl2:a%>behtit #;
 +Ind+Prs+Pl3:i #; 
 +Ind+Prt+Sg1:i%>v #;
 +Ind+Prt+Sg2:i #;
@@ -266,7 +271,7 @@ LEXICON NAMMADIT !nammad
 +V+Ind+Prt: V_ODD_IND_PRT ;
 
 +V+GerI:%>ittijn # ; 
-+V+Sup:%>itjit # ;
++V+Sup:%>ittjat # ;
 +V+Vabe:%>ak # ;  !ej utforskat
 +V+Vgen:a #; 
 +V+GerII:a%>me # ;
@@ -294,7 +299,7 @@ LEXICON V_ODD_IND_PRS
 +Sg3: # ; !oregelbunden, lägg in nammad2, giehtjastit-giehtjas, ganugit-ganuk
 +Sg3:%>a # ; 
 +Du1:%>in # ; 
-+Du2:%>ehpin # ;
++Du2:%>iehpen # ;
 +Du2:%>ähppen # ; 
 +Du3:%>iebá # ; 
 +Pl1:%>ip # ; 
