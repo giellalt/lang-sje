@@ -19,42 +19,45 @@ Tests:
      båhtet+V+Ind+Prs+Sg1: bådav
      båhtet+V+Ind+Prs+Sg2: båda
      båhtet+V+Ind+Prs+Sg3: båhtá
-     båhtet+V+Ind+Prs+Du1: båhtin
+     båhtet+V+Ind+Prs+Du1: buhtin
      båhtet+V+Ind+Prs+Du2: båhtebehtin
+     båhtet+V+Ind+Prs+Du2: båhtebähtten
      båhtet+V+Ind+Prs+Du3: båhteba
      båhtet+V+Ind+Prs+Pl1: båhtep
      båhtet+V+Ind+Prs+Pl2: båhtebihtit
-     båhtet+V+Ind+Prs+Pl3: båhti
+     båhtet+V+Ind+Prs+Pl2: båhtebehtit
+     båhtet+V+Ind+Prs+Pl3: buhti
 
-     båhtet+V+Ind+Prt+Sg1: båhtiv
-     båhtet+V+Ind+Prt+Sg2: båhti
-     båhtet+V+Ind+Prt+Sg3: bådij
-     båhtet+V+Ind+Prt+Du1: bådijmen
-     båhtet+V+Ind+Prt+Du2: bådijden
-     båhtet+V+Ind+Prt+Du3: bådijga
-     båhtet+V+Ind+Prt+Pl1: bådijme
-     båhtet+V+Ind+Prt+Pl2: bådijde
-     båhtet+V+Ind+Prt+Pl3: båhtin
+     båhtet+V+Ind+Prt+Sg1: buhtiv
+     båhtet+V+Ind+Prt+Sg2: buhti
+     båhtet+V+Ind+Prt+Sg3: budij
+     båhtet+V+Ind+Prt+Du1: budijmen
+     båhtet+V+Ind+Prt+Du2: budijden
+     båhtet+V+Ind+Prt+Du3: budijga
+     båhtet+V+Ind+Prt+Pl1: budijme
+     båhtet+V+Ind+Prt+Pl2: budijde
+     båhtet+V+Ind+Prt+Pl3: buhtin
 
-     båhtet+V+Pot+Sg1: båditjav
-     båhtet+V+Pot+Sg2: båditja
-     båhtet+V+Pot+Sg3: bådjtj
-     båhtet+V+Pot+Du1: bådjtjin
-     båhtet+V+Pot+Du2: bådjtjähppen
-     båhtet+V+Pot+Du3: bådjtjebá
-     båhtet+V+Pot+Pl1: bådjtjip
-     båhtet+V+Pot+Pl2: bådjtjihpit
-     båhtet+V+Pot+Pl3: båditji
+     båhtet+V+Pot+Sg1: buditjav
+     båhtet+V+Pot+Sg2: buditja
+     båhtet+V+Pot+Sg3: budjtj
+     båhtet+V+Pot+Du1: budjtjin
+     båhtet+V+Pot+Du2: budjtjähppen
+     båhtet+V+Pot+Du2: budjtjiehpen
+     båhtet+V+Pot+Du3: budjtjiebá
+     båhtet+V+Pot+Pl1: budjtjip
+     båhtet+V+Pot+Pl2: budjtjihpit
+     båhtet+V+Pot+Pl3: buditji
 
-     båhtet+V+GerI: båhtettijn 
-     båhtet+V+Sup: båhtetjit
-     båhtet+V+Vabe: båhteak  
-     båhtet+V+Vgen: båhtea 
-     båhtet+V+GerII: båhteame
-     båhtet+V+PrfPrc: båhteam
-     båhtet+V+PrsPrc: båhteäddje 
-     båhtet+V+Imp+Sg2: båhtea  
-     båhtet+V+Imp+Du2: båhteihtin
-     båhtet+V+Imp+Pl2: båhteihtit
-     båhtet+V+Vsubst: båhteim
+     båhtet+V+GerI: bådedin 
+     båhtet+V+Sup: bådátjit
+     båhtet+V+Vabe: båhtek  
+     båhtet+V+Vgen: både 
+     båhtet+V+GerII: båhtemin
+     båhtet+V+PrfPrc: båhtám
+     båhtet+V+PrsPrc: båhtte 
+     båhtet+V+Imp+Sg2: både  
+     båhtet+V+Imp+Du2: båhten
+     båhtet+V+Imp+Pl2: buhtit
+     båhtet+V+Vsubst: båhtem
 

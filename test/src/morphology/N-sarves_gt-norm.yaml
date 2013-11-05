@@ -12,22 +12,22 @@ Tests:
 
 
   Noun - sarves: # -kontrakta utan stv
-    sarves+N+Sg+Nom: [sarves, sarvvá]
-    sarves+N+Sg+Gen: sarvvá
-    sarves+N+Sg+Acc: sarvváv
-    sarves+N+Sg+Ill: sarvváj
-    sarves+N+Sg+Ine: sarvván
-    sarves+N+Sg+Ela: sarvvást
-    sarves+N+Sg+Com: sarvvájn
-    sarves+N+Pl+Nom: sarvvá
-    sarves+N+Pl+Gen: sarvváj
-    sarves+N+Pl+Acc: sarvvájt
-    sarves+N+Pl+Ill: sarvvájda
-    sarves+N+Pl+Ine: sarvvájn
-    sarves+N+Pl+Ela: sarvvájst
-    sarves+N+Pl+Com: sarvváj
-    sarves+N+Ess: sarvván
-    sarves+N+Abe: sarvvádak
+    sarves+N+Sg+Nom: [sarves, sarrvá]
+    sarves+N+Sg+Gen: sarrvá
+    sarves+N+Sg+Acc: sarrváv
+    sarves+N+Sg+Ill: sarrváj
+    sarves+N+Sg+Ine: sarrván
+    sarves+N+Sg+Ela: sarrvást
+    sarves+N+Sg+Com: sarrvájn
+    sarves+N+Pl+Nom: sarrvá
+    sarves+N+Pl+Gen: sarrváj
+    sarves+N+Pl+Acc: sarrvájt
+    sarves+N+Pl+Ill: sarrvájda
+    sarves+N+Pl+Ine: sarrvájn
+    sarves+N+Pl+Ela: sarrvájst
+    sarves+N+Pl+Com: sarrváj
+    sarves+N+Ess: sarrván
+    sarves+N+Abe: sarrvádak
 
 
   Noun - vanas: # Korttest: -udda med stv men utan vokalv

@@ -21,9 +21,11 @@ Tests:
      vuällget+V+Ind+Prs+Sg3: vuällgá
      vuällget+V+Ind+Prs+Du1: vullgin
      vuällget+V+Ind+Prs+Du2: vuällgebehtin
+     vuällget+V+Ind+Prs+Du2: vuällgebähtten
      vuällget+V+Ind+Prs+Du3: vuällgeba
      vuällget+V+Ind+Prs+Pl1: vuällgep
      vuällget+V+Ind+Prs+Pl2: vuällgebihtit
+     vuällget+V+Ind+Prs+Pl2: vuällgebehtit
      vuällget+V+Ind+Prs+Pl3: vullgi
 
      vuällget+V+Ind+Prt+Sg1: vullgiv
@@ -40,8 +42,9 @@ Tests:
      vuällget+V+Pot+Sg2: vulgitja
      vuällget+V+Pot+Sg3: vulgitj
      vuällget+V+Pot+Du1: vulgitjin
-     vuällget+V+Pot+Du2: vulgitjehpin
-     vuällget+V+Pot+Du3: vulgitjebá
+     vuällget+V+Pot+Du2: vulgitjiehpin
+     vuällget+V+Pot+Du2: vulgitjähppen
+     vuällget+V+Pot+Du3: vulgitjiebá
      vuällget+V+Pot+Pl1: vulgitjip
      vuällget+V+Pot+Pl2: vulgitjihpit
      vuällget+V+Pot+Pl3: vulgitji
