@@ -56,7 +56,7 @@ LEXICON ÅRROT_W
 +Vabe:%>uk # ; !nytt, ej utforskat
 +Pot:%>otj V_ODD_IND_PRS ; 
 +Imp+Sg2:o #; 
- +Vgen:o #;  
++Vgen:o #;  
 
 +Ind+Prs+Sg1:%>ov #;
 +Ind+Prs+Sg2:%>o #;
@@ -296,7 +296,6 @@ LEXICON NAMMADIT !nammad
 LEXICON V_ODD_IND_PRS
 +Sg1:%>av # ; 
 +Sg2:%>a # ; 
-+Sg3: # ; !oregelbunden, lägg in nammad2, giehtjastit-giehtjas, ganugit-ganuk
 +Sg3:%>a # ; 
 +Du1:%>in # ; 
 +Du2:%>iehpen # ;
