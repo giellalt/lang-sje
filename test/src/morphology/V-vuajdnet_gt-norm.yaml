@@ -19,30 +19,32 @@ Tests:
      vuäjdnet+V+Ind+Prs+Sg1: vuojnáv
      vuäjdnet+V+Ind+Prs+Sg2: vuojná
      vuäjdnet+V+Ind+Prs+Sg3: vuäjdná
-     vuäjdnet+V+Ind+Prs+Du1: vuäjnájin
-     vuäjdnet+V+Ind+Prs+Du2: vuäjnábehtin
-     vuäjdnet+V+Ind+Prs+Du3: vuäjnába
-     vuäjdnet+V+Ind+Prs+Pl1: vuäjnáp
-     vuäjdnet+V+Ind+Prs+Pl2: vuäjnábihtit
-     vuäjdnet+V+Ind+Prs+Pl3: vuäjnáji
+     vuäjdnet+V+Ind+Prs+Du1: vuäjdnin
+     vuäjdnet+V+Ind+Prs+Du2: vuäjdnebehtin
+     vuäjdnet+V+Ind+Prs+Du2: vuäjdnebähtten
+     vuäjdnet+V+Ind+Prs+Du3: vuäjdneba
+     vuäjdnet+V+Ind+Prs+Pl1: vuäjdnep
+     vuäjdnet+V+Ind+Prs+Pl2: vuäjdnebihtit
+     vuäjdnet+V+Ind+Prs+Pl2: vuäjdnebehtit
+     vuäjdnet+V+Ind+Prs+Pl3: vuäjdni
 
-     vuäjdnet+V+Ind+Prt+Sg1: vuojniv
-     vuäjdnet+V+Ind+Prt+Sg2: vuojni
-     vuäjdnet+V+Ind+Prt+Sg3: vuojnij
-     vuäjdnet+V+Ind+Prt+Du1: vuojnijmen
-     vuäjdnet+V+Ind+Prt+Du2: vuojnijden
-     vuäjdnet+V+Ind+Prt+Du3: vuojn
-     vuäjdnet+V+Ind+Prt+Pl1: vuojn
-     vuäjdnet+V+Ind+Prt+Pl2: vuojn
-     vuäjdnet+V+Ind+Prt+Pl3: vuojn
+     vuäjdnet+V+Ind+Prt+Sg1: vujniv
+     vuäjdnet+V+Ind+Prt+Sg2: vujni
+     vuäjdnet+V+Ind+Prt+Sg3: vujnij
+     vuäjdnet+V+Ind+Prt+Du1: vujnijmen
+     vuäjdnet+V+Ind+Prt+Du2: vujnijden
+     vuäjdnet+V+Ind+Prt+Du3: vujnijga
+     vuäjdnet+V+Ind+Prt+Pl1: vujnijme
+     vuäjdnet+V+Ind+Prt+Pl2: vujnijde
+     vuäjdnet+V+Ind+Prt+Pl3: vuäjdnin
 
-     vuäjdnet+V+Pot+Sg1: vuäjdnetjav
-     vuäjdnet+V+Pot+Sg2: vuäjdnetja
-     vuäjdnet+V+Pot+Sg3: vuäjdnetj
-     vuäjdnet+V+Pot+Du1: vuäjdnetjin
-     vuäjdnet+V+Pot+Du2: [vuäjdnetjehpin, vuäjdnetjähppen] 
-     vuäjdnet+V+Pot+Du3: vuäjdnetjebá
-     vuäjdnet+V+Pot+Pl1: vuäjdnetjip
-     vuäjdnet+V+Pot+Pl2: vuäjdnetjihpit
-     vuäjdnet+V+Pot+Pl3: vuäjdnetji
+     vuäjdnet+V+Pot+Sg1: vujnitjav
+     vuäjdnet+V+Pot+Sg2: vujnitja
+     vuäjdnet+V+Pot+Sg3: vujnitj
+     vuäjdnet+V+Pot+Du1: vujnitjin
+     vuäjdnet+V+Pot+Du2: [vujnitjiehpen, vujnitjähppen] 
+     vuäjdnet+V+Pot+Du3: vujnitjiebá
+     vuäjdnet+V+Pot+Pl1: vujnitjip
+     vuäjdnet+V+Pot+Pl2: vujnitjihpit
+     vuäjdnet+V+Pot+Pl3: vujnitji
 

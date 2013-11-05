@@ -40,6 +40,7 @@ LEXICON ÅRROT_S
 +Ind+Prs+Sg3:%>u #;
 +Ind+Prs+Du1:%>un #;
 +Ind+Prs+Du2:%>obehtin #;
++Ind+Prs+Du2:%>obähtten #;
 +Ind+Prs+Du3:%>oba #;
 +Ind+Prs+Pl1:%>op #;
 +Ind+Prs+Pl2:%>obihtit #;
@@ -103,6 +104,7 @@ LEXICON LÅHKÅT_S !låhk inga omljud å till u är inlagda
 +Ind+Prs+Sg3:%>á #;
 +Ind+Prs+Du1:%>in #;
 +Ind+Prs+Du2:%>åbehtin #;
++Ind+Prs+Du2:%>åbähtten #;
 +Ind+Prs+Du3:%>åba #;
 +Ind+Prs+Pl1:%>åp #;
 +Ind+Prs+Pl2:%>åbihtit #;
@@ -150,6 +152,7 @@ LEXICON BÅHTET_S !omljud å till u fungerar ej
 +Ind+Prs+Sg3:%>á #;
 +Ind+Prs+Du1:%>in #;
 +Ind+Prs+Du2:%>ebehtin #;
++Ind+Prs+Du2:%>ebähtten #;
 +Ind+Prs+Du3:%>eba #;
 +Ind+Prs+Pl1:%>ep #;
 +Ind+Prs+Pl2:%>ebihtit #;

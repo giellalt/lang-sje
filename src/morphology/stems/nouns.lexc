@@ -55,7 +55,7 @@ sarves:sarrvá SARVES ; ! N_CONTR
 ålmáj:ålbm ÅLMAAJ ; ! N_CONTR
 hábres:hábbrá SARVES ; 
 
-åbbá N_EVEN_NOCG ;
+åbbá N_EVEN_NOCG "bb syster" ;
 
 áddjá N_EVEN "dj" ; !fungerar
 ájjge N_EVEN "jg tid" ; !fungerar allt utom ill.sg
@@ -63,7 +63,7 @@ hábres:hábbrá SARVES ;
 áhkká N_EVEN "hk" ; !fungerar
 áhpe N_EVEN "b" ; !fungerar allt utom ill.sg
 áhttje N_EVEN " htj far" ; !svagstadium fungerar ej
-ája:ádjaga N_ODD_CG ; !fungerar ej
+ája:ádjag BIENA ; !fungerar ej
 
 ákksjo N_EVEN "ksj" ; !fungerar allt utom com.sg, uj 
 álldo N_EVEN "ld renko" ; !fungerar allt utom com.sg uj
@@ -75,6 +75,7 @@ hábres:hábbrá SARVES ;
 ávvo N_EVEN "v lycka" ; !fungerar allt utom com.sg u-ljud
 albme N_EVEN "lm himmel" ; !fungerar allt utom sg.ill
 asske N_EVEN "sk" ; !fungerar allt utom ill.sg 
+bahta N_EVEN "d stjärt, rumpa" ;
 bena:bednag BIENA "koira" ; !fungerar
 biedno N_EVEN "n bön, andakt" ; !fungerar allt utom com.sg uj
 biehkke N_EVEN "hk bit" ; !stadieväxling fungerar, i-former fungerar ej
@@ -87,7 +88,7 @@ bijjla N_EVEN "jl" ;
 bijjpa N_EVEN "jp" ; 
 billga N_EVEN "lg" ; 
 binna N_EVEN_NOCG "nn ett litet stycke" ; 
-bunndi N_EVEN ;
+bunndi N_EVEN "nd" ;
 buollva N_EVEN "lv generation" ;
 buvdna N_EVEN "vn" ; 
 buvtsomällke N_EVEN "lk renmjölk" ;
@@ -102,27 +103,28 @@ båjjtjå N_EVEN "jtj" ;
 båddne N_EVEN "dn" ; 
 båddnje N_EVEN "dnj" ; 
 båldne N_EVEN "ln" ;  
-bånndá N_EVEN "nd" ; 
-båssjo N_EVEN "sj" ; 
+bunndi N_EVEN "nd" ; 
+båssjo N_EVEN "sj" ;
+båtsoj:buhtsu N_CONTR_C "ren" ; 
 båtsojjåhtejsábme N_EVEN "m xxx" ;
 båtsojlahkke N_EVEN "hk xxx" ;
 båttkå N_EVEN "tk" ; 
-bäbbmo N_EVEN "bm mat" ; 
-bäbbmo N_EVEN ; 
+bäbbmo N_EVEN "bm mat" ;  
 bäjjve N_EVEN "jv dag, sol" ;
 bäjjsko N_EVEN "jsk" ; 
 bälle N_EVEN "l sida" ;
 bäŋŋka N_EVEN "ŋk" ;
-bärdna N_EVEN "rdn björn" ;
-bärdna N_EVEN_NOCG "rn björn" ;
-bässe N_EVEN_NOCG "ss näver" ; 
+bärdna N_EVEN "rn björn" ;
+bärdna N_EVEN_NOCG "rdn björn" ;
+bässe N_EVEN_NOCG "ss näver" ;
+bävvde N_EVEN "vd bord" ; 
 bävvla N_EVEN "vl" ; 
 dábbde N_EVEN "bd" ; 
 dáffo N_EVEN "f trakt (dán dáfon här i trakten)" ; !svagstadium fungerar ej
 dállve N_EVEN "lv vinter" ;
 dámmba N_EVEN "mb" ; 
 dámmpa N_EVEN "mp" ; 
-didnadäddje N_EVEN "de som ropar/skriker" ;
+didnadäddje N_EVEN_NOCG "de som ropar/skriker" ;
 didnadäjje N_EVEN_NOCG "de som ropar/skriker" ;
 dimbar N_ODD_CG "mmb" ; !stadieväxling fungerar ej
 duädde N_EVEN_NOCG ; 
@@ -136,6 +138,7 @@ fuällke N_EVEN "lk" ;
 fällo N_EVEN "l" ; 
 fävvsa N_EVEN "vs ladugård" ; 
 gabbnja N_EVEN "bnj" ; 
+gádde N_EVEN_NOCG "dd strand" ; 
 gadtsa N_EVEN_NOCG ; 
 gájjse N_EVEN "j" ; 
 gájjtsa N_EVEN "jts get" ;
@@ -163,7 +166,7 @@ gummo:gum'mo N_EVEN_NOCG "mm gumma" ;
 gummpi N_EVEN "mp varg" ; 
 guobbla N_EVEN "bl" ; 
 guolle N_EVEN "l" ; 
-guosmak N_ODD_CG ; 
+guosmak N_ODD_CG "ssm kaffe" ; !stadieväxling fungerar ej
 gurbmá N_EVEN "m" ; 
 gurmmá N_EVEN "m" ; ! dialekt?
 gurrte N_EVEN "rt" ; 
@@ -201,7 +204,7 @@ juovva N_EVEN "v stor sten" ;
 jåhkå N_EVEN "g älv" ;
 jåhkågádde N_EVEN_NOCG "dd strand" ;
 jårrbodahka N_EVEN "g rundhet" ;
-kaffa:kaffa N_EVEN "f" ;
+káffa N_EVEN "f" ;
 káffa:káf'fa N_EVEN_NOCG "kahvi" ; 
 kammba N_EVEN "mb" ; 
 klåhkkár N_ODD "klockare" ; !fungerar
@@ -231,7 +234,7 @@ mannje N_EVEN "nj" ;
 mánno N_EVEN "n måne" ;
 mánná N_EVEN "n barn" ;
 mánnábálle N_EVEN "l barndom" ;
-muorra:muorra N_EVEN "r träd" ;
+muorra N_EVEN "r träd" ;
 muvvra N_EVEN "vr" ; 
 mällke N_EVEN "lk mjölk" ;
 måhkke N_EVEN "hk" ; 
@@ -262,7 +265,7 @@ rássjo N_EVEN "sj regn" ;
 rassta N_EVEN "st över" ;
 rávdno N_EVEN "vn" ;
 rávve N_EVEN "v" ; 
-rebij:rehpih N_ODD_CG "räv" ; ! stadieväxling fungerar men inte nominativformen 
+rebij:rehpiha N_ODD_CG "räv" ; ! kolla
 rijjka N_EVEN "jk rike" ;
 rimmste N_EVEN "mst" ; 
 rissja N_EVEN "sj" ; 
@@ -280,7 +283,7 @@ sálbmavärrsa N_EVEN "rs psalmvers" ;
 sállte N_EVEN "lt" ; 
 sámesijjda N_EVEN "jd" ;
 sávvtsa N_EVEN "vts" ; 
-sarves N_CONTR_C "rentjur" ;
+sarves:sarrvá N_CONTR_C "rentjur" ;
 sassne N_EVEN "sn skinn" ; 
 savvtsa N_EVEN "får" ;
 savvun N_ODD "sel saL" ; !fungerar
@@ -330,7 +333,7 @@ tsuapptsa N_EVEN "pts" ;
 ukksa N_EVEN "ks" ; 
 vágge N_EVEN_NOCG "dal" ; !fungerar alla former utom sg.ill.
 vájbmo N_EVEN "jm hjärta" ; 
-vájbmo:vájmmo N_EVEN "jm hjärta" ; !stadieväxling fungerar, lägg till omljud
+vájmmo N_EVEN "jm hjärta" ; 
 vanas N_ODD_CG "båt" ; !fungerar
 vanntsa N_EVEN "nts" ;
 vassje N_EVEN "sj hat" ;
@@ -351,6 +354,7 @@ vällja N_EVEN "lj bror" ;
 åbba N_EVEN_NOCG "syster" ; 
 åjvevuolle N_EVEN "l huvudkudde" ;
 åkkse N_EVEN "ks gren" ;
+ålol:ullula N_ODD_CG "käke" ; 
 ålmaj ÅLMAAJ "man" ;
 årrdå N_EVEN "rd trädgräns" ;
 åsse N_EVEN "s del" ;

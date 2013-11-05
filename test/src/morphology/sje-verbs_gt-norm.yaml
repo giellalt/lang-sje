@@ -20,24 +20,28 @@ Tests:
     ballat+V+Ind+Prs+Du3: ballaba
     ballat+V+Ind+Prs+Pl1: ballap
     ballat+V+Ind+Prs+Pl2: ballabihtit
-    ballat+V+Ind+Prs+Pl3: balli
+    ballat+V+Ind+Prs+Pl2: ballabihtit
+    ballat+V+Ind+Prs+Pl3: billi
 
-    ballat+V+Ind+Prt+Sg1: balliv
-    ballat+V+Ind+Prt+Sg2: balli
+    ballat+V+Ind+Prt+Sg1: billiv
+    ballat+V+Ind+Prt+Sg2: billi
     ballat+V+Ind+Prt+Sg3: balaj
     ballat+V+Ind+Prt+Du1: balajmen
     ballat+V+Ind+Prt+Du2: balajden
     ballat+V+Ind+Prt+Du3: balajga
     ballat+V+Ind+Prt+Pl1: balajme
     ballat+V+Ind+Prt+Pl2: balajde
-    ballat+V+Ind+Prt+Pl3: ballin
+    ballat+V+Ind+Prt+Pl3: billin
 
     ballat+V+Pot+Sg1: balatjav
     ballat+V+Pot+Sg2: balatja
     ballat+V+Pot+Sg3: balatj
     ballat+V+Pot+Du1: balatjin
-    ballat+V+Pot+Du2: [balatjehpin, balatjähppen]
+    ballat+V+Pot+Du2: [balatjiehpen, balatjähppen]
     ballat+V+Pot+Du3: balatjiebá
     ballat+V+Pot+Pl1: balatjip
     ballat+V+Pot+Pl2: balatjihpit
     ballat+V+Pot+Pl3: balatji
+    
+    
+

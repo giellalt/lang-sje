@@ -21,9 +21,11 @@ Tests:
      tjerrut+V+Ind+Prs+Sg3: tjerru
      tjerrut+V+Ind+Prs+Du1: tjerrujin
      tjerrut+V+Ind+Prs+Du2: tjerrubehtin
+     tjerrut+V+Ind+Prs+Du2: tjerrubähtten
      tjerrut+V+Ind+Prs+Du3: tjerruba
      tjerrut+V+Ind+Prs+Pl1: tjerrup
      tjerrut+V+Ind+Prs+Pl2: tjerrubihtit
+     tjerrut+V+Ind+Prs+Pl2: tjerrubehtit
      tjerrut+V+Ind+Prs+Pl3: tjerruji
 
      tjerrut+V+Ind+Prt+Sg1: tjerrujiv
@@ -40,8 +42,8 @@ Tests:
      tjerrut+V+Pot+Sg2: tjerrutja
      tjerrut+V+Pot+Sg3: tjerrutj
      tjerrut+V+Pot+Du1: tjerrutjin
-     tjerrut+V+Pot+Du2: [tjerrutjehpin, tjerrutjähppen] 
-     tjerrut+V+Pot+Du3: tjerrutjebá
+     tjerrut+V+Pot+Du2: [tjerrutjiehpen, tjerrutjähppen] 
+     tjerrut+V+Pot+Du3: tjerrutjiebá
      tjerrut+V+Pot+Pl1: tjerrutjip
      tjerrut+V+Pot+Pl2: tjerrutjihpit
      tjerrut+V+Pot+Pl3: tjerrutji

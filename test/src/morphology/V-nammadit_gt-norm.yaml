@@ -18,10 +18,10 @@ Tests:
      nammadit+V+Inf: nammadit
      nammadit+V+Ind+Prs+Sg1: nammadav
      nammadit+V+Ind+Prs+Sg2: nammada
-     nammadit+V+Ind+Prs+Sg3: [nammat, nammada]
+     nammadit+V+Ind+Prs+Sg3: nammada
      nammadit+V+Ind+Prs+Du1: nammadin
      nammadit+V+Ind+Prs+Du2: [nammadähppen, nammadiehpen]
-     nammadit+V+Ind+Prs+Du3: nammadebá
+     nammadit+V+Ind+Prs+Du3: nammadiebá
      nammadit+V+Ind+Prs+Pl1: nammadip
      nammadit+V+Ind+Prs+Pl2: nammadihpit
      nammadit+V+Ind+Prs+Pl3: nammadi
@@ -53,8 +53,8 @@ Tests:
      nammadit+V+GerII: nammadame
      nammadit+V+PrfPrc: nammadam
      nammadit+V+PrsPrc: nammadäddje 
-     nammadit+V+Imp+Sg2: nammada  
-     nammadit+V+Imp+Du2: nammadihtin
+     nammadit+V+Imp+Sg2: nammade  
+     nammadit+V+Imp+Du2: nammadehtin
      nammadit+V+Imp+Pl2: nammadihtit
      nammadit+V+Vsubst: nammadim
      
