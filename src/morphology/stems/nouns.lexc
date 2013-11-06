@@ -45,7 +45,7 @@ räjjdo N_EVEN "työkalu" ;
 namma N_EVEN "nimi" ; 
 vuorrpe N_EVEN "onni, arpa" ;
 
-!OBS genomgånget i november, de flesta omljud är ännu inte inlagda, ex. omljud framför u i andra stavelsen i o-stammar ex. elluj, á till ä framför i och u fungerar ej, inga kontrakta fungerar 
+!OBS genomgånget i november, de flesta omljud är ännu inte inlagda, ex. omljud framför u i andra stavelsen i o-stammar ex. elluj, á till ä framför i och u fungerar ej, inga kontrakta fungerar. Lagt in nya uddastaviga i november, dessa fungerar dock ej varken odd eller odd g.
 
 
 ålol:ullul N_ODD_CG_VV ; 
