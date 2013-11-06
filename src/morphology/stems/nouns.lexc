@@ -45,7 +45,8 @@ räjjdo N_EVEN "työkalu" ;
 namma N_EVEN "nimi" ; 
 vuorrpe N_EVEN "onni, arpa" ;
 
-!OBS genomgånget i augusti, de flesta omljud är ännu inte inlagda, com.sg i o-stammar fungerar ej, ill.sg i e-stammar fungerar ej, vissa stadieväxlingar fungerar ej, inga kontrakta fungerar
+!OBS genomgånget i november, de flesta omljud är ännu inte inlagda, ex. omljud framför u i andra stavelsen i o-stammar ex. elluj, á till ä framför i och u fungerar ej, inga kontrakta fungerar 
+
 
 ålol:ullul N_ODD_CG_VV ; 
 
@@ -58,31 +59,33 @@ hábres:hábbrá SARVES ;
 åbbá N_EVEN_NOCG "bb syster" ;
 
 áddjá N_EVEN "dj" ; !fungerar
-ájjge N_EVEN "jg tid" ; !fungerar allt utom ill.sg
-ájjro N_EVEN "jr" ; !fungerar alla former utom com.sg u framför j i svagstadium 
+ájjge N_EVEN "jg tid" ; !fungerar 
+ájjro N_EVEN "jr" ; !omljud á till ä fungerar ej com.sg u framför j i svagstadium fungerar ej 
 áhkká N_EVEN "hk" ; !fungerar
-áhpe N_EVEN "b" ; !fungerar allt utom ill.sg
+áhpe N_EVEN "b" ; !ä- omljud framför i fungerar ej på e-stammarna
 áhttje N_EVEN " htj far" ; !svagstadium fungerar ej
-ája:ádjag BIENA ; !fungerar ej
-
-ákksjo N_EVEN "ksj" ; !fungerar allt utom com.sg, uj 
-álldo N_EVEN "ld renko" ; !fungerar allt utom com.sg uj
-Árjapluovve N_EVEN "v" ; !svagstadium fungerar ej
-árrbe N_EVEN "rb arv" ; !fungerar  allt utom ill.sg
-árrpo N_EVEN "rp" ; !fungerar 
-átjárájjde N_EVEN "jd blixt, oväder" ; !svagstadium fungerar ej
-ávvke N_EVEN "vk" ; !nominativ finns ej, stadieväxling fungerar ej
-ávvo N_EVEN "v lycka" ; !fungerar allt utom com.sg u-ljud
-albme N_EVEN "lm himmel" ; !fungerar allt utom sg.ill
-asske N_EVEN "sk" ; !fungerar allt utom ill.sg 
+ája:ádjag BIENA ; !fungerar
+ákksjo N_EVEN "ksj" ; !omljud á till ä fungerar ej,  com.sg u framför j i svagstadium fungerar ej  
+álldo N_EVEN "ld renko" ; !omljud á till ä fungerar ej,  com.sg u framför j i svagstadium fungerar ej 
+Árjapluovve N_EVEN "v" ; !u- omljud fungerar ej
+árran N_ODD "eldstad" ;
+árrbe N_EVEN "rb arv" ; !u- omljud fungerar ej  
+árrpo N_EVEN "rp" ; !omljud á till ä fungerar ej ex. com.sg u framför j i svagstadium fungerar ej  
+átjárájjde N_EVEN "jd blixt, oväder" ; !
+átjek:átje N_ODD_G "åska" ;
+ávvke N_EVEN "vk" ; !stadieväxling fungerar ej
+ávvo N_EVEN "v lycka" ; !
+albme N_EVEN "lm himmel" ; !
+asske N_EVEN "sk" ; ! 
 bahta N_EVEN "d stjärt, rumpa" ;
+báhttja N_EVEN "htj pojke" ;
 bena:bednag BIENA "koira" ; !fungerar
-biedno N_EVEN "n bön, andakt" ; !fungerar allt utom com.sg uj
-biehkke N_EVEN "hk bit" ; !stadieväxling fungerar, i-former fungerar ej
-biehtse N_EVEN "ts" ; !fungerar alla former utom ill.sg.
-bielle N_EVEN "l sida" ; !fungerar allt utom i-former och ill.sg
+bednik:bedni N_ODD_G "pengar" ; !kolla
+biedno N_EVEN "n bön, andakt" ; !
+biehtse N_EVEN "ts" ; !
+bielle N_EVEN "l sida" ; ! 
 biena:biednag BIENA "koira" ; !fungerar
-biesse N_EVEN "s fågelbo" ; !fungerar allt utom i-former
+biesse N_EVEN "s fågelbo" ; !
 bievvla N_EVEN "vl" ; 
 bijjla N_EVEN "jl" ; 
 bijjpa N_EVEN "jp" ; 
@@ -111,7 +114,8 @@ båtsojlahkke N_EVEN "hk xxx" ;
 båttkå N_EVEN "tk" ; 
 bäbbmo N_EVEN "bm mat" ;  
 bäjjve N_EVEN "jv dag, sol" ;
-bäjjsko N_EVEN "jsk" ; 
+bäjjsko N_EVEN "jsk" ;
+bähkke N_EVEN "hk bit" ; !stadieväxling fungerar, i-former fungerar ej
 bälle N_EVEN "l sida" ;
 bäŋŋka N_EVEN "ŋk" ;
 bärdna N_EVEN "rn björn" ;
@@ -120,16 +124,19 @@ bässe N_EVEN_NOCG "ss näver" ;
 bävvde N_EVEN "vd bord" ; 
 bävvla N_EVEN "vl" ; 
 dábbde N_EVEN "bd" ; 
-dáffo N_EVEN "f trakt (dán dáfon här i trakten)" ; !svagstadium fungerar ej
+dáffo N_EVEN "f trakt (dán dáfon här i trakten)" ; !
 dállve N_EVEN "lv vinter" ;
 dámmba N_EVEN "mb" ; 
 dámmpa N_EVEN "mp" ; 
 didnadäddje N_EVEN_NOCG "de som ropar/skriker" ;
 didnadäjje N_EVEN_NOCG "de som ropar/skriker" ;
+
 dimbar N_ODD_CG "mmb" ; !stadieväxling fungerar ej
 duädde N_EVEN_NOCG ; 
 dåbbmobäjjve N_EVEN "j domedagen" ;
-dållå N_EVEN "l eld" ; 
+dåktor:dåktor N_ODD "läkare" ;
+dållå N_EVEN "l eld" ;
+däbmuk:däbmu N_ODD_G "öring" ; !kolla
 fáhttsa N_EVEN "hts" ; 
 fállfo N_EVEN "lf" ; 
 fáttme N_EVEN "tm" ; 
@@ -140,6 +147,7 @@ fävvsa N_EVEN "vs ladugård" ;
 gabbnja N_EVEN "bnj" ; 
 gádde N_EVEN_NOCG "dd strand" ; 
 gadtsa N_EVEN_NOCG ; 
+gahper:gahper N_ODD "mössa" ;
 gájjse N_EVEN "j" ; 
 gájjtsa N_EVEN "jts get" ;
 gajtsamällke N_EVEN "lk getmjölk" ;
@@ -148,6 +156,7 @@ gappte N_EVEN "pt" ;
 gárrde N_EVEN "rd" ; 
 gárrtsa N_EVEN "rts" ; 
 gasskaijja N_EVEN "j midnatt" ;
+gerun:gerun N_ODD "ripa" ;
 gidda N_EVEN "d" ;
 giđđa N_EVEN "đ vår" ;
 giehta N_EVEN "d hand" ;
@@ -164,11 +173,13 @@ guarrba N_EVEN "rb" ;
 gukte N_EVEN_NOCG "hur, så som" ;
 gummo:gum'mo N_EVEN_NOCG "mm gumma" ;
 gummpi N_EVEN "mp varg" ; 
-guobbla N_EVEN "bl" ; 
+guobbla N_EVEN "bl" ;
+guobbar:guobbar N_ODD "svamp" ;
+guohper:guohper N_ODD "klöv" ;
 guolle N_EVEN "l" ; 
-guosmak N_ODD_CG "ssm kaffe" ; !stadieväxling fungerar ej
+guosmak N_ODD_CG "ssm kaffe" ; !stadieväxling fungerar ej, ej heller att -k ska växla till -g
 gurbmá N_EVEN "m" ; 
-gurmmá N_EVEN "m" ; ! dialekt?
+gurrmá N_EVEN "m" ; ! 
 gurrte N_EVEN "rt" ; 
 gusamällke N_EVEN "l komjölk" ;
 gussa N_EVEN "s ko" ;
@@ -182,12 +193,11 @@ gårrtje N_EVEN "rtj" ;
 gåvdnje N_EVEN "vnj" ; 
 gäbdne N_EVEN "bn" ; 
 gädde N_EVEN_NOCG "vall" ;
-gähtto N_EVEN "ht berättelse" ;
+gähtto N_EVEN "ht berättelse" ; !u- omljud fungerar ej
 gäjdno N_EVEN "jn väg" ;
 gärrge N_EVEN "rg sten" ;
 gärrgelahpa N_EVEN "b stenblock (överskjutande)" ;
 gättke N_EVEN "tk" ; 
-
 happsa N_EVEN "ps" ; 
 huvvsa N_EVEN "vs" ; 
 hägga N_EVEN_NOCG "gg liv" ;
@@ -195,6 +205,9 @@ hälbme N_EVEN "lm kjol" ;
 härrge N_EVEN "rg härk, renoxe" ;
 härrá N_EVEN_NOCG "rr" ; 
 idja N_EVEN "j natt" ;
+iednam:iednam N_ODD "land, mark" ;
+iehket:iehked N_ODD "kväll" ;
+iejgát:iejgád N_ODD "föräldrar" ;
 ijja N_EVEN "j natt" ;
 jahke N_EVEN "g år" ;
 jávvre N_EVEN "vr sjö" ;
@@ -229,7 +242,8 @@ luäppte N_EVEN "pt" ;
 lådde N_EVEN_NOCG ; 
 lånestäddje N_EVEN "dj frälsare" ; 
 länjggá N_EVEN "jg" ; 
-lännska N_EVEN "nsk" ; 
+lännska N_EVEN "nsk" ;
+máddár:máddár N_ODD "rot" ;
 mannje N_EVEN "nj" ; 
 mánno N_EVEN "n måne" ;
 mánná N_EVEN "n barn" ;
@@ -248,7 +262,8 @@ nieđđa N_EVEN_NOCG "đđ nöd" ;
 nijjbe N_EVEN "jb kniv" ;
 njalla N_EVEN "l härbre" ;
 njidtje N_EVEN_NOCG ; 
-njisjkom N_ODD "vävsked" ; 
+njisjkom N_ODD "vävsked" ;
+njåmmel:njåmmel N_ODD "hare" ;
 nuohtte N_EVEN "ht not (fiske)" ;
 nåjjde N_EVEN "jd nåjd" ;
 näggda N_EVEN "gd" ; 
@@ -265,7 +280,7 @@ rássjo N_EVEN "sj regn" ;
 rassta N_EVEN "st över" ;
 rávdno N_EVEN "vn" ;
 rávve N_EVEN "v" ; 
-rebij:rehpiha N_ODD_CG "räv" ; ! kolla
+rebij:rehpiha BIENA "räv" ; ! kolla
 rijjka N_EVEN "jk rike" ;
 rimmste N_EVEN "mst" ; 
 rissja N_EVEN "sj" ; 
@@ -292,6 +307,7 @@ sijjda N_EVEN " jd flyttlag" ;
 sillba N_EVEN "lb silver" ;
 sivvun N_ODD "sel" ; !fungerar
 skájjde N_EVEN "jd älvsammanflöde" ;
+Skerutj:skerutj N_ODD "ortnamn" ;
 skuojjve N_EVEN "jv skepnad" ;
 skuvvle N_EVEN "vl skola" ;
 skåvvlå N_EVEN "vl skola" ;
@@ -307,7 +323,8 @@ stänntjo N_EVEN "ntj" ;
 
 suohkan N_ODD "socken" ; !fungerar
 suoŋŋer N_ODD ; !fungerar
-suptsas N_ODD_CG "ptts berättelse, saga" ; !nytt
+suorbmas:suorbmas N_ODD "ring" ;
+suptsas N_ODD_CG "ppts berättelse, saga" ; !nytt kolla
 suäjdne N_EVEN "jn hö" ;
 suäŋŋer N_ODD ; !fungerar
 svallfo N_EVEN "lf" ; 
@@ -319,25 +336,30 @@ tea N_EVEN_NOCG "te" ;
 tjáhtje N_EVEN "tj" ; 
 tjáhtse N_EVEN "ts vatten" ;
 tjakktja N_EVEN "ktj höst" ;
-tjarrva N_EVEN "rv" ; 
+tjarrva N_EVEN "rv" ;
+tjiehtjer:tjiehtjer N_ODD "lillfinger" ;
+tjierbmak:tjierbma N_ODD_G "ettårs ren" ;
 tjuavvtja N_EVEN "vtj" ; 
 tjukktje N_EVEN " ktj tjädertupp" ;
+tjuojgus:tjuojgus N_ODD "ljus" ;
 tjuvvde N_EVEN "vd finger" ;
 tjårrve N_EVEN "rv horn" ;
-tjäkktja N_EVEN "ktj" ; 
+tjäkktja N_EVEN "ktj" ;
+tjällár:tjällár N_ODD "källare" ;
 tjänntá N_EVEN "nt" ; 
 tjännsta N_EVEN "nst" ; 
 tsuabbtsa N_EVEN "bts" ; 
 tsuapptsa N_EVEN "pts" ; 
 
 ukksa N_EVEN "ks" ; 
-vágge N_EVEN_NOCG "dal" ; !fungerar alla former utom sg.ill.
+vágge N_EVEN_NOCG "dal" ; !
 vájbmo N_EVEN "jm hjärta" ; 
 vájmmo N_EVEN "jm hjärta" ; 
 vanas N_ODD_CG "båt" ; !fungerar
 vanntsa N_EVEN "nts" ;
 vassje N_EVEN "sj hat" ;
 várre N_EVEN "r berg, fjäll" ;
+vieráld:vieráld N_ODD "världen" ;
 vierro N_EVEN "r offer" ;
 vierrodimájjge N_EVEN "jg offertid" ;
 vippsja N_EVEN "psj" ; 

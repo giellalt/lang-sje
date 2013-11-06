@@ -98,7 +98,7 @@ LEXICON N_ODD_VV
 +N+Sg+Nom:%^MONB4J PX ;
 +N: ODD_OBLIQUE ;
 
-LEXICON N_ODD_CG !stadieväxling fungerar ej
+LEXICON N_ODD_CG 
 +N+Sg+Nom:%^WG PX ;
 +N: ODD_OBLIQUE ;
 
@@ -110,6 +110,9 @@ LEXICON N_ODD
 +N+Sg+Nom: PX ;
 +N: ODD_OBLIQUE ;
 
+LEXICON N_ODD_G
++N+Sg+Nom: PX ;
++N: ODD_OBLIQUE_U ;
 
 LEXICON ODD_OBLIQUE
 +Abe:ahtá PX ;
@@ -137,26 +140,26 @@ LEXICON ODD_OBLIQUE_COMMON
 
 
 LEXICON ODD_OBLIQUE_U
-+Abe:uhtá PX ;
++Abe:gahtá PX ;
 ODD_OBLIQUE_U_COMMON ;
 
 LEXICON ODD_OBLIQUE_U_COMMON
-+Sg+Acc:uv PX ;
-+Sg+Gen:u PX ;
-+Sg+Ill:uj PX ;
-+Sg+Ine:un PX ;
-+Sg+Ela+Use/Sub:us PX ; 
-+Sg+Ela:ust PX ; 
-+Sg+Com:ujn PX ;
-+Ess:un PX ;
-+Pl+Nom:u PX ;
-+Pl+Acc:ujt PX ;
-+Pl+Gen:uj PX ;
-+Pl+Ill:ujda PX ;
-+Pl+Ine:ujn PX ;
-+Pl+Ela+Use/Sub:ujs PX ;
-+Pl+Ela:ujst PX ;
-+Pl+Com:uj PX ;
++Sg+Acc:gav PX ;
++Sg+Gen:ga PX ;
++Sg+Ill:gij PX ;
++Sg+Ine:gin PX ;
++Sg+Ela+Use/Sub:gis PX ; 
++Sg+Ela:gist PX ; 
++Sg+Com:gijn PX ;
++Ess:gin PX ;
++Pl+Nom:ga PX ;
++Pl+Acc:gijt PX ;
++Pl+Gen:gij PX ;
++Pl+Ill:gijda PX ;
++Pl+Ine:gijn PX ;
++Pl+Ela+Use/Sub:gijs PX ;
++Pl+Ela:gijst PX ;
++Pl+Com:gij PX ;
 
 
 ! contracted
