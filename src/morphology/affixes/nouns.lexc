@@ -102,6 +102,18 @@ LEXICON N_ODD_CG
 +N+Sg+Nom:%^WG PX ;
 +N: ODD_OBLIQUE ;
 
+LEXICON N_ODD_CG_A 
++N+Sg+Nom:%^WG PX ;
++N: ODD_OBLIQUE_A ;
+
+LEXICON N_ODD_CG_B 
++N+Sg+Nom:%^WG PX ;
++N: ODD_OBLIQUE_B ;
+
+LEXICON N_ODD_CG_C 
++N+Sg+Nom:%^WG PX ;
++N: ODD_OBLIQUE_C ;
+
 LEXICON N_ODD_CG_VV
 +N+Sg+Nom:%^WG%^MONB4J PX ;
 +N: ODD_OBLIQUE ;
@@ -114,9 +126,33 @@ LEXICON N_ODD_G
 +N+Sg+Nom: PX ;
 +N: ODD_OBLIQUE_U ;
 
+LEXICON N_ODD_D
++N+Sg+Nom: PX ;
++N: ODD_OBLIQUE_D ;
+
 LEXICON ODD_OBLIQUE
 +Abe:ahtá PX ;
 ODD_OBLIQUE_COMMON ;
+
+LEXICON ODD_OBLIQUE_A
++Abe:usahtá PX ;
+ODD_OBLIQUE_COMMON_A ;
+
+LEXICON ODD_OBLIQUE_B
++Abe:ásahtá PX ;
+ODD_OBLIQUE_COMMON_B ;
+
+LEXICON ODD_OBLIQUE_C
++Abe:hahtá PX ;
+ODD_OBLIQUE_COMMON_C ;
+
+LEXICON ODD_OBLIQUE_D
++Abe:gahtá PX ;
+ODD_OBLIQUE_D_COMMON ;
+
+LEXICON ODD_OBLIQUE_U
++Abe:gahtá PX ;
+ODD_OBLIQUE_U_COMMON ;
 
 LEXICON ODD_OBLIQUE_COMMON
 +Sg+Acc:av PX ;
@@ -138,10 +174,66 @@ LEXICON ODD_OBLIQUE_COMMON
 +Pl+Ela:ijst PX ;
 +Pl+Com:ij PX ;
 
+LEXICON ODD_OBLIQUE_COMMON_A
++Sg+Acc:usav PX ;
++Sg+Gen:usa PX ;
++Sg+Ill:usij PX ;
++Sg+Ine:usin PX ;
++Sg+Ela+Use/Sub:usis PX ; 
++Sg+Ela:usist PX ; 
++Sg+Com:usijn PX ;
++Ess:usin PX ;
 
-LEXICON ODD_OBLIQUE_U
-+Abe:gahtá PX ;
-ODD_OBLIQUE_U_COMMON ;
+
++Pl+Nom:usa PX ;
++Pl+Acc:usijt PX ;
++Pl+Gen:usij PX ;
++Pl+Ill:usijda PX ;
++Pl+Ine:usijn PX ;
++Pl+Ela+Use/Sub:usijs PX ;
++Pl+Ela:usijst PX ;
++Pl+Com:usij PX ;
+
+LEXICON ODD_OBLIQUE_COMMON_B
++Sg+Acc:ásav PX ;
++Sg+Gen:ása PX ;
++Sg+Ill:ásij PX ;
++Sg+Ine:ásin PX ;
++Sg+Ela+Use/Sub:ásis PX ; 
++Sg+Ela:ásist PX ; 
++Sg+Com:ásijn PX ;
++Ess:ásin PX ;
+
+
++Pl+Nom:ása PX ;
++Pl+Acc:ásijt PX ;
++Pl+Gen:ásij PX ;
++Pl+Ill:ásijda PX ;
++Pl+Ine:ásijn PX ;
++Pl+Ela+Use/Sub:ásijs PX ;
++Pl+Ela:ásijst PX ;
++Pl+Com:ásij PX ;
+
+LEXICON ODD_OBLIQUE_COMMON_C
++Sg+Acc:hav PX ;
++Sg+Gen:ha PX ;
++Sg+Ill:hij PX ;
++Sg+Ine:hin PX ;
++Sg+Ela+Use/Sub:his PX ; 
++Sg+Ela:hist PX ; 
++Sg+Com:hijn PX ;
++Ess:hin PX ;
+
+
++Pl+Nom:ha PX ;
++Pl+Acc:hijt PX ;
++Pl+Gen:hij PX ;
++Pl+Ill:hijda PX ;
++Pl+Ine:hijn PX ;
++Pl+Ela+Use/Sub:hijs PX ;
++Pl+Ela:hijst PX ;
++Pl+Com:hij PX ;
+
 
 LEXICON ODD_OBLIQUE_U_COMMON
 +Sg+Acc:gav PX ;
@@ -160,6 +252,24 @@ LEXICON ODD_OBLIQUE_U_COMMON
 +Pl+Ela+Use/Sub:gijs PX ;
 +Pl+Ela:gijst PX ;
 +Pl+Com:gij PX ;
+
+LEXICON ODD_OBLIQUE_D_COMMON
++Sg+Acc:dav PX ;
++Sg+Gen:da PX ;
++Sg+Ill:dij PX ;
++Sg+Ine:din PX ;
++Sg+Ela+Use/Sub:dis PX ; 
++Sg+Ela:dist PX ; 
++Sg+Com:dijn PX ;
++Ess:din PX ;
++Pl+Nom:da PX ;
++Pl+Acc:dijt PX ;
++Pl+Gen:dij PX ;
++Pl+Ill:dijda PX ;
++Pl+Ine:dijn PX ;
++Pl+Ela+Use/Sub:dijs PX ;
++Pl+Ela:dijst PX ;
++Pl+Com:dgij PX ;
 
 
 ! contracted
@@ -196,7 +306,9 @@ LEXICON CONTR-OTH
 
 ! under construction
 
-LEXICON N_CONTR_C
+
+
+LEXICON N_CONTR_C_Å
 ÅLMAAJ ; 
 
 LEXICON ÅLMAAJ
