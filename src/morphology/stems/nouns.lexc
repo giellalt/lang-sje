@@ -45,10 +45,8 @@ räjjdo N_EVEN "työkalu" ;
 namma N_EVEN "nimi" ; 
 vuorrpe N_EVEN "onni, arpa" ;
 
-!OBS genomgånget i november, de flesta omljud är ännu inte inlagda, ex. omljud framför u i andra stavelsen i o-stammar ex. elluj, á till ä framför i och u fungerar ej, inga kontrakta fungerar. Lagt in nya uddastaviga i november, dessa fungerar dock ej varken odd eller odd g.
-
-
-ålol:ullul N_ODD_CG_VV ; 
+!OBS genomgånget i november, de flesta omljud är ännu inte inlagda, ex. omljud framför u i andra stavelsen i o-stammar ex. elluj, á till ä framför i och u fungerar ej, inga kontrakta fungerar. 
+ 
 
 båtsoj:buhtsu SUOLOJ ; 
 suoloj:suollu SUOLOJ ; ! N_CONTR
@@ -85,6 +83,7 @@ biedno N_EVEN "n bön, andakt" ; !
 biehtse N_EVEN "ts" ; !
 bielle N_EVEN "l sida" ; ! 
 biena:biednag BIENA "koira" ; !fungerar
+bieraj:bierra N_ODD_CG_C "släkting" ; !kolla
 biesse N_EVEN "s fågelbo" ; !
 bievvla N_EVEN "vl" ; 
 bijjla N_EVEN "jl" ; 
@@ -124,14 +123,15 @@ bässe N_EVEN_NOCG "ss näver" ;
 bävvde N_EVEN "vd bord" ; 
 bävvla N_EVEN "vl" ; 
 dábbde N_EVEN "bd" ; 
-dáffo N_EVEN "f trakt (dán dáfon här i trakten)" ; !
+dáffo N_EVEN "f trakt (dán dáfon här i trakten)" ; 
+dálkas:dálkkas N_ODD_CG "medicin" ; !kolla
 dállve N_EVEN "lv vinter" ;
 dámmba N_EVEN "mb" ; 
 dámmpa N_EVEN "mp" ; 
 didnadäddje N_EVEN_NOCG "de som ropar/skriker" ;
 didnadäjje N_EVEN_NOCG "de som ropar/skriker" ;
 
-dimbar N_ODD_CG "mmb" ; !stadieväxling fungerar ej
+dimbar:dimmbar N_ODD_CG "mmb" ; !kolla
 duädde N_EVEN_NOCG ; 
 dåbbmobäjjve N_EVEN "j domedagen" ;
 dåktor:dåktor N_ODD "läkare" ;
@@ -151,6 +151,7 @@ gahper:gahper N_ODD "mössa" ;
 gájjse N_EVEN "j" ; 
 gájjtsa N_EVEN "jts get" ;
 gajtsamällke N_EVEN "lk getmjölk" ;
+gáma:gábmag BIENA "sko" ; !kolla
 gámmsa N_EVEN "ms" ; 
 gappte N_EVEN "pt" ; 
 gárrde N_EVEN "rd" ; 
@@ -161,9 +162,13 @@ gidda N_EVEN "d" ;
 giđđa N_EVEN "đ vår" ;
 giehta N_EVEN "d hand" ;
 giehtje N_EVEN "tj" ; 
+gielbar:gällbara N_ODD_CG "snödriva" ; !kolla
+gieles:gällás N_ODD_CG "lögn" ; !kolla
+gierma:gärmmaha N_ODD_CG "orm" ; !kolla
 giesse N_EVEN "s sommar" ;
 giessebäjjve N_EVEN "j sommardag" ;
-gimmsja N_EVEN "msj" ; 
+gimmsja N_EVEN "msj" ;
+ginij:gidni N_ODD_CG_C "vittra" ; !kolla 
 gintal N_ODD ; !fungerar
 girrje N_EVEN "rj" ; 
 girrko N_EVEN "rk" ; 
@@ -206,13 +211,14 @@ härrge N_EVEN "rg härk, renoxe" ;
 härrá N_EVEN_NOCG "rr" ; 
 idja N_EVEN "j natt" ;
 iednam:iednam N_ODD "land, mark" ;
-iehket:iehked N_ODD "kväll" ;
-iejgát:iejgád N_ODD "föräldrar" ;
+iehket:iehke N_ODD_D "kväll" ;
+iejgát:iejgá N_ODD_D "föräldrar" ; !kolla
 ijja N_EVEN "j natt" ;
 jahke N_EVEN "g år" ;
 jávvre N_EVEN "vr sjö" ;
 jávvrelådde N_EVEN_NOCG "dd sjöfågel" ;
-jiegŋa N_EVEN "ŋ" ; 
+jiegŋa N_EVEN "ŋ" ;
+judos:juht N_ODD_CG_A "djur" ; !kolla 
 juovva N_EVEN "v stor sten" ;
 jåhkå N_EVEN "g älv" ;
 jåhkågádde N_EVEN_NOCG "dd strand" ;
@@ -248,6 +254,7 @@ mannje N_EVEN "nj" ;
 mánno N_EVEN "n måne" ;
 mánná N_EVEN "n barn" ;
 mánnábálle N_EVEN "l barndom" ;
+muohta:muahttag BIENA "snö" ; !kolla
 muorra N_EVEN "r träd" ;
 muvvra N_EVEN "vr" ; 
 mällke N_EVEN "lk mjölk" ;
@@ -280,7 +287,7 @@ rássjo N_EVEN "sj regn" ;
 rassta N_EVEN "st över" ;
 rávdno N_EVEN "vn" ;
 rávve N_EVEN "v" ; 
-rebij:rehpiha BIENA "räv" ; ! kolla
+rebij:rehpi N_ODD_CG_C "räv" ; ! kolla
 rijjka N_EVEN "jk rike" ;
 rimmste N_EVEN "mst" ; 
 rissja N_EVEN "sj" ; 
@@ -297,6 +304,7 @@ sáffta N_EVEN "ft" ;
 sálbmavärrsa N_EVEN "rs psalmvers" ;
 sállte N_EVEN "lt" ; 
 sámesijjda N_EVEN "jd" ;
+sárjas:sárjjas N_ODD_CG "sår" ; !kolla
 sávvtsa N_EVEN "vts" ; 
 sarves:sarrvá N_CONTR_C "rentjur" ;
 sassne N_EVEN "sn skinn" ; 
@@ -324,7 +332,7 @@ stänntjo N_EVEN "ntj" ;
 suohkan N_ODD "socken" ; !fungerar
 suoŋŋer N_ODD ; !fungerar
 suorbmas:suorbmas N_ODD "ring" ;
-suptsas N_ODD_CG "ppts berättelse, saga" ; !nytt kolla
+suptsas:supptsas N_ODD_CG "ppts berättelse, saga" ; !nytt kolla
 suäjdne N_EVEN "jn hö" ;
 suäŋŋer N_ODD ; !fungerar
 svallfo N_EVEN "lf" ; 
@@ -336,6 +344,7 @@ tea N_EVEN_NOCG "te" ;
 tjáhtje N_EVEN "tj" ; 
 tjáhtse N_EVEN "ts vatten" ;
 tjakktja N_EVEN "ktj höst" ;
+tjála:tjállag BIENA "skrift" ; !kolla
 tjarrva N_EVEN "rv" ;
 tjiehtjer:tjiehtjer N_ODD "lillfinger" ;
 tjierbmak:tjierbma N_ODD_G "ettårs ren" ;
@@ -373,11 +382,12 @@ vuävvda N_EVEN "vd skog,skogsland" ;
 vähkke N_EVEN "hk hjälp" ;
 vällja N_EVEN "lj bror" ;
 
-åbba N_EVEN_NOCG "syster" ; 
+åbba N_EVEN_NOCG "syster" ;
+åhpes:åhpp N_ODD_CG_B "bekant, vägvisare" ; !kolla 
 åjvevuolle N_EVEN "l huvudkudde" ;
 åkkse N_EVEN "ks gren" ;
-ålol:ullula N_ODD_CG "käke" ; 
-ålmaj ÅLMAAJ "man" ;
+ålol:ullul N_ODD_CG_VV "käke" ;
+ålmaj:ålbm N_CONTR_C_Å "man" ; !kolla!
 årrdå N_EVEN "rd trädgräns" ;
 åsse N_EVEN "s del" ;
 äddne N_EVEN "dn mor" ;
