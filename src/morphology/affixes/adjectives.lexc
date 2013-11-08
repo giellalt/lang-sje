@@ -27,7 +27,7 @@ LEXICON A_EVEN_A !!= * @CODE@ (koden betyder att allt vänster om sparas i dokum
 +A:%^WG 	COMPSUP ;
 
 LEXICON A_EVEN_AA !!= * @CODE@ är likastaviga ocskå med a-attr ???!!
-+A+Attr:%^WG%>a #		;
++A+Attr:%^WG%>a #		; !fungerar ej
 +A:e 		    A_EVEN  ;
 +A:%^WG%>e		COMPSUP ; 
 
@@ -37,7 +37,7 @@ LEXICON A_EVEN_BB !!= @CODE@ är likastaviga ocskå med a-attr ???!!
 +A:e COMPSUP_A ; 
 
 LEXICON A_EVEN_E !!= * @CODE@ är likastaviga med e-attr
-+A+Attr:%^WG%>e # ;
++A+Attr:%^WG%>e # ; 
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
@@ -113,6 +113,15 @@ LEXICON COMPSUP_A !!= * @CODE@
 +Superl:%^WG%>mussa EVENCASE ;
 +Superl:%^WG%>mussa%^WG  N_EVEN_W ; ! CG here
 
+LEXICON COMPSUP_B !!= * @CODE@ 
++Comp+Sg+Nom:%>p # ;
++Comp+Attr:%>p # ;
++Comp:%>b ODD_OBLIQUE_U_COMMON ;
+
++Superl+Sg+Nom:%>mus # ;
++Superl+Attr:%>mus # ;
++Superl:%>mussa EVENCASE ;
++Superl:%>mussa%^WG  N_EVEN_W ; ! CG here
 
 
 LEXICON A_ODD !!= * @CODE@ är uddastaviga
@@ -452,7 +461,7 @@ LEXICON A_ODD_ÄÄ  !!= @CODE@ är uddastaviga ex rájnes:rájjnas-
 +A:jnas ODD_OBLIQUE_COMMON ;
 +A:jnas ODD_COMPSUP ;
 
-LEXICON A_ODD_ÖÖ  !!= @CODE@ är uddastaviga ex rádes, rádep
+LEXICON A_ODD_ÖÖ  !!= @CODE@ är uddastaviga ex rádes, rádep !kolla compsup
 +A+Attr:es # ;
 +A+Sg+Nom:es PX ;
 +A:dás ODD_OBLIQUE_COMMON ;
@@ -486,19 +495,19 @@ LEXICON A_EVEN_KONTR_B !!= @CODE@, exempel gärrgáj:gärrgá-
 +A+Attr:jis # ;
 +A+Sg+Nom:j PX ;
 +A: A_EVEN_NOCG ;
-+A: COMPSUP ;
++A: COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_C !!= @CODE@, exempel sjtänntjáj:sjtänntjá
 +A+Attr:s # ;
 +A+Sg+Nom:j PX ;
 +A: A_EVEN_NOCG ;
-+A: COMPSUP ;
++A: COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_D !!= @CODE@, exempel låmmsjáj:låmmsjá/låmmsjes (attr)
 +A+Attr:sjes # ;
 +A+Sg+Nom:msjáj PX ;
 +A:msjá A_EVEN_NOCG ;
-+A:msjá COMPSUP ;
++A:msjá COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_E !!= @CODE@, exempel mivkes:mivkká-/mivka (attr)
 +A+Attr:ka # ;
@@ -510,10 +519,12 @@ LEXICON A_EVEN_KONTR_F !!= @CODE@, exempel buässjáj:buässjá/buosjes (attr)
 +A+Attr:osjes # ;
 +A+Sg+Nom:ässjáj PX ;
 +A:ässjá A_EVEN_NOCG ;
-+A:ässjá COMPSUP ;	
++A:ässjá COMPSUP_B ;	
 
 LEXICON A_EVEN_KONTR_G !!= @CODE@, exempel suvres:suvvrá/suvra (attr)
 +A+Attr:ra # ;
 +A+Sg+Nom:res PX ;
 +A:vrá A_EVEN_NOCG ;
-+A:vrá COMPSUP ;
++A:vrá COMPSUP_B ;
+
+
