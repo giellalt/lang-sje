@@ -13,7 +13,6 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Adjective
-stuorre A_EVEN_A ;
 
 állke A_EVEN_NOCG_S ; !finns i två former állkep, álkep
 almelalatj:almela A_EVEN_D ; !växlar till almeladtja vid komparering
@@ -26,7 +25,7 @@ buäjjde A_EVEN_B ;
 bånndá A_EVEN_B ;  
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
-guhkke A_EVEN_AA ; !kolla om det fungerar
+guhkke A_EVEN_AA ; !fungerar ej
 gåbbde A_EVEN_B ;
 gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos 
 gähppe A_EVEN_B ; 
@@ -54,13 +53,13 @@ slinntso A_EVEN_B ;
 smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
-sägge A_EVEN_NOCG_S ; !siegges, omljud fungerar ej
+sägge A_EVEN_NOCG_S ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
 tjábbe:tjább A_EVEN_BB ; !funkar 
 tjåvvgå A_EVEN_IES ; 
-tjavvga A_EVEN_0 ; ! kolla om det funkar, dubbelcheckat hit
+tjavvga A_EVEN_0 ; ! fungerar
 
 
-tjähppe A_EVEN_B ;
+tjähppe A_EVEN_B ; !funkar, även omljud
 uhttse A_EVEN_B ; !stadieväxling fungerar ej
 unne A_EVEN_BB ; !kolla om det funkar
 vájjve A_EVEN_B ;
@@ -106,7 +105,8 @@ vassjal A_ODD ;
 suddes:sudd A_ODD_AA ;  
 tjavdes:tjav A_ODD_C ; 
 tjåskes:tjås A_ODD_D ;  
-åhpes:åhp A_ODD_E ;  
+åhpes:åhp A_ODD_E ;
+stuorre A_EVEN_A ;
 stuores:stuor A_ODD_F ;  
 rádes:rád A_ODD_AA ;  !inlagt även alt.form rádep, rádemus
 rádes:rád A_ODD_ÖÖ ;  !inlagt även alt.form rádásup
@@ -183,15 +183,15 @@ gåjkes:gåj A_ODD_SS ; !
 låssåt:l A_ODD_UU ; !funkar ej i komp. det blir sss
 
 
-mivkes:miv A_EVEN_KONTR_E ; !ej testat härifrån
-suvres:suv A_EVEN_KONTR_G ;
+mivkes:miv A_EVEN_KONTR_E ; !fungerar
+suvres:suv A_EVEN_KONTR_G ; !komp. fungerar ej, ej heller kasus med j 
 buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje
-låmmsjáj:låm A_EVEN_KONTR_D ; 
-gärrgáj:gärrgá A_EVEN_KONTR_B ;
-sádnes:sád A_EVEN_KONTR_A ;
-mårráj:mårrá A_EVEN_KONTR_B ;
-hålláj:hållá A_EVEN_KONTR_B ;
-sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ;
+låmmsjáj:låm A_EVEN_KONTR_D ; !komparation fungerar ej
+gärrgáj:gärrgá A_EVEN_KONTR_B ; !komparation fungerar ej
+sádnes:sád A_EVEN_KONTR_A ; !komp. fungerar ej
+mårráj:mårrá A_EVEN_KONTR_B ; !komp fungerar ej
+hålláj:hållá A_EVEN_KONTR_B ; !komp fungerar ej, ej heller kasus med j
+sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ; !komp funger ej , ej heller kasus med j
 
 
 
