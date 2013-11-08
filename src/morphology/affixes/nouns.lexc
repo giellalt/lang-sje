@@ -116,7 +116,7 @@ LEXICON N_ODD_CG_C
 
 LEXICON N_ODD_CG_D 
 +N+Sg+Nom:%^WGk PX ;
-+N: ODD_OBLIQUE_U ;
++N: ODD_OBLIQUE_F ;
 
 LEXICON N_ODD_CG_E 
 +N+Sg+Nom:%^WG PX ;
@@ -132,7 +132,7 @@ LEXICON N_ODD
 
 LEXICON N_ODD_G
 +N+Sg+Nom:k PX ;
-+N: ODD_OBLIQUE_U ;
++N: ODD_OBLIQUE_F ;
 
 LEXICON N_ODD_D
 +N+Sg+Nom: PX ;
@@ -162,9 +162,9 @@ LEXICON ODD_OBLIQUE_E
 +Abe:ásahtá PX ;
 ODD_OBLIQUE_B_COMMON ;
 
-LEXICON ODD_OBLIQUE_U
+LEXICON ODD_OBLIQUE_F
 +Abe:gahtá PX ;
-ODD_OBLIQUE_U_COMMON ;
+ODD_OBLIQUE_F_COMMON ;
 
 LEXICON ODD_OBLIQUE_COMMON
 +Sg+Acc:av PX ;
@@ -247,7 +247,7 @@ LEXICON ODD_OBLIQUE_C_COMMON
 +Pl+Com:hij PX ;
 
 
-LEXICON ODD_OBLIQUE_U_COMMON
+LEXICON ODD_OBLIQUE_F_COMMON
 +Sg+Acc:gav PX ;
 +Sg+Gen:ga PX ;
 +Sg+Ill:gij PX ;
@@ -282,6 +282,28 @@ LEXICON ODD_OBLIQUE_D_COMMON
 +Pl+Ela+Use/Sub:dijs PX ;
 +Pl+Ela:dijst PX ;
 +Pl+Com:dgij PX ;
+
+LEXICON ODD_OBLIQUE_U_COMMON
++Sg+Acc:uv PX ;
++Sg+Gen:u PX ;
++Sg+Ill:uj PX ;
++Sg+Ine:un PX ;
++Sg+Ela+Use/Sub:us PX ; 
++Sg+Ela:ust PX ; 
++Sg+Com:ujn PX ;
++Ess:un PX ;
+
+
++Pl+Nom:u PX ;
++Pl+Acc:ujt PX ;
++Pl+Gen:uj PX ;
++Pl+Ill:ujda PX ;
++Pl+Ine:ujn PX ;
++Pl+Ela+Use/Sub:ujs PX ;
++Pl+Ela:ujst PX ;
++Pl+Com:uj PX ;
+
+
 
 
 ! contracted
