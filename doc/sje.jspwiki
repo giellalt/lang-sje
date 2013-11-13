@@ -83,6 +83,8 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
  * LEXICON COMPSUP_A  
 
 
+ * LEXICON COMPSUP_B  
+
 
 
  * LEXICON A_ODD  är uddastaviga
@@ -202,7 +204,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  LEXICON A_ODD_ÄÄ   är uddastaviga ex rájnes:rájjnas-
 
- LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep
+ LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
 
  * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
 
@@ -224,6 +226,8 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
  LEXICON A_EVEN_KONTR_F , exempel buässjáj:buässjá/buosjes (attr)
 
  LEXICON A_EVEN_KONTR_G , exempel suvres:suvvrá/suvra (attr)
+
+
 
 !!!Pite Sámi TWOLC file
 
