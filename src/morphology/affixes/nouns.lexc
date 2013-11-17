@@ -36,6 +36,7 @@ LEXICON N_EVEN_NOCG
 +N: EVENCASE ;
 +N: N_EVEN_W ; ! No CG here, ingen stadieväxling
 
+
 ! LEXICON N_EVEN_a
 ! N_EVEN ;
 ! LEXICON N_EVEN_e
@@ -90,6 +91,24 @@ LEXICON N_EVEN_J
 +Pl+Ill:da  K ; 
 +Pl+Com:    K ;
 
+LEXICON N_EVEN_B
++Sg+Gen:  K ;
++Sg+Acc:%>v  K ;
++Sg+Ine:%>n K ;
++Sg+Ela+Use/Sub:%>s K ;
++Sg+Ela:%>st K ;
++Abe:%>dak K ; ! Norm
++Pl+Nom:%>0  K ;
++Sg+Com:%>jn   K ; !norm
++Sg+Com:%>jna  K ; !variant
++Pl+Gen:%>j    K ;
++Pl+Acc:%>jt   K ;
++Pl+Ine:%>jn   K ;
++Pl+Ela+Use/Sub:%>js  K ;
++Pl+Ela:%>jst  K ; !norm
++Pl+Ill:%>jda  K ; 
++Pl+Com:    K ;
++Ess:%>n K ;
 
 ! odd-syllabic
 ! ------------

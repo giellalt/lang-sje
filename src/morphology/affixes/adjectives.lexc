@@ -92,6 +92,10 @@ LEXICON A_EVEN_NOCG !!= * @CODE@
 +A: N_EVEN_W ; ! No CG here
 +A:%^WG COMPSUP ;
 
+LEXICON A_EVEN_NOCG_B !nykonstruktion november kolla om det funkar 
++A: EVENCASE ;
++A: N_EVEN_B ; ! No CG here
+
 
 LEXICON COMPSUP !!= * @CODE@ 
 +Comp+Sg+Nom:%^WG%>p # ;
@@ -489,24 +493,24 @@ LEXICON A_EVEN_KONTR_A !!= @CODE@, exempel sádnes.sáddná-
 +A+Attr:nes # ;
 +A+Sg+Nom:nes PX ;
 +A:dná A_EVEN_NOCG ;
-+A:dná COMPSUP ;
++A:dná COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_B !!= @CODE@, exempel gärrgáj:gärrgá-
 +A+Attr:jis # ;
 +A+Sg+Nom:j PX ;
-+A: A_EVEN_NOCG ;
++A: A_EVEN_NOCG_B ;
 +A: COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_C !!= @CODE@, exempel sjtänntjáj:sjtänntjá
 +A+Attr:s # ;
 +A+Sg+Nom:j PX ;
-+A: A_EVEN_NOCG ;
++A: A_EVEN_NOCG_B ;
 +A: COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_D !!= @CODE@, exempel låmmsjáj:låmmsjá/låmmsjes (attr)
 +A+Attr:sjes # ;
 +A+Sg+Nom:msjáj PX ;
-+A:msjá A_EVEN_NOCG ;
++A:msjá A_EVEN_NOCG_B ;
 +A:msjá COMPSUP_B ;
 
 LEXICON A_EVEN_KONTR_E !!= @CODE@, exempel mivkes:mivkká-/mivka (attr)
@@ -518,13 +522,13 @@ LEXICON A_EVEN_KONTR_E !!= @CODE@, exempel mivkes:mivkká-/mivka (attr)
 LEXICON A_EVEN_KONTR_F !!= @CODE@, exempel buässjáj:buässjá/buosjes (attr)
 +A+Attr:osjes # ;
 +A+Sg+Nom:ässjáj PX ;
-+A:ässjá A_EVEN_NOCG ;
++A:ässjá A_EVEN_NOCG_B ;
 +A:ässjá COMPSUP_B ;	
 
 LEXICON A_EVEN_KONTR_G !!= @CODE@, exempel suvres:suvvrá/suvra (attr)
 +A+Attr:ra # ;
 +A+Sg+Nom:res PX ;
-+A:vrá A_EVEN_NOCG ;
++A:vrá A_EVEN_NOCG_B ;
 +A:vrá COMPSUP_B ;
 
 
