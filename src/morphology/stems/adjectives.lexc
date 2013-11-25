@@ -184,14 +184,14 @@ låssåt:l A_ODD_UU ; !funkar ej i komp. det blir sss
 
 
 mivkes:miv A_EVEN_KONTR_E ; !fungerar
-suvres:suv A_EVEN_KONTR_G ; !fungerar 
-buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje, kasus med j fungerar ej
-låmmsjáj:låm A_EVEN_KONTR_D ; !komparation fungerar ej
-gärrgáj:gärrgá A_EVEN_KONTR_B ; !komparation fungerar ej
-sádnes:sád A_EVEN_KONTR_A ; !komp. fungerar ej
-mårráj:mårrá A_EVEN_KONTR_B ; !komp fungerar
-hålláj:hållá A_EVEN_KONTR_B ; !komp fungerar, ej kasus med j
-sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ; !komp funger ej , ej heller kasus med j
+suvres:suv A_EVEN_KONTR_G ; !fungerar
+buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
+låmmsjáj:låm A_EVEN_KONTR_D ; !fungerar 
+gärrgáj:gärrgá A_EVEN_KONTR_B ; !fungerar 
+sádnes:sád A_EVEN_KONTR_A ; !fungerar 
+mårráj:mårrá A_EVEN_KONTR_B ; !fungerar
+hålláj:hållá A_EVEN_KONTR_B ; !fungerar
+sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ; !fungerar
 
 
 

@@ -117,96 +117,117 @@ dat+Pron+Det+Pl+Ine:duojn # ;
 dat+Pron+Det+Pl+Ela:duojs # ; 
 dat+Pron+Det+Pl+Com:duoj # ;
 
-LEXICON Relative !predikativ ställning
-gie+Pron+Det+Sg+Nom:ge # ;
-gie+Pron+Det+Sg+Acc:gev # ;
-gie+Pron+Det+Sg+Gen:gen # ;
-gie+Pron+Det+Sg+Ill:gesa # ;
-gie+Pron+Det+Sg+Ine:gänne # ;
-gie+Pron+Det+Sg+Ela:gässte # ;
-gie+Pron+Det+Sg+Com:gejna # ;
-gie+Pron+Det+Sg+Ess:gännen # ;
+LEXICON Relative 
+!ge, predikativ ställning
+gie+Pron+Rel+Sg+Nom:ge # ;
+gie+Pron+Rel+Sg+Acc:gev # ;
+gie+Pron+Rel+Sg+Gen:gen # ;
+gie+Pron+Rel+Sg+Ill:gesa # ;
+gie+Pron+Rel+Sg+Ine:gänne # ;
+gie+Pron+Rel+Sg+Ela:gässte # ;
+gie+Pron+Rel+Sg+Com:gejna # ;
+gie+Pron+Rel+Sg+Ess:gännen # ;
 
-gie+Pron+Det+Pl+Nom:ge # ;
-gie+Pron+Det+Pl+Acc:gejt # ;
-gie+Pron+Det+Pl+Gen:gej # ;
-gie+Pron+Det+Pl+Ill:gejda # ;
-gie+Pron+Det+Pl+Ine:gäjdne # ;
-gie+Pron+Det+Pl+Ela:gäjste # ;
-gie+Pron+Det+Pl+Ela:gäjjste # ; ! kanskje
-gie+Pron+Det+Pl+Com:gej # ;
+gie+Pron+Rel+Pl+Nom:ge # ;
+gie+Pron+Rel+Pl+Acc:gejt # ;
+gie+Pron+Rel+Pl+Gen:gej # ;
+gie+Pron+Rel+Pl+Ill:gejda # ;
+gie+Pron+Rel+Pl+Ine:gäjdne # ;
+gie+Pron+Rel+Pl+Ela:gäjste # ;
+gie+Pron+Rel+Pl+Ela:gäjjste # ; ! kanskje
+gie+Pron+Rel+Pl+Com:gej # ;
 
-mij+Pron+Det+Sg+Nom:mij # ;
-mij+Pron+Det+Sg+Acc:mav # ;
-mij+Pron+Det+Sg+Gen:man # ;
-mij+Pron+Det+Sg+Ill:masa # ;
-mij+Pron+Det+Sg+Ine:manne # ;
-mij+Pron+Det+Sg+Ela:masste # ;
-mij+Pron+Det+Sg+Com:majna # ;
-mij+Pron+Det+Sg+Ess:manen # ;
+!mij predikativ ställning
+mij+Pron+Rel+Sg+Nom:mij # ;
+mij+Pron+Rel+Sg+Acc:mav # ;
+mij+Pron+Rel+Sg+Gen:man # ;
+mij+Pron+Rel+Sg+Ill:masa # ;
+mij+Pron+Rel+Sg+Ine:manne # ;
+mij+Pron+Rel+Sg+Ela:masste # ;
+mij+Pron+Rel+Sg+Com:majna # ;
+mij+Pron+Rel+Sg+Ess:manen # ;
 
-mij+Pron+Det+Pl+Nom:ma # ;
-mij+Pron+Det+Pl+Acc:majt # ;
-mij+Pron+Det+Pl+Gen:maj # ;
-mij+Pron+Det+Pl+Ill:majda # ;
-mij+Pron+Det+Pl+Ine:majdne # ;
-mij+Pron+Det+Pl+Ela:majste # ;
-mij+Pron+Det+Pl+Ela:majjste # ; ! kanskje
-mij+Pron+Det+Pl+Com:maj # ;
+mij+Pron+Rel+Pl+Nom:ma # ;
+mij+Pron+Rel+Pl+Acc:majt # ;
+mij+Pron+Rel+Pl+Gen:maj # ;
+mij+Pron+Rel+Pl+Ill:majda # ;
+mij+Pron+Rel+Pl+Ine:majdne # ;
+mij+Pron+Rel+Pl+Ela:majste # ;
+mij+Pron+Rel+Pl+Ela:majjste # ; ! kanskje
+mij+Pron+Rel+Pl+Com:maj # ;
 
-LEXICON Relative !attributiv ställning
-gie+Pron+Det+Sg+Nom:guhte # ;
-gie+Pron+Det+Sg+Acc:gudi # ;
-gie+Pron+Det+Sg+Gen:gudi # ;
-gie+Pron+Det+Sg+Ill:gudi # ;
-gie+Pron+Det+Sg+Ine:gudin # ;
-gie+Pron+Det+Sg+Ela:gudit # ;
-gie+Pron+Det+Sg+Com:gudijn # ;
-gie+Pron+Det+Sg+Ess:guhtin # ;
+!ge attributiv ställning
+gie+Pron+Rel+Sg+Nom:guhti # ;
+gie+Pron+Rel+Sg+Acc:gudi # ;
+gie+Pron+Rel+Sg+Gen:gudi # ;
+gie+Pron+Rel+Sg+Ill:gudi # ;
+gie+Pron+Rel+Sg+Ine:gudin # ;
+gie+Pron+Rel+Sg+Ela:gudit # ;
+gie+Pron+Rel+Sg+Com:gudijn # ;
+gie+Pron+Rel+Sg+Ess:guhtin # ;
 
-gie+Pron+Det+Pl+Nom:gudi # ;
-gie+Pron+Det+Pl+Acc:gudijt # ;
-gie+Pron+Det+Pl+Gen:gudij # ;
-gie+Pron+Det+Pl+Ill:gudijda # ;
-gie+Pron+Det+Pl+Ine:gudijn # ;
-gie+Pron+Det+Pl+Ela:gudijst # ;
-gie+Pron+Det+Pl+Com:gudij # ;
+gie+Pron+Rel+Pl+Nom:gudi # ;
+gie+Pron+Rel+Pl+Acc:gudijt # ;
+gie+Pron+Rel+Pl+Gen:gudij # ;
+gie+Pron+Rel+Pl+Ill:gudijda # ;
+gie+Pron+Rel+Pl+Ine:gudijn # ;
+gie+Pron+Rel+Pl+Ela:gudijst # ;
+gie+Pron+Rel+Pl+Com:gudij # ;
 
-mij+Pron+Det+Sg+Nom:mij # ;
-mij+Pron+Det+Sg+Acc:mav # ;
-mij+Pron+Det+Sg+Gen:man # ;
-mij+Pron+Det+Sg+Ill:man # ;
-mij+Pron+Det+Sg+Ine:man # ;
-mij+Pron+Det+Sg+Ela:mat # ;
-mij+Pron+Det+Sg+Com:majna # ;
-mij+Pron+Det+Sg+Ess:manen # ;
+!mij attributiv ställning
+mij+Pron+Rel+Sg+Nom:mij # ;
+mij+Pron+Rel+Sg+Acc:mav # ;
+mij+Pron+Rel+Sg+Gen:man # ;
+mij+Pron+Rel+Sg+Ill:man # ;
+mij+Pron+Rel+Sg+Ine:man # ;
+mij+Pron+Rel+Sg+Ela:mat # ;
+mij+Pron+Rel+Sg+Com:majna # ;
+mij+Pron+Rel+Sg+Ess:manen # ;
 
-mij+Pron+Det+Pl+Nom:ma # ;
-mij+Pron+Det+Pl+Acc:majt # ;
-mij+Pron+Det+Pl+Gen:maj # ;
-mij+Pron+Det+Pl+Ill:majda # ;
-mij+Pron+Det+Pl+Ine:majn # ;
-mij+Pron+Det+Pl+Ela:majst # ;
-mij+Pron+Det+Pl+Com:maj # ;
+mij+Pron+Rel+Pl+Nom:ma # ;
+mij+Pron+Rel+Pl+Acc:majt # ;
+mij+Pron+Rel+Pl+Gen:maj # ;
+mij+Pron+Rel+Pl+Ill:majda # ;
+mij+Pron+Rel+Pl+Ine:majn # ;
+mij+Pron+Rel+Pl+Ela:majst # ;
+mij+Pron+Rel+Pl+Com:maj # ;
 
 
-LEXICON Relative !predikativ ställning
-goabba+Pron+Det+Sg+Nom:gåbba # ;
-goabba+Pron+Det+Sg+Acc:gåbbav # ;
-goabba+Pron+Det+Sg+Gen:gåbba # ;
-goabba+Pron+Det+Sg+Ill:gåbbaj # ;
-goabba+Pron+Det+Sg+Ine:gåbban # ;
-goabba+Pron+Det+Sg+Ela:gåbbast # ; 
-goabba+Pron+Det+Sg+Com:gåbbajn # ;
-goabba+Pron+Det+Sg+Ess:gåbban # ;
+! gåbba predikativ ställning
+goabba+Pron+Rel+Sg+Nom:gåbba # ;
+goabba+Pron+Rel+Sg+Acc:gåbbav # ;
+goabba+Pron+Rel+Sg+Gen:gåbba # ;
+goabba+Pron+Rel+Sg+Ill:gåbbaj # ;
+goabba+Pron+Rel+Sg+Ine:gåbban # ;
+goabba+Pron+Rel+Sg+Ela:gåbbast # ; 
+goabba+Pron+Rel+Sg+Com:gåbbajn # ;
+goabba+Pron+Rel+Sg+Ess:gåbban # ;
 
-goabba+Pron+Det+Pl+Nom:gåbba # ;
-goabba+Pron+Det+Pl+Acc:gåbbajt # ;
-goabba+Pron+Det+Pl+Gen:gåbbaj # ;
-goabba+Pron+Det+Pl+Ill:gåbbajda # ;
-goabba+Pron+Det+Pl+Ine:gåbbajn # ; 
-goabba+Pron+Det+Pl+Ela:gåbbajst # ; 
-goabba+Pron+Det+Pl+Com:gåbbaj # ;
+goabba+Pron+Rel+Pl+Nom:gåbba # ;
+goabba+Pron+Rel+Pl+Acc:gåbbajt # ;
+goabba+Pron+Rel+Pl+Gen:gåbbaj # ;
+goabba+Pron+Rel+Pl+Ill:gåbbajda # ;
+goabba+Pron+Rel+Pl+Ine:gåbbajn # ; 
+goabba+Pron+Rel+Pl+Ela:gåbbajst # ; 
+goabba+Pron+Rel+Pl+Com:gåbbaj # ;
+
+! gåbba attributiv ställning
+goabba+Pron+Rel+Sg+Nom:gåbba # ;
+goabba+Pron+Rel+Sg+Acc:gåbbav # ;
+goabba+Pron+Rel+Sg+Gen:gåbba # ;
+goabba+Pron+Rel+Sg+Ill:gåbbaj # ;
+goabba+Pron+Rel+Sg+Ine:gåbban # ;
+goabba+Pron+Rel+Sg+Ela:gåbbat # ; 
+goabba+Pron+Rel+Sg+Com:gåbbajn # ;
+goabba+Pron+Rel+Sg+Ess:gåbban # ;
+
+goabba+Pron+Rel+Pl+Nom:gåbba # ;
+goabba+Pron+Rel+Pl+Acc:gåbbajt # ;
+goabba+Pron+Rel+Pl+Gen:gåbbaj # ;
+goabba+Pron+Rel+Pl+Ill:gåbbajda # ;
+goabba+Pron+Rel+Pl+Ine:gåbbajn # ; 
+goabba+Pron+Rel+Pl+Ela:gåbbajst # ; 
+goabba+Pron+Rel+Pl+Com:gåbbaj # ;
 
 
 LEXICON Reflexive
