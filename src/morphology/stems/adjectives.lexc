@@ -14,18 +14,21 @@
 
 LEXICON Adjective
 
+
+! komparering framför vissa j- former verkar ej fungera
+
 állke A_EVEN_NOCG_S ; !finns i två former állkep, álkep
-almelalatj:almela A_EVEN_D ; !växlar till almeladtja vid komparering
+almelalatj:almelatj A_EVEN_D ; !växlar till almeladtja vid komparering
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
-binna A_EVEN_NOCG_0 ; !funkar ej
+binna:binn A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
 buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
 bånndá A_EVEN_B ;  
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
-guhkke A_EVEN_AA ; !fungerar ej
+guhkke:guhk A_EVEN_AA ; !fungerar ej, kolla
 gåbbde A_EVEN_B ;
 gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos 
 gähppe A_EVEN_B ; 
@@ -39,7 +42,7 @@ iedna A_EVEN_0 ;
 jállo A_EVEN_B ;
 järrme A_EVEN_B ;
 järbme A_EVEN_B ;
-lihkulatj:lihkula A_EVEN_D ; !växlar till lihkuladtja vid komparering
+lihkulatj:lihkulatj A_EVEN_D ; !växlar till lihkuladtjaj illativ 
 låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
@@ -61,19 +64,19 @@ tjavvga A_EVEN_0 ; ! fungerar
 
 tjähppe A_EVEN_B ; !funkar, även omljud
 uhttse A_EVEN_B ; !stadieväxling fungerar ej
-unne A_EVEN_BB ; !kolla om det funkar
+unne:unn A_EVEN_BB ; !kolla om det funkar
 vájjve A_EVEN_B ;
 vallje A_EVEN_B ;
 vasste A_EVEN_B ;
 vuodnje A_EVEN_B ; !stadieväxling fungerar ej
 ådne A_EVEN_B ;
-ådne:ådn A_EVEN_A ; !testa
-ballvagis A_EVEN_C ;
+ådne:ådn A_EVEN_A ; !fungerar
+ballvagis A_EVEN_C ; !testa
 fábmogis A_EVEN_C ; 
 gullogis A_EVEN_C ; 
 tjierrulis A_EVEN_C ; 
 unugis A_EVEN_C ;
-ånegatj:åneg A_EVEN_D ;
+ånegatj:ånegatj A_EVEN_D ; !fungerar ej
 
 vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 bargodibme A_EVEN_0 ; !bm:m attr. bargodis
