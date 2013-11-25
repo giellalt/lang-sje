@@ -132,7 +132,7 @@ LEXICON COMPSUP_B !!= * @CODE@
 
 LEXICON ODD_COMPSUP_A
 +Comp+Sg+Nom:%>up # ;
-+Comp:%>ubbo N_EVEN_B ; !nytt kolla
++Comp:%>ubb N_EVEN_C ; !nytt kolla
 +Superl+Nom:%>umos # ;
 +Superl:%>ubmus ODD_OBLIQUE_COMMON ;
 
@@ -397,10 +397,10 @@ LEXICON A_ODD_OO  !!= @CODE@ är uddastaviga ex rabás:rahpás-
 +A:hpás ODD_COMPSUP_A ;
 
 LEXICON A_ODD_PP  !!= @CODE@ är uddastaviga ex vájbas:vájbbas-
-+A+Attr:as # ;
-+A+Sg+Nom:as PX ;
-+A:bas ODD_OBLIQUE_COMMON ;
-+A:bas ODD_COMPSUP_A ;
++A+Attr:bas # ;
++A+Sg+Nom:bas PX ;
++A:jbas ODD_OBLIQUE_COMMON ;
++A:jbas ODD_COMPSUP_A ;
 
 LEXICON A_ODD_QQ  !!= @CODE@ är uddastaviga ex gåjkes:gåjjkås-
 +A+Attr:jke # ;

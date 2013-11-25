@@ -110,6 +110,25 @@ LEXICON N_EVEN_B
 +Pl+Com:    K ;
 +Ess:%>n K ;
 
+LEXICON N_EVEN_C
++Sg+Gen:  K ;
++Sg+Acc:%>ov  K ;
++Sg+Ine:%>on K ;
++Sg+Ela+Use/Sub:%>os K ;
++Sg+Ela:%>ost K ;
++Abe:%>odak K ; ! Norm
++Pl+Nom:%>o  K ;
++Sg+Com:%>ojn   K ; !norm
++Sg+Com:%>ojna  K ; !variant
++Pl+Gen:%>oj    K ;
++Pl+Acc:%>ojt   K ;
++Pl+Ine:%>ojn   K ;
++Pl+Ela+Use/Sub:%>ojs  K ;
++Pl+Ela:%>ojst  K ; !norm
++Pl+Ill:%>ojda  K ; 
++Pl+Com:%>oj    K ;
++Ess:%>on K ;
+
 ! odd-syllabic
 ! ------------
 
