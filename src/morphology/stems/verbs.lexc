@@ -20,11 +20,11 @@ LEXICON LE !!= * @CODE@
 le+V+Ind+Prs: LEPRS ; 
 le+V+Ind+Prt: LEPRT ; 
 le+V+Ind+Pot: LEPOT ;
-le+V+PrfPrc:lam # ;
+le+V+PrfPrc:lam # ; !fattas negformer av le 
 
 LEXICON LEPRS !!= * @CODE@ 
 +Sg1:läv # ; 
-+Sg1:lev # ; 
++Sg1:liv # ; 
 +Sg2:lä # ;  
 +Sg3:lä # ; 
 +Sg3:le # ; 
@@ -48,15 +48,15 @@ LEXICON LEPRT !!= * @CODE@
 +Sg2:lidji    # ;  
 +Sg3:lij    # ; 
 +Du1:lijmen # ; 
-+Du1:lejme # ; 
++Du1:liejme # ; 
 +Du2:lijden # ;
-+Du2:lejde # ; 
++Du2:liejde # ; 
 +Du3:lijga # ;
-+Du3:lejga # ; 
++Du3:liejga # ; 
 +Pl1:lijme # ; 
-+Pl1:lejme # ; 
++Pl1:liejme # ; 
 +Pl2:lijde # ;
-+Pl2:lejde # ; 
++Pl2:liejde # ; 
 +Pl3:lidjin    # ;  
 +Pl3:lijjin    # ; 
 +Pl3:lin    # ; 
@@ -114,7 +114,7 @@ LEXICON IJPRS !!= * @CODE@
 +Du1:en # ; 
 +Du2:ehpen # ;   
 +Du3:iebá # ; 
-+Du3:ebá # ; 
+
 +Pl1:iehpe # ; 
 +Pl1:ep # ; 
 +Pl2:ehpit # ;  
@@ -125,15 +125,15 @@ LEXICON IJPRT !!= * @CODE@
 +Sg1:idtjiv    # ;  !!= * @CODE@ 
 +Sg2:idtji    # ; 
 +Sg3:idtjij    # ; 
-+Du1:ejme # ; 
++Du1:iejme # ; 
 +Du1:idtjijmen # ; 
-+Du2:ejde  # ; 
++Du2:iejde  # ; 
 +Du2:idtjijden # ; 
-+Du3:ejga # ; 
++Du3:iejga # ; 
 +Du3:idtjijga # ; 
-+Pl1:ejme # ; 
++Pl1:iejme # ; 
 +Pl1:idtjijme # ; 
-+Pl2:ejde # ; 
++Pl2:iejde # ; 
 +Pl2:idtjijde # ; 
 +Pl3:idtjin    # ;
 
@@ -141,7 +141,7 @@ LEXICON IJPRT !!= * @CODE@
 LEXICON IJIMP !!= * @CODE@ 
 +Sg2:iele  # ; !!= * @CODE@ 
 +Du2:iellen # ; 
-+Du3:iellit  # ;
++Du3:ellit  # ;
                         
 LEXICON IJOPT                !!= * @CODE@        
 +Sg1:alluv    # ; !!= * @CODE@ 
@@ -236,13 +236,13 @@ bullidit:bullid2 NAMMADIT "tända" ; !fungerar
 bulligåhtet:bulligåht BÅHTET "d börja brinna" ; !fungerar
 buälldet:buälld BÅHTET "ld bränna, elda upp" ; !fungerar
 bårrsjot:bårrsj ÅRROT "rsj forsa, skumma, vräka ur sig" ; !fungerar
-båhtet:båht BÅHTET "d  komma" ; !fungerar
+båhtet:båht BÅHTET "d  komma" ; !fungerar ej
 båhtjet:båhtj BÅHTET "tj mjölka" ; !fungerar
 bårråt:bårr LÅHKÅT "g äta" ; !fungerar 
 bähttet:bähtt BÅHTET "ht  lura, bedra" ; !htt:ht fungerar ej 
 bäjjstet:bäjjst BÅHTET "jst ödelägga, förstöra" ; !fungerar
 dádjadit:dádjad2 NAMMADIT "förstå" ; !fungerar
-dahkat:dahk BALLAT "g göra, tillverka" ; !fungerar
+dahkat:dahk BALLAT "g göra, tillverka" ; !fungerar ej
 dárbahit:dárbah2 NAMMADIT "behöva" ; !fungerar
 dibbdet:dibbd BÅHTET " bd låta" ; !fungerar
 didnadit:didnad2 NAMMADIT "skrika, ropa" ; !fungerar
