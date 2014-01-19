@@ -34,7 +34,8 @@ lågev num "tio, ten" ;
 
 LEXICON Ord
 vuostas num "första, first" ;
-mobbe num "andra, second" ;
+nubbe num "andra, second" ;
+mubbe num "andra, second" ;
 gålmat num "tredje, thrid" ;
 nieljat num "fjärde, fourth" ;
 vedat num "femte, fifth" ;
