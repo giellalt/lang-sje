@@ -121,10 +121,10 @@ dat+Pron+Det+Pl+Com:duoj # ;
 
 LEXICON Relative 
 !gie, predikativ ställning
-gie+Pron+Rel+Sg+Nom:gie # ;
-gie+Pron+Rel+Sg+Acc:giev # ;
-gie+Pron+Rel+Sg+Gen:gien # ;
-gie+Pron+Rel+Sg+Ill:giesa # ;
+gie+Pron+Det+Sg+Nom:gie # ;
+gie+Pron+Det+Sg+Acc:giev # ;
+gie+Pron+Det+Sg+Gen:gien # ;
+gie+Pron+Det+Sg+Ill:giesa # ;
 gie+Pron+Rel+Sg+Ine:gänne # ;
 gie+Pron+Rel+Sg+Ela:gässte # ;
 gie+Pron+Rel+Sg+Com:giejna # ;
