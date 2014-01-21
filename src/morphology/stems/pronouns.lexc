@@ -121,10 +121,10 @@ dat+Pron+Det+Pl+Com:duoj # ;
 
 LEXICON Relative 
 !gie, predikativ ställning
-gie+Pron+Det+Sg+Nom:gie # ;
-gie+Pron+Det+Sg+Acc:giev # ;
-gie+Pron+Det+Sg+Gen:gien # ;
-gie+Pron+Det+Sg+Ill:giesa # ;
+gie+Pron+Rel+Sg+Nom:gie # ;
+gie+Pron+Rel+Sg+Acc:giev # ;
+gie+Pron+Rel+Sg+Gen:gien # ;
+gie+Pron+Rel+Sg+Ill:giesa # ;
 gie+Pron+Rel+Sg+Ine:gänne # ;
 gie+Pron+Rel+Sg+Ela:gässte # ;
 gie+Pron+Rel+Sg+Com:giejna # ;
@@ -253,7 +253,7 @@ guhtimus+Pron+Rel+Pl+Com:guhtimusaj # ;
 !guhtimus attributiv ställning
 guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
 
-LEXICON Interrogativt 
+LEXICON Interrogativa 
 
 !galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
 !galla, predikativ ställning
@@ -339,7 +339,7 @@ galles+Pron+Int+Pl+Com:gallasij # ;
 
 gallat+Pron+Int+Sg+Nom:gallat # ;
 
-LEXICON Indefinit
+LEXICON Indefinita
 
 !gájjka:jk ´all, allt, alla, hel, hela´, används prediaktivt endast i pluralis, singularis nominativformen används attributivt
 
