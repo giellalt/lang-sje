@@ -44,8 +44,9 @@ Semantic properties of names
 !!!Adjectives !
 
 Här är lexikon för adjektivsböjning.
-Först jämnstaviga, så uddastaviga, och sen nån gång kontrakta.
+Först jämnstaviga, så uddastaviga, och sen kontrakta.
 Efteråt kommer morfologin, som också spiller över i nouns.lexc.
+
 
  * LEXICON A_EVEN_A  (koden betyder att allt vänster om sparas i dokumentationsfil) är likastaviga med a-attr
 
@@ -53,13 +54,12 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
 
- * LEXICON A_EVEN_E  är likastaviga med e-attr
 
  * LEXICON A_EVEN_IES  
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_C 
+ * LEXICON A_EVEN_C  !fungerar ej
 
  LEXICON A_EVEN_D  ex. almelatj:almeladtja
 
@@ -85,6 +85,9 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
  * LEXICON COMPSUP_B  
+
+
+
 
 
 
@@ -178,7 +181,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  LEXICON A_ODD_OO   är uddastaviga ex rabás:rahpás-
 
- LEXICON A_ODD_PP   är uddastaviga ex vájbas:vájbbas-
+ LEXICON A_ODD_PP   är uddastaviga ex vájbas:vájjbas-
 
  LEXICON A_ODD_QQ   är uddastaviga ex gåjkes:gåjjkås-
 
@@ -208,9 +211,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
  LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
 
  * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
-
-
-
 
 
 
