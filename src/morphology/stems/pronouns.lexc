@@ -105,7 +105,7 @@ dat+Pron+Det+Pl+Com:duojna # ;
 dat+Pron+Det+Sg+Nom:duot # ;
 dat+Pron+Det+Sg+Acc:duov # ;
 dat+Pron+Det+Sg+Gen:duon # ;
-dat+Pron+Det+Sg+Ill:duosi # ;
+dat+Pron+Det+Sg+Ill:dusi # ;
 dat+Pron+Det+Sg+Ine:duänna # ;
 dat+Pron+Det+Sg+Ela:duässta # ; 
 dat+Pron+Det+Sg+Com:duojna # ;
@@ -230,7 +230,7 @@ goabba+Pron+Rel+Pl+Ine:gåbbájn # ;
 goabba+Pron+Rel+Pl+Ela:gåbbájst # ; 
 goabba+Pron+Rel+Pl+Com:gåbbáj # ;
 
-!guhtimus predikativ ställning, (Martin Sjaggo)´vem, vilken, vilkendera (av flera)´ (interrogativt), ´den/det som (av flera)´ (relativt), attributivt oböjlig
+!guhtimus predikativ ställning, (enligt Martin Sjaggo)´vem, vilken, vilkendera (av flera)´ (interrogativt), ´den/det som (av flera)´ (relativt), attributivt oböjlig
 
 !guhtimus predikativ ställning
 guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
@@ -498,7 +498,7 @@ mige+Pron+Indef+Sg+Ess:mannak # ;
 mige+Pron+Indef+Pl+Nom:mahkkak # ;
 mige+Pron+Indef+Pl+Acc:majdak # ;
 mige+Pron+Indef+Pl+Gen:majgak # ;
-mige+Pron+Indef+Pl+Ill:majdik # ;
+mige+Pron+Indef+Pl+Ill:mejdik # ;
 mige+Pron+Indef+Pl+Ine:majnak # ;
 mige+Pron+Indef+Pl+Ela:majstak # ;
 mige+Pron+Indef+Pl+Com:majgak # ;
@@ -562,51 +562,230 @@ dakkar+Pron+Indef+Sg+Nom:dakkar # ;
 !dakkár:dakkár- /dakkár, ´en sådan här, som den här´
 
 !dakkár,predikativ ställning
-dakkar+Pron+Indef+Sg+Nom:dakkár # ;
-dakkar+Pron+Indef+Sg+Acc:dakkárav # ;
-dakkar+Pron+Indef+Sg+Gen:dakkára # ;
-dakkar+Pron+Indef+Sg+Ill:dakkárij # ;
-dakkar+Pron+Indef+Sg+Ine:dakkárin # ;
-dakkar+Pron+Indef+Sg+Ela:dakkáris # ;
-dakkar+Pron+Indef+Sg+Com:dakkárijn # ;
-dakkar+Pron+Indef+Sg+Ess:dakkárin # ;
+dakkár+Pron+Indef+Sg+Nom:dakkár # ;
+dakkár+Pron+Indef+Sg+Acc:dakkárav # ;
+dakkár+Pron+Indef+Sg+Gen:dakkára # ;
+dakkár+Pron+Indef+Sg+Ill:dakkárij # ;
+dakkár+Pron+Indef+Sg+Ine:dakkárin # ;
+dakkár+Pron+Indef+Sg+Ela:dakkáris # ;
+dakkár+Pron+Indef+Sg+Com:dakkárijn # ;
+dakkár+Pron+Indef+Sg+Ess:dakkárin # ;
 
-dakkar+Pron+Indef+Pl+Nom:dakkára # ;
-dakkar+Pron+Indef+Pl+Acc:dakkárijt # ;
-dakkar+Pron+Indef+Pl+Gen:dakkárij # ;
-dakkar+Pron+Indef+Pl+Ill:dakkárijda # ;
-dakkar+Pron+Indef+Pl+Ine:dakkárijn # ;
-dakkar+Pron+Indef+Pl+Ela:dakkárijs # ;
-dakkar+Pron+Indef+Pl+Com:dakkárij # ;
+dakkár+Pron+Indef+Pl+Nom:dakkára # ;
+dakkár+Pron+Indef+Pl+Acc:dakkárijt # ;
+dakkár+Pron+Indef+Pl+Gen:dakkárij # ;
+dakkár+Pron+Indef+Pl+Ill:dakkárijda # ;
+dakkár+Pron+Indef+Pl+Ine:dakkárijn # ;
+dakkár+Pron+Indef+Pl+Ela:dakkárijs # ;
+dakkár+Pron+Indef+Pl+Com:dakkárij # ;
 
 !dakkár,attributiv ställning
-dakkar+Pron+Indef+Sg+Nom:dakkár # ;
+dakkár+Pron+Indef+Sg+Nom:dakkár # ;
 
 !dukkir:dukkir- /dukkir, ´en sådan där (längre bort), som den där (längre bort)´
 
 !dukkir,predikativ ställning
-dakkar+Pron+Indef+Sg+Nom:dukkir # ;
-dakkar+Pron+Indef+Sg+Acc:dukkirav # ;
-dakkar+Pron+Indef+Sg+Gen:dukkira # ;
-dakkar+Pron+Indef+Sg+Ill:dukkirij # ;
-dakkar+Pron+Indef+Sg+Ine:dukkirin # ;
-dakkar+Pron+Indef+Sg+Ela:dukkiris # ;
-dakkar+Pron+Indef+Sg+Com:dukkirijn # ;
-dakkar+Pron+Indef+Sg+Ess:dukkirin # ;
+dukkir+Pron+Indef+Sg+Nom:dukkir # ;
+dukkir+Pron+Indef+Sg+Acc:dukkirav # ;
+dukkir+Pron+Indef+Sg+Gen:dukkira # ;
+dukkir+Pron+Indef+Sg+Ill:dukkirij # ;
+dukkir+Pron+Indef+Sg+Ine:dukkirin # ;
+dukkir+Pron+Indef+Sg+Ela:dukkiris # ;
+dukkir+Pron+Indef+Sg+Com:dukkirijn # ;
+dukkir+Pron+Indef+Sg+Ess:dukkirin # ;
 
-dakkar+Pron+Indef+Pl+Nom:dukkira # ;
-dakkar+Pron+Indef+Pl+Acc:dukkirijt # ;
-dakkar+Pron+Indef+Pl+Gen:dukkirij # ;
-dakkar+Pron+Indef+Pl+Ill:dukkirijda # ;
-dakkar+Pron+Indef+Pl+Ine:dukkirijn # ;
-dakkar+Pron+Indef+Pl+Ela:dukkirijs # ;
-dakkar+Pron+Indef+Pl+Com:dukkirij # ;
+dukkir+Pron+Indef+Pl+Nom:dukkira # ;
+dukkir+Pron+Indef+Pl+Acc:dukkirijt # ;
+dukkir+Pron+Indef+Pl+Gen:dukkirij # ;
+dukkir+Pron+Indef+Pl+Ill:dukkirijda # ;
+dukkir+Pron+Indef+Pl+Ine:dukkirijn # ;
+dukkir+Pron+Indef+Pl+Ela:dukkirijs # ;
+dukkir+Pron+Indef+Pl+Com:dukkirij # ;
 
-!dakkár,attributiv ställning
-dakkar+Pron+Indef+Sg+Nom:dukkir # ;
+!dukkir,attributiv ställning
+dukkir+Pron+Indef+Sg+Nom:dukkir # ;
 
-! kan man använda denna för de uddastaviga pronomena gintal N_ODD ;
+!iednak:iednag- /iedna ´mycket, många´, attributivt oböjligt
 
+!iednak,predikativ ställning
+iednak+Pron+Indef+Sg+Nom:iednak # ;
+iednak+Pron+Indef+Sg+Acc:iednagav # ;
+iednak+Pron+Indef+Sg+Gen:iednaga # ;
+iednak+Pron+Indef+Sg+Ill:iednagij # ;
+iednak+Pron+Indef+Sg+Ine:iednagin # ;
+iednak+Pron+Indef+Sg+Ela:iednagis # ;
+iednak+Pron+Indef+Sg+Com:iednagijn # ;
+iednak+Pron+Indef+Sg+Ess:iednagin # ;
+
+iednak+Pron+Indef+Pl+Nom:iednaga # ;
+iednak+Pron+Indef+Pl+Acc:iednagijt # ;
+iednak+Pron+Indef+Pl+Gen:iednagij # ;
+iednak+Pron+Indef+Pl+Ill:iednagijda # ;
+iednak+Pron+Indef+Pl+Ine:iednagijn # ;
+iednak+Pron+Indef+Pl+Ela:iednagijs # ;
+iednak+Pron+Indef+Pl+Com:iednagij # ;
+
+!iednak,attributiv ställning
+iednak+Pron+Indef+Sg+Nom:iedna # ;
+
+!färtlágátj:färtlágátj- /färtlágátj´all slags´, attributivt oböjligt
+
+!färtlágátj,predikativ ställning
+färtlágátj+Pron+Indef+Sg+Nom:färtlágátj # ;
+färtlágátj+Pron+Indef+Sg+Acc:färtlágátjav # ;
+färtlágátj+Pron+Indef+Sg+Gen:färtlágátja # ;
+färtlágátj+Pron+Indef+Sg+Ill:färtlágátjij # ;
+färtlágátj+Pron+Indef+Sg+Ine:färtlágátjin # ;
+färtlágátj+Pron+Indef+Sg+Ela:färtlágátjis # ;
+färtlágátj+Pron+Indef+Sg+Com:färtlágátjijn # ;
+färtlágátj+Pron+Indef+Sg+Ess:färtlágátjin # ;
+
+färtlágátj+Pron+Indef+Pl+Nom:färtlágátja # ;
+färtlágátj+Pron+Indef+Pl+Acc:färtlágátjijt # ;
+färtlágátj+Pron+Indef+Pl+Gen:färtlágátjij # ;
+färtlágátj+Pron+Indef+Pl+Ill:färtlágátjijda # ;
+färtlágátj+Pron+Indef+Pl+Ine:färtlágátjijn # ;
+färtlágátj+Pron+Indef+Pl+Ela:färtlágátjijs # ;
+färtlágátj+Pron+Indef+Pl+Com:färtlágátjij # ;
+
+!färtlágátj,attributiv ställning
+färtlágátj+Pron+Indef+Sg+Nom:färtlágátj # ;
+
+!gájjkalágátj:gájjkalágátj- /gájjkalágátj ´all slags, alla slags´, attributivt oböjligt
+
+!gájjkalágátj,predikativ ställning
+gájjkalágátj+Pron+Indef+Sg+Nom:gájjkalágátj # ;
+gájjkalágátj+Pron+Indef+Sg+Acc:gájjkalágátjav # ;
+gájjkalágátj+Pron+Indef+Sg+Gen:gájjkalágátja # ;
+gájjkalágátj+Pron+Indef+Sg+Ill:gájjkalágátjij # ;
+gájjkalágátj+Pron+Indef+Sg+Ine:gájjkalágátjin # ;
+gájjkalágátj+Pron+Indef+Sg+Ela:gájjkalágátjis # ;
+gájjkalágátj+Pron+Indef+Sg+Com:gájjkalágátjijn # ;
+gájjkalágátj+Pron+Indef+Sg+Ess:gájjkalágátjin # ;
+
+gájjkalágátj+Pron+Indef+Pl+Nom:gájjkalágátja # ;
+gájjkalágátj+Pron+Indef+Pl+Acc:gájjkalágátjijt # ;
+gájjkalágátj+Pron+Indef+Pl+Gen:gájjkalágátjij # ;
+gájjkalágátj+Pron+Indef+Pl+Ill:gájjkalágátjijda # ;
+gájjkalágátj+Pron+Indef+Pl+Ine:gájjkalágátjijn # ;
+gájjkalágátj+Pron+Indef+Pl+Ela:gájjkalágátjijs # ;
+gájjkalágátj+Pron+Indef+Pl+Com:gájjkalágátjij # ;
+
+!gájjkalágátj,attributiv ställning
+gájjkalágátj+Pron+Indef+Sg+Nom:gájjkalágátj # ;
+
+!gåbbatj:gåbbatj- /gåbbatj ´båda två, bägge´, attributivt oböjligt
+
+!gåbbatj,predikativ ställning
+gåbbatj+Pron+Indef+Sg+Nom:gåbbatj # ;
+gåbbatj+Pron+Indef+Sg+Acc:gåbbatjav # ;
+gåbbatj+Pron+Indef+Sg+Gen:gåbbatja # ;
+gåbbatj+Pron+Indef+Sg+Ill:gåbbatjij # ;
+gåbbatj+Pron+Indef+Sg+Ine:gåbbatjin # ;
+gåbbatj+Pron+Indef+Sg+Ela:gåbbatjis # ;
+gåbbatj+Pron+Indef+Sg+Com:gåbbatjijn # ;
+gåbbatj+Pron+Indef+Sg+Ess:gåbbatjin # ;
+
+gåbbatj+Pron+Indef+Pl+Nom:gåbbatja # ;
+gåbbatj+Pron+Indef+Pl+Acc:gåbbatjijt # ;
+gåbbatj+Pron+Indef+Pl+Gen:gåbbatjij # ;
+gåbbatj+Pron+Indef+Pl+Ill:gåbbatjijda # ;
+gåbbatj+Pron+Indef+Pl+Ine:gåbbatjijn # ;
+gåbbatj+Pron+Indef+Pl+Ela:gåbbatjijs # ;
+gåbbatj+Pron+Indef+Pl+Com:gåbbatjij # ;
+
+!gåbbatj,attributiv ställning
+gåbbatj+Pron+Indef+Sg+Nom:gåbbatj # ;
+
+!ietjá:ietjád- /ietjá ´en annan,övrig (pl) övriga´, attributivt oböjligt
+
+!ietjá,predikativ ställning
+ietjá+Pron+Indef+Sg+Nom:ietjá # ;
+ietjá+Pron+Indef+Sg+Acc:ietjádav # ;
+ietjá+Pron+Indef+Sg+Gen:ietjáda # ;
+ietjá+Pron+Indef+Sg+Ill:ietjádij # ;
+ietjá+Pron+Indef+Sg+Ine:ietjádin # ;
+ietjá+Pron+Indef+Sg+Ela:ietjádis # ;
+ietjá+Pron+Indef+Sg+Com:ietjádijn # ;
+ietjá+Pron+Indef+Sg+Ess:ietjádin # ;
+
+ietjá+Pron+Indef+Pl+Nom:ietjáda # ;
+ietjá+Pron+Indef+Pl+Acc:ietjádijt # ;
+ietjá+Pron+Indef+Pl+Gen:ietjádij # ;
+ietjá+Pron+Indef+Pl+Ill:ietjádijda # ;
+ietjá+Pron+Indef+Pl+Ine:ietjádijn # ;
+ietjá+Pron+Indef+Pl+Ela:ietjádijs # ;
+ietjá+Pron+Indef+Pl+Com:ietjádij # ;
+
+!ietjá,attributiv ställning
+ietjá+Pron+Indef+Sg+Nom:ietjá # ;
+
+!muhtem:muhtem- /muhtem ´en viss, en och annan, någon, några, vissa, somliga, en del´, attributivt oböjligt
+
+!muhtem,predikativ ställning
+muhtem+Pron+Indef+Sg+Nom:muhtem # ;
+muhtem+Pron+Indef+Sg+Acc:muhtemav # ;
+muhtem+Pron+Indef+Sg+Gen:muhtema # ;
+muhtem+Pron+Indef+Sg+Ill:muhtemij # ;
+muhtem+Pron+Indef+Sg+Ine:muhtemin # ;
+muhtem+Pron+Indef+Sg+Ela:muhtemis # ;
+muhtem+Pron+Indef+Sg+Com:muhtemijn # ;
+muhtem+Pron+Indef+Sg+Ess:muhtemin # ;
+
+muhtem+Pron+Indef+Pl+Nom:muhtema # ;
+muhtem+Pron+Indef+Pl+Acc:muhtemijt # ;
+muhtem+Pron+Indef+Pl+Gen:muhtemij # ;
+muhtem+Pron+Indef+Pl+Ill:muhtemijda # ;
+muhtem+Pron+Indef+Pl+Ine:muhtemijn # ;
+muhtem+Pron+Indef+Pl+Ela:muhtemijs # ;
+muhtem+Pron+Indef+Pl+Com:muhtemij # ;
+
+!muhtem,attributiv ställning
+muhtem+Pron+Indef+Sg+Nom:muhtem # ;
+
+!måddas:måddas- /måddas ´några,flera (personer)´, brukas inte attributivt 
+
+!måddas,predikativ ställning
+måddas+Pron+Indef+Sg+Nom:måddas # ;
+måddas+Pron+Indef+Sg+Acc:måddasav # ;
+måddas+Pron+Indef+Sg+Gen:måddasa # ;
+måddas+Pron+Indef+Sg+Ill:måddasij # ;
+måddas+Pron+Indef+Sg+Ine:måddasin # ;
+måddas+Pron+Indef+Sg+Ela:måddasis # ;
+måddas+Pron+Indef+Sg+Com:måddasijn # ;
+måddas+Pron+Indef+Sg+Ess:måddasin # ;
+
+måddas+Pron+Indef+Pl+Nom:måddasa # ;
+måddas+Pron+Indef+Pl+Acc:måddasijt # ;
+måddas+Pron+Indef+Pl+Gen:måddasij # ;
+måddas+Pron+Indef+Pl+Ill:måddasijda # ;
+måddas+Pron+Indef+Pl+Ine:måddasijn # ;
+måddas+Pron+Indef+Pl+Ela:måddasijs # ;
+måddas+Pron+Indef+Pl+Com:måddasij # ;
+
+
+!nágan:nágan- /nágan ´någon, något, några få´, attributivt oböjligt
+
+!nágan,predikativ ställning
+nágan+Pron+Indef+Sg+Nom:nágan # ;
+nágan+Pron+Indef+Sg+Acc:náganav # ;
+nágan+Pron+Indef+Sg+Gen:nágana # ;
+nágan+Pron+Indef+Sg+Ill:náganij # ;
+nágan+Pron+Indef+Sg+Ine:náganin # ;
+nágan+Pron+Indef+Sg+Ela:náganis # ;
+nágan+Pron+Indef+Sg+Com:náganijn # ;
+nágan+Pron+Indef+Sg+Ess:náganin # ;
+
+nágan+Pron+Indef+Pl+Nom:nágana # ;
+nágan+Pron+Indef+Pl+Acc:náganijt # ;
+nágan+Pron+Indef+Pl+Gen:náganij # ;
+nágan+Pron+Indef+Pl+Ill:náganijda # ;
+nágan+Pron+Indef+Pl+Ine:náganijn # ;
+nágan+Pron+Indef+Pl+Ela:náganijs # ;
+nágan+Pron+Indef+Pl+Com:náganij # ;
+
+!nágan,attributiv ställning
+nágan+Pron+Indef+Sg+Nom:nágan # ;
 
 LEXICON Reflexive
 
