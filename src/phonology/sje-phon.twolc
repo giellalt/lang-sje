@@ -114,17 +114,21 @@ h:0  <=> Vow _ Cx (j) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 "Delete h before ts"
 !! __@RULENAME@__  
 h:0 <=> Vow+ _ t s Vow:+ (Cns:+) ( Dummy: ) WeG: ;
-    
+   
+!€ buhts^WGoj
+!€ bå0ts0oj
+ 
 "change unvoiced to voiced"
 !! __@RULENAME@__  
-Cx:Cy <=> h: _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) ( Dummy: ) WeG: ;
     where Cx in (p t k)
           Cy in (b d g)
           matched ;
 
 "Consonant Gradation for xN:N"
 !! __@RULENAME@__  
-Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow [l|r|v|j] _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+!     <=> Vow           _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (b d g g )
           Cy in (m n n ŋ )
           matched ;
@@ -192,14 +196,8 @@ Vx:0 <=> Vy _ %^jDEL:0 ;
 
 "o to u in front of j"
 !! __@RULENAME@__  
-o:u <=> _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
+o:u <=>  Cns (Cns:)  _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 ! This rule works both for Ill (without the jDEL) and for Com Sg (with it)
-
-
-"aa in front of j"
-!! __@RULENAME@__  
-e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
-
 
 "o deletion in front of j"
 !! __@RULENAME@__  
@@ -207,9 +205,15 @@ o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 ! uo > u
 ! not a-stems, muorraj
 
+
+"aa in front of j"
+!! __@RULENAME@__  
+e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
+
+
 "i deletion in front of j"
 !! __@RULENAME@__  
-i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
+i:0 <=> _ e Cns:* Vow:* (%^WG:0) %>: (j) %^MONB4J:0 ;
 ! ie > e
 
 "u ae to u in front of i"
@@ -236,7 +240,7 @@ i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
 
 "u to å in odd stems"
 !! __@RULENAME@__  
-u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^LOW:0 ;
+u:å <=> _ Cns:* Vow: Cns:* (Dummy:)  %^LOW:0 ;
 
 "u to o in odd stems"
 !! __@RULENAME@__  

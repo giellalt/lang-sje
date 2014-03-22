@@ -61,6 +61,9 @@ EVENOBLIQUE ;
 LEXICON EVENOBLIQUE 
                N_EVEN_S ;
 :%^jDEL%>j     N_EVEN_J ;
+!:%>j     N_EVEN_J ;
++Sg+Com:%^WG%>j%^MONB4Jn   K ; !norm
++Sg+Com:%^WG%>j%^MONB4Jna  K ; !variant
 N_EVEN_ILL ;
 
 LEXICON N_EVEN_ILL
@@ -81,8 +84,6 @@ LEXICON N_EVEN_W
 +Pl+Nom:%>0  K ;
 
 LEXICON N_EVEN_J
-+Sg+Com:%^MONB4Jn   K ; !norm
-+Sg+Com:%^MONB4Jna  K ; !variant
 +Pl+Gen:    K ;
 +Pl+Acc:t   K ;
 +Pl+Ine:n   K ;
@@ -417,7 +418,7 @@ LEXICON ÅLMAAJ
 +N+Pl+Com:áj PX ;
 
 LEXICON ÅLMAAJ_A
-+N+Sg+Nom:%^WGoj PX ;
++N+Sg+Nom:o%^WG%^LOWj PX ;
 +N+Sg+Acc:uv PX ;
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:uj PX ;
