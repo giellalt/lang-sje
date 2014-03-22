@@ -128,7 +128,10 @@ LEXICON COMPSUP_B !!= * @CODE@
 
 LEXICON ODD_COMPSUP_A
 +Comp+Sg+Nom:%>up # ;
++Comp+Attr:%>up # ;
 +Comp:%>ubb N_EVEN_C ; !nytt kolla fungerar ej framför j
++Comp+Sg+Ill:%>ubbo%>j%^MONB4J     # ; ! kolla j
++Comp+Sg+Com:%>ubbo%>j%^MONB4Jn     # ; ! kolla j
 +Superl+Nom:%>umos # ;
 +Superl:%>ubmus ODD_OBLIQUE_COMMON ;
 
@@ -137,7 +140,8 @@ LEXICON ODD_COMPSUP
 +Comp+Sg+Nom:%>up # ;
 +Comp:%>ubbo N_EVEN_W ; !ändra till ej stv hos jämn.st.o-stam
 +Comp:%>ubbo               N_EVEN_S ;
-+Comp:%>ubbo%>j^MONB4J     N_EVEN_J ;
+!+Comp:%>ubbo%>j%^MONB4J     N_EVEN_J ;
++Comp+Sg+Ill:%>ubbo%>j%^MONB4J     # ;
 
 +Superl+Nom:%>umos # ;
 +Superl:%>ubmus ODD_OBLIQUE_COMMON ;
