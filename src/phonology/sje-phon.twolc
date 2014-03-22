@@ -27,7 +27,12 @@ Alphabet
   d2:d t2:t j2:j h2:h g2:g ŋ
   ':0
   
-  %^WG:0 %^jDEL:0 %^MONB4J:0 %^CDEL:0 %^MON:0
+  %^WG:0     !!= @CODE@ * weak grade
+  %^jDEL:0   !!= @CODE@ * vowel deletion in front of j
+  %^MONB4J:0 !!= @CODE@ * e to á and o to u before j
+  %^CDEL:0   !!= @CODE@ * final consonant deletion (biednag)
+  %^MON:0    !!= @CODE@ * Monophthong in contract stems
+  %^LOW:0    !!= @CODE@ * Lowering u to å and o (ålol)
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -85,16 +90,16 @@ Cx:0 <=> Vow: Cx _   ( Vow:+ (Cns:+)) ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xxy:xy"
 !! __@RULENAME@__  
-!Cx:0 <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+!Cx:0 <=> Vow: Cx _ Cy                   (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+ Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ; 
  where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
        Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s t )  
           matched ;
          
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
-!Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+!Cx:0 <=> Vow: _       Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+ Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
      where Cx in ( d d )
            Cy in ( j n )  
           matched ;
@@ -124,6 +129,19 @@ Cx:0 <=> Vow ([l|r|v|j]) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
           Cy in (m n n ŋ )
           matched ;
           
+
+
+! "Steggo or not xxy vs xyy"
+! !! __@RULENAME@__  
+! Cx:Cy <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) \WeG: ;
+!  where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
+!        Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s t )  
+!           matched ;
+! This does not work as intended:
+! The idea was to make a tolerant version of the analyser, 
+! accepting both xxy and xyy.
+
+
 
 !! !!Other consonant rules 
 ! =====================
@@ -218,7 +236,11 @@ i:0 <=> _ e Cns:* Vow:* %>: %^MONB4J:0 ;
 
 "u to å in odd stems"
 !! __@RULENAME@__  
-u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^MONB4J:0 ;
+u:å <=> _ Cns:* Vow: Cns (Dummy:)  %^LOW:0 ;
+
+"u to o in odd stems"
+!! __@RULENAME@__  
+u:o <=> u: Cns:* _ Cns (Dummy:)  %^LOW:0 ;
 
  !€ ullul^WG^MONB4J
  !€ ål0ol
