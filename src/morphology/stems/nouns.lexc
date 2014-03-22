@@ -208,6 +208,7 @@ idja N_EVEN "j natt" ;
 iednam:iednam N_ODD "land, mark" ;
 iehket:iehke N_ODD_D "kväll" ; !nominativ sg. fungerar ej
 iejgát:iejgá N_ODD_D "föräldrar" ; !nominativ sg. fungerar ej
+iello N_EVEN ;
 ijja N_EVEN "j natt" ;
 jahke N_EVEN "g år" ;
 jávvre N_EVEN "vr sjö" ;
