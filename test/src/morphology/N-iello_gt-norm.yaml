@@ -17,7 +17,7 @@ Tests:
     iello+N+Sg+Ill: elluj
     iello+N+Sg+Ine: ielon
     iello+N+Sg+Ela: ielost
-    iello+N+Sg+Com: elujn
+    iello+N+Sg+Com: [elujn, elujna] # TT: ok?
     iello+N+Pl+Nom: ielo
     iello+N+Pl+Gen: ieloj
     iello+N+Pl+Acc: ielojt
