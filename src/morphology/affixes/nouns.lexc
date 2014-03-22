@@ -111,7 +111,7 @@ LEXICON N_EVEN_B
 +Ess:%>n K ;
 
 LEXICON N_EVEN_C
-+Sg+Gen:  K ;
++Sg+Gen:%>o  K ; ! trond
 +Sg+Acc:%>ov  K ;
 +Sg+Ine:%>on K ;
 +Sg+Ela+Use/Sub:%>os K ;
