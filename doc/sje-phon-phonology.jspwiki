@@ -2,6 +2,12 @@
 !!!Pite Sámi TWOLC file
 
 
+   %^WG:0      * weak grade
+   %^jDEL:0    * vowel deletion in front of j
+   %^MONB4J:0  * e to á and o to u before j
+   %^CDEL:0    * final consonant deletion (biednag)
+   %^MON:0     * Monophthong in contract stems
+   %^LOW:0     * Lowering u to å and o (ålol)
 
 
 
@@ -36,9 +42,15 @@ __Delete h__
 
 __Delete h before ts__  
 
+
 __change unvoiced to voiced__  
 
 __Consonant Gradation for xN:N__  
+
+
+
+__Consonant Gradation for xN:N__  
+
 
 
 !!Other consonant rules 
@@ -64,11 +76,11 @@ __Vowel Deletion in front of j__
 
 __o to u in front of j__  
 
+__o deletion in front of j__  
+
 
 __aa in front of j__  
 
-
-__o deletion in front of j__  
 
 __i deletion in front of j__  
 
@@ -83,6 +95,8 @@ __ae to ie in weak grade 2__
 
 
 __u to å in odd stems__  
+
+__u to o in odd stems__  
 
 
 __Delete stem final a before e initial suffix__  

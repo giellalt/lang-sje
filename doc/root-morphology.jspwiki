@@ -20,10 +20,23 @@ Semantic properties of names
 
 
 
+ %^WG     * weak grade
+ %^jDEL   * vowel deletion in front of j
+ %^MONB4J  * e to á (before j), o to u before j
+ %^CDEL    * Deleting final consonant, biednag
+ %^MON     * Monophthong in contract
+ %^LOW     * Lowering u to å and o (ålol)
+
+ d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
+
+  »7      * »
+  «7      * «
+  %[%>%]  * >
+  %[%<%]  * <
 
 
-
-
+  @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@  * (Dis)allowing compounds
+  @U.Cap.Obl@  @U.Cap.Opt@    * Allowing downcasing of
 
 
 
