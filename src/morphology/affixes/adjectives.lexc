@@ -49,7 +49,7 @@ LEXICON A_EVEN_B !!= * @CODE@
 A_EVEN ;
 +A:%^WG COMPSUP ;
 
-LEXICON A_EVEN_C !!= * @CODE@ !fungerar ej
+LEXICON A_EVEN_C !!= * @CODE@ fungerar ej
 +A+Attr: # ;
 +A:a A_EVEN ;
 +A:a COMPSUP ;
