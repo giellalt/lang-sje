@@ -12,6 +12,7 @@ This is free and open source South Sámi morphology.
 
               !!!Pite Sámi morphological analyser                       
 
+This file contains the tags and reference to main lexica
 
  !!!Multichar_Symbols definitions
 
@@ -40,11 +41,12 @@ Semantic properties of names
 
  d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
 
+{{{
   »7      * »
   «7      * «
   %[%>%]  * >
   %[%<%]  * <
-
+}}}
 
   @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@  * (Dis)allowing compounds
   @U.Cap.Obl@  @U.Cap.Opt@    * Allowing downcasing of
@@ -72,7 +74,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_C  !fungerar ej
+ * LEXICON A_EVEN_C  fungerar ej
 
  LEXICON A_EVEN_D  ex. almelatj:almeladtja
 

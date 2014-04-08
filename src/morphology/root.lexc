@@ -80,12 +80,13 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 d2 t2 j2 h2 g2 !!= @CODE@ * Variable consonants, undergo Auslautherdung
                ! NB! This is the opposite of the sme pattern
 
+!! {{{
 ! Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!= @CODE@ * »
  «7     !!= @CODE@ * «
  %[%>%] !!= @CODE@ * >
  %[%<%] !!= @CODE@ * <
-
+!! }}}
 
 ! Flag diacritics
  @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@ !!= @CODE@ * (Dis)allowing compounds
