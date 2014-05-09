@@ -20,30 +20,52 @@ nolla num "noll, zero" ;
 Card ;
 Ord ;
 
+!!lägg in kasusböjning av card
+
 LEXICON Card
-ákkta num "ett, one" ;
+akkta num "ett, one" ;
 guäkkte num "två, two" ;
+guakkta num "två, two" ;
 gålbmå num "tre, three" ;
+gållmå num "tre, three" ;
 nällje num "fyra, four";
-vihta num "fem, five" ;
-guhta num "sex, six" ;
+nällja num "fyra, four";
+vihtta num "fem, five" ;
+guhtta num "sex, six" ;
 gietjav num "sju, seven" ;
 gákktse num "åtta, eight" ;
+gákktja num "åtta, eight" ;
 åkktse num "nio, nine" ;
+åkktjå num "nio, nine" ;
 lågev num "tio, ten" ;
+akktalågakkta num "elva" ;
+akktalågguakkta num "tolv" ;
+akktalåggålbmå num "tretton" ;
+akktalågnällja num "fjorton" ;
+akktalågvihtta num "femton" ;
+akktalågguhtta num "sexton" ;
+akktalåggietjav num "sjutton" ;
+akktalåggákktja num "arton" ;
+akktalågåkktjå num "nitton" ;
+guakktalåg num "tjugo" ;
+guakktalågakkta num "tjugoett" ;
+
+
+
+
 
 LEXICON Ord
 vuostas num "första, first" ;
 nubbe num "andra, second" ;
 mubbe num "andra, second" ;
-gålmat num "tredje, thrid" ;
-nieljat num "fjärde, fourth" ;
-vedat num "femte, fifth" ;
-gudat num "sjätte, sixth" ;
-giehtjet num "sjunde, seventh" ;
-gákktsat num "åttonde , eighth" ;
-åkktsat num "nionde, ninth" ;
-lågat num "tionde, tenth" ;
+gålmát num "tredje, thrid" ;
+nielját num "fjärde, fourth" ;
+vidát num "femte, fifth" ;
+gudát num "sjätte, sixth" ;
+giehtjit num "sjunde, seventh" ;
+gákktsát num "åttonde , eighth" ;
+åkktsát num "nionde, ninth" ;
+lågát num "tionde, tenth" ;
 
 LEXICON num
 +Num: # ;
