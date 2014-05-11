@@ -21,6 +21,160 @@
 ! Verbs !
 ! ===== !
 
+
+
+
+!! !!!Auxiliaries
+
+
+LEXICON LE !!= * @CODE@ 
+
+le+V+Ind+Prs: LEPRS ; 
+le+V+Ind+Prt: LEPRT ; 
+le+V+Ind+Pot: LEPOT ;
+le+V+PrfPrc:lam # ; !fattas negformer av le 
+
+LEXICON LEPRS !!= * @CODE@ 
++Sg1:läv # ; 
++Sg1:liv # ; 
++Sg2:lä # ;  
++Sg3:lä # ; 
++Sg3:le # ; 
++Du1:lin # ; 
++Du1:len # ; 
++Du2:lihpen # ; 
++Du2:lähppen # ;  
++Du3:läbá # ; 
++Pl1:läp # ; 
++Pl1:lip # ; 
++Pl1:lep # ; 
++Pl2:lihpit # ; 
++Pl2:lehpit # ; 
++Pl3:lin # ; 
++Pl3:lä # ;
+
+LEXICON LEPRT !!= * @CODE@ 
++Sg1:lijjiv    # ; 
++Sg1:lidjiv    # ;  
++Sg2:lijji    # ; 
++Sg2:lidji    # ;  
++Sg3:lij    # ; 
++Du1:lijmen # ; 
++Du1:liejme # ; 
++Du2:lijden # ;
++Du2:liejde # ; 
++Du3:lijga # ;
++Du3:liejga # ; 
++Pl1:lijme # ; 
++Pl1:liejme # ; 
++Pl2:lijde # ;
++Pl2:liejde # ; 
++Pl3:lidjin    # ;  
++Pl3:lijjin    # ; 
++Pl3:lin    # ; 
+
+LEXICON LEPOT
++Sg1:lidtjav # ; 
++Sg2:lidtja # ; 
++Sg3:lidtj # ; 
++Du1:lidtjin # ; 
++Du2:lidtjabehtin # ; 
++Du3:lidtjaba # ; 
++Du3:lidtjaban # ; 
++Pl1:lidtjap # ;  
++Pl2:lidtjabihtit # ; 
++Pl3:lidtji # ; 
+
+
+LEXICON ATJA !!= * @CODE@ 
+atja+V+Ind+Prs: ATJAPRS ; 
+atja+V+Ind+Prt: ATJAPRT ; 
+
+
+LEXICON ATJAPRS !!= * @CODE@ 
++Sg1:atjav      # ;  !!= * @CODE@ 
++Sg2:atjah      # ; 
++Sg3:atja       # ; 
++Du1:itjin      # ; 
++Du2:atjabihten # ; 
++Du3:atjaba     # ; 
++Pl1:atjap      # ; 
++Pl2:atjabihtit # ; 
++Pl3:itjih      # ; 
+
+LEXICON ATJAPRT !!= * @CODE@ 
++Sg1:itjiv    # ;  !!= * @CODE@ 
++Sg2:itjih    # ; 
++Sg3:atjaj    # ; 
++Du1:atjajmen # ; 
++Du2:atjajden # ; 
++Du3:atjajgan # ; 
++Pl1:atjajmeh # ; 
++Pl2:atjajdeh # ; 
++Pl3:itjin    # ; 
+
+LEXICON IJ !!= * @CODE@ 
+ij+V+Neg+Prs: IJPRS ;
+ij+V+Neg+Prt: IJPRT ;
+ij+V+Neg+Imprt: IJIMP ;
+ij+V+Neg+Opt: IJOPT ;
+
+LEXICON IJPRS !!= * @CODE@ 
++Sg1:iv    # ;  !!= * @CODE@ 
++Sg2:i    # ; 
++Sg3:ij    # ; 
++Du1:en # ; 
++Du2:ehpen # ;   
++Du3:iebá # ; 
+
++Pl1:iehpe # ; 
++Pl1:ep # ; 
++Pl2:ehpit # ;  
++Pl3:ie   # ;
++Pl3:e   # ;
+
+LEXICON IJPRT !!= * @CODE@ 
++Sg1:idtjiv    # ;  !!= * @CODE@ 
++Sg2:idtji    # ; 
++Sg3:idtjij    # ; 
++Du1:iejme # ; 
++Du1:idtjijmen # ; 
++Du2:iejde  # ; 
++Du2:idtjijden # ; 
++Du3:iejga # ; 
++Du3:idtjijga # ; 
++Pl1:iejme # ; 
++Pl1:idtjijme # ; 
++Pl2:iejde # ; 
++Pl2:idtjijde # ; 
++Pl3:idtjin    # ;
+
+
+LEXICON IJIMP !!= * @CODE@ 
++Sg2:iele  # ; !!= * @CODE@ 
++Du2:iellen # ; 
++Du3:ellit  # ;
+                        
+LEXICON IJOPT                !!= * @CODE@        
++Sg1:alluv    # ; !!= * @CODE@ 
++Sg2:alluh    # ;
++Sg3:allus    # ;
++Du1:iellun   # ;
++Du1:allun    # ;
++Du2:ielluten # ;
++Du2:alluten  # ;
++Du3:ielluska # ;
++Du3:alluska  # ;
++Pl1:iellup   # ;
++Pl1:allup    # ;
++Pl2:ielluteh # ;
++Pl2:alluteh  # ;
++Pl3:ielluseh # ;
++Pl3:alluseh  # ;
+
+
+!! !!!Main verbs
+
 LEXICON SLADDJIT
 BÅHTET ;
 
