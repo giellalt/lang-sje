@@ -14,13 +14,12 @@
 
 ! Numerals
 
-LEXICON Numeral
+
 
 nolla num "noll, zero" ;
 Card ;
 Ord ;
 
-!!lägg in kasusböjning av card
 
 LEXICON Card
 akkta num "ett, one" ;
@@ -67,8 +66,751 @@ gákktsát num "åttonde , eighth" ;
 åkktsát num "nionde, ninth" ;
 lågát num "tionde, tenth" ;
 
-LEXICON num
-+Num: # ;
+
+
+! Numerals
+! ========
+
+! The initial lexica
+! ------------------
+
+LEXICON Numeral					
+ MILIJÅVNNÅ ;       ! a noun of its own		
+ UNDERTUVSÁN ;      ! for generator under 1000	
+ JUSTTUVSÁN ;       ! going via 1000		
+ OVERTUVSÁN ;       ! for generator over 1000	
+ OLD ;              ! for "thirteen hundred, etc.	
+num-imprecise ;                              
+COLLECTIVE ;                            
+ +Use/Circ: ARABIC ;           ! for the arabic numerals !
+ +Use/Circ: ROMAN ;            ! for the roman numerals	!
+ +Use/Circ: NUM-PREFIXES ;     ! for §34 etc.		!
+ +Use/Circ: ISOLATED-NUMEXP ;  ! for ½ etc.			!
+O-NL ;  
+
+
+
+
+
+
+
+! We now run through the alphabetic numerals, ending up with the case
+! inflection of the final number.
+
+! Million, a noun of its own
+! --------------------------
+
+LEXICON MILIJÅVNNÅ					
+milijåvdnå:milijåvdnå AKTA ;			
+millijåvdnå:millijåvdnå AKTA ;
+milijåvnåt+A+Ord:milijåvnåd9 VUOSTASJ ;	
+millijåvnåt+A+Ord:millijåvnåd9 VUOSTASJ ;
+milliárrda:milliárrda AKTA ;		! Num or N? Use/Sub?
+millijárrda:millijárrda AKTA ;
+milliárdat+A+Ord:milliárdad9 VUOSTASJ ;	
+
+! Overtuvsán, for the numerals over 1000
+! --------------------------------------
+
+LEXICON OVERTUVSÁN				
+ O-AKTAF ;      ! 1000				
+ O-2TO9F ;      ! 2000, 3000, ...			
+ O-JUSTLÅGEVF ; ! 10000				
+ O-2TO9LÅG ;    ! 20000, 30000, ...		
+ O-LÅGENAN ;    ! 11000, 12000, ...		
+ O-TJUOHTE ;    ! 100000					
+ O-2TO9TJUO ;   ! 200000, 300000, ...
+
+! All the child lexica of OVERTUVSÁN have the prefix O-.
+! They are directed via their respective numerals to the lexicon JUSTTUVSÁN.
+
+
+! Thousands
+
+LEXICON O-AKTAF		
+akkta# JUSTDUHÁT ;
+JUSTDUHÁT ;		
+
+LEXICON O-X1000		
+akkta# JUSTTUVSÁN ;
+
+LEXICON O-2TO9F                               
+guakkta#  JUSTTUVSÁN ;       
+guäkkte#  JUSTTUVSÁN ;
+guok#    JUSTTUVSÁN ;         
+guakkta#:guokte# ẈG-O-LÅGEVF ;
+guäkkte#:guokte# ẈG-O-LÅGEVF ;		     
+guakkta#:guokte# WG-JUSTTUVSÁN ;
+guäkkte#:guokte# WG-JUSTTUVSÁN ;		                                                                                                                                                                                                           
+gålbmå#  JUSTTUVSÁN ;  
+gålbmå#:gålmå# ẈG-O-LÅGEVF ;				
+gålbmå#:gålmå# WG-JUSTTUVSÁN ;				                                                    
+nällja# JUSTTUVSÁN ;   
+nällje# JUSTTUVSÁN ; 
+nällja#:nielje# ẈG-O-LÅGEVF ;
+nällje#:nielje# ẈG-O-LÅGEVF ;	   
+nällja#:nielje# WG-JUSTTUVSÁN ;
+nällje#:nielje# WG-JUSTTUVSÁN ;	                                                                                                                             
+vihtta#  JUSTTUVSÁN ;       
+vihtta#:vida# ẈG-O-LÅGEVF ;				   
+vihtta#:vida# WG-JUSTTUVSÁN ;				                                       
+guhtta#  JUSTTUVSÁN ;             
+guhtta#:guda# ẈG-O-LÅGEVF ;	    
+guhtta#:guda# WG-JUSTTUVSÁN ;	                          
+gietjav# JUSTTUVSÁN ;                             
+gietjav# ẈG-O-LÅGEVF ;										
+gietjav# WG-JUSTTUVSÁN ;										
+gákktja#  JUSTTUVSÁN ;         
+gákktse#  JUSTTUVSÁN ;   
+gákktja#:gáktje# ẈG-O-LÅGEVF ;
+gákktse#:gáktse# ẈG-O-LÅGEVF ;						 
+gákktja#:gáktje# WG-JUSTTUVSÁN ;
+gákktse#:gáktse# WG-JUSTTUVSÁN ;					                               
+åkktjå#   JUSTTUVSÁN ; 
+åkktse#   JUSTTUVSÁN ;   
+åkktjå#:åktje# ẈG-O-LÅGEVF ;                 
+åkktse#:åktse# WG-JUSTTUVSÁN ;                 
+
+! Tens of thousands
+
+LEXICON O-JUSTLÅGEVF		
+lågev# JUSTTUVSÁN ;		
+! This lexicon is for the number 10000 only. it is separated from the
+! rest to avoid forms like *logivihttaduhát, etc.
+
+
+LEXICON O-LÅGEVF				     
+låk# JUSTTUVSÁN ;		
+låk# O-X1000 ;			
+låk# O-2TO9F ;
+låge# JUSTTUVSÁN ;		
+låge# O-X1000 ;			
+låge# O-2TO9F ;					
+! this lexicon is accessed only via other O-lexica, and not directly 
+! from OVERTUVSÁN. Thus, *logivihttaduhát, etc. is avoided.
+
+LEXICON ẈG-O-LÅGEVF
+låk# WG-LÅK-JUSTTUVSÁN ;		
+låge# WG-LÅK-JUSTTUVSÁN ;	
+
+!rättat hit	
+
+LEXICON O-2TO9LÅG			  
+guokta# O-LÅGEVF ;		
+guokte# O-LÅGEVF ;
+guok# O-LÅGEVF ;
+guokta#:guovte# ẈG-O-LÅGEVF ;		
+gålmmå# O-LÅGEVF ;		
+gålmmå#:gålmå# ẈG-O-LÅGEVF ;				
+niellja# O-LÅGEVF ;	
+niellje# O-LÅGEVF ;		
+niellja#:nielja# ẈG-O-LÅGEVF ;
+niellje#:nielje# ẈG-O-LÅGEVF ;	
+vihtta# O-LÅGEVF ;		
+vihtta#:vidá# ẈG-O-LÅGEVF ;				
+guhtta# O-LÅGEVF ;	
+guhtta#:gudá# ẈG-O-LÅGEVF ;	
+gietjav# O-LÅGEVF ;			
+giehtja# O-LÅGEVF ;			
+gietja# O-LÅGEVF ;		
+gietja# ẈG-O-LÅGEVF ;										
+gáktsa# O-LÅGEVF ;
+gáktse# O-LÅGEVF ;
+gáktsa#:gávtse# ẈG-O-LÅGEVF ;					
+aktse# O-LÅGEVF ;			
+aktse#:avtse# ẈG-O-LÅGEVF ;
+
+
+! Teens of thousands
+
+LEXICON O-LÅGENAN		
+lågenan#akta# JUSTTUVSÁN ;        
+lågenan#guokta#:lågenan#guokta# JUSTTUVSÁN ;    
+lågenan#guokte#:lågenan#guokte# JUSTTUVSÁN ;
+lågenan#guok#:lågenan#guok# JUSTTUVSÁN ;                                  
+lågenan#gålmmå# JUSTTUVSÁN ;       
+lågenan#niellja#:lågenan#niellja# JUSTTUVSÁN ;   
+lågenan#niellje#:lågenan#niellje# JUSTTUVSÁN ;           
+lågenan#vihtta#:lågenan#vihtta# JUSTTUVSÁN ;             
+lågenan#guhtta#:lågenan#guhtta# JUSTTUVSÁN ;          
+lågenan#gietjav#:lågenan#gietjav# JUSTTUVSÁN ;        
+lågenan#giehtja#:lågenan#giehtja# JUSTTUVSÁN ;        
+lågenan#gietja#:lågenan#gietja# JUSTTUVSÁN ;        
+lågenan#gáktsa#:lågenan#gáktsa# JUSTTUVSÁN ;       
+lågenan#gáktse#:lågenan#gáktse# JUSTTUVSÁN ;       
+lågenan#aktse#:lågenan#aktse# JUSTTUVSÁN ;                 
+
+akta# O-NL ;        
+guokta# O-NL ;           
+guokte# O-NL ;    
+guok# O-NL ;       
+gålmmå# O-NL ;       
+niellja# O-NL ;    
+niellje# O-NL ;          
+vihtta# O-NL ;             
+guhtta# O-NL ;          
+gietjav# O-NL ;
+gietja# O-NL ;        
+giehtja# O-NL ;           
+gáktsa# O-NL ;       
+gáktse# O-NL ;       
+aktse# O-NL ;                 
+
+
+ LEXICON O-NL			
+ lågenan# JUSTTUVSÁN ;
+
+
+! Hundreds of thousands
+
+LEXICON O-TJUOHTE					
+ tjuohte# JUSTTUVSÁN ; ! 100000			
+ tjuohte# O-X1000 ;    ! 101000			
+ tjuohte# O-2TO9F ;    ! 102000, 103000, ...	
+ tjuohte# O-LÅGEVF ;   ! 110000, 113000, ...	
+ tjuohte# O-2TO9LÅG ;  ! 120000, 123000, ...	
+ tjuohte# O-LÅGENAN ;  ! 115000, ...		
+
+
+LEXICON O-TJUODE					
+ tjuode# JUSTTUVSÁN ;  ! 200000			
+ tjuode# O-X1000 ;     ! 201000			
+ tjuode# O-2TO9F ;     ! 202000, 203000, ...	
+ tjuode# O-LÅGEVF ;    ! 210000, 213000, ...	
+ tjuode# O-2TO9LÅG ;   ! 220000, 223000, ...	
+ tjuode# O-LÅGENAN ;   ! 215000, ...		
+ tjuohte# JUSTTUVSÁN ;  ! 200000			
+ tjuohte# O-X1000 ;     ! 201000			
+ tjuohte# O-2TO9F ;     ! 202000, 203000, ...	
+ tjuohte# O-LÅGEVF ;    ! 210000, 213000, ...	
+ tjuohte# O-2TO9LÅG ;   ! 220000, 223000, ...	
+ tjuohte# O-LÅGENAN ;   ! 215000, ...		
+ tjuot# JUSTTUVSÁN ;  ! 200000			
+ tjuot# O-X1000 ;     ! 201000			
+ tjuot# O-2TO9F ;     ! 202000, 203000, ...	
+ tjuot# O-LÅGEVF ;    ! 210000, 213000, ...	
+ tjuot# O-2TO9LÅG ;   ! 220000, 223000, ...	
+ tjuot# O-LÅGENAN ;   ! 215000, ...		
+
+LEXICON WG-O-TJUODE					
+ tjuode# WG-LÅK-JUSTTUVSÁN ;  ! 200000			
+ tjuot# WG-LÅK-JUSTTUVSÁN ;  ! 200000			
+
+LEXICON O-2TO9TJUO				
+akta# O-TJUOHTE ;       ! #one# hundred...		
+akta#:avta# WG-O-TJUODE ;
+akta#:åvtå# WG-O-TJUODE ;
+guokta# O-TJUODE ;				
+guokte# O-TJUODE ;	
+guokta#:guovte# WG-O-TJUODE ;					
+guok# O-TJUODE ;		
+gålmmå# O-TJUODE ;
+gålmmå#:gålmå# WG-O-TJUODE ;							
+niellja# O-TJUODE ;		
+niellje# O-TJUODE ;		
+niellja#:nielja# WG-O-TJUODE ;		
+niellje#:nielje# WG-O-TJUODE ;				
+vihtta# O-TJUODE ;
+vihtta#:vidá# WG-O-TJUODE ;							
+guhtta# O-TJUODE ;
+guhtta#:gudá# WG-O-TJUODE ;							
+gietjav# O-TJUODE ;	
+giehtja# O-TJUODE ;					
+gietja# O-TJUODE ;
+gietja# WG-O-TJUODE ;								
+gáktsa# O-TJUODE ;		
+gáktse# O-TJUODE ;
+gáktsa#:gávtse# WG-O-TJUODE ;								
+aktse# O-TJUODE ;
+aktse#:avtse# WG-O-TJUODE ;					
+				
+
+LEXICON JUSTDUHÁT				
+tuvsán# UNDERTUVSÁN ;
+tuvsán# AVTAS ;  	  	
+tuvsán TUVSÁN ;                    ! Case infl of tuvsán
+tuvsánat+A+Ord:tuvsána TUVSÁNAT ;
+duvsán# UNDERTUVSÁN ;
+duvsán# AVTAS ;  	  	
+duvsán TUVSÁN ;                    ! Case infl of tuvsán
+duvsánat+A+Ord:duvsána TUVSÁNAT ;						
+duhát# UNDERTUVSÁN ;  	
+duhát# AVTAS ;  	
+duhát:duhád9 TUVSÁN ;              ! Case infl of duhát	
+duhádat+A+Ord:duháda TUVSÁNAT ;			
+
+! Justtuvsán, for numerals going via 1000
+! -------------------------------------
+
+LEXICON JUSTTUVSÁN				
+ tuvsán# UNDERTUVSÁN ;             ! Thousand-and-something	
+ tuvsán# AVTAS ;                   ! Thousand-and-something	
+ tuvsán TUVSÁN ;                   ! Case infl of tuvsán	
+ tuvsánat+A+Ord:tuvsána TUVSÁNAT ;		
+ duvsán# UNDERTUVSÁN ;             ! Thousand-and-something	
+ duvsán# AVTAS ;                   ! Thousand-and-something	
+ duvsán TUVSÁN ;                   ! Case infl of tuvsán	
+ duvsánat+A+Ord:duvsána TUVSÁNAT ;			
+ duhát# UNDERTUVSÁN ;              ! Thousand-and-something	
+ duhát# AVTAS ;                    ! Thousand-and-something	
+ duhát:duhád9 TUVSÁN ;             ! Case infl of duhát	
+ duhádat+A+Ord:duháda TUVSÁNAT ;			
+
+LEXICON WG-LÅK-JUSTTUVSÁN				
+ tuvsán WG-LÅK-TUVSÁN ;                   ! Case infl of tuvsán	
+ duvsán WG-LÅK-TUVSÁN ;                   ! Case infl of tuvsán	
+ duhát:duhád9 WG-LÅK-TUVSÁN ;             ! Case infl of duhát	
+
+LEXICON WG-JUSTTUVSÁN				
+ tuvsán WG-TUVSÁN ;                   ! Case infl of tuvsán	
+ duvsán WG-TUVSÁN ;                   ! Case infl of tuvsán	
+ duhát:duhád9 WG-TUVSÁN ;             ! Case infl of duhát	
+ tuvsán+Num+Ess:n#tuvsán%>in K ;                  
+ duvsán+Num+Ess:n#duvsán%>in K ;                  
+ duhát+Num+Ess:n#duhád9%>in K ;                  
+ tuvsán+Num+Sg+Com:jn#tuvsán%>ijn K ;            
+ duvsán+Num+Sg+Com:jn#duvsán%>ijn K ;            
+ duhát+Num+Sg+Com:jn#duhád9%>ijn K ;            
+ duhát+Num+Sg+Ela:t#duhád9%>is K ;            
+ duvsán+Num+Sg+Ela:t#duvsán%>is K ;            
+ tuvsán+Num+Sg+Ela:t#tuvsán%>is K ;            
+
+
+
+! Old, for the old counting thirteen hundred etc.	
+! -----------------------------------------------
+
+LEXICON OLD					
+akta# NLX ;						
+guokta# NLX ;					
+guokte# NLX ;	
+guok# NLX ;									
+gålmmå# NLX ;					
+niellja# NLX ;			
+niellje# NLX ;		
+vihtta# NLX ;					
+guhtta# NLX ;					
+gietjav# NLX ;	
+giehtja# NLX ;					
+gietja# NLX ;									
+gáktsa# NLX ;				
+gáktse# NLX ;						
+aktse# NLX ;					
+lågenan#akta# GTJUODE-SPLIT ;						
+lågenan#guokta# GTJUODE-SPLIT ;		
+lågenan#guokte# GTJUODE-SPLIT ;	
+lågenan#guok# GTJUODE-SPLIT ;							
+lågenan#gålmmå# GTJUODE-SPLIT ;					
+lågenan#niellja# GTJUODE-SPLIT ;	
+lågenan#niellje# GTJUODE-SPLIT ;									
+lågenan#vihtta# GTJUODE-SPLIT ;					
+lågenan#guhtta# GTJUODE-SPLIT ;					
+lågenan#gietjav# GTJUODE-SPLIT ;					
+lågenan#giehtja# GTJUODE-SPLIT ;					
+lågenan#gietja# GTJUODE-SPLIT ;					
+lågenan#gáktsa# GTJUODE-SPLIT ;		
+lågenan#gáktse# GTJUODE-SPLIT ;								
+lågenan#aktse# GTJUODE-SPLIT ;
+
+LEXICON NLX					
+lågenan# GTJUODE-SPLIT ;				
+
+
+
+
+LEXICON UNDERTUVSÁN				
+ AKTAF ;     ! 1				
+ 2TO9F ;     ! 2-9			
+ LÅGEVF ;     ! 10				
+ LÅGENAN ;   ! 11-19             
+ 2TO9LÅG ;   ! 20-99				
+ TJUOHTE ;     ! 100-199				
+ 2TO9TJUO ;   ! 200-999				
+
+LEXICON AKTAF					
+akta:akta AKTA ;        
+akta:åvtå ÅVTÅ ;		
+vuostasj+A+Ord:vuostatj VUOSTASJ ;
+vuostas+A+Ord:vuostas VUOSTASJ ;
+
+
+LEXICON AVTAS			 
+avtas+N+Coll+Sg+Nom:avtas%> K ;
+avtas+N+Coll:aktas VIDÁS ;      
+åvtås+N+Coll+Sg+Nom:åvtås%> K ;
+åvtås+N+Coll:åktås VIDÁS ;      
+
+LEXICON 2TO9F					
+guokta:guokt GUOKTA ;
+guokta+Num+Sg+Ill:guokta%>j K ;    
+guokta+Num+Sg+Attr:guok%> K ; 
+nubbe+A+Ord:nupp nubbecase ;		 
+nubbe+A+Ord+Sg+Nom:nubbe%> K ;         
+nubbe+A+Ord+Ess:nubbe%>n K ;          
+nubbe+A+Ord+Sg+Ill:nubbá%>j K ;        
+nubbe#+A+Ord+Sg+Gen:nuppe%> NUMERALCOMPOUNDS ;
+nuppát+A+Ord:nuppád9 VUOSTASJ ;  
+guovtes+N+Coll+Sg+Nom:guovtes%> K ;
+!guovtá+N+Coll+Sg+Nom:guovtá%> K ;
+guovtes+N+Coll:guoktás VIDÁS ;    
+guovtes+N+Coll:guokt GUOVTES ;    
+gålmmå GÅLMMÅ ;       
+goalmát+A+Ord:goalmád9 VUOSTASJ ;
+gålmås+N+Coll:gålmmås VIDÁS ;        
+gålmås+N+Coll+Sg+Nom:gålmås%> K ;      
+niellja:niellj GUOKTA ;  
+niellja+Num+Sg+Ill:nælljá%>j K ;                
+nælját+A+Ord:næljád9 VUOSTASJ ; 
+nieljes+N+Coll+Sg+Nom:nieljes%> K ;      
+nieljes+N+Coll:nælljás VIDÁS ;       
+vihtta+Num:vidá GÅLMMÅ-OBL ;                    
+vihtta+Num+Sg+Nom:vihtta%> K ;          
+vihtta+Num+Sg+Acc:vihtta%> K ;         
+vihtta+Num+Sg+Ill:vihtta%>j K ;         
+vihtta+Num+Ess:vihtta%>n K ;            
+vidát+A+Ord:vidád9 VUOSTASJ ;
+vidás+N+Coll+Sg+Nom:vidás%> K ;      
+viđás+N+Coll:vihttas VIDÁS ;       
+guhtta+Num:gudá GÅLMMÅ-OBL ;                
+guhtta+Num+Sg+Nom:guhtta%> K ;          
+guhtta+Num+Sg+Acc:guhtta%> K ;         
+guhtta+Num+Sg+Ill:guhtta%>j K ;         
+guhtta+Num+Ess:guhtta%>n K ;            
+gudát+A+Ord:gudád9 VUOSTASJ ;
+gudás+N+Coll+Sg+Nom:gudás%> K ;   
+guđás+N+Coll:guhttas VIDÁS ;      
+gietjav:giehtja GIETJAV ;         
+giehttjit+A+Ord:giehttjid9 VUOSTASJ ; 
+gietjas+N+Coll+Sg+Nom:gietjas%> K ;   
+gietjas+N+Coll:giehtjas VIDÁS ;       
+gáktsa:gákts GÁKTSA ;              
+gávtsát+A+Ord:gávtsád9 VUOSTASJ ;
+gávtses+N+Coll+Sg+Nom:gávtses%> K ;   
+gávtses+N+Coll:gáktsás VIDÁS ;        
+aktse:akts AKTSE ;                      
+avtsát+A+Ord:avtsád9 VUOSTASJ ; 
+avtses+N+Coll+Sg+Nom:avtses%> K ;   
+avtses+N+Coll:aktsás VIDÁS ;       
+
+LEXICON ẈG-LÅK-2TO9F					
+guokta:guokt ẈG-LÅK-GUOKTA ;
+guokta+Num+Sg+Ill:guokta%>j K ;    
+nubbe+A+Ord:nupp nubbecase ;		 
+nubbe+A+Ord+Ess:nubbe%>n K ;          
+nubbe+A+Ord+Sg+Ill:nubbá%>j K ;        
+nubbe#+A+Ord+Sg+Gen:nuppe%> NUMERALCOMPOUNDS ;
+gålmmå ẈG-LÅK-GÅLMMÅ ;       
+niellja:niellj ẈG-LÅK-GUOKTA ;  
+niellja+Num+Sg+Ill:nælljá%>j K ;                
+vihtta+Num:vidá ẈG-LÅK-GÅLMMÅ-OBL ;                    
+vihtta+Num+Sg+Ill:vihtta%>j K ;         
+vihtta+Num+Ess:vihtta%>n K ;            
+guhtta+Num:gudá ẈG-LÅK-GÅLMMÅ-OBL ;                
+guhtta+Num+Sg+Ill:guhtta%>j K ;         
+guhtta+Num+Ess:guhtta%>n K ;            
+gietjav:giehtja ẈG-LÅK-GIETJAV ;         
+gáktsa:gákts ẈG-LÅK-GÁKTSA ;              
+aktse:akts ẈG-LÅK-AKTSE ;                      
+
+
+LEXICON LÅGEVF					
+lågev:låhk LÅGEV ;
+akta#lågev:akta#låhk LÅGEV ;      
+lågåt+A+Ord:lågåd9 VUOSTASJ ;
+akta#lågåt+A+Ord:akta#lågåd9 VUOSTASJ ;						
+låhke:låhk TJUOHTECASE ;
+akta#låhke:akta#låhk TJUOHTECASE ;  
+låhke+Num+Sg+Ill:låhkå%>j K ;   
+låhke+Num+Sg+Nom:låhke%> K ;                        
+låhke+Num+Ess:låhke%>n K ;                          
+akta#låhke+Num+Sg+Ill:akta#låhkå%>j K ;
+akta#låhke+Num+Sg+Nom:akta#låhke%> K ;                        
+akta#låhke+Num+Ess:akta#låhke%>n K ;                                             
+låges+N+Coll+Sg+Nom:låges%> K ;
+akta#låges+N+Coll+Sg+Nom:akta#låges%> K ;      
+låges+N+Coll:låhkås VIDÁS ;       
+akta#låges+N+Coll:akta#låhkås VIDÁS ;       
+
+
+LEXICON LÅK-					
+låk# AKTAF ;
+låk# AVTAS ;								
+låk# 2TO9F ;
+låge# AKTAF ;
+låge# AVTAS ;								
+låge# 2TO9F ;								
+låhke+Num+Sg+Attr:låk%> K ;    
+låhke#+Num+Sg+Attr:låk%> NUMERALCOMPOUNDS ;
+låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
+ låhke:låhk  TJUOHTECASE ;  ! vihttalåhke, collective number
+låhke+Num+Sg+Ill:låhkå%>j K ; 
+låhke+Num+Sg+Nom:låhke%> K ;            
+låhke+Num+Ess:låhke%>n K ;                       
+lågåt+A+Ord:lågåd9 VUOSTASJ ;
+låges+N+Coll+Sg+Nom:låges%> K ;
+låges+N+Coll:låhkås VIDÁS ;       
+		
+LEXICON ẈG-LÅK-					
+låk#akta ẈG-LÅK-AKTA ;
+låk#åvtå ẈG-LÅK-ÅVTÅ ;
+låk# ẈG-LÅK-2TO9F ;
+låge#akta ẈG-LÅK-AKTA ;
+låge#åvtå ẈG-LÅK-ÅVTÅ ;								
+låge# ẈG-LÅK-2TO9F ;								
+låhke+Num+Sg+Attr:låk%> K ;    
+låhke#+Num+Sg+Attr:låk%> NUMERALCOMPOUNDS ;
+låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
+ låhke:låhk  ẈG-LÅK-TJUOHTECASE ;  ! vihttalåhke, collective number
+låhke+Num+Sg+Ill:låhkå%>j K ; 
+låhke+Num+Ess:n#låhke%>n K ;    
+låhke+Num+Ess:n#låge%>n K ;                                          
+låhke+Num+Sg+Com:jn#lågi%>jn K ;                       
+låhke+Num+Sg+Ela:t#låge%>s K ;                       
+låhke+Num+Sg+Par:låge%>t K ;                       
+låhke+Num+Sg+Par:t#låge%>t K ;                       
+
+
+LEXICON LÅGENAN					
+lågenan#akta AKTA ;        
+lågenan#akta:lågenan#åvtå ÅVTÅ ;		
+lågenan#vuostasj+A+Ord:lågenan#vuostatj VUOSTASJ ;		
+lågenan#vuostas+A+Ord:lågenan#vuostas VUOSTASJ ;		  
+lågenan#guokta:lågenan#guokt GUOKTA ;
+lågenan#guokta+Num+Sg+Ill:lågenan#guokta%>j K ;    
+lågenan#guokta+Num+Sg+Nom:lågenan#guok%> K ;  
+lågenan#guokta+Num+Sg+Acc:lågenan#guok%> K ;                                             
+lågenan#nubbe+A+Ord:lågenan#nupp nubbecase ;		 
+lågenan#nubbe+A+Ord+Sg+Nom:lågenan#nubbe%> K ;       
+lågenan#nubbe+A+Ord+Ess:lågenan#nubbe%>n K ;        
+lågenan#nubbe+A+Ord+Sg+Ill:lågenan#nubbá%>j K ;     
+lågenan#nuppát+A+Ord:lågenan#nuppád9 VUOSTASJ ;       
+guovtes#lågenan+N+Coll+Sg+Nom:guovtes#lågenan%> K ;      
+guovtes#lågenan+N+Coll:guoktás VIDÁSLÅGENAN ;       
+lågenan#gålmmå GÅLMMÅ ;       
+lågenan#goalmát+A+Ord:lågenan#goalmád9 VUOSTASJ ;        
+gålmås#lågenan+N+Coll+Sg+Nom:gålmås#lågenan%> K ;      
+gålmås#lågenan+N+Coll:gålmmås VIDÁSLÅGENAN ;        
+lågenan#niellja:lågenan#niellj GUOKTA ;   
+lågenan#niellja+Num+Sg+Ill:lågenan#nælljá%>j K ;    
+lågenan#nælját+A+Ord:lågenan#næljád9 VUOSTASJ ;        
+nieljes#lågenan+N+Coll+Sg+Nom:nieljes#lågenan%> K ;      
+nieljes#lågenan+N+Coll:nælljás VIDÁSLÅGENAN ;       
+lågenan#vihtta+Num:lågenan#vidá GÅLMMÅ-OBL ;             
+lågenan#vihtta+Num+Sg+Nom:lågenan#vihtta%> K ;          
+lågenan#vihtta+Num+Sg+Acc:lågenan#vihtta%> K ;         
+lågenan#vihtta+Num+Sg+Ill:lågenan#vihtta%>j K ;         
+lågenan#vihtta+Num+Ess:lågenan#vihtta%>n K ;            
+lågenan#vidát+A+Ord:lågenan#vidád9 VUOSTASJ ;       
+vidás#lågenan+N+Coll+Sg+Nom:vidás#lågenan%> K ;      
+vidás#lågenan+N+Coll:vihttas VIDÁSLÅGENAN ;   
+gudás#lågenan+N+Coll+Sg+Nom:gudás#lågenan%> K ;      
+guđás#lågenan+N+Coll:guhttas VIDÁSLÅGENAN ;       
+lågenan#guhtta+Num:lågenan#gudá GÅLMMÅ-OBL ;          
+lågenan#guhtta+Num+Sg+Nom:lågenan#guhtta%> K ;          
+lågenan#guhtta+Num+Sg+Acc:lågenan#guhtta%> K ;         
+lågenan#guhtta+Num+Sg+Ill:lågenan#guhtta%>j K ;         
+lågenan#guhtta+Num+Ess:lågenan#guhtta%>n K ;            
+lågenan#gudát+A+Ord:lågenan#gudád9 VUOSTASJ ;        
+lågenan#gietjav:lågenan#giehtja GIETJAV ;        
+lågenan#giehttjit+A+Ord:lågenan#giehttjid9 VUOSTASJ ;     
+gietjas#lågenan+N+Coll+Sg+Nom:gietjas#lågenan%> K ;      
+gietjas#lågenan+N+Coll:giehtjas VIDÁSLÅGENAN ;       
+gávtses#lågenan+N+Coll+Sg+Nom:gávtses#lågenan%> K ;      
+gávtses#lågenan+N+Coll:gáktsás VIDÁSLÅGENAN ;        
+avtses#lågenan+N+Coll+Sg+Nom:avtses#lågenan%> K ;      
+avtses#lågenan+N+Coll:aktsás# VIDÁSLÅGENAN ;       
+lågenan#gáktsa:lågenan#gákts GÁKTSA ;       
+lågenan#gávtsát+A+Ord:lågenan#gávtsád9 VUOSTASJ ;       
+lågenan#aktse:lågenan#akts AKTSE ;                 
+lågenan#avtsát+A+Ord:lågenan#avtsád9 VUOSTASJ ;        
+akta#lågenan:akta AKTALÅGENAN ;        
+akta#lågenan:åvtå ÅVTÅLÅGENAN ;		
+vuostasj#lågåt+A+Ord:vuostasj#lågåd9 VUOSTASJ ;
+vuostas#lågåt+A+Ord:vuostas#lågåd9 VUOSTASJ ;			 			 
+guokta#lågenan:guokt GUOKTALÅGENAN ; 
+guokta#lågenan+Num+Sg+Ill:guokta%>j#lågenan%> K ;                   
+guokta#lågenan+Num+Sg+Nom:guok%>#lågenan%> K ;   
+guokta#lågenan+Num+Sg+Acc:guok%>#lågenan%> K ;       
+nuppát#lågåt+A+Ord:nuppát#lågåd9 VUOSTASJ ;        
+gålmmå#lågenan:gålmmå GÅLMMÅLÅGENAN ;       
+goalmát#lågåt+A+Ord:goalmát#lågåd9 VUOSTASJ ;        
+niellja#lågenan:niellj GUOKTALÅGENAN ;   
+niellja#lågenan+Num+Sg+Ill:nælljá%>j#lågenan%> K ;                   
+nælját#lågåt+A+Ord:nælját#lågåd9 VUOSTASJ ;        
+vihtta#lågenan+Num:vidá GÅLMMÅLÅGENAN-OBL ;             
+vihtta#lågenan+Num+Sg+Nom:vihtta%>#lågenan%> K ;          
+vihtta#lågenan+Num+Sg+Acc:vihtta%>#lågenan%> K ;         
+vihtta#lågenan+Num+Sg+Ill:vihtta%>j#lågenan%> K ;         
+vihtta#lågenan+Num+Ess:vihtta%>n#lågenan%> K ;            
+vidát#lågåt+A+Ord:vidát#lågåd9 VUOSTASJ ;        
+guhtta#lågenan+Num:gudá GÅLMMÅLÅGENAN-OBL ;          
+guhtta#lågenan+Num+Sg+Nom:guhtta%>#lågenan%> K ;          
+guhtta#lågenan+Num+Sg+Acc:guhtta%>#lågenan%> K ;         
+guhtta#lågenan+Num+Sg+Ill:guhtta%>j#lågenan%> K ;         
+guhtta#lågenan+Num+Ess:guhtta%>n#lågenan%> K ;            
+gudát#lågåt+A+Ord:gudát#lågåd9 VUOSTASJ ;        
+gietjav#lågenan:giehtja GIETJAVLÅGENAN ; 
+giehttjit#lågåt+A+Ord:giehttjit#lågåd9 VUOSTASJ ;         
+gáktsa#lågenan:gákts GÁKTSALÅGENAN ;       
+gávtsát#lågåt+A+Ord:gávtsát#lågåt VUOSTASJ ;       
+aktse#lågenan:akts AKTSELÅGENAN ;                 
+avtsát#lågåt+A+Ord:avtsát#lågåd9 VUOSTASJ ;        
+lågenan#guovtes+N+Coll+Sg+Nom:lågenan#guovtes%> K ;
+lågenan#guovtá+N+Coll+Sg+Nom:lågenan#guovtá%> K ;      
+lågenan#guovtes+N+Coll:lågenan#guoktás VIDÁS ;    
+lågenan#guovtes+N+Coll:lågenan#guokt GUOVTES ;    
+lågenan#gålmås+N+Coll:lågenan#gålmmås VIDÁS ;        
+lågenan#gålmås+N+Coll+Sg+Nom:lågenan#gålmås%> K ;      
+lågenan#nieljes+N+Coll:lågenan#nælljás VIDÁS ;       
+lågenan#vidás+N+Coll+Sg+Nom:lågenan#vidás%> K ;      
+lågenan#viđás+N+Coll:lågenan#vihttas VIDÁS ;       
+lågenan#gudás+N+Coll+Sg+Nom:lågenan#gudás%> K ;   
+lågenan#guđás+N+Coll:lågenan#guhttas VIDÁS ;      
+lågenan#gietjas+N+Coll+Sg+Nom:lågenan#gietjas%> K ;   
+lågenan#gietjas+N+Coll:lågenan#giehtjas VIDÁS ;       
+lågenan#gávtses+N+Coll+Sg+Nom:lågenan#gávtses%> K ;   
+lågenan#gávtses+N+Coll:lågenan#gáktsás VIDÁS ;        
+lågenan#avtses+N+Coll+Sg+Nom:lågenan#avtses%> K ;   
+lågenan#avtses+N+Coll:lågenan#aktsás VIDÁS ;       
+
+
+
+LEXICON 2TO9LÅG					
+guokta# LÅK- ;		
+guokte# LÅK- ;	
+guok# LÅK- ;
+guokta#:guovte# ẈG-LÅK- ;													
+gålmmå# LÅK- ;
+gålmmå#:gålmå# ẈG-LÅK- ;				
+niellja# LÅK- ;	
+niellje# LÅK- ;
+niellja#:nielja# ẈG-LÅK- ;
+niellje#:nielje# ẈG-LÅK- ;
+vihtta# LÅK- ;
+vihtta#:vidá# ẈG-LÅK- ;				
+guhtta# LÅK- ;
+guhtta#:gudá# ẈG-LÅK- ;
+gietjav# LÅK- ;	
+giehtja# LÅK- ;					
+gietja# LÅK- ;
+gietja# ẈG-LÅK- ;									
+gáktsa# LÅK- ;
+gáktse# LÅK- ;
+gáktsa#:gávtse# ẈG-LÅK- ;					
+aktse# LÅK- ;					
+aktse#:avtse# ẈG-LÅK- ;
+
+LEXICON TJUOHTE					
+tjuohte:tjuoht TJUOHTECASE ;    
+tjuohte+Num+Sg+Ill:tjuohtá%>j K ;  
+tjuohte+Num+Sg+Nom:tjuohte%> K ;  
+tjuohte+Num+Ess:tjuohte%>n K ;  
+tjuohte#+Num+Sg+Attr:tjuohte%> NUMERALCOMPOUNDS ;
+tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
+tjuohte# LÅGEVF ;
+tjuohte# LÅK- ;
+tjuohte# 2TO9LÅG ;					
+tjuohte# AKTAF ;
+tjuohte# AVTAS ;										
+tjuohte# 2TO9F ;					
+tjuohte# LÅGENAN ;				
+tjuodát+A+Ord:tjuodád9 VUOSTASJ ;			
+akta#tjuohte:akta#tjuoht TJUOHTECASE ;    
+akta#tjuohte+Num+Sg+Ill:akta#tjuohtá%>j K ; 
+akta#tjuohte+Num+Sg+Nom:akta#tjuohte%> K ;  
+akta#tjuohte+Num+Ess:akta#tjuohte%>n K ;   
+akta#tjuohte# LÅGEVF ;
+akta#tjuohte# LÅK- ;
+akta#tjuohte# 2TO9LÅG ;					
+akta#tjuohte# AKTAF ;
+akta#tjuohte# AVTAS ;										
+akta#tjuohte# 2TO9F ;					
+akta#tjuohte# LÅGENAN ;				
+tjuodes+N+Coll+Sg+Nom:tjuodes%> K ;      
+tjuodes+N+Coll:tjuohtás VIDÁS ;       
+akta#tjuodes+N+Coll+Sg+Nom:akta#tjuodes%> K ;      
+akta#tjuodes+N+Coll:akta#tjuohtás VIDÁS ;       
+
+
+
+
+LEXICON 2TO9TJUO					
+guokta# GTJUODE-SPLIT ;			
+guokte# GTJUODE-SPLIT ;	
+guok# GTJUODE-SPLIT ;													
+gålmmå# GTJUODE-SPLIT ;					
+niellja# GTJUODE-SPLIT ;				
+niellje# GTJUODE-SPLIT ;				
+vihtta# GTJUODE-SPLIT ;					
+guhtta# GTJUODE-SPLIT ;					
+gietjav# GTJUODE-SPLIT ;
+giehtja# GTJUODE-SPLIT ;					
+gietja# GTJUODE-SPLIT ;										
+gáktsa# GTJUODE-SPLIT ;			
+gáktse# GTJUODE-SPLIT ;							
+aktse# GTJUODE-SPLIT ;	
+guokta#:guovte# WG-GTJUODE ;	
+gålmmå#:gålmå# WG-GTJUODE ;					
+niellja#:nielja# WG-GTJUODE ;				
+niellje#:nielje# WG-GTJUODE ;				
+vihtta#:vidá# WG-GTJUODE ;					
+guhtta#:gudá# WG-GTJUODE ;					
+gietja# WG-GTJUODE ;
+gáktsa#:gávtse# WG-GTJUODE ;							
+aktse#:avtse# WG-GTJUODE ;	
+
+LEXICON	GTJUODE-SPLIT
+ GTJUODE ;
+ TJUOHTEIMPRECISE ;			
+
+  
+LEXICON GTJUODE					
+tjuode#+Num+Sg+Attr:tjuode%> NUMERALCOMPOUNDS ;
+tjuohte#+Num+Sg+Attr:tjuohte%> NUMERALCOMPOUNDS ;
+tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
+tjuode LÅGEVF ;		
+tjuohte LÅGEVF ;					
+tjuot LÅGEVF ;								
+tjuode# 2TO9LÅG ;
+tjuohte# 2TO9LÅG ;					
+tjuot# 2TO9LÅG ;										
+tjuode# AKTAF ;	
+tjuohte# AKTAF ;	
+tjuot# AKTAF ;
+tjuode# AVTAS ;		
+tjuot# AVTAS ;									
+tjuohte# AVTAS ;															
+tjuode# 2TO9F ;		
+tjuot# 2TO9F ;					
+tjuohte# 2TO9F ;			
+tjuode# LÅGENAN ;	
+tjuot# LÅGENAN ;				
+tjuohte# LÅGENAN ;			
+!tjuohte:tjuoht TJUOHTECASE ;      ! imprecise number
+tjuode:tjuoht TJUOHTECASE ;
+tjuode+Num+Sg+Ill:tjuohtá%>j K ;
+tjuode+Num+Ess:tjuohte%>n K ;
+tjuode+Num+Sg+Attr:tjuot%> K ;
+tjuodát+A+Ord:tjuodád9 VUOSTASJ ;			
+tjuodes+N+Coll+Sg+Nom:tjuodes%> K ;      
+tjuodes+N+Coll:tjuohtás VIDÁS ;       
+
+LEXICON WG-GTJUODE					
+tjuode#+Num+Sg+Attr:tjuode%> NUMERALCOMPOUNDS ;
+tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
+tjuode:tjuoht ẈG-LÅK-TJUOHTECASE ;
+tjuode+Num+Sg+Ill:tjuohtá%>j K ;
+tjuode+Num+Ess:n#tjuohte%>n K ;
+tjuode+Num+Sg+Attr:tjuot%> K ;
+tjuode+Num+Sg+Attr:tjuode%> K ;
+tjuode+Num+Sg+Com:jn#tjuodi%>jn K ;                       
+tjuode+Num+Sg+Ela:t#tjuode%>s K ;                       
+tjuode+Num+Sg+Par:tjuode%>t K ;                       
+tjuode+Num+Sg+Par:t#tjuode%>t K ;                       
+
+
+LEXICON TJUOHTEIMPRECISE
+ tjuohte+Num+Sg+Nom:tjuohte%> K ; ! 200-or-so
 
 
 
