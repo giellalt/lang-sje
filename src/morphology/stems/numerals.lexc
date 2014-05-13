@@ -192,69 +192,67 @@ låge# O-2TO9F ;
 LEXICON ẈG-O-LÅGEVF
 låk# WG-LÅK-JUSTTUVSÁN ;		
 låge# WG-LÅK-JUSTTUVSÁN ;	
-
-!rättat hit	
+	
 
 LEXICON O-2TO9LÅG			  
-guokta# O-LÅGEVF ;		
-guokte# O-LÅGEVF ;
-guok# O-LÅGEVF ;
-guokta#:guovte# ẈG-O-LÅGEVF ;		
-gålmmå# O-LÅGEVF ;		
-gålmmå#:gålmå# ẈG-O-LÅGEVF ;				
-niellja# O-LÅGEVF ;	
-niellje# O-LÅGEVF ;		
-niellja#:nielja# ẈG-O-LÅGEVF ;
-niellje#:nielje# ẈG-O-LÅGEVF ;	
+guakkta# O-LÅGEVF ;		
+guäkkte# O-LÅGEVF ;
+guak# O-LÅGEVF ;
+guakkta#:guokte# ẈG-O-LÅGEVF ;		
+gålbmå# O-LÅGEVF ;		
+gålbmå#:gålmå# ẈG-O-LÅGEVF ;				
+niällja# O-LÅGEVF ;	
+nällje# O-LÅGEVF ;		
+nällja#:nielje# ẈG-O-LÅGEVF ;
+nällje#:nielje# ẈG-O-LÅGEVF ;	
 vihtta# O-LÅGEVF ;		
-vihtta#:vidá# ẈG-O-LÅGEVF ;				
+vihtta#:vida# ẈG-O-LÅGEVF ;				
 guhtta# O-LÅGEVF ;	
-guhtta#:gudá# ẈG-O-LÅGEVF ;	
-gietjav# O-LÅGEVF ;			
-giehtja# O-LÅGEVF ;			
-gietja# O-LÅGEVF ;		
-gietja# ẈG-O-LÅGEVF ;										
-gáktsa# O-LÅGEVF ;
-gáktse# O-LÅGEVF ;
-gáktsa#:gávtse# ẈG-O-LÅGEVF ;					
-aktse# O-LÅGEVF ;			
-aktse#:avtse# ẈG-O-LÅGEVF ;
+guhtta#:guda# ẈG-O-LÅGEVF ;	
+gietjav# O-LÅGEVF ;								
+gietjav#:gietja ẈG-O-LÅGEVF ;										
+gákktja# O-LÅGEVF ;
+gákktse# O-LÅGEVF ;
+gákktja#:gáktse# ẈG-O-LÅGEVF ;
+gákktse#:gáktse# ẈG-O-LÅGEVF ;					
+åkktjå# O-LÅGEVF ;
+åkktse# O-LÅGEVF ;			
+åkktjå#:åktje# ẈG-O-LÅGEVF ;
+åkktse#:åkts e# ẈG-O-LÅGEVF ;
 
 
 ! Teens of thousands
 
 LEXICON O-LÅGENAN		
 lågenan#akta# JUSTTUVSÁN ;        
-lågenan#guokta#:lågenan#guokta# JUSTTUVSÁN ;    
-lågenan#guokte#:lågenan#guokte# JUSTTUVSÁN ;
-lågenan#guok#:lågenan#guok# JUSTTUVSÁN ;                                  
-lågenan#gålmmå# JUSTTUVSÁN ;       
-lågenan#niellja#:lågenan#niellja# JUSTTUVSÁN ;   
-lågenan#niellje#:lågenan#niellje# JUSTTUVSÁN ;           
+lågenan#guakkta#:lågenan#guakkta# JUSTTUVSÁN ;    
+lågenan#guäkkte#:lågenan#guäkkte# JUSTTUVSÁN ;
+lågenan#guak#:lågenan#guak# JUSTTUVSÁN ;                                  
+lågenan#gålbmå# JUSTTUVSÁN ;       
+lågenan#nällja#:lågenan#nällja# JUSTTUVSÁN ;   
+lågenan#nällje#:lågenan#nällje# JUSTTUVSÁN ;           
 lågenan#vihtta#:lågenan#vihtta# JUSTTUVSÁN ;             
 lågenan#guhtta#:lågenan#guhtta# JUSTTUVSÁN ;          
-lågenan#gietjav#:lågenan#gietjav# JUSTTUVSÁN ;        
-lågenan#giehtja#:lågenan#giehtja# JUSTTUVSÁN ;        
-lågenan#gietja#:lågenan#gietja# JUSTTUVSÁN ;        
-lågenan#gáktsa#:lågenan#gáktsa# JUSTTUVSÁN ;       
-lågenan#gáktse#:lågenan#gáktse# JUSTTUVSÁN ;       
-lågenan#aktse#:lågenan#aktse# JUSTTUVSÁN ;                 
+lågenan#gietjav#:lågenan#gietjav# JUSTTUVSÁN ;                        
+lågenan#gákktja#:lågenan#gákktja# JUSTTUVSÁN ;       
+lågenan#gákktse#:lågenan#gákktse# JUSTTUVSÁN ;       
+lågenan#åkktjå#:lågenan#åkktjå# JUSTTUVSÁN ; 
+lågenan#åkktse#:lågenan#åkktse# JUSTTUVSÁN ;                 
 
 akta# O-NL ;        
-guokta# O-NL ;           
-guokte# O-NL ;    
-guok# O-NL ;       
-gålmmå# O-NL ;       
-niellja# O-NL ;    
-niellje# O-NL ;          
+guakkta# O-NL ;           
+guäkkte# O-NL ;    
+guak# O-NL ;       
+gålbmå# O-NL ;       
+nällja# O-NL ;    
+nällje# O-NL ;          
 vihtta# O-NL ;             
 guhtta# O-NL ;          
 gietjav# O-NL ;
-gietja# O-NL ;        
-giehtja# O-NL ;           
-gáktsa# O-NL ;       
-gáktse# O-NL ;       
-aktse# O-NL ;                 
+gákktja# O-NL ;       
+gákktse# O-NL ;
+åkktjå# O-NL ;       
+åkktse# O-NL ;                 
 
 
  LEXICON O-NL			
@@ -297,32 +295,33 @@ LEXICON WG-O-TJUODE
  tjuot# WG-LÅK-JUSTTUVSÁN ;  ! 200000			
 
 LEXICON O-2TO9TJUO				
-akta# O-TJUOHTE ;       ! #one# hundred...		
-akta#:avta# WG-O-TJUODE ;
-akta#:åvtå# WG-O-TJUODE ;
-guokta# O-TJUODE ;				
-guokte# O-TJUODE ;	
-guokta#:guovte# WG-O-TJUODE ;					
-guok# O-TJUODE ;		
-gålmmå# O-TJUODE ;
-gålmmå#:gålmå# WG-O-TJUODE ;							
-niellja# O-TJUODE ;		
-niellje# O-TJUODE ;		
-niellja#:nielja# WG-O-TJUODE ;		
-niellje#:nielje# WG-O-TJUODE ;				
+akkta# O-TJUOHTE ;       ! #one# hundred...		
+akkta#:akta# WG-O-TJUODE ;
+guakkta# O-TJUODE ;				
+guäkkte# O-TJUODE ;	
+guakkta#:guokte# WG-O-TJUODE ;
+guäkkte#:guokte# WG-O-TJUODE ;					
+guak# O-TJUODE ;		
+gålbmå# O-TJUODE ;
+gålbmå#:gålmå# WG-O-TJUODE ;							
+nällja# O-TJUODE ;		
+nällje# O-TJUODE ;		
+nällja#:nielje# WG-O-TJUODE ;		
+nällje#:nielje# WG-O-TJUODE ;				
 vihtta# O-TJUODE ;
-vihtta#:vidá# WG-O-TJUODE ;							
+vihtta#:vida# WG-O-TJUODE ;							
 guhtta# O-TJUODE ;
-guhtta#:gudá# WG-O-TJUODE ;							
+guhtta#:guda# WG-O-TJUODE ;							
 gietjav# O-TJUODE ;	
-giehtja# O-TJUODE ;					
-gietja# O-TJUODE ;
-gietja# WG-O-TJUODE ;								
-gáktsa# O-TJUODE ;		
-gáktse# O-TJUODE ;
-gáktsa#:gávtse# WG-O-TJUODE ;								
-aktse# O-TJUODE ;
-aktse#:avtse# WG-O-TJUODE ;					
+gietjav#:gietja WG-O-TJUODE ;								
+gákktja# O-TJUODE ;		
+gákktse# O-TJUODE ;
+gákktja#:gáktje# WG-O-TJUODE ;	
+gákktse#:gáktse# WG-O-TJUODE ;							
+åkktjå# O-TJUODE ;
+åkktse# O-TJUODE ;
+åkktjå#:åktje# WG-O-TJUODE ;	
+åkktse#:åktse# WG-O-TJUODE ;						
 				
 
 LEXICON JUSTDUHÁT				
@@ -332,12 +331,9 @@ tuvsán TUVSÁN ;                    ! Case infl of tuvsán
 tuvsánat+A+Ord:tuvsána TUVSÁNAT ;
 duvsán# UNDERTUVSÁN ;
 duvsán# AVTAS ;  	  	
-duvsán TUVSÁN ;                    ! Case infl of tuvsán
-duvsánat+A+Ord:duvsána TUVSÁNAT ;						
-duhát# UNDERTUVSÁN ;  	
-duhát# AVTAS ;  	
-duhát:duhád9 TUVSÁN ;              ! Case infl of duhát	
-duhádat+A+Ord:duháda TUVSÁNAT ;			
+duvsán TUVSÁN ; 
+                   ! Case infl of tuvsán
+		
 
 ! Justtuvsán, for numerals going via 1000
 ! -------------------------------------
@@ -346,33 +342,18 @@ LEXICON JUSTTUVSÁN
  tuvsán# UNDERTUVSÁN ;             ! Thousand-and-something	
  tuvsán# AVTAS ;                   ! Thousand-and-something	
  tuvsán TUVSÁN ;                   ! Case infl of tuvsán	
- tuvsánat+A+Ord:tuvsána TUVSÁNAT ;		
- duvsán# UNDERTUVSÁN ;             ! Thousand-and-something	
- duvsán# AVTAS ;                   ! Thousand-and-something	
- duvsán TUVSÁN ;                   ! Case infl of tuvsán	
- duvsánat+A+Ord:duvsána TUVSÁNAT ;			
- duhát# UNDERTUVSÁN ;              ! Thousand-and-something	
- duhát# AVTAS ;                    ! Thousand-and-something	
- duhát:duhád9 TUVSÁN ;             ! Case infl of duhát	
- duhádat+A+Ord:duháda TUVSÁNAT ;			
+ tuvsánat+A+Ord:tuvsána TUVSÁNAT ;
+ 		
+ 		
 
 LEXICON WG-LÅK-JUSTTUVSÁN				
  tuvsán WG-LÅK-TUVSÁN ;                   ! Case infl of tuvsán	
- duvsán WG-LÅK-TUVSÁN ;                   ! Case infl of tuvsán	
- duhát:duhád9 WG-LÅK-TUVSÁN ;             ! Case infl of duhát	
-
+ 
 LEXICON WG-JUSTTUVSÁN				
  tuvsán WG-TUVSÁN ;                   ! Case infl of tuvsán	
- duvsán WG-TUVSÁN ;                   ! Case infl of tuvsán	
- duhát:duhád9 WG-TUVSÁN ;             ! Case infl of duhát	
+ 	
  tuvsán+Num+Ess:n#tuvsán%>in K ;                  
- duvsán+Num+Ess:n#duvsán%>in K ;                  
- duhát+Num+Ess:n#duhád9%>in K ;                  
  tuvsán+Num+Sg+Com:jn#tuvsán%>ijn K ;            
- duvsán+Num+Sg+Com:jn#duvsán%>ijn K ;            
- duhát+Num+Sg+Com:jn#duhád9%>ijn K ;            
- duhát+Num+Sg+Ela:t#duhád9%>is K ;            
- duvsán+Num+Sg+Ela:t#duvsán%>is K ;            
  tuvsán+Num+Sg+Ela:t#tuvsán%>is K ;            
 
 
@@ -381,36 +362,34 @@ LEXICON WG-JUSTTUVSÁN
 ! -----------------------------------------------
 
 LEXICON OLD					
-akta# NLX ;						
-guokta# NLX ;					
-guokte# NLX ;	
-guok# NLX ;									
-gålmmå# NLX ;					
-niellja# NLX ;			
-niellje# NLX ;		
+akkta# NLX ;						
+guakkta# NLX ;					
+guäkkte# NLX ;	
+guak# NLX ;									
+gålbmå# NLX ;					
+nällja# NLX ;			
+nällje# NLX ;		
 vihtta# NLX ;					
 guhtta# NLX ;					
 gietjav# NLX ;	
-giehtja# NLX ;					
-gietja# NLX ;									
-gáktsa# NLX ;				
-gáktse# NLX ;						
-aktse# NLX ;					
-lågenan#akta# GTJUODE-SPLIT ;						
-lågenan#guokta# GTJUODE-SPLIT ;		
-lågenan#guokte# GTJUODE-SPLIT ;	
-lågenan#guok# GTJUODE-SPLIT ;							
-lågenan#gålmmå# GTJUODE-SPLIT ;					
-lågenan#niellja# GTJUODE-SPLIT ;	
-lågenan#niellje# GTJUODE-SPLIT ;									
+gákktja# NLX ;				
+gákktse# NLX ;						
+åkktjå# NLX ;
+åkktse# NLX ;					
+lågenan#akkta# GTJUODE-SPLIT ;						
+lågenan#guakkta# GTJUODE-SPLIT ;		
+lågenan#guäkkte# GTJUODE-SPLIT ;	
+lågenan#guak# GTJUODE-SPLIT ;							
+lågenan#gålbmå# GTJUODE-SPLIT ;					
+lågenan#nällja# GTJUODE-SPLIT ;	
+lågenan#nällje# GTJUODE-SPLIT ;									
 lågenan#vihtta# GTJUODE-SPLIT ;					
 lågenan#guhtta# GTJUODE-SPLIT ;					
 lågenan#gietjav# GTJUODE-SPLIT ;					
-lågenan#giehtja# GTJUODE-SPLIT ;					
-lågenan#gietja# GTJUODE-SPLIT ;					
-lågenan#gáktsa# GTJUODE-SPLIT ;		
-lågenan#gáktse# GTJUODE-SPLIT ;								
-lågenan#aktse# GTJUODE-SPLIT ;
+lågenan#gákktja# GTJUODE-SPLIT ;		
+lågenan#gákktse# GTJUODE-SPLIT ;								
+lågenan#åkktjå# GTJUODE-SPLIT ;
+lågenan#åkktse# GTJUODE-SPLIT ;
 
 LEXICON NLX					
 lågenan# GTJUODE-SPLIT ;				
@@ -428,17 +407,11 @@ LEXICON UNDERTUVSÁN
  2TO9TJUO ;   ! 200-999				
 
 LEXICON AKTAF					
-akta:akta AKTA ;        
-akta:åvtå ÅVTÅ ;		
-vuostasj+A+Ord:vuostatj VUOSTASJ ;
-vuostas+A+Ord:vuostas VUOSTASJ ;
+akkta:akta AKTA ;        		
+vuostas+A+Ord:vuostatj VUOSTASJ ;
 
 
-LEXICON AVTAS			 
-avtas+N+Coll+Sg+Nom:avtas%> K ;
-avtas+N+Coll:aktas VIDÁS ;      
-åvtås+N+Coll+Sg+Nom:åvtås%> K ;
-åvtås+N+Coll:åktås VIDÁS ;      
+!rättat hit    
 
 LEXICON 2TO9F					
 guokta:guokt GUOKTA ;
