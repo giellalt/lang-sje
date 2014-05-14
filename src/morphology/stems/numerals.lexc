@@ -218,7 +218,7 @@ gákktse#:gáktse# ẈG-O-LÅGEVF ;
 åkktjå# O-LÅGEVF ;
 åkktse# O-LÅGEVF ;			
 åkktjå#:åktje# ẈG-O-LÅGEVF ;
-åkktse#:åkts e# ẈG-O-LÅGEVF ;
+åkktse#:åktse# ẈG-O-LÅGEVF ;
 
 
 ! Teens of thousands
@@ -409,34 +409,32 @@ LEXICON UNDERTUVSÁN
 LEXICON AKTAF					
 akkta:akta AKTA ;        		
 vuostas+A+Ord:vuostatj VUOSTASJ ;
-
-
-!rättat hit    
+   
 
 LEXICON 2TO9F					
-guokta:guokt GUOKTA ;
-guokta+Num+Sg+Ill:guokta%>j K ;    
-guokta+Num+Sg+Attr:guok%> K ; 
-nubbe+A+Ord:nupp nubbecase ;		 
+guakkta:guakkt GUOKTA ;
+guakkta+Num+Sg+Ill:guakkta%>j K ;    
+guakkta+Num+Sg+Attr:guakk%> K ; 
+nubbe+A+Ord:nubb nubbecase ;		 
 nubbe+A+Ord+Sg+Nom:nubbe%> K ;         
 nubbe+A+Ord+Ess:nubbe%>n K ;          
 nubbe+A+Ord+Sg+Ill:nubbá%>j K ;        
-nubbe#+A+Ord+Sg+Gen:nuppe%> NUMERALCOMPOUNDS ;
-nuppát+A+Ord:nuppád9 VUOSTASJ ;  
+nubbe#+A+Ord+Sg+Gen:nubbe%> NUMERALCOMPOUNDS ;  
 guovtes+N+Coll+Sg+Nom:guovtes%> K ;
+
 !guovtá+N+Coll+Sg+Nom:guovtá%> K ;
-guovtes+N+Coll:guoktás VIDÁS ;    
-guovtes+N+Coll:guokt GUOVTES ;    
-gålmmå GÅLMMÅ ;       
-goalmát+A+Ord:goalmád9 VUOSTASJ ;
+guoktes+N+Coll:guakktás VIDÁS ;    
+guoktes+N+Coll:guakkt GUOVTES ;    
+gålbmå:gålbm GÅLMMÅ ;       
+gålmát+A+Ord:gålmád9 VUOSTASJ ;
 gålmås+N+Coll:gålmmås VIDÁS ;        
 gålmås+N+Coll+Sg+Nom:gålmås%> K ;      
-niellja:niellj GUOKTA ;  
-niellja+Num+Sg+Ill:nælljá%>j K ;                
-nælját+A+Ord:næljád9 VUOSTASJ ; 
+nällja:nällj GUOKTA ;  
+nällja+Num+Sg+Ill:nälljá%>j K ;                
+nielját+A+Ord:nieljád9 VUOSTASJ ; 
 nieljes+N+Coll+Sg+Nom:nieljes%> K ;      
-nieljes+N+Coll:nælljás VIDÁS ;       
-vihtta+Num:vidá GÅLMMÅ-OBL ;                    
+nieljes+N+Coll:nälljás VIDÁS ;       
+vihtta+Num:vida GÅLMMÅ-OBL ;                    
 vihtta+Num+Sg+Nom:vihtta%> K ;          
 vihtta+Num+Sg+Acc:vihtta%> K ;         
 vihtta+Num+Sg+Ill:vihtta%>j K ;         
@@ -444,26 +442,28 @@ vihtta+Num+Ess:vihtta%>n K ;
 vidát+A+Ord:vidád9 VUOSTASJ ;
 vidás+N+Coll+Sg+Nom:vidás%> K ;      
 viđás+N+Coll:vihttas VIDÁS ;       
-guhtta+Num:gudá GÅLMMÅ-OBL ;                
+guhtta+Num:guda GÅLMMÅ-OBL ;                
 guhtta+Num+Sg+Nom:guhtta%> K ;          
 guhtta+Num+Sg+Acc:guhtta%> K ;         
 guhtta+Num+Sg+Ill:guhtta%>j K ;         
 guhtta+Num+Ess:guhtta%>n K ;            
 gudát+A+Ord:gudád9 VUOSTASJ ;
-gudás+N+Coll+Sg+Nom:gudás%> K ;   
-guđás+N+Coll:guhttas VIDÁS ;      
-gietjav:giehtja GIETJAV ;         
-giehttjit+A+Ord:giehttjid9 VUOSTASJ ; 
+gudas+N+Coll+Sg+Nom:gudas%> K ;   
+guđas+N+Coll:guhttas VIDÁS ;      
+gietjav:gietj GIETJAV ;         
+gehtjit+A+Ord:gehtjid9 VUOSTASJ ; 
 gietjas+N+Coll+Sg+Nom:gietjas%> K ;   
 gietjas+N+Coll:giehtjas VIDÁS ;       
-gáktsa:gákts GÁKTSA ;              
-gávtsát+A+Ord:gávtsád9 VUOSTASJ ;
-gávtses+N+Coll+Sg+Nom:gávtses%> K ;   
-gávtses+N+Coll:gáktsás VIDÁS ;        
-aktse:akts AKTSE ;                      
-avtsát+A+Ord:avtsád9 VUOSTASJ ; 
+gákktse:gákkts GÁKTSA ;              
+gáktsát+A+Ord:gáktsád9 VUOSTASJ ;
+gáktses+N+Coll+Sg+Nom:gáktses%> K ;   
+gáktses+N+Coll:gákktsás VIDÁS ;        
+åkktse:åkkts AKTSE ;                      
+åktsát+A+Ord:åktsád9 VUOSTASJ ; 
 avtses+N+Coll+Sg+Nom:avtses%> K ;   
-avtses+N+Coll:aktsás VIDÁS ;       
+åktses+N+Coll:åkktsás VIDÁS ;       
+
+!rättat hit
 
 LEXICON ẈG-LÅK-2TO9F					
 guokta:guokt ẈG-LÅK-GUOKTA ;
