@@ -13,28 +13,28 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ========================================================================== !
-! !!               !!!Pite Sámi morphological analyser                       
+! !!               !!!Pite Sámi morphological analyser
 ! ========================================================================== !
- 
+
 !! This file contains the tags and reference to main lexica
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! POS
-+N +V +A 	                     
-+Adv +CC +CS                     
-+Interj 	                     
-+Pron +Num	                     
++N +V +A
++Adv +CC +CS
++Interj
++Pron +Num
 
 ! Verbal MSP
-+Prs +Fut +Prt +Prf 
++Prs +Fut +Prt +Prf
 +Ind +Imprt +Cond +Opt +Pot
-+Sg1 +Sg2 +Sg3 
++Sg1 +Sg2 +Sg3
 +Du1 +Du2 +Du3
 +Pl1 +Pl2 +Pl3
 +Inf
 +Pos +Neg +ConNeg
-+GerI +GerII +PrfPrc 
++GerI +GerII +PrfPrc
 +VAbess +Sup +VAdv
 +Cmp
 
@@ -43,20 +43,20 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! Case
 
-+Nom +Acc +Gen 
-+Ill +Ine +Ela 
++Nom +Acc +Gen
++Ill +Ine +Ela
 +Com +Ess +Abe
 +Ord +Card
 +Qst
 
 !! Semantic properties of names
 
-+Prop +Ani 
-+Mal +Fem +Sur 
-+Plc +Org +Obj 
++Prop +Ani
++Mal +Fem +Sur
++Plc +Org +Obj
 
 
-+PxSg1 +PxSg2 +PxSg3 
++PxSg1 +PxSg2 +PxSg3
 +PxPl1 +PxPl2 +PxPl3
 
 
