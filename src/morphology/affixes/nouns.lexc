@@ -62,8 +62,8 @@ LEXICON EVENOBLIQUE
                N_EVEN_S ;
 :%^jDEL%>j     N_EVEN_J ;
 !:%>j     N_EVEN_J ;
-+Sg+Com:%^WG%>j%^MONB4Jn   K ; !norm
-+Sg+Com:%^WG%>j%^MONB4Jna  K ; !variant
+        +Sg+Com:%^WG%>j%^MONB4Jn   K ; !norm
++Sg+Com+Err/Sub:%^WG%>j%^MONB4Jna  K ; !variant
 N_EVEN_ILL ;
 
 LEXICON N_EVEN_ILL
@@ -120,7 +120,7 @@ LEXICON N_EVEN_C
 +Abe:%>odak K ; ! Norm
 +Pl+Nom:%>o  K ;
 +Sg+Com:%>ojn   K ; !norm
-+Sg+Com:%>ojna  K ; !variant
++Sg+Com+Err/Sub:%>ojna  K ; !variant
 +Pl+Gen:%>oj    K ;
 +Pl+Acc:%>ojt   K ;
 +Pl+Ine:%>ojn   K ;
