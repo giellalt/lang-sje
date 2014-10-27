@@ -31,8 +31,8 @@ EXTEDITOR=@SEE@
 
 ###### Extraction: #######
 # extract non-compounding lemmas:
-grep ";" $sourcefile | grep -v "^\!" \ 
-    | egrep -v '(STRAYFORMS|ENDLEX|\+V)' | tr ":+" " " | cut -d " " -f1 \	
+grep ";" $sourcefile | grep -v "^\!" \
+	| egrep -v '(STRAYFORMS|ENDLEX|\+V)' | tr ":+" " " | cut -d " " -f1 \
 	| tr -d "#" | sort -u > verbs.txt
 
 
