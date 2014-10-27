@@ -974,3 +974,35 @@ iehtja+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
 
 
 
+
+! Det här är för att få räkneorden att kompilera, kopi från smj
+
+LEXICON nubbecase
+ +Sg+Gen:e%> K ;
+ +Sg+Ine+Attr:e%> K ;
+ +Sg+Ill+Attr:e%> K ;
+ +Sg+Gen+Use/NG:e%> NAMÁK ; ! 
+! +Sg+Abe:e%>#da K ;
+ +Sg+Abe+Use/NG:e%>#dak K ; ! 
+ +Sg+Abe+Use/NG:e%>#dagi K ; ! 
+ +Sg+Abe+Use/NG:e%>#dagá K ; ! 
+ +Sg+Abe+Err/Sub:e%>#tagá K ; ! 
+ +Sg+Acc:e%>v K ;
+ +Sg+Ela:e%>s K ; 
+ +Sg+Ine:e%>n K ;
+ +Sg+Com:i%>jn K ;
+ +Pl+Nom:e%> K ;
+ +Pl+Gen:i%>j K ;
+ +Pl+Gen+Use/NG:i%>j NAMÁK ; ! 
+! +Pl+Abe:i%>j#da K ;
+ +Pl+Abe+Use/NG:i%>j#dak K ; ! 
+ +Pl+Abe+Use/NG:i%>j#dagi K ; ! 
+ +Pl+Abe+Use/NG:i%>j#dagá K ; ! 
+ +Pl+Abe+Err/Sub:i%>j#tagá K ; ! 
+ +Pl+Acc:i%>jt K ;
+ +Pl+Ill:i%>jda K ;
+ +Pl+Ine:i%>jn K ;
+ +Pl+Ela:i%>js K ;
+ +Pl+Com:i%>j K ;
+
+
