@@ -12,9 +12,13 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
+Multichar_Symbols
+
+  +Use/NG    ! Do not generate, for Oahpa and evt. Apertium
+
 LEXICON Root
 HUNDREDSM ;		     ! 200M
-tjuohte:1 HUNDREDM ; ! 100M
+1:tjuohte HUNDREDM ; ! 100M
 TENSM ;		         ! 20-99M
 TEENSM ;	         ! 10-19M
 1MILJON ;            ! 1M
@@ -22,45 +26,54 @@ ONESM ;		         ! 1-9M
 1GIGA ;            	 ! 1G
 ONESG ;		         ! 1-9G
 HUNDREDST ;	         ! 200000-999999
-tjuohte:1 HUNDREDT ; ! 100000-100999
+1:tjuohte  HUNDREDT ; ! 100000-100999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
-tuvsán:1 THOUSAND ; ! 1000-1999
-duhát:1 THOUSAND ; ! 1000-1999
+1:tuvsán THOUSAND ; ! 1000-1999
 UNDERTHOUSAND ;		 ! 100-999
 TENS ;			     ! 20-99
 TEENS ;			     ! 10-19
 ONES ;			     ! 1-9
 
 LEXICON ONESG
-:akta%   1GIGA ;
+ :akkta%   1GIGA ;
 2:guakkta GIGA ;
-3:gålmmå GIGA ;
-4:niellja GIGA ;
-4:niellje GIGA ;
-5:vihtta GIGA ;
-6:guhtta GIGA ;
+2:guäkkta+Use/NG GIGA ;
+2:guäkkte+Use/NG GIGA ;
+3:gålmmå+Use/NG GIGA ;
+3:gålbmå GIGA ;
+4:nällja GIGA ;
+4:nällje+Use/NG GIGA ;
+5:vihta GIGA ;
+6:guhta GIGA ;
 7:gietjav GIGA ;
-8:gáktja GIGA ;
-9:oktje GIGA ; 
+8:gákktja GIGA ;
+8:gákktse+Use/NG GIGA ;
+9:åkktjå GIGA ; 
+9:åkktse+Use/NG GIGA ; 
 
 LEXICON 1GIGA
-1:milliárdda%  OVERMILLIONS ;
+1:milliárrda%  OVERMILLIONS ;
 
 LEXICON GIGA
-:% milliárdda%  OVERMILLIONS ;
+:% milliárrda%  OVERMILLIONS ;
 
 LEXICON HUNDREDSM
-2:guakta CUODIM ;
-3:gålmmå CUODIM ;
-4:niellja CUODIM ;
-4:niellje CUODIM ;
-5:vihtta CUODIM ;
-6:guhtta CUODIM ;
+2:guakkta CUODIM ;
+2:guäkkta+Use/NG CUODIM ;
+2:guäkkte+Use/NG CUODIM ;
+3:gålmmå+Use/NG CUODIM ;
+3:gålbmå CUODIM ;
+4:nällja CUODIM ;
+4:nällje+Use/NG CUODIM ;
+5:vihta CUODIM ;
+6:guhta CUODIM ;
 7:gietjav CUODIM ;
-8:gáktja CUODIM ;
-9:oktje CUODIM ; 
+8:gákktja CUODIM ;
+8:gákktse+Use/NG CUODIM ;
+9:åkktjå CUODIM ; 
+9:åkktse+Use/NG CUODIM ; 
 
 LEXICON CUODIM
 :tjuode HUNDREDM ; !200, not 100
@@ -75,51 +88,66 @@ LEXICON TEENSM
 1: TEENM ;
 
 LEXICON TEENM
-1:akta LOHKAIM ;
-2:guakta LOHKAIM ;
-3:gålmmå LOHKAIM ;
-4:niellja LOHKAIM ;
-4:niellje LOHKAIM ;
-5:vihtta LOHKAIM ;
-6:guhtta LOHKAIM ;
+1:akkta LOHKAIM ;
+2:guakkta LOHKAIM ;
+2:guäkkta+Use/NG LOHKAIM ;
+2:guäkkte+Use/NG LOHKAIM ;
+3:gålmmå+Use/NG LOHKAIM ;
+3:gålbmå LOHKAIM ;
+4:nällja LOHKAIM ;
+4:nällje+Use/NG LOHKAIM ;
+5:vihta LOHKAIM ;
+6:guhta LOHKAIM ;
 7:gietjav LOHKAIM ;
-8:gáktja LOHKAIM ;
-9:oktje LOHKAIM ; 
+8:gákktja LOHKAIM ;
+8:gákktse+Use/NG LOHKAIM ;
+9:åkktjå LOHKAIM ; 
+9:åkktse+Use/NG LOHKAIM ; 
 
 LEXICON LOHKAIM
 :lågenan MILJON ;
 
 LEXICON TENSM
-1%0:låhke MILJON ;
-2:guakta LÅGEVM ;
-3:gålmmå LÅGEVM ;
-4:niellja LÅGEVM ;
-4:niellje LÅGEVM ;
-5:vihtta LÅGEVM ;
-6:guhtta LÅGEVM ;
+1%0:lågev MILJON ;
+2:guakkta LÅGEVM ;
+2:guäkkta+Use/NG LÅGEVM ;
+2:guäkkte+Use/NG LÅGEVM ;
+3:gålmmå+Use/NG LÅGEVM ;
+3:gålbmå LÅGEVM ;
+4:nällja LÅGEVM ;
+4:nällje+Use/NG LÅGEVM ;
+5:vihta LÅGEVM ;
+6:guhta LÅGEVM ;
 7:gietjav LÅGEVM ;
-8:gáktja LÅGEVM ;
-9:oktje LÅGEVM ; 
+8:gákktja LÅGEVM ;
+8:gákktse+Use/NG LÅGEVM ;
+9:åkktjå LÅGEVM ; 
+9:åkktse+Use/NG LÅGEVM ; 
 
 LEXICON LÅGEVM
-%0:låk MILJON ;
-:låk ONESM ;
+%0:låg MILJON ;
+:låg ONESM ;
 
 LEXICON ONESM
 :akta%   1MILJON ;
-2:guakta MILJON ;
-3:gålmmå MILJON ;
-4:niellja MILJON ;
-4:niellje MILJON ;
-5:vihtta MILJON ;
-6:guhtta MILJON ;
+2:guakkta MILJON ;
+2:guäkkta+Use/NG MILJON ;
+2:guäkkte+Use/NG MILJON ;
+3:gålmmå+Use/NG MILJON ;
+3:gålbmå MILJON ;
+4:nällja MILJON ;
+4:nällje+Use/NG MILJON ;
+5:vihta MILJON ;
+6:guhta MILJON ;
 7:gietjav MILJON ;
-8:gáktja MILJON ;
-9:oktje MILJON ; 
+8:gákktja+Use/NG MILJON ; 
+8:gákktse MILJON ; 
+9:åkktjå MILJON ; 
+9:åkktse+Use/NG MILJON ; 
 
 LEXICON 1MILJON
-1:millijåvnnå%  OVERTHOUSANDS ;
-1:milijåvnnå%  OVERTHOUSANDS ;
+1:millijåvvnå%  OVERTHOUSANDS ;
+1:milijåvvnå%  OVERTHOUSANDS ;
 
 LEXICON MILJON
 % miljona% : OVERTHOUSANDS ;
@@ -161,15 +189,20 @@ HUNDREDST ;		        ! x00.000.000
 %0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON HUNDREDST
-2:guakta CUODIT ;
-3:gålmmå CUODIT ;
-4:niellja CUODIT ;
-4:niellje CUODIT ;
-5:vihtta CUODIT ;
-6:guhtta CUODIT ;
+2:guakkta CUODIT ;
+2:guäkkta+Use/NG CUODIT ;
+2:guäkkte+Use/NG CUODIT ;
+3:gålmmå+Use/NG CUODIT ;
+3:gålbmå CUODIT ;
+4:nällja CUODIT ;
+4:nällje+Use/NG CUODIT ;
+5:vihta CUODIT ;
+6:guhta CUODIT ;
 7:gietjav CUODIT ;
-8:gáktja CUODIT ;
-9:oktje CUODIT ; 
+8:gákktja CUODIT ;
+8:gákktse+Use/NG CUODIT ;
+9:åkktjå CUODIT ; 
+9:åkktse+Use/NG CUODIT ;
 
 LEXICON CUODIT
 :tjuode HUNDREDT ;	! 200000-199999
@@ -177,7 +210,7 @@ LEXICON CUODIT
 LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
 TENST ;			     ! X2XYYY, X10YYY
 TEENST ;		     ! X1XYYY
-%01:akta THOUSANDS ;
+%01:akkta THOUSANDS ;
 %0: ONEST ;		     ! XX0YYY
 %0%0: THOUSANDS ;	 ! X00YYY
 
@@ -186,50 +219,65 @@ LEXICON TEENST
 
 LEXICON TEENT
 %0:lågev THOUSANDS ;
-1:akta LOHKAIT ;
-2:guakta LOHKAIT ;
-3:gålmmå LOHKAIT ;
-4:niellja LOHKAIT ;
-4:niellje LOHKAIT ;
-5:vihtta LOHKAIT ;
-6:guhtta LOHKAIT ;
+1:akkta LOHKAIT ;
+2:guakkta LOHKAIT ;
+2:guäkkta+Use/NG LOHKAIT ;
+2:guäkkte+Use/NG LOHKAIT ;
+3:gålmmå+Use/NG LOHKAIT ;
+3:gålbmå LOHKAIT ;
+4:nällja LOHKAIT ;
+4:nällje+Use/NG LOHKAIT ;
+5:vihta LOHKAIT ;
+6:guhta LOHKAIT ;
 7:gietjav LOHKAIT ;
-8:gáktja LOHKAIT ;
-9:oktje LOHKAIT ; 
+8:gákktja LOHKAIT ;
+8:gákktse+Use/NG LOHKAIT ;
+9:åkktjå LOHKAIT ;
+:åkktse+Use/NG LOHKAIT ; 
 
 LEXICON LOHKAIT
 :lågenan THOUSANDS ;
 
 LEXICON TENST
-2:guakta LÅGEVT ;
-3:gålmmå LÅGEVT ;
-4:niellja LÅGEVT ;
-4:niellje LÅGEVT ;
-5:vihtta LÅGEVT ;
-6:guhtta LÅGEVT ;
+2:guakkta LÅGEVT ;
+2:guäkkta+Use/NG LÅGEVT ;
+2:guäkkte+Use/NG LÅGEVT ;
+3:gålmmå+Use/NG LÅGEVT ;
+3:gålbmå LÅGEVT ;
+4:nällja LÅGEVT ;
+4:nällje+Use/NG LÅGEVT ;
+5:vihta LÅGEVT ;
+6:guhta LÅGEVT ;
 7:gietjav LÅGEVT ;
-8:gáktja LÅGEVT ;
-9:oktje LÅGEVT ; 
+8:gákktja LÅGEVT ;
+8:gákktse+Use/NG LÅGEVT ;
+9:åkktjå LÅGEVT ; 
+9:åkktse+Use/NG LÅGEVT ;
 
 LEXICON LÅGEVT
 %0:låhke THOUSANDS ;
-1:låhke#akta#tuvsán THOUSAND ;
-:låk ONEST ;
+1:låhke#akkta#tuvsán THOUSAND ;
+:låg ONEST ;
 
 LEXICON ONEST
-2:guakta THOUSANDS ;
-3:gålmmå THOUSANDS ;
-4:niellja THOUSANDS ;
-4:niellje THOUSANDS ;
-5:vihtta THOUSANDS ;
-6:guhtta THOUSANDS ;
+2:guakkta THOUSANDS ;
+2:guäkkta+Use/NG THOUSANDS ;
+2:guäkkte+Use/NG THOUSANDS ;
+3:gålmmå+Use/NG THOUSANDS ;
+3:gålbmå THOUSANDS ;
+4:nällja THOUSANDS ;
+4:nällje+Use/NG THOUSANDS ;
+5:vihta THOUSANDS ;
+6:guhta THOUSANDS ;
 7:gietjav THOUSANDS ;
-8:gáktja THOUSANDS ;
-9:oktje THOUSANDS ; 
+8:gákktja THOUSANDS ;
+8:gákktse+Use/NG THOUSANDS ;
+9:åkktjå THOUSANDS ; 
+9:åkktse+Use/NG THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
 :tuvsán THOUSAND ;
-:duhát THOUSAND ;
+
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
@@ -245,18 +293,23 @@ UNDERTHOUSAND ;	   ! 1100-1999
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
 1:tjuohte HUNDRED ;
-1:tjuot HUNDRED ;
+
 
 LEXICON HUNDREDS
-2:guakta CUODI ;
-3:gålmmå CUODI ;
-4:niellja CUODI ;
-4:niellje CUODI ;
-5:vihtta CUODI ;
-6:guhtta CUODI ;
+2:guakkta CUODI ;
+2:guäkkta+Use/NG CUODI ;
+2:guäkkte+Use/NG CUODI ;
+3:gålmmå+Use/NG CUODI ;
+3:gålbmå CUODI ;
+4:nällja CUODI ;
+4:nällje+Use/NG CUODI ;
+5:vihta CUODI ;
+6:guhta CUODI ;
 7:gietjav CUODI ;
-8:gáktja CUODI ;
-9:oktje CUODI ; 
+8:gákktja CUODI ;
+8:gákktse+Use/NG CUODI ;
+9:åkktjå CUODI ; 
+9:åkktse+Use/NG CUODI ;
 
 LEXICON CUODI
 :tjuode HUNDRED ;
@@ -272,58 +325,76 @@ LEXICON TEENS
 1:lågenan TEEN2 ;
 
 LEXICON TEEN
-1:akta LOHKAI ;
-2:guakta LOHKAI ;
-3:gålmmå LOHKAI ;
-4:niellja LOHKAI ;
-4:niellje LOHKAI ;
-5:vihtta LOHKAI ;
-6:guhtta LOHKAI ;
+1:akkta LOHKAI ;
+2:guakkta LOHKAI ;
+2:guäkkta+Use/NG LOHKAI ;
+2:guäkkte+Use/NG LOHKAI ;
+3:gålmmå+Use/NG LOHKAI ;
+3:gålbmå LOHKAI ;
+4:nällja LOHKAI ;
+4:nällje+Use/NG LOHKAI ;
+5:vihta LOHKAI ;
+6:guhta LOHKAI ;
 7:gietjav LOHKAI ;
-8:gáktja LOHKAI ;
-9:oktje LOHKAI ; 
+8:gákktja LOHKAI ;
+8:gákktse+Use/NG LOHKAI ;
+9:åkktjå LOHKAI ; 
+9:åkktse+Use/NG LOHKAI ;
 
 LEXICON TEEN2
-1:akta # ;
-2:guakta # ;
-3:gålmmå # ;
-4:niellja # ;
-4:niellje # ;
-5:vihtta # ;
-6:guhtta # ;
+1:akkta # ;
+2:guakkta # ;
+2:guäkkta+Use/NG # ;
+2:guäkkte+Use/NG # ;
+3:gålbmå+Use/NG # ;
+3:gålbmå # ;
+4:nällja # ;
+4:nällje+Use/NG # ;
+5:vihta # ;
+6:guhta # ;
 7:gietjav # ;
-8:gáktja # ;
-9:oktje # ; 
+8:gákktja # ;
+8:gákktse+Use/NG # ;
+9:åkktjå # ; 
+9:åkktse+Use/NG # ; 
 
 LEXICON LOHKAI
 :lågenan # ;
 
 LEXICON TENS
 1%0:lågev # ;
-2:guakta LÅGEV ;
-3:gålmmå LÅGEV ;
-4:niellja LÅGEV ;
-4:niellje LÅGEV ;
-5:vihtta LÅGEV ;
-6:guhtta LÅGEV ;
+2:guakkta LÅGEV ;
+2:guäkkta+Use/NG LÅGEV ;
+2:guäkkte+Use/NG LÅGEV ;
+3:gålmmå+Use/NG LÅGEV ;
+3:gålbmå LÅGEV ;
+4:nällja LÅGEV ;
+4:nällje+Use/NG LÅGEV ;
+5:vihta LÅGEV ;
+6:guhta LÅGEV ;
 7:gietjav LÅGEV ;
-8:gáktja LÅGEV ;
-9:oktje LÅGEV ; 
+8:gákktja LÅGEV ;
+8:gákktse+Use/NG LÅGEV ;
+9:åkktjå LÅGEV ;
+9:åkktse+Use/NG LÅGEV ; 
 
 LEXICON LÅGEV
-%0:låhke # ;
-%0:låk # ;
-:låk ONES ;
+%0:låg # ;
+:låg ONES ;
 
 LEXICON ONES
-1:akta # ;
-2:guakta # ;
-3:gålmmå # ;
-4:niellja # ;
-4:niellje # ;
-5:vihtta # ;
-6:guhtta # ;
+1:akkta # ;
+2:guakkta # ;
+2:guäkkta+Use/NG # ;
+2:guäkkte+Use/NG # ;
+3:gålmmå+Use/NG # ;
+3:gålbmå # ;
+4:nällja # ;
+4:nällje+Use/NG # ;
+5:vihta # ;
+6:guhta # ;
 7:gietjav # ;
-8:gáktja # ;
-9:oktje # ; 
-
+8:gákktja # ;
+8:gákktse+Use/NG # ;
+9:åkktjå # ; 
+9:åkktse+Use/NG # ; 

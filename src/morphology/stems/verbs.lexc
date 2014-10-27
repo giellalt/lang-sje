@@ -115,13 +115,13 @@ gáhtot:gáht ÅRROT "d försvinna"  ; !fungerar
 gállet:gáll BÅHTET "l vada" ; !fungerar 
 gallgat:gallg BALLAT "lg skall (verb)" ; !fungerar
 ganugit:ganug NAMMADIT "stanna" ; 
-gassnet:gassn BALLAT "sn nysa" ; !fungerar
+gassnet:gassn BÅHTET "sn nysa" ; !fungerar
 gatjadit:gatjad2 NAMMADIT "fråga" ; !fungerar
 gávdnat:gávdn BALLAT "vn hitta, finna" ; !fungerar 
 gávnadit:gávnad2 NAMMADIT "träffas" ; !fungerar
 gibbnjit:gibbnji V_CONTR "hänga ut" ; !fungerar
-giehtjastit:giehtjas NAMMADIT "försöka" ;
-gielestit:gieles NAMMADIT "ljuga" ;
+giehtjastit:giehtjast NAMMADIT "försöka" ;
+gielestit:gielest NAMMADIT "ljuga" ;
 gijjtalit:gijjtal NAMMADIT "tacka (flera gånger)" ; !fungerar
 gijjtet:gijjt BÅHTET "jt tacka" ; !fungerar
 gilljot:gillj ÅRROT "lj skrika, gassta"  ; !fungerar
