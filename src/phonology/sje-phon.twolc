@@ -26,13 +26,13 @@ Alphabet
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
   d2:d t2:t j2:j h2:h g2:g ŋ
   ':0
-  
-  %^WG:0     !!= @CODE@ * weak grade
-  %^jDEL:0   !!= @CODE@ * vowel deletion in front of j
-  %^MONB4J:0 !!= @CODE@ * e to á and o to u before j
-  %^CDEL:0   !!= @CODE@ * final consonant deletion (biednag)
-  %^MON:0    !!= @CODE@ * Monophthong in contract stems
-  %^LOW:0    !!= @CODE@ * Lowering u to å and o (ålol)
+
+  %^WG:0     !!≈ ; @CODE@ : weak grade
+  %^jDEL:0   !!≈ ; @CODE@ : vowel deletion in front of j
+  %^MONB4J:0 !!≈ ; @CODE@ : e to á and o to u before j
+  %^CDEL:0   !!≈ ; @CODE@ : final consonant deletion (biednag)
+  %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
+  %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -180,11 +180,11 @@ s:t <=> _ j2: .#. ;
 !! __@RULENAME@__  
  e:i <=> Cns _ (Dummy:*) ( %>:) j ;
  	
- !€ riehpe>jt
- !€ r0e0bi0jt
+!€ riehpe>jt
+!€ r0e0bi0jt
 
- !€ tjahppadubbo>jt
- !€ tjahppadubbo0jt
+!€ tjahppadubbo>jt
+!€ tjahppadubbo0jt
 
 
 "Vowel Deletion in front of j"
