@@ -407,7 +407,7 @@ LEXICON UNDERTUVSÁN
  2TO9TJUO ;   ! 200-999				
 
 LEXICON AKTAF					
-akkta:akta AKTA ;        		
+akkta:akkta AKTA ;        		
 vuostas+A+Ord:vuostatj VUOSTASJ ;
 
 LEXICON AVTAS			 
@@ -799,7 +799,7 @@ LEXICON TJUOHTEIMPRECISE
 
 LEXICON AKTA                
 +Num:%> AKTA-NIE ;               
-+Num:%>Q1 AKTA-OBL ;              
++Num:%^WG%> AKTA-OBL ;              
 
 LEXICON AKTA-NIE                
  +Sg+Nom: K ;               
@@ -852,7 +852,7 @@ LEXICON ẈG-LÅK-ÅVTÅ
        
 LEXICON ẈG-LÅK-AKTA                
 +Num:%> ẈG-LÅK-AKTA-NIE ;               
-+Num:%>Q1 ẈG-LÅK-AKTA-OBL ;              
++Num:%^WG%> ẈG-LÅK-AKTA-OBL ;              
 
 LEXICON ẈG-LÅK-AKTA-NIE                
  +Sg+Ill:j K ;              
@@ -876,10 +876,10 @@ LEXICON ẈG-LÅK-AKTA-OBL
  +Pl+Com:j K ;               
 
 LEXICON GUOKTA                  
-+Num:e%>Q1 GUOVTE- ;
-+Num+Sg+Gen:a%>Q1 K ;              
-+Num+Sg+Gen:a%>Q1 NUMERALCOMPOUNDS ;   
-+Num:i%>Q1 GUOVTI- ;               
++Num:e%^WG%> GUOVTE- ;
++Num+Sg+Gen:a%^WG%> K ;              
++Num+Sg+Gen:a%^WG%> NUMERALCOMPOUNDS ;   
++Num:i%^WG%> GUOVTI- ;               
 +Num: GUOKTA- ;                 
 
 LEXICON GUOVTE- 
@@ -911,10 +911,10 @@ LEXICON GUOKTA-
  +Ess:e%>n K ;             
           
 LEXICON ẈG-LÅK-GUOKTA                  
-+Num:e%>Q1 ẈG-LÅK-GUOVTE- ;
-+Num+Sg+Gen:a%>Q1 K ;              
-+Num+Sg+Gen:a%>Q1 NUMERALCOMPOUNDS ;   
-+Num:i%>Q1 ẈG-LÅK-GUOVTI- ;               
++Num:e%^WG%> ẈG-LÅK-GUOVTE- ;
++Num+Sg+Gen:a%^WG%> K ;              
++Num+Sg+Gen:a%^WG%> NUMERALCOMPOUNDS ;   
++Num:i%^WG%> ẈG-LÅK-GUOVTI- ;               
 +Num: ẈG-LÅK-GUOKTA- ;                 
 
 LEXICON ẈG-LÅK-GUOVTE- 
@@ -936,7 +936,7 @@ LEXICON ẈG-LÅK-GUOKTA-
                 
 LEXICON GÅLMMÅ           
 +Num:%> GÅLMMÅ-NAIE ;      
-+Num:%>Q1 GÅLMMÅ-OBL ;     
++Num:%^WG%> GÅLMMÅ-OBL ;     
                         
 LEXICON GÅLMMÅ-NAIE      
  +Sg+Nom: K ;            
@@ -963,7 +963,7 @@ LEXICON GÅLMMÅ-OBL
 
 LEXICON ẈG-LÅK-GÅLMMÅ           
 +Num:%> ẈG-LÅK-GÅLMMÅ-NAIE ;      
-+Num:%>Q1 ẈG-LÅK-GÅLMMÅ-OBL ;     
++Num:%^WG%> ẈG-LÅK-GÅLMMÅ-OBL ;     
                         
 LEXICON ẈG-LÅK-GÅLMMÅ-NAIE      
  +Sg+Ill:j K ;           
@@ -982,7 +982,7 @@ LEXICON ẈG-LÅK-GÅLMMÅ-OBL
 
 LEXICON GIETJAV             
 +Num:%> GIETJAV-IE ;          
-+Num:%>Q1 GIETJAV-OBL ;       
++Num:%^WG%> GIETJAV-OBL ;       
                             
 LEXICON GIETJAV-IE  
  +Ill:j K ;        
@@ -1010,7 +1010,7 @@ LEXICON GIETJAV-OBL
  
 LEXICON ẈG-LÅK-GIETJAV             
 +Num:%> ẈG-LÅK-GIETJAV-IE ;          
-+Num:%>Q1 ẈG-LÅK-GIETJAV-OBL ;       
++Num:%^WG%> ẈG-LÅK-GIETJAV-OBL ;       
                             
 LEXICON ẈG-LÅK-GIETJAV-IE  
  +Ill:j K ;        
@@ -1028,8 +1028,8 @@ LEXICON ẈG-LÅK-GIETJAV-OBL
  +Sg+Par:t K ;              
 
 LEXICON GÁKTSA              
-+Num:e%>Q1 GÁVTSE- ;           
-+Num:i%>Q1 GÁVTSI- ;           
++Num:e%^WG%> GÁVTSE- ;           
++Num:i%^WG%> GÁVTSI- ;           
 +Num: GÁKTSA- ;             
                             
 LEXICON GÁVTSE-   
@@ -1061,8 +1061,8 @@ LEXICON GÁKTSA-
  +Ess:e%>n K ;      
    
 LEXICON ẈG-LÅK-GÁKTSA              
-+Num:e%>Q1 ẈG-LÅK-GÁVTSE- ;           
-+Num:i%>Q1 ẈG-LÅK-GÁVTSI- ;           
++Num:e%^WG%> ẈG-LÅK-GÁVTSE- ;           
++Num:i%^WG%> ẈG-LÅK-GÁVTSI- ;           
 +Num: ẈG-LÅK-GÁKTSA- ;             
                             
 LEXICON ẈG-LÅK-GÁVTSE-   
@@ -1088,8 +1088,8 @@ LEXICON ẈG-LÅK-GÁKTSA-
 
 
 LEXICON AKTSE            
-+Num:e%>Q1 AVTSE- ;           
-+Num:i%>Q1 AVTSI- ;           
++Num:e%^WG%> AVTSE- ;           
++Num:i%^WG%> AVTSI- ;           
 +Num: AKTS- ;             
 
 LEXICON AVTSE- 
@@ -1119,8 +1119,8 @@ LEXICON AKTS-
  +Ess:e%>n K ;        
  
 LEXICON ẈG-LÅK-AKTSE            
-+Num:e%>Q1 ẈG-LÅK-AVTSE- ;           
-+Num:i%>Q1 ẈG-LÅK-AVTSI- ;           
++Num:e%^WG%> ẈG-LÅK-AVTSE- ;           
++Num:i%^WG%> ẈG-LÅK-AVTSI- ;           
 +Num: ẈG-LÅK-AKTS- ;             
 
 LEXICON ẈG-LÅK-AVTSE- 
@@ -1150,8 +1150,8 @@ LEXICON ẈG-LÅK-AKTS-
  +Ess:e%>n K ;        
 
 LEXICON LÅGEV                
-+Num:e%>Q1 LÅGE- ;    
-+Num:i%>Q1 LÅGI- ;    
++Num:e%^WG%> LÅGE- ;    
++Num:i%^WG%> LÅGI- ;    
 +Num: LÅHK- ;     
                    
 LEXICON LÅGE-      
@@ -1182,7 +1182,7 @@ LEXICON LÅHK-
                    
 LEXICON AKTALÅGENAN  
 +Num:%> AKTALÅGENAN-NIE ;  
-+Num:%>Q1 AKTALÅGENAN-OBL ;      
++Num:%^WG%> AKTALÅGENAN-OBL ;      
                    
 LEXICON AKTALÅGENAN-NIE    
  +Sg+Nom:#lågenan%> K ;     
@@ -1228,21 +1228,21 @@ LEXICON GUOKTALÅGENAN
 +Num: GUOKT-LÅGENAN ;                 
                                       
 LEXICON GUOVTELÅGENAN     
- +Sg+Acc:e%>Q1v#lågenan%> K ;                           
- +Sg+Gen:e%>Q1#lågenan%> K ; 
- +Sg+Ill+Attr:e%>Q1#lågenan%> K ;                               
- +Sg+Gen:e%>Q1#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:e%>Q1n#lågenan%> K ;               
- +Sg+Ela:e%>Q1s#lågenan%> K ;               
- +Sg+Com:i%>Q1jn#lågenan%> K ;              
- +Sg+Par:e%>Q1t#lågenan%> K ;               
- +Pl+Nom:e%>Q1#lågenan%> K ;                
- +Pl+Gen:i%>Q1j#lågenan%> K ;               
- +Pl+Acc:i%>Q1jt#lågenan%> K ;              
- +Pl+Ill:i%>Q1jda#lågenan%> K ;             
- +Pl+Ine:i%>Q1jn#lågenan%> K ;              
- +Pl+Ela:i%>Q1js#lågenan%> K ;              
- +Pl+Com:i%>Q1j#lågenan%> K ;               
+ +Sg+Acc:e%^WG%>v#lågenan%> K ;                           
+ +Sg+Gen:e%^WG%>#lågenan%> K ; 
+ +Sg+Ill+Attr:e%^WG%>#lågenan%> K ;                               
+ +Sg+Gen:e%^WG%>#lågenan%> NUMERALCOMPOUNDS ;
+ +Sg+Ine:e%^WG%>n#lågenan%> K ;               
+ +Sg+Ela:e%^WG%>s#lågenan%> K ;               
+ +Sg+Com:i%^WG%>jn#lågenan%> K ;              
+ +Sg+Par:e%^WG%>t#lågenan%> K ;               
+ +Pl+Nom:e%^WG%>#lågenan%> K ;                
+ +Pl+Gen:i%^WG%>j#lågenan%> K ;               
+ +Pl+Acc:i%^WG%>jt#lågenan%> K ;              
+ +Pl+Ill:i%^WG%>jda#lågenan%> K ;             
+ +Pl+Ine:i%^WG%>jn#lågenan%> K ;              
+ +Pl+Ela:i%^WG%>js#lågenan%> K ;              
+ +Pl+Com:i%^WG%>j#lågenan%> K ;               
                                       
 LEXICON GUOKT-LÅGENAN                 
  +Sg+Nom:a%>#lågenan%> K ;    
@@ -1253,7 +1253,7 @@ LEXICON GUOKT-LÅGENAN
                                       
 LEXICON GÅLMMÅLÅGENAN                 
 +Num:%> GÅLMMÅLÅGENAN-NAIE ;            
-+Num:%>Q1 GÅLMMÅLÅGENAN-OBL ;           
++Num:%^WG%> GÅLMMÅLÅGENAN-OBL ;           
                                       
 LEXICON GÅLMMÅLÅGENAN-NAIE            
  +Sg+Nom:#lågenan%> K ;                 
@@ -1280,7 +1280,7 @@ LEXICON GÅLMMÅLÅGENAN-OBL
                                       
 LEXICON GIETJAVLÅGENAN                
 +Num:%> GIETJAVLÅGENAN-IE ;             
-+Num:%>Q1 GIETJAVLÅGENAN-OBL ;          
++Num:%^WG%> GIETJAVLÅGENAN-OBL ;          
                                       
 LEXICON GIETJAVLÅGENAN-IE  
  +Ill:j#lågenan%> K ;           
@@ -1312,21 +1312,21 @@ LEXICON GÁKTSALÅGENAN
 +Num: GÁKTS-LÅGENAN ;                 
                                       
 LEXICON GÁVTSELÅGENAN    
- +Sg+Acc:e%>Q1v#lågenan%> K ;                            
- +Sg+Gen:e%>Q1#lågenan%> K ; 
- +Sg+Ill+Attr:e%>Q1#lågenan%> K ;                               
- +Sg+Gen:e%>Q1#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:e%>Q1n#lågenan%> K ;               
- +Sg+Ela:e%>Q1s#lågenan%> K ;               
- +Sg+Com:i%>Q1jn#lågenan%> K ;              
- +Sg+Par:e%>Q1t#lågenan%> K ;               
- +Pl+Nom:e%>Q1#lågenan%> K ;                
- +Pl+Gen:i%>Q1j#lågenan%> K ;               
- +Pl+Acc:i%>Q1jt#lågenan%> K ;              
- +Pl+Ill:i%>Q1jda#lågenan%> K ;             
- +Pl+Ine:i%>Q1jn#lågenan%> K ;              
- +Pl+Ela:i%>Q1js#lågenan%> K ;              
- +Pl+Com:i%>Q1j#lågenan%> K ;               
+ +Sg+Acc:e%^WG%>v#lågenan%> K ;                            
+ +Sg+Gen:e%^WG%>#lågenan%> K ; 
+ +Sg+Ill+Attr:e%^WG%>#lågenan%> K ;                               
+ +Sg+Gen:e%^WG%>#lågenan%> NUMERALCOMPOUNDS ;
+ +Sg+Ine:e%^WG%>n#lågenan%> K ;               
+ +Sg+Ela:e%^WG%>s#lågenan%> K ;               
+ +Sg+Com:i%^WG%>jn#lågenan%> K ;              
+ +Sg+Par:e%^WG%>t#lågenan%> K ;               
+ +Pl+Nom:e%^WG%>#lågenan%> K ;                
+ +Pl+Gen:i%^WG%>j#lågenan%> K ;               
+ +Pl+Acc:i%^WG%>jt#lågenan%> K ;              
+ +Pl+Ill:i%^WG%>jda#lågenan%> K ;             
+ +Pl+Ine:i%^WG%>jn#lågenan%> K ;              
+ +Pl+Ela:i%^WG%>js#lågenan%> K ;              
+ +Pl+Com:i%^WG%>j#lågenan%> K ;               
                                       
 LEXICON GÁKTS-LÅGENAN                 
  +Sg+Nom:a%>#lågenan%> K ;           
@@ -1342,21 +1342,21 @@ LEXICON AKTSELÅGENAN
 +Num: AKTS-LÅGENAN ;                  
                                       
 LEXICON AVTSELÅGENAN 
- +Sg+Acc:e%>Q1v#lågenan%> K ;                                
- +Sg+Gen:e%>Q1#lågenan%> K ;  
- +Sg+Ill+Attr:e%>Q1#lågenan%> K ;                              
- +Sg+Gen:e%>Q1#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:e%>Q1n#lågenan%> K ;               
- +Sg+Ela:e%>Q1s#lågenan%> K ;               
- +Sg+Com:i%>Q1jn#lågenan%> K ;              
- +Sg+Par:e%>Q1t#lågenan%> K ;               
- +Pl+Nom:e%>Q1#lågenan%> K ;                
- +Pl+Gen:i%>Q1j#lågenan%> K ;               
- +Pl+Acc:i%>Q1jt#lågenan%> K ;              
- +Pl+Ill:i%>Q1jda#lågenan%> K ;             
- +Pl+Ine:i%>Q1jn#lågenan%> K ;              
- +Pl+Ela:i%>Q1js#lågenan%> K ;              
- +Pl+Com:i%>Q1j#lågenan%> K ;               
+ +Sg+Acc:e%^WG%>v#lågenan%> K ;                                
+ +Sg+Gen:e%^WG%>#lågenan%> K ;  
+ +Sg+Ill+Attr:e%^WG%>#lågenan%> K ;                              
+ +Sg+Gen:e%^WG%>#lågenan%> NUMERALCOMPOUNDS ;
+ +Sg+Ine:e%^WG%>n#lågenan%> K ;               
+ +Sg+Ela:e%^WG%>s#lågenan%> K ;               
+ +Sg+Com:i%^WG%>jn#lågenan%> K ;              
+ +Sg+Par:e%^WG%>t#lågenan%> K ;               
+ +Pl+Nom:e%^WG%>#lågenan%> K ;                
+ +Pl+Gen:i%^WG%>j#lågenan%> K ;               
+ +Pl+Acc:i%^WG%>jt#lågenan%> K ;              
+ +Pl+Ill:i%^WG%>jda#lågenan%> K ;             
+ +Pl+Ine:i%^WG%>jn#lågenan%> K ;              
+ +Pl+Ela:i%^WG%>js#lågenan%> K ;              
+ +Pl+Com:i%^WG%>j#lågenan%> K ;               
                                       
 LEXICON AKTS-LÅGENAN                  
  +Sg+Nom:e%>#lågenan%> K ;                
@@ -1365,8 +1365,8 @@ LEXICON AKTS-LÅGENAN
  +Ess:e%>n#lågenan%> K ;                  
                                       
 LEXICON TJUOHTECASE           
- +Num:e%>Q1 TJUODE- ;                     
- +Num:i%>Q1 TJUODI- ;                     
+ +Num:e%^WG%> TJUODE- ;                     
+ +Num:i%^WG%> TJUODI- ;                     
 ! +Num: TJUOHT- ;                       
                                       
 LEXICON TJUODE-                       
@@ -1393,7 +1393,7 @@ LEXICON TJUODI-
 ! +Sg+Ill:á%>j K ;                       
 
 LEXICON ẈG-LÅK-TJUOHTECASE           
- +Num:e%>Q1 ẈG-LÅK-TJUODE- ;                     
+ +Num:e%^WG%> ẈG-LÅK-TJUODE- ;                     
                                       
 LEXICON ẈG-LÅK-TJUODE-                       
  +Sg+Acc:v K ;                       
