@@ -25,6 +25,7 @@ Alphabet
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
   d2:d t2:t j2:j h2:h g2:g ŋ
+  %^O:o
   ':0
 
   %^WG:0     !!≈ ; @CODE@ : weak grade
@@ -33,6 +34,7 @@ Alphabet
   %^CDEL:0   !!≈ ; @CODE@ : final consonant deletion (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
   %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
+  %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -48,7 +50,8 @@ Alphabet
 Sets
   Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å á é í ó ú ;
   Cns    =   b c d   f g h     j k l m n   p q r s t   v w x   z                     ;
-  Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú ;
+  Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú 
+           %^O ;
   WeG    =  %^WG %^jDEL ;
   Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON ;
   
@@ -189,9 +192,9 @@ s:t <=> _ j2: .#. ;
 
 "Vowel Deletion in front of j"
 !! __@RULENAME@__  
-Vx:0 <=> Vy _ %^jDEL:0 ;
-     where Vx in (e o)
-           Vy in (i u)
+Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ];
+     where Vx in ( i u u   )
+           Vy in ( e o %^O )
            matched ;
 
 "o to u in front of j"
@@ -199,11 +202,16 @@ Vx:0 <=> Vy _ %^jDEL:0 ;
 o:u <=>  Cns (Cns:)  _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 ! This rule works both for Ill (without the jDEL) and for Com Sg (with it)
 
+
 "o deletion in front of j"
 !! __@RULENAME@__  
 o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 ! uo > u
 ! not a-stems, muorraj
+
+"uO to ua in front of j"
+!! __@RULENAME@__  
+%^O:a <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 
 
 "aa in front of j"
@@ -256,3 +264,8 @@ a:0 <=> _  (Dummy:) %>: e ;
 !!!"uä to uo in weak grade of e-stem"
 !!!!!__@RULENAME@__  
 !!!vä:o <=> [Cns|#] u _ Cns:* e: ( Dummy: ) WeG: ;
+
+"uo - uä Umlaut"
+!! __@RULENAME@__  
+%^O:ä <=> _ Cns:* Vow:+ %^UAUML:0 ;
+

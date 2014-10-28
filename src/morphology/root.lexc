@@ -76,9 +76,11 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 %^CDEL   !!= @CODE@ * Deleting final consonant, biednag
 %^MON    !!= @CODE@ * Monophthong in contract
 %^LOW    !!= @CODE@ * Lowering u to å and o (ålol)
+%^UAUML  !!= @CODE@ * uo to uä juolge / juällge
 
 d2 t2 j2 h2 g2 !!= @CODE@ * Variable consonants, undergo Auslautherdung
                ! NB! This is the opposite of the sme pattern
+%^O      !!= @CODE@ * o but ä in uä
 
 !! {{{
 ! Symbols that need to be escaped on the lower side (towards twolc):

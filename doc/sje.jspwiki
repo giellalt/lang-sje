@@ -38,8 +38,10 @@ Semantic properties of names
  %^CDEL    * Deleting final consonant, biednag
  %^MON     * Monophthong in contract
  %^LOW     * Lowering u to å and o (ålol)
+ %^UAUML   * uo to uä juolge / juällge
 
  d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
+ %^O       * o but ä in uä
 
 {{{
   »7      * »
