@@ -99,7 +99,7 @@ båldne N_EVEN "ln" ;
 bunndi N_EVEN "nd" ; 
 båssjo N_EVEN "sj" ;
 båtsoj:buhts N_CONTR_C_A "ren" ; !nominativformen fungerar ej
-båtsojjåhtejsábme N_EVEN "m xxx" ;
+båtsojjåhttesábme N_EVEN "m xxx" ;
 båtsojlahkke N_EVEN "hk xxx" ;
 båttkå N_EVEN "tk" ; 
 bäbbmo N_EVEN "bm mat" ;  
@@ -143,7 +143,7 @@ gahper:gahper N_ODD "mössa" ;
 gájjse N_EVEN "j" ; 
 gájjtsa N_EVEN "jts get" ;
 gajtsamällke N_EVEN "lk getmjölk" ;
-gáma:gábmag BIENA "sko" ; 
+gáma:gábmag BIENA "sko" ; !nominativ sg. fungerar ej
 gámmsa N_EVEN "ms" ; 
 gappte N_EVEN "pt" ; 
 gárrde N_EVEN "rd" ; 
@@ -156,7 +156,7 @@ giehta N_EVEN "d hand" ;
 giehtje N_EVEN "tj" ; 
 gielbar:gällbar N_ODD_CG "snödriva" ; !nominativ sg. fungerar ej
 gieles:gällás N_ODD_CG "lögn" ; !nominativ sg. fungerar ej
-gierma:gärrmah N_ODD_CG "orm" ; !nominativ sg. fungerar ej
+gierma:gärrmah N_ODD_CG "orm" ; 
 giesse N_EVEN "s sommar" ;
 giessebäjjve N_EVEN "j sommardag" ;
 gimmsja N_EVEN "msj" ;
@@ -176,7 +176,7 @@ guobbla N_EVEN "bl" ;
 guobbar:guobbar N_ODD "svamp" ;
 guohper:guohper N_ODD "klöv" ;
 guolle N_EVEN "l" ; 
-guosmak:guossma N_ODD_CG_D "ssm kaffe" ; !nominativ sg. fungerar ej
+guosmak:guossmag N_ODD_CG_D "ssm kaffe" ; !nominativ sg. fungerar ej
 gurbmá N_EVEN "m" ; 
 gurrmá N_EVEN "m" ; ! 
 gurrte N_EVEN "rt" ; 
@@ -206,8 +206,8 @@ härrge N_EVEN "rg härk, renoxe" ;
 härrá N_EVEN_NOCG "rr" ; 
 idja N_EVEN "j natt" ;
 iednam:iednam N_ODD "land, mark" ;
-iehket:iehke N_ODD_D "kväll" ; !nominativ sg. fungerar ej
-iejgát:iejgá N_ODD_D "föräldrar" ; !nominativ sg. fungerar ej
+iehket:iehked N_ODD_D "kväll" ; !nominativ sg. fungerar ej
+iejgát:iejgád N_ODD_D "föräldrar" ; !nominativ sg. fungerar ej
 iello N_EVEN ;
 ijja N_EVEN "j natt" ;
 jahke N_EVEN "g år" ;
@@ -285,7 +285,7 @@ rássjo N_EVEN "sj regn" ;
 rassta N_EVEN "st över" ;
 rávdno N_EVEN "vn" ;
 rávve N_EVEN "v" ; 
-rebij:rehpih N_ODD_CG_C "räv" ; ! nominativ sg. fungerar ej 
+rebij:rehpi N_ODD_CG_C "räv" ; ! nominativ sg. fungerar ej, ej heller  böjningsform  
 rijjka N_EVEN "jk rike" ;
 rimmste N_EVEN "mst" ; 
 rissja N_EVEN "sj" ; 
@@ -315,7 +315,7 @@ sijjda N_EVEN " jd flyttlag" ;
 sillba N_EVEN "lb silver" ;
 sivvun N_ODD "sel" ; 
 skájjde N_EVEN "jd älvsammanflöde" ;
-Skerutj:skerutj N_ODD "ortnamn" ;
+skerutj:skerutj N_ODD "ortnamn" ;
 skuojjve N_EVEN "jv skepnad" ;
 skuvvle N_EVEN "vl skola" ;
 skåvvlå N_EVEN "vl skola" ;
@@ -331,7 +331,7 @@ stänntjo N_EVEN "ntj" ;
 
 suohkan N_ODD "socken" ; 
 suoŋŋer N_ODD ; 
-suoloj:sull N_CONTR_C_A "ö" ; ! kolla
+suoloj:sull N_CONTR_C_A "ö" ; ! nominativ sg fungerar ej
 suorbmas:suorbmas N_ODD "ring" ;
 suptsas:supptsas N_ODD_CG "ppts berättelse, saga" ; 
 suäjdne:su%^Ojdne N_EVEN "jn hö" ;
@@ -386,7 +386,7 @@ vähkke N_EVEN "hk hjälp" ;
 vällja N_EVEN "lj bror" ;
 
 åbba N_EVEN_NOCG "syster" ;
-åhpes:åhpp N_ODD_CG_B "bekant, vägvisare" ;    
+åhpes:åhppás N_ODD_CG_B "bekant, vägvisare" ;    
 åjvevuolle N_EVEN "l huvudkudde" ;
 åkkse N_EVEN "ks gren" ;
 ålol:ullul N_ODD_CG_VV "käke" ;
