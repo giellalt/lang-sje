@@ -55,7 +55,7 @@ LEXICON N_EVEN
 +N:%^WG N_EVEN_W ; ! CG here
 
 LEXICON EVENCASE
-+Sg+Nom:    K ;
++Sg+Nom:%^UAUML    K ;
 EVENOBLIQUE ;
 
 LEXICON EVENOBLIQUE 
@@ -70,7 +70,7 @@ LEXICON N_EVEN_ILL
 +Sg+Ill:%>%^MONB4Jj K ;
 
 LEXICON N_EVEN_S
-+Ess:%>n K ;
++Ess:%^UAUML%>n K ;
 
 LEXICON N_EVEN_W
 +Sg+Gen:  K ;
