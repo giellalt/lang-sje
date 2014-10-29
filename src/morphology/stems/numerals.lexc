@@ -337,9 +337,9 @@ LEXICON WG-LÅK-JUSTTUVSÁN
 LEXICON WG-JUSTTUVSÁN				
  tuvsán WG-TUVSÁN ;                   ! Case infl of tuvsán	
  	
- tuvsán+Num+Ess:n#tuvsán%>in K ;                  
- tuvsán+Num+Sg+Com:jn#tuvsán%>ijn K ;            
- tuvsán+Num+Sg+Ela:t#tuvsán%>is K ;            
+ tuvsán+Num+Ess:n#tuvsán%>in # ;                  
+ tuvsán+Num+Sg+Com:jn#tuvsán%>ijn # ;            
+ tuvsán+Num+Sg+Ela:t#tuvsán%>is # ;            
 
 
 
@@ -396,78 +396,78 @@ akkta:akkta AKTA ;
 vuostas+A+Ord:vuostatj VUOSTASJ ;
 
 LEXICON AVTAS			 
-avtas+N+Coll+Sg+Nom:avtas%> K ;
+avtas+N+Coll+Sg+Nom:avtas%> # ;
 avtas+N+Coll:aktas VIDÁS ;      
-åvtås+N+Coll+Sg+Nom:åvtås%> K ;
+åvtås+N+Coll+Sg+Nom:åvtås%> # ;
 åvtås+N+Coll:åktås VIDÁS ;
 
 LEXICON 2TO9F					
 guakkta:guakkt GUOKTA ;
-guakkta+Num+Sg+Ill:guakkta%>j K ;    
-guakkta+Num+Sg+Attr:guakk%> K ; 
+guakkta+Num+Sg+Ill:guakkta%>j # ;    
+guakkta+Num+Sg+Attr:guakk%> # ; 
 nubbe+A+Ord:nubb nubbecase ;		 
-nubbe+A+Ord+Sg+Nom:nubbe%> K ;         
-nubbe+A+Ord+Ess:nubbe%>n K ;          
-nubbe+A+Ord+Sg+Ill:nubbá%>j K ;        
+nubbe+A+Ord+Sg+Nom:nubbe%> # ;         
+nubbe+A+Ord+Ess:nubbe%>n # ;          
+nubbe+A+Ord+Sg+Ill:nubbá%>j # ;        
 nubbe#+A+Ord+Sg+Gen:nubbe%> NUMERALCOMPOUNDS ;  
-guoktes+N+Coll+Sg+Nom:guoktes%> K ;
+guoktes+N+Coll+Sg+Nom:guoktes%> # ;
 guoktes+N+Coll:guakktas VIDÁS ;    
 guoktes+N+Coll:guakkt GUOVTES ;    
 gålbmå:gålbm GÅLMMÅ ;       
 gålmát+A+Ord:gålmád9 VUOSTASJ ;
 gålmås+N+Coll:gållmås VIDÁS ;        
-gålmås+N+Coll+Sg+Nom:gålmås%> K ;      
+gålmås+N+Coll+Sg+Nom:gålmås%> # ;      
 nällja:nällj GUOKTA ;  
-nällja+Num+Sg+Ill:nälljá%>j K ;                
+nällja+Num+Sg+Ill:nälljá%>j # ;                
 nielját+A+Ord:nieljád9 VUOSTASJ ; 
-nieljes+N+Coll+Sg+Nom:nieljes%> K ;      
+nieljes+N+Coll+Sg+Nom:nieljes%> # ;      
 nieljes+N+Coll:nälljás VIDÁS ;       
 vihta+Num:vida GÅLMMÅ-OBL ;                    
-vihta+Num+Sg+Nom:vihta%> K ;          
-vihta+Num+Sg+Acc:vihta%> K ;         
-vihta+Num+Sg+Ill:vihta%>j K ;         
-vihta+Num+Ess:vihta%>n K ;            
+vihta+Num+Sg+Nom:vihta%> # ;          
+vihta+Num+Sg+Acc:vihta%> # ;         
+vihta+Num+Sg+Ill:vihta%>j # ;         
+vihta+Num+Ess:vihta%>n # ;            
 vidát+A+Ord:vidád9 VUOSTASJ ;
-vidás+N+Coll+Sg+Nom:vidás%> K ;      
+vidás+N+Coll+Sg+Nom:vidás%> # ;      
 viđás+N+Coll:vihtas VIDÁS ;       
 guhta+Num:guda GÅLMMÅ-OBL ;                
-guhta+Num+Sg+Nom:guhta%> K ;          
-guhta+Num+Sg+Acc:guhta%> K ;         
-guhta+Num+Sg+Ill:guhta%>j K ;         
-guhta+Num+Ess:guhta%>n K ;            
+guhta+Num+Sg+Nom:guhta%> # ;          
+guhta+Num+Sg+Acc:guhta%> # ;         
+guhta+Num+Sg+Ill:guhta%>j # ;         
+guhta+Num+Ess:guhta%>n # ;            
 gudát+A+Ord:gudád9 VUOSTASJ ;
-gudas+N+Coll+Sg+Nom:gudas%> K ;   
+gudas+N+Coll+Sg+Nom:gudas%> # ;   
 guđas+N+Coll:guhtas VIDÁS ;      
 gietjav:gietj GIETJAV ;         
 gehtjit+A+Ord:gehtjid9 VUOSTASJ ; 
-gietjas+N+Coll+Sg+Nom:gietjas%> K ;   
+gietjas+N+Coll+Sg+Nom:gietjas%> # ;   
 gietjas+N+Coll:giehtjas VIDÁS ;       
 gákktje:gákktj GÁKTSA ;              
 gáktját+A+Ord:gáktjád9 VUOSTASJ ;
-gáktjes+N+Coll+Sg+Nom:gáktjes%> K ;   
+gáktjes+N+Coll+Sg+Nom:gáktjes%> # ;   
 gáktjes+N+Coll:gákktjás VIDÁS ;        
 åkktjå:åkktj ÅKKTJÅ ;                      
 åktját+A+Ord:åktjád9 VUOSTASJ ; 
-åktjes+N+Coll+Sg+Nom:åktjes%> K ;   
+åktjes+N+Coll+Sg+Nom:åktjes%> # ;   
 åktjes+N+Coll:åkktjas VIDÁS ;       
 
 
 LEXICON ẈG-LÅK-2TO9F					
 guakkta:guakkt ẈG-LÅK-GUOKTA ;
-guakkta+Num+Sg+Ill:guakkta%>j K ;    
+guakkta+Num+Sg+Ill:guakkta%>j # ;    
 nubbe+A+Ord:nubb nubbecase ;		 
-nubbe+A+Ord+Ess:nubbe%>n K ;          
-nubbe+A+Ord+Sg+Ill:nubbá%>j K ;        
+nubbe+A+Ord+Ess:nubbe%>n # ;          
+nubbe+A+Ord+Sg+Ill:nubbá%>j # ;        
 nubbe#+A+Ord+Sg+Gen:nubbe%> NUMERALCOMPOUNDS ;
 gålbmå ẈG-LÅK-GÅLMMÅ ;       
 nällja:nällj ẈG-LÅK-GUOKTA ;  
-nällja+Num+Sg+Ill:nälljá%>j K ;                
+nällja+Num+Sg+Ill:nälljá%>j # ;                
 vihta+Num:vida ẈG-LÅK-GÅLMMÅ-OBL ;                    
-vihta+Num+Sg+Ill:vihta%>j K ;         
-vihta+Num+Ess:vihta%>n K ;            
+vihta+Num+Sg+Ill:vihta%>j # ;         
+vihta+Num+Ess:vihta%>n # ;            
 guhta+Num:guda ẈG-LÅK-GÅLMMÅ-OBL ;                
-guhta+Num+Sg+Ill:guhta%>j K ;         
-guhta+Num+Ess:guhta%>n K ;            
+guhta+Num+Sg+Ill:guhta%>j # ;         
+guhta+Num+Ess:guhta%>n # ;            
 gietjav:giehtja ẈG-LÅK-GIETJAV ;         
 gákktse:gákkts ẈG-LÅK-GÁKTSA ;              
 åkktse:åkkts ẈG-LÅK-AKTSE ;                      
@@ -480,14 +480,14 @@ lågát+A+Ord:lågád9 VUOSTASJ ;
 akkta#lågát+A+Ord:akkta#lågád9 VUOSTASJ ;						
 låg:låg TJUOHTECASE ;
 akkta#låg:akkta#låg TJUOHTECASE ;  
-låhke+Num+Sg+Ill:låhká%>j K ;   
-låhke+Num+Sg+Nom:låhke%> K ;                        
-låhke+Num+Ess:låhke%>n K ;                          
-akkta#låhke+Num+Sg+Ill:akkta#låhká%>j K ;
-akkta#låhke+Num+Sg+Nom:akkta#låhke%> K ;                        
-akkta#låhke+Num+Ess:akkta#låhke%>n K ;                                             
-låges+N+Coll+Sg+Nom:låges%> K ;
-akta#låges+N+Coll+Sg+Nom:akta#låges%> K ;      
+låhke+Num+Sg+Ill:låhká%>j # ;   
+låhke+Num+Sg+Nom:låhke%> # ;                        
+låhke+Num+Ess:låhke%>n # ;                          
+akkta#låhke+Num+Sg+Ill:akkta#låhká%>j # ;
+akkta#låhke+Num+Sg+Nom:akkta#låhke%> # ;                        
+akkta#låhke+Num+Ess:akkta#låhke%>n # ;                                             
+låges+N+Coll+Sg+Nom:låges%> # ;
+akta#låges+N+Coll+Sg+Nom:akta#låges%> # ;      
 låges+N+Coll:låhkás VIDÁS ;       
 akkta#låges+N+Coll:akkta#låhkas VIDÁS ;       
 
@@ -497,31 +497,31 @@ låg# AKTAF ;
 låg# AVTAS ;								
 låg# 2TO9F ;
 								
-låhke+Num+Sg+Attr:låk%> K ;    
+låhke+Num+Sg+Attr:låk%> # ;    
 låhke#+Num+Sg+Attr:låk%> NUMERALCOMPOUNDS ;
 låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
  låhke:låhk  TJUOHTECASE ;  ! vihttalåhke, collective number
-låhke+Num+Sg+Ill:låhká%>j K ; 
-låhke+Num+Sg+Nom:låhke%> K ;            
-låhke+Num+Ess:låhke%>n K ;                       
+låhke+Num+Sg+Ill:låhká%>j # ; 
+låhke+Num+Sg+Nom:låhke%> # ;            
+låhke+Num+Ess:låhke%>n # ;                       
 lågát+A+Ord:lågád9 VUOSTASJ ;
-låges+N+Coll+Sg+Nom:låges%> K ;
+låges+N+Coll+Sg+Nom:låges%> # ;
 låges+N+Coll:låhkas VIDÁS ;       
 		
 LEXICON ẈG-LÅK-					
 låg#akkta ẈG-LÅK-AKTA ;
 låg# ẈG-LÅK-2TO9F ;
 								
-låhke+Num+Sg+Attr:låk%> K ;    
+låhke+Num+Sg+Attr:låk%> # ;    
 låhke#+Num+Sg+Attr:låk%> NUMERALCOMPOUNDS ;
 låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
 låhke:låhk  ẈG-LÅK-TJUOHTECASE ;  ! vihttalåhke, collective number
-låhke+Num+Sg+Ill:låhká%>j K ; 
-låhke+Num+Ess:n#låhke%>n K ;    
-låhke+Num+Sg+Com:jn#lugi%>jn K ;                       
-låhke+Num+Sg+Ela:t#låge%>s K ;                       
-låhke+Num+Sg+Par:låge%>t K ;                       
-låhke+Num+Sg+Par:t#låge%>t K ;                       
+låhke+Num+Sg+Ill:låhká%>j # ; 
+låhke+Num+Ess:n#låhke%>n # ;    
+låhke+Num+Sg+Com:jn#lugi%>jn # ;                       
+låhke+Num+Sg+Ela:t#låge%>s # ;                       
+låhke+Num+Sg+Par:låge%>t # ;                       
+låhke+Num+Sg+Par:t#låge%>t # ;                       
 
 
 LEXICON LÅGENAN					
@@ -530,49 +530,49 @@ lågenan#akkta:lågenan#akkta ÅVTÅ ;
 lågenan#vuostatj+A+Ord:lågenan#vuostatj VUOSTASJ ;		
 lågenan#vuostas+A+Ord:lågenan#vuostas VUOSTASJ ;		  
 lågenan#guakkta:lågenan#guakkt GUOKTA ;
-lågenan#guakkta+Num+Sg+Ill:lågenan#guakkta%>j K ;    
-lågenan#guakkta+Num+Sg+Nom:lågenan#guakk%> K ;  
-lågenan#guakkta+Num+Sg+Acc:lågenan#guakk%> K ;                                             
+lågenan#guakkta+Num+Sg+Ill:lågenan#guakkta%>j # ;    
+lågenan#guakkta+Num+Sg+Nom:lågenan#guakk%> # ;  
+lågenan#guakkta+Num+Sg+Acc:lågenan#guakk%> # ;                                             
 lågenan#nubbe+A+Ord:lågenan#nubb nubbecase ;		 
-lågenan#nubbe+A+Ord+Sg+Nom:lågenan#nubbe%> K ;       
-lågenan#nubbe+A+Ord+Ess:lågenan#nubbe%>n K ;        
-lågenan#nubbe+A+Ord+Sg+Ill:lågenan#nubbá%>j K ;     
+lågenan#nubbe+A+Ord+Sg+Nom:lågenan#nubbe%> # ;       
+lågenan#nubbe+A+Ord+Ess:lågenan#nubbe%>n # ;        
+lågenan#nubbe+A+Ord+Sg+Ill:lågenan#nubbá%>j # ;     
 lågenan#nuppát+A+Ord:lågenan#nuppád9 VUOSTASJ ;       
-guoktes#lågenan+N+Coll+Sg+Nom:guoktes#lågenan%> K ;      
+guoktes#lågenan+N+Coll+Sg+Nom:guoktes#lågenan%> # ;      
 guoktes#lågenan+N+Coll:guakktas VIDÁSLÅGENAN ;       
 lågenan#gålbmå GÅLMMÅ ;       
 lågenan#gålmát+A+Ord:lågenan#gålmád9 VUOSTASJ ;        
-gålmås#lågenan+N+Coll+Sg+Nom:gålmås#lågenan%> K ;      
+gålmås#lågenan+N+Coll+Sg+Nom:gålmås#lågenan%> # ;      
 gålmås#lågenan+N+Coll:gållmås VIDÁSLÅGENAN ;        
 lågenan#nällja:lågenan#nällj GUOKTA ;   
-lågenan#nällja+Num+Sg+Ill:lågenan#nälljá%>j K ;    
+lågenan#nällja+Num+Sg+Ill:lågenan#nälljá%>j # ;    
 lågenan#nielját+A+Ord:lågenan#nieljád9 VUOSTASJ ;        
-nieljes#lågenan+N+Coll+Sg+Nom:nieljes#lågenan%> K ;      
+nieljes#lågenan+N+Coll+Sg+Nom:nieljes#lågenan%> # ;      
 nieljes#lågenan+N+Coll:nälljás VIDÁSLÅGENAN ;       
 lågenan#vihta+Num:lågenan#vida GÅLMMÅ-OBL ;             
-lågenan#vihta+Num+Sg+Nom:lågenan#vihta%> K ;          
-lågenan#vihta+Num+Sg+Acc:lågenan#vihta%> K ;         
-lågenan#vihta+Num+Sg+Ill:lågenan#vihta%>j K ;         
-lågenan#vihta+Num+Ess:lågenan#vihta%>n K ;            
+lågenan#vihta+Num+Sg+Nom:lågenan#vihta%> # ;          
+lågenan#vihta+Num+Sg+Acc:lågenan#vihta%> # ;         
+lågenan#vihta+Num+Sg+Ill:lågenan#vihta%>j # ;         
+lågenan#vihta+Num+Ess:lågenan#vihta%>n # ;            
 lågenan#vidát+A+Ord:lågenan#vidád9 VUOSTASJ ;       
-vidas#lågenan+N+Coll+Sg+Nom:vidas#lågenan%> K ;      
+vidas#lågenan+N+Coll+Sg+Nom:vidas#lågenan%> # ;      
 vidas#lågenan+N+Coll:vihtas VIDÁSLÅGENAN ;   
-gudas#lågenan+N+Coll+Sg+Nom:gudas#lågenan%> K ;      
+gudas#lågenan+N+Coll+Sg+Nom:gudas#lågenan%> # ;      
 guđas#lågenan+N+Coll:guhtas VIDÁSLÅGENAN ;       
 lågenan#guhtta+Num:lågenan#guda GÅLMMÅ-OBL ;          
-lågenan#guhta+Num+Sg+Nom:lågenan#guhta%> K ;          
-lågenan#guhta+Num+Sg+Acc:lågenan#guhta%> K ;         
-lågenan#guhta+Num+Sg+Ill:lågenan#guhta%>j K ;         
-lågenan#guhta+Num+Ess:lågenan#guhta%>n K ;            
+lågenan#guhta+Num+Sg+Nom:lågenan#guhta%> # ;          
+lågenan#guhta+Num+Sg+Acc:lågenan#guhta%> # ;         
+lågenan#guhta+Num+Sg+Ill:lågenan#guhta%>j # ;         
+lågenan#guhta+Num+Ess:lågenan#guhta%>n # ;            
 lågenan#gudát+A+Ord:lågenan#gudád9 VUOSTASJ ;
         
 lågenan#gietjav:lågenan#giehtja GIETJAV ;         
 lågenan#giehtjit+A+Ord:lågenan#giehtjid9 VUOSTASJ ;     
-gietjas#lågenan+N+Coll+Sg+Nom:gietjas#lågenan%> K ;      
+gietjas#lågenan+N+Coll+Sg+Nom:gietjas#lågenan%> # ;      
 gietjas#lågenan+N+Coll:giehtjas VIDÁSLÅGENAN ;       
-gáktjes#lågenan+N+Coll+Sg+Nom:gáktjes#lågenan%> K ;      
+gáktjes#lågenan+N+Coll+Sg+Nom:gáktjes#lågenan%> # ;      
 gáktjes#lågenan+N+Coll:gákktjás VIDÁSLÅGENAN ;        
-åktjes#lågenan+N+Coll+Sg+Nom:åktjes#lågenan%> K ;      
+åktjes#lågenan+N+Coll+Sg+Nom:åktjes#lågenan%> # ;      
 åktses#lågenan+N+Coll:åkktjas# VIDÁSLÅGENAN ;       
 lågenan#gákktse:lågenan#gákkts GÁKTSA ; 
 lågenan#gákktja:lågenan#gákktj GÁKTSA ;       
@@ -585,26 +585,26 @@ akkta#lågenan:akkta AKTALÅGENAN ;
 vuostatj#lågåt+A+Ord:vuostasj#lågåd9 VUOSTASJ ;
 vuostas#lågåt+A+Ord:vuostas#lågåd9 VUOSTASJ ;			 			 
 guakkta#lågenan:guakkt GUOKTALÅGENAN ; 
-guakkta#lågenan+Num+Sg+Ill:guakkta%>j#lågenan%> K ;                   
-guakkta#lågenan+Num+Sg+Nom:guakk%>#lågenan%> K ;   
-guakkta#lågenan+Num+Sg+Acc:guakk%>#lågenan%> K ;       
+guakkta#lågenan+Num+Sg+Ill:guakkta%>j#lågenan%> # ;                   
+guakkta#lågenan+Num+Sg+Nom:guakk%>#lågenan%> # ;   
+guakkta#lågenan+Num+Sg+Acc:guakk%>#lågenan%> # ;       
 nubbát#lågát+A+Ord:nubbát#lågád9 VUOSTASJ ;        
 gålbmå#lågenan:gålbmå GÅLMMÅLÅGENAN ;       
 gålmát#lågát+A+Ord:gålmát#lågád9 VUOSTASJ ;        
 nällja#lågenan:nällj GUOKTALÅGENAN ;   
-nällja#lågenan+Num+Sg+Ill:nälljá%>j#lågenan%> K ;                   
+nällja#lågenan+Num+Sg+Ill:nälljá%>j#lågenan%> # ;                   
 nielját#lågát+A+Ord:nielját#lågád9 VUOSTASJ ;        
 vihta#lågenan+Num:vida GÅLMMÅLÅGENAN-OBL ;             
-vihta#lågenan+Num+Sg+Nom:vihta%>#lågenan%> K ;          
-vihta#lågenan+Num+Sg+Acc:vihta%>#lågenan%> K ;         
-vihta#lågenan+Num+Sg+Ill:vihta%>j#lågenan%> K ;         
-vihta#lågenan+Num+Ess:vihta%>n#lågenan%> K ;            
+vihta#lågenan+Num+Sg+Nom:vihta%>#lågenan%> # ;          
+vihta#lågenan+Num+Sg+Acc:vihta%>#lågenan%> # ;         
+vihta#lågenan+Num+Sg+Ill:vihta%>j#lågenan%> # ;         
+vihta#lågenan+Num+Ess:vihta%>n#lågenan%> # ;            
 vidát#lågát+A+Ord:vidát#lågåd9 VUOSTASJ ;        
 guhtta#lågenan+Num:guda GÅLMMÅLÅGENAN-OBL ;          
-guhta#lågenan+Num+Sg+Nom:guhta%>#lågenan%> K ;          
-guhta#lågenan+Num+Sg+Acc:guhta%>#lågenan%> K ;         
-guhta#lågenan+Num+Sg+Ill:guhta%>j#lågenan%> K ;         
-guhta#lågenan+Num+Ess:guhta%>n#lågenan%> K ;            
+guhta#lågenan+Num+Sg+Nom:guhta%>#lågenan%> # ;          
+guhta#lågenan+Num+Sg+Acc:guhta%>#lågenan%> # ;         
+guhta#lågenan+Num+Sg+Ill:guhta%>j#lågenan%> # ;         
+guhta#lågenan+Num+Ess:guhta%>n#lågenan%> # ;            
 gudát#lågát+A+Ord:gudát#lågád9 VUOSTASJ ;        
 gietjav#lågenan:giehtja GIETJAVLÅGENAN ;
 giehtjit#lågát+A+Ord:giehtjit#lågád9 VUOSTASJ ;         
@@ -615,21 +615,21 @@ gáktját#lågát+A+Ord:gáktját#lågát VUOSTASJ ;
 åkktjå#lågenan:åkktj AKTSELÅGENAN ;                 
 åktját#lågát+A+Ord:åktját#lågád9 VUOSTASJ ;
         
-lågenan#guoktes+N+Coll+Sg+Nom:lågenan#guoktes%> K ;     
+lågenan#guoktes+N+Coll+Sg+Nom:lågenan#guoktes%> # ;     
 lågenan#guoktes+N+Coll:lågenan#guakktás VIDÁS ;    
 lågenan#guoktes+N+Coll:lågenan#guakkt GUOVTES ;    
 lågenan#gålmås+N+Coll:lågenan#gållmås VIDÁS ;        
-lågenan#gålmås+N+Coll+Sg+Nom:lågenan#gålmås%> K ;      
+lågenan#gålmås+N+Coll+Sg+Nom:lågenan#gålmås%> # ;      
 lågenan#nieljes+N+Coll:lågenan#nälljás VIDÁS ;       
-lågenan#vidas+N+Coll+Sg+Nom:lågenan#vidas%> K ;      
+lågenan#vidas+N+Coll+Sg+Nom:lågenan#vidas%> # ;      
 lågenan#viđas+N+Coll:lågenan#vihtas VIDÁS ;       
-lågenan#gudas+N+Coll+Sg+Nom:lågenan#gudas%> K ;   
+lågenan#gudas+N+Coll+Sg+Nom:lågenan#gudas%> # ;   
 lågenan#guđas+N+Coll:lågenan#guhtas VIDÁS ;      
-lågenan#gietjas+N+Coll+Sg+Nom:lågenan#gietjas%> K ;   
+lågenan#gietjas+N+Coll+Sg+Nom:lågenan#gietjas%> # ;   
 lågenan#gietjas+N+Coll:lågenan#giehtjas VIDÁS ;       
-lågenan#gáktjes+N+Coll+Sg+Nom:lågenan#gáktjes%> K ;   
+lågenan#gáktjes+N+Coll+Sg+Nom:lågenan#gáktjes%> # ;   
 lågenan#gáktjes+N+Coll:lågenan#gákktjás VIDÁS ;        
-lågenan#åktjes+N+Coll+Sg+Nom:lågenan#åktjes%> K ;   
+lågenan#åktjes+N+Coll+Sg+Nom:lågenan#åktjes%> # ;   
 lågenan#åktjes+N+Coll:lågenan#åkktjás VIDÁS ;       
 
 
@@ -660,9 +660,9 @@ gákktse#:gáktse# ẈG-LÅK- ;
 
 LEXICON TJUOHTE					
 tjuohte:tjuoht TJUOHTECASE ;    
-tjuohte+Num+Sg+Ill:tjuohtá%>j K ;  
-tjuohte+Num+Sg+Nom:tjuohte%> K ;  
-tjuohte+Num+Ess:tjuohte%>n K ;  
+tjuohte+Num+Sg+Ill:tjuohtá%>j # ;  
+tjuohte+Num+Sg+Nom:tjuohte%> # ;  
+tjuohte+Num+Ess:tjuohte%>n # ;  
 tjuohte#+Num+Sg+Attr:tjuohte%> NUMERALCOMPOUNDS ;
 tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
 tjuohte# LÅGEVF ;
@@ -674,9 +674,9 @@ tjuohte# 2TO9F ;
 tjuohte# LÅGENAN ;				
 tjuodát+A+Ord:tjuodád9 VUOSTASJ ;			
 akkta#tjuohte:akkta#tjuoht TJUOHTECASE ;    
-akkta#tjuohte+Num+Sg+Ill:akkta#tjuohtá%>j K ; 
-akkta#tjuohte+Num+Sg+Nom:akkta#tjuohte%> K ;  
-akkta#tjuohte+Num+Ess:akkta#tjuohte%>n K ;   
+akkta#tjuohte+Num+Sg+Ill:akkta#tjuohtá%>j # ; 
+akkta#tjuohte+Num+Sg+Nom:akkta#tjuohte%> # ;  
+akkta#tjuohte+Num+Ess:akkta#tjuohte%>n # ;   
 akkta#tjuohte# LÅGEVF ;
 akkta#tjuohte# LÅK- ;
 akta#tjuohte# 2TO9LÅG ;					
@@ -684,9 +684,9 @@ akkta#tjuohte# AKTAF ;
 akkta#tjuohte# AVTAS ;										
 akkta#tjuohte# 2TO9F ;					
 akkta#tjuohte# LÅGENAN ;				
-tjuodes+N+Coll+Sg+Nom:tjuodes%> K ;      
+tjuodes+N+Coll+Sg+Nom:tjuodes%> # ;      
 tjuodes+N+Coll:tjuohtás VIDÁS ;       
-akkta#tjuodes+N+Coll+Sg+Nom:akkta#tjuodes%> K ;      
+akkta#tjuodes+N+Coll+Sg+Nom:akkta#tjuodes%> # ;      
 akkta#tjuodes+N+Coll:akkta#tjuohtás VIDÁS ;       
 
 
@@ -742,29 +742,29 @@ tjuohte# LÅGENAN ;
 		
 !tjuohte:tjuoht TJUOHTECASE ;      ! imprecise number
 tjuode:tjuoht TJUOHTECASE ;
-tjuode+Num+Sg+Ill:tjuohtá%>j K ;
-tjuode+Num+Ess:tjuohte%>n K ;
-tjuode+Num+Sg+Attr:tjuot%> K ;
+tjuode+Num+Sg+Ill:tjuohtá%>j # ;
+tjuode+Num+Ess:tjuohte%>n # ;
+tjuode+Num+Sg+Attr:tjuot%> # ;
 tjuodát+A+Ord:tjuodád9 VUOSTASJ ;			
-tjuodes+N+Coll+Sg+Nom:tjuodes%> K ;      
+tjuodes+N+Coll+Sg+Nom:tjuodes%> # ;      
 tjuodes+N+Coll:tjuohtás VIDÁS ;       
 
 LEXICON WG-GTJUODE					
 tjuode#+Num+Sg+Attr:tjuode%> NUMERALCOMPOUNDS ;
 tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
 tjuode:tjuoht ẈG-LÅK-TJUOHTECASE ;
-tjuode+Num+Sg+Ill:tjuohtá%>j K ;
-tjuode+Num+Ess:n#tjuohte%>n K ;
-tjuode+Num+Sg+Attr:tjuot%> K ;
-tjuode+Num+Sg+Attr:tjuode%> K ;
-tjuode+Num+Sg+Com:jn#tjuodi%>jn K ;                       
-tjuode+Num+Sg+Ela:t#tjuode%>s K ;                       
-tjuode+Num+Sg+Par:tjuode%>t K ;                       
-tjuode+Num+Sg+Par:t#tjuode%>t K ;                       
+tjuode+Num+Sg+Ill:tjuohtá%>j # ;
+tjuode+Num+Ess:n#tjuohte%>n # ;
+tjuode+Num+Sg+Attr:tjuot%> # ;
+tjuode+Num+Sg+Attr:tjuode%> # ;
+tjuode+Num+Sg+Com:jn#tjuodi%>jn # ;                       
+tjuode+Num+Sg+Ela:t#tjuode%>s # ;                       
+tjuode+Num+Sg+Par:tjuode%>t # ;                       
+tjuode+Num+Sg+Par:t#tjuode%>t # ;                       
 
 
 LEXICON TJUOHTEIMPRECISE
- tjuohte+Num+Sg+Nom:tjuohte%> K ; ! 200-or-so
+ tjuohte+Num+Sg+Nom:tjuohte%> # ; ! 200-or-so
 
 
 
@@ -785,137 +785,137 @@ LEXICON AKTA
 +Num:%^WG%> AKTA-OBL ;              
 
 LEXICON AKTA-NIE                
- +Sg+Nom: K ;               
- +Sg+Ill:j K ;              
- +Ess:n K ;                 
+ +Sg+Nom: # ;               
+ +Sg+Ill:j # ;              
+ +Ess:n # ;                 
 
 LEXICON AKTA-OBL                
- +Sg+Gen: K ;
- +Sg+Ill+Attr: K ;                             
+ +Sg+Gen: # ;
+ +Sg+Ill+Attr: # ;                             
  +Sg+Gen:%> NUMERALCOMPOUNDS ;
- +Sg+Acc:v K ;              
- +Sg+Ine:n K ;              
- +Sg+Ela:s K ;              
- +Sg+Com:jn K ;             
- +Sg+Par:t K ;               
- +Pl+Nom: K ;                
- +Pl+Gen:j K ;               
- +Pl+Acc:jt K ;              
- +Pl+Ill:jda K ;             
- +Pl+Ine:jn K ;              
- +Pl+Ela:js K ;              
- +Pl+Com:j K ;               
+ +Sg+Acc:v # ;              
+ +Sg+Ine:n # ;              
+ +Sg+Ela:s # ;              
+ +Sg+Com:jn # ;             
+ +Sg+Par:t # ;               
+ +Pl+Nom: # ;                
+ +Pl+Gen:j # ;               
+ +Pl+Acc:jt # ;              
+ +Pl+Ill:jda # ;             
+ +Pl+Ine:jn # ;              
+ +Pl+Ela:js # ;              
+ +Pl+Com:j # ;               
  
 LEXICON ÅVTÅ                 
-+Num+Sg+Gen:%> K ; 
-+Num+Sg+Ill+Attr:%> K ;                         
++Num+Sg+Gen:%> # ; 
++Num+Sg+Ill+Attr:%> # ;                         
 +Num+Sg+Gen:%> NUMERALCOMPOUNDS ;
-+Num+Sg+Acc:%>v K ;            
-+Num+Sg+Ine:%>n K ;            
-+Num+Sg+Ela:%>s K ;            
-+Num+Sg+Com:%>jn K ;           
-+Num+Sg+Par:%>t K ;            
-+Num+Pl+Nom:%> K ;             
-+Num+Pl+Gen:%>j K ;            
-+Num+Pl+Acc:%>jt K ;           
-+Num+Pl+Ill:%>jda K ;          
-+Num+Pl+Ine:%>jn K ;           
-+Num+Pl+Ela:%>js K ;           
-+Num+Pl+Com:%>j K ;
++Num+Sg+Acc:%>v # ;            
++Num+Sg+Ine:%>n # ;            
++Num+Sg+Ela:%>s # ;            
++Num+Sg+Com:%>jn # ;           
++Num+Sg+Par:%>t # ;            
++Num+Pl+Nom:%> # ;             
++Num+Pl+Gen:%>j # ;            
++Num+Pl+Acc:%>jt # ;           
++Num+Pl+Ill:%>jda # ;          
++Num+Pl+Ine:%>jn # ;           
++Num+Pl+Ela:%>js # ;           
++Num+Pl+Com:%>j # ;
 
 LEXICON ẈG-LÅK-ÅVTÅ                 
-+Num+Sg+Gen:%> K ; 
-+Num+Sg+Ill+Attr:%> K ;                         
++Num+Sg+Gen:%> # ; 
++Num+Sg+Ill+Attr:%> # ;                         
 +Num+Sg+Gen:%> NUMERALCOMPOUNDS ;
-+Num+Sg+Acc:%>v K ;            
-+Num+Sg+Ine:%>n K ;            
-+Num+Sg+Ela:%>s K ;            
-+Num+Sg+Com:%>jn K ;           
-+Num+Sg+Par:%>t K ;            
++Num+Sg+Acc:%>v # ;            
++Num+Sg+Ine:%>n # ;            
++Num+Sg+Ela:%>s # ;            
++Num+Sg+Com:%>jn # ;           
++Num+Sg+Par:%>t # ;            
        
 LEXICON ẈG-LÅK-AKTA                
 +Num:%> ẈG-LÅK-AKTA-NIE ;               
 +Num:%^WG%> ẈG-LÅK-AKTA-OBL ;              
 
 LEXICON ẈG-LÅK-AKTA-NIE                
- +Sg+Ill:j K ;              
- +Ess:n K ;                 
+ +Sg+Ill:j # ;              
+ +Ess:n # ;                 
 
 LEXICON ẈG-LÅK-AKTA-OBL                
- +Sg+Gen: K ; 
- +Sg+Ill+Attr: K ;                             
+ +Sg+Gen: # ; 
+ +Sg+Ill+Attr: # ;                             
  +Sg+Gen:%> NUMERALCOMPOUNDS ;
- +Sg+Acc:v K ;              
- +Sg+Ine:n K ;              
- +Sg+Ela:s K ;              
- +Sg+Com:jn K ;             
- +Sg+Par:t K ;               
- +Pl+Nom: K ;                
- +Pl+Gen:j K ;               
- +Pl+Acc:jt K ;              
- +Pl+Ill:jda K ;             
- +Pl+Ine:jn K ;              
- +Pl+Ela:js K ;              
- +Pl+Com:j K ;               
+ +Sg+Acc:v # ;              
+ +Sg+Ine:n # ;              
+ +Sg+Ela:s # ;              
+ +Sg+Com:jn # ;             
+ +Sg+Par:t # ;               
+ +Pl+Nom: # ;                
+ +Pl+Gen:j # ;               
+ +Pl+Acc:jt # ;              
+ +Pl+Ill:jda # ;             
+ +Pl+Ine:jn # ;              
+ +Pl+Ela:js # ;              
+ +Pl+Com:j # ;               
 
 LEXICON GUOKTA                  
 +Num:e%^WG%> GUOVTE- ;
-+Num+Sg+Gen:a%^WG%> K ;              
++Num+Sg+Gen:a%^WG%> # ;              
 +Num+Sg+Gen:a%^WG%> NUMERALCOMPOUNDS ;   
 +Num:i%^WG%> GUOVTI- ;               
 +Num: GUOKTA- ;                 
 
 LEXICON GUOVTE- 
- +Sg+Acc:v K ;            
- +Sg+Gen: K ;  
- +Sg+Ill+Attr: K ;  
+ +Sg+Acc:v # ;            
+ +Sg+Gen: # ;  
+ +Sg+Ill+Attr: # ;  
  +Sg+Gen:%- # ;                         
  +Sg+Gen: NUMERALCOMPOUNDS ;   
- +Sg+Ine:n K ;             
- +Sg+Ela:s K ;             
- +Sg+Par:t K ;             
- +Pl+Nom: K ;              
+ +Sg+Ine:n # ;             
+ +Sg+Ela:s # ;             
+ +Sg+Par:t # ;             
+ +Pl+Nom: # ;              
  
 LEXICON GUOVTI-   
- +Sg+Com:jn K ;            
- +Pl+Gen:j K ;             
- +Pl+Acc:jt K ;            
- +Pl+Ill:jda K ;           
- +Pl+Ine:jn K ;            
- +Pl+Ela:js K ;            
- +Pl+Com:j K ;             
+ +Sg+Com:jn # ;            
+ +Pl+Gen:j # ;             
+ +Pl+Acc:jt # ;            
+ +Pl+Ill:jda # ;           
+ +Pl+Ine:jn # ;            
+ +Pl+Ela:js # ;            
+ +Pl+Com:j # ;             
 
 ! lagt in essivformen guäkkten AnnCh
 
 LEXICON GUOKTA-            
- +Sg+Nom:a%> K ;       
- +Sg+Ill:á%>j K ;                        
- +Ess:guäkkte%>n K ;   
+ +Sg+Nom:a%> # ;       
+ +Sg+Ill:á%>j # ;                        
+ +Ess:guäkkte%>n # ;   
              
 
           
 LEXICON ẈG-LÅK-GUOKTA                  
 +Num:e%^WG%> ẈG-LÅK-GUOVTE- ;
-+Num+Sg+Gen:a%^WG%> K ;              
++Num+Sg+Gen:a%^WG%> # ;              
 +Num+Sg+Gen:a%^WG%> NUMERALCOMPOUNDS ;   
 +Num:i%^WG%> ẈG-LÅK-GUOVTI- ;               
 +Num: ẈG-LÅK-GUOKTA- ;                 
 
 LEXICON ẈG-LÅK-GUOVTE- 
- +Sg+Acc:v K ;            
- +Sg+Gen: K ; 
- +Sg+Ill+Attr: K ;     
- +Sg+Gen:%- K ;                         
+ +Sg+Acc:v # ;            
+ +Sg+Gen: # ; 
+ +Sg+Ill+Attr: # ;     
+ +Sg+Gen:%- # ;                         
  +Sg+Gen: NUMERALCOMPOUNDS ;   
- +Sg+Ine:n K ;             
- +Sg+Ela:s K ;             
- +Sg+Par:t K ;             
+ +Sg+Ine:n # ;             
+ +Sg+Ela:s # ;             
+ +Sg+Par:t # ;             
  
 LEXICON ẈG-LÅK-GUOVTI-   
- +Sg+Com:jn K ;            
+ +Sg+Com:jn # ;            
 
 LEXICON ẈG-LÅK-GUOKTA-            
-+Ess:guäkkte%>n K ; 
++Ess:guäkkte%>n # ; 
  
              
                 
@@ -924,44 +924,44 @@ LEXICON GÅLMMÅ
 +Num:%^WG%> GÅLMMÅ-OBL ;     
                         
 LEXICON GÅLMMÅ-NAIE      
- +Sg+Nom: K ;                        
- +Sg+Ill:j K ;           
- +Ess:n K ;              
+ +Sg+Nom: # ;                        
+ +Sg+Ill:j # ;           
+ +Ess:n # ;              
                          
 LEXICON GÅLMMÅ-OBL 
- +Sg+Acc:v K ;                  
- +Sg+Gen: K ;  
- +Sg+Ill+Attr: K ;                      
+ +Sg+Acc:v # ;                  
+ +Sg+Gen: # ;  
+ +Sg+Ill+Attr: # ;                      
  +Sg+Gen: NUMERALCOMPOUNDS ; 
- +Sg+Ine:n K ;           
- +Sg+Ela:s K ;           
- +Sg+Com:jn K ;          
- +Sg+Par:t K ;           
- +Pl+Nom: K ;            
- +Pl+Gen:j K ;           
- +Pl+Acc:jt K ;          
- +Pl+Ill:jda K ;         
- +Pl+Ine:jn K ;          
- +Pl+Ela:js K ;          
- +Pl+Com:j K ;           
+ +Sg+Ine:n # ;           
+ +Sg+Ela:s # ;           
+ +Sg+Com:jn # ;          
+ +Sg+Par:t # ;           
+ +Pl+Nom: # ;            
+ +Pl+Gen:j # ;           
+ +Pl+Acc:jt # ;          
+ +Pl+Ill:jda # ;         
+ +Pl+Ine:jn # ;          
+ +Pl+Ela:js # ;          
+ +Pl+Com:j # ;           
 
 LEXICON ẈG-LÅK-GÅLMMÅ           
 +Num:%> ẈG-LÅK-GÅLMMÅ-NAIE ;      
 +Num:%^WG%> ẈG-LÅK-GÅLMMÅ-OBL ;     
                         
 LEXICON ẈG-LÅK-GÅLMMÅ-NAIE      
- +Sg+Ill:j K ;           
- +Ess:n K ;              
+ +Sg+Ill:j # ;           
+ +Ess:n # ;              
                          
 LEXICON ẈG-LÅK-GÅLMMÅ-OBL 
- +Sg+Acc:v K ;                  
- +Sg+Gen: K ; 
- +Sg+Ill+Attr: K ;                       
+ +Sg+Acc:v # ;                  
+ +Sg+Gen: # ; 
+ +Sg+Ill+Attr: # ;                       
  +Sg+Gen: NUMERALCOMPOUNDS ; 
- +Sg+Ine:n K ;           
- +Sg+Ela:s K ;           
- +Sg+Com:jn K ;          
- +Sg+Par:t K ;           
+ +Sg+Ine:n # ;           
+ +Sg+Ela:s # ;           
+ +Sg+Com:jn # ;          
+ +Sg+Par:t # ;           
 
 
 LEXICON GIETJAV             
@@ -969,50 +969,50 @@ LEXICON GIETJAV
 +Num:%^WG%> GIETJAV-OBL ;       
                             
 LEXICON GIETJAV-IE  
- +Ill:j K ;        
- +Ess:n K ;
+ +Ill:j # ;        
+ +Ess:n # ;
                   
                         
 LEXICON GIETJAV-OBL         
- +Sg+Nom:v K ;
- +Sg+Nom: K ;                            
- +Sg+Gen: K ;  
- +Sg+Ill+Attr: K ;                            
+ +Sg+Nom:v # ;
+ +Sg+Nom: # ;                            
+ +Sg+Gen: # ;  
+ +Sg+Ill+Attr: # ;                            
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Acc:v K ;              
- +Sg+Ine:n K ;              
- +Sg+Ela:s K ;              
- +Sg+Com:jn K ;             
- +Sg+Par:t K ;              
- +Pl+Nom: K ;               
- +Pl+Gen:j K ;              
- +Pl+Acc:jt K ;             
- +Pl+Ill:jda K ;            
- +Pl+Ine:jn K ;             
- +Pl+Ela:js K ;             
- +Pl+Com:j K ;              
+ +Sg+Acc:v # ;              
+ +Sg+Ine:n # ;              
+ +Sg+Ela:s # ;              
+ +Sg+Com:jn # ;             
+ +Sg+Par:t # ;              
+ +Pl+Nom: # ;               
+ +Pl+Gen:j # ;              
+ +Pl+Acc:jt # ;             
+ +Pl+Ill:jda # ;            
+ +Pl+Ine:jn # ;             
+ +Pl+Ela:js # ;             
+ +Pl+Com:j # ;              
  
 LEXICON ẈG-LÅK-GIETJAV             
 +Num:%> ẈG-LÅK-GIETJAV-IE ;          
 +Num:%^WG%> ẈG-LÅK-GIETJAV-OBL ;       
                             
 LEXICON ẈG-LÅK-GIETJAV-IE  
- +Ill:j K ;        
- +Ess:n K ;
+ +Ill:j # ;        
+ +Ess:n # ;
                         
 LEXICON ẈG-LÅK-GIETJAV-OBL         
- +Sg+Nom:v K ;
- +Sg+Gen: K ; 
- +Sg+Ill+Attr: K ;                             
+ +Sg+Nom:v # ;
+ +Sg+Gen: # ; 
+ +Sg+Ill+Attr: # ;                             
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Acc:v K ;              
- +Sg+Ine:n K ;              
- +Sg+Ela:s K ;              
- +Sg+Com:jn K ;             
- +Sg+Par:t K ;              
+ +Sg+Acc:v # ;              
+ +Sg+Ine:n # ;              
+ +Sg+Ela:s # ;              
+ +Sg+Com:jn # ;             
+ +Sg+Par:t # ;              
 
 LEXICON GÁKKTJA
-+Num+Sg+Nom:a K ;
++Num+Sg+Nom:a # ;
 
 LEXICON GÁKTSA              
 +Num:e%^WG%> GÁVTSE- ;           
@@ -1020,30 +1020,30 @@ LEXICON GÁKTSA
 +Num: GÁKTSA- ;             
                             
 LEXICON GÁVTSE-   
- +Sg+Acc:v K ;                       
- +Sg+Gen: K ; 
- +Sg+Ill+Attr: K ;                           
+ +Sg+Acc:v # ;                       
+ +Sg+Gen: # ; 
+ +Sg+Ill+Attr: # ;                           
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Ine:n K ;             
- +Sg+Ela:s K ;             
- +Sg+Par:t K ;             
- +Pl+Nom: K ;              
+ +Sg+Ine:n # ;             
+ +Sg+Ela:s # ;             
+ +Sg+Par:t # ;             
+ +Pl+Nom: # ;              
 
 LEXICON GÁVTSI-        
- +Sg+Com:jn K ;            
- +Pl+Gen:j K ;             
- +Pl+Acc:jt K ;            
- +Pl+Ill:jda K ;           
- +Pl+Ine:jn K ;            
- +Pl+Ela:js K ;            
- +Pl+Com:j K ;             
+ +Sg+Com:jn # ;            
+ +Pl+Gen:j # ;             
+ +Pl+Acc:jt # ;            
+ +Pl+Ill:jda # ;           
+ +Pl+Ine:jn # ;            
+ +Pl+Ela:js # ;            
+ +Pl+Com:j # ;             
                             
                             
 LEXICON GÁKTSA-             
     
- +Sg+Nom:%>e K ;                         
- +Sg+Ill:á%>j K ;               
- +Ess:e%>n K ;      
+ +Sg+Nom:%>e # ;                         
+ +Sg+Ill:á%>j # ;               
+ +Ess:e%>n # ;      
    
 LEXICON ẈG-LÅK-GÁKTSA              
 +Num:e%^WG%> ẈG-LÅK-GÁVTSE- ;           
@@ -1051,27 +1051,27 @@ LEXICON ẈG-LÅK-GÁKTSA
 +Num: ẈG-LÅK-GÁKTSA- ;             
                             
 LEXICON ẈG-LÅK-GÁVTSE-   
- +Sg+Acc:v K ;                       
- +Sg+Gen: K ;   
- +Sg+Ill+Attr: K ;                         
+ +Sg+Acc:v # ;                       
+ +Sg+Gen: # ;   
+ +Sg+Ill+Attr: # ;                         
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Ine:n K ;             
- +Sg+Ela:s K ;             
- +Sg+Par:t K ;             
+ +Sg+Ine:n # ;             
+ +Sg+Ela:s # ;             
+ +Sg+Par:t # ;             
 
 LEXICON ẈG-LÅK-GÁVTSI-        
- +Sg+Com:jn K ;            
+ +Sg+Com:jn # ;            
                             
                             
 LEXICON ẈG-LÅK-GÁKTSA-             
- +Sg+Nom:%>a K ;   
- +Sg+Nom:%>e K ;                         
- +Sg+Ill:á%>j K ;             
- +Ess:e%>n K ;      
+ +Sg+Nom:%>a # ;   
+ +Sg+Nom:%>e # ;                         
+ +Sg+Ill:á%>j # ;             
+ +Ess:e%>n # ;      
 
 
 LEXICON ÅKKTJÅ
-+Num+Sg+Nom:å K ;
++Num+Sg+Nom:å # ;
                    AKTSE ;
 LEXICON AKTSE            
 +Num:e%^WG%> AVTSE- ;           
@@ -1079,29 +1079,29 @@ LEXICON AKTSE
 +Num: AKTS- ;             
 
 LEXICON AVTSE- 
- +Sg+Acc:v K ;                    
- +Sg+Gen: K ;   
- +Sg+Ill+Attr: K ;                 
+ +Sg+Acc:v # ;                    
+ +Sg+Gen: # ;   
+ +Sg+Ill+Attr: # ;                 
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Ine:n K ;         
- +Sg+Ela:s K ;         
- +Sg+Par:t K ;         
- +Pl+Nom: K ;          
+ +Sg+Ine:n # ;         
+ +Sg+Ela:s # ;         
+ +Sg+Par:t # ;         
+ +Pl+Nom: # ;          
 
 LEXICON AVTSI-         
- +Sg+Com:jn K ;        
- +Pl+Gen:j K ;         
- +Pl+Acc:jt K ;        
- +Pl+Ill:jda K ;       
- +Pl+Ine:jn K ;        
- +Pl+Ela:js K ;        
- +Pl+Com:j K ;         
+ +Sg+Com:jn # ;        
+ +Pl+Gen:j # ;         
+ +Pl+Acc:jt # ;        
+ +Pl+Ill:jda # ;       
+ +Pl+Ine:jn # ;        
+ +Pl+Ela:js # ;        
+ +Pl+Com:j # ;         
                         
                     
 LEXICON AKTS-           
- +Sg+Nom:e%> K ;          
- +Sg+Ill:á%>j K ;         
- +Ess:e%>n K ;        
+ +Sg+Nom:e%> # ;          
+ +Sg+Ill:á%>j # ;         
+ +Ess:e%>n # ;        
  
 LEXICON ẈG-LÅK-AKTSE            
 +Num:e%^WG%> ẈG-LÅK-AVTSE- ;           
@@ -1109,29 +1109,29 @@ LEXICON ẈG-LÅK-AKTSE
 +Num: ẈG-LÅK-AKTS- ;             
 
 LEXICON ẈG-LÅK-AVTSE- 
- +Sg+Acc:v K ;                    
- +Sg+Gen: K ;  
- +Sg+Ill+Attr: K ;                         
+ +Sg+Acc:v # ;                    
+ +Sg+Gen: # ;  
+ +Sg+Ill+Attr: # ;                         
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Ine:n K ;         
- +Sg+Ela:s K ;         
- +Sg+Par:t K ;         
- +Pl+Nom: K ;          
+ +Sg+Ine:n # ;         
+ +Sg+Ela:s # ;         
+ +Sg+Par:t # ;         
+ +Pl+Nom: # ;          
 
 LEXICON ẈG-LÅK-AVTSI-         
- +Sg+Com:jn K ;        
- +Pl+Gen:j K ;         
- +Pl+Acc:jt K ;        
- +Pl+Ill:jda K ;       
- +Pl+Ine:jn K ;        
- +Pl+Ela:js K ;        
- +Pl+Com:j K ;         
+ +Sg+Com:jn # ;        
+ +Pl+Gen:j # ;         
+ +Pl+Acc:jt # ;        
+ +Pl+Ill:jda # ;       
+ +Pl+Ine:jn # ;        
+ +Pl+Ela:js # ;        
+ +Pl+Com:j # ;         
                         
                     
 LEXICON ẈG-LÅK-AKTS-           
- +Sg+Nom:e%> K ;                    
- +Sg+Ill:á%>j K ;         
- +Ess:e%>n K ; 
+ +Sg+Nom:e%> # ;                    
+ +Sg+Ill:á%>j # ;         
+ +Ess:e%>n # ; 
  
  !lagt in lugi Ann-Ch       
 
@@ -1141,29 +1141,29 @@ LEXICON LÅGEV
 +Num: LÅHK- ;     
                    
 LEXICON LÅGE-      
- +Sg+Nom:v K ;    
- +Sg+Acc:v K ;    
- +Sg+Gen: K ;
- +Sg+Ill+Attr: K ;                              
+ +Sg+Nom:v # ;    
+ +Sg+Acc:v # ;    
+ +Sg+Gen: # ;
+ +Sg+Ill+Attr: # ;                              
  +Sg+Gen: NUMERALCOMPOUNDS ;
- +Sg+Ine:n K ;    
- +Sg+Ela:s K ;    
- +Sg+Par:t K ;    
- +Pl+Nom: K ;     
+ +Sg+Ine:n # ;    
+ +Sg+Ela:s # ;    
+ +Sg+Par:t # ;    
+ +Pl+Nom: # ;     
 
 LEXICON LÅGI-      
- +Sg+Com:jn K ;   
- +Pl+Gen:j K ;    
- +Pl+Acc:jt K ;   
- +Pl+Ill:jda K ;  
- +Pl+Ine:jn K ;   
- +Pl+Ela:js K ;   
- +Pl+Com:j K ;    
+ +Sg+Com:jn # ;   
+ +Pl+Gen:j # ;    
+ +Pl+Acc:jt # ;   
+ +Pl+Ill:jda # ;  
+ +Pl+Ine:jn # ;   
+ +Pl+Ela:js # ;   
+ +Pl+Com:j # ;    
                    
                    
 LEXICON LÅHK-      
- +Sg+Ill:å%>j K ;    
- +Ess:e%>n K ;       
+ +Sg+Ill:å%>j # ;    
+ +Ess:e%>n # ;       
                    
                    
 LEXICON AKTALÅGENAN  
@@ -1171,70 +1171,70 @@ LEXICON AKTALÅGENAN
 +Num:%^WG%> AKTALÅGENAN-OBL ;      
                    
 LEXICON AKTALÅGENAN-NIE    
- +Sg+Nom:#lågenan%> K ;     
- +Sg+Ill:j#lågenan%> K ;       
- +Ess:n#lågenan%> K ;        
+ +Sg+Nom:#lågenan%> # ;     
+ +Sg+Ill:j#lågenan%> # ;       
+ +Ess:n#lågenan%> # ;        
                    
 LEXICON AKTALÅGENAN-OBL    
- +Sg+Gen:#lågenan%> K ; 
- +Sg+Ill+Attr:#lågenan%> K ;           
+ +Sg+Gen:#lågenan%> # ; 
+ +Sg+Ill+Attr:#lågenan%> # ;           
  +Sg+Gen:#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Acc:v#lågenan%> K ; 
- +Sg+Ine:n#lågenan%> K ; 
- +Sg+Ela:s#lågenan%> K ; 
- +Sg+Com:jn#lågenan%> K ; 
- +Sg+Par:t#lågenan%> K ; 
- +Pl+Nom:#lågenan%> K ; 
- +Pl+Gen:j#lågenan%> K ; 
- +Pl+Acc:jt#lågenan%> K ; 
- +Pl+Ill:jda#lågenan%> K ; 
- +Pl+Ine:jn#lågenan%> K ; 
- +Pl+Ela:js#lågenan%> K ; 
- +Pl+Com:j#lågenan%> K ; 
+ +Sg+Acc:v#lågenan%> # ; 
+ +Sg+Ine:n#lågenan%> # ; 
+ +Sg+Ela:s#lågenan%> # ; 
+ +Sg+Com:jn#lågenan%> # ; 
+ +Sg+Par:t#lågenan%> # ; 
+ +Pl+Nom:#lågenan%> # ; 
+ +Pl+Gen:j#lågenan%> # ; 
+ +Pl+Acc:jt#lågenan%> # ; 
+ +Pl+Ill:jda#lågenan%> # ; 
+ +Pl+Ine:jn#lågenan%> # ; 
+ +Pl+Ela:js#lågenan%> # ; 
+ +Pl+Com:j#lågenan%> # ; 
  
  !varför ska åvtålågenan vara med
  
 LEXICON ÅVTÅLÅGENAN                   
-+Num+Sg+Gen:%>#lågenan%> K ; 
-+Num+Sg+Ill+Attr:%>#lågenan%> K ;                         
++Num+Sg+Gen:%>#lågenan%> # ; 
++Num+Sg+Ill+Attr:%>#lågenan%> # ;                         
 +Num+Sg+Gen:%>#lågenan%> NUMERALCOMPOUNDS ;
-+Num+Sg+Acc:%>v#lågenan%> K ;             
-+Num+Sg+Ine:%>n#lågenan%> K ;             
-+Num+Sg+Ela:%>s#lågenan%> K ;             
-+Num+Sg+Com:%>jn#lågenan%> K ;            
-+Num+Sg+Par:%>t#lågenan%> K ;             
-+Num+Pl+Nom:%>#lågenan%> K ;              
-+Num+Pl+Gen:%>j#lågenan%> K ;             
-+Num+Pl+Acc:%>jt#lågenan%> K ;            
-+Num+Pl+Ill:%>jda#lågenan%> K ;           
-+Num+Pl+Ine:%>jn#lågenan%> K ;            
-+Num+Pl+Ela:%>js#lågenan%> K ;            
-+Num+Pl+Com:%>j#lågenan%> K ;             
++Num+Sg+Acc:%>v#lågenan%> # ;             
++Num+Sg+Ine:%>n#lågenan%> # ;             
++Num+Sg+Ela:%>s#lågenan%> # ;             
++Num+Sg+Com:%>jn#lågenan%> # ;            
++Num+Sg+Par:%>t#lågenan%> # ;             
++Num+Pl+Nom:%>#lågenan%> # ;              
++Num+Pl+Gen:%>j#lågenan%> # ;             
++Num+Pl+Acc:%>jt#lågenan%> # ;            
++Num+Pl+Ill:%>jda#lågenan%> # ;           
++Num+Pl+Ine:%>jn#lågenan%> # ;            
++Num+Pl+Ela:%>js#lågenan%> # ;            
++Num+Pl+Com:%>j#lågenan%> # ;             
                                       
 LEXICON GUOKTALÅGENAN                 
 +Num: GUOVTELÅGENAN ;               
 +Num: GUOKT-LÅGENAN ;                 
                                       
 LEXICON GUOVTELÅGENAN     
- +Sg+Acc:e%^WG%>v#lågenan%> K ;                           
- +Sg+Gen:e%^WG%>#lågenan%> K ; 
- +Sg+Ill+Attr:e%^WG%>#lågenan%> K ;                               
+ +Sg+Acc:e%^WG%>v#lågenan%> # ;                           
+ +Sg+Gen:e%^WG%>#lågenan%> # ; 
+ +Sg+Ill+Attr:e%^WG%>#lågenan%> # ;                               
  +Sg+Gen:e%^WG%>#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:e%^WG%>n#lågenan%> K ;               
- +Sg+Ela:e%^WG%>s#lågenan%> K ;               
- +Sg+Com:i%^WG%>jn#lågenan%> K ;              
- +Sg+Par:e%^WG%>t#lågenan%> K ;               
- +Pl+Nom:e%^WG%>#lågenan%> K ;                
- +Pl+Gen:i%^WG%>j#lågenan%> K ;               
- +Pl+Acc:i%^WG%>jt#lågenan%> K ;              
- +Pl+Ill:i%^WG%>jda#lågenan%> K ;             
- +Pl+Ine:i%^WG%>jn#lågenan%> K ;              
- +Pl+Ela:i%^WG%>js#lågenan%> K ;              
- +Pl+Com:i%^WG%>j#lågenan%> K ;               
+ +Sg+Ine:e%^WG%>n#lågenan%> # ;               
+ +Sg+Ela:e%^WG%>s#lågenan%> # ;               
+ +Sg+Com:i%^WG%>jn#lågenan%> # ;              
+ +Sg+Par:e%^WG%>t#lågenan%> # ;               
+ +Pl+Nom:e%^WG%>#lågenan%> # ;                
+ +Pl+Gen:i%^WG%>j#lågenan%> # ;               
+ +Pl+Acc:i%^WG%>jt#lågenan%> # ;              
+ +Pl+Ill:i%^WG%>jda#lågenan%> # ;             
+ +Pl+Ine:i%^WG%>jn#lågenan%> # ;              
+ +Pl+Ela:i%^WG%>js#lågenan%> # ;              
+ +Pl+Com:i%^WG%>j#lågenan%> # ;               
                                       
 LEXICON GUOKT-LÅGENAN                 
- +Sg+Nom:a%>#lågenan%> K ;           
- +Ess:guäkkte%>n#lågenan%> K ; 
+ +Sg+Nom:a%>#lågenan%> # ;           
+ +Ess:guäkkte%>n#lågenan%> # ; 
  
  !rättat hit                            
                                       
@@ -1243,85 +1243,85 @@ LEXICON GÅLMMÅLÅGENAN
 +Num:%^WG%> GÅLMMÅLÅGENAN-OBL ;           
                                       
 LEXICON GÅLMMÅLÅGENAN-NAIE            
- +Sg+Nom:#lågenan%> K ;                 
- +Sg+Acc:#lågenan%> K ;                 
- +Sg+Ill:j#lågenan%> K ;                
- +Ess:n#lågenan%> K ;                   
+ +Sg+Nom:#lågenan%> # ;                 
+ +Sg+Acc:#lågenan%> # ;                 
+ +Sg+Ill:j#lågenan%> # ;                
+ +Ess:n#lågenan%> # ;                   
                                       
 LEXICON GÅLMMÅLÅGENAN-OBL  
- +Sg+Acc:v#lågenan%> K ;                           
- +Sg+Gen:#lågenan%> K ;
- +Sg+Ill+Attr:#lågenan%> K ;                                  
+ +Sg+Acc:v#lågenan%> # ;                           
+ +Sg+Gen:#lågenan%> # ;
+ +Sg+Ill+Attr:#lågenan%> # ;                                  
  +Sg+Gen:#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:n#lågenan%> K ;                
- +Sg+Ela:s#lågenan%> K ;                
- +Sg+Com:jn#lågenan%> K ;               
- +Sg+Par:t#lågenan%> K ;                
- +Pl+Nom:#lågenan%> K ;                 
- +Pl+Gen:j#lågenan%> K ;                
- +Pl+Acc:jt#lågenan%> K ;               
- +Pl+Ill:jda#lågenan%> K ;              
- +Pl+Ine:jn#lågenan%> K ;               
- +Pl+Ela:js#lågenan%> K ;               
- +Pl+Com:j#lågenan%> K ;                
+ +Sg+Ine:n#lågenan%> # ;                
+ +Sg+Ela:s#lågenan%> # ;                
+ +Sg+Com:jn#lågenan%> # ;               
+ +Sg+Par:t#lågenan%> # ;                
+ +Pl+Nom:#lågenan%> # ;                 
+ +Pl+Gen:j#lågenan%> # ;                
+ +Pl+Acc:jt#lågenan%> # ;               
+ +Pl+Ill:jda#lågenan%> # ;              
+ +Pl+Ine:jn#lågenan%> # ;               
+ +Pl+Ela:js#lågenan%> # ;               
+ +Pl+Com:j#lågenan%> # ;                
                                       
 LEXICON GIETJAVLÅGENAN                
 +Num:%> GIETJAVLÅGENAN-IE ;             
 +Num:%^WG%> GIETJAVLÅGENAN-OBL ;          
                                       
 LEXICON GIETJAVLÅGENAN-IE  
- +Ill:j#lågenan%> K ;           
- +Ess:n#lågenan%> K ; 
- +Sg+Nom:#lågenan%> K ;                
+ +Ill:j#lågenan%> # ;           
+ +Ess:n#lågenan%> # ; 
+ +Sg+Nom:#lågenan%> # ;                
                   
                                       
 LEXICON GIETJAVLÅGENAN-OBL            
- +Sg+Nom:v#lågenan%> K ;   
- +Sg+Nom:#lågenan%> K ;                             
- +Sg+Gen:#lågenan%> K ;  
- +Sg+Ill+Attr:#lågenan%> K ;                                
+ +Sg+Nom:v#lågenan%> # ;   
+ +Sg+Nom:#lågenan%> # ;                             
+ +Sg+Gen:#lågenan%> # ;  
+ +Sg+Ill+Attr:#lågenan%> # ;                                
  +Sg+Gen:#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Acc:v#lågenan%> K ;                
- +Sg+Ine:n#lågenan%> K ;                
- +Sg+Ela:s#lågenan%> K ;                
- +Sg+Com:jn#lågenan%> K ;               
- +Sg+Par:t#lågenan%> K ;                
- +Pl+Nom:#lågenan%> K ;                 
- +Pl+Gen:j#lågenan%> K ;                
- +Pl+Acc:jt#lågenan%> K ;               
- +Pl+Ill:jda#lågenan%> K ;              
- +Pl+Ine:jn#lågenan%> K ;               
- +Pl+Ela:js#lågenan%> K ;               
- +Pl+Com:j#lågenan%> K ;                
+ +Sg+Acc:v#lågenan%> # ;                
+ +Sg+Ine:n#lågenan%> # ;                
+ +Sg+Ela:s#lågenan%> # ;                
+ +Sg+Com:jn#lågenan%> # ;               
+ +Sg+Par:t#lågenan%> # ;                
+ +Pl+Nom:#lågenan%> # ;                 
+ +Pl+Gen:j#lågenan%> # ;                
+ +Pl+Acc:jt#lågenan%> # ;               
+ +Pl+Ill:jda#lågenan%> # ;              
+ +Pl+Ine:jn#lågenan%> # ;               
+ +Pl+Ela:js#lågenan%> # ;               
+ +Pl+Com:j#lågenan%> # ;                
                                       
 LEXICON GÁKTSALÅGENAN                 
 +Num: GÁVTSELÅGENAN ;               
 +Num: GÁKTS-LÅGENAN ;                 
                                       
 LEXICON GÁVTSELÅGENAN    
- +Sg+Acc:e%^WG%>v#lågenan%> K ;                            
- +Sg+Gen:e%^WG%>#lågenan%> K ; 
- +Sg+Ill+Attr:e%^WG%>#lågenan%> K ;                               
+ +Sg+Acc:e%^WG%>v#lågenan%> # ;                            
+ +Sg+Gen:e%^WG%>#lågenan%> # ; 
+ +Sg+Ill+Attr:e%^WG%>#lågenan%> # ;                               
  +Sg+Gen:e%^WG%>#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:e%^WG%>n#lågenan%> K ;               
- +Sg+Ela:e%^WG%>s#lågenan%> K ;               
- +Sg+Com:i%^WG%>jn#lågenan%> K ;              
- +Sg+Par:e%^WG%>t#lågenan%> K ;               
- +Pl+Nom:e%^WG%>#lågenan%> K ;                
- +Pl+Gen:i%^WG%>j#lågenan%> K ;               
- +Pl+Acc:i%^WG%>jt#lågenan%> K ;              
- +Pl+Ill:i%^WG%>jda#lågenan%> K ;             
- +Pl+Ine:i%^WG%>jn#lågenan%> K ;              
- +Pl+Ela:i%^WG%>js#lågenan%> K ;              
- +Pl+Com:i%^WG%>j#lågenan%> K ;               
+ +Sg+Ine:e%^WG%>n#lågenan%> # ;               
+ +Sg+Ela:e%^WG%>s#lågenan%> # ;               
+ +Sg+Com:i%^WG%>jn#lågenan%> # ;              
+ +Sg+Par:e%^WG%>t#lågenan%> # ;               
+ +Pl+Nom:e%^WG%>#lågenan%> # ;                
+ +Pl+Gen:i%^WG%>j#lågenan%> # ;               
+ +Pl+Acc:i%^WG%>jt#lågenan%> # ;              
+ +Pl+Ill:i%^WG%>jda#lågenan%> # ;             
+ +Pl+Ine:i%^WG%>jn#lågenan%> # ;              
+ +Pl+Ela:i%^WG%>js#lågenan%> # ;              
+ +Pl+Com:i%^WG%>j#lågenan%> # ;               
                                       
 LEXICON GÁKTS-LÅGENAN                 
- +Sg+Nom:a%>#lågenan%> K ;           
- +Sg+Nom:e%>#lågenan%> K ;                     
- +Sg+Acc:a%>#lågenan%> K ;                
- +Sg+Ill:á%>j#lågenan%> K ;
- +Ess:a%>n#lågenan%> K ;       
- +Ess:e%>n#lågenan%> K ;                  
+ +Sg+Nom:a%>#lågenan%> # ;           
+ +Sg+Nom:e%>#lågenan%> # ;                     
+ +Sg+Acc:a%>#lågenan%> # ;                
+ +Sg+Ill:á%>j#lågenan%> # ;
+ +Ess:a%>n#lågenan%> # ;       
+ +Ess:e%>n#lågenan%> # ;                  
            
                                       
 LEXICON AKTSELÅGENAN                  
@@ -1329,27 +1329,27 @@ LEXICON AKTSELÅGENAN
 +Num: AKTS-LÅGENAN ;                  
                                       
 LEXICON AVTSELÅGENAN 
- +Sg+Acc:e%^WG%>v#lågenan%> K ;                                
- +Sg+Gen:e%^WG%>#lågenan%> K ;  
- +Sg+Ill+Attr:e%^WG%>#lågenan%> K ;                              
+ +Sg+Acc:e%^WG%>v#lågenan%> # ;                                
+ +Sg+Gen:e%^WG%>#lågenan%> # ;  
+ +Sg+Ill+Attr:e%^WG%>#lågenan%> # ;                              
  +Sg+Gen:e%^WG%>#lågenan%> NUMERALCOMPOUNDS ;
- +Sg+Ine:e%^WG%>n#lågenan%> K ;               
- +Sg+Ela:e%^WG%>s#lågenan%> K ;               
- +Sg+Com:i%^WG%>jn#lågenan%> K ;              
- +Sg+Par:e%^WG%>t#lågenan%> K ;               
- +Pl+Nom:e%^WG%>#lågenan%> K ;                
- +Pl+Gen:i%^WG%>j#lågenan%> K ;               
- +Pl+Acc:i%^WG%>jt#lågenan%> K ;              
- +Pl+Ill:i%^WG%>jda#lågenan%> K ;             
- +Pl+Ine:i%^WG%>jn#lågenan%> K ;              
- +Pl+Ela:i%^WG%>js#lågenan%> K ;              
- +Pl+Com:i%^WG%>j#lågenan%> K ;               
+ +Sg+Ine:e%^WG%>n#lågenan%> # ;               
+ +Sg+Ela:e%^WG%>s#lågenan%> # ;               
+ +Sg+Com:i%^WG%>jn#lågenan%> # ;              
+ +Sg+Par:e%^WG%>t#lågenan%> # ;               
+ +Pl+Nom:e%^WG%>#lågenan%> # ;                
+ +Pl+Gen:i%^WG%>j#lågenan%> # ;               
+ +Pl+Acc:i%^WG%>jt#lågenan%> # ;              
+ +Pl+Ill:i%^WG%>jda#lågenan%> # ;             
+ +Pl+Ine:i%^WG%>jn#lågenan%> # ;              
+ +Pl+Ela:i%^WG%>js#lågenan%> # ;              
+ +Pl+Com:i%^WG%>j#lågenan%> # ;               
                                       
 LEXICON AKTS-LÅGENAN                  
- +Sg+Nom:e%>#lågenan%> K ;                
- +Sg+Acc:e%>#lågenan%> K ;                
- +Sg+Ill:á%>j#lågenan%> K ;               
- +Ess:e%>n#lågenan%> K ;                  
+ +Sg+Nom:e%>#lågenan%> # ;                
+ +Sg+Acc:e%>#lågenan%> # ;                
+ +Sg+Ill:á%>j#lågenan%> # ;               
+ +Ess:e%>n#lågenan%> # ;                  
                                       
 LEXICON TJUOHTECASE           
  +Num:e%^WG%> TJUODE- ;                     
@@ -1357,71 +1357,71 @@ LEXICON TJUOHTECASE
 ! +Num: TJUOHT- ;                       
                                       
 LEXICON TJUODE-                       
- +Sg+Acc:v K ;                       
- +Sg+Gen: K ;   
- +Sg+Ill+Attr: K ;                                             
- +Sg+Ine:n K ;                       
- +Sg+Ela:s K ;                       
- +Sg+Par:t K ;                       
- +Pl+Nom: K ;                        
+ +Sg+Acc:v # ;                       
+ +Sg+Gen: # ;   
+ +Sg+Ill+Attr: # ;                                             
+ +Sg+Ine:n # ;                       
+ +Sg+Ela:s # ;                       
+ +Sg+Par:t # ;                       
+ +Pl+Nom: # ;                        
 
 LEXICON TJUODI-                      
- +Pl+Gen:j K ;                       
- +Sg+Com:jn K ;                      
- +Pl+Acc:jt K ;                      
- +Pl+Ill:jda K ;                     
- +Pl+Ine:jn K ;                      
- +Pl+Ela:js K ;                      
- +Pl+Com:j K ;                       
+ +Pl+Gen:j # ;                       
+ +Sg+Com:jn # ;                      
+ +Pl+Acc:jt # ;                      
+ +Pl+Ill:jda # ;                     
+ +Pl+Ine:jn # ;                      
+ +Pl+Ela:js # ;                      
+ +Pl+Com:j # ;                       
                                       
 !LEXICON TJUOHT-                       
-! +Sg+Nom:%>e K ;                        
-! +Ess:e%>n K ;                          
-! +Sg+Ill:á%>j K ;                       
+! +Sg+Nom:%>e # ;                        
+! +Ess:e%>n # ;                          
+! +Sg+Ill:á%>j # ;                       
 
 LEXICON ẈG-LÅK-TJUOHTECASE           
  +Num:e%^WG%> ẈG-LÅK-TJUODE- ;                     
                                       
 LEXICON ẈG-LÅK-TJUODE-                       
- +Sg+Acc:v K ;                       
- +Sg+Gen: K ;                        
- +Sg+Ine:n K ;                       
+ +Sg+Acc:v # ;                       
+ +Sg+Gen: # ;                        
+ +Sg+Ine:n # ;                       
 
 
 LEXICON TUVSÁN				
- +Num+Sg+Nom:%> K ;          
- +Num+Sg+Gen:%>a K ;         
+ +Num+Sg+Nom:%> # ;          
+ +Num+Sg+Gen:%>a # ;         
  +Num+Sg+Attr:%> NUMERALCOMPOUNDS ;
- +Num+Sg+Acc:%>av K ;            
- +Num+Sg+Ill:%>ij K ;    
- +Num+Sg+Ine:%>in K ;           
- +Num+Sg+Ela:%>is K ;            
- +Num+Sg+Com:%>ijn K ;            
- +Num+Ess:%>in K ;                  
- +Num+Pl+Nom:%>a K ;                 
- +Num+Pl+Gen:%>ij K ;              
- +Num+Pl+Acc:%>ijt K ;              
- +Num+Pl+Ill:%>ijda K ;              
- +Num+Pl+Ine:%>ijn K ;                
- +Num+Pl+Ela:%>ijs K ;                 
- +Num+Pl+Com:%>ij K ;                 
+ +Num+Sg+Acc:%>av # ;            
+ +Num+Sg+Ill:%>ij # ;    
+ +Num+Sg+Ine:%>in # ;           
+ +Num+Sg+Ela:%>is # ;            
+ +Num+Sg+Com:%>ijn # ;            
+ +Num+Ess:%>in # ;                  
+ +Num+Pl+Nom:%>a # ;                 
+ +Num+Pl+Gen:%>ij # ;              
+ +Num+Pl+Acc:%>ijt # ;              
+ +Num+Pl+Ill:%>ijda # ;              
+ +Num+Pl+Ine:%>ijn # ;                
+ +Num+Pl+Ela:%>ijs # ;                 
+ +Num+Pl+Com:%>ij # ;                 
 
 LEXICON WG-LÅK-TUVSÁN				
- +Num+Sg+Gen:%>a K ;         
+ +Num+Sg+Gen:%>a # ;         
  +Num+Sg+Attr:%> NUMERALCOMPOUNDS ;
- +Num+Sg+Acc:%>av K ;            
- +Num+Sg+Ill:%>ij K ;    
- +Num+Sg+Ine:%>in K ;           
- +Num+Sg+Ela:%>is K ;            
- +Num+Sg+Com:%>ijn K ;            
- +Num+Ess:%>in K ;                  
+ +Num+Sg+Acc:%>av # ;            
+ +Num+Sg+Ill:%>ij # ;    
+ +Num+Sg+Ine:%>in # ;           
+ +Num+Sg+Ela:%>is # ;            
+ +Num+Sg+Com:%>ijn # ;            
+ +Num+Ess:%>in # ;                  
 
 LEXICON WG-TUVSÁN				
- +Num+Sg+Gen:%>a K ;         
+ +Num+Sg+Gen:%>a # ;         
  +Num+Sg+Attr:%> NUMERALCOMPOUNDS ;
- +Num+Sg+Acc:%>av K ;            
- +Num+Sg+Ill:%>ij K ;    
- +Num+Sg+Ine:%>in K ;           
+ +Num+Sg+Acc:%>av # ;            
+ +Num+Sg+Ill:%>ij # ;    
+ +Num+Sg+Ine:%>in # ;           
 
 LEXICON NUMERALCOMPOUNDS  ! numeral as first part 
  NAMÁK ;			   ! tuvsánjienat, logigielat, etc. 
@@ -1437,60 +1437,60 @@ LEXICON NUMERALCOMPOUNDS  ! numeral as first part
 
 
 LEXICON VUOSTASJ      				
- +Sg+Nom:%> K ;          
- +Sg+Gen:%>a K ;         
- +Sg+Acc:%>av K ;            
- +Sg+Ill:%>ij K ;   
- +Sg+Ine:%>in K ;           
- +Sg+Ela:%>is K ;            
- +Sg+Com:%>ijn K ;            
- +Ess:%>in K ;                  
- +Pl+Nom:%>a K ;                 
- +Pl+Gen:%>ij K ;              
- +Pl+Acc:%>ijt K ;              
- +Pl+Ill:%>ijda K ;              
- +Pl+Ine:%>ijn K ;                
- +Pl+Ela:%>ijs K ;                 
- +Pl+Com:%>ij K ;                 
- +Attr:%> K ;					
+ +Sg+Nom:%> # ;          
+ +Sg+Gen:%>a # ;         
+ +Sg+Acc:%>av # ;            
+ +Sg+Ill:%>ij # ;   
+ +Sg+Ine:%>in # ;           
+ +Sg+Ela:%>is # ;            
+ +Sg+Com:%>ijn # ;            
+ +Ess:%>in # ;                  
+ +Pl+Nom:%>a # ;                 
+ +Pl+Gen:%>ij # ;              
+ +Pl+Acc:%>ijt # ;              
+ +Pl+Ill:%>ijda # ;              
+ +Pl+Ine:%>ijn # ;                
+ +Pl+Ela:%>ijs # ;                 
+ +Pl+Com:%>ij # ;                 
+ +Attr:%> # ;					
  +SgNomCmp: R ;
 
 LEXICON TUVSÁNAT				
- +Sg+Nom:t%> K ;          
- +Sg+Gen:tta%> K ;         
- +Sg+Acc:tta%>v K ;            
- +Sg+Ill:dda%>j K ;   
- +Sg+Ine:tta%>n K ;           
- +Sg+Ela:tta%>s K ;            
- +Sg+Com:tta%>jn K ;            
- +Ess:dda%>n K ;                  
- +Pl+Nom:tta%> K ;                 
- +Pl+Gen:tta%>j K ;              
- +Pl+Acc:tta%>jt K ;              
- +Pl+Ill:tta%>jda K ;              
- +Pl+Ine:tta%>jn K ;                
- +Pl+Ela:tta%>js K ;                 
- +Pl+Com:tta%>j K ;                 
- +Attr:t%> K ;					
+ +Sg+Nom:t%> # ;          
+ +Sg+Gen:tta%> # ;         
+ +Sg+Acc:tta%>v # ;            
+ +Sg+Ill:dda%>j # ;   
+ +Sg+Ine:tta%>n # ;           
+ +Sg+Ela:tta%>s # ;            
+ +Sg+Com:tta%>jn # ;            
+ +Ess:dda%>n # ;                  
+ +Pl+Nom:tta%> # ;                 
+ +Pl+Gen:tta%>j # ;              
+ +Pl+Acc:tta%>jt # ;              
+ +Pl+Ill:tta%>jda # ;              
+ +Pl+Ine:tta%>jn # ;                
+ +Pl+Ela:tta%>js # ;                 
+ +Pl+Com:tta%>j # ;                 
+ +Attr:t%> # ;					
  
 ! Collection numbers
 ! ---------------
 
 LEXICON GUOVTES           
- +Sg+Gen:á%> K ;          
- +Sg+Acc:á%>v K ;                 
- +Sg+Ill:á%>j K ;                     
- +Sg+Ine:á%>n K ;                 
- +Sg+Ela:á%>s K ;                 
- +Sg+Com:á%>jn K ;                    
- +Ess:á%>n K ;                    
- +Pl+Nom:á%> K ;                  
- +Pl+Gen:á%>j K ;                 
- +Pl+Acc:á%>jt K ;                
- +Pl+Ill:á%>jda K ;                   
- +Pl+Ine:á%>jn K ;                        
- +Pl+Ela:á%>js K ;                        
- +Pl+Com:á%>j K ;                         
+ +Sg+Gen:á%> # ;          
+ +Sg+Acc:á%>v # ;                 
+ +Sg+Ill:á%>j # ;                     
+ +Sg+Ine:á%>n # ;                 
+ +Sg+Ela:á%>s # ;                 
+ +Sg+Com:á%>jn # ;                    
+ +Ess:á%>n # ;                    
+ +Pl+Nom:á%> # ;                  
+ +Pl+Gen:á%>j # ;                 
+ +Pl+Acc:á%>jt # ;                
+ +Pl+Ill:á%>jda # ;                   
+ +Pl+Ine:á%>jn # ;                        
+ +Pl+Ela:á%>js # ;                        
+ +Pl+Com:á%>j # ;                         
  +Sg+Nom:á%> PxV ;     
  +Sg+Gen:á%> PxV ;     
  +Sg+Acc:á%> PxV ;     
@@ -1507,20 +1507,20 @@ LEXICON GUOVTES
 
 
 LEXICON VIDÁS           
- +Sg+Gen:%>a K ;          
- +Sg+Acc:%>av K ;                 
- +Sg+Ill:%>ij K ;                     
- +Sg+Ine:%>in K ;                 
- +Sg+Ela:%>is K ;                 
- +Sg+Com:%>ijn K ;                    
- +Ess:%>in K ;                    
- +Pl+Nom:%>a K ;                  
- +Pl+Gen:%>ij K ;                 
- +Pl+Acc:%>ijt K ;                
- +Pl+Ill:%>ijda K ;                   
- +Pl+Ine:%>ijn K ;                        
- +Pl+Ela:%>ijs K ;                        
- +Pl+Com:%>ij K ;                         
+ +Sg+Gen:%>a # ;          
+ +Sg+Acc:%>av # ;                 
+ +Sg+Ill:%>ij # ;                     
+ +Sg+Ine:%>in # ;                 
+ +Sg+Ela:%>is # ;                 
+ +Sg+Com:%>ijn # ;                    
+ +Ess:%>in # ;                    
+ +Pl+Nom:%>a # ;                  
+ +Pl+Gen:%>ij # ;                 
+ +Pl+Acc:%>ijt # ;                
+ +Pl+Ill:%>ijda # ;                   
+ +Pl+Ine:%>ijn # ;                        
+ +Pl+Ela:%>ijs # ;                        
+ +Pl+Com:%>ij # ;                         
  +Sg+Nom:%> PxC ;     
  +Sg+Gen:%> PxC ;     
  +Sg+Acc:%> PxC ;     
@@ -1537,36 +1537,36 @@ LEXICON VIDÁS
 
 
 LEXICON VIDÁSLÅGENAN                        
- +Sg+Gen:%>a#lågenan%> K ;      
- +Sg+Acc:%>av#lågenan%> K ; 
- +Sg+Ill:%>ij#lågenan%> K ;       
- +Sg+Ine:%>in#lågenan%> K ; 
- +Sg+Ela:%>is#lågenan%> K ; 
- +Sg+Com:%>ijn#lågenan%> K ; 
- +Sg+Par:%>it#lågenan%> K ; 
- +Pl+Nom:%>a#lågenan%> K ;                      
- +Pl+Gen:%>ij#lågenan%> K ;             
- +Pl+Acc:%>ijt#lågenan%> K ;                
- +Pl+Ill:%>ijda#lågenan%> K ;               
- +Pl+Ine:%>ijn#lågenan%> K ;                    
- +Pl+Ela:%>ijs#lågenan%> K ;                        
- +Pl+Com:%>ij#lågenan%> K ;                     
+ +Sg+Gen:%>a#lågenan%> # ;      
+ +Sg+Acc:%>av#lågenan%> # ; 
+ +Sg+Ill:%>ij#lågenan%> # ;       
+ +Sg+Ine:%>in#lågenan%> # ; 
+ +Sg+Ela:%>is#lågenan%> # ; 
+ +Sg+Com:%>ijn#lågenan%> # ; 
+ +Sg+Par:%>it#lågenan%> # ; 
+ +Pl+Nom:%>a#lågenan%> # ;                      
+ +Pl+Gen:%>ij#lågenan%> # ;             
+ +Pl+Acc:%>ijt#lågenan%> # ;                
+ +Pl+Ill:%>ijda#lågenan%> # ;               
+ +Pl+Ine:%>ijn#lågenan%> # ;                    
+ +Pl+Ela:%>ijs#lågenan%> # ;                        
+ +Pl+Com:%>ij#lågenan%> # ;                     
  
 LEXICON TJUODAGIS                       
- +Sg+Nom:%> K ;                          
- +Sg+Ill:sa%>j K ;                                       
- +Sg+Gen:á%> K ;                          
- +Sg+Acc:á%>v K ;                         
- +Sg+Ine:á%>n K ;                         
- +Sg+Ela:á%>s K ;                                     
- +Pl+Nom:á%> K ;                                  
- +Pl+Gen:á%>j K ;                                         
- +Pl+Acc:á%>jt K ;                            
- +Pl+Ill:á%>jda K ;                       
- +Pl+Ine:á%>jn K ;                                    
- +Pl+Ela:á%>js K ;                                
- +Pl+Com:á%>j K ;                                     
- +Sg+Com:á%>jn K ;                            
+ +Sg+Nom:%> # ;                          
+ +Sg+Ill:sa%>j # ;                                       
+ +Sg+Gen:á%> # ;                          
+ +Sg+Acc:á%>v # ;                         
+ +Sg+Ine:á%>n # ;                         
+ +Sg+Ela:á%>s # ;                                     
+ +Pl+Nom:á%> # ;                                  
+ +Pl+Gen:á%>j # ;                                         
+ +Pl+Acc:á%>jt # ;                            
+ +Pl+Ill:á%>jda # ;                       
+ +Pl+Ine:á%>jn # ;                                    
+ +Pl+Ela:á%>js # ;                                
+ +Pl+Com:á%>j # ;                                     
+ +Sg+Com:á%>jn # ;                            
  +Sg+Nom:á%> PxV ;        
  +Sg+Ill:sa%>s PxCi ;      
  +Sg+Gen:á%> PxV ;        
@@ -1590,25 +1590,25 @@ LEXICON TJUODAGIS
 LEXICON num-imprecise
 galla+Num: gallacase ;
 
-!galla+Num+Sg+Nom:galla%> K ;
+!galla+Num+Sg+Nom:galla%> # ;
 !galli+Num:galli gallicase ;
-!galla+Num+Sg+Nom:galla%> K ;
-!galla+Num+Sg+Ill:gallá%>j K ;
+!galla+Num+Sg+Nom:galla%> # ;
+!galla+Num+Sg+Ill:gallá%>j # ;
 !galla+Num:gall nubbecase ;
-máŋŋga+Num+Sg+Nom:máŋŋga%> K ;
-máŋŋga+Num+Sg+Acc:máŋŋga%> K ;
-máŋŋga+Num+Sg+Ill:máŋŋga%>j K ;
+máŋŋga+Num+Sg+Nom:máŋŋga%> # ;
+máŋŋga+Num+Sg+Acc:máŋŋga%> # ;
+máŋŋga+Num+Sg+Ill:máŋŋga%>j # ;
 máŋŋga+Num:máŋga máŋŋgacase ;
-moadda+Num+Sg+Nom:moadda%> K ;
-moadda+Num+Pl+Acc:måtti%>jt K ;
-máŋŋga+Num+Sg+Com:máŋga%>jn K ;
-moadda+Num+Sg+Com:måtti%>jn K ;
-moadda+Num+Sg+Ill:moadda%>j K ;
+moadda+Num+Sg+Nom:moadda%> # ;
+moadda+Num+Pl+Acc:måtti%>jt # ;
+máŋŋga+Num+Sg+Com:máŋga%>jn # ;
+moadda+Num+Sg+Com:måtti%>jn # ;
+moadda+Num+Sg+Ill:moadda%>j # ;
 moadda+Num:moatte máŋŋgacase ;
-moadda+Num+Sg+Acc:moadda%> K ;
-ållo+Num+Sg+Nom:ållo%> K ;
+moadda+Num+Sg+Acc:moadda%> # ;
+ållo+Num+Sg+Nom:ållo%> # ;
 ållo+Num+Sg+Attr:ållo%> NAMÁK ;
-ållo+Num+Sg+Ill:ållu%>j K ;
+ållo+Num+Sg+Ill:ållu%>j # ;
 ållo+Num:ålo ållocase ;
 biel#nup+A+Ord+Sg+Nom:biel#nup%> # ;				
 biel#nup+A+Ord+Sg+Gen:biel#nup%> # ;				
@@ -1651,13 +1651,13 @@ bielle#gávtsát+A+Ord+Attr:bielle#gávtsád9%> SASJ ;
 bielle#avtsát+A+Ord+Attr:bielle#avtsád9%> SASJ ;        
 bielle#lågåt+A+Ord+Attr:bielle#lågåd9%> SASJ ;
 biel#nubbe+A+Ord:biel#nupp nubbecase ;		 
-biel#nubbe+A+Ord+Sg+Nom:biel#nubbe%> K ;         
-biel#nubbe+A+Ord+Ess:biel#nubbe%>n K ;          
-biel#nubbe+A+Ord+Sg+Ill:biel#nubbá%>j K ;
+biel#nubbe+A+Ord+Sg+Nom:biel#nubbe%> # ;         
+biel#nubbe+A+Ord+Ess:biel#nubbe%>n # ;          
+biel#nubbe+A+Ord+Sg+Ill:biel#nubbá%>j # ;
 bielle#nubbe+A+Ord:bielle#nupp nubbecase ;        
-bielle#nubbe+A+Ord+Sg+Nom:bielle#nubbe%> K ;
-bielle#nubbe+A+Ord+Ess:bielle#nubbe%>n K ;
-bielle#nubbe+A+Ord+Sg+Ill:bielle#nubbá%>j K ;			 
+bielle#nubbe+A+Ord+Sg+Nom:bielle#nubbe%> # ;
+bielle#nubbe+A+Ord+Ess:bielle#nubbe%>n # ;
+bielle#nubbe+A+Ord+Sg+Ill:bielle#nubbá%>j # ;			 
 
 
 !LEXICON num-imprecise-distribution		
@@ -1671,28 +1671,28 @@ bielle#nubbe+A+Ord+Sg+Ill:bielle#nubbá%>j K ;
 !O-CUODI ;      ! máŋga#duhát			  
 
 LEXICON máŋŋgacase           
- +Sg+Gen:%> K ;
- +Sg+Ill+Attr:%> K ;
+ +Sg+Gen:%> # ;
+ +Sg+Ill+Attr:%> # ;
  +Sg+Gen:%> NUMERALCOMPOUNDS ;                
- +Sg+Acc:%>v K ;      
- +Sg+Ela:%>s K ;      
- +Sg+Ine:%>n K ;   
- +Sg+Par:%>t K ;     
+ +Sg+Acc:%>v # ;      
+ +Sg+Ela:%>s # ;      
+ +Sg+Ine:%>n # ;   
+ +Sg+Par:%>t # ;     
 
 LEXICON ållocase           
- +Sg+Gen:%> K ;
- +Sg+Ill+Attr:%> K ;
- +Sg+Acc:%>v K ;      
- +Sg+Ela:%>s K ;      
- +Sg+Ine:%>n K ;   
- +Sg+Com:%>jn K ;         
- +Sg+Par:%>t K ;
- +Pl+Nom:%> K ;
- +Pl+Gen:%>j K ;
- +Pl+Acc:%>jt K ;      
- +Pl+Ela:%>js K ;      
- +Pl+Ine:%>jn K ;   
- +Pl+Com:%>j K ;         
+ +Sg+Gen:%> # ;
+ +Sg+Ill+Attr:%> # ;
+ +Sg+Acc:%>v # ;      
+ +Sg+Ela:%>s # ;      
+ +Sg+Ine:%>n # ;   
+ +Sg+Com:%>jn # ;         
+ +Sg+Par:%>t # ;
+ +Pl+Nom:%> # ;
+ +Pl+Gen:%>j # ;
+ +Pl+Acc:%>jt # ;      
+ +Pl+Ela:%>js # ;      
+ +Pl+Ine:%>jn # ;   
+ +Pl+Com:%>j # ;         
 
 
 
@@ -1843,37 +1843,37 @@ LEXICON ARABICCASE
  +Sg+Com+Err/Sub:ajn # ;
  +Ess:%>n            # ;
  +Ess+Err/Sub:an     # ;
- +Pl+Gen:%>j   K ; !
- +Pl+Acc:%>jt  K ; !
- +Pl+Ill:%>jda K ; ! 100:iide čuđiide
- +Pl+Ine:%>jn  K ; !
- +Pl+Ela:%>js  K ; !
- +Pl+Com:%>j   K ; !
+ +Pl+Gen:%>j   # ; !
+ +Pl+Acc:%>jt  # ; !
+ +Pl+Ill:%>jda # ; ! 100:iide čuđiide
+ +Pl+Ine:%>jn  # ; !
+ +Pl+Ela:%>js  # ; !
+ +Pl+Com:%>j   # ; !
 !ordinals
 
 LEXICON ARABICCASEORD
- +Sg+Gen:%>da    K ;
- +Sg+Acc:%>dav   K ;
- +Sg+Ill:%>dij   K ;
- +Sg+Ine:%>din   K ;
- +Sg+Ela:%>dis   K ;
- +Sg+Com:%>dijn  K ;
- +Sg+Ess:%>din   K ;
- +Pl+Nom:%>da    K ;
- +Pl+Gen:%>dij   K ;
- +Pl+Acc:%>dijt  K ;
- +Pl+Ill:%>dijda K ;
- +Pl+Ine:%>dijn  K ;
- +Pl+Ela:%>dijs  K ;
- +Pl+Com:%>dij   K ;
+ +Sg+Gen:%>da    # ;
+ +Sg+Acc:%>dav   # ;
+ +Sg+Ill:%>dij   # ;
+ +Sg+Ine:%>din   # ;
+ +Sg+Ela:%>dis   # ;
+ +Sg+Com:%>dijn  # ;
+ +Sg+Ess:%>din   # ;
+ +Pl+Nom:%>da    # ;
+ +Pl+Gen:%>dij   # ;
+ +Pl+Acc:%>dijt  # ;
+ +Pl+Ill:%>dijda # ;
+ +Pl+Ine:%>dijn  # ;
+ +Pl+Ela:%>dijs  # ;
+ +Pl+Com:%>dij   # ;
 
 LEXICON ARABICCASECOLL
- +Sg+Gen:%>sa   K ;
- +Sg+Acc:%>sav  K ;
- +Sg+Ill:%>sij  K ;
- +Sg+Loc:%>sin  K ;
- +Sg+Loc:%>sis  K ;
- +Sg+Com:%>sijn K ;
+ +Sg+Gen:%>sa   # ;
+ +Sg+Acc:%>sav  # ;
+ +Sg+Ill:%>sij  # ;
+ +Sg+Loc:%>sin  # ;
+ +Sg+Loc:%>sis  # ;
+ +Sg+Com:%>sijn # ;
 
 ! The Roman numerals !
 ! ------------------ !

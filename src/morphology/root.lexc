@@ -77,6 +77,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 %^MON    !!= @CODE@ * Monophthong in contract
 %^LOW    !!= @CODE@ * Lowering u to å and o (ålol)
 %^UAUML  !!= @CODE@ * uo to uä juolge / juällge
+%^IEUML  !!= @CODE@ * ie to ä etc. gielbar gællbara
 
 d2 t2 j2 h2 g2 !!= @CODE@ * Variable consonants, undergo Auslautherdung
                ! NB! This is the opposite of the sme pattern

@@ -35,7 +35,7 @@ Alphabet
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
   %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
-
+  %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
 ! Morpheme boundaries:
  «    ! Derivational prefix
  »    ! Derivational suffix
@@ -178,6 +178,8 @@ s:t <=> _ j2: .#. ;
 ! ===========          
 !! !!Vowel rules 
 ! ===========          
+
+!! ! Stem vowels
         
 "Vowel Shortening e to i in Front of j-initial suffixes"
 !! __@RULENAME@__  
@@ -185,70 +187,21 @@ s:t <=> _ j2: .#. ;
  	
 !€ riehpe>jt
 !€ r0e0bi0jt
-
 !€ tjahppadubbo>jt
 !€ tjahppadubbo0jt
 
-
-"Vowel Deletion in front of j"
+"e to á in front of j"
 !! __@RULENAME@__  
-Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ];
-     where Vx in ( i u u   )
-           Vy in ( e o %^O )
-           matched ;
+e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
+!giedde>gäddáj, gájjse>gájjsáj
 
 "o to u in front of j"
 !! __@RULENAME@__  
 o:u <=>  Cns (Cns:)  _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 ! This rule works both for Ill (without the jDEL) and for Com Sg (with it)
-
-
-"o deletion in front of j"
-!! __@RULENAME@__  
-o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
-! uo > u
-! not a-stems, muorraj
-
-"uO to ua in front of j"
-!! __@RULENAME@__  
-%^O:a <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
-
-
-"aa in front of j"
-!! __@RULENAME@__  
-e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
-
-
-"i deletion in front of j"
-!! __@RULENAME@__  
-i:0 <=> _ e Cns:* Vow:* (%^WG:0) %>: (j) %^MONB4J:0 ;
-! ie > e
-
-"u ae to u in front of i"
-ä:0 <=> u _ Cns:* (Dummy:) %>: i ;
-
-"aa to ae in front of i"
-á:ä <=> [Cns|#] _ Cns:* (Dummy:) %>: i ;
-
-"u ae to u o in weak grade"
-!! __@RULENAME@__  
-ä:o <=> u _ Cns:+ (Vow:+) (Dummy:) WeG: %>:0 [ Vow: - i ] ;
-
- !€ juällge^WG
- !€ juol0ge0
-
-"ae to ie in weak grade 1"
-!! __@RULENAME@__  
-ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ (Dummy:) WeG: ;
-
-"ae to ie in weak grade 2"
-!! __@RULENAME@__  
-0:i <=> [Cns|#] _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
-
-
-"u to å in odd stems"
-!! __@RULENAME@__  
-u:å <=> _ Cns:* Vow: Cns:* (Dummy:)  %^LOW:0 ;
+!fällo>felujn
+  !€ mánno>j^MONB4J
+  !€ männu0j0
 
 "u to o in odd stems"
 !! __@RULENAME@__  
@@ -260,12 +213,90 @@ u:o <=> u: Cns:* _ Cns (Dummy:)  %^LOW:0 ;
 "Delete stem final a before e initial suffix"
 !! __@RULENAME@__  
 a:0 <=> _  (Dummy:) %>: e ;
+! Examples ?? 4 hits in make check
+!€ blabla>en
+!€ blabl00en
 
-!!!"uä to uo in weak grade of e-stem"
-!!!!!__@RULENAME@__  
-!!!vä:o <=> [Cns|#] u _ Cns:* e: ( Dummy: ) WeG: ;
+
+!! ! Diphthong rules
+
+"Diphthong simplification in front of j"
+!! __@RULENAME@__  
+Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ];
+     where Vx in (   u   ) ! i u
+           Vy in ( %^O )   ! e o
+           matched ;
+! ie-i, uo-u, u^O-u           
+ !€ ju^Ollge^WG>j^MONB4Jn
+ !€ ju0l0ge0j0n
+           
+
+"o deletion in in uo in front of j"
+!! __@RULENAME@__  
+o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
+! uo > u, not a-stems, muorraj
+
+"i deletion in ie in front of j and in ie:ä"
+!! __@RULENAME@__  
+i:0 <=> _ e: Cns:* Vow:* (%^WG:0) %>: (j) %^MONB4J:0 ;
+        _ e: Cns:* Vow:* (Cns) %^UAUML:0 ;
+! ie > e iello>elluj
+
+"ä deletion in uä in front of final i"
+ä:0 <=> u _ Cns:* (Dummy:) %>: i ;
+! juällge>julgijt
+
+"uO to ua in front of j"
+!! __@RULENAME@__  
+%^O:a <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
+
+"e to ä in ie"
+!! __@RULENAME@__  
+e:ä <=> i: _ Cns:* Vow:* (Cns) %^UAUML:0 ;
+!gädde>geddijt
 
 "uo - uä Umlaut"
 !! __@RULENAME@__  
 %^O:ä <=> _ Cns:* Vow:+ %^UAUML:0 ;
+ !€ ju^Ollge^UAUML
+ !€ juäll0ge0
+
+
+!! ! Monophthong rules
+
+"á to ä and å to u in front of i and u"
+Vx:Vy <=> [Cns|#] _ Cns:* (Dummy:) %>: i ;
+	where Vx in (a á å)
+	      Vy in (i ä u)
+	      matched ;
+	      ! båtsoj>buhttsu, rássjo>rässjuj, 	      
+
+"u to å in odd stems"
+!! __@RULENAME@__  
+u:å <=> _ Cns:* Vow: Cns:* (Dummy:)  %^LOW:0 ;
+! ålol>ullula
+
+
+! Gamla reglar 
+! Gamla reglar 
+! Gamla reglar 
+! Gamla reglar 
+! Gamla reglar 
+! Gamla reglar 
+! Gamla reglar 
+! Gamla reglar 
+
+
+! "ä to ie in weak grade 1"
+! !! __@RULENAME@__  
+! ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ (Dummy:) WeG: ;
+! !hittar inget exempel
+! 
+! "ae to ie in weak grade 2"
+! !! __@RULENAME@__  
+! 0:i <=> [Cns|#] _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
+
+
+
+
 
