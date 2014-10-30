@@ -36,6 +36,8 @@ Alphabet
   %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
+  %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
+
 ! Morpheme boundaries:
  «    ! Derivational prefix
  »    ! Derivational suffix
@@ -53,7 +55,7 @@ Sets
   Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   WeG    =  %^WG %^jDEL ;
-  Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON ;
+  Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON %^UAUML %^IUML ;
   
 !Definitions
 
@@ -95,8 +97,8 @@ Cx:0 <=> Vow: Cx _   ( Vow:+ (Cns:+)) ( Dummy: ) WeG: ;
 !! __@RULENAME@__  
 !Cx:0 <=> Vow: Cx _ Cy                   (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
  Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) (Vow:+) (Cns:+) ( Dummy: ) WeG: ; 
- where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
-       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s t )  
+ where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
+       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d k l r g s t )  
           matched ;
          
 "Consonant Gradation for xy:y"
@@ -213,6 +215,7 @@ u:o <=> u: Cns:* _ Cns (Dummy:)  %^LOW:0 ;
 "Delete stem final a before e initial suffix"
 !! __@RULENAME@__  
 a:0 <=> _  (Dummy:) %>: e ;
+        _ %^WG:0 %>: i ; 
 ! Examples ?? 4 hits in make check
 !€ blabla>en
 !€ blabl00en
@@ -222,8 +225,8 @@ a:0 <=> _  (Dummy:) %>: e ;
 
 "Diphthong simplification in front of j"
 !! __@RULENAME@__  
-Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ];
-     where Vx in (   u   ) ! i u
+Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
+     where Vx in (   u  ) ! i u
            Vy in ( %^O )   ! e o
            matched ;
 ! ie-i, uo-u, u^O-u           
@@ -262,14 +265,16 @@ e:ä <=> i: _ Cns:* Vow:* (Cns) %^UAUML:0 ;
  !€ juäll0ge0
 
 
-!! ! Monophthong rules
+!! ! Monophthong rules !gör om denna
 
-"á to ä and å to u in front of i and u"
-Vx:Vy <=> [Cns|#] _ Cns:* (Dummy:) %>: i ;
+"á to ä and å to u and a to i in front of j and u and i"
+!Vx:Vy <=> [Cns|#:] _ Cns:* (Dummy:) [a:|e:|o:] (%^WG:0) %>: [ %^MONB4J:0 j | i ] ;
+Vx:Vy <=> [Cns|#:] _ Cns:*  [a:|e:|o:] (%^WG:0) %>: %^MONB4J:0 j ;
+          [Cns|#:] _ Cns:*  i %^IUML:0   ;
 	where Vx in (a á å)
 	      Vy in (i ä u)
 	      matched ;
-	      ! båtsoj>buhttsu, rássjo>rässjuj, 	      
+	      ! båtsoj>buhttsu, rássjo>rässjuj,árrbe>ärbujn, gallgat>gilgiv, åbba>ubbijda 	      
 
 "u to å in odd stems"
 !! __@RULENAME@__  
