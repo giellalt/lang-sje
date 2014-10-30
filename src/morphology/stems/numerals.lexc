@@ -860,8 +860,8 @@ LEXICON ẈG-LÅK-AKTA-OBL
 
 LEXICON GUOKTA                  
 +Num:e%^WG%> GUOVTE- ;
-+Num+Sg+Gen:a%^WG%> # ;              
-+Num+Sg+Gen:a%^WG%> NUMERALCOMPOUNDS ;   
++Num+Sg+Gen:e%^WG%> # ;              
++Num+Sg+Gen:e%^WG%> NUMERALCOMPOUNDS ;   
 +Num:i%^WG%> GUOVTI- ;               
 +Num: GUOKTA- ;                 
 
@@ -884,13 +884,12 @@ LEXICON GUOVTI-
  +Pl+Ine:jn # ;            
  +Pl+Ela:js # ;            
  +Pl+Com:j # ;             
-
-! lagt in essivformen guäkkten AnnCh
+ 
 
 LEXICON GUOKTA-            
  +Sg+Nom:a%> # ;       
  +Sg+Ill:á%>j # ;                        
- +Ess:guäkkte%>n # ;   
+ +Ess:e%>n # ;  !hur få in essiv guäkkten 
              
 
           
