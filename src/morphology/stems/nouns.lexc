@@ -45,26 +45,49 @@ LEXICON Noun
 
 
   
-áddjá N_EVEN "dj" ; 
+áddjá N_EVEN "dj farfar, morfar" ;
+ájádus:ájadussa N_EVEN "s tanke, mening" ;
+ájagádde N_EVEN_NOCG "dd kallkällkant" ;
+ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ;
+ájatjáhtse N_EVEN "ts kallkällvatten" ; 
+ájjdo N_EVEN "jd upptrampad stig i snön efter renhjord" ;
 ájjge N_EVEN "jg tid" ; !lägg in omljud äjgijda 
 ájjro N_EVEN "jr" ; !omljud á till ä fungerar ej com.sg u framför j i svagstadium fungerar ej 
-áhkká N_EVEN "hk" ; 
-áhpe N_EVEN "b" ; !ä- omljud framför i fungerar ej på e-stammarna
+ájjvo N_EVEN "jv knivsegg" ;
+ájlek:ájleg N_ODD_D "söndag" ;
+áhkarmuärrje:áhkarmu%^Orrje N_EVEN "rj åkerbär" ;
+áhkatj:áhkatj N_ODD "fru, hustru" ;
+áhkká N_EVEN "hk gudinna. mormor, farmor, gumma" ;
+áhpa N_EVEN "b apa" ;
+áhpe N_EVEN "b stor myr, hav" ; !ä- omljud framför i fungerar ej på e-stammarna
+ággŋo N_EVEN_NOCG "årtull" ;
 áhttje N_EVEN " htj far" ; 
-ája:ádjag BIENA ; 
+ája:ádjag BIENA "kallkälla" ; 
 ákksjo N_EVEN "ksj" ; !omljud á till ä fungerar ej,  com.sg u framför j i svagstadium fungerar ej  
 álldo N_EVEN "ld renko" ; !omljud á till ä fungerar ej,  com.sg u framför j i svagstadium fungerar ej
+áldar:álldar N_ODD_CG "lld ålder" ;
+aldas:alldas N_ODD_CG "lld ovanläder" ;
+állgo N_EVEN "lg start, början" ;
 almatj N_ODD "ihminen, människa" ; 
-Árjapluovve N_EVEN "v" ; !u- omljud fungerar ej
+Árjepluovve N_EVEN "v" ; !u- omljud fungerar ej
 árran N_ODD "eldstad" ;
+árrat:árrad N_ODD_D "morgon" ;
 árrbe N_EVEN "rb arv" ; !omljud fungerar ej  
 árrpo N_EVEN "rp" ; !omljud á till ä fungerar ej   
 átjárájjde N_EVEN "jd blixt, oväder" ; !
 átjek:átje N_ODD_G "åska" ; 
-ávvke N_EVEN "vk" ; !stadieväxling fungerar ej
-ávvo N_EVEN "v lycka" ; !
+ávahávvde N_EVEN "vd silvergömma i stenrös" ;
+ávdnogis:ávdnogissa N_EVEN "s rovdjursriven ren som lever" ;
+ávstagárre N_EVEN "r öskar i båt" ;
+ávosbadde N_EVEN_NOCG "rensele" ;
+ávvke N_EVEN "vk nytta" ; !stadieväxling fungerar ej
+ávvo N_EVEN "v lycka, glädje" ; !
 albme N_EVEN "lm himmel" ; !
-asske N_EVEN "sk" ; ! 
+asske N_EVEN "sk" ; !
+ávvlemuorra N_EVEN "r tvärås för grytan i kåtan" ;
+ávvtja N_EVEN "vtj hägg" ;
+ávtjamuärrje:ávtjamu%^Orrje N_EVEN "rj rönnbär" ; 
+ávvtso N_EVEN "vts snårskog" ;
 bahta N_EVEN "d stjärt, rumpa" ;
 báhttja N_EVEN "htj pojke" ;
 bálges:bállg N_CONTR_C_B "stig" ; 
@@ -82,7 +105,7 @@ bijjpa N_EVEN "jp" ;
 billga N_EVEN "lg" ; 
 binna N_EVEN_NOCG "nn ett litet stycke" ; 
 bunndi N_EVEN "nd" ;
-buallva:buallva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fungerar
+buallva:buollva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fungerar
 buvdna N_EVEN "vn" ; 
 buvtsomällke N_EVEN "lk renmjölk" ;
 báhko N_EVEN "g ord" ;
@@ -219,6 +242,7 @@ juovva N_EVEN "v stor sten" ;
 jåhkå N_EVEN "g älv" ;
 jåhkågádde N_EVEN_NOCG "dd strand" ;
 juällge:ju%^Ollge N_EVEN "jalka, fot, ben" ;
+jågåtj:jågåtj N_ODD "liten bäck" ;
 jårrbodahka N_EVEN "g rundhet" ;
 káffa N_EVEN "f" ;
 káffa:káf'fa N_EVEN_NOCG "kahvi" ; 
@@ -237,7 +261,7 @@ liddja N_EVEN "dj lie" ;
 lihtte N_EVEN "ht" ; 
 livva N_EVEN "v vila" ;
 luodda N_EVEN "d" ; 
-luakkta:luakkta N_EVEN "kt" ; 
+luakkta:luokkta N_EVEN "kt" ; 
 luhpe N_EVEN_NOCG "hp" ; 
 luovve N_EVEN "v" ; 
 lusspe N_EVEN "sp" ; 
@@ -372,8 +396,8 @@ vieráld:vieráld N_ODD "världen" ;
 vierro N_EVEN "r offer" ;
 vierrodimájjge N_EVEN "jg offertid" ;
 vippsja N_EVEN "psj" ; 
-vuakksa:vuakksa N_EVEN "ks tjur" ;
-vuassa:vuassa N_EVEN_NOCG ; 
+vuakksa:vuokksa N_EVEN "ks tjur" ;
+vuassa:vuossa N_EVEN_NOCG ; 
 vuobme N_EVEN "m skog" ;
 vuobmelådde N_EVEN_NOCG "skogsfågel" ;
 vuolle N_EVEN "l jojk" ;
