@@ -52,9 +52,9 @@ LEXICON Noun
 ájatjáhtse N_EVEN "ts kallkällvatten" ; 
 ájjdo N_EVEN "jd upptrampad stig i snön efter renhjord" ;
 ájjge N_EVEN "jg tid" ; !lägg in omljud äjgijda 
-ájjro N_EVEN "jr" ; !omljud á till ä fungerar ej com.sg u framför j i svagstadium fungerar ej 
+ájjro N_EVEN "jr" ; !com.sg u framför j i svagstadium fungerar ej 
 ájjvo N_EVEN "jv knivsegg" ;
-ájlek:ájleg N_ODD_D "söndag" ;
+ájlek:ájleg N_ODD_G "söndag" ;
 áhkarmuärrje:áhkarmu%^Orrje N_EVEN "rj åkerbär" ;
 áhkatj:áhkatj N_ODD "fru, hustru" ;
 áhkká N_EVEN "hk gudinna. mormor, farmor, gumma" ;
@@ -71,7 +71,7 @@ aldas:alldas N_ODD_CG "lld ovanläder" ;
 almatj N_ODD "ihminen, människa" ; 
 Árjepluovve N_EVEN "v" ; !u- omljud fungerar ej
 árran N_ODD "eldstad" ;
-árrat:árrad N_ODD_D "morgon" ;
+árrat:árrad  N_ODD "morgon" ;
 árrbe N_EVEN "rb arv" ; !omljud fungerar ej  
 árrpo N_EVEN "rp" ; !omljud á till ä fungerar ej   
 átjárájjde N_EVEN "jd blixt, oväder" ; !
@@ -229,8 +229,8 @@ härrge:hierrge N_EVEN "rg härk, renoxe" ;
 härrá:hierrá N_EVEN_NOCG "rr" ; 
 idja N_EVEN "j natt" ;
 iednam:iednam N_ODD "land, mark" ;
-iehket:iehked N_ODD_D "kväll" ; !nominativ sg. fungerar ej
-iejgát:iejgád N_ODD_D "föräldrar" ; !nominativ sg. fungerar ej
+iehket:iehke N_ODD_D "kväll" ; 
+iejgát:iejgá N_ODD_D "föräldrar" ; !nominativ sg. fungerar ej
 iello N_EVEN "l renhjord" ;
 ijja N_EVEN "j natt" ;
 jahke N_EVEN "g år" ;
