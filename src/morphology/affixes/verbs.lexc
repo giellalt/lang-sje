@@ -327,7 +327,7 @@ LEXICON BÅHTET_W !båd svagstadium fungerar ej
 +Ind+Prs+Sg1:%>av #;
 +Ind+Prs+Sg2:%>á #;
 +Ind+Prs+Sg2:%>a #;
-+Ind+Prt+Sg3:%>ij #;
++Ind+Prt+Sg3:i%^IUML%>j #;
 +Ind+Prt+Du1:%>ijmen #;
 +Ind+Prt+Du2:%>ijden #;
 +Ind+Prt+Du3:%>ijga #;

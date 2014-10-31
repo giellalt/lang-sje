@@ -113,7 +113,7 @@ Cx:0 <=> Vow: Cx _   ( Vow:+ (Cns:+)) ( Dummy: ) WeG: ;
 
 "Delete h"
 !! __@RULENAME@__  
-h:0  <=> Vow _ Cx (j) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+h:0  <=> Vow _ Cx: (j) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (p t k) ;
 
 "Delete h before ts"
