@@ -89,12 +89,12 @@ asske N_EVEN "sk" ; !
 ávtjamuärrje:ávtjamu%^Orrje N_EVEN "rj rönnbär" ; 
 ávvtso N_EVEN "vts snårskog" ;
 bahta N_EVEN "d stjärt, rumpa" ;
-báhttja N_EVEN "htj pojke" ;
+báhttja N_EVEN "htj pojke" ; !stadieväxling fungerar ej
 bálges:bállg N_CONTR_C_B "stig" ; 
 bena:bednag BIENA "koira" ; !alternativform till biena
 bednik:bedni N_ODD_G "pengar" ; 
 biedno N_EVEN "n bön, andakt" ; 
-biehtse N_EVEN "ts" ; !
+biehtse N_EVEN "ts" ; ! inte lagrad
 bielle N_EVEN "l sida" ; ! 
 biena:biednag BIENA "koira" ; 
 bieraj:bierra N_ODD_CG_C "släkting" ; 
@@ -152,7 +152,7 @@ dåktor:dåktor N_ODD "läkare" ;
 dållå N_EVEN "l eld" ;
 däbmuk:däbmu N_ODD_G "öring" ; 
 eddnu:eddn N_CONTR_C_C "morbror" ; 
-fáhttsa N_EVEN "hts" ; 
+fáhttsa N_EVEN "hts" ; !stadieväxling fungerar ej
 fállfo N_EVEN "lf" ; 
 fáttme N_EVEN "tm" ; 
 fáŋŋga N_EVEN "ŋg" ; 
@@ -317,7 +317,7 @@ rissja N_EVEN "sj" ;
 ruävvde:ru%^Ovvde N_EVEN "vd järn" ;
 rågge N_EVEN_NOCG "grop" ;
 råhttje N_EVEN ;  
-rånttjo N_EVEN "ntj" ; 
+rånntjo N_EVEN "ntj" ; 
 råvvgo N_EVEN "vg" ;
 rájjdo N_EVEN "työkalu, rajd" ; 
 rännta:riennta N_EVEN "nt" ; 
