@@ -58,23 +58,23 @@ tjerrut:tjerru V_CONTR ;
 
 !genomgånget i november, i stort sett inga omljud är inlagda ännu, vissa stadieväxlingar fungerar ej
 
-ábbjat:ábbj BALLAT "bj ta reda på, ta vara på, ta hand om" ; !fungerar
-adnalit:adnal NAMMADIT "greppa" ; !fungerar
-adnet:adn BÅHTET "n ha, äga (inij han hade, ägde)" ; !fungerar
-agŋot:agŋ ÅRROT "ŋ sträcka sig upp, sträcka sig efter något" ; !ej kontrollerat
-ájjtsat:ájjts BALLAT "jts upptäcka" ; !fungerar
-állget:állg BÅHTET "lg börja (äddne älgij mor började)" ; !fungerar, även omljud
+ábbjat:ábbj BALLAT "bj ta reda på, ta vara på, ta hand om" ; 
+adnalit:adnal NAMMADIT "greppa" ; 
+adnet:adn BÅHTET "n ha, äga (inij han hade, ägde)" ; 
+agŋot:agŋ ÅRROT "ŋ sträcka sig upp, sträcka sig efter något" ;
+ájjtsat:ájjts BALLAT "jts upptäcka" ; !omljud fungerar ej inte på några á till ä
+állget:állg BÅHTET "lg börja (äddne älgij mor började)" ; !omljud fungerar ej
 árrvedit:árrved NAMMADIT "förmoda, anta, gissa" ;
-bádjat:bádj BALLAT "j låta" ; !fungerar
+bádjat:bádj BALLAT "j låta" ; 
 báhtarit:báhtar NAMMADIT "fly" ; !fungerar
 báhtset:báhts BÅHTET "ts stanna, bli kvar (härgge bätsij härken stannade)" ; !svagstadium fungerar ej
-bájjtet:bájjt BÅHTET "jt skina" ; !fungerar
-bálkestit:bálkest NAMMADIT "kasta" ; !fungerar
-ballat:ball BALLAT "l vara rädd" ; !fungerar 
-balldet:balld BÅHTET "ld skrämma" ;  !fungerar
-bállet:báll BÅHTET "l gräva" ; !fungerar 
-bassat:bass BALLAT "s tvätta" ; !fungerar 
-basset:bass BÅHTET "s steka" ; !fungerar 
+bájjtet:bájjt BÅHTET "jt skina" ; 
+bálkestit:bálkest NAMMADIT "kasta" ; 
+ballat:ball BALLAT "l vara rädd" ;  
+balldet:balld BÅHTET "ld skrämma" ;  
+bállet:báll BÅHTET "l gräva" ;  
+bassat:bass BALLAT "s tvätta" ;  
+basset:bass BÅHTET "s steka" ;  
 bähttot:bähtt ÅRROT "ht förmana, avråda"  ; !saL, htt:ht fungerar ej
 biejjat:biejj BALLAT "j sätta, lägga, ställa" ; !fungerar 
 bieljeduhttet:bieljeduhtt BÅHTET "ht  göra döv" ; !htt:ht fungerar ej
@@ -194,6 +194,7 @@ råhkåt:råhk LÅHKÅT "g be en bön" ; !hk g fungerar ej
 räjdnuhit:räjdnuh2 NAMMADIT "valla renar" ; !fungerar
 räjdnit:räjdni V_CONTR "rengöra" ;
 sáŋardit:sáŋard2 NAMMADIT "sakna" ; !fungerar
+sávvat:sávv BALLAT "v  önska" ;
 sihtat:siht BALLAT "d  vilja" ; !ht d fungerar ej
 sjaddat:sjadd BALLAT "dd bli, växa" ; !fungerar
 

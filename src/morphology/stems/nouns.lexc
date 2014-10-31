@@ -179,6 +179,7 @@ giehta N_EVEN "d hand" ;
 giehtje N_EVEN "tj" ; 
 gielbar:giellbar N_ODD_CG "snödriva" ; !nominativ sg. fungerar ej
 gieles:giellás N_ODD_CG "lögn" ; !nominativ sg. fungerar ej
+giella N_EVEN "l" ;
 gierma:gärrmah N_ODD_CG "orm" ; 
 giesse N_EVEN "s sommar" ;
 giessebäjjve:giessebiejjve N_EVEN "j sommardag" ;

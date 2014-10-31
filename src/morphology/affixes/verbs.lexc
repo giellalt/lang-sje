@@ -328,11 +328,11 @@ LEXICON BÅHTET_W !båd svagstadium fungerar ej
 +Ind+Prs+Sg2:%>á #;
 +Ind+Prs+Sg2:%>a #;
 +Ind+Prt+Sg3:i%^IUML%>j #;
-+Ind+Prt+Du1:%>ijmen #;
-+Ind+Prt+Du2:%>ijden #;
-+Ind+Prt+Du3:%>ijga #;
-+Ind+Prt+Pl1:%>ijme #;
-+Ind+Prt+Pl2:%>ijde #;
++Ind+Prt+Du1:i%^IUMjmen #;
++Ind+Prt+Du2:i%^IUMjden #;
++Ind+Prt+Du3:i%^IUMjga #;
++Ind+Prt+Pl1:i%^IUMjme #;
++Ind+Prt+Pl2:i%^IUMjde #;
 
 
 LEXICON V_CONTR 
