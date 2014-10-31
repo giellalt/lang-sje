@@ -438,7 +438,7 @@ guhta+Num+Ess:guhta%>n # ;
 gudát+A+Ord:gudád9 VUOSTASJ ;
 gudas+N+Coll+Sg+Nom:gudas%> # ;   
 guđas+N+Coll:guhtas VIDÁS ;      
-gietjav:gietja GIETJAV ;         
+gietjav:giehtja GIETJAV ;         
 gehtjit+A+Ord:gehtjid9 VUOSTASJ ; 
 gietjas+N+Coll+Sg+Nom:gietjas%> # ;   
 gietjas+N+Coll:giehtjas VIDÁS ;       
@@ -470,7 +470,9 @@ guhta+Num+Sg+Ill:guhta%>j # ;
 guhta+Num+Ess:guhta%>n # ;            
 gietjav:giehtja ẈG-LÅK-GIETJAV ;         
 gákktse:gákkts ẈG-LÅK-GÁKTSA ;              
-åkktse:åkkts ẈG-LÅK-AKTSE ;                      
+åkktse:åkkts ẈG-LÅK-AKTSE ; 
+
+                   
 
 
 LEXICON LÅGEVF					
@@ -858,7 +860,9 @@ LEXICON ẈG-LÅK-AKTA-OBL
  +Pl+Ill:jda # ;             
  +Pl+Ine:jn # ;              
  +Pl+Ela:js # ;              
- +Pl+Com:j # ;               
+ +Pl+Com:j # ;  
+ 
+ !det här nedan blir fel men jag vet inte vad som ska ändras             
 
 LEXICON GUOKTA                  
 +Num:guokkte%^WG%> GUOVTE- ;
