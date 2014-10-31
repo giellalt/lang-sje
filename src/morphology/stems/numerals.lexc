@@ -438,7 +438,7 @@ guhta+Num+Ess:guhta%>n # ;
 gudát+A+Ord:gudád9 VUOSTASJ ;
 gudas+N+Coll+Sg+Nom:gudas%> # ;   
 guđas+N+Coll:guhtas VIDÁS ;      
-gietjav:gietj GIETJAV ;         
+gietjav:gietja GIETJAV ;         
 gehtjit+A+Ord:gehtjid9 VUOSTASJ ; 
 gietjas+N+Coll+Sg+Nom:gietjas%> # ;   
 gietjas+N+Coll:giehtjas VIDÁS ;       
@@ -497,8 +497,8 @@ låg# AKTAF ;
 låg# AVTAS ;								
 låg# 2TO9F ;
 								
-låhke+Num+Sg+Attr:låk%> # ;    
-låhke#+Num+Sg+Attr:låk%> NUMERALCOMPOUNDS ;
+låhke+Num+Sg+Attr:låg%> # ;    
+låhke#+Num+Sg+Attr:låg%> NUMERALCOMPOUNDS ;
 låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
  låhke:låhk  TJUOHTECASE ;  ! vihttalåhke, collective number
 låhke+Num+Sg+Ill:låhká%>j # ; 
@@ -512,8 +512,8 @@ LEXICON ẈG-LÅK-
 låg#akkta ẈG-LÅK-AKTA ;
 låg# ẈG-LÅK-2TO9F ;
 								
-låhke+Num+Sg+Attr:låk%> # ;    
-låhke#+Num+Sg+Attr:låk%> NUMERALCOMPOUNDS ;
+låhke+Num+Sg+Attr:låg%> # ;    
+låhke#+Num+Sg+Attr:låg%> NUMERALCOMPOUNDS ;
 låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
 låhke:låhk  ẈG-LÅK-TJUOHTECASE ;  ! vihttalåhke, collective number
 låhke+Num+Sg+Ill:låhká%>j # ; 
@@ -576,7 +576,9 @@ gáktjes#lågenan+N+Coll:gákktjás VIDÁSLÅGENAN ;
 åktses#lågenan+N+Coll:åkktjas# VIDÁSLÅGENAN ;       
 lågenan#gákktse:lågenan#gákkts GÁKTSA ; 
 lågenan#gákktja:lågenan#gákktj GÁKTSA ;       
-lågenan#gáktját+A+Ord:lågenan#gáktjád9 VUOSTASJ ;       
+lågenan#gáktját+A+Ord:lågenan#gáktjád9 
+
+VUOSTASJ ;       
 lågenan#åkktse:lågenan#åkkts AKTSE ;
 lågenan#åkktjå:lågenan#åkktj AKTSE ;                 
 lågenan#åktját+A+Ord:lågenan#åktjád9 VUOSTASJ ;        
@@ -859,10 +861,10 @@ LEXICON ẈG-LÅK-AKTA-OBL
  +Pl+Com:j # ;               
 
 LEXICON GUOKTA                  
-+Num:e%^WG%> GUOVTE- ;
-+Num+Sg+Gen:e%^WG%> # ;              
-+Num+Sg+Gen:e%^WG%> NUMERALCOMPOUNDS ;   
-+Num:i%^WG%> GUOVTI- ;               
++Num:guokkte%^WG%> GUOVTE- ;
++Num+Sg+Gen:guokkte%^WG%> # ;              
++Num+Sg+Gen:guokkte%^WG%> NUMERALCOMPOUNDS ;   
++Num:guokkti%^WG%> GUOVTI- ;               
 +Num: GUOKTA- ;                 
 
 LEXICON GUOVTE- 
@@ -889,15 +891,15 @@ LEXICON GUOVTI-
 LEXICON GUOKTA-            
  +Sg+Nom:a%> # ;       
  +Sg+Ill:á%>j # ;                        
- +Ess:e%>n # ;  !hur få in essiv guäkkten 
+ +Ess:guäkkte%>n # ;  !hur få in essiv guäkkten 
              
 
           
 LEXICON ẈG-LÅK-GUOKTA                  
-+Num:e%^WG%> ẈG-LÅK-GUOVTE- ;
-+Num+Sg+Gen:a%^WG%> # ;              
-+Num+Sg+Gen:a%^WG%> NUMERALCOMPOUNDS ;   
-+Num:i%^WG%> ẈG-LÅK-GUOVTI- ;               
++Num:guokkte%^WG%> ẈG-LÅK-GUOVTE- ;
++Num+Sg+Gen:guokkte%^WG%> # ;              
++Num+Sg+Gen:guokkte%^WG%> NUMERALCOMPOUNDS ;   
++Num:guokkti%^WG%> ẈG-LÅK-GUOVTI- ;               
 +Num: ẈG-LÅK-GUOKTA- ;                 
 
 LEXICON ẈG-LÅK-GUOVTE- 
@@ -1136,7 +1138,7 @@ LEXICON ẈG-LÅK-AKTS-
 
 LEXICON LÅGEV                
 +Num:e%^WG%> LÅGE- ;    
-+Num:lugi%^WG%> LÅGI- ;    
++Num:i%^WG%> LÅGI- ;    
 +Num: LÅHK- ;     
                    
 LEXICON LÅGE-      
@@ -1235,7 +1237,7 @@ LEXICON GUOKT-LÅGENAN
  +Sg+Nom:a%>#lågenan%> # ;           
  +Ess:guäkkte%>n#lågenan%> # ; 
  
- !rättat hit                            
+ !guakktalågenan osv. med kasus fungerar ej, sätta in vokal kanske                            
                                       
 LEXICON GÅLMMÅLÅGENAN                 
 +Num:%> GÅLMMÅLÅGENAN-NAIE ;            

@@ -68,6 +68,7 @@ Rules
  
 !! !!Consonant gradation rules
 
+! lägg in htt:ht här 
 "Consonant Gradation for htt(j):ht(j)"
 !! __@RULENAME@__  
 t:0 <=> Vow: h t _ ( j ) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
@@ -86,7 +87,7 @@ d:0 <=> Vow: Cx _ n (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 "Consonant Gradation for hxx:hx"
 !! __@RULENAME@__  
 Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-     where Cx in ( p k ) ;
+     where Cx in (t p k ) ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
@@ -120,7 +121,7 @@ h:0  <=> Vow _ Cx: (j) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 !! __@RULENAME@__  
 h:0 <=> Vow+ _ t s Vow:+ (Cns:+) ( Dummy: ) WeG: ;
    
-!€ buhts^WGoj
+!€ buhtts^WGoj
 !€ bå0ts0oj
  
 "change unvoiced to voiced"
