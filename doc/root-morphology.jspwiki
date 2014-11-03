@@ -28,6 +28,8 @@ Semantic properties of names
  %^MON     * Monophthong in contract
  %^LOW     * Lowering u to å and o (ålol)
  %^UAUML   * uo to uä juolge / juällge
+ %^IEUML   * ie to ä etc. gielbar gællbara
+ %^IUML    * a to i, gallgat gillgin
 
  d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
  %^O       * o but ä in uä
