@@ -94,18 +94,18 @@ bálges:bállg N_CONTR_C_B "stig" ;
 bena:bednag BIENA "koira" ; !alternativform till biena
 bednik:bedni N_ODD_G "pengar" ; 
 biedno N_EVEN "n bön, andakt" ; 
-biehtse N_EVEN "ts" ; ! inte lagrad
+biehtse N_EVEN "ts" ; 
 bielle N_EVEN "l sida" ; ! 
 biena:biednag BIENA "koira" ; 
 bieraj:bierra N_ODD_CG_C "släkting" ; 
-biesse N_EVEN "s fågelbo" ; !
+biesse N_EVEN "s fågelbo" ; 
 bievvla N_EVEN "vl" ; 
 bijjla N_EVEN "jl" ; 
 bijjpa N_EVEN "jp" ; 
 billga N_EVEN "lg" ; 
 binna N_EVEN_NOCG "nn ett litet stycke" ; 
 bunndi N_EVEN "nd" ;
-buallva:buollva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fungerar
+buallva:bu%^Ollva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fungerar
 buvdna N_EVEN "vn" ; 
 buvtsomällke N_EVEN "lk renmjölk" ;
 báhko N_EVEN "g ord" ;
@@ -177,7 +177,7 @@ gidda N_EVEN "d" ;
 giđđa N_EVEN "đ vår" ;
 giehta N_EVEN "d hand" ;
 giehtje N_EVEN "tj" ; 
-gielbar:giellbar N_ODD_CG "snödriva" ; !nominativ sg. fungerar ej
+gielbar:giellbar N_ODD_CG "snödriva" ; 
 gieles:giellás N_ODD_CG "lögn" ; !nominativ sg. fungerar ej
 giella N_EVEN "l" ;
 gierma:gärrmah N_ODD_CG "orm" ; 
@@ -262,7 +262,7 @@ liddja N_EVEN "dj lie" ;
 lihtte N_EVEN "ht" ; 
 livva N_EVEN "v vila" ;
 luodda N_EVEN "d" ; 
-luakkta:luokkta N_EVEN "kt" ; 
+luakkta:lu%^Okkta N_EVEN "kt" ; 
 luhpe N_EVEN_NOCG "hp" ; 
 luovve N_EVEN "v" ; 
 lusspe N_EVEN "sp" ; 
@@ -397,8 +397,8 @@ vieráld:vieráld N_ODD "världen" ;
 vierro N_EVEN "r offer" ;
 vierrodimájjge N_EVEN "jg offertid" ;
 vippsja N_EVEN "psj" ; 
-vuakksa:vuokksa N_EVEN "ks tjur" ;
-vuassa:vuossa N_EVEN_NOCG ; 
+vuakksa:vu%^Okksa N_EVEN "ks tjur" ;
+vuassa:vu%^Ossa N_EVEN_NOCG ; 
 vuobme N_EVEN "m skog" ;
 vuobmelådde N_EVEN_NOCG "skogsfågel" ;
 vuolle N_EVEN "l jojk" ;
