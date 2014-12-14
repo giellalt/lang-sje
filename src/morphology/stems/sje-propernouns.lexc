@@ -12,7 +12,9 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON ProperNoun
+!! Properhoun, toy file only
+
+LEXICON ProperNoun   !!= * __@CODE@__
 Ann-Charlotte N_EVEN ;
 Gálldesbuovvda N_EVEN "xxx" ;
 Vuodna N_EVEN "n Norge" ;

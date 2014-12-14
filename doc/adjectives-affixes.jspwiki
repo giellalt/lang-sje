@@ -11,7 +11,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_AA  är likastaviga ocskå med a-attr ???!!
 
- LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
+ * LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
 
 
  * LEXICON A_EVEN_IES  
@@ -20,12 +20,12 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_C  fungerar ej
 
- LEXICON A_EVEN_D  ex. almelatj:almeladtja
+ * LEXICON A_EVEN_D  ex. almelatj:almeladtja
 
- LEXICON A_EVEN_G  ex. almelatj:almeladtja
+ * LEXICON A_EVEN_G  ex. almelatj:almeladtja
 
 
- LEXICON A_EVEN_0  
+ * LEXICON A_EVEN_0  
 
  * LEXICON A_EVEN_NOCG_0  
 
@@ -111,80 +111,80 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
 
- LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
+ * LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
 
- LEXICON A_ODD_Ö   är uddastaviga ex amás:abmás
+ * LEXICON A_ODD_Ö   är uddastaviga ex amás:abmás
 
- LEXICON A_ODD_BB   är uddastaviga ex árvas:árvvas-
+ * LEXICON A_ODD_BB   är uddastaviga ex árvas:árvvas-
 
- LEXICON A_ODD_CC   är uddastaviga ex gieres:gärrás
+ * LEXICON A_ODD_CC   är uddastaviga ex gieres:gärrás
 
- LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
+ * LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
 
- LEXICON A_ODD_FF  är uddastaviga ex.hánes:hádnás
+ * LEXICON A_ODD_FF  är uddastaviga ex.hánes:hádnás
 
- LEXICON A_ODD_GG   är uddastaviga ex luovas:luovvas-
+ * LEXICON A_ODD_GG   är uddastaviga ex luovas:luovvas-
 
- LEXICON A_ODD_HH   är uddastaviga ex måskås:måsskås-
+ * LEXICON A_ODD_HH   är uddastaviga ex måskås:måsskås-
 
- LEXICON A_ODD_II   är uddastaviga ex tjielgos:tjellgus
-
-
- LEXICON A_ODD_KK   är uddastaviga ex garras:garras-, garra
-
- LEXICON A_ODD_LL   är uddastaviga ex måskos:musskus-
-
- LEXICON A_ODD_MM   är uddastaviga ex nanos:ninnus-
-
- LEXICON A_ODD_NN   är uddastaviga ex nieros:nerrus-
-
- LEXICON A_ODD_OO   är uddastaviga ex rabás:rahpás-
-
- LEXICON A_ODD_PP   är uddastaviga ex vájbas:vájjbas-
-
- LEXICON A_ODD_QQ   är uddastaviga ex gåjkes:gåjjkås-
-
- LEXICON A_ODD_RR   är uddastaviga ex gåstes:gåsstås- oregelbundet gåsstep, gåsstemus alt. komp.
-
- LEXICON A_ODD_SS   är uddastaviga ex gåjkes:gåjkkås, oregelbundet gåjjkep, gåjjkemus alt komp
-
- LEXICON A_ODD_TT   är uddastaviga ex allak:allag- oregelbunden allep, allemus som alt. komp.
-
- LEXICON A_ODD_UU   är uddastaviga ex låssåt:låssåd-/lussis oregelbunden låssep, låssemus alt. komp.
+ * LEXICON A_ODD_II   är uddastaviga ex tjielgos:tjellgus
 
 
- LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
+ * LEXICON A_ODD_KK   är uddastaviga ex garras:garras-, garra
 
- LEXICON A_ODD_VV   är uddastaviga ex blávvat:vällgat/vellgis
+ * LEXICON A_ODD_LL   är uddastaviga ex måskos:musskus-
 
- LEXICON A_ODD_XX   är uddastaviga ex suojmas:suajjmas
+ * LEXICON A_ODD_MM   är uddastaviga ex nanos:ninnus-
 
- LEXICON A_ODD_YY   är uddastaviga ex suojmas:suajbmas
+ * LEXICON A_ODD_NN   är uddastaviga ex nieros:nerrus-
 
- LEXICON A_ODD_ZZ   är uddastaviga ex dájgas/dájges
+ * LEXICON A_ODD_OO   är uddastaviga ex rabás:rahpás-
 
- LEXICON A_ODD_ÅÅ   är uddastaviga ex gåstås:gåsstås-
+ * LEXICON A_ODD_PP   är uddastaviga ex vájbas:vájjbas-
 
- LEXICON A_ODD_ÄÄ   är uddastaviga ex rájnes:rájjnas-
+ * LEXICON A_ODD_QQ   är uddastaviga ex gåjkes:gåjjkås-
 
- LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
+ * LEXICON A_ODD_RR   är uddastaviga ex gåstes:gåsstås- oregelbundet gåsstep, gåsstemus alt. komp.
+
+ * LEXICON A_ODD_SS   är uddastaviga ex gåjkes:gåjkkås, oregelbundet gåjjkep, gåjjkemus alt komp
+
+ * LEXICON A_ODD_TT   är uddastaviga ex allak:allag- oregelbunden allep, allemus som alt. komp.
+
+ * LEXICON A_ODD_UU   är uddastaviga ex låssåt:låssåd-/lussis oregelbunden låssep, låssemus alt. komp.
+
+
+ * LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
+
+ * LEXICON A_ODD_VV   är uddastaviga ex blávvat:vällgat/vellgis
+
+ * LEXICON A_ODD_XX   är uddastaviga ex suojmas:suajjmas
+
+ * LEXICON A_ODD_YY   är uddastaviga ex suojmas:suajbmas
+
+ * LEXICON A_ODD_ZZ   är uddastaviga ex dájgas/dájges
+
+ * LEXICON A_ODD_ÅÅ   är uddastaviga ex gåstås:gåsstås-
+
+ * LEXICON A_ODD_ÄÄ   är uddastaviga ex rájnes:rájjnas-
+
+ * LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
 
  * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
 
 
 
- LEXICON A_EVEN_KONTR_A , exempel sádnes.sáddná-
+ * LEXICON A_EVEN_KONTR_A , exempel sádnes.sáddná-
 
- LEXICON A_EVEN_KONTR_B , exempel gärrgáj:gärrgá-
+ * LEXICON A_EVEN_KONTR_B , exempel gärrgáj:gärrgá-
 
- LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
+ * LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
 
- LEXICON A_EVEN_KONTR_D , exempel låmmsjáj:låmmsjá/låmmsjes (attr)
+ * LEXICON A_EVEN_KONTR_D , exempel låmmsjáj:låmmsjá/låmmsjes (attr)
 
- LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
+ * LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
 
- LEXICON A_EVEN_KONTR_F , exempel buässjáj:buässjá/buosjes (attr)
+ * LEXICON A_EVEN_KONTR_F , exempel buässjáj:buässjá/buosjes (attr)
 
- LEXICON A_EVEN_KONTR_G , exempel suvres:suvvrá/suvra (attr)
+ * LEXICON A_EVEN_KONTR_G , exempel suvres:suvvrá/suvra (attr)
 
 

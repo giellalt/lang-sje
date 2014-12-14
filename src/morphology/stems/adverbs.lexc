@@ -12,18 +12,18 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-! Adverbs
+!! Adverbs
 
-LEXICON adv
+LEXICON adv   !!= * __@CODE@__ adds the tag +Adv
 +Adv: # ;
 
-LEXICON Adverb
+LEXICON Adverb   !!= * __@CODE@__ is the list
 agev adv ;
 áj adv "också" ;
 ájlegin adv ;
 ájjve adv ;
 ájmon adv;
-alás adv "åt väster" ; 
+alás adv "åt väster" ;
 alebuj adv "längre mot väster" ;
 alebun adv "i längre mot väster" ;
 alelt adv "i väster" ;
@@ -90,7 +90,7 @@ gidán adv "på våren" ;
 girran adv "på våren" ;
 giđan adv "på våren" ;
 gu adv "när" ;
-guggu adv "vart, till vilken plats" ; 
+guggu adv "vart, till vilken plats" ;
 guhkás adv ;
 guhkebuj adv ;
 guhkev adv ;
@@ -111,7 +111,7 @@ gånnå adv "var, på/i den plats där" ;
 gåsse adv "när, vid vilken tidpunkt" ;
 gåssek adv ;
 gåsstås adv "varifrån" ;
-hähkat adv ; 
+hähkat adv ;
 ilá adv ;
 ihkenis adv "som helst" ;
 ihkenas adv "som helst" ;
@@ -160,13 +160,13 @@ ruapptot adv ;
 ruvva adv ;
 räkkta adv ;
 sagga adv ;
-sammáláhkáj adv ; 
-sierra adv ; 
-särra adv ; 
-sierrot adv ; 
+sammáláhkáj adv ;
+sierra adv ;
+särra adv ;
+sierrot adv ;
 sisa adv ;
-sissŋelij adv ; 
-sjávot adv ; 
+sissŋelij adv ;
+sjávot adv ;
 spájjta adv ;
 suajbma adv ;
 tjiegŋalit adv ;
@@ -174,7 +174,7 @@ tjårrgå adv ;
 uddne adv ;
 uddnik adv ;
 ullgulin adv "ute" ;
-ullgulist adv "utifrån" ; 
+ullgulist adv "utifrån" ;
 ullgun adv ;
 ulgus adv ;
 ullu adv ;

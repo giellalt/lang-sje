@@ -1,0 +1,94 @@
+
+!!!File containing abbreviations
+
+
+Lexica for adding tags and periods
+
+Splitting in 3 groups, because of the preprocessor
+
+ * __LEXICON Abbreviation   __
+
+
+
+ * __!LEXICON ab   __  No POS, don't know what pos
+
+ * __!LEXICON ab-noun-adj   __
+
+ * __LEXICON ab-dot-noun-adj   __
+
+ * __LEXICON ab-noun   __
+
+ * __LEXICON ab-adj   __
+
+ * __LEXICON ab-adv   __
+
+ * __LEXICON ab-num   __
+
+ * __!LEXICON ab-cc   __
+
+
+
+ * __LEXICON ab-nodot-noun   __   The bulk
+Here come POS and Case tags, and no period.
+
+ * __LEXICON ab-nodot-adj   __
+
+ * __LEXICON ab-nodot-adv   __
+
+ * __LEXICON ab-nodot-num   __
+
+
+
+ * __LEXICON ab-dot-noun   __  This is the lexicon for abbrs that must have a period.
+
+ * __LEXICON ab-dot-adj   __  This is the lexicon for abbrs that must have a period.
+
+ * __LEXICON ab-dot-adv   __  This is the lexicon for abbrs that must have a period.
+
+ * __LEXICON ab-dot-num   __  This is the lexicon for abbrs that must have a period.
+
+ * __LEXICON ab-dot-cc   __
+
+
+
+
+ * __!LEXICON ab-verb   __  A lexicon for "gč." and perhaps also other abbreviated verbs.
+ * __LEXICON ab-dot-verb   __
+
+ * __!LEXICON ab-nodot-verb   __
+
+
+
+
+
+
+
+!!Intransitive abbreviations 
+
+ * __LEXICON ITRAB   __
+
+
+
+
+
+
+ * __LEXICON TRNUMAB   __
+
+
+
+
+
+
+!!Transitive abbreviations 
+
+ * __LEXICON TRAB   __
+
+
+
+
+
+
+
+
+
+

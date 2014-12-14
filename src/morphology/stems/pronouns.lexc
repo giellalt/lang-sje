@@ -12,7 +12,10 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON Pronoun 
+!! Pronouns
+
+
+LEXICON Pronoun   !!= * __@CODE@__
 
 Personal ;
 Demonstrative ;
@@ -25,12 +28,12 @@ Indefinita ;
 ! Personal pronouns
 ! =================
 
-LEXICON Personal
+LEXICON Personal   !!= * __@CODE@__
 mån:m  pers ;
 dån:d  pers ;
 sån:s  pers ;
 
-LEXICON pers
+LEXICON pers   !!= * __@CODE@__
 +Pron+Pers+Sg+Nom:ån      # ;
 +Pron+Pers+Sg+Nom:ånnå    # ;
 +Pron+Pers+Sg+Acc:uv      # ;
@@ -39,7 +42,7 @@ LEXICON pers
 +Pron+Pers+Sg+Ill:unji    # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Ine:uvne    # ;
 +Pron+Pers+Sg+Ine:ujna    # ; !nordlig variant
-+Pron+Pers+Sg+Ela:uvvste  # ; 
++Pron+Pers+Sg+Ela:uvvste  # ;
 +Pron+Pers+Sg+Com:ujna    # ;
 
 +Pron+Pers+Du+Nom:åj      # ;
@@ -64,13 +67,13 @@ LEXICON pers
 +Pron+Pers+Ess+Du:unnun # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
 
-LEXICON Demonstrative
+LEXICON Demonstrative   !!= * __@CODE@__
 dat+Pron+Det+Sg+Nom:dat # ;
 dat+Pron+Det+Sg+Acc:dav # ;
 dat+Pron+Det+Sg+Gen:dan # ;
 dat+Pron+Det+Sg+Ill:dasa # ;
-dat+Pron+Det+Sg+Ine:danne # ; 
-dat+Pron+Det+Sg+Ela:dasste # ; 
+dat+Pron+Det+Sg+Ine:danne # ;
+dat+Pron+Det+Sg+Ela:dasste # ;
 dat+Pron+Det+Sg+Com:dajna # ;
 dat+Pron+Det+Sg+Ess:danen # ;
 
@@ -79,9 +82,9 @@ dat+Pron+Det+Pl+Acc:dajt # ;
 dat+Pron+Det+Pl+Gen:daj # ;
 dat+Pron+Det+Pl+Ill:dajda # ;
 dat+Pron+Det+Pl+Ine:dajn # ;
-dat+Pron+Det+Pl+Ine:dajdne # ; 
+dat+Pron+Det+Pl+Ine:dajdne # ;
 dat+Pron+Det+Pl+Ela:dajst # ;
-dat+Pron+Det+Pl+Ela:dajste # ; 
+dat+Pron+Det+Pl+Ela:dajste # ;
 dat+Pron+Det+Pl+Com:daj # ;
 
 
@@ -90,7 +93,7 @@ dat+Pron+Det+Sg+Acc:dáv # ;
 dat+Pron+Det+Sg+Gen:dán # ;
 dat+Pron+Det+Sg+Ill:dása # ;
 dat+Pron+Det+Sg+Ine:dánne # ;
-dat+Pron+Det+Sg+Ela:dásste # ; 
+dat+Pron+Det+Sg+Ela:dásste # ;
 dat+Pron+Det+Sg+Com:dájna # ;
 dat+Pron+Det+Sg+Ess:dánen # ;
 
@@ -99,9 +102,9 @@ dat+Pron+Det+Pl+Acc:dájt # ;
 dat+Pron+Det+Pl+Gen:dáj # ;
 dat+Pron+Det+Pl+Ill:dájda # ;
 dat+Pron+Det+Pl+Ine:dájn # ;
-dat+Pron+Det+Pl+Ine:dájdne # ;  
+dat+Pron+Det+Pl+Ine:dájdne # ; 
 dat+Pron+Det+Pl+Ela:dájst # ;
-dat+Pron+Det+Pl+Ela:dájste # ; 
+dat+Pron+Det+Pl+Ela:dájste # ;
 dat+Pron+Det+Pl+Com:dáj # ;
 
 dat+Pron+Det+Sg+Nom:duot # ;
@@ -109,7 +112,7 @@ dat+Pron+Det+Sg+Acc:duov # ;
 dat+Pron+Det+Sg+Gen:duon # ;
 dat+Pron+Det+Sg+Ill:dusi # ;
 dat+Pron+Det+Sg+Ine:duanna # ;
-dat+Pron+Det+Sg+Ela:duassta # ; 
+dat+Pron+Det+Sg+Ela:duassta # ;
 dat+Pron+Det+Sg+Com:duojna # ;
 
 
@@ -117,11 +120,11 @@ dat+Pron+Det+Pl+Nom:duo # ;
 dat+Pron+Det+Pl+Acc:duojt # ;
 dat+Pron+Det+Pl+Gen:duoj # ;
 dat+Pron+Det+Pl+Ill:duojda # ;
-dat+Pron+Det+Pl+Ine:duojn # ; 
-dat+Pron+Det+Pl+Ela:duojs # ; 
+dat+Pron+Det+Pl+Ine:duojn # ;
+dat+Pron+Det+Pl+Ela:duojs # ;
 dat+Pron+Det+Pl+Com:duoj # ;
 
-LEXICON Relative 
+LEXICON Relative   !!= * __@CODE@__
 !gie, predikativ ställning
 gie+Pron+Rel+Sg+Nom:ge # ;
 gie+Pron+Rel+Sg+Acc:gev # ;
@@ -203,7 +206,7 @@ goabba+Pron+Rel+Sg+Acc:gåbbáv # ;
 goabba+Pron+Rel+Sg+Gen:gåbbá # ;
 goabba+Pron+Rel+Sg+Ill:gåbbáj # ;
 goabba+Pron+Rel+Sg+Ine:gåbbán # ;
-goabba+Pron+Rel+Sg+Ela:gåbbást # ; 
+goabba+Pron+Rel+Sg+Ela:gåbbást # ;
 goabba+Pron+Rel+Sg+Com:gåbbájn # ;
 goabba+Pron+Rel+Sg+Ess:gåbbán # ;
 
@@ -211,8 +214,8 @@ goabba+Pron+Rel+Pl+Nom:gåbbá # ;
 goabba+Pron+Rel+Pl+Acc:gåbbájt # ;
 goabba+Pron+Rel+Pl+Gen:gåbbáj # ;
 goabba+Pron+Rel+Pl+Ill:gåbbájda # ;
-goabba+Pron+Rel+Pl+Ine:gåbbájn # ; 
-goabba+Pron+Rel+Pl+Ela:gåbbájst # ; 
+goabba+Pron+Rel+Pl+Ine:gåbbájn # ;
+goabba+Pron+Rel+Pl+Ela:gåbbájst # ;
 goabba+Pron+Rel+Pl+Com:gåbbáj # ;
 
 ! gåbba attributiv ställning
@@ -221,7 +224,7 @@ goabba+Pron+Rel+Sg+Acc:gåbbáv # ;
 goabba+Pron+Rel+Sg+Gen:gåbbá # ;
 goabba+Pron+Rel+Sg+Ill:gåbbá # ;
 goabba+Pron+Rel+Sg+Ine:gåbbán # ;
-goabba+Pron+Rel+Sg+Ela:gåbbát # ; 
+goabba+Pron+Rel+Sg+Ela:gåbbát # ;
 goabba+Pron+Rel+Sg+Com:gåbbájn # ;
 goabba+Pron+Rel+Sg+Ess:gåbbán # ;
 
@@ -229,8 +232,8 @@ goabba+Pron+Rel+Pl+Nom:gåbbá # ;
 goabba+Pron+Rel+Pl+Acc:gåbbájt # ;
 goabba+Pron+Rel+Pl+Gen:gåbbáj # ;
 goabba+Pron+Rel+Pl+Ill:gåbbájda # ;
-goabba+Pron+Rel+Pl+Ine:gåbbájn # ; 
-goabba+Pron+Rel+Pl+Ela:gåbbájst # ; 
+goabba+Pron+Rel+Pl+Ine:gåbbájn # ;
+goabba+Pron+Rel+Pl+Ela:gåbbájst # ;
 goabba+Pron+Rel+Pl+Com:gåbbáj # ;
 
 !guhtimus predikativ ställning, (enligt Martin Sjaggo)´vem, vilken, vilkendera (av flera)´ (interrogativt), ´den/det som (av flera)´ (relativt), attributivt oböjlig
@@ -257,7 +260,7 @@ guhtimus+Pron+Rel+Pl+Com:guhtimusaj # ;
 !guhtimus attributiv ställning
 guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
 
-LEXICON Interrogativa 
+LEXICON Interrogativa   !!= * __@CODE@__
 
 !galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
 !galla, predikativ ställning
@@ -267,7 +270,7 @@ galla+Pron+Int: gallacase ;
 
 !mikkir~makkar:mikkir-~makkar- ´hurudan?, vad för slags?, (sådan) som, (likadan) som´, attributivt oböjligt
 
-!mikkir predikativ ställning 
+!mikkir predikativ ställning
 mikkir+Pron+Int+Sg+Nom:mikkir # ;
 mikkir+Pron+Int+Sg+Acc:mikkirav # ;
 mikkir+Pron+Int+Sg+Gen:mikkira # ;
@@ -285,7 +288,7 @@ mikkir+Pron+Int+Pl+Ine:mikkirijn # ;
 mikkir+Pron+Int+Pl+Ela:mikkirijst # ;
 mikkir+Pron+Int+Pl+Com:mikkirij # ;
 
-!mikkir attributiv ställning 
+!mikkir attributiv ställning
 mikkir+Pron+Int+Sg+Nom:mikkir # ;
 
 !galles:gallas- ´hur många personer?´ (brukas aldrig attributivt)
@@ -327,7 +330,7 @@ gallat+Pron+Int+Pl+Ine:galladijn # ;
 gallat+Pron+Int+Pl+Ela:galladijst # ;
 gallat+Pron+Int+Pl+Com:galladij # ;
 
-LEXICON Indefinita
+LEXICON Indefinita   !!= * __@CODE@__
 
 !gájjka:jk ´all, allt, alla, hel, hela´, används prediaktivt endast i pluralis, singularis nominativformen används attributivt
 
@@ -420,7 +423,7 @@ nubbe+Pron+Indef+Pl+Gen:nubbij # ;
 nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
 nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
 nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
-nubbe+Pron+Indef+Pl+Com:nubbij # ; 
+nubbe+Pron+Indef+Pl+Com:nubbij # ;
 
 !binna:binn-/ binna ´lite,litegrann´, plural ´några få´
 
@@ -457,7 +460,7 @@ divna+Pron+Indef+Pl+Ela:divnajst # ;
 divna+Pron+Indef+Pl+Com:divnaj # ;
 
 !divna attributiv ställning
-divna+Pron+Indef+Pl+Nom:divna # ; 
+divna+Pron+Indef+Pl+Nom:divna # ;
 
 !juohkehatj;juohkehatj-, var och en, varenda en (brukas inte attributivt, endast i singularis)
 
@@ -750,7 +753,7 @@ muhtem+Pron+Indef+Sg+Nom:muhtem # ;
 
 
 
-!måddas:måddas- /måddas ´några,flera (personer)´, brukas inte attributivt 
+!måddas:måddas- /måddas ´några,flera (personer)´, brukas inte attributivt
 
 !måddas,predikativ ställning
 måddas+Pron+Indef+Sg+Nom:måddas # ;
@@ -833,7 +836,7 @@ såmes+Pron+Indef+Pl+Com:såbmásij # ;
 !såmes,attributiv ställning
 såmes+Pron+Indef+Sg+Nom:såmes # ;
 
-!ålos:ullus- ´många personer´(endast i plural), brukas inte attributivt 
+!ålos:ullus- ´många personer´(endast i plural), brukas inte attributivt
 
 !ålos,predikativ ställning
 ålos+Pron+Indef+Pl+Nom:ullusa # ;
@@ -857,7 +860,7 @@ vera+Pron+Indef+Sg+Nom:vera # ;
 !fert,endast i attributiv ställning ´varje´
 fert+Pron+Indef+Sg+Nom:fert # ;
 
-!gåssek,endast i attributiv ställning ´någonstans´, med negation ´íngenstans´ 
+!gåssek,endast i attributiv ställning ´någonstans´, med negation ´íngenstans´
 gåssek+Pron+Indef+Sg+Nom:gåssek # ;
 
 !juohke,endast i attributiv ställning ´varje, var och en´
@@ -866,7 +869,7 @@ juohke+Pron+Indef+Sg+Nom:juohke # ;
 !sämmi,endast i attributiv ställning ´samma´
 sämmi+Pron+Indef+Sg+Nom:sämmi # ;
 
-LEXICON Reflexive
+LEXICON Reflexive   !!= * __@CODE@__
 
 iehtja+Pron+Refl+Sg+Nom:iehtja # ; !Martin Sjaggo huvudinformant
 iehtja+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
@@ -952,28 +955,28 @@ iehtja+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
 
 ! Det här är för att få räkneorden att kompilera, kopi från smj
 
-LEXICON nubbecase
+LEXICON nubbecase   !!= * __@CODE@__
  +Sg+Gen:e%> # ;
  +Sg+Ine+Attr:e%> # ;
  +Sg+Ill+Attr:e%> # ;
- +Sg+Gen+Use/NG:e%> NAMÁK ; ! 
+ +Sg+Gen+Use/NG:e%> NAMÁK ; !
 ! +Sg+Abe:e%>#da # ;
- +Sg+Abe+Use/NG:e%>#dak # ; ! 
- +Sg+Abe+Use/NG:e%>#dagi # ; ! 
- +Sg+Abe+Use/NG:e%>#dagá # ; ! 
- +Sg+Abe+Err/Sub:e%>#tagá # ; ! 
+ +Sg+Abe+Use/NG:e%>#dak # ; !
+ +Sg+Abe+Use/NG:e%>#dagi # ; !
+ +Sg+Abe+Use/NG:e%>#dagá # ; !
+ +Sg+Abe+Err/Sub:e%>#tagá # ; !
  +Sg+Acc:e%>v # ;
- +Sg+Ela:e%>s # ; 
+ +Sg+Ela:e%>s # ;
  +Sg+Ine:e%>n # ;
  +Sg+Com:i%>jn # ;
  +Pl+Nom:e%> # ;
  +Pl+Gen:i%>j # ;
- +Pl+Gen+Use/NG:i%>j NAMÁK ; ! 
+ +Pl+Gen+Use/NG:i%>j NAMÁK ; !
 ! +Pl+Abe:i%>j#da # ;
- +Pl+Abe+Use/NG:i%>j#dak # ; ! 
- +Pl+Abe+Use/NG:i%>j#dagi # ; ! 
- +Pl+Abe+Use/NG:i%>j#dagá # ; ! 
- +Pl+Abe+Err/Sub:i%>j#tagá # ; ! 
+ +Pl+Abe+Use/NG:i%>j#dak # ; !
+ +Pl+Abe+Use/NG:i%>j#dagi # ; !
+ +Pl+Abe+Use/NG:i%>j#dagá # ; !
+ +Pl+Abe+Err/Sub:i%>j#tagá # ; !
  +Pl+Acc:i%>jt # ;
  +Pl+Ill:i%>jda # ;
  +Pl+Ine:i%>jn # ;
@@ -983,7 +986,7 @@ LEXICON nubbecase
 
 
 
-LEXICON gallacase
+LEXICON gallacase   !!= * __@CODE@__
 
 +Sg+Nom:galla # ;
 +Sg+Acc:gallev # ;
@@ -1029,7 +1032,7 @@ LEXICON gallacase
 ! galla+Pron+Int+Sg+Ela:gallest # ;
 ! galla+Pron+Int+Sg+Com:gallijn # ;
 ! galla+Pron+Int+Sg+Ess:gallen # ;
-! 
+!
 ! galla+Pron+Int+Pl+Nom:galle # ;
 ! galla+Pron+Int+Pl+Acc:gallijt # ;
 ! galla+Pron+Int+Pl+Gen:gallij # ;
@@ -1037,7 +1040,7 @@ LEXICON gallacase
 ! galla+Pron+Int+Pl+Ine:gallijn # ;
 ! galla+Pron+Int+Pl+Ela:gallijst # ;
 ! galla+Pron+Int+Pl+Com:gallij # ;
-! 
+!
 ! !galla, attributiv ställning
 ! galla+Pron+Int+Sg+Nom:galla # ;
 ! galla+Pron+Int+Sg+Acc:galla # ;
@@ -1047,7 +1050,7 @@ LEXICON gallacase
 ! galla+Pron+Int+Sg+Ela:gallet # ;
 ! galla+Pron+Int+Sg+Com:gallijn # ;
 ! galla+Pron+Int+Sg+Ess:gallen # ;
-! 
+!
 ! galla+Pron+Int+Pl+Nom:galle # ;
 ! galla+Pron+Int+Pl+Acc:gallijt # ;
 ! galla+Pron+Int+Pl+Gen:gallij # ;

@@ -12,10 +12,13 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON CC
+
+!! !!!Conjunctions
+
+LEXICON CC   !!= * __@CODE@__ gives +CC
 +CC: # ;
 
-LEXICON Conjunction
+LEXICON Conjunction   !!= * __@CODE@__ is the list.
 ájnat CC ;
 bäru CC ;
 bär CC ;
@@ -29,7 +32,7 @@ gu CC ;
 ja CC ;
 jala CC ;
 jus CC ;
-jut CC ; 
+jut CC ;
 kan CC ;
 ma CC ;
 márrju CC ;
