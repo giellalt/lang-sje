@@ -12,10 +12,12 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON PP ! These are the indeclieable ones 
+!! !!!Adpositions
+
+LEXICON PP   !!= * __@CODE@__  adds the tag +Po
 +Po: # ;
 
-LEXICON Postposition
+LEXICON Postposition   !!= * __@CODE@__ is the list
 bajjel PP ;
 bajjelij PP ;
 bajjelin PP ;

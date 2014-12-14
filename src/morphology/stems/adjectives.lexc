@@ -12,29 +12,31 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON Adjective
+!! !!!Pite Saami adjectives
+
+LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
 
 ! komparering framför vissa j- former verkar ej fungera
 
 állke A_EVEN_NOCG_S ; !finns i två former állkep, álkep
-almelalatj:almelatj A_EVEN_D ; 
+almelalatj:almelatj A_EVEN_D ;
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
 binna:binn A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
 buossje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
-bånndá A_EVEN_B ;  
+bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
 guhkke:guhk A_EVEN_AA ; !fungerar ej, kolla
 gåbbde A_EVEN_B ;
-gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos 
-gähppe A_EVEN_B ; 
-gävvra A_EVEN_B ; 
+gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos
+gähppe A_EVEN_B ;
+gävvra A_EVEN_B ;
 hárrge A_EVEN_B ;
-hávvske A_EVEN_B ; 
+hávvske A_EVEN_B ;
 hiejjo A_EVEN_B ;
 hiedjo A_EVEN_B ;
 hådje A_EVEN_B ;
@@ -42,11 +44,11 @@ iedna A_EVEN_0 ;
 jállo A_EVEN_B ;
 järrme A_EVEN_B ;
 järbme A_EVEN_B ;
-lihkulatj:lihkulatj A_EVEN_D ;  
+lihkulatj:lihkulatj A_EVEN_D ; 
 låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
-njárrbe A_EVEN_B ;   
+njárrbe A_EVEN_B ;  
 nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
 sájjge A_EVEN_B ;
@@ -57,8 +59,8 @@ smávve A_EVEN_B ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
 sägge A_EVEN_NOCG_S ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
-tjábbe:tjább A_EVEN_BB ; !funkar 
-tjåvvgå A_EVEN_IES ; 
+tjábbe:tjább A_EVEN_BB ; !funkar
+tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 
 
@@ -71,57 +73,57 @@ vasste A_EVEN_B ;
 vuodnje A_EVEN_B ; !stadieväxling fungerar ej
 ådne A_EVEN_B ;
 ådne:ådn A_EVEN_A ; !fungerar
-ballvagis A_EVEN_C ; 
-fábmogis A_EVEN_C ; 
-gullogis A_EVEN_C ; 
-tjierrulis A_EVEN_C ; 
+ballvagis A_EVEN_C ;
+fábmogis A_EVEN_C ;
+gullogis A_EVEN_C ;
+tjierrulis A_EVEN_C ;
 unugis A_EVEN_C ;
-ånegatj:ånegatj A_EVEN_D ; 
+ånegatj:ånegatj A_EVEN_D ;
 
 vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 bargodibme A_EVEN_0 ; !bm:m attr. bargodis
-sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis 
-tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis 
-  
+sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis
+tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
+ 
 
 
 
 
 
-aset:ase A_ODD_DIS ; 
-bavrek:bavre A_ODD_GIS ; 
+aset:ase A_ODD_DIS ;
+bavrek:bavre A_ODD_GIS ;
 livák:livá A_ODD_GIS ;
 máhtak:máhta A_ODD_GIS ;
 máhtalk:máhtal A_ODD_GIS ;
 njálmuk:njálmu A_ODD_GIS ;
 njálbmuk:njálbmu A_ODD_GIS ;
-sjnjutjok:sjnjutju A_ODD_GIS ; 
+sjnjutjok:sjnjutju A_ODD_GIS ;
 tjuorguk:tjuorgu A_ODD_GIS ;
 tjáhket:tjáhke A_ODD_DIS ;
 várrok:várro A_ODD_GIS ;
-bivval A_ODD ; 
+bivval A_ODD ;
 gullis A_ODD ;
 háhppel A_ODD ;
 nággár A_ODD ;
 tjiegŋal A_ODD ;
 vassjal A_ODD ;
-suddes:sudd A_ODD_AA ;  
-tjavdes:tjav A_ODD_C ; 
-tjåskes:tjås A_ODD_D ;  
+suddes:sudd A_ODD_AA ; 
+tjavdes:tjav A_ODD_C ;
+tjåskes:tjås A_ODD_D ; 
 åhpes:åhp A_ODD_E ;
 stuorre A_EVEN_A ;
-stuores:stuor A_ODD_F ;  
+stuores:stuor A_ODD_F ; 
 rádes:rád A_ODD_AA ;  !inlagt även alt.form rádep, rádemus
 rádes:rád A_ODD_ÖÖ ;  !inlagt även alt.form rádásup
-mårret:mårre A_ODD_DIS ; 
-mällgat:mällga A_ODD_DIS ; 
-såmes:så A_ODD_B ; 
-tjáhppat:tj A_ODD_T ;  
-tjuorak:tjuora A_ODD_k_K ; 
+mårret:mårre A_ODD_DIS ;
+mällgat:mällga A_ODD_DIS ;
+såmes:så A_ODD_B ;
+tjáhppat:tj A_ODD_T ; 
+tjuorak:tjuora A_ODD_k_K ;
 vuoras:vuor A_ODD_R ;
 
-báhkas:báhk A_ODD_G ; 
-dimes:di A_ODD_H ; 
+báhkas:báhk A_ODD_G ;
+dimes:di A_ODD_H ;
 lieggas:l A_ODD_I ;
 luovas:lu A_ODD_J ;
 rájnas:ráj A_ODD_K ;
@@ -158,7 +160,7 @@ dulutj A_ODD_Å ;
 hánes:há A_ODD_FF ;
 luovas:luov A_ODD_GG ;
 måskås:mås A_ODD_HH ;
-tjielgos:tj A_ODD_II ; 
+tjielgos:tj A_ODD_II ;
 garras:garra A_ODD_KK ;
 allak:alla A_ODD_Q ;
 gassak:gassa A_ODD_Q ;
@@ -167,11 +169,11 @@ nanos:n A_ODD_MM ;
 nieros:n A_ODD_NN ;
 rabás:ra A_ODD_OO ;
 vájbas:váj A_ODD_PP ;
-gåjkes:gåj A_ODD_QQ ; 
+gåjkes:gåj A_ODD_QQ ;
 låssåt:låsså A_ODD_P ;
 
 
-buorak:buora A_ODD_GIS ; 
+buorak:buora A_ODD_GIS ;
 tjalmak:tjalma A_ODD_GIS ;
 vällgat:v A_ODD_VV ;
 suojmas:su A_ODD_XX ;
@@ -180,18 +182,18 @@ dájgas:dájg A_ODD_ZZ ;
 rájnas:ráj A_ODD_ÄÄ ;
 åvros A_ODD_Å ;
 gåstås:gås A_ODD_ÅÅ ;
-gåstås:gås A_ODD_RR ; 
+gåstås:gås A_ODD_RR ;
 allak:all A_ODD_TT ;
 gåjkes:gåj A_ODD_SS ; !
-låssåt:l A_ODD_UU ; 
+låssåt:l A_ODD_UU ;
 
 
 mivkes:miv A_EVEN_KONTR_E ; !fungerar
 suvres:suv A_EVEN_KONTR_G ; !fungerar
 buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
-låmmsjáj:låm A_EVEN_KONTR_D ; !fungerar 
-gärrgáj:gärrgá A_EVEN_KONTR_B ; !fungerar 
-sádnes:sád A_EVEN_KONTR_A ; !fungerar 
+låmmsjáj:låm A_EVEN_KONTR_D ; !fungerar
+gärrgáj:gärrgá A_EVEN_KONTR_B ; !fungerar
+sádnes:sád A_EVEN_KONTR_A ; !fungerar
 mårráj:mårrá A_EVEN_KONTR_B ; !fungerar
 hålláj:hållá A_EVEN_KONTR_B ; !fungerar
 sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ; !fungerar

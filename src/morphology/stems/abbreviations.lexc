@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ============================= !
-!! !!!File containing abbreviations 
+!! !!!File containing abbreviations
 ! ============================= !
 
 
@@ -23,7 +23,7 @@
 !! Splitting in 3 groups, because of the preprocessor
 ! - - - - - - - - - - - - - - - - - - - - - - - - -
 
-LEXICON Abbreviation
+LEXICON Abbreviation   !!= * __@CODE@__
 ITRAB ;
 TRNUMAB ;
 TRAB ;
@@ -35,43 +35,43 @@ TRAB ;
 ! Also splitting when in doubt: -noun-adj => -noun and -adj
 ! Then pointing to two contlexes, a dot-one and a non-dot-one.
 
-!LEXICON ab ! No POS, don't know what pos
+!LEXICON ab   !!= * __@CODE@__  No POS, don't know what pos
 !ab-nodot ;
 !ab-dot ;
 
 ! Some of these POS
-!LEXICON ab-noun-adj
+!LEXICON ab-noun-adj   !!= * __@CODE@__
 ! ab-noun ;
 ! ab-adj ;
 
-LEXICON ab-dot-noun-adj
+LEXICON ab-dot-noun-adj   !!= * __@CODE@__
 ab-dot-noun ;
 ab-dot-adj ;
 
-LEXICON ab-noun
+LEXICON ab-noun   !!= * __@CODE@__
 ab-nodot-noun ;
 ab-dot-noun ;
 
-LEXICON ab-adj
+LEXICON ab-adj   !!= * __@CODE@__
 ab-nodot-adj ;
 ab-dot-adj ;
 
-LEXICON ab-adv
+LEXICON ab-adv   !!= * __@CODE@__
 ab-nodot-adv ;
 ab-dot-adv ;
 
-LEXICON ab-num
+LEXICON ab-num   !!= * __@CODE@__
 ab-nodot-num ;
 ab-dot-num;
 
 !still not in use.
-!LEXICON ab-cc
+!LEXICON ab-cc   !!= * __@CODE@__
 !ab-nodot-cc ;
 !ab-dot-cc ;
 
 
 
-LEXICON ab-nodot-noun !!0 @  The bulk
+LEXICON ab-nodot-noun   !!= * __@CODE@__   The bulk
 !! Here come POS and Case tags, and no period.
 +N+ABBR+Attr: # ; ! no period, that is.
 +N+ABBR+Nom: # ; ! no period, that is.
@@ -84,7 +84,7 @@ LEXICON ab-nodot-noun !!0 @  The bulk
 +N+ABBR+Ess:%>%:ine # ; ! no period, that is.
 +N+ABBR:%> RHyph ;
 
-LEXICON ab-nodot-adj
+LEXICON ab-nodot-adj   !!= * __@CODE@__
 !+ABBR: # ; ! no period, that is.
 +A+ABBR+Attr: # ; ! no period, that is.
 +A+ABBR+Nom: # ; ! no period, that is.
@@ -97,49 +97,32 @@ LEXICON ab-nodot-adj
 +N+ABBR+Ess:%>%:ine # ; ! no period, that is.
 +A+ABBR:%> RHyph ;
 
-LEXICON ab-nodot-adv
+LEXICON ab-nodot-adv   !!= * __@CODE@__
 +Adv+ABBR: # ; ! Adv without case, consider this.
 
-LEXICON ab-nodot-num
+LEXICON ab-nodot-num   !!= * __@CODE@__
 +Num+ABBR+Nom: # ; ! no period, that is.
 +Num+ABBR:%> RHyph ;
 
 
-! Still not in use.
-!LEXICON ab-nodot-cc
-! +ABBR+CC: # ; ! no period, that is.
 
-! noun the default POS
-!LEXICON ab-nodot ! default
-!+N+ABBR+Attr: # ; ! no period, that is.
-!+N+ABBR+Nom: # ; ! no period, that is.
-!+N+ABBR:%> RHyph ;
-
-
-! Here come POS and Case tags, with the period added.
-
-!LEXICON ab-dot ! Default
-! +ABBR:%. # ;
-!+N+ABBR+Attr:%. # ;
-!+N+ABBR+Nom:%. # ;
-
-LEXICON ab-dot-noun ! This is the lexicon for abbrs that must have a period.
+LEXICON ab-dot-noun   !!= * __@CODE@__  This is the lexicon for abbrs that must have a period.
 +N+ABBR+Attr:%. # ;
 +N+ABBR+Nom:%. # ;
 
-LEXICON ab-dot-adj ! This is the lexicon for abbrs that must have a period.
+LEXICON ab-dot-adj   !!= * __@CODE@__  This is the lexicon for abbrs that must have a period.
 ! +ABBR:%. # ;
 +A+ABBR+Attr:%. # ;
 +A+ABBR+Nom:%. # ;
 
-LEXICON ab-dot-adv ! This is the lexicon for abbrs that must have a period.
+LEXICON ab-dot-adv   !!= * __@CODE@__  This is the lexicon for abbrs that must have a period.
 +Adv+ABBR:%. # ; ! Adv without case.
 
-LEXICON ab-dot-num ! This is the lexicon for abbrs that must have a period.
+LEXICON ab-dot-num   !!= * __@CODE@__  This is the lexicon for abbrs that must have a period.
 ! +ABBR:%. # ;
 +N+ABBR+Num+Nom:%. # ;
 
-LEXICON ab-dot-cc
+LEXICON ab-dot-cc   !!= * __@CODE@__
 +CC+ABBR:%. # ;
 
 ! Adding case suffixes to the abbrs in a tentative manner, to test it
@@ -149,14 +132,14 @@ LEXICON ab-dot-cc
 
 ! Then, as an afterthought, come our two verbs, gč. and vrd.
 
-!LEXICON ab-verb ! A lexicon for "gč." and perhaps also other abbreviated verbs.
+!LEXICON ab-verb   !!= * __@CODE@__  A lexicon for "gč." and perhaps also other abbreviated verbs.
 ! ab-dot-verb ;
 ! ab-nodot-verb ;
 ! Not in use
-LEXICON ab-dot-verb
+LEXICON ab-dot-verb   !!= * __@CODE@__
 +V+ABBR+TV+Imprt:%. # ; ! Period.
 
-!LEXICON ab-nodot-verb
+!LEXICON ab-nodot-verb   !!= * __@CODE@__
 ! +ABBR+V+TV+Imprt: # ; ! No period.
 ! Not in use.
 
@@ -169,10 +152,10 @@ LEXICON ab-dot-verb
 
 
 ! =============================================== !
-! Intransitive abbreviations !
+!! !!Intransitive abbreviations 
 ! =============================================== !
 
-LEXICON ITRAB
+LEXICON ITRAB   !!= * __@CODE@__
 
 ! List the beginning of the alphabet, !
 ! in order to account for numbering !
@@ -323,7 +306,7 @@ transl ab-dot-noun ;
 ! Abreviations who are transitive in front of numerals !
 ! ============================================================ !
 
-LEXICON TRNUMAB
+LEXICON TRNUMAB   !!= * __@CODE@__
 ! For abbrs for which numerals are complements, but other
 ! words not necessarily are. This group treats arabic numerals as
 ! if it were transitive but letters as if it were intransitive.
@@ -359,10 +342,10 @@ ILO-konv:ILO%-konv ab-dot-noun ;
 
 
 ! =============================================== !
-! Transitive abbreviations !
+!! !!Transitive abbreviations 
 ! =============================================== !
 
-LEXICON TRAB
+LEXICON TRAB   !!= * __@CODE@__
 ! For abbrs that always have a constituent following it.
 
 ! from here pointing to two types of TRAB:

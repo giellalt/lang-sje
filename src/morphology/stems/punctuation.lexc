@@ -12,7 +12,9 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON Punctuation 
+!! !!!Punctuation
+
+LEXICON Punctuation   !!= * __@CODE@__
 
 ! Clause boundary symbols:
     %,+CLB:%,     # ;
@@ -27,7 +29,7 @@ LEXICON Punctuation
      …+CLB:…      # ;
      ¿+CLB:¿      # ; ! Only seen as noise.
      ¶+CLB:¶      # ; ! This sign is for titles, it is introduced by the
-                      ! catxml script, and may be changed if it interferes 
+                      ! catxml script, and may be changed if it interferes
                       ! with real pilcrow signs.
 
 ! Single punctuation marks
@@ -53,7 +55,7 @@ LEXICON Punctuation
   ±+PUNCT:±   # ;
   `+PUNCT:`   # ;
   ´+PUNCT:´   # ;
-  /+PUNCT:/   # ; 
+  /+PUNCT:/   # ;
 +/-+PUNCT:+/- # ;
  %~+PUNCT:%~  # ;
 

@@ -2,12 +2,15 @@
 !!!Pite Sámi TWOLC file
 
 
-   %^WG:0      * weak grade
-   %^jDEL:0    * vowel deletion in front of j
-   %^MONB4J:0  * e to á and o to u before j
-   %^CDEL:0    * final consonant deletion (biednag)
-   %^MON:0     * Monophthong in contract stems
-   %^LOW:0     * Lowering u to å and o (ålol)
+ ; %^WG:0 : weak grade
+ ; %^jDEL:0 : vowel deletion in front of j
+ ; %^MONB4J:0 : e to á and o to u before j
+ ; %^CDEL:0 : final consonant deletion (biednag)
+ ; %^MON:0 : Monophthong in contract stems
+ ; %^LOW:0 : Lowering u to å and o (ålol)
+ ; %^UAUML:0 : uo to uä juolge / juällge
+ ; %^IEUML:0 : ie to ä etc. gielbar / gællbara
+   %^IUML:0    * a to i, gallgat gillgin
 
 
 
@@ -20,7 +23,7 @@
 
 !!Consonant gradation rules
 
-__Consonant Gradation for htt(j):ht(j)__  
+__Consonant Gradation for htt(j|s):ht(j|s)__  
 
 __Consonant Gradation for xdn:xn__  
 
@@ -67,37 +70,50 @@ __Fricative Auslautherdung__
 
 !!Vowel rules 
 
+! Stem vowels
+
 __Vowel Shortening e to i in Front of j-initial suffixes__  
 
 
-
-
-__Vowel Deletion in front of j__  
+__e to á in front of j__  
 
 __o to u in front of j__  
-
-__o deletion in front of j__  
-
-
-__aa in front of j__  
-
-
-__i deletion in front of j__  
-
-
-
-__u ae to u o in weak grade__  
-
-
-__ae to ie in weak grade 1__  
-
-__ae to ie in weak grade 2__  
-
-
-__u to å in odd stems__  
 
 __u to o in odd stems__  
 
 
 __Delete stem final a before e initial suffix__  
+
+
+! Diphthong rules
+
+__Diphthong simplification in front of j__  
+
+
+__o deletion in in uo in front of j__  
+
+__i deletion in ie in front of j and in ie:ä__  
+
+
+__uO to ua in front of j__  
+
+__e to ä in ie__  
+
+__uo - uä Umlaut__  
+
+
+! Monophthong rules !gör om denna
+
+
+__u to å in odd stems__  
+
+
+
+
+__u to å in odd stems__  
+__u to å in odd stems__  
+
+
+
+
 
