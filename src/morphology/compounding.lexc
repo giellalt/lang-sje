@@ -21,37 +21,43 @@
 ! =========================
 
 
-! This is for regular compounding. All entries NOT requiring a hyphen should point to this:
 LEXICON R
-                     +Use/Circ+Cmp#:# Noun ;                       ! This is the normal case.           
-      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Verb ;        ! Flag diacr declares that the compound   
-!      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@# Adjective ;   ! needs a N tag later in the derivation  
-                +Hyph+Use/Circ+Cmp#:%- Noun ;                      ! These 3 cases add a hyphen, so     
- @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Verb ;      ! Sem-julggaštus and maana-gåetie       
-! @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%-  Adjective ; ! are allowed.                 
+ @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@ RTags ; ! Flags to control compounding
 
-! +Use/Circ+Cmp%-#:%-# Acronym ;    ! maana-tv, "lomme-cd-spelar" ! No acronyms for sje yet.
-! +Use/Circ+Cmp%-#:%-# Numeral ;    ! maana-tv, "lomme-cd-spelar"
+! This is for regular compounding. All entries NOT requiring a hyphen should point to this:
+LEXICON RTags
+                     +Use/Circ+Cmp#:#                 Noun      ; ! This is the normal case.           
+      @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@#  Verb      ; ! Flag diacr declares that the compound   
+!     @P.NeedNoun.ON@+Use/Circ+Cmp#:@P.NeedNoun.ON@#  Adjective ; ! needs a N tag later in the derivation  
+                +Hyph+Use/Circ+Cmp#:%-                Noun      ; ! These 3 cases add a hyphen, so     
+ @P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%- Verb      ; ! Sem-julggaštus and maana-gåetie       
+!@P.NeedNoun.ON@+Hyph+Use/Circ+Cmp#:@P.NeedNoun.ON@%- Adjective ; ! are allowed.                 
+
+! +Use/Circ+Cmp%-#:%-# Acronym    ; ! maana-tv, "lomme-cd-spelar" ! No acronyms for sje yet.
+! +Use/Circ+Cmp%-#:%-# Numeral    ; ! maana-tv, "lomme-cd-spelar"
 ! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for non-hyph.
-                                   ! words. viessu-London goes through here.
+                                    ! words. viessu-London goes through here.
+           +RCmpnd:%-  ENDLEX     ; ! This to take care of Oahpo- ja dutkandept - want this in speller
 
-         +RCmpnd:%- ENDLEX ;     ! This to take care of Oahpo- ja dutkandept - want this in speller
 
+LEXICON RHyph
+ @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@ RTags ; ! Flags to control compounding
 
 ! This is for compounding with hyphen. All entries REQUIRING a hyphen should point to this:
-LEXICON RHyph ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
-              ! NBNBNB!!! The hyphen should be added here! NOT in the other lexicons!
+LEXICON RHyphTags ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
+                  ! NBNBNB!!! The hyphen should be added here! NOT in the other lexicons!
 
-                +Use/Circ+Cmp%-#:%-# Noun ;                                     ! This is the normal case.
- @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Verb ;       ! Flag diacr declares that the compound
-! @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Adjective ; ! needs a N tag later in the derivation
+                +Use/Circ+Cmp%-#:%-#                Noun       ; ! This is the normal case.
+ @P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Verb       ; ! Flag diacr declares that the compound
+!@P.NeedNoun.ON@+Use/Circ+Cmp%-#:@P.NeedNoun.ON@%-# Adjective  ; ! needs a N tag later in the derivation
+!               +Use/Circ+Cmp%-#:%-#                Acronym    ; ! maana-tv, "lomme-cd-spelar"
+!               +Use/Circ+Cmp%-#:%-#                ProperNoun ; ! Proper nouns following hyph-words.
+                                                                 ! London-Hull is covered here, whereas
+                                                                 ! Hull-viessu
+                                                                 ! is covered by RHyph + Noun.
 
-! +Use/Circ+Cmp%-#:%-# Acronym ;    ! maana-tv, "lomme-cd-spelar"
-! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for hyph-words.
-                               ! London-Hull is covered here, whereas Hull-viessu
-                               ! is covered by RHyph + Noun.
-
-         +RCmpnd:%- ENDLEX ;      ! This to take care of Oahpo- ja dutkandept - want this in speller
+                         +RCmpnd:%- ENDLEX                     ; ! This to take care of Oahpo- ja dutkandept
+                                                                 ! - want this in speller
 
 ! Proper noun compounds without hyphens are NOT presently covered - if they were
 ! to be added, they need to be marked +Err/Sub. Examples: LondonHull & viessuLondon.
