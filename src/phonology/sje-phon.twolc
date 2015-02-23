@@ -57,9 +57,49 @@ Sets
   WeG    =  %^WG %^jDEL ;
   Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON %^UAUML %^IUML ;
   
-!Definitions
+Definitions
 
-!  Dummy     =   
+
+ G3 = [ Cns Cns Cns Cns |
+      b ':0 b|
+      d ':0 d|
+      g ':0 g|
+      l ':0 l|
+      s ':0 s|
+      r ':0 r|
+      v ':0 v|
+      b b m |
+      d d [n|j] |
+      d n j |
+      f f t |
+      g g ŋ |
+      l l [d|j|t] |
+      m m [b|p] |
+      n n [d|j|t] |
+      ŋ ŋ [g|k] |
+      p p [s|t] |
+      s s [k|m|n|p|t] |
+      b b [j|d|l|r] |
+      b d n |
+      g g d |
+      j j [b|d|g|k|l|p|r|s|t|v] |
+      j d n | 
+      j b m |
+      l l [b|g|k|f|p|s|v] |
+      l b m |
+      m m [g|s] |
+      r r [b|d|f|g|j|k|s|t|v] |
+      d d g |
+      t t k |
+      r b m |
+      r d n |
+      v v [d|g|k|l|r|s] |
+      v d n |
+      h [k k|p p|t t] |
+      d t [j|s] |
+      k k [s|t] ] ;
+
+
 
 !! !!!Rules
 
@@ -243,8 +283,14 @@ o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
 "i deletion in ie in front of j and in ie:ä"
 !! __@RULENAME@__  
 i:0 <=> _ e: Cns:* Vow:* (%^WG:0) %>: (j) %^MONB4J:0 ;
-        _ e: Cns:* Vow:* (Cns) %^UAUML:0 ;
+        _ e: G3 [o|e|á|a|å] (Cns) %^UAUML:0 ;
 ! ie > e iello>elluj
+
+"e to ä in ie"
+!! __@RULENAME@__  
+e:ä <=> i: _  G3 [o|e|á|a|å] (Cns) %^UAUML:0 ;
+!gädde>geddijt
+
 
 "ä deletion in uä in front of final i"
 ä:0 <=> u _ Cns:* (Dummy:) %>: i ;
@@ -253,15 +299,11 @@ i:0 <=> _ e: Cns:* Vow:* (%^WG:0) %>: (j) %^MONB4J:0 ;
 "uO to ua in front of j"
 !! __@RULENAME@__  
 %^O:a <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
-
-"e to ä in ie"
-!! __@RULENAME@__  
-e:ä <=> i: _ Cns:* Vow:* (Cns) %^UAUML:0 ;
-!gädde>geddijt
+          u _ G3 a %^UAUML:0 ;
 
 "uo - uä Umlaut"
 !! __@RULENAME@__  
-%^O:ä <=> _ Cns:* Vow:+ %^UAUML:0 ;
+%^O:ä <=> _ G3 e %^UAUML:0 ;
  !€ ju^Ollge^UAUML
  !€ juäll0ge0
 
