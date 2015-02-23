@@ -304,7 +304,8 @@ rabbda N_EVEN "bd" ;
 rádje N_EVEN "j" ;
 ráddna N_EVEN "dn kamrat" ;
 ráffe N_EVEN "f frid" ;
-rájje N_EVEN_NOCG ;
+rájje N_EVEN "gräns j" ;
+rádje N_EVEN "gräns j" ;
 ragátmánno N_EVEN "n september" ;
 ragátájjge N_EVEN "jg brunsttid" ;
 rássjo:rássjo N_EVEN "sj regn" ;
@@ -353,7 +354,7 @@ stummpa N_EVEN "mp" ;
 stuvvsa N_EVEN "vs" ;
 ståhpo N_EVEN "b hus" ;
 stänntjo:stienntjo N_EVEN "ntj" ;
-
+suodna:suona N_EVEN "n, sena" ;
 suohkan N_ODD "socken" ; 
 suoloj:sull N_CONTR_C_A "ö" ; ! nominativ sg fungerar ej
 suorbmas:suorbmas N_ODD "ring" ;
