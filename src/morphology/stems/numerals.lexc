@@ -381,6 +381,8 @@ lågenan# GTJUODE-SPLIT ;
 
 
 
+!! Här är alla talorden under 1000.
+!! Vi börjar nedanfrån, från ett.
 
 LEXICON UNDERTUVSÁN				   !!= * __@CODE@__
  AKTAF ;     ! 1				
@@ -413,7 +415,7 @@ nubbe#+A+Ord+Sg+Gen:nubbe%> NUMERALCOMPOUNDS ;
 guoktes+N+Coll+Sg+Nom:guoktes%> # ;
 guoktes+N+Coll:guakktas VIDÁS ;   
 guoktes+N+Coll:guakkt GUOVTES ;   
-gålbmå:gålbm GÅLMMÅ ;      
+gålbmå:gålbmå GÅLMMÅ ;      
 gålmát+A+Ord:gålmád9 VUOSTASJ ;
 gålmås+N+Coll:gållmås VIDÁS ;       
 gålmås+N+Coll+Sg+Nom:gålmås%> # ;     
@@ -443,6 +445,7 @@ gehtjit+A+Ord:gehtjid9 VUOSTASJ ;
 gietjas+N+Coll+Sg+Nom:gietjas%> # ;  
 gietjas+N+Coll:giehtjas VIDÁS ;      
 gákktse:gákkts GÁKTSA ;             
+gákktse+Num+Sg+Nom:gákktja # ;                     
 gáktját+A+Ord:gáktjád9 VUOSTASJ ;
 gáktjes+N+Coll+Sg+Nom:gáktjes%> # ;  
 gáktjes+N+Coll:gákktjás VIDÁS ;       
@@ -577,12 +580,12 @@ gáktjes#lågenan+N+Coll:gákktjás VIDÁSLÅGENAN ;
 åktjes#lågenan+N+Coll+Sg+Nom:åktjes#lågenan%> # ;     
 åktses#lågenan+N+Coll:åkktjas# VIDÁSLÅGENAN ;      
 lågenan#gákktse:lågenan#gákkts GÁKTSA ;
-lågenan#gákktja:lågenan#gákktj GÁKTSA ;      
+lågenan#gákktse+Num+Sg+Nom:lågenan#gákktja # ;      
 lågenan#gáktját+A+Ord:lågenan#gáktjád9
 
 VUOSTASJ ;      
 lågenan#åkktse:lågenan#åkkts AKTSE ;
-lågenan#åkktjå:lågenan#åkktj AKTSE ;                
+lågenan#åkktjå+Num+Sg+Nom:lågenan#åkktjå # ;                
 lågenan#åktját+A+Ord:lågenan#åktjád9 VUOSTASJ ;       
 akkta#lågenan:akkta AKTALÅGENAN ;       
 		
@@ -615,8 +618,8 @@ giehtjit#lågát+A+Ord:giehtjit#lågád9 VUOSTASJ ;
 gákktja#lågenan:gákktj GÁKTSALÅGENAN ; 
 gákktse#lågenan:gákkts GÁKTSALÅGENAN ;      
 gáktját#lågát+A+Ord:gáktját#lågát VUOSTASJ ;      
-åkktse#lågenan:åkkts AKTSELÅGENAN ;
-åkktjå#lågenan:åkktj AKTSELÅGENAN ;                
+åkktse#lågenan:åkktse AKTSELÅGENAN ;
+åkktse#lågenan+Nom+Sg+Nom:åkktjålågenan # ;                
 åktját#lågát+A+Ord:åktját#lågád9 VUOSTASJ ;
        
 lågenan#guoktes+N+Coll+Sg+Nom:lågenan#guoktes%> # ;    
