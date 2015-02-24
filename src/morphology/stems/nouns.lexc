@@ -394,7 +394,7 @@ vanas:vadnas N_ODD_CG "vene, båt" ;
 vanntsa N_EVEN "nts" ;
 vassje N_EVEN "sj hat" ;
 várre N_EVEN "r berg, fjäll" ;
-vielmes:välbm N_CONTR_C_B "lugnvatten" ; !nominativ sg. fungerar ej, ev skriva vielmes:vielbm
+vielmes:vielbm N_CONTR_C_B "lugnvatten" ; !nominativ sg. fungerar ej, ev skriva vielmes:vielbm
 vieráld:vieráld N_ODD "världen" ;
 vierro N_EVEN "r offer" ;
 vierrodimájjge N_EVEN "jg offertid" ;

@@ -246,6 +246,12 @@ LEXICON A_ODD_H  !!= * @CODE@ är uddastaviga ex dimes:dibmas-
 +A:bmas ODD_OBLIQUE_COMMON ;
 +A:bmas ODD_COMPSUP_A ;
 
+LEXICON A_ODD_HA  !!= * @CODE@ är uddastaviga ex dimes:dibmas-
++A+Attr:bma # ;
++A+Sg+Nom:mes PX ;
++A:bmas ODD_OBLIQUE_COMMON ;
++A:bma COMPSUP_A ;
+
 LEXICON A_ODD_I  !!= * @CODE@ är uddastaviga ex lieggas:läggas-
 +A+Attr:ägga # ;
 +A+Sg+Nom:ieggas PX ;
