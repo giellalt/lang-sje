@@ -19,21 +19,20 @@
 # 2. extend the extract lemmas egrep expression (lines 53 ff)
 # 3. adapt the tag addition and lemma generation instructions (lines 79 ff)
 
-
 ###### Variables: #######
 ### in ###
-source_file=${srcdir}/../../../src/morphology/stems/verbs.lexc
+source_file=${srcdir}/../../../src/morphology/stems/adjectives.lexc
 generator_file=./../../../src/generator-gt-norm
 
 ### out ###
-lemmas=./filtered-verbs
-generated_lemmas=./generated-verbs
-result_file=${srcdir}/missing_verb_lemmas.txt
+lemmas=./filtered-adjectives
+generated_lemmas=./generated-adjectives
+result_file=${srcdir}/missing_adjective_lemmas.txt
 
 # FAIL if source file does not exist:
-if [ ! -f $source_file ]; then
+if [ ! -f $sourcefile ]; then
     echo
-    echo "*** Warning: Source file $source_file not found."
+    echo "*** Warning: Source file $sourcefile not found."
     echo
     exit 77
 fi
@@ -53,13 +52,22 @@ fi
 # Get external Mac editor for viewing failed results from configure:
 EXTEDITOR=@SEE@
 
-###### Extraction: #######
+##### Extract lemmas #####
+### don't use extract-lemmas.sh ###
+# Hent ut lemmaer fra adjective.lexc, bortsett fra utkommmenterte (^\!), 
+# dem som krever sammensetning (CmpN/Only|ShCmp|RCmpnd| Rreal | R | Rnoun),
+# LexSub (som blir filtrert bort fra normgenerator). Lemmaene lagres som filtered-adjectives
 
 grep ";" $source_file | \
   egrep -v "^(\!|\@|<)" | \
+  egrep -v '(CmpN/Only|ShCmp|RCmpnd| Rreal | R | Rnoun |\+V\+|LexSub)' | \
   sed 's/% /€/g' | sed 's/%:/¢/g' |  tr ":+" " " | cut -d " " -f1 | \
-  tr -d "%" | tr "€" " " | tr "¢" ":" | grep -v '^ei$' | sort -u > $lemmas
-  
+  tr -d "%" | tr "€" " " | tr "¢" ":" | sort -u > $lemmas
+
+# evt. denne, sjekk skilnaden:
+# @GTCORE@/scripts/extract-lemmas.sh \
+# 	$sourcefile "(CmpN/Last)" > $lemmas
+
 
 ###### Start testing: #######
 transducer_found=0
@@ -79,24 +87,38 @@ for f in $fsttype; do
 	    echo "$f - FAIL"
 	    continue
 	fi
+#	echo "$generator_file.$suffix"
 	if [ -f "$generator_file.$suffix" ]; then
 		let "transducer_found += 1"
 
-###### Generate the infinitives: #######
+###### Test non-comopunds: #######
+		# generate nouns in Singular, extract the resulting generated lemma,
+		# store it:
+# Generer lemmaer i adjectives med +N+Sg+Nom, lagre i generated-adjectives
+        sed 's/$/+A+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
+          cut -f2 | grep -v "A+" | grep -v "^$" | sort -u > $generated_lemmas.$f.txt		
+		
+# Generer plurale lemmaer i filtered-adjectives med +N+Pl+Nom (som ikke lar seg generer med +N+Sg+Nom).
+# Lagre dem i generated-adjectives
+		sed 's/$/+A+Sg+Nom/' $lemmas | $lookuptool $generator_file.$suffix | \
+		cut -f2 | grep "A+" | cut -d "+" -f1 | sed 's/$/+A+Pl+Nom/' | \
+		$lookuptool $generator_file.$suffix | \
+		cut -f2 | grep -v "^$" >> $generated_lemmas.$f.txt 
 
-        sed 's/$/+V+Inf/' $lemmas | \
-        		$lookuptool $generator_file.$suffix | \
-          cut -f2 | grep -v "V+" | grep -v "^$" | sort -u > $generated_lemmas.$f.txt		
-				
+
+###### Collect results: #######
+		# Sort and compare original input with resulting output - the diff is
+		# stored and opened in SEE:
+
 # Sorter, unifiser
 		sort -u -o $lemmas $lemmas 
 		sort -u -o $generated_lemmas.$f.txt $generated_lemmas.$f.txt 
 
 # Sammenlikne: Former som er i lemmalista med ikke i lista med genererte former,
-# lagre i missingverbLemmas.txt. Formene generes med  +V+Inf for enklere debugging.
+# lagre i missingadjectiveLemmas.txt. Formene generes med  +A+Sg+Nom for enklere debugging.
 		comm -23 $lemmas $generated_lemmas.$f.txt |\
-		  grep -v '^$' | sed 's/$/+V+Inf/' |\
-		  $lookuptool $generator_file.$suffix > $result_file.$f.txt
+		grep -v '^$' | sed 's/$/+A+Sg+Nom/' |\
+		$lookuptool $generator_file.$suffix > $result_file.$f.txt
 
 		# Open the diff file in SubEthaEdit (if there is a diff):
 		if [ -s $result_file.$f.txt ]; then
@@ -112,8 +134,6 @@ for f in $fsttype; do
 	fi
 done
 
-
-
 # When done, remove the generated data file:
 rm -f $lemmas
 
@@ -124,5 +144,5 @@ fi
 
 if [ $transducer_found -eq 0 ]; then
     echo ERROR: No transducer found
-    exit 1
+    exit 77
 fi

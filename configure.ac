@@ -171,10 +171,15 @@ AC_CONFIG_FILES([tools/shellscripts/usje-gt.sh], \
       [chmod a+x tools/shellscripts/usje-gt.sh])
 
 #### BEGIN: Add language-specific scripts below here: ####
-AC_CONFIG_FILES([test/src/morphology/test-noun-generation.sh], \
-      [chmod a+x test/src/morphology/test-noun-generation.sh])
-AC_CONFIG_FILES([test/src/morphology/test-verb-generation.sh], \
-      [chmod a+x test/src/morphology/test-verb-generation.sh])
+AC_CONFIG_FILES([test/src/morphology/generate-verb-lemmas.sh], \
+      [chmod a+x test/src/morphology/generate-verb-lemmas.sh])
+AC_CONFIG_FILES([test/src/morphology/generate-adjective-lemmas.sh], \
+      [chmod a+x test/src/morphology/generate-adjective-lemmas.sh])
+
+#AC_CONFIG_FILES([test/src/morphology/test-noun-generation.sh], \
+#      [chmod a+x test/src/morphology/test-noun-generation.sh])
+#AC_CONFIG_FILES([test/src/morphology/test-verb-generation.sh], \
+#      [chmod a+x test/src/morphology/test-verb-generation.sh])
 
 ############ END: Language-specific scripts. #############
 
