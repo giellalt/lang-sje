@@ -160,8 +160,29 @@ LEXICON A_ODD_GIS !!= * @CODE@ är uddastaviga ex.bavrek:bavreg- d
 +A:g ODD_OBLIQUE_COMMON ;
 +A:g ODD_COMPSUP_A ;
 
+LEXICON A_ODD_BIS !!= * @CODE@ är uddastaviga ex.sielas:siellas
++A+Attr:as # ; 
++A+Sg+Nom:as PX ;
++A:las ODD_OBLIQUE_COMMON ;
++A:las ODD_COMPSUP_A ;
 
+LEXICON A_ODD_CIS !!= * @CODE@ är uddastaviga ex.suohtas:suahttas
++A+Attr:ohtas # ; 
++A+Sg+Nom:ohtas PX ;
++A:ahttas ODD_OBLIQUE_COMMON ;
++A:ahttas ODD_COMPSUP_A ;
 
+LEXICON A_ODD_DIS  !!= * @CODE@ är uddastaviga ex aset:ased-
++A+Attr:dis # ; 
++A+Sg+Nom:t PX ;
++A:d ODD_OBLIQUE_COMMON ;
++A:d ODD_COMPSUP_A ;
+
+LEXICON A_ODD_SIS  !!= * @CODE@ är uddastaviga ex aset:ased-
++A+Attr:des # ; 
++A+Sg+Nom:des PX ;
++A:jdás ODD_OBLIQUE_COMMON ;
++A:jdás ODD_COMPSUP_A ;
 
 LEXICON A_ODD_R  !!= * @CODE@ är uddastaviga ex vuoras:vuorras-
 +A+Attr:as # ;
@@ -175,6 +196,12 @@ LEXICON A_ODD_AA  !!= * @CODE@ är uddastaviga ex suddes.suddás-
 +A+Sg+Nom:es PX ;
 +A:ás ODD_OBLIQUE_COMMON ;
 +A:ás ODD_COMPSUP_A ;
+
+LEXICON A_ODD_A  !!= * @CODE@ är uddastaviga ex blávvat:blávvad-/blávvis
++A+Attr:at # ;
++A+Sg+Nom:at PX ;
++A:ad ODD_OBLIQUE_COMMON ;
++A:ad ODD_COMPSUP_A ;
 
 LEXICON A_ODD_B  !!= * @CODE@ är uddastaviga ex såmes:såbmás-
 +A+Attr:mes # ;
@@ -420,9 +447,9 @@ LEXICON A_ODD_QQ  !!= * @CODE@ är uddastaviga ex gåjkes:gåjjkås-
 
 LEXICON A_ODD_RR  !!= * @CODE@ är uddastaviga ex gåstes:gåsstås- oregelbundet gåsstep, gåsstemus alt. komp.
 +A+Attr:ste # ;
-+A+Sg+Nom:tås PX ;
++A+Sg+Nom:tes PX ;
 +A:stås ODD_OBLIQUE_COMMON ;
-+A:te COMPSUP_A ;
++A:stá COMPSUP_A ;
 
 LEXICON A_ODD_SS  !!= * @CODE@ är uddastaviga ex gåjkes:gåjkkås, oregelbundet gåjjkep, gåjjkemus alt komp
 +A+Attr:jke # ;
@@ -443,11 +470,6 @@ LEXICON A_ODD_UU  !!= * @CODE@ är uddastaviga ex låssåt:låssåd-/lussis oreg
 +A:åse COMPSUP_A ;
 
 
-LEXICON A_ODD_DIS  !!= * @CODE@ är uddastaviga ex aset:ased-
-+A+Attr:dis # ; 
-+A+Sg+Nom:t PX ;
-+A:d ODD_OBLIQUE_COMMON ;
-+A:d ODD_COMPSUP_A ;
 
 LEXICON A_ODD_VV  !!= * @CODE@ är uddastaviga ex blávvat:vällgat/vellgis
 +A+Attr:ellgis # ;
@@ -473,9 +495,9 @@ LEXICON A_ODD_ZZ  !!= * @CODE@ är uddastaviga ex dájgas/dájges
 +A:as ODD_OBLIQUE_COMMON ;
 +A:as ODD_COMPSUP_A ;
 
-LEXICON A_ODD_ÅÅ  !!= * @CODE@ är uddastaviga ex gåstås:gåsstås-
+LEXICON A_ODD_ÅÅ  !!= * @CODE@ är uddastaviga ex gåstes:gåsstås-
 +A+Attr:ste # ;
-+A+Sg+Nom:tås PX ;
++A+Sg+Nom:tes PX ;
 +A:stås ODD_OBLIQUE_COMMON ;
 +A:stås ODD_COMPSUP_A ;
 
