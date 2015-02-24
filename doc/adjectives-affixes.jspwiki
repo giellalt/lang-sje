@@ -54,13 +54,20 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_GIS  är uddastaviga ex.bavrek:bavreg- d
 
+ * LEXICON A_ODD_BIS  är uddastaviga ex.sielas:siellas
 
+ * LEXICON A_ODD_CIS  är uddastaviga ex.suohtas:suahttas
 
+ * LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
+
+ * LEXICON A_ODD_SIS   är uddastaviga ex aset:ased-
 
  * LEXICON A_ODD_R   är uddastaviga ex vuoras:vuorras-
 
 
  * LEXICON A_ODD_AA   är uddastaviga ex suddes.suddás-
+
+ * LEXICON A_ODD_A   är uddastaviga ex blávvat:blávvad-/blávvis
 
  * LEXICON A_ODD_B   är uddastaviga ex såmes:såbmás-
 
@@ -153,7 +160,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
  * LEXICON A_ODD_UU   är uddastaviga ex låssåt:låssåd-/lussis oregelbunden låssep, låssemus alt. komp.
 
 
- * LEXICON A_ODD_DIS   är uddastaviga ex aset:ased-
 
  * LEXICON A_ODD_VV   är uddastaviga ex blávvat:vällgat/vellgis
 
@@ -163,7 +169,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_ZZ   är uddastaviga ex dájgas/dájges
 
- * LEXICON A_ODD_ÅÅ   är uddastaviga ex gåstås:gåsstås-
+ * LEXICON A_ODD_ÅÅ   är uddastaviga ex gåstes:gåsstås-
 
  * LEXICON A_ODD_ÄÄ   är uddastaviga ex rájnes:rájjnas-
 

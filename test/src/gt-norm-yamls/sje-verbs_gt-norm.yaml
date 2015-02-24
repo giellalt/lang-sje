@@ -15,12 +15,11 @@ Tests:
     ballat+V+Ind+Prs+Sg1: balav
     ballat+V+Ind+Prs+Sg2: bala
     ballat+V+Ind+Prs+Sg3: ballá
-    ballat+V+Ind+Prs+Du1: ballin
+    ballat+V+Ind+Prs+Du1: billin
     ballat+V+Ind+Prs+Du2: [ballabehtin, ballabähtten]
     ballat+V+Ind+Prs+Du3: ballaba
     ballat+V+Ind+Prs+Pl1: ballap
-    ballat+V+Ind+Prs+Pl2: ballabihtit
-    ballat+V+Ind+Prs+Pl2: ballabihtit
+    ballat+V+Ind+Prs+Pl2: [ballabihtit, ballabehtit]
     ballat+V+Ind+Prs+Pl3: billi
 
     ballat+V+Ind+Prt+Sg1: billiv
