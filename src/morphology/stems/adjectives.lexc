@@ -115,6 +115,7 @@ buorak:buora A_ODD_GIS ;
 buorremielak:buorremiela A_ODD_Z ;
 dájgas:dájg A_ODD_ZZ ;
 dimes:di A_ODD_H ;
+dimes:di A_ODD_HA ; 
 dulutj A_ODD_Å ;
 
 gájvas:gáj A_ODD_BB ;
