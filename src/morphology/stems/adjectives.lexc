@@ -19,20 +19,20 @@ LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
 ! komparering framför vissa j- former verkar ej fungera
 
-állke A_EVEN_NOCG_S ; !finns i två former állkep, álkep
-almelalatj:almelatj A_EVEN_D ;
+állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
+almelatj:almelatj A_EVEN_D ;
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
-binna:binn A_EVEN_NOCG_0 ; !funkar delvis
+binna A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
 buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
 bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
-guhkke:guhk A_EVEN_AA ; !fungerar ej, kolla
+guhkke A_EVEN_B ; 
 gåbbde A_EVEN_B ;
-gädtse A_EVEN_NOCG_S ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos
+gädtse:giedtse A_EVEN_NOCG_SS ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos
 gähppe A_EVEN_B ;
 gävvra A_EVEN_B ;
 hárrge A_EVEN_B ;
@@ -60,14 +60,14 @@ smávve A_EVEN_B ;
 sjnuttjo A_EVEN_NOCG_S ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
-sägge A_EVEN_NOCG_S ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
-tjábbe:tjább A_EVEN_BB ; !funkar
+sägge:siegge A_EVEN_NOCG_SS ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
+tjábbe:tjább A_EVEN_BB ; !
 tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 
 
-tjähppe A_EVEN_B ; !funkar, även omljud
-uhttse A_EVEN_B ; !stadieväxling fungerar ej
+tjähppe:tjiehppe A_EVEN_B ; !
+uhttse A_EVEN_B ; !
 unne:unn A_EVEN_BB ; !superlativ funkar ej
 vájjve A_EVEN_B ;
 vallje A_EVEN_B ;
@@ -75,17 +75,17 @@ vasste A_EVEN_B ;
 vuodnje A_EVEN_B ; !stadieväxling fungerar ej
 ådne A_EVEN_B ;
 ådne:ådn A_EVEN_A ; !fungerar
-ballvagis A_EVEN_C ;
+ballvagis:ballvagiss A_EVEN_4 ;
 bargodibme A_EVEN_0 ; !bm:m attr. bargodis
 båddnedibme A_EVEN_0 ; !bm:m attr. båddnedis
-fábmogis A_EVEN_C ;
+fábmogis:fábmogiss A_EVEN_4 ;
 gaŋŋadibme A_EVEN_0 ; !bm:m attr. gaŋŋadis
-gullogis A_EVEN_C ;
+gullogis:gullogiss A_EVEN_4 ;
 sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis
 suddulatj:suddulatj A_EVEN_D ;
 tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
-tjierrulis A_EVEN_C ;
-unugis A_EVEN_C ;
+tjerrulis:tjerruliss A_EVEN_4 ;
+unugis:unugiss A_EVEN_4 ;
 vigedibme A_EVEN_0 ; !bm:m attr. vigedis
 vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 ånegatj:ånegatj A_EVEN_D ;
@@ -102,7 +102,7 @@ vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 allak:all A_ODD_TT ;
 allak:alla A_ODD_Q ;
 amás:a A_ODD_Ö ;
-árvas:árv A_ODD_BB ;
+árvas:árv A_ODD_GG ;
 aset:ase A_ODD_DIS ;
 ávos A_ODD_Å ;
 basstel A_ODD_Å ;
@@ -123,6 +123,7 @@ galmas:gal A_ODD_M ;
 galmas:gal A_ODD_N ;
 garras:garra A_ODD_KK ;
 gassak:gassa A_ODD_Q ;
+gassak:gass A_ODD_HIS ;
 gieres:g A_ODD_CC ;
 gilos:gil A_ODD_DD ;
 grávvat:grávv A_ODD_S ;
@@ -169,7 +170,7 @@ sielas:siel A_ODD_BIS ;
 sjkiebtjas:sjk A_ODD_O ;
 sjlusgos A_ODD_Å ;
 
-sjnjutjok:sjnjutju A_ODD_GIS ;
+sjnjutjok:sjnjutjo A_ODD_GIS ;
 stumbu:stumbu A_ODD_Ä ;
 stuorre A_EVEN_A ;
 stuores:stuor A_ODD_F ; 
@@ -190,7 +191,8 @@ tjavdes:tjav A_ODD_C ;
 tjiegŋal A_ODD ;
 tjielgos:tj A_ODD_II ;
 tjurguk:tjurgu A_ODD_GIS ;
-tjåskes:tjås A_ODD_D ; 
+tjåskes:tjås A_ODD_D ;
+tjåskes:tjås A_ODD_JIS ; 
 vájbas:váj A_ODD_PP ;
 várrok:várro A_ODD_GIS ;
 vassjal A_ODD ;
@@ -212,8 +214,8 @@ vällgat:v A_ODD_VV ;
 buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
 gärrgáj:gärrgá A_EVEN_KONTR_B ; !
 hålláj:hållá A_EVEN_KONTR_B ; !fungerar
-låmmsjáj:låm A_EVEN_KONTR_D ; !fungerar
-låmsjes:låm A_EVEN_KONTR_E ; !fungerar
+låmmsje:låm A_EVEN_KONTR_D ; !fungerar
+låmsjes:låm A_EVEN_KONTR_H ; !
 mivkes:miv A_EVEN_KONTR_E ; !fungerar
 mårráj:mårrá A_EVEN_KONTR_B ; !fungerar
 sádnes:sád A_EVEN_KONTR_A ; !fungerar
