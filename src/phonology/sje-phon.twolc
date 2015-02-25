@@ -31,7 +31,7 @@ Alphabet
   %^WG:0     !!≈ ; @CODE@ : weak grade
   %^jDEL:0   !!≈ ; @CODE@ : vowel deletion in front of j
   %^MONB4J:0 !!≈ ; @CODE@ : e to á and o to u before j
-  %^CDEL:0   !!≈ ; @CODE@ : final consonant deletion (biednag)
+  %^CDEL:0   !!≈ ; @CODE@ : final consonant c (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
   %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
@@ -131,7 +131,7 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _   ( Vow:+ (Cns:+)) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow: Cx _   Vow: ( Vow:* (Cns:+)) ( Dummy: ) WeG: ;
      where Cx in ( t k m n s r l f j v ) ; ! OBS fjerna j pga av ijja, och in igen för ijja
 
 "Consonant Gradation for xxy:xy"
@@ -146,8 +146,8 @@ Cx:0 <=> Vow: Cx _   ( Vow:+ (Cns:+)) ( Dummy: ) WeG: ;
 !! __@RULENAME@__  
 !Cx:0 <=> Vow: _       Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
  Cx:0 <=> Vow (Vow:) _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
-     where Cx in ( d d )
-           Cy in ( j n )  
+     where Cx in ( b d d )
+           Cy in ( m j n )  
           matched ;
 
 !! !!Consonant Gradation for hx:x
@@ -199,7 +199,7 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 "Final Consonant Deletion"
 !! __@RULENAME@__  
 Cx:0 <=> _ (Dummy:) %^CDEL: ;
-	where Cx in ( b d g ) ; 
+	where Cx in ( b d g s ) ; 
 
 
 "Auslautherdung"
