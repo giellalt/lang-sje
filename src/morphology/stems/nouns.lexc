@@ -47,33 +47,33 @@ LEXICON Noun   !!= * __@CODE@__ är huvudlexikonet
 
 
  
-áddjá N_EVEN "dj farfar, morfar" ;
-ájádus:ájadussa N_EVEN "s tanke, mening" ;
-ájagádde N_EVEN_NOCG "dd kallkällkant" ;
-ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ;
-ájatjáhtse N_EVEN "ts kallkällvatten" ;
-ájjdo N_EVEN "jd upptrampad stig i snön efter renhjord" ;
-ájjge N_EVEN "jg tid" ; !lägg in omljud äjgijda
+áddjá N_EVEN "dj farfar, morfar" ; !funkar ej med svagstadium m.m.
+ájádus:ájáduss N_EVEN_4 "s tanke, mening" ; !funkar
+ájagádde N_EVEN_NOCG "dd kallkällkant" ; !funkar
+ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ; !funkar
+ájatjáhtse N_EVEN "ts kallkällvatten" ; !funkar
+ájjdo N_EVEN "jd upptrampad stig i snön efter renhjord" ; !á blir ä i plural fast det inte ska ex- äjgojt 
+ájjge N_EVEN "jg tid" ; !funkar
 ájjro N_EVEN "jr" ; !com.sg u framför j i svagstadium fungerar ej
-ájjvo N_EVEN "jv knivsegg" ;
+ájjvo N_EVEN "jv knivsegg" ; !gen. pl. m.m. funkar ej
 ájlek:ájle N_ODD_G "söndag" ;
-áhkarmuärrje:áhkarmu%^Orrje N_EVEN "rj åkerbär" ;
-áhkatj:áhkatj N_ODD "fru, hustru" ;
-áhkká N_EVEN "hk gudinna. mormor, farmor, gumma" ;
+áhkarmuärrje:áhkarmu%^Orrje N_EVEN "rj åkerbär" ; !funkar 
+áhkatj:áhkatj N_ODD "fru, hustru" ; !funkar
+áhkká N_EVEN "hk gudinna. mormor, farmor, gumma" ; !plural funkar ej i långa á stammar
 áhpa N_EVEN "b apa" ;
-áhpe N_EVEN "b stor myr, hav" ; !ä- omljud framför i fungerar ej på e-stammarna
+áhpe N_EVEN "b stor myr, hav" ; !funkar
 ággŋo N_EVEN_NOCG "årtull" ;
-áhttje N_EVEN " htj far" ;
-ája:ádjag BIENA "kallkälla" ;
-ákksjo N_EVEN "ksj" ; !omljud á till ä fungerar ej,  com.sg u framför j i svagstadium fungerar ej 
-álldo N_EVEN "ld renko" ; !omljud á till ä fungerar ej,  com.sg u framför j i svagstadium fungerar ej
+áhttje N_EVEN " htj far" ; !alla e-stammar funkar
+ája:ádjag BIENA "kallkälla" ; !funkar
+ákksjo N_EVEN "ksj" ; !  
+álldo N_EVEN "ld renko" ; ! 
 áldar:álldar N_ODD_CG "lld ålder" ;
 aldas:alldas N_ODD_CG "lld ovanläder" ;
 állgo N_EVEN "lg start, början" ;
 almatj N_ODD "ihminen, människa" ;
-Árjepluovve N_EVEN "v" ; !u- omljud fungerar ej
+Árjepluovve N_EVEN "v" ; !u- omljud fungerar ej och inte ill.sg
 árran N_ODD "eldstad" ;
-árrat:árrad  N_ODD "morgon" ;
+árrat:árra  N_ODD_D "morgon" ;
 árrbe N_EVEN "rb arv" ; !omljud fungerar ej 
 árrpo N_EVEN "rp" ; !omljud á till ä fungerar ej  
 átjárájjde N_EVEN "jd blixt, oväder" ; !
@@ -181,9 +181,9 @@ giđđa N_EVEN "đ vår" ;
 giehta N_EVEN "d hand" ;
 giehtje N_EVEN "tj" ;
 gielbar:giellbar N_ODD_CG "snödriva" ;
-gieles:giellás N_ODD_CGC "lögn" ; !nominativ sg. fungerar ej
+gieles:giell N_ODD_CG_F "lögn" ; !ingenting fungerar ej
 giella N_EVEN "l" ;
-gierma:gärrmah N_ODD_CGC "orm" ;
+gierma:gierbma N_ODD_CG_I "orm" ; !kolla i Twol c om rbm kan växla till rm
 giesse N_EVEN "s sommar" ;
 giessebäjjve:giessebiejjve N_EVEN "j sommardag" ;
 gimmsja N_EVEN "msj" ;
@@ -239,7 +239,7 @@ jahke N_EVEN "g år" ;
 jávvre N_EVEN "vr sjö" ;
 jávvrelådde N_EVEN_NOCG "dd sjöfågel" ; !å till u fungerar ej
 jiegŋa N_EVEN "ŋ" ;
-judos:juhtus N_ODD_CG_A "djur" ; !fungerar ej judos:juhtusa
+judos:juht N_ODD_CG_A "djur" ; !fungerar ej judos:juhtusa
 juovva N_EVEN "v stor sten" ;
 jåhkå N_EVEN "g älv" ;
 jåhkågádde N_EVEN_NOCG "dd strand" ;
@@ -360,7 +360,7 @@ suoloj:sull N_CONTR_C_A "ö" ; ! nominativ sg fungerar ej
 suorbmas:suorbmas N_ODD "ring" ;
 suptsas:supptsas N_ODD_CG "ppts berättelse, saga" ;
 suäjdne:su%^Ojdne N_EVEN "jn hö" ;
-suäŋŋer:su%^Oŋŋer N_ODD ;
+suoŋŋer:suoŋŋer N_ODD ;
 svallfo N_EVEN "lf" ;
 sválltja N_EVEN "ltj" ;
 såhkevuobme N_EVEN "m björkskog" ;
@@ -411,15 +411,14 @@ vähkke:viehkke N_EVEN "hk hjälp" ;
 vällja:viellja N_EVEN "lj bror" ;
 
 åbba N_EVEN_NOCG "syster" ;
-åhpes:åhppás N_ODD_CG_B "bekant, vägvisare" ;   
+åhpes:åhpp N_ODD_CG_H "bekant, vägvisare" ;  !kolla i twol växling hpp:hp 
 åjvevuolle N_EVEN "l huvudkudde" ;
 åkkse N_EVEN "ks gren" ;
 ålol:ullul N_ODD_CG_VV "käke" ;
-ålmáj:ålbm N_CONTR_C_Å "man" ; !nytt testa
+ålmáj:ålbm N_CONTR_C_Å "man" ; 
 årrdå N_EVEN "rd trädgräns" ;
 åsse N_EVEN "s del" ;
 äddne:ieddne N_EVEN "dn mor" ;
 iello N_EVEN "l renhjord" ;
 
-! Hur mycket fel som helst i slutet av den här filen.
 

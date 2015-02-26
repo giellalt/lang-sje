@@ -37,6 +37,7 @@ Alphabet
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
+  %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -55,7 +56,7 @@ Sets
   Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   WeG    =  %^WG %^jDEL ;
-  Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON %^UAUML %^IUML ;
+  Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON %^UAUML %^IUML %^IJ ;
   
 Definitions
 
@@ -226,7 +227,7 @@ s:t <=> _ j2: .#. ;
         
 "Vowel Shortening e to i in Front of j-initial suffixes"
 !! __@RULENAME@__  
- e:i <=> Cns _ (Dummy:*) ( %>:) j ;
+ e:i <=> Cns _  %^WG:0 %^IJ:0 %>:0 j ;
  	
 !€ riehpe>jt
 !€ r0e0bi0jt
@@ -235,7 +236,7 @@ s:t <=> _ j2: .#. ;
 
 "e to á in front of j"
 !! __@RULENAME@__  
-e:á <=>  _ %>: [ %^MONB4J:0 | %^MON: ] ;
+e:á <=>  _ %>: j [ %^MONB4J:0 | %^MON: ] ;
 !giedde>gäddáj, gájjse>gájjsáj
 
 "o to u in front of j"
@@ -266,7 +267,7 @@ a:0 <=> _  (Dummy:) %>: e ;
 
 "Diphthong simplification in front of j"
 !! __@RULENAME@__  
-Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
+Vy:0 <=> Vx _ Cns:+ Vow: [ %^WG:0 %^IJ:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
      where Vx in (   u  ) ! i u
            Vy in ( %^O )   ! e o
            matched ;
@@ -277,7 +278,7 @@ Vy:0 <=> Vx _ Cns:+ Vow: [ %^jDEL:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
 
 "o deletion in in uo in front of j"
 !! __@RULENAME@__  
-o:0 <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
+o:0 <=> u _ Cns:* [Vow:* - a: ] %>: j %^MONB4J:0 ;
 ! uo > u, not a-stems, muorraj
 
 "i deletion in ie in front of j and in ie:ä"
@@ -298,7 +299,7 @@ e:ä <=> i: _  G3 [o|e|á|a|å] (Cns) %^UAUML:0 ;
 
 "uO to ua in front of j"
 !! __@RULENAME@__  
-%^O:a <=> u _ Cns:* [Vow:* - a: ] %>: %^MONB4J:0 ;
+%^O:a <=> u _ Cns:* [Vow:* - a: ] %>: j %^MONB4J:0 ;
           u _ G3 a %^UAUML:0 ;
 
 "uo - uä Umlaut"
@@ -308,16 +309,24 @@ e:ä <=> i: _  G3 [o|e|á|a|å] (Cns) %^UAUML:0 ;
  !€ juäll0ge0
 
 
-!! ! Monophthong rules !gör om denna
+!! ! Monophthong rules 
 
-"á to ä and å to u and a to i in front of j and u and i"
-!Vx:Vy <=> [Cns|#:] _ Cns:* (Dummy:) [a:|e:|o:] (%^WG:0) %>: [ %^MONB4J:0 j | i ] ;
-Vx:Vy <=> [Cns|#:] _ Cns:*  [a:|e:|o:] (%^WG:0) %>: %^MONB4J:0 j ;
+"á to ä and å to u and a to i in front u and i"
+Vx:Vy <=> [Cns|#:] _ Cns:*  [:u|:i] (%^WG:0) %>: j %^MONB4J:0 ;
           [Cns|#:] _ Cns:*  i %^IUML:0   ;
 	where Vx in (a á å)
 	      Vy in (i ä u)
 	      matched ;
 	      ! båtsoj>buhttsu, rássjo>rässjuj,árrbe>ärbujn, gallgat>gilgiv, åbba>ubbijda 	      
+
+!Vx:Vy <=> [Cns|#:] _ Cns:*  [a:|e:|o:] (%^WG:0) %>: %^MONB4J:0 j ;
+
+
+"á to ä in ij forms"
+ á:ä <=> _ Cns:+ Vow: %^WG:0 %^IJ:0 %>:0 j ;
+
+!€ ájjge^WG^IJ>j
+!€ äj0gi00j
 
 "u to å in odd stems"
 !! __@RULENAME@__  
