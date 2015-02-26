@@ -100,7 +100,7 @@ LEXICON A_EVEN_NOCG !!= * @CODE@
 
 LEXICON A_EVEN_NOCG_B !nykonstruktion november kolla om det funkar 
 +A: EVENCASE ;
-+A: N_EVEN_B ; ! No CG here
++A: N_EVEN ; ! kolla utan _B, om ok så tag bort _B til A_EVEN_NOCG_B
 
 !komparation för jämnstaviga, uddastaviga och kontrakta
 

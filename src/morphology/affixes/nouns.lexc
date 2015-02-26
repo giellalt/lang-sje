@@ -19,11 +19,11 @@
 ! Inflection !
 ! ========== !
 
-!juollkie+N+Abe             morf =======> upper
-!juollkie^WG>htahk   trans
+!juollkie+N+Abe             morf =======%> upper
+!juollkie^WG%>htahk   trans
 !                                     
-!juollkie^WG>Abehtahk   mphon
-!juol0kie00htahk         trans ======> lower
+!juollkie^WG%>Abehtahk   mphon
+!juol0kie00htahk         trans ======%> lower
 
 ! Noun 
 ! ===============
@@ -67,16 +67,15 @@ LEXICON EVENCASE
 EVENOBLIQUE ;
 
 LEXICON EVENOBLIQUE 
-               N_EVEN_S ;
-:%^jDEL%>j     N_EVEN_J ;
-!:%>j     N_EVEN_J ;
-        +Sg+Com:%^WG%>j%^MONB4Jn   K ; !norm
-+Sg+Com+Err/Sub:%^WG%>j%^MONB4Jna  K ; !variant
-
+N_EVEN_S ; 
+:%^WG%^IJ%>j N_EVEN_J ;
 N_EVEN_ILL ;
+!+Sg+Com:%^WG%>j%^MONB4Jn K ;         !norm
+!+Sg+Com+Err/Sub:%^WG%>j%^MONB4Jna K ; !variant
+
 
 LEXICON N_EVEN_ILL
-+Sg+Ill:%>%^MONB4Jj K ;
++Sg+Ill:%>j%^MONB4J K ;
 
 LEXICON N_EVEN_S
 +Ess:%^UAUML%>n K ;
@@ -100,27 +99,29 @@ LEXICON N_EVEN_J
 +Pl+Ela:st  K ; !norm
 +Pl+Ill:da  K ; 
 +Pl+Com:    K ;
++Sg+Com:n K ;         !norm
++Sg+Com+Err/Sub:na K ; !variant
 
 ! LEXICON N_EVEN_B
-+Sg+Nom:%^UAUML>e    K ;
-+Sg+Gen:%^WG>e  K ;
-+Sg+Acc:%^WG>ev  K ;
-+Sg+Ine:%^WG>en K ;
-+Sg+Ela+Err/Sub:%^WG>es K ;
-+Sg+Ela:%^WG>est K ;
-+Sg+Ill:%>áj K ;
-+Abe:%^WG>edak K ; ! Norm
-+Pl+Nom:%^WG>e  K ;
-+Sg+Com:%^WG>ijn   K ; !norm
-+Sg+Com:%^WG>ijna  K ; !variant
-+Pl+Gen:%^WG>ij    K ;
-+Pl+Acc:%^WG>ijt   K ;
-+Pl+Ine:%^WG>ijn   K ;
-+Pl+Ela+Err/Sub:%^WG>ijs  K ;
-+Pl+Ela:%^WG>ijst  K ; !norm
-+Pl+Ill:%^WG>ijda  K ; 
-+Pl+Com:%^WG>ij    K ;
-+Ess:%>en K ;
+! +Sg+Nom:%^UAUML%>e    K ;
+! +Sg+Gen:%^WG%>e  K ;
+! +Sg+Acc:%^WG%>ev  K ;
+! +Sg+Ine:%^WG%>en K ;
+! +Sg+Ela+Err/Sub:%^WG%>es K ;
+! +Sg+Ela:%^WG%>est K ;
+! +Sg+Ill:%>áj K ;
+! +Abe:%^WG%>edak K ; ! Norm
+! +Pl+Nom:%^WG%>e  K ;
+! +Sg+Com:%^WG%>ijn   K ; !norm
+! +Sg+Com:%^WG%>ijna  K ; !variant
+! +Pl+Gen:%^WG%>ij    K ;
+! +Pl+Acc:%^WG%>ijt   K ;
+! +Pl+Ine:%^WG%>ijn   K ;
+! +Pl+Ela+Err/Sub:%^WG%>ijs  K ;
+! +Pl+Ela:%^WG%>ijst  K ; !norm
+! +Pl+Ill:%^WG%>ijda  K ; 
+! +Pl+Com:%^WG%>ij    K ;
+! +Ess:%>en K ;
 
 LEXICON N_EVEN_C
 +Sg+Gen:%>o  K ; ! trond
@@ -152,13 +153,17 @@ LEXICON N_ODD_CG
 +N+Sg+Nom:%^WG PX ;
 +N:%^UAUML ODD_OBLIQUE ;
 
-LEXICON N_ODD_CGC 
-+N+Sg+Nom:%^WG PX ;
-+N: ODD_OBLIQUE ;
+LEXICON N_ODD_CG_F 
++N+Sg+Nom:%^WGes PX ;
++N: ODD_OBLIQUE_B ;
 
-LEXICON N_ODD_CG_A 
+LEXICON N_ODD_CG_A !ex. judos, fungerar ej
 +N+Sg+Nom:%^WGos PX ;
-+N: ODD_OBLIQUE_COMMON ;
++N: ODD_OBLIQUE_A_COMMON ;
+
+LEXICON N_ODD_CG_H 
++N+Sg+Nom:%^WGes PX ;
++N: ODD_OBLIQUE_G_COMMON ;
 
 LEXICON N_ODD_CG_B 
 
@@ -167,6 +172,10 @@ LEXICON N_ODD_CG_B
 
 LEXICON N_ODD_CG_C 
 +N+Sg+Nom:%^WGj PX ;
++N: ODD_OBLIQUE_C ;
+
+LEXICON N_ODD_CG_I 
++N+Sg+Nom:%^WG PX ;
 +N: ODD_OBLIQUE_C ;
 
 LEXICON N_ODD_CG_D 
@@ -337,7 +346,25 @@ LEXICON ODD_OBLIQUE_D_COMMON
 +Pl+Ine:dijn PX ;
 +Pl+Ela+Err/Sub:dijs PX ;
 +Pl+Ela:dijst PX ;
-+Pl+Com:dgij PX ;
++Pl+Com:dij PX ;
+
+LEXICON ODD_OBLIQUE_G_COMMON
++Sg+Acc:ásav PX ;
++Sg+Gen:ása PX ;
++Sg+Ill:ásij PX ;
++Sg+Ine:ásin PX ;
++Sg+Ela+Err/Sub:ásis PX ; 
++Sg+Ela:ásist PX ; 
++Sg+Com:ásijn PX ;
++Ess:ásin PX ;
++Pl+Nom:ása PX ;
++Pl+Acc:ásijt PX ;
++Pl+Gen:ásij PX ;
++Pl+Ill:ásijda PX ;
++Pl+Ine:ásijn PX ;
++Pl+Ela+Err/Sub:ásijs PX ;
++Pl+Ela:ásijst PX ;
++Pl+Com:ásij PX ;
 
 LEXICON ODD_OBLIQUE_U_COMMON
 +Sg+Acc:uv PX ;
@@ -576,7 +603,7 @@ LEXICON N_CONTR
 +N: CONTROBL ;
 
 LEXICON CONTRNOMSG
-+Sg+Nom:%^MONB4Joj K ;
++Sg+Nom:oj%^MONB4J K ;
  
 LEXICON CONTROBL 
 +Sg+Acc:uv PX ;
