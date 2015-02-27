@@ -73,6 +73,7 @@ bálkestit:bálkest NAMMADIT "kasta" ;
 ballat:ball BALLAT "l vara rädd" ;  
 balldet:balld BÅHTET "ld skrämma" ;  
 bállet:báll BÅHTET "l gräva" ;  
+barrgat:barrg BALLAT "rg arbeta" ;
 bassat:bass BALLAT "s tvätta" ;  
 basset:bass BÅHTET "s steka" ;  
 bähttot:bähtt ÅRROT "ht förmana, avråda"  ; !saL, htt:ht fungerar ej
@@ -96,6 +97,7 @@ bårråt:bårr LÅHKÅT "g äta" ; !fungerar
 bähttet:bähtt BÅHTET "ht  lura, bedra" ; !htt:ht fungerar ej 
 bäjjstet:bäjjst BÅHTET "jst ödelägga, förstöra" ; !fungerar
 dádjadit:dádjad2 NAMMADIT "förstå" ; !fungerar
+dagadallat:dagadall BALLAT ; 
 dahkat:dahk BALLAT "g göra, tillverka" ; !fungerar ej
 dárbahit:dárbah2 NAMMADIT "behöva" ; !fungerar
 dibbdet:dibbd BÅHTET " bd låta" ; !fungerar
@@ -122,9 +124,12 @@ gávnadit:gávnad2 NAMMADIT "träffas" ; !fungerar
 gibbnjit:gibbnji V_CONTR "hänga ut" ; !fungerar
 giehtjastit:giehtjast NAMMADIT "försöka" ;
 gielestit:gielest NAMMADIT "ljuga" ;
+gállet:gáll BÅHTET "l vada" ; !fungerar 
+giesset:giess BÅHTET "s dra" ; ! 
 gijjtalit:gijjtal NAMMADIT "tacka (flera gånger)" ; !fungerar
 gijjtet:gijjt BÅHTET "jt tacka" ; !fungerar
 gilljot:gillj ÅRROT "lj skrika, gassta"  ; !fungerar
+ginogit:ginog NAMMADIT ; !fungerar
 grävvit:grävvi V_CONTR "begrava"  ; !fungerar
 gullat:gull BALLAT "l höra" ; !fungerar 
 gulldalit:gulldal NAMMADIT "lyssna" ; !fungerar
@@ -134,7 +139,7 @@ guohtot:guoht ÅRROT "d beta"  ; !fungerar
 guohtsalit:guohtsal NAMMADIT "springa (om fyrfota djur)" ; !fungerar
 guohtsat:guohts BALLAT "ts klättra" ; !fungerar
 guavvlat:guavvl BALLAT "vl titta, kika" ; !omljud ua-uo-u fungerar ej
-gåddet:gådd BÅHTET "dd döda, dräpa" ; !fungerar
+gåddet:gådd BÅHTET "dd döda, dräpa" ; !fungerar ej i pl.pret
 gågglut:gågglu V_CONTR "stöta upp mat (om hund)" ; 
 gåhtjoduvvat:gåhtjoduvv BALLAT "v kallas" ; !nytt
 gåhttjot:gåhttj ÅRROT "htj kalla, benämna"  ; !httj:htj fungerar ej, ej heller omljud
@@ -153,10 +158,12 @@ jáhkket:jáhkk BÅHTET "hk tro" ; !hkk:hk fungerar ej
 jahttet:jahtt BÅHTET "ht säga" ; !htt:ht fungerar ej
 jávestit:jávest2 NAMMADIT "täcka över med jord" ; !fungerar
 juajjgat:juajjg BALLAT "jg jojka" ; !fungerar ej
+juhkat:juhk BALLAT "hk:g" ; !
 juojgadit:juojgad2 NAMMADIT "jojka något eller någon" ; !fungerar
 jåhtet:jåht BÅHTET "d flytta" ; ! ht d fungerar ej , ej heller omljud
 jåhttát:jåhttá V_CONTR "börja flytta" ; 
 jårgedit:jårged2 NAMMADIT "vända sig" ; !fungerar
+jårråt:jårr LÅHKÅT "r" ; !
 lávvlot:lávvl ÅRROT "vl sjunga"  ; !fungerar
 láđđet:láđđ BÅHTET "đđ anfalla" ; !fungerar
 lieradit:lierad2 NAMMADIT "lära ut, undervisa" ; !fungerar
@@ -176,6 +183,9 @@ merrkit:merrki V_CONTR "märka" ;
 mujjtalit:mujjtal NAMMADIT "berätta" ; !ej kontrollerat
 mujjtát:mujjtá V_CONTR "komma ihåg" ; !fungerar
 mujjtet:mujjt BÅHTET "jt minnas" ; !fungerar
+måraduhttet:måraduhtt BÅHTET "förarga htt:ht" ; !
+måraduvvat:måraduvv BALLAT "bli arg vv:v" ; !
+naddat:nadd BALLAT "dd:dd" ; !ingen stadieväxling
 nihttet:nihtt BÅHTET "ht hota" ;  !htt:ht fungerar ej
 njissjkot:njissjk ÅRROT "sjk väva med vävsked" ;  !fungerar
 njuovvat:njuovv BALLAT "v flå" ; !fungerar
@@ -217,7 +227,7 @@ sviŋŋgájdallat:sviŋŋgájdall BALLAT "l röra sig (om träd)" ; !fungerar
 sviŋŋgat:sviŋŋg BALLAT "ŋg röra sig (om träd)" ; !fungerar
 svärrut:svärru V_CONTR "svara" ; ! fungerar
 såbbtsot:såbbts ÅRROT "bts trivas, känna sig hemma" ;  !fungerar
-såggot:sågg ÅRROT "gg dö, omkomma"  ; !fungerar
+såggot:sågg ÅRROT "gg dö, omkomma"  ; !u- omljud fungerar ej
 såjjtet:såjjt BÅHTET "jt  råka (inträffa)" ; !fungerar
 tjágŋat:tjágŋ BALLAT "ŋ krypa in" ; !fungerar
 tjajbmat:tjajbm BALLAT "jm skratta" ; !fungerar 
@@ -225,11 +235,12 @@ tjállet:tjáll BÅHTET "l skriva" ; !fungerar
 tjassket:tjassk BÅHTET "sk kasta" ; !fungerar 
 tjerrut:tjerru V_CONTR "börja gråta" ; !fungerar
 tjierrot:tjierr ÅRROT "r gråta"  ; !stadieväxling fungerar, ej omljud
+tjuarrvot:tjuarrv ÅRROT "rv ropa till eller på någon"  ; !
 tjuggit:tjuggi V_CONTR "sticka"  ; !fungerar
 tjuhkkit:tjuhkki V_CONTR "samla, föra ihop"  ; !fungerar
 tjuadtjot:tjuadtj ÅRROT "dtj stå"  ; ! omljud fungerar ej
 tjuajjgat:tjuajjg BALLAT "jg åka skidor" ; !omljud fungerar ej
-tjågget:tjågg BÅHTET "gg samla" ; !fungerar 
+tjågget:tjågg BÅHTET "gg samla" ; !fungerar ej i pret.pl.
 tjåhkkåhit:tjåhkkåh2 NAMMADIT "sitta" ; !fungerar 
 tsábbmet:tsábbm BÅHTET "bm slå, banka" ; !stadieväxling fungerar och omljud 
 tsábmestit:tsábmest2 NAMMADIT "slå ner" ; !fungerar
@@ -244,6 +255,7 @@ válldet:válld BÅHTET "ld ta" ; !stadieväxling och omljud fungerar
 vásset:váss BÅHTET "s passera" ; !stadieväxling och omljud fungerar
 vásstedit:vássted2 NAMMADIT "svara" ; !fungerar
 verrtit:verrti V_CONTR "vara tvungen"  ; !rättat
+viehkat:viehk BALLAT "g springa" ;
 viehkedit:viehked2 NAMMADIT "hjälpa" ; !fungerar
 vierrodallat:vierrodall BALLAT "l offra" ; !fungerar
 vierrodit:vierrod2 NAMMADIT "offra" ; !fungerar
