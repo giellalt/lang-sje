@@ -13,23 +13,26 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
 
-
  * LEXICON A_EVEN_IES  
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_C  fungerar ej
+ * LEXICON A_EVEN_C  nominativ fungerar ej
 
- * LEXICON A_EVEN_D  ex. almelatj:almeladtja
-
- * LEXICON A_EVEN_G  ex. almelatj:almeladtja
+ * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
 
 
- * LEXICON A_EVEN_0  
 
- * LEXICON A_EVEN_NOCG_0  
+ * LEXICON A_EVEN_0  cs
 
- * LEXICON A_EVEN_NOCG_S  
+ * LEXICON A_EVEN_4  fyrastaviga
+
+
+ * LEXICON A_EVEN_NOCG_0  ev. slå ihop med nocg S 
+
+ * LEXICON A_EVEN_NOCG_S  ex. jasska, állke
+
+ * LEXICON A_EVEN_NOCG_SS  ex. gädtse
 
  * LEXICON A_EVEN  
 
@@ -76,6 +79,8 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_D   är uddastaviga ex tjåskes:tjåsskás-
 
+ * LEXICON A_ODD_JIS   är uddastaviga ex tjåskes:tjåsskás-
+
  * LEXICON A_ODD_E   är uddastaviga ex åhpes:åhppás-
 
  * LEXICON A_ODD_F   är uddastaviga ex stuores:stuorrás-
@@ -104,6 +109,8 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_Q   är uddastaviga ex vuollak:vuollag-/vuolla
 
+ * LEXICON A_ODD_HIS   är uddastaviga ex vuollak:vuollag-/vuolla
+
  * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
 
  * LEXICON A_ODD_T   är uddastaviga ex tjáhppat:tjáhppad-
@@ -125,6 +132,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
  * LEXICON A_ODD_Ö   är uddastaviga ex amás:abmás
 
  * LEXICON A_ODD_BB   är uddastaviga ex árvas:árvvas-
+
 
  * LEXICON A_ODD_CC   är uddastaviga ex gieres:gärrás
 
@@ -187,9 +195,11 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
 
- * LEXICON A_EVEN_KONTR_D , exempel låmmsjáj:låmmsjá/låmmsjes (attr)
+ * LEXICON A_EVEN_KONTR_D , exempel låmmsje:låmmsjá/låmmsjes (attr)
 
  * LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
+
+
 
  * LEXICON A_EVEN_KONTR_F , exempel buässjáj:buässjá/buosjes (attr)
 

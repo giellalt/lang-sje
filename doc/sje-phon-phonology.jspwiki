@@ -5,12 +5,13 @@
  ; %^WG:0 : weak grade
  ; %^jDEL:0 : vowel deletion in front of j
  ; %^MONB4J:0 : e to á and o to u before j
- ; %^CDEL:0 : final consonant deletion (biednag)
+ ; %^CDEL:0 : final consonant c (biednag)
  ; %^MON:0 : Monophthong in contract stems
  ; %^LOW:0 : Lowering u to å and o (ålol)
  ; %^UAUML:0 : uo to uä juolge / juällge
  ; %^IEUML:0 : ie to ä etc. gielbar / gællbara
    %^IUML:0    * a to i, gallgat gillgin
+   %^IJ:0      * e to i in front of Plural j and Sg Com
 
 
 
@@ -106,7 +107,11 @@ __uO to ua in front of j__
 __uo - uä Umlaut__  
 
 
-! Monophthong rules !gör om denna
+! Monophthong rules 
+
+
+
+
 
 
 __u to å in odd stems__  
