@@ -66,7 +66,14 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Hyph
 +RCmpnd
 +Use/-Spell
-+CmpN/First
+
++CmpN/First     !!≈ * @CODE@ - ... can only be first part in a compound or alone
++CmpN/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
++CmpN/Last      !!≈ * @CODE@ - ... can only be last part in a compound or alone
++CmpN/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
++CmpN/None      !!≈ * @CODE@ - ... can not take part in compounds
++CmpN/Only      !!≈ * @CODE@ - ... can only be part of a compound, i.e. can never
+                !!                 be used alone, but can appear in any position
 
 +CLB +PUNCT +PAR +LEFT +RIGHT
 
