@@ -22,7 +22,7 @@
 
 
 LEXICON R
- @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RTags ; ! Flags to control compounding
+ @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@@D.CmpSuff.TRUE@@P.CmpSuff.TRUE@ RTags ; ! Flags to control compounding
 
 ! This is for regular compounding. All entries NOT requiring a hyphen should point to this:
 LEXICON RTags
@@ -41,7 +41,7 @@ LEXICON RTags
 
 
 LEXICON RHyph
- @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RTags ; ! Flags to control compounding
+ @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@@D.CmpSuff.TRUE@@P.CmpSuff.TRUE@ RTags ; ! Flags to control compounding
 
 ! This is for compounding with hyphen. All entries REQUIRING a hyphen should point to this:
 LEXICON RHyphTags ! Recursive lexicon from all classes REQUIRING a hyphen to follow.
