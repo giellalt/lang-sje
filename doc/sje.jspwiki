@@ -31,6 +31,14 @@ Semantic properties of names
 
 
 
+ * +CmpN/First - ... can only be first part in a compound or alone
+ * +CmpN/Pref - ... only __first__ part in a compound, NEVER alone
+ * +CmpN/Last - ... can only be last part in a compound or alone
+ * +CmpN/Suff - ... only __last__ part in a compound, NEVER alone
+ * +CmpN/None - ... can not take part in compounds
+ * +CmpN/Only - ... can only be part of a compound, i.e. can never
+                be used alone, but can appear in any position
+
 
  %^WG     * weak grade
  %^jDEL   * vowel deletion in front of j
@@ -69,6 +77,8 @@ do no harm.
  | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  | @P.CmpPref.FALSE@ | Block these words from making further compounds
  | @D.CmpLast.TRUE@ | Block such words from entering R
+ | @D.CmpSuff.TRUE@ | Block such words from entering R
+ | @P.CmpSuff.TRUE@ | Mark that we have passed R
  | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
