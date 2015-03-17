@@ -67,12 +67,14 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +RCmpnd
 +Use/-Spell
 
-+CmpN/First     !!≈ * @CODE@ - ... can only be first part in a compound or alone
-+CmpN/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
-+CmpN/Last      !!≈ * @CODE@ - ... can only be last part in a compound or alone
-+CmpN/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
-+CmpN/None      !!≈ * @CODE@ - ... can not take part in compounds
-+CmpN/Only      !!≈ * @CODE@ - ... can only be part of a compound, i.e. can never
+! This part of the component can ..
++CmpNP/All       !!≈ * @CODE@ - ... be in all positions, __default__, this tag does not have to be written
++CmpNP/First     !!≈ * @CODE@ - ... can only be first part in a compound or alone
++CmpNP/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
++CmpNP/Last      !!≈ * @CODE@ - ... can only be last part in a compound or alone
++CmpNP/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
++CmpNP/None      !!≈ * @CODE@ - ... can not take part in compounds
++CmpNP/Only      !!≈ * @CODE@ - ... can only be part of a compound, i.e. can never
                 !!                 be used alone, but can appear in any position
 
 +CLB +PUNCT +PAR +LEFT +RIGHT
@@ -155,5 +157,5 @@ LEXICON ENDLEX
    @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; !!≈ @CODE@
 !! }}}
 !! The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
-!! with +CmpN/Only to end here.
+!! with +CmpNP/Only to end here.
 !! The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
