@@ -60,5 +60,5 @@ LEXICON RHyphTags ! Recursive lexicon from all classes REQUIRING a hyphen to fol
                                                                  ! - want this in speller
 
 ! Proper noun compounds without hyphens are NOT presently covered - if they were
-! to be added, they need to be marked +Err/Sub. Examples: LondonHull & viessuLondon.
+! to be added, they need to be marked +Err/Orth. Examples: LondonHull & viessuLondon.
 

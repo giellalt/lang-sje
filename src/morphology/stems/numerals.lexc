@@ -1800,23 +1800,23 @@ LEXICON ARABICLOOPCOLL   !!= * __@CODE@__
 LEXICON ARABICDELIMITER   !!= * __@CODE@__
              ARABICCASE0 ; ! This is the 1984 case.
  :%:         ARABICCASE  ; ! This is the 1984:s case.
- +Err/Sub:   ARABICCASE  ; ! This is the 1984s case.
- +Err/Sub:%' ARABICCASE  ; ! This is the 1984's case.
- +Err/Sub:%- ARABICCASE  ; ! This is the 1984-s case.
+ +Err/Orth:   ARABICCASE  ; ! This is the 1984s case.
+ +Err/Orth:%' ARABICCASE  ; ! This is the 1984's case.
+ +Err/Orth:%- ARABICCASE  ; ! This is the 1984-s case.
 
 LEXICON ARABICDELIMITERORD   !!= * __@CODE@__
 ! :          ARABICCASE0   ; ! This is the 1984:s case.
  :%:         ARABICCASEORD ; ! This is the 1984:s case.
- +Err/Sub:   ARABICCASEORD ; ! This is the 1984s case.
- +Err/Sub:%' ARABICCASEORD ; ! This is the 1984's case.
- +Err/Sub:%- ARABICCASEORD ; ! This is the 1984-s case.
+ +Err/Orth:   ARABICCASEORD ; ! This is the 1984s case.
+ +Err/Orth:%' ARABICCASEORD ; ! This is the 1984's case.
+ +Err/Orth:%- ARABICCASEORD ; ! This is the 1984-s case.
 
 LEXICON ARABICDELIMITERCOLL   !!= * __@CODE@__
 !            ARABICCASE0    ; ! This is the 1984 case.
  :%:         ARABICCASECOLL ; ! This is the 1984:s case.
- +Err/Sub:   ARABICCASECOLL ; ! This is the 1984s case.
- +Err/Sub:%' ARABICCASECOLL ; ! This is the 1984's case.
- +Err/Sub:%- ARABICCASECOLL ; ! This is the 1984-s case.
+ +Err/Orth:   ARABICCASECOLL ; ! This is the 1984s case.
+ +Err/Orth:%' ARABICCASECOLL ; ! This is the 1984's case.
+ +Err/Orth:%- ARABICCASECOLL ; ! This is the 1984-s case.
 
                      		
 LEXICON ARABICCASE0   !!= * __@CODE@__
@@ -1826,31 +1826,31 @@ LEXICON ARABICCASE0   !!= * __@CODE@__
 
 
 LEXICON ARABICCASE   !!= * __@CODE@__
-  f+Sg+Nom+Err/Sub:f  # ; ! s. 123f.
- ff+Sg+Nom+Err/Sub:ff # ; ! s. 123ff.
-  b+Sg+Nom+Err/Sub:b  # ; ! § 123b
-  c+Sg+Nom+Err/Sub:c  # ; ! § 123c
-  d+Sg+Nom+Err/Sub:d  # ; ! § 123d
-  e+Sg+Nom+Err/Sub:e  # ; ! § 123e
+  f+Sg+Nom+Err/Orth:f  # ; ! s. 123f.
+ ff+Sg+Nom+Err/Orth:ff # ; ! s. 123ff.
+  b+Sg+Nom+Err/Orth:b  # ; ! § 123b
+  c+Sg+Nom+Err/Orth:c  # ; ! § 123c
+  d+Sg+Nom+Err/Orth:d  # ; ! § 123d
+  e+Sg+Nom+Err/Orth:e  # ; ! § 123e
 
- +Sg+Nom+Err/Sub:    # ;
- +Sg+Gen+Err/Sub:    # ;
+ +Sg+Nom+Err/Orth:    # ;
+ +Sg+Gen+Err/Orth:    # ;
 !+Sg+Acc:            # ;
- +Sg+Gen+Err/Sub:a   # ; !But here 123a 123
- +Sg+Acc+Err/Sub:av  # ;
+ +Sg+Gen+Err/Orth:a   # ; !But here 123a 123
+ +Sg+Acc+Err/Orth:av  # ;
  +Sg+Acc:%>v         # ;
  +Sg+Ill:%>j         # ;
- +Sg+Ill+Err/Sub:aj  # ;
+ +Sg+Ill+Err/Orth:aj  # ;
  +Sg+Ela:%>s         # ;
- +Sg+Ela+Err/Sub:is  # ;
- +Sg+Ela+Err/Sub:as  # ;
+ +Sg+Ela+Err/Orth:is  # ;
+ +Sg+Ela+Err/Orth:as  # ;
  +Sg+Ine:%>n         # ;
- +Sg+Ine+Err/Sub:in  # ;
- +Sg+Ine+Err/Sub:an  # ;
+ +Sg+Ine+Err/Orth:in  # ;
+ +Sg+Ine+Err/Orth:an  # ;
  +Sg+Com:%>jn        # ;
- +Sg+Com+Err/Sub:ajn # ;
+ +Sg+Com+Err/Orth:ajn # ;
  +Ess:%>n            # ;
- +Ess+Err/Sub:an     # ;
+ +Ess+Err/Orth:an     # ;
  +Pl+Gen:%>j   # ; !
  +Pl+Acc:%>jt  # ; !
  +Pl+Ill:%>jda # ; ! 100:iide čuđiide
@@ -2039,11 +2039,11 @@ LEXICON ROMNUMTAG   !!= * __@CODE@__
 ! +Num:   ROMNUMTAGOBL ;
 
 LEXICON ROMNUMTAGOBL   !!= * __@CODE@__
- +Gen+Err/Sub:a  # ; ! But here 123a 123
- +Acc+Err/Sub:av # ;
+ +Gen+Err/Orth:a  # ; ! But here 123a 123
+ +Acc+Err/Orth:av # ;
  +Ill:%>j        # ;
- +Ill+Err/Sub:ij # ;
- +Ill+Err/Sub:áj # ;
+ +Ill+Err/Orth:ij # ;
+ +Ill+Err/Orth:áj # ;
  +Ela:%>s        # ;
  +Ine:%>n        # ;
  +Com:%>jn       # ;

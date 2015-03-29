@@ -990,7 +990,7 @@ LEXICON nubbecase   !!= * __@CODE@__
  +Sg+Abe+Use/NG:e%>#dak # ; !
  +Sg+Abe+Use/NG:e%>#dagi # ; !
  +Sg+Abe+Use/NG:e%>#dagá # ; !
- +Sg+Abe+Err/Sub:e%>#tagá # ; !
+ +Sg+Abe+Err/Orth:e%>#tagá # ; !
  +Sg+Acc:e%>v # ;
  +Sg+Ela:e%>s # ;
  +Sg+Ine:e%>n # ;
@@ -1002,7 +1002,7 @@ LEXICON nubbecase   !!= * __@CODE@__
  +Pl+Abe+Use/NG:i%>j#dak # ; !
  +Pl+Abe+Use/NG:i%>j#dagi # ; !
  +Pl+Abe+Use/NG:i%>j#dagá # ; !
- +Pl+Abe+Err/Sub:i%>j#tagá # ; !
+ +Pl+Abe+Err/Orth:i%>j#tagá # ; !
  +Pl+Acc:i%>jt # ;
  +Pl+Ill:i%>jda # ;
  +Pl+Ine:i%>jn # ;

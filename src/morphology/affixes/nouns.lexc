@@ -71,7 +71,7 @@ N_EVEN_S ;
 :%^WG%^IJ%>j N_EVEN_J ;
 N_EVEN_ILL ;
 !+Sg+Com:%^WG%>j%^MONB4Jn K ;         !norm
-!+Sg+Com+Err/Sub:%^WG%>j%^MONB4Jna K ; !variant
+!+Sg+Com+Err/Orth:%^WG%>j%^MONB4Jna K ; !variant
 
 
 LEXICON N_EVEN_ILL
@@ -84,7 +84,7 @@ LEXICON N_EVEN_W
 +Sg+Gen:  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
-+Sg+Ela+Err/Sub:%>s K ;
++Sg+Ela+Err/Orth:%>s K ;
 +Sg+Ela:%>st K ;
 +Abe:%>dak K ; ! Norm
 !+Abe:%>htaka K ; ! Informants S and Bj 
@@ -95,19 +95,19 @@ LEXICON N_EVEN_J
 +Pl+Gen:    K ;
 +Pl+Acc:t   K ;
 +Pl+Ine:n   K ;
-+Pl+Ela+Err/Sub:s  K ;
++Pl+Ela+Err/Orth:s  K ;
 +Pl+Ela:st  K ; !norm
 +Pl+Ill:da  K ; 
 +Pl+Com:    K ;
 +Sg+Com:n K ;         !norm
-+Sg+Com+Err/Sub:na K ; !variant
++Sg+Com+Err/Orth:na K ; !variant
 
 ! LEXICON N_EVEN_B
 ! +Sg+Nom:%^UAUML%>e    K ;
 ! +Sg+Gen:%^WG%>e  K ;
 ! +Sg+Acc:%^WG%>ev  K ;
 ! +Sg+Ine:%^WG%>en K ;
-! +Sg+Ela+Err/Sub:%^WG%>es K ;
+! +Sg+Ela+Err/Orth:%^WG%>es K ;
 ! +Sg+Ela:%^WG%>est K ;
 ! +Sg+Ill:%>áj K ;
 ! +Abe:%^WG%>edak K ; ! Norm
@@ -117,7 +117,7 @@ LEXICON N_EVEN_J
 ! +Pl+Gen:%^WG%>ij    K ;
 ! +Pl+Acc:%^WG%>ijt   K ;
 ! +Pl+Ine:%^WG%>ijn   K ;
-! +Pl+Ela+Err/Sub:%^WG%>ijs  K ;
+! +Pl+Ela+Err/Orth:%^WG%>ijs  K ;
 ! +Pl+Ela:%^WG%>ijst  K ; !norm
 ! +Pl+Ill:%^WG%>ijda  K ; 
 ! +Pl+Com:%^WG%>ij    K ;
@@ -127,16 +127,16 @@ LEXICON N_EVEN_C
 +Sg+Gen:%>o  K ; ! trond
 +Sg+Acc:%>ov  K ;
 +Sg+Ine:%>on K ;
-+Sg+Ela+Err/Sub:%>os K ;
++Sg+Ela+Err/Orth:%>os K ;
 +Sg+Ela:%>ost K ;
 +Abe:%>odak K ; ! Norm
 +Pl+Nom:%>o  K ;
 +Sg+Com:%>ojn   K ; !norm
-+Sg+Com+Err/Sub:%>ojna  K ; !variant
++Sg+Com+Err/Orth:%>ojna  K ; !variant
 +Pl+Gen:%>oj    K ;
 +Pl+Acc:%>ojt   K ;
 +Pl+Ine:%>ojn   K ;
-+Pl+Ela+Err/Sub:%>ojs  K ;
++Pl+Ela+Err/Orth:%>ojs  K ;
 +Pl+Ela:%>ojst  K ; !norm
 +Pl+Ill:%>ojda  K ; 
 +Pl+Com:%>oj    K ;
@@ -236,7 +236,7 @@ LEXICON ODD_OBLIQUE_COMMON
 +Sg+Gen:a PX ;
 +Sg+Ill:ij PX ;
 +Sg+Ine:in PX ;
-+Sg+Ela+Err/Sub:is PX ; 
++Sg+Ela+Err/Orth:is PX ; 
 +Sg+Ela:ist PX ; 
 +Sg+Com:ijn PX ;
 +Ess:in PX ;
@@ -247,7 +247,7 @@ LEXICON ODD_OBLIQUE_COMMON
 +Pl+Gen:ij PX ;
 +Pl+Ill:ijda PX ;
 +Pl+Ine:ijn PX ;
-+Pl+Ela+Err/Sub:ijs PX ;
++Pl+Ela+Err/Orth:ijs PX ;
 +Pl+Ela:ijst PX ;
 +Pl+Com:ij PX ;
 
@@ -256,7 +256,7 @@ LEXICON ODD_OBLIQUE_A_COMMON
 +Sg+Gen:usa PX ;
 +Sg+Ill:usij PX ;
 +Sg+Ine:usin PX ;
-+Sg+Ela+Err/Sub:usis PX ; 
++Sg+Ela+Err/Orth:usis PX ; 
 +Sg+Ela:usist PX ; 
 +Sg+Com:usijn PX ;
 +Ess:usin PX ;
@@ -267,7 +267,7 @@ LEXICON ODD_OBLIQUE_A_COMMON
 +Pl+Gen:usij PX ;
 +Pl+Ill:usijda PX ;
 +Pl+Ine:usijn PX ;
-+Pl+Ela+Err/Sub:usijs PX ;
++Pl+Ela+Err/Orth:usijs PX ;
 +Pl+Ela:usijst PX ;
 +Pl+Com:usij PX ;
 
@@ -276,7 +276,7 @@ LEXICON ODD_OBLIQUE_B_COMMON
 +Sg+Gen:ása PX ;
 +Sg+Ill:ásij PX ;
 +Sg+Ine:ásin PX ;
-+Sg+Ela+Err/Sub:ásis PX ; 
++Sg+Ela+Err/Orth:ásis PX ; 
 +Sg+Ela:ásist PX ; 
 +Sg+Com:ásijn PX ;
 +Ess:ásin PX ;
@@ -287,7 +287,7 @@ LEXICON ODD_OBLIQUE_B_COMMON
 +Pl+Gen:ásij PX ;
 +Pl+Ill:ásijda PX ;
 +Pl+Ine:ásijn PX ;
-+Pl+Ela+Err/Sub:ásijs PX ;
++Pl+Ela+Err/Orth:ásijs PX ;
 +Pl+Ela:ásijst PX ;
 +Pl+Com:ásij PX ;
 
@@ -296,7 +296,7 @@ LEXICON ODD_OBLIQUE_C_COMMON
 +Sg+Gen:ha PX ;
 +Sg+Ill:hij PX ;
 +Sg+Ine:hin PX ;
-+Sg+Ela+Err/Sub:his PX ; 
++Sg+Ela+Err/Orth:his PX ; 
 +Sg+Ela:hist PX ; 
 +Sg+Com:hijn PX ;
 +Ess:hin PX ;
@@ -307,7 +307,7 @@ LEXICON ODD_OBLIQUE_C_COMMON
 +Pl+Gen:hij PX ;
 +Pl+Ill:hijda PX ;
 +Pl+Ine:hijn PX ;
-+Pl+Ela+Err/Sub:hijs PX ;
++Pl+Ela+Err/Orth:hijs PX ;
 +Pl+Ela:hijst PX ;
 +Pl+Com:hij PX ;
 
@@ -317,7 +317,7 @@ LEXICON ODD_OBLIQUE_F_COMMON
 +Sg+Gen:ga PX ;
 +Sg+Ill:gij PX ;
 +Sg+Ine:gin PX ;
-+Sg+Ela+Err/Sub:gis PX ; 
++Sg+Ela+Err/Orth:gis PX ; 
 +Sg+Ela:gist PX ; 
 +Sg+Com:gijn PX ;
 +Ess:gin PX ;
@@ -326,7 +326,7 @@ LEXICON ODD_OBLIQUE_F_COMMON
 +Pl+Gen:gij PX ;
 +Pl+Ill:gijda PX ;
 +Pl+Ine:gijn PX ;
-+Pl+Ela+Err/Sub:gijs PX ;
++Pl+Ela+Err/Orth:gijs PX ;
 +Pl+Ela:gijst PX ;
 +Pl+Com:gij PX ;
 
@@ -335,7 +335,7 @@ LEXICON ODD_OBLIQUE_D_COMMON
 +Sg+Gen:da PX ;
 +Sg+Ill:dij PX ;
 +Sg+Ine:din PX ;
-+Sg+Ela+Err/Sub:dis PX ; 
++Sg+Ela+Err/Orth:dis PX ; 
 +Sg+Ela:dist PX ; 
 +Sg+Com:dijn PX ;
 +Ess:din PX ;
@@ -344,7 +344,7 @@ LEXICON ODD_OBLIQUE_D_COMMON
 +Pl+Gen:dij PX ;
 +Pl+Ill:dijda PX ;
 +Pl+Ine:dijn PX ;
-+Pl+Ela+Err/Sub:dijs PX ;
++Pl+Ela+Err/Orth:dijs PX ;
 +Pl+Ela:dijst PX ;
 +Pl+Com:dij PX ;
 
@@ -353,7 +353,7 @@ LEXICON ODD_OBLIQUE_G_COMMON
 +Sg+Gen:ása PX ;
 +Sg+Ill:ásij PX ;
 +Sg+Ine:ásin PX ;
-+Sg+Ela+Err/Sub:ásis PX ; 
++Sg+Ela+Err/Orth:ásis PX ; 
 +Sg+Ela:ásist PX ; 
 +Sg+Com:ásijn PX ;
 +Ess:ásin PX ;
@@ -362,7 +362,7 @@ LEXICON ODD_OBLIQUE_G_COMMON
 +Pl+Gen:ásij PX ;
 +Pl+Ill:ásijda PX ;
 +Pl+Ine:ásijn PX ;
-+Pl+Ela+Err/Sub:ásijs PX ;
++Pl+Ela+Err/Orth:ásijs PX ;
 +Pl+Ela:ásijst PX ;
 +Pl+Com:ásij PX ;
 
@@ -371,7 +371,7 @@ LEXICON ODD_OBLIQUE_U_COMMON
 +Sg+Gen:u PX ;
 +Sg+Ill:uj PX ;
 +Sg+Ine:un PX ;
-+Sg+Ela+Err/Sub:us PX ; 
++Sg+Ela+Err/Orth:us PX ; 
 +Sg+Ela:ust PX ; 
 +Sg+Com:ujn PX ;
 +Ess:un PX ;
@@ -382,7 +382,7 @@ LEXICON ODD_OBLIQUE_U_COMMON
 +Pl+Gen:uj PX ;
 +Pl+Ill:ujda PX ;
 +Pl+Ine:ujn PX ;
-+Pl+Ela+Err/Sub:ujs PX ;
++Pl+Ela+Err/Orth:ujs PX ;
 +Pl+Ela:ujst PX ;
 +Pl+Com:uj PX ;
 
@@ -446,7 +446,7 @@ LEXICON ÅLMAAJ
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
 +N+Sg+Ine:án PX ;
-+N+Sg+Ela+Err/Sub:ás PX ;
++N+Sg+Ela+Err/Orth:ás PX ;
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;
@@ -457,7 +457,7 @@ LEXICON ÅLMAAJ
 +N+Pl+Gen:áj PX ;
 +N+Pl+Ill:ájda PX ;
 +N+Pl+Ine:ájn PX ;
-+N+Pl+Ela+Err/Sub:ájs PX ;
++N+Pl+Ela+Err/Orth:ájs PX ;
 +N+Pl+Ela:ájst PX ;
 +N+Pl+Com:áj PX ;
 
@@ -467,7 +467,7 @@ LEXICON ÅLMAAJ_A
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:uj PX ;
 +N+Sg+Ine:un PX ;
-+N+Sg+Ela+Err/Sub:us PX ;
++N+Sg+Ela+Err/Orth:us PX ;
 +N+Sg+Ela:ust PX ;
 +N+Sg+Com:ujn PX ;
 +N+Ess:un PX ;
@@ -478,7 +478,7 @@ LEXICON ÅLMAAJ_A
 +N+Pl+Gen:uj PX ;
 +N+Pl+Ill:ujda PX ;
 +N+Pl+Ine:ujn PX ;
-+N+Pl+Ela+Err/Sub:ujs PX ;
++N+Pl+Ela+Err/Orth:ujs PX ;
 +N+Pl+Ela:ujst PX ;
 +N+Pl+Com:uj PX ;
 
@@ -488,7 +488,7 @@ LEXICON ÅLMAAJ_AA
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:uj PX ;
 +N+Sg+Ine:un PX ;
-+N+Sg+Ela+Err/Sub:us PX ;
++N+Sg+Ela+Err/Orth:us PX ;
 +N+Sg+Ela:ust PX ;
 +N+Sg+Com:ujn PX ;
 +N+Ess:un PX ;
@@ -499,7 +499,7 @@ LEXICON ÅLMAAJ_AA
 +N+Pl+Gen:uj PX ;
 +N+Pl+Ill:ujda PX ;
 +N+Pl+Ine:ujn PX ;
-+N+Pl+Ela+Err/Sub:ujs PX ;
++N+Pl+Ela+Err/Orth:ujs PX ;
 +N+Pl+Ela:ujst PX ;
 +N+Pl+Com:uj PX ;
 
@@ -509,7 +509,7 @@ LEXICON ÅLMAAJ_B
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
 +N+Sg+Ine:án PX ;
-+N+Sg+Ela+Err/Sub:ás PX ;
++N+Sg+Ela+Err/Orth:ás PX ;
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;
@@ -519,7 +519,7 @@ LEXICON ÅLMAAJ_B
 +N+Pl+Gen:áj PX ;
 +N+Pl+Ill:ájda PX ;
 +N+Pl+Ine:ájn PX ;
-+N+Pl+Ela+Err/Sub:ájs PX ;
++N+Pl+Ela+Err/Orth:ájs PX ;
 +N+Pl+Ela:ájst PX ;
 +N+Pl+Com:áj PX ;
 
@@ -529,7 +529,7 @@ LEXICON ÅLMAAJ_C
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:uj PX ;
 +N+Sg+Ine:un PX ;
-+N+Sg+Ela+Err/Sub:us PX ;
++N+Sg+Ela+Err/Orth:us PX ;
 +N+Sg+Ela:ust PX ;
 +N+Sg+Com:ujn PX ;
 +N+Ess:un PX ;
@@ -540,7 +540,7 @@ LEXICON ÅLMAAJ_C
 +N+Pl+Gen:uj PX ;
 +N+Pl+Ill:ujda PX ;
 +N+Pl+Ine:ujn PX ;
-+N+Pl+Ela+Err/Sub:ujs PX ;
++N+Pl+Ela+Err/Orth:ujs PX ;
 +N+Pl+Ela:ujst PX ;
 +N+Pl+Com:uj PX ;
 
@@ -550,7 +550,7 @@ LEXICON ÅLMAAJ_D
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
 +N+Sg+Ine:án PX ;
-+N+Sg+Ela+Err/Sub:ás PX ;
++N+Sg+Ela+Err/Orth:ás PX ;
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;
@@ -561,7 +561,7 @@ LEXICON ÅLMAAJ_D
 +N+Pl+Gen:áj PX ;
 +N+Pl+Ill:ájda PX ;
 +N+Pl+Ine:ájn PX ;
-+N+Pl+Ela+Err/Sub:ájs PX ;
++N+Pl+Ela+Err/Orth:ájs PX ;
 +N+Pl+Ela:ájst PX ;
 +N+Pl+Com:áj PX ;
 
@@ -578,7 +578,7 @@ LEXICON BIENALONG
 +Sg+Gen:a PX ;
 +Sg+Ill:ij PX ;
 +Sg+Ine:in PX ;
-+Sg+Ela+Err/Sub:is PX ;
++Sg+Ela+Err/Orth:is PX ;
 +Sg+Ela:ist PX ;
 +Sg+Com:ijn PX ;
 +Ess:in PX ;
@@ -588,7 +588,7 @@ LEXICON BIENALONG
 +Pl+Gen:ij PX ;
 +Pl+Ill:ijda PX ;
 +Pl+Ine:ijn PX ;
-+Pl+Ela+Err/Sub:ijs PX ;
++Pl+Ela+Err/Orth:ijs PX ;
 +Pl+Ela:ijst PX ;
 +Pl+Com:ij PX ;
 
@@ -610,7 +610,7 @@ LEXICON CONTROBL
 +Sg+Gen:u PX ;
 +Sg+Ill:uj PX ;
 +Sg+Ine:un PX ;
-+Sg+Ela+Err/Sub:us PX ;
++Sg+Ela+Err/Orth:us PX ;
 +Sg+Ela:ust PX ;
 +Sg+Com:ujn PX ;
 +Abe:udak PX ;
@@ -619,7 +619,7 @@ LEXICON CONTROBL
 +Pl+Gen:uj PX ;
 +Pl+Ill:ujda PX ;
 +Pl+Ine:ujn PX ;
-+Pl+Ela+Err/Sub:ujs PX ;
++Pl+Ela+Err/Orth:ujs PX ;
 +Pl+Ela:ujst PX ;
 +Pl+Com:uj PX ;
 
