@@ -31,12 +31,13 @@ Semantic properties of names
 
 
 
- * +CmpN/First - ... can only be first part in a compound or alone
- * +CmpN/Pref - ... only __first__ part in a compound, NEVER alone
- * +CmpN/Last - ... can only be last part in a compound or alone
- * +CmpN/Suff - ... only __last__ part in a compound, NEVER alone
- * +CmpN/None - ... can not take part in compounds
- * +CmpN/Only - ... can only be part of a compound, i.e. can never
+ * +CmpNP/All - ... be in all positions, __default__, this tag does not have to be written
+ * +CmpNP/First - ... can only be first part in a compound or alone
+ * +CmpNP/Pref - ... only __first__ part in a compound, NEVER alone
+ * +CmpNP/Last - ... can only be last part in a compound or alone
+ * +CmpNP/Suff - ... only __last__ part in a compound, NEVER alone
+ * +CmpNP/None - ... can not take part in compounds
+ * +CmpNP/Only - ... can only be part of a compound, i.e. can never
                 be used alone, but can appear in any position
 
 
@@ -77,8 +78,6 @@ do no harm.
  | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  | @P.CmpPref.FALSE@ | Block these words from making further compounds
  | @D.CmpLast.TRUE@ | Block such words from entering R
- | @D.CmpSuff.TRUE@ | Block such words from entering R
- | @P.CmpSuff.TRUE@ | Mark that we have passed R
  | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
@@ -101,7 +100,7 @@ And this is the ENDLEX of everything:
  @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ;
 }}}
 The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
-with +CmpN/Only to end here.
+with +CmpNP/Only to end here.
 The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
 
 
