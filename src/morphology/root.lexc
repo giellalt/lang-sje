@@ -66,6 +66,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Hyph
 +RCmpnd
 +Use/-Spell
+ +Use/-PLX        !!≈ * @CODE@  Excluded in PLX speller
 
 ! This part of the component can ..
 +CmpNP/All       !!≈ * @CODE@ - ... be in all positions, __default__, this tag does not have to be written
