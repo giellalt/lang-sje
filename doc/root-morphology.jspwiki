@@ -19,6 +19,7 @@ Semantic properties of names
 
 
 
+ * +Use/-PLX  Excluded in PLX speller
 
  * +CmpNP/All - ... be in all positions, __default__, this tag does not have to be written
  * +CmpNP/First - ... can only be first part in a compound or alone
