@@ -1461,7 +1461,7 @@ LEXICON VUOSTASJ   !!= * __@CODE@__
  +Pl+Ela:%>ijs # ;                
  +Pl+Com:%>ij # ;                
  +Attr:%> # ;					
- +SgNomCmp: R ;
+ +Cmp/SgNom: R ;
 
 LEXICON TUVSÁNAT				   !!= * __@CODE@__
  +Sg+Nom:t%> # ;         
