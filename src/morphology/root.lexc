@@ -63,7 +63,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Err/Orth ! Not part of standard
 +Use/NG  ! Part of standard, but not generated
 +Use/Circ
-+Hyph
++Cmp/Hyph
 +Cmp/SplitR
 +Use/-Spell
  +Use/-PLX        !!≈ * @CODE@  Excluded in PLX speller
