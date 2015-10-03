@@ -37,7 +37,7 @@ LEXICON RTags
 ! +Use/Circ+Cmp%-#:%-# Numeral    ; ! maana-tv, "lomme-cd-spelar"
 ! +Use/Circ+Cmp%-#:%-# ProperNoun ; ! Proper nouns as the 2nd part of compounds for non-hyph.
                                     ! words. viessu-London goes through here.
-           +RCmpnd:%-  ENDLEX     ; ! This to take care of Oahpo- ja dutkandept - want this in speller
+           +Cmp/SplitR:%-  ENDLEX     ; ! This to take care of Oahpo- ja dutkandept - want this in speller
 
 
 LEXICON RHyph
@@ -56,7 +56,7 @@ LEXICON RHyphTags ! Recursive lexicon from all classes REQUIRING a hyphen to fol
                                                                  ! Hull-viessu
                                                                  ! is covered by RHyph + Noun.
 
-                         +RCmpnd:%- ENDLEX                     ; ! This to take care of Oahpo- ja dutkandept
+                         +Cmp/SplitR:%- ENDLEX                     ; ! This to take care of Oahpo- ja dutkandept
                                                                  ! - want this in speller
 
 ! Proper noun compounds without hyphens are NOT presently covered - if they were
