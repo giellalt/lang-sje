@@ -162,8 +162,8 @@ h:0  <=> Vow _ Cx: (j) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 !! __@RULENAME@__  
 h:0 <=> Vow+ _ t s Vow:+ (Cns:+) ( Dummy: ) WeG: ;
    
-!€ buhtts^WGoj
-!€ bå0ts0oj
+!!€ buhtts^WGoj
+!!€ bå0ts0oj
  
 "change unvoiced to voiced"
 !! __@RULENAME@__  
@@ -229,10 +229,10 @@ s:t <=> _ j2: .#. ;
 !! __@RULENAME@__  
  e:i <=> Cns _  %^WG:0 %^IJ:0 %>:0 j ;
  	
-!€ riehpe>jt
-!€ r0e0bi0jt
-!€ tjahppadubbo>jt
-!€ tjahppadubbo0jt
+!!€ riehpe>jt
+!!€ r0e0bi0jt
+!!€ tjahppadubbo>jt
+!!€ tjahppadubbo0jt
 
 "e to á in front of j"
 !! __@RULENAME@__  
@@ -244,23 +244,23 @@ e:á <=>  _ %>: j [ %^MONB4J:0 | %^MON: ] ;
 o:u <=>  Cns (Cns:)  _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 ! This rule works both for Ill (without the jDEL) and for Com Sg (with it)
 !fällo>felujn
-  !€ mánno>j^MONB4J
-  !€ männu0j0
+  !!€ mánno>j^MONB4J
+  !!€ männu0j0
 
 "u to o in odd stems"
 !! __@RULENAME@__  
 u:o <=> u: Cns:* _ Cns (Dummy:)  %^LOW:0 ;
 
- !€ ullul^WG^MONB4J
- !€ ål0ol
+ !!€ ullul^WG^MONB4J
+ !!€ ål0ol
 
 "Delete stem final a before e initial suffix"
 !! __@RULENAME@__  
 a:0 <=> _  (Dummy:) %>: e ;
         _ %^WG:0 %>: i ; 
 ! Examples ?? 4 hits in make check
-!€ blabla>en
-!€ blabl00en
+!!€ blabla>en
+!!€ blabl00en
 
 
 !! ! Diphthong rules
@@ -272,8 +272,8 @@ Vy:0 <=> Vx _ Cns:+ Vow: [ %^WG:0 %^IJ:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
            Vy in ( %^O )   ! e o
            matched ;
 ! ie-i, uo-u, u^O-u           
- !€ ju^Ollge^WG>j^MONB4Jn
- !€ ju0l0ge0j0n
+ !!€ ju^Ollge^WG>j^MONB4Jn
+ !!€ ju0l0ge0j0n
            
 
 "o deletion in in uo in front of j"
@@ -305,8 +305,8 @@ e:ä <=> i: _  G3 [o|e|á|a|å] (Cns) %^UAUML:0 ;
 "uo - uä Umlaut"
 !! __@RULENAME@__  
 %^O:ä <=> _ G3 e %^UAUML:0 ;
- !€ ju^Ollge^UAUML
- !€ juäll0ge0
+ !!€ ju^Ollge^UAUML
+ !!€ juäll0ge0
 
 
 !! ! Monophthong rules 
@@ -325,8 +325,8 @@ Vx:Vy <=> [Cns|#:] _ Cns:*  [:u|:i] (%^WG:0) %>: j %^MONB4J:0 ;
 "á to ä in ij forms"
  á:ä <=> _ Cns:+ Vow: %^WG:0 %^IJ:0 %>:0 j ;
 
-!€ ájjge^WG^IJ>j
-!€ äj0gi00j
+!!€ ájjge^WG^IJ>j
+!!€ äj0gi00j
 
 "u to å in odd stems"
 !! __@RULENAME@__  
