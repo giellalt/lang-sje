@@ -162,8 +162,8 @@ h:0  <=> Vow _ Cx: (j) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 !! __@RULENAME@__  
 h:0 <=> Vow+ _ t s Vow:+ (Cns:+) ( Dummy: ) WeG: ;
    
-!!€ buhtts^WGoj
-!!€ bå0ts0oj
+!!€ buhts^WG^LOWoj
+!!€ bå0ts00oj
  
 "change unvoiced to voiced"
 !! __@RULENAME@__  
@@ -229,10 +229,9 @@ s:t <=> _ j2: .#. ;
 !! __@RULENAME@__  
  e:i <=> Cns _  %^WG:0 %^IJ:0 %>:0 j ;
  	
-!!€ riehpe>jt
-!!€ r0e0bi0jt
-!!€ tjahppadubbo>jt
-!!€ tjahppadubbo0jt
+!!€ riehpe^WG^IJ>j^MONB4Jt
+!!€ r0e0bi000j0t
+
 
 "e to á in front of j"
 !! __@RULENAME@__  
@@ -249,7 +248,7 @@ o:u <=>  Cns (Cns:)  _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
 
 "u to o in odd stems"
 !! __@RULENAME@__  
-u:o <=> u: Cns:* _ Cns (Dummy:)  %^LOW:0 ;
+u:o <=>  Cns:* _ Cns (Dummy:)  %^LOW:0 ;
 
  !!€ ullul^WG^MONB4J
  !!€ ål0ol
@@ -283,7 +282,7 @@ o:0 <=> u _ Cns:* [Vow:* - a: ] %>: j %^MONB4J:0 ;
 
 "i deletion in ie in front of j and in ie:ä"
 !! __@RULENAME@__  
-i:0 <=> _ e: Cns:* Vow:* (%^WG:0) %>: (j) %^MONB4J:0 ;
+i:0 <=> _ e: Cns:* Vow:* (%^WG:0)(%^IJ:0) %>: (j) %^MONB4J:0 ;
         _ e: G3 [o|e|á|a|å] (Cns) %^UAUML:0 ;
 ! ie > e iello>elluj
 
@@ -326,7 +325,7 @@ Vx:Vy <=> [Cns|#:] _ Cns:*  [:u|:i] (%^WG:0) %>: j %^MONB4J:0 ;
  á:ä <=> _ Cns:+ Vow: %^WG:0 %^IJ:0 %>:0 j ;
 
 !!€ ájjge^WG^IJ>j
-!!€ äj0gi00j
+!!€ äj0gi000j
 
 "u to å in odd stems"
 !! __@RULENAME@__  
