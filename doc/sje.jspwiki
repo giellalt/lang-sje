@@ -42,19 +42,19 @@ Semantic properties of names
                 be used alone, but can appear in any position
 
 
- %^WG     * weak grade
- %^jDEL   * vowel deletion in front of j
- %^MONB4J  * e to á (before j), o to u before j
- %^CDEL    * Deleting final consonant, biednag
- %^MON     * Monophthong in contract
- %^LOW     * Lowering u to å and o (ålol)
- %^UAUML   * uo to uä juolge / juällge
- %^IEUML   * ie to ä etc. gielbar gællbara
- %^IUML    * a to i, gallgat gillgin
- %^IJ      * e to i in front of Plural j and Sg Com
+ ^WG     * weak grade
+ ^jDEL   * vowel deletion in front of j
+ ^MONB4J  * e to á (before j), o to u before j
+ ^CDEL    * Deleting final consonant, biednag
+ ^MON     * Monophthong in contract
+ ^LOW     * Lowering u to å and o (ålol)
+ ^UAUML   * uo to uä juolge / juällge
+ ^IEUML   * ie to ä etc. gielbar gællbara
+ ^IUML    * a to i, gallgat gillgin
+ ^IJ      * e to i in front of Plural j and Sg Com
 
  d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
- %^O       * o but ä in uä
+ ^O       * o but ä in uä
 
 {{{
   »7      * »
@@ -1322,8 +1322,8 @@ __Delete h__
 
 __Delete h before ts__  
 
-* __buhtts^WGoj__
-* __bå0ts0oj__
+* __buhts^WG^LOWoj__
+* __bå0ts00oj__
 
 __change unvoiced to voiced__  
 
@@ -1353,10 +1353,9 @@ __Fricative Auslautherdung__
 
 __Vowel Shortening e to i in Front of j-initial suffixes__  
 
-* __riehpe>jt__
-* __r0e0bi0jt__
-* __tjahppadubbo>jt__
-* __tjahppadubbo0jt__
+* __riehpe^WG^IJ>j^MONB4Jt__
+* __r0e0bi000j0t__
+
 
 __e to á in front of j__  
 
@@ -1395,7 +1394,7 @@ __uo - uä Umlaut__
 
 
 * __ájjge^WG^IJ>j__
-* __äj0gi00j__
+* __äj0gi000j__
 
 __u to å in odd stems__  
 
