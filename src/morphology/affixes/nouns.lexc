@@ -52,33 +52,33 @@ LEXICON N_EVEN_NOCG
 
 LEXICON N_EVEN ! giella
 +N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
-+N:%^WG N_EVEN_W ; ! CG here
++N:^WG N_EVEN_W ; ! CG here
 
 LEXICON N_EVEN_4 ! gonagassa
 +N: EVENCASE_4 ;
-+N:a%^WG N_EVEN_W ; ! CG here
++N:a^WG N_EVEN_W ; ! CG here
 
 LEXICON EVENCASE_4
-+Sg+Nom:%^CDEL K ;
++Sg+Nom:^CDEL K ;
 :a EVENOBLIQUE ;
 
 LEXICON EVENCASE
-+Sg+Nom:%^UAUML    K ;
++Sg+Nom:^UAUML    K ;
 EVENOBLIQUE ;
 
 LEXICON EVENOBLIQUE 
 N_EVEN_S ; 
-:%^WG%^IJ%>j N_EVEN_J ;
+:^WG^IJ%>j N_EVEN_J ;
 N_EVEN_ILL ;
-!+Sg+Com:%^WG%>j%^MONB4Jn K ;         !norm
-!+Sg+Com+Err/Orth:%^WG%>j%^MONB4Jna K ; !variant
+!+Sg+Com:^WG%>j^MONB4Jn K ;         !norm
+!+Sg+Com+Err/Orth:^WG%>j^MONB4Jna K ; !variant
 
 
 LEXICON N_EVEN_ILL
-+Sg+Ill:%>j%^MONB4J K ;
++Sg+Ill:%>j^MONB4J K ;
 
 LEXICON N_EVEN_S
-+Ess:%^UAUML%>n K ;
++Ess:^UAUML%>n K ;
 
 LEXICON N_EVEN_W
 +Sg+Gen:  K ;
@@ -103,24 +103,24 @@ LEXICON N_EVEN_J
 +Sg+Com+Err/Orth:na K ; !variant
 
 ! LEXICON N_EVEN_B
-! +Sg+Nom:%^UAUML%>e    K ;
-! +Sg+Gen:%^WG%>e  K ;
-! +Sg+Acc:%^WG%>ev  K ;
-! +Sg+Ine:%^WG%>en K ;
-! +Sg+Ela+Err/Orth:%^WG%>es K ;
-! +Sg+Ela:%^WG%>est K ;
+! +Sg+Nom:^UAUML%>e    K ;
+! +Sg+Gen:^WG%>e  K ;
+! +Sg+Acc:^WG%>ev  K ;
+! +Sg+Ine:^WG%>en K ;
+! +Sg+Ela+Err/Orth:^WG%>es K ;
+! +Sg+Ela:^WG%>est K ;
 ! +Sg+Ill:%>áj K ;
-! +Abe:%^WG%>edak K ; ! Norm
-! +Pl+Nom:%^WG%>e  K ;
-! +Sg+Com:%^WG%>ijn   K ; !norm
-! +Sg+Com:%^WG%>ijna  K ; !variant
-! +Pl+Gen:%^WG%>ij    K ;
-! +Pl+Acc:%^WG%>ijt   K ;
-! +Pl+Ine:%^WG%>ijn   K ;
-! +Pl+Ela+Err/Orth:%^WG%>ijs  K ;
-! +Pl+Ela:%^WG%>ijst  K ; !norm
-! +Pl+Ill:%^WG%>ijda  K ; 
-! +Pl+Com:%^WG%>ij    K ;
+! +Abe:^WG%>edak K ; ! Norm
+! +Pl+Nom:^WG%>e  K ;
+! +Sg+Com:^WG%>ijn   K ; !norm
+! +Sg+Com:^WG%>ijna  K ; !variant
+! +Pl+Gen:^WG%>ij    K ;
+! +Pl+Acc:^WG%>ijt   K ;
+! +Pl+Ine:^WG%>ijn   K ;
+! +Pl+Ela+Err/Orth:^WG%>ijs  K ;
+! +Pl+Ela:^WG%>ijst  K ; !norm
+! +Pl+Ill:^WG%>ijda  K ; 
+! +Pl+Com:^WG%>ij    K ;
 ! +Ess:%>en K ;
 
 LEXICON N_EVEN_C
@@ -146,48 +146,48 @@ LEXICON N_EVEN_C
 ! ------------
 
 LEXICON N_ODD_VV
-+N+Sg+Nom:%^MONB4J PX ;
++N+Sg+Nom:^MONB4J PX ;
 +N: ODD_OBLIQUE ;
 
 LEXICON N_ODD_CG 
-+N+Sg+Nom:%^WG PX ;
-+N:%^UAUML ODD_OBLIQUE ;
++N+Sg+Nom:^WG PX ;
++N:^UAUML ODD_OBLIQUE ;
 
 LEXICON N_ODD_CG_F 
-+N+Sg+Nom:%^WGes PX ;
++N+Sg+Nom:^WGes PX ;
 +N: ODD_OBLIQUE_B ;
 
 LEXICON N_ODD_CG_A !ex. judos, fungerar ej
-+N+Sg+Nom:%^WGos PX ;
++N+Sg+Nom:^WGos PX ;
 +N: ODD_OBLIQUE_A_COMMON ;
 
 LEXICON N_ODD_CG_H 
-+N+Sg+Nom:%^WGes PX ;
++N+Sg+Nom:^WGes PX ;
 +N: ODD_OBLIQUE_G_COMMON ;
 
 LEXICON N_ODD_CG_B 
 
-+N+Sg+Nom:%^WG PX ;
++N+Sg+Nom:^WG PX ;
 +N: ODD_OBLIQUE ;
 
 LEXICON N_ODD_CG_C 
-+N+Sg+Nom:%^WGj PX ;
++N+Sg+Nom:^WGj PX ;
 +N: ODD_OBLIQUE_C ;
 
 LEXICON N_ODD_CG_I 
-+N+Sg+Nom:%^WG PX ;
++N+Sg+Nom:^WG PX ;
 +N: ODD_OBLIQUE_C ;
 
 LEXICON N_ODD_CG_D 
-+N+Sg+Nom:%^WGk PX ;
++N+Sg+Nom:^WGk PX ;
 +N: ODD_OBLIQUE_F ;
 
 LEXICON N_ODD_CG_E 
-+N+Sg+Nom:%^WG PX ;
++N+Sg+Nom:^WG PX ;
 +N: ODD_OBLIQUE_E ;
 
 LEXICON N_ODD_CG_VV
-+N+Sg+Nom:%^WG%^LOW PX ;
++N+Sg+Nom:^WG^LOW PX ;
 +N: ODD_OBLIQUE ;
 
 LEXICON N_ODD
@@ -395,12 +395,12 @@ LEXICON ODD_OBLIQUE_U_COMMON
 ! initial contlex
 
 LEXICON SARVES
- +N:%^WG SARVES-NE ;
- +N:%^MON CONTR-OTH ;
+ +N:^WG SARVES-NE ;
+ +N:^MON CONTR-OTH ;
 
 LEXICON SUOLOJ
- +N:%^WG SUOLOJ-NE ;
- +N:%^MON CONTR-OTH ;
+ +N:^WG SUOLOJ-NE ;
+ +N:^MON CONTR-OTH ;
 
 
 ! ne contlex
@@ -441,7 +441,7 @@ LEXICON N_CONTR_C_D
 ÅLMAAJ_D ; 
 
 LEXICON ÅLMAAJ
-+N+Sg+Nom:%^WGáj PX ;
++N+Sg+Nom:^WGáj PX ;
 +N+Sg+Acc:áv PX ;
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
@@ -450,7 +450,7 @@ LEXICON ÅLMAAJ
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;
-+N+Ess:%^WGán PX ;
++N+Ess:^WGán PX ;
 +N+Abe:ádak PX ; ! XXX
 +N+Pl+Nom:á PX ;
 +N+Pl+Acc:ájt PX ;
@@ -462,7 +462,7 @@ LEXICON ÅLMAAJ
 +N+Pl+Com:áj PX ;
 
 LEXICON ÅLMAAJ_A
-+N+Sg+Nom:o%^WG%^LOWj PX ;
++N+Sg+Nom:o^WG^LOWj PX ;
 +N+Sg+Acc:uv PX ;
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:uj PX ;
@@ -471,7 +471,7 @@ LEXICON ÅLMAAJ_A
 +N+Sg+Ela:ust PX ;
 +N+Sg+Com:ujn PX ;
 +N+Ess:un PX ;
-+N+Ess:%^WGun PX ;
++N+Ess:^WGun PX ;
 +N+Abe:udak PX ; ! XXX
 +N+Pl+Nom:u PX ;
 +N+Pl+Acc:ujt PX ;
@@ -483,7 +483,7 @@ LEXICON ÅLMAAJ_A
 +N+Pl+Com:uj PX ;
 
 LEXICON ÅLMAAJ_AA
-+N+Sg+Nom:o%^WGj PX ;
++N+Sg+Nom:o^WGj PX ;
 +N+Sg+Acc:uv PX ;
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:uj PX ;
@@ -492,7 +492,7 @@ LEXICON ÅLMAAJ_AA
 +N+Sg+Ela:ust PX ;
 +N+Sg+Com:ujn PX ;
 +N+Ess:un PX ;
-+N+Ess:%^WGun PX ;
++N+Ess:^WGun PX ;
 +N+Abe:udak PX ; ! XXX
 +N+Pl+Nom:u PX ;
 +N+Pl+Acc:ujt PX ;
@@ -504,7 +504,7 @@ LEXICON ÅLMAAJ_AA
 +N+Pl+Com:uj PX ;
 
 LEXICON ÅLMAAJ_B
-+N+Sg+Nom:%^WGes PX ;
++N+Sg+Nom:^WGes PX ;
 +N+Sg+Acc:áv PX ;
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
@@ -533,7 +533,7 @@ LEXICON ÅLMAAJ_C
 +N+Sg+Ela:ust PX ;
 +N+Sg+Com:ujn PX ;
 +N+Ess:un PX ;
-+N+Ess:%^WGun PX ;
++N+Ess:^WGun PX ;
 +N+Abe:udak PX ; ! XXX
 +N+Pl+Nom:u PX ;
 +N+Pl+Acc:ujt PX ;
@@ -545,7 +545,7 @@ LEXICON ÅLMAAJ_C
 +N+Pl+Com:uj PX ;
 
 LEXICON ÅLMAAJ_D
-+N+Sg+Nom:%^WGá PX ;
++N+Sg+Nom:^WGá PX ;
 +N+Sg+Acc:áv PX ;
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
@@ -554,7 +554,7 @@ LEXICON ÅLMAAJ_D
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
 +N+Ess:án PX ;
-+N+Ess:%^WGán PX ;
++N+Ess:^WGán PX ;
 +N+Abe:ádak PX ; ! XXX
 +N+Pl+Nom:á PX ;
 +N+Pl+Acc:ájt PX ;
@@ -570,7 +570,7 @@ LEXICON N_ODD_NOCG
 +N: ODD_OBLIQUE ;
 
 LEXICON BIENA
-+N:%^WG%^CDEL BIENASHORT ;
++N:^WG^CDEL BIENASHORT ;
 +N: BIENALONG ;
 
 LEXICON BIENALONG
@@ -603,7 +603,7 @@ LEXICON N_CONTR
 +N: CONTROBL ;
 
 LEXICON CONTRNOMSG
-+Sg+Nom:oj%^MONB4J K ;
++Sg+Nom:oj^MONB4J K ;
  
 LEXICON CONTROBL 
 +Sg+Acc:uv PX ;

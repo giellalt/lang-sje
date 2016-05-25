@@ -61,14 +61,14 @@ sjnuttjo A_EVEN_NOCG_S ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
 sägge:siegge A_EVEN_NOCG_SS ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
-tjábbe:tjább A_EVEN_BB ; !
+tjábbe:tjábbe A_EVEN_BB ; !
 tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 
 
 tjähppe:tjiehppe A_EVEN_B ; !
 uhttse A_EVEN_B ; !
-unne:unn A_EVEN_BB ; !superlativ funkar ej
+unne A_EVEN_BB ; !superlativ funkar ej
 vájjve A_EVEN_B ;
 vallje A_EVEN_B ;
 vasste A_EVEN_B ;
