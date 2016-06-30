@@ -323,9 +323,7 @@ Splitting in 3 groups, because of the preprocessor
 
 
 
- * __!LEXICON ab   __  No POS, don't know what pos
 
- * __!LEXICON ab-noun-adj   __
 
  * __LEXICON ab-dot-noun-adj   __
 
@@ -337,7 +335,6 @@ Splitting in 3 groups, because of the preprocessor
 
  * __LEXICON ab-num   __
 
- * __!LEXICON ab-cc   __
 
 
 
@@ -365,10 +362,8 @@ Here come POS and Case tags, and no period.
 
 
 
- * __!LEXICON ab-verb   __  A lexicon for "gč." and perhaps also other abbreviated verbs.
  * __LEXICON ab-dot-verb   __
 
- * __!LEXICON ab-nodot-verb   __
 
 
 
@@ -1306,7 +1301,6 @@ __Consonant Gradation for xdn:xn__
 
 
 
-__Consonant Gradation for xdn:xn__  ACS: hddj finst inte, httj finst
 
 __Consonant Gradation for hxx:hx__  
 
@@ -1331,7 +1325,6 @@ __Consonant Gradation for xN:N__
 
 
 
-__Consonant Gradation for xN:N__  
 
 
 
@@ -1401,8 +1394,6 @@ __u to å in odd stems__
 
 
 
-__u to å in odd stems__  
-__u to å in odd stems__  
 
 
 
