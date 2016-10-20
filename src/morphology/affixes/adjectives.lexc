@@ -28,10 +28,10 @@ LEXICON A_EVEN_A !!= * @CODE@ (koden betyder att allt vänster om sparas i dokum
 			A_EVEN  ;
 +A:^WG 	COMPSUP ;
 
-LEXICON A_EVEN_AA !!= * @CODE@ är likastaviga ocskå med a-attr ???!!
-+A+Attr:^WG%>a #		; !fungerar ej, kolla
-+A: A_EVEN ;
-+A:^WG COMPSUP ; 
+!LEXICON A_EVEN_AA !!= * @CODE@ är likastaviga ocskå med a-attr ???!!
+!+A+Attr:^WG%>a #		; !fungerar ej, kolla
+!+A: A_EVEN ;
+!+A:^WG COMPSUP ; 
 
 LEXICON A_EVEN_BB !!= * @CODE@ är likastaviga ocskå med a-attr ???!!
 +A+Attr:%>a # ;
@@ -48,10 +48,10 @@ LEXICON A_EVEN_B !!= * @CODE@
 A_EVEN ;
 +A:^WG COMPSUP ;
 
-LEXICON A_EVEN_C !!= * @CODE@ nominativ fungerar ej
-+A+Attr: # ;
-+A: A_EVEN ; !ska denna ändras så att den kan böja ss:s
-+A: COMPSUP ;
+!LEXICON A_EVEN_C !!= * @CODE@ nominativ fungerar ej
+!+A+Attr: # ;
+!+A: A_EVEN ; !ska denna ändras så att den kan böja ss:s
+!+A: COMPSUP ;
 
 LEXICON A_EVEN_D !!= * @CODE@ ex. almelatj:almelatja, nominativ och attributiv fungerar ej
 +A+Attr: # ;

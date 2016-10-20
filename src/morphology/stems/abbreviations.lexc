@@ -44,9 +44,9 @@ TRAB ;
 ! ab-noun ;
 ! ab-adj ;
 
-LEXICON ab-dot-noun-adj   !!= * __@CODE@__
-ab-dot-noun ;
-ab-dot-adj ;
+!LEXICON ab-dot-noun-adj   !!= * __@CODE@__
+!ab-dot-noun ;
+!ab-dot-adj ;
 
 LEXICON ab-noun   !!= * __@CODE@__
 ab-nodot-noun ;

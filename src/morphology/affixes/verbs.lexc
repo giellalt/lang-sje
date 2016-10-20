@@ -177,8 +177,8 @@ LEXICON IJOPT                !!= * @CODE@
 
 !! !!!Main verbs
 
-LEXICON SLADDJIT
-BÅHTET ;
+!LEXICON SLADDJIT
+!BÅHTET ;
 
 LEXICON ÅRROT !omljud framför u är ej inlagt, stadieväxlingen rr:r fungerar ej det blir rr i alla former
 +V:     ÅRROT_S ;
@@ -231,15 +231,15 @@ LEXICON BALLAT
 +V:     BALLAT_S ;
 +V:a^WG BALLAT_W ;
 
-LEXICON VADTSAAT
-+V:     VADTSAAT_S ;
-+V:^WG VADTSAAT_W ;
-
-LEXICON VADTSAAT_S
-BALLAT_S ;
-
-LEXICON VADTSAAT_W
-BALLAT_W ;
+!LEXICON VADTSAAT
+!+V:     VADTSAAT_S ;
+!+V:^WG VADTSAAT_W ;
+!
+!LEXICON VADTSAAT_S
+!BALLAT_S ;
+!
+!LEXICON VADTSAAT_W
+!BALLAT_W ;
 
 
 LEXICON LÅHKÅT
