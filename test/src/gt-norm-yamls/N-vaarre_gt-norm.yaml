@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - várre: # -even with CG and final-V
+    várre+N+Sg+Nom: várre
+    várre+N+Sg+Gen: váre
+    várre+N+Sg+Acc: várev
+    várre+N+Sg+Ill: várráj
+    várre+N+Sg+Ine: váren
+    várre+N+Sg+Ela: várest
+    várre+N+Sg+Com: várejn
+    várre+N+Pl+Nom: váre
+    várre+N+Pl+Gen: värij
+    várre+N+Pl+Acc: värijd
+    várre+N+Pl+Ill: värijda
+    várre+N+Pl+Ine: värijn
+    várre+N+Pl+Ela: värijst
+    várre+N+Pl+Com: värij
+    várre+N+Ess: várren
+#    várre+N+Abe: váredak #?uncertain
+
+ 
+ 
