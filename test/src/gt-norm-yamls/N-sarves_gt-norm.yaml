@@ -21,7 +21,7 @@ Tests:
     sarves+N+Sg+Com: sarrvájn
     sarves+N+Pl+Nom: sarrvá
     sarves+N+Pl+Gen: sarrváj
-    sarves+N+Pl+Acc: sarrvájt
+    sarves+N+Pl+Acc: sarrvájd
     sarves+N+Pl+Ill: sarrvájda
     sarves+N+Pl+Ine: sarrvájn
     sarves+N+Pl+Ela: sarrvájst
@@ -30,6 +30,7 @@ Tests:
     sarves+N+Abe: sarrvádak
 
 
+#JW: why is this here?
   Noun - vanas: # Korttest: -udda med stv men utan vokalv
     vanas+N+Sg+Nom: vanas
     vanas+N+Sg+Gen: vadnasa
