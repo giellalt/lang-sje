@@ -20,6 +20,7 @@
 # List any local filter regex files here:
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					downcase_UCletters.regex \
+					remove-norm-comp-tags.regex \
 					remove-rel_focus-strings.regex
 
 # List any local filter xfscript files here:
