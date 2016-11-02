@@ -51,9 +51,9 @@ Alphabet
 ;
 
 Sets
-  Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å á é í ó ú ; !where is ŋ?
-  Cns    =   b c d   f g h     j k l m n   p q r s t   v w x   z                     ;
-  Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú 
+  Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú ; !where is ŋ?
+  Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     ;
+  Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   WeG    =  %^WG %^jDEL ;
   Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON %^UAUML %^IUML %^IJ ;
