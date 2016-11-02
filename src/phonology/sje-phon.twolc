@@ -51,7 +51,7 @@ Alphabet
 ;
 
 Sets
-  Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å á é í ó ú ;
+  Letter = a b c d e f g h i ï j k l m n o p q r s t u v w x y z æ ä ø ö å á é í ó ú ; !where is ŋ?
   Cns    =   b c d   f g h     j k l m n   p q r s t   v w x   z                     ;
   Vow    = a       e       i ï           o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
@@ -191,6 +191,7 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 ! This does not work as intended:
 ! The idea was to make a tolerant version of the analyser, 
 ! accepting both xxy and xyy.
+! no longer necessary, even Steggo writes xxy now.
 
 
 
@@ -203,18 +204,18 @@ Cx:0 <=> _ (Dummy:) %^CDEL: ;
 	where Cx in ( b d g s ) ; 
 
 
-"Auslautherdung"
+"Auslautverhärtung"
 !! __@RULENAME@__  
 Cx:Cy <=> _ .#. ;
     where Cx in ( d2 h2 g2 )
           Cy in ( t  j  k  )
           matched ;
 
-"Word Final Consonant Cluster Simplification"
+"Word Final Consonant Cluster Simplification" !st-s (eg. elat) variation (descriptive, not normative)
 !! __@RULENAME@__  
 t2:0 <=> s _ .#. ;
 
-"Fricative Auslautherdung"
+"Fricative Auslautverhärtung" !variation (eg. dim-suffix) (descriptive, not normative)
 !! __@RULENAME@__  
 s:t <=> _ j2: .#. ;
 
@@ -275,7 +276,7 @@ Vy:0 <=> Vx _ Cns:+ Vow: [ %^WG:0 %^IJ:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
  !!€ ju0l0ge0j0n
            
 
-"o deletion in in uo in front of j"
+"o deletion in uo in front of j"
 !! __@RULENAME@__  
 o:0 <=> u _ Cns:* [Vow:* - a: ] %>: j %^MONB4J:0 ;
 ! uo > u, not a-stems, muorraj
