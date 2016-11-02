@@ -13,7 +13,7 @@
 
 !! !!!Pite Saami nouns
 
-LEXICON Noun   !!= * __@CODE@__ är huvudlexikonet
+LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 
 !! !!Minigrammatik
 
@@ -21,14 +21,14 @@ LEXICON Noun   !!= * __@CODE@__ är huvudlexikonet
 !! * dållå: # -å-stammar	 N_EVEN
 !! * juällge: # -e-stammar N_EVEN
 !! * iello: # -o-stammar	 N_EVEN
-!! * bunndi: # -i-stammar	 N_EVEN
+! !! * bunndi: # -i-stammar	 N_EVEN   !JW: this class doesn't exist
 !! * åbbá: # utan stv N_EVEN_NOCG
 
 !! * almatj: # -udda utan stv och vokalv	 N_ODD
 !! * ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
 !! * vanas: # -udda med stv men utan vokalv N_ODD_CG
-!! * ?????: # -udda utan stv men med vokalv N_ODD_VV
-!! * bena: # -udda med stv och vokalslut	 BIENA
+!! * guobbar: # -udda utan stv men med vokalv N_ODD_VV
+!! * biena: # -udda med stv och vokalslut	 BIENA
 
 !! * ålmáj: # -kontrakta med stv och utan vokf SUOLOJ
 !! * båtsoj: # -kontrakta med stv och med vokf			 SUOLOJ
@@ -103,7 +103,7 @@ guabbla:gu^Obbla N_EVEN "bl" ;
 guarrba:gu^Orrba N_EVEN "rb" ;
 
 gummo:gum'mo N_EVEN_NOCG "mm gumma" ;
-guobbar:guobbar N_ODD "svamp" ;
+guobbar:guobbar N_ODD_VV "svamp" ;
 guohper:guohper N_ODD "klöv" ;
 guosmak:guassma N_ODD_CG_D "ssm kaffe" ; !nominativ sg. fungerar ej
 gusamällke:gusa#miellke N_EVEN "l komjölk" ;
