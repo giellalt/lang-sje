@@ -78,6 +78,7 @@ bärdna:bierdna N_EVEN "rn björn" ;
 bässe:bies'se N_EVEN_NOCG "ss näver" ;
 bävvde:bievvde N_EVEN "vd bord" ;
 dálkas:dállkas N_ODD_CG "medicin" ; 
+bägge:biegge N_EVEN "vind" ;
 
 dimbar:dimmbar N_ODD_CG "mmb" ;
 duädde:du^Od'de N_EVEN_NOCG ;
