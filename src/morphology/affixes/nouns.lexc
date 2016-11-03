@@ -145,9 +145,9 @@ LEXICON N_EVEN_C
 ! odd-syllabic
 ! ------------
 
-!LEXICON N_ODD_VV
-!+N+Sg+Nom:^MONB4J PX ;
-!+N: ODD_OBLIQUE ;
+LEXICON N_ODD_VV
++N+Sg+Nom:^MONB4J PX ;
++N: ODD_OBLIQUE ;
 
 LEXICON N_ODD_CG 
 +N+Sg+Nom:^WG PX ;
@@ -626,5 +626,6 @@ LEXICON BIENASHORT
 !
 LEXICON PX
 # ;
+
 
 
