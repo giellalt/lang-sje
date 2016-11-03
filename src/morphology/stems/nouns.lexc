@@ -22,7 +22,7 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! * juällge: # -e-stammar N_EVEN
 !! * iello: # -o-stammar	 N_EVEN
 ! !! * bunndi: # -i-stammar	 N_EVEN   !JW: this class doesn't exist
-!! * åbbá: # utan stv N_EVEN_NOCG
+!! * åbbá: # utan stv N_EVEN_NOCG	!JW: does this really need a special class?
 
 !! * almatj: # -udda utan stv och vokalv	 N_ODD
 !! * ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
@@ -45,7 +45,9 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 
 
 
- 
+bäjjve:biejjve N_EVEN "jv dag, sol" ;
+
+
 ájádus:ájáduss N_EVEN_4 "s tanke, mening" ; !funkar
 ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ; !funkar
 ájlek:ájle N_ODD_G "söndag" ;
@@ -69,7 +71,6 @@ buallva:bu^Ollva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fung
 båtsoj:buhtts N_CONTR_C_A "ren" ; !nominativformen fungerar ej
 båttkå:båttkå N_EVEN "tk" ;
 bäbbmo:biebbmo N_EVEN "bm mat" ; 
-bäjjve:biejjve N_EVEN "jv dag, sol" ;
 bäjjsko:biejjsko N_EVEN "jsk" ;
 bähkke:biehkke N_EVEN "hk bit" ; !stadieväxling fungerar, i-former fungerar ej
 bäŋŋka:bieŋŋka N_EVEN "ŋk" ;
