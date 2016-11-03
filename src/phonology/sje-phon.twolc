@@ -294,18 +294,6 @@ Vx:Vy <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sáb
           Vy in ( i u )
           matched ; 
 
-!!€ sábme^WG^IJ>j
-!!€ sä0mi000j
-!!€ iello^WG^IJ>j
-!!€ 0el0u000j
-!!€ ållge^WG
-!!€ ål0ge0
-!!€ ju^Ollge^WG
-!!€ juol0ge0
-!!€ ju^Ollge^WG^IJ>j
-!!€ ju0l0gi000j
-
-
 !! ! metaphony
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
@@ -315,13 +303,57 @@ Vx:Vy <=> [.#.|Cns] _ Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !guolle<->gulij juällge
           Vy in ( ä i e u )
           matched ; 
 
-"Special VH for ie" ! ie:0e
-!! __@RULENAME@__  
-i:0 <=> Cns:* _ e Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello<->elluj
-
-"Special regressive vowel height assimilation for u^O in V1 with i/u in V2" ! u^O:u0
+"Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
 %^O:0 <=> Cns:* u _ Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !juällge<->julgij
+
+"Special VH for ie" ! ie:0e
+!! __@RULENAME@__  
+i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
+		Cns:* _ e:ä G3 ; !biegga->b0ägga
+
+"Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
+!! __@RULENAME@__  
+%^O:a <=>  Cns:* u _ G3 ; ! use ^G3?? ^UAUML?? ?better way to write at least 2 Cns?
+
+"Special UÄ in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
+!! __@RULENAME@__  
+%^O:ä <=>  Cns:* u _ G3 :e ; ! use ^G3?? ^UAUML?? ?better way to write at least 2 Cns?
+
+"Ä in G3" ! ie:0ä (bägge, bävvde); can be word-initial
+!! __@RULENAME@__  
+e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
+
+"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolátj
+!! __@RULENAME@__  
+e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^MONB4J:0 ;
+
+!
+! gen.pl
+!!€ ju^Ollge^WG^IJ>j
+!!€ ju0l0gi000j
+! ill.sg
+!!€ ju^Ollge^UAUML>j^MONB4J
+!!€ juallgá00j0
+! nom.sg
+!!€ ju^Ollge^UAUML
+!!€ juällge0
+! nom.pl
+!!€ ju^Ollge^WG
+!!€ juol0ge0
+
+!!€ sábme>j^MONB4J
+!!€ sábmá0j0
+!!€ sábme^WG^IJ>j
+!!€ sä0mi000j
+!!€ iello^WG^IJ>j
+!!€ 0el0u000j
+!!€ ållge^WG
+!!€ ål0ge0
+!!€ lu^Okkta^UAUML
+!!€ luakkta0
+!!€ bievvde^UAUML
+!!€ b0ävvde0
 
 
 !!€ a
