@@ -14,7 +14,7 @@ Tests:
     iello+N+Sg+Nom: iello
     iello+N+Sg+Gen: ielo
     iello+N+Sg+Acc: ielov
-    iello+N+Sg+Ill: elluj
+    iello+N+Sg+Ill: [elluj, ielloj]
     iello+N+Sg+Ine: ielon
     iello+N+Sg+Ela: ielost
     iello+N+Sg+Com: [elujn, elujna] # TT: ok? JW: valid for all Sg+Com
