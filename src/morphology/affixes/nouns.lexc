@@ -75,7 +75,7 @@ N_EVEN_ILL ;
 
 
 LEXICON N_EVEN_ILL
-+Sg+Ill:%>j^MONB4J K ;
++Sg+Ill:%>j^MONB4J K ; !why MONB4J ? monophthong before j? (V2 e->á in ill.sg, dim)
 
 LEXICON N_EVEN_S
 +Ess:^UAUML%>n K ;
