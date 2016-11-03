@@ -131,7 +131,6 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) WeG: ;
 
 ! !!€ buvdna^WG
 ! !!€ buv0na0
-! 
 ! ! fake word!
 ! !!€ skåldnjeg^WG^CDEL
 ! !!€ skål0nje000
@@ -144,11 +143,9 @@ Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) WeG: ;
      
 ! !!€ dållå^WG
 ! !!€ dål0å0
-! 
 ! ! suoŋŋer:suoŋŋer N_ODD ;
 ! !!€ suoŋŋer^WG
 ! !!€ suoŋ0er0
-! 
 ! ! tjála:tjállag BIENA "skrift" ;
 ! !!€ tjállag^WG^CDEL
 ! !!€ tjál0a000
@@ -163,7 +160,6 @@ Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) WeG: ;
 
 ! !!€ lu^Okkta^WG
 ! !!€ luok0ta0
-! 
 ! ! fake word:
 ! !!€ lu^Okktag^WG^CDEL
 ! !!€ luok0ta000
@@ -190,10 +186,8 @@ h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) WeG: ;
 
 ! !!€ dåhpe^WG
 ! !!€ då0be0
-! 
 ! !!€ råhtje^WG
 ! !!€ rå0tje0
-! 
 ! !!€ råhtse^WG
 ! !!€ rå0tse0
 
@@ -215,7 +209,6 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) WeG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) 
 
 ! !!€ dåhpe^WG
 ! !!€ då0be0
-! 
 ! !!€ råhtje^WG
 ! !!€ rå0tje0
 
@@ -255,7 +248,6 @@ Cx:0 <=> _ (Dummy:) %^CDEL: ;
 
 ! !!€ riehpeh^WG^CDEL
 ! !!€ rie0be000
-! 
 ! !!€ biednag^WG^CDEL
 ! !!€ bie0na000
 
@@ -271,7 +263,6 @@ Cx:Cy <=> _ .#. ;
 ! !!€ árrat
 ! !!€ árrad2e
 ! !!€ árrade
-! 
 ! !!€ unneb2
 ! !!€ unnep
 
@@ -284,163 +275,56 @@ t2:0 <=> s _ .#. ;
 ! !!€ buris0
 
 
-"Fricative Auslautverhärtung" ! variation! (eg. dim-suffix) (descriptive, not normative) (sj -> tj word-finally)
+"Fricative Auslautverhärtung" !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
 !! __@RULENAME@__  
 s:t <=> _ j2: .#. ;
 
-! !!€ almasj2a
-! !!€ almasja
-! !!€ almasj2
-! !!€ almatj
 
-          
+
 ! ===========          
 !! !!Vowel rules 
 ! ===========          
 
-!! ! Stem vowels
-        
-"Vowel Shortening e to i in Front of j-initial suffixes"
+!! ! raising second syllable's vowel
+
+"Morphologically trigger umlaut in V2 e-i before most j-suffixes" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
- e:i <=> Cns: _  %^WG:0 (%^IJ:0) %>:0 j ;
- 	
-!!€ riehpe^WG^IJ>j^MONB4Jt
-!!€ r0e0bi000j0t
+Vx:Vy <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
+    where Vx in ( e o )
+          Vy in ( i u )
+          matched ; 
+
+!!€ sábme^WG^IJ>j
+!!€ sä0mi000j
+!!€ iello^WG^IJ>j
+!!€ 0el0u000j
+!!€ ållge^WG
+!!€ ål0ge0
+!!€ ju^Ollge^WG
+!!€ juol0ge0
+!!€ ju^Ollge^WG^IJ>j
+!!€ ju0l0gi000j
 
 
-"e to á in front of j"
+!! ! metaphony
+
+"Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-e:á <=>  _ %>: j [ %^MONB4J:0 | %^MON: ] ;
-!giedde>gäddáj, gájjse>gájjsáj
+Vx:Vy <=> [.#.|Cns] _ Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !guolle<->gulij juällge<->julgij sábme<->sämij
+    where Vx in ( á a ä å )
+          Vy in ( ä i e u )
+          matched ; 
 
-"o to u in front of j"
+"Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
-o:u <=>  Cns (Cns:)  _  ([Dummy: - %^jDEL:0]) %>: (j) %^MONB4J:0 ;
-! This rule works both for Ill (without the jDEL) and for Com Sg (with it)
-!fällo>felujn
-  !!€ mánno>j^MONB4J
-  !!€ männu0j0
+i:0 <=> Cns:* _ e Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello<->elluj
 
-"u to o in odd stems"
+"Special regressive vowel height assimilation for u^O in V1 with i/u in V2" ! u^O:u0
 !! __@RULENAME@__  
-u:o <=>  Cns:* _ Cns (Dummy:)  %^LOW:0 ;
+%^O:0 <=> Cns:* u _ Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !juällge<->julgij
 
- !!€ ullul^WG^MONB4J
- !!€ ål0ol
-
-"Delete stem final a before e initial suffix"
-!! __@RULENAME@__  
-a:0 <=> _  (Dummy:) %>: e ;
-        _ %^WG:0 %>: i ; 
-! Examples ?? 4 hits in make check
-!!€ blabla>en
-!!€ blabl00en
-
-
-!! ! Diphthong rules
-
-"Diphthong simplification in front of j"
-!! __@RULENAME@__  
-Vy:0 <=> Vx _ Cns:+ Vow: [ %^WG:0 %^IJ:0 | %^WG:0 %>: j %^MONB4J:0 n ] ;
-     where Vx in (   u  ) ! i u
-           Vy in ( %^O )   ! e o
-           matched ;
-! ie-i, uo-u, u^O-u           
- !!€ ju^Ollge^WG>j^MONB4Jn
- !!€ ju0l0ge0j0n
-           
-
-"o deletion in uo in front of j"
-!! __@RULENAME@__  
-o:0 <=> u _ Cns:* [Vow:* - a: ] %>: j %^MONB4J:0 ;
-! uo > u, not a-stems, muorraj
-
-"i deletion in ie in front of j and in ie:ä"
-!! __@RULENAME@__  
-i:0 <=> _ e: Cns:* Vow:*         (%^WG:0)(%^IJ:0) %>: (j) %^MONB4J:0 ;
-        _ e: G3 [o:|e:|á:|a:|å:] (Cns) %^UAUML:0 ;
-! ie > e iello>elluj
-
-"e to ä in ie"
-!! __@RULENAME@__  
-e:ä <=> i: _ Cns:* Vow:*         (%^WG:0)(%^IJ:0) %>: (j) %^MONB4J:0 ; 
-           _ G3 [o:|e:|á:|a:|å:] (Cns:) %^UAUML:0 ;
-
-!!€ gied'de^WG^IJ>jd
-!!€ g0äd0di000jd
-
-
-
-"ä deletion in uä in front of final i/j"
-ä:0 <=> u _ Cns:* :i (Dummy:) %>: [i|j] ;
-!!€ juällge^WG>jd
-!!€ ju0l0gi00jd
-
-"uO to ua in front of j"
-!! __@RULENAME@__  
-
-!%^O:a <=> u _ Cns:+ [Vow:* - a: ] %>: j %^MONB4J:0 ;
-%^O:a <=> u _ Cns:+ Vow:* %>: j %^MONb4J:0 ; 
-!^O becomes a when preceded by u, followed by 1+C and V plus one morpheme-border plus j + ^MONB4J
-          u _ G3 a %^UAUML:0 ;
-!tsuabbtsa:tsu^Obbtsa N_EVEN "bts" ;
-!!€ tsu^Obbtsa>j^MONb4J
-!!€ tsuabbtsa0j0
-
-"uo - uä Umlaut"
-!! __@RULENAME@__  
-%^O:ä <=> _ G3 e %^UAUML:0 ;
- !!€ ju^Ollge^UAUML
- !!€ juäll0ge0
 
 !!€ a
 !!€ b
-
-!! ! Monophthong rules 
-
-"á to ä and å to u and a to i in front u and i"
-Vx:Vy <=> [Cns|#:] _ Cns:*  [:u|:i] (%^WG:0) %>: j %^MONB4J:0 ;
-          [Cns|#:] _ Cns:*  i %^IUML:0   ;
-	where Vx in (a á å)
-	      Vy in (i ä u)
-	      matched ;
-	      ! båtsoj>buhttsu, rássjo>rässjuj,árrbe>ärbujn, gallgat>gilgiv, åbba>ubbijda 	      
-
-!Vx:Vy <=> [Cns|#:] _ Cns:*  [a:|e:|o:] (%^WG:0) %>: %^MONB4J:0 j ;
-
-
-"á to ä in ij forms"
- á:ä <=> _ Cns:+ Vow: %^WG:0 %^IJ:0 %>:0 j ;
-
-!!€ ájjge^WG^IJ>j
-!!€ äj0gi000j
-
-"u to å in odd stems"
-!! __@RULENAME@__  
-u:å <=> _ Cns:* Vow: Cns:* (Dummy:)  %^LOW:0 ;
-! ålol>ullula
-
-
-! Gamla reglar 
-! Gamla reglar 
-! Gamla reglar 
-! Gamla reglar 
-! Gamla reglar 
-! Gamla reglar 
-! Gamla reglar 
-! Gamla reglar 
-
-
-! "ä to ie in weak grade 1"
-! !! __@RULENAME@__  
-! ä:e <=> [Cns|#] :i _ Cns:+ Vow:+ (Dummy:) WeG: ;
-! !hittar inget exempel
-! 
-! "ae to ie in weak grade 2"
-! !! __@RULENAME@__  
-! 0:i <=> [Cns|#] _ ä: Cns:+ Vow:+ ( Dummy: ) WeG: ;
-
-
-
 
 
