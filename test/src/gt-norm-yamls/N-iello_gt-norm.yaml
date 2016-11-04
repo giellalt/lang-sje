@@ -14,17 +14,17 @@ Tests:
     iello+N+Sg+Nom: iello
     iello+N+Sg+Gen: ielo
     iello+N+Sg+Acc: ielov
-    iello+N+Sg+Ill: [elluj, ielloj]
+    iello+N+Sg+Ill: [ielloj, elluj]
     iello+N+Sg+Ine: ielon
     iello+N+Sg+Ela: ielost
-    iello+N+Sg+Com: [elujn, elujna] # TT: ok? JW: valid for all Sg+Com
+    iello+N+Sg+Com: [ielojn, ielojna] # TT: ok? JW: valid for all Sg+Com
     iello+N+Pl+Nom: ielo
-    iello+N+Pl+Gen: eluj
-    iello+N+Pl+Acc: elujd
-    iello+N+Pl+Ill: elujda
-    iello+N+Pl+Ine: elujn
-    iello+N+Pl+Ela: elujst
-    iello+N+Pl+Com: eloj
+    iello+N+Pl+Gen: ieloj
+    iello+N+Pl+Acc: ielojd
+    iello+N+Pl+Ill: ielojda
+    iello+N+Pl+Ine: ielojn
+    iello+N+Pl+Ela: ielojst
+    iello+N+Pl+Com: ieloj
     iello+N+Ess: iellon
     iello+N+Abe: ielodak
 
