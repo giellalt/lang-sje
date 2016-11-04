@@ -114,7 +114,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_A  (koden betyder att allt vänster om sparas i dokumentationsfil) är likastaviga med a-attr
 
- * LEXICON A_EVEN_AA  är likastaviga ocskå med a-attr ???!!
 
  * LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
 
@@ -122,7 +121,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_C  nominativ fungerar ej
 
  * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
 
@@ -325,7 +323,6 @@ Splitting in 3 groups, because of the preprocessor
 
 
 
- * __LEXICON ab-dot-noun-adj   __
 
  * __LEXICON ab-noun   __
 
@@ -476,7 +473,7 @@ Adverbs
 
 !!!Pite Saami nouns
 
- * __LEXICON Noun   __ är huvudlexikonet
+ * __LEXICON Noun   __ is the main lexicon
 
 !!Minigrammatik
 
@@ -484,14 +481,13 @@ Adverbs
 * dållå: # -å-stammar	 N_EVEN
 * juällge: # -e-stammar N_EVEN
 * iello: # -o-stammar	 N_EVEN
-* bunndi: # -i-stammar	 N_EVEN
-* åbbá: # utan stv N_EVEN_NOCG
+* åbbá: # utan stv N_EVEN_NOCG	!JW: does this really need a special class?
 
 * almatj: # -udda utan stv och vokalv	 N_ODD
 * ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
 * vanas: # -udda med stv men utan vokalv N_ODD_CG
-* ?????: # -udda utan stv men med vokalv N_ODD_VV
-* bena: # -udda med stv och vokalslut	 BIENA
+* guobbar: # -udda utan stv men med vokalv N_ODD_VV
+* biena: # -udda med stv och vokalslut	 BIENA
 
 * ålmáj: # -kontrakta med stv och utan vokf SUOLOJ
 * båtsoj: # -kontrakta med stv och med vokf			 SUOLOJ
@@ -516,7 +512,11 @@ Adverbs
 
 
 
-!!!Numerals
+
+   !!!Pite Saami numerals 
+
+
+
 
 
 
@@ -679,7 +679,6 @@ Vi börjar nedanfrån, från ett.
 
  * __LEXICON ÅVTÅ   __                
 
- * __LEXICON ẈG-LÅK-ÅVTÅ   __                
 
  * __LEXICON ẈG-LÅK-AKTA   __               
 
@@ -735,7 +734,6 @@ Vi börjar nedanfrån, från ett.
 
  * __LEXICON ẈG-LÅK-GIETJAV-OBL   __        
 
- * __LEXICON GÁKKTJA   __
 
  * __LEXICON GÁKTSA   __             
 
@@ -794,7 +792,6 @@ Vi börjar nedanfrån, från ett.
  * __LEXICON AKTALÅGENAN-OBL   __   
 
 
- * __LEXICON ÅVTÅLÅGENAN   __                  
 
  * __LEXICON GUOKTALÅGENAN   __                
 
@@ -865,7 +862,6 @@ Vi börjar nedanfrån, från ett.
 
  * __LEXICON VIDÁSLÅGENAN   __                       
 
- * __LEXICON TJUODAGIS   __                      
 
 
 
@@ -895,6 +891,7 @@ Vi börjar nedanfrån, från ett.
 
 
  * __LEXICON ARABIC   __
+
 
 
  * __LEXICON ARABICLOOP   __
@@ -986,13 +983,11 @@ Vi börjar nedanfrån, från ett.
 
  * __LEXICON PxCs   __
 
- * __LEXICON Px   __
 
  * __LEXICON NAMÁK   __
 
  * __LEXICON SASJ   __
 
- * __LEXICON PxNomPlV   __
 
  * __LEXICON pcle   __ the tag
 
@@ -1272,7 +1267,7 @@ finns detta ord = * släddjit:släddji V_CONTR ;
 
  ; %^WG:0 : weak grade
  ; %^jDEL:0 : vowel deletion in front of j
- ; %^MONB4J:0 : e to á and o to u before j
+ ; %^ILLE2AA:0 : e to á before j
  ; %^CDEL:0 : final consonant c (biednag)
  ; %^MON:0 : Monophthong in contract stems
  ; %^LOW:0 : Lowering u to å and o (ålol)
@@ -1280,6 +1275,7 @@ finns detta ord = * släddjit:släddji V_CONTR ;
  ; %^IEUML:0 : ie to ä etc. gielbar / gællbara
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
+   %^ILLO2U	  * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
 
 
 
@@ -1297,31 +1293,40 @@ finns detta ord = * släddjit:släddji V_CONTR ;
 
 __Consonant Gradation for htt(j|s):ht(j|s)__  
 
-__Consonant Gradation for xdn:xn__  
-
-
-
 
 __Consonant Gradation for hxx:hx__  
 
+
+__Consonant Gradation for xdn(j):xn(j)__  
+
+
+
 __Consonant Gradation for xx:x__  
+
+
 
 __Consonant Gradation for xxy:xy__  
 
+
+
 __Consonant Gradation for xy:y__  
+
+
 
 !!Consonant Gradation for hx:x
 
-__Delete h__  
+__Delete h in hx:y __  
 
-__Delete h before ts__  
 
-* __buhts^WG^LOWoj __
-* __bå0ts00oj __
 
-__change unvoiced to voiced__  
 
-__Consonant Gradation for xN:N__  
+
+__Intervocalic voiced plosives in hx:y __  
+
+
+
+
+__Consonant Gradation for xN:N __  
 
 
 
@@ -1333,69 +1338,66 @@ __Consonant Gradation for xN:N__
 __Final Consonant Deletion__  
 
 
-__Auslautherdung__  
 
-__Word Final Consonant Cluster Simplification__  
+__Final devoicing__  
 
-__Fricative Auslautherdung__  
+
+
+__Word Final Simplification in -st __  
+
+
+
+__Fricative Auslautverhärtung __  
+
+
 
 
 !!Vowel rules 
 
-! Stem vowels
+! raising second syllable's vowel
 
-__Vowel Shortening e to i in Front of j-initial suffixes__  
+__Morphologically trigger umlaut in V2 e-i before most j-suffixes __  
 
-* __riehpe^WG^IJ>j^MONB4Jt __
-* __r0e0bi000j0t __
+! metaphony
 
+__Default VH __  
 
-__e to á in front of j__  
+__Special VH for u^O __  
 
-__o to u in front of j__  
+__Special VH for ie __  
 
-__u to o in odd stems__  
+__Default UA in G3 __  
 
+__Special UÄ (VH) in G3 __  
 
-__Delete stem final a before e initial suffix__  
-* __blabla>en __
-* __blabl00en __
+__Ä in G3 __  
 
+__V2 E to Á __  
 
-! Diphthong rules
+* __ju^Ollge^WG^IJ>j __
+* __ju0l0gi000j __
+* __ju^Ollge^UAUML>j^ILLE2AA __
+* __juallgá00j0 __
+* __ju^Ollge^UAUML __
+* __juällge0 __
+* __ju^Ollge^WG __
+* __juol0ge0 __
 
-__Diphthong simplification in front of j__  
-
-
-__o deletion in in uo in front of j__  
-
-__i deletion in ie in front of j and in ie:ä__  
-
-__e to ä in ie__  
-
-
-
-__uO to ua in front of j__  
-
-__uo - uä Umlaut__  
-
-
-! Monophthong rules 
-
-
-
-
-
-* __ájjge^WG^IJ>j __
-* __äj0gi000j __
-
-__u to å in odd stems__  
+* __sábme>j^ILLE2AA __
+* __sábmá0j0 __
+* __sábme^WG^IJ>j __
+* __sä0mi000j __
+* __iello^WG^IJ>j __
+* __0el0u000j __
+* __ållge^WG __
+* __ål0ge0 __
+* __lu^Okkta^UAUML __
+* __luakkta0 __
+* __bievvde^UAUML __
+* __b0ävvde0 __
 
 
-
-
-
-
-
+* __a __
+* __b __
 
 
