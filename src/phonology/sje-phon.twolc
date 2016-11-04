@@ -31,7 +31,7 @@ Alphabet
   %^WG:0     !!≈ ; @CODE@ : weak grade
   %^jDEL:0   !!≈ ; @CODE@ : vowel deletion in front of j
   %^ILLE2AA:0 !!≈ ; @CODE@ : e to á before j
-  %^CDEL:0   !!≈ ; @CODE@ : final consonant c (biednag)
+  %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
   %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
@@ -242,7 +242,7 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) WeG: ; ! <=> Vow _ Cy (Vow:+) 
 !! !!Other consonant rules 
 ! =====================
 
-"Final Consonant Deletion"
+"Final C Deletion"
 !! __@RULENAME@__  
 Cx:0 <=> _ (Dummy:) %^CDEL: ;
 	where Cx in ( b d g s h ) ; ! JW: added h (riebe/riehpeha); what about j (båtsoj/buhtsu)??
@@ -297,10 +297,31 @@ e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> [.#.|Cns] _ Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !guolle<->gulij juällge<->julgij sábme<->sämij
+Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \Vow: [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
+
+!acc.pl
+!!€ biednagi%>j
+!!€ biednagi0j
+!nom.sg
+!!€ biednag^WG^CDEL
+!!€ bie0na000
+!nom.pl
+!!€ biednaga
+!!€ biednaga
+!acc.sg
+!!€ biednaga%>v
+!!€ biednaga0v
+
+!!€ båhtsoj^WG
+!!€ bå0tsoj0
+!!€ båhtsu
+!!€ buhtsu
+!!€ båhtsu%>v
+!!€ buhtsu0v
+
 
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  

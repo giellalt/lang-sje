@@ -69,7 +69,8 @@ bieraj:bierra N_ODD_CG_C "släkting" ;
 bävvla:bievvla N_EVEN "vl" ;
 buallva:bu^Ollva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fungerar
 !ålmaj:ålm N_CONTR_C_Å "man" ; 
-båtsoj:buhtts N_CONTR_C_A "ren" ; !nominativformen fungerar ej
+båtsoj:båhts N_CONTR_C_A "ren" ; !nominativformen fungerar ej
+!båtsoj:buhtts N_CONTR_C_A "ren" ; !nominativformen fungerar ej
 båttkå:båttkå N_EVEN "tk" ;
 bäbbmo:biebbmo N_EVEN_O "bm mat" ; 
 bäjjsko:biejjsko N_EVEN_O "jsk" ;
