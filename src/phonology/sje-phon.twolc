@@ -289,12 +289,9 @@ s:t <=> _ j2: .#. ;
 
 !! ! raising second syllable's vowel
 
-"Morphologically trigger umlaut in V2 e-i before most j-suffixes" ! á:ä a:i ä:e å:u ^O:0
+"E to I in V2 before j-suffixes" ! guolle -> gulij
 !! __@RULENAME@__  
-Vx:Vy <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
-    where Vx in ( e o )
-          Vy in ( i u )
-          matched ; 
+e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
 
 !! ! metaphony
 
@@ -330,6 +327,17 @@ e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
 !! __@RULENAME@__  
 e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLE2AA:0 ;
 
+"V2 O to U (variant)" ! rássjo->rässjuj, iello->elluj (variant)
+!! __@RULENAME@__  
+o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLO2U:0 ;
+
+
+!!€ rássjo>j^ILLO2U
+!!€ rässju0j0
+!!€ rássjo>j^ILLE2AA
+!!€ rássjo0j0
+
+
 !
 ! gen.pl
 !!€ ju^Ollge^WG^IJ>j
@@ -349,7 +357,7 @@ e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLE2AA:0 ;
 !!€ sábme^WG^IJ>j
 !!€ sä0mi000j
 !!€ iello^WG^IJ>j
-!!€ 0el0u000j
+!!€ iel0o000j
 !!€ ållge^WG
 !!€ ål0ge0
 !!€ lu^Okkta^UAUML

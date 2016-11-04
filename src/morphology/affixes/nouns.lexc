@@ -32,26 +32,21 @@
 ! even-syllabic
 ! -------------
 
-LEXICON N_EVEN_NOCG
-+N: EVENCASE ;
-+N: N_EVEN_ILL ;
-+N: N_EVEN_W ; ! No CG here, ingen stadieväxling
-
 LEXICON N_EVEN ! giella
 +N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
 +N: N_EVEN_ILL ;
-+N:^WG N_EVEN_W ; ! CG here
++N:^WG N_EVEN_WK ; ! CG here
 
 LEXICON N_EVEN_O ! rássjo-variant rässjuj
 +N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
-+N: N_EVEN_ILL ;
-+N:^ILLO2U N_EVEN_ILL ; ! allows rássjo-variant rässjuj
-+N:^WG N_EVEN_W ; ! CG here
++N: N_EVEN_ILL ; 
++N: N_EVEN_ILL_O ; ! allows rássjo-variant: rässjuj
++N:^WG N_EVEN_WK ; ! CG here
 
 LEXICON N_EVEN_4 ! gonagassa
 +N: EVENCASE_4 ;
 +N:a N_EVEN_ILL ;
-+N:a^WG N_EVEN_W ; ! CG here
++N:a^WG N_EVEN_WK ; ! CG here
 
 LEXICON EVENCASE_4
 +Sg+Nom:^CDEL K ;
@@ -62,17 +57,24 @@ LEXICON EVENCASE
 EVENOBLIQUE ;
 
 LEXICON EVENOBLIQUE 
-N_EVEN_S ; 
-:^WG^IJ%>j N_EVEN_J ;
+N_EVEN_ESS ; 
+!:^WG^IJ%>j N_EVEN_J ;
 
+LEXICON N_EVEN_NOCG
++N: EVENCASE ;
++N: N_EVEN_ILL ;
++N: N_EVEN_WK ; ! No CG here, ingen stadieväxling
 
 LEXICON N_EVEN_ILL
-+Sg+Ill:%>j^ILLE2AA K ; !why MONB4J ? monophthong before j? (V2 e->á in ill.sg, dim)
++Sg+Ill:%>j^ILLE2AA K ; !V2 e->á in ill.sg, dim
 
-LEXICON N_EVEN_S
+LEXICON N_EVEN_ILL_O
++Sg+Ill+Use/NG:%>j^ILLO2U K ; !V2 o->u in ill.sg, dim
+
+LEXICON N_EVEN_ESS
 +Ess:^UAUML%>n K ;
 
-LEXICON N_EVEN_W
+LEXICON N_EVEN_WK
 +Sg+Gen:  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
@@ -82,6 +84,8 @@ LEXICON N_EVEN_W
 !+Abe:%>htaka K ; ! Informants S and Bj 
 !+Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>0  K ;
+!:^WG^IJ%>j N_EVEN_J ;
+:^IJ%>j N_EVEN_J ;
 
 LEXICON N_EVEN_J
 +Pl+Gen:    K ;
@@ -92,7 +96,7 @@ LEXICON N_EVEN_J
 +Pl+Ill:da  K ; 
 +Pl+Com:    K ;
 +Sg+Com:n K ;         !norm
-+Sg+Com+Err/Orth:na K ; !variant
++Sg+Com+Use/NG:na K ; !variant
 
 ! LEXICON N_EVEN_B
 ! +Sg+Nom:^UAUML%>e    K ;
@@ -409,7 +413,7 @@ LEXICON ODD_OBLIQUE_U_COMMON
 
 !LEXICON CONTR-OTH
 ! N_EVEN_ILL ;
-! N_EVEN_W ;
+! N_EVEN_WK ;
  
 
 ! under construction
