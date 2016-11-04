@@ -16,7 +16,7 @@ Tests:
     muorra+N+Sg+Ill: muorraj
     muorra+N+Sg+Ine: muoran
     muorra+N+Sg+Ela: muorast
-    muorra+N+Sg+Com: muorajn
+    muorra+N+Sg+Com: [muorajn, muorajna]
     muorra+N+Pl+Nom: muora
     muorra+N+Pl+Gen: muoraj
     muorra+N+Pl+Acc: muorajd
