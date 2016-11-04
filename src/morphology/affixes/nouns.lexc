@@ -419,12 +419,33 @@ LEXICON ODD_OBLIQUE_U_COMMON
 ! under construction
 
 
+LEXICON N_CONTR_C_A
+! BATSOJ ; 
+! 
+! LEXICON BATSOJ
++N+Sg+Nom:oj^WG PX ;
++N+Sg+Acc:u%>v PX ;
++N+Sg+Gen:u PX ;
++N+Sg+Ill:u%>j PX ;
++N+Sg+Ine:u%>n PX ;
++N+Sg+Ela+Err/Orth:u%>s PX ;
++N+Sg+Ela:u%>st PX ;
++N+Sg+Com:u%>jn PX ;
++N+Ess:u%>n PX ;
++N+Ess:u%>n PX ;
++N+Abe:u%>dak PX ; ! XXX
++N+Pl+Nom:u PX ;
++N+Pl+Acc:u%>jd PX ;
++N+Pl+Gen:u%>j PX ;
++N+Pl+Ill:u%>jda PX ;
++N+Pl+Ine:u%>jn PX ;
++N+Pl+Ela+Err/Orth:u%>js PX ;
++N+Pl+Ela:u%>jst PX ;
++N+Pl+Com:u%>j PX ;
+
 
 LEXICON N_CONTR_C_Å
 ÅLMAAJ ; 
-
-LEXICON N_CONTR_C_A
-ÅLMAAJ_A ; 
 
 LEXICON N_CONTR_C_B
 ÅLMAAJ_B ;
@@ -456,28 +477,8 @@ LEXICON ÅLMAAJ
 +N+Pl+Ela:ájst PX ;
 +N+Pl+Com:áj PX ;
 
-LEXICON ÅLMAAJ_A
-+N+Sg+Nom:o^WG^LOWj PX ;
-+N+Sg+Acc:uv PX ;
-+N+Sg+Gen:u PX ;
-+N+Sg+Ill:uj PX ;
-+N+Sg+Ine:un PX ;
-+N+Sg+Ela+Err/Orth:us PX ;
-+N+Sg+Ela:ust PX ;
-+N+Sg+Com:ujn PX ;
-+N+Ess:un PX ;
-+N+Ess:^WGun PX ;
-+N+Abe:udak PX ; ! XXX
-+N+Pl+Nom:u PX ;
-+N+Pl+Acc:ujd PX ;
-+N+Pl+Gen:uj PX ;
-+N+Pl+Ill:ujda PX ;
-+N+Pl+Ine:ujn PX ;
-+N+Pl+Ela+Err/Orth:ujs PX ;
-+N+Pl+Ela:ujst PX ;
-+N+Pl+Com:uj PX ;
 
-!LEXICON ÅLMAAJ_AA
+!LEXICON BÅTSOJA
 !+N+Sg+Nom:o^WGj PX ;
 !+N+Sg+Acc:uv PX ;
 !+N+Sg+Gen:u PX ;
@@ -569,23 +570,23 @@ LEXICON BIENA
 +N: BIENALONG ;
 
 LEXICON BIENALONG
-+Sg+Acc:av PX ;
++Sg+Acc:a%>v PX ;
 +Sg+Gen:a PX ;
-+Sg+Ill:ij PX ;
-+Sg+Ine:in PX ;
-+Sg+Ela+Err/Orth:is PX ;
-+Sg+Ela:ist PX ;
-+Sg+Com:ijn PX ;
-+Ess:in PX ;
-+Abe:ahtá PX ;
++Sg+Ill:i%>j PX ;
++Sg+Ine:i%>n PX ;
++Sg+Ela+Err/Orth:i%>s PX ;
++Sg+Ela:i%>st PX ;
++Sg+Com:i%>jn PX ;
++Ess:i%>n PX ;
++Abe:a%>htá PX ;
 +Pl+Nom:a PX ;
-+Pl+Acc:ijd PX ;
-+Pl+Gen:ij PX ;
-+Pl+Ill:ijda PX ;
-+Pl+Ine:ijn PX ;
-+Pl+Ela+Err/Orth:ijs PX ;
-+Pl+Ela:ijst PX ;
-+Pl+Com:ij PX ;
++Pl+Acc:i%>jd PX ;
++Pl+Gen:i%>j PX ;
++Pl+Ill:i%>jda PX ;
++Pl+Ine:i%>jn PX ;
++Pl+Ela+Err/Orth:i%>js PX ;
++Pl+Ela:i%>jst PX ;
++Pl+Com:i%>j PX ;
 
 
 LEXICON BIENASHORT
