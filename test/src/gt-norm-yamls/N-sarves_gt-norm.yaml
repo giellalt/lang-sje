@@ -31,8 +31,8 @@ Tests:
 
 
 #JW: why is this here?
-  Noun - vanas: # Korttest: -udda med stv men utan vokalv
-    vanas+N+Sg+Nom: vanas
-    vanas+N+Sg+Gen: vadnasa
-    vanas+N+Sg+Ill: vadnasij
-    vanas+N+Pl+Gen: vadnasij
+#  Noun - vanas: # Korttest: -udda med stv men utan vokalv
+#    vanas+N+Sg+Nom: vanas
+#    vanas+N+Sg+Gen: vadnasa
+#    vanas+N+Sg+Ill: vadnasij
+#    vanas+N+Pl+Gen: vadnasij
