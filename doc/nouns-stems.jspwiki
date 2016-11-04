@@ -1,7 +1,7 @@
 
 !!!Pite Saami nouns
 
- * __LEXICON Noun   __ är huvudlexikonet
+ * __LEXICON Noun   __ is the main lexicon
 
 !!Minigrammatik
 
@@ -9,19 +9,19 @@
 * dållå: # -å-stammar	 N_EVEN
 * juällge: # -e-stammar N_EVEN
 * iello: # -o-stammar	 N_EVEN
-* bunndi: # -i-stammar	 N_EVEN
-* åbbá: # utan stv N_EVEN_NOCG
+* åbbá: # utan stv N_EVEN_NOCG	!JW: does this really need a special class?
 
 * almatj: # -udda utan stv och vokalv	 N_ODD
 * ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
 * vanas: # -udda med stv men utan vokalv N_ODD_CG
-* ?????: # -udda utan stv men med vokalv N_ODD_VV
-* bena: # -udda med stv och vokalslut	 BIENA
+* guobbar: # -udda utan stv men med vokalv N_ODD_VV
+* biena: # -udda med stv och vokalslut	 BIENA
 
 * ålmáj: # -kontrakta med stv och utan vokf SUOLOJ
 * båtsoj: # -kontrakta med stv och med vokf			 SUOLOJ
 * suollu: # -kontrakta utan stv			 SUOLOJ
 * sarves: # -kontrakta som slutar på es			 SARVES
+
 
 
 

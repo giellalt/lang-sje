@@ -9,7 +9,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_A  (koden betyder att allt vänster om sparas i dokumentationsfil) är likastaviga med a-attr
 
- * LEXICON A_EVEN_AA  är likastaviga ocskå med a-attr ???!!
 
  * LEXICON A_EVEN_BB  är likastaviga ocskå med a-attr ???!!
 
@@ -17,7 +16,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_EVEN_B  
 
- * LEXICON A_EVEN_C  nominativ fungerar ej
 
  * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
 
