@@ -38,7 +38,7 @@ Alphabet
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
-  %^ILLO2U	 !!= @CODE@ * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
+  %^ILLO2U:0 !!= @CODE@ * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
