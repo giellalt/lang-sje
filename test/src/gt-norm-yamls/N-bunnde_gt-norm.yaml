@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - bunnde: # -e-stammar (i-stammar finns inte)
+    bunnde+N+Sg+Nom: bunnde
+    bunnde+N+Sg+Gen: bunde
+    bunnde+N+Sg+Acc: bundev
+    bunnde+N+Sg+Ill: bunndáj
+    bunnde+N+Sg+Ine: bunden
+    bunnde+N+Sg+Ela: bundest
+    bunnde+N+Sg+Com: [bundijn, bundijna]
+    bunnde+N+Pl+Nom: bunde
+    bunnde+N+Pl+Gen: bundij
+    bunnde+N+Pl+Acc: bundijd
+    bunnde+N+Pl+Ill: bundijda
+    bunnde+N+Pl+Ine: bundijn
+    bunnde+N+Pl+Ela: bundijst
+    bunnde+N+Pl+Com: bundij
+    bunnde+N+Ess: bunnden
+    bunnde+N+Abe: bundedak
+
