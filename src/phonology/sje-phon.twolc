@@ -39,6 +39,7 @@ Alphabet
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
   %^ILLO2U:0 !!= @CODE@ * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
+  %^VHBAR:0 !!= @CODE@ * block VH from happening
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -57,7 +58,7 @@ Sets
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   WeG    =  %^WG %^jDEL ;
-  Dummy  =  %^WG %^jDEL %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^ILLO2U ;
+  Dummy  =  %^WG %^jDEL %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^ILLO2U %^VHBAR ;
   
 Definitions
 
@@ -297,14 +298,26 @@ e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \Vow: [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
+! Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
+!nom.sg
+!!€ almatj
+!!€ almatj
+!nom.pl
+!!€ almatja
+!!€ almatja
+!acc.sg
+!!€ almatja%>v
+!!€ almatja0v
 !acc.pl
-!!€ biednagi%>j
-!!€ biednagi0j
+!!€ almatj^VHBARi%>j
+!!€ almatj0i0j
+
+
 !nom.sg
 !!€ biednag^WG^CDEL
 !!€ bie0na000
@@ -314,6 +327,9 @@ Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \Vow: [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->
 !acc.sg
 !!€ biednaga%>v
 !!€ biednaga0v
+!acc.pl
+!!€ biednag^VHBARi%>j
+!!€ biednag0i0j
 
 !!€ båhtsoj^WG
 !!€ bå0tsoj0
