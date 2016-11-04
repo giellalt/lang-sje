@@ -23,6 +23,7 @@ GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					rename-POS_before_Der-tags.regex           \
 					remove-norm-comp-tags.regex                \
 					remove-rel_focus-strings.regex             \
+					remove-derivation-position-tags.regex      \
 					split-CmpNP-tags.regex                     \
 					convert_to_flags-CmpNP-tags.regex          \
 					block-illegal_compound-strings.regex       \
