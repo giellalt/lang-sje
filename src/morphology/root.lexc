@@ -82,7 +82,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 ^WG    !!= @CODE@ * weak grade
 ^jDEL  !!= @CODE@ * vowel deletion in front of j
-^MONB4J !!= @CODE@ * e to á (before j), o to u before j
+^ILLE2AA !!= @CODE@ * e to á (before j), o to u before j
 ^CDEL   !!= @CODE@ * Deleting final consonant, biednag
 ^MON    !!= @CODE@ * Monophthong in contract
 ^LOW    !!= @CODE@ * Lowering u to å and o (ålol)
@@ -90,6 +90,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ^IEUML  !!= @CODE@ * ie to ä etc. gielbar gællbara
 ^IUML   !!= @CODE@ * a to i, gallgat gillgin
 ^IJ     !!= @CODE@ * e to i in front of Plural j and Sg Com
+^ILLO2U !!= @CODE@ * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
 
 d2 t2 j2 h2 g2 !!= @CODE@ * Variable consonants, undergo Auslautherdung
                ! NB! This is the opposite of the sme pattern
