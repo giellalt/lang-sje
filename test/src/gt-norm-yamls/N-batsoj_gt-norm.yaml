@@ -18,6 +18,7 @@ Tests:
     båtsoj+N+Sg+Ill: buhtsuj
     båtsoj+N+Sg+Ine: buhtsun
     båtsoj+N+Sg+Ela: buhtsust
+#    båtsoj+N+Sg+Com: [buhtsujn, buhtsujna] #buhtsujna really ok?
     båtsoj+N+Sg+Com: buhtsujn
     båtsoj+N+Pl+Nom: buhtsu
     båtsoj+N+Pl+Gen: buhtsuj
