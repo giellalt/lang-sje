@@ -141,6 +141,54 @@ LEXICON N_EVEN_C
 ! odd-syllabic
 ! ------------
 
+LEXICON N_ODD
++N+Sg+Nom: PX ;
++N: ODD_OBLIQUE ;
+
+! LEXICON ODD_OBLIQUE
+! +Abe:ahtá PX ; !added Abessive to new version of ODD_OBLIQUE (used to be _COMMON)
+! ODD_OBLIQUE_NOALT ;
+
+LEXICON ODD_OBLIQUE
++Sg+Acc:a%>v PX ;
++Sg+Gen:a PX ;
++Sg+Ill:^VHBARi%>j PX ;
++Sg+Ine:^VHBARi%>n PX ;
++Sg+Ela+Err/Orth:^VHBARi%>s PX ; 
++Sg+Ela:^VHBARi%>st PX ; 
++Sg+Com:^VHBARi%>jn PX ;
++Ess:^VHBARi%>n PX ;
++Pl+Nom:a PX ;
++Pl+Acc:^VHBARi%>jd PX ;
++Pl+Gen:^VHBARi%>j PX ;
++Pl+Ill:^VHBARi%>jda PX ;
++Pl+Ine:^VHBARi%>jn PX ;
++Pl+Ela+Err/Orth:^VHBARi%>js PX ;
++Pl+Ela:^VHBARi%>jst PX ;
++Pl+Com:^VHBARi%>j PX ;
++Abe:ahtá PX ;
+
+
+LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
++Sg+Acc:a%>v PX ;
++Sg+Gen:a PX ;
++Sg+Ill:i%>j PX ;
++Sg+Ine:i%>n PX ;
++Sg+Ela+Err/Orth:i%>s PX ; 
++Sg+Ela:i%>st PX ; 
++Sg+Com:i%>jn PX ;
++Ess:i%>n PX ;
++Pl+Nom:a PX ;
++Pl+Acc:i%>jd PX ;
++Pl+Gen:i%>j PX ;
++Pl+Ill:i%>jda PX ;
++Pl+Ine:i%>jn PX ;
++Pl+Ela+Err/Orth:i%>js PX ;
++Pl+Ela:i%>jst PX ;
++Pl+Com:i%>j PX ;
+
+
+
 LEXICON N_ODD_VV
 +N+Sg+Nom:^ILLE2AA PX ;
 +N: ODD_OBLIQUE ;
@@ -185,10 +233,6 @@ LEXICON N_ODD_CG_VV
 +N+Sg+Nom:^WG^LOW PX ;
 +N: ODD_OBLIQUE ;
 
-LEXICON N_ODD
-+N+Sg+Nom: PX ;
-+N: ODD_OBLIQUE ;
-
 LEXICON N_ODD_G
 +N+Sg+Nom:k PX ;
 +N: ODD_OBLIQUE_F ;
@@ -197,10 +241,6 @@ LEXICON N_ODD_G
 LEXICON N_ODD_D
 +N+Sg+Nom:t PX ;
 +N: ODD_OBLIQUE_D ;
-
-LEXICON ODD_OBLIQUE
-+Abe:ahtá PX ;
-ODD_OBLIQUE_COMMON ;
 
 !LEXICON ODD_OBLIQUE_A
 !+Abe:usahtá PX ;
@@ -226,25 +266,6 @@ LEXICON ODD_OBLIQUE_F
 +Abe:gahtá PX ;
 ODD_OBLIQUE_F_COMMON ;
 
-LEXICON ODD_OBLIQUE_COMMON
-+Sg+Acc:av PX ;
-+Sg+Gen:a PX ;
-+Sg+Ill:ij PX ;
-+Sg+Ine:in PX ;
-+Sg+Ela+Err/Orth:is PX ; 
-+Sg+Ela:ist PX ; 
-+Sg+Com:ijn PX ;
-+Ess:in PX ;
-
-
-+Pl+Nom:a PX ;
-+Pl+Acc:ijd PX ;
-+Pl+Gen:ij PX ;
-+Pl+Ill:ijda PX ;
-+Pl+Ine:ijn PX ;
-+Pl+Ela+Err/Orth:ijs PX ;
-+Pl+Ela:ijst PX ;
-+Pl+Com:ij PX ;
 
 LEXICON ODD_OBLIQUE_A_COMMON
 +Sg+Acc:usav PX ;
@@ -255,8 +276,6 @@ LEXICON ODD_OBLIQUE_A_COMMON
 +Sg+Ela:usist PX ; 
 +Sg+Com:usijn PX ;
 +Ess:usin PX ;
-
-
 +Pl+Nom:usa PX ;
 +Pl+Acc:usijd PX ;
 +Pl+Gen:usij PX ;
@@ -275,8 +294,6 @@ LEXICON ODD_OBLIQUE_B_COMMON
 +Sg+Ela:ásist PX ; 
 +Sg+Com:ásijn PX ;
 +Ess:ásin PX ;
-
-
 +Pl+Nom:ása PX ;
 +Pl+Acc:ásijd PX ;
 +Pl+Gen:ásij PX ;
@@ -295,8 +312,6 @@ LEXICON ODD_OBLIQUE_C_COMMON
 +Sg+Ela:hist PX ; 
 +Sg+Com:hijn PX ;
 +Ess:hin PX ;
-
-
 +Pl+Nom:ha PX ;
 +Pl+Acc:hijd PX ;
 +Pl+Gen:hij PX ;
@@ -370,8 +385,6 @@ LEXICON ODD_OBLIQUE_U_COMMON
 +Sg+Ela:ust PX ; 
 +Sg+Com:ujn PX ;
 +Ess:un PX ;
-
-
 +Pl+Nom:u PX ;
 +Pl+Acc:ujd PX ;
 +Pl+Gen:uj PX ;
@@ -572,21 +585,21 @@ LEXICON BIENA
 LEXICON BIENALONG
 +Sg+Acc:a%>v PX ;
 +Sg+Gen:a PX ;
-+Sg+Ill:i%>j PX ;
-+Sg+Ine:i%>n PX ;
-+Sg+Ela+Err/Orth:i%>s PX ;
-+Sg+Ela:i%>st PX ;
-+Sg+Com:i%>jn PX ;
-+Ess:i%>n PX ;
++Sg+Ill:^VHBARi%>j PX ;
++Sg+Ine:^VHBARi%>n PX ;
++Sg+Ela+Err/Orth:^VHBARi%>s PX ;
++Sg+Ela:^VHBARi%>st PX ;
++Sg+Com:^VHBARi%>jn PX ;
++Ess:^VHBARi%>n PX ;
 +Abe:a%>htá PX ;
 +Pl+Nom:a PX ;
-+Pl+Acc:i%>jd PX ;
-+Pl+Gen:i%>j PX ;
-+Pl+Ill:i%>jda PX ;
-+Pl+Ine:i%>jn PX ;
-+Pl+Ela+Err/Orth:i%>js PX ;
-+Pl+Ela:i%>jst PX ;
-+Pl+Com:i%>j PX ;
++Pl+Acc:^VHBARi%>jd PX ;
++Pl+Gen:^VHBARi%>j PX ;
++Pl+Ill:^VHBARi%>jda PX ;
++Pl+Ine:^VHBARi%>jn PX ;
++Pl+Ela+Err/Orth:^VHBARi%>js PX ;
++Pl+Ela:^VHBARi%>jst PX ;
++Pl+Com:^VHBARi%>j PX ;
 
 
 LEXICON BIENASHORT

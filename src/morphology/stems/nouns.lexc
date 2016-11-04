@@ -62,7 +62,7 @@ aldas:alldas N_ODD_CG "lld ovanläder" ;
 gånågas:gånågass N_EVEN_4 "konung" ;
 ávtjamuärrje:ávtja#mu^Orrje N_EVEN "rj rönnbär" ;
 bálges:bállg N_CONTR_C_B "stig" ;
-bena:bednag BIENA "koira" ; !alternativform till biena
+!bena:bednag BIENA "koira" ; !alternativform till biena
 bednik:bedni N_ODD_G "pengar" ;
 biena:biednag BIENA "koira" ;
 bieraj:bierra N_ODD_CG_C "släkting" ;
