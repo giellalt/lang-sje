@@ -68,6 +68,7 @@ biena:biednag BIENA "koira" ;
 bieraj:bierra N_ODD_CG_C "släkting" ;
 bävvla:bievvla N_EVEN "vl" ;
 buallva:bu^Ollva N_EVEN "lv generation" ; !nom. buallva fung.ej, men böjn. fungerar
+!ålmaj:ålm N_CONTR_C_Å "man" ; 
 båtsoj:buhtts N_CONTR_C_A "ren" ; !nominativformen fungerar ej
 båttkå:båttkå N_EVEN "tk" ;
 bäbbmo:biebbmo N_EVEN_O "bm mat" ; 
@@ -227,7 +228,7 @@ bijjla:bijjla N_EVEN "jl" ;
 bijjpa:bijjpa N_EVEN "jp" ;
 billga:billga N_EVEN "lg" ;
 binna:binna N_EVEN_NOCG "nn ett litet stycke" ;
-bunndi:bunndi N_EVEN "nd" ;
+bunnde:bunnde N_EVEN "nd" ;
 buvdna:buvdna N_EVEN "vn" ;
 buvtsomällke:buvtso#mällke N_EVEN "lk renmjölk" ;
 báhko:báhko N_EVEN_O "g ord" ;
@@ -241,7 +242,6 @@ båjjtjå:båjjtjå N_EVEN "jtj" ;
 båddne:båddne N_EVEN "dn" ;
 båddnje:båddnje N_EVEN "dnj" ;
 båldne:båldne N_EVEN "ln" ; !å till u omljud framför i fungerar ej
-bunndi:bunndi N_EVEN "nd" ;
 båssjo:båssjo N_EVEN_O "sj" ;
 båtsojjåhttesábme:båtsoj#jåhttesábme N_EVEN "m xxx" ;
 båtsojlahkke:båtsoj#lahkke N_EVEN "hk xxx" ;
@@ -280,7 +280,7 @@ girrje:girrje N_EVEN "rj" ;
 girrko:girrko N_EVEN_O "rk" ;
 gissta:gissta N_EVEN "rukkanen, kista" ;
 grássebáhkko:grásse#báhkko N_EVEN_O "hk gräsbacke" ;
-gummpi:gummpi N_EVEN "mp varg" ;
+gummpe:gummpe N_EVEN "mp varg" ;
 guolle:guolle N_EVEN "l" ;
 gurbmá:gurbmá N_EVEN "m" ;
 gurrmá:gurrmá N_EVEN "m" ; !
