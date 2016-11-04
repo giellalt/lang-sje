@@ -34,28 +34,23 @@
 
 LEXICON N_EVEN_NOCG
 +N: EVENCASE ;
++N: N_EVEN_ILL ;
 +N: N_EVEN_W ; ! No CG here, ingen stadieväxling
-
-
-! LEXICON N_EVEN_a
-! N_EVEN ;
-! LEXICON N_EVEN_e
-! N_EVEN ;
-! LEXICON N_EVEN_o
-! N_EVEN ;
-! LEXICON N_EVEN_å
-! N_EVEN ;
-! LEXICON N_EVEN_á
-! N_EVEN ;
-! LEXICON N_EVEN_i
-! N_EVEN ;
 
 LEXICON N_EVEN ! giella
 +N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
++N: N_EVEN_ILL ;
++N:^WG N_EVEN_W ; ! CG here
+
+LEXICON N_EVEN_O ! rássjo-variant rässjuj
++N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
++N: N_EVEN_ILL ;
++N:^ILLO2U N_EVEN_ILL ; ! allows rássjo-variant rässjuj
 +N:^WG N_EVEN_W ; ! CG here
 
 LEXICON N_EVEN_4 ! gonagassa
 +N: EVENCASE_4 ;
++N:a N_EVEN_ILL ;
 +N:a^WG N_EVEN_W ; ! CG here
 
 LEXICON EVENCASE_4
@@ -69,13 +64,10 @@ EVENOBLIQUE ;
 LEXICON EVENOBLIQUE 
 N_EVEN_S ; 
 :^WG^IJ%>j N_EVEN_J ;
-N_EVEN_ILL ;
-!+Sg+Com:^WG%>j^MONB4Jn K ;         !norm
-!+Sg+Com+Err/Orth:^WG%>j^MONB4Jna K ; !variant
 
 
 LEXICON N_EVEN_ILL
-+Sg+Ill:%>j^MONB4J K ; !why MONB4J ? monophthong before j? (V2 e->á in ill.sg, dim)
++Sg+Ill:%>j^ILLE2AA K ; !why MONB4J ? monophthong before j? (V2 e->á in ill.sg, dim)
 
 LEXICON N_EVEN_S
 +Ess:^UAUML%>n K ;
@@ -146,7 +138,7 @@ LEXICON N_EVEN_C
 ! ------------
 
 LEXICON N_ODD_VV
-+N+Sg+Nom:^MONB4J PX ;
++N+Sg+Nom:^ILLE2AA PX ;
 +N: ODD_OBLIQUE ;
 
 LEXICON N_ODD_CG 
@@ -602,7 +594,7 @@ LEXICON BIENASHORT
 !+N: CONTROBL ;
 
 !LEXICON CONTRNOMSG
-!+Sg+Nom:oj^MONB4J K ;
+!+Sg+Nom:oj^ILLE2AA K ;
 ! 
 !LEXICON CONTROBL 
 !+Sg+Acc:uv PX ;

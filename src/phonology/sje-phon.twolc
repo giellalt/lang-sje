@@ -30,7 +30,7 @@ Alphabet
 
   %^WG:0     !!≈ ; @CODE@ : weak grade
   %^jDEL:0   !!≈ ; @CODE@ : vowel deletion in front of j
-  %^MONB4J:0 !!≈ ; @CODE@ : e to á and o to u before j
+  %^ILLE2AA:0 !!≈ ; @CODE@ : e to á before j
   %^CDEL:0   !!≈ ; @CODE@ : final consonant c (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
   %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
@@ -38,6 +38,7 @@ Alphabet
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
+  %^ILLO2U	 !!= @CODE@ * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -56,7 +57,7 @@ Sets
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   WeG    =  %^WG %^jDEL ;
-  Dummy  =  %^WG %^jDEL %^MONB4J %^CDEL %^MON %^UAUML %^IUML %^IJ ;
+  Dummy  =  %^WG %^jDEL %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^ILLO2U ;
   
 Definitions
 
@@ -139,7 +140,7 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) WeG: ;
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
 Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) WeG: ;
-     where Cx in ( t k m n ŋ s r l f j v ) ;
+     where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
 ! !!€ dållå^WG
 ! !!€ dål0å0
@@ -200,7 +201,7 @@ h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) WeG: ;
 ! ! !!€ bå0ts00oj
 
 
-"complete change x unvoiced to y voiced intervocalically in hx:y" ! second step
+"Intervocalic voiced plosives in hx:y" ! second step
 !! __@RULENAME@__  
 Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) WeG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) ( Dummy: ) WeG: ;
     where Cx in (p t k)
@@ -214,7 +215,7 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) WeG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) 
 
 
 
-"Consonant Gradation for xN:N"
+"Consonant Gradation for xN:N" ! vájbmo
 !! __@RULENAME@__  
 Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) WeG: ; ! <=> Vow _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
     where Cx in (b g g )
@@ -281,6 +282,7 @@ s:t <=> _ j2: .#. ;
 
 
 
+
 ! ===========          
 !! !!Vowel rules 
 ! ===========          
@@ -316,7 +318,7 @@ i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
 !! __@RULENAME@__  
 %^O:a <=>  Cns:* u _ G3 ; ! use ^G3?? ^UAUML?? ?better way to write at least 2 Cns?
 
-"Special UÄ in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
+"Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
 %^O:ä <=>  Cns:* u _ G3 :e ; ! use ^G3?? ^UAUML?? ?better way to write at least 2 Cns?
 
@@ -326,14 +328,14 @@ e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
 
 "V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolátj
 !! __@RULENAME@__  
-e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^MONB4J:0 ;
+e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLE2AA:0 ;
 
 !
 ! gen.pl
 !!€ ju^Ollge^WG^IJ>j
 !!€ ju0l0gi000j
 ! ill.sg
-!!€ ju^Ollge^UAUML>j^MONB4J
+!!€ ju^Ollge^UAUML>j^ILLE2AA
 !!€ juallgá00j0
 ! nom.sg
 !!€ ju^Ollge^UAUML
@@ -342,7 +344,7 @@ e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^MONB4J:0 ;
 !!€ ju^Ollge^WG
 !!€ juol0ge0
 
-!!€ sábme>j^MONB4J
+!!€ sábme>j^ILLE2AA
 !!€ sábmá0j0
 !!€ sábme^WG^IJ>j
 !!€ sä0mi000j
