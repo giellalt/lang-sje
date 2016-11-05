@@ -12,7 +12,8 @@ Tests:
 
 
   Noun - sarves: # -kontrakta utan stv
-    sarves+N+Sg+Nom: [sarves, sarrvá]
+    sarves+N+Sg+Nom: sarves
+#    sarves+N+Sg+Nom: [sarves, sarrvá]
     sarves+N+Sg+Gen: sarrvá
     sarves+N+Sg+Acc: sarrváv
     sarves+N+Sg+Ill: sarrváj
@@ -26,6 +27,7 @@ Tests:
     sarves+N+Pl+Ine: sarrvájn
     sarves+N+Pl+Ela: sarrvájst
     sarves+N+Pl+Com: sarrváj
-    sarves+N+Ess: sarrván
+#    sarves+N+Ess: sarván
+#    sarves+N+Ess: sarrván	#not sure what CG should be in ESS
     sarves+N+Abe: sarrvádak
 

@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - vielmes: # -kontrakta utan stv
+    vielmes+N+Sg+Nom: vielmes
+    vielmes+N+Sg+Gen: välbmá
+    vielmes+N+Sg+Acc: välbmáv
+    vielmes+N+Sg+Ill: välbmáj
+    vielmes+N+Sg+Ine: välbmán
+    vielmes+N+Sg+Ela: välbmást
+    vielmes+N+Sg+Com: välbmájn
+    vielmes+N+Pl+Nom: välbmá
+    vielmes+N+Pl+Gen: välbmáj
+    vielmes+N+Pl+Acc: välbmájd
+    vielmes+N+Pl+Ill: välbmájda
+    vielmes+N+Pl+Ine: välbmájn
+    vielmes+N+Pl+Ela: välbmájst
+    vielmes+N+Pl+Com: välbmáj
+#    vielmes+N+Ess: vielmán
+#    vielmes+N+Abe: välbmádak
+
