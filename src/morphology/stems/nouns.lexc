@@ -25,7 +25,7 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! * åbbá: # utan stv N_EVEN_NOCG	!JW: does this really need a special class?
 
 !! * almatj: # -udda utan stv och vokalv	 N_ODD
-!! * ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
+!! * ålol: # -udda med stv och vokalv		 N_ODD_CGVH
 !! * vanas: # -udda med stv men utan vokalv N_ODD_CG
 !! * guobbar: # -udda utan stv men med vokalv N_ODD_VV
 !! * biena: # -udda med stv och vokalslut	 BIENA
@@ -182,7 +182,7 @@ vähkke:viehkke N_EVEN "hk hjälp" ;
 vällja:viellja N_EVEN "lj bror" ;
 
 åhpes:åhpp N_ODD_CG_H "bekant, vägvisare" ;  !kolla i twol växling hpp:hp 
-ålol:ullul N_ODD_CG_VV "käke" ;
+ålol:ållol N_ODD_CGVH "käke" ;
 ålmáj:ålbm N_CONTR_C_Å "man" ; 
 äddne:ieddne N_EVEN "dn mor" ;
 
