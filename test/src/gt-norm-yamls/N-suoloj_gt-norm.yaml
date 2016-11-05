@@ -11,7 +11,8 @@ Tests:
 
 
   Noun - suoloj: # -kontrakta utan stv
-    suoloj+N+Sg+Nom: [suoloj, sullu]
+    suoloj+N+Sg+Nom: suoloj
+#    suoloj+N+Sg+Nom: [suoloj, sullu]
     suoloj+N+Sg+Gen: sullu
     suoloj+N+Sg+Acc: sulluv
     suoloj+N+Sg+Ill: sulluj
