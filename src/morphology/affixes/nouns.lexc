@@ -431,11 +431,7 @@ LEXICON ODD_OBLIQUE_U_COMMON
 
 ! under construction
 
-
-LEXICON N_CONTR_C_A
-! BATSOJ ; 
-! 
-! LEXICON BATSOJ
+LEXICON N_CONTR_OJU !båtsoj<->buhtsu
 +N+Sg+Nom:oj^WG PX ;
 +N+Sg+Acc:u%>v PX ;
 +N+Sg+Gen:u PX ;
@@ -456,21 +452,29 @@ LEXICON N_CONTR_C_A
 +N+Pl+Ela:u%>jst PX ;
 +N+Pl+Com:u%>j PX ;
 
+LEXICON N_CONTR_AJA !ålmaj<->ålma
++N+Sg+Nom:a^WGj PX ;
++N+Sg+Acc:av PX ;
++N+Sg+Gen:a PX ;
++N+Sg+Ill:aj PX ;
++N+Sg+Ine:an PX ;
++N+Sg+Ela+Err/Orth:as PX ;
++N+Sg+Ela:ast PX ;
++N+Sg+Com:ajn PX ;
++N+Ess:an PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Ess:a^WGn PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:adak PX ; ! XXX
++N+Pl+Nom:a PX ;
++N+Pl+Acc:ajd PX ;
++N+Pl+Gen:aj PX ;
++N+Pl+Ill:ajda PX ;
++N+Pl+Ine:ajn PX ;
++N+Pl+Ela+Err/Orth:ajs PX ;
++N+Pl+Ela:ajst PX ;
++N+Pl+Com:aj PX ;
 
-LEXICON N_CONTR_C_Å
-ÅLMAAJ ; 
-
-LEXICON N_CONTR_C_B
-ÅLMAAJ_B ;
-
-LEXICON N_CONTR_C_C
-ÅLMAAJ_C ; 
-
-LEXICON N_CONTR_C_D
-ÅLMAAJ_D ; 
-
-LEXICON ÅLMAAJ
-+N+Sg+Nom:^WGáj PX ;
+LEXICON N_CONTR_ESA !sarves<->sarvvá
++N+Sg+Nom:e^WGs PX ;
 +N+Sg+Acc:áv PX ;
 +N+Sg+Gen:á PX ;
 +N+Sg+Ill:áj PX ;
@@ -478,8 +482,8 @@ LEXICON ÅLMAAJ
 +N+Sg+Ela+Err/Orth:ás PX ;
 +N+Sg+Ela:ást PX ;
 +N+Sg+Com:ájn PX ;
-+N+Ess:án PX ;
-+N+Ess:^WGán PX ;
++N+Ess:án PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Ess:á^WGn PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:ádak PX ; ! XXX
 +N+Pl+Nom:á PX ;
 +N+Pl+Acc:ájd PX ;
@@ -491,88 +495,8 @@ LEXICON ÅLMAAJ
 +N+Pl+Com:áj PX ;
 
 
-!LEXICON BÅTSOJA
-!+N+Sg+Nom:o^WGj PX ;
-!+N+Sg+Acc:uv PX ;
-!+N+Sg+Gen:u PX ;
-!+N+Sg+Ill:uj PX ;
-!+N+Sg+Ine:un PX ;
-!+N+Sg+Ela+Err/Orth:us PX ;
-!+N+Sg+Ela:ust PX ;
-!+N+Sg+Com:ujn PX ;
-!+N+Ess:un PX ;
-!+N+Ess:^WGun PX ;
-!+N+Abe:udak PX ; ! XXX
-!+N+Pl+Nom:u PX ;
-!+N+Pl+Acc:ujd PX ;
-!+N+Pl+Gen:uj PX ;
-!+N+Pl+Ill:ujda PX ;
-!+N+Pl+Ine:ujn PX ;
-!+N+Pl+Ela+Err/Orth:ujs PX ;
-!+N+Pl+Ela:ujst PX ;
-!+N+Pl+Com:uj PX ;
 
-LEXICON ÅLMAAJ_B
-+N+Sg+Nom:^WGes PX ;
-+N+Sg+Acc:áv PX ;
-+N+Sg+Gen:á PX ;
-+N+Sg+Ill:áj PX ;
-+N+Sg+Ine:án PX ;
-+N+Sg+Ela+Err/Orth:ás PX ;
-+N+Sg+Ela:ást PX ;
-+N+Sg+Com:ájn PX ;
-+N+Ess:án PX ;
-+N+Abe:ádak PX ; ! XXX
-+N+Pl+Nom:á PX ;
-+N+Pl+Acc:ájd PX ;
-+N+Pl+Gen:áj PX ;
-+N+Pl+Ill:ájda PX ;
-+N+Pl+Ine:ájn PX ;
-+N+Pl+Ela+Err/Orth:ájs PX ;
-+N+Pl+Ela:ájst PX ;
-+N+Pl+Com:áj PX ;
 
-LEXICON ÅLMAAJ_C
-+N+Sg+Nom:u PX ;
-+N+Sg+Acc:uv PX ;
-+N+Sg+Gen:u PX ;
-+N+Sg+Ill:uj PX ;
-+N+Sg+Ine:un PX ;
-+N+Sg+Ela+Err/Orth:us PX ;
-+N+Sg+Ela:ust PX ;
-+N+Sg+Com:ujn PX ;
-+N+Ess:un PX ;
-+N+Ess:^WGun PX ;
-+N+Abe:udak PX ; ! XXX
-+N+Pl+Nom:u PX ;
-+N+Pl+Acc:ujd PX ;
-+N+Pl+Gen:uj PX ;
-+N+Pl+Ill:ujda PX ;
-+N+Pl+Ine:ujn PX ;
-+N+Pl+Ela+Err/Orth:ujs PX ;
-+N+Pl+Ela:ujst PX ;
-+N+Pl+Com:uj PX ;
-
-LEXICON ÅLMAAJ_D
-+N+Sg+Nom:^WGá PX ;
-+N+Sg+Acc:áv PX ;
-+N+Sg+Gen:á PX ;
-+N+Sg+Ill:áj PX ;
-+N+Sg+Ine:án PX ;
-+N+Sg+Ela+Err/Orth:ás PX ;
-+N+Sg+Ela:ást PX ;
-+N+Sg+Com:ájn PX ;
-+N+Ess:án PX ;
-+N+Ess:^WGán PX ;
-+N+Abe:ádak PX ; ! XXX
-+N+Pl+Nom:á PX ;
-+N+Pl+Acc:ájd PX ;
-+N+Pl+Gen:áj PX ;
-+N+Pl+Ill:ájda PX ;
-+N+Pl+Ine:ájn PX ;
-+N+Pl+Ela+Err/Orth:ájs PX ;
-+N+Pl+Ela:ájst PX ;
-+N+Pl+Com:áj PX ;
 
 !LEXICON N_ODD_NOCG
 !+N+Sg+Nom: PX ;
@@ -606,34 +530,6 @@ LEXICON BIENASHORT
 +Sg+Nom: PX ;
 
 
-
-!LEXICON N_CONTR
-!+N: CONTRNOMSG ;
-!+N: CONTROBL ;
-
-!LEXICON CONTRNOMSG
-!+Sg+Nom:oj^ILLE2AA K ;
-! 
-!LEXICON CONTROBL 
-!+Sg+Acc:uv PX ;
-!+Sg+Gen:u PX ;
-!+Sg+Ill:uj PX ;
-!+Sg+Ine:un PX ;
-!+Sg+Ela+Err/Orth:us PX ;
-!+Sg+Ela:ust PX ;
-!+Sg+Com:ujn PX ;
-!+Abe:udak PX ;
-!+Pl+Nom:u PX ;
-!+Pl+Acc:ujd PX ;
-!+Pl+Gen:uj PX ;
-!+Pl+Ill:ujda PX ;
-!+Pl+Ine:ujn PX ;
-!+Pl+Ela+Err/Orth:ujs PX ;
-!+Pl+Ela:ujst PX ;
-!+Pl+Com:uj PX ;
-!
-!
-!
 LEXICON PX
 # ;
 

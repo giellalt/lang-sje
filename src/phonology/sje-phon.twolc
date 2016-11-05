@@ -340,12 +340,27 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
-%^O:0 <=> Cns:* u _ Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !juällge<->julgij
+%^O:0 <=> Cns:* u _ Cns:+ [:i|:u] Cns:* Dummy:* %>:* ; !juällge<->julgij
 
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
 i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
-		Cns:* _ e:ä G3 ; !biegga->b0ägga
+		Cns:* _ e: G3 ; !biegga->b0ägga
+
+"Ä in G3" ! ie:0ä (bägge, bävvde); can be word-initial
+!! __@RULENAME@__  
+e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
+
+! ! vielmes:vielbm N_CONTR_ESA
+! ! nom.sg
+! !!€ vielbme^WGs
+! !!€ viel0me0s
+! ! acc.sg
+! !!€ vielbmáv
+! !!€ v0älbmáv
+! ! acc.sg !why doesn't this fail?!? "Special VH for ie" and "Ä in G3" are both fulfilled!
+! !!€ vielbmáv
+! !!€ vielbmáv
 
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
@@ -355,10 +370,6 @@ i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
 !! __@RULENAME@__  
 %^O:ä <=>  Cns:* u _ G3 :e ; ! use ^G3?? ^UAUML?? ?better way to write at least 2 Cns?
 
-"Ä in G3" ! ie:0ä (bägge, bävvde); can be word-initial
-!! __@RULENAME@__  
-e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
-
 "V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolátj
 !! __@RULENAME@__  
 e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLE2AA:0 ;
@@ -367,6 +378,13 @@ e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLE2AA:0 ;
 !! __@RULENAME@__  
 o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %^VHBAR:* Vow:+ ;
+
+! !!€ ålbmaj^WG
+! !!€ ål0maj0
+! !!€ ålbma>v
+! !!€ ålbma0v
+! !!€ ålbma>j
+! !!€ ålbma0j
 
 ! !!€ ållol^WG
 ! !!€ ål0ol0
