@@ -33,12 +33,11 @@ Alphabet
   %^ILLE2AA:0 !!≈ ; @CODE@ : e to á before j
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
-  %^LOW:0    !!≈ ; @CODE@ : Lowering u to å and o (ålol)
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
-  %^ILLO2U:0 !!= @CODE@ * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
+  %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
   %^VHBAR:0 !!= @CODE@ * block VH from happening
 
 ! Morpheme boundaries:
@@ -58,7 +57,7 @@ Sets
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   WeG    =  %^WG %^jDEL ;
-  Dummy  =  %^WG %^jDEL %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^ILLO2U %^VHBAR ;
+  Dummy  =  %^WG %^jDEL %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
 
@@ -304,39 +303,39 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
           matched ; 
 ! Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
-!nom.sg
-!!€ almatj
-!!€ almatj
-!nom.pl
-!!€ almatja
-!!€ almatja
-!acc.sg
-!!€ almatja%>v
-!!€ almatja0v
-!acc.pl
-!!€ almatj^VHBARi%>j
-!!€ almatj0i0j
-
-
-!nom.sg
-!!€ biednag^WG^CDEL
-!!€ bie0na000
-!nom.pl
-!!€ biednaga
-!!€ biednaga
-!acc.sg
-!!€ biednaga%>v
-!!€ biednaga0v
-!acc.pl
-!!€ biednag^VHBARi%>j
-!!€ biednag0i0j
-
-!!€ båhtsoj^WG
-!!€ bå0tsoj0
-!!€ båhtsu
-!!€ buhtsu
-!!€ båhtsu%>v
-!!€ buhtsu0v
+! !nom.sg
+! !!€ almatj
+! !!€ almatj
+! !nom.pl
+! !!€ almatja
+! !!€ almatja
+! !acc.sg
+! !!€ almatja%>v
+! !!€ almatja0v
+! !acc.pl
+! !!€ almatj^VHBARi%>j
+! !!€ almatj0i0j
+! 
+! 
+! !nom.sg
+! !!€ biednag^WG^CDEL
+! !!€ bie0na000
+! !nom.pl
+! !!€ biednaga
+! !!€ biednaga
+! !acc.sg
+! !!€ biednaga%>v
+! !!€ biednaga0v
+! !acc.pl
+! !!€ biednag^VHBARi%>j
+! !!€ biednag0i0j
+! 
+! !!€ båhtsoj^WG
+! !!€ bå0tsoj0
+! !!€ båhtsu
+! !!€ buhtsu
+! !!€ båhtsu%>v
+! !!€ buhtsu0v
 
 
 "Special VH for u^O" ! u^O:u0
@@ -364,30 +363,34 @@ e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
 !! __@RULENAME@__  
 e:á <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLE2AA:0 ;
 
-"V2 O to U (variant)" ! rássjo->rässjuj, iello->elluj (variant)
+"V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  
-o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^ILLO2U:0 ;
+o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
+		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %^VHBAR:* Vow:+ ;
 
+! !!€ ållol^WG
+! !!€ ål0ol0
+! !!€ ållol^V2O2Ua>v
+! !!€ ullul0a0v
+! !!€ ållol^V2O2U^VHBARi>j
+! !!€ ullul00i0j
+! !!€ rássjo>j^V2O2U
+! !!€ rässju0j0
+! !!€ rássjo>j^ILLE2AA
+! !!€ rássjo0j0
 
-!!€ rássjo>j^ILLO2U
-!!€ rässju0j0
-!!€ rássjo>j^ILLE2AA
-!!€ rássjo0j0
-
-
-!
-! gen.pl
-!!€ ju^Ollge^WG^IJ>j
-!!€ ju0l0gi000j
-! ill.sg
-!!€ ju^Ollge^UAUML>j^ILLE2AA
-!!€ juallgá00j0
-! nom.sg
-!!€ ju^Ollge^UAUML
-!!€ juällge0
-! nom.pl
-!!€ ju^Ollge^WG
-!!€ juol0ge0
+! ! gen.pl
+! !!€ ju^Ollge^WG^IJ>j
+! !!€ ju0l0gi000j
+! ! ill.sg
+! !!€ ju^Ollge^UAUML>j^ILLE2AA
+! !!€ juallgá00j0
+! ! nom.sg
+! !!€ ju^Ollge^UAUML
+! !!€ juällge0
+! ! nom.pl
+! !!€ ju^Ollge^WG
+! !!€ juol0ge0
 
 !!€ sábme>j^ILLE2AA
 !!€ sábmá0j0
