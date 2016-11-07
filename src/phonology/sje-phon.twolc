@@ -349,7 +349,7 @@ i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
 
 "Ä in G3" ! ie:0ä (bägge, bävvde); can be word-initial
 !! __@RULENAME@__  
-e:ä <=>  Cns:* i:0 _ G3 ; ! use ^G3?? ^UAUML??
+e:ä <=>  Cns:* i:0 _ G3 %^UAUML:* ; ! use ^G3?? ^UAUML??
 
 ! ! vielmes:vielbm N_CONTR_ESA
 ! ! nom.sg
