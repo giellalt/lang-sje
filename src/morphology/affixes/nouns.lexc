@@ -201,10 +201,6 @@ LEXICON N_ODD_CG
 +N+Sg+Nom:^WG PX ;
 +N:^UAUML ODD_OBLIQUE ;
 
-LEXICON N_ODD_CG_F 
-+N+Sg+Nom:^WGes PX ;
-+N: ODD_OBLIQUE_B ;
-
 LEXICON N_ODD_CG_A !ex. judos, fungerar ej
 +N+Sg+Nom:^WGos PX ;
 +N: ODD_OBLIQUE_A_COMMON ;
@@ -232,6 +228,10 @@ LEXICON N_ODD_CG_D
 LEXICON N_ODD_CG_E 
 +N+Sg+Nom:^WG PX ;
 +N: ODD_OBLIQUE_E ;
+
+! LEXICON N_ODD_CG_F 
+! +N+Sg+Nom:^WGes PX ;
+! +N: ODD_OBLIQUE_B ;
 
 LEXICON N_ODD_G
 +N+Sg+Nom:k PX ;
