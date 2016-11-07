@@ -285,23 +285,23 @@ LEXICON ODD_OBLIQUE_A_COMMON
 +Pl+Ela:usijst PX ;
 +Pl+Com:usij PX ;
 
-LEXICON ODD_OBLIQUE_B_COMMON
-+Sg+Acc:ásav PX ;
-+Sg+Gen:ása PX ;
-+Sg+Ill:ásij PX ;
-+Sg+Ine:ásin PX ;
-+Sg+Ela+Err/Orth:ásis PX ; 
-+Sg+Ela:ásist PX ; 
-+Sg+Com:ásijn PX ;
-+Ess:ásin PX ;
-+Pl+Nom:ása PX ;
-+Pl+Acc:ásijd PX ;
-+Pl+Gen:ásij PX ;
-+Pl+Ill:ásijda PX ;
-+Pl+Ine:ásijn PX ;
-+Pl+Ela+Err/Orth:ásijs PX ;
-+Pl+Ela:ásijst PX ;
-+Pl+Com:ásij PX ;
+!LEXICON ODD_OBLIQUE_B_COMMON
+!+Sg+Acc:ásav PX ;
+!+Sg+Gen:ása PX ;
+!+Sg+Ill:ásij PX ;
+!+Sg+Ine:ásin PX ;
+!+Sg+Ela+Err/Orth:ásis PX ; 
+!+Sg+Ela:ásist PX ; 
+!+Sg+Com:ásijn PX ;
+!+Ess:ásin PX ;
+!+Pl+Nom:ása PX ;
+!+Pl+Acc:ásijd PX ;
+!+Pl+Gen:ásij PX ;
+!+Pl+Ill:ásijda PX ;
+!+Pl+Ine:ásijn PX ;
+!+Pl+Ela+Err/Orth:ásijs PX ;
+!+Pl+Ela:ásijst PX ;
+!+Pl+Com:ásij PX ;
 
 LEXICON ODD_OBLIQUE_C_COMMON
 +Sg+Acc:hav PX ;
