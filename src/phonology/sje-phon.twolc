@@ -227,7 +227,7 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; ! <=> Vow _ Cy (Vow:+)
 
 "Final C Deletion"
 !! __@RULENAME@__  
-Cx:0 <=> _ %^WG:*  %^CDEL: ;
+Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
 	where Cx in ( b d g s h ) ; 
 
 ! !!€ riehpeh^WG^CDEL
@@ -238,7 +238,7 @@ Cx:0 <=> _ %^WG:*  %^CDEL: ;
 
 "Final devoicing"
 !! __@RULENAME@__  
-Cx:Cy <=> _ %^WG:* .#. ;
+Cx:Cy <=> _ %^WG: .#. ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t  k  )
           matched ; ! JW: removed pair h2:j (not sure what it refers to)
