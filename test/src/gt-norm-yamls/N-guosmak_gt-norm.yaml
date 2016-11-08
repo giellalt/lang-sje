@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - guosmak: # -udda med stv, omljud och vokalslut (add uä variant!)
+  Noun - guosmak: # -udda med stv, omljud (add uä variant!)
     guosmak+N+Sg+Nom: guosmak
     guosmak+N+Sg+Gen: guassmaga
     guosmak+N+Sg+Acc: guassmagav
