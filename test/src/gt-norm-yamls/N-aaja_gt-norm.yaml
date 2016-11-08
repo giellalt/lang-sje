@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - ája: # -udda med stv, omljud och vokalslut (add uä variant!)
+    ája+N+Sg+Nom: ája
+    ája+N+Sg+Gen: ádjaga
+    ája+N+Sg+Acc: ádjagav
+    ája+N+Sg+Ill: ádjagij
+    ája+N+Sg+Ine: ádjagin
+    ája+N+Sg+Ela: ádjagist
+    ája+N+Sg+Com: ádjagijn
+    ája+N+Pl+Nom: ádjaga
+    ája+N+Pl+Gen: ádjagij
+    ája+N+Pl+Acc: ádjagijd
+    ája+N+Pl+Ill: ádjagijda
+    ája+N+Pl+Ine: ádjagijn
+    ája+N+Pl+Ela: ádjagijst
+    ája+N+Pl+Com: ádjagij
+    ája+N+Ess: ádjagin
+    ája+N+Abe: ádjagahtá
+
+ 
+ 
