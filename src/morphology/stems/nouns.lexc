@@ -353,6 +353,7 @@ gånågis:gånågas N_EVEN_4 "konung" ;
 ! !! * guobbar: # -udda utan stv men med vokalv N_ODD_VV
 ! !! * biena: # -udda med stv och vokalslut	 N_ODD_OPEN
 
+iejgát:iejgá^D N_ODD "föräldrar" ; !nominativ sg. fungerar ej
 tjiebot:tjiebod N_ODD "throat" ;
 ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ; !funkar
 ájlek:ájleg N_ODD "söndag" ;
@@ -369,7 +370,6 @@ guohper:guohper N_ODD "klöv" ;
 guohtom:gu^Ohtom N_ODD "renbete" ;
 iednam:iednam N_ODD "land, mark" ;
 iehket:iehked2 N_ODD "kväll" ;
-iejgát:iejgád2 N_ODD "föräldrar" ; !nominativ sg. fungerar ej
 jågåtj:jågåtj N_ODD "liten bäck" ;
 máddár:máddár N_ODD "rot" ;
 njåmmel:njåmmel N_ODD "hare" ;
@@ -390,11 +390,11 @@ savvun:savvun N_ODD "sel saL" ;
 sivvun:sivvun N_ODD "sel" ;
 suohkan:suohkan N_ODD "socken" ; 
 
+guosmak:gu^Ossma^G N_ODD_WG "ssm kaffe" ; !nominativ sg. fungerar ej
 áldar:álldar N_ODD_WG "lld ålder" ;
 aldas:alldas N_ODD_WG "lld ovanläder" ;
 dálkas:dállkas N_ODD_WG "medicin" ; 
 gielbar:giellbar N_ODD_WG "snödriva" ;
-guosmak:gu^Ossmag2 N_ODD_WG "ssm kaffe" ; !nominativ sg. fungerar ej
 dimbar:dimmbar N_ODD_WG "mmb" ;
 suptsas:supptsas N_ODD_WG "ppts berättelse, saga" ;
 tjällár:tjäl'lár N_ODD_WG "källare" ;

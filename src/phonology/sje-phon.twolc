@@ -25,6 +25,7 @@ Alphabet
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
   b2:b d2:d g2:g t2:t j2:j h2:h
+  %^D:d %^G:g
   %^O:o
   ':0
 
@@ -53,7 +54,8 @@ Alphabet
 Sets
   Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú '    ;
   Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
-             b2 d2 g2 t2 j2 h2 ;
+             b2 d2 g2 t2 j2 h2 
+             	%^D %^G ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   Dummy  =  %^WG %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
@@ -240,17 +242,17 @@ Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
 "Final devoicing"
 !! __@RULENAME@__  
 Cx:Cy <=> _ (%^WG:) .#. ;
-    where Cx in ( b2 d2 g2 )
-          Cy in ( p  t  k  )
+    where Cx in ( b2 %^D %^G )
+          Cy in ( p  t 	 k )
           matched ; ! JW: removed pair h2:j (not sure what it refers to)
 
-!!€ gu^Ossmag2^WG
+!!€ gu^Ossma^G^WG
 !!€ guos0mak0
-!!€ iejgád2
+!!€ iejgá^D
 !!€ iejgát
-!!€ gu^Ossmag2a>v
+!!€ gu^Ossma^Ga>v
 !!€ guassmaga0v
-!!€ iejgád2^VHBARi>jd
+!!€ iejgá^D^VHBARi>jd
 !!€ iejgád0i0jd
 !!€ mu^Ohttag^WG^CDEL
 !!€ muoht0a000
