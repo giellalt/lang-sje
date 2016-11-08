@@ -52,7 +52,8 @@ Alphabet
 
 Sets
   Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú '    ;
-  Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     ' ;
+  Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
+             b2 d2 g2 t2 j2 h2 ;;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   Dummy  =  %^WG %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
@@ -142,7 +143,7 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
          
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _ Vow:* Cns:* ( Dummy: ) %^WG: ;
+Cx:0 <=> Vow: Cx _ Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
 ! !!€ dållå^WG
@@ -238,7 +239,7 @@ Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
 
 "Final devoicing"
 !! __@RULENAME@__  
-Cx:Cy <=> _ %^WG: .#. ;
+Cx:Cy <=> _ (%^WG:) .#. ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t  k  )
           matched ; ! JW: removed pair h2:j (not sure what it refers to)
