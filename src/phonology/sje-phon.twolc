@@ -239,7 +239,7 @@ Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
 
 "Final devoicing"
 !! __@RULENAME@__  
-Cx:Cy <=> _ (%^WG:) # \Vow:* ;
+Cx:Cy <=> _ (%^WG:) # ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t 	k )
           matched ; ! JW: removed pair h2:j (not sure what it refers to)
