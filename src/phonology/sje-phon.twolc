@@ -24,12 +24,11 @@ Alphabet
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
-  b2:b d2:d t2:t j2:j h2:h g2:g
+  b2:b d2:d g2:g t2:t j2:j h2:h
   %^O:o
   ':0
 
   %^WG:0     !!≈ ; @CODE@ : weak grade
-  %^jDEL:0   !!≈ ; @CODE@ : vowel deletion in front of j
   %^ILLE2AA:0 !!≈ ; @CODE@ : e to á before j
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
@@ -56,8 +55,7 @@ Sets
   Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     ' ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
-  WeG    =  %^WG %^jDEL ;
-  Dummy  =  %^WG %^jDEL %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
+  Dummy  =  %^WG %^ILLE2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
 
@@ -112,14 +110,14 @@ Rules
 
 "Consonant Gradation for htt(j|s):ht(j|s)"
 !! __@RULENAME@__  
-t:0 <=> Vow: h t _ ( j | s ) (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+t:0 <=> Vow: h t _ ( j | s ) (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
 
 ! !!€ áhttje^WG
 ! !!€ áht0je0
 
 "Consonant Gradation for hxx:hx"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
      where Cx in (p k) ; ! 't' covered by "Consonant Gradation for htt(j|s):ht(j|s)"
 
 ! !!€ náhppe^WG
@@ -127,8 +125,13 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xdn(j):xn(j)"
 !! __@RULENAME@__  
-d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) WeG: ;
+d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( j v l ) ;
+
+! !!€ vadnas^WG
+! !!€ va0nas0
+! !!€ gu^Ohtom
+! !!€ guohtom
 
 ! !!€ buvdna^WG
 ! !!€ buv0na0
@@ -139,7 +142,7 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) WeG: ;
          
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) WeG: ;
+Cx:0 <=> Vow: Cx _ Vow:* Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
 ! !!€ dållå^WG
@@ -154,9 +157,10 @@ Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xxy:xy"
 !! __@RULENAME@__  
- Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) Vow: Cns:* ( Dummy: ) WeG: ; !Cx:0 <=> Vow: Cx _ Cy                   (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
- where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
-       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d k l r g s t )  
+Cx:0 <=> Vow: Cx _ Cy Vow: Cns:* ( Dummy: ) %^WG: ;
+! Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) Vow: Cns:* ( Dummy: ) %^WG: ;
+ where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
+       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k m n p t v j k m s g k n d k l r g s t )  
           matched ;
 
 ! !!€ lu^Okkta^WG
@@ -168,7 +172,7 @@ Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) WeG: ;
 
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
-Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) WeG: ; !Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; !Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
      where Cx in ( b d d )
            Cy in ( m j n )  
           matched ;
@@ -182,7 +186,7 @@ Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) WeG: ; !Cx:0 <=> Vow: _ Cy (Vow:+
 
 "Delete h in hx:y" ! first step
 !! __@RULENAME@__  
-h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) WeG: ;
+h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) %^WG: ;
     where Cx in (p t k) ;
 
 ! !!€ dåhpe^WG
@@ -193,17 +197,9 @@ h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) WeG: ;
 ! !!€ rå0tse0
 
 
-! ! "Delete h before ts in hts:ts" ! old - delete?
-! ! !! __@RULENAME@__  
-! ! h:0 <=> Vow+ _ t s Vow: Cns:* ( Dummy: ) WeG: ;
-! !    
-! ! !!€ buhts^WG^LOWoj
-! ! !!€ bå0ts00oj
-
-
 "Intervocalic voiced plosives in hx:y" ! second step
 !! __@RULENAME@__  
-Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) WeG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) ( Dummy: ) WeG: ;
+Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) %^WG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) ( Dummy: ) %^WG: ;
     where Cx in (p t k)
           Cy in (b d g)
           matched ;
@@ -217,7 +213,7 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) WeG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) 
 
 "Consonant Gradation for xN:N" ! vájbmo
 !! __@RULENAME@__  
-Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) WeG: ; ! <=> Vow _ Cy (Vow:+) (Cns:+) ( Dummy: ) WeG: ;
+Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; ! <=> Vow _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
     where Cx in (b g g )
           Cy in (m n ŋ )
           matched ;
@@ -226,26 +222,13 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) WeG: ; ! <=> Vow _ Cy (Vow:+) 
 ! !!€ váj0mo0
 
 
-! "Steggo or not xxy vs xyy"  ! even Steggo stopping using this
-! !! __@RULENAME@__  
-! Cx:Cy <=> Vow: Cx _ Cy (Vow:+) (Cns:+) ( Dummy: ) \WeG: ;
-!  where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
-!        Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m t s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k n p t v j k m s g k n d l r g s t )  
-!           matched ;
-! This does not work as intended:
-! The idea was to make a tolerant version of the analyser, 
-! accepting both xxy and xyy.
-! no longer necessary, even Steggo writes xxy now.
-
-
-
 !! !!Other consonant rules 
 ! =====================
 
 "Final C Deletion"
 !! __@RULENAME@__  
-Cx:0 <=> _ (Dummy:) %^CDEL: ;
-	where Cx in ( b d g s h ) ; ! JW: added h (riebe/riehpeha); what about j (båtsoj/buhtsu)??
+Cx:0 <=> _ %^WG:*  %^CDEL: ;
+	where Cx in ( b d g s h ) ; 
 
 ! !!€ riehpeh^WG^CDEL
 ! !!€ rie0be000
@@ -255,11 +238,23 @@ Cx:0 <=> _ (Dummy:) %^CDEL: ;
 
 "Final devoicing"
 !! __@RULENAME@__  
-Cx:Cy <=> _ .#. ;
+Cx:Cy <=> _ %^WG:* .#. ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t  k  )
           matched ; ! JW: removed pair h2:j (not sure what it refers to)
 
+!!€ gu^Ossmag2^WG
+!!€ guos0mak0
+!!€ iejgád2
+!!€ iejgát
+!!€ gu^Ossmag2a>v
+!!€ guassmaga0v
+!!€ iejgád2^VHBARi>jd
+!!€ iejgád0i0jd
+!!€ mu^Ohttag^WG^CDEL
+!!€ muoht0a000
+!!€ mu^Ohttaga>v
+!!€ muahttaga0v
 ! !!€ árrad2
 ! !!€ árrat
 ! !!€ árrad2e
@@ -365,6 +360,9 @@ e:ä <=>  Cns:* i:0 _ G3 %^UAUML:* ;
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
 %^O:a <=>  Cns:* u _ G3 ; ! use ^G3?? ^UAUML?? ?better way to write at least 2 Cns?
+
+! !!€ mu^Ohttag^WG^CDEL
+! !!€ muoht0a000
 
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
