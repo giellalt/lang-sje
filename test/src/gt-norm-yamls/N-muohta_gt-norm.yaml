@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - muohta: # -udda med stv, omljud och vokalslut (add uä variant!)
+    muohta+N+Sg+Nom: muohta
+    muohta+N+Sg+Gen: muahttaga
+    muohta+N+Sg+Acc: muahttagav
+    muohta+N+Sg+Ill: muahttagij
+    muohta+N+Sg+Ine: muahttagin
+    muohta+N+Sg+Ela: muahttagist
+    muohta+N+Sg+Com: muahttagijn
+    muohta+N+Pl+Nom: muahttaga
+    muohta+N+Pl+Gen: muahttagij
+    muohta+N+Pl+Acc: muahttagijd
+    muohta+N+Pl+Ill: muahttagijda
+    muohta+N+Pl+Ine: muahttagijn
+    muohta+N+Pl+Ela: muahttagijst
+    muohta+N+Pl+Com: muahttagij
+    muohta+N+Ess: muahttagin
+    muohta+N+Abe: muahttagahtá
+
+ 
+ 

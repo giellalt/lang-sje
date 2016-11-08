@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - guosmak: # -udda med stv, omljud och vokalslut (add uä variant!)
+    guosmak+N+Sg+Nom: guosmak
+    guosmak+N+Sg+Gen: guassmaga
+    guosmak+N+Sg+Acc: guassmagav
+    guosmak+N+Sg+Ill: guassmagij
+    guosmak+N+Sg+Ine: guassmagin
+    guosmak+N+Sg+Ela: guassmagist
+    guosmak+N+Sg+Com: guassmagijn
+    guosmak+N+Pl+Nom: guassmaga
+    guosmak+N+Pl+Gen: guassmagij
+    guosmak+N+Pl+Acc: guassmagijd
+    guosmak+N+Pl+Ill: guassmagijda
+    guosmak+N+Pl+Ine: guassmagijn
+    guosmak+N+Pl+Ela: guassmagijst
+    guosmak+N+Pl+Com: guassmagij
+    guosmak+N+Ess: guassmagin
+    guosmak+N+Abe: guassmagahtá
+
+ 
+ 

@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - iejgát: # -udda med stv, omljud och vokalslut (add uä variant!)
+    iejgát+N+Sg+Nom: iejgát
+    iejgát+N+Sg+Gen: iejgáda
+    iejgát+N+Sg+Acc: iejgádav
+    iejgát+N+Sg+Ill: iejgádij
+    iejgát+N+Sg+Ine: iejgádin
+    iejgát+N+Sg+Ela: iejgádist
+    iejgát+N+Sg+Com: iejgádijn
+    iejgát+N+Pl+Nom: iejgáda
+    iejgát+N+Pl+Gen: iejgádij
+    iejgát+N+Pl+Acc: iejgádijd
+    iejgát+N+Pl+Ill: iejgádijda
+    iejgát+N+Pl+Ine: iejgádijn
+    iejgát+N+Pl+Ela: iejgádijst
+    iejgát+N+Pl+Com: iejgádij
+    iejgát+N+Ess: iejgádin
+    iejgát+N+Abe: iejgádahtá
+
+ 
+ 
