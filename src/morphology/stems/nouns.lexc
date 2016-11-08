@@ -335,66 +335,52 @@ vuolle:vuolle N_EVEN "l jojk" ;
 årrdå:årrdå N_EVEN "rd trädgräns" ;
 åsse:åsse N_EVEN "s del" ;
 
+ájádus:ájádus N_EVEN_4 "s tanke, mening" ; !funkar
+ávdnogis:ávdnogis N_EVEN_4 "s rovdjursriven ren som lever" ;
+gånågis:gånågas N_EVEN_4 "konung" ;
+
 
 ! Odd-syllable stem patterns:
 
-!! * almatj: # -udda utan stv och vokalv	 N_ODD
-!! * ålol: # -udda med stv och vokalv		 N_ODD_CGVH
-!! * vanas: # -udda med stv men utan vokalv N_ODD_CG
-!! * guobbar: # -udda utan stv men med vokalv N_ODD_VV
-!! * biena: # -udda med stv och vokalslut	 BIENA
+!! * almatj: # -odd, closed second syllable, no CGrad               N_ODD
+!! * vanas: # -odd, closed second syllable, CGrad                   N_ODD_WG
+!! * ålol: # -odd closed second syllable, CGrad, V2 alternation     N_ODD_VH
+!! * biena: # -odd, open second syllable, has CGrad                 N_ODD_OPEN
 
-ájádus:ájáduss N_EVEN_4 "s tanke, mening" ; !funkar
+! !! * almatj: # -udda utan stv och vokalv	 N_ODD
+! !! * ålol: # -udda med stv och vokalv		 N_ODD_CGVH
+! !! * vanas: # -udda med stv men utan vokalv N_ODD_CG
+! !! * guobbar: # -udda utan stv men med vokalv N_ODD_VV
+! !! * biena: # -udda med stv och vokalslut	 N_ODD_OPEN
+
+tjiebot:tjiebod N_ODD "throat" ;
 ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ; !funkar
-ájlek:ájle N_ODD_G "söndag" ;
+ájlek:ájleg N_ODD "söndag" ;
 áhkatj:áhkatj N_ODD "fru, hustru" ; !funkar
-ája:ádjag BIENA "kallkälla" ; !funkar
-áldar:álldar N_ODD_CG "lld ålder" ;
-aldas:alldas N_ODD_CG "lld ovanläder" ;
-árrat:árra  N_ODD_D "morgon" ;
-átjek:átje N_ODD_G "åska" ;
-ávdnogis:ávdnogiss N_EVEN_4 "s rovdjursriven ren som lever" ;
-gånågas:gånågass N_EVEN_4 "konung" ;
-!bena:bednag BIENA "koira" ; !alternativform till biena
-bednik:bedni N_ODD_G "pengar" ;
-biena:biednag BIENA "koira" ;
-dálkas:dállkas N_ODD_CG "medicin" ; 
+árrat:árrad  N_ODD "morgon" ;
+átjek:átjeg N_ODD "åska" ;
+biednek:biedneg N_ODD "pengar" ;
 dåktor:dåktor N_ODD "läkare" ;
-däbmuk:däbmu N_ODD_G "öring" ;
+däbmuk:däbmug N_ODD "öring" ;
 gahper:gahper N_ODD "mössa" ;
-gáma:gábmag BIENA "sko" ; !nominativ sg. fungerar ej
 gerun:gerun N_ODD "ripa" ;
-gielbar:giellbar N_ODD_CG "snödriva" ;
-guobbar:guobbar N_ODD_VV "svamp" ;
+guobbar:guobbar N_ODD "svamp" ;
 guohper:guohper N_ODD "klöv" ;
-guosmak:guassma N_ODD_CG_D "ssm kaffe" ; !nominativ sg. fungerar ej
-gierma:gierbma N_ODD_CG_I "orm" ; !kolla i Twol c om rbm kan växla till rm
-ginij:gidni N_ODD_CG_C "vittra" ;
-dimbar:dimmbar N_ODD_CG "mmb" ;
+guohtom:gu^Ohtom N_ODD "renbete" ;
 iednam:iednam N_ODD "land, mark" ;
-iehket:iehke N_ODD_D "kväll" ;
-iejgát:iejgá N_ODD_D "föräldrar" ; !nominativ sg. fungerar ej
-judos:juht N_ODD_CG_A "djur" ; !fungerar ej judos:juhtusa
+iehket:iehked2 N_ODD "kväll" ;
+iejgát:iejgád2 N_ODD "föräldrar" ; !nominativ sg. fungerar ej
 jågåtj:jågåtj N_ODD "liten bäck" ;
 máddár:máddár N_ODD "rot" ;
-máles:mállás N_ODD_CG_E ; ! nominativ sg. fungerar ej
-muohta:muahttag BIENA "snö" ; !nominativ sg. fungerar ej
 njåmmel:njåmmel N_ODD "hare" ;
-rebij:rehpi N_ODD_CG_C "räv" ; ! nominativ sg. fungerar ej, ej heller  böjningsform 
-sárjas:sárrjas N_ODD_CG "sår" ;
+sárjas:sárrjas N_ODD "sår" ;
 skerutj:skerutj N_ODD "ortnamn" ;
 suorbmas:suorbmas N_ODD "ring" ;
-suptsas:supptsas N_ODD_CG "ppts berättelse, saga" ;
 suoŋŋer:suoŋŋer N_ODD ;
-tjála:tjállag BIENA "skrift" ;
 tjiehtjer:tjiehtjer N_ODD "lillfinger" ;
-tjierbmak:tjierbma N_ODD_G "ettårs ren" ;
+tjierbmak:tjierbmag N_ODD "ettårs ren" ;
 tjuojgus:tjuojgus N_ODD "ljus" ;
-tjällár:tjällár N_ODD "källare" ;
-vanas:vadnas N_ODD_CG "vene, båt" ;
 vieráld:vieráld N_ODD "världen" ;
-åhpes:åhpp N_ODD_CG_H "bekant, vägvisare" ;  !kolla i twol växling hpp:hp 
-ålol:ållol N_ODD_CGVH "käke" ;
 almatj:almatj N_ODD "ihminen, människa" ;
 árran:árran N_ODD "eldstad" ;
 gintal:gintal N_ODD ; !
@@ -403,6 +389,31 @@ njisjkom:njisjkom N_ODD "vävsked" ;
 savvun:savvun N_ODD "sel saL" ;
 sivvun:sivvun N_ODD "sel" ;
 suohkan:suohkan N_ODD "socken" ; 
+
+áldar:álldar N_ODD_WG "lld ålder" ;
+aldas:alldas N_ODD_WG "lld ovanläder" ;
+dálkas:dállkas N_ODD_WG "medicin" ; 
+gielbar:giellbar N_ODD_WG "snödriva" ;
+guosmak:gu^Ossmag2 N_ODD_WG "ssm kaffe" ; !nominativ sg. fungerar ej
+dimbar:dimmbar N_ODD_WG "mmb" ;
+suptsas:supptsas N_ODD_WG "ppts berättelse, saga" ;
+tjällár:tjäl'lár N_ODD_WG "källare" ;
+vanas:vadnas N_ODD_WG "vene, båt" ;
+åhpes:åhppes N_ODD_WG "bekant, vägvisare" ;  !kolla i twol växling hpp:hp 
+
+ája:ádjag N_ODD_OPEN "kallkälla" ;
+!bena:bednag N_ODD_OPEN "koira" ; !alternativform till biena
+biena:biednag N_ODD_OPEN "koira" ;
+gáma:gábmag N_ODD_OPEN "sko" ; !nominativ sg. fungerar ej
+gierma:gierbmah N_ODD_OPEN "orm" ; 
+ginij:gidnih N_ODD_OPEN "vittra" ;
+muohta:mu^Ohttag N_ODD_OPEN "snö" ; !nominativ sg. fungerar ej
+riebe:rehpeh N_ODD_OPEN "räv" ; ! nominativ sg. fungerar ej, ej heller  böjningsform 
+tjála:tjállag N_ODD_OPEN "skrift" ;
+
+ålol:ållol N_ODD_VH "käke" ;
+judos:juhtus N_ODD_VH "djur" ; !fungerar ej judos:juhtusa
+máles:mállás N_ODD_VH ; ! nominativ sg. fungerar ej
 
 
 
@@ -416,17 +427,17 @@ suohkan:suohkan N_ODD "socken" ;
 !! * sarves: # -contracted stem ending in -es or -á: N_CONTR_ESA
 
 båtsoj:båhts N_CONTR_OJU "ren" ;
+suoloj:su^Oll N_CONTR_OJU "ö" ; !not sure how this inflects -- check corpus
 bálges:bállg N_CONTR_ESA "stig" ;
-ålmaj:ålm N_CONTR_AJA "man" ; 
-ålmaj:ålbm N_CONTR_AJA "man" ; !variant! normative or descriptive?
 sarves:sarrv N_CONTR_ESA "rentjur" ;
-bieraj:bierra N_CONTR_AJA "släkting" ;
-!iddnu:iddn N_CONTR_C_C "morbror" ; !not sure how this inflects -- check corpus
 gieles:giell N_CONTR_ESA "lögn" ; 
 hábres:hábbr N_CONTR_ESA "bock" ; 
 sádnes:sáddn N_CONTR_ESA "sanning" ;
-suoloj:su^Oll N_CONTR_OJU "ö" ; !not sure how this inflects -- check corpus
 vielmes:vielbm N_CONTR_ESA "lugnvatten" ; !nominativ sg. fungerar ej, ev skriva vielmes:vielbm
+ålmaj:ålm N_CONTR_AJA "man" ; 
+ålmaj:ålbm N_CONTR_AJA "man" ; !variant! normative or descriptive?
+bieraj:bierra N_CONTR_AJA "släkting" ;
+!iddnu:iddn N_CONTR_C_C "morbror" ; !not sure how this inflects -- check corpus
 
 
 

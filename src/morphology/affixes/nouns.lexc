@@ -141,27 +141,32 @@ LEXICON N_EVEN_C
 ! odd-syllabic
 ! ------------
 
-LEXICON N_ODD
+LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
 +N+Sg+Nom: PX ;
-+N: ODD_OBLIQUE ;
++N: N_ODD_X ;
 
-! LEXICON ODD_OBLIQUE
-! +Abe:ahtá PX ; !added Abessive to new version of ODD_OBLIQUE (used to be _COMMON)
-! ODD_OBLIQUE_NOALT ;
-
-LEXICON N_ODD_CGVH
+LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
 +N+Sg+Nom:^WG PX ;
-+N:^V2O2U ODD_OBLIQUE ;
++N: N_ODD_X ;
 
-LEXICON ODD_OBLIQUE
+LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
++N+Sg+Nom:^WG^CDEL PX ;
++N: N_ODD_X ;
+
+LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol, ullul-
++N+Sg+Nom:^WG PX ;
++N:^V2O2U N_ODD_X ;
+
+LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Acc:a%>v PX ;
 +Sg+Gen:a PX ;
 +Sg+Ill:^VHBARi%>j PX ;
 +Sg+Ine:^VHBARi%>n PX ;
-+Sg+Ela+Err/Orth:^VHBARi%>s PX ; 
-+Sg+Ela:^VHBARi%>st PX ; 
++Sg+Ela+Err/Orth:^VHBARi%>s PX ;
++Sg+Ela:^VHBARi%>st PX ;
 +Sg+Com:^VHBARi%>jn PX ;
 +Ess:^VHBARi%>n PX ;
++Abe:a%>htá PX ;
 +Pl+Nom:a PX ;
 +Pl+Acc:^VHBARi%>jd PX ;
 +Pl+Gen:^VHBARi%>j PX ;
@@ -170,9 +175,11 @@ LEXICON ODD_OBLIQUE
 +Pl+Ela+Err/Orth:^VHBARi%>js PX ;
 +Pl+Ela:^VHBARi%>jst PX ;
 +Pl+Com:^VHBARi%>j PX ;
-+Abe:ahtá PX ;
 
 
+
+
+!used by adjectives - don't delete:
 LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
 +Sg+Acc:a%>v PX ;
 +Sg+Gen:a PX ;
@@ -193,98 +200,98 @@ LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
 
 
 
-LEXICON N_ODD_VV
-+N+Sg+Nom:^ILLE2AA PX ;
-+N: ODD_OBLIQUE ;
-
-LEXICON N_ODD_CG 
-+N+Sg+Nom:^WG PX ;
-+N:^UAUML ODD_OBLIQUE ;
-
-LEXICON N_ODD_CG_A !ex. judos, fungerar ej
-+N+Sg+Nom:^WGos PX ;
-+N: ODD_OBLIQUE_A_COMMON ;
-
-LEXICON N_ODD_CG_H 
-+N+Sg+Nom:^WGes PX ;
-+N: ODD_OBLIQUE_G_COMMON ;
-
+!LEXICON N_ODD_VV
+!+N+Sg+Nom:^ILLE2AA PX ;
+!+N: ODD_OBLIQUE ;
+!
+!LEXICON N_ODD_CG 
+!+N+Sg+Nom:^WG PX ;
+!+N:^UAUML ODD_OBLIQUE ;
+!
+!LEXICON N_ODD_CG_A !ex. judos, fungerar ej
+!+N+Sg+Nom:^WGos PX ;
+!+N: ODD_OBLIQUE_A_COMMON ;
+!
+!LEXICON N_ODD_CG_H 
+!+N+Sg+Nom:^WGes PX ;
+!+N: ODD_OBLIQUE_G_COMMON ;
+!
 !LEXICON N_ODD_CG_B 
 !+N+Sg+Nom:^WG PX ;
 !+N: ODD_OBLIQUE ;
-
-LEXICON N_ODD_CG_C 
-+N+Sg+Nom:^WGj PX ;
-+N: ODD_OBLIQUE_C ;
-
-LEXICON N_ODD_CG_I 
-+N+Sg+Nom:^WG PX ;
-+N: ODD_OBLIQUE_C ;
-
-LEXICON N_ODD_CG_D 
-+N+Sg+Nom:^WGk PX ;
-+N: ODD_OBLIQUE_F ;
-
-LEXICON N_ODD_CG_E 
-+N+Sg+Nom:^WG PX ;
-+N: ODD_OBLIQUE_E ;
-
+!
+!LEXICON N_ODD_CG_C 
+!+N+Sg+Nom:^WGj PX ;
+!+N: ODD_OBLIQUE_C ;
+!
+!LEXICON N_ODD_CG_I 
+!+N+Sg+Nom:^WG PX ;
+!+N: ODD_OBLIQUE_C ;
+!
+!LEXICON N_ODD_CG_D 
+!+N+Sg+Nom:^WGk PX ;
+!+N: ODD_OBLIQUE_F ;
+!
+!LEXICON N_ODD_CG_E 
+!+N+Sg+Nom:^WG PX ;
+!+N: ODD_OBLIQUE_E ;
+!
 ! LEXICON N_ODD_CG_F 
 ! +N+Sg+Nom:^WGes PX ;
 ! +N: ODD_OBLIQUE_B ;
-
-LEXICON N_ODD_G
-+N+Sg+Nom:k PX ;
-+N: ODD_OBLIQUE_F ;
-
-
-LEXICON N_ODD_D
-+N+Sg+Nom:t PX ;
-+N: ODD_OBLIQUE_D ;
-
+!
+!LEXICON N_ODD_G
+!+N+Sg+Nom:k PX ;
+!+N: ODD_OBLIQUE_F ;
+!
+!
+!LEXICON N_ODD_D
+!+N+Sg+Nom:t PX ;
+!+N: ODD_OBLIQUE_D ;
+!
 !LEXICON ODD_OBLIQUE_A
 !+Abe:usahtá PX ;
 !ODD_OBLIQUE_A_COMMON ;
-
+!
 !LEXICON ODD_OBLIQUE_B
 !+Abe:ásahtá PX ;
 !ODD_OBLIQUE_B_COMMON ;
-
-LEXICON ODD_OBLIQUE_C
-+Abe:hahtá PX ;
-ODD_OBLIQUE_C_COMMON ;
-
-LEXICON ODD_OBLIQUE_D
-+Abe:dahtá PX ;
-ODD_OBLIQUE_D_COMMON ;
-
-LEXICON ODD_OBLIQUE_E
-+Abe:ahtá PX ;
-ODD_OBLIQUE_COMMON ;
-
-LEXICON ODD_OBLIQUE_F
-+Abe:gahtá PX ;
-ODD_OBLIQUE_F_COMMON ;
-
-
-LEXICON ODD_OBLIQUE_A_COMMON
-+Sg+Acc:usav PX ;
-+Sg+Gen:usa PX ;
-+Sg+Ill:usij PX ;
-+Sg+Ine:usin PX ;
-+Sg+Ela+Err/Orth:usis PX ; 
-+Sg+Ela:usist PX ; 
-+Sg+Com:usijn PX ;
-+Ess:usin PX ;
-+Pl+Nom:usa PX ;
-+Pl+Acc:usijd PX ;
-+Pl+Gen:usij PX ;
-+Pl+Ill:usijda PX ;
-+Pl+Ine:usijn PX ;
-+Pl+Ela+Err/Orth:usijs PX ;
-+Pl+Ela:usijst PX ;
-+Pl+Com:usij PX ;
-
+!
+!LEXICON ODD_OBLIQUE_C
+!+Abe:hahtá PX ;
+!ODD_OBLIQUE_C_COMMON ;
+!
+!LEXICON ODD_OBLIQUE_D
+!+Abe:dahtá PX ;
+!ODD_OBLIQUE_D_COMMON ;
+!
+!LEXICON ODD_OBLIQUE_E
+!+Abe:ahtá PX ;
+!ODD_OBLIQUE_COMMON ;
+!
+!LEXICON ODD_OBLIQUE_F
+!+Abe:gahtá PX ;
+!ODD_OBLIQUE_F_COMMON ;
+!
+!
+!LEXICON ODD_OBLIQUE_A_COMMON
+!+Sg+Acc:usav PX ;
+!+Sg+Gen:usa PX ;
+!+Sg+Ill:usij PX ;
+!+Sg+Ine:usin PX ;
+!+Sg+Ela+Err/Orth:usis PX ; 
+!+Sg+Ela:usist PX ; 
+!+Sg+Com:usijn PX ;
+!+Ess:usin PX ;
+!+Pl+Nom:usa PX ;
+!+Pl+Acc:usijd PX ;
+!+Pl+Gen:usij PX ;
+!+Pl+Ill:usijda PX ;
+!+Pl+Ine:usijn PX ;
+!+Pl+Ela+Err/Orth:usijs PX ;
+!+Pl+Ela:usijst PX ;
+!+Pl+Com:usij PX ;
+!
 !LEXICON ODD_OBLIQUE_B_COMMON
 !+Sg+Acc:ásav PX ;
 !+Sg+Gen:ása PX ;
@@ -302,81 +309,83 @@ LEXICON ODD_OBLIQUE_A_COMMON
 !+Pl+Ela+Err/Orth:ásijs PX ;
 !+Pl+Ela:ásijst PX ;
 !+Pl+Com:ásij PX ;
+!
+!LEXICON ODD_OBLIQUE_C_COMMON
+!+Sg+Acc:hav PX ;
+!+Sg+Gen:ha PX ;
+!+Sg+Ill:hij PX ;
+!+Sg+Ine:hin PX ;
+!+Sg+Ela+Err/Orth:his PX ; 
+!+Sg+Ela:hist PX ; 
+!+Sg+Com:hijn PX ;
+!+Ess:hin PX ;
+!+Pl+Nom:ha PX ;
+!+Pl+Acc:hijd PX ;
+!+Pl+Gen:hij PX ;
+!+Pl+Ill:hijda PX ;
+!+Pl+Ine:hijn PX ;
+!+Pl+Ela+Err/Orth:hijs PX ;
+!+Pl+Ela:hijst PX ;
+!+Pl+Com:hij PX ;
+!
+!
+!LEXICON ODD_OBLIQUE_F_COMMON
+!+Sg+Acc:gav PX ;
+!+Sg+Gen:ga PX ;
+!+Sg+Ill:gij PX ;
+!+Sg+Ine:gin PX ;
+!+Sg+Ela+Err/Orth:gis PX ; 
+!+Sg+Ela:gist PX ; 
+!+Sg+Com:gijn PX ;
+!+Ess:gin PX ;
+!+Pl+Nom:ga PX ;
+!+Pl+Acc:gijd PX ;
+!+Pl+Gen:gij PX ;
+!+Pl+Ill:gijda PX ;
+!+Pl+Ine:gijn PX ;
+!+Pl+Ela+Err/Orth:gijs PX ;
+!+Pl+Ela:gijst PX ;
+!+Pl+Com:gij PX ;
+!
+!LEXICON ODD_OBLIQUE_D_COMMON
+!+Sg+Acc:dav PX ;
+!+Sg+Gen:da PX ;
+!+Sg+Ill:dij PX ;
+!+Sg+Ine:din PX ;
+!+Sg+Ela+Err/Orth:dis PX ; 
+!+Sg+Ela:dist PX ; 
+!+Sg+Com:dijn PX ;
+!+Ess:din PX ;
+!+Pl+Nom:da PX ;
+!+Pl+Acc:dijd PX ;
+!+Pl+Gen:dij PX ;
+!+Pl+Ill:dijda PX ;
+!+Pl+Ine:dijn PX ;
+!+Pl+Ela+Err/Orth:dijs PX ;
+!+Pl+Ela:dijst PX ;
+!+Pl+Com:dij PX ;
+!
+!LEXICON ODD_OBLIQUE_G_COMMON
+!+Sg+Acc:ásav PX ;
+!+Sg+Gen:ása PX ;
+!+Sg+Ill:ásij PX ;
+!+Sg+Ine:ásin PX ;
+!+Sg+Ela+Err/Orth:ásis PX ; 
+!+Sg+Ela:ásist PX ; 
+!+Sg+Com:ásijn PX ;
+!+Ess:ásin PX ;
+!+Pl+Nom:ása PX ;
+!+Pl+Acc:ásijd PX ;
+!+Pl+Gen:ásij PX ;
+!+Pl+Ill:ásijda PX ;
+!+Pl+Ine:ásijn PX ;
+!+Pl+Ela+Err/Orth:ásijs PX ;
+!+Pl+Ela:ásijst PX ;
+!+Pl+Com:ásij PX ;
+!
 
-LEXICON ODD_OBLIQUE_C_COMMON
-+Sg+Acc:hav PX ;
-+Sg+Gen:ha PX ;
-+Sg+Ill:hij PX ;
-+Sg+Ine:hin PX ;
-+Sg+Ela+Err/Orth:his PX ; 
-+Sg+Ela:hist PX ; 
-+Sg+Com:hijn PX ;
-+Ess:hin PX ;
-+Pl+Nom:ha PX ;
-+Pl+Acc:hijd PX ;
-+Pl+Gen:hij PX ;
-+Pl+Ill:hijda PX ;
-+Pl+Ine:hijn PX ;
-+Pl+Ela+Err/Orth:hijs PX ;
-+Pl+Ela:hijst PX ;
-+Pl+Com:hij PX ;
-
-
-LEXICON ODD_OBLIQUE_F_COMMON
-+Sg+Acc:gav PX ;
-+Sg+Gen:ga PX ;
-+Sg+Ill:gij PX ;
-+Sg+Ine:gin PX ;
-+Sg+Ela+Err/Orth:gis PX ; 
-+Sg+Ela:gist PX ; 
-+Sg+Com:gijn PX ;
-+Ess:gin PX ;
-+Pl+Nom:ga PX ;
-+Pl+Acc:gijd PX ;
-+Pl+Gen:gij PX ;
-+Pl+Ill:gijda PX ;
-+Pl+Ine:gijn PX ;
-+Pl+Ela+Err/Orth:gijs PX ;
-+Pl+Ela:gijst PX ;
-+Pl+Com:gij PX ;
-
-LEXICON ODD_OBLIQUE_D_COMMON
-+Sg+Acc:dav PX ;
-+Sg+Gen:da PX ;
-+Sg+Ill:dij PX ;
-+Sg+Ine:din PX ;
-+Sg+Ela+Err/Orth:dis PX ; 
-+Sg+Ela:dist PX ; 
-+Sg+Com:dijn PX ;
-+Ess:din PX ;
-+Pl+Nom:da PX ;
-+Pl+Acc:dijd PX ;
-+Pl+Gen:dij PX ;
-+Pl+Ill:dijda PX ;
-+Pl+Ine:dijn PX ;
-+Pl+Ela+Err/Orth:dijs PX ;
-+Pl+Ela:dijst PX ;
-+Pl+Com:dij PX ;
-
-LEXICON ODD_OBLIQUE_G_COMMON
-+Sg+Acc:ásav PX ;
-+Sg+Gen:ása PX ;
-+Sg+Ill:ásij PX ;
-+Sg+Ine:ásin PX ;
-+Sg+Ela+Err/Orth:ásis PX ; 
-+Sg+Ela:ásist PX ; 
-+Sg+Com:ásijn PX ;
-+Ess:ásin PX ;
-+Pl+Nom:ása PX ;
-+Pl+Acc:ásijd PX ;
-+Pl+Gen:ásij PX ;
-+Pl+Ill:ásijda PX ;
-+Pl+Ine:ásijn PX ;
-+Pl+Ela+Err/Orth:ásijs PX ;
-+Pl+Ela:ásijst PX ;
-+Pl+Com:ásij PX ;
-
-LEXICON ODD_OBLIQUE_U_COMMON
+!used by adjectives - don't delete:
+LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete:
 +Sg+Acc:uv PX ;
 +Sg+Gen:u PX ;
 +Sg+Ill:uj PX ;
@@ -399,37 +408,6 @@ LEXICON ODD_OBLIQUE_U_COMMON
 
 ! contracted
 ! ----------
-
-! initial contlex
-
-!LEXICON SARVES
-! +N:^WG SARVES-NE ;
-! +N:^MON CONTR-OTH ;
-
-!LEXICON SUOLOJ
-! +N:^WG SUOLOJ-NE ;
-! +N:^MON CONTR-OTH ;
-
-
-! ne contlex
-
-!LEXICON SARVES-NE !nominativ, essiv samt alla former med -j, förutom sg.ill  fungerar ej
-! +Sg+Nom:%>s K ;
-! +Ess:%>n K ;
-!
-!LEXICON SUOLOJ-NE !nominativ, essiv samt alla former med -j, förutom sg.ill fungerar ej, båtsoj:buhtsu fungerar ej
-! +Sg+Nom:%>j K ;
-! +Ess:%>n K ;
-
-
-! other contlex
-
-!LEXICON CONTR-OTH
-! N_EVEN_ILL ;
-! N_EVEN_WK ;
- 
-
-! under construction
 
 LEXICON N_CONTR_OJU !båtsoj<->buhtsu
 +N+Sg+Nom:oj^WG PX ;
@@ -495,39 +473,6 @@ LEXICON N_CONTR_ESA !sarves<->sarvvá
 +N+Pl+Com:áj PX ;
 
 
-
-
-
-!LEXICON N_ODD_NOCG
-!+N+Sg+Nom: PX ;
-!+N: ODD_OBLIQUE ;
-
-LEXICON BIENA
-+N:^WG^CDEL BIENASHORT ;
-+N: BIENALONG ;
-
-LEXICON BIENALONG
-+Sg+Acc:a%>v PX ;
-+Sg+Gen:a PX ;
-+Sg+Ill:^VHBARi%>j PX ;
-+Sg+Ine:^VHBARi%>n PX ;
-+Sg+Ela+Err/Orth:^VHBARi%>s PX ;
-+Sg+Ela:^VHBARi%>st PX ;
-+Sg+Com:^VHBARi%>jn PX ;
-+Ess:^VHBARi%>n PX ;
-+Abe:a%>htá PX ;
-+Pl+Nom:a PX ;
-+Pl+Acc:^VHBARi%>jd PX ;
-+Pl+Gen:^VHBARi%>j PX ;
-+Pl+Ill:^VHBARi%>jda PX ;
-+Pl+Ine:^VHBARi%>jn PX ;
-+Pl+Ela+Err/Orth:^VHBARi%>js PX ;
-+Pl+Ela:^VHBARi%>jst PX ;
-+Pl+Com:^VHBARi%>j PX ;
-
-
-LEXICON BIENASHORT
-+Sg+Nom: PX ;
 
 
 LEXICON PX
