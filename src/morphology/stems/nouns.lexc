@@ -354,15 +354,15 @@ gånågis:gånågas N_EVEN_4 "konung" ;
 ! !! * biena: # -udda med stv och vokalslut	 N_ODD_OPEN
 
 iejgát:iejgád2 N_ODD "föräldrar" ; !nominativ sg. fungerar ej
-tjiebot:tjiebod N_ODD "throat" ;
+tjiebot:tjiebod2 N_ODD "throat" ;
 ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ; !funkar
-ájlek:ájleg N_ODD "söndag" ;
+ájlek:ájleg2 N_ODD "söndag" ;
 áhkatj:áhkatj N_ODD "fru, hustru" ; !funkar
-árrat:árrad  N_ODD "morgon" ;
-átjek:átjeg N_ODD "åska" ;
-biednek:biedneg N_ODD "pengar" ;
+árrat:árrad2  N_ODD "morgon" ;
+átjek:átjeg2 N_ODD "åska" ;
+biednek:biedneg2 N_ODD "pengar" ;
 dåktor:dåktor N_ODD "läkare" ;
-däbmuk:däbmug N_ODD "öring" ;
+däbmuk:däbmug2 N_ODD "öring" ;
 gahper:gahper N_ODD "mössa" ;
 gerun:gerun N_ODD "ripa" ;
 guobbar:guobbar N_ODD "svamp" ;
@@ -378,7 +378,7 @@ skerutj:skerutj N_ODD "ortnamn" ;
 suorbmas:suorbmas N_ODD "ring" ;
 suoŋŋer:suoŋŋer N_ODD ;
 tjiehtjer:tjiehtjer N_ODD "lillfinger" ;
-tjierbmak:tjierbmag N_ODD "ettårs ren" ;
+tjierbmak:tjierbmag2 N_ODD "ettårs ren" ;
 tjuojgus:tjuojgus N_ODD "ljus" ;
 vieráld:vieráld N_ODD "världen" ;
 almatj:almatj N_ODD "ihminen, människa" ;
