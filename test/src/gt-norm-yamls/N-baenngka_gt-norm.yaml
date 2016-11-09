@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - bäŋŋka: # -a-stammar
+    bäŋŋka+N+Sg+Nom: bäŋŋka
+    bäŋŋka+N+Sg+Gen: bieŋka
+    bäŋŋka+N+Sg+Acc: bieŋkav
+    bäŋŋka+N+Sg+Ill: bäŋŋkaj
+    bäŋŋka+N+Sg+Ine: bieŋkan
+    bäŋŋka+N+Sg+Ela: bieŋkast
+    bäŋŋka+N+Sg+Com: [bieŋkajn, bieŋkajna]
+    bäŋŋka+N+Pl+Nom: bieŋka
+    bäŋŋka+N+Pl+Gen: bieŋkaj
+    bäŋŋka+N+Pl+Acc: bieŋkajd
+    bäŋŋka+N+Pl+Ill: bieŋkajda
+    bäŋŋka+N+Pl+Ine: bieŋkajn
+    bäŋŋka+N+Pl+Ela: bieŋkajst
+    bäŋŋka+N+Pl+Com: bieŋkaj
+    bäŋŋka+N+Ess: bäŋŋkan
+    bäŋŋka+N+Abe: bieŋkadak
+
