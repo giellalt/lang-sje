@@ -10,21 +10,21 @@ Config:
 Tests:
 
   Noun - guolle: # -even with CG and jVH
-#    guolle+N+Sg+Nom: guolle
-#    guolle+N+Sg+Gen: guole
-#    guolle+N+Sg+Acc: guolev
-#    guolle+N+Sg+Ill: guolláj
-#    guolle+N+Sg+Ine: guolen
-#    guolle+N+Sg+Ela: guolest
-#    guolle+N+Sg+Com: [gulijn, gulijna]
-#    guolle+N+Pl+Nom: guole
-#    guolle+N+Pl+Gen: gulij
-#    guolle+N+Pl+Acc: gulijd
-#    guolle+N+Pl+Ill: gulijda
-#    guolle+N+Pl+Ine: gulijn
-#    guolle+N+Pl+Ela: gulijst
-#    guolle+N+Pl+Com: gulij
-#    guolle+N+Ess: guollen
+    guolle+N+Sg+Nom: guolle
+    guolle+N+Sg+Gen: guole
+    guolle+N+Sg+Acc: guolev
+    guolle+N+Sg+Ill: guolláj
+    guolle+N+Sg+Ine: guolen
+    guolle+N+Sg+Ela: guolest
+    guolle+N+Sg+Com: [gulijn, gulijna]
+    guolle+N+Pl+Nom: guole
+    guolle+N+Pl+Gen: gulij
+    guolle+N+Pl+Acc: gulijd
+    guolle+N+Pl+Ill: gulijda
+    guolle+N+Pl+Ine: gulijn
+    guolle+N+Pl+Ela: gulijst
+    guolle+N+Pl+Com: gulij
+    guolle+N+Ess: guollen
 
     guolle+N+Der/Dim+N+Sg+Nom: guolátj
     guolle+N+Der/Dim+N+Sg+Gen: guolátja
