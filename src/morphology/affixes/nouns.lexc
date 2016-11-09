@@ -32,7 +32,7 @@
 ! even-syllabic
 ! -------------
 
-LEXICON N_EVEN ! giella
+LEXICON N_EVEN ! giella, guolle
 +N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
 +N: N_EVEN_ILL ;
 +N:^WG N_EVEN_WK ; ! CG here
@@ -75,6 +75,7 @@ LEXICON N_EVEN_ESS
 +Ess:^UAUML%>n K ;
 
 LEXICON N_EVEN_WK
++Der/Dim:%>tj^V2E2AA N_ODD ;
 +Sg+Gen:  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
