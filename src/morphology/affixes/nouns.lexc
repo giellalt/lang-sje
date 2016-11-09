@@ -66,7 +66,7 @@ LEXICON N_EVEN_NOCG
 +N: N_EVEN_WK ; ! No CG here, ingen stadieväxling
 
 LEXICON N_EVEN_ILL
-+Sg+Ill:%>j^ILLE2AA K ; !V2 e->á in ill.sg, dim
++Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
 
 LEXICON N_EVEN_ILL_O
 +Sg+Ill+Use/NG:%>j^V2O2U K ; !V2 o->u in ill.sg, dim
@@ -201,7 +201,7 @@ LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
 
 
 !LEXICON N_ODD_VV
-!+N+Sg+Nom:^ILLE2AA PX ;
+!+N+Sg+Nom:^V2E2AA PX ;
 !+N: ODD_OBLIQUE ;
 !
 !LEXICON N_ODD_CG 
