@@ -61,7 +61,32 @@ Sets
 Definitions
 
 
- G3 = [ Cns Cns Cns Cns |
+ G3 = [ b b n j |
+      b b t [j|s] |
+      d d n j |
+      h t t [j|s] |
+      j j s t |
+      j j t j |
+      k k s [j|t] |
+      k k t [j|s] |
+      l d n j |
+      l l t [j|s] |
+      m m s [j|t] |
+      n n j g |
+      n n s [k|t] |
+      n n t [j|s] |
+      p p t [j|s] |
+      r d n j |
+      r r b m |
+      r r d n |
+      r r s j |
+      r r t [j|s] |
+      s s j k |
+      s s j m |
+      v d n j |
+      v v d n |
+      v v s [j|k] |
+      v v t [j|s] |
       b ':0 b|
       d ':0 d|
       g ':0 g|
