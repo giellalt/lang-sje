@@ -56,76 +56,76 @@ Sets
              b2 d2 g2 t2 j2 h2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
+  NoVH   = a                 ï             o                   y   æ ä ø ö å á é í ó ú ;
   Dummy  =  %^WG %^V2E2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
 
 
  G3 = [ b b n j |
-      b b t [j|s] |
-      d d n j |
-      h t t [j|s] |
-      j j s t |
-      j j t j |
-      k k s [j|t] |
-      k k t [j|s] |
-      l d n j |
-      l l t [j|s] |
-      m m s [j|t] |
-      n n j g |
-      n n s [k|t] |
-      n n t [j|s] |
-      p p t [j|s] |
-      r d n j |
-      r r b m |
-      r r d n |
-      r r s j |
-      r r t [j|s] |
-      s s j k |
-      s s j m |
-      v d n j |
-      v v d n |
-      v v s [j|k] |
-      v v t [j|s] |
-      b ':0 b|
-      d ':0 d|
-      g ':0 g|
-      l ':0 l|
-      s ':0 s|
-      r ':0 r|
-      v ':0 v|
-      b b m |
-      d d [n|j] |
-      d n j |
-      f f t |
-      g g ŋ |
-      l l [d|j|t] |
-      m m [b|p] |
-      n n [d|j|t] |
-      ŋ ŋ [g|k] |
-      p p [s|t] |
-      s s [k|m|n|p|t] |
-      b b [j|d|l|r|n] |
-      b d n |
-      g g d |
-      j j [b|d|g|k|l|p|r|s|t|v] |
-      j d n | 
-      j b m |
-      l l [b|g|k|f|p|s|v] |
-      l b m |
-      m m [g|s] |
-      r r [b|d|f|g|j|k|s|t|v] |
-      d d g |
-      t t k |
-      r b m |
-      r d n |
-      v v [d|g|k|l|r|s] |
-      v d n |
-      h [k k|p p|t t] |
-      d t [j|s] |
-      k k [s|t] ] ;
+        b b t [j|s] |
+        d d n j |
+        h t t [j|s] |
+        j j s t |
+        j j t j |
+        k k s [j|t] |
+        k k t [j|s] |
+        l d n j |
+        l l t [j|s] |
+        m m s [j|t] |
+        n n j g |
+        n n s [k|t] |
+        n n t [j|s] |
+        p p t [j|s] |
+        r d n j |
+        r r b m |
+        r r d n |
+        r r s j |
+        r r t [j|s] |
+        s s j k |
+        s s j m |
+        v d n j |
+        v v d n |
+        v v s [j|k] |
+        v v t [j|s] |
 
+        b ':0 b |
+        d ':0 d |
+        f ':0 f |
+        g ':0 g |
+        l ':0 l |
+        m ':0 m |
+        n ':0 n |
+        r ':0 r |
+        s ':0 s |
+        v ':0 v |
 
+        b b [d|j|l|m|n|r] |
+        b d n |
+        d d [g|j|n] |
+        d t [j|s] |
+        f f t |
+        g g d |
+        g g ŋ |
+        h [k k|p p|t t] |
+        j j [b|d|g|k|l|p|r|s|t|v] |
+        j b m |
+        j d n | 
+        k k [s|t] |
+        l l [b|f|g|k|p|s|v] |
+        l b m |
+        l l [d|j|t] |
+        m m [b|g|p|s] |
+        n n [d|j|t] |
+        ŋ ŋ [g|k] |
+        p p [s|t] |
+        r r [b|d|f|g|j|k|s|t|v] |
+        r b m |
+        r d n |
+        s s [k|m|n|p|t] |
+        t t k |
+        v v [d|g|k|l|r|s] |
+        v d n ] ;
 
 !! !!!Rules
 
@@ -138,49 +138,21 @@ Rules
 !! __@RULENAME@__  
 t:0 <=> Vow: h t _ ( j | s ) (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
 
-! !!€ áhttje^WG
-! !!€ áht0je0
-
 "Consonant Gradation for hxx:hx"
 !! __@RULENAME@__  
 Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
      where Cx in (p k) ; ! 't' covered by "Consonant Gradation for htt(j|s):ht(j|s)"
-
-! !!€ náhppe^WG
-! !!€ náhp0e0
 
 "Consonant Gradation for xdn(j):xn(j)"
 !! __@RULENAME@__  
 d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( j v l ) ;
 
-! !!€ vadnas^WG
-! !!€ va0nas0
-! !!€ gu^Ohtom
-! !!€ guohtom
-
-! !!€ buvdna^WG
-! !!€ buv0na0
-! ! fake word!
-! !!€ skåldnjeg^WG^CDEL
-! !!€ skål0nje000
-
-         
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
 Cx:0 <=> Vow: Cx _ Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
-! !!€ dållå^WG
-! !!€ dål0å0
-! ! suoŋŋer:suoŋŋer N_ODD ;
-! !!€ suoŋŋer^WG
-! !!€ suoŋ0er0
-! ! tjála:tjállag BIENA "skrift" ;
-! !!€ tjállag^WG^CDEL
-! !!€ tjál0a000
-
-
 "Consonant Gradation for xxy:xy"
 !! __@RULENAME@__  
 Cx:0 <=> Vow: Cx _ Cy Vow: Cns:* ( Dummy: ) %^WG: ;
@@ -189,13 +161,6 @@ Cx:0 <=> Vow: Cx _ Cy Vow: Cns:* ( Dummy: ) %^WG: ;
        Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k m n p t v j k m s g k n d k l r g s t )  
           matched ;
 
-! !!€ lu^Okkta^WG
-! !!€ luok0ta0
-! ! fake word:
-! !!€ lu^Okktag^WG^CDEL
-! !!€ luok0ta000
-
-
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
 Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; !Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
@@ -203,25 +168,10 @@ Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; !Cx:0 <=> Vow: _ Cy (Vow:
            Cy in ( m j n )  
           matched ;
 
-! ! fake word:
-! !!€ fábmog^WG^CDEL
-! !!€ fá0mo000
-
-
-!! !!Consonant Gradation for hx:x
-
 "Delete h in hx:y" ! first step
 !! __@RULENAME@__  
 h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) %^WG: ;
     where Cx in (p t k) ;
-
-! !!€ dåhpe^WG
-! !!€ då0be0
-! !!€ råhtje^WG
-! !!€ rå0tje0
-! !!€ råhtse^WG
-! !!€ rå0tse0
-
 
 "Intervocalic voiced plosives in hx:y" ! second step
 !! __@RULENAME@__  
@@ -230,23 +180,12 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) %^WG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)])
           Cy in (b d g)
           matched ;
 
-! !!€ dåhpe^WG
-! !!€ då0be0
-! !!€ råhtje^WG
-! !!€ rå0tje0
-
-
-
 "Consonant Gradation for xN:N" ! vájbmo
 !! __@RULENAME@__  
 Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; ! <=> Vow _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
     where Cx in (b g g )
           Cy in (m n ŋ )
           matched ;
-
-! !!€ vájbmo^WG
-! !!€ váj0mo0
-
 
 !! !!Other consonant rules 
 ! =====================
@@ -255,12 +194,6 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; ! <=> Vow _ Cy (Vow:+)
 !! __@RULENAME@__  
 Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
 	where Cx in ( b d g s h ) ; 
-
-! !!€ riehpeh^WG^CDEL
-! !!€ rie0be000
-! !!€ biednag^WG^CDEL
-! !!€ bie0na000
-
 
 "Final devoicing"
 !! __@RULENAME@__  
@@ -281,13 +214,6 @@ Cx:Cy <=> _ (%^WG:) # ;
 !!€ muoht0a000
 !!€ mu^Ohttaga>v
 !!€ muahttaga0v
-! !!€ árrad2
-! !!€ árrat
-! !!€ árrad2e
-! !!€ árrade
-! !!€ unneb2
-! !!€ unnep
-
 
 "Word Final Simplification in -st" !st->s (eg. elat) variation (descriptive, not normative)
 !! __@RULENAME@__  
@@ -295,7 +221,6 @@ t2:0 <=> s _ .#. ;
 
 ! !!€ burist2
 ! !!€ buris0
-
 
 "Fricative Auslautverhärtung" !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
 !! __@RULENAME@__  
@@ -318,6 +243,14 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
           matched ; 
 ! Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
+"Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
+!! __@RULENAME@__  
+%^O:a <=>  Cns:* u _ G3 \e; 
+
+"Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
+!! __@RULENAME@__  
+%^O:ä <=>  Cns:* u _ G3 :e ; 
+
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
 %^O:0 <=> Cns:* u _ Cns:+ [:i|:u] Cns:* Dummy:* %>:* ; !juällge<->julgij
@@ -330,18 +263,6 @@ i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
 "Ä in G3" ! ie:0ä (bägge, bävvde); can be word-initial
 !! __@RULENAME@__  
 e:ä <=>  Cns:* i:0 _ G3 %^UAUML:* ;
-
-
-"Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
-!! __@RULENAME@__  
-%^O:a <=>  Cns:* u _ G3 ; 
-
-! !!€ mu^Ohttag^WG^CDEL
-! !!€ muoht0a000
-
-"Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
-!! __@RULENAME@__  
-%^O:ä <=>  Cns:* u _ G3 :e ; 
 
 "V2 E to I before j-suffixes" ! guolle -> gulij
 !! __@RULENAME@__  
@@ -356,6 +277,8 @@ e:á <=> Vow:+ Cns:+ _ %>:+ Cns:+ %^V2E2AA:0 ;
 o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %^VHBAR:* Vow:+ ;
 
+! !!€ mu^Ohttag^WG^CDEL
+! !!€ muoht0a000
 ! ! vielmes:vielbm N_CONTR_ESA
 ! ! nom.sg
 ! !!€ vielbme^WGs
@@ -447,6 +370,54 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 !!€ bievvde^UAUML
 !!€ b0ävvde0
 
+! !!€ vadnas^WG
+! !!€ va0nas0
+! !!€ gu^Ohtom
+! !!€ guohtom
+! !!€ buvdna^WG
+! !!€ buv0na0
+! ! fake word!
+! !!€ skåldnjeg^WG^CDEL
+! !!€ skål0nje000
+! !!€ dållå^WG
+! !!€ dål0å0
+! ! suoŋŋer:suoŋŋer N_ODD ;
+! !!€ suoŋŋer^WG
+! !!€ suoŋ0er0
+! ! tjála:tjállag BIENA "skrift" ;
+! !!€ tjállag^WG^CDEL
+! !!€ tjál0a000
+
+! !!€ árrad2
+! !!€ árrat
+! !!€ árrad2e
+! !!€ árrade
+! !!€ unneb2
+! !!€ unnep
+! !!€ vájbmo^WG
+! !!€ váj0mo0
+! !!€ dåhpe^WG
+! !!€ då0be0
+! !!€ råhtje^WG
+! !!€ rå0tje0
+! !!€ råhtse^WG
+! !!€ rå0tse0
+! !!€ dåhpe^WG
+! !!€ då0be0
+! !!€ råhtje^WG
+! !!€ rå0tje0
+! !!€ riehpeh^WG^CDEL
+! !!€ rie0be000
+! !!€ biednag^WG^CDEL
+! !!€ bie0na000
+! !!€ lu^Okkta^WG
+! !!€ luok0ta0
+! ! fake word:
+! !!€ lu^Okktag^WG^CDEL
+! !!€ luok0ta000
+! ! fake word:
+! !!€ fábmog^WG^CDEL
+! !!€ fá0mo000
 
 !!€ a
 !!€ b
