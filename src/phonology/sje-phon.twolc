@@ -268,9 +268,11 @@ e:ä <=>  Cns:* i:0 _ G3 %^UAUML:* ;
 !! __@RULENAME@__  
 e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
 
-"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolátj
+"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj
 !! __@RULENAME@__  
-e:á <=> Vow:+ Cns:+ _ %>:+ Cns:+ %^V2E2AA:0 ;
+e:á <=> Vow:+ Cns:+ _ (%^WG:0) %>:+ Cns:+ %^V2E2AA:0 ;
+
+!!€ gu^Olle
 
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  

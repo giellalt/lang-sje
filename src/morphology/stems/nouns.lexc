@@ -40,7 +40,7 @@ båttkå:båttkå N_EVEN "tk" ;
 bäbbmo:biebbmo N_EVEN_O "bm mat" ; 
 bäjjsko:biejjsko N_EVEN_O "jsk" ;
 bähkke:biehkke N_EVEN "hk bit" ; !stadieväxling fungerar, i-former fungerar ej
-bäŋŋka:bieŋŋka N_EVEN "ŋk" ;
+bäŋŋka:bieŋŋka N_EVEN "bench" ;
 bärdna:bierdna N_EVEN "rn björn" ;
 bässe:bies'se N_EVEN_NOCG "ss näver" ;
 bävvde:bievvde N_EVEN "vd bord" ;
@@ -198,7 +198,7 @@ girrko:girrko N_EVEN_O "rk" ;
 gissta:gissta N_EVEN "rukkanen, kista" ;
 grássebáhkko:grásse#báhkko N_EVEN_O "hk gräsbacke" ;
 gummpe:gummpe N_EVEN "mp varg" ;
-guolle:guolle N_EVEN "l" ;
+guolle:gu^Olle N_EVEN "fisk" ;
 gurbmá:gurbmá N_EVEN "m" ;
 gurrmá:gurrmá N_EVEN "m" ; !
 gurrte:gurrte N_EVEN "rt" ;
