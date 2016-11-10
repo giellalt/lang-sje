@@ -5,14 +5,14 @@
  ; %^WG:0 : weak grade
  ; %^jDEL:0 : vowel deletion in front of j
  ; %^ILLE2AA:0 : e to á before j
- ; %^CDEL:0 : final consonant c (biednag)
+ ; %^CDEL:0 : delete final consonant odd (biednag)
  ; %^MON:0 : Monophthong in contract stems
- ; %^LOW:0 : Lowering u to å and o (ålol)
  ; %^UAUML:0 : uo to uä juolge / juällge
  ; %^IEUML:0 : ie to ä etc. gielbar / gællbara
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
-   %^ILLO2U	  * o to u in V2 in Ill.Sg, Dim, etc. (normative variant)
+   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+   %^VHBAR:0  * block VH from happening
 
 
 
@@ -72,7 +72,7 @@ __Consonant Gradation for xN:N __
 
 !!Other consonant rules 
 
-__Final Consonant Deletion__  
+__Final C Deletion__  
 
 
 
@@ -93,39 +93,38 @@ __Fricative Auslautverhärtung __
 
 ! raising second syllable's vowel
 
-__Morphologically trigger umlaut in V2 e-i before most j-suffixes __  
+__E to I in V2 before j-suffixes __  
 
 ! metaphony
 
 __Default VH __  
 
+
+
 __Special VH for u^O __  
 
 __Special VH for ie __  
+
+__Ä in G3 __  
+
 
 __Default UA in G3 __  
 
 __Special UÄ (VH) in G3 __  
 
-__Ä in G3 __  
-
 __V2 E to Á __  
 
-* __ju^Ollge^WG^IJ>j __
-* __ju0l0gi000j __
-* __ju^Ollge^UAUML>j^ILLE2AA __
-* __juallgá00j0 __
-* __ju^Ollge^UAUML __
-* __juällge0 __
-* __ju^Ollge^WG __
-* __juol0ge0 __
+__V2 O to U __  
+
+
+
 
 * __sábme>j^ILLE2AA __
 * __sábmá0j0 __
 * __sábme^WG^IJ>j __
 * __sä0mi000j __
 * __iello^WG^IJ>j __
-* __0el0u000j __
+* __iel0o000j __
 * __ållge^WG __
 * __ål0ge0 __
 * __lu^Okkta^UAUML __

@@ -33,14 +33,16 @@ Semantic properties of names
 
  ^WG     * weak grade
  ^jDEL   * vowel deletion in front of j
- ^MONB4J  * e to á (before j), o to u before j
+ ^ILLE2AA  * e to á (before j), o to u before j
  ^CDEL    * Deleting final consonant, biednag
  ^MON     * Monophthong in contract
- ^LOW     * Lowering u to å and o (ålol)
  ^UAUML   * uo to uä juolge / juällge
  ^IEUML   * ie to ä etc. gielbar gællbara
  ^IUML    * a to i, gallgat gillgin
  ^IJ      * e to i in front of Plural j and Sg Com
+ ^V2O2U  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ ^VHBAR   * block VH from happening
+
 
  d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
  ^O       * o but ä in uä
