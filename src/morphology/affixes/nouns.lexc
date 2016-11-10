@@ -154,7 +154,7 @@ LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
 +N+Sg+Nom:^WG^CDEL PX ;
 +N: N_ODD_X ;
 
-LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol, ullul-
+LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->sarrvá-
 +N+Sg+Nom:^WG PX ;
 +N:^V2O2U N_ODD_X ;
 
