@@ -5,37 +5,40 @@
 
 !!Minigrammatik
 
+
+
 * muorra: # -a-stammar	 N_EVEN
 * dållå: # -å-stammar	 N_EVEN
 * juällge: # -e-stammar N_EVEN
 * iello: # -o-stammar	 N_EVEN
 * åbbá: # utan stv N_EVEN_NOCG
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * almatj: # -udda utan stv och vokalv	 N_ODD
-* ålol: # -udda med stv och vokalv		 N_ODD_CG_VV
+* ålol: # -udda med stv och vokalv		 N_ODD_CGVH
 * vanas: # -udda med stv men utan vokalv N_ODD_CG
 * guobbar: # -udda utan stv men med vokalv N_ODD_VV
 * biena: # -udda med stv och vokalslut	 BIENA
 
-* ålmáj: # -kontrakta med stv och utan vokf SUOLOJ
-* båtsoj: # -kontrakta med stv och med vokf			 SUOLOJ
-* suollu: # -kontrakta utan stv			 SUOLOJ
-* sarves: # -kontrakta som slutar på es			 SARVES
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+* ålmaj: # -contracted stem ending in -aj or -a: N_CONTR_AJA
+* båtsoj: # -contracted stem ending in -oj or -u: N_CONTR_OJU
+* sarves: # -contracted stem ending in -es or -á: N_CONTR_ESA
 
 
 
