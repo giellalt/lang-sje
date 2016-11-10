@@ -402,8 +402,8 @@ riebe:rehpeh N_ODD_OPEN "räv" ; ! nominativ sg. fungerar ej, ej heller  böjnin
 tjála:tjállag N_ODD_OPEN "skrift" ;
 
 ålol:ållol N_ODD_VH "käke" ;
-judos:juhtus N_ODD_VH "djur" ; !fungerar ej judos:juhtusa
-máles:mállás N_ODD_VH ; ! nominativ sg. fungerar ej
+judos:juhtos N_ODD_VH "djur" ; 
+máles:málles N_ODD_VH ; !may need its own category!
 
 
 ! Contracted stem patterns:
