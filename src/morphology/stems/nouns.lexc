@@ -2,6 +2,7 @@
 ! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
+! This program is free software; you can redistribute and/or modify
 ! this file under the terms of the GNU General Public License as published by
 ! the Free Software Foundation, either version 3 of the License, or
 ! (at your option) any later version. The GNU General Public License
@@ -20,13 +21,8 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 
 ! Even-syllable stem patterns:
 
-!! * muorra: # -a-stammar	 N_EVEN
-!! * dållå: # -å-stammar	 N_EVEN
-!! * juällge: # -e-stammar N_EVEN
-!! * iello: # -o-stammar	 N_EVEN
-!! * åbbá: # utan stv N_EVEN_NOCG	
-	!does åbbá really need a special class?
-
+!! * juällge: # all stems except -o-stems   N_EVEN
+!! * iello: # -o-stems	                    N_EVEN_O
 
 bäjjve:biejjve N_EVEN "jv dag, sol" ;
 
@@ -347,12 +343,6 @@ gånågis:gånågas N_EVEN_4 "konung" ;
 !! * ålol: # -odd closed second syllable, CGrad, V2 alternation     N_ODD_VH
 !! * biena: # -odd, open second syllable, has CGrad                 N_ODD_OPEN
 
-! !! * almatj: # -udda utan stv och vokalv	 N_ODD
-! !! * ålol: # -udda med stv och vokalv		 N_ODD_CGVH
-! !! * vanas: # -udda med stv men utan vokalv N_ODD_CG
-! !! * guobbar: # -udda utan stv men med vokalv N_ODD_VV
-! !! * biena: # -udda med stv och vokalslut	 N_ODD_OPEN
-
 iejgát:iejgád2 N_ODD "föräldrar" ; !nominativ sg. fungerar ej
 tjiebot:tjiebod2 N_ODD "throat" ;
 ájajågåtj:ájajågåtj N_ODD "kallkällbäck" ; !funkar
@@ -416,14 +406,9 @@ judos:juhtus N_ODD_VH "djur" ; !fungerar ej judos:juhtusa
 máles:mállás N_ODD_VH ; ! nominativ sg. fungerar ej
 
 
-
 ! Contracted stem patterns:
-! V2a	V2b	C#
-! N_CONTR_AJA	a	a	j	ålmaj/ålma (ålbma)
 !! * ålmaj: # -contracted stem ending in -aj or -a: N_CONTR_AJA
-! N_CONTR_OJU	o	u	j	båtsoj/buhtsu
 !! * båtsoj: # -contracted stem ending in -oj or -u: N_CONTR_OJU
-! N_CONTR_ESA	e	á	s	sarves/sarrvá, giehpes/gähppá, bálges/bállgá, vielmes/välbmá
 !! * sarves: # -contracted stem ending in -es or -á: N_CONTR_ESA
 
 båtsoj:båhts N_CONTR_OJU "ren" ;
@@ -439,6 +424,3 @@ vielmes:vielbm N_CONTR_ESA "lugnvatten" ; !nominativ sg. fungerar ej, ev skriva 
 bieraj:bierra N_CONTR_AJA "släkting" ;
 !iddnu:iddn N_CONTR_C_C "morbror" ; !not sure how this inflects -- check corpus
 
-
-
-!:! This program is free software ; you can redistribute and/or modify
