@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was created by Joshua Wilbur as an export of a Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-10T22:26:10.286+01:00
+! Timestamp: 2016-11-11T11:00:25.323+01:00
 
 !! !!!Pite Saami nouns
 
@@ -34,8 +34,10 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! * biena: # -odd, open second syllable, has CGrad                 N_ODD_OPEN
 
 ! Contracted stem patterns:
+
 !! * ålmaj: # -contracted stem ending in -aj or -a: N_CONTR_AJA
 !! * båtsoj: # -contracted stem ending in -oj or -u: N_CONTR_OJU
+!! * suolo: # -contracted stem ending in -o or -u: N_CONTR_OU
 !! * sarves: # -contracted stem ending in -es or -á: N_CONTR_ESA
 
 
@@ -52,6 +54,8 @@ båtsoj:båhts N_CONTR_OJU "reindeer" ; ! no. 263
 guddoj:gudd N_CONTR_OJU "stump (on its side)" ; ! no. 675
 guolmoj:gu^Olbm N_CONTR_OJU "dusk" ; ! no. 699
 gåggoj:gågg N_CONTR_OJU "larynx" ; ! no. 2846
+guokso:gu^Okks N_CONTR_OU "dawn" ; ! no. 690
+suolo:su^Oll N_CONTR_OU "island" ; ! no. 1771
 addam:addam N_EVEN "marrowbone" ; ! no. 90520
 ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 ajbme:ajbme N_EVEN "leather needle" ; ! no. 4204
@@ -1474,7 +1478,6 @@ gielda:gieldag N_ODD_OPEN "tendon on the hind leg" ; ! no. 5842
 giera:gierrag N_ODD_OPEN "descendant" ; ! no. 2989
 gierbma:gierrbmah N_ODD_OPEN "snake" ; ! no. 617
 guohpa:gu^Ohppag N_ODD_OPEN "mold" ; ! no. 680
-guokso:gu^Okksou N_ODD_OPEN "dawn" ; ! no. 690
 låvdå:låvvdåg N_ODD_OPEN "tent tarp" ; ! no. 1098
 mádda:máddag N_ODD_OPEN "lower intestine" ; ! no. 90265
 muohta:mu^Ohttag N_ODD_OPEN "snow" ; ! no. 2360
@@ -1482,7 +1485,6 @@ njára:njárrag N_ODD_OPEN "neck meat on a reindeer" ; ! no. 2882
 riebe:riehpeh N_ODD_OPEN "red fox" ; ! no. 2790
 siebla:siebblag N_ODD_OPEN "wet spring snow" ; ! no. 2758
 suola:su^Ollag N_ODD_OPEN "thief" ; ! no. 2738
-suolo:su^Ollou N_ODD_OPEN "island" ; ! no. 1771
 tjála:tjállag N_ODD_OPEN "writing, text" ; ! no. 1867
 tjåddå:tjåddåg N_ODD_OPEN "esophagus" ; ! no. 2845
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
