@@ -412,6 +412,13 @@ LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete:
 
 LEXICON N_CONTR_OJU !båtsoj<->buhtsu
 +N+Sg+Nom:oj^WG PX ;
+N_CONTR_O ;
+
+LEXICON N_CONTR_OU !suolo<->sullu
++N+Sg+Nom:o^WG PX ;
+N_CONTR_O ;
+
+LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Sg+Acc:u%>v PX ;
 +N+Sg+Gen:u PX ;
 +N+Sg+Ill:u%>j PX ;
