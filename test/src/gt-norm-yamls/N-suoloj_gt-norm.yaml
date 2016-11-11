@@ -9,23 +9,42 @@ Config:
 
 Tests:
 
+  Noun - suolo: # -kontrakta utan stv
+    suolo+N+Sg+Nom: suolo
+#    suolo+N+Sg+Nom: [suolo, suoloj]
+    suolo+N+Sg+Gen: sullu
+    suolo+N+Sg+Acc: sulluv
+    suolo+N+Sg+Ill: sulluj
+    suolo+N+Sg+Ine: sullun
+    suolo+N+Sg+Ela: sullust
+    suolo+N+Sg+Com: sullujn
+    suolo+N+Pl+Nom: sullu
+    suolo+N+Pl+Gen: sulluj
+    suolo+N+Pl+Acc: sullujd
+    suolo+N+Pl+Ill: sullujda
+    suolo+N+Pl+Ine: sullujn
+    suolo+N+Pl+Ela: sullujst
+    suolo+N+Pl+Com: sulluj
+    suolo+N+Ess: sullun
+    suolo+N+Abe: sulludak
 
-  Noun - suoloj: # -kontrakta utan stv
-    suoloj+N+Sg+Nom: suoloj
-#    suoloj+N+Sg+Nom: [suoloj, sullu]
-    suoloj+N+Sg+Gen: sullu
-    suoloj+N+Sg+Acc: sulluv
-    suoloj+N+Sg+Ill: sulluj
-    suoloj+N+Sg+Ine: sullun
-    suoloj+N+Sg+Ela: sullust
-    suoloj+N+Sg+Com: sullujn
-    suoloj+N+Pl+Nom: sullu
-    suoloj+N+Pl+Gen: sulluj
-    suoloj+N+Pl+Acc: sullujd
-    suoloj+N+Pl+Ill: sullujda
-    suoloj+N+Pl+Ine: sullujn
-    suoloj+N+Pl+Ela: sullujst
-    suoloj+N+Pl+Com: sulluj
-    suoloj+N+Ess: sullun
-    suoloj+N+Abe: sulludak
+
+#  Noun - suoloj: # -kontrakta utan stv
+#    suoloj+N+Sg+Nom: suoloj
+##    suoloj+N+Sg+Nom: [suoloj, sullu]
+#    suoloj+N+Sg+Gen: sullu
+#    suoloj+N+Sg+Acc: sulluv
+#    suoloj+N+Sg+Ill: sulluj
+#    suoloj+N+Sg+Ine: sullun
+#    suoloj+N+Sg+Ela: sullust
+#    suoloj+N+Sg+Com: sullujn
+#    suoloj+N+Pl+Nom: sullu
+#    suoloj+N+Pl+Gen: sulluj
+#    suoloj+N+Pl+Acc: sullujd
+#    suoloj+N+Pl+Ill: sullujda
+#    suoloj+N+Pl+Ine: sullujn
+#    suoloj+N+Pl+Ela: sullujst
+#    suoloj+N+Pl+Com: sulluj
+#    suoloj+N+Ess: sullun
+#    suoloj+N+Abe: sulludak
 
