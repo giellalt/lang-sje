@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--+
-    | 
-    | change FILEMAKER XML export into a MySQL import table format
+    | convert FILEMAKER XML export into LEXC format
+    | cf. langs/sje/misc/00_README_FM2LEXC.txt for usage (local copy only)
     | Usage: java net.sf.saxon.Transform -it main STYLESHEET_NAME.xsl (inFile=INPUT_FILE_NAME.xml | inDir=INPUT_DIR)
     +-->
 
@@ -26,8 +26,8 @@
 	      encoding="UTF-8"/>
   
   <!-- Input -->
-  <xsl:param name="inFileNameONLY" select="'fmp2lexcSample'"/>
-  <xsl:param name="inFile" select="concat($inFileNameONLY,'.xml')"/>
+  <xsl:param name="inFileNameONLY" select="'fmp4lexc'"/>
+  <xsl:param name="inFile" select="concat('../misc/',$inFileNameONLY,'.xml')"/>
   <xsl:param name="inDir" select="'xxxdirxxx'"/>
   <xsl:param name="XSLfile" select="base-uri(document(''))"/>
   
@@ -35,7 +35,7 @@
   <xsl:variable name="outDirXML" select="'outDirXML_Layouts'"/>
   <xsl:variable name="outDirTXT" select="'outDirTXT_Layouts'"/>
   <xsl:variable name="outDirLEXC" select="'outDirLEXC_Layouts'"/>
-  <xsl:variable name="outputFileName" select="'sjeData_lexc'"/>
+  <xsl:variable name="outputFileName" select="'sjeData'"/>
   
   <!-- Patterns for the feature values -->
   <xsl:variable name="output_formatXML" select="'xml'"/>
@@ -98,8 +98,8 @@
     <xsl:param name="theFile"/>
     <xsl:param name="theName"/>
 
-      <!-- output document MySQL database -->
-      <xsl:result-document href="{$outputFileName}.lexc" format="{$output_formatLEXC}">
+      <!-- output document LEXC file(s) -->
+      <xsl:result-document href="/Users/me/main/langs/sje/misc/{$outputFileName}.lexc" format="{$output_formatLEXC}">
       <xsl:variable name="apos">'</xsl:variable>
       <xsl:variable name="dq">"</xsl:variable>
       <xsl:variable name="acute">´</xsl:variable>
@@ -249,7 +249,7 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
       </xsl:result-document>
       
       <xsl:message terminate="no">
-	<xsl:value-of select="concat('***Created lexc file: ',$outputFileName,'.lexc')"/>
+	<xsl:value-of select="concat('***Created lexc file: main/langs/sje/misc/',$outputFileName,'.lexc',$nl,'!!!!!!! Remember to update the actual lexc-file(s) in the relevant sje-DIRs!!')"/>
       </xsl:message>
 
     
