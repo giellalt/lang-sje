@@ -245,7 +245,7 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
-%^O:a <=>  Cns:* u _ G3 \e; 
+%^O:a <=>  Cns:* u _ G3 [:a|:o|:y|:ä|:å|:á]; 
 
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
