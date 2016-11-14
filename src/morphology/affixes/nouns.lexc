@@ -43,12 +43,17 @@ LEXICON N_EVEN_O ! rássjo-variant rässjuj
 +N: N_EVEN_ILL_O ; ! allows rássjo-variant: rässjuj
 +N:^WG N_EVEN_WK ; ! CG here
 
-LEXICON N_EVEN_4 ! gonagassa
-+N: EVENCASE_4 ;
-+N:a N_EVEN_ILL ;
-+N:a^WG N_EVEN_WK ; ! CG here
+LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
++N:^G3 EVENCASE ;
++N:^G3 N_EVEN_ILL ;
++N:^WG N_EVEN_WK ; ! ^WG necessary for words like vuodda<->vuaddag-
 
-LEXICON EVENCASE_4
+!LEXICON N_EVEN_4 ! gonagassa, 
+!+N: EVENCASE_4 ;
+!+N:a N_EVEN_ILL ;
+!+N:a^WG N_EVEN_WK ; ! CG here
+!
+LEXICON EVENCASE_4 !mentioned in Adj-Affixes!
 +Sg+Nom:^CDEL K ;
 :a EVENOBLIQUE ;
 
@@ -59,11 +64,6 @@ EVENOBLIQUE ;
 LEXICON EVENOBLIQUE 
 N_EVEN_ESS ; 
 !:^WG^IJ%>j N_EVEN_J ;
-
-LEXICON N_EVEN_NOCG
-+N: EVENCASE ;
-+N: N_EVEN_ILL ;
-+N: N_EVEN_WK ; ! No CG here, ingen stadieväxling
 
 LEXICON N_EVEN_ILL
 +Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
