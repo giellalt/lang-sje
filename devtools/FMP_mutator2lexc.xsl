@@ -249,7 +249,7 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
       </xsl:result-document>
       
       <xsl:message terminate="no">
-	<xsl:value-of select="concat('***Created lexc file: main/langs/sje/misc/',$outputFileName,'.lexc',$nl,'!!!!!!! Remember to update the actual lexc-file(s) in the relevant sje-DIRs!!')"/>
+	<xsl:value-of select="concat('***Created lexc file: main/langs/sje/misc/',$outputFileName,'.lexc',$nl,'!!!!!!! Remember to update the actual lexc-file(s) in the relevant sje-DIRs!!',$nl,'        (for instance: sje/src/morphology/stems/nouns.lexc)')"/>
       </xsl:message>
 
     
