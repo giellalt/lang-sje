@@ -33,12 +33,12 @@
 ! -------------
 
 LEXICON N_EVEN ! giella, guolle
-+N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
++N: EVENCASE ;  ! Sg Nom, Ess
 +N: N_EVEN_ILL ;
 +N:^WG N_EVEN_WK ; ! CG here
 
 LEXICON N_EVEN_O ! rássjo-variant rässjuj
-+N: EVENCASE ;  ! Sg Nom, EVENOBLIQUE
++N: EVENCASE ;  ! Sg Nom, Ess
 +N: N_EVEN_ILL ; 
 +N: N_EVEN_ILL_O ; ! allows rássjo-variant: rässjuj
 +N:^WG N_EVEN_WK ; ! CG here
@@ -48,22 +48,9 @@ LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
 +N:^G3 N_EVEN_ILL ;
 +N:^WG N_EVEN_WK ; ! ^WG necessary for words like vuodda<->vuaddag-
 
-!LEXICON N_EVEN_4 ! gonagassa, 
-!+N: EVENCASE_4 ;
-!+N:a N_EVEN_ILL ;
-!+N:a^WG N_EVEN_WK ; ! CG here
-!
-LEXICON EVENCASE_4 !mentioned in Adj-Affixes!
-+Sg+Nom:^CDEL K ;
-:a EVENOBLIQUE ;
-
 LEXICON EVENCASE
 +Sg+Nom:^UAUML    K ;
-EVENOBLIQUE ;
-
-LEXICON EVENOBLIQUE 
-N_EVEN_ESS ; 
-!:^WG^IJ%>j N_EVEN_J ;
+N_EVEN_ESS ; ! Essive
 
 LEXICON N_EVEN_ILL
 +Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
@@ -120,8 +107,147 @@ LEXICON N_EVEN_J
 ! +Pl+Com:^WG%>ij    K ;
 ! +Ess:%>en K ;
 
-LEXICON N_EVEN_C
-+Sg+Gen:%>o  K ; ! trond
+
+
+!LEXICON N_EVEN_4 ! gonagassa, 
+!+N: EVENCASE_4 ;
+!+N:a N_EVEN_ILL ;
+!+N:a^WG N_EVEN_WK ; ! CG here
+!
+LEXICON EVENCASE_4 !mentioned in Adj-Affixes!
++Sg+Nom:^CDEL K ;
+:a N_EVEN_ESS ; !essive
+
+
+
+! odd-syllabic
+! ------------
+
+LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
++N+Sg+Nom: K ;
++N: N_ODD_X ;
+
+LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
++N+Sg+Nom:^WG K ;
++N: N_ODD_X ;
+
+LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
++N+Sg+Nom:^WG^CDEL K ;
++N: N_ODD_X ;
+
+LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->sarrvá-
++N+Sg+Nom:^WG K ;
++N:^V2O2U N_ODD_X ;
+
+LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
++Sg+Acc:a%>v K ;
++Sg+Gen:a K ;
++Sg+Ill:^VHBARi%>j K ;
++Sg+Ine:^VHBARi%>n K ;
++Sg+Ela+Err/Orth:^VHBARi%>s K ;
++Sg+Ela:^VHBARi%>st K ;
++Sg+Com:^VHBARi%>jn K ;
++Ess:^VHBARi%>n K ;
++Abe:a%>htá K ;
++Pl+Nom:a K ;
++Pl+Acc:^VHBARi%>jd K ;
++Pl+Gen:^VHBARi%>j K ;
++Pl+Ill:^VHBARi%>jda K ;
++Pl+Ine:^VHBARi%>jn K ;
++Pl+Ela+Err/Orth:^VHBARi%>js K ;
++Pl+Ela:^VHBARi%>jst K ;
++Pl+Com:^VHBARi%>j K ;
+
+
+
+
+
+! contracted
+! ----------
+
+LEXICON N_CONTR_OJU !båtsoj<->buhtsu
++N+Sg+Nom:oj^WG K ;
+N_CONTR_O ;
+
+LEXICON N_CONTR_OU !suolo<->sullu
++N+Sg+Nom:o^WG K ;
+N_CONTR_O ;
+
+LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
++N+Sg+Acc:u%>v K ;
++N+Sg+Gen:u K ;
++N+Sg+Ill:u%>j K ;
++N+Sg+Ine:u%>n K ;
++N+Sg+Ela+Err/Orth:u%>s K ;
++N+Sg+Ela:u%>st K ;
++N+Sg+Com:u%>jn K ;
++N+Ess:u%>n K ;
++N+Ess:u%>n K ;
++N+Abe:u%>dak K ; ! XXX
++N+Pl+Nom:u K ;
++N+Pl+Acc:u%>jd K ;
++N+Pl+Gen:u%>j K ;
++N+Pl+Ill:u%>jda K ;
++N+Pl+Ine:u%>jn K ;
++N+Pl+Ela+Err/Orth:u%>js K ;
++N+Pl+Ela:u%>jst K ;
++N+Pl+Com:u%>j K ;
+
+LEXICON N_CONTR_AJA !ålmaj<->ålma
++N+Sg+Nom:a^WGj K ;
++N+Sg+Acc:av K ;
++N+Sg+Gen:a K ;
++N+Sg+Ill:aj K ;
++N+Sg+Ine:an K ;
++N+Sg+Ela+Err/Orth:as K ;
++N+Sg+Ela:ast K ;
++N+Sg+Com:ajn K ;
++N+Ess:an K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Ess:a^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:adak K ; ! XXX
++N+Pl+Nom:a K ;
++N+Pl+Acc:ajd K ;
++N+Pl+Gen:aj K ;
++N+Pl+Ill:ajda K ;
++N+Pl+Ine:ajn K ;
++N+Pl+Ela+Err/Orth:ajs K ;
++N+Pl+Ela:ajst K ;
++N+Pl+Com:aj K ;
+
+LEXICON N_CONTR_ESA !sarves<->sarvvá
++N+Sg+Nom:e^WGs K ;
++N+Sg+Acc:áv K ;
++N+Sg+Gen:á K ;
++N+Sg+Ill:áj K ;
++N+Sg+Ine:án K ;
++N+Sg+Ela+Err/Orth:ás K ;
++N+Sg+Ela:ást K ;
++N+Sg+Com:ájn K ;
++N+Ess:án K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:ádak K ; ! XXX
++N+Pl+Nom:á K ;
++N+Pl+Acc:ájd K ;
++N+Pl+Gen:áj K ;
++N+Pl+Ill:ájda K ;
++N+Pl+Ine:ájn K ;
++N+Pl+Ela+Err/Orth:ájs K ;
++N+Pl+Ela:ájst K ;
++N+Pl+Com:áj K ;
+
+
+
+
+LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
+# ;
+
+
+! NOTE: 
+! NOTE: below here: lexica that are referred to in adjectives (or at least outside noun-stems)
+! NOTE: 
+
+LEXICON N_EVEN_C ! mentioned in adjectives!
++Sg+Gen:%>o  K ; 
 +Sg+Acc:%>ov  K ;
 +Sg+Ine:%>on K ;
 +Sg+Ela+Err/Orth:%>os K ;
@@ -139,352 +265,44 @@ LEXICON N_EVEN_C
 +Pl+Com:%>oj    K ;
 +Ess:%>on K ;
 
-! odd-syllabic
-! ------------
-
-LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
-+N+Sg+Nom: PX ;
-+N: N_ODD_X ;
-
-LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
-+N+Sg+Nom:^WG PX ;
-+N: N_ODD_X ;
-
-LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
-+N+Sg+Nom:^WG^CDEL PX ;
-+N: N_ODD_X ;
-
-LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->sarrvá-
-+N+Sg+Nom:^WG PX ;
-+N:^V2O2U N_ODD_X ;
-
-LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
-+Sg+Acc:a%>v PX ;
-+Sg+Gen:a PX ;
-+Sg+Ill:^VHBARi%>j PX ;
-+Sg+Ine:^VHBARi%>n PX ;
-+Sg+Ela+Err/Orth:^VHBARi%>s PX ;
-+Sg+Ela:^VHBARi%>st PX ;
-+Sg+Com:^VHBARi%>jn PX ;
-+Ess:^VHBARi%>n PX ;
-+Abe:a%>htá PX ;
-+Pl+Nom:a PX ;
-+Pl+Acc:^VHBARi%>jd PX ;
-+Pl+Gen:^VHBARi%>j PX ;
-+Pl+Ill:^VHBARi%>jda PX ;
-+Pl+Ine:^VHBARi%>jn PX ;
-+Pl+Ela+Err/Orth:^VHBARi%>js PX ;
-+Pl+Ela:^VHBARi%>jst PX ;
-+Pl+Com:^VHBARi%>j PX ;
-
-
 
 
 !used by adjectives - don't delete:
 LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
-+Sg+Acc:a%>v PX ;
-+Sg+Gen:a PX ;
-+Sg+Ill:i%>j PX ;
-+Sg+Ine:i%>n PX ;
-+Sg+Ela+Err/Orth:i%>s PX ; 
-+Sg+Ela:i%>st PX ; 
-+Sg+Com:i%>jn PX ;
-+Ess:i%>n PX ;
-+Pl+Nom:a PX ;
-+Pl+Acc:i%>jd PX ;
-+Pl+Gen:i%>j PX ;
-+Pl+Ill:i%>jda PX ;
-+Pl+Ine:i%>jn PX ;
-+Pl+Ela+Err/Orth:i%>js PX ;
-+Pl+Ela:i%>jst PX ;
-+Pl+Com:i%>j PX ;
++Sg+Acc:a%>v K ;
++Sg+Gen:a K ;
++Sg+Ill:i%>j K ;
++Sg+Ine:i%>n K ;
++Sg+Ela+Err/Orth:i%>s K ; 
++Sg+Ela:i%>st K ; 
++Sg+Com:i%>jn K ;
++Ess:i%>n K ;
++Pl+Nom:a K ;
++Pl+Acc:i%>jd K ;
++Pl+Gen:i%>j K ;
++Pl+Ill:i%>jda K ;
++Pl+Ine:i%>jn K ;
++Pl+Ela+Err/Orth:i%>js K ;
++Pl+Ela:i%>jst K ;
++Pl+Com:i%>j K ;
 
-
-
-!LEXICON N_ODD_VV
-!+N+Sg+Nom:^V2E2AA PX ;
-!+N: ODD_OBLIQUE ;
-!
-!LEXICON N_ODD_CG 
-!+N+Sg+Nom:^WG PX ;
-!+N:^UAUML ODD_OBLIQUE ;
-!
-!LEXICON N_ODD_CG_A !ex. judos, fungerar ej
-!+N+Sg+Nom:^WGos PX ;
-!+N: ODD_OBLIQUE_A_COMMON ;
-!
-!LEXICON N_ODD_CG_H 
-!+N+Sg+Nom:^WGes PX ;
-!+N: ODD_OBLIQUE_G_COMMON ;
-!
-!LEXICON N_ODD_CG_B 
-!+N+Sg+Nom:^WG PX ;
-!+N: ODD_OBLIQUE ;
-!
-!LEXICON N_ODD_CG_C 
-!+N+Sg+Nom:^WGj PX ;
-!+N: ODD_OBLIQUE_C ;
-!
-!LEXICON N_ODD_CG_I 
-!+N+Sg+Nom:^WG PX ;
-!+N: ODD_OBLIQUE_C ;
-!
-!LEXICON N_ODD_CG_D 
-!+N+Sg+Nom:^WGk PX ;
-!+N: ODD_OBLIQUE_F ;
-!
-!LEXICON N_ODD_CG_E 
-!+N+Sg+Nom:^WG PX ;
-!+N: ODD_OBLIQUE_E ;
-!
-! LEXICON N_ODD_CG_F 
-! +N+Sg+Nom:^WGes PX ;
-! +N: ODD_OBLIQUE_B ;
-!
-!LEXICON N_ODD_G
-!+N+Sg+Nom:k PX ;
-!+N: ODD_OBLIQUE_F ;
-!
-!
-!LEXICON N_ODD_D
-!+N+Sg+Nom:t PX ;
-!+N: ODD_OBLIQUE_D ;
-!
-!LEXICON ODD_OBLIQUE_A
-!+Abe:usahtá PX ;
-!ODD_OBLIQUE_A_COMMON ;
-!
-!LEXICON ODD_OBLIQUE_B
-!+Abe:ásahtá PX ;
-!ODD_OBLIQUE_B_COMMON ;
-!
-!LEXICON ODD_OBLIQUE_C
-!+Abe:hahtá PX ;
-!ODD_OBLIQUE_C_COMMON ;
-!
-!LEXICON ODD_OBLIQUE_D
-!+Abe:dahtá PX ;
-!ODD_OBLIQUE_D_COMMON ;
-!
-!LEXICON ODD_OBLIQUE_E
-!+Abe:ahtá PX ;
-!ODD_OBLIQUE_COMMON ;
-!
-!LEXICON ODD_OBLIQUE_F
-!+Abe:gahtá PX ;
-!ODD_OBLIQUE_F_COMMON ;
-!
-!
-!LEXICON ODD_OBLIQUE_A_COMMON
-!+Sg+Acc:usav PX ;
-!+Sg+Gen:usa PX ;
-!+Sg+Ill:usij PX ;
-!+Sg+Ine:usin PX ;
-!+Sg+Ela+Err/Orth:usis PX ; 
-!+Sg+Ela:usist PX ; 
-!+Sg+Com:usijn PX ;
-!+Ess:usin PX ;
-!+Pl+Nom:usa PX ;
-!+Pl+Acc:usijd PX ;
-!+Pl+Gen:usij PX ;
-!+Pl+Ill:usijda PX ;
-!+Pl+Ine:usijn PX ;
-!+Pl+Ela+Err/Orth:usijs PX ;
-!+Pl+Ela:usijst PX ;
-!+Pl+Com:usij PX ;
-!
-!LEXICON ODD_OBLIQUE_B_COMMON
-!+Sg+Acc:ásav PX ;
-!+Sg+Gen:ása PX ;
-!+Sg+Ill:ásij PX ;
-!+Sg+Ine:ásin PX ;
-!+Sg+Ela+Err/Orth:ásis PX ; 
-!+Sg+Ela:ásist PX ; 
-!+Sg+Com:ásijn PX ;
-!+Ess:ásin PX ;
-!+Pl+Nom:ása PX ;
-!+Pl+Acc:ásijd PX ;
-!+Pl+Gen:ásij PX ;
-!+Pl+Ill:ásijda PX ;
-!+Pl+Ine:ásijn PX ;
-!+Pl+Ela+Err/Orth:ásijs PX ;
-!+Pl+Ela:ásijst PX ;
-!+Pl+Com:ásij PX ;
-!
-!LEXICON ODD_OBLIQUE_C_COMMON
-!+Sg+Acc:hav PX ;
-!+Sg+Gen:ha PX ;
-!+Sg+Ill:hij PX ;
-!+Sg+Ine:hin PX ;
-!+Sg+Ela+Err/Orth:his PX ; 
-!+Sg+Ela:hist PX ; 
-!+Sg+Com:hijn PX ;
-!+Ess:hin PX ;
-!+Pl+Nom:ha PX ;
-!+Pl+Acc:hijd PX ;
-!+Pl+Gen:hij PX ;
-!+Pl+Ill:hijda PX ;
-!+Pl+Ine:hijn PX ;
-!+Pl+Ela+Err/Orth:hijs PX ;
-!+Pl+Ela:hijst PX ;
-!+Pl+Com:hij PX ;
-!
-!
-!LEXICON ODD_OBLIQUE_F_COMMON
-!+Sg+Acc:gav PX ;
-!+Sg+Gen:ga PX ;
-!+Sg+Ill:gij PX ;
-!+Sg+Ine:gin PX ;
-!+Sg+Ela+Err/Orth:gis PX ; 
-!+Sg+Ela:gist PX ; 
-!+Sg+Com:gijn PX ;
-!+Ess:gin PX ;
-!+Pl+Nom:ga PX ;
-!+Pl+Acc:gijd PX ;
-!+Pl+Gen:gij PX ;
-!+Pl+Ill:gijda PX ;
-!+Pl+Ine:gijn PX ;
-!+Pl+Ela+Err/Orth:gijs PX ;
-!+Pl+Ela:gijst PX ;
-!+Pl+Com:gij PX ;
-!
-!LEXICON ODD_OBLIQUE_D_COMMON
-!+Sg+Acc:dav PX ;
-!+Sg+Gen:da PX ;
-!+Sg+Ill:dij PX ;
-!+Sg+Ine:din PX ;
-!+Sg+Ela+Err/Orth:dis PX ; 
-!+Sg+Ela:dist PX ; 
-!+Sg+Com:dijn PX ;
-!+Ess:din PX ;
-!+Pl+Nom:da PX ;
-!+Pl+Acc:dijd PX ;
-!+Pl+Gen:dij PX ;
-!+Pl+Ill:dijda PX ;
-!+Pl+Ine:dijn PX ;
-!+Pl+Ela+Err/Orth:dijs PX ;
-!+Pl+Ela:dijst PX ;
-!+Pl+Com:dij PX ;
-!
-!LEXICON ODD_OBLIQUE_G_COMMON
-!+Sg+Acc:ásav PX ;
-!+Sg+Gen:ása PX ;
-!+Sg+Ill:ásij PX ;
-!+Sg+Ine:ásin PX ;
-!+Sg+Ela+Err/Orth:ásis PX ; 
-!+Sg+Ela:ásist PX ; 
-!+Sg+Com:ásijn PX ;
-!+Ess:ásin PX ;
-!+Pl+Nom:ása PX ;
-!+Pl+Acc:ásijd PX ;
-!+Pl+Gen:ásij PX ;
-!+Pl+Ill:ásijda PX ;
-!+Pl+Ine:ásijn PX ;
-!+Pl+Ela+Err/Orth:ásijs PX ;
-!+Pl+Ela:ásijst PX ;
-!+Pl+Com:ásij PX ;
-!
 
 !used by adjectives - don't delete:
 LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete:
-+Sg+Acc:uv PX ;
-+Sg+Gen:u PX ;
-+Sg+Ill:uj PX ;
-+Sg+Ine:un PX ;
-+Sg+Ela+Err/Orth:us PX ; 
-+Sg+Ela:ust PX ; 
-+Sg+Com:ujn PX ;
-+Ess:un PX ;
-+Pl+Nom:u PX ;
-+Pl+Acc:ujd PX ;
-+Pl+Gen:uj PX ;
-+Pl+Ill:ujda PX ;
-+Pl+Ine:ujn PX ;
-+Pl+Ela+Err/Orth:ujs PX ;
-+Pl+Ela:ujst PX ;
-+Pl+Com:uj PX ;
-
-
-
-
-! contracted
-! ----------
-
-LEXICON N_CONTR_OJU !båtsoj<->buhtsu
-+N+Sg+Nom:oj^WG PX ;
-N_CONTR_O ;
-
-LEXICON N_CONTR_OU !suolo<->sullu
-+N+Sg+Nom:o^WG PX ;
-N_CONTR_O ;
-
-LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
-+N+Sg+Acc:u%>v PX ;
-+N+Sg+Gen:u PX ;
-+N+Sg+Ill:u%>j PX ;
-+N+Sg+Ine:u%>n PX ;
-+N+Sg+Ela+Err/Orth:u%>s PX ;
-+N+Sg+Ela:u%>st PX ;
-+N+Sg+Com:u%>jn PX ;
-+N+Ess:u%>n PX ;
-+N+Ess:u%>n PX ;
-+N+Abe:u%>dak PX ; ! XXX
-+N+Pl+Nom:u PX ;
-+N+Pl+Acc:u%>jd PX ;
-+N+Pl+Gen:u%>j PX ;
-+N+Pl+Ill:u%>jda PX ;
-+N+Pl+Ine:u%>jn PX ;
-+N+Pl+Ela+Err/Orth:u%>js PX ;
-+N+Pl+Ela:u%>jst PX ;
-+N+Pl+Com:u%>j PX ;
-
-LEXICON N_CONTR_AJA !ålmaj<->ålma
-+N+Sg+Nom:a^WGj PX ;
-+N+Sg+Acc:av PX ;
-+N+Sg+Gen:a PX ;
-+N+Sg+Ill:aj PX ;
-+N+Sg+Ine:an PX ;
-+N+Sg+Ela+Err/Orth:as PX ;
-+N+Sg+Ela:ast PX ;
-+N+Sg+Com:ajn PX ;
-+N+Ess:an PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Ess:a^WGn PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:adak PX ; ! XXX
-+N+Pl+Nom:a PX ;
-+N+Pl+Acc:ajd PX ;
-+N+Pl+Gen:aj PX ;
-+N+Pl+Ill:ajda PX ;
-+N+Pl+Ine:ajn PX ;
-+N+Pl+Ela+Err/Orth:ajs PX ;
-+N+Pl+Ela:ajst PX ;
-+N+Pl+Com:aj PX ;
-
-LEXICON N_CONTR_ESA !sarves<->sarvvá
-+N+Sg+Nom:e^WGs PX ;
-+N+Sg+Acc:áv PX ;
-+N+Sg+Gen:á PX ;
-+N+Sg+Ill:áj PX ;
-+N+Sg+Ine:án PX ;
-+N+Sg+Ela+Err/Orth:ás PX ;
-+N+Sg+Ela:ást PX ;
-+N+Sg+Com:ájn PX ;
-+N+Ess:án PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Ess:á^WGn PX ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:ádak PX ; ! XXX
-+N+Pl+Nom:á PX ;
-+N+Pl+Acc:ájd PX ;
-+N+Pl+Gen:áj PX ;
-+N+Pl+Ill:ájda PX ;
-+N+Pl+Ine:ájn PX ;
-+N+Pl+Ela+Err/Orth:ájs PX ;
-+N+Pl+Ela:ájst PX ;
-+N+Pl+Com:áj PX ;
-
-
-
-
-LEXICON PX
-# ;
-
-
++Sg+Acc:uv K ;
++Sg+Gen:u K ;
++Sg+Ill:uj K ;
++Sg+Ine:un K ;
++Sg+Ela+Err/Orth:us K ; 
++Sg+Ela:ust K ; 
++Sg+Com:ujn K ;
++Ess:un K ;
++Pl+Nom:u K ;
++Pl+Acc:ujd K ;
++Pl+Gen:uj K ;
++Pl+Ill:ujda K ;
++Pl+Ine:ujn K ;
++Pl+Ela+Err/Orth:ujs K ;
++Pl+Ela:ujst K ;
++Pl+Com:uj K ;
 
