@@ -276,7 +276,7 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
 i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
-		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
+		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 
 "Ä in G3" ! ie:0ä (bägga, bävvde); can be word-initial

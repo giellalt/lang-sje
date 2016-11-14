@@ -97,9 +97,6 @@ d2 t2 j2 h2 g2 !!= @CODE@ * Variable consonants, undergo final devoicing
                ! NB! This is the opposite of the sme pattern
 ^O      !!= @CODE@ * o but ä in uä
 
-! is this line really neccesary?
-'      !!= @CODE@ * marks extra-long geminate in grade 3 (descriptive)
-
 !! {{{
 ! Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!= @CODE@ * »
