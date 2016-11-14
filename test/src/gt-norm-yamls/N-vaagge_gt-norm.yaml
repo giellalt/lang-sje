@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - vágge: # -a-stammar
+    vágge+N+Sg+Nom: vágge
+    vágge+N+Sg+Gen: vágge
+    vágge+N+Sg+Acc: vággev
+    vágge+N+Sg+Ill: vággáj
+    vágge+N+Sg+Ine: vággen
+    vágge+N+Sg+Ela: vággest
+    vágge+N+Sg+Com: [väggijn, väggijna]
+    vágge+N+Pl+Nom: vágge
+    vágge+N+Pl+Gen: väggij
+    vágge+N+Pl+Acc: väggijd
+    vágge+N+Pl+Ill: väggijda
+    vágge+N+Pl+Ine: väggijn
+    vágge+N+Pl+Ela: väggijst
+    vágge+N+Pl+Com: väggij
+    vágge+N+Ess: vággen
+    vágge+N+Abe: vággedak
+

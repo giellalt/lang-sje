@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - bägga: # -a-stammar
+    bägga+N+Sg+Nom: bägga
+    bägga+N+Sg+Gen: biegga
+    bägga+N+Sg+Acc: bieggav
+    bägga+N+Sg+Ill: bäggaj
+    bägga+N+Sg+Ine: bieggan
+    bägga+N+Sg+Ela: bieggast
+    bägga+N+Sg+Com: [bieggajn, bieggajna]
+    bägga+N+Pl+Nom: biegga
+    bägga+N+Pl+Gen: bieggaj
+    bägga+N+Pl+Acc: bieggajd
+    bägga+N+Pl+Ill: bieggajda
+    bägga+N+Pl+Ine: bieggajn
+    bägga+N+Pl+Ela: bieggajst
+    bägga+N+Pl+Com: bieggaj
+    bägga+N+Ess: bäggan
+    bägga+N+Abe: bieggadak
+
