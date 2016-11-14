@@ -67,6 +67,7 @@ Definitions
         d d n j |
         h t t [j|s] |
         j j s t |
+        j j t s |
         j j t j |
         k k s [j|t] |
         k k t [j|s] |
@@ -150,16 +151,30 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _ Vow:+ Cns:* ( Dummy: ) %^WG: ;
+Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
 "Consonant Gradation for xxy:xy"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _ Cy Vow: Cns:* ( Dummy: ) %^WG: ;
-! Cx:0 <=> Vow: Cx _ Cy ([g|j|k|m|n|s|t]) Vow: Cns:* ( Dummy: ) %^WG: ;
- where Cx in ( b b b b b b b d d d d f f f g g g g j j j j j j j j j j j k k k l l l l l l l l l l m m m m n n n n p p r r r r r r r r r r s s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
-       Cy in ( d j l m n r t j k n v d n t d l ŋ v b d g p t k l r s v m s t v j b d f g k p s t v b g p s d j s t s t b d f g j k p s t v j k m n p t v j k m s g k n d k l r g s t )  
+Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
+     where Cx in ( b b b b b b d d d d f f g g g g j j j j j j j j j j k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
+           Cy in ( d j l m n r j k n v d n d l ŋ v b d g p k l r s v m s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d k l r g s )  
           matched ;
+          
+"Consonant Gradation for xxt(j|s):xt(j|s)" ! ájjte, gájjtsa
+!! __@RULENAME@__  
+Cx:0 <=> Vow:+ Cx _ t (j:*|s:*) Vow:+ Cns:* ( Dummy: ) %^WG: ;
+     where Cx in ( b f j k l n p r s v ) ;
+
+
+!!€ ájjte^WG
+!!€ áj0te0
+!!€ gájjtsa^WG
+!!€ gáj0tsa0
+!!€ gu^Olle^WG
+!!€ guol0e0
+!!€ gu^Olle^WG^IJ>jd
+!!€ gu0l0i000jd
 
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
@@ -202,18 +217,18 @@ Cx:Cy <=> _ (%^WG:) # ;
           Cy in ( p  t 	k )
           matched ; ! JW: removed pair h2:j (not sure what it refers to)
 
-!!€ gu^Ossmag2^WG
-!!€ guos0mak0
-!!€ iejgád2
-!!€ iejgát
-!!€ gu^Ossmag2a>v
-!!€ guassmaga0v
-!!€ iejgád2^VHBARi>jd
-!!€ iejgád0i0jd
-!!€ mu^Ohttag^WG^CDEL
-!!€ muoht0a000
-!!€ mu^Ohttaga>v
-!!€ muahttaga0v
+! !!€ gu^Ossmag2^WG
+! !!€ guos0mak0
+! !!€ iejgád2
+! !!€ iejgát
+! !!€ gu^Ossmag2a>v
+! !!€ guassmaga0v
+! !!€ iejgád2^VHBARi>jd
+! !!€ iejgád0i0jd
+! !!€ mu^Ohttag^WG^CDEL
+! !!€ muoht0a000
+! !!€ mu^Ohttaga>v
+! !!€ muahttaga0v
 
 "Word Final Simplification in -st" !st->s (eg. elat) variation (descriptive, not normative)
 !! __@RULENAME@__  
@@ -272,7 +287,8 @@ e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme
 !! __@RULENAME@__  
 e:á <=> Vow:+ Cns:+ _ (%^WG:0) %>:+ Cns:+ %^V2E2AA:0 ;
 
-!!€ gu^Olle
+!!€ gu^Olle^WG
+!!€ guol0e0 
 
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  
@@ -359,18 +375,18 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! !!€ ju^Ollge^WG
 ! !!€ juol0ge0
 
-!!€ sábme>j^V2E2AA
-!!€ sábmá0j0
-!!€ sábme^WG^IJ>j
-!!€ sä0mi000j
-!!€ iello^WG^IJ>j
-!!€ iel0o000j
-!!€ ållge^WG
-!!€ ål0ge0
-!!€ lu^Okkta^UAUML
-!!€ luakkta0
-!!€ bievvde^UAUML
-!!€ b0ävvde0
+! !!€ sábme>j^V2E2AA
+! !!€ sábmá0j0
+! !!€ sábme^WG^IJ>j
+! !!€ sä0mi000j
+! !!€ iello^WG^IJ>j
+! !!€ iel0o000j
+! !!€ ållge^WG
+! !!€ ål0ge0
+! !!€ lu^Okkta^UAUML
+! !!€ luakkta0
+! !!€ bievvde^UAUML
+! !!€ b0ävvde0
 
 ! !!€ vadnas^WG
 ! !!€ va0nas0
