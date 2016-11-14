@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was created by Joshua Wilbur as an export of a Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-14+01:00 12:35:43.645+01:00
+! Timestamp: 2016-11-14+01:00 15:01:41.256+01:00
 
 !! !!!Pite Saami nouns
 
@@ -327,7 +327,6 @@ hållgå:hållgå N_EVEN "stick, pole" ; ! no. 855
 hårre:hårre N_EVEN "pile" ; ! no. 857
 hårrte:hårrte N_EVEN "large dog" ; ! no. 4930
 häffne:hieffne N_EVEN "spider" ; ! no. 860
-hägga:hieg'ga N_EVEN "life" ; ! no. 861
 häjbma:hiejbma N_EVEN "home" ; ! no. 2315
 hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
 härra:hierra N_EVEN "pastor" ; ! no. 868
@@ -856,6 +855,7 @@ gådde:gådde N_EVEN_NOCG "wild reindeer" ; ! no. 4027
 gådtjå:gådtjå N_EVEN_NOCG "urine" ; ! no. 774
 gädde:giedde N_EVEN_NOCG "meadow, grassland" ; ! no. 780
 hádde:hádde N_EVEN_NOCG "price" ; ! no. 799
+hägga:hiegga N_EVEN_NOCG "life" ; ! no. 861
 jägge:jiegge N_EVEN_NOCG "marsh, bog" ; ! no. 965
 ládde:ládde N_EVEN_NOCG "man (not Saami)" ; ! no. 993
 libba:libba N_EVEN_NOCG "lamb" ; ! no. 2757
