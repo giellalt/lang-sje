@@ -28,3 +28,21 @@ Tests:
     vanas+N+Pl+Com: vadnasij
     vanas+N+Ess: vadnasin
     vanas+N+Abe: vadnasahtá
+
+
+    vanas+N+Der/Dim+N+Sg+Nom: vadnasatj
+    vanas+N+Der/Dim+N+Sg+Gen: vadnasatja
+    vanas+N+Der/Dim+N+Sg+Acc: vadnasatjav
+    vanas+N+Der/Dim+N+Sg+Ill: vadnasatjij
+    vanas+N+Der/Dim+N+Sg+Ine: vadnasatjin
+    vanas+N+Der/Dim+N+Sg+Ela: vadnasatjist
+    vanas+N+Der/Dim+N+Sg+Com: vadnasatjijn
+    vanas+N+Der/Dim+N+Pl+Nom: vadnasatja
+    vanas+N+Der/Dim+N+Pl+Gen: vadnasatjij
+    vanas+N+Der/Dim+N+Pl+Acc: vadnasatjijd
+    vanas+N+Der/Dim+N+Pl+Ill: vadnasatjijda
+    vanas+N+Der/Dim+N+Pl+Ine: vadnasatjijn
+    vanas+N+Der/Dim+N+Pl+Ela: vadnasatjijst
+    vanas+N+Der/Dim+N+Pl+Com: vadnasatjij
+    vanas+N+Der/Dim+N+Ess: vadnasatjin
+ 
