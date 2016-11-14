@@ -126,18 +126,22 @@ LEXICON EVENCASE_4 !mentioned in Adj-Affixes!
 LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
 +N+Sg+Nom: K ;
 +N: N_ODD_X ;
++N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
 +N+Sg+Nom:^WG K ;
 +N: N_ODD_X ;
++N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
 +N+Sg+Nom:^WG^CDEL K ;
 +N: N_ODD_X ;
++N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->sarrvá-
 +N+Sg+Nom:^WG K ;
 +N:^V2O2U N_ODD_X ;
++N:^V2O2U N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Acc:a%>v K ;
@@ -158,6 +162,8 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Pl+Ela:^VHBARi%>jst K ;
 +Pl+Com:^VHBARi%>j K ;
 
+LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
++Der/Dim:a%>tj N_ODD ;
 
 
 
