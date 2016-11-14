@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - hägga: # -a-stammar with g'g
+    hägga+N+Sg+Nom: hägga
+    hägga+N+Sg+Gen: hiegga
+    hägga+N+Sg+Acc: hieggav
+    hägga+N+Sg+Ill: häggaj
+    hägga+N+Sg+Ine: hieggan
+    hägga+N+Sg+Ela: hieggast
+    hägga+N+Sg+Com: [hieggajn, hieggajna]
+    hägga+N+Pl+Nom: hiegga
+    hägga+N+Pl+Gen: hieggaj
+    hägga+N+Pl+Acc: hieggajd
+    hägga+N+Pl+Ill: hieggajda
+    hägga+N+Pl+Ine: hieggajn
+    hägga+N+Pl+Ela: hieggajst
+    hägga+N+Pl+Com: hieggaj
+    hägga+N+Ess: häggan
+    hägga+N+Abe: hieggadak
+
