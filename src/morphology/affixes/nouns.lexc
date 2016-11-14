@@ -76,7 +76,7 @@ LEXICON N_EVEN_ESS
 
 LEXICON N_EVEN_WK
 +Der/Dim:%>tj^V2E2AA N_ODD ;
-+Sg+Gen:  K ;
++Sg+Gen:%>0  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela+Err/Orth:%>s K ;

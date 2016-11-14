@@ -216,6 +216,10 @@ Cx:Cy <=> _ (%^WG:) # ;
           Cy in ( p  t 	k )
           matched ; 
 
+! !!€ gål'leg2
+! !!€ gål0lek
+! !!€ gål'leg2a
+! !!€ gål0lega
 ! !!€ gu^Ossmag2^WG
 ! !!€ guos0mak0
 ! !!€ iejgád2
@@ -236,7 +240,7 @@ t2:0 <=> s _ .#. ;
 ! !!€ burist2
 ! !!€ buris0
 
-"Fricative Auslautverhärtung" !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
+"Word-final De-Affricatization for tj " !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
 !! __@RULENAME@__  
 s:t <=> _ j2: .#. ;
 
@@ -272,19 +276,43 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
 i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
-		Cns:* _ e: [G3 | Cns:+ Vow:+ %^G3: ] ; !biebbmo->b0äbbmo, biegga->b0ägga (step1)
+		Cns:* _ e: G3  ; !biebbmo->b0äbbmo
+		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 
 "Ä in G3" ! ie:0ä (bägga, bävvde); can be word-initial
 !! __@RULENAME@__  
-e:ä <=>  Cns:* i:0 _ G3 ;
-         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga (step2)
+e:ä <=>  Cns:* i:0 _ G3 ; !biebbmo->b0äbbmo
+         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 
+
+! nom.sg
+!!€ hieg'ga^UAUML
+!!€ h0äg0ga0
+! nom.pl/gen.sg
+!!€ hieg'ga^WG
+!!€ hieg0ga0
+! ill.sg
+!!€ hieg'ga>j^V2E2AA
+!!€ h0äg0ga0j0
+
+!!€ biebbmo^UAUML
+!!€ b0äbbmo0
+!!€ biebbmo^WG
+!!€ bieb0mo0
+
+!!€ bievvde^WG
+!!€ biev0de0
 !!€ bievvde^UAUML
 !!€ b0ävvde0
 !!€ biegga^G3^UAUML
 !!€ b0ägga00
 !!€ biegga^WG
 !!€ biegga0
+
+! !!€ rággas
+! !!€ rággas
+! !!€ rággasa>v 
+! !!€ rággasa0v 
 
 
 "V2 E to I before j-suffixes" ! guolle -> gulij
