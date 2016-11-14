@@ -147,7 +147,7 @@ bårrkå:båttkå N_EVEN "break, rest" ; ! no. 90575
 båsske:båsske N_EVEN "heel" ; ! no. 259
 båsskå:båsskå N_EVEN "garden angelica" ; ! no. 260
 båttkå:båttkå N_EVEN "break, rest" ; ! no. 265
-bägga:biegga N_EVEN "wind" ; ! no. 2302
+bägga:biegga N_EVEN_NOCG "wind" ; ! no. 2302
 bähkke:biehkke N_EVEN "piece, part" ; ! no. 269
 bäjjve:biejjve N_EVEN "day, sun" ; ! no. 271
 bällge:biellge N_EVEN "thumb" ; ! no. 273
@@ -831,7 +831,7 @@ vassje:vassje N_EVEN "hate, disgust" ; ! no. 5915
 vavvle:vavvle N_EVEN "deep trench in a lake or creek" ; ! no. 2101
 vádas:vádas N_EVEN "homespun cloth" ; ! no. 90410
 vádne:vádne N_EVEN "lack, shortage" ; ! no. 6022
-vágge:vágge N_EVEN "valley" ; ! no. 2329
+vágge:vágge N_EVEN_NOCG "valley" ; ! no. 2329
 váhkká:váhkká N_EVEN "calf muscle, meat from calf muscle" ; ! no. 2851
 váhkke:váhkke N_EVEN "youngest brother" ; ! no. 2053
 válle:válle N_EVEN "low mountain" ; ! no. 1897

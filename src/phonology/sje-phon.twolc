@@ -29,6 +29,7 @@ Alphabet
   ':0
 
   %^WG:0     !!≈ ; @CODE@ : weak grade
+  %^G3:0     !!≈ ; @CODE@ : marks grade three for stems w/o Cgrad
   %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM)
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
@@ -57,10 +58,9 @@ Sets
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            %^O ;
   NoVH   = a                 ï             o                   y   æ ä ø ö å á é í ó ú ;
-  Dummy  =  %^WG %^V2E2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
+  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
-
 
  G3 = [ b b n j |
         b b t [j|s] |
@@ -166,15 +166,14 @@ Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
 Cx:0 <=> Vow:+ Cx _ t (j:*|s:*) Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( b f j k l n p r s v ) ;
 
-
-!!€ ájjte^WG
-!!€ áj0te0
-!!€ gájjtsa^WG
-!!€ gáj0tsa0
-!!€ gu^Olle^WG
-!!€ guol0e0
-!!€ gu^Olle^WG^IJ>jd
-!!€ gu0l0i000jd
+! !!€ ájjte^WG
+! !!€ áj0te0
+! !!€ gájjtsa^WG
+! !!€ gáj0tsa0
+! !!€ gu^Olle^WG
+! !!€ guol0e0
+! !!€ gu^Olle^WG^IJ>jd
+! !!€ gu0l0i000jd
 
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
@@ -207,7 +206,7 @@ Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; ! <=> Vow _ Cy (Vow:+)
 
 "Final C Deletion"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
+Cx:0 <=> Vow: _ %^WG: %^CDEL: ;
 	where Cx in ( b d g s h ) ; 
 
 "Final devoicing"
@@ -215,7 +214,7 @@ Cx:0 <=> Vow: _ %^WG:  %^CDEL: ;
 Cx:Cy <=> _ (%^WG:) # ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t 	k )
-          matched ; ! JW: removed pair h2:j (not sure what it refers to)
+          matched ; 
 
 ! !!€ gu^Ossmag2^WG
 ! !!€ guos0mak0
@@ -273,19 +272,28 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
 i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
-		Cns:* _ e: G3 ; !biegga->b0ägga
+		Cns:* _ e: [G3 | Cns:+ Vow:+ %^G3: ] ; !biebbmo->b0äbbmo, biegga->b0ägga (step1)
 
-"Ä in G3" ! ie:0ä (bägge, bävvde); can be word-initial
+"Ä in G3" ! ie:0ä (bägga, bävvde); can be word-initial
 !! __@RULENAME@__  
-e:ä <=>  Cns:* i:0 _ G3 %^UAUML:* ;
+e:ä <=>  Cns:* i:0 _ G3 ;
+         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga (step2)
+
+!!€ bievvde^UAUML
+!!€ b0ävvde0
+!!€ biegga^G3^UAUML
+!!€ b0ägga00
+!!€ biegga^WG
+!!€ biegga0
+
 
 "V2 E to I before j-suffixes" ! guolle -> gulij
 !! __@RULENAME@__  
 e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
 
-"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj
+"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj, vágge->vággáj
 !! __@RULENAME@__  
-e:á <=> Vow:+ Cns:+ _ (%^WG:0) %>:+ Cns:+ %^V2E2AA:0 ;
+e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ Cns:+ %^V2E2AA:0 ;
 
 !!€ gu^Olle^WG
 !!€ guol0e0 

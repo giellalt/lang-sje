@@ -81,6 +81,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +CLB +PUNCT +PAR +LEFT +RIGHT
 
 ^WG    !!= @CODE@ * weak grade
+^G3     !!= @CODE@ * marks grade three for stems w/o Cgrad
 ^V2E2AA !!= @CODE@ * e to á (before j), o to u before j
 ^CDEL   !!= @CODE@ * Deleting final consonant, biednag
 ^MON    !!= @CODE@ * Monophthong in contract
