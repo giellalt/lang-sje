@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - gillar: # -udda med stv men utan vokalv
+    gillar+N+Sg+Nom: gillar
+    gillar+N+Sg+Gen: gillara
+    gillar+N+Sg+Acc: gillarav
+    gillar+N+Sg+Ill: gillarij
+    gillar+N+Sg+Ine: gillarin
+    gillar+N+Sg+Ela: gillarist
+    gillar+N+Sg+Com: gillarijn
+    gillar+N+Pl+Nom: gillara
+    gillar+N+Pl+Gen: gillarij
+    gillar+N+Pl+Acc: gillarijd
+    gillar+N+Pl+Ill: gillarijda
+    gillar+N+Pl+Ine: gillarijn
+    gillar+N+Pl+Ela: gillarijst
+    gillar+N+Pl+Com: gillarij
+    gillar+N+Ess: gillarin
+    gillar+N+Abe: gillarahtá
