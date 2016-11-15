@@ -3,8 +3,8 @@
 
 
  ; %^WG:0 : weak grade
- ; %^jDEL:0 : vowel deletion in front of j
- ; %^ILLE2AA:0 : e to á before j
+ ; %^G3:0 : marks grade three for stems w/o Cgrad
+ ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM)
  ; %^CDEL:0 : delete final consonant odd (biednag)
  ; %^MON:0 : Monophthong in contract stems
  ; %^UAUML:0 : uo to uä juolge / juällge
@@ -21,7 +21,6 @@
 
 
 
-
 !!!Rules
 
 
@@ -30,76 +29,49 @@
 
 __Consonant Gradation for htt(j|s):ht(j|s)__  
 
-
 __Consonant Gradation for hxx:hx__  
-
 
 __Consonant Gradation for xdn(j):xn(j)__  
 
-
-
 __Consonant Gradation for xx:x__  
-
-
 
 __Consonant Gradation for xxy:xy__  
 
+__Consonant Gradation for xxt(j|s):xt(j|s) __  
 
 
 __Consonant Gradation for xy:y__  
 
-
-
-!!Consonant Gradation for hx:x
-
 __Delete h in hx:y __  
-
-
-
-
 
 __Intervocalic voiced plosives in hx:y __  
 
-
-
-
 __Consonant Gradation for xN:N __  
-
-
-
-
-
 
 !!Other consonant rules 
 
 __Final C Deletion__  
 
-
-
 __Final devoicing__  
-
 
 
 __Word Final Simplification in -st __  
 
 
-
-__Fricative Auslautverhärtung __  
+__Word-final De-Affricatization for tj  __  
 
 
 
 
 !!Vowel rules 
 
-! raising second syllable's vowel
-
-__E to I in V2 before j-suffixes __  
-
 ! metaphony
 
 __Default VH __  
 
+__Default UA in G3 __  
 
+__Special UÄ (VH) in G3 __  
 
 __Special VH for u^O __  
 
@@ -108,29 +80,47 @@ __Special VH for ie __
 __Ä in G3 __  
 
 
-__Default UA in G3 __  
+* __hieg'ga^UAUML __
+* __h0äg0ga0 __
 
-__Special UÄ (VH) in G3 __  
+* __hieg'ga^WG __
+* __hieg0ga0 __
+
+* __hieg'ga>j^V2E2AA __
+* __h0äg0ga0j0 __
+
+* __biebbmo^UAUML __
+* __b0äbbmo0 __
+* __biebbmo^WG __
+* __bieb0mo0 __
+
+* __bievvde^WG __
+* __biev0de0 __
+* __bievvde^UAUML __
+* __b0ävvde0 __
+* __biegga^G3^UAUML __
+* __b0ägga00 __
+* __biegga^WG __
+* __biegga0 __
+
+
+
+__V2 E to I before j-suffixes __  
 
 __V2 E to Á __  
+
+* __gu^Olle^WG __
+* __guol0e0 __
 
 __V2 O to U __  
 
 
 
 
-* __sábme>j^ILLE2AA __
-* __sábmá0j0 __
-* __sábme^WG^IJ>j __
-* __sä0mi000j __
-* __iello^WG^IJ>j __
-* __iel0o000j __
-* __ållge^WG __
-* __ål0ge0 __
-* __lu^Okkta^UAUML __
-* __luakkta0 __
-* __bievvde^UAUML __
-* __b0ävvde0 __
+
+
+
+
 
 
 * __a __
