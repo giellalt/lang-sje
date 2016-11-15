@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - bierdnes: # -udda med stv men utan vokalv
+  Noun - bierdnes: # N_CONTR_ESA (no CGrad, but with umlaut)
     bierdnes+N+Sg+Nom: bierdnes
     bierdnes+N+Sg+Gen: bärdná
     bierdnes+N+Sg+Acc: bärdnáv
@@ -26,5 +24,6 @@ Tests:
     bierdnes+N+Pl+Ine: bärdnájn
     bierdnes+N+Pl+Ela: bärdnájst
     bierdnes+N+Pl+Com: bärdnáj
-    bierdnes+N+Ess: bärdnán
+#    bierdnes+N+Ess: bärdnán
+#    bierdnes+N+Ess: bierdnán	#not sure what grade (here: umlaut) should be in ESS
 

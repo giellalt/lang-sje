@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - gållek: # -udda med stv, omljud (add uä variant!)
+  Noun - gållek: # N_ODD_WG
     gållek+N+Sg+Nom: gållek
     gållek+N+Sg+Gen: gållega
     gållek+N+Sg+Acc: gållegav

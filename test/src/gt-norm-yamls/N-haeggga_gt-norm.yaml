@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - hägga: # -a-stammar with g'g
+  Noun - hägga: # N_EVEN_NOCG (no CGrad, but umlaut)
     hägga+N+Sg+Nom: hägga
     hägga+N+Sg+Gen: hiegga
     hägga+N+Sg+Acc: hieggav

@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - bärdna: # -udda med stv men utan vokalv
+  Noun - bärdna: # N_EVEN_NOCG (no CGrad, but umlaut)
     bärdna+N+Sg+Nom: bärdna
     bärdna+N+Sg+Gen: bierdna
     bärdna+N+Sg+Acc: bierdnav

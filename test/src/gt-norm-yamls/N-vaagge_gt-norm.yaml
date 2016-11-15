@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - vágge: # -a-stammar
+  Noun - vágge: # N_EVEN_NOCG (no CG or umlaut, but VH)
     vágge+N+Sg+Nom: vágge
     vágge+N+Sg+Gen: vágge
     vágge+N+Sg+Acc: vággev

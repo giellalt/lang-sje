@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - båtsoj: # -kontrakta med vokf
+  Noun - båtsoj: # N_CONTR_OJU (CGrade, vowel harmony)
     båtsoj+N+Sg+Nom: båtsoj
     båtsoj+N+Sg+Gen: buhtsu
     båtsoj+N+Sg+Acc: buhtsuv

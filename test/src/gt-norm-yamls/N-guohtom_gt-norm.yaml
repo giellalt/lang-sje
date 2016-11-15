@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - guohtom: # -udda med stv, omljud och vokalslut (add uä variant!)
+  Noun - guohtom: # N_ODD
     guohtom+N+Sg+Nom: guohtom
     guohtom+N+Sg+Gen: guohtoma
     guohtom+N+Sg+Acc: guohtomav

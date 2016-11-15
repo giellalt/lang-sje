@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - almatj: # -udda utan stv och vokalv
+  Noun - almatj: # N_ODD (no grade alternations)
     almatj+N+Sg+Nom: almatj
     almatj+N+Sg+Gen: almatja
     almatj+N+Sg+Acc: almatjav

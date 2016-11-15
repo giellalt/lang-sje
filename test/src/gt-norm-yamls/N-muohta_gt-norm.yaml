@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - muohta: # -udda med stv, omljud och vokalslut (add uä variant!)
+  Noun - muohta: # N_ODD_OPEN
     muohta+N+Sg+Nom: muohta
     muohta+N+Sg+Gen: muahttaga
     muohta+N+Sg+Acc: muahttagav

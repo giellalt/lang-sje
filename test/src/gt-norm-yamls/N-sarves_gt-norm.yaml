@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - sarves: # -kontrakta utan stv
+  Noun - sarves: # N_CONTR_ESA
     sarves+N+Sg+Nom: sarves
 #    sarves+N+Sg+Nom: [sarves, sarrvá]
     sarves+N+Sg+Gen: sarrvá

@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - gájjtsa: # -a-stammar
+  Noun - gájjtsa: # N_EVEN (with final a in nom.sg)
     gájjtsa+N+Sg+Nom: gájjtsa
     gájjtsa+N+Sg+Gen: gájtsa
     gájjtsa+N+Sg+Acc: gájtsav

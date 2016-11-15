@@ -9,8 +9,7 @@ Config:
 
 Tests:
 
-
-  Noun - iello: # -o-stammar
+  Noun - iello: # N_ODD_WG (with descriptive variant triggering VH)
     iello+N+Sg+Nom: iello
     iello+N+Sg+Gen: ielo
     iello+N+Sg+Acc: ielov

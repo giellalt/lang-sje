@@ -9,8 +9,7 @@ Config:
 
 Tests:
 
-
-  Noun - ålol: # -udda med stv och vokalv
+  Noun - ålol: # N_ODD_VH (with vowel harmony)
     ålol+N+Sg+Nom: ålol
     ålol+N+Sg+Gen: ullula
     ålol+N+Sg+Acc: ullulav

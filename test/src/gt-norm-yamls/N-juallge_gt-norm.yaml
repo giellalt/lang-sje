@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - juällge: # -e-stammar
+  Noun - juällge: # N_EVEN (CGrad, umlaut, VH)
     juällge+N+Sg+Nom: juällge
     juällge+N+Sg+Gen: juolge
     juällge+N+Sg+Acc: juolgev
