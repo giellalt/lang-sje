@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - bägga: # -a-stammar
+  Noun - bägga: # N_EVEN_NOCG (no grade alternations)
     bägga+N+Sg+Nom: bägga
     bägga+N+Sg+Gen: biegga
     bägga+N+Sg+Acc: bieggav

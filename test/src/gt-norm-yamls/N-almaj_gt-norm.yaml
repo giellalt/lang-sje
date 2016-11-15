@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - ålmaj: # -kontrakta med stv och utan vokf
+  Noun - ålmaj: # N_CONTR_AJA (no grade alternations in normative version)
     ålmaj+N+Sg+Nom: ålmaj
     ålmaj+N+Sg+Gen: ålma
     ålmaj+N+Sg+Acc: ålmav

@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - vielmes: # -kontrakta utan stv
+  Noun - vielmes: # N_CONTR_ESA
     vielmes+N+Sg+Nom: vielmes
     vielmes+N+Sg+Gen: välbmá
     vielmes+N+Sg+Acc: välbmáv

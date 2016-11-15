@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - bunnde: # -e-stammar (i-stammar finns inte)
+  Noun - bunnde: # N_EVEN (with final -e in nom.sg)
     bunnde+N+Sg+Nom: bunnde
     bunnde+N+Sg+Gen: bunde
     bunnde+N+Sg+Acc: bundev

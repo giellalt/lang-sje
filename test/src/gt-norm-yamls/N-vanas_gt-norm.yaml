@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - vanas: # -udda med stv men utan vokalv
+  Noun - vanas: # N_ODD_WG (with CGrad)
     vanas+N+Sg+Nom: vanas
     vanas+N+Sg+Gen: vadnasa
     vanas+N+Sg+Acc: vadnasav

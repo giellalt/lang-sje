@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - suolo: # -kontrakta utan stv
+  Noun - suolo: # N_CONTR_OU
     suolo+N+Sg+Nom: suolo
 #    suolo+N+Sg+Nom: [suolo, suoloj]
     suolo+N+Sg+Gen: sullu
@@ -29,7 +29,7 @@ Tests:
     suolo+N+Abe: sulludak
 
 
-#  Noun - suoloj: # -kontrakta utan stv
+#  Noun - suoloj: # N_CONTR_OJU
 #    suoloj+N+Sg+Nom: suoloj
 ##    suoloj+N+Sg+Nom: [suoloj, sullu]
 #    suoloj+N+Sg+Gen: sullu

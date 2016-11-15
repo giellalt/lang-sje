@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - ája: # -udda med stv, omljud och vokalslut (add uä variant!)
+  Noun - ája: # N_ODD_OPEN (with CG)
     ája+N+Sg+Nom: ája
     ája+N+Sg+Gen: ádjaga
     ája+N+Sg+Acc: ádjagav

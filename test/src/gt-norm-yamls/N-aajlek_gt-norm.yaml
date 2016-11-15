@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - ájlek: # -udda utan alternationer
+  Noun - ájlek: # N_ODD (no alternations except final 'devoicing')
     ájlek+N+Sg+Nom: ájlek
     ájlek+N+Sg+Gen: ájlega
     ájlek+N+Sg+Acc: ájlegav

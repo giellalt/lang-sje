@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - guolle: # -even with CG and jVH
+  Noun - guolle: # N_EVEN (CG and VH)
     guolle+N+Sg+Nom: guolle
     guolle+N+Sg+Gen: guole
     guolle+N+Sg+Acc: guolev

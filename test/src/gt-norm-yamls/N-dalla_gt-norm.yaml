@@ -8,7 +8,8 @@ Config:
     App: lookup
 
 Tests:
-  Noun - dållå: # -å-stammar
+
+  Noun - dållå: # N_EVEN (with final å in nom.sg)
     dållå+N+Sg+Nom: dållå
     dållå+N+Sg+Gen: dålå
     dållå+N+Sg+Acc: dålåv

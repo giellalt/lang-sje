@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - muorra: # -a-stammar
+  Noun - muorra: # N_EVEN
     muorra+N+Sg+Nom: muorra
     muorra+N+Sg+Gen: muora
     muorra+N+Sg+Acc: muorav

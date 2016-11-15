@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - várre: # -even with CG and final-V
+  Noun - várre: # N_EVEN
     várre+N+Sg+Nom: várre
     várre+N+Sg+Gen: váre
     várre+N+Sg+Acc: várev

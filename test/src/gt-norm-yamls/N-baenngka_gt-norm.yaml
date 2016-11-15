@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - bäŋŋka: # -a-stammar
+  Noun - bäŋŋka: # N_EVEN (CGrade and umlaut)
     bäŋŋka+N+Sg+Nom: bäŋŋka
     bäŋŋka+N+Sg+Gen: bieŋka
     bäŋŋka+N+Sg+Acc: bieŋkav

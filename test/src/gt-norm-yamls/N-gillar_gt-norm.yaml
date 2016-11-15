@@ -9,9 +9,7 @@ Config:
 
 Tests:
 
-
-
-  Noun - gillar: # -udda med stv men utan vokalv
+  Noun - gillar: # N_ODD_WG
     gillar+N+Sg+Nom: gillar
     gillar+N+Sg+Gen: gillara
     gillar+N+Sg+Acc: gillarav

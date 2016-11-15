@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - guosmak: # -udda med stv, omljud (add uä variant!)
+  Noun - guosmak: # N_ODD_WG (CGrad and umlaut)
     guosmak+N+Sg+Nom: guosmak
     guosmak+N+Sg+Gen: guassmaga
     guosmak+N+Sg+Acc: guassmagav

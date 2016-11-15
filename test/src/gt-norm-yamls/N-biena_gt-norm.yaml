@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - biena: # -udda med stv och vokalslut
+  Noun - biena: # N_ODD_OPEN (nom.sg. with open final syllable)
     biena+N+Sg+Nom: biena
     biena+N+Sg+Gen: biednaga
     biena+N+Sg+Acc: biednagav

@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - iejgát: # -udda med stv, omljud och vokalslut (add uä variant!)
+  Noun - iejgát: # N_ODD
     iejgát+N+Sg+Nom: iejgát
     iejgát+N+Sg+Gen: iejgáda
     iejgát+N+Sg+Acc: iejgádav
