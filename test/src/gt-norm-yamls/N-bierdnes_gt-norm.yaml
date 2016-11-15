@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - bierdnes: # -udda med stv men utan vokalv
+    bierdnes+N+Sg+Nom: bierdnes
+    bierdnes+N+Sg+Gen: bärdna
+    bierdnes+N+Sg+Acc: bärdnav
+    bierdnes+N+Sg+Ill: bärdnaj
+    bierdnes+N+Sg+Ine: bärdnan
+    bierdnes+N+Sg+Ela: bärdnast
+    bierdnes+N+Sg+Com: bärdnajn
+    bierdnes+N+Pl+Nom: bärdna
+    bierdnes+N+Pl+Gen: bärdnaj
+    bierdnes+N+Pl+Acc: bärdnajd
+    bierdnes+N+Pl+Ill: bärdnajda
+    bierdnes+N+Pl+Ine: bärdnajn
+    bierdnes+N+Pl+Ela: bärdnajst
+    bierdnes+N+Pl+Com: bärdnaj
+    bierdnes+N+Ess: bärdnan
+
