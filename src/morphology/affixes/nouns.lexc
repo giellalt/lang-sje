@@ -166,6 +166,26 @@ LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 +Der/Dim:a%>tj N_ODD ;
 
 
+! LEXICON N_ODD_ESAS !bierdnes<->bärdnas-
+! +N+Sg+Nom:e^WGs K ;
+! +N+Sg+Acc:as%>av K ;
+! +N+Sg+Gen:as%>a K ;
+! +N+Sg+Ill:as%>ij K ;
+! +N+Sg+Ine:as%>in K ;
+! +N+Sg+Ela+Err/Orth:as%>is K ;
+! +N+Sg+Ela:as%>ist K ;
+! +N+Sg+Com:as%>ijn K ;
+! +N+Ess:as%>an K ; 
+! !+N+Abe:as%>adak K ; ! XXX
+! +N+Pl+Nom:as%>a K ;
+! +N+Pl+Acc:as%>ijd K ;
+! +N+Pl+Gen:as%>ij K ;
+! +N+Pl+Ill:as%>ijda K ;
+! +N+Pl+Ine:as%>ijn K ;
+! +N+Pl+Ela+Err/Orth:as%>ijs K ;
+! +N+Pl+Ela:as%>ijst K ;
+! +N+Pl+Com:as%>ij K ;
+
 
 
 ! contracted

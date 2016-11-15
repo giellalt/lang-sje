@@ -78,9 +78,6 @@ Definitions
         n n s [k|t] |
         n n t [j|s] |
         p p t [j|s] |
-        r d n j |
-        r r b m |
-        r r d n |
         r r s j |
         r r t [j|s] |
         s s j k |
@@ -122,11 +119,19 @@ Definitions
         p p [s|t] |
         r r [b|d|f|g|j|k|s|t|v] |
         r b m |
-        r d n |
         s s [k|m|n|p|t] |
         t t k |
         v v [d|g|k|l|r|s] |
         v d n ] ;
+
+ noCG = [ 
+        r b m |
+        r d n |
+        r d n |
+        r d n j |
+        r g ŋ |
+        l g ŋ ] ;
+
 
 !! !!!Rules
 
@@ -263,11 +268,12 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
-%^O:a <=>  Cns:* u _ G3 [:a|:o|:y|:ä|:å|:á]; 
+%^O:a <=> Cns:* u _ G3 [:a|:o|:y|:ä|:å|:á]; 
+          Cns:* u _ noCG [:a|:o|:y|:ä|:å|:á] %^UAUML: ;
 
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
-%^O:ä <=>  Cns:* u _ G3 :e ; 
+%^O:ä <=> Cns:* u _ G3 :e ; 
 
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
@@ -278,6 +284,7 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
 		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
+		Cns:* _ e: noCG Vow:+ %^G3: ; !biegga->b0ägga
 
 "Ä in G3" ! ie:0ä (bägga, bävvde); can be word-initial
 !! __@RULENAME@__  
@@ -285,31 +292,32 @@ e:ä <=>  Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
          Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 
 
-! nom.sg
-!!€ hieg'ga^UAUML
-!!€ h0äg0ga0
-! nom.pl/gen.sg
+!!€ ku^Ordna^UAUML
+!!€ kuardna0
+!!€ ku^Ordna^WG
+!!€ kuordna0
 
-!!€ hieg'ga^WG
-!!€ hieg0ga0
 
-! ill.sg
-!!€ hieg'ga>j^V2E2AA
-!!€ h0äg0ga0j0
-
-!!€ biebbmo^UAUML
-!!€ b0äbbmo0
-!!€ biebbmo^WG
-!!€ bieb0mo0
-
-!!€ bievvde^WG
-!!€ biev0de0
-!!€ bievvde^UAUML
-!!€ b0ävvde0
-!!€ biegga^G3^UAUML
-!!€ b0ägga00
-!!€ biegga^WG
-!!€ biegga0
+! !!€ hieg'ga^UAUML
+! !!€ h0äg0ga0
+! !!€ hieg'ga^WG
+! !!€ hieg0ga0
+! !!€ hieg'ga>j^V2E2AA
+! !!€ h0äg0ga0j0
+! 
+! !!€ biebbmo^UAUML
+! !!€ b0äbbmo0
+! !!€ biebbmo^WG
+! !!€ bieb0mo0
+! 
+! !!€ bievvde^WG
+! !!€ biev0de0
+! !!€ bievvde^UAUML
+! !!€ b0ävvde0
+! !!€ biegga^G3^UAUML
+! !!€ b0ägga00
+! !!€ biegga^WG
+! !!€ biegga0
 
 ! !!€ rággas
 ! !!€ rággas
@@ -342,9 +350,6 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! ! acc.sg
 ! !!€ vielbmáv
 ! !!€ v0älbmáv
-! ! acc.sg !why doesn't this fail?!? "Special VH for ie" and "Ä in G3" are both fulfilled!
-! !!€ vielbmáv
-! !!€ vielbmáv
 !
 ! !nom.sg
 ! !!€ almatj
