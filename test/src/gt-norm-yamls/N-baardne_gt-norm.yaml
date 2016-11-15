@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - bárdne: # -udda med stv men utan vokalv
+    bárdne+N+Sg+Nom: bárdne
+    bárdne+N+Sg+Gen: bárdne
+    bárdne+N+Sg+Acc: bárdnev
+    bárdne+N+Sg+Ill: bárdnáj
+    bárdne+N+Sg+Ine: bárdnen
+    bárdne+N+Sg+Ela: bárdnest
+    bárdne+N+Sg+Com: [bärdnijn, bärdnijna]
+    bárdne+N+Pl+Nom: bárdne
+    bárdne+N+Pl+Gen: bärdnij
+    bárdne+N+Pl+Acc: bärdnijd
+    bárdne+N+Pl+Ill: bärdnijda
+    bárdne+N+Pl+Ine: bärdnijn
+    bárdne+N+Pl+Ela: bärdnijst
+    bárdne+N+Pl+Com: bärdnij
+    bárdne+N+Ess: bárdnen
+
