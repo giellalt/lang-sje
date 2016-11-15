@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+  Noun - bärdna: # -udda med stv men utan vokalv
+    bärdna+N+Sg+Nom: bärdna
+    bärdna+N+Sg+Gen: bierdna
+    bärdna+N+Sg+Acc: bierdnav
+    bärdna+N+Sg+Ill: bärdnaj
+    bärdna+N+Sg+Ine: bierdnan
+    bärdna+N+Sg+Ela: bierdnast
+    bärdna+N+Sg+Com: [bierdnajn, bierdnajna]
+    bärdna+N+Pl+Nom: bierdna
+    bärdna+N+Pl+Gen: bierdnaj
+    bärdna+N+Pl+Acc: bierdnajd
+    bärdna+N+Pl+Ill: bierdnajda
+    bärdna+N+Pl+Ine: bierdnajn
+    bärdna+N+Pl+Ela: bierdnajst
+    bärdna+N+Pl+Com: bierdnaj
+    bärdna+N+Ess: bärdnan
+

@@ -13,18 +13,18 @@ Tests:
 
   Noun - bierdnes: # -udda med stv men utan vokalv
     bierdnes+N+Sg+Nom: bierdnes
-    bierdnes+N+Sg+Gen: bärdna
-    bierdnes+N+Sg+Acc: bärdnav
-    bierdnes+N+Sg+Ill: bärdnaj
-    bierdnes+N+Sg+Ine: bärdnan
-    bierdnes+N+Sg+Ela: bärdnast
-    bierdnes+N+Sg+Com: bärdnajn
-    bierdnes+N+Pl+Nom: bärdna
-    bierdnes+N+Pl+Gen: bärdnaj
-    bierdnes+N+Pl+Acc: bärdnajd
-    bierdnes+N+Pl+Ill: bärdnajda
-    bierdnes+N+Pl+Ine: bärdnajn
-    bierdnes+N+Pl+Ela: bärdnajst
-    bierdnes+N+Pl+Com: bärdnaj
-    bierdnes+N+Ess: bärdnan
+    bierdnes+N+Sg+Gen: bärdná
+    bierdnes+N+Sg+Acc: bärdnáv
+    bierdnes+N+Sg+Ill: bärdnáj
+    bierdnes+N+Sg+Ine: bärdnán
+    bierdnes+N+Sg+Ela: bärdnást
+    bierdnes+N+Sg+Com: bärdnájn
+    bierdnes+N+Pl+Nom: bärdná
+    bierdnes+N+Pl+Gen: bärdnáj
+    bierdnes+N+Pl+Acc: bärdnájd
+    bierdnes+N+Pl+Ill: bärdnájda
+    bierdnes+N+Pl+Ine: bärdnájn
+    bierdnes+N+Pl+Ela: bärdnájst
+    bierdnes+N+Pl+Com: bärdnáj
+    bierdnes+N+Ess: bärdnán
 
