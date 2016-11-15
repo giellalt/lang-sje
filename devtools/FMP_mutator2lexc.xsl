@@ -181,31 +181,18 @@
 
 LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
 
-!! !!Mini-grammar
+!! !!Lexc inflectional classes (Mini-grammar)
 </xsl:text>
 
 <!-- list LexC classes for each PoS (Mini-grammar) -->
 <xsl:choose>
   <xsl:when test="$PoS = 'noun'">
 <xsl:text>
-! Even-syllable stem patterns:
+!! * Even-syllable stem patterns: # N_EVEN: all even-syllable stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) # N_EVEN_O: all even-syllable stems ending in -o- (e.g. iello)
 
-!! * juällge: # all stems except -o-stems   N_EVEN
-!! * iello: # -o-stems	                    N_EVEN_O
+!! * Odd-syllable stem patterns:  # N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) # N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) # N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) # N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
 
-! Odd-syllable stem patterns:
-
-!! * almatj: # -odd, closed second syllable, no CGrad               N_ODD
-!! * biena: # -odd, open second syllable, has CGrad                 N_ODD_OPEN
-!! * ålol: # -odd closed second syllable, CGrad, V2 alternation     N_ODD_VH
-!! * vanas: # -odd, closed second syllable, CGrad                   N_ODD_WG
-
-! Contracted stem patterns:
-
-!! * ålmaj: # -contracted stem ending in -aj or -a: N_CONTR_AJA
-!! * sarves: # -contracted stem ending in -es or -á: N_CONTR_ESA
-!! * båtsoj: # -contracted stem ending in -oj or -u: N_CONTR_OJU
-!! * suolo: # -contracted stem ending in -o or -u: N_CONTR_OU
+!! * Contracted stem patterns: # N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) # N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) # N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) # N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
 </xsl:text>
   </xsl:when>
@@ -213,20 +200,22 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 <xsl:text>
 ! Even-syllable stem patterns:
 
-!! * juällge: # all stems except -o-stems   N_EVEN
-!! * iello: # -o-stems	                    N_EVEN_O
+!! * V_EVEN: all even-syllable stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå)
+!! * V_EVEN_O: all even-syllable stems ending in -o- (e.g. iello)
 
 ! Odd-syllable stem patterns:
 
-!! * almatj: # -odd, closed second syllable, no CGrad               N_ODD
-!! * vanas: # -odd, closed second syllable, CGrad                   N_ODD_WG
-!! * ålol: # -odd closed second syllable, CGrad, V2 alternation     N_ODD_VH
-!! * biena: # -odd, open second syllable, has CGrad                 N_ODD_OPEN
+!! * V_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj)
+!! * V_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena)
+!! * V_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol)
+!! * V_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
 
 ! Contracted stem patterns:
-!! * ålmaj: # -contracted stem ending in -aj or -a: N_CONTR_AJA
-!! * båtsoj: # -contracted stem ending in -oj or -u: N_CONTR_OJU
-!! * sarves: # -contracted stem ending in -es or -á: N_CONTR_ESA
+
+!! * V_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj)
+!! * V_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves)
+!! * V_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj)
+!! * V_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
 </xsl:text>
   </xsl:when>
