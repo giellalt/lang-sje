@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was created by Joshua Wilbur as an export of a Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-14+01:00 15:01:41.256+01:00
+! Timestamp: 2016-11-15+01:00 16:39:30.865+01:00
 
 !! !!!Pite Saami nouns
 
@@ -41,9 +41,11 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! * suolo: # -contracted stem ending in -o or -u: N_CONTR_OU
 
 
+jalgŋes:jalgŋ N_CONTR_AJA "upright tree stump" ; ! no. 920
 vuokses:vu^Okks N_CONTR_AJA "cattle" ; ! no. 90308
 ålmaj:ålm N_CONTR_AJA "man, guy" ; ! no. 5222
 bálges:bállg N_CONTR_ESA "trail, path" ; ! no. 129
+bierdnes:bierdn N_CONTR_ESA "mid-plate on skis where shoes are placed" ; ! no. 3718
 giehpes:giehpp N_CONTR_ESA "lung" ; ! no. 608
 plásses:pláss N_CONTR_ESA "stone slab" ; ! no. 1349
 sarves:sarrv N_CONTR_ESA "uncastrated reindeer buck" ; ! no. 1515
@@ -85,7 +87,6 @@ balljá:balljá N_EVEN "tub, basin" ; ! no. 3207
 ballva:ballva N_EVEN "cloud" ; ! no. 138
 barrge:barrge N_EVEN "worker" ; ! no. 4683
 basse:basse N_EVEN "weekend" ; ! no. 150
-basstu:basstu N_EVEN "sauna" ; ! no. 1517
 bádne:bádne N_EVEN "tooth" ; ! no. 97
 báhkka:báhkka N_EVEN "warmth, heat" ; ! no. 107
 bájjke:bájjke N_EVEN "area, place" ; ! no. 122
@@ -93,17 +94,17 @@ bákkte:bákkte N_EVEN "cliff" ; ! no. 123
 bálle:bálle N_EVEN "time, exact point in time" ; ! no. 133
 bállká:bállká N_EVEN "pay, wage" ; ! no. 2739
 báŋŋka:báŋŋka N_EVEN "bank" ; ! no. 3211
+bárdne:bárdne N_EVEN "son, boy" ; ! no. 139
 bárrde:bárrde N_EVEN "bowed part of a boat’s keel" ; ! no. 2804
-bárrdne:bárrdne N_EVEN "son, boy" ; ! no. 139
 biehtse:biehtse N_EVEN "pine tree" ; ! no. 2680
 bielle:bielle N_EVEN "side, half" ; ! no. 3449
-biellka:biellka N_EVEN "construction beam" ; ! no. 3317
 bihttá:bihttá N_EVEN "bit, little piece" ; ! no. 3686
 bijjla:bijjla N_EVEN "car" ; ! no. 180
 billga:billga N_EVEN "braid of shoe hay" ; ! no. 5660
 birre:birre N_EVEN "bear" ; ! no. 2357
 bisste:bisste N_EVEN "spoon" ; ! no. 190
 bivvda:bivvda N_EVEN "shed" ; ! no. 90466
+bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
 blárre:blárre N_EVEN "sheet, leaf (of paper)" ; ! no. 2922
 bluvvsa:bluvvsa N_EVEN "blouse" ; ! no. 1352
 brievva:brievva N_EVEN "letter" ; ! no. 3406
@@ -201,7 +202,7 @@ fruvva:fruvva N_EVEN "wife" ; ! no. 3284
 fuarrsa:fu^Orrsa N_EVEN "rapids" ; ! no. 648
 fuovva:fu^Ovva N_EVEN "crowd, army" ; ! no. 480
 fuällke:fu^Ollke N_EVEN "family" ; ! no. 482
-fårrbmå:fårrbmå N_EVEN "shape" ; ! no. 5535
+fårbmå:fårbmå N_EVEN "shape" ; ! no. 5535
 fädi:fiedi N_EVEN "plate, dish" ; ! no. 463
 fäjjga:fiejjga N_EVEN "warning, omen" ; ! no. 4388
 färrja:fierrja N_EVEN "color" ; ! no. 118
@@ -752,7 +753,7 @@ tjäkksa:tjiekksa N_EVEN "cookie" ; ! no. 5219
 tjällde:tjiellde N_EVEN "Saami village" ; ! no. 1985
 tjällka:tjiellka N_EVEN "sled" ; ! no. 2765
 tjänntá:tjienntá N_EVEN "female servant" ; ! no. 1987
-tjärrdna:tjierrdna N_EVEN "butter churn" ; ! no. 90580
+tjärdna:tjierdna N_EVEN "butter churn" ; ! no. 90580
 tjässka:tjiesska N_EVEN "longitudinal wooden pole for hanging hides" ; ! no. 1988
 tráhppa:tráhppa N_EVEN "stairs" ; ! no. 2900
 truhkke:truhkke N_EVEN "trough" ; ! no. 5304
@@ -812,7 +813,7 @@ vähkke:viehkke N_EVEN "help, assistance" ; ! no. 2218
 väldja:vieldja N_EVEN "brother" ; ! no. 90452
 vällge:viellge N_EVEN "debt" ; ! no. 3560
 vällja:viellja N_EVEN "brother" ; ! no. 2224
-värrbme:vierrbme N_EVEN "net" ; ! no. 2225
+värbme:vierbme N_EVEN "net" ; ! no. 2225
 värrtsa:vierrtsa N_EVEN "ram (sheep)" ; ! no. 2603
 vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åbme:åbme N_EVEN "thing, object" ; ! no. 2232
@@ -921,6 +922,7 @@ assto:assto N_EVEN_O "time" ; ! no. 81
 ávvtso:ávvtso N_EVEN_O "brushwood (next to water)" ; ! no. 93
 ballo:ballo N_EVEN_O "fear" ; ! no. 136
 barrgo:barrgo N_EVEN_O "work, job" ; ! no. 146
+bassto:bassto N_EVEN_O "sauna" ; ! no. 1517
 báhko:báhko N_EVEN_O "word" ; ! no. 108
 bárrko:bárrko N_EVEN_O "bark" ; ! no. 147
 bárro:bárro N_EVEN_O "wave" ; ! no. 4685
@@ -1476,7 +1478,7 @@ biena:biednag N_ODD_OPEN "dog" ; ! no. 160
 gáma:gábmag N_ODD_OPEN "shoe" ; ! no. 531
 gielda:gieldag N_ODD_OPEN "tendon on the hind leg" ; ! no. 5842
 giera:gierrag N_ODD_OPEN "descendant" ; ! no. 2989
-gierbma:gierrbmah N_ODD_OPEN "snake" ; ! no. 617
+gierbma:gierbmah N_ODD_OPEN "snake" ; ! no. 617
 guohpa:gu^Ohppag N_ODD_OPEN "mold" ; ! no. 680
 låvdå:låvvdåg N_ODD_OPEN "tent tarp" ; ! no. 1098
 mádda:máddag N_ODD_OPEN "lower intestine" ; ! no. 90265
@@ -1491,7 +1493,6 @@ tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 ålol:ållol N_ODD_VH "jaw" ; ! no. 2257
 ánjas:ádnjas N_ODD_WG "leg tendon" ; ! no. 5832
-bierdnes:bierrdnes N_ODD_WG "mid-plate on skis where shoes are placed" ; ! no. 3718
 bierjas:bierrjas N_ODD_WG "cloth rain covering smoke hole in a tent kåta" ; ! no. 176
 bievas:bievvas N_ODD_WG "sweat" ; ! no. 4218
 bålås:bållås N_ODD_WG "rain or snow shower" ; ! no. 245
