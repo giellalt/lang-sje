@@ -32,8 +32,8 @@ Semantic properties of names
 
 
  ^WG     * weak grade
- ^jDEL   * vowel deletion in front of j
- ^ILLE2AA  * e to á (before j), o to u before j
+ ^G3      * marks grade three for stems w/o Cgrad
+ ^V2E2AA  * e to á (before j), o to u before j
  ^CDEL    * Deleting final consonant, biednag
  ^MON     * Monophthong in contract
  ^UAUML   * uo to uä juolge / juällge
@@ -44,7 +44,7 @@ Semantic properties of names
  ^VHBAR   * block VH from happening
 
 
- d2 t2 j2 h2 g2  * Variable consonants, undergo Auslautherdung
+ d2 t2 j2 h2 g2  * Variable consonants, undergo final devoicing
  ^O       * o but ä in uä
 
 {{{
