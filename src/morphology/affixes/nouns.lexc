@@ -72,7 +72,6 @@ LEXICON N_EVEN_WK
 !+Abe:%>htaka K ; ! Informants S and Bj 
 !+Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:%>0  K ;
-!:^WG^IJ%>j N_EVEN_J ;
 :^IJ%>j N_EVEN_J ;
 
 LEXICON N_EVEN_J
@@ -86,37 +85,29 @@ LEXICON N_EVEN_J
 +Sg+Com:n K ;         !norm
 +Sg+Com+Use/NG:na K ; !variant
 
-! LEXICON N_EVEN_B
-! +Sg+Nom:^UAUML%>e    K ;
-! +Sg+Gen:^WG%>e  K ;
-! +Sg+Acc:^WG%>ev  K ;
-! +Sg+Ine:^WG%>en K ;
-! +Sg+Ela+Err/Orth:^WG%>es K ;
-! +Sg+Ela:^WG%>est K ;
-! +Sg+Ill:%>áj K ;
-! +Abe:^WG%>edak K ; ! Norm
-! +Pl+Nom:^WG%>e  K ;
-! +Sg+Com:^WG%>ijn   K ; !norm
-! +Sg+Com:^WG%>ijna  K ; !variant
-! +Pl+Gen:^WG%>ij    K ;
-! +Pl+Acc:^WG%>ijd   K ;
-! +Pl+Ine:^WG%>ijn   K ;
-! +Pl+Ela+Err/Orth:^WG%>ijs  K ;
-! +Pl+Ela:^WG%>ijst  K ; !norm
-! +Pl+Ill:^WG%>ijda  K ; 
-! +Pl+Com:^WG%>ij    K ;
-! +Ess:%>en K ;
+
+LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
++N+Sg+Nom:^VHBARis K ;
++N+Sg+Acc:asa%>v K ;
++N+Sg+Gen:asa%>0 K ;
++N+Sg+Ill:asa%>j K ;
++N+Sg+Ine:asa%>n K ;
++N+Sg+Ela+Err/Orth:asa%>s K ;
++N+Sg+Ela:asa%>st K ;
++N+Sg+Com:asa%>jn K ;
++N+Ess:asa%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Ess:asa%>^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
+!+N+Abe:asa%>dak K ; ! XXX
++N+Pl+Nom:asa%> K ;
++N+Pl+Acc:asa%>jd K ;
++N+Pl+Gen:asa%>j K ;
++N+Pl+Ill:asa%>jda K ;
++N+Pl+Ine:asa%>jn K ;
++N+Pl+Ela+Err/Orth:asa%>js K ;
++N+Pl+Ela:asa%>jst K ;
++N+Pl+Com:asa%>j K ;
 
 
-
-!LEXICON N_EVEN_4 ! gonagassa, 
-!+N: EVENCASE_4 ;
-!+N:a N_EVEN_ILL ;
-!+N:a^WG N_EVEN_WK ; ! CG here
-!
-LEXICON EVENCASE_4 !mentioned in Adj-Affixes!
-+Sg+Nom:^CDEL K ;
-:a N_EVEN_ESS ; !essive
 
 
 
@@ -164,28 +155,6 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 +Der/Dim:a%>tj N_ODD ;
-
-
-! LEXICON N_ODD_ESAS !bierdnes<->bärdnas-
-! +N+Sg+Nom:e^WGs K ;
-! +N+Sg+Acc:as%>av K ;
-! +N+Sg+Gen:as%>a K ;
-! +N+Sg+Ill:as%>ij K ;
-! +N+Sg+Ine:as%>in K ;
-! +N+Sg+Ela+Err/Orth:as%>is K ;
-! +N+Sg+Ela:as%>ist K ;
-! +N+Sg+Com:as%>ijn K ;
-! +N+Ess:as%>an K ; 
-! !+N+Abe:as%>adak K ; ! XXX
-! +N+Pl+Nom:as%>a K ;
-! +N+Pl+Acc:as%>ijd K ;
-! +N+Pl+Gen:as%>ij K ;
-! +N+Pl+Ill:as%>ijda K ;
-! +N+Pl+Ine:as%>ijn K ;
-! +N+Pl+Ela+Err/Orth:as%>ijs K ;
-! +N+Pl+Ela:as%>ijst K ;
-! +N+Pl+Com:as%>ij K ;
-
 
 
 ! contracted
@@ -268,11 +237,19 @@ LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
 # ;
 
 
+
+
 ! NOTE: 
 ! NOTE: below here: lexica that are referred to in adjectives (or at least outside noun-stems)
 ! NOTE: 
 
-LEXICON N_EVEN_C ! mentioned in adjectives!
+!used by adjectives - don't delete:
+LEXICON EVENCASE_4 !used by adjectives - don't delete
++Sg+Nom:^CDEL K ;
+:a N_EVEN_ESS ; !essive
+
+!used by adjectives - don't delete:
+LEXICON N_EVEN_C !used by adjectives - don't delete
 +Sg+Gen:%>o  K ; 
 +Sg+Acc:%>ov  K ;
 +Sg+Ine:%>on K ;
@@ -290,8 +267,6 @@ LEXICON N_EVEN_C ! mentioned in adjectives!
 +Pl+Ill:%>ojda  K ; 
 +Pl+Com:%>oj    K ;
 +Ess:%>on K ;
-
-
 
 !used by adjectives - don't delete:
 LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
@@ -311,7 +286,6 @@ LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
 +Pl+Ela+Err/Orth:i%>js K ;
 +Pl+Ela:i%>jst K ;
 +Pl+Com:i%>j K ;
-
 
 !used by adjectives - don't delete:
 LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete:
