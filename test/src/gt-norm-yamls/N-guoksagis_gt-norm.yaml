@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - guoksagis: # N_ODD_WG (CGrad and umlaut)
+    guoksagis+N+Sg+Nom: guoksagis
+    guoksagis+N+Sg+Gen: guoksagasa
+    guoksagis+N+Sg+Acc: guoksagasav
+    guoksagis+N+Sg+Ill: guoksagasaj
+    guoksagis+N+Sg+Ine: guoksagasan
+    guoksagis+N+Sg+Ela: guoksagasast
+    guoksagis+N+Sg+Com: guoksagasajn
+    guoksagis+N+Pl+Nom: guoksagasa
+    guoksagis+N+Pl+Gen: guoksagasaj
+    guoksagis+N+Pl+Acc: guoksagasajd
+    guoksagis+N+Pl+Ill: guoksagasajda
+    guoksagis+N+Pl+Ine: guoksagasajn
+    guoksagis+N+Pl+Ela: guoksagasajst
+    guoksagis+N+Pl+Com: guoksagasaj
+#    guoksagis+N+Ess: guoksagasin
+#    guoksagis+N+Abe: guoksagasahtá
+
+ 
+ 

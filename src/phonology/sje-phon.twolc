@@ -266,19 +266,22 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhts
           matched ; 
 ! Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
-! nom.sg
-!!€ dä2bmug2^VHBAR
-!!€ däbmuk0
-! acc.sg
-!!€ dä2bmug2^VHBARa>v
-!!€ däbmug0a0v
-! ill.sg
-!!€ dä2bmug2^VHBARi>j
-!!€ däbmug0i0j
+!!€ gu^Oksagis
+!!€ guoksagis
 
-! acc.pl # to make sure VH still works otherwise
-!!€ sábme^WG^IJ>jd
-!!€ sä0mi000jd
+! ! nom.sg
+! !!€ dä2bmug2^VHBAR
+! !!€ däbmuk0
+! ! acc.sg
+! !!€ dä2bmug2^VHBARa>v
+! !!€ däbmug0a0v
+! ! ill.sg
+! !!€ dä2bmug2^VHBARi>j
+! !!€ däbmug0i0j
+! 
+! ! acc.pl # to make sure VH still works otherwise
+! !!€ sábme^WG^IJ>jd
+! !!€ sä0mi000jd
 
 
 
