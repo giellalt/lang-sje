@@ -274,6 +274,7 @@ Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
 %^O:ä <=> Cns:* u _ G3 :e ; 
+          Cns:* u _ Cns:+ :e %^G3: ; ! duädde<->duodde
 
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
