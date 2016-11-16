@@ -174,7 +174,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
-! This LEXC file was created by Joshua Wilbur as an export of a Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
 ! Timestamp: </xsl:text><xsl:value-of select="current-date(),current-time()"/><xsl:text>
 
 !! !!!Pite Saami </xsl:text><xsl:value-of select="$PoS"/><xsl:text>s
