@@ -55,6 +55,7 @@ Semantic properties of names
  ^VHBAR   * block VH from happening
 
 
+ ä2  * Variable vowel, does not undergo (further) VH
  d2 t2 j2 h2 g2  * Variable consonants, undergo final devoicing
  ^O       * o but ä in uä
 
@@ -1254,9 +1255,9 @@ finns detta ord = * släddjit:släddji V_CONTR ;
  ; %^G3:0 : marks grade three for stems w/o Cgrad
  ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM)
  ; %^CDEL:0 : delete final consonant odd (biednag)
- ; %^MON:0 : Monophthong in contract stems
+ ; %^MON:0 : Monophthong in contracted stems
  ; %^UAUML:0 : uo to uä juolge / juällge
- ; %^IEUML:0 : ie to ä etc. gielbar / gællbara
+ ; %^IEUML:0 : ie to ä, gielbar / gällbara
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
    %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
@@ -1319,6 +1320,18 @@ __Word-final De-Affricatization for tj  __
 
 __Default VH __  
 
+* __dä2bmug2^VHBAR __
+* __däbmuk0 __
+* __dä2bmug2^VHBARa>v __
+* __däbmug0a0v __
+* __dä2bmug2^VHBARi>j __
+* __däbmug0i0j __
+
+* __sábme^WG^IJ>jd __
+* __sä0mi000jd __
+
+
+
 __Default UA in G3 __  
 
 __Special UÄ (VH) in G3 __  
@@ -1328,7 +1341,6 @@ __Special VH for u^O __
 __Special VH for ie __  
 
 __Ä in G3 __  
-
 
 
 

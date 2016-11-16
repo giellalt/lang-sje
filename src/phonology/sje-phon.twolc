@@ -23,7 +23,8 @@ Alphabet
   á é í 
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
-  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ª ß %-
+  á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ª %- ß
+  ä2:ä
   b2:b d2:d g2:g t2:t j2:j h2:h
   %^O:o
   ':0
@@ -32,9 +33,9 @@ Alphabet
   %^G3:0     !!≈ ; @CODE@ : marks grade three for stems w/o Cgrad
   %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM)
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
-  %^MON:0    !!≈ ; @CODE@ : Monophthong in contract stems
+  %^MON:0    !!≈ ; @CODE@ : Monophthong in contracted stems
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
-  %^IEUML:0    !!≈ ; @CODE@ : ie to ä etc. gielbar / gællbara
+  %^IEUML:0    !!≈ ; @CODE@ : ie to ä, gielbar / gällbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
   %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
@@ -52,12 +53,11 @@ Alphabet
 ;
 
 Sets
-  Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú '    ;
+  Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú ' ;
   Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
              b2 d2 g2 t2 j2 h2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
-           %^O ;
-  NoVH   = a                 ï             o                   y   æ ä ø ö å á é í ó ú ;
+                                           %^O                       ä2 ;
   Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
@@ -260,11 +260,27 @@ s:t <=> _ j2: .#. ;
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
 ! Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+
+! nom.sg
+!!€ dä2bmug2^VHBAR
+!!€ däbmuk0
+! acc.sg
+!!€ dä2bmug2^VHBARa>v
+!!€ däbmug0a0v
+! ill.sg
+!!€ dä2bmug2^VHBARi>j
+!!€ däbmug0i0j
+
+! acc.pl # to make sure VH still works otherwise
+!!€ sábme^WG^IJ>jd
+!!€ sä0mi000jd
+
+
 
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
@@ -292,7 +308,6 @@ i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
 e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG Vow: \%^WG: ; !bierdna->b0ärdna
-
 
 ! !!€ ku^Ordna^UAUML
 ! !!€ kuardna0
