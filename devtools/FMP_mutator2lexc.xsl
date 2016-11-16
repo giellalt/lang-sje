@@ -189,16 +189,13 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
   <xsl:when test="$PoS = 'noun'">
 <xsl:text>
 !! # Even-syllable stem patterns: 
-
 !! * N_EVEN: all even-syllable stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
 !! * N_EVEN_O: all even-syllable stems ending in -o- (e.g. iello)
-
 !! # Odd-syllable stem patterns:  
 !! * N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
 !! * N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
 !! * N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
 !! * N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
-
 !! # Contracted stem patterns: 
 !! * N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
 !! * N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
