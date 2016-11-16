@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - däbmuk: # N_ODD (no alternations except final 'devoicing'; -u- does not trigger VH because it has already been triggered during derivation (from á))
+    däbmuk+N+Sg+Nom: däbmuk
+    däbmuk+N+Sg+Gen: däbmuga
+    däbmuk+N+Sg+Acc: däbmugav
+    däbmuk+N+Sg+Ill: däbmugij
+    däbmuk+N+Sg+Ine: däbmugin
+    däbmuk+N+Sg+Ela: däbmugist
+    däbmuk+N+Sg+Com: däbmugijn
+    däbmuk+N+Pl+Nom: däbmuga
+    däbmuk+N+Pl+Gen: däbmugij
+    däbmuk+N+Pl+Acc: däbmugijd
+    däbmuk+N+Pl+Ill: däbmugijda
+    däbmuk+N+Pl+Ine: däbmugijn
+    däbmuk+N+Pl+Ela: däbmugijst
+    däbmuk+N+Pl+Com: däbmugij
+    däbmuk+N+Ess: däbmugin
+    däbmuk+N+Abe: däbmugahtá
+
+ 
+ 
