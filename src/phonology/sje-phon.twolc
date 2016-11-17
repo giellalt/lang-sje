@@ -267,11 +267,29 @@ s:t <=> _ j2: .#. ;
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> _ Cns:* \#: Cns:* VHtrig (Cns:) \# ; !
+Vx:Vy <=> _ Cns:+ VHtrig Cns:* \# ; !why doesn't \# work?
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
-!_ \%^VHBAR:* [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+!guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+
+!!€ bähkkum#ståhpo^UAUML#
+!!€ bähkkum#ståhpo0#
+!!€ bähkkum#ståhpo^WG>v#
+!!€ bähkkum#stå0bo00v#
+!!€ ståhpo^WG>v#
+!!€ stå0bo00v#
+!!€ bajeldis#gárrvo^UAUML#
+!!€ bajeldis#gárrvo0#
+!!€ bajeldis#gárrvo^WG>v#
+!!€ bajeldis#gár0vo00v#
+!!€ gárrvo^WG>v#
+!!€ gár0vo00v#
+
+!!€ åvvdå#giehtje#
+!!€ åvvdå#giehtje#
+!!€ åvvdå#giehtje^WG#
+!!€ åvvdå#gie0tje0#
 
 !!€ jievvja^G3
 !!€ j0ävvja0
@@ -287,11 +305,6 @@ Vx:Vy <=> _ Cns:* \#: Cns:* VHtrig (Cns:) \# ; !
 !!€ #ål0ol0#
 !!€ #ållol^V2O2Ua>v#
 !!€ #ullul0a0v#
-
-!!€ åvvdå#giehtje#
-!!€ åvvdå#giehtje#
-!!€ åvvdå#giehtje^WG#
-!!€ åvvdå#gie0tje0#
 
 !!€ gu^Oksagis#
 !!€ guoksagis#
