@@ -24,7 +24,7 @@ Alphabet
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ª %- ß
-  ä2:ä
+  i2:i u2:u ä2:ä
   b2:b d2:d g2:g t2:t j2:j h2:h
   %^O:o
   ':0
@@ -57,7 +57,7 @@ Sets
   Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
              b2 d2 g2 t2 j2 h2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
-                                           %^O                       ä2 ;
+                           i2              %^O         u2            ä2 ;
   Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
@@ -121,7 +121,7 @@ Definitions
         r b m |
         s s [k|m|n|p|t] |
         t t k |
-        v v [d|g|k|l|r|s] |
+        v v [d|g|j|k|l|r|s] |
         v d n ] ;
 
  noCG = [ 
@@ -131,6 +131,13 @@ Definitions
         r d n j |
         r g ŋ |
         l g ŋ ] ; ! for consonant centers with 3+ characters that do NOT alternate
+
+ VHtrig = [
+        e:i |
+        i   |
+        o:u |
+        u
+        ] ; !vowels that can trigger VH (does NOT include i2 and u2)
 
 
 !! !!!Rules
@@ -162,8 +169,8 @@ Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: ;
 "Consonant Gradation for xxy:xy"
 !! __@RULENAME@__  
 Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
-     where Cx in ( b b b b b b d d d d f f g g g g j j j j j j j j j j k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v )
-           Cy in ( d j l m n r j k n v d n d l ŋ v b d g p k l r s v m s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d k l r g s )  
+     where Cx in ( b b b b b b d d d d f f g g g g j j j j j j j j j j k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
+           Cy in ( d j l m n r j k n v d n d l ŋ v b d g p k l r s v m s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d j k l r g s )  
           matched ;
           
 "Consonant Gradation for xxt(j|s):xt(j|s)" ! ájjte, gájjtsa
@@ -216,7 +223,7 @@ Cx:0 <=> Vow: _ %^WG: %^CDEL: ;
 
 "Final devoicing"
 !! __@RULENAME@__  
-Cx:Cy <=> _ (%^WG:) # ;
+Cx:Cy <=> _ (%^WG:) (%>:) # ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t 	k )
           matched ; 
@@ -231,7 +238,7 @@ Cx:Cy <=> _ (%^WG:) # ;
 ! !!€ iejgát
 ! !!€ gu^Ossmag2a>v
 ! !!€ guassmaga0v
-! !!€ iejgád2^VHBARi>jd
+! !!€ iejgád2i2>jd
 ! !!€ iejgád0i0jd
 ! !!€ mu^Ohttag^WG^CDEL
 ! !!€ muoht0a000
@@ -260,26 +267,34 @@ s:t <=> _ j2: .#. ;
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> _ \# [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!) %^VHBAR:*
-          _ \%^VHBAR:* [:i|:u] ;
+Vx:Vy <=> !_ \%^VHBAR:* [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+          _ Cns:* \#: Cns:* VHtrig (Cns:) \# ; !
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
 
-!!€ åvvdå#giehtje
-!!€ åvvdå#giehtje
-!!€ åvvdå#giehtje^WG
-!!€ åvvdå#gie0tje0
+!!€ jievvja^G3
+!!€ j0ävvja0
 
-!!€ båhtsoj^WG
-!!€ bå0tsoj0
-!!€ båhtsu
-!!€ buhtsu
-!!€ båhtsu%>v
-!!€ buhtsu0v
+!!€ båhtsoj^WG.#.
+!!€ bå0tsoj0.#.
+!!€ båhtsu.#.
+!!€ buhtsu.#.
+!!€ båhtsu%>v.#.
+!!€ buhtsu0v.#.
 
-!!€ gu^Oksagis
-!!€ guoksagis
+!!€ #ållol^WG#
+!!€ #ål0ol0#
+!!€ #ållol^V2O2Ua>v#
+!!€ #ullul0a0v#
+
+!!€ åvvdå#giehtje#
+!!€ åvvdå#giehtje#
+!!€ åvvdå#giehtje^WG#
+!!€ åvvdå#gie0tje0#
+
+!!€ gu^Oksagis#
+!!€ guoksagis#
 
 ! ! nom.sg
 ! !!€ dä2bmug2^VHBAR
@@ -288,7 +303,7 @@ Vx:Vy <=> _ \# [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last 
 ! !!€ dä2bmug2^VHBARa>v
 ! !!€ däbmug0a0v
 ! ! ill.sg
-! !!€ dä2bmug2^VHBARi>j
+! !!€ dä2bmug2i2>j
 ! !!€ däbmug0i0j
 ! 
 ! ! acc.pl # to make sure VH still works otherwise
@@ -309,11 +324,11 @@ Vx:Vy <=> _ \# [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last 
 
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
-%^O:0 <=> Cns:* u _ Cns:+ [:i|:u] Cns:* Dummy:* %>:* ; !juällge<->julgij
+%^O:0 <=> Cns:* u _ Cns:+ VHtrig Cns:* Dummy:* %>:* ; !juällge<->julgij
 
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
-i:0 <=> Cns:* _ e: Cns:+ [:i|:u] Cns:* Dummy:* %>: ; !iello->0elluj
+i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* %>: ; !iello->0elluj
 		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* _ e: noCG Vow: \%^WG: ; !bierdna->b0ärdna
@@ -393,7 +408,7 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! !!€ almatja%>v
 ! !!€ almatja0v
 ! !acc.pl
-! !!€ almatj^VHBARi%>j
+! !!€ almatji2%>j
 ! !!€ almatj0i0j
 ! 
 ! 
@@ -407,7 +422,7 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! !!€ biednaga%>v
 ! !!€ biednaga0v
 ! !acc.pl
-! !!€ biednag^VHBARi%>j
+! !!€ biednagi2%>j
 ! !!€ biednag0i0j
 ! 
 ! !!€ båhtsoj^WG
@@ -430,7 +445,7 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! !!€ ål0ol0
 ! !!€ ållol^V2O2Ua>v
 ! !!€ ullul0a0v
-! !!€ ållol^V2O2U^VHBARi>j
+! !!€ ållol^V2O2Ui2>j
 ! !!€ ullul00i0j
 ! !!€ rássjo>j^V2O2U
 ! !!€ rässju0j0

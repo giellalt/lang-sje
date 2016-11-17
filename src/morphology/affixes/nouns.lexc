@@ -97,7 +97,7 @@ LEXICON N_EVEN4 !mánnodak<->mánnodag-
 +N+Sg+Com:a%>jn K ;
 +N+Ess:a%>n K ;
 !+N+Abe:a%>dak K ; ! XXX
-+N+Pl+Nom:a%> K ;
++N+Pl+Nom:a%>0 K ;
 +N+Pl+Acc:a%>jd K ;
 +N+Pl+Gen:a%>j K ;
 +N+Pl+Ill:a%>jda K ;
@@ -108,7 +108,7 @@ LEXICON N_EVEN4 !mánnodak<->mánnodag-
 
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
-+N+Sg+Nom:^VHBARis K ;
++N+Sg+Nom:i2s K ;
 +N+Sg+Acc:asa%>v K ;
 +N+Sg+Gen:asa%>0 K ;
 +N+Sg+Ill:asa%>j K ;
@@ -118,7 +118,7 @@ LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Com:asa%>jn K ;
 +N+Ess:asa%>n K ; 
 !+N+Abe:asa%>dak K ; ! XXX
-+N+Pl+Nom:asa%> K ;
++N+Pl+Nom:asa%>0 K ;
 +N+Pl+Acc:asa%>jd K ;
 +N+Pl+Gen:asa%>j K ;
 +N+Pl+Ill:asa%>jda K ;
@@ -135,7 +135,7 @@ LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 ! ------------
 
 LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
-+N+Sg+Nom: K ;
++N+Sg+Nom:%>0 K ; 
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
@@ -156,22 +156,22 @@ LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->s
 
 LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Acc:a%>v K ;
-+Sg+Gen:a K ;
-+Sg+Ill:^VHBARi%>j K ;
-+Sg+Ine:^VHBARi%>n K ;
-+Sg+Ela+Err/Orth:^VHBARi%>s K ;
-+Sg+Ela:^VHBARi%>st K ;
-+Sg+Com:^VHBARi%>jn K ;
-+Ess:^VHBARi%>n K ;
++Sg+Gen:a%>0 K ;
++Sg+Ill:i2%>j K ;
++Sg+Ine:i2%>n K ;
++Sg+Ela+Err/Orth:i2%>s K ;
++Sg+Ela:i2%>st K ;
++Sg+Com:i2%>jn K ;
++Ess:i2%>n K ;
 +Abe:a%>htá K ;
-+Pl+Nom:a K ;
-+Pl+Acc:^VHBARi%>jd K ;
-+Pl+Gen:^VHBARi%>j K ;
-+Pl+Ill:^VHBARi%>jda K ;
-+Pl+Ine:^VHBARi%>jn K ;
-+Pl+Ela+Err/Orth:^VHBARi%>js K ;
-+Pl+Ela:^VHBARi%>jst K ;
-+Pl+Com:^VHBARi%>j K ;
++Pl+Nom:a%>0 K ;
++Pl+Acc:i2%>jd K ;
++Pl+Gen:i2%>j K ;
++Pl+Ill:i2%>jda K ;
++Pl+Ine:i2%>jn K ;
++Pl+Ela+Err/Orth:i2%>js K ;
++Pl+Ela:i2%>jst K ;
++Pl+Com:i2%>j K ;
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 +Der/Dim:a%>tj N_ODD ;
@@ -190,7 +190,7 @@ N_CONTR_O ;
 
 LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Sg+Acc:u%>v K ;
-+N+Sg+Gen:u K ;
++N+Sg+Gen:u%>0 K ;
 +N+Sg+Ill:u%>j K ;
 +N+Sg+Ine:u%>n K ;
 +N+Sg+Ela+Err/Orth:u%>s K ;
@@ -199,7 +199,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Ess:u%>n K ;
 +N+Ess:u%>n K ;
 +N+Abe:u%>dak K ; ! XXX
-+N+Pl+Nom:u K ;
++N+Pl+Nom:u%>0 K ;
 +N+Pl+Acc:u%>jd K ;
 +N+Pl+Gen:u%>j K ;
 +N+Pl+Ill:u%>jda K ;
@@ -210,45 +210,45 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 
 LEXICON N_CONTR_AJA !ålmaj<->ålma
 +N+Sg+Nom:a^WGj K ;
-+N+Sg+Acc:av K ;
-+N+Sg+Gen:a K ;
-+N+Sg+Ill:aj K ;
-+N+Sg+Ine:an K ;
-+N+Sg+Ela+Err/Orth:as K ;
-+N+Sg+Ela:ast K ;
-+N+Sg+Com:ajn K ;
-+N+Ess:an K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Ess:a^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:adak K ; ! XXX
-+N+Pl+Nom:a K ;
-+N+Pl+Acc:ajd K ;
-+N+Pl+Gen:aj K ;
-+N+Pl+Ill:ajda K ;
-+N+Pl+Ine:ajn K ;
-+N+Pl+Ela+Err/Orth:ajs K ;
-+N+Pl+Ela:ajst K ;
-+N+Pl+Com:aj K ;
++N+Sg+Acc:a%>v K ;
++N+Sg+Gen:a%>0 K ;
++N+Sg+Ill:a%>j K ;
++N+Sg+Ine:a%>n K ;
++N+Sg+Ela+Err/Orth:a%>s K ;
++N+Sg+Ela:a%>st K ;
++N+Sg+Com:a%>jn K ;
++N+Ess:a%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
+!+N+Ess:a^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:a%>dak K ; ! XXX
++N+Pl+Nom:a%>0 K ;
++N+Pl+Acc:a%>jd K ;
++N+Pl+Gen:a%>j K ;
++N+Pl+Ill:a%>jda K ;
++N+Pl+Ine:a%>jn K ;
++N+Pl+Ela+Err/Orth:a%>js K ;
++N+Pl+Ela:a%>jst K ;
++N+Pl+Com:a%>j K ;
 
 LEXICON N_CONTR_ESA !sarves<->sarvvá
 +N+Sg+Nom:e^WGs K ;
-+N+Sg+Acc:áv K ;
-+N+Sg+Gen:á K ;
-+N+Sg+Ill:áj K ;
-+N+Sg+Ine:án K ;
-+N+Sg+Ela+Err/Orth:ás K ;
-+N+Sg+Ela:ást K ;
-+N+Sg+Com:ájn K ;
-+N+Ess:án K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:ádak K ; ! XXX
-+N+Pl+Nom:á K ;
-+N+Pl+Acc:ájd K ;
-+N+Pl+Gen:áj K ;
-+N+Pl+Ill:ájda K ;
-+N+Pl+Ine:ájn K ;
-+N+Pl+Ela+Err/Orth:ájs K ;
-+N+Pl+Ela:ájst K ;
-+N+Pl+Com:áj K ;
++N+Sg+Acc:á%>v K ;
++N+Sg+Gen:á%>0 K ;
++N+Sg+Ill:á%>j K ;
++N+Sg+Ine:á%>n K ;
++N+Sg+Ela+Err/Orth:á%>s K ;
++N+Sg+Ela:á%>st K ;
++N+Sg+Com:á%>jn K ;
++N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
+!+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:á%>dak K ; ! XXX
++N+Pl+Nom:á%>0 K ;
++N+Pl+Acc:á%>jd K ;
++N+Pl+Gen:á%>j K ;
++N+Pl+Ill:á%>jda K ;
++N+Pl+Ine:á%>jn K ;
++N+Pl+Ela+Err/Orth:á%>js K ;
++N+Pl+Ela:á%>jst K ;
++N+Pl+Com:á%>j K ;
 
 
 

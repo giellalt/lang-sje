@@ -44,6 +44,8 @@ Semantic properties of names
  ^VHBAR   * block VH from happening
 
 
+ i2  * Variable vowel, does not trigger VH
+ u2  * Variable vowel, does not trigger VH
  ä2  * Variable vowel, does not undergo (further) VH
  d2 t2 j2 h2 g2  * Variable consonants, undergo final devoicing
  ^O       * o but ä in uä
