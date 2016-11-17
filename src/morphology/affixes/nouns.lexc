@@ -86,6 +86,27 @@ LEXICON N_EVEN_J
 +Sg+Com+Use/NG:na K ; !variant
 
 
+LEXICON N_EVEN4 !mánnodak<->mánnodag-
++N+Sg+Nom: K ;
++N+Sg+Acc:a%>v K ;
++N+Sg+Gen:a%>0 K ;
++N+Sg+Ill:a%>j K ;
++N+Sg+Ine:a%>n K ;
++N+Sg+Ela:a%>st K ;
++N+Sg+Ela+Err/Orth:a%>s K ;
++N+Sg+Com:a%>jn K ;
++N+Ess:a%>n K ;
+!+N+Abe:a%>dak K ; ! XXX
++N+Pl+Nom:a%> K ;
++N+Pl+Acc:a%>jd K ;
++N+Pl+Gen:a%>j K ;
++N+Pl+Ill:a%>jda K ;
++N+Pl+Ine:a%>jn K ;
++N+Pl+Ela:a%>jst K ;
++N+Pl+Ela+Err/Orth:a%>js K ;
++N+Pl+Com:a%>j K ;
+
+
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Nom:^VHBARis K ;
 +N+Sg+Acc:asa%>v K ;
@@ -95,8 +116,7 @@ LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Ela+Err/Orth:asa%>s K ;
 +N+Sg+Ela:asa%>st K ;
 +N+Sg+Com:asa%>jn K ;
-+N+Ess:asa%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Ess:asa%>^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Ess:asa%>n K ; 
 !+N+Abe:asa%>dak K ; ! XXX
 +N+Pl+Nom:asa%> K ;
 +N+Pl+Acc:asa%>jd K ;
