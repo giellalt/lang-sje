@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - åvvdågiehtje: # N_EVEN_NOCG (no grade alternations)
+    åvvdågiehtje+N+Sg+Nom: åvvdågiehtje
+    åvvdågiehtje+N+Sg+Gen: åvvdågietje
+    åvvdågiehtje+N+Sg+Acc: åvvdågietjev
+    åvvdågiehtje+N+Sg+Ill: åvvdågiehtjáj
+    åvvdågiehtje+N+Sg+Ine: åvvdågietjen
+    åvvdågiehtje+N+Sg+Ela: åvvdågietjest
+    åvvdågiehtje+N+Sg+Com: [åvvdågetjijn, åvvdågetjijna]
+    åvvdågiehtje+N+Pl+Nom: åvvdågietje
+    åvvdågiehtje+N+Pl+Gen: åvvdågetjij
+    åvvdågiehtje+N+Pl+Acc: åvvdågetjijd
+    åvvdågiehtje+N+Pl+Ill: åvvdågetjijda
+    åvvdågiehtje+N+Pl+Ine: åvvdågetjijn
+    åvvdågiehtje+N+Pl+Ela: åvvdågetjijst
+    åvvdågiehtje+N+Pl+Com: åvvdågetjij
+    åvvdågiehtje+N+Ess: åvvdågiehtjen
+
