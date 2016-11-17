@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-17+01:00 14:30:40.8+01:00
+! Timestamp: 2016-11-17+01:00 16:46:26.879+01:00
 
 !! !!!Pite Saami nouns
 
@@ -1314,7 +1314,7 @@ värbme:vierbme N_EVEN_NOCG "net" ; ! no. 2225
 åggomvuagga:åggom#vu^Ogga N_EVEN_NOCG "fishing hook" ; ! no. 5034
 årjátbägga:årját#biegga N_EVEN_NOCG "southernly wind" ; ! no. 2262
 ädda:iedda N_EVEN_NOCG "scar" ; ! no. 90497
-andersmässo:anders#miesso N_EVEN_O "" ; ! no. 4229
+andersmässo:anders#mies'so N_EVEN_O "" ; ! no. 4229
 arrvo:arrvo N_EVEN_O "value, price" ; ! no. 4176
 assto:assto N_EVEN_O "time" ; ! no. 81
 ággŋo:ággŋo N_EVEN_O "oarlock" ; ! no. 9
@@ -1341,7 +1341,7 @@ bássemánno:básse#mánno N_EVEN_O "November" ; ! no. 151
 biednekdårrjo:biednek#dårrjo N_EVEN_O "contribution, subsidy, financial support" ; ! no. 3309
 biehtsemánno:biehtse#mánno N_EVEN_O "June" ; ! no. 600
 bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
-bienomässo:bieno#miesso N_EVEN_O "" ; ! no. 5427
+bienomässo:bieno#mies'so N_EVEN_O "" ; ! no. 5427
 bihpo:bihpo N_EVEN_O "pipe (for smoking)" ; ! no. 5055
 birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
@@ -1441,7 +1441,7 @@ misso:mis'so N_EVEN_O "whey" ; ! no. 3196
 mujjto:mujjto N_EVEN_O "memory" ; ! no. 1178
 muohto:mu^Ohto N_EVEN_O "face, cheek" ; ! no. 1185
 murrko:murrko N_EVEN_O "fog" ; ! no. 1192
-mässo:miesso N_EVEN_O "church service" ; ! no. 1229
+mässo:mies'so N_EVEN_O "church service" ; ! no. 1229
 nállo:nállo N_EVEN_O "needle" ; ! no. 5001
 niehko:niehko N_EVEN_O "dream" ; ! no. 3663
 njáhtso:njáhtso N_EVEN_O "wet snow conditions" ; ! no. 1273
