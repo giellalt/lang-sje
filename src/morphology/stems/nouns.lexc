@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-17+01:00 09:25:05.358+01:00
+! Timestamp: 2016-11-17+01:00 14:30:40.8+01:00
 
 !! !!!Pite Saami nouns
 
@@ -21,21 +21,21 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 
 !! !!Lexc inflectional classes (Mini-grammar)
 
-!! # Even-syllable stem patterns: 
-!! * N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-!! * N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
-!! * N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
-!! * N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
-!! # Odd-syllable stem patterns:  
-!! * N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
-!! * N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
-!! * N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
-!! * N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
-!! # Contracted stem patterns: 
-!! * N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
-!! * N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
-!! * N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
-!! * N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
+!! * Even-syllable stem patterns: 
+!! ** N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+!! ** N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+!! ** N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+!! ** N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
+!! * Odd-syllable stem patterns:  
+!! ** N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
+!! ** N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
+!! ** N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
+!! ** N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
+!! * Contracted stem patterns: 
+!! ** N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
+!! ** N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
+!! ** N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
+!! ** N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
 
 arbålmaj:arb#ålm N_CONTR_AJA "widower" ; ! no. 64
@@ -473,7 +473,7 @@ jahke:jahke N_EVEN "year" ; ! no. 906
 jallga:jallga N_EVEN "flat area" ; ! no. 90309
 jáffovuassa:jáffo#vu^Os'sa N_EVEN "flour sack" ; ! no. 4910
 jáhkka:jáhkka N_EVEN "jacket, coat" ; ! no. 907
-jávvre:jávve N_EVEN "lake" ; ! no. 2316
+jávvre:jávvre N_EVEN "lake" ; ! no. 2316
 jiedna:jiedna N_EVEN "voice, sound; vote" ; ! no. 921
 jiegŋa:jiegŋa N_EVEN "ice" ; ! no. 922
 jigijst:jigijsd2 N_EVEN "from past years" ; ! no. 5682

@@ -55,6 +55,8 @@ Semantic properties of names
  ^VHBAR   * block VH from happening
 
 
+ i2  * Variable vowel, does not trigger VH
+ u2  * Variable vowel, does not trigger VH
  ä2  * Variable vowel, does not undergo (further) VH
  d2 t2 j2 h2 g2  * Variable consonants, undergo final devoicing
  ^O       * o but ä in uä
@@ -480,21 +482,21 @@ Adverbs
 
 !!Lexc inflectional classes (Mini-grammar)
 
-# Even-syllable stem patterns: 
-* N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-* N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
-* N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
-* N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
-# Odd-syllable stem patterns:  
-* N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
-* N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
-* N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
-* N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
-# Contracted stem patterns: 
-* N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
-* N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
-* N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
-* N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
+* Even-syllable stem patterns: 
+** N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+** N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+** N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+** N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
+* Odd-syllable stem patterns:  
+** N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
+** N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
+** N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
+** N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
+* Contracted stem patterns: 
+** N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
+** N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
+** N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
+** N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
 
 
@@ -1271,6 +1273,7 @@ finns detta ord = * släddjit:släddji V_CONTR ;
 
 
 
+
 !!!Rules
 
 
@@ -1319,13 +1322,28 @@ __Word-final De-Affricatization for tj  __
 
 __Default VH __  
 
-* __åvvdå#giehtje __
-* __åvvdå#giehtje __
-* __åvvdå#giehtje^WG __
-* __åvvdå#gie0tje0 __
+* __jievvja^G3 __
+* __j0ävvja0 __
 
-* __gu^Oksagis __
-* __guoksagis __
+* __båhtsoj^WG.#. __
+* __bå0tsoj0.#. __
+* __båhtsu.#. __
+* __buhtsu.#. __
+* __båhtsu%>v.#. __
+* __buhtsu0v.#. __
+
+* __#ållol^WG# __
+* __#ål0ol0# __
+* __#ållol^V2O2Ua>v# __
+* __#ullul0a0v# __
+
+* __åvvdå#giehtje# __
+* __åvvdå#giehtje# __
+* __åvvdå#giehtje^WG# __
+* __åvvdå#gie0tje0# __
+
+* __gu^Oksagis# __
+* __guoksagis# __
 
 
 
