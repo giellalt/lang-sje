@@ -260,11 +260,15 @@ s:t <=> _ j2: .#. ;
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> _ \%^VHBAR:* [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+Vx:Vy <=> _ \[%^VHBAR:*|#] [:i|:u] ; !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
-! Vx:Vy <=> [.#.|Cns|#|i] _ Cns:+ \%^VHBAR:* [:i|:u] ; !Cns:* Dummy:* %>:* ; !guolle<->gulij juällge<->julgij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
+
+!!€ åvvdå#giehtje
+!!€ åvvdå#giehtje
+!!€ åvvdå#giehtje^WG
+!!€ åvvdå#gie0tje0
 
 !!€ gu^Oksagis
 !!€ guoksagis

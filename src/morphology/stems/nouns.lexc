@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-16+01:00 16:44:30.87+01:00
+! Timestamp: 2016-11-17+01:00 09:25:05.358+01:00
 
 !! !!!Pite Saami nouns
 
@@ -22,8 +22,10 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! !!Lexc inflectional classes (Mini-grammar)
 
 !! # Even-syllable stem patterns: 
-!! * N_EVEN: all even-syllable stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-!! * N_EVEN_O: all even-syllable stems ending in -o- (e.g. iello)
+!! * N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+!! * N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+!! * N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+!! * N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
 !! # Odd-syllable stem patterns:  
 !! * N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
 !! * N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
@@ -1096,6 +1098,74 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
 älbmukstivvra:älbmuk#stivvra N_EVEN "democracy" ; ! no. 3579
 ärra:ierra N_EVEN "scar" ; ! no. 4805
+akktagatj:akktagatj N_EVEN4 "single" ; ! no. 3991
+aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
+assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
+áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
+ássalatj:ássalatj N_EVEN4 "accessory, participatory" ; ! no. 3571
+bargaldak:bargaldag2 N_EVEN4 "braid" ; ! no. 141
+bánedak:bánedag2 N_EVEN4 "toothless person" ; ! no. 4451
+biednagatj:biednagatj N_EVEN4 "small adult dog" ; ! no. 5717
+biejvadak:biejvadag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
+bietsastak:bietsastag2 N_EVEN4 "dense pine forest" ; ! no. 6867
+buddestak:buddestag2 N_EVEN4 "sewn ribbon bordering a frock or cap" ; ! no. 202
+bujjdudak:bujjdudag2 N_EVEN4 "obesity" ; ! no. 4057
+bullidak:bullidag2 N_EVEN4 "kindling" ; ! no. 4700
+bärrjedak:bä2rrjedag2 N_EVEN4 "Friday" ; ! no. 284
+duorastak:du^Orastag2 N_EVEN4 "Thursday" ; ! no. 401
+dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 4803
+därbulatj:dä2rbulatj N_EVEN4 "need" ; ! no. 3242
+fämulatj:fä2mulatj N_EVEN4 "strong, powerful person" ; ! no. 3344
+gatjaldak:gatjaldag2 N_EVEN4 "question" ; ! no. 573
+gáhpadak:gáhpadag2 N_EVEN4 "woven ribbon with a alternating pattern" ; ! no. 6874
+gájolatj:gájolatj N_EVEN4 "Kven" ; ! no. 90546
+gáskaldak:gáskaldag2 N_EVEN4 "bite" ; ! no. 3278
+gejnudak:gejnudag2 N_EVEN4 "route" ; ! no. 3665
+gietsaldak:gietsaldag2 N_EVEN4 "belt" ; ! no. 624
+gistádak:gistádag2 N_EVEN4 "bare-handed" ; ! no. 3217
+guhkabärrjedak:guhka#bä2rrjedag2 N_EVEN4 "Easter Friday" ; ! no. 4852
+guoddáldak:gu^Oddáldag2 N_EVEN4 "sash with sewing materials" ; ! no. 2518
+guosastak:gu^Osastag2 N_EVEN4 "dense fir forest" ; ! no. 6869
+gåbdådak:gåbdådag2 N_EVEN4 "width" ; ! no. 3404
+gårustak:gårustag2 N_EVEN4 "thread" ; ! no. 2814
+gämmulak:gä2mmulag2 N_EVEN4 "large intestine" ; ! no. 2857
+häjbmulatj:hä2jbmulatj N_EVEN4 "people that belong to a person's home" ; ! no. 90239
+juhtulak:juhtulag2 N_EVEN4 "migration route" ; ! no. 90290
+jådadak:jådadag2 N_EVEN4 "migration path" ; ! no. 948
+klubbádak:klubbádag2 N_EVEN4 "snow stuck to the bottom of skis" ; ! no. 4614
+laskadak:laskadag2 N_EVEN4 "wet snow in the spring" ; ! no. 4587
+lávvodak:lávvodag2 N_EVEN4 "Saturday" ; ! no. 1027
+lähpedak:lä2hpedag2 N_EVEN4 "rennet" ; ! no. 3030
+mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
+muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "place for cutting firewood" ; ! no. 5553
+mållának:mållánag2 N_EVEN4 "expression, dialect, pronunciation" ; ! no. 1202
+njalkadak:njalkadag2 N_EVEN4 "slipperiness, slippery road surface" ; ! no. 4196
+njuonnodak:nju^Onnodag2 N_EVEN4 "nose halter" ; ! no. 1301
+sagerdak:sagerdag2 N_EVEN4 "towel" ; ! no. 1481
+sávaldak:sávaldag2 N_EVEN4 "wish" ; ! no. 90313
+sillbagietsaldak:sillba#gietsaldag2 N_EVEN4 "silver belt" ; ! no. 1542
+sjierádak:sjierádag2 N_EVEN4 "clear skies, fog-less" ; ! no. 6116
+skárrjaldak:skárrjaldag2 N_EVEN4 "clipped cloth zig-zag in a Saami frock" ; ! no. 6762
+såbmelatj:såbmelatj N_EVEN4 "Finn" ; ! no. 1761
+sågastak:sågastag2 N_EVEN4 "dense birch forest" ; ! no. 6868
+sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
+tjalmedak:tjalmedag2 N_EVEN4 "blind" ; ! no. 5193
+tjuoladak:tju^Oladag2 N_EVEN4 "clear-cut area" ; ! no. 1933
+tjårrågatj:tjårrågatj N_EVEN4 "small group of reindeer" ; ! no. 3912
+tsaskadak:tsaskadag2 N_EVEN4 "spring snow which neither holds one up nor breaks" ; ! no. 3195
+unnagatj:unnagatj N_EVEN4 "small" ; ! no. 5353
+urudak:urudag2 N_EVEN4 "residence, camp" ; ! no. 3341
+vaddáldak:vaddáldag2 N_EVEN4 "talent, skill, gift" ; ! no. 3105
+vierdádak:vierdádag2 N_EVEN4 "clear-cut area" ; ! no. 2121
+visjulatj:visjulatj N_EVEN4 "enemy" ; ! no. 2131
+vuohtadak:vu^Ohtadag2 N_EVEN4 "snow with tracks in it" ; ! no. 2703
+vuojŋadak:vu^Ojŋadag2 N_EVEN4 "breathing" ; ! no. 3101
+vuojŋastak:vu^Ojŋastag2 N_EVEN4 "breath, breathing" ; ! no. 2171
+vuolestak:vu^Olestag2 N_EVEN4 "reindeer back" ; ! no. 2884
+vuotjadák:vu^Otjadág2 N_EVEN4 "wolverine spear" ; ! no. 2791
+åjválatj:åjválatj N_EVEN4 "authority" ; ! no. 3238
+årrádak:årrádag2 N_EVEN4 "bedsheet" ; ! no. 90401
+ärbulatj:ä2rbulatj N_EVEN4 "heir" ; ! no. 2731
 aldagis:aldag N_EVEN4_ISA "lightning, flash" ; ! no. 46
 ávdnogis:ávdnog N_EVEN4_ISA "reindeer which has been attacked by a predator and is still alive" ; ! no. 87
 bahágis:bahág N_EVEN4_ISA "evil" ; ! no. 102
@@ -1116,6 +1186,7 @@ ieradis:ierad N_EVEN4_ISA "an altered reindeer earmark diverging from the main e
 jiehtanis:jiehtan N_EVEN4_ISA "giant" ; ! no. 4210
 jielagis:jielag N_EVEN4_ISA "cold, clear weather" ; ! no. 3479
 máhkanis:máhkan N_EVEN4_ISA "six-year-old reindeer buck" ; ! no. 4354
+náranis:náran N_EVEN4_ISA "abscess, boil" ; ! no. 1245
 nieljagis:nieljag N_EVEN4_ISA "quarter" ; ! no. 5270
 njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
 rájdaris:rájdar N_EVEN4_ISA "wooden ladder" ; ! no. 2899

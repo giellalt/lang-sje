@@ -481,8 +481,10 @@ Adverbs
 !!Lexc inflectional classes (Mini-grammar)
 
 # Even-syllable stem patterns: 
-* N_EVEN: all even-syllable stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-* N_EVEN_O: all even-syllable stems ending in -o- (e.g. iello)
+* N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+* N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+* N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+* N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
 # Odd-syllable stem patterns:  
 * N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
 * N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
@@ -1316,6 +1318,11 @@ __Word-final De-Affricatization for tj  __
 ! metaphony
 
 __Default VH __  
+
+* __åvvdå#giehtje __
+* __åvvdå#giehtje __
+* __åvvdå#giehtje^WG __
+* __åvvdå#gie0tje0 __
 
 * __gu^Oksagis __
 * __guoksagis __
