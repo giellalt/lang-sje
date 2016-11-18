@@ -87,10 +87,7 @@ Definitions
         v v s [j|k] |
         v v t [j|s] |
 
-        b ':0 b |
-        d ':0 d |
         f ':0 f |
-        g ':0 g |
         l ':0 l |
         m ':0 m |
         n ':0 n |
@@ -125,6 +122,9 @@ Definitions
         v d n ] ;
 
  noCG = [ 
+        b b |
+        d d |
+        g g |
         r b m |
         r d n |
         r d n |
@@ -267,47 +267,55 @@ s:t <=> _ j2: .#. ;
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
 !! __@RULENAME@__  
-Vx:Vy <=> _ Cns:+ VHtrig Cns:* \# ; !why doesn't \# work?
+	Vx:Vy <=> _ Cns:+ VHtrig Cns:* Dummy:* Vow:* %>:0 ; 
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
           matched ; 
-!guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
-
-!!€ bähkkum#ståhpo^UAUML#
-!!€ bähkkum#ståhpo0#
-!!€ bähkkum#ståhpo^WG>v#
-!!€ bähkkum#stå0bo00v#
-!!€ ståhpo^WG>v#
-!!€ stå0bo00v#
-!!€ bajeldis#gárrvo^UAUML#
-!!€ bajeldis#gárrvo0#
-!!€ bajeldis#gárrvo^WG>v#
-!!€ bajeldis#gár0vo00v#
-!!€ gárrvo^WG>v#
-!!€ gár0vo00v#
-
-!!€ åvvdå#giehtje#
-!!€ åvvdå#giehtje#
-!!€ åvvdå#giehtje^WG#
-!!€ åvvdå#gie0tje0#
-
-!!€ jievvja^G3
-!!€ j0ävvja0
-
-!!€ båhtsoj^WG.#.
-!!€ bå0tsoj0.#.
-!!€ båhtsu.#.
-!!€ buhtsu.#.
-!!€ båhtsu%>v.#.
-!!€ buhtsu0v.#.
+!This requires every root that undergoes inflection to end with a morpheme boundary, even when no suffix exists; this prevents VH in non-final compound stems (since \# wouldn't work). !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
 !!€ #ållol^WG#
 !!€ #ål0ol0#
 !!€ #ållol^V2O2Ua>v#
 !!€ #ullul0a0v#
 
-!!€ gu^Oksagis#
-!!€ guoksagis#
+!!€ bárdne^WG>0#
+!!€ bárdne000#
+!!€ bárdne^WG^IJ>j#
+!!€ bärdni000j#
+
+!!€ bähkkum#ståhpo^UAUML#
+!!€ bähkkum#ståhpo0#
+!!€ bähkkum#ståhpo^WG>v#
+!!€ bähkkum#stå0bo00v#
+!!€ bähkku#ståhpo^UAUML#
+!!€ bähkku#ståhpo0#
+!!€ ståhpo^WG>v#
+!!€ stå0bo00v#
+
+!!€ bajeldis#gárrvo^UAUML#
+!!€ bajeldis#gárrvo0#
+!!€ bajeldis#gárrvo^WG>v#
+!!€ bajeldis#gár0vo00v#
+! !!€ gárrvo^WG>v#
+! !!€ gár0vo00v#
+
+! !!€ åvvdå#giehtje#
+! !!€ åvvdå#giehtje#
+! !!€ åvvdå#giehtje^WG#
+! !!€ åvvdå#gie0tje0#
+
+! !!€ jievvja^G3
+! !!€ j0ävvja0
+
+! !!€ båhtsoj^WG.#.
+! !!€ bå0tsoj0.#.
+! !!€ båhtsu.#.
+! !!€ buhtsu.#.
+! !!€ båhtsu%>v.#.
+! !!€ buhtsu0v.#.
+
+! !!€ gu^Oksagis#
+! !!€ guoksagis#
 
 ! ! nom.sg
 ! !!€ dä2bmug2^VHBAR
@@ -328,7 +336,7 @@ Vx:Vy <=> _ Cns:+ VHtrig Cns:* \# ; !why doesn't \# work?
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
 %^O:a <=> Cns:* u _ G3 [:a|:o|:y|:ä|:å|:á]; 
-          Cns:* u _ noCG [:a|:o|:y|:ä|:å|:á] %^UAUML: ;
+          Cns:* u _ noCG [:a|:o|:y|:ä|:å|:á] %^G3:* %^UAUML: ;
 
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  

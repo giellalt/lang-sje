@@ -49,7 +49,7 @@ LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
 +N:^WG N_EVEN_WK ; ! ^WG necessary for words like vuodda<->vuaddag-
 
 LEXICON EVENCASE
-+Sg+Nom:^UAUML    K ;
++Sg+Nom:^UAUML%>0    K ;
 N_EVEN_ESS ; ! Essive
 
 LEXICON N_EVEN_ILL
@@ -75,7 +75,7 @@ LEXICON N_EVEN_WK
 :^IJ%>j N_EVEN_J ;
 
 LEXICON N_EVEN_J
-+Pl+Gen:    K ;
++Pl+Gen:0    K ;
 +Pl+Acc:d   K ;
 +Pl+Ine:n   K ;
 +Pl+Ela+Err/Orth:s  K ;
@@ -87,7 +87,7 @@ LEXICON N_EVEN_J
 
 
 LEXICON N_EVEN4 !mánnodak<->mánnodag-
-+N+Sg+Nom: K ;
++N+Sg+Nom:%>0 K ;
 +N+Sg+Acc:a%>v K ;
 +N+Sg+Gen:a%>0 K ;
 +N+Sg+Ill:a%>j K ;
@@ -108,7 +108,7 @@ LEXICON N_EVEN4 !mánnodak<->mánnodag-
 
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
-+N+Sg+Nom:i2s K ;
++N+Sg+Nom:i2s%>0 K ;
 +N+Sg+Acc:asa%>v K ;
 +N+Sg+Gen:asa%>0 K ;
 +N+Sg+Ill:asa%>j K ;
@@ -140,17 +140,17 @@ LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
 +N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
-+N+Sg+Nom:^WG K ;
++N+Sg+Nom:^WG%>0 K ;
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
-+N+Sg+Nom:^WG^CDEL K ;
++N+Sg+Nom:^WG^CDEL%>0 K ;
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->sarrvá-
-+N+Sg+Nom:^WG K ;
++N+Sg+Nom:^WG%>0 K ;
 +N:^V2O2U N_ODD_X ;
 +N:^V2O2U N_ODD_DIM ; !link to DIM
 
@@ -181,11 +181,11 @@ LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 ! ----------
 
 LEXICON N_CONTR_OJU !båtsoj<->buhtsu
-+N+Sg+Nom:oj^WG K ;
++N+Sg+Nom:oj^WG%>0 K ;
 N_CONTR_O ;
 
 LEXICON N_CONTR_OU !suolo<->sullu
-+N+Sg+Nom:o^WG K ;
++N+Sg+Nom:o^WG%>0 K ;
 N_CONTR_O ;
 
 LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
@@ -209,7 +209,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Pl+Com:u%>j K ;
 
 LEXICON N_CONTR_AJA !ålmaj<->ålma
-+N+Sg+Nom:a^WGj K ;
++N+Sg+Nom:a^WGj%>0 K ;
 +N+Sg+Acc:a%>v K ;
 +N+Sg+Gen:a%>0 K ;
 +N+Sg+Ill:a%>j K ;
@@ -230,7 +230,7 @@ LEXICON N_CONTR_AJA !ålmaj<->ålma
 +N+Pl+Com:a%>j K ;
 
 LEXICON N_CONTR_ESA !sarves<->sarvvá
-+N+Sg+Nom:e^WGs K ;
++N+Sg+Nom:e^WGs%>0 K ;
 +N+Sg+Acc:á%>v K ;
 +N+Sg+Gen:á%>0 K ;
 +N+Sg+Ill:á%>j K ;

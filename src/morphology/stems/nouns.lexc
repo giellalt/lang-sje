@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-17+01:00 16:46:26.879+01:00
+! Timestamp: 2016-11-18+01:00 11:40:22.353+01:00
 
 !! !!!Pite Saami nouns
 
@@ -149,7 +149,7 @@ bivvda:bivvda N_EVEN "shed" ; ! no. 90466
 bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
 blárre:blárre N_EVEN "sheet, leaf (of paper)" ; ! no. 2922
 bluvvsa:bluvvsa N_EVEN "blouse" ; ! no. 1352
-blyetjpänna:blyetj#pienna N_EVEN "pencil" ; ! no. 3739
+blyetjpänna:blyetj#pien'na N_EVEN "pencil" ; ! no. 3739
 brievva:brievva N_EVEN "letter" ; ! no. 3406
 bruddne:bruddne N_EVEN "well" ; ! no. 3453
 bruvdna:bruvdna N_EVEN "bridge" ; ! no. 3413
@@ -357,7 +357,7 @@ girra:girra N_EVEN "spring (season)" ; ! no. 636
 girragiesse:girra#giesse N_EVEN "spring summer" ; ! no. 5654
 girraåsse:girra#åsse N_EVEN "meat stored for spring" ; ! no. 3836
 girrje:girrje N_EVEN "book" ; ! no. 639
-girrkohärra:girrko#hierra N_EVEN "pastor" ; ! no. 634
+girrkohärra:girrko#hier'ra N_EVEN "pastor" ; ! no. 634
 gisstá:gisstá N_EVEN "gloves made of reindeer leather (leg leather)" ; ! no. 643
 gisstásuäjdne:gisstá#su^Ojdne N_EVEN "hay for gloves" ; ! no. 5268
 glássa:glássa N_EVEN "ice cream" ; ! no. 529
@@ -451,7 +451,7 @@ hårrte:hårrte N_EVEN "large dog" ; ! no. 4930
 häffne:hieffne N_EVEN "spider" ; ! no. 860
 häjbma:hiejbma N_EVEN "home" ; ! no. 2315
 hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
-härra:hierra N_EVEN "pastor" ; ! no. 868
+härra:hier'ra N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer, castrated reindeer" ; ! no. 870
 hässta:hiessta N_EVEN "horse" ; ! no. 4932
 hävdne:hievdne N_EVEN "spider" ; ! no. 90418
@@ -673,7 +673,7 @@ pluovve:plu^Ovve N_EVEN "tarn" ; ! no. 1351
 plåhttå:plåhttå N_EVEN "sheet metal" ; ! no. 90296
 prunnta:prunnta N_EVEN "water hole, water pit" ; ! no. 1427
 påjjkå:påjjkå N_EVEN "boy" ; ! no. 2570
-pänna:pienna N_EVEN "pen" ; ! no. 1355
+pänna:pien'na N_EVEN "pen" ; ! no. 1355
 rabma:rabma N_EVEN "little ledge" ; ! no. 6892
 ragatájjge:ragat#ájjge N_EVEN "mating season for reindeer" ; ! no. 2439
 rappte:rappte N_EVEN "forehead protection, outer hat" ; ! no. 5909
@@ -1097,7 +1097,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 äddne:ieddne N_EVEN "mother" ; ! no. 2285
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
 älbmukstivvra:älbmuk#stivvra N_EVEN "democracy" ; ! no. 3579
-ärra:ierra N_EVEN "scar" ; ! no. 4805
+ärra:ier'ra N_EVEN "scar" ; ! no. 4805
 akktagatj:akktagatj N_EVEN4 "single" ; ! no. 3991
 aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
 assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
@@ -1586,7 +1586,6 @@ biednek:biedneg2 N_ODD "money" ; ! no. 2624
 biehkátj:biehkátj N_ODD "detail, little bit" ; ! no. 3588
 bielák:bielág2 N_ODD "one of two parts" ; ! no. 5770
 biellemupjagak:biellemup#jagag2 N_ODD "eighteen-month old child" ; ! no. 6576
-biergun:biergun N_ODD "meat eater" ; ! no. 2458
 bietsek:bietseg2 N_ODD "fishtail" ; ! no. 2862
 bihtum:bihtum N_ODD "guide feather on a sea bird" ; ! no. 169
 binnátj:binnátj N_ODD "very small" ; ! no. 2029
@@ -1624,7 +1623,6 @@ dájok:dájog2 N_ODD "insane" ; ! no. 4717
 dálatj:dálatj N_ODD "nowadays, current" ; ! no. 3590
 dálkas:dálkas N_ODD "medicine" ; ! no. 317
 dállveguohtom:dállve#gu^Ohtom N_ODD "winter food for reindeer" ; ! no. 4720
-dállveguävdel:dállve#gu^Ovdel N_ODD "the middle of winter" ; ! no. 4721
 dállveiednam:dállve#iednam N_ODD "winter land" ; ! no. 90195
 dehtus:dehtus N_ODD "knowledge" ; ! no. 90321
 derik:derig2 N_ODD "shoes made of leather from reindeer legs" ; ! no. 354
@@ -1693,7 +1691,7 @@ guosatj:gu^Osatj N_ODD "light snowfall" ; ! no. 2949
 gurpak:gurpag2 N_ODD "knot" ; ! no. 712
 gusak:gusag2 N_ODD "shoe made of cowhide" ; ! no. 90222
 guähpper:gu^Ohpper N_ODD "hoof" ; ! no. 684
-guävdel:gu^Ovdel N_ODD "in the middle of the day" ; ! no. 4870
+guävvdel:gu^Ovvdel N_ODD "in the middle of the day" ; ! no. 4870
 gåhpel:gåhpel N_ODD "capercaillie hen" ; ! no. 735
 gåhttjom:gåhttjom N_ODD "command" ; ! no. 4105
 gåjgek:gåjgeg2 N_ODD "shoe made of leather from reindeer legs" ; ! no. 745
