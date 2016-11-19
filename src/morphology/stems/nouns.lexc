@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-18+01:00 11:40:22.353+01:00
+! Timestamp: 2016-11-19+01:00 16:37:13.351+01:00
 
 !! !!!Pite Saami nouns
 
@@ -90,6 +90,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ájmon:ájmon N_EVEN "in stock, left over" ; ! no. 31
 álldomällke:álldo#miellke N_EVEN "reindeer milk" ; ! no. 3837
 álldovuassta:álldo#vu^Ossta N_EVEN "reindeer cheese" ; ! no. 5933
+állge:állge N_EVEN "amateur, beginner" ; ! no. 3095
 árbeåbme:árbe#åbme N_EVEN "inheritance" ; ! no. 2732
 árranásste:árra#násste N_EVEN "morning star" ; ! no. 2995
 árrangärrge:árran#gierrge N_EVEN "stone around a fireplace" ; ! no. 69
@@ -267,7 +268,6 @@ duällje:du^Ollje N_EVEN "reindeer, moose or other hide" ; ! no. 409
 dåbbde:dåbbde N_EVEN "expert" ; ! no. 4741
 dåhpe:dåhpe N_EVEN "house" ; ! no. 416
 dåhppå:dåhppå N_EVEN "sheath" ; ! no. 3627
-dåjjdet:dåjjded2 N_EVEN "rinse, do the dishes" ; ! no. 417
 dållge:dållge N_EVEN "down, feathers" ; ! no. 419
 dållå:dållå N_EVEN "fire" ; ! no. 421
 dåresmuorra:dåres#mu^Orra N_EVEN "crossbar" ; ! no. 4731
@@ -1376,7 +1376,7 @@ fábmo:fábmo N_EVEN_O "power, strength" ; ! no. 462
 fáddno:fáddno N_EVEN_O "garden angelica" ; ! no. 4450
 fárro:fárro N_EVEN_O "accompaniment, company" ; ! no. 4189
 fuodno:fu^Odno N_EVEN_O "satan" ; ! no. 5617
-fällo:fiello N_EVEN_O "board, plank" ; ! no. 483
+fällo:fiel'lo N_EVEN_O "board, plank" ; ! no. 483
 fävvro:fievvro N_EVEN_O "skiing conditions" ; ! no. 4405
 garrdo:garrdo N_EVEN_O "body" ; ! no. 6766
 garro:garro N_EVEN_O "curse, profanity" ; ! no. 3057
@@ -1947,7 +1947,6 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 älbmuk:ä2lbmug2 N_ODD "people, crowd, public" ; ! no. 44
 ája:ádjag N_ODD_OPEN "spring, source" ; ! no. 2685
 ájjtetjåvdå:ájjte#tjåvvdåg N_ODD_OPEN "key for a shed" ; ! no. 4091
-állge:állgej N_ODD_OPEN "amateur, beginner" ; ! no. 3095
 állgotjála:állgo#tjállag N_ODD_OPEN "draft, rough copy" ; ! no. 5991
 badjemádda:badje#máddag N_ODD_OPEN "upper part of reindeer antlers" ; ! no. 2376
 biena:biednag N_ODD_OPEN "dog" ; ! no. 160
@@ -2049,7 +2048,6 @@ vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
 vijor:vidjor N_ODD_WG "order, context" ; ! no. 2126
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
-vuonjes:vu^Odnjes N_ODD_WG "mallard (duck)" ; ! no. 2185
 vuontsaåres:vuontsa#årres N_ODD_WG "rooster, cock" ; ! no. 2186
 åjjvesárjas:åjjve#sárrjas N_ODD_WG "headache" ; ! no. 2252
 åres:årres N_ODD_WG "reindeer bull" ; ! no. 5914

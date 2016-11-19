@@ -112,10 +112,9 @@ Definitions
         l l [d|j|t] |
         m m [b|g|p|s] |
         n n [d|j|t] |
-        ŋ ŋ [g|k] |
+        ŋ ŋ [g|k|n] |
         p p [s|t] |
         r r [b|d|f|g|j|k|s|t|v] |
-        r b m |
         s s [k|m|n|p|t] |
         t t k |
         v v [d|g|j|k|l|r|s] |
@@ -126,7 +125,6 @@ Definitions
         d d |
         g g |
         r b m |
-        r d n |
         r d n |
         r d n j |
         r g ŋ |
@@ -159,7 +157,21 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
 "Consonant Gradation for xdn(j):xn(j)"
 !! __@RULENAME@__  
 d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
+		Vow: _ n j Vow: Cns: %^WG: ;
      where Cx in ( j v l ) ;
+!		[#|.#.] Cns:+ Vow: _ n j Vow: Cns: %^WG: ;
+
+! !!€ #ádnjas^WG#
+! !!€ #á0njas0#
+! !!€ #ádnjasa>v#
+! !!€ #ádnjasa0v#
+! !!€ #gadnjal^WG#
+! !!€ #ga0njal0#
+! !!€ #vu^Onjes^WG#
+! !!€ #vuonjes0#
+! !!€ #vu^Onjesa>v#
+! !!€ #vuonjasa0v#
+
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
@@ -206,9 +218,9 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) %^WG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)])
           Cy in (b d g)
           matched ;
 
-"Consonant Gradation for xN:N" ! vájbmo
+"Consonant Gradation for yxN:yN" ! vájbmo
 !! __@RULENAME@__  
-Cx:0 <=> Vow [l|r|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; ! <=> Vow _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
+Cx:0 <=> Vow [l|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ;
     where Cx in (b g g )
           Cy in (m n ŋ )
           matched ;
@@ -273,29 +285,29 @@ s:t <=> _ j2: .#. ;
           matched ; 
 !This requires every root that undergoes inflection to end with a morpheme boundary, even when no suffix exists; this prevents VH in non-final compound stems (since \# wouldn't work). !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
-!!€ #ållol^WG#
-!!€ #ål0ol0#
-!!€ #ållol^V2O2Ua>v#
-!!€ #ullul0a0v#
+! !!€ #ållol^WG#
+! !!€ #ål0ol0#
+! !!€ #ållol^V2O2Ua>v#
+! !!€ #ullul0a0v#
 
-!!€ bárdne^WG>0#
-!!€ bárdne000#
-!!€ bárdne^WG^IJ>j#
-!!€ bärdni000j#
+! !!€ bárdne^WG>0#
+! !!€ bárdne000#
+! !!€ bárdne^WG^IJ>j#
+! !!€ bärdni000j#
 
-!!€ bähkkum#ståhpo^UAUML#
-!!€ bähkkum#ståhpo0#
-!!€ bähkkum#ståhpo^WG>v#
-!!€ bähkkum#stå0bo00v#
-!!€ bähkku#ståhpo^UAUML#
-!!€ bähkku#ståhpo0#
-!!€ ståhpo^WG>v#
-!!€ stå0bo00v#
+! !!€ bähkkum#ståhpo^UAUML#
+! !!€ bähkkum#ståhpo0#
+! !!€ bähkkum#ståhpo^WG>v#
+! !!€ bähkkum#stå0bo00v#
+! !!€ bähkku#ståhpo^UAUML#
+! !!€ bähkku#ståhpo0#
+! !!€ ståhpo^WG>v#
+! !!€ stå0bo00v#
 
-!!€ bajeldis#gárrvo^UAUML#
-!!€ bajeldis#gárrvo0#
-!!€ bajeldis#gárrvo^WG>v#
-!!€ bajeldis#gár0vo00v#
+! !!€ bajeldis#gárrvo^UAUML#
+! !!€ bajeldis#gárrvo0#
+! !!€ bajeldis#gárrvo^WG>v#
+! !!€ bajeldis#gár0vo00v#
 ! !!€ gárrvo^WG>v#
 ! !!€ gár0vo00v#
 
@@ -350,21 +362,31 @@ s:t <=> _ j2: .#. ;
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
 i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* %>: ; !iello->0elluj
-		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga
+		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga, siebla<->säbblag-
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
-		Cns:* _ e: noCG Vow: \%^WG: ; !bierdna->b0ärdna
-
+		Cns:* _ e: noCG Vow: \%^WG: \%^WG: ; !bierdna->b0ärdna !double \%^WG: for gierbma<->gärbmaha  (ie: neither of the two elements after V2 can be ^WG)
+		
 "Ä in G3" ! ie:0ä (bägga, bävvde); can be word-initial
 !! __@RULENAME@__  
 e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG Vow: \%^WG: ; !bierdna->b0ärdna
 
+!!€ gierbmah^WG^CDEL>0
+!!€ gierbma00000
+!!€ gierbmaha>v
+!!€ g0ärbmaha0v
+
+!!€ bierdne^WGs>0
+!!€ bierdne0s00
+!!€ bierdná>v
+!!€ b0ärdná0v
+
+
 ! !!€ ku^Ordna^UAUML
 ! !!€ kuardna0
 ! !!€ ku^Ordna^WG
 ! !!€ kuordna0
-
 
 ! !!€ hieg'ga^UAUML
 ! !!€ h0äg0ga0
