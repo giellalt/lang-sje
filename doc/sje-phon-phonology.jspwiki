@@ -36,6 +36,8 @@ __Consonant Gradation for hxx:hx__
 
 __Consonant Gradation for xdn(j):xn(j)__  
 
+
+
 __Consonant Gradation for xx:x__  
 
 __Consonant Gradation for xxy:xy__  
@@ -49,7 +51,7 @@ __Delete h in hx:y __
 
 __Intervocalic voiced plosives in hx:y __  
 
-__Consonant Gradation for xN:N __  
+__Consonant Gradation for yxN:yN __  
 
 !!Other consonant rules 
 
@@ -72,29 +74,9 @@ __Word-final De-Affricatization for tj  __
 
 __Default VH __  
 
-* __#ållol^WG# __
-* __#ål0ol0# __
-* __#ållol^V2O2Ua>v# __
-* __#ullul0a0v# __
 
-* __bárdne^WG>0# __
-* __bárdne000# __
-* __bárdne^WG^IJ>j# __
-* __bärdni000j# __
 
-* __bähkkum#ståhpo^UAUML# __
-* __bähkkum#ståhpo0# __
-* __bähkkum#ståhpo^WG>v# __
-* __bähkkum#stå0bo00v# __
-* __bähkku#ståhpo^UAUML# __
-* __bähkku#ståhpo0# __
-* __ståhpo^WG>v# __
-* __stå0bo00v# __
 
-* __bajeldis#gárrvo^UAUML# __
-* __bajeldis#gárrvo0# __
-* __bajeldis#gárrvo^WG>v# __
-* __bajeldis#gár0vo00v# __
 
 
 
@@ -112,6 +94,16 @@ __Special VH for u^O __
 __Special VH for ie __  
 
 __Ä in G3 __  
+
+* __gierbmah^WG^CDEL>0 __
+* __gierbma00000 __
+* __gierbmaha>v __
+* __g0ärbmaha0v __
+
+* __bierdne^WGs>0 __
+* __bierdne0s00 __
+* __bierdná>v __
+* __b0ärdná0v __
 
 
 
