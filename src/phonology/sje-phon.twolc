@@ -58,7 +58,7 @@ Sets
              b2 d2 g2 t2 j2 h2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
                            i2              %^O         u2            ä2 ;
-  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IUML %^IJ %^V2O2U %^VHBAR ;
+  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
 
@@ -99,7 +99,7 @@ Definitions
         b d n |
         d d [g|j|n] |
         d t [j|s] |
-        f f t |
+        f f [t|n] |
         g g d |
         g g ŋ |
         h [k k|p p|t t] |
@@ -161,6 +161,14 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( j v l ) ;
 !		[#|.#.] Cns:+ Vow: _ n j Vow: Cns: %^WG: ;
 
+! !!€ jalgŋe^WGs>0
+! !!€ jalgŋe0s00
+! !!€ jalgŋá>v
+! !!€ jalgŋá0v
+
+! !!€ gållmes^WG>0
+! !!€ gå0lmes^WG>0
+
 ! !!€ #ádnjas^WG#
 ! !!€ #á0njas0#
 ! !!€ #ádnjasa>v#
@@ -218,12 +226,14 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) %^WG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)])
           Cy in (b d g)
           matched ;
 
-"Consonant Gradation for yxN:yN" ! vájbmo
+"Consonant Gradation for l/jbm:l/jm" 
 !! __@RULENAME@__  
-Cx:0 <=> Vow [l|v|j] _ Cy Vow: Cns:* ( Dummy: ) %^WG: ;
-    where Cx in (b g g )
-          Cy in (m n ŋ )
-          matched ;
+b:0 <=> Vow [l|j] _ m Vow: Cns:* ( Dummy: ) %^WG: ; ! vájbmo, njálbme
+
+"Consonant Gradation for vgŋ:vŋ" 
+!! __@RULENAME@__  
+g:0 <=> Vow v _ n Vow: Cns:* ( Dummy: ) %^WG: ; ! ávgŋot (unsure about this word!)
+
 
 !! !!Other consonant rules 
 ! =====================
