@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-19+01:00 16:37:13.351+01:00
+! Timestamp: 2016-11-19+01:00 17:46:22.87+01:00
 
 !! !!!Pite Saami nouns
 
@@ -1677,7 +1677,6 @@ giesseiednam:giesse#iednam N_ODD "summer land" ; ! no. 6059
 gietkam:gietkam N_ODD "Saami cradle" ; ! no. 623
 gietsol:gietsol N_ODD "snail" ; ! no. 4544
 gistotj:gistotj N_ODD "little box" ; ! no. 6048
-guaktás:gu^Oktás N_ODD "twosome" ; ! no. 90200
 guarrbaiednam:guarrba#iednam N_ODD "burned land" ; ! no. 651
 gudájagak:gudá#jagag2 N_ODD "six-year-old" ; ! no. 656
 guhtik:guhtig2 N_ODD "someone, anyone" ; ! no. 5277
@@ -2000,6 +1999,7 @@ gillar:gil'lar N_ODD_WG "trap" ; ! no. 4628
 ginij:gidnij N_ODD_WG "invisible subterranean being" ; ! no. 90206
 gintal:ginntal N_ODD_WG "candle" ; ! no. 632
 guobbar:gu^Obbar N_ODD_WG "mushroom" ; ! no. 679
+guoktás:gu^Oktás N_ODD_WG "twosome" ; ! no. 90200
 guolban:gu^Ollban N_ODD_WG "flat pine heath" ; ! no. 692
 guolmas:gu^Olbmas N_ODD_WG "a pine tree's white inner bark" ; ! no. 6555
 guosmak:gu^Ossmag2 N_ODD_WG "coffee" ; ! no. 706
