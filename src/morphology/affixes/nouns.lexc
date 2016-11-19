@@ -46,7 +46,7 @@ LEXICON N_EVEN_O ! rássjo-variant rässjuj
 LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
 +N:^G3 EVENCASE ;
 +N:^G3 N_EVEN_ILL ;
-+N:^WG N_EVEN_WK ; ! ^WG necessary for words like vuodda<->vuaddag-
++N:^WG N_EVEN_WK ; !
 
 LEXICON EVENCASE
 +Sg+Nom:^UAUML%>0    K ;
@@ -149,7 +149,7 @@ LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
-LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- !!What about sarves->sarrvá-
+LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- 
 +N+Sg+Nom:^WG%>0 K ;
 +N:^V2O2U N_ODD_X ;
 +N:^V2O2U N_ODD_DIM ; !link to DIM
