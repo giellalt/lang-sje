@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-19+01:00 22:12:06.718+01:00
+! Timestamp: 2016-11-20+01:00 13:49:00.733+01:00
 
 !! !!!Pite Saami nouns
 
@@ -47,7 +47,7 @@ bierdnes:bierdn N_CONTR_ESA "mid-plate on skis where shoes are placed" ; ! no. 3
 giehpes:giehpp N_CONTR_ESA "lung" ; ! no. 608
 jalgŋes:jalgŋ N_CONTR_ESA "upright tree stump" ; ! no. 920
 muolvaksarves:muolvak#sarrv N_CONTR_ESA "wild reindeer buck" ; ! no. 3835
-plásses:pláss N_CONTR_ESA "stone slab" ; ! no. 1349
+plásses:plás's N_CONTR_ESA "stone slab" ; ! no. 1349
 sarves:sarrv N_CONTR_ESA "uncastrated reindeer buck" ; ! no. 1515
 tjievres:tjievvr N_CONTR_ESA "otter" ; ! no. 1906
 vielmes:vielbm N_CONTR_ESA "stretch of smooth water" ; ! no. 90388
@@ -78,8 +78,8 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 áhkarmuärrje:áhkar#mu^Orrje N_EVEN "arctic raspberry" ; ! no. 5955
 áhkka:áhkka N_EVEN "grandmother, closely related older female family members, goddess" ; ! no. 11
-áhpa:áhppa N_EVEN "ape, monkey" ; ! no. 3125
 áhpe:áhpe N_EVEN "big marsh" ; ! no. 13
+áhppa:áhppa N_EVEN "ape, monkey" ; ! no. 3125
 áhttje:áhttje N_EVEN "father, dad" ; ! no. 16
 ájatjáhtse:ája#tjáhtse N_EVEN "spring water" ; ! no. 2688
 ájjá:ájjá N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
@@ -363,7 +363,7 @@ grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
 guabbla:gu^Obbla N_EVEN "cornice, hanging ice in a stream" ; ! no. 3540
 guadna:gu^Odna N_EVEN "female genitals" ; ! no. 90498
 guallga:gu^Ollga N_EVEN "fur" ; ! no. 2871
-guanna:gu^Onna N_EVEN "female genitals" ; ! no. 4881
+guanna:gu^On'na N_EVEN "female genitals" ; ! no. 4881
 guappsa:gu^Oppsa N_EVEN "milt" ; ! no. 4370
 guarrba:gu^Orrba N_EVEN "burned area (from forest fire)" ; ! no. 650
 guarrga:gu^Orrga N_EVEN "crane (bird)" ; ! no. 652
@@ -484,7 +484,7 @@ jåvvlå:jåvvlå N_EVEN "Christmas" ; ! no. 963
 jåvvlåguossa:jåvvlå#gu^Ossa N_EVEN "Christmas tree" ; ! no. 2484
 jåvvlåidja:jåvvlå#idja N_EVEN "Christmas night" ; ! no. 5860
 jäggemuärrje:jägge#mu^Orrje N_EVEN "bog cranberry" ; ! no. 90223
-järre:jierre N_EVEN "currant" ; ! no. 969
+järre:jier're N_EVEN "currant" ; ! no. 969
 järrja:jierrja N_EVEN "alpine sow thistle" ; ! no. 970
 jässka:jiesska N_EVEN "large abscess" ; ! no. 2475
 jävvja:jievvja N_EVEN "white (for reindeer)" ; ! no. 6592
@@ -535,7 +535,6 @@ libbja:libbja N_EVEN "hanging decoration" ; ! no. 1033
 lidjá:lidjá N_EVEN "scythe" ; ! no. 4498
 liebma:liebma N_EVEN "bouillon, broth" ; ! no. 2503
 liehke:liehke N_EVEN "dip in the ground" ; ! no. 1029
-liehppa:liehppa N_EVEN "shed, shack" ; ! no. 3193
 lierra:lierra N_EVEN "leather" ; ! no. 6565
 lihtte:lihtte N_EVEN "container, bowl" ; ! no. 1044
 lijdne:lijdne N_EVEN "scarf, cloth" ; ! no. 1047
@@ -544,7 +543,6 @@ limblánijjbe:limblá#nijjbe N_EVEN "butcher knife" ; ! no. 3031
 luakkta:lu^Okkta N_EVEN "bay" ; ! no. 2317
 luorra:lu^Orra N_EVEN "ammunition, shot" ; ! no. 1069
 luossa:lu^Ossa N_EVEN "salmon" ; ! no. 1070
-luovdnje:lu^Ovdnje N_EVEN "the four predatory animals" ; ! no. 4531
 luovve:lu^Ovve N_EVEN "storage building on stilts" ; ! no. 1072
 lurrka:lurrka N_EVEN "small firearm such as a saloon rifle" ; ! no. 5460
 lusspe:lusspe N_EVEN "beginning of rapids" ; ! no. 1077
@@ -558,6 +556,7 @@ låhpe:låhpe N_EVEN "pledge, promise; vacation" ; ! no. 912
 låjjte:låjjte N_EVEN "wolfpack" ; ! no. 1093
 låpptå:låpptå N_EVEN "plateau, ledge" ; ! no. 4361
 lårrå:lårrå N_EVEN "box, case" ; ! no. 6095
+lähppa:liehppa N_EVEN "shed, shack" ; ! no. 3193
 lähttse:liehttse N_EVEN "willow bark" ; ! no. 6759
 läjjbe:liejjbe N_EVEN "alder" ; ! no. 1101
 läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
@@ -815,8 +814,8 @@ snårre:snårre N_EVEN "tangle, mess, problem" ; ! no. 1706
 spáhkke:spáhkke N_EVEN "unruly reindeer" ; ! no. 3638
 spárrá:spárrá N_EVEN "stick or pin for stretching hide to dry" ; ! no. 2885
 spávvte:spávvte N_EVEN "most lively mating season for reindeer" ; ! no. 1716
-spiellka:spiellka N_EVEN "spatula, baking board" ; ! no. 1724
 spissa:spis'sa N_EVEN "stove" ; ! no. 1723
+spjällka:spjiellka N_EVEN "spatula, baking board" ; ! no. 1724
 spävvtja:spievvtja N_EVEN "ghost, specter" ; ! no. 1726
 stáhtta:stáhtta N_EVEN "state, government" ; ! no. 4167
 stálle:stálle N_EVEN "steel" ; ! no. 1730
@@ -851,7 +850,7 @@ suodja:su^Odja N_EVEN "net hook" ; ! no. 1762
 suodje:su^Odje N_EVEN "leeward side" ; ! no. 1763
 suodna:su^Odna N_EVEN "tendon" ; ! no. 1764
 suogŋonåjjve:suogŋon#åjjve N_EVEN "spokesperson for a suitor" ; ! no. 2998
-suohppa:su^Ohppa N_EVEN "reindeer doe which abandons its newborn calf" ; ! no. 2014
+suohpa:su^Ohpa N_EVEN "reindeer doe which abandons its newborn calf" ; ! no. 2014
 suollemálle:suolle#málle N_EVEN "thin blood" ; ! no. 2864
 suovasguolle:suovas#gu^Olle N_EVEN "smoked fish" ; ! no. 5151
 suovva:su^Ovva N_EVEN "smoke" ; ! no. 1778
@@ -921,7 +920,6 @@ tjivvda:tjivvda N_EVEN "smell and taste of reindeer in rut" ; ! no. 4413
 tjivvle:tjivvle N_EVEN "floater, bobber" ; ! no. 1981
 tjuajjka:tju^Ojjka N_EVEN "mosquito" ; ! no. 1912
 tjualbma:tju^Olbma N_EVEN "knot" ; ! no. 4540
-tjuantjom:tju^Ontjom N_EVEN "upper marrowbone on the back leg of a reindeer" ; ! no. 3767
 tjuavvga:tju^Ovvga N_EVEN "light" ; ! no. 2454
 tjuavvtja:tju^Ovvtja N_EVEN "whitefish" ; ! no. 1954
 tjuhppa:tjuhppa N_EVEN "cap" ; ! no. 1921
@@ -1851,15 +1849,15 @@ tjállem:tjállem N_ODD "written material, writing" ; ! no. 5279
 tjejjsár:tjejjsár N_ODD "emperor" ; ! no. 5901
 tjiebot:tjiebod2 N_ODD "throat" ; ! no. 1900
 tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and forehead" ; ! no. 2563
+tjiehtar:tjiehtar N_ODD "servant" ; ! no. 4377
 tjiehtsev:tjiehtsev N_ODD "niece, nephew (brother’s child)" ; ! no. 3417
-tjiehttar:tjiehttar N_ODD "servant" ; ! no. 4377
 tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
 tjillik:tjillig2 N_ODD "baby goat, kid" ; ! no. 5216
+tjuanntjom:tju^Onntjom N_ODD "upper marrowbone on the back leg of a reindeer" ; ! no. 3767
 tjujjvis:tjujjvis N_ODD "dark grey reindeer" ; ! no. 1931
 tjulgum:tjulgum N_ODD "side piece under the shaft of a Saami shoe" ; ! no. 1935
 tjuodnam:tju^Odnam N_ODD "spark that floats up in smoke" ; ! no. 90364
-tjuojgus:tju^Ojgus N_ODD "skiing competition" ; ! no. 1929
 tjuovok:tju^Ovog2 N_ODD "reindeer following the lead reindeer" ; ! no. 3304
 tjuruk:tjurug2 N_ODD "flesh fly" ; ! no. 1945
 tjåhkem:tjåhkem N_ODD "collection, pile, gathering" ; ! no. 3926
@@ -1885,7 +1883,6 @@ váhtam:váhtam N_ODD "small snack" ; ! no. 90571
 váhtjam:váhtjam N_ODD "reindeer cow" ; ! no. 2055
 váras:váras N_ODD "homespun cloth" ; ! no. 392
 vidak:vidag2 N_ODD "five crown coin" ; ! no. 4051
-vieddek:vieddeg2 N_ODD "braided rein made of roots" ; ! no. 3826
 viejek:viejeg2 N_ODD "fish larva, young fish" ; ! no. 2117
 vieljatj:vieljatj N_ODD "brother" ; ! no. 90384
 vienak:vienag2 N_ODD "friend" ; ! no. 2353
@@ -1895,7 +1892,6 @@ viessoj:viessoj N_ODD "a living being" ; ! no. 90377
 viessom:viessom N_ODD "life, lifestyle" ; ! no. 5453
 vilguk:vilgug2 N_ODD "white reindeer, also referring to white reindeer hide shoes" ; ! no. 2119
 vinndek:vinndeg2 N_ODD "window" ; ! no. 2128
-vuaffal:vu^Offal N_ODD "waffle" ; ! no. 6578
 vuobmebuollem:vuobme#bu^Ollem N_ODD "forest fire" ; ! no. 3400
 vuodjej:vu^Odjej N_ODD "driver, chauffeur" ; ! no. 3523
 vuoján:vu^Oján N_ODD "snowmobile, four-wheeler, vehicle" ; ! no. 90573
@@ -2023,6 +2019,7 @@ vanas:vadnas N_ODD_WG "boat, canoe" ; ! no. 2079
 vidas:vihtas N_ODD_WG "fivesome" ; ! no. 5439
 vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
 vijor:vidjor N_ODD_WG "order, context" ; ! no. 2126
+vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
 vuontsaåres:vuontsa#årres N_ODD_WG "rooster, cock" ; ! no. 2186
