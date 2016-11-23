@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-23+01:00 17:15:09.417+01:00
+! Timestamp: 2016-11-23+01:00 17:46:54.505+01:00
 
 !! !!!Pite Saami nouns
 
@@ -505,6 +505,7 @@ juällgetjuvvde:juällge#tjuvvde N_EVEN "toe" ; ! no. 947
 jåden:jåden N_EVEN "during migration/move" ; ! no. 6769
 jågŋå:jågŋå N_EVEN "lingonberry" ; ! no. 950
 jåhkå:jåhkå N_EVEN "stream, creek" ; ! no. 3434
+jåssjå:jåssjå N_EVEN "Joshua" ; ! no. 90628
 jåvvlå:jåvvlå N_EVEN "Christmas" ; ! no. 963
 jåvvlåguossa:jåvvlå#gu^Ossa N_EVEN "Christmas tree" ; ! no. 2484
 jåvvlåidja:jåvvlå#idja N_EVEN "Christmas night" ; ! no. 5860
