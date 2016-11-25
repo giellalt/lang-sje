@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-25+01:00 15:59:34.746+01:00
+! Timestamp: 2016-11-25+01:00 16:25:27.416+01:00
 
 !! !!!Pite Saami nouns
 
@@ -61,17 +61,26 @@ guolmoj:gu^Olbm N_CONTR_OJU "dusk" ; ! no. 699
 gåggoj:gågg N_CONTR_OJU "larynx" ; ! no. 2846
 guokso:gu^Okks N_CONTR_OU "dawn" ; ! no. 690
 suolo:su^Oll N_CONTR_OU "island" ; ! no. 1771
+adjektijjva:adjektijjva N_EVEN "adjective" ; ! no. 3112
 adnemräkta:adnem#rä2kta N_EVEN "right of use" ; ! no. 4581
 adrässa:adries'sa N_EVEN "address" ; ! no. 2683
 adverba:adverba N_EVEN "adverb" ; ! no. 3113
+advokáhtta:advokáhtta N_EVEN "lawyer" ; ! no. 3114
 ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 ajbme:ajbme N_EVEN "leather needle" ; ! no. 4204
+akkusatijjva:akkusatijjva N_EVEN "accusative" ; ! no. 3115
 aksjovdna:aksjovdna N_EVEN "auction" ; ! no. 3145
 albme:albme N_EVEN "sky, heavens, space" ; ! no. 43
 alesgiehtje:ales#giehtje N_EVEN "" ; ! no. 5945
+alfabehta:alfabehta N_EVEN "alphabet" ; ! no. 3085
 allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 4212
 allavárre:alla#várre N_EVEN "alpine mountain" ; ! no. 6838
+alumijjna:alumijjna N_EVEN "aluminium" ; ! no. 3094
+anarkiddja:anarkiddja N_EVEN "anarchy" ; ! no. 3099
 antänna:antien'na N_EVEN "antenna" ; ! no. 3122
+anuráhkka:anuráhkka N_EVEN "anorak" ; ! no. 3108
+apparahtta:apparahtta N_EVEN "device, machine" ; ! no. 3126
+appelsijdna:appelsijdna N_EVEN "orange (fruit)" ; ! no. 3124
 arrabävvla:arra#bievvla N_EVEN "bare ground early in the season" ; ! no. 6844
 asjmen:asjmen N_EVEN "bitter and disappointed" ; ! no. 3134
 asmen:asmen N_EVEN "displeased" ; ! no. 3541
@@ -138,6 +147,7 @@ bassåjjve:bass#åjjve N_EVEN "" ; ! no. 6641
 bádne:bádne N_EVEN "tooth" ; ! no. 97
 báhkka:báhkka N_EVEN "warmth, heat" ; ! no. 107
 báhtaramsadje:báhtaram#sadje N_EVEN "refuge" ; ! no. 6081
+báhtteriddja:báhtteriddja N_EVEN "battery" ; ! no. 3224
 bájjke:bájjke N_EVEN "area, place" ; ! no. 122
 bájjkenamma:bájjke#namma N_EVEN "place name" ; ! no. 4678
 bákkte:bákkte N_EVEN "cliff" ; ! no. 123
@@ -147,6 +157,7 @@ báŋŋka:báŋŋka N_EVEN "bank" ; ! no. 3211
 báŋŋkagirrje:báŋŋka#girrje N_EVEN "bankbook" ; ! no. 3212
 bárrde:bárrde N_EVEN "bowed part of a boat’s keel" ; ! no. 2804
 bensijdna:bensijdna N_EVEN "gasoline, petrol" ; ! no. 3250
+biblotehka:biblotehka N_EVEN "library" ; ! no. 3308
 biehtse:biehtse N_EVEN "pine tree" ; ! no. 2680
 biehtsevuobme:biehtse#vu^Obme N_EVEN "pine forest" ; ! no. 6075
 biejvebielle:biejve#bielle N_EVEN "sunny side" ; ! no. 2523
@@ -158,6 +169,7 @@ bijjla:bijjla N_EVEN "car" ; ! no. 180
 biljähtta:biljiehtta N_EVEN "ticket" ; ! no. 3310
 billga:billga N_EVEN "braid of shoe hay" ; ! no. 5660
 billsamiesse:billsa#miesse N_EVEN "reindeer calf in August with full fur" ; ! no. 183
+biologija:biologija N_EVEN "biology" ; ! no. 3312
 bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 birre:birre N_EVEN "bear" ; ! no. 2357
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
@@ -190,6 +202,7 @@ buohtsa:bu^Ohtsa N_EVEN "small round bone between femur and marrowbone" ; ! no. 
 burra:bur'ra N_EVEN "storage pit" ; ! no. 5830
 burrne:burrne N_EVEN "cellar made of rocks or earth" ; ! no. 221
 bussa:bus'sa N_EVEN "bus" ; ! no. 222
+butanijjka:butanijjka N_EVEN "botany" ; ! no. 3394
 butsusjuällge:butsus#ju^Ollge N_EVEN "bare leg, bare-legged" ; ! no. 5743
 buvdna:buvdna N_EVEN "village, community" ; ! no. 191
 buvvda:buvvda N_EVEN "shed" ; ! no. 2892
@@ -256,6 +269,9 @@ dámakhärrge:dámak#hierrge N_EVEN "tame reindeer bull" ; ! no. 2844
 dássa:dás'sa N_EVEN "toilet" ; ! no. 842
 dávvda:dávvda N_EVEN "illness, sickness, disease" ; ! no. 344
 dávvle:dávvle N_EVEN "roll or ball of birch bark used as kindling" ; ! no. 2947
+departemännta:departemiennta N_EVEN "department" ; ! no. 3583
+diagramma:diagramma N_EVEN "diagram" ; ! no. 3594
+diamannta:diamannta N_EVEN "diamond" ; ! no. 3593
 dielle:dielle N_EVEN "compact snow without crust and only in the mountains" ; ! no. 3759
 dierre:dierre N_EVEN "middle layer of cowhide with a seam against the outer part of shoes" ; ! no. 4316
 dievvá:dievvá N_EVEN "hill, slope" ; ! no. 357
@@ -818,6 +834,7 @@ siegŋa:siegŋa N_EVEN "nostril" ; ! no. 1525
 siehka:siehka N_EVEN "shade" ; ! no. 5181
 siessa:siessa N_EVEN "paternal aunt" ; ! no. 1532
 sievva:sievva N_EVEN "ocean, sea" ; ! no. 1533
+sigarähtta:sigariehtta N_EVEN "cigarette" ; ! no. 3524
 sijjda:sijjda N_EVEN "family of reindeer herders and the place they live, their migration paths and settlement area" ; ! no. 3512
 sillba:sillba N_EVEN "silver" ; ! no. 1541
 sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 1543
@@ -989,6 +1006,7 @@ särrga:sierrga N_EVEN "willow" ; ! no. 1845
 tahka:tahka N_EVEN "roof" ; ! no. 5175
 táhttja:táhttja N_EVEN "roof" ; ! no. 1846
 tea:tea N_EVEN "tea" ; ! no. 90614
+telefona:telefona N_EVEN "telephone" ; ! no. 1847
 tijbma:tijbma N_EVEN "hour" ; ! no. 1848
 tjadná:tjadná N_EVEN "birch polypore (mushroom)" ; ! no. 1854
 tjakktja:tjakktja N_EVEN "autumn" ; ! no. 1866
@@ -1179,6 +1197,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
 älbmukstivvra:älbmuk#stivvra N_EVEN "democracy" ; ! no. 3579
 ärra:ier'ra N_EVEN "scar" ; ! no. 4805
+akademiker:akademiker N_EVEN4 "academic" ; ! no. 3079
 akktagatj:akktagatj N_EVEN4 "single" ; ! no. 3991
 aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
 assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
@@ -1895,7 +1914,6 @@ nuortok:nu^Ortog2 N_ODD "North Saami" ; ! no. 5027
 perun:perun N_ODD "potato" ; ! no. 1346
 plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
-profässor:profä2ssor N_ODD "professor" ; ! no. 4268
 pruvnok:pruvnog2 N_ODD "braided rein made of eight leather strips" ; ! no. 4059
 ragat:ragad2 N_ODD "mating, breeding" ; ! no. 90383
 randek:randeg2 N_ODD "antler with many forward-facing points " ; ! no. 6894
