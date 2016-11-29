@@ -22,6 +22,94 @@
 ! ===== !
 
 
+!! !!!Even syllabled verbs
+
+LEXICON V_EVEN_O !viessot, årrot
++V:     V_EVEN_O_STR ;
++V:^WG V_EVEN_O_WK ;
+
+LEXICON V_EVEN_O_STR
+
++Inf:o%>t # ; 
++GerII:o%>min # ;
++PrfPrc:u%>m # ;
+!+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
++Imp+Du2:o%>n # ; 
++Imp+Pl2:o%>t #;
++Vsubst:o%>m #; 
+
++Ind+Prs+Sg3:o%>0 #;
++Ind+Prs+Du1:o%>n #; 
+!+Ind+Prs+Du2:o%>behtin #;
++Ind+Prs+Du2:o%>bähtten #;
++Ind+Prs+Du3:o%>ba #;
++Ind+Prs+Pl1:o%>p #;
+!+Ind+Prs+Pl2:o%>bihtit #;
++Ind+Prs+Pl2:o%>bähttit #;
++Ind+Prs+Pl3:o%>0 #; 
++Ind+Prt+Sg1:o%>v #; 
++Ind+Prt+Sg2:o%>0 #; 
++Ind+Prt+Pl3:o%>n #; 
+
+LEXICON V_EVEN_O_WK
++GerI:o%>din # ;  
++Sup:o%>tjit # ;
++Neg:o%>0 # ; 
+!+Pot:o%>otj V_ODD_IND_PRS ; !update later
++Imp+Sg2:o%>0 #; 
++Vgen:o%>0 #;  
+
++Ind+Prs+Sg1:o%>v #;
++Ind+Prs+Sg2:o%>0 #;
++Ind+Prt+Sg3:o%>j #;
++Ind+Prt+Du1:o%>jmen #;
++Ind+Prt+Du2:o%>jden #;
++Ind+Prt+Du3:o%>jga #;
++Ind+Prt+Pl1:o%>jme #;
++Ind+Prt+Pl2:o%>jde #;
+
+
+
+!! !!!Odd syllabled verbs
+
+LEXICON V_ODD !ságastit
++Inf:i%>t # ; 
++GerII:a%>min # ;
++PrfPrc:a%>m # ;
+!+PrsPrc:o%>0 # ; 
++Imp+Sg2:e%>0 #; 
++Imp+Du2:ä%>hten # ; 
++Imp+Pl2:ä%>htet #;
+!+Vsubst:a%>m #; 
+!+GerI:a%>din # ;  
+!+Sup:a%>tjit # ;
++Neg:e%>0 # ; 
+!+Pot:o%>otj V_ODD_IND_PRS ; !update later
+!+Vgen:e%>0 #;  
+
++Ind+Prs+Sg1:%a%>v #;
++Ind+Prs+Sg2:a%>0 #;
++Ind+Prs+Sg3:a%>0 #;
++Ind+Prs+Du1:e%>n #; 
++Ind+Prs+Du2:ä%>hpen #;
++Ind+Prs+Du3:ä%>ba #;
++Ind+Prs+Pl1:e%>p #;
++Ind+Prs+Pl2:e%>hpit #;
++Ind+Prs+Pl3:e%>0 #; 
+
++Ind+Prt+Sg1:i%>jiv #; 
++Ind+Prt+Sg2:i%>je #; 
++Ind+Prt+Sg3:i%>j #;
++Ind+Prt+Du1:i%>jmen #;
++Ind+Prt+Du2:i%>jden #;
++Ind+Prt+Du3:i%>jga #;
++Ind+Prt+Pl1:i%>jme #;
++Ind+Prt+Pl2:i%>jde #;
++Ind+Prt+Pl3:e%>n #; 
+
+
+
+
 
 
 !! !!!Auxiliaries
