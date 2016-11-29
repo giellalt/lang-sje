@@ -9,21 +9,21 @@ Config:
 
 Tests:
 
-  Noun - åsestäddje: # N_AGENT (CG and VH)
-    åsestäddje+N+Der/Ag+N+Sg+Nom: åsestäddje
-    åsestäddje+N+Der/Ag+N+Sg+Gen: åsestiedje
-    åsestäddje+N+Der/Ag+N+Sg+Acc: åsestiedjev
-    åsestäddje+N+Der/Ag+N+Sg+Ill: åsestäddjáj
-    åsestäddje+N+Der/Ag+N+Sg+Ine: åsestiedjen
-    åsestäddje+N+Der/Ag+N+Sg+Ela: åsestiedjest
-    åsestäddje+N+Der/Ag+N+Sg+Com: [åsestedjijn, åsestedjijna]
-    åsestäddje+N+Der/Ag+N+Pl+Nom: åsestiedje
-    åsestäddje+N+Der/Ag+N+Pl+Gen: åsestedjij
-    åsestäddje+N+Der/Ag+N+Pl+Acc: åsestedjijd
-    åsestäddje+N+Der/Ag+N+Pl+Ill: åsestedjijda
-    åsestäddje+N+Der/Ag+N+Pl+Ine: åsestedjijn
-    åsestäddje+N+Der/Ag+N+Pl+Ela: åsestedjijst
-    åsestäddje+N+Der/Ag+N+Pl+Com: åsestedjij
-    åsestäddje+N+Der/Ag+N+Ess: åsestäddjen
+  Noun - åsest: # root for agent-noun (CG and VH)
+    åsest+N+Der/Ag+N+Sg+Nom: åsestäddje
+    åsest+N+Der/Ag+N+Sg+Gen: åsestiedje
+    åsest+N+Der/Ag+N+Sg+Acc: åsestiedjev
+    åsest+N+Der/Ag+N+Sg+Ill: åsestäddjáj
+    åsest+N+Der/Ag+N+Sg+Ine: åsestiedjen
+    åsest+N+Der/Ag+N+Sg+Ela: åsestiedjest
+    åsest+N+Der/Ag+N+Sg+Com: [åsestedjijn, åsestedjijna]
+    åsest+N+Der/Ag+N+Pl+Nom: åsestiedje
+    åsest+N+Der/Ag+N+Pl+Gen: åsestedjij
+    åsest+N+Der/Ag+N+Pl+Acc: åsestedjijd
+    åsest+N+Der/Ag+N+Pl+Ill: åsestedjijda
+    åsest+N+Der/Ag+N+Pl+Ine: åsestedjijn
+    åsest+N+Der/Ag+N+Pl+Ela: åsestedjijst
+    åsest+N+Der/Ag+N+Pl+Com: åsestedjij
+    åsest+N+Der/Ag+N+Ess: åsestäddjen
  
  
