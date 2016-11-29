@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - åsestäddje: # N_AGENT (CG and VH)
+    åsestäddje+N+Der/Ag+N+Sg+Nom: åsestäddje
+    åsestäddje+N+Der/Ag+N+Sg+Gen: åsestiedje
+    åsestäddje+N+Der/Ag+N+Sg+Acc: åsestiedjev
+    åsestäddje+N+Der/Ag+N+Sg+Ill: åsestäddjáj
+    åsestäddje+N+Der/Ag+N+Sg+Ine: åsestiedjen
+    åsestäddje+N+Der/Ag+N+Sg+Ela: åsestiedjest
+    åsestäddje+N+Der/Ag+N+Sg+Com: [åsestedjijn, åsestedjijna]
+    åsestäddje+N+Der/Ag+N+Pl+Nom: åsestiedje
+    åsestäddje+N+Der/Ag+N+Pl+Gen: åsestedjij
+    åsestäddje+N+Der/Ag+N+Pl+Acc: åsestedjijd
+    åsestäddje+N+Der/Ag+N+Pl+Ill: åsestedjijda
+    åsestäddje+N+Der/Ag+N+Pl+Ine: åsestedjijn
+    åsestäddje+N+Der/Ag+N+Pl+Ela: åsestedjijst
+    åsestäddje+N+Der/Ag+N+Pl+Com: åsestedjij
+    åsestäddje+N+Der/Ag+N+Ess: åsestäddjen
+ 
+ 
