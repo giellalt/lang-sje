@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - gieres: # root for agent-noun (CG and VH)
+    gieres+N+Der/State+N+Sg+Nom: gieresvuohta
+    gieres+N+Der/State+N+Sg+Gen: gieresvuoda
+    gieres+N+Der/State+N+Sg+Acc: gieresvuodav
+    gieres+N+Der/State+N+Sg+Ill: gieresvuohtaj
+    gieres+N+Der/State+N+Sg+Ine: gieresvuodan
+    gieres+N+Der/State+N+Sg+Ela: gieresvuodast
+    gieres+N+Der/State+N+Sg+Com: [gieresvuodajn, gieresvuodajna]
+    gieres+N+Der/State+N+Pl+Nom: gieresvuoda
+    gieres+N+Der/State+N+Pl+Gen: gieresvuodaj
+    gieres+N+Der/State+N+Pl+Acc: gieresvuodajd
+    gieres+N+Der/State+N+Pl+Ill: gieresvuodajda
+    gieres+N+Der/State+N+Pl+Ine: gieresvuodajn
+    gieres+N+Der/State+N+Pl+Ela: gieresvuodajst
+    gieres+N+Der/State+N+Pl+Com: gieresvuodaj
+    gieres+N+Der/State+N+Ess: gieresvuohtan
+ 
+ 
