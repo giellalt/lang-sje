@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-29+01:00 15:19:01.644+01:00
+! Timestamp: 2016-11-29+01:00 16:37:25.08+01:00
 
 !! !!!Pite Saami nouns
 
@@ -703,6 +703,7 @@ muorragåhte:muorra#gåhte N_EVEN "woodshed" ; ! no. 3361
 muorrajuällge:muorra#ju^Ollge N_EVEN "wooden leg" ; ! no. 6845
 muossá:mu^Ossá N_EVEN "maternal aunt (younger than mother)" ; ! no. 1183
 murrumbällje:murrum#biellje N_EVEN "shriveled ear" ; ! no. 6126
+musea:musea N_EVEN "museum" ; ! no. 90636
 muvvra:muvvra N_EVEN "wall" ; ! no. 5938
 muärrje:mu^Orrje N_EVEN "berry" ; ! no. 1195
 muärrke:mu^Orrke N_EVEN "isthmus" ; ! no. 90462
@@ -877,6 +878,7 @@ sillba:sillba N_EVEN "silver" ; ! no. 1541
 sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 1543
 sillbajåhkå:sillba#jåhkå N_EVEN "" ; ! no. 5684
 sillbakruähkke:sillba#kru^Ohkke N_EVEN "silver eyelet" ; ! no. 1544
+sillbamusea:sillba#musea N_EVEN "the Silver Museum" ; ! no. 1545
 sillda:sillda N_EVEN "herring" ; ! no. 1546
 sirre:sirre N_EVEN "cheese rack " ; ! no. 3436
 sjalbme:sjalbme N_EVEN "eye of a needle" ; ! no. 1554
@@ -1742,6 +1744,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 alltar:alltar N_ODD "altar" ; ! no. 3799
 almatj:almatj N_ODD "human, person" ; ! no. 54
+ananas:ananas N_ODD "pineapple" ; ! no. 3097
 arram:arram N_ODD "marrowbone" ; ! no. 90202
 áddjov:áddjov N_ODD "grandchild" ; ! no. 5
 ájajågåtj:ája#jågåtj N_ODD "small stream fed by a spring" ; ! no. 2687
@@ -1970,6 +1973,7 @@ nuortok:nu^Ortog2 N_ODD "North Saami" ; ! no. 5027
 perun:perun N_ODD "potato" ; ! no. 1346
 plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
+profässor:profä2ssor N_ODD "professor" ; ! no. 4268
 pruvnok:pruvnog2 N_ODD "braided rein made of eight leather strips" ; ! no. 4059
 ragat:ragad2 N_ODD "mating, breeding" ; ! no. 90383
 randek:randeg2 N_ODD "antler with many forward-facing points " ; ! no. 6894
