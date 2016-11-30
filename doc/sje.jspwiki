@@ -42,16 +42,17 @@ Semantic properties of names
                 be used alone, but can appear in any position
 
 
- ^WG     * weak grade
+ ^WG      * weak grade
  ^G3      * marks grade three for stems w/o Cgrad
- ^V2E2AA  * e to á (before j), o to u before j
+ ^V2E2AA  * e to á (before j), o to u before j in V2
+ ^V2E2A : e to a in V2 (V_EVEN_E 1/2Sg)
  ^CDEL    * Deleting final consonant, biednag
  ^MON     * Monophthong in contract
  ^UAUML   * uo to uä juolge / juällge
  ^IEUML   * ie to ä etc. gielbar gællbara
  ^IUML    * a to i, gallgat gillgin
  ^IJ      * e to i in front of Plural j and Sg Com
- ^V2O2U  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ ^V2O2U   * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
  ^VHBAR   * block VH from happening
 
 
@@ -1203,49 +1204,21 @@ Properhoun, toy file only
  * __LEXICON Subjunction   __
 
 
+!!!Pite Saami verbs
 
-!!!Verb
+ * __LEXICON Verb   __ is the main lexicon
 
-
- * LEXICON Verb   
-
- *  LE "vara" ;  
-
- *  ATJA "skola" ;   
- *  IJ "inte" ;  
-
- * nammadit:nammad2 NAMMADIT "kalla någon vid namn" ;   
-
- * båhtet:båht BÅHTET "komma" ;   
-
- * vuoddjat:vuoddj BALLAT ;   ta bort, ordet finns inte
+!!Lexc inflectional classes (Mini-grammar)
 
 
- * släddjit:släddji V_CONTR ;   
-
-finns detta ord = * släddjit:släddji V_CONTR ;   
-
- * vessot:vess VESSOT "leva, må" ;  
+* V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
+* V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
 
 
+* V_ODD: odd-syllable stems (e.g. ságastit)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* V_CONTR: contracted stems (e.g. gullit -j-, tjerrut)
 
 
 
@@ -1255,6 +1228,7 @@ finns detta ord = * släddjit:släddji V_CONTR ;
  ; %^WG:0 : weak grade
  ; %^G3:0 : marks grade three for stems w/o Cgrad
  ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM)
+ ; %^V2E2A:0 : e to a in V2 (V_EVEN_E 1/2Sg)
  ; %^CDEL:0 : delete final consonant odd (biednag)
  ; %^MON:0 : Monophthong in contracted stems
  ; %^UAUML:0 : uo to uä juolge / juällge
@@ -1288,6 +1262,8 @@ __Consonant Gradation for xdn(j):xn(j)__
 
 
 
+
+
 __Consonant Gradation for xx:x__  
 
 __Consonant Gradation for xxy:xy__  
@@ -1301,7 +1277,10 @@ __Delete h in hx:y __
 
 __Intervocalic voiced plosives in hx:y __  
 
-__Consonant Gradation for yxN:yN __  
+__Consonant Gradation for l/jbm:l/jm __  
+
+__Consonant Gradation for vgŋ:vŋ __  
+
 
 !!Other consonant rules 
 
@@ -1323,6 +1302,11 @@ __Word-final De-Affricatization for tj  __
 ! metaphony
 
 __Default VH __  
+
+* __ságasti>t __
+* __ságasti0t __
+* __ságasta>v __
+* __ságasta0v __
 
 
 
@@ -1366,6 +1350,9 @@ __V2 E to Á __
 
 * __gu^Olle^WG __
 * __guol0e0 __
+
+__V2 E to A __  
+
 
 __V2 O to U __  
 
