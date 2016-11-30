@@ -26,48 +26,51 @@
 
 LEXICON V_EVEN_O !viessot, årrot
 +V:     V_EVEN_O_STR ;
-+V:^WG V_EVEN_O_WK ;
++V:o^WG V_EVEN_O_WK ;
 
 LEXICON V_EVEN_O_STR
 
 +Inf:o%>t # ; 
-+GerII:o%>min # ;
-+PrfPrc:u%>m # ;
-!+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
-+Imp+Du2:o%>n # ; 
-+Imp+Pl2:o%>t #;
-+Vsubst:o%>m #; 
 
-+Ind+Prs+Sg3:o%>0 #;
-+Ind+Prs+Du1:o%>n #; 
-!+Ind+Prs+Du2:o%>behtin #;
++Ind+Prs+Sg3:u%>0 #;
++Ind+Prs+Du1:u%>n #; 
++Ind+Prs+Du2:o%>behtin #;
 +Ind+Prs+Du2:o%>bähtten #;
 +Ind+Prs+Du3:o%>ba #;
 +Ind+Prs+Pl1:o%>p #;
-!+Ind+Prs+Pl2:o%>bihtit #;
-+Ind+Prs+Pl2:o%>bähttit #;
-+Ind+Prs+Pl3:o%>0 #; 
-+Ind+Prt+Sg1:o%>v #; 
-+Ind+Prt+Sg2:o%>0 #; 
-+Ind+Prt+Pl3:o%>n #; 
++Ind+Prs+Pl2:o%>behtit #;
++Ind+Prs+Pl2:o%>bähttet #;
++Ind+Prs+Pl3:u%>0 #; 
++Ind+Prt+Sg1:u%>v #; 
++Ind+Prt+Sg2:u%>0 #; 
++Ind+Prt+Pl3:u%>n #; 
+
++Imp+Du2:o%>n # ; 
++Imp+Pl2:u%>t #;
+
++GerII:o%>min # ;
++PrfPrc:u%>m # ;
+!+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
++Vsubst:o%>m #; 
+
 
 LEXICON V_EVEN_O_WK
-+GerI:o%>din # ;  
-+Sup:o%>tjit # ;
-+Neg:o%>0 # ; 
-!+Pot:o%>otj V_ODD_IND_PRS ; !update later
-+Imp+Sg2:o%>0 #; 
-+Vgen:o%>0 #;  
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2:%>0 #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmen #;
++Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du3:%>jga #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
 
-+Ind+Prs+Sg1:o%>v #;
-+Ind+Prs+Sg2:o%>0 #;
-+Ind+Prt+Sg3:o%>j #;
-+Ind+Prt+Du1:o%>jmen #;
-+Ind+Prt+Du2:o%>jden #;
-+Ind+Prt+Du3:o%>jga #;
-+Ind+Prt+Pl1:o%>jme #;
-+Ind+Prt+Pl2:o%>jde #;
++Imp+Sg2:%>0 #; 
 
++GerI:%>din # ;  
+!+Sup:%>tjit # ;
++Neg:%>0 # ; 
+!+Pot:%>otj V_ODD_IND_PRS ; !update later
++Vgen:%>0 #;  
 
 
 !! !!!Odd syllabled verbs
