@@ -35,17 +35,17 @@ Tests:
      båhtet+V+Imp+Du2: båhten
      båhtet+V+Imp+Pl2: buhtit
 
-     båhtet+V+Pot+Sg1: buditjav
-     båhtet+V+Pot+Sg2: buditja
-     båhtet+V+Pot+Sg3: buditj
-     båhtet+V+Pot+Du1: buditjin
-     båhtet+V+Pot+Du2: [buditjähppen, buditjehpin]
-     båhtet+V+Pot+Du3: buditjiebá
-     båhtet+V+Pot+Pl1: buditjip
-     båhtet+V+Pot+Pl2: buditjihpit
-     båhtet+V+Pot+Pl3: buditji
+#     båhtet+V+Pot+Sg1: buditjav
+#     båhtet+V+Pot+Sg2: buditja
+#     båhtet+V+Pot+Sg3: buditj
+#     båhtet+V+Pot+Du1: buditjin
+#     båhtet+V+Pot+Du2: [buditjähppen, buditjehpin]
+#     båhtet+V+Pot+Du3: buditjiebá
+#     båhtet+V+Pot+Pl1: buditjip
+#     båhtet+V+Pot+Pl2: buditjihpit
+#     båhtet+V+Pot+Pl3: buditji
 
-     båhtet+V+Ind+ConNeg: både 
+     båhtet+V+Neg: både 
      båhtet+V+GerI: bådedin 
 #     båhtet+V+Sup: bådátjit
 #     båhtet+V+Vabe: båhtek  
