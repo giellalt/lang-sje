@@ -35,17 +35,17 @@ Tests:
      viessot+V+Imp+Du2: viesson
      viessot+V+Imp+Pl2: vessut
 
-     viessot+V+Pot+Sg1: vesutjav
-     viessot+V+Pot+Sg2: vesutja
-     viessot+V+Pot+Sg3: vesutj
-     viessot+V+Pot+Du1: vesutjin
-     viessot+V+Pot+Du2: [vesutjähppen, vesutjehpin]
-     viessot+V+Pot+Du3: vesutjiebá
-     viessot+V+Pot+Pl1: vesutjip
-     viessot+V+Pot+Pl2: vesutjihpit
-     viessot+V+Pot+Pl3: vesutji
+#     viessot+V+Pot+Sg1: vesutjav
+#     viessot+V+Pot+Sg2: vesutja
+#     viessot+V+Pot+Sg3: vesutj
+#     viessot+V+Pot+Du1: vesutjin
+#     viessot+V+Pot+Du2: [vesutjähppen, vesutjehpin]
+#     viessot+V+Pot+Du3: vesutjiebá
+#     viessot+V+Pot+Pl1: vesutjip
+#     viessot+V+Pot+Pl2: vesutjihpit
+#     viessot+V+Pot+Pl3: vesutji
 
-     viessot+V+Ind+ConNeg: vieso 
+     viessot+V+Neg: vieso 
      viessot+V+GerI: viesodin 
 #     viessot+V+Sup: viesotjit
 #     viessot+V+Vabe: viessok  

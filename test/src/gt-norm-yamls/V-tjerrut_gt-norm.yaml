@@ -9,42 +9,44 @@ Config:
 
 Tests:
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
-
   Verb - tjerrut: # Verb 'to bring' - ei tsekattu
      tjerrut+V+Inf: tjerrut
+
      tjerrut+V+Ind+Prs+Sg1: tjerruv
      tjerrut+V+Ind+Prs+Sg2: tjerru
-     tjerrut+V+Ind+Prs+Sg3: tjerru
+     tjerrut+V+Ind+Prs+Sg3: tjerruja
      tjerrut+V+Ind+Prs+Du1: tjerrujin
-     tjerrut+V+Ind+Prs+Du2: tjerrubehtin
-     tjerrut+V+Ind+Prs+Du2: tjerrubähtten
+     tjerrut+V+Ind+Prs+Du2: tjerrubähttin #, tjerrubehten]  # Check!
      tjerrut+V+Ind+Prs+Du3: tjerruba
      tjerrut+V+Ind+Prs+Pl1: tjerrup
-     tjerrut+V+Ind+Prs+Pl2: tjerrubihtit
-     tjerrut+V+Ind+Prs+Pl2: tjerrubehtit
+     tjerrut+V+Ind+Prs+Pl2: tjerrubihttit #, tjerrubehtet]   # Check!
      tjerrut+V+Ind+Prs+Pl3: tjerruji
 
      tjerrut+V+Ind+Prt+Sg1: tjerrujiv
      tjerrut+V+Ind+Prt+Sg2: tjerruji
      tjerrut+V+Ind+Prt+Sg3: tjerruj
-     tjerrut+V+Ind+Prt+Du1: tjerrujmen
-     tjerrut+V+Ind+Prt+Du2: tjerrujden
+     tjerrut+V+Ind+Prt+Du1: tjerrujmin
+     tjerrut+V+Ind+Prt+Du2: tjerrujdin
      tjerrut+V+Ind+Prt+Du3: tjerrujga
      tjerrut+V+Ind+Prt+Pl1: tjerrujme
      tjerrut+V+Ind+Prt+Pl2: tjerrujde
      tjerrut+V+Ind+Prt+Pl3: tjerrujin
 
-     tjerrut+V+Pot+Sg1: tjerrutjav
-     tjerrut+V+Pot+Sg2: tjerrutja
-     tjerrut+V+Pot+Sg3: tjerrutj
-     tjerrut+V+Pot+Du1: tjerrutjin
-     tjerrut+V+Pot+Du2: [tjerrutjiehpen, tjerrutjähppen] 
-     tjerrut+V+Pot+Du3: tjerrutjiebá
-     tjerrut+V+Pot+Pl1: tjerrutjip
-     tjerrut+V+Pot+Pl2: tjerrutjihpit
-     tjerrut+V+Pot+Pl3: tjerrutji
+#     tjerrut+V+Imp+Sg2: tjerru          # Check!
+#     tjerrut+V+Imp+Du2: tjerrujehten    # Check!
+#     tjerrut+V+Imp+Pl2: tjerrujihttit   # Check!
+
+     tjerrut+V+Neg: tjerru
+#     tjerrut+V+GerII: tjerrumin   # Check!
+     tjerrut+V+PrfPrc: tjerrum
+
+#     tjerrut+V+Pot+Sg1: tjerrutjav
+#     tjerrut+V+Pot+Sg2: tjerrutja
+#     tjerrut+V+Pot+Sg3: tjerrutj
+#     tjerrut+V+Pot+Du1: tjerrutjin
+#     tjerrut+V+Pot+Du2: [tjerrutjiehpen, tjerrutjähppen] 
+#     tjerrut+V+Pot+Du3: tjerrutjiebá
+#     tjerrut+V+Pot+Pl1: tjerrutjip
+#     tjerrut+V+Pot+Pl2: tjerrutjihpit
+#     tjerrut+V+Pot+Pl3: tjerrutji
 

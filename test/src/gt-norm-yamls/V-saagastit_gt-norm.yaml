@@ -16,10 +16,10 @@ Tests:
      ságastit+V+Ind+Prs+Sg2: ságasta
      ságastit+V+Ind+Prs+Sg3: ságasta
      ságastit+V+Ind+Prs+Du1: ságastin
-     ságastit+V+Ind+Prs+Du2: [ságastähppen, ságastiehpen]
-     ságastit+V+Ind+Prs+Du3: ságastiebá
+     ságastit+V+Ind+Prs+Du2: ságastähppen #, ságastehpen]    #check!
+     ságastit+V+Ind+Prs+Du3: ságastebá
      ságastit+V+Ind+Prs+Pl1: ságastip
-     ságastit+V+Ind+Prs+Pl2: ságastihpit
+     ságastit+V+Ind+Prs+Pl2: ságastihppit
      ságastit+V+Ind+Prs+Pl3: ságasti
 
      ságastit+V+Ind+Prt+Sg1: ságastiv
@@ -33,8 +33,18 @@ Tests:
      ságastit+V+Ind+Prt+Pl3: ságastin
 
      ságastit+V+Imp+Sg2: ságaste  
-     ságastit+V+Imp+Du2: ságastehtin
-     ságastit+V+Imp+Pl2: ságastihtit
+     ságastit+V+Imp+Du2: ságastehten    #check!
+     ságastit+V+Imp+Pl2: ságastihttit   #check!
+
+     ságastit+V+Neg: ságaste
+     ságastit+V+GerII: ságastamin
+     ságastit+V+PrfPrc: ságastam
+#     ságastit+V+GerI: ságastittijn 
+#     ságastit+V+Sup: ságastitjit
+#     ságastit+V+Vabe: ságastak  
+#     ságastit+V+Vgen: ságasta 
+#     ságastit+V+PrsPrc: ságastäddje 
+#     ságastit+V+Vsubst: ságastim
 
 #     ságastit+V+Pot+Sg1: ságastittjav
 #     ságastit+V+Pot+Sg2: ságastittja
@@ -45,15 +55,4 @@ Tests:
 #     ságastit+V+Pot+Pl1: ságastittjap
 #     ságastit+V+Pot+Pl2: ságastittjabihtit
 #     ságastit+V+Pot+Pl3: ságastittji
-
-#     ságastit+V+GerI: ságastittijn 
-#     ságastit+V+Sup: ságastitjit
-#     ságastit+V+Vabe: ságastak  
-#     ságastit+V+Vgen: ságasta 
-     ságastit+V+Neg: ságaste
-     ságastit+V+GerII: ságastamin
-     ságastit+V+PrfPrc: ságastam
-#     ságastit+V+PrsPrc: ságastäddje 
-#     ságastit+V+Vsubst: ságastim
-     
 
