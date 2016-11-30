@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - viessot: # Verb 'live'
+     viessot+V+Inf: viessot
+     viessot+V+Ind+Prs+Sg1: viesov
+     viessot+V+Ind+Prs+Sg2: vieso
+     viessot+V+Ind+Prs+Sg3: vessu
+     viessot+V+Ind+Prs+Du1: vessun
+     viessot+V+Ind+Prs+Du2: [viessobehtin, viessobähtten]
+     viessot+V+Ind+Prs+Du3: viessoba
+     viessot+V+Ind+Prs+Pl1: viessop
+     viessot+V+Ind+Prs+Pl2: [viessobehtit, viessobähttet]
+     viessot+V+Ind+Prs+Pl3: vessu
+
+     viessot+V+Ind+Prt+Sg1: vessuv
+     viessot+V+Ind+Prt+Sg2: vessu
+     viessot+V+Ind+Prt+Sg3: viesoj
+     viessot+V+Ind+Prt+Du1: viesojmen
+     viessot+V+Ind+Prt+Du2: viesojden
+     viessot+V+Ind+Prt+Du3: viesojga
+     viessot+V+Ind+Prt+Pl1: viesojme
+     viessot+V+Ind+Prt+Pl2: viesojde
+     viessot+V+Ind+Prt+Pl3: vessun
+
+     viessot+V+Imp+Sg2: vieso  
+     viessot+V+Imp+Du2: viesson
+     viessot+V+Imp+Pl2: vessut
+
+     viessot+V+Pot+Sg1: vesutjav
+     viessot+V+Pot+Sg2: vesutja
+     viessot+V+Pot+Sg3: vesutj
+     viessot+V+Pot+Du1: vesutjin
+     viessot+V+Pot+Du2: [vesutjähppen, vesutjehpin]
+     viessot+V+Pot+Du3: vesutjiebá
+     viessot+V+Pot+Pl1: vesutjip
+     viessot+V+Pot+Pl2: vesutjihpit
+     viessot+V+Pot+Pl3: vesutji
+
+     viessot+V+Ind+ConNeg: vieso 
+     viessot+V+GerI: viesodin 
+#     viessot+V+Sup: viesotjit
+#     viessot+V+Vabe: viessok  
+     viessot+V+Vgen: vieso 
+     viessot+V+GerII: viessomin
+     viessot+V+PrfPrc: vessum
+#     viessot+V+PrsPrc: viesso 
+#     viessot+V+Vsubst: viessom
+
