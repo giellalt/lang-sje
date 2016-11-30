@@ -5,6 +5,7 @@
  ; %^WG:0 : weak grade
  ; %^G3:0 : marks grade three for stems w/o Cgrad
  ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM)
+ ; %^V2E2A:0 : e to a in V2 (V_EVEN_E 1/2Sg)
  ; %^CDEL:0 : delete final consonant odd (biednag)
  ; %^MON:0 : Monophthong in contracted stems
  ; %^UAUML:0 : uo to uä juolge / juällge
@@ -38,6 +39,8 @@ __Consonant Gradation for xdn(j):xn(j)__
 
 
 
+
+
 __Consonant Gradation for xx:x__  
 
 __Consonant Gradation for xxy:xy__  
@@ -51,7 +54,10 @@ __Delete h in hx:y __
 
 __Intervocalic voiced plosives in hx:y __  
 
-__Consonant Gradation for yxN:yN __  
+__Consonant Gradation for l/jbm:l/jm __  
+
+__Consonant Gradation for vgŋ:vŋ __  
+
 
 !!Other consonant rules 
 
@@ -73,6 +79,11 @@ __Word-final De-Affricatization for tj  __
 ! metaphony
 
 __Default VH __  
+
+* __ságasti>t __
+* __ságasti0t __
+* __ságasta>v __
+* __ságasta0v __
 
 
 
@@ -116,6 +127,9 @@ __V2 E to Á __
 
 * __gu^Olle^WG __
 * __guol0e0 __
+
+__V2 E to A __  
+
 
 __V2 O to U __  
 

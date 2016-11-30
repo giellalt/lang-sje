@@ -1,46 +1,18 @@
 
+!!!Pite Saami verbs
 
-!!!Verb
+ * __LEXICON Verb   __ is the main lexicon
 
-
- * LEXICON Verb   
-
- *  LE "vara" ;  
-
- *  ATJA "skola" ;   
- *  IJ "inte" ;  
-
- * nammadit:nammad2 NAMMADIT "kalla någon vid namn" ;   
-
- * båhtet:båht BÅHTET "komma" ;   
-
- * vuoddjat:vuoddj BALLAT ;   ta bort, ordet finns inte
+!!Lexc inflectional classes (Mini-grammar)
 
 
- * släddjit:släddji V_CONTR ;   
-
-finns detta ord = * släddjit:släddji V_CONTR ;   
-
- * vessot:vess VESSOT "leva, må" ;  
+* V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
+* V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
 
 
+* V_ODD: odd-syllable stems (e.g. ságastit)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* V_CONTR: contracted stems (e.g. gullit -j-, tjerrut)
 
 
