@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-11-30+01:00 16:45:52.275+01:00
+! Timestamp: 2016-11-30+01:00 22:25:15.76+01:00
 
 !! !!!Pite Saami verbs
 
@@ -25,6 +25,7 @@ LEXICON Verb   !!= * __@CODE@__ is the main lexicon
 
 !! * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
 !! * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
+!! * V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
 
 ! Odd-syllable stem patterns:
 
@@ -61,19 +62,20 @@ duddjut:duddju V_CONTR "break off, break apart" ; ! no. 3369
 duhkkit:duhkki V_CONTR "suffice" ; ! no. 385
 dujjfit:dujjfi V_CONTR "make dirty" ; ! no. 386
 dukksit:dukksi V_CONTR "amass, store" ; ! no. 388
-dullit: V_CONTR "heat, stoke" ; ! no. 90642
+dullit:dulli V_CONTR "heat, stoke" ; ! no. 90642
 dullkut:dullku V_CONTR "interpret, translate" ; ! no. 389
-dullvit: V_CONTR "have a flood" ; ! no. 90643
+dullvit:dullvi V_CONTR "have a flood" ; ! no. 90643
 durrgit:durrgi V_CONTR "lay out branches in a Saami hut" ; ! no. 90538
-durrut: V_CONTR "start to argue or fight" ; ! no. 90644
+durrut:durru V_CONTR "start to argue or fight" ; ! no. 90644
 däbbut:dä2bbu V_CONTR "become soaked" ; ! no. 5608
 dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
 dävdnut:dä2vdnu V_CONTR "serve, earn" ; ! no. 366
 firrjit:firrji V_CONTR "color" ; ! no. 2476
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
 fuabmát:fu^Obmá V_CONTR "realize" ; ! no. 481
-färrut: V_CONTR "drive, go, travel" ; ! no. 90645
-grävvit: V_CONTR "bury" ; ! no. 90646
+färrut:fä2rru V_CONTR "drive, go, travel" ; ! no. 90645
+gillbit:gillbi V_CONTR "snow and be very windy" ; ! no. 4825
+grävvit:grä2vvi V_CONTR "bury" ; ! no. 90646
 gullit:gul'li V_CONTR "fish" ; ! no. 697
 gullut:gullu V_CONTR "be heard; belong to" ; ! no. 3059
 guppsut:guppsu V_CONTR "come too late and miss a meal" ; ! no. 3867
@@ -216,7 +218,7 @@ svärrut:svä2rru V_CONTR "answer" ; ! no. 2099
 säddit:sä2ddi V_CONTR "send, send off" ; ! no. 3819
 sälltit:sä2llti V_CONTR "salt" ; ! no. 3940
 säpptit:sä2ppti V_CONTR "bait" ; ! no. 3078
-tjerrut: V_CONTR "begin to cry" ; ! no. 90668
+tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 90668
 tjiddnut:tjiddnu V_CONTR "constipated" ; ! no. 1899
 tjillgit:tjillgi V_CONTR "explain, define" ; ! no. 1895
 tjubbmit:tjubbmi V_CONTR "scale fish" ; ! no. 3606
@@ -241,7 +243,7 @@ viddnit:viddni V_CONTR "win, be victorious" ; ! no. 2114
 vijjdit:vijjdi V_CONTR "take a long detour" ; ! no. 4550
 virrdut:virrdu V_CONTR "avoid being caught, get farther and farther away without being stopped (for reindeer)" ; ! no. 5943
 virrtit:virrti V_CONTR "must, have to" ; ! no. 2111
-vuaddját: V_CONTR "begin to drive" ; ! no. 90674
+vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
 vurrkit:vurrki V_CONTR "hide, cache" ; ! no. 2837
@@ -252,6 +254,7 @@ välljit:vä2llji V_CONTR "choose, select" ; ! no. 3288
 värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 årrát:årrá V_CONTR "fall asleep" ; ! no. 2263
 ällát:ä2llá V_CONTR "survive" ; ! no. 4339
+ärrbit:ä2rrbi V_CONTR "inherit" ; ! no. 3470
 adnet:adn V_EVEN_E "have, own, use" ; ! no. 6
 ájjbet:ájjb V_EVEN_E "head for land" ; ! no. 19
 állget:állg V_EVEN_E "begin start" ; ! no. 52
@@ -265,6 +268,7 @@ bájjtet:bájjt V_EVEN_E "shine" ; ! no. 2786
 bállet:báll V_EVEN_E "dig, grub" ; ! no. 134
 biehket:biehk V_EVEN_E "dawdle, crawl" ; ! no. 3675
 bivvdet:bivvd V_EVEN_E "fish, trap, hunt" ; ! no. 194
+buollet:bu^Oll V_EVEN_E "burn, be on fire" ; ! no. 90640
 buvvdet:buvvd V_EVEN_E "fish, trap, hunt" ; ! no. 90405
 buvvet:buvv V_EVEN_E "strangle" ; ! no. 3706
 buäkktet:bu^Okkt V_EVEN_E "come with something" ; ! no. 3036
@@ -385,6 +389,7 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 åsstet:åsst V_EVEN_E "buy" ; ! no. 3918
 ähttset:iehtts V_EVEN_E "love" ; ! no. 2286
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
+agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
 avstot:avst V_EVEN_O "scoop, bail out" ; ! no. 3674
 ádnot:ádn V_EVEN_O "ask for something, request something" ; ! no. 7
 ávgŋot:ávgŋ V_EVEN_O "tear apart" ; ! no. 2613
@@ -441,6 +446,7 @@ gåsstot:gåsst V_EVEN_O "become rancid" ; ! no. 4392
 gähttot:giehtt V_EVEN_O "tell" ; ! no. 785
 hávvot:hávv V_EVEN_O "scarf down, eat up ravenously" ; ! no. 5753
 hávvrot:hávvr V_EVEN_O "tear apart (for a predator killing a reindeer)" ; ! no. 3194
+hávvskot:hávvsk V_EVEN_O "become happier, more amusing" ; ! no. 90647
 hållvot:hållv V_EVEN_O "howl" ; ! no. 2517
 hårdnot:hårdn V_EVEN_O "stop growing (for reindeer calves)" ; ! no. 6742
 jiegŋot:jiegŋ V_EVEN_O "freeze, ice over" ; ! no. 4586
@@ -526,6 +532,7 @@ váhttjot:váhttj V_EVEN_O "wave one's arms" ; ! no. 2771
 vállot:váll V_EVEN_O "cry" ; ! no. 2077
 viessot:viess V_EVEN_O "live, feel" ; ! no. 2112
 vijjsot:vijjs V_EVEN_O "become wiser" ; ! no. 2514
+villsjot:villsj V_EVEN_O "look around (uncomforatbly)" ; ! no. 90673
 vuardnot:vu^Ordn V_EVEN_O "reject" ; ! no. 2142
 vuodjot:vu^Odj V_EVEN_O "sink, fall down to the bottom" ; ! no. 2156
 ådtjot:ådtj V_EVEN_O "get, receive, be allowed to" ; ! no. 2237
@@ -534,6 +541,43 @@ vuodjot:vu^Odj V_EVEN_O "sink, fall down to the bottom" ; ! no. 2156
 årrot:årr V_EVEN_O "be" ; ! no. 2340
 åsskot:åssk V_EVEN_O "believe in someone or something, have trust in something" ; ! no. 2271
 åvvlot:åvvl V_EVEN_O "get heartburn" ; ! no. 2280
+bådnjåt:bådnj V_EVEN_Å "screw, twist" ; ! no. 234
+bårråt:bårr V_EVEN_Å "eat" ; ! no. 256
+båsskåt:båssk V_EVEN_Å "poke with a needle or stick" ; ! no. 3299
+dåbbdåt:dåbbd V_EVEN_Å "know, recognize" ; ! no. 410
+dållgåt:dållg V_EVEN_Å "ride behind, be pulled behind" ; ! no. 420
+dåsskåt:dåssk V_EVEN_Å "clap, smack, whack" ; ! no. 5997
+gådtjåt:gådtj V_EVEN_Å "urinate, pee" ; ! no. 775
+gåhpåt:gåhp V_EVEN_Å "whittle, hollow out" ; ! no. 737
+gåhtsåt:gåhts V_EVEN_Å "slow down" ; ! no. 741
+gåjjkåt:gåjjk V_EVEN_Å "dry, be thirsty" ; ! no. 3440
+gållgåt:gållg V_EVEN_Å "flow, run, drift" ; ! no. 755
+gårrsåt:gårrs V_EVEN_Å "clear one's throat" ; ! no. 766
+gåssåt:gåss V_EVEN_Å "cough" ; ! no. 773
+håjjgåt:håjjg V_EVEN_Å "push, shove, throw" ; ! no. 4929
+hållåt:håll V_EVEN_Å "say, speak" ; ! no. 856
+jåkksåt:jåkks V_EVEN_Å "catch up, manage on time" ; ! no. 952
+jårråt:jårr V_EVEN_Å "fall over" ; ! no. 2524
+låhkåt:låhk V_EVEN_Å "read" ; ! no. 1089
+mårdnåt:mårdn V_EVEN_Å "decay, rot" ; ! no. 1212
+njållgåt:njållg V_EVEN_Å "trot (for reindeer)" ; ! no. 1312
+njårråt:njårr V_EVEN_Å "pour in" ; ! no. 1314
+nåhkåt:nåhk V_EVEN_Å "run out, finish" ; ! no. 1329
+nårrdåt:nårrd V_EVEN_Å "bump, butt" ; ! no. 1332
+råggåt:rågg V_EVEN_Å "dig, dig up" ; ! no. 1454
+råhkåt:råhk V_EVEN_Å "pray" ; ! no. 90661
+sjåvvåt:sjåvv V_EVEN_Å "rain heavily, rush (for water)" ; ! no. 1609
+slåvvåt:slåvv V_EVEN_Å "beat, conquer" ; ! no. 1682
+smållåt:småll V_EVEN_Å "break into pieces" ; ! no. 5156
+snårråt:snårr V_EVEN_Å "tangle up" ; ! no. 1707
+ståhkåt:ståhk V_EVEN_Å "play, have fun" ; ! no. 1745
+sådjåt:sådj V_EVEN_Å "be bent" ; ! no. 1813
+såhpåt:såhp V_EVEN_Å "slice meat off a bone" ; ! no. 1817
+tjållgåt:tjållg V_EVEN_Å "spit, drool" ; ! no. 1971
+tsåggåt:tsågg V_EVEN_Å "pack, stuff in a bag" ; ! no. 4170
+åhppåt:åhpp V_EVEN_Å "take up a net" ; ! no. 2245
+åhppåt:åhpp V_EVEN_Å "learn" ; ! no. 2247
+åhtsåt:åhts V_EVEN_Å "search for, look for" ; ! no. 2248
 adnalit:adnal V_ODD "grab onto, hold onto" ; ! no. 3862
 aktanit:aktan V_ODD "unite" ; ! no. 2718
 alledit:alled V_ODD "promote, raise, increase the price" ; ! no. 3232
@@ -628,7 +672,7 @@ dahpadit:dahpad V_ODD "miss, forget" ; ! no. 4600
 dahpasit:dahpas V_ODD "clog" ; ! no. 303
 dargŋástit:dargŋást V_ODD "become a thin layer of ice" ; ! no. 335
 darrastit:darrast V_ODD "boil something for a short time" ; ! no. 90332
-dádjadit:daddjad V_ODD "understand" ; ! no. 4309
+dádjadit:dádjad V_ODD "understand" ; ! no. 4309
 dájjsalit:dájjsal V_ODD "become hysterical" ; ! no. 4718
 dállkanit:dállkan V_ODD "become bad (weather)" ; ! no. 3326
 dállkarit:dállkar V_ODD "become bad (weather)" ; ! no. 3325
@@ -842,7 +886,7 @@ jullorit:jullor V_ODD "roll, e.g. in the snow" ; ! no. 6843
 jumijdit:jumijd V_ODD "roar, blow loudly (for wind)" ; ! no. 936
 juogadit:ju^Ogad V_ODD "divide up, distribute" ; ! no. 3569
 juohkádit:ju^Ohkád V_ODD "separate, divorce" ; ! no. 3788
-juojgadit: V_ODD "yoik about someome or something" ; ! no. 90649
+juojgadit:ju^Ojgad V_ODD "yoik about someome or something" ; ! no. 90649
 juonadit:ju^Onad V_ODD "wonder" ; ! no. 3905
 jurgijdit:jurgijd V_ODD "turn around" ; ! no. 4106
 jåddådit:jåddåd V_ODD "set out net in a lake" ; ! no. 949
@@ -891,7 +935,7 @@ luotkedit:lu^Otked V_ODD "untie a skein of yarn; have diarrhea" ; ! no. 6550
 luovvanit:lu^Ovvan V_ODD "loosen, untie" ; ! no. 6551
 luvvadit:luvvad V_ODD "become wet" ; ! no. 2890
 lågŋånit:lågŋån V_ODD "lift, rise up" ; ! no. 3946
-lågådit: V_ODD "have someone read" ; ! no. 90651
+lågådit:lågåd V_ODD "have someone read" ; ! no. 90651
 låhpedit:låhped V_ODD "promise, pledge" ; ! no. 911
 lånestit:lånest V_ODD "redeem, save" ; ! no. 4134
 lägganit:lä2ggan V_ODD "become warm" ; ! no. 3734
@@ -993,7 +1037,7 @@ ruodastit:ru^Odast V_ODD "tear up, tear open" ; ! no. 90302
 ruodjalit:ru^Odjal V_ODD "reprimand severely" ; ! no. 3928
 ruodtjodit:ru^Odtjod V_ODD "need, require, desire" ; ! no. 4174
 ruohtastit:ru^Ohtast V_ODD "run away quickly" ; ! no. 5956
-ruojadit: V_ODD "scream, cry" ; ! no. 90657
+ruojadit:ru^Ojad V_ODD "scream, cry" ; ! no. 90657
 ruojvedit:ru^Ojved V_ODD "carve up meat, butcher" ; ! no. 5973
 ruopsodit:ru^Opsod V_ODD "turn red, redden" ; ! no. 3352
 ruosjkedit:ru^Osjked V_ODD "roar, shout (for humans)" ; ! no. 5959
@@ -1060,7 +1104,7 @@ slábagit:slábag V_ODD "become depressed or sad" ; ! no. 1662
 slimpardit:slimpard V_ODD "be careless" ; ! no. 4444
 smeridit:smerid V_ODD "ruminate" ; ! no. 1689
 smiljodit:smiljod V_ODD "mix together (for food)" ; ! no. 1690
-smirrjodit:smirjod V_ODD "mix up, blend" ; ! no. 4395
+smirrjodit:smirrjod V_ODD "mix up, blend" ; ! no. 4395
 småredit:småred V_ODD "wake up" ; ! no. 2773
 smähkudit:smä2hkud V_ODD "taste" ; ! no. 5297
 smäjvidit:smä2jvid V_ODD "chop, cut into pieces" ; ! no. 1692
@@ -1075,7 +1119,7 @@ sparralit:sparral V_ODD "chase away, disperse reindeer" ; ! no. 2970
 spánastit:spánast V_ODD "stretch out leather (from reindeer legs) with a splint" ; ! no. 1713
 spehkudit:spehkud V_ODD "clap" ; ! no. 1719
 spetjudit:spetjud V_ODD "clap one’s hands, applaud" ; ! no. 3871
-stávadit: V_ODD "spell" ; ! no. 90662
+stávadit:stávad V_ODD "spell" ; ! no. 90662
 stiempaldit:stiempald V_ODD "stamp" ; ! no. 6571
 stimpaldit:stimpald V_ODD "stagger, be out of balance" ; ! no. 4003
 stráhtjadit:stráhtjad V_ODD "ski uphill with skis in a V-shape" ; ! no. 2522
@@ -1097,7 +1141,7 @@ svajbastit:svajbast V_ODD "catch fish with a string" ; ! no. 1789
 sviergadit:sviergad V_ODD "kick about, flounder" ; ! no. 2456
 svijmágit:svijmág V_ODD "faint" ; ! no. 1803
 svindastit:svindast V_ODD "sweep with a twig" ; ! no. 1805
-sviŋgodit: V_ODD "move back and forth (for trees)" ; ! no. 90665
+sviŋgodit:sviŋgod V_ODD "move back and forth (for trees)" ; ! no. 90665
 sväjjluhit:svä2jjluh V_ODD "be difficult to control, untamed (for reindeer)" ; ! no. 1796
 syhkeldit:syhkeld V_ODD "bicycle" ; ! no. 1810
 sågordit:sågord V_ODD "sugar, sweeten" ; ! no. 5799
@@ -1162,7 +1206,7 @@ trisádit:trisád V_ODD "inject water or larvae into a reindeer’s nose" ; ! no
 tsaggastit:tsaggast V_ODD "obstruct, block, hinder" ; ! no. 1994
 tsamádit:tsamád V_ODD "whisper" ; ! no. 1999
 tsammkalit:tsammkal V_ODD "whisper briefly" ; ! no. 6781
-tsábmestit: V_ODD "hit down, knock down" ; ! no. 90669
+tsábmestit:tsábmest V_ODD "hit down, knock down" ; ! no. 90669
 tsáskadit:tsáskad V_ODD "walk across frozen snow" ; ! no. 2000
 tsávaldit:tsávald V_ODD "make or force one's way" ; ! no. 2001
 tsibtsástit:tsibtsást V_ODD "pinch, nip, squeeze" ; ! no. 2006

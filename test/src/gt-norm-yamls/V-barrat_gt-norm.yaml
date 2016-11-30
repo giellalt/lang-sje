@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - bårråt: # Verb 'eat'
+     bårråt+V+Inf: bårråt
+     bårråt+V+Ind+Prs+Sg1: båråv
+     bårråt+V+Ind+Prs+Sg2: bårå
+     bårråt+V+Ind+Prs+Sg3: bårra
+     bårråt+V+Ind+Prs+Du1: burrin
+     bårråt+V+Ind+Prs+Du2: bårråbehtin #, bårråbähtten]
+     bårråt+V+Ind+Prs+Du3: bårråba
+     bårråt+V+Ind+Prs+Pl1: bårråp
+     bårråt+V+Ind+Prs+Pl2: bårråbehtit #, bårråbähttet]
+     bårråt+V+Ind+Prs+Pl3: burri
+
+     bårråt+V+Ind+Prt+Sg1: burriv
+     bårråt+V+Ind+Prt+Sg2: burri
+     bårråt+V+Ind+Prt+Sg3: båråj
+     bårråt+V+Ind+Prt+Du1: båråjmen
+     bårråt+V+Ind+Prt+Du2: båråjden
+     bårråt+V+Ind+Prt+Du3: båråjga
+     bårråt+V+Ind+Prt+Pl1: båråjme
+     bårråt+V+Ind+Prt+Pl2: båråjde
+     bårråt+V+Ind+Prt+Pl3: burrin
+
+     bårråt+V+Imp+Sg2: bårå  
+     bårråt+V+Imp+Du2: bårren
+     bårråt+V+Imp+Pl2: burrit
+
+#     bårråt+V+Pot+Sg1: burutjav
+#     bårråt+V+Pot+Sg2: burutja
+#     bårråt+V+Pot+Sg3: burutj
+#     bårråt+V+Pot+Du1: burutjin
+#     bårråt+V+Pot+Du2: burutjähppen #, burutjehpin]
+#     bårråt+V+Pot+Du3: burutjiebá
+#     bårråt+V+Pot+Pl1: burutjip
+#     bårråt+V+Pot+Pl2: burutjihpit
+#     bårråt+V+Pot+Pl3: burutji
+
+     bårråt+V+Neg: bårå 
+     bårråt+V+GerI: bårådin 
+#     bårråt+V+Sup: båråtjit
+#     bårråt+V+Vabe: bårråk  
+     bårråt+V+Vgen: bårå 
+     bårråt+V+GerII: bårråmin
+     bårråt+V+PrfPrc: bårråm
+#     bårråt+V+PrsPrc: bårrå 
+#     bårråt+V+Vsubst: bårråm
+

@@ -212,6 +212,7 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 
 !! * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
 !! * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
+!! * V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
 
 ! Odd-syllable stem patterns:
 

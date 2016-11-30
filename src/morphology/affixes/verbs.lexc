@@ -122,6 +122,53 @@ LEXICON V_EVEN_O_WK
 !+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
 
 
+LEXICON V_EVEN_Å !viessot, årrot
++V:     V_EVEN_Å_STR ;
++V:å^WG V_EVEN_Å_WK ;
+
+LEXICON V_EVEN_Å_STR
++Ind+Prs+Sg3:a%>0 #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:å%>behtin #;
+!+Ind+Prs+Du2:å%>bähtten #;
++Ind+Prs+Du3:å%>ba #;
++Ind+Prs+Pl1:å%>p #;
++Ind+Prs+Pl2:å%>behtit #;
+!+Ind+Prs+Pl2:å%>bähttet #;
++Ind+Prs+Pl3:i%>0 #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%>0 #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imp+Du2:e%>n # ; 
++Imp+Pl2:i%>t #;
+
++Inf:å%>t # ; 
++GerII:å%>min # ;
++PrfPrc:å%>m # ;
+!+PrsPrc:å%>0 # ; !extra starkt, hur få till det?
+!+Vsubst:å%>m #; 
+
+LEXICON V_EVEN_Å_WK
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2:%>0 #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmen #;
++Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du3:%>jga #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
+
++Imp+Sg2:%>0 #; 
+
++GerI:%>din # ;  
+!+Sup:%>tjit # ;
++Neg:%>0 # ; 
+!+Pot:%>otj V_ODD_IND_PRS ; !update later
++Vgen:%>0 #;  
+!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
+
+
 
 
 !! !!!Odd syllabled verbs

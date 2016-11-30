@@ -8,6 +8,7 @@
 
 * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
 * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
+* V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
 
 
 * V_ODD: odd-syllable stems (e.g. ságastit)
