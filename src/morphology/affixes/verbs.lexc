@@ -24,14 +24,62 @@
 
 !! !!!Even syllabled verbs
 
+LEXICON V_EVEN_E !båhtet
++V:     V_EVEN_E_STR ;
++V:e^WG V_EVEN_E_WK ;
+
+LEXICON V_EVEN_E_STR
++Ind+Prs+Sg3:á%>0 #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:e%>behtin #;
++Ind+Prs+Du2:e%>bähtten #;
++Ind+Prs+Du3:e%>ba #;
++Ind+Prs+Pl1:e%>p #;
++Ind+Prs+Pl2:e%>behtit #;
++Ind+Prs+Pl2:e%>bähttet #;
++Ind+Prs+Pl3:i%>0 #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%>0 #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imp+Du2:e%>n # ; 
++Imp+Pl2:i%>t #;
+
++Inf:e%>t # ; 
++GerII:e%>min # ;
++PrfPrc:á%>m # ;
+!+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
++Vsubst:e%>m #; 
+
+LEXICON V_EVEN_E_WK
++Ind+Prs+Sg1:^V2E2A%>v #;
++Ind+Prs+Sg2:^V2E2A%>0 #;
+:^IJ%>j V_EVEN_E_WK_J ; !suffixes with -j-element that trigger e->i in V2
+
++Imp+Sg2:%>0 #; 
+
++GerI:%>din # ;  
++Neg:%>0 # ; 
++Vgen:%>0 #;  
+!+Sup:%>tjit # ;
+!+Pot:%>otj V_ODD_IND_PRS ; !update later
+!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
+
+LEXICON V_EVEN_E_WK_J
++Ind+Prt+Sg3: #;
++Ind+Prt+Du1:men #;
++Ind+Prt+Du2:den #;
++Ind+Prt+Du3:ga #;
++Ind+Prt+Pl1:me #;
++Ind+Prt+Pl2:de #;
+
+
+
 LEXICON V_EVEN_O !viessot, årrot
 +V:     V_EVEN_O_STR ;
 +V:o^WG V_EVEN_O_WK ;
 
 LEXICON V_EVEN_O_STR
-
-+Inf:o%>t # ; 
-
 +Ind+Prs+Sg3:u%>0 #;
 +Ind+Prs+Du1:u%>n #; 
 +Ind+Prs+Du2:o%>behtin #;
@@ -48,11 +96,11 @@ LEXICON V_EVEN_O_STR
 +Imp+Du2:o%>n # ; 
 +Imp+Pl2:u%>t #;
 
++Inf:o%>t # ; 
 +GerII:o%>min # ;
 +PrfPrc:u%>m # ;
 !+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
 +Vsubst:o%>m #; 
-
 
 LEXICON V_EVEN_O_WK
 +Ind+Prs+Sg1:%>v #;
@@ -71,44 +119,90 @@ LEXICON V_EVEN_O_WK
 +Neg:%>0 # ; 
 !+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
+!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
+
+
 
 
 !! !!!Odd syllabled verbs
 
 LEXICON V_ODD !ságastit
-+Inf:i%>t # ; 
-+GerII:a%>min # ;
-+PrfPrc:a%>m # ;
-!+PrsPrc:o%>0 # ; 
-+Imp+Sg2:e%>0 #; 
-+Imp+Du2:ä%>hten # ; 
-+Imp+Pl2:ä%>htet #;
-!+Vsubst:a%>m #; 
-!+GerI:a%>din # ;  
-!+Sup:a%>tjit # ;
-+Neg:e%>0 # ; 
-!+Pot:o%>otj V_ODD_IND_PRS ; !update later
-!+Vgen:e%>0 #;  
++V+Ind+Prs+Sg1:a%>v #;
++V+Ind+Prs+Sg2:a%>0 #;
++V+Ind+Prs+Sg3:a%>0 #;
++V+Ind+Prs+Du1:i%>n #; 
++V+Ind+Prs+Du2:ä%>hppen #;
++V+Ind+Prs+Du3:e%>bá #;
++V+Ind+Prs+Pl1:i%>p #;
++V+Ind+Prs+Pl2:i%>hppit #;
++V+Ind+Prs+Pl3:i%>0 #; 
 
-+Ind+Prs+Sg1:%a%>v #;
-+Ind+Prs+Sg2:a%>0 #;
-+Ind+Prs+Sg3:a%>0 #;
-+Ind+Prs+Du1:e%>n #; 
-+Ind+Prs+Du2:ä%>hpen #;
-+Ind+Prs+Du3:ä%>ba #;
-+Ind+Prs+Pl1:e%>p #;
-+Ind+Prs+Pl2:e%>hpit #;
-+Ind+Prs+Pl3:e%>0 #; 
++V+Ind+Prt+Sg1:i%>v #; 
++V+Ind+Prt+Sg2:i%>0 #; 
++V+Ind+Prt+Sg3:i%>j #;
++V+Ind+Prt+Du1:i%>jmen #;
++V+Ind+Prt+Du2:i%>jden #;
++V+Ind+Prt+Du3:i%>jga #;
++V+Ind+Prt+Pl1:i%>jme #;
++V+Ind+Prt+Pl2:i%>jde #;
++V+Ind+Prt+Pl3:i%>n #; 
 
-+Ind+Prt+Sg1:i%>jiv #; 
-+Ind+Prt+Sg2:i%>je #; 
-+Ind+Prt+Sg3:i%>j #;
-+Ind+Prt+Du1:i%>jmen #;
-+Ind+Prt+Du2:i%>jden #;
-+Ind+Prt+Du3:i%>jga #;
-+Ind+Prt+Pl1:i%>jme #;
-+Ind+Prt+Pl2:i%>jde #;
-+Ind+Prt+Pl3:e%>n #; 
++V+Imp+Sg2:e%>0 #; 
++V+Imp+Du2:e%>hten # ; 
++V+Imp+Pl2:i%>httit #;
+
++V+Inf:i%>t # ; 
++V+GerII:a%>min # ;
++V+PrfPrc:a%>m # ;
++V+Neg:e%>0 # ; 
+!+V+PrsPrc:o%>0 # ; 
+!+V+Vsubst:a%>m #; 
+!+V+GerI:a%>din # ;  
+!+V+Sup:a%>tjit # ;
+!+V+Pot:o%>otj V_ODD_IND_PRS ; !update later
+!+V+Vgen:e%>0 #;  
+
+
+
+
+!! !!!contracted verbs
+
+LEXICON V_CONTR !välldut, tjerrut
++V+Ind+Prs+Sg1:%>v #;
++V+Ind+Prs+Sg2:%>0 #;
++V+Ind+Prs+Sg3:%>ja #;
++V+Ind+Prs+Du1:%>jin #; 
++V+Ind+Prs+Du2:%>bähttin #;
++V+Ind+Prs+Du3:%>ba #;
++V+Ind+Prs+Pl1:%>p #;
++V+Ind+Prs+Pl2:%>bihttit #;
++V+Ind+Prs+Pl3:%>ji #; 
+
++V+Ind+Prt+Sg1:%>jiv #; 
++V+Ind+Prt+Sg2:%>ji #; 
++V+Ind+Prt+Sg3:%>j #;
++V+Ind+Prt+Du1:%>jmin #;
++V+Ind+Prt+Du2:%>jdin #;
++V+Ind+Prt+Du3:%>jga #;
++V+Ind+Prt+Pl1:%>jme #;
++V+Ind+Prt+Pl2:%>jde #;
++V+Ind+Prt+Pl3:%>jin #; 
+
++V+Imp+Sg2:%>0 #; 
+!+V+Imp+Du2:%>hten # ; 
+!+V+Imp+Pl2:%>httit #;
+
++V+Inf:%>t # ; 
+!+V+GerII:%>min # ;
++V+PrfPrc:%>m # ;
++V+Neg:%>0 # ; 
+!+V+PrsPrc:%>0 # ; 
+!+V+Vsubst:%>m #; 
+!+V+GerI:%>din # ;  
+!+V+Sup:%>tjit # ;
+!+V+Pot:%>otj V_ODD_IND_PRS ; !update later
+!+V+Vgen:%>0 #;  
+
 
 
 
@@ -426,7 +520,7 @@ LEXICON BÅHTET_W !båd svagstadium fungerar ej
 +Ind+Prt+Pl2:i^IUMjde #;
 
 
-LEXICON V_CONTR 
+LEXICON V_CONTR_ORIG 
 +V+Inf:%>t # ; 
 +V+PrfPrc:%>m #;
 +PrsPrc:%>jäddje # ; 
