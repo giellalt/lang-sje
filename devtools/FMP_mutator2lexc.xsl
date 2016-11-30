@@ -210,7 +210,8 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 <xsl:text>
 ! Even-syllable stem patterns:
 
-!! * V_EVEN_O: all even-syllable stems ending in -o- (e.g. viessot)
+!! * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
+!! * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
 
 ! Odd-syllable stem patterns:
 
@@ -218,7 +219,7 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 
 ! Contracted stem patterns:
 
-!! * V_CONTR: contracted stems (e.g. gullit -j-)
+!! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut)
 
 </xsl:text>
   </xsl:when>
