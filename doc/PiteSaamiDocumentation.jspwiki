@@ -9,8 +9,8 @@
   / [syntax|https://victorio.uit.no/langtech/trunk/langs/sje/src/syntax] 
   / [twolc|https://victorio.uit.no/langtech/trunk/langs/sje/src/phonology/sje-phon.twolc]   
   / [yaml|https://victorio.uit.no/langtech/trunk/langs/sje/test/src/gt-norm-yamls/]
-* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-sje.nno.html]
-  / [text|http://giellatekno.uit.no/cgi/d-sje.nno.html]
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-sje.nob.html]
+  / [text|http://giellatekno.uit.no/cgi/d-sje.nob.html]
 
 !!! Grammatical issues
 
