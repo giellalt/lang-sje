@@ -45,7 +45,7 @@ Tests:
 #     viessot+V+Pot+Pl2: vesutjihpit
 #     viessot+V+Pot+Pl3: vesutji
 
-     viessot+V+Neg: vieso 
+     viessot+V+ConNeg: vieso 
      viessot+V+GerI: viesodin 
 #     viessot+V+Sup: viesotjit
 #     viessot+V+Vabe: viessok  

@@ -36,7 +36,7 @@ Tests:
      ságastit+V+Imp+Du2: ságastehten    #check!
      ságastit+V+Imp+Pl2: ságastihttit   #check!
 
-     ságastit+V+Neg: ságaste
+     ságastit+V+ConNeg: ságaste
      ságastit+V+GerII: ságastamin
      ságastit+V+PrfPrc: ságastam
 #     ságastit+V+GerI: ságastittijn 

@@ -59,7 +59,7 @@ LEXICON V_EVEN_E_WK
 +Imp+Sg2:%>0 #; 
 
 +GerI:%>din # ;  
-+Neg:%>0 # ; 
++ConNeg:%>0 # ; 
 +Vgen:%>0 #;  
 !+Sup:%>tjit # ;
 !+Pot:%>otj V_ODD_IND_PRS ; !update later
@@ -116,7 +116,7 @@ LEXICON V_EVEN_A_WK
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
-+Neg:%>0 # ; 
++ConNeg:%>0 # ; 
 !+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
 !+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
@@ -164,7 +164,7 @@ LEXICON V_EVEN_O_WK
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
-+Neg:%>0 # ; 
++ConNeg:%>0 # ; 
 !+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
 !+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
@@ -211,7 +211,7 @@ LEXICON V_EVEN_Å_WK
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
-+Neg:%>0 # ; 
++ConNeg:%>0 # ; 
 !+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
 !+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
@@ -249,7 +249,7 @@ LEXICON V_ODD !ságastit
 +V+Inf:i%>t # ; 
 +V+GerII:a%>min # ;
 +V+PrfPrc:a%>m # ;
-+V+Neg:e%>0 # ; 
++V+ConNeg:e%>0 # ; 
 !+V+PrsPrc:o%>0 # ; 
 !+V+Vsubst:a%>m #; 
 !+V+GerI:a%>din # ;  
@@ -290,7 +290,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Inf:%>t # ; 
 !+V+GerII:%>min # ;
 +V+PrfPrc:%>m # ;
-+V+Neg:%>0 # ; 
++V+ConNeg:%>0 # ; 
 !+V+PrsPrc:%>0 # ; 
 !+V+Vsubst:%>m #; 
 !+V+GerI:%>din # ;  
