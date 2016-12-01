@@ -9,23 +9,16 @@ Config:
 
 Tests:
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
-
-  Verb - állget: # Verb 'to see' - ei tsekattu
+  Verb - állget: # Verb 'begin'
      állget+V+Inf: állget
      állget+V+Ind+Prs+Sg1: álgáv
      állget+V+Ind+Prs+Sg2: álgá
      állget+V+Ind+Prs+Sg3: állgá
      állget+V+Ind+Prs+Du1: ällgin
-     állget+V+Ind+Prs+Du2: állgebehtin
-     állget+V+Ind+Prs+Du2: állgebähtten
+     állget+V+Ind+Prs+Du2: [állgebehtin, állgebähtten]
      állget+V+Ind+Prs+Du3: állgeba
      állget+V+Ind+Prs+Pl1: állgep
-     állget+V+Ind+Prs+Pl2: állgebihtit
-     állget+V+Ind+Prs+Pl2: állgebehtit
+     állget+V+Ind+Prs+Pl2: [állgebihtit, állgebehtit]
      állget+V+Ind+Prs+Pl3: ällgi
 
      állget+V+Ind+Prt+Sg1: ällgiv
@@ -38,14 +31,22 @@ Tests:
      állget+V+Ind+Prt+Pl2: älgijde
      állget+V+Ind+Prt+Pl3: ällgin
 
-     állget+V+Pot+Sg1: älgitjav
-     állget+V+Pot+Sg2: älgitja
-     állget+V+Pot+Sg3: älgitj
-     állget+V+Pot+Du1: älgitjin
-     állget+V+Pot+Du2: älgitjiehpen
-     állget+V+Pot+Du2: älgitjähppen
-     állget+V+Pot+Du3: älgitjiebá
-     állget+V+Pot+Pl1: älgitjip
-     állget+V+Pot+Pl2: älgitjihpit
-     állget+V+Pot+Pl3: älgitji
+     állget+V+Imp+Sg2: álge  
+     állget+V+Imp+Du2: állgen
+     állget+V+Imp+Pl2: ällgit
+
+     állget+V+ConNeg: álge 
+     állget+V+GerII: állgemin
+     állget+V+PrfPrc: állgám
+
+
+#     állget+V+Pot+Sg1: älgitjav
+#     állget+V+Pot+Sg2: älgitja
+#     állget+V+Pot+Sg3: älgitj
+#     állget+V+Pot+Du1: älgitjin
+#     állget+V+Pot+Du2: älgitjiehpen #, älgitjähppen]
+#     állget+V+Pot+Du3: älgitjiebá
+#     állget+V+Pot+Pl1: älgitjip
+#     állget+V+Pot+Pl2: älgitjihpit
+#     állget+V+Pot+Pl3: älgitji
 
