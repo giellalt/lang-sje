@@ -221,7 +221,7 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 
 ! Contracted stem patterns:
 
-!! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut)
+!! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
 </xsl:text>
   </xsl:when>
