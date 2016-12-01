@@ -75,6 +75,54 @@ LEXICON V_EVEN_E_WK_J
 
 
 
+LEXICON V_EVEN_A !dahkat
++V:     V_EVEN_A_STR ;
++V:a^WG V_EVEN_A_WK ;
+
+LEXICON V_EVEN_A_STR
++Ind+Prs+Sg3:a%>0 #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:a%>behtin #;
+!+Ind+Prs+Du2:a%>bähtten #;
++Ind+Prs+Du3:a%>ba #;
++Ind+Prs+Pl1:a%>p #;
++Ind+Prs+Pl2:a%>behtit #;
+!+Ind+Prs+Pl2:a%>bähttet #;
++Ind+Prs+Pl3:i%>0 #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%>0 #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imp+Du2:e%>n # ; 
++Imp+Pl2:i%>t #;
+
++Inf:a%>t # ; 
++GerII:a%>min # ;
++PrfPrc:a%>m # ;
+!+PrsPrc:a%>0 # ; !extra starkt, hur få till det?
+!+Vsubst:a%>m #; 
+
+LEXICON V_EVEN_A_WK
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2:%>0 #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmen #;
++Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du3:%>jga #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
+
++Imp+Sg2:%>0 #; 
+
++GerI:%>din # ;  
+!+Sup:%>tjit # ;
++Neg:%>0 # ; 
+!+Pot:%>otj V_ODD_IND_PRS ; !update later
++Vgen:%>0 #;  
+!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
+
+
+
 LEXICON V_EVEN_O !viessot, årrot
 +V:     V_EVEN_O_STR ;
 +V:o^WG V_EVEN_O_WK ;

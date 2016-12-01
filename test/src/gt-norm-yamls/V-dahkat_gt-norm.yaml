@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - dahkat: # Verb 'do, make, produce'
+     dahkat+V+Inf: dahkat
+     dahkat+V+Ind+Prs+Sg1: dagav
+     dahkat+V+Ind+Prs+Sg2: daga
+     dahkat+V+Ind+Prs+Sg3: dahka
+     dahkat+V+Ind+Prs+Du1: dihkin
+     dahkat+V+Ind+Prs+Du2: dahkabehtin #, dahkabähtten]
+     dahkat+V+Ind+Prs+Du3: dahkaba
+     dahkat+V+Ind+Prs+Pl1: dahkap
+     dahkat+V+Ind+Prs+Pl2: dahkabehtit #, dahkabähttet]
+     dahkat+V+Ind+Prs+Pl3: dihki
+
+     dahkat+V+Ind+Prt+Sg1: dihkiv
+     dahkat+V+Ind+Prt+Sg2: dihki
+     dahkat+V+Ind+Prt+Sg3: dagaj
+     dahkat+V+Ind+Prt+Du1: dagajmen
+     dahkat+V+Ind+Prt+Du2: dagajden
+     dahkat+V+Ind+Prt+Du3: dagajga
+     dahkat+V+Ind+Prt+Pl1: dagajme
+     dahkat+V+Ind+Prt+Pl2: dagajde
+     dahkat+V+Ind+Prt+Pl3: dihkin
+
+     dahkat+V+Imp+Sg2: daga  
+     dahkat+V+Imp+Du2: dahken
+     dahkat+V+Imp+Pl2: dihkit
+
+#     dahkat+V+Pot+Sg1: dihkitjav
+#     dahkat+V+Pot+Sg2: dihkitja
+#     dahkat+V+Pot+Sg3: dihkitj
+#     dahkat+V+Pot+Du1: dihkitjin
+#     dahkat+V+Pot+Du2: dihkitjähppen #, burutjehpin]
+#     dahkat+V+Pot+Du3: dihkitjiebá
+#     dahkat+V+Pot+Pl1: dihkitjip
+#     dahkat+V+Pot+Pl2: dihkitjihpit
+#     dahkat+V+Pot+Pl3: dihkitji
+
+     dahkat+V+Neg: daga 
+     dahkat+V+GerI: dagadin 
+#     dahkat+V+Sup: dagatjit
+#     dahkat+V+Vabe: dahkak  
+     dahkat+V+Vgen: daga 
+     dahkat+V+GerII: dahkamin
+     dahkat+V+PrfPrc: dahkam
+#     dahkat+V+PrsPrc: dahka 
+#     dahkat+V+Vsubst: dahkam
+

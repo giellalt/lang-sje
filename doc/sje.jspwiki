@@ -1212,6 +1212,7 @@ Properhoun, toy file only
 
 
 * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
+* V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
 * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
 * V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
 
@@ -1353,6 +1354,7 @@ __V2 E to Á __
 * __guol0e0 __
 
 __V2 E to A __  
+
 
 
 __V2 O to U __  
