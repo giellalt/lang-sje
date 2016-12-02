@@ -25,7 +25,7 @@ Alphabet
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
   á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ª %- ß
   i2:i u2:u ä2:ä
-  b2:b d2:d g2:g t2:t j2:j h2:h
+  b2:b d2:d g2:g t2:t j2:j
   %^O:o
   ':0
 
@@ -55,7 +55,7 @@ Alphabet
 Sets
   Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú ' ;
   Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
-             b2 d2 g2 t2 j2 h2 ;
+             b2 d2 g2 t2 j2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
                            i2              %^O         u2            ä2 ;
   Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U %^VHBAR ;
