@@ -34,7 +34,6 @@ Semantic properties of names
  ^WG      * weak grade
  ^G3      * marks grade three for stems w/o Cgrad
  ^V2E2AA  * e to á (before j), o to u before j in V2
- ^V2E2A : e to a in V2 (V_EVEN_E 1/2Sg)
  ^CDEL    * Deleting final consonant, biednag
  ^MON     * Monophthong in contract
  ^UAUML   * uo to uä juolge / juällge

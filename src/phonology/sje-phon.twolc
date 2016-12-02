@@ -31,8 +31,7 @@ Alphabet
 
   %^WG:0     !!≈ ; @CODE@ : weak grade
   %^G3:0     !!≈ ; @CODE@ : marks grade three for stems w/o Cgrad
-  %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM)
-  %^V2E2A:0 !!≈ ; @CODE@ : e to a in V2 (V_EVEN_E 1/2Sg)
+  %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contracted stems
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
@@ -59,7 +58,7 @@ Sets
              b2 d2 g2 t2 j2 h2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
                            i2              %^O         u2            ä2 ;
-  Dummy  =  %^WG %^G3 %^V2E2AA %^V2E2A %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U %^VHBAR ;
+  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U %^VHBAR ;
   
 Definitions
 
@@ -138,6 +137,12 @@ Definitions
         u
         ] ; !vowels that can trigger VH (does NOT include i2 and u2)
 
+ V2E2AAtrig = [
+        0 |
+        v |
+        j |
+        t j
+        ] ; !consonant (incl. digraphs) which can occur before ^V2E2AA
 
 !! !!!Rules
 
@@ -435,16 +440,16 @@ e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
 !! __@RULENAME@__  
 e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
 
-"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj, vágge->vággáj
+"V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj, vágge->vággáj, båhtet->bådáv
 !! __@RULENAME@__  
-e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ Cns:+ %^V2E2AA:0 ;
+e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ V2E2AAtrig %^V2E2AA:0 ;
 
 !!€ gu^Olle^WG
 !!€ guol0e0 
 
-"V2 E to A" ! V_EVEN_E in 1/2SG
-!! __@RULENAME@__  
-e:a <=> Vow:+ Cns:+ _ %^WG:0 %^V2E2A:0 ;
+!"V2 E to A" ! V_EVEN_E in 1/2SG
+!!! __@RULENAME@__  
+!e:a <=> Vow:+ Cns:+ _ %^WG:0 %^V2E2A:0 ;
 
 
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
