@@ -52,8 +52,8 @@ LEXICON V_EVEN_E_STR
 +Vsubst:e%>m #; 
 
 LEXICON V_EVEN_E_WK
-+Ind+Prs+Sg1:^V2E2A%>v #;
-+Ind+Prs+Sg2:^V2E2A%>0 #;
++Ind+Prs+Sg1:%>v^V2E2AA #;
++Ind+Prs+Sg2:%>0^V2E2AA #;
 :^IJ%>j V_EVEN_E_WK_J ; !suffixes with -j-element that trigger e->i in V2
 
 +Imp+Sg2:%>0 #; 

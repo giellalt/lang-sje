@@ -83,7 +83,6 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ^WG     !!= @CODE@ * weak grade
 ^G3     !!= @CODE@ * marks grade three for stems w/o Cgrad
 ^V2E2AA !!= @CODE@ * e to á (before j), o to u before j in V2
-^V2E2A  !!≈ @CODE@ : e to a in V2 (V_EVEN_E 1/2Sg)
 ^CDEL   !!= @CODE@ * Deleting final consonant, biednag
 ^MON    !!= @CODE@ * Monophthong in contract
 ^UAUML  !!= @CODE@ * uo to uä juolge / juällge

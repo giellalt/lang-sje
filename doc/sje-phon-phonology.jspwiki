@@ -4,8 +4,7 @@
 
  ; %^WG:0 : weak grade
  ; %^G3:0 : marks grade three for stems w/o Cgrad
- ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM)
- ; %^V2E2A:0 : e to a in V2 (V_EVEN_E 1/2Sg)
+ ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
  ; %^CDEL:0 : delete final consonant odd (biednag)
  ; %^MON:0 : Monophthong in contracted stems
  ; %^UAUML:0 : uo to uä juolge / juällge
@@ -128,7 +127,6 @@ __V2 E to Á __
 * __gu^Olle^WG __
 * __guol0e0 __
 
-__V2 E to A __  
 
 
 __V2 O to U __  
