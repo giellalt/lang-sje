@@ -9,21 +9,17 @@ Config:
 
 Tests:
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
-
-  Verb - nammadit: # Verb 'to bring' - ei tsekattu
+  Verb - nammadit: # Verb 'name'
      nammadit+V+Inf: nammadit
+
      nammadit+V+Ind+Prs+Sg1: nammadav
      nammadit+V+Ind+Prs+Sg2: nammada
      nammadit+V+Ind+Prs+Sg3: nammada
      nammadit+V+Ind+Prs+Du1: nammadin
-     nammadit+V+Ind+Prs+Du2: [nammadähppen, nammadiehpen]
-     nammadit+V+Ind+Prs+Du3: nammadiebá
+     nammadit+V+Ind+Prs+Du2: nammadähppen #, nammadehpen]    #check!
+     nammadit+V+Ind+Prs+Du3: nammadebá
      nammadit+V+Ind+Prs+Pl1: nammadip
-     nammadit+V+Ind+Prs+Pl2: nammadihpit
+     nammadit+V+Ind+Prs+Pl2: nammadihppit
      nammadit+V+Ind+Prs+Pl3: nammadi
 
      nammadit+V+Ind+Prt+Sg1: nammadiv
@@ -36,26 +32,27 @@ Tests:
      nammadit+V+Ind+Prt+Pl2: nammadijde
      nammadit+V+Ind+Prt+Pl3: nammadin
 
-     nammadit+V+Pot+Sg1: nammadittjav
-     nammadit+V+Pot+Sg2: nammadittja
-     nammadit+V+Pot+Sg3: nammaditj
-     nammadit+V+Pot+Du1: nammadittjin
-     nammadit+V+Pot+Du2: [nammadittjabiehten, nammadittjabähtten]
-     nammadit+V+Pot+Du3: nammadittjaba
-     nammadit+V+Pot+Pl1: nammadittjap
-     nammadit+V+Pot+Pl2: nammadittjabihtit
-     nammadit+V+Pot+Pl3: nammadittji
-
-     nammadit+V+GerI: nammadittijn 
-     nammadit+V+Sup: nammaditjit
-     nammadit+V+Vabe: nammadak  
-     nammadit+V+Vgen: nammada 
-     nammadit+V+GerII: nammadame
-     nammadit+V+PrfPrc: nammadam
-     nammadit+V+PrsPrc: nammadäddje 
      nammadit+V+Imp+Sg2: nammade  
-     nammadit+V+Imp+Du2: nammadehtin
-     nammadit+V+Imp+Pl2: nammadihtit
-     nammadit+V+Vsubst: nammadim
-     
+     nammadit+V+Imp+Du2: nammadehten    #check!
+     nammadit+V+Imp+Pl2: nammadihttit   #check!
+
+     nammadit+V+ConNeg: nammade
+     nammadit+V+GerII: nammadamin
+     nammadit+V+PrfPrc: nammadam
+#     nammadit+V+GerI: nammadittijn 
+#     nammadit+V+Sup: nammaditjit
+#     nammadit+V+Vabe: nammadak  
+#     nammadit+V+Vgen: nammada 
+#     nammadit+V+PrsPrc: nammadäddje 
+#     nammadit+V+Vsubst: nammadim
+
+#     nammadit+V+Pot+Sg1: nammadittjav
+#     nammadit+V+Pot+Sg2: nammadittja
+#     nammadit+V+Pot+Sg3: nammaditj
+#     nammadit+V+Pot+Du1: nammadittjin
+#     nammadit+V+Pot+Du2: [nammadittjabiehten, nammadittjabähtten]
+#     nammadit+V+Pot+Du3: nammadittjaba
+#     nammadit+V+Pot+Pl1: nammadittjap
+#     nammadit+V+Pot+Pl2: nammadittjabihtit
+#     nammadit+V+Pot+Pl3: nammadittji
 

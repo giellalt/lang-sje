@@ -9,23 +9,16 @@ Config:
 
 Tests:
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
-
-
-  Verb - vuällget: # Verb 'to see' - ei tsekattu
+  Verb - vuällget: # Verb 'drive, travel, go'
      vuällget+V+Inf: vuällget
      vuällget+V+Ind+Prs+Sg1: vuolgáv
      vuällget+V+Ind+Prs+Sg2: vuolgá
-     vuällget+V+Ind+Prs+Sg3: vuällgá
+     vuällget+V+Ind+Prs+Sg3: vuallgá
      vuällget+V+Ind+Prs+Du1: vullgin
-     vuällget+V+Ind+Prs+Du2: vuällgebehtin
-     vuällget+V+Ind+Prs+Du2: vuällgebähtten
+     vuällget+V+Ind+Prs+Du2: [vuällgebehtin, vuällgebähtten]
      vuällget+V+Ind+Prs+Du3: vuällgeba
      vuällget+V+Ind+Prs+Pl1: vuällgep
-     vuällget+V+Ind+Prs+Pl2: vuällgebihtit
-     vuällget+V+Ind+Prs+Pl2: vuällgebehtit
+     vuällget+V+Ind+Prs+Pl2: [vuällgebehtit, vuällgebähttet]
      vuällget+V+Ind+Prs+Pl3: vullgi
 
      vuällget+V+Ind+Prt+Sg1: vullgiv
@@ -38,14 +31,22 @@ Tests:
      vuällget+V+Ind+Prt+Pl2: vulgijde
      vuällget+V+Ind+Prt+Pl3: vullgin
 
-     vuällget+V+Pot+Sg1: vulgitjav
-     vuällget+V+Pot+Sg2: vulgitja
-     vuällget+V+Pot+Sg3: vulgitj
-     vuällget+V+Pot+Du1: vulgitjin
-     vuällget+V+Pot+Du2: vulgitjiehpin
-     vuällget+V+Pot+Du2: vulgitjähppen
-     vuällget+V+Pot+Du3: vulgitjiebá
-     vuällget+V+Pot+Pl1: vulgitjip
-     vuällget+V+Pot+Pl2: vulgitjihpit
-     vuällget+V+Pot+Pl3: vulgitji
+     vuällget+V+Imp+Sg2: vuolge  
+     vuällget+V+Imp+Du2: vuällgen
+     vuällget+V+Imp+Pl2: vullgit
+
+     vuällget+V+ConNeg: vuolge 
+     vuällget+V+GerII: vuällgemin
+     vuällget+V+PrfPrc: vuallgám
+
+#     vuällget+V+Pot+Sg1: vulgitjav
+#     vuällget+V+Pot+Sg2: vulgitja
+#     vuällget+V+Pot+Sg3: vulgitj
+#     vuällget+V+Pot+Du1: vulgitjin
+#     vuällget+V+Pot+Du2: vulgitjiehpin
+#     vuällget+V+Pot+Du2: vulgitjähppen
+#     vuällget+V+Pot+Du3: vulgitjiebá
+#     vuällget+V+Pot+Pl1: vulgitjip
+#     vuällget+V+Pot+Pl2: vulgitjihpit
+#     vuällget+V+Pot+Pl3: vulgitji
 
