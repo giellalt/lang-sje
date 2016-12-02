@@ -306,22 +306,24 @@ LEXICON V_CONTR !välldut, tjerrut
 
 !! !!!Auxiliaries
 
-
 LEXICON LE !!= * @CODE@ 
 
-le+V+Ind+Prs: LEPRS ; 
-le+V+Ind+Prt: LEPRT ; 
-le+V+Ind+Pot: LEPOT ;
-le+V+PrfPrc:lam # ; !fattas negformer av le 
+lä+V+Ind+Prs: LEPRS ; 
+lä+V+Ind+Prt: LEPRT ; 
+lä+V+Ind+Pot: LEPOT ;
+lä+V+PrfPrc:lam # ; !fattas negformer av le 
+lä+V+Inf:årrot # ; !infinitive
 
 LEXICON LEPRS !!= * @CODE@ 
-+Sg1:läv # ; 
-+Sg1:liv # ; 
-+Sg2:lä # ;  
++Sg1:lev # ; 
+!+Sg1:läv # ; 
+!+Sg1:liv # ; 
++Sg2:le # ;  
+!+Sg2:lä # ;  
 +Sg3:lä # ; 
-+Sg3:le # ; 
+!+Sg3:le # ; 
 +Du1:lin # ; 
-+Du1:len # ; 
+!+Du1:len # ; 
 +Du2:lihpen # ; 
 +Du2:lähppen # ;  
 +Du3:läbá # ; 
@@ -366,38 +368,37 @@ LEXICON LEPOT
 +Pl3:lidtji # ; 
 
 
-LEXICON ATJA !!= * @CODE@ 
-atja+V+Ind+Prs: ATJAPRS ; 
-atja+V+Ind+Prt: ATJAPRT ; 
-
-
-LEXICON ATJAPRS !!= * @CODE@ 
-+Sg1:atjav      # ;  !!= * @CODE@ 
-+Sg2:atjah      # ; 
-+Sg3:atja       # ; 
-+Du1:itjin      # ; 
-+Du2:atjabihten # ; 
-+Du3:atjaba     # ; 
-+Pl1:atjap      # ; 
-+Pl2:atjabihtit # ; 
-+Pl3:itjih      # ; 
-
-LEXICON ATJAPRT !!= * @CODE@ 
-+Sg1:itjiv    # ;  !!= * @CODE@ 
-+Sg2:itjih    # ; 
-+Sg3:atjaj    # ; 
-+Du1:atjajmen # ; 
-+Du2:atjajden # ; 
-+Du3:atjajgan # ; 
-+Pl1:atjajmeh # ; 
-+Pl2:atjajdeh # ; 
-+Pl3:itjin    # ; 
+!LEXICON ATJA !!= * @CODE@ !!! originally in ACSj:  ATJA "skola" ;  !!= * @CODE@  ???
+!atja+V+Ind+Prs: ATJAPRS ; 
+!atja+V+Ind+Prt: ATJAPRT ; 
+!
+!
+!LEXICON ATJAPRS !!= * @CODE@ 
+!+Sg1:atjav      # ;  !!= * @CODE@ 
+!+Sg2:atjah      # ; 
+!+Sg3:atja       # ; 
+!+Du1:itjin      # ; 
+!+Du2:atjabihten # ; 
+!+Du3:atjaba     # ; 
+!+Pl1:atjap      # ; 
+!+Pl2:atjabihtit # ; 
+!+Pl3:itjih      # ; 
+!
+!LEXICON ATJAPRT !!= * @CODE@ 
+!+Sg1:itjiv    # ;  !!= * @CODE@ 
+!+Sg2:itjih    # ; 
+!+Sg3:atjaj    # ; 
+!+Du1:atjajmen # ; 
+!+Du2:atjajden # ; 
+!+Du3:atjajgan # ; 
+!+Pl1:atjajmeh # ; 
+!+Pl2:atjajdeh # ; 
+!+Pl3:itjin    # ; 
 
 LEXICON IJ !!= * @CODE@ 
 ij+V+Neg+Prs: IJPRS ;
 ij+V+Neg+Prt: IJPRT ;
 ij+V+Neg+Imprt: IJIMP ;
-ij+V+Neg+Opt: IJOPT ;
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    # ;  !!= * @CODE@ 
@@ -406,7 +407,6 @@ LEXICON IJPRS !!= * @CODE@
 +Du1:en # ; 
 +Du2:ehpen # ;   
 +Du3:iebá # ; 
-
 +Pl1:iehpe # ; 
 +Pl1:ep # ; 
 +Pl2:ehpit # ;  
@@ -435,24 +435,6 @@ LEXICON IJIMP !!= * @CODE@
 +Du2:iellen # ; 
 +Du3:ellit  # ;
 
-!det som är nedan IJOPT kan tas bort
-                        
-LEXICON IJOPT                !!= * @CODE@        
-+Sg1:alluv    # ; !!= * @CODE@ 
-+Sg2:alluh    # ;
-+Sg3:allus    # ;
-+Du1:ellun   # ;
-+Du1:allun    # ;
-+Du2:elluten # ;
-+Du2:alluten  # ;
-+Du3:elluska # ;
-+Du3:alluska  # ;
-+Pl1:ellup   # ;
-+Pl1:allup    # ;
-+Pl2:elluteh # ;
-+Pl2:alluteh  # ;
-+Pl3:elluseh # ;
-+Pl3:alluseh  # ;
 
 
 !!!!!!!!! original verb LEXICA below (before JW)

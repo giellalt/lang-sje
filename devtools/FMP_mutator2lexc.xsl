@@ -223,6 +223,9 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 
 !! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
+
+LE "copulat/auxiliary verb" ; !!= * @CODE@ 
+IJ "negation verb" ; !!= * @CODE@ 
 </xsl:text>
   </xsl:when>
   <xsl:otherwise>

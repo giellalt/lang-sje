@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-12-01+01:00 16:59:29.074+01:00
+! Timestamp: 2016-12-02+01:00 09:12:29.167+01:00
 
 !! !!!Pite Saami verbs
 
@@ -36,6 +36,9 @@ LEXICON Verb   !!= * __@CODE@__ is the main lexicon
 
 !! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
+
+LE "copulat/auxiliary verb" ; !!= * @CODE@ 
+IJ "negation verb" ; !!= * @CODE@ 
 
 allvaduvvut:allvaduvvu V_CONTR "be perplexed" ; ! no. 3282
 álgeduvvut:álgeduvvu V_CONTR "begin" ; ! no. 6017
@@ -868,7 +871,6 @@ vuodjot:vu^Odj V_EVEN_O "sink, fall down to the bottom" ; ! no. 2156
 ådtjot:ådtj V_EVEN_O "get, receive, be allowed to" ; ! no. 2237
 åggot:ågg V_EVEN_O "fish using a fishing rod" ; ! no. 2241
 årrot:årr V_EVEN_O "live, reside" ; ! no. 2268
-årrot:årr V_EVEN_O "be" ; ! no. 2340
 åsskot:åssk V_EVEN_O "believe in someone or something, have trust in something" ; ! no. 2271
 åvvlot:åvvl V_EVEN_O "get heartburn" ; ! no. 2280
 bådnjåt:bådnj V_EVEN_Å "screw, twist" ; ! no. 234
