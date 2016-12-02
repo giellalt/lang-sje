@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-12-02+01:00 12:27:46.853+01:00
+! Timestamp: 2016-12-02+01:00 14:48:45.153+01:00
 
 !! !!!Pite Saami verbs
 
@@ -47,6 +47,7 @@ bájneduvvut:bájneduvvu V_CONTR "get painted" ; ! no. 90149
 bálkestuvvut:bálkestuvvu V_CONTR "be thrown" ; ! no. 2507
 báneduvvut:báneduvvu V_CONTR "became toothless" ; ! no. 90150
 biddit:biddi V_CONTR "make a bed" ; ! no. 1007
+bidtjit:bidtji V_CONTR "build" ; ! no. 4638
 biejaduvvut:biejaduvvu V_CONTR "be put aside" ; ! no. 90151
 bieljeduvvut:bieljeduvvu V_CONTR "become deaf" ; ! no. 175
 bievastuvvut:bievastuvvu V_CONTR "become sweaty" ; ! no. 6084
@@ -71,6 +72,7 @@ bäkktjit:bä2kktji V_CONTR "hurt someone" ; ! no. 3947
 bällit:bä2lli V_CONTR "get the opportunity to do something" ; ! no. 4203
 bärrkit:bä2rrki V_CONTR "tan leather using willow" ; ! no. 3218
 dagaduvvut:dagaduvvu V_CONTR "be done" ; ! no. 90154
+deklarerit:deklareri V_CONTR "declare" ; ! no. 3567
 devvut:devvu V_CONTR "become full" ; ! no. 4710
 didtjit:didtji V_CONTR "beg" ; ! no. 362
 dielmoduvvut:dielmoduvvu V_CONTR "be trampled, stomped on" ; ! no. 5533
@@ -79,6 +81,7 @@ dipptjit:dipptji V_CONTR "press down" ; ! no. 5658
 dubdiduvvut:dubdiduvvu V_CONTR "mark, characterize" ; ! no. 5679
 duddjut:duddju V_CONTR "break off, break apart" ; ! no. 3369
 duhkkit:duhkki V_CONTR "suffice" ; ! no. 385
+duhppit:duhppi V_CONTR "quickly pull, yank" ; ! no. 5939
 dujjfit:dujjfi V_CONTR "make dirty" ; ! no. 386
 dukksit:dukksi V_CONTR "amass, store" ; ! no. 388
 dullit:dulli V_CONTR "heat, stoke" ; ! no. 90642
@@ -92,11 +95,14 @@ dävdnut:dä2vdnu V_CONTR "serve, earn" ; ! no. 366
 fámoduvvut:fámoduvvu V_CONTR "become powerless, strengthless" ; ! no. 4187
 firrjit:firrji V_CONTR "color" ; ! no. 2476
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
+fivvrit:fievvri V_CONTR "transport" ; ! no. 5549
 fuabmát:fu^Obmá V_CONTR "realize" ; ! no. 481
 färrut:fä2rru V_CONTR "drive, go, travel" ; ! no. 90645
+gessut:giessu V_CONTR "be drawn, be pulled" ; ! no. 5252
 gieladuvvut:gieladuvvu V_CONTR "loose one’s voice, become hoarse" ; ! no. 3876
 gillbit:gillbi V_CONTR "snow and be very windy" ; ! no. 4825
 grävvit:grä2vvi V_CONTR "bury" ; ! no. 90646
+gullgit:gullgi V_CONTR "lose hair (for hide)" ; ! no. 4860
 gullit:gul'li V_CONTR "fish" ; ! no. 697
 gullut:gullu V_CONTR "be heard; belong to" ; ! no. 3059
 guppsut:guppsu V_CONTR "come too late and miss a meal" ; ! no. 3867
@@ -167,6 +173,7 @@ nuhttit:nuhtti V_CONTR "fish using a seine, pull up onto land" ; ! no. 4566
 näggit:nä2ggi V_CONTR "force one’s way into" ; ! no. 1334
 närrit:nä2rri V_CONTR "tell lies, deceive" ; ! no. 4283
 plejjut:plejju V_CONTR "whine (for a dog in pain)" ; ! no. 4314
+pluvvgit:pluvvgi V_CONTR "plow" ; ! no. 90167
 pruvvit:pruvvi V_CONTR "rub, massage" ; ! no. 1444
 pruvvkut:pruvvku V_CONTR "use, apply, usually do" ; ! no. 1354
 pruvvut:pruvvu V_CONTR "attempt, try" ; ! no. 2974
@@ -229,6 +236,7 @@ speddjut:speddju V_CONTR "be destroyed" ; ! no. 1718
 spijjkit:spijjki V_CONTR "nail" ; ! no. 1722
 spillit:spilli V_CONTR "spill" ; ! no. 4276
 spirrit:spirri V_CONTR "disperse, scatter" ; ! no. 2413
+spivvtjit:spevvtji V_CONTR "haunt" ; ! no. 4198
 spädtjut:spä2dtju V_CONTR "slap, hit" ; ! no. 90259
 spärrkit:spä2rrki V_CONTR "ride a kick-sled" ; ! no. 1725
 spärrut:spä2rru V_CONTR "save" ; ! no. 2836
@@ -251,6 +259,7 @@ säddit:sä2ddi V_CONTR "send, send off" ; ! no. 3819
 säddjit:sä2ddji V_CONTR "sow, scatter" ; ! no. 1831
 sälltit:sä2llti V_CONTR "salt" ; ! no. 3940
 säpptit:sä2ppti V_CONTR "bait" ; ! no. 3078
+tilltit:tillti V_CONTR "camp, tent" ; ! no. 3520
 tjalmeduvvut:tjalmeduvvu V_CONTR "go blind, lose vision" ; ! no. 1876
 tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 90668
 tjiddnut:tjiddnu V_CONTR "constipated" ; ! no. 1899
@@ -271,6 +280,7 @@ truvvgit:truvvgi V_CONTR "force" ; ! no. 4579
 tsibbtsut:tsibbtsu V_CONTR "pinch someone" ; ! no. 5712
 tsiggiduvvut:tsiggiduvvu V_CONTR "be constructed, be erected" ; ! no. 90234
 tsiggit:tsiggi V_CONTR "build, set up, raise" ; ! no. 2003
+tsihkkit:tsihkki V_CONTR "start (a fire)" ; ! no. 90083
 tsujjgit:tsujjgi V_CONTR "point out, draw someone’s attention to something" ; ! no. 2012
 tuhttjit:tuhttji V_CONTR "think, consider, deem" ; ! no. 4733
 tuŋŋkit:tuŋŋki V_CONTR "castrate reindeer" ; ! no. 6655
@@ -301,6 +311,7 @@ värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 ajádallat:ajádall V_EVEN_A "spend time" ; ! no. 4532
 aldagasstet:aldagasst V_EVEN_A "flash lightening, thunder" ; ! no. 45
 amastallat:amastall V_EVEN_A "feel foreign" ; ! no. 3542
+arbmogasstet:arbmogasst V_EVEN_A "take mercy upon" ; ! no. 5397
 arrmálasstet:arrmálasst V_EVEN_A "take pity, ask for help" ; ! no. 4062
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
