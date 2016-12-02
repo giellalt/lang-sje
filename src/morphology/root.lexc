@@ -96,8 +96,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 i2 !!= @CODE@ * Variable vowel, does not trigger VH
 u2 !!= @CODE@ * Variable vowel, does not trigger VH
 ä2 !!= @CODE@ * Variable vowel, does not undergo (further) VH
-d2 t2 j2 h2 g2 !!= @CODE@ * Variable consonants, undergo final devoicing
-               ! NB! This is the opposite of the sme pattern
+b2 d2 g2 t2 j2 !!= @CODE@ * Variable consonants, undergo final devoicing or other alternations
 ^O      !!= @CODE@ * o but ä in uä
 
 !! {{{

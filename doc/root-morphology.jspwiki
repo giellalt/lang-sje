@@ -47,7 +47,7 @@ Semantic properties of names
  i2  * Variable vowel, does not trigger VH
  u2  * Variable vowel, does not trigger VH
  ä2  * Variable vowel, does not undergo (further) VH
- d2 t2 j2 h2 g2  * Variable consonants, undergo final devoicing
+ b2 d2 g2 t2 j2  * Variable consonants, undergo final devoicing or other alternations
  ^O       * o but ä in uä
 
 {{{
