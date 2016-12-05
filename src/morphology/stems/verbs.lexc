@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-12-02+01:00 14:51:50.973+01:00
+! Timestamp: 2016-12-05+01:00 19:47:37.159+01:00
 
 !! !!!Pite Saami verbs
 
@@ -150,6 +150,7 @@ lägit:lä2gi V_CONTR "fix, repair" ; ! no. 3494
 lähppit:lä2hppi V_CONTR "make cheese" ; ! no. 3029
 lähpput:lä2hppu V_CONTR "get lost" ; ! no. 1006
 läjjdit:lä2jjdi V_CONTR "lead, drive" ; ! no. 1100
+lärrkit:lä2rrki V_CONTR "not fare well" ; ! no. 90500
 lässit:lä2ssi V_CONTR "lock" ; ! no. 4090
 lättkit:lä2ttki V_CONTR "not fare well" ; ! no. 4952
 lävvkit:lä2vvki V_CONTR "take a step" ; ! no. 1106
@@ -250,6 +251,7 @@ stäbbnut:stä2bbnu V_CONTR "sue" ; ! no. 3493
 stäggit:stä2ggi V_CONTR "close, shut" ; ! no. 1750
 stämmpit:stä2mmpi V_CONTR "stomp" ; ! no. 4273
 stännit:stä2nni V_CONTR "stop, stay" ; ! no. 3292
+suhppit:suhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 90664
 sujdnit:sujdni V_CONTR "examine, inspect" ; ! no. 3262
 sujdnit:sujdni V_CONTR "harvest hay" ; ! no. 4799
 sujjtit:sujjti V_CONTR "take care of" ; ! no. 2784
@@ -305,6 +307,7 @@ vähttjit:vä2httji V_CONTR "drive around" ; ! no. 2219
 välldut:vä2lldu V_CONTR "get married" ; ! no. 2222
 välljit:vä2llji V_CONTR "choose, select" ; ! no. 3288
 värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
+åddát:åddá V_CONTR "fall asleep" ; ! no. 90455
 årrát:årrá V_CONTR "fall asleep" ; ! no. 2263
 ällát:ä2llá V_CONTR "survive" ; ! no. 4339
 ärrbit:ä2rrbi V_CONTR "inherit" ; ! no. 3470
@@ -537,6 +540,7 @@ suasskat:su^Ossk V_EVEN_A "chew" ; ! no. 1787
 subtsastallat:subtsastall V_EVEN_A "tell" ; ! no. 90663
 suddat:sudd V_EVEN_A "melt" ; ! no. 1754
 suhkat:suhk V_EVEN_A "row, paddle" ; ! no. 1756
+suhtalussjat:suhtalussj V_EVEN_A "regret, feel sorry about" ; ! no. 3244
 suhttat:suhtt V_EVEN_A "become fed up" ; ! no. 1758
 suogŋat:su^Ogŋ V_EVEN_A "crawl into, under" ; ! no. 1766
 suohpat:su^Ohp V_EVEN_A "check fishnets without pulling them up" ; ! no. 2783
