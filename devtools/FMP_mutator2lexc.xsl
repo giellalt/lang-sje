@@ -74,30 +74,24 @@
 <!-- set variable for PoS in English -->
 <xsl:variable name="PoS">
   <xsl:choose>
-  <xsl:when test="$PoS_Samica = 'subst'">
-      <xsl:value-of select="'noun'"/>
-  </xsl:when>
-  <xsl:when test="$PoS_Samica = 'verb'">
-      <xsl:value-of select="'verb'"/>
-  </xsl:when>
-  <xsl:otherwise>
-      <xsl:value-of select="'unknown'"/>
-  </xsl:otherwise>
+  <xsl:when test="$PoS_Samica = 'subst'"><xsl:value-of select="'noun'"/></xsl:when>
+  <xsl:when test="$PoS_Samica = 'verb'"><xsl:value-of select="'verb'"/></xsl:when>
+  <xsl:when test="$PoS_Samica = 'adj'"><xsl:value-of select="'adj'"/></xsl:when>
+  <xsl:when test="$PoS_Samica = 'post'"><xsl:value-of select="'post'"/></xsl:when>
+  <xsl:when test="$PoS_Samica = 'adv'"><xsl:value-of select="'adv'"/></xsl:when>
+  <xsl:otherwise><xsl:value-of select="'unknown'"/></xsl:otherwise>
   </xsl:choose>
 </xsl:variable>
 
 <!-- set variable for LEXICON name -->
 <xsl:variable name="LexName">
   <xsl:choose>
-  <xsl:when test="$PoS = 'noun'">
-      <xsl:value-of select="'Noun'"/>
-  </xsl:when>
-  <xsl:when test="$PoS = 'verb'">
-      <xsl:value-of select="'Verb'"/>
-  </xsl:when>
-  <xsl:otherwise>
-      <xsl:value-of select="'ERROR'"/>
-  </xsl:otherwise>
+  <xsl:when test="$PoS = 'noun'"><xsl:value-of select="'Noun'"/></xsl:when>
+  <xsl:when test="$PoS = 'verb'"><xsl:value-of select="'Verb'"/></xsl:when>
+  <xsl:when test="$PoS = 'adj'"><xsl:value-of select="'Adjective'"/></xsl:when>
+  <xsl:when test="$PoS = 'post'"><xsl:value-of select="'Postposition'"/></xsl:when>
+  <xsl:when test="$PoS = 'adv'"><xsl:value-of select="'Adverb'"/></xsl:when>
+  <xsl:otherwise><xsl:value-of select="'ERROR'"/></xsl:otherwise>
   </xsl:choose>
 </xsl:variable>
 
@@ -121,19 +115,19 @@
 ! Timestamp: </xsl:text>
 <xsl:value-of select="date:date-time()"/>
 <!--xsl:value-of select="current-date(),current-time()"/-->
+
+<xsl:choose>
+
+<!-- NOUN HEADER -->
+  <xsl:when test="$PoS = 'noun'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$PoS"/><xsl:text>s
+!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
 LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
 
 !! !!Lexc inflectional classes (Mini-grammar)
-</xsl:text>
 
-<!-- list LexC classes for each PoS (Mini-grammar) -->
-<xsl:choose>
-  <xsl:when test="$PoS = 'noun'">
-<xsl:text>
 !! * Even-syllable stem patterns: 
 !! ** N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
 !! ** N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
@@ -152,8 +146,17 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 
 </xsl:text>
   </xsl:when>
+
+<!-- VERB HEADER -->
   <xsl:when test="$PoS = 'verb'">
 <xsl:text>
+
+!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+
+LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
+
+!! !!Lexc inflectional classes (Mini-grammar)
+
 ! Even-syllable stem patterns:
 
 !! * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
@@ -172,13 +175,53 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
 
 LE "copulat/auxiliary verb" ; !!= * @CODE@ 
 IJ "negation verb" ; !!= * @CODE@ 
+
 </xsl:text>
   </xsl:when>
+
+<!-- ADJECTIVE HEADER -->
+  <xsl:when test="$PoS = 'adj'">
+<xsl:text>
+
+!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+
+LEXICON Adjective   !!= * __@CODE@__ is the list
+
+</xsl:text>
+  </xsl:when>
+
+<!-- ADVERB HEADER -->
+  <xsl:when test="$PoS = 'adv'">
+<xsl:text>
+
+!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+
+LEXICON adv   !!= * __@CODE@__ adds the tag +Adv
++Adv: # ;
+
+LEXICON Adverb   !!= * __@CODE@__ is the list
+</xsl:text>
+  </xsl:when>
+
+<!-- ADPOSITION HEADER -->
+  <xsl:when test="$PoS = 'post'">
+<xsl:text>
+
+!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+
+LEXICON PP   !!= * __@CODE@__  adds the tag +Po
++Po: # ;
+
+LEXICON Postposition   !!= * __@CODE@__ is the list
+</xsl:text>
+  </xsl:when>
+
+<!-- ERROR HEADER -->
   <xsl:otherwise>
-    <xsl:value-of select="'unknown'"/>
+    <xsl:value-of select="'unknown (error in header, PoS)'"/>
   </xsl:otherwise>
 </xsl:choose>
-<xsl:value-of select="$nl"/>
+<!--xsl:value-of select="$nl"/-->
 
 
 <!-- insert data -->
