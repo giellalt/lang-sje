@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-12-02+01:00 15:38:18.373+01:00
+! Timestamp: 2016-12-07T13:08:53+01:00
 
 !! !!!Pite Saami nouns
 
@@ -115,6 +115,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 állge:állge N_EVEN "amateur, beginner" ; ! no. 3095
 ánnda:ánnda N_EVEN "" ; ! no. 3100
 árbeåbme:árbe#åbme N_EVEN "inheritance" ; ! no. 2732
+árjepluovve:árjeplu^Ovve N_EVEN "" ; ! no. 66
 árranásste:árra#násste N_EVEN "morning star" ; ! no. 2995
 árrangärrge:árran#gierrge N_EVEN "stone around a fireplace" ; ! no. 69
 árransadje:árran#sadje N_EVEN "fire place" ; ! no. 4664
@@ -254,12 +255,14 @@ bälljelibbja:bällje#libbja N_EVEN "earring" ; ! no. 275
 bälljenávvle:bällje#návvle N_EVEN "earache" ; ! no. 276
 bälltse:bielltse N_EVEN "waist" ; ! no. 280
 bäŋŋka:bieŋŋka N_EVEN "bench, couch" ; ! no. 281
+bärrgoliebma:bärrgo#liebma N_EVEN "meat bouillon" ; ! no. 5626
 bässe:bies'se N_EVEN "birch bark" ; ! no. 285
 bävvde:bievvde N_EVEN "table" ; ! no. 289
 bävvdegirrje:bävvde#girrje N_EVEN "minutes (of a meeting)" ; ! no. 290
 bävvla:bievvla N_EVEN "bare (snow-free) ground" ; ! no. 2437
 bävvle:bievvle N_EVEN "musical drum" ; ! no. 3298
 dajjva:dajjva N_EVEN "place, area" ; ! no. 310
+danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
 darrve:darrve N_EVEN "tar" ; ! no. 337
 dábbde:dábbde N_EVEN "spleen" ; ! no. 292
 dábbtja:dábbtja N_EVEN "small whetstone" ; ! no. 294
@@ -315,6 +318,7 @@ dåhpe:dåhpe N_EVEN "house" ; ! no. 416
 dåhppå:dåhppå N_EVEN "sheath" ; ! no. 3627
 dållge:dållge N_EVEN "down, feathers" ; ! no. 419
 dållå:dållå N_EVEN "fire" ; ! no. 421
+dållåstihkka:dållå#stihkka N_EVEN "matchstick" ; ! no. 423
 dåresmuorra:dåres#mu^Orra N_EVEN "crossbar" ; ! no. 4731
 dåresåjjve:dåres#åjjve N_EVEN "diagonally oriented mountaintop" ; ! no. 5408
 dårrjod+N+Der/Ag:dårrjodieddje N_EVEN "caregiver" ; ! no. 6657
@@ -510,6 +514,7 @@ gåttkåbiesse:gåttkå#biesse N_EVEN "anthill" ; ! no. 4893
 gåvdnje:gåvdnje N_EVEN "mongrel" ; ! no. 2610
 gåvnjosäjjbe:gåvnjo#siejjbe N_EVEN "hanging tail on a dog" ; ! no. 2640
 gåvvå:gåvvå N_EVEN "picture, painting" ; ! no. 776
+gåvvåráma:gåvvå#ráma N_EVEN "picture frame" ; ! no. 3152
 gäbbne:giebbne N_EVEN "pot" ; ! no. 779
 gäddge:gieddge N_EVEN "stone, rock" ; ! no. 90417
 gähttje:giehttje N_EVEN "guardian" ; ! no. 3687
@@ -1140,6 +1145,7 @@ tjaktjajiegŋa:tjaktja#jiegŋa N_EVEN "autumn ice" ; ! no. 4611
 tjalbme:tjalbme N_EVEN "eye" ; ! no. 1870
 tjalbmebielle:tjalbme#bielle N_EVEN "one eye (as opposed to both eyes)" ; ! no. 5192
 tjalbmeguallga:tjalbme#gu^Ollga N_EVEN "eyelash" ; ! no. 90286
+tjalbmesiedja:tjalbme#siedja N_EVEN "puss in the eye" ; ! no. 1872
 tjalmedis+N+Der/State:tjalmedisvu^Ohta N_EVEN "blindness" ; ! no. 6201
 tjarra:tjarra N_EVEN "soot, coal" ; ! no. 1852
 tjarrva:tjarrva N_EVEN "snow crust" ; ! no. 1880
@@ -1526,7 +1532,9 @@ mierragádde:mierra#gádde N_EVEN_NOCG "coastline" ; ! no. 2708
 muaddá:mu^Oddá N_EVEN_NOCG "reindeer fur" ; ! no. 1170
 muddo:muddo N_EVEN_NOCG "time, approximate point in time" ; ! no. 1172
 mugga:mugga N_EVEN_NOCG "mug" ; ! no. 1174
+muohtagåbbå:muohta#gåbbå N_EVEN_NOCG "snowman" ; ! no. 4129
 muorragágga:muorra#gágga N_EVEN_NOCG "wooden cask" ; ! no. 3886
+muorraklabba:muorraklabba N_EVEN_NOCG "piece of wood" ; ! no. 1980
 muorralådde:muorra#lådde N_EVEN_NOCG "forest bird" ; ! no. 1189
 muorrarigge:muorra#rigge N_EVEN_NOCG "wooden chain used to hang a pot over a fire" ; ! no. 4778
 måddå:måddå N_EVEN_NOCG "powder snow on the road" ; ! no. 5272
@@ -1950,6 +1958,7 @@ dálatj:dálatj N_ODD "nowadays, current" ; ! no. 3590
 dálkas:dálkas N_ODD "medicine" ; ! no. 317
 dállveguohtom:dállve#gu^Ohtom N_ODD "winter food for reindeer" ; ! no. 4720
 dállveiednam:dállve#iednam N_ODD "winter land" ; ! no. 90195
+dállveårroj:dállve#årroj N_ODD "reindeer which remained behind during the winter instead of migrating" ; ! no. 4722
 dehtus:dehtus N_ODD "knowledge" ; ! no. 90321
 derik:derig2 N_ODD "shoes made of leather from reindeer legs" ; ! no. 354
 desimehter:desi#mehter N_ODD "decimeter" ; ! no. 3564
@@ -2052,6 +2061,7 @@ iednamskillbim:iednam#skillbim N_ODD "earthquake" ; ! no. 4182
 iehket:iehked2 N_ODD "evening" ; ! no. 445
 iejgát:iejgád2 N_ODD "parents, owner" ; ! no. 446
 iemet:iemed2 N_ODD "housewife" ; ! no. 451
+iemeårroj:ieme#årroj N_ODD "permanent settler" ; ! no. 90245
 illtjak:illtjag2 N_ODD "stubborn, obstinate" ; ! no. 894
 iŋŋgel:iŋŋgel N_ODD "angel" ; ! no. 5287
 iret:ired2 N_ODD "tomorrow" ; ! no. 873
@@ -2097,6 +2107,7 @@ mådtsok:mådtsog2 N_ODD "reindeer fur shoe for children with seams on the insid
 månem:månem N_ODD "kidney" ; ! no. 1208
 mårås:mårås N_ODD "artery" ; ! no. 2852
 mähttseviessoj:mähttse#viessoj N_ODD "forest animal, wild game" ; ! no. 90378
+mähttseårroj:mähttse#årroj N_ODD "hermit" ; ! no. 3999
 nageralmatj:nager#almatj N_ODD "sleepy person" ; ! no. 4998
 narak:narag2 N_ODD "pot with a handle" ; ! no. 2671
 narán:narán N_ODD "nail" ; ! no. 1254
@@ -2239,6 +2250,7 @@ tjuruk:tjurug2 N_ODD "flesh fly" ; ! no. 1945
 tjåhkem:tjåhkem N_ODD "collection, pile, gathering" ; ! no. 3926
 tjåhkom:tjåhkom N_ODD "comb" ; ! no. 1961
 tjårvek:tjårveg2 N_ODD "" ; ! no. 1977
+tjårvemáddak:tjårve#máddag2 N_ODD "base of reindeer antlers" ; ! no. 2380
 tsábos:tsábos N_ODD "thinly sliced meat" ; ! no. 5902
 tsieban:tsieban N_ODD "shrew mouse" ; ! no. 4348
 tsiggán:tsiggán N_ODD "wood frame for Saami tipi" ; ! no. 2007
@@ -2259,6 +2271,7 @@ vádtsatj:vádtsatj N_ODD "a little snow on the ground, thin blanket of snow" ; 
 váhtam:váhtam N_ODD "small snack" ; ! no. 90571
 váhtjam:váhtjam N_ODD "reindeer cow" ; ! no. 2055
 váras:váras N_ODD "homespun cloth" ; ! no. 392
+várreårroj:várre#årroj N_ODD "mountainman (non-Saami)" ; ! no. 4083
 vidak:vidag2 N_ODD "five crown coin" ; ! no. 4051
 vidájagak:vidá#jagag2 N_ODD "five-year-old" ; ! no. 5438
 viejek:viejeg2 N_ODD "fish larva, young fish" ; ! no. 2117
@@ -2297,6 +2310,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 äjjgut:ä2jjgud2 N_ODD "intent" ; ! no. 3171
 äjjtik:ä2jjtig2 N_ODD "forefather, ancestor" ; ! no. 33
 älbmuk:ä2lbmug2 N_ODD "people, crowd, public" ; ! no. 44
+aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
 ája:ádjag N_ODD_OPEN "spring, source" ; ! no. 2685
 ájjgetjála:ájjge#tjállag N_ODD_OPEN "journal" ; ! no. 90287
 ájjtetjåvdå:ájjte#tjåvvdåg N_ODD_OPEN "key for a shed" ; ! no. 4091
@@ -2327,6 +2341,7 @@ tjåhkketjála:tjåhkke#tjállag N_ODD_OPEN "documentation" ; ! no. 5932
 tjårvegietjmádda:tjårve#gietj#máddag N_ODD_OPEN "fork in antlers" ; ! no. 2373
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
+vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
 ålol:ållol N_ODD_VH "jaw" ; ! no. 2257
 áhtselisbålås:áhtselis#bållås N_ODD_WG "heavy rain shower" ; ! no. 15
 ánjas:ádnjas N_ODD_WG "leg tendon" ; ! no. 5832
