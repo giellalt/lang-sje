@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <!--+
-    | convert FILEMAKER XML export into LEXC format
-    | cf. langs/sje/misc/00_README_FM2LEXC.txt for usage (local copy only)
-    | Usage: java net.sf.saxon.Transform -it main STYLESHEET_NAME.xsl (inFile=INPUT_FILE_NAME.xml | inDir=INPUT_DIR)
+    | stylesheet for converting FILEMAKER XML export into LEXC format directly via FM-export
+    | created by J. Wilbur, Pite Saami Documentation Project
     +-->
 
 <xsl:stylesheet version="2.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
-		xmlns:local="nightbar"
-		xmlns:fmp="http://www.filemaker.com/fmpxmlresult"
-		xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
-		exclude-result-prefixes="xs local fmp ss">
+		xmlns:fm="http://www.filemaker.com/fmpxmlresult"
+		xmlns:date="http://exslt.org/dates-and-times"
+		exclude-result-prefixes="xs fm date">
 
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" name="xml"
@@ -24,12 +22,6 @@
               indent="yes"/>
   <xsl:output method="text" name="txt"
 	      encoding="UTF-8"/>
-  
-  <!-- Input -->
-  <xsl:param name="inFileNameONLY" select="'fmp4lexc'"/>
-  <xsl:param name="inFile" select="concat('../misc/',$inFileNameONLY,'.xml')"/>
-  <xsl:param name="inDir" select="'xxxdirxxx'"/>
-  <xsl:param name="XSLfile" select="base-uri(document(''))"/>
   
   <!-- Outputs -->
   <xsl:variable name="outDirXML" select="'outDirXML_Layouts'"/>
@@ -44,62 +36,13 @@
   <xsl:variable name="eXML" select="$output_formatXML"/>
   <xsl:variable name="eTXT" select="$output_formatTXT"/>
   <xsl:variable name="eLEXC" select="$output_formatLEXC"/>
-  <xsl:variable name="file_name" select="substring-before((tokenize($inFile, '/'))[last()], '.xml')"/>
-  <xsl:variable name="styleSheet_name" select="(tokenize($XSLfile, '/'))[last()]"/>
-  <xsl:variable name="debug" select="true()"/>  
 
   <xsl:variable name="tab" select="'&#9;'"/>
   <xsl:variable name="nl" select="'&#xA;'"/>
-  <xsl:variable name="currentDateString" select="substring(string(current-date()),1,10)"/>
+  <!--xsl:variable name="currentDateString" select="substring(string(current-date()),1,10)"/-->
 
 
-  <!-- template to test if input DIR and FILE exist -->
   <xsl:template match="/" name="main">
-    
-    <xsl:if test="doc-available($inFile)">
-      <xsl:message terminate="no">
-	    <xsl:value-of select="concat('Processing file: ', $inFile)"/>
-      </xsl:message>      
-
-      <xsl:call-template name="processFile">
-    	<xsl:with-param name="theFile" select="document($inFile)"/>
-    	<xsl:with-param name="theName" select="$file_name"/>
-      </xsl:call-template>
-    </xsl:if>
-
-    <!-- xsl:if test="doc-available($inDir)" -->
-    <xsl:if test="not($inDir = 'xxxdirxxx')">
-      <xsl:for-each select="for $f in collection(concat($inDir, '?select=*.xml')) return $f">
-	
-	<xsl:variable name="current_file" select="substring-before((tokenize(document-uri(.), '/'))[last()], '.xml')"/>
-	<xsl:variable name="current_dir" select="substring-before(document-uri(.), $current_file)"/>
-	<xsl:variable name="current_location" select="concat($inDir, substring-after($current_dir, $inDir))"/>
-	
-	<xsl:message terminate="no">
-	  <xsl:value-of select="concat('Processing file: ', $current_file)"/>
-	</xsl:message>
-
-
-	<xsl:call-template name="processFile">
-	  <xsl:with-param name="theFile" select="."/>
-	  <xsl:with-param name="theName" select="$current_file"/>
-	</xsl:call-template>
-      </xsl:for-each>
-    </xsl:if>
-    
-    <xsl:if test="not(doc-available($inFile) or not($inDir = 'xxxdirxxx'))">
-      <xsl:value-of select="concat('Could not find either ', $inFile, ' or ', $inDir, ', or both.', $nl)"/>
-    </xsl:if>    
-  </xsl:template>
-
-
-  <!-- template to process file, once its existence has been determined -->
-  <xsl:template name="processFile">
-    <xsl:param name="theFile"/>
-    <xsl:param name="theName"/>
-
-      <!-- output document LEXC file(s) -->
-      <xsl:result-document href="/Users/me/main/langs/sje/misc/{$outputFileName}.lexc" format="{$output_formatLEXC}">
       <xsl:variable name="apos">'</xsl:variable>
       <xsl:variable name="dq">"</xsl:variable>
       <xsl:variable name="acute">´</xsl:variable>
@@ -125,7 +68,7 @@
 
 <!-- set original PoS (Swedish) variable -->
 <xsl:variable name="PoS_Samica">
-  <xsl:value-of select="$theFile/*:FMPXMLRESULT/*:RESULTSET/*:ROW[position()=1]/*:COL[position()=3]/*:DATA"/>
+  <xsl:value-of select="fm:FMPXMLRESULT/fm:RESULTSET/fm:ROW[position()=1]/fm:COL[position()=3]/fm:DATA"/>
 </xsl:variable>
 
 <!-- set variable for PoS in English -->
@@ -175,7 +118,10 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: </xsl:text><xsl:value-of select="current-date(),current-time()"/><xsl:text>
+! Timestamp: </xsl:text>
+<xsl:value-of select="date:date-time()"/>
+<!--xsl:value-of select="current-date(),current-time()"/-->
+<xsl:text>
 
 !! !!!Pite Saami </xsl:text><xsl:value-of select="$PoS"/><xsl:text>s
 
@@ -235,22 +181,14 @@ IJ "negation verb" ; !!= * @CODE@
 <xsl:value-of select="$nl"/>
 
 
-
 <!-- insert data -->
-    <xsl:for-each select="$theFile/*:FMPXMLRESULT/*:RESULTSET/*:ROW">
+    <xsl:for-each select="fm:FMPXMLRESULT/fm:RESULTSET/fm:ROW">
       <!-- sort for sje-alphabet -->
-      <xsl:sort select="./*:COL[position()=7]/*:DATA"/>
-      <xsl:sort select="./*:COL[position()=4]/*:DATA"/>
-<xsl:value-of select="concat(./*:COL[position()=5]/*:DATA,':',./*:COL[position()=6]/*:DATA,' ',./*:COL[position()=7]/*:DATA,' ',$dq,./*:COL[position()=8]/*:DATA,$dq,' ; ! no. ',./*:COL[position()=1]/*:DATA,$nl)"/>
+      <xsl:sort select="./fm:COL[position()=7]/fm:DATA"/>
+      <xsl:sort select="./fm:COL[position()=4]/fm:DATA"/>
+<xsl:value-of select="concat(./fm:COL[position()=5]/fm:DATA,':',./fm:COL[position()=6]/fm:DATA,' ',./fm:COL[position()=7]/fm:DATA,' ',$dq,./fm:COL[position()=8]/fm:DATA,$dq,' ; ! no. ',./fm:COL[position()=1]/fm:DATA,$nl)"/>
     </xsl:for-each>
 
-      </xsl:result-document>
-      
-      <xsl:message terminate="no">
-	<xsl:value-of select="concat('***Created lexc file: main/langs/sje/misc/',$outputFileName,'.lexc',$nl,'!!!!!!! Remember to update the actual lexc-file(s) in the relevant sje-DIRs!!',$nl,'        (for instance: sje/src/morphology/stems/nouns.lexc)')"/>
-      </xsl:message>
-
-    
   </xsl:template>
   
 </xsl:stylesheet>
