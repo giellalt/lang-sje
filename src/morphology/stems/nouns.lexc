@@ -13,9 +13,9 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2016-12-07T13:08:53+01:00
+! Timestamp: 2016-12-08T21:35:06+01:00
 
-!! !!!Pite Saami nouns
+!! !!!Pite Saami Nouns
 
 LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 
@@ -36,7 +36,6 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! ** N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
 !! ** N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
 !! ** N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
-
 
 arbålmaj:arb#ålm N_CONTR_AJA "widower" ; ! no. 64
 åjjveålmaj:åjjve#ålm N_CONTR_AJA "elder, alderman" ; ! no. 4780
@@ -262,7 +261,7 @@ bävvdegirrje:bävvde#girrje N_EVEN "minutes (of a meeting)" ; ! no. 290
 bävvla:bievvla N_EVEN "bare (snow-free) ground" ; ! no. 2437
 bävvle:bievvle N_EVEN "musical drum" ; ! no. 3298
 dajjva:dajjva N_EVEN "place, area" ; ! no. 310
-danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
+danmarrka:danmarrka N_EVEN "Denmark" ; ! no. 3555
 darrve:darrve N_EVEN "tar" ; ! no. 337
 dábbde:dábbde N_EVEN "spleen" ; ! no. 292
 dábbtja:dábbtja N_EVEN "small whetstone" ; ! no. 294
@@ -1100,11 +1099,11 @@ svajjba:svajjba N_EVEN "pole with a loop used for catching reindeer calves" ; ! 
 svájnasbállká:svájnas#bállká N_EVEN "servant's wage" ; ! no. 4207
 sválla:sválla N_EVEN "mountain fox" ; ! no. 1792
 sválltjá:sválltjá N_EVEN "summer frock made of prepared hide" ; ! no. 1794
-svierdje:svierdje N_EVEN "Sweden" ; ! no. 1799
 svijdne:svijdne N_EVEN "pig" ; ! no. 3601
 svijjla:svijjla N_EVEN "tray" ; ! no. 1801
 svuddnje:svuddnje N_EVEN "facial wrinkle, wrinkled face" ; ! no. 1806
 svälla:sviel'la N_EVEN "steam" ; ! no. 1797
+svärdje:svierdje N_EVEN "Sweden" ; ! no. 1799
 svärrbe:svierrbe N_EVEN "hard-working (for a man working with reindeer)" ; ! no. 1807
 svärrte:svierrte N_EVEN "sword" ; ! no. 4378
 såbbtse:såbbtse N_EVEN "foothold in ice or snow" ; ! no. 4021
@@ -1210,7 +1209,7 @@ tjåsskå:tjåsskå N_EVEN "small chunk of fish used to prepare as food" ; ! no.
 tjåvded+N+Der/Ag:tjåvdedieddje N_EVEN "liberator" ; ! no. 3234
 tjäkksa:tjiekksa N_EVEN "omasum (reindeer's third stomach)" ; ! no. 2850
 tjäkksa:tjiekksa N_EVEN "cookie" ; ! no. 5219
-tjällde:tjiellde N_EVEN "Saami village" ; ! no. 1985
+tjällde:tjiellde N_EVEN "reindeer herding cooperative" ; ! no. 1985
 tjällka:tjiellka N_EVEN "sled" ; ! no. 2765
 tjänntá:tjienntá N_EVEN "female servant" ; ! no. 1987
 tjässka:tjiesska N_EVEN "longitudinal wooden pole for hanging hides" ; ! no. 1988
@@ -2174,8 +2173,7 @@ sávvam:sávvam N_ODD "wish" ; ! no. 5113
 sentimehter:senti#mehter N_ODD "centimeter" ; ! no. 3522
 sibjuk:sibjug2 N_ODD "a woman's brother-in-law" ; ! no. 5115
 siddar:siddar N_ODD "fine rain" ; ! no. 1534
-sidut:sidud2 N_ODD "want, wish" ; ! no. 1536
-sieŋatj:sieŋatj N_ODD "coarse dry snow" ; ! no. 1538
+sidut:sidud2 N_ODD "desire, wish" ; ! no. 1536
 siessal:siessal N_ODD "paternal aunt’s niece or nephew" ; ! no. 3418
 sillbabiednek:sillba#biedneg2 N_ODD "silver coin, silver money" ; ! no. 90568
 sirkus:sirkus N_ODD "circus" ; ! no. 3526
