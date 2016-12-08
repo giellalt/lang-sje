@@ -301,10 +301,10 @@ s:t <=> _ j2: .#. ;
           matched ; 
 !This requires every root that undergoes inflection to end with a morpheme boundary, even when no suffix exists; this prevents VH in non-final compound stems (since \# wouldn't work). !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
-!!€ ságasti>t
-!!€ ságasti0t
-!!€ ságasta>v
-!!€ ságasta0v
+! !!€ ságasti>t
+! !!€ ságasti0t
+! !!€ ságasta>v
+! !!€ ságasta0v
 
 ! !!€ #ållol^WG#
 ! !!€ #ål0ol0#
@@ -393,6 +393,13 @@ e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG Vow: \%^WG: ; !bierdna->b0ärdna
 
+!!€ fiede^G3^UAUML>0
+!!€ f0äde0000
+!!€ fiede^WG>v
+!!€ fiede00v
+!!€ fiede^WG^IJ>jn
+!!€ f0edi000jn
+
 !!€ gierbmah^WG^CDEL>0
 !!€ gierbma00000
 !!€ gierbmaha>v
@@ -402,7 +409,6 @@ e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
 !!€ bierdne0s00
 !!€ bierdná>v
 !!€ b0ärdná0v
-
 
 ! !!€ ku^Ordna^UAUML
 ! !!€ kuardna0
@@ -446,11 +452,6 @@ e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ V2E2AAtrig %^V2E2AA:0 ;
 
 !!€ gu^Olle^WG
 !!€ guol0e0 
-
-!"V2 E to A" ! V_EVEN_E in 1/2SG
-!!! __@RULENAME@__  
-!e:a <=> Vow:+ Cns:+ _ %^WG:0 %^V2E2A:0 ;
-
 
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  
