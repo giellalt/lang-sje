@@ -57,6 +57,8 @@ __Consonant Gradation for l/jbm:l/jm __
 
 __Consonant Gradation for vgŋ:vŋ __  
 
+__Consonant Gradation for rdj:rj __  
+
 
 !!Other consonant rules 
 
@@ -79,10 +81,6 @@ __Word-final De-Affricatization for tj  __
 
 __Default VH __  
 
-* __ságasti>t __
-* __ságasti0t __
-* __ságasta>v __
-* __ságasta0v __
 
 
 
@@ -105,6 +103,13 @@ __Special VH for ie __
 
 __Ä in G3 __  
 
+* __fiede^G3^UAUML>0 __
+* __f0äde0000 __
+* __fiede^WG>v __
+* __fiede00v __
+* __fiede^WG^IJ>jn __
+* __f0edi000jn __
+
 * __gierbmah^WG^CDEL>0 __
 * __gierbma00000 __
 * __gierbmaha>v __
@@ -119,15 +124,12 @@ __Ä in G3 __
 
 
 
-
 __V2 E to I before j-suffixes __  
 
 __V2 E to Á __  
 
 * __gu^Olle^WG __
 * __guol0e0 __
-
-
 
 __V2 O to U __  
 
