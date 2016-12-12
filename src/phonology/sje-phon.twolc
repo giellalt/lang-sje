@@ -115,6 +115,7 @@ Definitions
         ŋ ŋ [g|k|n] |
         p p [s|t] |
         r r [b|d|f|g|j|k|s|t|v] |
+        r d j |
         s s [k|m|n|p|t] |
         t t k |
         v v [d|g|j|k|l|r|s] |
@@ -239,6 +240,10 @@ b:0 <=> Vow [l|j] _ m Vow: Cns:* ( Dummy: ) %^WG: ; ! vájbmo, njálbme
 "Consonant Gradation for vgŋ:vŋ" 
 !! __@RULENAME@__  
 g:0 <=> Vow v _ n Vow: Cns:* ( Dummy: ) %^WG: ; ! ávgŋot (unsure about this word!)
+
+"Consonant Gradation for rdj:rj" 
+!! __@RULENAME@__  
+d:0 <=> Vow r _ j Vow: Cns:* ( Dummy: ) %^WG: ; ! girdje<->girje (non-standard variant)
 
 
 !! !!Other consonant rules 
