@@ -64,6 +64,7 @@
     | 6. lexcRootRight stage2
     | 7. LEXC category
     | 8. Samica EN
+    | 9. Samica SV
     +-->
 
 <!-- set original PoS (Swedish) variable -->
@@ -229,7 +230,16 @@ LEXICON Postposition   !!= * __@CODE@__ is the list
       <!-- sort for sje-alphabet -->
       <xsl:sort select="./fm:COL[position()=7]/fm:DATA"/>
       <xsl:sort select="./fm:COL[position()=4]/fm:DATA"/>
-<xsl:value-of select="concat(./fm:COL[position()=5]/fm:DATA,':',./fm:COL[position()=6]/fm:DATA,' ',./fm:COL[position()=7]/fm:DATA,' ',$dq,./fm:COL[position()=8]/fm:DATA,$dq,' ; ! no. ',./fm:COL[position()=1]/fm:DATA,$nl)"/>
+<xsl:value-of select="concat(./fm:COL[position()=5]/fm:DATA,':',./fm:COL[position()=6]/fm:DATA,' ',./fm:COL[position()=7]/fm:DATA,' ',$dq)"/>
+  <xsl:choose>
+    <xsl:when test="./fm:COL[position()=8]/fm:DATA=''">
+      <xsl:value-of select="./fm:COL[position()=9]/fm:DATA"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="./fm:COL[position()=8]/fm:DATA"/>
+    </xsl:otherwise>
+  </xsl:choose>
+<xsl:value-of select="concat($dq,' ; ! no. ',./fm:COL[position()=1]/fm:DATA,$nl)"/>
     </xsl:for-each>
 
   </xsl:template>
