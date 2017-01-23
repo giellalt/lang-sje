@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-01-20T13:09:11+01:00
+! Timestamp: 2017-01-23T10:35:15+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2136,6 +2136,7 @@ njurrgun:njurrgun N_ODD "whistle" ; ! no. 1306
 njåmmel:njåmmel N_ODD "hare, rabbit" ; ! no. 3505
 nulpok:nulpog2 N_ODD "without antlers" ; ! no. 2872
 nuortok:nu^Ortog2 N_ODD "North Saami" ; ! no. 5027
+páhper+Use/NG:páhper N_ODD "paper" ; ! no. 90700
 perun:perun N_ODD "potato" ; ! no. 1346
 plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
