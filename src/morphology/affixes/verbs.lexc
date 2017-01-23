@@ -307,7 +307,6 @@ LEXICON V_CONTR !välldut, tjerrut
 !! !!!Auxiliaries
 
 LEXICON LE !!= * @CODE@ 
-
 lä+V+Ind+Prs: LEPRS ; 
 lä+V+Ind+Prt: LEPRT ; 
 lä+V+Ind+Pot: LEPOT ;
@@ -321,6 +320,7 @@ LEXICON LEPRS !!= * @CODE@
 +Sg2:le # ;  
 !+Sg2:lä # ;  
 +Sg3:lä # ; 
++Sg3:l # ; !enclitic (only attaches to vowel-final preceding word)
 !+Sg3:le # ; 
 +Du1:lin # ; 
 !+Du1:len # ; 
@@ -332,8 +332,8 @@ LEXICON LEPRS !!= * @CODE@
 +Pl1:lep # ; 
 +Pl2:lihpit # ; 
 +Pl2:lehpit # ; 
-+Pl3:lin # ; 
 +Pl3:lä # ;
++Pl3:l # ; !enclitic (only attaches to vowel-final preceding word)
 
 LEXICON LEPRT !!= * @CODE@ 
 +Sg1:lijjiv    # ; 
