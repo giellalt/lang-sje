@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-01-23T10:35:15+01:00
+! Timestamp: 2017-01-26T16:29:11+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1431,6 +1431,18 @@ vuotjadák:vu^Otjadág2 N_EVEN4 "wolverine spear" ; ! no. 2791
 åjválatj:åjválatj N_EVEN4 "authority" ; ! no. 3238
 årrádak:årrádag2 N_EVEN4 "bedsheet" ; ! no. 90401
 ärbulatj:ä2rbulatj N_EVEN4 "heir" ; ! no. 2731
+bähtsedas:bä2htsed N_EVEN4_ASA "relict, remain" ; ! no. 90536
+gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
+iehkedisråhkålvas:iehkedis#råhkålv N_EVEN4_ASA "evening prayer" ; ! no. 3076
+jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
+lävvludas:lä2vvlud N_EVEN4_ASA "song" ; ! no. 5857
+mujjtulas:mujjtul N_EVEN4_ASA "memory, story" ; ! no. 90283
+råhkålvas:råhkålv N_EVEN4_ASA "church service" ; ! no. 1456
+tjåhkålvas:tjåhkålv N_EVEN4_ASA "meeting, gathering" ; ! no. 1963
+tjäggelvas:tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
+ussjulmas:ussjulm N_EVEN4_ASA "thought" ; ! no. 2037
+vuojŋanas:vu^Ojŋan N_EVEN4_ASA "brain, mind" ; ! no. 2167
+åtsålvas:åtsålv N_EVEN4_ASA "application" ; ! no. 3168
 aldagis:aldag N_EVEN4_ISA "lightning, flash" ; ! no. 46
 ávdnogis:ávdnog N_EVEN4_ISA "reindeer which has been attacked by a predator and is still alive" ; ! no. 87
 bahágis:bahág N_EVEN4_ISA "evil" ; ! no. 102
