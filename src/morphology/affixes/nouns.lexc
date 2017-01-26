@@ -110,24 +110,31 @@ LEXICON N_EVEN4 !mánnodak<->mánnodag-
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Nom:i2s%>0 K ;
-+N+Sg+Acc:asa%>v K ;
-+N+Sg+Gen:asa%>0 K ;
-+N+Sg+Ill:asa%>j K ;
-+N+Sg+Ine:asa%>n K ;
-+N+Sg+Ela:asa%>st K ;
-+N+Sg+Ela+Use/NG:asa%>s K ;
-+N+Sg+Com:asa%>jn K ;
-+N+Sg+Com+Use/NG:asa%>jna K ;
-+N+Ess:asa%>n K ; 
-!+N+Abe:asa%>dak K ; ! XXX
-+N+Pl+Nom:asa%>0 K ;
-+N+Pl+Acc:asa%>jd K ;
-+N+Pl+Gen:asa%>j K ;
-+N+Pl+Ill:asa%>jda K ;
-+N+Pl+Ine:asa%>jn K ;
-+N+Pl+Ela:asa%>jst K ;
-+N+Pl+Ela+Use/NG:asa%>js K ;
-+N+Pl+Com:asa%>j K ;
++N: N_EVEN4_VSA ;
+
+LEXICON N_EVEN4_ASA !mujjtulas<->mujjtulas-
++N+Sg+Nom:as%>0 K ;
++N: N_EVEN4_VSA ;
+
+LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
++Sg+Acc:asa%>v K ;
++Sg+Gen:asa%>0 K ;
++Sg+Ill:asa%>j K ;
++Sg+Ine:asa%>n K ;
++Sg+Ela:asa%>st K ;
++Sg+Ela+Use/NG:asa%>s K ;
++Sg+Com:asa%>jn K ;
++Sg+Com+Use/NG:asa%>jna K ;
++Ess:asa%>n K ; 
+!+Abe:asa%>dak K ; ! XXX
++Pl+Nom:asa%>0 K ;
++Pl+Acc:asa%>jd K ;
++Pl+Gen:asa%>j K ;
++Pl+Ill:asa%>jda K ;
++Pl+Ine:asa%>jn K ;
++Pl+Ela:asa%>jst K ;
++Pl+Ela+Use/NG:asa%>js K ;
++Pl+Com:asa%>j K ;
 
 
 
