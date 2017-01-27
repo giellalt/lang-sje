@@ -205,6 +205,11 @@ Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
 Cx:0 <=> Vow:+ Cx _ t (j:*|s:*) Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( b f j k l n p r s v ) ;
 
+"Consonant Gradation for xxsj:xsj" ! ákksjo (kksj llsj mmsj ppsj rrsj vvsj) very similar to "Consonant Gradation for xxt(j|s):xt(j|s)"
+!! __@RULENAME@__  
+Cx:0 <=> Vow:+ Cx _ s j Vow:+ Cns:* ( Dummy: ) %^WG: ;
+     where Cx in ( k l m p r v ) ;
+
 ! !!€ ájjte^WG
 ! !!€ áj0te0
 ! !!€ gájjtsa^WG

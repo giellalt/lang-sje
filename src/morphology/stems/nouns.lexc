@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-01-26T16:29:11+01:00
+! Timestamp: 2017-01-27T16:17:40+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1666,6 +1666,7 @@ bähkkumståhpo:bähkkum#ståhpo N_EVEN_O "bakery" ; ! no. 4615
 bällo:biel'lo N_EVEN_O "bell" ; ! no. 278
 bärrgo:bierrgo N_EVEN_O "meat" ; ! no. 283
 dabblo:dabblo N_EVEN_O "picture, painting" ; ! no. 5176
+darrvekryhtto:darrve#kryhtto N_EVEN_O "pot of tar" ; ! no. 90703
 dassko:dassko N_EVEN_O "bag, little sack for a silver spoon" ; ! no. 338
 dádneárrpo:dádne#árrpo N_EVEN_O "tin wire" ; ! no. 299
 dáffo:dáffo N_EVEN_O "area" ; ! no. 2367
