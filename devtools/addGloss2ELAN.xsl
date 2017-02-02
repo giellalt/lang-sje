@@ -170,8 +170,9 @@
   <xsl:for-each select="../TIER[@TIER_ID=$posTIER_ID]/ANNOTATION">
     <xsl:variable name="ref2lemma" select="./REF_ANNOTATION/@ANNOTATION_REF"/>
     <xsl:variable name="lemma" select="../../TIER[starts-with(@TIER_ID, 'lemma')]/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID=$ref2lemma]"/>
+    <!-- to do: fix next variable to deal better when there is more than one match! -->
     <xsl:variable name="glossEN" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='eng']"/>
-    <xsl:variable name="glossSV" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='swe']"/>
+    <!--xsl:variable name="glossSV" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='swe']"/-->
     <xsl:variable name="newAnnotRef" select="./REF_ANNOTATION/@ANNOTATION_ID"/>
     <xsl:variable name="localCumulativeCount">
       <xsl:value-of select="$posCumAnnotationCounter/posANN/instance[@instanceParticipant=$glossTIER_ID]/previousCumulativeAnnotationCount"/>
