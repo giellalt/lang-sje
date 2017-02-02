@@ -18,6 +18,7 @@
 <xsl:param name="posT" select="'posT'"/>
 <xsl:param name="ft-langT" select="'ft-langT'"/>
 <xsl:param name="orth-origT" select="'orth-origT'"/>
+<xsl:param name="glossT" select="'glossT'"/>
 <xsl:param name="NOTES" select="'NOTES'"/>
 
 <xsl:param name="en" select="'en'"/>
@@ -46,76 +47,28 @@
      </xsl:copy>
  </xsl:template>
  
- 
+   <xsl:template match="node()|@*" mode="pass3">
+     <xsl:copy>
+       <xsl:apply-templates select="node()|@*" mode="pass3"/>
+     </xsl:copy>
+ </xsl:template>
  
 
  <xsl:template match="/">
-  <xsl:variable name="pass1Result">
-   <xsl:apply-templates/>
-  </xsl:variable>
+	<xsl:variable name="pass1Result">
+		<xsl:apply-templates/>
+	</xsl:variable>
 
-  <xsl:apply-templates mode="pass2"
-      select="ext:node-set($pass1Result)/*"/>
+	<xsl:variable name="pass2Result">
+		<xsl:apply-templates mode="pass2"
+		select="ext:node-set($pass1Result)/*"/>
+	</xsl:variable>
+	
+	<xsl:apply-templates mode="pass3"
+	select="ext:node-set($pass2Result)/*"/>
  </xsl:template>
-
-
-
-	<!-- LINGUISTIC_TYPEs werden wenn möglich neuen zugewiesen
-		Man könnte alternativ alle bisherigen Types in der Datei beibelassen und alle neuen neu erstellen. -->
-
-<xsl:template match="LINGUISTIC_TYPE">
-		<xsl:choose>
-			<!-- linguistic_type text > ft-langT -->
-			<xsl:when test="@LINGUISTIC_TYPE_ID='text'"> 
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$ft-langT}" CONSTRAINTS="{$Symb_Ass}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID' or name()='CONSTRAINTS')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:when>
-
-			<!-- linguistic type PoS > posT+symbolic_association -->
-			<xsl:when test="@LINGUISTIC_TYPE_ID='PoS'"> 
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$posT}" CONSTRAINTS="{$Symb_Sub}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID' or name()='CONSTRAINTS')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:when>
-			
-			<!-- linguistic type ref > refT -->
-			<xsl:when test="@LINGUISTIC_TYPE_ID='ref'"> 
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$refT}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:when>
-
-			<!-- linguistic type word > lemmaT+symbolic_subdivision -->
-			<xsl:when test="@LINGUISTIC_TYPE_ID='word'"> 
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$lemmaT}" CONSTRAINTS="{$Symb_Sub}" TIME_ALIGNABLE="{$false}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID' or name()='CONSTRAINTS' or name()='TIME_ALIGNABLE')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:when>
-			
-			<!-- linguistic type morph > morphT -->
-			<xsl:when test="@LINGUISTIC_TYPE_ID='morph'"> 
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$morphT}" CONSTRAINTS="{$Symb_Sub}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID' or name()='CONSTRAINTS')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:when>
-			
-			<!-- linguistic type utter > orthT -->
-			<xsl:when test="@LINGUISTIC_TYPE_ID='utter'"> 
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$orthT}" CONSTRAINTS="{$Symb_Ass}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID' or name()='CONSTRAINTS')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:when>
-			
-			<!-- ansonsten gleich lassen -->
-			<xsl:otherwise>
-			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{@LINGUISTIC_TYPE_ID}">
-			<xsl:apply-templates select="@*[not(name()='LINGUISTIC_TYPE_ID')] | node()"/>
-			</LINGUISTIC_TYPE>
-			</xsl:otherwise>
-		</xsl:choose>
-</xsl:template>
-
+ 
+ 
 
 	<!-- TIERs löschen, die keine Annotationen enthalten, außer ref;
 		damit bleiben alle eingetragenen Sprecher erhalten -->
@@ -295,7 +248,11 @@
 		<xsl:if test="not(/ANNOTATION_DOCUMENT/LINGUISTIC_TYPE/@LINGUISTIC_TYPE_ID='NOTES')">
 			<xsl:text>&#10;</xsl:text>
 			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$NOTES}" GRAPHIC_REFERENCES="{$false}" TIME_ALIGNABLE="{$true}"/>
-		</xsl:if>		
+		</xsl:if>	
+		<xsl:if test="not(/ANNOTATION_DOCUMENT/LINGUISTIC_TYPE/@LINGUISTIC_TYPE_ID='glossT')">
+			<xsl:text>&#10;</xsl:text>
+			<LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="{$glossT}" CONSTRAINTS="{$Symb_Ass}" GRAPHIC_REFERENCES="{$false}" TIME_ALIGNABLE="{$false}"/>
+		</xsl:if>
 	
 
 		
@@ -334,6 +291,11 @@
 			<TIER TIER_ID="{concat('pos@', $part)}" LINGUISTIC_TYPE_REF="{$posT}" DEFAULT_LOCALE="{$en}" PARENT_REF="{concat('lemma@', $part)}" PARTICIPANT="{$participant}" />
 				<xsl:text>&#10;</xsl:text>
 			</xsl:if>
+			<xsl:if test="not(/ANNOTATION_DOCUMENT/TIER/@TIER_ID=concat('gloss@', $part))">
+				<xsl:text>&#10;</xsl:text>
+			<TIER TIER_ID="{concat('gloss@', $part)}" LINGUISTIC_TYPE_REF="{$glossT}" DEFAULT_LOCALE="{$en}" PARENT_REF="{concat('pos@', $part)}" PARTICIPANT="{$participant}" />
+				<xsl:text>&#10;</xsl:text>
+			</xsl:if>
 			</xsl:when>
 			<xsl:otherwise>
 
@@ -344,7 +306,16 @@
 </xsl:copy>
 </xsl:template>
 
+	<!-- Alle TIERs löschen, die nicht gebraucht werden -->
+<xsl:template match="LINGUISTIC_TYPE" mode="pass3">
+			<xsl:variable name="id" select="@LINGUISTIC_TYPE_ID"/>
 
+			<xsl:if test="/ANNOTATION_DOCUMENT/TIER/@LINGUISTIC_TYPE_REF=$id">
+			<xsl:copy>
+			<xsl:apply-templates select="node()|@*"/>
+			</xsl:copy>
+			</xsl:if>
+</xsl:template>
 
 
 </xsl:stylesheet>
