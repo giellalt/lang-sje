@@ -48,11 +48,6 @@
 <!-- get initial lastUsedAnnotationId -->
 <xsl:variable name="globalNo" select="ANNOTATION_DOCUMENT/HEADER/PROPERTY[@NAME='lastUsedAnnotationId']"/>
 
-<!-- copy original header for use below (wher lastUsedAnnotationId will be updated) -->
-<xsl:variable name="origHeader">
-  <xsl:copy-of select="ANNOTATION_DOCUMENT/HEADER"/>
-</xsl:variable>
-
 <!-- Inhalt wird übertragen	-->
  <xsl:template match="node()|@*">
      <xsl:copy>
@@ -148,18 +143,18 @@
 <!--posCumAnnotationCounter><xsl:copy-of select="$posCumAnnotationCounter"/></posCumAnnotationCounter-->
 <!--xsl:value-of select="concat($nl,'globalNo: ',$globalNo,'; total new pos: ',$totalPosAnnotationCounter,'; totalTotal: ',sum($globalNo + $totalPosAnnotationCounter),$nl)"/-->
 <xsl:copy>
-<!-- add header updated with new LastUsedAnnotationId -->
-<HEADER>
-  <xsl:copy-of select="$origHeader/HEADER/PROPERTY[not(@NAME='lastUsedAnnotationId')]"/>
+<xsl:apply-templates select="node() | @*"/>
+</xsl:copy>
+</xsl:template>
+
+<xsl:template match="ANNOTATION_DOCUMENT/HEADER/PROPERTY[@NAME='lastUsedAnnotationId']">
   <PROPERTY>
     <xsl:attribute name="NAME"><xsl:value-of select="'lastUsedAnnotationId'"/></xsl:attribute>
     <xsl:value-of select="$newLastUsedAnnotationId"/>
   </PROPERTY>
-</HEADER>
-<!-- add everything else -->
-<xsl:apply-templates select="node() except HEADER"/>
-</xsl:copy>
 </xsl:template>
+
+
 
 <!-- add glosses (one gloss for each existing PoS-annotation per lemma) -->
 <xsl:template match="TIER[starts-with(./@TIER_ID,'gloss') and not(./ANNOTATION)]">
