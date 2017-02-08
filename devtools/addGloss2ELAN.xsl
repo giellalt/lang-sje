@@ -139,14 +139,27 @@
 
 <!-- main template here -->
 <xsl:template match="ANNOTATION_DOCUMENT" mode="pass2">
-<!--posAnnotationCounter><xsl:copy-of select="$posAnnotationCounter"/></posAnnotationCounter-->
-<!--posCumAnnotationCounter><xsl:copy-of select="$posCumAnnotationCounter"/></posCumAnnotationCounter-->
-<!--xsl:value-of select="concat($nl,'globalNo: ',$globalNo,'; total new pos: ',$totalPosAnnotationCounter,'; totalTotal: ',sum($globalNo + $totalPosAnnotationCounter),$nl)"/-->
+<!-- abort if gloss lingtype and tiers are missing -->
+<xsl:if test="not(./LINGUISTIC_TYPE[@LINGUISTIC_TYPE_ID='glossT'])">
+<xsl:message terminate="yes">
+++++There is no linguistic type 'glossT'!
+    (so probably no gloss@speaker-tiers either)
+    ...cancelling script!
+</xsl:message>
+</xsl:if>
+<xsl:if test="not(./TIER[starts-with(@TIER_ID,'gloss@')])">
+<xsl:message terminate="yes">
+++++There isn't a single 'gloss@' tier!
+    ...cancelling script!
+</xsl:message>
+</xsl:if>
 <xsl:copy>
 <xsl:apply-templates select="node() | @*"/>
 </xsl:copy>
 </xsl:template>
-
+<!--posAnnotationCounter><xsl:copy-of select="$posAnnotationCounter"/></posAnnotationCounter-->
+<!--posCumAnnotationCounter><xsl:copy-of select="$posCumAnnotationCounter"/></posCumAnnotationCounter-->
+<!--xsl:value-of select="concat($nl,'globalNo: ',$globalNo,'; total new pos: ',$totalPosAnnotationCounter,'; totalTotal: ',sum($globalNo + $totalPosAnnotationCounter),$nl)"/-->
 <xsl:template match="ANNOTATION_DOCUMENT/HEADER/PROPERTY[@NAME='lastUsedAnnotationId']">
   <PROPERTY>
     <xsl:attribute name="NAME"><xsl:value-of select="'lastUsedAnnotationId'"/></xsl:attribute>
