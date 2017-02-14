@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-01-27T16:17:40+01:00
+! Timestamp: 2017-02-14T13:20:40+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2424,9 +2424,9 @@ sjkäbtjasujtár:sjkäbtja#sujjtár N_ODD_WG "nurse" ; ! no. 1635
 slåtjos:slåhtjos N_ODD_WG "diarrhea" ; ! no. 1681
 spijkár:spijjkár N_ODD_WG "nail" ; ! no. 5143
 stäbbleruojas:stäbble#ru^Odjas N_ODD_WG "shaft of a boot" ; ! no. 5144
+subtsas:subbtsas N_ODD_WG "story, fairytale" ; ! no. 1779
 sujtár:sujjtár N_ODD_WG "herder, keeper" ; ! no. 1759
 suorbmas:su^Orbmas N_ODD_WG "ring" ; ! no. 1772
-suptsas:supptsas N_ODD_WG "story, fairytale" ; ! no. 1779
 suvol:suvvol N_ODD_WG "heat haze" ; ! no. 1780
 svájnas:svájdnas N_ODD_WG "male servant, assistant" ; ! no. 1791
 sågor:såhkor N_ODD_WG "sugar" ; ! no. 1815

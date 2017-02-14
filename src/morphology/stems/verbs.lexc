@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-01-23T14:39:07+01:00
+! Timestamp: 2017-02-14T13:17:39+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -814,7 +814,7 @@ gåbblot:gåbbl V_EVEN_O "glare, stare" ; ! no. 725
 gåbbrot:gåbbr V_EVEN_O "roll up (for birch bark)" ; ! no. 4842
 gågglot:gåggl V_EVEN_O "throw up food (by a dog)" ; ! no. 730
 gåhkot:gåhk V_EVEN_O "be nauseous" ; ! no. 732
-gåhttjot:gåhttj V_EVEN_O "call, urge, request" ; ! no. 742
+gåhttjot:gåhttj V_EVEN_O "call, urge, request, command" ; ! no. 742
 gåjjvot:gåjjv V_EVEN_O "dig" ; ! no. 747
 gållot:gåll V_EVEN_O "feel cold" ; ! no. 3012
 gåpptjot:gåpptj V_EVEN_O "close, cover up" ; ! no. 305
