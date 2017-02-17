@@ -43,7 +43,7 @@
 
 
 <!-- add lexeme/gloss file -->
-<xsl:variable name="glossSource" select="document('../misc/sjeGlosses.xml')"/>  
+<xsl:variable name="glossSource" select="document('sjeGlosses.xml')"/>  
 
 <!-- get initial lastUsedAnnotationId -->
 <xsl:variable name="globalNo" select="ANNOTATION_DOCUMENT/HEADER/PROPERTY[@NAME='lastUsedAnnotationId']"/>
