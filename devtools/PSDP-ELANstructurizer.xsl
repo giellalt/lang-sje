@@ -171,7 +171,7 @@
 			</xsl:when>
 
 			<xsl:when test="starts-with(@TIER_ID, 'ge') or starts-with(@TIER_ID, 'gloss@') or starts-with(@TIER_ID, 'gloss2@') ">
-			<TIER LINGUISTIC_TYPE_REF="{$posT}" TIER_ID="{replace(@TIER_ID,'.*@','gloss@')}" PARENT_REF="{replace(@PARENT_REF,'.*@','word@')}">
+			<TIER LINGUISTIC_TYPE_REF="{$glossT}" TIER_ID="{replace(@TIER_ID,'.*@','gloss@')}" PARENT_REF="{replace(@PARENT_REF,'.*@','pos@')}">
 			<xsl:apply-templates select="@*[not(name()='TIER_ID' or name()='LINGUISTIC_TYPE_REF' or name()='PARENT_REF')] | node()"/>
 			</TIER>
 			</xsl:when>
