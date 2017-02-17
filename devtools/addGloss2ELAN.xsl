@@ -172,12 +172,13 @@
 <!-- add glosses (one gloss for each existing PoS-annotation per lemma) -->
 <xsl:template match="TIER[starts-with(./@TIER_ID,'gloss') and not(./ANNOTATION)]">
   <xsl:variable name="part" select="substring-after(@TIER_ID, '@')"/>
+  <xsl:variable name="lemmaTIER_ID" select="concat('lemma@',$part)"/>
   <xsl:variable name="posTIER_ID" select="concat('pos@',$part)"/>
   <xsl:variable name="glossTIER_ID" select="concat('gloss@',$part)"/>
-  <TIER DEFAULT_LOCALE="en" LANG_REF="eng" LINGUISTIC_TYPE_REF="glossT" PARENT_REF="{concat('pos@',$part)}" TIER_ID="{$glossTIER_ID}">
+  <TIER DEFAULT_LOCALE="en" LANG_REF="eng" LINGUISTIC_TYPE_REF="glossT" PARENT_REF="{$posTIER_ID}" TIER_ID="{$glossTIER_ID}">
   <xsl:for-each select="../TIER[@TIER_ID=$posTIER_ID]/ANNOTATION">
     <xsl:variable name="ref2lemma" select="./REF_ANNOTATION/@ANNOTATION_REF"/>
-    <xsl:variable name="lemma" select="../../TIER[starts-with(@TIER_ID, 'lemma')]/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID=$ref2lemma]"/>
+    <xsl:variable name="lemma" select="../../TIER[@TIER_ID=$lemmaTIER_ID]/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID=$ref2lemma]"/>
     <!-- to do: fix next variable to deal better when there is more than one match! -->
     <xsl:variable name="glossEN" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='eng']"/>
     <!--xsl:variable name="glossSV" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='swe']"/-->
