@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-02-14T13:20:40+01:00
+! Timestamp: 2017-02-21T16:32:28+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -229,6 +229,7 @@ båhtjemlihtte:båhtjem#lihtte N_EVEN "milking pail" ; ! no. 4706
 båjjtjå:båjjtjå N_EVEN "boy" ; ! no. 2569
 båkkså:båkkså N_EVEN "trouser, pant" ; ! no. 243
 båldne:båldne N_EVEN "hassock, tuft of grass" ; ! no. 4702
+bålla:bålla N_EVEN "bread roll, bun" ; ! no. 90705
 bållå:bållå N_EVEN "ball" ; ! no. 3365
 båmmpå:båmmpå N_EVEN "bomb" ; ! no. 3368
 bårre:bår're N_EVEN "float, ferry, raft" ; ! no. 251
@@ -896,6 +897,7 @@ råbme:råbme N_EVEN "scurf, worms" ; ! no. 6891
 råhkå:råhkå N_EVEN "rye" ; ! no. 90304
 råhkåd+N+Der/Ag:råhkådieddje N_EVEN "worshipper, adorer" ; ! no. 4289
 råhtje:råhtje N_EVEN "stream valley" ; ! no. 1459
+råmmå+Use/NG:råm'må N_EVEN "room" ; ! no. 90704
 råssne:råssne N_EVEN "vapor from open water during cold weather" ; ! no. 2669
 råvve:råvve N_EVEN "bridge, stoop for a cabin" ; ! no. 1461
 räjjdolårrå:räjjdo#lårrå N_EVEN "tool box" ; ! no. 1667
@@ -1182,7 +1184,7 @@ tjuodtjod+N+Der/Ag:tjuodtjodieddje N_EVEN "supervisor" ; ! no. 2515
 tjuohke:tju^Ohke N_EVEN "reindeer pasture that is inaccessible due to ice on the ground" ; ! no. 4024
 tjuohkejahke:tjuohke#jahke N_EVEN "year of famine for reindeer" ; ! no. 1928
 tjuoldasmuorra:tjuoldas#mu^Orra N_EVEN "wooden rod for shaping shoes" ; ! no. 6040
-tjuovva:tju^Ovva N_EVEN "depression in the snow" ; ! no. 3714
+tjuovva:tju^Ovva N_EVEN "depression in a lake" ; ! no. 3714
 tjusse:tjusse N_EVEN "midday heat" ; ! no. 1946
 tjusska:tjusska N_EVEN "small fish" ; ! no. 1947
 tjuttka:tjuttka N_EVEN "reindeer doe which does not allow her newborn calf to nurse" ; ! no. 3022
