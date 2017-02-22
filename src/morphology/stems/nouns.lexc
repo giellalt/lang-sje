@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-02-21T16:32:28+01:00
+! Timestamp: 2017-02-22T08:06:28+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1056,6 +1056,7 @@ stálle:stálle N_EVEN "steel" ; ! no. 1730
 stállenjuolla:stálle#nju^Olla N_EVEN "steel arrow" ; ! no. 4275
 stállpe:stállpe N_EVEN "wolf" ; ! no. 1731
 stállpejahke:stállpe#jahke N_EVEN "a long, cold winter" ; ! no. 6842
+stijjla:stijjla N_EVEN "style" ; ! no. 90709
 stilltje:stilltje N_EVEN "snow and ice in the trees" ; ! no. 6003
 stirrge:stirrge N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
 stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
@@ -1301,6 +1302,7 @@ vuojnad+N+Der/Ag:vuojnadieddje N_EVEN "prophet, clairvoyant" ; ! no. 6532
 vuojŋanisvihke:vuojŋanis#vihke N_EVEN "brain damage" ; ! no. 2169
 vuolle:vu^Olle N_EVEN "yoik" ; ! no. 3490
 vuonagiella:vuona#giella N_EVEN "Norwegian language" ; ! no. 5762
+vuonatjluakkta:vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
 vuorasnäjjda:vuoras#niejjda N_EVEN "unmarried woman, bachelorette" ; ! no. 6102
 vuostastjuvvde:vuostas#tjuvvde N_EVEN "index finger" ; ! no. 2200
 vurrkimsadje:vurrkim#sadje N_EVEN "hiding place" ; ! no. 6106
