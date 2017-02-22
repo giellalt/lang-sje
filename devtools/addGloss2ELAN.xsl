@@ -46,7 +46,9 @@
 <xsl:variable name="glossSource" select="document('sjeGlosses.xml')"/>  
 
 <!-- get initial lastUsedAnnotationId -->
-<xsl:variable name="globalNo" select="ANNOTATION_DOCUMENT/HEADER/PROPERTY[@NAME='lastUsedAnnotationId']"/>
+<!-- no longer necessary because this gets calculated (cf. new $globalNo) -->
+<!--xsl:variable name="globalNoORIG" select="ANNOTATION_DOCUMENT/HEADER/PROPERTY[@NAME='lastUsedAnnotationId']"/-->
+
 
 <!-- Inhalt wird übertragen	-->
  <xsl:template match="node()|@*">
@@ -70,6 +72,31 @@
     <xsl:apply-templates mode="pass2" select="ext:node-set($pass1Result)/*"/>
   </xsl:result-document>
  </xsl:template>
+
+
+<!-- extract ANNOTATION_ID values and delete the preceding letter -->
+<xsl:variable name="IDextractor">
+<IDs>
+  <xsl:for-each select="ANNOTATION_DOCUMENT/TIER/ANNOTATION/*[@ANNOTATION_ID]">
+  <ANNOTATION_ID><xsl:value-of select="substring-after(@ANNOTATION_ID, 'a')"/></ANNOTATION_ID>
+  </xsl:for-each>
+</IDs>
+</xsl:variable>
+
+<!-- order ANNOTATION_ID values numerically -->
+<xsl:variable name="highestID">
+<IDs>
+  <xsl:for-each select="$IDextractor/IDs/ANNOTATION_ID">
+  <xsl:sort select="." data-type="number"/>
+  <ID><xsl:value-of select="."/></ID>
+  </xsl:for-each>
+</IDs>
+</xsl:variable>
+
+<!-- extract highest ANNOTATION_ID value -->
+<xsl:variable name="globalNo">
+  <xsl:value-of select="$highestID/IDs/ID[last()]"/>
+</xsl:variable>
 
 <!-- count number of pos-annotations to calculate ANNOTATION_IDs for new gloss tiers, step ONE -->
 <xsl:variable name="posAnnotationCounter">
@@ -168,7 +195,6 @@
 </xsl:template>
 
 
-
 <!-- add glosses (one gloss for each existing PoS-annotation per lemma) -->
 <xsl:template match="TIER[starts-with(./@TIER_ID,'gloss') and not(./ANNOTATION)]">
   <xsl:variable name="part" select="substring-after(@TIER_ID, '@')"/>
@@ -189,7 +215,7 @@
     <xsl:variable name="newAnnotationID">
       <xsl:value-of select="sum($globalNo + $localCumulativeCount + position())"/>
     </xsl:variable>
-<variables><xsl:value-of select="concat('lastValidID: ',$globalNo,'; localCumCount: ',$localCumulativeCount,'; position: ',position(),'; yields: ',$newAnnotationID)"/></variables>
+<!--variables><xsl:value-of select="concat('lastValidID: ',$globalNo,'; localCumCount: ',$localCumulativeCount,'; position: ',position(),'; yields: ',$newAnnotationID)"/></variables-->
     <ANNOTATION>
       <REF_ANNOTATION>
       <xsl:attribute name="ANNOTATION_ID"><xsl:value-of select="concat('a',$newAnnotationID)"/></xsl:attribute>
