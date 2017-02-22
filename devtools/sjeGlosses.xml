@@ -5280,6 +5280,14 @@
 <gloss lang="swe">Vuoktanj</gloss>
 </glosses>
 </sje>
+<sje FMPid="90710" pos="unknown">
+<orth numSpell="2221161400201012210011112000">Vuonatjluakkta</orth>
+<lexcLeft>vuonatjluakkta</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN=""/>
+<gloss lang="swe">Vuonatjviken</gloss>
+</glosses>
+</sje>
 <sje FMPid="2811" pos="unknown">
 <orth numSpell="231010220011">Åjjvak</orth>
 <lexcLeft>åjjvak</lexcLeft>
@@ -6350,6 +6358,14 @@
 <glosses>
 <gloss lang="eng" fullEN="surely, of course">surely, of course</gloss>
 <gloss lang="swe">nog, visst</gloss>
+</glosses>
+</sje>
+<sje FMPid="90074" pos="unknown">
+<orth numSpell="070514">gen</orth>
+<lexcLeft>gen</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="either">either</gloss>
+<gloss lang="swe">heller</gloss>
 </glosses>
 </sje>
 <sje FMPid="3477" pos="unknown">
@@ -9118,6 +9134,14 @@
 <glosses>
 <gloss lang="eng" fullEN="hassock, tuft of grass">hassock, tuft of grass</gloss>
 <gloss lang="swe">tuva</gloss>
+</glosses>
+</sje>
+<sje FMPid="90705" pos="noun">
+<orth numSpell="0224121200">bålla</orth>
+<lexcLeft>bålla</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="bread roll, bun">bread roll, bun</gloss>
+<gloss lang="swe">bulle</gloss>
 </glosses>
 </sje>
 <sje FMPid="3365" pos="noun">
@@ -19600,6 +19624,14 @@
 <gloss lang="swe">myr med videsnår</gloss>
 </glosses>
 </sje>
+<sje FMPid="90704" pos="noun">
+<orth numSpell="1824131324">råmmå</orth>
+<lexcLeft>råmmå+Use/NG</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="room">room</gloss>
+<gloss lang="swe">rum</gloss>
+</glosses>
+</sje>
 <sje FMPid="2669" pos="noun">
 <orth numSpell="182419191405">råssne</orth>
 <lexcLeft>råssne</lexcLeft>
@@ -21904,6 +21936,14 @@
 <gloss lang="swe">smal vik, som en kil</gloss>
 </glosses>
 </sje>
+<sje FMPid="90709" pos="noun">
+<orth numSpell="19200910101200">stijjla</orth>
+<lexcLeft>stijjla</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="style">style</gloss>
+<gloss lang="swe">stil</gloss>
+</glosses>
+</sje>
 <sje FMPid="6003" pos="noun">
 <orth numSpell="1920091212201005">stilltje</orth>
 <lexcLeft>stilltje</lexcLeft>
@@ -23692,7 +23732,7 @@
 <orth numSpell="20102116222200">tjuovva</orth>
 <lexcLeft>tjuovva</lexcLeft>
 <glosses>
-<gloss lang="eng" fullEN="depression in the snow">depression in the snow</gloss>
+<gloss lang="eng" fullEN="depression in a lake">depression in a lake</gloss>
 <gloss lang="swe">fördjupning i sjö</gloss>
 </glosses>
 </sje>
@@ -33070,6 +33110,14 @@
 <glosses>
 <gloss lang="eng" fullEN="pour into, spoon into">pour into, spoon into</gloss>
 <gloss lang="swe">ösa i t.ex. flaskor</gloss>
+</glosses>
+</sje>
+<sje FMPid="90711" pos="verb">
+<orth numSpell="122504040920">läddit</orth>
+<lexcLeft>läddit</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="charge (e.g. a battery)">charge (e.g. a battery)</gloss>
+<gloss lang="swe">ladda (t ex batteri)</gloss>
 </glosses>
 </sje>
 <sje FMPid="3734" pos="verb">
