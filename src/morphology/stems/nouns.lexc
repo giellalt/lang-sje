@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-02-22T08:06:28+01:00
+! Timestamp: 2017-02-22T09:30:10+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2223,6 +2223,7 @@ skubmuk:skubmug2 N_ODD "mouth protection" ; ! no. 5911
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvvlik:skuvvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
+slihtor+Use/NG:klihtar N_ODD "creature, livestock (not reindeer)" ; ! no. 90712
 släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
 sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
