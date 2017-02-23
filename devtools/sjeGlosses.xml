@@ -7024,6 +7024,14 @@
 <gloss lang="swe">apa</gloss>
 </glosses>
 </sje>
+<sje FMPid="90715" pos="noun">
+<orth numSpell="01082000">áhta</orth>
+<lexcLeft>áhta</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="thing, object">thing</gloss>
+<gloss lang="swe">grej, sak</gloss>
+</glosses>
+</sje>
 <sje FMPid="4032" pos="noun">
 <orth numSpell="010820100512002010">áhtjelatj</orth>
 <lexcLeft>áhtjelatj</lexcLeft>
@@ -15412,7 +15420,7 @@
 <orth numSpell="11120908200018">klihtar</orth>
 <lexcLeft>klihtar</lexcLeft>
 <glosses>
-<gloss lang="eng" fullEN="creature, livestock (not reindeer)">creature, livestock (not reindeer)</gloss>
+<gloss lang="eng" fullEN="creature, livestock (not reindeer)">cattle</gloss>
 <gloss lang="swe">kreatur, boskap (ej renar)</gloss>
 </glosses>
 </sje>
@@ -21488,6 +21496,14 @@
 <gloss lang="swe">slipsten</gloss>
 </glosses>
 </sje>
+<sje FMPid="90716" pos="noun">
+<orth numSpell="19120908201618">slihtor</orth>
+<lexcLeft>slihtor+Use/NG</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="creature, livestock (not reindeer)">cattle</gloss>
+<gloss lang="swe">kreatur, boskap (ej renar)</gloss>
+</glosses>
+</sje>
 <sje FMPid="1680" pos="noun">
 <orth numSpell="19122408202024">slåhttå</orth>
 <lexcLeft>slåhttå</lexcLeft>
@@ -21910,6 +21926,14 @@
 <glosses>
 <gloss lang="eng" fullEN="a long, cold winter">a long, cold winter</gloss>
 <gloss lang="swe">vargavinter, vargaår</gloss>
+</glosses>
+</sje>
+<sje FMPid="2558" pos="noun">
+<orth numSpell="192001181800">stárra</orth>
+<lexcLeft>stárra</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="city, town">city</gloss>
+<gloss lang="swe">stad</gloss>
 </glosses>
 </sje>
 <sje FMPid="3515" pos="noun">
@@ -27056,6 +27080,14 @@
 <gloss lang="swe">be om något</gloss>
 </glosses>
 </sje>
+<sje FMPid="90714" pos="verb">
+<orth numSpell="0108200020">áhtat</orth>
+<lexcLeft>áhtat</lexcLeft>
+<glosses>
+<gloss lang="eng" fullEN="tinker, toy with">tinker</gloss>
+<gloss lang="swe">greja, pyssla, hålla på med</gloss>
+</glosses>
+</sje>
 <sje FMPid="18" pos="verb">
 <orth numSpell="01100200140920">ájbanit</orth>
 <lexcLeft>ájbanit</lexcLeft>
@@ -30148,7 +30180,7 @@
 <orth numSpell="07051421070920">genugit</orth>
 <lexcLeft>genugit</lexcLeft>
 <glosses>
-<gloss lang="eng" fullEN="stop">stop</gloss>
+<gloss lang="eng" fullEN="stay, stop, remain">stay</gloss>
 <gloss lang="swe">stanna</gloss>
 </glosses>
 </sje>
