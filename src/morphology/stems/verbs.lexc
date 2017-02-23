@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-02-22T08:38:13+01:00
+! Timestamp: 2017-02-23T10:56:28+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -319,6 +319,7 @@ arbmogasstet:arbmogasst V_EVEN_A "take mercy upon" ; ! no. 5397
 arrmálasstet:arrmálasst V_EVEN_A "take pity, ask for help" ; ! no. 4062
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
+áhtat:áht V_EVEN_A "tinker, toy with" ; ! no. 90714
 ájjtsat:ájjts V_EVEN_A "sight" ; ! no. 35
 ánodallat:ánodall V_EVEN_A "request several times" ; ! no. 4662
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
