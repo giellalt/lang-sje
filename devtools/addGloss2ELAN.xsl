@@ -206,7 +206,16 @@
     <xsl:variable name="ref2lemma" select="./REF_ANNOTATION/@ANNOTATION_REF"/>
     <xsl:variable name="lemma" select="../../TIER[@TIER_ID=$lemmaTIER_ID]/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID=$ref2lemma]"/>
     <!-- to do: fix next variable to deal better when there is more than one match! -->
-    <xsl:variable name="glossEN" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='eng']"/>
+    <xsl:variable name="glossEN"><!-- if non-standard (+Use/NG) stem, remove extra tags (+Use/NG), otherwise just get stem -->
+      <xsl:choose>
+        <xsl:when test="contains($glossSource/ELAN_glosses/sje[./substring-before(lexcLeft,'+')=$lemma]/lexcLeft,'+')">
+          <xsl:value-of select="$glossSource/ELAN_glosses/sje[./substring-before(lexcLeft,'+')=$lemma]/glosses/gloss[@lang='eng']"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='eng']"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <!--xsl:variable name="glossSV" select="$glossSource/ELAN_glosses/sje[./lexcLeft=$lemma]/glosses/gloss[@lang='swe']"/-->
     <xsl:variable name="newAnnotRef" select="./REF_ANNOTATION/@ANNOTATION_ID"/>
     <xsl:variable name="localCumulativeCount">
