@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-02-23T13:28:07+01:00
+! Timestamp: 2017-03-13T14:51:20+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1924,7 +1924,7 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 ájlek:ájleg2 N_ODD "Sunday" ; ! no. 29
 áldar:áldar N_ODD "age" ; ! no. 2719
 áldas:áldas N_ODD "leather on front top part of shoe" ; ! no. 47
-árbatj:árbatj N_ODD "window" ; ! no. 62
+árbatj:árbatj N_ODD "widow" ; ! no. 62
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
 árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
@@ -2380,7 +2380,6 @@ bårjås:bårrjås N_ODD_WG "sail" ; ! no. 248
 båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
 bäggagálles:bägga#gál'les N_ODD_WG "wind god" ; ! no. 2499
 bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
-duoddar:du^Oddar N_ODD_WG "flat mountain above treeline" ; ! no. 5996
 fáles:fálles N_ODD_WG "whale" ; ! no. 467
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
