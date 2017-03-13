@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-02-23T13:14:20+01:00
+! Timestamp: 2017-03-13T13:54:32+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1142,7 +1142,7 @@ gástadit:gástad V_ODD "baptise" ; ! no. 571
 gávastit:gávast V_ODD "yawn" ; ! no. 575
 gávnadit:gávnad V_ODD "meet" ; ! no. 581
 gávodit:gávod V_ODD "turn a boat on an even keel" ; ! no. 3497
-genugit:genug V_ODD "stop, remain" ; ! no. 597
+genugit:genug V_ODD "stay, stop, remain" ; ! no. 597
 gerjudit:gerjud V_ODD "wag" ; ! no. 4817
 giegadit:giegad V_ODD "intend" ; ! no. 606
 giehpebut:giehpeb V_ODD "make easier, simplify" ; ! no. 4821
@@ -1210,7 +1210,7 @@ gårrodit:gårrod V_ODD "become covered in ice" ; ! no. 4693
 gåsådit:gåsåd V_ODD "cough a little bit" ; ! no. 4898
 gähppadit:gä2hppad V_ODD "work out easily" ; ! no. 6807
 gähttjalit:gä2httjal V_ODD "attempt, try" ; ! no. 2384
-gärvodit:gä2rvod V_ODD "get dressed, put on clothes" ; ! no. 793
+gärvudit:gä2rvud V_ODD "get dressed, put on clothes" ; ! no. 793
 hagŋedit:hagŋed V_ODD "be scared out of breath" ; ! no. 802
 hartsastit:hartsast V_ODD "execute by hanging" ; ! no. 3707
 hádjánit:hádján V_ODD "spread out, disperse" ; ! no. 859
