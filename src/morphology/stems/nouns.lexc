@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-03-13T14:51:20+01:00
+! Timestamp: 2017-03-21T16:51:13+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1813,6 +1813,7 @@ råhkågáhkko:råhkå#gáhkko N_EVEN_O "rye bread" ; ! no. 5103
 råhkåjáffo:råhkå#jáf'fo N_EVEN_O "rye flour" ; ! no. 5102
 råhto:råhto N_EVEN_O "willow shrub" ; ! no. 1457
 råvvgo:råvvgo N_EVEN_O "sheepskin fur" ; ! no. 2528
+råvvro:råvvro N_EVEN_O "hollow ice, ice with nothing under it e.g. next to the shore of a lake" ; ! no. 90717
 räjdno:riejdno N_EVEN_O "watching over reindeer" ; ! no. 3305
 räjdnovuorro:räjdno#vu^Orro N_EVEN_O "changing shifts while watching a reindeer herd" ; ! no. 4290
 räjjdo:riejjdo N_EVEN_O "tool" ; ! no. 1400
