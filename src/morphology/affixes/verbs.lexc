@@ -33,8 +33,7 @@ LEXICON V_EVEN_E_STR
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:e%>behtin #;
 +Ind+Prs+Du2:e%>bähtten #;
-+Ind+Prs+Du3:e%>ba #;
-+Ind+Prs+Du3+Use/NG:e%>ban #;
++Ind+Prs+Du3:e%> 3DUPRS ;
 +Ind+Prs+Pl1:e%>p #;
 +Ind+Prs+Pl2:e%>behtit #;
 +Ind+Prs+Pl2:e%>bähttet #;
@@ -70,7 +69,7 @@ LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Sg3: #;
 +Ind+Prt+Du1:men #;
 +Ind+Prt+Du2:den #;
-+Ind+Prt+Du3:ga #;
++Ind+Prt+Du3: 3DUPRT ;
 +Ind+Prt+Pl1:me #;
 +Ind+Prt+Pl2:de #;
 
@@ -85,7 +84,7 @@ LEXICON V_EVEN_A_STR
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:a%>behtin #;
 !+Ind+Prs+Du2:a%>bähtten #;
-+Ind+Prs+Du3:a%>ba #;
++Ind+Prs+Du3:a%> 3DUPRS ;
 +Ind+Prs+Pl1:a%>p #;
 +Ind+Prs+Pl2:a%>behtit #;
 !+Ind+Prs+Pl2:a%>bähttet #;
@@ -109,7 +108,7 @@ LEXICON V_EVEN_A_WK
 +Ind+Prt+Sg3:%>j #;
 +Ind+Prt+Du1:%>jmen #;
 +Ind+Prt+Du2:%>jden #;
-+Ind+Prt+Du3:%>jga #;
++Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
@@ -133,7 +132,7 @@ LEXICON V_EVEN_O_STR
 +Ind+Prs+Du1:u%>n #; 
 +Ind+Prs+Du2:o%>behtin #;
 +Ind+Prs+Du2:o%>bähtten #;
-+Ind+Prs+Du3:o%>ba #;
++Ind+Prs+Du3:o%> 3DUPRS ;
 +Ind+Prs+Pl1:o%>p #;
 +Ind+Prs+Pl2:o%>behtit #;
 +Ind+Prs+Pl2:o%>bähttet #;
@@ -157,7 +156,7 @@ LEXICON V_EVEN_O_WK
 +Ind+Prt+Sg3:%>j #;
 +Ind+Prt+Du1:%>jmen #;
 +Ind+Prt+Du2:%>jden #;
-+Ind+Prt+Du3:%>jga #;
++Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
@@ -180,7 +179,7 @@ LEXICON V_EVEN_Å_STR
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:å%>behtin #;
 !+Ind+Prs+Du2:å%>bähtten #;
-+Ind+Prs+Du3:å%>ba #;
++Ind+Prs+Du3:å%> 3DUPRS ;
 +Ind+Prs+Pl1:å%>p #;
 +Ind+Prs+Pl2:å%>behtit #;
 !+Ind+Prs+Pl2:å%>bähttet #;
@@ -204,7 +203,7 @@ LEXICON V_EVEN_Å_WK
 +Ind+Prt+Sg3:%>j #;
 +Ind+Prt+Du1:%>jmen #;
 +Ind+Prt+Du2:%>jden #;
-+Ind+Prt+Du3:%>jga #;
++Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
@@ -228,7 +227,7 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prs+Sg3:a%>0 #;
 +V+Ind+Prs+Du1:i%>n #; 
 +V+Ind+Prs+Du2:ä%>hppen #;
-+V+Ind+Prs+Du3:e%>bá #;
++V+Ind+Prs+Du3:e%> 3DUPRS ;
 +V+Ind+Prs+Pl1:i%>p #;
 +V+Ind+Prs+Pl2:i%>hppit #;
 +V+Ind+Prs+Pl3:i%>0 #; 
@@ -238,7 +237,7 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prt+Sg3:i%>j #;
 +V+Ind+Prt+Du1:i%>jmen #;
 +V+Ind+Prt+Du2:i%>jden #;
-+V+Ind+Prt+Du3:i%>jga #;
++V+Ind+Prt+Du3:i%>j 3DUPRT ;
 +V+Ind+Prt+Pl1:i%>jme #;
 +V+Ind+Prt+Pl2:i%>jde #;
 +V+Ind+Prt+Pl3:i%>n #; 
@@ -269,7 +268,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prs+Sg3:%>ja #;
 +V+Ind+Prs+Du1:%>jin #; 
 +V+Ind+Prs+Du2:%>bähttin #;
-+V+Ind+Prs+Du3:%>ba #;
++V+Ind+Prs+Du3:%> 3DUPRS ;
 +V+Ind+Prs+Pl1:%>p #;
 +V+Ind+Prs+Pl2:%>bihttit #;
 +V+Ind+Prs+Pl3:%>ji #; 
@@ -279,7 +278,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Sg3:%>j #;
 +V+Ind+Prt+Du1:%>jmin #;
 +V+Ind+Prt+Du2:%>jdin #;
-+V+Ind+Prt+Du3:%>jga #;
++V+Ind+Prt+Du3:%>j 3DUPRT ;
 +V+Ind+Prt+Pl1:%>jme #;
 +V+Ind+Prt+Pl2:%>jde #;
 +V+Ind+Prt+Pl3:%>jin #; 
@@ -436,6 +435,14 @@ LEXICON IJIMP !!= * @CODE@
 +Du2:iellen # ; 
 +Du3:ellit  # ;
 
+
+LEXICON 3DUPRS !variation in 3rd-DUAL-Presence suffixes
+:ba # ;
++Use/NG:ban # ;
+
+LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes
+:ga # ;
++Use/NG:gan # ;
 
 
 !!!!!!!!! original verb LEXICA below (before JW)
