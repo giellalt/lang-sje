@@ -82,6 +82,7 @@ LEXICON N_EVEN_J
 +Pl+Ela+Use/NG:s  K ;
 +Pl+Ill:da  K ; 
 +Pl+Com:    K ;
++Pl+Com+Use/NG:gum K ;
 +Sg+Com:n K ;         !norm
 +Sg+Com+Use/NG:na K ; !variant
 
@@ -106,6 +107,7 @@ LEXICON N_EVEN4 !mánnodak<->mánnodag-
 +N+Pl+Ela:a%>jst K ;
 +N+Pl+Ela+Use/NG:a%>js K ;
 +N+Pl+Com:a%>j K ;
++N+Pl+Com+Use/NG:a%>jgum K ;
 
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
@@ -135,6 +137,7 @@ LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
 +Pl+Ela:asa%>jst K ;
 +Pl+Ela+Use/NG:asa%>js K ;
 +Pl+Com:asa%>j K ;
++Pl+Com+Use/NG:asa%>jgum K ;
 
 
 
@@ -181,6 +184,7 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Pl+Ela:i2%>jst K ;
 +Pl+Ela+Use/NG:i2%>js K ;
 +Pl+Com:i2%>j K ;
++Pl+Com+Use/NG:i2%>jgum K ;
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 +Der/Dim:a%>tj N_ODD ;
@@ -216,6 +220,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Pl+Ela:u%>jst K ;
 +N+Pl+Ela+Use/NG:u%>js K ;
 +N+Pl+Com:u%>j K ;
++N+Pl+Com+Use/NG:u%>jgum K ;
 
 LEXICON N_CONTR_AJA !ålmaj<->ålma
 +N+Sg+Nom:a^WGj%>0 K ;
@@ -237,6 +242,7 @@ LEXICON N_CONTR_AJA !ålmaj<->ålma
 +N+Pl+Ela:a%>jst K ;
 +N+Pl+Ela+Use/NG:a%>js K ;
 +N+Pl+Com:a%>j K ;
++N+Pl+Com+Use/NG:a%>jgum K ;
 
 LEXICON N_CONTR_ESA !sarves<->sarvvá
 +N+Sg+Nom:e^WGs%>0 K ;
@@ -258,6 +264,7 @@ LEXICON N_CONTR_ESA !sarves<->sarvvá
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
++N+Pl+Com+Use/NG:á%>jgum K ;
 
 
 
