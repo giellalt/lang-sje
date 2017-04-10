@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-03-21T16:51:13+01:00
+! Timestamp: 2017-04-10T16:03:38+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -206,6 +206,7 @@ buavdåjjve:buavd#åjjve N_EVEN "bald head" ; ! no. 4701
 buavvda:bu^Ovvda N_EVEN "round treeless mountain top surrounded by forest" ; ! no. 201
 buhtsutjårrve:buhtsu#tjårrve N_EVEN "reindeer antler" ; ! no. 2300
 bukstávva:bukstávva N_EVEN "letter of the alphabet" ; ! no. 3364
+bulla:bulla N_EVEN "bread roll, bun" ; ! no. 90705
 bullke:bullke N_EVEN "sled" ; ! no. 2535
 bunnde:bunnde N_EVEN "farmer" ; ! no. 205
 buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
@@ -230,7 +231,6 @@ båhtjemlihtte:båhtjem#lihtte N_EVEN "milking pail" ; ! no. 4706
 båjjtjå:båjjtjå N_EVEN "boy" ; ! no. 2569
 båkkså:båkkså N_EVEN "trouser, pant" ; ! no. 243
 båldne:båldne N_EVEN "hassock, tuft of grass" ; ! no. 4702
-bålla:bålla N_EVEN "bread roll, bun" ; ! no. 90705
 bållå:bållå N_EVEN "ball" ; ! no. 3365
 båmmpå:båmmpå N_EVEN "bomb" ; ! no. 3368
 bårre:bår're N_EVEN "float, ferry, raft" ; ! no. 251
@@ -1450,6 +1450,7 @@ ussjulmas:ussjulm N_EVEN4_ASA "thought" ; ! no. 2037
 vuojŋanas:vu^Ojŋan N_EVEN4_ASA "brain, mind" ; ! no. 2167
 åtsålvas:åtsålv N_EVEN4_ASA "application" ; ! no. 3168
 aldagis:aldag N_EVEN4_ISA "lightning, flash" ; ! no. 46
+aleldis:aleld N_EVEN4_ISA "Örnvik" ; ! no. 90719
 ávdnogis:ávdnog N_EVEN4_ISA "reindeer which has been attacked by a predator and is still alive" ; ! no. 87
 bahágis:bahág N_EVEN4_ISA "evil" ; ! no. 102
 bárgáldis:bárgáld N_EVEN4_ISA "braided end of shoestrap" ; ! no. 6778
@@ -1693,7 +1694,7 @@ elafábmo:ela#fábmo N_EVEN_O "electricity" ; ! no. 3986
 fábmo:fábmo N_EVEN_O "power, strength" ; ! no. 462
 fáddno:fáddno N_EVEN_O "garden angelica" ; ! no. 4450
 fárro:fárro N_EVEN_O "accompaniment, company" ; ! no. 4189
-fuodno:fu^Odno N_EVEN_O "satan" ; ! no. 5617
+fuodno:fu^Odno N_EVEN_O "satan, devil" ; ! no. 5617
 fällo:fiel'lo N_EVEN_O "board, plank" ; ! no. 483
 fävvro:fievvro N_EVEN_O "skiing conditions" ; ! no. 4405
 garrdo:garrdo N_EVEN_O "body" ; ! no. 6766
@@ -2321,6 +2322,7 @@ vuordnos:vu^Ordnos N_ODD "denial, retraction" ; ! no. 90574
 vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
 vusjkun:vusjkun N_ODD "perch" ; ! no. 2196
 vuärrdem:vu^Orrdem N_ODD "waiting, period of waiting" ; ! no. 6587
+våffel+Use/NG:våffel N_ODD "waffle" ; ! no. 90721
 vähtjir:vä2htjir N_ODD "hammer" ; ! no. 2106
 väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åjjvak:åjjvag2 N_ODD "Uddjaur" ; ! no. 2811
