@@ -225,6 +225,7 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prs+Sg1:a%>v #;
 +V+Ind+Prs+Sg2:a%>0 #;
 +V+Ind+Prs+Sg3:a%>0 #;
++V+Ind+Prs+Sg3+Use/NG:%>0 #;
 +V+Ind+Prs+Du1:i%>n #; 
 +V+Ind+Prs+Du2:ä%>hppen #;
 +V+Ind+Prs+Du3:e%> 3DUPRS ;
