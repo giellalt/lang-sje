@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-12T09:06:39+02:00
+! Timestamp: 2017-04-12T17:28:16+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -879,6 +879,7 @@ rijjka:rijjka N_EVEN "kingdom, state, country" ; ! no. 1413
 rimmste:rimmste N_EVEN "one-year-old reindeer calf after its mother has deserted it" ; ! no. 2582
 risse:ris'se N_EVEN "twig, birch twig (only for deciduous trees)" ; ! no. 1416
 rissja:rissja N_EVEN "sulfur" ; ! no. 1417
+ruassa+Use/NG:ru^Os'sa N_EVEN "cross" ; ! no. 90731
 ruassta:ru^Ossta N_EVEN "rust" ; ! no. 5081
 ruhta:ruhta N_EVEN "a groom's present to his bride's parents" ; ! no. 6036
 ruhtse:ruhtse N_EVEN "trash, rubbish, garbage, waste" ; ! no. 3154
@@ -2235,6 +2236,7 @@ spádnas:spádnas N_ODD "wood chip" ; ! no. 1709
 spággak:spággag2 N_ODD "bear spear" ; ! no. 1710
 spáhkak:spáhkag2 N_ODD "hitch in a Saami packsaddle" ; ! no. 1712
 spieddjel:spieddjel N_ODD "mirror" ; ! no. 4585
+spietjam+Use/NG:spietjam N_ODD "tail stump on a hoofed animal" ; ! no. 90730
 spånjgåt:spånjgåd2 N_ODD "whip" ; ! no. 2982
 stalldak:stalldag2 N_ODD "reindeer which stays around a homestead" ; ! no. 4493
 stájnak:stájnag2 N_ODD "strong reindeer doe which has never had a calf" ; ! no. 1729
