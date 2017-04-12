@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-10T16:03:38+02:00
+! Timestamp: 2017-04-12T09:06:39+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2279,7 +2279,6 @@ tjåhkem:tjåhkem N_ODD "collection, pile, gathering" ; ! no. 3926
 tjåhkom:tjåhkom N_ODD "comb" ; ! no. 1961
 tjårvek:tjårveg2 N_ODD "Hornavan" ; ! no. 1977
 tjårvemáddak:tjårve#máddag2 N_ODD "base of reindeer antlers" ; ! no. 2380
-tsábos:tsábos N_ODD "thinly sliced meat" ; ! no. 5902
 tsieban:tsieban N_ODD "shrew mouse" ; ! no. 4348
 tsiggán:tsiggán N_ODD "wood frame for Saami tipi" ; ! no. 2007
 tsiggim:tsiggim N_ODD "rock pile, cairn" ; ! no. 6521
@@ -2318,7 +2317,6 @@ vuoján:vu^Oján N_ODD "snowmobile, four-wheeler, vehicle" ; ! no. 90573
 vuoktanj:vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
 vuonak:vu^Onag2 N_ODD "Norwegian" ; ! no. 2182
 vuonjal:vu^Onjal N_ODD "one-year-old reindeer cow" ; ! no. 2184
-vuordnos:vu^Ordnos N_ODD "denial, retraction" ; ! no. 90574
 vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
 vusjkun:vusjkun N_ODD "perch" ; ! no. 2196
 vuärrdem:vu^Orrdem N_ODD "waiting, period of waiting" ; ! no. 6587
@@ -2371,6 +2369,17 @@ tjårvegietjmádda:tjårve#gietj#máddag N_ODD_OPEN "fork in antlers" ; ! no. 23
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
+judos:juhtos N_ODD_VH "animal" ; ! no. 929
+jugos:juhkos N_ODD_VH "drink, beverage" ; ! no. 3458
+liepsos:lieppsos N_ODD_VH "fat around the rumen" ; ! no. 90552
+slåtjos:slåhtjos N_ODD_VH "diarrhea" ; ! no. 1681
+suvol:suvvol N_ODD_VH "heat haze" ; ! no. 1780
+sågor:såhkor N_ODD_VH "sugar" ; ! no. 1815
+tjielos:tjiellos N_ODD_VH "written text" ; ! no. 90369
+tsábos:tsábos N_ODD_VH "thinly sliced meat" ; ! no. 5902
+tsuojkos:tsu^Ojjkos N_ODD_VH "clear, visible reindeer earmark" ; ! no. 4488
+vijor:vidjor N_ODD_VH "order, context" ; ! no. 2126
+vuordnos:vu^Ordnos N_ODD_VH "denial, retraction" ; ! no. 90574
 ålol:ållol N_ODD_VH "jaw" ; ! no. 2257
 áhtselisbålås:áhtselis#bållås N_ODD_WG "heavy rain shower" ; ! no. 15
 ánjas:ádnjas N_ODD_WG "leg tendon" ; ! no. 5832
@@ -2409,12 +2418,9 @@ gålmes:gålbmes N_ODD_WG "bark sliced into during sap season" ; ! no. 2470
 gålmås:gålbmås N_ODD_WG "threesome" ; ! no. 4891
 hábres:hábbres N_ODD_WG "buck (male animal)" ; ! no. 3359
 iehpal:iehppal N_ODD_WG "apple" ; ! no. 4184
-judos:juhtos N_ODD_WG "animal" ; ! no. 929
-jugos:juhkos N_ODD_WG "drink, beverage" ; ! no. 3458
 juällgeladas:juällge#lahtas N_ODD_WG "ankle" ; ! no. 945
 kráptjok:krápptjog2 N_ODD_WG "furless leather glove" ; ! no. 90255
 ladas:lahtas N_ODD_WG "joint (anatomy)" ; ! no. 988
-liepsos:lieppsos N_ODD_WG "fat around the rumen" ; ! no. 90552
 máles:málles N_ODD_WG "cooked meal" ; ! no. 90270
 mánnásujtár:mánná#sujjtár N_ODD_WG "baby sitter" ; ! no. 4972
 mávas:mávvas N_ODD_WG "Mavas" ; ! no. 90281
@@ -2430,26 +2436,20 @@ ruppsisruohtas:ruppsis#ru^Ohttas N_ODD_WG "red beet" ; ! no. 5080
 rusjmas:russjmas N_ODD_WG "eczema, rash" ; ! no. 1422
 sárjas:sárrjas N_ODD_WG "sore, wound" ; ! no. 90621
 sjkäbtjasujtár:sjkäbtja#sujjtár N_ODD_WG "nurse" ; ! no. 1635
-slåtjos:slåhtjos N_ODD_WG "diarrhea" ; ! no. 1681
 spijkár:spijjkár N_ODD_WG "nail" ; ! no. 5143
 stäbbleruojas:stäbble#ru^Odjas N_ODD_WG "shaft of a boot" ; ! no. 5144
 subtsas:subbtsas N_ODD_WG "story, fairytale" ; ! no. 1779
 sujtár:sujjtár N_ODD_WG "herder, keeper" ; ! no. 1759
 suorbmas:su^Orbmas N_ODD_WG "ring" ; ! no. 1772
-suvol:suvvol N_ODD_WG "heat haze" ; ! no. 1780
 svájnas:svájdnas N_ODD_WG "male servant, assistant" ; ! no. 1791
-sågor:såhkor N_ODD_WG "sugar" ; ! no. 1815
 tjálmas:tjálmas N_ODD_WG "reticulum (the second reindeer stomach)" ; ! no. 2849
 tjiegar:tjiehkar N_ODD_WG "area with holes dug by grazing reindeer" ; ! no. 3274
-tjielos:tjiellos N_ODD_WG "written text" ; ! no. 90369
 tjieskas:tjiesskas N_ODD_WG "piece of firewood" ; ! no. 3411
 tjällár:tjä2l'lár N_ODD_WG "cellar, basement" ; ! no. 90624
-tsuojkos:tsu^Ojjkos N_ODD_WG "clear, visible reindeer earmark" ; ! no. 4488
 urtas:urrtas N_ODD_WG "garden angelica root" ; ! no. 4016
 vanas:vadnas N_ODD_WG "boat, canoe" ; ! no. 2079
 vidas:vihtas N_ODD_WG "fivesome" ; ! no. 5439
 vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
-vijor:vidjor N_ODD_WG "order, context" ; ! no. 2126
 vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
