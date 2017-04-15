@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-12T17:28:24+02:00
+! Timestamp: 2017-04-15T21:07:07+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -320,7 +320,7 @@ arrmálasstet:arrmálasst V_EVEN_A "take pity, ask for help" ; ! no. 4062
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
 áhtat:áht V_EVEN_A "tinker, toy with" ; ! no. 90714
-ájjtsat:ájjts V_EVEN_A "sight" ; ! no. 35
+ájjtsat:ájjts V_EVEN_A "sight, notice" ; ! no. 35
 ánodallat:ánodall V_EVEN_A "request several times" ; ! no. 4662
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
 ávvat:ávv V_EVEN_A "release a reindeer herd" ; ! no. 2801
@@ -352,6 +352,7 @@ bårådallat:bårådall V_EVEN_A "be bitten" ; ! no. 257
 bäbbmat:biebbm V_EVEN_A "feed" ; ! no. 3670
 bäggat:biegg V_EVEN_A "blow (wind)" ; ! no. 2700
 bävvkat:bievvk V_EVEN_A "detonate" ; ! no. 3589
+bävvlat:bä2vvl V_EVEN_A "when the snow melts and bare ground appears" ; ! no. 90740
 dagadallat:dagadall V_EVEN_A "pretend" ; ! no. 4716
 dahkat:dahk V_EVEN_A "do, make, produce" ; ! no. 302
 dakktat:dakkt V_EVEN_A "become permanent, become woody (for plants)" ; ! no. 3910
@@ -661,7 +662,7 @@ garrvet:garrv V_EVEN_E "go on a detour" ; ! no. 552
 gassnet:gassn V_EVEN_E "sneeze" ; ! no. 569
 gáddet:gádd V_EVEN_E "suspect, mistrust" ; ! no. 487
 gállet:gáll V_EVEN_E "wade" ; ! no. 521
-gássket:gássk V_EVEN_E "bite, chew" ; ! no. 3279
+gássket:gássk V_EVEN_E "bite, chew; castrate" ; ! no. 3279
 genugahttet:genugahtt V_EVEN_E "stop, come to a stop" ; ! no. 4399
 gibbnjet:gibbnj V_EVEN_E "hang up" ; ! no. 603
 giesset:giess V_EVEN_E "drag, pull" ; ! no. 601
@@ -1117,7 +1118,6 @@ galljedit:galljed V_ODD "expand" ; ! no. 524
 ganástit:ganást V_ODD "chew lichen" ; ! no. 534
 ganjáldit:ganjáld V_ODD "fill with tears" ; ! no. 536
 garkagit:garkag V_ODD "become rancid" ; ! no. 4990
-garrasit:garras V_ODD "harden" ; ! no. 547
 garrodit:garrod V_ODD "curse, use profanity" ; ! no. 550
 gasnedit:gasned V_ODD "sneeze once" ; ! no. 5171
 gasnestit:gasnest V_ODD "sneeze once" ; ! no. 5765
@@ -1351,7 +1351,7 @@ målåstit:målåst V_ODD "pass one another" ; ! no. 4984
 mårádit:mårád V_ODD "become angry" ; ! no. 1211
 mårrolit:mårrol V_ODD "turn out to be wicked" ; ! no. 3135
 mähttjánit:mä2httján V_ODD "withdraw, make room, move over" ; ! no. 3164
-nagádit:nagád V_ODD "manage, be able" ; ! no. 1233
+nagadit:nagad V_ODD "manage, be able" ; ! no. 1233
 nagerdit:nagerd V_ODD "become tired" ; ! no. 90289
 nammadit:nammad V_ODD "name someone, call someone his/her name" ; ! no. 1241
 nannodit:nannod V_ODD "strengthen, fortify" ; ! no. 3235
