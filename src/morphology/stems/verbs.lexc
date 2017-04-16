@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-16T11:47:31+02:00
+! Timestamp: 2017-04-16T17:15:37+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -556,6 +556,7 @@ svihkkat:svihkk V_EVEN_A "deviate" ; ! no. 1800
 sviŋŋgat:sviŋŋg V_EVEN_A "move back and forth (for trees)" ; ! no. 90667
 sviŋŋgájdallat:sviŋŋgájdall V_EVEN_A "move back and forth (for trees)" ; ! no. 90666
 svärrgat:svierrg V_EVEN_A "kick" ; ! no. 2953
+säkktat:siekkt V_EVEN_A "first snow on a frozen lake" ; ! no. 90746
 tjadnat:tjadn V_EVEN_A "tie tightly, attach tightly" ; ! no. 1855
 tjalbmat:tjalbm V_EVEN_A "sight something" ; ! no. 1869
 tjallat:tjall V_EVEN_A "rub and scrape antlers (for reindeer, moose)" ; ! no. 1874
@@ -826,6 +827,7 @@ gåpptjot:gåpptj V_EVEN_O "close, cover up" ; ! no. 305
 gårrjot:gårrj V_EVEN_O "lie curled up (for canines)" ; ! no. 4956
 gårrot:gårr V_EVEN_O "sew" ; ! no. 764
 gåsstot:gåsst V_EVEN_O "become rancid" ; ! no. 4392
+gåvvgot:gåvvg V_EVEN_O "be slightly open" ; ! no. 579
 gähttot:giehtt V_EVEN_O "tell" ; ! no. 785
 hávvot:hávv V_EVEN_O "scarf down, eat up ravenously" ; ! no. 5753
 hávvrot:hávvr V_EVEN_O "tear apart (for a predator killing a reindeer)" ; ! no. 3194
@@ -1607,6 +1609,7 @@ ullgonit:ullgon V_ODD "move to the side" ; ! no. 5035
 unnedit:unned V_ODD "lessen, minimize" ; ! no. 3563
 usjudit:usjud V_ODD "think, mean" ; ! no. 2036
 uvvadit:uvvad V_ODD "kiss" ; ! no. 2039
+vahtalit:vahtal V_ODD "be missing" ; ! no. 90747
 vanadit:vanad V_ODD "stretch" ; ! no. 2078
 vádtsatjit:vádtsatj V_ODD "go for a walk, walk slowly" ; ! no. 2047
 vádtsedit:vádtsed V_ODD "teach a child to walk" ; ! no. 5435
