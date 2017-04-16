@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-15T21:07:13+02:00
+! Timestamp: 2017-04-16T11:47:38+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -999,6 +999,7 @@ skidnja:skidnja N_EVEN "echo" ; ! no. 3980
 skiedjá:skiedjá N_EVEN "small storage unit on runners" ; ! no. 1630
 skilla:skilla N_EVEN "zinc bucket" ; ! no. 1624
 skilltja:skilltja N_EVEN "Saami frock made of raw leather" ; ! no. 1639
+skilltje+Use/NG:skilltje N_EVEN "ice on reindeer lichen underneath snow" ; ! no. 90744
 skruvva:skruvva N_EVEN "screw" ; ! no. 5130
 skruvvta:skruvvta N_EVEN "scrap, rubbish" ; ! no. 5748
 skråvvá:skråvvá N_EVEN "muzzle, gag" ; ! no. 3632
@@ -1229,7 +1230,7 @@ tráhppa:tráhppa N_EVEN "stairs" ; ! no. 2900
 truhkke:truhkke N_EVEN "trough" ; ! no. 5304
 tråddjå:tråddjå N_EVEN "shirt, sweater" ; ! no. 1992
 tsagŋa:tsagŋa N_EVEN "short stick in a cloth kåta door" ; ! no. 3639
-tsievve:tsievve N_EVEN "somewhat hard-packed snow" ; ! no. 2510
+tsievve:tsievve N_EVEN "hardpack snow without an ice crust" ; ! no. 2510
 tsisská:tsisská N_EVEN "fatty piece on the very back of a reindeer’s back" ; ! no. 2968
 tsuabbtsa:tsu^Obbtsa N_EVEN "patch of snow in the mountains, snow bridge over a creek" ; ! no. 2013
 tsåhke:tsåhke N_EVEN "heart" ; ! no. 2958
