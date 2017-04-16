@@ -46,7 +46,7 @@ LEXICON V_EVEN_E_STR
 +Imp+Pl2:i%>t #;
 
 +Inf:e%>t # ; 
-+GerII:e%>min # ;
++GerII:e%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:á%>m # ;
 !+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
 +Vsubst:e%>m #; 
@@ -248,7 +248,7 @@ LEXICON V_ODD !ságastit
 +V+Imp+Pl2:i%>httit #;
 
 +V+Inf:i%>t # ; 
-+V+GerII:a%>min # ;
++V+GerII:i%>min # ;
 +V+PrfPrc:a%>m # ;
 +V+ConNeg:e%>0 # ; 
 !+V+PrsPrc:o%>0 # ; 
