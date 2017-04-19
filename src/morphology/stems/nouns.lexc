@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-16T11:47:38+02:00
+! Timestamp: 2017-04-19T10:27:04+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -355,6 +355,7 @@ färrva:fierrva N_EVEN "river bank, lake shore" ; ! no. 3633
 fässta:fiessta N_EVEN "party" ; ! no. 5999
 fävvse:fievvse N_EVEN "cow shed, barn" ; ! no. 3907
 gabbnja:gabbnja N_EVEN "scarecrow" ; ! no. 2562
+gadna:gadna N_EVEN "lichen on rocks and tree trunks" ; ! no. 490
 gadtsasuodna:gadtsa#su^Odna N_EVEN "short tendon between the hoof and the ankle in a reindeer’s hind leg" ; ! no. 3823
 gadtsavuodja:gadtsa#vu^Odja N_EVEN "grease made from hooves" ; ! no. 3821
 gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
@@ -373,7 +374,6 @@ gavvla:gavvla N_EVEN "loop" ; ! no. 4626
 gábble:gábble N_EVEN "wooden piece in top part of kåta door, cover on a backpack" ; ! no. 484
 gáddebävvla:gádde#bievvla N_EVEN "barren land next to a riverbank" ; ! no. 4812
 gáddegärrge:gádde#gierrge N_EVEN "rock at the shore" ; ! no. 4556
-gádna:gádna N_EVEN "lichen on rocks and tree trunks" ; ! no. 490
 gáhkka:gáhkka N_EVEN "pupil" ; ! no. 493
 gáhkobähkke:gáhko#biehkke N_EVEN "piece of bread" ; ! no. 3460
 gáhkogárre:gáhko#gárre N_EVEN "bread tray" ; ! no. 3459
