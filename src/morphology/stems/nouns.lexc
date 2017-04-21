@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-19T10:27:04+02:00
+! Timestamp: 2017-04-21T18:58:33+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -148,6 +148,7 @@ barrge:barrge N_EVEN "worker" ; ! no. 4683
 barrgoájjge:barrgo#ájjge N_EVEN "work time" ; ! no. 3132
 barrgobäjjve:barrgo#biejjve N_EVEN "workday" ; ! no. 4537
 barrgosadje:barrgo#sadje N_EVEN "workplace" ; ! no. 4684
+barrte:barrte N_EVEN "difficult mountain" ; ! no. 2805
 basádemgárre:basádem#gárre N_EVEN "washing pan" ; ! no. 4687
 basilla:basilla N_EVEN "bacterium, germ" ; ! no. 3199
 basse:basse N_EVEN "weekend" ; ! no. 150
@@ -599,7 +600,7 @@ jåded+N+Der/Ag:jådedieddje N_EVEN "leader, chairperson" ; ! no. 90556
 jåden:jåden N_EVEN "during migration/move" ; ! no. 6769
 jågŋå:jågŋå N_EVEN "lingonberry" ; ! no. 950
 jåhkå:jåhkå N_EVEN "stream, creek" ; ! no. 3434
-jåssjå:jåssjå N_EVEN "Joshua" ; ! no. 90628
+jåssjå:jåssjå N_EVEN "Joshua" ; ! no. 90219
 jåvvlå:jåvvlå N_EVEN "Christmas" ; ! no. 963
 jåvvlåbäjjve:jåvvlå#biejjve N_EVEN "Christmas Day" ; ! no. 4917
 jåvvlåguossa:jåvvlå#gu^Ossa N_EVEN "Christmas tree" ; ! no. 2484
@@ -2398,6 +2399,7 @@ bäggagálles:bägga#gál'les N_ODD_WG "wind god" ; ! no. 2499
 bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
 fáles:fálles N_ODD_WG "whale" ; ! no. 467
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
+gamár:gabmár N_ODD_WG "getostmassa (efter första ystning)" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
 gáhker:gáhkker N_ODD_WG "winter scat of reindeer or moose" ; ! no. 3933
 gálles:gál'les N_ODD_WG "notable person" ; ! no. 3881
