@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-25T12:14:39+02:00
+! Timestamp: 2017-04-25T15:07:06+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -738,8 +738,9 @@ miesseduällje:miesse#du^Ollje N_EVEN "winter fur on a reindeer calf" ; ! no. 59
 mijjla:mijjla N_EVEN "Swedish mile (ten kilometers)" ; ! no. 2387
 mikrovuäbbne:mikro#vu^Obbne N_EVEN "microwave oven" ; ! no. 1165
 minoritiehtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
-missovuassta:misso#vu^Ossta N_EVEN "brown cheese" ; ! no. 5989
-missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
+missu:mis'su N_EVEN "whey" ; ! no. 3196
+missuvuassta:misso#vu^Ossta N_EVEN "brown cheese" ; ! no. 5989
+missuvuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
 motuvvra:motuvvra N_EVEN "motor" ; ! no. 5977
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
 muohtadállke:muohta#dállke N_EVEN "blizzard, snow storm" ; ! no. 6559
@@ -1278,6 +1279,7 @@ várretjåhkkå:várre#tjåhkkå N_EVEN "mountain top, peak, summit" ; ! no. 208
 várrjal+N+Der/Ag:várrjalieddje N_EVEN "guardian" ; ! no. 3265
 vávvka:vávvka N_EVEN "Vaukagården" ; ! no. 2100
 viega:viega N_EVEN "road" ; ! no. 4137
+vierra:vierra N_EVEN "esker; wheel; ski pole basket" ; ! no. 2108
 viessomájjge:viessom#ájjge N_EVEN "lifetime" ; ! no. 4228
 viessomlájjbe:viessom#lájjbe N_EVEN "subsistence" ; ! no. 3516
 viessomvuohke:viessom#vu^Ohke N_EVEN "way of life, lifestyle" ; ! no. 5597
@@ -1776,7 +1778,6 @@ mákkso:mákkso N_EVEN_O "payment" ; ! no. 4967
 mánnásujjto:mánná#sujjto N_EVEN_O "pediatric care" ; ! no. 3219
 mánno:mánno N_EVEN_O "month, moon" ; ! no. 1134
 márrso:márrso N_EVEN_O "basket made of fibers" ; ! no. 5577
-misso:mis'so N_EVEN_O "whey" ; ! no. 3196
 mujjto:mujjto N_EVEN_O "memory" ; ! no. 1178
 muohto:mu^Ohto N_EVEN_O "face, cheek" ; ! no. 1185
 murrko:murrko N_EVEN_O "fog" ; ! no. 1192
@@ -2232,6 +2233,7 @@ skubmuk:skubmug2 N_ODD "mouth protection" ; ! no. 5911
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvvlik:skuvvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
+skåvlåk:skåvlåg2 N_ODD "teacher" ; ! no. 90754
 slihtor+Use/NG:slihtor N_ODD "creature, livestock (not reindeer)" ; ! no. 90716
 släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
