@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-21T18:58:33+02:00
+! Timestamp: 2017-04-25T12:14:39+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -944,6 +944,7 @@ sárrderibbre:sárrde#ribbre N_EVEN "sliced liver" ; ! no. 4522
 sárrge:sárrge N_EVEN "tip of antlers; cut for a reindeer earmark" ; ! no. 2377
 sávve:sáv've N_EVEN "seam" ; ! no. 5271
 sávvtsa:sávvtsa N_EVEN "sheep" ; ! no. 2605
+sidnu:sidnu N_EVEN "grass" ; ! no. 2863
 siedja:siedja N_EVEN "pus" ; ! no. 1524
 siegŋa:siegŋa N_EVEN "nostril" ; ! no. 1525
 siehka:siehka N_EVEN "shade" ; ! no. 5181
@@ -1336,6 +1337,7 @@ värrtsa:vierrtsa N_EVEN "ram (sheep)" ; ! no. 2603
 vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åbbábielle:åbbá#bielle N_EVEN "halfsister" ; ! no. 4765
 åbme:åbme N_EVEN "thing, object" ; ! no. 2232
+ådåk+Use/NG:ådåg2 N_EVEN "new-born puppy" ; ! no. 90524
 åggomsadje:åggom#sadje N_EVEN "fishing spot" ; ! no. 4265
 åhke:åhke N_EVEN "human fetus" ; ! no. 2242
 åhpad+N+Der/Ag:åhpadieddje N_EVEN "teacher" ; ! no. 2243
@@ -1830,7 +1832,6 @@ sájjbo:sájjbo N_EVEN_O "soap, detergent" ; ! no. 1492
 sájjvo:sájjvo N_EVEN_O "worshipped underground being" ; ! no. 3797
 sállvo:sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 sámeståhpo:sáme#ståhpo N_EVEN_O "Saami house" ; ! no. 4593
-sidno:sidno N_EVEN_O "grass" ; ! no. 2863
 siehko:siehko N_EVEN_O "small bone in a reindeer hoof" ; ! no. 2854
 siello:siello N_EVEN_O "soul, spirit" ; ! no. 1530
 sisgárrvo:sis#gárrvo N_EVEN_O "underwear" ; ! no. 1549
@@ -2320,6 +2321,7 @@ vuoddobiednek:vuoddo#biedneg2 N_ODD "basic amount" ; ! no. 3223
 vuodjej:vu^Odjej N_ODD "driver, chauffeur" ; ! no. 3523
 vuoján:vu^Oján N_ODD "snowmobile, four-wheeler, vehicle" ; ! no. 90573
 vuoktanj:vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
+vuolpok:vu^Olpog2 N_ODD "daggkåpa" ; ! no. 90753
 vuonak:vu^Onag2 N_ODD "Norwegian" ; ! no. 2182
 vuonjal:vu^Onjal N_ODD "one-year-old reindeer cow" ; ! no. 2184
 vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
@@ -2331,7 +2333,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åjjvak:åjjvag2 N_ODD "Uddjaur" ; ! no. 2811
 åbbátj:åbbátj N_ODD "sister" ; ! no. 90399
 åbbås:åbbås N_ODD "snow, deep virgin blanket of snow" ; ! no. 2230
-ådåk:ådåg2 N_ODD "puppy (older than six months)" ; ! no. 2239
+ådåk+Use/NG:ådåg2 N_ODD "puppy (older than six months)" ; ! no. 2239
 åjvok:åjvog2 N_ODD "oldest brother" ; ! no. 2254
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
