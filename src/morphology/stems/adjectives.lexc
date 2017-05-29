@@ -17,6 +17,9 @@
 LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
 
+amas:abmas A_ODD_C_test "foreign, strange, unknown" ; ! no. 58
+
+
 ! komparering framför vissa j- former verkar ej fungera
 
 állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
@@ -101,7 +104,7 @@ vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 
 allak:all A_ODD_TT ;
 allak:alla A_ODD_Q ;
-amás:a A_ODD_Ö ;
+!amás:a A_ODD_Ö ;
 árvas:árv A_ODD_GG ;
 aset:ase A_ODD_DIS ;
 ávos A_ODD_Å ;

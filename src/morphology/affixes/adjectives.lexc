@@ -17,6 +17,23 @@
 !! !!!Adjectives !
 ! ========== !
 
+! Josh's testing:
+LEXICON A_ODD_C_test ! amas/amas/abmasa/abmasup
++A+Attr:^WG%> # ;
++A+Sg+Nom:^WG%> # ;
++A+Pl+Nom:%>a # ;
++A:%> COMPSUP_test ;
+
+LEXICON COMPSUP_test !!= * @CODE@ 
++Comp+Sg+Nom:%>up # ;
++Comp+Attr:%>up # ;
++Comp:%>ub ODD_OBLIQUE_U_COMMON ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+
++Superl+Sg+Nom:^WG%>umos # ;
++Superl+Attr:^WG%>umos # ;
++Superl:%>ubmus N_ODD_X ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+
+
 !! Här är lexikon för adjektivsböjning.
 !! Först jämnstaviga, så uddastaviga, och sen kontrakta.
 !! Efteråt kommer morfologin, som också spiller över i nouns.lexc.
