@@ -17,8 +17,11 @@
 LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
 
-amas:abmas A_ODD_C_test "foreign, strange, unknown" ; ! no. 58
-
+abmas A_AMAS_test "foreign, strange, unknown" ;
+bivval A_BIVVAL_test "warm" ;
+tjåskes:tjåssk A_TJÅSKES_test "cold (weather)" ;
+blávvat:blávv A_BLAAVVAT_test "blue" ;
+bånndá A_BÅNNDAA_test "rich" ;
 
 ! komparering framför vissa j- former verkar ej fungera
 
@@ -30,7 +33,7 @@ binna A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
 buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
-bånndá A_EVEN_B ; 
+!bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
 guhkke A_EVEN_B ; 
@@ -112,8 +115,8 @@ basstel A_ODD_Å ;
 báhkas:báhk A_ODD_G ;
 
 bavrek:bavre A_ODD_GIS ;
-bivval A_ODD ;
-blávvat:blávv A_ODD_S ;
+!bivval A_ODD ;
+!blávvat:blávv A_ODD_S ;
 buorak:buora A_ODD_GIS ;
 buorremielak:buorremiela A_ODD_Z ;
 dájgas:dájg A_ODD_ZZ ;
@@ -194,8 +197,8 @@ tjavdes:tjav A_ODD_C ;
 tjiegŋal A_ODD ;
 tjielgos:tj A_ODD_II ;
 tjurguk:tjurgu A_ODD_GIS ;
-tjåskes:tjås A_ODD_D ;
-tjåskes:tjås A_ODD_JIS ; 
+!tjåskes:tjås A_ODD_D ;
+!tjåskes:tjås A_ODD_JIS ; 
 vájbas:váj A_ODD_PP ;
 várrok:várro A_ODD_GIS ;
 vassjal A_ODD ;
