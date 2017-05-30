@@ -17,21 +17,63 @@
 !! !!!Adjectives !
 ! ========== !
 
+!
 ! Josh's testing:
-LEXICON A_ODD_C_test ! amas/amas/abmasa/abmasup
+!
+
+! positive form rules (based on PRED.SG as basic form)
+LEXICON A_AMAS_test ! amas/amas/abmasa/abmasup
 +A+Attr:^WG%> # ;
 +A+Sg+Nom:^WG%> # ;
++A: N_ODD_X ;
++A: COMPSUP_test ;
+
+LEXICON A_TJÅSKES_test ! tjåskes/tjåskes/tjåsskasa/??
++A+Attr:es^WG%> # ;
++A+Sg+Nom:es^WG%> # ;
++A+Pl+Nom:as%>a # ;
++A:as^WG COMPSUP_test ;
+
+LEXICON A_BIVVAL_test ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
++A+Attr:%>is # ;
++A+Sg+Nom:%> # ;
 +A+Pl+Nom:%>a # ;
 +A:%> COMPSUP_test ;
 
-LEXICON COMPSUP_test !!= * @CODE@ 
+LEXICON A_BLAAVVAT_test ! blävis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
++A+Attr:i^WG%>s # ;
++A+Sg+Nom:ad2%> # ;
++A+Pl+Nom:ad2%>a # ;
++A:%> COMPSUP_test ;
+
+LEXICON A_BÅNNDAA_test ! båndás/bånndá/båndá/båndásup/båndájmus-
++A+Attr:^WG%>s # ;
++A+Sg+Nom:%> # ;
++A+Pl+Nom:^WG%> # ;
++A:^WG%> COMPSUP_test2 ;
+
+
+
+! COMP/SUPERL test rules:
+LEXICON COMPSUP_test 
 +Comp+Sg+Nom:%>up # ;
 +Comp+Attr:%>up # ;
 +Comp:%>ub ODD_OBLIQUE_U_COMMON ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
 
-+Superl+Sg+Nom:^WG%>umos # ;
-+Superl+Attr:^WG%>umos # ;
++Superl+Sg+Nom:%>umos # ;
++Superl+Attr:%>umos # ;
 +Superl:%>ubmus N_ODD_X ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+
+LEXICON COMPSUP_test2  
++Comp+Sg+Nom:%>sup # ;
++Comp+Attr:%>sup # ;
++Comp:%>sub ODD_OBLIQUE_U_COMMON ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+
++Superl+Sg+Nom:%>jmus # ;
++Superl+Attr:%>jmus # ;
++Superl:%>jmus N_ODD_X ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+
+
 
 
 !! Här är lexikon för adjektivsböjning.
