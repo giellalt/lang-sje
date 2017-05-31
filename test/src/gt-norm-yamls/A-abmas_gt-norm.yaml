@@ -10,15 +10,17 @@ Config:
 Tests:
 
   Adjektiv - abmas: # 
-    abmas+A+Sg+Nom: amas
     abmas+A+Attr: amas
+
+    abmas+A+Sg+Nom: amas
+    abmas+A+Pl+Nom: abmasa
+
     abmas+A+Sg+Gen: abmasa
     abmas+A+Sg+Acc: abmasav
     abmas+A+Sg+Ill: abmasij
     abmas+A+Sg+Ine: abmasin
     abmas+A+Sg+Ela: [abmasist, abmasis]
     abmas+A+Sg+Com: abmasijn
-    abmas+A+Pl+Nom: abmasa
     abmas+A+Pl+Gen: abmasij
     abmas+A+Pl+Acc: abmasijd
     abmas+A+Pl+Ill: abmasijda
@@ -27,32 +29,36 @@ Tests:
     abmas+A+Pl+Com: [abmasij, abmasijgum]
 #    abmas+A+Ess: abmasan
 
-    abmas+A+Comp+Sg+Nom: abmasup
     abmas+A+Comp+Attr: abmasup
-    abmas+A+Comp+Sg+Gen: abmasubu
-    abmas+A+Comp+Sg+Acc: abmasubuv
-    abmas+A+Comp+Sg+Ill: abmasubuj
-    abmas+A+Comp+Sg+Ine: abmasubun
-    abmas+A+Comp+Sg+Ela: [abmasubust, abmasubus]
-    abmas+A+Comp+Sg+Com: abmasubujn
-    abmas+A+Comp+Pl+Nom: abmasubu
-    abmas+A+Comp+Pl+Gen: abmasubuj
-    abmas+A+Comp+Pl+Acc: abmasubujd
-    abmas+A+Comp+Pl+Ill: abmasubujda
-    abmas+A+Comp+Pl+Ine: abmasubujn
-    abmas+A+Comp+Pl+Ela: [abmasubujst, abmasubujs]
-    abmas+A+Comp+Pl+Com: [abmasubuj, abmasubujgum]
-#    abmas+A+Comp+Ess: abmasubun
+
+    abmas+A+Comp+Sg+Nom: abmasup
+    abmas+A+Comp+Pl+Nom: abmasubo
+
+    abmas+A+Comp+Sg+Gen: abmasubo
+    abmas+A+Comp+Sg+Acc: abmasubov
+    abmas+A+Comp+Sg+Ill: abmasuboj
+    abmas+A+Comp+Sg+Ine: abmasubon
+    abmas+A+Comp+Sg+Ela: [abmasubost, abmasubos]
+    abmas+A+Comp+Sg+Com: [abmasubojn, abmasubojna]
+    abmas+A+Comp+Pl+Gen: abmasuboj
+    abmas+A+Comp+Pl+Acc: abmasubojd
+    abmas+A+Comp+Pl+Ill: abmasubojda
+    abmas+A+Comp+Pl+Ine: abmasubojn
+    abmas+A+Comp+Pl+Ela: [abmasubojst, abmasubojs]
+    abmas+A+Comp+Pl+Com: [abmasuboj, abmasubojgum]
+#    abmas+A+Comp+Ess: abmasubon
+
+    abmas+A+Superl+Attr: abmasumos
 
     abmas+A+Superl+Sg+Nom: abmasumos
-    abmas+A+Superl+Attr: abmasumos
+    abmas+A+Superl+Pl+Nom: abmasubmusa
+
     abmas+A+Superl+Sg+Gen: abmasubmusa
     abmas+A+Superl+Sg+Acc: abmasubmusav
     abmas+A+Superl+Sg+Ill: abmasubmusij
     abmas+A+Superl+Sg+Ine: abmasubmusin
     abmas+A+Superl+Sg+Ela: [abmasubmusist, abmasubmusis]
     abmas+A+Superl+Sg+Com: abmasubmusijn
-    abmas+A+Superl+Pl+Nom: abmasubmusa
     abmas+A+Superl+Pl+Gen: abmasubmusij
     abmas+A+Superl+Pl+Acc: abmasubmusijd
     abmas+A+Superl+Pl+Ill: abmasubmusijda

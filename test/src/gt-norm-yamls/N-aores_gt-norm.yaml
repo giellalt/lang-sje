@@ -1,0 +1,32 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - åres: # N_ODD_VH (with vowel harmony)
+    åres+N+Sg+Nom: åres
+    åres+N+Sg+Gen: årrása
+    åres+N+Sg+Acc: årrásav
+    åres+N+Sg+Ill: årrásij
+    åres+N+Sg+Ine: årrásin
+    åres+N+Sg+Ela: [årrásist, årrásis]
+    åres+N+Sg+Com: årrásijn
+    åres+N+Pl+Nom: årrása
+    åres+N+Pl+Gen: årrásij
+    åres+N+Pl+Acc: årrásijd
+    åres+N+Pl+Ill: årrásijda
+    åres+N+Pl+Ine: årrásijn
+    åres+N+Pl+Ela: [årrásijst, årrásijs]
+    åres+N+Pl+Com: [årrásij, årrásijgum]
+    åres+N+Ess: årrásin
+    åres+N+Abe: årrásahtá
+#    ålol+Dim+N+Sg+Nom: årrásatj # need to find out how DIM (derivation) is formalized!
+
+ 
+ 

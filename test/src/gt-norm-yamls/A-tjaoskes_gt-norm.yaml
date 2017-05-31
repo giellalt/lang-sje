@@ -1,0 +1,69 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Adjektiv - tjåskes: # 
+    tjåskes+A+Attr: tjåskes
+
+    tjåskes+A+Sg+Nom: tjåskes
+    tjåskes+A+Pl+Nom: tjåsskása
+
+    tjåskes+A+Sg+Gen: tjåsskása
+    tjåskes+A+Sg+Acc: tjåsskásav
+    tjåskes+A+Sg+Ill: tjåsskásij
+    tjåskes+A+Sg+Ine: tjåsskásin
+    tjåskes+A+Sg+Ela: [tjåsskásist, tjåsskásis]
+    tjåskes+A+Sg+Com: tjåsskásijn
+    tjåskes+A+Pl+Gen: tjåsskásij
+    tjåskes+A+Pl+Acc: tjåsskásijd
+    tjåskes+A+Pl+Ill: tjåsskásijda
+    tjåskes+A+Pl+Ine: tjåsskásijn
+    tjåskes+A+Pl+Ela: [tjåsskásijst, tjåsskásijs]
+    tjåskes+A+Pl+Com: [tjåsskásij, tjåsskásijgum]
+#    tjåskes+A+Ess: tjåsskásan
+
+    tjåskes+A+Comp+Attr: tjåsskásup
+
+    tjåskes+A+Comp+Sg+Nom: tjåsskásup
+    tjåskes+A+Comp+Pl+Nom: tjåsskásubo
+
+    tjåskes+A+Comp+Sg+Gen: tjåsskásubo
+    tjåskes+A+Comp+Sg+Acc: tjåsskásubov
+    tjåskes+A+Comp+Sg+Ill: tjåsskásuboj
+    tjåskes+A+Comp+Sg+Ine: tjåsskásubon
+    tjåskes+A+Comp+Sg+Ela: [tjåsskásubost, tjåsskásubos]
+    tjåskes+A+Comp+Sg+Com: [tjåsskásubojn, tjåsskásubojna]
+    tjåskes+A+Comp+Pl+Gen: tjåsskásuboj
+    tjåskes+A+Comp+Pl+Acc: tjåsskásubojd
+    tjåskes+A+Comp+Pl+Ill: tjåsskásubojda
+    tjåskes+A+Comp+Pl+Ine: tjåsskásubojn
+    tjåskes+A+Comp+Pl+Ela: [tjåsskásubojst, tjåsskásubojs]
+    tjåskes+A+Comp+Pl+Com: [tjåsskásuboj, tjåsskásubojgum]
+#    tjåskes+A+Comp+Ess: tjåsskásubon
+
+    tjåskes+A+Superl+Attr: tjåsskásumos
+
+    tjåskes+A+Superl+Sg+Nom: tjåsskásumos
+    tjåskes+A+Superl+Pl+Nom: tjåsskásubmusa
+
+    tjåskes+A+Superl+Sg+Gen: tjåsskásubmusa
+    tjåskes+A+Superl+Sg+Acc: tjåsskásubmusav
+    tjåskes+A+Superl+Sg+Ill: tjåsskásubmusij
+    tjåskes+A+Superl+Sg+Ine: tjåsskásubmusin
+    tjåskes+A+Superl+Sg+Ela: [tjåsskásubmusist, tjåsskásubmusis]
+    tjåskes+A+Superl+Sg+Com: tjåsskásubmusijn
+    tjåskes+A+Superl+Pl+Gen: tjåsskásubmusij
+    tjåskes+A+Superl+Pl+Acc: tjåsskásubmusijd
+    tjåskes+A+Superl+Pl+Ill: tjåsskásubmusijda
+    tjåskes+A+Superl+Pl+Ine: tjåsskásubmusijn
+    tjåskes+A+Superl+Pl+Ela: [tjåsskásubmusijst, tjåsskásubmusijs]
+    tjåskes+A+Superl+Pl+Com: [tjåsskásubmusij, tjåsskásubmusijgum]
+#    tjåskes+A+Superl+Ess: tjåsskásubmusan
+
