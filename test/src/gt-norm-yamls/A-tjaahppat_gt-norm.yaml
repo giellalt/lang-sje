@@ -50,3 +50,22 @@ Tests:
     tjáhppat+A+Comp+Pl+Com: [tjáhppaduboj, tjáhppadubojgum]
 #    tjáhppat+A+Comp+Ess: tjáhppadubon
 
+
+    tjáhppat+A+Superl+Attr: tjáhppadumos
+
+    tjáhppat+A+Superl+Sg+Nom: tjáhppadumos
+    tjáhppat+A+Superl+Pl+Nom: tjáhppadubmusa
+
+    tjáhppat+A+Superl+Sg+Gen: tjáhppadubmusa
+    tjáhppat+A+Superl+Sg+Acc: tjáhppadubmusav
+    tjáhppat+A+Superl+Sg+Ill: tjáhppadubmusij
+    tjáhppat+A+Superl+Sg+Ine: tjáhppadubmusin
+    tjáhppat+A+Superl+Sg+Ela: [tjáhppadubmusist, tjáhppadubmusis]
+    tjáhppat+A+Superl+Sg+Com: tjáhppadubmusijn
+    tjáhppat+A+Superl+Pl+Gen: tjáhppadubmusij
+    tjáhppat+A+Superl+Pl+Acc: tjáhppadubmusijd
+    tjáhppat+A+Superl+Pl+Ill: tjáhppadubmusijda
+    tjáhppat+A+Superl+Pl+Ine: tjáhppadubmusijn
+    tjáhppat+A+Superl+Pl+Ela: [tjáhppadubmusijst, tjáhppadubmusijs]
+    tjáhppat+A+Superl+Pl+Com: [tjáhppadubmusij, tjáhppadubmusijgum]
+#    tjáhppat+A+Superl+Ess: tjáhppadubmuson

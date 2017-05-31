@@ -11,19 +11,19 @@ Tests:
 
   Noun - vielmes: # N_CONTR_ESA
     vielmes+N+Sg+Nom: vielmes
-    vielmes+N+Sg+Gen: välbmá
-    vielmes+N+Sg+Acc: välbmáv
-    vielmes+N+Sg+Ill: välbmáj
-    vielmes+N+Sg+Ine: välbmán
-    vielmes+N+Sg+Ela: [välbmást, välbmás]
-    vielmes+N+Sg+Com: välbmájn
-    vielmes+N+Pl+Nom: välbmá
-    vielmes+N+Pl+Gen: välbmáj
-    vielmes+N+Pl+Acc: välbmájd
-    vielmes+N+Pl+Ill: välbmájda
-    vielmes+N+Pl+Ine: välbmájn
-    vielmes+N+Pl+Ela: [välbmájst, välbmájs]
-    vielmes+N+Pl+Com: [välbmáj, välbmájgum]
-#    vielmes+N+Ess: vielmán
-#    vielmes+N+Abe: välbmádak
+    vielmes+N+Sg+Gen: välbma
+    vielmes+N+Sg+Acc: välbmav
+    vielmes+N+Sg+Ill: välbmaj
+    vielmes+N+Sg+Ine: välbman
+    vielmes+N+Sg+Ela: [välbmast, välbmas]
+    vielmes+N+Sg+Com: välbmajn
+    vielmes+N+Pl+Nom: välbma
+    vielmes+N+Pl+Gen: välbmaj
+    vielmes+N+Pl+Acc: välbmajd
+    vielmes+N+Pl+Ill: välbmajda
+    vielmes+N+Pl+Ine: välbmajn
+    vielmes+N+Pl+Ela: [välbmajst, välbmajs]
+    vielmes+N+Pl+Com: [välbmaj, välbmajgum]
+#    vielmes+N+Ess: vielman
+#    vielmes+N+Abe: välbmadak
 
