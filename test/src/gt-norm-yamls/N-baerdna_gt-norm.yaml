@@ -15,14 +15,14 @@ Tests:
     bärdna+N+Sg+Acc: bierdnav
     bärdna+N+Sg+Ill: bärdnaj
     bärdna+N+Sg+Ine: bierdnan
-    bärdna+N+Sg+Ela: bierdnast
+    bärdna+N+Sg+Ela: [bierdnast, bierdnas]
     bärdna+N+Sg+Com: [bierdnajn, bierdnajna]
     bärdna+N+Pl+Nom: bierdna
     bärdna+N+Pl+Gen: bierdnaj
     bärdna+N+Pl+Acc: bierdnajd
     bärdna+N+Pl+Ill: bierdnajda
     bärdna+N+Pl+Ine: bierdnajn
-    bärdna+N+Pl+Ela: bierdnajst
+    bärdna+N+Pl+Ela: [bierdnajst, bierdnajs]
     bärdna+N+Pl+Com: bierdnaj
     bärdna+N+Ess: bärdnan
 

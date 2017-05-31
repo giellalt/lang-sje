@@ -15,14 +15,14 @@ Tests:
     juällge+N+Sg+Acc: juolgev
     juällge+N+Sg+Ill: juallgáj
     juällge+N+Sg+Ine: juolgen
-    juällge+N+Sg+Ela: juolgest
+    juällge+N+Sg+Ela: [juolgest, juolges]
     juällge+N+Sg+Com: [julgijn, julgijna]
     juällge+N+Pl+Nom: juolge
     juällge+N+Pl+Gen: julgij
     juällge+N+Pl+Acc: julgijd
     juällge+N+Pl+Ill: julgijda
     juällge+N+Pl+Ine: julgijn
-    juällge+N+Pl+Ela: julgijst
+    juällge+N+Pl+Ela: [julgijst, julgijs]
     juällge+N+Pl+Com: julgij
     juällge+N+Ess: juällgen
     juällge+N+Abe: juolgedak

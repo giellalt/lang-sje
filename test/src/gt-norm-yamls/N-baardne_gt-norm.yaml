@@ -15,14 +15,14 @@ Tests:
     bárdne+N+Sg+Acc: bárdnev
     bárdne+N+Sg+Ill: bárdnáj
     bárdne+N+Sg+Ine: bárdnen
-    bárdne+N+Sg+Ela: bárdnest
+    bárdne+N+Sg+Ela: [bárdnest, bárdnes]
     bárdne+N+Sg+Com: [bärdnijn, bärdnijna]
     bárdne+N+Pl+Nom: bárdne
     bárdne+N+Pl+Gen: bärdnij
     bárdne+N+Pl+Acc: bärdnijd
     bárdne+N+Pl+Ill: bärdnijda
     bárdne+N+Pl+Ine: bärdnijn
-    bárdne+N+Pl+Ela: bärdnijst
+    bárdne+N+Pl+Ela: [bärdnijst, bärdnijs]
     bárdne+N+Pl+Com: bärdnij
     bárdne+N+Ess: bárdnen
 

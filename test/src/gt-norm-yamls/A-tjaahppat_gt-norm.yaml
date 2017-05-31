@@ -9,38 +9,44 @@ Config:
 
 Tests:
 
-
   Adjektiv - tjáhppat: # -a-stammar
-    tjáhppat+A+Sg+Nom: tjáhppat
+
     tjáhppat+A+Attr: tjähppis
+
+    tjáhppat+A+Sg+Nom: tjáhppat
+    tjáhppat+A+Pl+Nom: tjáhppada
+
     tjáhppat+A+Sg+Gen: tjáhppada
     tjáhppat+A+Sg+Acc: tjáhppadav
     tjáhppat+A+Sg+Ill: tjáhppadij
     tjáhppat+A+Sg+Ine: tjáhppadin
-    tjáhppat+A+Sg+Ela: tjáhppadist
+    tjáhppat+A+Sg+Ela: [tjáhppadist, tjáhppadis]
     tjáhppat+A+Sg+Com: tjáhppadijn
-    tjáhppat+A+Pl+Nom: tjáhppada
     tjáhppat+A+Pl+Gen: tjáhppadij
-    tjáhppat+A+Pl+Acc: tjáhppadijt
+    tjáhppat+A+Pl+Acc: tjáhppadijd
     tjáhppat+A+Pl+Ill: tjáhppadijda
     tjáhppat+A+Pl+Ine: tjáhppadijn
-    tjáhppat+A+Pl+Ela: tjáhppadijst
-    tjáhppat+A+Pl+Com: tjáhppadij
-    tjáhppat+A+Ess: tjáhppadin
-    tjáhppat+A+Comp+Sg+Nom: tjáhppadup
+    tjáhppat+A+Pl+Ela: [tjáhppadijst, tjáhppadijs]
+    tjáhppat+A+Pl+Com: [tjáhppadij, tjáhppadijgum]
+#    tjáhppat+A+Ess: tjáhppadin
+
+
     tjáhppat+A+Comp+Attr: tjáhppadup
-    tjáhppat+A+Comp+Sg+Gen: tjáhppadubbo
-    tjáhppat+A+Comp+Sg+Acc: tjáhppadubbov
-    tjáhppat+A+Comp+Sg+Ill: tjáhppadubbuj
-    tjáhppat+A+Comp+Sg+Ine: tjáhppadubbon
-    tjáhppat+A+Comp+Sg+Ela: tjáhppadubbost
-    tjáhppat+A+Comp+Sg+Com: [tjáhppadubbujn, tjáhppadubbojn]
-    tjáhppat+A+Comp+Pl+Nom: tjáhppadubbo
-    tjáhppat+A+Comp+Pl+Gen: tjáhppadubboj
-    tjáhppat+A+Comp+Pl+Acc: tjáhppadubbojt
-    tjáhppat+A+Comp+Pl+Ill: tjáhppadubbojda
-    tjáhppat+A+Comp+Pl+Ine: tjáhppadubbojn
-    tjáhppat+A+Comp+Pl+Ela: tjáhppadubbojst
-    tjáhppat+A+Comp+Pl+Com: tjáhppadubboj
-    tjáhppat+A+Comp+Ess: tjáhppadubbon
+
+    tjáhppat+A+Comp+Sg+Nom: tjáhppadup
+    tjáhppat+A+Comp+Pl+Nom: tjáhppadubo
+
+    tjáhppat+A+Comp+Sg+Gen: tjáhppadubo
+    tjáhppat+A+Comp+Sg+Acc: tjáhppadubov
+    tjáhppat+A+Comp+Sg+Ill: tjáhppaduboj
+    tjáhppat+A+Comp+Sg+Ine: tjáhppadubon
+    tjáhppat+A+Comp+Sg+Ela: [tjáhppadubost, tjáhppadubos]
+    tjáhppat+A+Comp+Sg+Com: [tjáhppadubojn, tjáhppadubojna]
+    tjáhppat+A+Comp+Pl+Gen: tjáhppaduboj
+    tjáhppat+A+Comp+Pl+Acc: tjáhppadubojd
+    tjáhppat+A+Comp+Pl+Ill: tjáhppadubojda
+    tjáhppat+A+Comp+Pl+Ine: tjáhppadubojn
+    tjáhppat+A+Comp+Pl+Ela: [tjáhppadubojst, tjáhppadubojs]
+    tjáhppat+A+Comp+Pl+Com: [tjáhppaduboj, tjáhppadubojgum]
+#    tjáhppat+A+Comp+Ess: tjáhppadubon
 

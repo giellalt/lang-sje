@@ -15,15 +15,15 @@ Tests:
     guoksagis+N+Sg+Acc: guoksagasav
     guoksagis+N+Sg+Ill: guoksagasaj
     guoksagis+N+Sg+Ine: guoksagasan
-    guoksagis+N+Sg+Ela: guoksagasast
-    guoksagis+N+Sg+Com: guoksagasajn
+    guoksagis+N+Sg+Ela: [guoksagasast, guoksagasas]
+    guoksagis+N+Sg+Com: [guoksagasajn, guoksagasajna]
     guoksagis+N+Pl+Nom: guoksagasa
     guoksagis+N+Pl+Gen: guoksagasaj
     guoksagis+N+Pl+Acc: guoksagasajd
     guoksagis+N+Pl+Ill: guoksagasajda
     guoksagis+N+Pl+Ine: guoksagasajn
-    guoksagis+N+Pl+Ela: guoksagasajst
-    guoksagis+N+Pl+Com: guoksagasaj
+    guoksagis+N+Pl+Ela: [guoksagasajst, guoksagasajs]
+    guoksagis+N+Pl+Com: [guoksagasaj, guoksagasajgum]
 #    guoksagis+N+Ess: guoksagasin
 #    guoksagis+N+Abe: guoksagasahtá
 

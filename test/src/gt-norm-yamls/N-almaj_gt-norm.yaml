@@ -15,14 +15,14 @@ Tests:
     ålmaj+N+Sg+Acc: ålmav
     ålmaj+N+Sg+Ill: ålmaj
     ålmaj+N+Sg+Ine: ålman
-    ålmaj+N+Sg+Ela: ålmast
+    ålmaj+N+Sg+Ela: [ålmast, ålmas]
     ålmaj+N+Sg+Com: ålmajn
     ålmaj+N+Pl+Nom: ålma
     ålmaj+N+Pl+Gen: ålmaj
     ålmaj+N+Pl+Acc: ålmajd
     ålmaj+N+Pl+Ill: ålmajda
     ålmaj+N+Pl+Ine: ålmajn
-    ålmaj+N+Pl+Ela: ålmajst
+    ålmaj+N+Pl+Ela: [ålmajst, ålmajs]
     ålmaj+N+Pl+Com: ålmaj
     ålmaj+N+Ess: ålman
     ålmaj+N+Abe: ålmadak

@@ -15,14 +15,14 @@ Tests:
     gájjtsa+N+Sg+Acc: gájtsav
     gájjtsa+N+Sg+Ill: gájjtsaj
     gájjtsa+N+Sg+Ine: gájtsan
-    gájjtsa+N+Sg+Ela: gájtsast
+    gájjtsa+N+Sg+Ela: [gájtsast, gájtsas]
     gájjtsa+N+Sg+Com: [gájtsajn, gájtsajna]
     gájjtsa+N+Pl+Nom: gájtsa
     gájjtsa+N+Pl+Gen: gájtsaj
     gájjtsa+N+Pl+Acc: gájtsajd
     gájjtsa+N+Pl+Ill: gájtsajda
     gájjtsa+N+Pl+Ine: gájtsajn
-    gájjtsa+N+Pl+Ela: gájtsajst
+    gájjtsa+N+Pl+Ela: [gájtsajst, gájtsajs]
     gájjtsa+N+Pl+Com: gájtsaj
     gájjtsa+N+Ess: gájjtsan
     gájjtsa+N+Abe: gájtsadak

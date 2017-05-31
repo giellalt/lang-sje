@@ -15,14 +15,14 @@ Tests:
     biena+N+Sg+Acc: biednagav
     biena+N+Sg+Ill: biednagij
     biena+N+Sg+Ine: biednagin
-    biena+N+Sg+Ela: biednagist
+    biena+N+Sg+Ela: [biednagist, biednagis]
     biena+N+Sg+Com: biednagijn
     biena+N+Pl+Nom: biednaga
     biena+N+Pl+Gen: biednagij
     biena+N+Pl+Acc: biednagijd
     biena+N+Pl+Ill: biednagijda
     biena+N+Pl+Ine: biednagijn
-    biena+N+Pl+Ela: biednagijst
+    biena+N+Pl+Ela: [biednagijst, biednagijs]
     biena+N+Pl+Com: biednagij
     biena+N+Ess: biednagin
     biena+N+Abe: biednagahtá
@@ -33,14 +33,14 @@ Tests:
     biena+N+Der/Dim+N+Sg+Acc: biednagatjav
     biena+N+Der/Dim+N+Sg+Ill: biednagatjij
     biena+N+Der/Dim+N+Sg+Ine: biednagatjin
-    biena+N+Der/Dim+N+Sg+Ela: biednagatjist
+    biena+N+Der/Dim+N+Sg+Ela: [biednagatjist, biednagatjis]
     biena+N+Der/Dim+N+Sg+Com: biednagatjijn
     biena+N+Der/Dim+N+Pl+Nom: biednagatja
     biena+N+Der/Dim+N+Pl+Gen: biednagatjij
     biena+N+Der/Dim+N+Pl+Acc: biednagatjijd
     biena+N+Der/Dim+N+Pl+Ill: biednagatjijda
     biena+N+Der/Dim+N+Pl+Ine: biednagatjijn
-    biena+N+Der/Dim+N+Pl+Ela: biednagatjijst
+    biena+N+Der/Dim+N+Pl+Ela: [biednagatjijst, biednagatjijs]
     biena+N+Der/Dim+N+Pl+Com: biednagatjij
     biena+N+Der/Dim+N+Ess: biednagatjin
  

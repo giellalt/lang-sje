@@ -15,7 +15,7 @@ Tests:
     båtsoj+N+Sg+Acc: buhtsuv
     båtsoj+N+Sg+Ill: buhtsuj
     båtsoj+N+Sg+Ine: buhtsun
-    båtsoj+N+Sg+Ela: buhtsust
+    båtsoj+N+Sg+Ela: [buhtsust, buhtsus]
 #    båtsoj+N+Sg+Com: [buhtsujn, buhtsujna] #buhtsujna really ok?
     båtsoj+N+Sg+Com: buhtsujn
     båtsoj+N+Pl+Nom: buhtsu
@@ -23,7 +23,7 @@ Tests:
     båtsoj+N+Pl+Acc: buhtsujd
     båtsoj+N+Pl+Ill: buhtsujda
     båtsoj+N+Pl+Ine: buhtsujn
-    båtsoj+N+Pl+Ela: buhtsujst
+    båtsoj+N+Pl+Ela: [buhtsujst, buhtsujs]
     båtsoj+N+Pl+Com: buhtsuj
     båtsoj+N+Ess: buhtsun
     båtsoj+N+Abe: buhtsudak

@@ -15,14 +15,14 @@ Tests:
     guosmak+N+Sg+Acc: guassmagav
     guosmak+N+Sg+Ill: guassmagij
     guosmak+N+Sg+Ine: guassmagin
-    guosmak+N+Sg+Ela: guassmagist
+    guosmak+N+Sg+Ela: [guassmagist, guassmagis]
     guosmak+N+Sg+Com: guassmagijn
     guosmak+N+Pl+Nom: guassmaga
     guosmak+N+Pl+Gen: guassmagij
     guosmak+N+Pl+Acc: guassmagijd
     guosmak+N+Pl+Ill: guassmagijda
     guosmak+N+Pl+Ine: guassmagijn
-    guosmak+N+Pl+Ela: guassmagijst
+    guosmak+N+Pl+Ela: [guassmagijst, guassmagijs]
     guosmak+N+Pl+Com: guassmagij
     guosmak+N+Ess: guassmagin
     guosmak+N+Abe: guassmagahtá

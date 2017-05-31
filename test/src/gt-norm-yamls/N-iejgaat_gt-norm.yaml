@@ -15,14 +15,14 @@ Tests:
     iejgát+N+Sg+Acc: iejgádav
     iejgát+N+Sg+Ill: iejgádij
     iejgát+N+Sg+Ine: iejgádin
-    iejgát+N+Sg+Ela: iejgádist
+    iejgát+N+Sg+Ela: [iejgádist, iejgádis]
     iejgát+N+Sg+Com: iejgádijn
     iejgát+N+Pl+Nom: iejgáda
     iejgát+N+Pl+Gen: iejgádij
     iejgát+N+Pl+Acc: iejgádijd
     iejgát+N+Pl+Ill: iejgádijda
     iejgát+N+Pl+Ine: iejgádijn
-    iejgát+N+Pl+Ela: iejgádijst
+    iejgát+N+Pl+Ela: [iejgádijst, iejgádijs]
     iejgát+N+Pl+Com: iejgádij
     iejgát+N+Ess: iejgádin
     iejgát+N+Abe: iejgádahtá
