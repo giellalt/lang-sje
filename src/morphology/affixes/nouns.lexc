@@ -89,55 +89,58 @@ LEXICON N_EVEN_J
 
 LEXICON N_EVEN4 !mánnodak<->mánnodag-
 +N+Sg+Nom:%>0 K ;
-+N+Sg+Acc:a%>v K ;
-+N+Sg+Gen:a%>0 K ;
-+N+Sg+Ill:a%>j K ;
-+N+Sg+Ine:a%>n K ;
-+N+Sg+Ela:a%>st K ;
-+N+Sg+Ela+Use/NG:a%>s K ;
-+N+Sg+Com:a%>jn K ;
-+N+Sg+Com+Use/NG:a%>jna K ;
-+N+Ess:a%>n K ;
-!+N+Abe:a%>dak K ; ! XXX
-+N+Pl+Nom:a%>0 K ;
-+N+Pl+Acc:a%>jd K ;
-+N+Pl+Gen:a%>j K ;
-+N+Pl+Ill:a%>jda K ;
-+N+Pl+Ine:a%>jn K ;
-+N+Pl+Ela:a%>jst K ;
-+N+Pl+Ela+Use/NG:a%>js K ;
-+N+Pl+Com:a%>j K ;
-+N+Pl+Com+Use/NG:a%>jgum K ;
-
++N:a N_EVEN4_DEFAULT ;
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Nom:i2s%>0 K ;
-+N: N_EVEN4_VSA ;
++N:asa N_EVEN4_DEFAULT ;
 
 LEXICON N_EVEN4_ASA !mujjtulas<->mujjtulas-
 +N+Sg+Nom:as%>0 K ;
-+N: N_EVEN4_VSA ;
++N:asa N_EVEN4_DEFAULT ;
 
-LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
-+Sg+Acc:asa%>v K ;
-+Sg+Gen:asa%>0 K ;
-+Sg+Ill:asa%>j K ;
-+Sg+Ine:asa%>n K ;
-+Sg+Ela:asa%>st K ;
-+Sg+Ela+Use/NG:asa%>s K ;
-+Sg+Com:asa%>jn K ;
-+Sg+Com+Use/NG:asa%>jna K ;
-+Ess:asa%>n K ; 
-!+Abe:asa%>dak K ; ! XXX
-+Pl+Nom:asa%>0 K ;
-+Pl+Acc:asa%>jd K ;
-+Pl+Gen:asa%>j K ;
-+Pl+Ill:asa%>jda K ;
-+Pl+Ine:asa%>jn K ;
-+Pl+Ela:asa%>jst K ;
-+Pl+Ela+Use/NG:asa%>js K ;
-+Pl+Com:asa%>j K ;
-+Pl+Com+Use/NG:asa%>jgum K ;
+LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
++Sg+Acc:%>v K ;
++Sg+Gen:%>0 K ;
++Sg+Ill:%>j K ;
++Sg+Ine:%>n K ;
++Sg+Ela:%>st K ;
++Sg+Ela+Use/NG:%>s K ;
++Sg+Com:%>jn K ;
++Sg+Com+Use/NG:%>jna K ;
++Ess:%>n K ;
+!+Abe:%>dak K ; ! XXX
++Pl+Nom:%>0 K ;
++Pl+Acc:%>jd K ;
++Pl+Gen:%>j K ;
++Pl+Ill:%>jda K ;
++Pl+Ine:%>jn K ;
++Pl+Ela:%>jst K ;
++Pl+Ela+Use/NG:%>js K ;
++Pl+Com:%>j K ;
++Pl+Com+Use/NG:%>jgum K ;
+
+
+!LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
+!+Sg+Acc:asa%>v K ;
+!+Sg+Gen:asa%>0 K ;
+!+Sg+Ill:asa%>j K ;
+!+Sg+Ine:asa%>n K ;
+!+Sg+Ela:asa%>st K ;
+!+Sg+Ela+Use/NG:asa%>s K ;
+!+Sg+Com:asa%>jn K ;
+!+Sg+Com+Use/NG:asa%>jna K ;
+!+Ess:asa%>n K ; 
+!!+Abe:asa%>dak K ; ! XXX
+!+Pl+Nom:asa%>0 K ;
+!+Pl+Acc:asa%>jd K ;
+!+Pl+Gen:asa%>j K ;
+!+Pl+Ill:asa%>jda K ;
+!+Pl+Ine:asa%>jn K ;
+!+Pl+Ela:asa%>jst K ;
+!+Pl+Ela+Use/NG:asa%>js K ;
+!+Pl+Com:asa%>j K ;
+!+Pl+Com+Use/NG:asa%>jgum K ;
 
 
 
@@ -165,6 +168,11 @@ LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul-
 +N+Sg+Nom:^WG%>0 K ;
 +N:^V2O2U N_ODD_X ;
 +N:^V2O2U N_ODD_DIM ; !link to DIM
+
+LEXICON N_ODD_V2E2AA !odd-syllable with change in V2 from E to Á, eg. åres->årrás- 
++N+Sg+Nom:^WG%>0 K ;
++N:^V2E2AA N_ODD_X ;
++N:^V2E2AA N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Acc:a%>v K ;
