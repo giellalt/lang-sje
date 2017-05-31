@@ -460,13 +460,15 @@ e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme
 !! __@RULENAME@__  
 e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ V2E2AAtrig %^V2E2AA:0 ;
 
-!!€ gu^Olle^WG
-!!€ guol0e0 
+"V2 E to Á before S" ! åres->årrás-, tjåskes->tjåsskas-
+!! __@RULENAME@__  
+e:á <=> Vow:+ Cns:+ _ s %^V2E2AA:0 ;
 
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  
 o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %^VHBAR:* Vow:+ ;
+
 
 ! !!€ mu^Ohttag^WG^CDEL
 ! !!€ muoht0a000
