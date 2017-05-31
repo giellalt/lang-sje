@@ -15,15 +15,15 @@ Tests:
     ájlek+N+Sg+Acc: ájlegav
     ájlek+N+Sg+Ill: ájlegij
     ájlek+N+Sg+Ine: ájlegin
-    ájlek+N+Sg+Ela: ájlegist
+    ájlek+N+Sg+Ela: [ájlegist, ájlegis]
     ájlek+N+Sg+Com: ájlegijn
     ájlek+N+Pl+Nom: ájlega
     ájlek+N+Pl+Gen: ájlegij
     ájlek+N+Pl+Acc: ájlegijd
     ájlek+N+Pl+Ill: ájlegijda
     ájlek+N+Pl+Ine: ájlegijn
-    ájlek+N+Pl+Ela: ájlegijst
-    ájlek+N+Pl+Com: ájlegij
+    ájlek+N+Pl+Ela: [ájlegijst, ájlegijs]
+    ájlek+N+Pl+Com: [ájlegij, ájlegijgum]
     ájlek+N+Ess: ájlegin
     ájlek+N+Abe: ájlegahtá
 

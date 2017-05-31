@@ -15,15 +15,15 @@ Tests:
     vanas+N+Sg+Acc: vadnasav
     vanas+N+Sg+Ill: vadnasij
     vanas+N+Sg+Ine: vadnasin
-    vanas+N+Sg+Ela: vadnasist
+    vanas+N+Sg+Ela: [vadnasist, vadnasis]
     vanas+N+Sg+Com: vadnasijn
     vanas+N+Pl+Nom: vadnasa
     vanas+N+Pl+Gen: vadnasij
     vanas+N+Pl+Acc: vadnasijd
     vanas+N+Pl+Ill: vadnasijda
     vanas+N+Pl+Ine: vadnasijn
-    vanas+N+Pl+Ela: vadnasijst
-    vanas+N+Pl+Com: vadnasij
+    vanas+N+Pl+Ela: [vadnasijst, vadnasijs]
+    vanas+N+Pl+Com: [vadnasij, vadnasijgum]
     vanas+N+Ess: vadnasin
     vanas+N+Abe: vadnasahtá
 

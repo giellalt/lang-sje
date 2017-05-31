@@ -15,14 +15,14 @@ Tests:
     hägga+N+Sg+Acc: hieggav
     hägga+N+Sg+Ill: häggaj
     hägga+N+Sg+Ine: hieggan
-    hägga+N+Sg+Ela: hieggast
+    hägga+N+Sg+Ela: [hieggast, hieggas]
     hägga+N+Sg+Com: [hieggajn, hieggajna]
     hägga+N+Pl+Nom: hiegga
     hägga+N+Pl+Gen: hieggaj
     hägga+N+Pl+Acc: hieggajd
     hägga+N+Pl+Ill: hieggajda
     hägga+N+Pl+Ine: hieggajn
-    hägga+N+Pl+Ela: hieggajst
+    hägga+N+Pl+Ela: [hieggajst, hieggajs]
     hägga+N+Pl+Com: hieggaj
     hägga+N+Ess: häggan
     hägga+N+Abe: hieggadak

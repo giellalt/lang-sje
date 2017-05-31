@@ -15,14 +15,14 @@ Tests:
     gållek+N+Sg+Acc: gållegav
     gållek+N+Sg+Ill: gållegij
     gållek+N+Sg+Ine: gållegin
-    gållek+N+Sg+Ela: gållegist
+    gållek+N+Sg+Ela: [gållegist, gållegis]
     gållek+N+Sg+Com: gållegijn
     gållek+N+Pl+Nom: gållega
     gållek+N+Pl+Gen: gållegij
     gållek+N+Pl+Acc: gållegijd
     gållek+N+Pl+Ill: gållegijda
     gållek+N+Pl+Ine: gållegijn
-    gållek+N+Pl+Ela: gållegijst
+    gållek+N+Pl+Ela: [gållegijst, gållegijs]
     gållek+N+Pl+Com: gållegij
     gållek+N+Ess: gållegin
     gållek+N+Abe: gållegahtá

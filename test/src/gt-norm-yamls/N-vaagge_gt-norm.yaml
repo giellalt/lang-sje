@@ -15,15 +15,15 @@ Tests:
     vágge+N+Sg+Acc: vággev
     vágge+N+Sg+Ill: vággáj
     vágge+N+Sg+Ine: vággen
-    vágge+N+Sg+Ela: vággest
+    vágge+N+Sg+Ela: [vággest, vágges]
     vágge+N+Sg+Com: [väggijn, väggijna]
     vágge+N+Pl+Nom: vágge
     vágge+N+Pl+Gen: väggij
     vágge+N+Pl+Acc: väggijd
     vágge+N+Pl+Ill: väggijda
     vágge+N+Pl+Ine: väggijn
-    vágge+N+Pl+Ela: väggijst
-    vágge+N+Pl+Com: väggij
+    vágge+N+Pl+Ela: [väggijst, väggijs]
+    vágge+N+Pl+Com: [väggij, väggijgum]
     vágge+N+Ess: vággen
     vágge+N+Abe: vággedak
 

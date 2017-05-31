@@ -15,14 +15,14 @@ Tests:
     gieres+N+Der/State+N+Sg+Acc: gieresvuodav
     gieres+N+Der/State+N+Sg+Ill: gieresvuohtaj
     gieres+N+Der/State+N+Sg+Ine: gieresvuodan
-    gieres+N+Der/State+N+Sg+Ela: gieresvuodast
+    gieres+N+Der/State+N+Sg+Ela: [gieresvuodast, gieresvuodas]
     gieres+N+Der/State+N+Sg+Com: [gieresvuodajn, gieresvuodajna]
     gieres+N+Der/State+N+Pl+Nom: gieresvuoda
     gieres+N+Der/State+N+Pl+Gen: gieresvuodaj
     gieres+N+Der/State+N+Pl+Acc: gieresvuodajd
     gieres+N+Der/State+N+Pl+Ill: gieresvuodajda
     gieres+N+Der/State+N+Pl+Ine: gieresvuodajn
-    gieres+N+Der/State+N+Pl+Ela: gieresvuodajst
+    gieres+N+Der/State+N+Pl+Ela: [gieresvuodajst, gieresvuodajs]
     gieres+N+Der/State+N+Pl+Com: gieresvuodaj
     gieres+N+Der/State+N+Ess: gieresvuohtan
  

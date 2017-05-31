@@ -15,15 +15,15 @@ Tests:
     guolle+N+Sg+Acc: guolev
     guolle+N+Sg+Ill: guolláj
     guolle+N+Sg+Ine: guolen
-    guolle+N+Sg+Ela: guolest
+    guolle+N+Sg+Ela: [guolest, guoles]
     guolle+N+Sg+Com: [gulijn, gulijna]
     guolle+N+Pl+Nom: guole
     guolle+N+Pl+Gen: gulij
     guolle+N+Pl+Acc: gulijd
     guolle+N+Pl+Ill: gulijda
     guolle+N+Pl+Ine: gulijn
-    guolle+N+Pl+Ela: gulijst
-    guolle+N+Pl+Com: gulij
+    guolle+N+Pl+Ela: [gulijst, gulijs]
+    guolle+N+Pl+Com: [gulij, gulijgum]
     guolle+N+Ess: guollen
 
     guolle+N+Der/Dim+N+Sg+Nom: guolátj
@@ -31,14 +31,14 @@ Tests:
     guolle+N+Der/Dim+N+Sg+Acc: guolátjav
     guolle+N+Der/Dim+N+Sg+Ill: guolátjij
     guolle+N+Der/Dim+N+Sg+Ine: guolátjin
-    guolle+N+Der/Dim+N+Sg+Ela: guolátjist
+    guolle+N+Der/Dim+N+Sg+Ela: [guolátjist, guolátjis]
     guolle+N+Der/Dim+N+Sg+Com: guolátjijn
     guolle+N+Der/Dim+N+Pl+Nom: guolátja
     guolle+N+Der/Dim+N+Pl+Gen: guolátjij
     guolle+N+Der/Dim+N+Pl+Acc: guolátjijd
     guolle+N+Der/Dim+N+Pl+Ill: guolátjijda
     guolle+N+Der/Dim+N+Pl+Ine: guolátjijn
-    guolle+N+Der/Dim+N+Pl+Ela: guolátjijst
+    guolle+N+Der/Dim+N+Pl+Ela: [guolátjijst, guolátjijs]
     guolle+N+Der/Dim+N+Pl+Com: guolátjij
     guolle+N+Der/Dim+N+Ess: guolátjin
  

@@ -15,15 +15,15 @@ Tests:
     ája+N+Sg+Acc: ádjagav
     ája+N+Sg+Ill: ádjagij
     ája+N+Sg+Ine: ádjagin
-    ája+N+Sg+Ela: ádjagist
+    ája+N+Sg+Ela: [ádjagist, ádjagis]
     ája+N+Sg+Com: ádjagijn
     ája+N+Pl+Nom: ádjaga
     ája+N+Pl+Gen: ádjagij
     ája+N+Pl+Acc: ádjagijd
     ája+N+Pl+Ill: ádjagijda
     ája+N+Pl+Ine: ádjagijn
-    ája+N+Pl+Ela: ádjagijst
-    ája+N+Pl+Com: ádjagij
+    ája+N+Pl+Ela: [ádjagijst, ádjagijs]
+    ája+N+Pl+Com: [ádjagij, ádjagijgum]
     ája+N+Ess: ádjagin
     ája+N+Abe: ádjagahtá
 

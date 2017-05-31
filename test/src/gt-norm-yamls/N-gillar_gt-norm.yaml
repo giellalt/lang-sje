@@ -15,14 +15,14 @@ Tests:
     gillar+N+Sg+Acc: gillarav
     gillar+N+Sg+Ill: gillarij
     gillar+N+Sg+Ine: gillarin
-    gillar+N+Sg+Ela: gillarist
+    gillar+N+Sg+Ela: [gillarist, gillaris]
     gillar+N+Sg+Com: gillarijn
     gillar+N+Pl+Nom: gillara
     gillar+N+Pl+Gen: gillarij
     gillar+N+Pl+Acc: gillarijd
     gillar+N+Pl+Ill: gillarijda
     gillar+N+Pl+Ine: gillarijn
-    gillar+N+Pl+Ela: gillarijst
+    gillar+N+Pl+Ela: [gillarijst, gillarijs]
     gillar+N+Pl+Com: gillarij
     gillar+N+Ess: gillarin
     gillar+N+Abe: gillarahtá

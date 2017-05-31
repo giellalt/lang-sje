@@ -16,15 +16,15 @@ Tests:
     sarves+N+Sg+Acc: sarrváv
     sarves+N+Sg+Ill: sarrváj
     sarves+N+Sg+Ine: sarrván
-    sarves+N+Sg+Ela: sarrvást
+    sarves+N+Sg+Ela: [sarrvást, sarrvás]
     sarves+N+Sg+Com: sarrvájn
     sarves+N+Pl+Nom: sarrvá
     sarves+N+Pl+Gen: sarrváj
     sarves+N+Pl+Acc: sarrvájd
     sarves+N+Pl+Ill: sarrvájda
     sarves+N+Pl+Ine: sarrvájn
-    sarves+N+Pl+Ela: sarrvájst
-    sarves+N+Pl+Com: sarrváj
+    sarves+N+Pl+Ela: [sarrvájst, sarrvájs]
+    sarves+N+Pl+Com: [sarrváj, sarrvájgum]
 #    sarves+N+Ess: sarván
 #    sarves+N+Ess: sarrván	#not sure what CG should be in ESS
     sarves+N+Abe: sarrvádak

@@ -16,15 +16,15 @@ Tests:
     suolo+N+Sg+Acc: sulluv
     suolo+N+Sg+Ill: sulluj
     suolo+N+Sg+Ine: sullun
-    suolo+N+Sg+Ela: sullust
+    suolo+N+Sg+Ela: [sullust, sullus]
     suolo+N+Sg+Com: sullujn
     suolo+N+Pl+Nom: sullu
     suolo+N+Pl+Gen: sulluj
     suolo+N+Pl+Acc: sullujd
     suolo+N+Pl+Ill: sullujda
     suolo+N+Pl+Ine: sullujn
-    suolo+N+Pl+Ela: sullujst
-    suolo+N+Pl+Com: sulluj
+    suolo+N+Pl+Ela: [sullujst, sullujs]
+    suolo+N+Pl+Com: [sulluj, sullujgum]
     suolo+N+Ess: sullun
     suolo+N+Abe: sulludak
 

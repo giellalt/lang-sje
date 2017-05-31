@@ -15,14 +15,14 @@ Tests:
     bierdnes+N+Sg+Acc: bärdnáv
     bierdnes+N+Sg+Ill: bärdnáj
     bierdnes+N+Sg+Ine: bärdnán
-    bierdnes+N+Sg+Ela: bärdnást
+    bierdnes+N+Sg+Ela: [bärdnást, bärdnás]
     bierdnes+N+Sg+Com: bärdnájn
     bierdnes+N+Pl+Nom: bärdná
     bierdnes+N+Pl+Gen: bärdnáj
     bierdnes+N+Pl+Acc: bärdnájd
     bierdnes+N+Pl+Ill: bärdnájda
     bierdnes+N+Pl+Ine: bärdnájn
-    bierdnes+N+Pl+Ela: bärdnájst
+    bierdnes+N+Pl+Ela: [bärdnájst, bärdnájs]
     bierdnes+N+Pl+Com: bärdnáj
 #    bierdnes+N+Ess: bärdnán
 #    bierdnes+N+Ess: bierdnán	#not sure what grade (here: umlaut) should be in ESS

@@ -15,14 +15,14 @@ Tests:
     almatj+N+Sg+Acc: almatjav
     almatj+N+Sg+Ill: almatjij
     almatj+N+Sg+Ine: almatjin
-    almatj+N+Sg+Ela: almatjist
+    almatj+N+Sg+Ela: [almatjist, almatjis]
     almatj+N+Sg+Com: almatjijn
     almatj+N+Pl+Nom: almatja
     almatj+N+Pl+Gen: almatjij
     almatj+N+Pl+Acc: almatjijd
     almatj+N+Pl+Ill: almatjijda
     almatj+N+Pl+Ine: almatjijn
-    almatj+N+Pl+Ela: almatjijst
+    almatj+N+Pl+Ela: [almatjijst, almatjijs]
     almatj+N+Pl+Com: almatjij
     almatj+N+Ess: almatjin
     almatj+N+Abe: almatjahtá

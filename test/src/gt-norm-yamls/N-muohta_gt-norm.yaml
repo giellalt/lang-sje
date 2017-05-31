@@ -15,14 +15,14 @@ Tests:
     muohta+N+Sg+Acc: muahttagav
     muohta+N+Sg+Ill: muahttagij
     muohta+N+Sg+Ine: muahttagin
-    muohta+N+Sg+Ela: muahttagist
+    muohta+N+Sg+Ela: [muahttagist, muahttagis]
     muohta+N+Sg+Com: muahttagijn
     muohta+N+Pl+Nom: muahttaga
     muohta+N+Pl+Gen: muahttagij
     muohta+N+Pl+Acc: muahttagijd
     muohta+N+Pl+Ill: muahttagijda
     muohta+N+Pl+Ine: muahttagijn
-    muohta+N+Pl+Ela: muahttagijst
+    muohta+N+Pl+Ela: [muahttagijst, muahttagijs]
     muohta+N+Pl+Com: muahttagij
     muohta+N+Ess: muahttagin
     muohta+N+Abe: muahttagahtá
