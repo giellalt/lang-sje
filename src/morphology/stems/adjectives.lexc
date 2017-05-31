@@ -16,12 +16,26 @@
 
 LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
-
-abmas A_AMAS_test "foreign, strange, unknown" ;
-bivval A_BIVVAL_test "warm" ;
-tjåskes:tjåssk A_TJÅSKES_test "cold (weather)" ;
+!A_BLAAVVAT_test class:
 blávvat:blávv A_BLAAVVAT_test "blue" ;
-bånndá A_BÅNNDAA_test "rich" ;
+tjáhppat:tjáhpp A_BLAAVVAT_test "black" ;
+
+!A_AMAS_test class:
+abmas:abmas A_AMAS_test "foreign, strange, unknown" ;
+
+!A_BIVVAL_test class:
+bivval:bivval A_BIVVAL_test "warm" ;
+
+!A_TJÅSKES_test class:
+tjåskes:tjåsskes A_TJÅSKES_test "cold (weather)" ;
+
+!A_TJAEHPPE_test class:
+tjähppe:tjiehppe A_TJAEHPPE_test "clever" ;
+
+!A_BÅNNDAA_test class:
+bånndá:bånndá A_BÅNNDAA_test "rich" ;
+
+
 
 ! komparering framför vissa j- former verkar ej fungera
 
@@ -72,7 +86,7 @@ tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 
 
-tjähppe:tjiehppe A_EVEN_B ; !
+!tjähppe:tjiehppe A_EVEN_B ; !
 uhttse A_EVEN_B ; !
 unne A_EVEN_BB ; !superlativ funkar ej
 vájjve A_EVEN_B ;
@@ -187,7 +201,7 @@ suojmas:su A_ODD_XX ;
 suojmas:su A_ODD_YY ; 
 suojmuk:suojmu A_ODD_GIS ;
 såmes:så A_ODD_B ;
-tjáhppat:tj A_ODD_T ; 
+!tjáhppat:tj A_ODD_T ; 
 tjuavvgat:tju A_ODD_Y ;
 tjalmak:tjalma A_ODD_GIS ;
 
