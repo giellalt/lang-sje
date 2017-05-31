@@ -1,0 +1,69 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Adjektiv - tjähppe: # clever
+    tjähppe+A+Attr: tjiehpes
+
+    tjähppe+A+Sg+Nom: tjähppe
+    tjähppe+A+Pl+Nom: tjiehpe
+
+    tjähppe+A+Sg+Gen: tjiehpe
+    tjähppe+A+Sg+Acc: tjiehpev
+    tjähppe+A+Sg+Ill: tjähppáj
+    tjähppe+A+Sg+Ine: tjiehpen
+    tjähppe+A+Sg+Ela: [tjiehpest, tjiehpes]
+    tjähppe+A+Sg+Com: [tjehpijn, tjehpijna]
+    tjähppe+A+Pl+Gen: tjehpij
+    tjähppe+A+Pl+Acc: tjehpijd
+    tjähppe+A+Pl+Ill: tjehpijda
+    tjähppe+A+Pl+Ine: tjehpijn
+    tjähppe+A+Pl+Ela: [tjehpijst, tjehpijs]
+    tjähppe+A+Pl+Com: [tjehpij, tjehpijgum]
+#    tjähppe+A+Ess: tjähppen
+
+    tjähppe+A+Comp+Attr: tjiehpep
+
+    tjähppe+A+Comp+Sg+Nom: tjiehpep
+    tjähppe+A+Comp+Pl+Nom: tjiehpeba
+
+    tjähppe+A+Comp+Sg+Gen: tjiehpeba
+    tjähppe+A+Comp+Sg+Acc: tjiehpebav
+    tjähppe+A+Comp+Sg+Ill: tjiehpebij
+    tjähppe+A+Comp+Sg+Ine: tjiehpebin
+    tjähppe+A+Comp+Sg+Ela: [tjiehpebist, tjiehpebis]
+    tjähppe+A+Comp+Sg+Com: tjiehpebijn
+    tjähppe+A+Comp+Pl+Gen: tjiehpebij
+    tjähppe+A+Comp+Pl+Acc: tjiehpebijd
+    tjähppe+A+Comp+Pl+Ill: tjiehpebijda
+    tjähppe+A+Comp+Pl+Ine: tjiehpebijn
+    tjähppe+A+Comp+Pl+Ela: [tjiehpebijst, tjiehpebijs]
+    tjähppe+A+Comp+Pl+Com: [tjiehpebij, tjiehpebijgum]
+#    tjähppe+A+Comp+Ess: tjiehpeban
+
+    tjähppe+A+Superl+Attr: tjiehpemus
+
+    tjähppe+A+Superl+Sg+Nom: tjiehpemus
+    tjähppe+A+Superl+Pl+Nom: tjiehpemusa
+
+    tjähppe+A+Superl+Sg+Gen: tjiehpemusa
+    tjähppe+A+Superl+Sg+Acc: tjiehpemusav
+    tjähppe+A+Superl+Sg+Ill: tjiehpemusij
+    tjähppe+A+Superl+Sg+Ine: tjiehpemusin
+    tjähppe+A+Superl+Sg+Ela: [tjiehpemusist, tjiehpemusis]
+    tjähppe+A+Superl+Sg+Com: tjiehpemusijn
+    tjähppe+A+Superl+Pl+Gen: tjiehpemusij
+    tjähppe+A+Superl+Pl+Acc: tjiehpemusijd
+    tjähppe+A+Superl+Pl+Ill: tjiehpemusijda
+    tjähppe+A+Superl+Pl+Ine: tjiehpemusijn
+    tjähppe+A+Superl+Pl+Ela: [tjiehpemusijst, tjiehpemusijs]
+    tjähppe+A+Superl+Pl+Com: [tjiehpemusij, tjiehpemusijgum]
+#    tjähppe+A+Superl+Ess: tjiehpemusan
+
