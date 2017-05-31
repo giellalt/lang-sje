@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-27T07:20:29+02:00
+! Timestamp: 2017-05-31T10:32:20+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -43,10 +43,14 @@ arbålmaj:arb#ålm N_CONTR_AJA "widower" ; ! no. 64
 bálges:bállg N_CONTR_ESA "trail, path" ; ! no. 129
 biejveldisbálges:biejveldis#bállg N_CONTR_ESA "the sunny side of the street" ; ! no. 5659
 bierdnes:bierdn N_CONTR_ESA "mid-plate on skis where shoes are placed" ; ! no. 3718
+fáles:fáll N_CONTR_ESA "whale" ; ! no. 467
 giehpes:giehpp N_CONTR_ESA "lung" ; ! no. 608
+hábres:hábbr N_CONTR_ESA "buck (male animal)" ; ! no. 3359
 jalgŋes:jalgŋ N_CONTR_ESA "upright tree stump" ; ! no. 920
 muolvaksarves:muolvak#sarrv N_CONTR_ESA "wild reindeer buck" ; ! no. 3835
+njuorges:nju^Orrg N_CONTR_ESA "cartilage" ; ! no. 1303
 plásses:plás's N_CONTR_ESA "stone slab" ; ! no. 1349
+rájves:rájjv N_CONTR_ESA "male canine" ; ! no. 1383
 sarves:sarrv N_CONTR_ESA "uncastrated reindeer buck" ; ! no. 1515
 tjievres:tjievvr N_CONTR_ESA "otter" ; ! no. 1906
 vielmes:vielbm N_CONTR_ESA "stretch of smooth water" ; ! no. 90388
@@ -858,7 +862,7 @@ rappte:rappte N_EVEN "forehead protection, outer hat" ; ! no. 5909
 rasska:rasska N_EVEN "Rasska" ; ! no. 90695
 ráddna:ráddna N_EVEN "buddy, comrade, friend" ; ! no. 1361
 rádje:rádje N_EVEN "natural border" ; ! no. 2798
-rádjedajjva:rádje#dajjva N_EVEN "borderlands" ; ! no. 90679
+rádjedajjva:rádje#dajjva N_EVEN "borderland" ; ! no. 90679
 ráffe:ráffe N_EVEN "peace, stillness" ; ! no. 1366
 ráhke:ráhke N_EVEN "fishing dam made of rocks" ; ! no. 1369
 ráhpatjålbme:ráhpa#tjålbme N_EVEN "early ice melt in a sound" ; ! no. 4327
@@ -2042,6 +2046,7 @@ gáskek:gáskeg2 N_ODD "castrated reindeer" ; ! no. 5208
 gesitj:gesitj N_ODD "lots of snow, thick cover of snow" ; ! no. 6052
 giedjek:giedjeg2 N_ODD "flower" ; ! no. 585
 giehtatjállej:giehta#tjállej N_ODD "secretary" ; ! no. 5813
+gielak:gielag2 N_ODD "-speaking" ; ! no. 90758
 gieratj:gieratj N_ODD "black woodpecker" ; ! no. 615
 gieron:gieron N_ODD "rock ptarmigan" ; ! no. 635
 giessam:giessam N_ODD "large plug of tobacco" ; ! no. 6640
@@ -2197,7 +2202,6 @@ råggåk:råggåg2 N_ODD "uneven territory" ; ! no. 3067
 råhtem:råhtem N_ODD "lynx" ; ! no. 3506
 sabek:sabeg2 N_ODD "ski" ; ! no. 1466
 sadjem:sadjem N_ODD "sharpening stone" ; ! no. 1472
-sahpes:sahpes N_ODD "small intestine" ; ! no. 90311
 salpek:salpeg2 N_ODD "tool made of reindeer antlers" ; ! no. 4773
 saŋátj:saŋátj N_ODD "itch" ; ! no. 1506
 savek:saveg2 N_ODD "ski with climbing skin" ; ! no. 1518
@@ -2205,6 +2209,7 @@ sáddebáhper:sádde#báhper N_ODD "sandpaper" ; ! no. 1468
 sáddem:sáddem N_ODD "sharpest point in a fox trap" ; ! no. 2793
 sáhkotjavelk:sáhko#tjavelg2 N_ODD "very thin, meager reindeer" ; ! no. 4494
 sálat:sálad2 N_ODD "crevasse in a glacier" ; ! no. 4408
+sámegielak:sáme#gielag2 N_ODD "Saami speaker" ; ! no. 2643
 sárdnom:sárdnom N_ODD "message" ; ! no. 90305
 sávvam:sávvam N_ODD "wish" ; ! no. 5113
 sentimehter:senti#mehter N_ODD "centimeter" ; ! no. 3522
@@ -2380,6 +2385,15 @@ tjårvegietjmádda:tjårve#gietj#máddag N_ODD_OPEN "fork in antlers" ; ! no. 23
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
+bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
+gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
+gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
+gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
+máles:málles N_ODD_V2E2AA "cooked meal" ; ! no. 90270
+nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
+sáhpes:sahpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
+vuontsaåres:vuontsa#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
+åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
 judos:juhtos N_ODD_VH "animal" ; ! no. 929
 jugos:juhkos N_ODD_VH "drink, beverage" ; ! no. 3458
 liepsos:lieppsos N_ODD_VH "fat around the rumen" ; ! no. 90552
@@ -2401,20 +2415,16 @@ buäjjdetjálmas:buäjjde#tjálmas N_ODD_WG "reticulum filled with fat" ; ! no. 
 bålås:bållås N_ODD_WG "rain or snow shower" ; ! no. 245
 bårjås:bårrjås N_ODD_WG "sail" ; ! no. 248
 båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
-bäggagálles:bägga#gál'les N_ODD_WG "wind god" ; ! no. 2499
 bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
-fáles:fálles N_ODD_WG "whale" ; ! no. 467
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 gamár:gabmár N_ODD_WG "getostmassa (efter första ystning)" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
 gáhker:gáhkker N_ODD_WG "winter scat of reindeer or moose" ; ! no. 3933
-gálles:gál'les N_ODD_WG "notable person" ; ! no. 3881
 gámas:gábmas N_ODD_WG "leather from reindeer legs" ; ! no. 486
 gárkas:gárrkas N_ODD_WG "lasso made of twirled calf leather" ; ! no. 543
 giehtavuojdas:giehta#vu^Ojjdas N_ODD_WG "handcreme" ; ! no. 4823
 gielas:giellas N_ODD_WG "hilly heathland" ; ! no. 610
 gielbar:giellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 612
-gieles:gielles N_ODD_WG "lie, untruth" ; ! no. 613
 giesas:giessas N_ODD_WG "leather hame" ; ! no. 3833
 gillar:gil'lar N_ODD_WG "trap" ; ! no. 4628
 ginij:gidnij N_ODD_WG "invisible subterranean being" ; ! no. 90206
@@ -2426,22 +2436,16 @@ guolmas:gu^Olbmas N_ODD_WG "a pine tree's white inner bark" ; ! no. 6555
 guosmak:gu^Ossmag2 N_ODD_WG "coffee" ; ! no. 706
 gåbtjås:gåbbtjås N_ODD_WG "tarpaulin" ; ! no. 726
 gållek:gål'leg2 N_ODD_WG "gilded" ; ! no. 752
-gålmes:gålbmes N_ODD_WG "bark sliced into during sap season" ; ! no. 2470
 gålmås:gålbmås N_ODD_WG "threesome" ; ! no. 4891
-hábres:hábbres N_ODD_WG "buck (male animal)" ; ! no. 3359
 iehpal:iehppal N_ODD_WG "apple" ; ! no. 4184
 juällgeladas:juällge#lahtas N_ODD_WG "ankle" ; ! no. 945
 kráptjok:krápptjog2 N_ODD_WG "furless leather glove" ; ! no. 90255
 ladas:lahtas N_ODD_WG "joint (anatomy)" ; ! no. 988
-máles:málles N_ODD_WG "cooked meal" ; ! no. 90270
 mánnásujtár:mánná#sujjtár N_ODD_WG "baby sitter" ; ! no. 4972
 mávas:mávvas N_ODD_WG "Mavas" ; ! no. 90281
 märrgit:mierrgid2 N_ODD_WG "Margareta" ; ! no. 5974
 náger:náhker N_ODD_WG "sleep, tiredness" ; ! no. 90555
-nieljes:nielljes N_ODD_WG "foursome" ; ! no. 5003
 njuoktjam:nju^Okktjam N_ODD_WG "tongue, clapper in a reindeer bell" ; ! no. 1296
-njuorges:nju^Orrges N_ODD_WG "cartilage" ; ! no. 1303
-rájves:rájjves N_ODD_WG "male canine" ; ! no. 1383
 ruohtas:ru^Ohttas N_ODD_WG "root" ; ! no. 1431
 ruojas:ru^Odjas N_ODD_WG "shoe shaft" ; ! no. 1432
 ruppsisruohtas:ruppsis#ru^Ohttas N_ODD_WG "red beet" ; ! no. 5080
@@ -2465,6 +2469,4 @@ vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
 vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
-vuontsaåres:vuontsa#årres N_ODD_WG "rooster, cock" ; ! no. 2186
 åjjvesárjas:åjjve#sárrjas N_ODD_WG "headache" ; ! no. 2252
-åres:årres N_ODD_WG "reindeer bull" ; ! no. 5914
