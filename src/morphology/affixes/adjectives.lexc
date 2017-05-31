@@ -22,57 +22,69 @@
 !
 
 ! positive form rules (based on PRED.SG as basic form)
+LEXICON A_BLAAVVAT_test ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
++A+Attr:i%>s # ;
++A+Sg+Nom:ad2%>0 K ; 
++A:ad2 N_ODD_X ; !same as vanas/vadnasa class
++A:ad2%> A_ODD_COMPSUP_test ;
+
 LEXICON A_AMAS_test ! amas/amas/abmasa/abmasup
 +A+Attr:^WG%> # ;
 +A+Sg+Nom:^WG%> # ;
-+A: N_ODD_X ;
-+A: COMPSUP_test ;
-
-LEXICON A_TJÅSKES_test ! tjåskes/tjåskes/tjåsskasa/??
-+A+Attr:es^WG%> # ;
-+A+Sg+Nom:es^WG%> # ;
-+A+Pl+Nom:as%>a # ;
-+A:as^WG COMPSUP_test ;
++A: N_ODD_X ; !same as vanas/vadnasa class
++A: A_ODD_COMPSUP_test ;
 
 LEXICON A_BIVVAL_test ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 +A+Attr:%>is # ;
-+A+Sg+Nom:%> # ;
-+A+Pl+Nom:%>a # ;
-+A:%> COMPSUP_test ;
++A+Sg+Nom:%>0 # ;
++A: N_ODD_X ; !same as vanas/vadnasa class
++A:%> A_ODD_COMPSUP_test ;
 
-LEXICON A_BLAAVVAT_test ! blävis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
-+A+Attr:i^WG%>s # ;
-+A+Sg+Nom:ad2%> # ;
-+A+Pl+Nom:ad2%>a # ;
-+A:%> COMPSUP_test ;
+LEXICON A_TJÅSKES_test ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
++A+Attr:^WG%>0 # ;
++A+Sg+Nom:^WG%>0 # ;
++A:^V2E2AA N_ODD_X ; !same as vanas/vadnasa class
++A:^V2E2AA%> A_ODD_COMPSUP_test ;
 
-LEXICON A_BÅNNDAA_test ! båndás/bånndá/båndá/båndásup/båndájmus-
+LEXICON A_TJAEHPPE_test ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A+Attr:^WG%>s # ;
-+A+Sg+Nom:%> # ;
-+A+Pl+Nom:^WG%> # ;
-+A:^WG%> COMPSUP_test2 ;
++A: EVENCASE ;  ! Sg Nom, Ess
++A: N_EVEN_ILL ;
++A:^WG N_EVEN_WK ; ! CG here
++A:^WG%> A_EVEN_COMPSUP_test ;
 
+LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
++A+Attr:^WG%>s # ;
++A: EVENCASE ;  ! Sg Nom, Ess
++A: N_EVEN_ILL ;
++A:^WG N_EVEN_WK ; ! CG here
++A:^WG%> A_EVEN_COMPSUPj_test ;
 
 
 ! COMP/SUPERL test rules:
-LEXICON COMPSUP_test 
-+Comp+Sg+Nom:%>up # ;
-+Comp+Attr:%>up # ;
-+Comp:%>ub ODD_OBLIQUE_U_COMMON ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+LEXICON A_EVEN_COMPSUP_test
++Comp+Attr:p # ;
++Comp+Sg+Nom:p # ;
++Comp:b2 N_ODD_X ;
++Superl+Attr:mus # ;
++Superl+Sg+Nom:mus # ;
++Superl:mus N_ODD_X ;
 
-+Superl+Sg+Nom:%>umos # ;
-+Superl+Attr:%>umos # ;
-+Superl:%>ubmus N_ODD_X ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
+LEXICON A_EVEN_COMPSUPj_test !SUPERL with -jmus
++Comp+Attr:p # ;
++Comp+Sg+Nom:p # ;
++Comp:b2 N_ODD_X ;
++Superl+Attr:jmus # ;
++Superl+Sg+Nom:jmus # ;
++Superl:jmus N_ODD_X ;
 
-LEXICON COMPSUP_test2  
-+Comp+Sg+Nom:%>sup # ;
-+Comp+Attr:%>sup # ;
-+Comp:%>sub ODD_OBLIQUE_U_COMMON ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
-
-+Superl+Sg+Nom:%>jmus # ;
-+Superl+Attr:%>jmus # ;
-+Superl:%>jmus N_ODD_X ; !links to affixes/nouns.lexc for elliptical forms taking nominal morphology
-
+LEXICON A_ODD_COMPSUP_test
++Comp+Attr:up # ;
++Comp+Sg+Nom:up # ;
++Comp:ubo N_EVEN4_DEFAULT ;
++Superl+Attr:umos # ;
++Superl+Sg+Nom:umos # ;
++Superl:ubmus N_ODD_X ;
 
 
 
