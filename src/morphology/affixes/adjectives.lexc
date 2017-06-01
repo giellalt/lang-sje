@@ -60,6 +60,12 @@ LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same a
 +A:^WG N_EVEN_WK ; ! CG here
 +A:^WG%> A_EVEN_COMPSUPj_test ;
 
+LEXICON A_BAAHKAS_test ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
++A+Attr:^WG%>0 # ;
++A+Sg+Nom:s^WG%>0 # ;
++A:s N_ODD_X ; !same as vanas/vadnasa class
++A:s%> A_ODD_COMPSUP_test ;
+
 
 ! COMP/SUPERL test rules:
 LEXICON A_EVEN_COMPSUP_test
