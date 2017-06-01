@@ -35,6 +35,8 @@ tjähppe:tjiehppe A_TJAEHPPE_test "clever" ;
 !A_BÅNNDAA_test class:
 bånndá:bånndá A_BÅNNDAA_test "rich" ;
 
+!A_BAAHKAS_test class:
+báhkas:báhkka A_BAAHKAS_test "rich" ;
 
 
 ! komparering framför vissa j- former verkar ej fungera
@@ -126,7 +128,7 @@ allak:alla A_ODD_Q ;
 aset:ase A_ODD_DIS ;
 ávos A_ODD_Å ;
 basstel A_ODD_Å ;
-báhkas:báhk A_ODD_G ;
+!báhkas:báhk A_ODD_G ;
 
 bavrek:bavre A_ODD_GIS ;
 !bivval A_ODD ;
