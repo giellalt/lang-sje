@@ -38,6 +38,9 @@ bånndá:bånndá A_BÅNNDAA_test "rich" ;
 !A_BAAHKAS_test class:
 báhkas:báhkka A_BAAHKAS_test "rich" ;
 
+!A_TJAABBE_test class:
+tjábbe:tjább A_TJAABBE_test "rich" ;
+
 
 ! komparering framför vissa j- former verkar ej fungera
 
@@ -83,7 +86,7 @@ sjnuttjo A_EVEN_NOCG_S ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
 sägge:siegge A_EVEN_NOCG_SS ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
-tjábbe:tjábbe A_EVEN_BB ; !
+!tjábbe:tjábbe A_EVEN_BB ; !
 tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 
