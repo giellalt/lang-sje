@@ -315,11 +315,11 @@ lä+V+PrfPrc:lam # ; !fattas negformer av le
 lä+V+Inf:årrot # ; !infinitive
 
 LEXICON LEPRS !!= * @CODE@ 
-+Sg1:lev # ; 
-!+Sg1:läv # ; 
-!+Sg1:liv # ; 
-+Sg2:le # ;  
-!+Sg2:lä # ;  
++Sg1:läv # ; 
++Sg1+Use/NG:lev # ; 
++Sg2:lä # ;  
++Sg2+Use/NG:le # ;  
++Sg2:l # ; !enclitic (only attaches to vowel-final preceding word)
 +Sg3:lä # ; 
 +Sg3:l # ; !enclitic (only attaches to vowel-final preceding word)
 !+Sg3:le # ; 
@@ -330,7 +330,7 @@ LEXICON LEPRS !!= * @CODE@
 +Du3:läbá # ; 
 +Pl1:läp # ; 
 +Pl1:lip # ; 
-+Pl1:lep # ; 
+!+Pl1:lep # ; 
 +Pl2:lihpit # ; 
 +Pl2:lehpit # ; 
 +Pl3:lä # ;
