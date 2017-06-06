@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-05-31T10:32:20+02:00
+! Timestamp: 2017-06-06T15:46:05+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2391,7 +2391,7 @@ gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
 gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
 máles:málles N_ODD_V2E2AA "cooked meal" ; ! no. 90270
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
-sáhpes:sahpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
+sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
 vuontsaåres:vuontsa#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
 judos:juhtos N_ODD_VH "animal" ; ! no. 929
