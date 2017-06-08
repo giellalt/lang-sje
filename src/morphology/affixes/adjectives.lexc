@@ -53,6 +53,13 @@ LEXICON A_TJAEHPPE_test ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A:^WG N_EVEN_WK ; ! CG here
 +A:^WG%> A_EVEN_COMPSUP_test ;
 
+LEXICON A_AALLKE_test ! állkes/állke/állke/állkep/állkemus-
++A+Attr:%>s # ;
++A: EVENCASE ;  ! Sg Nom, Ess
++A: N_EVEN_ILL ;
++A: N_EVEN_WK ; ! CG here
++A:%> A_EVEN_COMPSUP_test ;
+
 LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
 +A+Attr:^WG%>s # ;
 +A: EVENCASE ;  ! Sg Nom, Ess
