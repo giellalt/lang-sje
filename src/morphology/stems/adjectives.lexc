@@ -41,10 +41,13 @@ báhkas:báhkka A_BAAHKAS_test "rich" ;
 !A_TJAABBE_test class:
 tjábbe:tjább A_TJAABBE_test "rich" ;
 
+!A_AALLKE_test class:
+állke:állke A_AALLKE_test "easy" ;
+
 
 ! komparering framför vissa j- former verkar ej fungera
 
-állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
+!állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
 almelatj:almelatj A_EVEN_D ;
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
