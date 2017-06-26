@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-06-19T19:06:39+02:00
+! Timestamp: 2017-06-26T09:57:57+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1476,6 +1476,7 @@ gieldagis:gieldag N_EVEN4_ISA "tendon in a reindeer's back foot" ; ! no. 3822
 giljánis:gilján N_EVEN4_ISA "roar" ; ! no. 4840
 guddudis:guddud N_EVEN4_ISA "four-year-old reindeer buck" ; ! no. 2842
 guoksagis:gu^Oksag N_EVEN4_ISA "northern lights" ; ! no. 688
+guoledis+Use/NG:gu^Oled N_EVEN4_ISA "Guoletisjávvre, 'fisklös'" ; ! no. 90743
 gåhpålis:gåhpål N_EVEN4_ISA "pus-filled blister" ; ! no. 736
 gålmådis:gålmåd N_EVEN4_ISA "third (fraction)" ; ! no. 4172
 gånågis:gånåg N_EVEN4_ISA "king" ; ! no. 760
