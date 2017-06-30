@@ -325,17 +325,17 @@ LEXICON A_ODD_C  !!= * @CODE@ är uddastaviga ex tjvdes:tjavvdás-
 +A:vdás ODD_OBLIQUE_COMMON ;
 +A:vdás ODD_COMPSUP_A ;
 
-LEXICON A_ODD_D  !!= * @CODE@ är uddastaviga ex tjåskes:tjåsskás-
-+A+Attr:kes # ;
-+A+Sg+Nom:kes PX ;
-+A:skás ODD_OBLIQUE_COMMON ;
-+A:skás ODD_COMPSUP_A ;
+!LEXICON A_ODD_D  !!= * @CODE@ är uddastaviga ex tjåskes:tjåsskás-
+!+A+Attr:kes # ;
+!+A+Sg+Nom:kes PX ;
+!+A:skás ODD_OBLIQUE_COMMON ;
+!+A:skás ODD_COMPSUP_A ;
 
-LEXICON A_ODD_JIS  !!= * @CODE@ är uddastaviga ex tjåskes:tjåsskás-
-+A+Attr:kes # ;
-+A+Sg+Nom:kes PX ;
-+A:skás ODD_OBLIQUE_COMMON ;
-+A:ská COMPSUP_A ;
+!LEXICON A_ODD_JIS  !!= * @CODE@ är uddastaviga ex tjåskes:tjåsskás-
+!+A+Attr:kes # ;
+!+A+Sg+Nom:kes PX ;
+!+A:skás ODD_OBLIQUE_COMMON ;
+!+A:ská COMPSUP_A ;
 
 LEXICON A_ODD_E  !!= * @CODE@ är uddastaviga ex åhpes:åhppás-
 +A+Attr:es # ;
@@ -349,11 +349,11 @@ LEXICON A_ODD_F  !!= * @CODE@ är uddastaviga ex stuores:stuorrás-
 +A:rás ODD_OBLIQUE_COMMON ;
 +A:rás ODD_COMPSUP_A ;
 
-LEXICON A_ODD_G  !!= * @CODE@ är uddastaviga ex báhkas:báhkkas-
-+A+Attr:a # ;
-+A+Sg+Nom:as PX ;
-+A:kas ODD_OBLIQUE_COMMON ;
-+A:kas ODD_COMPSUP_A ;
+!LEXICON A_ODD_G  !!= * @CODE@ är uddastaviga ex báhkas:báhkkas-
+!+A+Attr:a # ;
+!+A+Sg+Nom:as PX ;
+!+A:kas ODD_OBLIQUE_COMMON ;
+!+A:kas ODD_COMPSUP_A ;
 
 LEXICON A_ODD_H  !!= * @CODE@ är uddastaviga ex dimes:dibmas-
 +A+Attr:bma # ;
@@ -433,11 +433,11 @@ LEXICON A_ODD_S  !!= * @CODE@ är uddastaviga ex blávvat:blávvad-/blávvis
 +A:ad ODD_OBLIQUE_COMMON ;
 +A:ad ODD_COMPSUP_A ;
 
-LEXICON A_ODD_T  !!= * @CODE@ är uddastaviga ex tjáhppat:tjáhppad-
-+A+Attr:ähppis # ; 
-+A+Sg+Nom:áhppat PX ;
-+A:áhppad ODD_OBLIQUE_COMMON ;
-+A:áhppad ODD_COMPSUP_A ;
+!LEXICON A_ODD_T  !!= * @CODE@ är uddastaviga ex tjáhppat:tjáhppad-
+!+A+Attr:ähppis # ; 
+!+A+Sg+Nom:áhppat PX ;
+!+A:áhppad ODD_OBLIQUE_COMMON ;
+!+A:áhppad ODD_COMPSUP_A ;
 
 LEXICON A_ODD_U  !!= * @CODE@ är uddastaviga ex jallgat:jallgad-/jillgis
 +A+Attr:illgis # ;
@@ -481,11 +481,11 @@ LEXICON A_ODD_Ä  !!= * @CODE@ är uddastaviga ex stumbu:stumbus-
 +A:s ODD_OBLIQUE_COMMON ;
 +A:s ODD_COMPSUP_A ;
 
-LEXICON A_ODD_Ö  !!= * @CODE@ är uddastaviga ex amás:abmás
-+A+Attr:más # ;
-+A+Sg+Nom:más PX ;
-+A:bmas ODD_OBLIQUE_COMMON ;
-+A:bmas ODD_COMPSUP_A ;
+!LEXICON A_ODD_Ö  !!= * @CODE@ är uddastaviga ex amás:abmás
+!+A+Attr:más # ;
+!+A+Sg+Nom:más PX ;
+!+A:bmas ODD_OBLIQUE_COMMON ;
+!+A:bmas ODD_COMPSUP_A ;
 
 LEXICON A_ODD_BB  !!= * @CODE@ är uddastaviga ex árvas:árvvas-
 +A+Attr:vas # ;
