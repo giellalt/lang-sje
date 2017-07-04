@@ -44,6 +44,9 @@ tjábbe:tjább A_TJAABBE_test "rich" ;
 !A_AALLKE_test class:
 állke:állke A_AALLKE_test "easy" ;
 
+!A_BUOSSJE_test class:
+buossje:bu^Ossje A_BUOSSJE_test "fearless" ;
+
 
 ! komparering framför vissa j- former verkar ej fungera
 
@@ -53,7 +56,7 @@ assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
-buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
+!buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
 !bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ;
@@ -239,7 +242,7 @@ vällgat:v A_ODD_VV ;
 
 
 
-buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
+!buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
 gärrgáj:gärrgá A_EVEN_KONTR_B ; !
 hålláj:hållá A_EVEN_KONTR_B ; !fungerar
 låmmsje:låm A_EVEN_KONTR_D ; !fungerar
