@@ -121,6 +121,16 @@ LEXICON A_TJAABBE_s2_test
 +Superl:i%>jmus A_EVEN_X_SUP_test ;
 
 
+LEXICON A_BUOSSJE_test ! buosjes/buossje/buosje/buosjep/busjijmus-
++A+Attr:^WG%>s # ;
++A: A_BUOSSJE_s2_test ; 
+
+LEXICON A_BUOSSJE_s2_test 
++Sg+Nom:%>0 K ; 
++Pl+Nom:^WG%>0 K ; 
++Comp:^WG%>b2 A_ODD_X_COMP_test ;
++Superl:^WG^IJ%>jmus A_EVEN_X_SUP_test ;
+
 
 !
 ! COMP/SUPERL test rules:
@@ -132,14 +142,14 @@ LEXICON A_ODD_X_COMP_test !stem to which this is affixed is ODD (or EVEN! - mayb
 +Pl+Nom:%>a # ;
 
 LEXICON A_ODD_X_SUP_test !stem to which this is affixed is ODD
-+Attr:^WG # ;
-+Sg+Nom:^WG # ;
++Attr: # ;
++Sg+Nom: # ;
 +Pl+Nom:^V2O2U%>a # ;
 
 LEXICON A_EVEN_X_SUP_test !stem to which this is affixed is EVEN
-+Attr:^WG # ;
-+Sg+Nom:^WG # ;
-+Pl+Nom:^WG%>a # ;
++Attr: # ;
++Sg+Nom: # ;
++Pl+Nom:%>a # ;
 
 
 
