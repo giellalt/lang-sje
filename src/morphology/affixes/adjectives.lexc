@@ -34,7 +34,7 @@ LEXICON A_BLAAVVAT_s2_test
 
 
 LEXICON A_AMAS_test ! amas/amas/abmasa/abmasup
-+A+Attr:^WG%> # ;
++A+Attr:^WG%>0 # ;
 +A: A_AMAS_s2_test ; 
 
 LEXICON A_AMAS_s2_test 
@@ -88,9 +88,42 @@ LEXICON A_AALLKE_s2_test
 +Superl:%>mus A_EVEN_X_SUP_test ;
 
 
+LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
++A+Attr:^WG%>0 # ;
++A: A_BÅNNDAA_s2_test ; 
+
+LEXICON A_BÅNNDAA_s2_test 
++Sg+Nom:%>0 K ; 
++Pl+Nom:^WG%>0 K ; 
++Comp:^WG%>b2 A_ODD_X_COMP_test ;
++Superl:^WG%>jmus A_EVEN_X_SUP_test ;
+
+
+LEXICON A_BAAHKAS_test ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
++A+Attr:^WG%>0 # ;
++A: A_BAAHKAS_s2_test ; 
+
+LEXICON A_BAAHKAS_s2_test 
++Sg+Nom:s^WG%>0 K ; 
++Pl+Nom:s%>a K ; 
++Comp:s%>ub2 A_ODD_X_COMP_test ;
++Superl:s%>ubmos A_ODD_X_SUP_test ;
+
+
+LEXICON A_TJAABBE_test ! tjábba/tjábbe/tjábbap/tjäbbijmus-
++A+Attr:a%>0 # ;
++A: A_TJAABBE_s2_test ; 
+
+LEXICON A_TJAABBE_s2_test 
++Sg+Nom:e%>0 K ; 
++Pl+Nom:e%>0 K ; 
++Comp:a%>b2 A_ODD_X_COMP_test ;
++Superl:i%>jmus A_EVEN_X_SUP_test ;
+
+
 
 !
-! COMP/SUPERL rules:
+! COMP/SUPERL test rules:
 !
 
 LEXICON A_ODD_X_COMP_test !stem to which this is affixed is ODD (or EVEN! - maybe irrelevant?)
@@ -115,71 +148,7 @@ LEXICON A_EVEN_X_SUP_test !stem to which this is affixed is EVEN
 
 
 
-
-
-LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
-+A+Attr:^WG%>s # ;
-+A: EVENCASE ;  ! Sg Nom, Ess
-+A: N_EVEN_ILL ;
-+A:^WG N_EVEN_WK ; ! CG here
-+A:^WG%> A_EVEN_COMPSUPj_test ;
-
-LEXICON A_BAAHKAS_test ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
-+A+Attr:^WG%>0 # ;
-+A+Sg+Nom:s^WG%>0 # ;
-+A:s N_ODD_X ; !same as vanas/vadnasa class
-+A:s%> A_ODD_COMPSUP_test ;
-
-LEXICON A_TJAABBE_test ! tjábba/tjábbe/tjábbap/tjäbbijmus-
-+A+Attr:a%>0 # ;
-+A+Sg+Nom:e%>0 # ;
-+A:e N_EVEN_ILL ; !same as N_EVEN
-+A:e N_EVEN_WK ; !same as N_EVEN
-+A: A_EVEN_COMPSUPij_test ; ! not elegant link, needs work
-
-
-
-! COMP/SUPERL test rules:
-LEXICON A_EVEN_COMPSUP_test
-+Comp+Attr:p # ;
-+Comp+Sg+Nom:p # ;
-+Comp:b2 N_ODD_X ;
-+Superl+Attr:mus # ;
-+Superl+Sg+Nom:mus # ;
-+Superl:mus N_ODD_X ;
-
-LEXICON A_EVEN_COMPSUPj_test !SUPERL with -jmus
-+Comp+Attr:p # ;
-+Comp+Sg+Nom:p # ;
-+Comp:b2 N_ODD_X ;
-+Superl+Attr:jmus # ;
-+Superl+Sg+Nom:jmus # ;
-+Superl:jmus N_ODD_X ;
-
-LEXICON A_EVEN_COMPSUPij_test !SUPERL with -ijmus (triggers VH); not elegant, needs work
-+Comp+Attr:a%>p # ;
-+Comp+Sg+Nom:a%>p # ;
-+Comp:a%>b2 N_ODD_X ;
-+Superl+Attr:i%>jmus # ;
-+Superl+Sg+Nom:i%>jmus # ;
-+Superl:i%>jmus N_ODD_X ;
-
-
-LEXICON A_ODD_COMPSUP_test
-+Comp+Attr:up # ;
-+Comp+Sg+Nom:up # ;
-+Comp:ubo N_EVEN4_DEFAULT ;
-+Superl+Attr:umos # ;
-+Superl+Sg+Nom:umos # ;
-+Superl:ubmus N_ODD_X ;
-
-
-
-
-
-
-
-
+! original rules from A-C and Trond:
 
 !! Här är lexikon för adjektivsböjning.
 !! Först jämnstaviga, så uddastaviga, och sen kontrakta.
