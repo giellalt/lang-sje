@@ -456,8 +456,7 @@ e:á <=> Vow:+ Cns:+ _ s %^V2E2AA:0 ;
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  
 o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
-		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %>:* Vow:+ ; 
-
+		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %>:* Vow:+ ; ! turns SUPERL -ubmos- into -ubmusa
 
 ! !!€ mu^Ohttag^WG^CDEL
 ! !!€ muoht0a000
