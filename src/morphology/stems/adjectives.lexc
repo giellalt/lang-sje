@@ -21,7 +21,7 @@ blávvat:blávv A_BLAAVVAT_test "blue" ;
 tjáhppat:tjáhpp A_BLAAVVAT_test "black" ;
 
 !A_AMAS_test class:
-abmas:abmas A_AMAS_test "foreign, strange, unknown" ;
+amas:abmas A_AMAS_test "foreign, strange, unknown" ;
 
 !A_BIVVAL_test class:
 bivval:bivval A_BIVVAL_test "warm" ;
