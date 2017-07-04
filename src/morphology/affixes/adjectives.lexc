@@ -24,41 +24,98 @@
 ! positive form rules (based on PRED.SG as basic form)
 LEXICON A_BLAAVVAT_test ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
 +A+Attr:i%>s # ;
-+A+Sg+Nom:ad2%>0 K ; 
-+A:ad2 N_ODD_X ; !same as vanas/vadnasa class
-+A:ad2%> A_ODD_COMPSUP_test ;
++A:ad2 A_BLAAVVAT_s2_test ; 
+
+LEXICON A_BLAAVVAT_s2_test 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>a K ; 
++Comp:%>ub2 A_ODD_X_COMP_test ;
++Superl:%>ubmos A_ODD_X_SUP_test ;
+
 
 LEXICON A_AMAS_test ! amas/amas/abmasa/abmasup
 +A+Attr:^WG%> # ;
-+A+Sg+Nom:^WG%> # ;
-+A: N_ODD_X ; !same as vanas/vadnasa class
-+A: A_ODD_COMPSUP_test ;
++A: A_AMAS_s2_test ; 
+
+LEXICON A_AMAS_s2_test 
++Sg+Nom:^WG%>0 K ; 
++Pl+Nom:%>a K ; 
++Comp:%>ub2 A_ODD_X_COMP_test ;
++Superl:%>ubmos A_ODD_X_SUP_test ;
+
 
 LEXICON A_BIVVAL_test ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 +A+Attr:%>is # ;
-+A+Sg+Nom:%>0 # ;
-+A: N_ODD_X ; !same as vanas/vadnasa class
-+A:%> A_ODD_COMPSUP_test ;
++A: A_BIVVAL_s2_test ; 
+
+LEXICON A_BIVVAL_s2_test 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>a K ; 
++Comp:%>ub2 A_ODD_X_COMP_test ;
++Superl:%>ubmos A_ODD_X_SUP_test ;
+
 
 LEXICON A_TJÅSKES_test ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
 +A+Attr:^WG%>0 # ;
-+A+Sg+Nom:^WG%>0 # ;
-+A:^V2E2AA N_ODD_X ; !same as vanas/vadnasa class
-+A:^V2E2AA%> A_ODD_COMPSUP_test ;
++A: A_TJÅSKES_s2_test ; 
+
+LEXICON A_TJÅSKES_s2_test 
++Sg+Nom:^WG%>0 K ; 
++Pl+Nom:^V2E2AA%>a K ; 
++Comp:^V2E2AA%>ub2 A_ODD_X_COMP_test ;
++Superl:^V2E2AA%>ubmos A_ODD_X_SUP_test ;
+
 
 LEXICON A_TJAEHPPE_test ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A+Attr:^WG%>s # ;
-+A: EVENCASE ;  ! Sg Nom, Ess
-+A: N_EVEN_ILL ;
-+A:^WG N_EVEN_WK ; ! CG here
-+A:^WG%> A_EVEN_COMPSUP_test ;
++A: A_TJAEHPPE_s2_test ; 
+
+LEXICON A_TJAEHPPE_s2_test 
++Sg+Nom:%>0 K ; 
++Pl+Nom:^WG%>0 K ; 
++Comp:^WG%>b2 A_ODD_X_COMP_test ;
++Superl:^WG%>mus A_EVEN_X_SUP_test ;
+
 
 LEXICON A_AALLKE_test ! állkes/állke/állke/állkep/állkemus-
 +A+Attr:%>s # ;
-+A: EVENCASE ;  ! Sg Nom, Ess
-+A: N_EVEN_ILL ;
-+A: N_EVEN_WK ; ! CG here
-+A:%> A_EVEN_COMPSUP_test ;
++A: A_AALLKE_s2_test ; 
+
+LEXICON A_AALLKE_s2_test 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>0 K ; 
++Comp:%>b2 A_ODD_X_COMP_test ;
++Superl:%>mus A_EVEN_X_SUP_test ;
+
+
+
+!
+! COMP/SUPERL rules:
+!
+
+LEXICON A_ODD_X_COMP_test !stem to which this is affixed is ODD (or EVEN! - maybe irrelevant?)
++Attr: # ;
++Sg+Nom: # ;
++Pl+Nom:%>a # ;
+
+LEXICON A_ODD_X_SUP_test !stem to which this is affixed is ODD
++Attr:^WG # ;
++Sg+Nom:^WG # ;
++Pl+Nom:^V2O2U%>a # ;
+
+LEXICON A_EVEN_X_SUP_test !stem to which this is affixed is EVEN
++Attr:^WG # ;
++Sg+Nom:^WG # ;
++Pl+Nom:^WG%>a # ;
+
+
+
+
+
+
+
+
+
 
 LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
 +A+Attr:^WG%>s # ;
@@ -115,6 +172,12 @@ LEXICON A_ODD_COMPSUP_test
 +Superl+Attr:umos # ;
 +Superl+Sg+Nom:umos # ;
 +Superl:ubmus N_ODD_X ;
+
+
+
+
+
+
 
 
 
