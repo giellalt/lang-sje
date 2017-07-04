@@ -39,7 +39,6 @@ Alphabet
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
   %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
-  %^VHBAR:0 !!= @CODE@ * block VH from happening
 
 ! Morpheme boundaries:
  «    ! Derivational prefix
@@ -58,7 +57,7 @@ Sets
              b2 d2 g2 t2 j2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
                            i2              %^O         u2            ä2 ;
-  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U %^VHBAR ;
+  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U ; 
   
 Definitions
 
@@ -360,16 +359,6 @@ s:t <=> _ j2: .#. ;
 ! !!€ gu^Oksagis#
 ! !!€ guoksagis#
 
-! ! nom.sg
-! !!€ dä2bmug2^VHBAR
-! !!€ däbmuk0
-! ! acc.sg
-! !!€ dä2bmug2^VHBARa>v
-! !!€ däbmug0a0v
-! ! ill.sg
-! !!€ dä2bmug2i2>j
-! !!€ däbmug0i0j
-! 
 ! ! acc.pl # to make sure VH still works otherwise
 ! !!€ sábme^WG^IJ>jd
 ! !!€ sä0mi000jd
@@ -467,7 +456,7 @@ e:á <=> Vow:+ Cns:+ _ s %^V2E2AA:0 ;
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
 !! __@RULENAME@__  
 o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
-		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %^VHBAR:* Vow:+ ;
+		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %>:* Vow:+ ; 
 
 
 ! !!€ mu^Ohttag^WG^CDEL
