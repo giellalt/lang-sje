@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-05T12:09:46+02:00
+! Timestamp: 2017-07-05T12:45:32+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1095,6 +1095,7 @@ suarbmagåhte:suarbma#gåhte N_EVEN "thimble" ; ! no. 4076
 suavvá:su^Ov'vá N_EVEN "hole dug by a reindeer in the snow" ; ! no. 2561
 suhkamvanás:suhkam#vanás N_EVEN "rowboat" ; ! no. 5146
 suhkesmällke:suhkes#miellke N_EVEN "sour milk" ; ! no. 4072
+suhpe:suhpe N_EVEN "aspen" ; ! no. 2734
 sunnde:sunnde N_EVEN "official representative" ; ! no. 5371
 suobetájjge:suobet#ájjge N_EVEN "sap season" ; ! no. 4164
 suodja:su^Odja N_EVEN "net hook" ; ! no. 1762
@@ -1135,7 +1136,6 @@ såhke:såhke N_EVEN "birch" ; ! no. 3318
 såhkedievvá:såhke#dievvá N_EVEN "slope full of birch trees" ; ! no. 5495
 såhkemuorra:såhke#mu^Orra N_EVEN "birchwood" ; ! no. 5584
 såhkevuobme:såhke#vu^Obme N_EVEN "birch forest" ; ! no. 3320
-såhpe:såhpe N_EVEN "aspen" ; ! no. 2734
 såjesvalla:såjes#valla N_EVEN "mountain owl" ; ! no. 4320
 sållbe:sållbe N_EVEN "pocket" ; ! no. 1820
 såpptå:såpptå N_EVEN "foam, lather" ; ! no. 1824
