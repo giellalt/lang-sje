@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-04-16T17:15:37+02:00
+! Timestamp: 2017-07-05T12:11:18+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -290,6 +290,7 @@ tuhttjit:tuhttji V_CONTR "think, consider, deem" ; ! no. 4733
 tuŋŋkit:tuŋŋki V_CONTR "castrate reindeer" ; ! no. 6655
 uddnut:uddnu V_CONTR "indulge, not begrudge" ; ! no. 2020
 ullit:ulli V_CONTR "finish something" ; ! no. 3713
+unnut:un'nu V_CONTR "become smaller, shrink" ; ! no. 90570
 urdnit:urdni V_CONTR "arrange" ; ! no. 2034
 vádtsát:vádtsá V_CONTR "head out, start going, begin walking" ; ! no. 90394
 vájvastuvvut:vájvastuvvu V_CONTR "anguish, squirm" ; ! no. 2069
@@ -313,7 +314,6 @@ värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 årrát:årrá V_CONTR "fall asleep" ; ! no. 2263
 ällát:ä2llá V_CONTR "survive" ; ! no. 4339
 ärrbit:ä2rrbi V_CONTR "inherit" ; ! no. 3470
-ajádallat:ajádall V_EVEN_A "spend time" ; ! no. 4532
 aldagasstet:aldagasst V_EVEN_A "flash lightening, thunder" ; ! no. 45
 amastallat:amastall V_EVEN_A "feel foreign" ; ! no. 3542
 arbmogasstet:arbmogasst V_EVEN_A "take mercy upon" ; ! no. 5397
@@ -321,6 +321,7 @@ arrmálasstet:arrmálasst V_EVEN_A "take pity, ask for help" ; ! no. 4062
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
 áhtat:áht V_EVEN_A "tinker, toy with" ; ! no. 90714
+ájádallat:ájádall V_EVEN_A "spend time" ; ! no. 4532
 ájjtsat:ájjts V_EVEN_A "sight, notice" ; ! no. 35
 ánodallat:ánodall V_EVEN_A "request several times" ; ! no. 4662
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
@@ -775,7 +776,6 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
 agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
 avstot:avst V_EVEN_O "scoop, bail out" ; ! no. 3674
-ádnot:ádn V_EVEN_O "ask for something, request something" ; ! no. 7
 ávgŋot:ávgŋ V_EVEN_O "tear apart" ; ! no. 2613
 bájdnot:bájdn V_EVEN_O "get a secondary flavor or color" ; ! no. 3647
 bállkot:bállk V_EVEN_O "throw, cast" ; ! no. 135
@@ -790,7 +790,7 @@ bussot:buss V_EVEN_O "blow, huff, pant" ; ! no. 2436
 bånndot:bånnd V_EVEN_O "become rich" ; ! no. 6199
 bårrsjot:bårrsj V_EVEN_O "boil" ; ! no. 254
 bähttot:biehtt V_EVEN_O "warn" ; ! no. 270
-dádnegårrot:dádne#gårr V_EVEN_O "embroider using tin wire" ; ! no. 3414
+dadnegårrot:dadne#gårr V_EVEN_O "embroider using tin wire" ; ! no. 90764
 dállkot:dállk V_EVEN_O "make coffee" ; ! no. 4153
 dánnsot:dánns V_EVEN_O "dance" ; ! no. 3290
 diŋŋgot:diŋŋg V_EVEN_O "order" ; ! no. 375
@@ -821,7 +821,7 @@ gåbbrot:gåbbr V_EVEN_O "roll up (for birch bark)" ; ! no. 4842
 gågglot:gåggl V_EVEN_O "throw up food (by a dog)" ; ! no. 730
 gåhkot:gåhk V_EVEN_O "be nauseous" ; ! no. 732
 gåhttjot:gåhttj V_EVEN_O "call, urge, request, command" ; ! no. 742
-gåjjvot:gåjjv V_EVEN_O "dig" ; ! no. 747
+gåjjvot:gåjjv V_EVEN_O "dig, scoop" ; ! no. 747
 gållot:gåll V_EVEN_O "feel cold" ; ! no. 3012
 gåpptjot:gåpptj V_EVEN_O "close, cover up" ; ! no. 305
 gårrjot:gårrj V_EVEN_O "lie curled up (for canines)" ; ! no. 4956
@@ -867,7 +867,7 @@ ruasstot:ru^Osst V_EVEN_O "rust" ; ! no. 5087
 råbmot:råbm V_EVEN_O "attack" ; ! no. 3694
 råhtot:råht V_EVEN_O "pull up a root" ; ! no. 5906
 råssot:råss V_EVEN_O "wake someone up" ; ! no. 1460
-rähtjot:riehtj V_EVEN_O "scream and cry" ; ! no. 1398
+rähttjot:riehtj V_EVEN_O "scream and cry" ; ! no. 1398
 sárrgot:sárrg V_EVEN_O "draw, sketch" ; ! no. 1513
 sárrjot:sárrj V_EVEN_O "hurt" ; ! no. 1511
 sillot:sill V_EVEN_O "become tired" ; ! no. 6530
@@ -909,7 +909,6 @@ tjällot:tjiell V_EVEN_O "jump several times" ; ! no. 1896
 tsåhkot:tsåhk V_EVEN_O "go down (for water), recede" ; ! no. 2016
 tsåjjtsot:tsåjjts V_EVEN_O "flame up suddenly" ; ! no. 2017
 tsähkkot:tsiehkk V_EVEN_O "cut a notch, tick off" ; ! no. 3360
-unnot:un'n V_EVEN_O "become smaller, shrink" ; ! no. 90570
 vassjot:vassj V_EVEN_O "become angry" ; ! no. 2097
 vasskot:vassk V_EVEN_O "scrape, scrub" ; ! no. 2098
 vasstot:vasst V_EVEN_O "become uglier" ; ! no. 5633
