@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - vuassa: # N_EVEN (without orthographic CG, but with Umlaut)
+    vuassa+N+Sg+Nom: vuassa
+    vuassa+N+Sg+Gen: vuossa
+    vuassa+N+Sg+Acc: vuossav
+    vuassa+N+Sg+Ill: vuassaj
+    vuassa+N+Sg+Ine: vuossan
+    vuassa+N+Sg+Ela: [vuossast, vuossas]
+    vuassa+N+Sg+Com: vuossajn
+    vuassa+N+Pl+Nom: vuossa
+    vuassa+N+Pl+Gen: vuossaj
+    vuassa+N+Pl+Acc: vuossajd
+    vuassa+N+Pl+Ill: vuossajda
+    vuassa+N+Pl+Ine: vuossajn
+    vuassa+N+Pl+Ela: [vuossajst, vuossajs]
+    vuassa+N+Pl+Com: [vuossaj, vuossajgum]
+    vuassa+N+Ess: vuassan
+#    vuassa+N+Abe: vuossadak
+
+ 
+ 
