@@ -16,7 +16,7 @@ Tests:
     vuassa+N+Sg+Ill: vuassaj
     vuassa+N+Sg+Ine: vuossan
     vuassa+N+Sg+Ela: [vuossast, vuossas]
-    vuassa+N+Sg+Com: vuossajn
+    vuassa+N+Sg+Com: [vuossajn, vuossajna]
     vuassa+N+Pl+Nom: vuossa
     vuassa+N+Pl+Gen: vuossaj
     vuassa+N+Pl+Acc: vuossajd
