@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-05T12:45:26+02:00
+! Timestamp: 2017-07-12T13:36:05+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1198,10 +1198,10 @@ guovladit:gu^Ovlad V_ODD "look, peek" ; ! no. 4863
 gurrgalit:gurrgal V_ODD "pour" ; ! no. 4400
 guvkelit:guvkel V_ODD "reindeer mating call" ; ! no. 3060
 guvnadit:guvnad V_ODD "say goodbye" ; ! no. 3729
-gåbbmohit:gåbbmoh V_ODD "lay face down" ; ! no. 4874
 gåbbåldit:gåbbåld V_ODD "bob" ; ! no. 90214
 gåbdedit:gåbded V_ODD "widen" ; ! no. 3403
-gåbmanit:gåbman V_ODD "topple, turn over" ; ! no. 5707
+gåbmánit:gåbmán V_ODD "topple, turn over" ; ! no. 5707
+gåbmåhit:gåbmåh V_ODD "lay face down" ; ! no. 4874
 gåbtjådit:gåbtjåd V_ODD "cover up several things" ; ! no. 4878
 gådtjådit:gådtjåd V_ODD "pee, urinate" ; ! no. 5202
 gåjkådit:gåjkåd V_ODD "dry" ; ! no. 4224
