@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-12T13:36:05+02:00
+! Timestamp: 2017-07-12T14:13:27+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -423,6 +423,7 @@ hipsudallat:hipsudall V_EVEN_A "smell, sniff" ; ! no. 5719
 hudjat:hudj V_EVEN_A "complain, question, be displeased" ; ! no. 846
 hujjat+Use/NG:hujj V_EVEN_A "complain, question" ; ! no. 90510
 hukksat:hukks V_EVEN_A "be considerate, be concerned about" ; ! no. 849
+huorvedasstet:huorvedasst V_EVEN_A "pull one's hair" ; ! no. 90768
 ietjastallat:ietjastall V_EVEN_A "be stubborn" ; ! no. 460
 jallat:jall V_EVEN_A "shorten" ; ! no. 918
 jasskat:jassk V_EVEN_A "calm down" ; ! no. 4916
