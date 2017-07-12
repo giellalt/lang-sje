@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-10T13:30:01+02:00
+! Timestamp: 2017-07-12T14:50:09+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1455,7 +1455,6 @@ gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
 iehkedisråhkålvas:iehkedis#råhkålv N_EVEN4_ASA "evening prayer" ; ! no. 3076
 jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
 lävvludas:lä2vvlud N_EVEN4_ASA "song" ; ! no. 5857
-mujjtulas:mujjtul N_EVEN4_ASA "memory, story" ; ! no. 90283
 råhkålvas:råhkålv N_EVEN4_ASA "church service" ; ! no. 1456
 tjåhkålvas:tjåhkålv N_EVEN4_ASA "meeting, gathering" ; ! no. 1963
 tjäggelvas:tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
@@ -1485,6 +1484,7 @@ jiehtanis:jiehtan N_EVEN4_ISA "giant" ; ! no. 4210
 jielagis:jielag N_EVEN4_ISA "cold, clear weather" ; ! no. 3479
 maltegis:malteg N_EVEN4_ISA "Maltegis" ; ! no. 1127
 máhkanis:máhkan N_EVEN4_ISA "six-year-old reindeer buck" ; ! no. 4354
+mujjtulis:mujjtul N_EVEN4_ISA "memory, story" ; ! no. 90283
 náranis:náran N_EVEN4_ISA "abscess, boil" ; ! no. 1245
 nieljagis:nieljag N_EVEN4_ISA "quarter" ; ! no. 5270
 njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
