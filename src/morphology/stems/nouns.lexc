@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-12T14:50:09+02:00
+! Timestamp: 2017-07-13T07:11:32+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -63,6 +63,7 @@ båtsoj:båhts N_CONTR_OJU "reindeer" ; ! no. 263
 guddoj:gudd N_CONTR_OJU "stump (on its side)" ; ! no. 675
 guolmoj:gu^Olbm N_CONTR_OJU "dusk" ; ! no. 699
 gåggoj:gågg N_CONTR_OJU "larynx" ; ! no. 2846
+ienoj:iedn N_CONTR_OJU "maternal uncle" ; ! no. 90769
 jållebåtsoj:jålle#båhts N_CONTR_OJU "fat reindeer, a good reindeer for eating" ; ! no. 3892
 nällgebåtsoj:nällge#båhts N_CONTR_OJU "hungry reindeer" ; ! no. 6864
 várrebåtsoj:várre#båhts N_CONTR_OJU "mountain reindeer" ; ! no. 90386
