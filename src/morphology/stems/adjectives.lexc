@@ -28,6 +28,8 @@ bivval:bivval A_BIVVAL_test "warm" ;
 
 !A_TJÅSKES_test class:
 tjåskes:tjåsskes A_TJÅSKES_test "cold (weather)" ;
+ájles:ájjles A_TJÅSKES_test "holy" ; ! ájles / ájles / ájjlesa
+ájnas:ájjnas A_TJÅSKES_test "urgent" ; ! ájnas / ájnas / ájjnasa
 
 !A_TJAEHPPE_test class:
 tjähppe:tjiehppe A_TJAEHPPE_test "clever" ;
@@ -36,16 +38,17 @@ tjähppe:tjiehppe A_TJAEHPPE_test "clever" ;
 bånndá:bånndá A_BÅNNDAA_test "rich" ;
 
 !A_BAAHKAS_test class:
-báhkas:báhkka A_BAAHKAS_test "rich" ;
+báhkas:báhkka A_BAAHKAS_test "hot" ;
 
 !A_TJAABBE_test class:
-tjábbe:tjább A_TJAABBE_test "rich" ;
+tjábbe:tjább A_TJAABBE_test "beautiful" ;
 
 !A_AALLKE_test class:
 állke:állke A_AALLKE_test "easy" ;
 
 !A_BUOSSJE_test class:
 buossje:bu^Ossje A_BUOSSJE_test "fearless" ;
+
 
 
 ! komparering framför vissa j- former verkar ej fungera
