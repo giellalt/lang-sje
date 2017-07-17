@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-13T07:11:32+02:00
+! Timestamp: 2017-07-17T07:48:33+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -83,7 +83,7 @@ alesgiehtje:ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 alfabehta:alfabehta N_EVEN "alphabet" ; ! no. 3085
 allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 4212
 allavárre:alla#várre N_EVEN "alpine mountain" ; ! no. 6838
-alumijjna:alumijjna N_EVEN "aluminium" ; ! no. 3094
+alumidjna:alumijdna N_EVEN "aluminium" ; ! no. 3094
 anarkiddja:anarkiddja N_EVEN "anarchy" ; ! no. 3099
 antänna:antien'na N_EVEN "antenna" ; ! no. 3122
 anuráhkka:anuráhkka N_EVEN "anorak" ; ! no. 3108
@@ -1172,7 +1172,7 @@ tjarra:tjarra N_EVEN "soot, coal" ; ! no. 1852
 tjarrva:tjarrva N_EVEN "snow crust" ; ! no. 1880
 tjasske:tjasske N_EVEN "ermine, stoat" ; ! no. 3001
 tjáhtse:tjáhtse N_EVEN "water" ; ! no. 1861
-tjájjne:tjájjne N_EVEN "woodpecker" ; ! no. 1864
+tjájdne:tjájdne N_EVEN "woodpecker" ; ! no. 1864
 tjállemgirrje:tjállem#girrje N_EVEN "exercise book" ; ! no. 5191
 tjállemvuohke:tjállem#vu^Ohke N_EVEN "orthography" ; ! no. 2430
 tjátselihtte:tjátse#lihtte N_EVEN "water bucket" ; ! no. 5178
