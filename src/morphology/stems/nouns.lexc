@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-17T07:48:33+02:00
+! Timestamp: 2017-07-25T09:51:44+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1675,6 +1675,7 @@ bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
 bienomässo:bieno#mies'so N_EVEN_O "Böndagshelgen" ; ! no. 5427
 bihpo:bihpo N_EVEN_O "pipe (for smoking)" ; ! no. 5055
 birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
+bisumiedno+Use/NG:bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
 bumullo:bumul'lo N_EVEN_O "cotton" ; ! no. 3370
 bårrgemánno:bårrge#mánno N_EVEN_O "August" ; ! no. 252
@@ -1955,13 +1956,12 @@ báhper:báhper N_ODD "paper" ; ! no. 110
 báhtsak:báhtsag2 N_ODD "cone" ; ! no. 114
 bálgok:bálgog2 N_ODD "reindeer alone in the forest" ; ! no. 6134
 bávval:bávval N_ODD "Paul" ; ! no. 4637
-bibal:bibal N_ODD "bible" ; ! no. 166
-bidum:bidum N_ODD "Piteå" ; ! no. 167
+bidám:bidám N_ODD "Piteå" ; ! no. 167
 biednek:biedneg2 N_ODD "money" ; ! no. 2624
 bielák:bielág2 N_ODD "one of two parts" ; ! no. 5770
 biellemupjagak:biellemup#jagag2 N_ODD "eighteen-month old child" ; ! no. 6576
 bietsek:bietseg2 N_ODD "fishtail" ; ! no. 2862
-bihtum:bihtum N_ODD "guide feather on a sea bird" ; ! no. 169
+bijbal:bijbal N_ODD "bible" ; ! no. 166
 binnátj:binnátj N_ODD "very small" ; ! no. 2029
 biŋgalsabek:biŋgal#sabeg2 N_ODD "ski made of hardwood made for using on iced-over snow" ; ! no. 90319
 biras:biras N_ODD "duodenum, first section of the small intestine" ; ! no. 90328
@@ -1970,6 +1970,7 @@ bissjum:bissjum N_ODD "strap in tent cloth" ; ! no. 3696
 bissmer:bissmer N_ODD "steelyard" ; ! no. 3267
 bissuk:bissug2 N_ODD "tall thin young birch tree" ; ! no. 90529
 bistitj:bistitj N_ODD "teaspoon" ; ! no. 4767
+bisum+Use/NG:bisum N_ODD "Piteå" ; ! no. 90771
 bivdár:bivdár N_ODD "hunter, fisherman" ; ! no. 90196
 budnjus:budnjus N_ODD "baked good to be eaten with coffee" ; ! no. 90530
 bunjitj:bunjitj N_ODD "twisted birch" ; ! no. 6526
