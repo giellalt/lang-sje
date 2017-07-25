@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-12T14:13:27+02:00
+! Timestamp: 2017-07-25T09:51:50+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -96,7 +96,7 @@ fámoduvvut:fámoduvvu V_CONTR "become powerless, strengthless" ; ! no. 4187
 firrjit:firrji V_CONTR "color" ; ! no. 2476
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
 fivvrit:fivvri V_CONTR "transport" ; ! no. 5549
-fuabmát:fu^Obmá V_CONTR "realize" ; ! no. 481
+fuabbmát:fu^Obbmá V_CONTR "realize" ; ! no. 481
 färrut:fä2rru V_CONTR "drive, go, travel" ; ! no. 90645
 gessut:gessu V_CONTR "be drawn, be pulled" ; ! no. 5252
 gieladuvvut:gieladuvvu V_CONTR "loose one’s voice, become hoarse" ; ! no. 3876
@@ -375,7 +375,7 @@ dumbalasstet:dumbalasst V_EVEN_A "be reckless" ; ! no. 5808
 duohkat:du^Ohk V_EVEN_A "sell" ; ! no. 396
 duorrat:du^Orr V_EVEN_A "take up a fishing net" ; ! no. 402
 dåbbdågåhtet:dåbbdågåht V_EVEN_A "get to know someone" ; ! no. 412
-däjjvat:diejjv V_EVEN_A "nail, hit" ; ! no. 5619
+däjjvat:diejjv V_EVEN_A "nail, hit (on the mark)" ; ! no. 5619
 fággadallat:fággadall V_EVEN_A "wrestle" ; ! no. 3421
 fállat:fáll V_EVEN_A "offer" ; ! no. 468
 fierrat:fierr V_EVEN_A "die, pass away" ; ! no. 6711
@@ -459,10 +459,10 @@ mássjat:mássj V_EVEN_A "control oneself, let something be" ; ! no. 1145
 merustallat:merustall V_EVEN_A "calculate, estimate" ; ! no. 3255
 mivvat:mivv V_EVEN_A "give in, give up, yield" ; ! no. 4227
 mujtodallat:mujtodall V_EVEN_A "remember" ; ! no. 5779
+mujudallat:mujudall V_EVEN_A "smile slightly" ; ! no. 2638
 muonnat:mu^Onn V_EVEN_A "guess" ; ! no. 4360
 muorrat:mu^Orr V_EVEN_A "growl" ; ! no. 6540
 muvvat+Use/NG:muvv V_EVEN_A "give in, give up, yield" ; ! no. 90494
-måjudallat:måjudall V_EVEN_A "smile slightly" ; ! no. 2638
 måjvordallat:måjvordall V_EVEN_A "feel sick, ill" ; ! no. 4257
 mässkat:miessk V_EVEN_A "rot" ; ! no. 1228
 nahkat:nahk V_EVEN_A "manage" ; ! no. 1234
@@ -814,7 +814,7 @@ gávvlot:gávvl V_EVEN_O "cut off skin from reindeer leg" ; ! no. 2609
 gilljot:gillj V_EVEN_O "scream" ; ! no. 630
 gualldot:gu^Olld V_EVEN_O "blow hard (for snow)" ; ! no. 694
 guardnjot:gu^Ordnj V_EVEN_O "climb up" ; ! no. 3717
-guohtot:gu^Oht V_EVEN_O "feed, graze" ; ! no. 686
+guohtot:gu^Oht V_EVEN_O "graze" ; ! no. 686
 gåbbdot:gåbbd V_EVEN_O "float, drift" ; ! no. 3857
 gåbblot:gåbbl V_EVEN_O "glare, stare" ; ! no. 725
 gåbbrot:gåbbr V_EVEN_O "roll up (for birch bark)" ; ! no. 4842
@@ -863,11 +863,11 @@ njurrgot:njurrg V_EVEN_O "whistle" ; ! no. 1307
 njållot:njåll V_EVEN_O "suck, lick, suckle" ; ! no. 1313
 nåjjdot:nåjjd V_EVEN_O "act as a shaman, interpret omens" ; ! no. 1331
 nällgot:niellg V_EVEN_O "hunger, starve" ; ! no. 1337
+riehtjot:riehtj V_EVEN_O "scream and cry" ; ! no. 1398
 ruasstot:ru^Osst V_EVEN_O "rust" ; ! no. 5087
 råbmot:råbm V_EVEN_O "attack" ; ! no. 3694
 råhtot:råht V_EVEN_O "pull up a root" ; ! no. 5906
 råssot:råss V_EVEN_O "wake someone up" ; ! no. 1460
-rähttjot:riehtj V_EVEN_O "scream and cry" ; ! no. 1398
 sárrgot:sárrg V_EVEN_O "draw, sketch" ; ! no. 1513
 sárrjot:sárrj V_EVEN_O "hurt" ; ! no. 1511
 sillot:sill V_EVEN_O "become tired" ; ! no. 6530
@@ -1069,6 +1069,7 @@ dibmadit:dibmad V_ODD "soften" ; ! no. 2386
 didnadit:didnad V_ODD "repeat, nag" ; ! no. 360
 diebtjastit:diebtjast V_ODD "press down quickly" ; ! no. 5777
 diededit:dieded V_ODD "inform, let know, indicate" ; ! no. 2729
+diejvedit:diejved V_ODD "catch, hit" ; ! no. 2540
 dielmastit:dielmast V_ODD "trample" ; ! no. 4736
 diemsodit:diemsod V_ODD "push down and mix while cooking" ; ! no. 3715
 diergedit:dierged V_ODD "jump due to being startled" ; ! no. 5871
@@ -1097,7 +1098,6 @@ dåssjánit:dåssján V_ODD "not work out, become nonsense" ; ! no. 90539
 däbbodit:dä2bbod V_ODD "soak" ; ! no. 432
 däddalit:dä2ddal V_ODD "push down" ; ! no. 5751
 däddodit:dä2ddod V_ODD "emphasize" ; ! no. 3275
-däjvedit:dä2jved V_ODD "catch, hit" ; ! no. 2540
 dälkudit:dä2lkud V_ODD "cure, heal with medicine" ; ! no. 3393
 dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
 därjedit:dä2rjed V_ODD "curse, swear" ; ! no. 440
@@ -1606,6 +1606,7 @@ tsäggahit:tsä2ggah V_ODD "stand upright" ; ! no. 3608
 udtjudit:udtjud V_ODD "try to acquire, receive" ; ! no. 4404
 ullgonit:ullgon V_ODD "move to the side" ; ! no. 5035
 unnedit:unned V_ODD "lessen, minimize" ; ! no. 3563
+urudit:urud V_ODD "be somewhere temporarily" ; ! no. 2035
 usjudit:usjud V_ODD "think, mean" ; ! no. 2036
 uvvadit:uvvad V_ODD "kiss" ; ! no. 2039
 vahtalit:vahtal V_ODD "be missing" ; ! no. 90747
@@ -1669,7 +1670,6 @@ värránit:vä2rrán V_ODD "worsen" ; ! no. 3286
 åjjvodit:åjjvod V_ODD "guide, advise" ; ! no. 5168
 åmåstit:åmåst V_ODD "be stored" ; ! no. 2259
 ånedit:åned V_ODD "shorten, abbreviate" ; ! no. 3156
-årodit:årod V_ODD "be somewhere temporarily" ; ! no. 2035
 åråstit:åråst V_ODD "renew, update" ; ! no. 2240
 åsestit:åsest V_ODD "buy, shop" ; ! no. 2467
 åssålit:åssål V_ODD "collect, gather" ; ! no. 3814
