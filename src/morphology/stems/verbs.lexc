@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-25T09:51:50+02:00
+! Timestamp: 2017-07-27T14:50:08+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -991,7 +991,6 @@ baltjastit:baltjast V_ODD "be mischievous" ; ! no. 137
 balvadit:balvad V_ODD "become cloudy" ; ! no. 5737
 bargastit:bargast V_ODD "work a little bit" ; ! no. 4682
 barrgádit:barrgád V_ODD "process, work on" ; ! no. 3225
-barrgedit:barrged V_ODD "braid" ; ! no. 145
 barrjedit:barrjed V_ODD "swear, curse" ; ! no. 2914
 basádit:basád V_ODD "wash oneself" ; ! no. 148
 bassestit:bassest V_ODD "fry a little bit, fry quickly" ; ! no. 5501
@@ -1005,6 +1004,7 @@ báktjanit:báktjan V_ODD "hurt" ; ! no. 127
 báldadit:báldad V_ODD "divide reindeer using a stick" ; ! no. 3793
 bálkestit:bálkest V_ODD "throw" ; ! no. 2506
 báredit:báred V_ODD "kill a sick or injured animal" ; ! no. 140
+bárrgedit:bárrged V_ODD "braid" ; ! no. 145
 bátjastit:bátjast V_ODD "wound by shooting" ; ! no. 154
 berkistit:berkist V_ODD "understand, perceive as" ; ! no. 3804
 bevkudit:bevkud V_ODD "chirp (for ptarmigan)" ; ! no. 3551

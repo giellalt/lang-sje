@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-25T09:51:44+02:00
+! Timestamp: 2017-07-27T14:50:00+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -76,7 +76,7 @@ adverba:adverba N_EVEN "adverb" ; ! no. 3113
 advokáhtta:advokáhtta N_EVEN "lawyer" ; ! no. 3114
 ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 akkusatijjva:akkusatijjva N_EVEN "accusative" ; ! no. 3115
-aksjovdna:aksjovdna N_EVEN "auction" ; ! no. 3145
+aksjuvdna:aksjuvdna N_EVEN "auction" ; ! no. 3145
 aktasatj+N+Der/State:aktasatjvu^Ohta N_EVEN "unity" ; ! no. 3988
 albme:albme N_EVEN "sky, heavens, space" ; ! no. 43
 alesgiehtje:ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
@@ -788,7 +788,7 @@ nagervuassa:nager#vu^Os'sa N_EVEN "sleepy head" ; ! no. 6073
 namma:namma N_EVEN "name" ; ! no. 3433
 nanos+N+Der/State:nanosvu^Ohta N_EVEN "solidity, sustainability" ; ! no. 4046
 narra:narra N_EVEN "handle" ; ! no. 2670
-nasjovdna:nasjovdna N_EVEN "nation" ; ! no. 5543
+nasjuvdna:nasjuvdna N_EVEN "nation" ; ! no. 5543
 natuvvra:natuvvra N_EVEN "nature" ; ! no. 5515
 náhkke:náhkke N_EVEN "leather from an animal, pelt" ; ! no. 5000
 náhpe:náhpe N_EVEN "belly button, navel" ; ! no. 1235
@@ -1391,7 +1391,7 @@ aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
 assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
 áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
 ássalatj:ássalatj N_EVEN4 "accessory, participatory" ; ! no. 3571
-bargaldak:bargaldag2 N_EVEN4 "braid" ; ! no. 141
+bárgáldak:bárgáldag2 N_EVEN4 "braid" ; ! no. 141
 biednagatj:biednagatj N_EVEN4 "small adult dog" ; ! no. 5717
 biejvadak:biejvadag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
 bietsastak:bietsastag2 N_EVEN4 "dense pine forest" ; ! no. 6867
@@ -1937,8 +1937,8 @@ ananas:ananas N_ODD "pineapple" ; ! no. 3097
 arram:arram N_ODD "marrowbone" ; ! no. 90202
 áddjov:áddjov N_ODD "grandchild" ; ! no. 5
 ájajågåtj:ája#jågåtj N_ODD "small stream fed by a spring" ; ! no. 2687
-ájlegárrat:ájleg#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 ájlek:ájleg2 N_ODD "Sunday" ; ! no. 29
+ájlekárrat:ájlek#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 áldar:áldar N_ODD "age" ; ! no. 2719
 áldas:áldas N_ODD "leather on front top part of shoe" ; ! no. 47
 árbatj:árbatj N_ODD "widow" ; ! no. 62
