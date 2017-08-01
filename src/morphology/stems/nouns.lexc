@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-27T14:50:00+02:00
+! Timestamp: 2017-08-01T11:04:57+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -161,12 +161,12 @@ basse:basse N_EVEN "weekend" ; ! no. 150
 bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
 bassemvuodja:bassem#vu^Odja N_EVEN "cooking grease" ; ! no. 152
 bassåjjve:bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
+bateridja:bateridja N_EVEN "battery" ; ! no. 3224
 bádne:bádne N_EVEN "tooth" ; ! no. 97
 bádnedálkod+N+Der/Ag:bádne#dálkodieddje N_EVEN "dentist" ; ! no. 4671
 báhkka:báhkka N_EVEN "warmth, heat" ; ! no. 107
 báhtaramsadje:báhtaram#sadje N_EVEN "refuge" ; ! no. 6081
 báhtar+N+Der/Ag:báhtarieddje N_EVEN "refugee, escapee" ; ! no. 6541
-báhtteriddja:báhtteriddja N_EVEN "battery" ; ! no. 3224
 bájjke:bájjke N_EVEN "area, place" ; ! no. 122
 bájjkenamma:bájjke#namma N_EVEN "place name" ; ! no. 4678
 bákkte:bákkte N_EVEN "cliff" ; ! no. 123
@@ -854,8 +854,8 @@ piera:piera N_EVEN "Per" ; ! no. 4215
 plássá:plássá N_EVEN "downtown" ; ! no. 1348
 pluovve:plu^Ovve N_EVEN "tarn" ; ! no. 1351
 plåhttå:plåhttå N_EVEN "sheet metal" ; ! no. 90296
-prosjäkkta:prosjiekkta N_EVEN "project" ; ! no. 5057
 prunnta:prunnta N_EVEN "water hole, water pit" ; ! no. 1427
+prusjäkkta:prusjiekkta N_EVEN "project" ; ! no. 5057
 påjjkå:påjjkå N_EVEN "boy" ; ! no. 2570
 pänna:pien'na N_EVEN "pen" ; ! no. 1355
 rabma:rabma N_EVEN "little ledge" ; ! no. 6892
@@ -951,7 +951,6 @@ sárrderibbre:sárrde#ribbre N_EVEN "sliced liver" ; ! no. 4522
 sárrge:sárrge N_EVEN "tip of antlers; cut for a reindeer earmark" ; ! no. 2377
 sávve:sáv've N_EVEN "seam" ; ! no. 5271
 sávvtsa:sávvtsa N_EVEN "sheep" ; ! no. 2605
-sidnu:sidnu N_EVEN "grass" ; ! no. 2863
 siedja:siedja N_EVEN "pus" ; ! no. 1524
 siegŋa:siegŋa N_EVEN "nostril" ; ! no. 1525
 siehka:siehka N_EVEN "shade" ; ! no. 5181
@@ -1114,7 +1113,7 @@ susstu:susstu N_EVEN "partially dry pine tree" ; ! no. 4905
 suähppe:su^Ohppe N_EVEN "talented lassoer" ; ! no. 5944
 suäjbme:su^Ojbme N_EVEN "slow person" ; ! no. 2787
 suäjdne:su^Ojdne N_EVEN "hay" ; ! no. 1784
-suäjdnetjuhkkemájjge:suäjdne#tjuhkkem#ájjge N_EVEN "hay harvesting season" ; ! no. 4209
+suäjdnetjuhkkimájjge:suäjdne#tjuhkkim#ájjge N_EVEN "hay harvesting season" ; ! no. 4209
 suärre:su^Or're N_EVEN "certain piece of fat in a reindeer intestine" ; ! no. 90330
 suärrge:su^Orrge N_EVEN "fork (in the road), divide" ; ! no. 1786
 svahka:svahka N_EVEN "packsaddle" ; ! no. 1788
@@ -1842,6 +1841,7 @@ sájjbo:sájjbo N_EVEN_O "soap, detergent" ; ! no. 1492
 sájjvo:sájjvo N_EVEN_O "worshipped underground being" ; ! no. 3797
 sállvo:sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 sámeståhpo:sáme#ståhpo N_EVEN_O "Saami house" ; ! no. 4593
+sidno:sidno N_EVEN_O "grass" ; ! no. 2863
 siehko:siehko N_EVEN_O "small bone in a reindeer hoof" ; ! no. 2854
 siello:siello N_EVEN_O "soul, spirit" ; ! no. 1530
 sisgárrvo:sis#gárrvo N_EVEN_O "underwear" ; ! no. 1549
@@ -2177,7 +2177,7 @@ páhper+Use/NG:páhper N_ODD "paper" ; ! no. 90700
 perun:perun N_ODD "potato" ; ! no. 1346
 plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
-profässor:profä2ssor N_ODD "professor" ; ! no. 4268
+prufässur:prufä2ssur N_ODD "professor" ; ! no. 4268
 pruvnok:pruvnog2 N_ODD "braided rein made of eight leather strips" ; ! no. 4059
 ragak:ragag2 N_ODD "reindeer buck with only one testicle due to a partially failed castration" ; ! no. 90739
 ragat:ragad2 N_ODD "mating, breeding" ; ! no. 90383

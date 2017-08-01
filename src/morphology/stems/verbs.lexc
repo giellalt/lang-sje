@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-07-27T14:50:08+02:00
+! Timestamp: 2017-08-01T11:05:05+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -684,6 +684,7 @@ harrdet:harrd V_EVEN_E "irritate, agitate" ; ! no. 5754
 hásstet:hásst V_EVEN_E "ask someone to come along" ; ! no. 822
 hiejtedahttet:hiejtedahtt V_EVEN_E "wean, quit" ; ! no. 3180
 hålajdahttet:hålajdahtt V_EVEN_E "address" ; ! no. 853
+hålbmet:hålbm V_EVEN_E "talk" ; ! no. 5109
 häjjtet:hiejjt V_EVEN_E "quit, stop, finish" ; ! no. 2536
 iedjet:iedj V_EVEN_E "mark someone else’s calf" ; ! no. 6552
 ietjájdahttet:ietjájdahtt V_EVEN_E "change, alter" ; ! no. 457
