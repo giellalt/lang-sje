@@ -16,38 +16,42 @@
 
 LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
-!A_BLAAVVAT_test class:
-blávvat:blávv A_BLAAVVAT_test "blue" ;
-tjáhppat:tjáhpp A_BLAAVVAT_test "black" ;
+!A_1is2at3at class - blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
+blávvat:blávv A_1is2at3at "blue" ;
+tjáhppat:tjáhpp A_1is2at3at "black" ;
 
-!A_AMAS_test class:
-amas:abmas A_AMAS_test "foreign, strange, unknown" ;
+!A_1Y2Y3X class - amas/amas/abmasa/abmasup
+amas:abmas A_1Y2Y3X "foreign, strange, unknown" ;
+ájnas:ájdnas A_1Y2Y3X "urgent" ; ! ájnas / ájnas / ájjnasa
 
-!A_BIVVAL_test class:
-bivval:bivval A_BIVVAL_test "warm" ;
+!A_1is23 class - bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
+bivval:bivval A_1is23 "warm" ;
 
-!A_TJÅSKES_test class:
-tjåskes:tjåsskes A_TJÅSKES_test "cold (weather)" ;
-ájles:ájjles A_TJÅSKES_test "holy" ; ! ájles / ájles / ájjlesa
-ájnas:ájjnas A_TJÅSKES_test "urgent" ; ! ájnas / ájnas / ájjnasa
+!A_1Y2Y3X_V2E2AA class - tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
+tjåskes:tjåsskes A_1Y2Y3X_V2E2AA "cold (weather)" ;
+ájles:ájjles A_1Y2Y3X_V2E2AA "holy" ; ! ájles / ájles / ájjlesa
 
-!A_TJAEHPPE_test class:
-tjähppe:tjiehppe A_TJAEHPPE_test "clever" ;
+!A_1sY2X3Y class - tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
+tjähppe:tjiehppe A_1sY2X3Y "clever" ;
 
-!A_BÅNNDAA_test class:
-bånndá:bånndá A_BÅNNDAA_test "rich" ;
+!A_1Y2X3Y_j class - båndá/bånndá/båndá/båndáp/båndájmus-
+bånndá:bånndá A_1Y2X3Y_j "rich" ;
 
-!A_BAAHKAS_test class:
-báhkas:báhkka A_BAAHKAS_test "hot" ;
+!A_1Y2sY3sX class - báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
+báhkas:báhkka A_1Y2sY3sX "hot" ;
 
-!A_TJAABBE_test class:
-tjábbe:tjább A_TJAABBE_test "beautiful" ;
+!A_1a2e3e_j tjábba/tjábbe/tjábbap/tjäbbijmus-
+tjábbe:tjább A_1a2e3e_j "beautiful" ;
 
-!A_AALLKE_test class:
-állke:állke A_AALLKE_test "easy" ;
+!A_1sX2X3X class - állkes/állke/állke/állkep/állkemus-
+állke:állke A_1sX2X3X "easy" ;
 
-!A_BUOSSJE_test class:
-buossje:bu^Ossje A_BUOSSJE_test "fearless" ;
+!A_1sY2X3Y_j class - buosjes/buossje/buosje/buosjep/busjijmus-
+buossje:bu^Ossje A_1sY2X3Y_j "fearless" ;
+
+!A_1s2bme3me class - tjalmedis/tjalmedibme/tjalmedime/?/?-
+tjalmedibme:tjalmed A_1s2bme3me "blind" ;
+
 
 
 
@@ -117,7 +121,7 @@ gaŋŋadibme A_EVEN_0 ; !bm:m attr. gaŋŋadis
 gullogis:gullogiss A_EVEN_4 ;
 sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis
 suddulatj:suddulatj A_EVEN_D ;
-tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
+!tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
 tjerrulis:tjerruliss A_EVEN_4 ;
 unugis:unugiss A_EVEN_4 ;
 vigedibme A_EVEN_0 ; !bm:m attr. vigedis

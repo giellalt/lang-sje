@@ -20,116 +20,145 @@
 !
 ! Josh's testing:
 !
+!reasoning/patterning behind Adj-class naming scheme:
+! A_(#SG)x3_j
+! 
+! where:
+! A_ = adjective
+! # = form number: 1-ATTR, 2-SG, 3-PL
+! S = suffix (when relevant for that form)
+! G = grade: X-strong, Y-weak (when relevant for that form)
+! _j = superlative forms with -jmus (optional)
+! _2 = stage two (where COMP/SUPERL are added)
+! 
+! e.g.:
+! 
+! A_1is2at3at for blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
+! A_1Y2Y3X for amas/amas/abmasa/abmasup
+! A_1is23 for bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
+
 
 ! positive form rules (based on PRED.SG as basic form)
-LEXICON A_BLAAVVAT_test ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
+LEXICON A_1is2at3at ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
 +A+Attr:i%>s # ;
-+A:ad2 A_BLAAVVAT_s2_test ; 
++A:ad2 A_1is2at3at_s2 ; 
 
-LEXICON A_BLAAVVAT_s2_test 
+LEXICON A_1is2at3at_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>a K ; 
 +Comp:%>ub2 A_ODD_X_COMP_test ;
 +Superl:%>ubmos A_ODD_X_SUP_test ;
 
 
-LEXICON A_AMAS_test ! amas/amas/abmasa/abmasup
+LEXICON A_1Y2Y3X ! amas/amas/abmasa/abmasup
 +A+Attr:^WG%>0 # ;
-+A: A_AMAS_s2_test ; 
++A: A_1Y2Y3X_s2 ; 
 
-LEXICON A_AMAS_s2_test 
+LEXICON A_1Y2Y3X_s2 
 +Sg+Nom:^WG%>0 K ; 
 +Pl+Nom:%>a K ; 
 +Comp:%>ub2 A_ODD_X_COMP_test ;
 +Superl:%>ubmos A_ODD_X_SUP_test ;
 
 
-LEXICON A_BIVVAL_test ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
+LEXICON A_1is23 ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 +A+Attr:%>is # ;
-+A: A_BIVVAL_s2_test ; 
++A: A_1is23_s2 ; 
 
-LEXICON A_BIVVAL_s2_test 
+LEXICON A_1is23_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>a K ; 
 +Comp:%>ub2 A_ODD_X_COMP_test ;
 +Superl:%>ubmos A_ODD_X_SUP_test ;
 
 
-LEXICON A_TJÅSKES_test ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
+LEXICON A_1Y2Y3X_V2E2AA ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
 +A+Attr:^WG%>0 # ;
-+A: A_TJÅSKES_s2_test ; 
++A: A_1Y2Y3X_V2E2AA_s2 ; 
 
-LEXICON A_TJÅSKES_s2_test 
+LEXICON A_1Y2Y3X_V2E2AA_s2 
 +Sg+Nom:^WG%>0 K ; 
 +Pl+Nom:^V2E2AA%>a K ; 
 +Comp:^V2E2AA%>ub2 A_ODD_X_COMP_test ;
 +Superl:^V2E2AA%>ubmos A_ODD_X_SUP_test ;
 
 
-LEXICON A_TJAEHPPE_test ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
+LEXICON A_1sY2X3Y ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A+Attr:^WG%>s # ;
-+A: A_TJAEHPPE_s2_test ; 
++A: A_1sY2X3Y_s2 ; 
 
-LEXICON A_TJAEHPPE_s2_test 
+LEXICON A_1sY2X3Y_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:^WG%>0 K ; 
 +Comp:^WG%>b2 A_ODD_X_COMP_test ;
 +Superl:^WG%>mus A_EVEN_X_SUP_test ;
 
 
-LEXICON A_AALLKE_test ! állkes/állke/állke/állkep/állkemus-
+LEXICON A_1sX2X3X ! állkes/állke/állke/állkep/állkemus-
 +A+Attr:%>s # ;
-+A: A_AALLKE_s2_test ; 
++A: A_1sX2X3X_s2 ; 
 
-LEXICON A_AALLKE_s2_test 
+LEXICON A_1sX2X3X_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>0 K ; 
 +Comp:%>b2 A_ODD_X_COMP_test ;
 +Superl:%>mus A_EVEN_X_SUP_test ;
 
 
-LEXICON A_BÅNNDAA_test ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
+LEXICON A_1Y2X3Y_j ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
 +A+Attr:^WG%>0 # ;
-+A: A_BÅNNDAA_s2_test ; 
++A: A_1Y2X3Y_j_s2 ; 
 
-LEXICON A_BÅNNDAA_s2_test 
+LEXICON A_1Y2X3Y_j_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:^WG%>0 K ; 
 +Comp:^WG%>b2 A_ODD_X_COMP_test ;
 +Superl:^WG%>jmus A_EVEN_X_SUP_test ;
 
 
-LEXICON A_BAAHKAS_test ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
+LEXICON A_1Y2sY3sX ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
 +A+Attr:^WG%>0 # ;
-+A: A_BAAHKAS_s2_test ; 
++A: A_1Y2sY3sX_s2 ; 
 
-LEXICON A_BAAHKAS_s2_test 
+LEXICON A_1Y2sY3sX_s2 
 +Sg+Nom:s^WG%>0 K ; 
 +Pl+Nom:s%>a K ; 
 +Comp:s%>ub2 A_ODD_X_COMP_test ;
 +Superl:s%>ubmos A_ODD_X_SUP_test ;
 
 
-LEXICON A_TJAABBE_test ! tjábba/tjábbe/tjábbap/tjäbbijmus-
+LEXICON A_1a2e3e_j ! tjábba/tjábbe/tjábbap/tjäbbijmus-
 +A+Attr:a%>0 # ;
-+A: A_TJAABBE_s2_test ; 
++A: A_1a2e3e_j_s2 ; 
 
-LEXICON A_TJAABBE_s2_test 
+LEXICON A_1a2e3e_j_s2 
 +Sg+Nom:e%>0 K ; 
 +Pl+Nom:e%>0 K ; 
 +Comp:a%>b2 A_ODD_X_COMP_test ;
 +Superl:i%>jmus A_EVEN_X_SUP_test ;
 
 
-LEXICON A_BUOSSJE_test ! buosjes/buossje/buosje/buosjep/busjijmus-
+LEXICON A_1sY2X3Y_j ! buosjes/buossje/buosje/buosjep/busjijmus-
 +A+Attr:^WG%>s # ;
-+A: A_BUOSSJE_s2_test ; 
++A: A_1sY2X3Y_j_s2 ; 
 
-LEXICON A_BUOSSJE_s2_test 
+LEXICON A_1sY2X3Y_j_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:^WG%>0 K ; 
 +Comp:^WG%>b2 A_ODD_X_COMP_test ;
 +Superl:^WG^IJ%>jmus A_EVEN_X_SUP_test ;
+
+
+
+LEXICON A_1s2bme3me ! tjalmedis/tjalmedibme/tjalmedime/?/?-
++A+Attr:%>is # ;
++A:%>ibme A_1s2bme3me_s2 ; 
+
+LEXICON A_1s2bme3me_s2 
++Sg+Nom: K ; 
++Pl+Nom:^WG K ; 
+!+Comp:^WG%>b2 A_ODD_X_COMP_test ;
+!+Superl:^WG^IJ%>jmus A_EVEN_X_SUP_test ;
 
 
 !
