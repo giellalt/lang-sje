@@ -83,6 +83,19 @@ LEXICON A_1Y2Y3X_V2E2AA_s2
 +Superl:^V2E2AA%>ubmos A_ODD_X_SUP_test ;
 
 
+
+LEXICON A_1is2is3as_ISA ! asedis / asedis / asedasa / asedup / asedumos/-bmus-
++A+Attr:is%>0 # ;
++A: A_1is2is3as_ISA_s2 ; 
+
+LEXICON A_1is2is3as_ISA_s2 
++Sg+Nom:is%>0 K ; 
++Pl+Nom:as%>a K ; 
++Comp:%>ub2 A_ODD_X_COMP_test ;
++Superl:%>ubmos A_ODD_X_SUP_test ;
+
+
+
 LEXICON A_1sY2X3Y ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A+Attr:^WG%>s # ;
 +A: A_1sY2X3Y_s2 ; 
@@ -171,14 +184,17 @@ LEXICON A_ODD_X_COMP_test !stem to which this is affixed is ODD (or EVEN! - mayb
 +Pl+Nom:%>a # ;
 
 LEXICON A_ODD_X_SUP_test !stem to which this is affixed is ODD
-+Attr: # ;
-+Sg+Nom: # ;
++Attr:^WG # ;
++Sg+Nom:^WG # ;
 +Pl+Nom:^V2O2U%>a # ;
 
 LEXICON A_EVEN_X_SUP_test !stem to which this is affixed is EVEN
 +Attr: # ;
 +Sg+Nom: # ;
 +Pl+Nom:%>a # ;
+
+
+
 
 
 

@@ -16,44 +16,38 @@
 
 LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
 
-!A_1is2at3at class - blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
-blávvat:blávv A_1is2at3at "blue" ;
+blávvat:blávv A_1is2at3at "blue" ; ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
 tjáhppat:tjáhpp A_1is2at3at "black" ;
 
-!A_1Y2Y3X class - amas/amas/abmasa/abmasup
-amas:abmas A_1Y2Y3X "foreign, strange, unknown" ;
+amas:abmas A_1Y2Y3X "foreign, strange, unknown" ; ! amas/amas/abmasa/abmasup
 ájnas:ájdnas A_1Y2Y3X "urgent" ; ! ájnas / ájnas / ájjnasa
 
-!A_1Y2Y3X_V2E2AA class - tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
-tjåskes:tjåsskes A_1Y2Y3X_V2E2AA "cold (weather)" ;
-ájles:ájjles A_1Y2Y3X_V2E2AA "holy" ; ! ájles / ájles / ájjlesa
+tjåskes:tjåsskes A_1Y2Y3X_V2E2AA "cold (weather)" ; ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
+ájles:ájjles A_1Y2Y3X_V2E2AA "holy" ; ! ájles / ájles / ájjlása
 
-!A_1is23 class - bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
-bivval:bivval A_1is23 "warm" ;
+asedis:ased A_1is2is3as_ISA "thin" ; ! asedis / asedis / asedása / asedup / asedumos
 
-!A_1sY2X3Y class - tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
-tjähppe:tjiehppe A_1sY2X3Y "clever" ;
+bivval:bivval A_1is23 "warm" ; ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 
-!A_1Y2X3Y_j class - båndá/bånndá/båndá/båndáp/båndájmus-
-bånndá:bånndá A_1Y2X3Y_j "rich" ;
+tjähppe:tjiehppe A_1sY2X3Y "clever" ; ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
+állbe:állbe A_1sY2X3Y "cheap" ;
 
-!A_1Y2sY3sX class - báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
-báhkas:báhkka A_1Y2sY3sX "hot" ;
+bånndá:bånndá A_1Y2X3Y_j "rich" ; ! båndá/bånndá/båndá/båndáp/båndájmus-
 
-!A_1a2e3e_j tjábba/tjábbe/tjábbap/tjäbbijmus-
-tjábbe:tjább A_1a2e3e_j "beautiful" ;
+báhkas:báhkka A_1Y2sY3sX "hot" ; ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
 
-!A_1sX2X3X class - állkes/állke/állke/állkep/állkemus-
-állke:állke A_1sX2X3X "easy" ;
+tjábbe:tjább A_1a2e3e_j "beautiful" ; ! tjábba/tjábbe/tjábbap/tjäbbijmus-
 
-!A_1sY2X3Y_j class - buosjes/buossje/buosje/buosjep/busjijmus-
-buossje:bu^Ossje A_1sY2X3Y_j "fearless" ;
+állke:állke A_1sX2X3X "easy" ; ! állkes/állke/állke/állkep/állkemus-
 
-!A_1s2bme3me class - tjalmedis/tjalmedibme/tjalmedime/?/?-
-tjalmedibme:tjalmed A_1s2bme3me "blind" ;
+buossje:bu^Ossje A_1sY2X3Y_j "fearless" ; ! buosjes/buossje/buosje/buosjep/busjijmus-
+
+tjalmedibme:tjalmed A_1s2bme3me "blind" ; ! tjalmedis/tjalmedibme/tjalmedime/?/?-
 
 
 
+
+! original lemmas from A-C and Trond:
 
 ! komparering framför vissa j- former verkar ej fungera
 
@@ -141,7 +135,7 @@ allak:all A_ODD_TT ;
 allak:alla A_ODD_Q ;
 !amás:a A_ODD_Ö ;
 árvas:árv A_ODD_GG ;
-aset:ase A_ODD_DIS ;
+!aset:ase A_ODD_DIS ;
 ávos A_ODD_Å ;
 basstel A_ODD_Å ;
 !báhkas:báhk A_ODD_G ;
