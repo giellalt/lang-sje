@@ -24,12 +24,12 @@ tjáhppat:tjáhpp A_1is2at3at "black" ;
 amas:abmas A_1Y2Y3X "foreign, strange, unknown" ;
 ájnas:ájdnas A_1Y2Y3X "urgent" ; ! ájnas / ájnas / ájjnasa
 
-!A_1is23 class - bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
-bivval:bivval A_1is23 "warm" ;
-
 !A_1Y2Y3X_V2E2AA class - tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
 tjåskes:tjåsskes A_1Y2Y3X_V2E2AA "cold (weather)" ;
 ájles:ájjles A_1Y2Y3X_V2E2AA "holy" ; ! ájles / ájles / ájjlesa
+
+!A_1is23 class - bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
+bivval:bivval A_1is23 "warm" ;
 
 !A_1sY2X3Y class - tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 tjähppe:tjiehppe A_1sY2X3Y "clever" ;
