@@ -77,7 +77,7 @@ LEXICON A_ASEDIS_s2
 +Superl:%>ubmos A_ODD_X_SUP ;
 
 
-
+!check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
 LEXICON A_TJAEHPPE ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A+Attr:^WG%>s # ;
 +A: A_TJAEHPPE_s2 ; 
@@ -133,6 +133,7 @@ LEXICON A_TJAABBE_s2
 +Superl:i%>jmus A_EVEN_X_SUP ;
 
 
+!check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
 LEXICON A_BUOSSJE ! buosjes/buossje/buosje/buosjep/busjijmus-
 +A+Attr:^WG%>s # ;
 +A: A_BUOSSJE_s2 ; 
@@ -154,6 +155,18 @@ LEXICON A_xDIBME_s2
 +Pl+Nom:^WG K ; 
 !+Comp:^WG%>b2 A_ODD_X_COMP ;
 !+Superl:^WG^IJ%>jmus A_EVEN_X_SUP ;
+
+
+LEXICON A_BAOSSTOT ! båsto/båsstot/båsstoda/?p/?mos
++A+Attr:^WG%> # ;
++A:d2 A_BAOSSTOT_s2 ; 
+
+LEXICON A_BAOSSTOT_s2 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>a K ; 
+!+Comp:%>ub2 A_ODD_X_COMP ;
+!+Superl:%>ubmos A_ODD_X_SUP ;
+
 
 
 !
