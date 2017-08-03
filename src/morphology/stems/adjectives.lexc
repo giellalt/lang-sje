@@ -12,39 +12,43 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! !!!Pite Saami adjectives
+!! !!!Pite Saami Adjectives
 
-LEXICON Adjective   !!= * __@CODE@__ is the list of adjectives
+LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 
-blávvat:blávv A_1is2at3at "blue" ; ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
-tjáhppat:tjáhpp A_1is2at3at "black" ;
+!! !!Lexc inflectional classes (Mini-grammar)
 
-amas:abmas A_1Y2Y3X "foreign, strange, unknown" ; ! amas/amas/abmasa/abmasup
-ájnas:ájdnas A_1Y2Y3X "urgent" ; ! ájnas / ájnas / ájjnasa
+! adjective classes are named after a prototypical adjective
 
-tjåskes:tjåsskes A_1Y2Y3X_V2E2AA "cold (weather)" ; ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
-ájles:ájjles A_1Y2Y3X_V2E2AA "holy" ; ! ájles / ájles / ájjlása
-
-asedis:ased A_1is2is3as_ISA "thin" ; ! asedis / asedis / asedása / asedup / asedumos
-
-bivval:bivval A_1is23 "warm" ; ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
-
-tjähppe:tjiehppe A_1sY2X3Y "clever" ; ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
-állbe:állbe A_1sY2X3Y "cheap" ;
-
-bånndá:bånndá A_1Y2X3Y_j "rich" ; ! båndá/bånndá/båndá/båndáp/båndájmus-
-
-báhkas:báhkka A_1Y2sY3sX "hot" ; ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
-
-tjábbe:tjább A_1a2e3e_j "beautiful" ; ! tjábba/tjábbe/tjábbap/tjäbbijmus-
-
-állke:állke A_1sX2X3X "easy" ; ! állkes/állke/állke/állkep/állkemus-
-
-buossje:bu^Ossje A_1sY2X3Y_j "fearless" ; ! buosjes/buossje/buosje/buosjep/busjijmus-
-
-tjalmedibme:tjalmed A_1s2bme3me "blind" ; ! tjalmedis/tjalmedibme/tjalmedime/?/?-
-
-
+állke:állke A_AALLKE "easy, simple" ; ! no. 53
+bahá:bahá A_AALLKE "evil" ; ! no. 101
+amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
+ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
+asedis:asedis A_ASEDIS "thin" ; ! no. 2704
+báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
+bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
+bivval:bivval A_BIVVAL "warm" ; ! no. 192
+blávvat:blávv A_BLAAVAT "blue" ; ! no. 195
+tjáhppat:tjáhpp A_BLAAVAT "black" ; ! no. 1860
+buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
+tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
+állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
+tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
+ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
+tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
+bargodibme:bargod A_xDIBME "unemployed" ; ! no. 3130
+bánedibme:báned A_xDIBME "toothless" ; ! no. 5281
+bådnedibme:bådned A_xDIBME "bottomless" ; ! no. 3397
+dåssjedibme:dåssjed A_xDIBME "unnecessary" ; ! no. 4744
+fámodibme:fámod A_xDIBME "powerless" ; ! no. 5200
+gaŋnadibme:gaŋnad A_xDIBME "useless" ; ! no. 537
+mujtodibme:mujtod A_xDIBME "forgetful" ; ! no. 5730
+sjávodibme:sjávod A_xDIBME "taciturn, reticent" ; ! no. 3993
+skábmodibme:skábmod A_xDIBME "unabashed" ; ! no. 5775
+tjalmedibme:tjalmed A_xDIBME "blind" ; ! no. 6622
+vielgedibme:vielged A_xDIBME "debt-free" ; ! no. 6137
+vigedibme:viged A_xDIBME "without mistakes" ; ! no. 4050
+vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 
 
 ! original lemmas from A-C and Trond:
