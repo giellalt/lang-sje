@@ -24,15 +24,22 @@ LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 bahá:bahá A_AALLKE "evil" ; ! no. 101
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
+dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
 asedis:asedis A_ASEDIS "thin" ; ! no. 2704
+balvagis:balvagis A_ASEDIS "cloudy" ; ! no. 4161
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
+båjjtot:båjjtod2 A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
+båsstot+Use/NG:båsstod2 A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
+basstel:basstel A_BIVVAL "sharp (for a knife, scissors etc.)" ; ! no. 3727
 bivval:bivval A_BIVVAL "warm" ; ! no. 192
-blávvat:blávv A_BLAAVAT "blue" ; ! no. 195
-tjáhppat:tjáhpp A_BLAAVAT "black" ; ! no. 1860
+bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
+blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
+tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
+basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
@@ -50,7 +57,6 @@ vielgedibme:vielged A_xDIBME "debt-free" ; ! no. 6137
 vigedibme:viged A_xDIBME "without mistakes" ; ! no. 4050
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 
-
 ! original lemmas from A-C and Trond:
 
 ! komparering framför vissa j- former verkar ej fungera
@@ -58,7 +64,7 @@ vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 !állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
 almelatj:almelatj A_EVEN_D ;
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
-basske A_EVEN_B ;
+!basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
 !buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
@@ -141,7 +147,7 @@ allak:alla A_ODD_Q ;
 árvas:árv A_ODD_GG ;
 !aset:ase A_ODD_DIS ;
 ávos A_ODD_Å ;
-basstel A_ODD_Å ;
+!basstel A_ODD_Å ;
 !báhkas:báhk A_ODD_G ;
 
 bavrek:bavre A_ODD_GIS ;
