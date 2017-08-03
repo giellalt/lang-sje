@@ -186,7 +186,11 @@ IJ "negation verb" ; !!= * @CODE@
 
 !! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
-LEXICON Adjective   !!= * __@CODE@__ is the list
+LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
+
+!! !!Lexc inflectional classes (Mini-grammar)
+
+! adjective classes are named after a prototypical adjective
 
 </xsl:text>
   </xsl:when>
@@ -247,19 +251,19 @@ LEXICON Postposition   !!= * __@CODE@__ is the list
   <xsl:when test="$PoS = 'adj'">
 <xsl:text>
 
-! original SJAGGO-ADJECTIVES:
+! original lemmas from A-C and Trond:
 
 ! komparering framför vissa j- former verkar ej fungera
 
-állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
+!állke A_EVEN_NOCG_S ; !ill. állkáj fungerar ej
 almelatj:almelatj A_EVEN_D ;
 assá A_EVEN_NOCG_S ; !finns i två former assáp, asáp
 basske A_EVEN_B ;
 binna A_EVEN_NOCG_0 ; !funkar delvis
 buorre A_EVEN_0 ;
-buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
+!buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
-bånndá A_EVEN_B ; 
+!bånndá A_EVEN_B ; 
 fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
 guhkke A_EVEN_B ; 
@@ -293,11 +297,11 @@ sjnuttjo A_EVEN_NOCG_S ;
 stuorra A_EVEN_0 ;
 stuorra A_EVEN_IES ; !även predikativ stuor
 sägge:siegge A_EVEN_NOCG_SS ; !siegges, omljud fungerar ej, ej heller kasusböjn. framför j
-tjábbe:tjábbe A_EVEN_BB ; !
+!tjábbe:tjábbe A_EVEN_BB ; !
 tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 
-tjähppe:tjiehppe A_EVEN_B ; !
+!tjähppe:tjiehppe A_EVEN_B ; !
 uhttse A_EVEN_B ; !
 unne A_EVEN_BB ; !superlativ funkar ej
 vájjve A_EVEN_B ;
@@ -314,7 +318,7 @@ gaŋŋadibme A_EVEN_0 ; !bm:m attr. gaŋŋadis
 gullogis:gullogiss A_EVEN_4 ;
 sjávodibme A_EVEN_0 ; !bm:m attr. sjávodis
 suddulatj:suddulatj A_EVEN_D ;
-tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
+!tjalmedibme A_EVEN_0 ; !bm:m attr. tjalmedis
 tjerrulis:tjerruliss A_EVEN_4 ;
 unugis:unugiss A_EVEN_4 ;
 vigedibme A_EVEN_0 ; !bm:m attr. vigedis
@@ -323,16 +327,16 @@ vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 
 allak:all A_ODD_TT ;
 allak:alla A_ODD_Q ;
-amás:a A_ODD_Ö ;
+!amás:a A_ODD_Ö ;
 árvas:árv A_ODD_GG ;
-aset:ase A_ODD_DIS ;
+!aset:ase A_ODD_DIS ;
 ávos A_ODD_Å ;
 basstel A_ODD_Å ;
-báhkas:báhk A_ODD_G ;
+!báhkas:báhk A_ODD_G ;
 
 bavrek:bavre A_ODD_GIS ;
-bivval A_ODD ;
-blávvat:blávv A_ODD_S ;
+!bivval A_ODD ;
+!blávvat:blávv A_ODD_S ;
 buorak:buora A_ODD_GIS ;
 buorremielak:buorremiela A_ODD_Z ;
 dájgas:dájg A_ODD_ZZ ;
@@ -403,7 +407,7 @@ suojmas:su A_ODD_XX ;
 suojmas:su A_ODD_YY ; 
 suojmuk:suojmu A_ODD_GIS ;
 såmes:så A_ODD_B ;
-tjáhppat:tj A_ODD_T ; 
+!tjáhppat:tj A_ODD_T ; 
 tjuavvgat:tju A_ODD_Y ;
 tjalmak:tjalma A_ODD_GIS ;
 
@@ -413,8 +417,8 @@ tjavdes:tjav A_ODD_C ;
 tjiegŋal A_ODD ;
 tjielgos:tj A_ODD_II ;
 tjurguk:tjurgu A_ODD_GIS ;
-tjåskes:tjås A_ODD_D ;
-tjåskes:tjås A_ODD_JIS ; 
+!tjåskes:tjås A_ODD_D ;
+!tjåskes:tjås A_ODD_JIS ; 
 vájbas:váj A_ODD_PP ;
 várrok:várro A_ODD_GIS ;
 vassjal A_ODD ;
@@ -425,7 +429,7 @@ vällgat:v A_ODD_VV ;
 åhpes:åhp A_ODD_E ;
 åvros A_ODD_Å ;
 
-buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
+!buässjáj:bu A_EVEN_KONTR_F ; !även jämnstavig buossje:buosje fungerar
 gärrgáj:gärrgá A_EVEN_KONTR_B ; !
 hålláj:hållá A_EVEN_KONTR_B ; !fungerar
 låmmsje:låm A_EVEN_KONTR_D ; !fungerar
