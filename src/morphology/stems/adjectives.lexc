@@ -37,6 +37,9 @@ bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
 blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
 tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
+dievas:dievva A_DIMES "full" ; ! no. 2628
+dimes:dibme A_DIMES "soft" ; ! no. 374
+duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
 basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
@@ -56,6 +59,7 @@ tjalmedibme:tjalmed A_xDIBME "blind" ; ! no. 6622
 vielgedibme:vielged A_xDIBME "debt-free" ; ! no. 6137
 vigedibme:viged A_xDIBME "without mistakes" ; ! no. 4050
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
+
 
 ! original lemmas from A-C and Trond:
 
@@ -156,8 +160,8 @@ bavrek:bavre A_ODD_GIS ;
 buorak:buora A_ODD_GIS ;
 buorremielak:buorremiela A_ODD_Z ;
 dájgas:dájg A_ODD_ZZ ;
-dimes:di A_ODD_H ;
-dimes:di A_ODD_HA ; 
+!dimes:di A_ODD_H ;
+!dimes:di A_ODD_HA ; 
 dulutj A_ODD_Å ;
 
 gájvas:gáj A_ODD_BB ;
