@@ -28,7 +28,9 @@ dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
 divras:divvras A_AMAS "expensive" ; ! no. 2977
 asedis:ased A_ASEDIS "thin" ; ! no. 2704
 balvagis:balvag A_ASEDIS "cloudy" ; ! no. 4161
+durrulis:durrul A_ASEDIS "belligerent" ; ! no. 3455
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
+garras:gar'ra A_BAAHKAS "hard" ; ! no. 90186
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
 båjjtot:båjjto A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
 båsstot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
@@ -38,12 +40,15 @@ bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
 blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
 tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
+gähppe:giehppe A_BUOSSJE "light" ; ! no. 782
 dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
+galmas:galbma A_GALMAS "cold" ; ! no. 90123
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
 basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
+fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
 dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
@@ -62,7 +67,6 @@ vielgedibme:vielged A_xDIBME "debt-free" ; ! no. 6137
 vigedibme:viged A_xDIBME "without mistakes" ; ! no. 4050
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 
-
 ! original lemmas from A-C and Trond:
 
 ! komparering framför vissa j- former verkar ej fungera
@@ -76,12 +80,12 @@ buorre A_EVEN_0 ;
 !buässje A_EVEN_B ; !alternativ kontrakt form buässjaj:buässja-/buosjes (attr)
 buäjjde A_EVEN_B ;
 !bånndá A_EVEN_B ; 
-fávvro A_EVEN_B ;
+!fávvro A_EVEN_B ;
 gárrtje A_EVEN_B ;
 guhkke A_EVEN_B ; 
 gåbbde A_EVEN_B ;
 gädtse:giedtse A_EVEN_NOCG_SS ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos
-gähppe A_EVEN_B ;
+!gähppe A_EVEN_B ;
 gävvra A_EVEN_B ;
 hárrge A_EVEN_B ;
 hávvske A_EVEN_B ;
@@ -167,9 +171,9 @@ dájgas:dájg A_ODD_ZZ ;
 dulutj A_ODD_Å ;
 
 gájvas:gáj A_ODD_BB ;
-galmas:gal A_ODD_M ;
-galmas:gal A_ODD_N ;
-garras:garra A_ODD_KK ;
+!galmas:gal A_ODD_M ;
+!galmas:gal A_ODD_N ;
+!garras:garra A_ODD_KK ;
 gassak:gassa A_ODD_Q ;
 gassak:gass A_ODD_HIS ;
 gieres:g A_ODD_CC ;
