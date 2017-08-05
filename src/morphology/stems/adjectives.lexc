@@ -25,12 +25,13 @@ bahá:bahá A_AALLKE "evil" ; ! no. 101
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
 dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
-asedis:asedis A_ASEDIS "thin" ; ! no. 2704
-balvagis:balvagis A_ASEDIS "cloudy" ; ! no. 4161
+divras:divvras A_AMAS "expensive" ; ! no. 2977
+asedis:ased A_ASEDIS "thin" ; ! no. 2704
+balvagis:balvag A_ASEDIS "cloudy" ; ! no. 4161
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
-båjjtot:båjjtod2 A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
-båsstot+Use/NG:båsstod2 A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
+båjjtot:båjjto A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
+båsstot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
 basstel:basstel A_BIVVAL "sharp (for a knife, scissors etc.)" ; ! no. 3727
 bivval:bivval A_BIVVAL "warm" ; ! no. 192
 bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
@@ -45,6 +46,7 @@ tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
+dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
 bargodibme:bargod A_xDIBME "unemployed" ; ! no. 3130
 bánedibme:báned A_xDIBME "toothless" ; ! no. 5281
