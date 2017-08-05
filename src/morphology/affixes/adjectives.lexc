@@ -145,6 +145,7 @@ LEXICON A_BUOSSJE_s2
 +Superl:^WG^IJ A_ODD_jSUP ;
 
 
+!main difference to A_GALMAS is -jSUPERL
 LEXICON A_DIMES ! dibmá/dimes/dibmása/dibmáp/dibmájmus-
 +A+Attr:%>^V2E2AA # ;
 +A: A_DIMES_s2 ; 
@@ -154,6 +155,18 @@ LEXICON A_DIMES_s2
 +Pl+Nom:%>^V2E2AAsa K ; 
 +Comp: A_ODD_COMP_V2E2AA ;
 +Superl: A_ODD_jSUP_V2E2AA ;
+
+
+!main difference to A_DIMES is no -jSUPERL
+LEXICON A_GALMAS ! galbma/galmas/galbmasa/galbmasup/galbmasumos-
++A+Attr:%> # ;
++A: A_GALMAS_s2 ; 
+
+LEXICON A_GALMAS_s2 
++Sg+Nom:^WG%>s K ; 
++Pl+Nom:%>sa K ; 
++Comp:s A_EVEN_COMP ;
++Superl:s A_EVEN_SUP ;
 
 
 
