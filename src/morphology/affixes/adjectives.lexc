@@ -145,6 +145,17 @@ LEXICON A_BUOSSJE_s2
 +Superl:^WG^IJ%>jmus A_EVEN_X_SUP ;
 
 
+LEXICON A_DIMES ! dibmá/dimes/dibmása/dibmáp/dibmájmus-
++A+Attr:%>^V2E2AA # ;
++A: A_DIMES_s2 ; 
+
+LEXICON A_DIMES_s2 
++Sg+Nom:^WG%>s K ; 
++Pl+Nom:%>^V2E2AAsa K ; 
++Comp:%>^V2E2AAb2 A_ODD_X_COMP ;
++Superl:%>^V2E2AAjmus A_EVEN_X_SUP ;
+
+
 
 LEXICON A_xDIBME ! tjalmedis/tjalmedibme/tjalmedime/?/?-
 +A+Attr:%>is # ;
