@@ -28,8 +28,8 @@ LEXICON A_BLAAVVAT ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
 LEXICON A_BLAAVVAT_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>a K ; 
-+Comp:%>ub2 A_ODD_X_COMP ;
-+Superl:%>ubmos A_ODD_X_SUP ;
++Comp: A_EVEN_COMP ;
++Superl: A_EVEN_SUP ;
 
 
 LEXICON A_AMAS ! amas/amas/abmasa/abmasup
@@ -39,8 +39,8 @@ LEXICON A_AMAS ! amas/amas/abmasa/abmasup
 LEXICON A_AMAS_s2 
 +Sg+Nom:^WG%>0 K ; 
 +Pl+Nom:%>a K ; 
-+Comp:%>ub2 A_ODD_X_COMP ;
-+Superl:%>ubmos A_ODD_X_SUP ;
++Comp: A_EVEN_COMP ;
++Superl: A_EVEN_SUP ;
 
 
 LEXICON A_BIVVAL ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
@@ -50,8 +50,8 @@ LEXICON A_BIVVAL ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 LEXICON A_BIVVAL_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>a K ; 
-+Comp:%>ub2 A_ODD_X_COMP ;
-+Superl:%>ubmos A_ODD_X_SUP ;
++Comp: A_EVEN_COMP ;
++Superl: A_EVEN_SUP ;
 
 
 LEXICON A_TJAOSKES ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
@@ -61,9 +61,8 @@ LEXICON A_TJAOSKES ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-
 LEXICON A_TJAOSKES_s2 
 +Sg+Nom:^WG%>0 K ; 
 +Pl+Nom:^V2E2AA%>a K ; 
-+Comp:^V2E2AA%>ub2 A_ODD_X_COMP ;
-+Superl:^V2E2AA%>ubmos A_ODD_X_SUP ;
-
++Comp:^V2E2AA A_EVEN_COMP ;
++Superl:^V2E2AA A_EVEN_SUP ;
 
 
 LEXICON A_ASEDIS ! asedis / asedis / asedasa / asedup / asedumos/-bmus-
@@ -73,8 +72,8 @@ LEXICON A_ASEDIS ! asedis / asedis / asedasa / asedup / asedumos/-bmus-
 LEXICON A_ASEDIS_s2 
 +Sg+Nom:is%>0 K ; 
 +Pl+Nom:as%>a K ; 
-+Comp:%>ub2 A_ODD_X_COMP ;
-+Superl:%>ubmos A_ODD_X_SUP ;
++Comp: A_EVEN_COMP ;
++Superl: A_EVEN_SUP ;
 
 
 !check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
@@ -85,8 +84,8 @@ LEXICON A_TJAEHPPE ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 LEXICON A_TJAEHPPE_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:^WG%>0 K ; 
-+Comp:^WG%>b2 A_ODD_X_COMP ;
-+Superl:^WG%>mus A_EVEN_X_SUP ;
++Comp:^WG A_ODD_COMP ;
++Superl:^WG A_ODD_SUP ;
 
 
 LEXICON A_AALLKE ! állkes/állke/állke/állkep/állkemus-
@@ -96,8 +95,8 @@ LEXICON A_AALLKE ! állkes/állke/állke/állkep/állkemus-
 LEXICON A_AALLKE_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>0 K ; 
-+Comp:%>b2 A_ODD_X_COMP ;
-+Superl:%>mus A_EVEN_X_SUP ;
++Comp: A_ODD_COMP ;
++Superl: A_ODD_SUP ;
 
 
 LEXICON A_BAONNDAA ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
@@ -107,8 +106,8 @@ LEXICON A_BAONNDAA ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tj�
 LEXICON A_BAONNDAA_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:^WG%>0 K ; 
-+Comp:^WG%>b2 A_ODD_X_COMP ;
-+Superl:^WG%>jmus A_EVEN_X_SUP ;
++Comp:^WG A_ODD_COMP ;
++Superl:^WG A_ODD_jSUP ;
 
 
 LEXICON A_BAAHKAS ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
@@ -118,8 +117,8 @@ LEXICON A_BAAHKAS ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
 LEXICON A_BAAHKAS_s2 
 +Sg+Nom:s^WG%>0 K ; 
 +Pl+Nom:s%>a K ; 
-+Comp:s%>ub2 A_ODD_X_COMP ;
-+Superl:s%>ubmos A_ODD_X_SUP ;
++Comp:s A_EVEN_COMP ;
++Superl:s A_EVEN_SUP ;
 
 
 LEXICON A_TJAABBE ! tjábba/tjábbe/tjábbap/tjäbbijmus-
@@ -129,8 +128,9 @@ LEXICON A_TJAABBE ! tjábba/tjábbe/tjábbap/tjäbbijmus-
 LEXICON A_TJAABBE_s2 
 +Sg+Nom:e%>0 K ; 
 +Pl+Nom:e%>0 K ; 
-+Comp:a%>b2 A_ODD_X_COMP ;
-+Superl:i%>jmus A_EVEN_X_SUP ;
++Comp:á A_ODD_COMP ;
++Superl:á A_ODD_jSUP ;
++Superl+Use/NG:i A_ODD_jSUP ;
 
 
 !check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
@@ -141,8 +141,8 @@ LEXICON A_BUOSSJE ! buosjes/buossje/buosje/buosjep/busjijmus-
 LEXICON A_BUOSSJE_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:^WG%>0 K ; 
-+Comp:^WG%>b2 A_ODD_X_COMP ;
-+Superl:^WG^IJ%>jmus A_EVEN_X_SUP ;
++Comp:^WG A_ODD_COMP ;
++Superl:^WG^IJ A_ODD_jSUP ;
 
 
 LEXICON A_DIMES ! dibmá/dimes/dibmása/dibmáp/dibmájmus-
@@ -152,8 +152,8 @@ LEXICON A_DIMES ! dibmá/dimes/dibmása/dibmáp/dibmájmus-
 LEXICON A_DIMES_s2 
 +Sg+Nom:^WG%>s K ; 
 +Pl+Nom:%>^V2E2AAsa K ; 
-+Comp:%>^V2E2AAb2 A_ODD_X_COMP ;
-+Superl:%>^V2E2AAjmus A_EVEN_X_SUP ;
++Comp: A_ODD_COMP_V2E2AA ;
++Superl: A_ODD_jSUP_V2E2AA ;
 
 
 
@@ -164,8 +164,8 @@ LEXICON A_xDIBME ! tjalmedis/tjalmedibme/tjalmedime/?/?-
 LEXICON A_xDIBME_s2 
 +Sg+Nom: K ; 
 +Pl+Nom:^WG K ; 
-!+Comp:^WG%>b2 A_ODD_X_COMP ;
-!+Superl:^WG^IJ%>jmus A_EVEN_X_SUP ;
+!+Comp: A_ODD_COMP ;
+!+Superl: A_ODD_SUP ;
 
 
 LEXICON A_BAOSSTOT ! båsto/båsstot/båsstoda/?p/?mos
@@ -175,29 +175,64 @@ LEXICON A_BAOSSTOT ! båsto/båsstot/båsstoda/?p/?mos
 LEXICON A_BAOSSTOT_s2 
 +Sg+Nom:%>0 K ; 
 +Pl+Nom:%>a K ; 
-!+Comp:%>ub2 A_ODD_X_COMP ;
-!+Superl:%>ubmos A_ODD_X_SUP ;
++Comp: A_EVEN_COMP ;
++Superl: A_EVEN_SUP ;
 
 
 
-!
 ! COMP/SUPERL rules:
-!
+!COMP:
+!if even-syllabled COMP-ATTR wordform and V2 ≠ e, then V2-p in ATTR, SG.NOM, -V2-ba in PL.NOM
+LEXICON A_ODD_COMP
+:%>b2 A_ODD_COMP_s2 ;
 
-LEXICON A_ODD_X_COMP !stem to which this is affixed is ODD (or EVEN! - maybe irrelevant?)
+!if even-syllabled wordform COMP-ATTR and V2 = e, then -á-p in ATTR, SG.NOM, -á-ba in PL.NOM
+LEXICON A_ODD_COMP_V2E2AA 
+:%>^V2E2AAb2 A_EVEN_COMP_s2 ;
+
+LEXICON A_ODD_COMP_s2 
 +Attr: # ;
 +Sg+Nom: # ;
 +Pl+Nom:%>a # ;
 
-LEXICON A_ODD_X_SUP !stem to which this is affixed is ODD
-+Attr:^WG # ;
-+Sg+Nom:^WG # ;
+!if odd-syllabled wordform COMP-ATTR, then -up in ATTR, SG.NOM, -uba/-ubo in PL.NOM (seemingly random for PL.NOM)
+LEXICON A_EVEN_COMP 
+:u%>b2 A_EVEN_COMP_s2 ;
+
+LEXICON A_EVEN_COMP_s2 
++Attr: # ;
++Sg+Nom: # ;
++Pl+Nom:%>o # ;
++Pl+Nom+Use/NG:%>a # ;
+
+
+!SUPERL:
+!if even-syllabled SUPERL-ATTR wordform and V2 = e,å,o sometimes a, then -mus
+LEXICON A_ODD_SUP
+:%>mus A_ODD_SUP_s2 ;
+
+!if even-syllabled SUPERL-ATTR wordform and V2 = á,i, sometimes a, then -jmus
+LEXICON A_ODD_jSUP 
+:%>jmus A_ODD_SUP_s2 ;
+
+!if even-syllabled SUPERL-ATTR wordform and V2 = e, then -ájmus
+LEXICON A_ODD_jSUP_V2E2AA 
+:%>^V2E2AAjmus A_ODD_SUP_s2 ;
+
+LEXICON A_ODD_SUP_s2  
++Attr: # ;
++Sg+Nom: # ;
++Pl+Nom:%>a # ;
+
+
+!if odd-syllabled SUPERL-ATTR wordform, then -umos in ATTR, SG.NOM, -ubmusa in PL.NOM
+LEXICON A_EVEN_SUP 
+:%>ubmos A_EVEN_SUP_s2 ;
+
+LEXICON A_EVEN_SUP_s2 
++Attr:^WG^V2O2U # ;
++Sg+Nom:^WG^V2O2U # ;
 +Pl+Nom:^V2O2U%>a # ;
-
-LEXICON A_EVEN_X_SUP !stem to which this is affixed is EVEN
-+Attr: # ;
-+Sg+Nom: # ;
-+Pl+Nom:%>a # ;
 
 
 
