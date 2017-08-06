@@ -16,7 +16,7 @@ Tests:
      dahkat+V+Ind+Prs+Sg3: dahka
      dahkat+V+Ind+Prs+Du1: dihkin
      dahkat+V+Ind+Prs+Du2: dahkabehtin #, dahkabähtten]
-     dahkat+V+Ind+Prs+Du3: dahkaba
+     dahkat+V+Ind+Prs+Du3: [dahkaba, dahkaban]
      dahkat+V+Ind+Prs+Pl1: dahkap
      dahkat+V+Ind+Prs+Pl2: dahkabehtit #, dahkabähttet]
      dahkat+V+Ind+Prs+Pl3: dihki
@@ -26,7 +26,7 @@ Tests:
      dahkat+V+Ind+Prt+Sg3: dagaj
      dahkat+V+Ind+Prt+Du1: dagajmen
      dahkat+V+Ind+Prt+Du2: dagajden
-     dahkat+V+Ind+Prt+Du3: dagajga
+     dahkat+V+Ind+Prt+Du3: [dagajga, dagajgan]
      dahkat+V+Ind+Prt+Pl1: dagajme
      dahkat+V+Ind+Prt+Pl2: dagajde
      dahkat+V+Ind+Prt+Pl3: dihkin
