@@ -23,7 +23,7 @@ Tests:
     gieres+N+Der/State+N+Pl+Ill: gieresvuodajda
     gieres+N+Der/State+N+Pl+Ine: gieresvuodajn
     gieres+N+Der/State+N+Pl+Ela: [gieresvuodajst, gieresvuodajs]
-    gieres+N+Der/State+N+Pl+Com: gieresvuodaj
+    gieres+N+Der/State+N+Pl+Com: [gieresvuodaj, gieresvuodajgum]
     gieres+N+Der/State+N+Ess: gieresvuohtan
  
  

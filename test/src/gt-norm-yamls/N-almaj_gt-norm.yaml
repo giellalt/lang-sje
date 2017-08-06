@@ -11,21 +11,21 @@ Tests:
 
   Noun - ålmaj: # N_CONTR_AJA (no grade alternations in normative version)
     ålmaj+N+Sg+Nom: ålmaj
-    ålmaj+N+Sg+Gen: ålma
-    ålmaj+N+Sg+Acc: ålmav
-    ålmaj+N+Sg+Ill: ålmaj
-    ålmaj+N+Sg+Ine: ålman
-    ålmaj+N+Sg+Ela: [ålmast, ålmas]
-    ålmaj+N+Sg+Com: ålmajn
-    ålmaj+N+Pl+Nom: ålma
-    ålmaj+N+Pl+Gen: ålmaj
-    ålmaj+N+Pl+Acc: ålmajd
-    ålmaj+N+Pl+Ill: ålmajda
-    ålmaj+N+Pl+Ine: ålmajn
-    ålmaj+N+Pl+Ela: [ålmajst, ålmajs]
-    ålmaj+N+Pl+Com: ålmaj
-    ålmaj+N+Ess: ålman
-    ålmaj+N+Abe: ålmadak
+    ålmaj+N+Sg+Gen: [ålma, ålbma]
+    ålmaj+N+Sg+Acc: [ålmav, ålbmav]
+    ålmaj+N+Sg+Ill: [ålmaj, ålbmaj]
+    ålmaj+N+Sg+Ine: [ålman, ålbman]
+    ålmaj+N+Sg+Ela: [ålmast, ålmas, ålbmast, ålbmas]
+    ålmaj+N+Sg+Com: [ålmajn, ålbmajn]
+    ålmaj+N+Pl+Nom: [ålma, ålbma]
+    ålmaj+N+Pl+Gen: [ålmaj, ålbmaj]
+    ålmaj+N+Pl+Acc: [ålmajd, ålbmajd]
+    ålmaj+N+Pl+Ill: [ålmajda, ålbmajda]
+    ålmaj+N+Pl+Ine: [ålmajn, ålbmajn]
+    ålmaj+N+Pl+Ela: [ålmajst, ålmajs, ålbmajst, ålbmajs]
+    ålmaj+N+Pl+Com: [ålmaj, ålmajgum, ålbmaj, ålbmajgum]
+    ålmaj+N+Ess: [ålman, ålbman]
+    ålmaj+N+Abe: [ålmadak, ålbmadak]
 
 ##I need to deal with this variation later...
 #  Noun - ålmaj: # -kontrakta med stv och utan vokf

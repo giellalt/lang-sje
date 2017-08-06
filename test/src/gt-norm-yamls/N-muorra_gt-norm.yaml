@@ -23,7 +23,7 @@ Tests:
     muorra+N+Pl+Ill: muorajda
     muorra+N+Pl+Ine: muorajn
     muorra+N+Pl+Ela: [muorajst, muorajs]
-    muorra+N+Pl+Com: muoraj
+    muorra+N+Pl+Com: [muoraj, muorajgum]
     muorra+N+Ess: muorran
     muorra+N+Abe: muoradak
 

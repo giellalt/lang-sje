@@ -23,7 +23,7 @@ Tests:
     bierdnes+N+Pl+Ill: bärdnájda
     bierdnes+N+Pl+Ine: bärdnájn
     bierdnes+N+Pl+Ela: [bärdnájst, bärdnájs]
-    bierdnes+N+Pl+Com: bärdnáj
+    bierdnes+N+Pl+Com: [bärdnáj, bärdnájgum]
 #    bierdnes+N+Ess: bärdnán
 #    bierdnes+N+Ess: bierdnán	#not sure what grade (here: umlaut) should be in ESS
 

@@ -23,7 +23,7 @@ Tests:
     biena+N+Pl+Ill: biednagijda
     biena+N+Pl+Ine: biednagijn
     biena+N+Pl+Ela: [biednagijst, biednagijs]
-    biena+N+Pl+Com: biednagij
+    biena+N+Pl+Com: [biednagij, biednagijgum]
     biena+N+Ess: biednagin
     biena+N+Abe: biednagahtá
 
@@ -41,6 +41,6 @@ Tests:
     biena+N+Der/Dim+N+Pl+Ill: biednagatjijda
     biena+N+Der/Dim+N+Pl+Ine: biednagatjijn
     biena+N+Der/Dim+N+Pl+Ela: [biednagatjijst, biednagatjijs]
-    biena+N+Der/Dim+N+Pl+Com: biednagatjij
+    biena+N+Der/Dim+N+Pl+Com: [biednagatjij, biednagatjijgum]
     biena+N+Der/Dim+N+Ess: biednagatjin
  
