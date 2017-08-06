@@ -1,0 +1,69 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Adjektiv - amas: # 
+    amas+A+Attr: amas
+
+    amas+A+Sg+Nom: amas
+    amas+A+Pl+Nom: abmasa
+
+#    amas+A+Sg+Gen: abmasa
+#    amas+A+Sg+Acc: abmasav
+#    amas+A+Sg+Ill: abmasij
+#    amas+A+Sg+Ine: abmasin
+#    amas+A+Sg+Ela: [abmasist, abmasis]
+#    amas+A+Sg+Com: abmasijn
+#    amas+A+Pl+Gen: abmasij
+#    amas+A+Pl+Acc: abmasijd
+#    amas+A+Pl+Ill: abmasijda
+#    amas+A+Pl+Ine: abmasijn
+#    amas+A+Pl+Ela: [abmasijst, abmasijs]
+#    amas+A+Pl+Com: [abmasij, abmasijgum]
+##    amas+A+Ess: abmasan
+
+    amas+A+Comp+Attr: abmasup
+
+    amas+A+Comp+Sg+Nom: abmasup
+    amas+A+Comp+Pl+Nom: [abmasubo, abmasuba]
+
+#    amas+A+Comp+Sg+Gen: abmasubo
+#    amas+A+Comp+Sg+Acc: abmasubov
+#    amas+A+Comp+Sg+Ill: abmasuboj
+#    amas+A+Comp+Sg+Ine: abmasubon
+#    amas+A+Comp+Sg+Ela: [abmasubost, abmasubos]
+#    amas+A+Comp+Sg+Com: [abmasubojn, abmasubojna]
+#    amas+A+Comp+Pl+Gen: abmasuboj
+#    amas+A+Comp+Pl+Acc: abmasubojd
+#    amas+A+Comp+Pl+Ill: abmasubojda
+#    amas+A+Comp+Pl+Ine: abmasubojn
+#    amas+A+Comp+Pl+Ela: [abmasubojst, abmasubojs]
+#    amas+A+Comp+Pl+Com: [abmasuboj, abmasubojgum]
+##    amas+A+Comp+Ess: abmasubon
+
+    amas+A+Superl+Attr: abmasumos
+
+    amas+A+Superl+Sg+Nom: abmasumos
+    amas+A+Superl+Pl+Nom: abmasubmusa
+
+#    amas+A+Superl+Sg+Gen: abmasubmusa
+#    amas+A+Superl+Sg+Acc: abmasubmusav
+#    amas+A+Superl+Sg+Ill: abmasubmusij
+#    amas+A+Superl+Sg+Ine: abmasubmusin
+#    amas+A+Superl+Sg+Ela: [abmasubmusist, abmasubmusis]
+#    amas+A+Superl+Sg+Com: abmasubmusijn
+#    amas+A+Superl+Pl+Gen: abmasubmusij
+#    amas+A+Superl+Pl+Acc: abmasubmusijd
+#    amas+A+Superl+Pl+Ill: abmasubmusijda
+#    amas+A+Superl+Pl+Ine: abmasubmusijn
+#    amas+A+Superl+Pl+Ela: [abmasubmusijst, abmasubmusijs]
+#    amas+A+Superl+Pl+Com: [abmasubmusij, abmasubmusijgum]
+##    amas+A+Superl+Ess: abmasubmusan
+
