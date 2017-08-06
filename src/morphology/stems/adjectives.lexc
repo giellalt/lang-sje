@@ -22,6 +22,7 @@ LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 
 állke:állke A_AALLKE "easy, simple" ; ! no. 53
 bahá:bahá A_AALLKE "evil" ; ! no. 101
+hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
 dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
@@ -45,10 +46,12 @@ dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
+nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
 basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
 fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
+gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
 dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
@@ -86,9 +89,9 @@ guhkke A_EVEN_B ;
 gåbbde A_EVEN_B ;
 gädtse:giedtse A_EVEN_NOCG_SS ; !omljud ä-ie fungerar vid komp men ej kasusböjn. pos
 !gähppe A_EVEN_B ;
-gävvra A_EVEN_B ;
+!gävvra A_EVEN_B ;
 hárrge A_EVEN_B ;
-hávvske A_EVEN_B ;
+!hávvske A_EVEN_B ;
 hiejjo A_EVEN_B ;
 hiedjo A_EVEN_B ;
 hådje A_EVEN_B ;
@@ -102,7 +105,7 @@ låjje A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
 njárrbe A_EVEN_B ;  
-nuorra A_EVEN_0 ;
+!nuorra A_EVEN_0 ;
 nävvre A_EVEN_B ;
 sájjge A_EVEN_B ;
 sávvre A_EVEN_B ;
