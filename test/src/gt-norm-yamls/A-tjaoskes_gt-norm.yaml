@@ -32,7 +32,7 @@ Tests:
     tjåskes+A+Comp+Attr: tjåsskásup
 
     tjåskes+A+Comp+Sg+Nom: tjåsskásup
-    tjåskes+A+Comp+Pl+Nom: tjåsskásubo
+    tjåskes+A+Comp+Pl+Nom: [tjåsskásubo, tjåsskásuba]
 
 #    tjåskes+A+Comp+Sg+Gen: tjåsskásubo
 #    tjåskes+A+Comp+Sg+Acc: tjåsskásubov

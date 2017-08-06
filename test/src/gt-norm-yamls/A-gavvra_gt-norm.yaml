@@ -10,20 +10,22 @@ Config:
 Tests:
 
   Adjektiv - gävvra: # -a-stammar
+    gävvra+A+Attr: [gievras, gievres] #gievras in corpus, gievres in wordlist, the latter needs to be added
+
     gävvra+A+Sg+Nom: gävvra
-    gävvra+A+Attr: gievras
-    gävvra+A+Sg+Gen: gievra
-    gävvra+A+Sg+Acc: gievrav
-    gävvra+A+Sg+Ill: gävvraj
-    gävvra+A+Sg+Ine: gievran
-    gävvra+A+Sg+Ela: gievrast
-    gävvra+A+Sg+Com: gievrajn
     gävvra+A+Pl+Nom: gievra
-    gävvra+A+Pl+Gen: gievraj
-    gävvra+A+Pl+Acc: gievrajt
-    gävvra+A+Pl+Ill: gievrajda
-    gävvra+A+Pl+Ine: gievrajn
-    gävvra+A+Pl+Ela: gievrajst
-    gävvra+A+Pl+Com: gievraj
-    gävvra+A+Ess: gävvran
-    gävvra+A+Abe: gievradak
+
+#    gävvra+A+Sg+Gen: gievra
+#    gävvra+A+Sg+Acc: gievrav
+#    gävvra+A+Sg+Ill: gävvraj
+#    gävvra+A+Sg+Ine: gievran
+#    gävvra+A+Sg+Ela: gievrast
+#    gävvra+A+Sg+Com: gievrajn
+#    gävvra+A+Pl+Gen: gievraj
+#    gävvra+A+Pl+Acc: gievrajt
+#    gävvra+A+Pl+Ill: gievrajda
+#    gävvra+A+Pl+Ine: gievrajn
+#    gävvra+A+Pl+Ela: gievrajst
+#    gävvra+A+Pl+Com: gievraj
+#    gävvra+A+Ess: gävvran
+#    gävvra+A+Abe: gievradak

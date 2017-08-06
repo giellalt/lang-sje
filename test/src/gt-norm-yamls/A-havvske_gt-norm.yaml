@@ -10,37 +10,47 @@ Config:
 Tests:
 
 
-  Adjektiv - hávvske: # -e-stammar
-    hávvske+A+Sg+Nom: hávvske
-    hávvske+A+Attr: hávskes
-    hávvske+A+Sg+Gen: hávske
-    hávvske+A+Sg+Acc: hávskev
-    hávvske+A+Sg+Ill: hávvskáj
-    hávvske+A+Sg+Ine: hávsken
-    hávvske+A+Sg+Ela: hávskest
-    hávvske+A+Sg+Com: hávskijn
-    hávvske+A+Pl+Nom: hávske
-    hávvske+A+Pl+Gen: hávskij
-    hávvske+A+Pl+Acc: hávskijt
-    hávvske+A+Pl+Ill: hávskijda
-    hávvske+A+Pl+Ine: hávskijn
-    hávvske+A+Pl+Ela: hávskijst
-    hávvske+A+Pl+Com: hávskij
-    hávvske+A+Ess: hávvsken
-    hávvske+A+Comp+Sg+Nom: hávskep
-    hávvske+A+Comp+Attr: hávskep
-    hávvske+A+Comp+Sg+Gen: hávskebu
-    hávvske+A+Comp+Sg+Acc: hávskebuv
-    hávvske+A+Comp+Sg+Ill: hávskebuj
-    hávvske+A+Comp+Sg+Ine: hávskebun
-    hávvske+A+Comp+Sg+Ela: hávskebust
-    hávvske+A+Comp+Sg+Com: hávskebujn
-    hávvske+A+Comp+Pl+Nom: hávskebu
-    hávvske+A+Comp+Pl+Gen: hávskebuj
-    hávvske+A+Comp+Pl+Acc: hávskebujt
-    hávvske+A+Comp+Pl+Ill: hávskebujda
-    hávvske+A+Comp+Pl+Ine: hávskebujn
-    hávvske+A+Comp+Pl+Ela: hávskebujst
-    hávvske+A+Comp+Pl+Com: hávskebuj
-    hávvske+A+Comp+Ess: hávskebun
+  Adjektiv - hávvske: # A_AALLKE
 
+    hávvske+A+Attr: hávvskes
+
+    hávvske+A+Sg+Nom: hávvske
+    hávvske+A+Pl+Nom: hávvske
+
+#    hávvske+A+Sg+Gen: hávvske
+#    hávvske+A+Sg+Acc: hávvskev
+#    hávvske+A+Sg+Ill: hávvskáj
+#    hávvske+A+Sg+Ine: hávvsken
+#    hávvske+A+Sg+Ela: hávvskest
+#    hávvske+A+Sg+Com: hávskijn
+#    hávvske+A+Pl+Gen: hávskij
+#    hávvske+A+Pl+Acc: hávskijt
+#    hávvske+A+Pl+Ill: hávskijda
+#    hávvske+A+Pl+Ine: hávskijn
+#    hávvske+A+Pl+Ela: hávskijst
+#    hávvske+A+Pl+Com: hávskij
+#    hávvske+A+Ess: hávvsken
+
+    hávvske+A+Comp+Attr: hávvskep
+
+    hávvske+A+Comp+Sg+Nom: hávvskep
+    hávvske+A+Comp+Pl+Nom: hávvskeba
+
+#    hávvske+A+Comp+Sg+Gen: hávvskebu
+#    hávvske+A+Comp+Sg+Acc: hávvskebuv
+#    hávvske+A+Comp+Sg+Ill: hávvskebuj
+#    hávvske+A+Comp+Sg+Ine: hávvskebun
+#    hávvske+A+Comp+Sg+Ela: hávvskebust
+#    hávvske+A+Comp+Sg+Com: hávvskebujn
+#    hávvske+A+Comp+Pl+Gen: hávvskebuj
+#    hávvske+A+Comp+Pl+Acc: hávvskebujt
+#    hávvske+A+Comp+Pl+Ill: hávvskebujda
+#    hávvske+A+Comp+Pl+Ine: hávvskebujn
+#    hávvske+A+Comp+Pl+Ela: hávvskebujst
+#    hávvske+A+Comp+Pl+Com: hávvskebuj
+#    hávvske+A+Comp+Ess: hávvskebun
+
+    hávvske+A+Superl+Attr: hávvskemus
+
+    hávvske+A+Superl+Sg+Nom: hávvskemus
+    hávvske+A+Superl+Pl+Nom: hávvskemusa

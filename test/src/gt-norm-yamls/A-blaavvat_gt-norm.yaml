@@ -14,17 +14,17 @@ Tests:
     blávvat+A+Attr: blävvis
 
     blávvat+A+Sg+Nom: blávvat
-    blávvat+A+Pl+Nom: blavvada
+    blávvat+A+Pl+Nom: blávvada
 
 
-    blávvat+A+Comp+Attr: blavvadup
+    blávvat+A+Comp+Attr: blávvadup
 
-    blávvat+A+Comp+Sg+Nom: blavvadup
-    blávvat+A+Comp+Pl+Nom: [blavvadubo, blavvaduba]
-#    blávvat+A+Comp+Pl+Nom+Use/NG: blavvaduba
+    blávvat+A+Comp+Sg+Nom: blávvadup
+    blávvat+A+Comp+Pl+Nom: [blávvadubo, blávvaduba]
+#    blávvat+A+Comp+Pl+Nom+Use/NG: blávvaduba
 
 
-    blávvat+A+Superl+Attr: blavvadumos
+    blávvat+A+Superl+Attr: blávvadumos
 
-    blávvat+A+Superl+Sg+Nom: blavvadumos
-    blávvat+A+Superl+Pl+Nom: blavvadubmusa
+    blávvat+A+Superl+Sg+Nom: blávvadumos
+    blávvat+A+Superl+Pl+Nom: blávvadubmusa

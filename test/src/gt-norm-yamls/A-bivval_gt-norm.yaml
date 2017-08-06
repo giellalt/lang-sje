@@ -16,39 +16,39 @@ Tests:
     bivval+A+Sg+Nom: bivval
     bivval+A+Pl+Nom: bivvala
 
-    bivval+A+Sg+Gen: bivvala
-    bivval+A+Sg+Acc: bivvalav
-    bivval+A+Sg+Ill: bivvalij
-    bivval+A+Sg+Ine: bivvalin
-    bivval+A+Sg+Ela: [bivvalist, bivvalis]
-    bivval+A+Sg+Com: bivvalijn
-    bivval+A+Pl+Gen: bivvalij
-    bivval+A+Pl+Acc: bivvalijd
-    bivval+A+Pl+Ill: bivvalijda
-    bivval+A+Pl+Ine: bivvalijn
-    bivval+A+Pl+Ela: [bivvalijst, bivvalijs]
-    bivval+A+Pl+Com: [bivvalij, bivvalijgum]
-#    bivval+A+Ess: bivvalin
+#    bivval+A+Sg+Gen: bivvala
+#    bivval+A+Sg+Acc: bivvalav
+#    bivval+A+Sg+Ill: bivvalij
+#    bivval+A+Sg+Ine: bivvalin
+#    bivval+A+Sg+Ela: [bivvalist, bivvalis]
+#    bivval+A+Sg+Com: bivvalijn
+#    bivval+A+Pl+Gen: bivvalij
+#    bivval+A+Pl+Acc: bivvalijd
+#    bivval+A+Pl+Ill: bivvalijda
+#    bivval+A+Pl+Ine: bivvalijn
+#    bivval+A+Pl+Ela: [bivvalijst, bivvalijs]
+#    bivval+A+Pl+Com: [bivvalij, bivvalijgum]
+##    bivval+A+Ess: bivvalin
 
 
     bivval+A+Comp+Attr: bivvalup
 
     bivval+A+Comp+Sg+Nom: bivvalup
-    bivval+A+Comp+Pl+Nom: bivvalubo
+    bivval+A+Comp+Pl+Nom: [bivvalubo, bivvaluba]
 
-    bivval+A+Comp+Sg+Gen: bivvalubo
-    bivval+A+Comp+Sg+Acc: bivvalubov
-    bivval+A+Comp+Sg+Ill: bivvaluboj
-    bivval+A+Comp+Sg+Ine: bivvalubon
-    bivval+A+Comp+Sg+Ela: [bivvalubost, bivvalubos]
-    bivval+A+Comp+Sg+Com: [bivvalubojn, bivvalubojna]
-    bivval+A+Comp+Pl+Gen: bivvaluboj
-    bivval+A+Comp+Pl+Acc: bivvalubojd
-    bivval+A+Comp+Pl+Ill: bivvalubojda
-    bivval+A+Comp+Pl+Ine: bivvalubojn
-    bivval+A+Comp+Pl+Ela: [bivvalubojst, bivvalubojs]
-    bivval+A+Comp+Pl+Com: [bivvaluboj, bivvalubojgum]
-#    bivval+A+Comp+Ess: bivvalubon
+#    bivval+A+Comp+Sg+Gen: bivvalubo
+#    bivval+A+Comp+Sg+Acc: bivvalubov
+#    bivval+A+Comp+Sg+Ill: bivvaluboj
+#    bivval+A+Comp+Sg+Ine: bivvalubon
+#    bivval+A+Comp+Sg+Ela: [bivvalubost, bivvalubos]
+#    bivval+A+Comp+Sg+Com: [bivvalubojn, bivvalubojna]
+#    bivval+A+Comp+Pl+Gen: bivvaluboj
+#    bivval+A+Comp+Pl+Acc: bivvalubojd
+#    bivval+A+Comp+Pl+Ill: bivvalubojda
+#    bivval+A+Comp+Pl+Ine: bivvalubojn
+#    bivval+A+Comp+Pl+Ela: [bivvalubojst, bivvalubojs]
+#    bivval+A+Comp+Pl+Com: [bivvaluboj, bivvalubojgum]
+##    bivval+A+Comp+Ess: bivvalubon
 
 
     bivval+A+Superl+Attr: bivvalumos
@@ -56,16 +56,16 @@ Tests:
     bivval+A+Superl+Sg+Nom: bivvalumos
     bivval+A+Superl+Pl+Nom: bivvalubmusa
 
-    bivval+A+Superl+Sg+Gen: bivvalubmusa
-    bivval+A+Superl+Sg+Acc: bivvalubmusav
-    bivval+A+Superl+Sg+Ill: bivvalubmusij
-    bivval+A+Superl+Sg+Ine: bivvalubmusin
-    bivval+A+Superl+Sg+Ela: [bivvalubmusist, bivvalubmusis]
-    bivval+A+Superl+Sg+Com: bivvalubmusijn
-    bivval+A+Superl+Pl+Gen: bivvalubmusij
-    bivval+A+Superl+Pl+Acc: bivvalubmusijd
-    bivval+A+Superl+Pl+Ill: bivvalubmusijda
-    bivval+A+Superl+Pl+Ine: bivvalubmusijn
-    bivval+A+Superl+Pl+Ela: [bivvalubmusijst, bivvalubmusijs]
-    bivval+A+Superl+Pl+Com: [bivvalubmusij, bivvalubmusijgum]
-#    bivval+A+Superl+Ess: bivvalubmuson
+#    bivval+A+Superl+Sg+Gen: bivvalubmusa
+#    bivval+A+Superl+Sg+Acc: bivvalubmusav
+#    bivval+A+Superl+Sg+Ill: bivvalubmusij
+#    bivval+A+Superl+Sg+Ine: bivvalubmusin
+#    bivval+A+Superl+Sg+Ela: [bivvalubmusist, bivvalubmusis]
+#    bivval+A+Superl+Sg+Com: bivvalubmusijn
+#    bivval+A+Superl+Pl+Gen: bivvalubmusij
+#    bivval+A+Superl+Pl+Acc: bivvalubmusijd
+#    bivval+A+Superl+Pl+Ill: bivvalubmusijda
+#    bivval+A+Superl+Pl+Ine: bivvalubmusijn
+#    bivval+A+Superl+Pl+Ela: [bivvalubmusijst, bivvalubmusijs]
+#    bivval+A+Superl+Pl+Com: [bivvalubmusij, bivvalubmusijgum]
+##    bivval+A+Superl+Ess: bivvalubmuson
