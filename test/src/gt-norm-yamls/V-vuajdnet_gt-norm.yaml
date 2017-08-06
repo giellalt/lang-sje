@@ -16,7 +16,7 @@ Tests:
      vuäjdnet+V+Ind+Prs+Sg3: vuajdná
      vuäjdnet+V+Ind+Prs+Du1: vujdnin
      vuäjdnet+V+Ind+Prs+Du2: [vuäjdnebehtin, vuäjdnebähtten]
-     vuäjdnet+V+Ind+Prs+Du3: vuäjdneba
+     vuäjdnet+V+Ind+Prs+Du3: [vuäjdneba, vuäjdneban]
      vuäjdnet+V+Ind+Prs+Pl1: vuäjdnep
      vuäjdnet+V+Ind+Prs+Pl2: [vuäjdnebehtit, vuäjdnebähttet]
      vuäjdnet+V+Ind+Prs+Pl3: vujdni
@@ -26,7 +26,7 @@ Tests:
      vuäjdnet+V+Ind+Prt+Sg3: vujnij
      vuäjdnet+V+Ind+Prt+Du1: vujnijmen
      vuäjdnet+V+Ind+Prt+Du2: vujnijden
-     vuäjdnet+V+Ind+Prt+Du3: vujnijga
+     vuäjdnet+V+Ind+Prt+Du3: [vujnijga, vujnijgan]
      vuäjdnet+V+Ind+Prt+Pl1: vujnijme
      vuäjdnet+V+Ind+Prt+Pl2: vujnijde
      vuäjdnet+V+Ind+Prt+Pl3: vujdnin

@@ -16,7 +16,7 @@ Tests:
      viessot+V+Ind+Prs+Sg3: vessu
      viessot+V+Ind+Prs+Du1: vessun
      viessot+V+Ind+Prs+Du2: [viessobehtin, viessobähtten]
-     viessot+V+Ind+Prs+Du3: viessoba
+     viessot+V+Ind+Prs+Du3: [viessoba, viessoban]
      viessot+V+Ind+Prs+Pl1: viessop
      viessot+V+Ind+Prs+Pl2: [viessobehtit, viessobähttet]
      viessot+V+Ind+Prs+Pl3: vessu
@@ -26,7 +26,7 @@ Tests:
      viessot+V+Ind+Prt+Sg3: viesoj
      viessot+V+Ind+Prt+Du1: viesojmen
      viessot+V+Ind+Prt+Du2: viesojden
-     viessot+V+Ind+Prt+Du3: viesojga
+     viessot+V+Ind+Prt+Du3: [viesojga, viesojgan]
      viessot+V+Ind+Prt+Pl1: viesojme
      viessot+V+Ind+Prt+Pl2: viesojde
      viessot+V+Ind+Prt+Pl3: vessun

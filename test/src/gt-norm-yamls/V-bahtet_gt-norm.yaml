@@ -16,7 +16,7 @@ Tests:
      båhtet+V+Ind+Prs+Sg3: båhtá
      båhtet+V+Ind+Prs+Du1: buhtin
      båhtet+V+Ind+Prs+Du2: [båhtebehtin, båhtebähtten]
-     båhtet+V+Ind+Prs+Du3: båhteba
+     båhtet+V+Ind+Prs+Du3: [båhteba, båhteban]
      båhtet+V+Ind+Prs+Pl1: båhtep
      båhtet+V+Ind+Prs+Pl2: [båhtebehtit, båhtebähttet]
      båhtet+V+Ind+Prs+Pl3: buhti
@@ -26,7 +26,7 @@ Tests:
      båhtet+V+Ind+Prt+Sg3: budij
      båhtet+V+Ind+Prt+Du1: budijmen
      båhtet+V+Ind+Prt+Du2: budijden
-     båhtet+V+Ind+Prt+Du3: budijga
+     båhtet+V+Ind+Prt+Du3: [budijga, budijgan]
      båhtet+V+Ind+Prt+Pl1: budijme
      båhtet+V+Ind+Prt+Pl2: budijde
      båhtet+V+Ind+Prt+Pl3: buhtin

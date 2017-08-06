@@ -14,10 +14,10 @@ Tests:
 
      ságastit+V+Ind+Prs+Sg1: ságastav
      ságastit+V+Ind+Prs+Sg2: ságasta
-     ságastit+V+Ind+Prs+Sg3: ságasta
+     ságastit+V+Ind+Prs+Sg3: [ságasta, ságast]
      ságastit+V+Ind+Prs+Du1: ságastin
      ságastit+V+Ind+Prs+Du2: ságastähppen #, ságastehpen]    #check!
-     ságastit+V+Ind+Prs+Du3: ságastebá
+     ságastit+V+Ind+Prs+Du3: ságasteba
      ságastit+V+Ind+Prs+Pl1: ságastip
      ságastit+V+Ind+Prs+Pl2: ságastihppit
      ságastit+V+Ind+Prs+Pl3: ságasti
@@ -37,7 +37,7 @@ Tests:
      ságastit+V+Imp+Pl2: ságastihttit   #check!
 
      ságastit+V+ConNeg: ságaste
-     ságastit+V+GerII: ságastamin
+     ságastit+V+GerII: ságastemin
      ságastit+V+PrfPrc: ságastam
 #     ságastit+V+GerI: ságastittijn 
 #     ságastit+V+Sup: ságastitjit

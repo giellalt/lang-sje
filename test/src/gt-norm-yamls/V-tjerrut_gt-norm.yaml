@@ -27,7 +27,7 @@ Tests:
      tjerrut+V+Ind+Prt+Sg3: tjerruj
      tjerrut+V+Ind+Prt+Du1: tjerrujmin
      tjerrut+V+Ind+Prt+Du2: tjerrujdin
-     tjerrut+V+Ind+Prt+Du3: tjerrujga
+     tjerrut+V+Ind+Prt+Du3: [tjerrujga, tjerrujgan]
      tjerrut+V+Ind+Prt+Pl1: tjerrujme
      tjerrut+V+Ind+Prt+Pl2: tjerrujde
      tjerrut+V+Ind+Prt+Pl3: tjerrujin

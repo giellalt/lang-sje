@@ -16,7 +16,7 @@ Tests:
      állget+V+Ind+Prs+Sg3: állgá
      állget+V+Ind+Prs+Du1: ällgin
      állget+V+Ind+Prs+Du2: [állgebehtin, állgebähtten]
-     állget+V+Ind+Prs+Du3: állgeba
+     állget+V+Ind+Prs+Du3: [állgeba, állgeban]
      állget+V+Ind+Prs+Pl1: állgep
      állget+V+Ind+Prs+Pl2: [állgebehtit, állgebähttet]
      állget+V+Ind+Prs+Pl3: ällgi
@@ -26,7 +26,7 @@ Tests:
      állget+V+Ind+Prt+Sg3: älgij
      állget+V+Ind+Prt+Du1: älgijmen
      állget+V+Ind+Prt+Du2: älgijden
-     állget+V+Ind+Prt+Du3: älgijga
+     állget+V+Ind+Prt+Du3: [älgijga, älgijgan]
      állget+V+Ind+Prt+Pl1: älgijme
      állget+V+Ind+Prt+Pl2: älgijde
      állget+V+Ind+Prt+Pl3: ällgin
