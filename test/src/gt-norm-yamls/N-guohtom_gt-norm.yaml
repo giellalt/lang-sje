@@ -23,7 +23,7 @@ Tests:
     guohtom+N+Pl+Ill: guohtomijda
     guohtom+N+Pl+Ine: guohtomijn
     guohtom+N+Pl+Ela: [guohtomijst, guohtomijs]
-    guohtom+N+Pl+Com: guohtomij
+    guohtom+N+Pl+Com: [guohtomij, guohtomijgum]
     guohtom+N+Ess: guohtomin
     guohtom+N+Abe: guohtomahtá
 
