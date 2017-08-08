@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-08T20:00:42+02:00
+! Timestamp: 2017-08-08T20:49:16+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1951,6 +1951,7 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 bahák:bahág2 N_ODD "evil" ; ! no. 2601
 baksem:baksem N_ODD "lip" ; ! no. 90526
 baktjás:baktjás N_ODD "pain" ; ! no. 5739
+bavrek:bavreg2 N_ODD "awake, alert person" ; ! no. 5992
 báhper:báhper N_ODD "paper" ; ! no. 110
 báhtsak:báhtsag2 N_ODD "cone" ; ! no. 114
 bálgok:bálgog2 N_ODD "reindeer alone in the forest" ; ! no. 6134
