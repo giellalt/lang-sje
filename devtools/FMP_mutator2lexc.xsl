@@ -55,18 +55,6 @@
     | apostrophe/single quote ' : &#39;
     +-->
 
-<!--+
-    | 1. record number JW no JW
-    | 2. Samica headword Unicode
-    | 3. Samica PoS
-    | 4. sje numSpell
-    | 5. lexcRootLeft
-    | 6. lexcRootRight stage2
-    | 7. LEXC category
-    | 8. Samica EN
-    | 9. Samica SV
-    +-->
-
 <!-- set original PoS (Swedish) variable -->
 <xsl:variable name="PoS_Samica">
   <xsl:value-of select="fm:FMPXMLRESULT/fm:RESULTSET/fm:ROW[position()=1]/fm:COL[position()=3]/fm:DATA"/>
@@ -228,6 +216,17 @@ LEXICON Postposition   !!= * __@CODE@__ is the list
 </xsl:choose>
 <!--xsl:value-of select="$nl"/-->
 
+<!--+
+    | 1. record number JW no JW
+    | 2. Samica headword Unicode
+    | 3. Samica PoS
+    | 4. sje numSpell
+    | 5. lexcRootLeft
+    | 6. lexcRootRight stage2
+    | 7. LEXC category
+    | 8. Samica EN
+    | 9. Samica SV
+    +-->
 
 <!-- insert data -->
     <xsl:for-each select="fm:FMPXMLRESULT/fm:RESULTSET/fm:ROW">
