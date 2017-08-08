@@ -132,6 +132,28 @@ LEXICON A_TJAABBE_s2
 +Superl:á A_ODD_jSUP ;
 +Superl+Use/NG:i A_ODD_jSUP ;
 
+LEXICON A_UNNE ! unna/unne/unnep/unnemus-
++A+Attr:a%>0 # ;
++A: A_UNNE_s2 ; 
+
+LEXICON A_UNNE_s2 
++Sg+Nom:e%>0 K ; 
++Pl+Nom:e%>0 K ; 
++Comp:e A_ODD_COMP ;
++Superl:e A_ODD_SUP ;
+!+Superl+Use/NG:i A_ODD_jSUP ;
+
+
+LEXICON A_AAJDNA ! ájdna/ájdna/?/?-
++A+Attr:%>0 # ;
++A: A_AAJDNA_s2 ; 
+
+LEXICON A_AAJDNA_s2 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>0 K ; 
+!+Comp:e A_ODD_COMP ;
+!+Superl:e A_ODD_SUP ;
+
 
 !check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
 LEXICON A_BUOSSJE ! buosjes/buossje/buosje/buosjep/busjijmus-

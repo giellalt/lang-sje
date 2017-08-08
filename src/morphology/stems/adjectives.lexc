@@ -20,6 +20,7 @@ LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 
 ! adjective classes are named after a prototypical adjective
 
+ájdna:ájdna A_AAJDNA "only, only one" ; ! no. 21
 állke:állke A_AALLKE "easy, simple" ; ! no. 53
 bahá:bahá A_AALLKE "evil" ; ! no. 101
 hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
@@ -56,6 +57,7 @@ tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
 dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
+unne:un'n A_UNNE "small, little" ; ! no. 90285
 bargodibme:bargod A_xDIBME "unemployed" ; ! no. 3130
 bánedibme:báned A_xDIBME "toothless" ; ! no. 5281
 bådnedibme:bådned A_xDIBME "bottomless" ; ! no. 3397
@@ -123,7 +125,7 @@ tjavvga A_EVEN_0 ; ! fungerar
 
 !tjähppe:tjiehppe A_EVEN_B ; !
 uhttse A_EVEN_B ; !
-unne A_EVEN_BB ; !superlativ funkar ej
+!unne A_EVEN_BB ; !superlativ funkar ej
 vájjve A_EVEN_B ;
 vallje A_EVEN_B ;
 vasste A_EVEN_B ;
