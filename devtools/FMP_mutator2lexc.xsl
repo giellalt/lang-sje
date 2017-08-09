@@ -260,7 +260,6 @@ järbme A_EVEN_B ;
 maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
 sjnuttjo A_EVEN_NOCG_S ;
-stuorra A_EVEN_IES ; !även predikativ stuor
 tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 uhttse A_EVEN_B ; !little
