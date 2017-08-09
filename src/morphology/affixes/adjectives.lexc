@@ -225,6 +225,30 @@ LEXICON A_NUORRA_s2
 +Superl:^WG A_ODD_SUP ;
 
 
+LEXICON A_STUORES ! stuorra (stuor)/stuores/stuorrá/stuoráp/stuoremus
++A+Attr:a%> # ;
++A: A_STUORES_s2 ; 
+
+LEXICON A_STUORx ! stuor (variant of stuorra (ATTR))
++A+Attr:%> # ;
+
+LEXICON A_STUORES_s2 
++Sg+Nom:e^WG%>s K ; 
++Pl+Nom:%>á K ; 
++Comp:á^WG A_ODD_COMP ;
++Superl:e^WG A_ODD_SUP ;
+
+
+LEXICON A_FIEROK ! fierok/fierok/fieroga/fierogup/fierogumus/-bmusa
++A+Attr:%> # ;
++A: A_FIEROK_s2 ; 
+
+LEXICON A_FIEROK_s2 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>a K ; 
++Comp:^WG A_EVEN_COMP ;
++Superl:^WG A_EVEN_SUP ;
+
 
 ! COMP/SUPERL rules:
 !COMP:
