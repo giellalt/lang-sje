@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-10T09:58:54+02:00
+! Timestamp: 2017-08-10T19:19:21+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -51,15 +51,27 @@ gähppe:giehppe A_BUOSSJE "light" ; ! no. 782
 dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
+duallbat:du^Ollba A_DUALLBAT "flat" ; ! no. 5578
+aktamielagatj:akta#mielagatj A_ELULATJ "of one opinion" ; ! no. 3989
+aktasatj:aktasatj A_ELULATJ "common, mutual" ; ! no. 39
+bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
+elulatj:elulatj A_ELULATJ "rich in reindeer" ; ! no. 3728
+färrtabäjjvásatj:färrta#bä2jjvásatj A_ELULATJ "daily" ; ! no. 3548
+mielagatj:mielagatj A_ELULATJ "of an opinion" ; ! no. 90804
+vuorbálatj:vu^Orbálatj A_ELULATJ "successful, fortunate" ; ! no. 3719
+vuällegatj:vu^Ollegatj A_ELULATJ "low, humble" ; ! no. 4547
+ånegatj:ånegatj A_ELULATJ "short" ; ! no. 5038
 aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
 buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
+dulutj:dulutj A_FIEROK "old-time" ; ! no. 4213
 fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
 färrtalágátj:färrta#lágátj A_FIEROK "all kinds of" ; ! no. 6224
 guäkktelágátj:guäkkte#lágátj A_FIEROK "twins, two similar things" ; ! no. 4873
 ietjálágátj:ietjá#lágátj A_FIEROK "different" ; ! no. 458
-lágátj:lágátj A_FIEROK "like (suffix)" ; ! no. 90801
+lágátj:lágátj A_FIEROK "like (adjective compound component)" ; ! no. 90801
 suhtelágátj:suhte#lágátj A_FIEROK "in many ways, multiple" ; ! no. 4258
 särralágátj:särra#lágátj A_FIEROK "special, original" ; ! no. 3975
+vuostatj+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpe:dummpe A_NUORRA "stupid, dumb" ; ! no. 2383

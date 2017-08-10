@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-08T20:49:16+02:00
+! Timestamp: 2017-08-10T10:10:40+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -662,6 +662,7 @@ lavdnjegåhte:lavdnje#gåhte N_EVEN "Saami hut with peat walls" ; ! no. 2616
 láddegiella:ládde#giella N_EVEN "the Swedish language" ; ! no. 6076
 lágadis+N+Der/State:lágadisvu^Ohta N_EVEN "lawlessness" ; ! no. 3098
 láhka:láhka N_EVEN "law, regulation" ; ! no. 1003
+láhke:láhke N_EVEN "manner, method, way" ; ! no. 90799
 láhppa:láhppa N_EVEN "overhang" ; ! no. 1004
 lájjbe:lájjbe N_EVEN "hard bread" ; ! no. 1008
 lájjge:lájjge N_EVEN "yarn" ; ! no. 1009
@@ -736,8 +737,7 @@ márrtná:márrtná N_EVEN "market" ; ! no. 2594
 mieda:mieda N_EVEN "honey" ; ! no. 1160
 miedem+Use/NG:miedem N_EVEN "roe" ; ! no. 90434
 miehtedievvá:miehte#dievvá N_EVEN "downhill slope" ; ! no. 5893
-miella:miella N_EVEN "temperament, reason, mood" ; ! no. 1153
-miella:miella N_EVEN "mind, wit, reason" ; ! no. 2388
+miella:miella N_EVEN "temperament, reason, mood, senses" ; ! no. 1153
 mierra:mierra N_EVEN "shore, coast" ; ! no. 6887
 miesse:miesse N_EVEN "reindeer calf, moose calf" ; ! no. 1158
 miesseduällje:miesse#du^Ollje N_EVEN "winter fur on a reindeer calf" ; ! no. 5988
