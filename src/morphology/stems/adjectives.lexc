@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-09T16:53:01+02:00
+! Timestamp: 2017-08-10T09:58:54+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -51,8 +51,18 @@ gähppe:giehppe A_BUOSSJE "light" ; ! no. 782
 dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
+aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
+buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
 fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
+färrtalágátj:färrta#lágátj A_FIEROK "all kinds of" ; ! no. 6224
+guäkktelágátj:guäkkte#lágátj A_FIEROK "twins, two similar things" ; ! no. 4873
+ietjálágátj:ietjá#lágátj A_FIEROK "different" ; ! no. 458
+lágátj:lágátj A_FIEROK "like (suffix)" ; ! no. 90801
+suhtelágátj:suhte#lágátj A_FIEROK "in many ways, multiple" ; ! no. 4258
+särralágátj:särra#lágátj A_FIEROK "special, original" ; ! no. 3975
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
+buorre:bu^Orre A_NUORRA "good" ; ! no. 213
+dummpe:dummpe A_NUORRA "stupid, dumb" ; ! no. 2383
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
 stuores+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
