@@ -250,6 +250,29 @@ LEXICON A_FIEROK_s2
 +Superl:^WG A_EVEN_SUP ;
 
 
+LEXICON A_DUALLBAT ! duallba/duallbat/duallbada/?duallbadup/?duallbadumus/?-bmusa
++A+Attr:%> # ;
++A: A_DUALLBAT_s2 ; 
+
+LEXICON A_DUALLBAT_s2 
++Sg+Nom:d2%>0 K ; 
++Pl+Nom:d2%>a K ; 
++Comp:d2 A_EVEN_COMP ;
++Superl:d2 A_EVEN_SUP ;
+
+
+LEXICON A_ELULATJ ! elulatj/elulatj/elulatja/??elulatjap/??elulatjamus-a
++A+Attr:%> # ;
++A: A_ELULATJ_s2 ; 
+
+LEXICON A_ELULATJ_s2 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>a K ; 
++Comp:a A_ODD_COMP ;
++Superl:a A_ODD_SUP ;
+
+
+
 ! COMP/SUPERL rules:
 !COMP:
 !if even-syllabled COMP-ATTR wordform and V2 ≠ e, then V2-p in ATTR, SG.NOM, -V2-ba in PL.NOM
