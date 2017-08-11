@@ -272,6 +272,18 @@ LEXICON A_ELULATJ_s2
 +Superl:a A_ODD_SUP ;
 
 
+LEXICON A_IEDNAK ! iedna/iednak/iednaga/ienap/ienamus-a
++A+Attr:%> # ;
++A: A_IEDNAK_s2 ; 
+
+LEXICON A_IEDNAK_s2 
++Sg+Nom:g2%>0 K ; 
++Pl+Nom:g2%>a K ; 
++Comp:^WG A_ODD_COMP ; ! should be ienabo (not ienaba)!
++Superl:^WG A_ODD_SUP ;
++Superl+Use/NG:^WG A_ODD_jSUP ;
+
+
 
 ! COMP/SUPERL rules:
 !COMP:
