@@ -287,6 +287,12 @@ LEXICON A_IEDNAK_s2
 +Superl+Use/NG:^WG A_ODD_jSUP ;
 
 
+LEXICON A_NAGAN ! nagan/nagan/nagana etc. (no COMP/SUPERL)
++A+Attr:%>0 # ;
++A+Sg+Nom:%>0 K ;
++A: N_ODD_X ; 
+
+
 
 ! COMP/SUPERL rules:
 !COMP:
