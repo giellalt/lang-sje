@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-13T10:48:49+02:00
+! Timestamp: 2017-08-14T09:54:02+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2209,6 +2209,7 @@ saŋátj:saŋátj N_ODD "itch" ; ! no. 1506
 savek:saveg2 N_ODD "ski with climbing skin" ; ! no. 1518
 sáddebáhper:sádde#báhper N_ODD "sandpaper" ; ! no. 1468
 sáddem:sáddem N_ODD "sharpest point in a fox trap" ; ! no. 2793
+sáhkotjavelg:sáhko#tjavelg N_ODD "very thin, meager reindeer" ; ! no. 4494
 sálat:sálad2 N_ODD "crevasse in a glacier" ; ! no. 4408
 sámegielak:sáme#gielag2 N_ODD "Saami speaker" ; ! no. 2643
 sárdnom:sárdnom N_ODD "message" ; ! no. 90305
@@ -2373,7 +2374,6 @@ låvdå:låvvdåg N_ODD_OPEN "tent tarp" ; ! no. 1098
 mádda:máddag N_ODD_OPEN "lower intestine" ; ! no. 90265
 muohta:mu^Ohttag N_ODD_OPEN "snow" ; ! no. 2360
 njára:njárrag N_ODD_OPEN "neck meat on a reindeer" ; ! no. 2882
-riebe:riehpeh N_ODD_OPEN "red fox" ; ! no. 2790
 rijbmomuohta:rijbmo#mu^Ohttag N_ODD_OPEN "heavy snowfall" ; ! no. 1409
 siebla:siebblag N_ODD_OPEN "wet spring snow" ; ! no. 2758
 sjnjierákvuodda:sjnjierák#vu^Oddag N_ODD_OPEN "multicolor woven shoestrap for men" ; ! no. 5406
@@ -2428,7 +2428,6 @@ gielas:giellas N_ODD_WG "hilly heathland" ; ! no. 610
 gielbar:giellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 612
 giesas:giessas N_ODD_WG "leather hame" ; ! no. 3833
 gillar:gil'lar N_ODD_WG "trap" ; ! no. 4628
-ginij:gidnij N_ODD_WG "invisible subterranean being" ; ! no. 90206
 gintal:ginntal N_ODD_WG "candle" ; ! no. 632
 guobbar:gu^Obbar N_ODD_WG "mushroom" ; ! no. 679
 guolban:gu^Ollban N_ODD_WG "flat pine heath" ; ! no. 692
@@ -2470,3 +2469,5 @@ vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
 åjjvesárjas:åjjve#sárrjas N_ODD_WG "headache" ; ! no. 2252
+gane:gadn N_ODD_WG_H "invisible subterranean being" ; ! no. 6873
+riebe:riehp N_ODD_WG_H "red fox" ; ! no. 2790
