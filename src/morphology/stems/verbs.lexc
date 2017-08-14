@@ -37,8 +37,8 @@ LEXICON Verb   !!= * __@CODE@__ is the main lexicon
 !! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
 
-LE "copula/auxiliary verb" ; !!= * @CODE@ 
-IJ "negation verb" ; !!= * @CODE@ 
+ LE "copula/auxiliary verb" ; !!= * @CODE@ 
+ IJ "negation verb" ; !!= * @CODE@ 
 
 adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
 allvaduvvut:allvaduvvu V_CONTR "be perplexed" ; ! no. 3282
@@ -220,7 +220,7 @@ skäffut:skä2ffu V_CONTR "get, procure, obtain" ; ! no. 77
 skävvgit:skä2vvgi V_CONTR "admonish" ; ! no. 3781
 skävvit:skä2vvi V_CONTR "chafe" ; ! no. 5511
 slibbit:slibbi V_CONTR "quickly throw out washing water or other liquid" ; ! no. 4159
-slihppit:slihpi V_CONTR "grind, polish" ; ! no. 2675
+slihppit:slihppi V_CONTR "grind, polish" ; ! no. 2675
 slirrit:slirri V_CONTR "rain in" ; ! no. 4438
 slubbit:slubbi V_CONTR "euthanize" ; ! no. 4492
 släddjit:slä2ddji V_CONTR "cut grass with a scythe" ; ! no. 2673
@@ -314,10 +314,10 @@ värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 årrát:årrá V_CONTR "fall asleep" ; ! no. 2263
 ällát:ä2llá V_CONTR "survive" ; ! no. 4339
 ärrbit:ä2rrbi V_CONTR "inherit" ; ! no. 3470
-aldagasstet:aldagasst V_EVEN_A "flash lightening, thunder" ; ! no. 45
+aldagasstet:aldagasst V_EVEN_E "flash lightening, thunder" ; ! no. 45
 amastallat:amastall V_EVEN_A "feel foreign" ; ! no. 3542
-arbmogasstet:arbmogasst V_EVEN_A "take mercy upon" ; ! no. 5397
-arrmálasstet:arrmálasst V_EVEN_A "take pity, ask for help" ; ! no. 4062
+arbmogasstet:arbmogasst V_EVEN_E "take mercy upon" ; ! no. 5397
+arrmálasstet:arrmálasst V_EVEN_E "take pity, ask for help" ; ! no. 4062
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
 áhtat:áht V_EVEN_A "tinker, toy with" ; ! no. 90714
@@ -328,10 +328,10 @@ asstat:asst V_EVEN_A "have time" ; ! no. 80
 ávvat:ávv V_EVEN_A "release a reindeer herd" ; ! no. 2801
 badjelgähttjat:badjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 96
 bahástallat:bahástall V_EVEN_A "be against something" ; ! no. 4705
-ballagåhtet:ballagåht V_EVEN_A "begin to become afraid" ; ! no. 5509
+ballagåhtet:ballagåht V_EVEN_E "begin to become afraid" ; ! no. 5509
 ballat:ball V_EVEN_A "become scared" ; ! no. 131
 barrgat:barrg V_EVEN_A "work, do a job" ; ! no. 144
-basádasstet:basádasst V_EVEN_A "quickly wash oneself" ; ! no. 4686
+basádasstet:basádasst V_EVEN_E "quickly wash oneself" ; ! no. 4686
 bassat:bass V_EVEN_A "wash" ; ! no. 149
 bádjat:bádj V_EVEN_A "let, cause" ; ! no. 3439
 bágadallat:bágadall V_EVEN_A "chastise, admonish, warn" ; ! no. 3720
@@ -346,10 +346,10 @@ billsat:bills V_EVEN_A "change fur (for reindeer)" ; ! no. 2576
 bivvat:bivv V_EVEN_A "keep warm" ; ! no. 4415
 buakktjat:bu^Okktj V_EVEN_A "duck" ; ! no. 198
 bualdnat:bu^Oldn V_EVEN_A "wither, wilt" ; ! no. 90639
-bulligåhtet:bulligåht V_EVEN_A "begin to burn" ; ! no. 90641
+bulligåhtet:bulligåht V_EVEN_E "begin to burn" ; ! no. 90641
 bådadallat:bådadall V_EVEN_A "be surprised" ; ! no. 4156
 bånjudallat:bånjudall V_EVEN_A "writhe in pain" ; ! no. 4707
-bårrågåhtet:bårrågåht V_EVEN_A "begin eating" ; ! no. 4086
+bårrågåhtet:bårrågåht V_EVEN_E "begin eating" ; ! no. 4086
 bårådallat:bårådall V_EVEN_A "be bitten" ; ! no. 257
 bäbbmat:biebbm V_EVEN_A "feed" ; ! no. 3670
 bäggat:biegg V_EVEN_A "blow (wind)" ; ! no. 2700
@@ -366,15 +366,15 @@ duagŋat:du^Ogŋ V_EVEN_A "repair" ; ! no. 6178
 duahttat:du^Ohtt V_EVEN_A "touch" ; ! no. 3257
 dualldat:du^Olld V_EVEN_A "boil hard" ; ! no. 2555
 duasstat:du^Osst V_EVEN_A "risk, dare" ; ! no. 380
-dubbanasstet:dubbanasst V_EVEN_A "move over more" ; ! no. 4738
+dubbanasstet:dubbanasst V_EVEN_E "move over more" ; ! no. 4738
 dubmedallat:dubmedall V_EVEN_A "be sentenced, be judged" ; ! no. 5605
 dudnat:dudn V_EVEN_A "roar" ; ! no. 3302
 duffat:duff V_EVEN_A "be in the middle of something, dawdle" ; ! no. 5839
 dullvat:dullv V_EVEN_A "rise, flood (water, eg. in a creek)" ; ! no. 5049
-dumbalasstet:dumbalasst V_EVEN_A "be reckless" ; ! no. 5808
+dumbalasstet:dumbalasst V_EVEN_E "be reckless" ; ! no. 5808
 duohkat:du^Ohk V_EVEN_A "sell" ; ! no. 396
 duorrat:du^Orr V_EVEN_A "take up a fishing net" ; ! no. 402
-dåbbdågåhtet:dåbbdågåht V_EVEN_A "get to know someone" ; ! no. 412
+dåbbdågåhtet:dåbbdågåht V_EVEN_E "get to know someone" ; ! no. 412
 däjjvat:diejjv V_EVEN_A "nail, hit (on the mark)" ; ! no. 5619
 fággadallat:fággadall V_EVEN_A "wrestle" ; ! no. 3421
 fállat:fáll V_EVEN_A "offer" ; ! no. 468
@@ -382,14 +382,14 @@ fierrat:fierr V_EVEN_A "die, pass away" ; ! no. 6711
 gadtsat:gadts V_EVEN_A "eat with a spoon" ; ! no. 491
 gahppat:gahpp V_EVEN_A "jump repeatedly" ; ! no. 500
 gahttjat:gahttj V_EVEN_A "fall over, drop" ; ! no. 502
-galbmegåhtet:galbmegåht V_EVEN_A "begin to freeze" ; ! no. 6000
+galbmegåhtet:galbmegåht V_EVEN_E "begin to freeze" ; ! no. 6000
 gallgat:gallg V_EVEN_A "shall" ; ! no. 522
 gatjadallat:gatjadall V_EVEN_A "ask repetitively" ; ! no. 4815
 gájjdat:gájjd V_EVEN_A "disappear" ; ! no. 510
 gájvastallat:gájvastall V_EVEN_A "be incomprehensible" ; ! no. 3883
 gállgat:gállg V_EVEN_A "loosen, let loose" ; ! no. 523
 gárrat:gárr V_EVEN_A "tie together" ; ! no. 2509
-gásskegåhtet:gásskegåht V_EVEN_A "begin biting" ; ! no. 4398
+gásskegåhtet:gásskegåht V_EVEN_E "begin biting" ; ! no. 4398
 gávdnat:gávdn V_EVEN_A "find" ; ! no. 576
 gávnadallat:gávnadall V_EVEN_A "meet, coincide" ; ! no. 580
 gávvtjat:gávvtj V_EVEN_A "fall onto one’s back" ; ! no. 583
@@ -412,7 +412,7 @@ guorrat:gu^Orr V_EVEN_A "track" ; ! no. 6148
 guossástallat:guossástall V_EVEN_A "visit" ; ! no. 3271
 gurrsat:gurrs V_EVEN_A "snore" ; ! no. 3722
 gåjkodallat:gåjkodall V_EVEN_A "dry several things for a longer period of time" ; ! no. 4885
-gåjkådasstet:gåjkådasst V_EVEN_A "dry next to a fire" ; ! no. 4886
+gåjkådasstet:gåjkådasst V_EVEN_E "dry next to a fire" ; ! no. 4886
 gähttjat:giehttj V_EVEN_A "see, look" ; ! no. 783
 gärrdat:gierrd V_EVEN_A "suffer, sustain, bear" ; ! no. 788
 gärrgat:gierrg V_EVEN_A "get prepared, get ready" ; ! no. 790
@@ -423,12 +423,12 @@ hipsudallat:hipsudall V_EVEN_A "smell, sniff" ; ! no. 5719
 hudjat:hudj V_EVEN_A "complain, question, be displeased" ; ! no. 846
 hujjat+Use/NG:hujj V_EVEN_A "complain, question" ; ! no. 90510
 hukksat:hukks V_EVEN_A "be considerate, be concerned about" ; ! no. 849
-huorvedasstet:huorvedasst V_EVEN_A "pull one's hair" ; ! no. 90768
+huorvedasstet:huorvedasst V_EVEN_E "pull one's hair" ; ! no. 90768
 ietjastallat:ietjastall V_EVEN_A "be stubborn" ; ! no. 460
 jallat:jall V_EVEN_A "shorten" ; ! no. 918
 jasskat:jassk V_EVEN_A "calm down" ; ! no. 4916
 javvgat:javvg V_EVEN_A "hide, disappear" ; ! no. 3484
-jáddagåhtet:jáddagåht V_EVEN_A "begin to die, fade" ; ! no. 904
+jáddagåhtet:jáddagåht V_EVEN_E "begin to die, fade" ; ! no. 904
 jádnat:jádn V_EVEN_A "become hard due to dried sweat (for leather)" ; ! no. 4924
 jákksat:jákks V_EVEN_A "flicker out, die down" ; ! no. 903
 jimmkudallat:jimmkudall V_EVEN_A "blink" ; ! no. 2774
@@ -450,7 +450,7 @@ lárrat:lárr V_EVEN_A "attack" ; ! no. 1015
 látjavdallat:látjavdall V_EVEN_A "become fellow parents-in-law" ; ! no. 3887
 lierrat:lierr V_EVEN_A "learn" ; ! no. 1032
 luvvat:luvv V_EVEN_A "become wet" ; ! no. 1080
-låhkågåhtet:låhkågåht V_EVEN_A "begin to read" ; ! no. 90652
+låhkågåhtet:låhkågåht V_EVEN_E "begin to read" ; ! no. 90652
 läsjmodallat:läsjmodall V_EVEN_A "stretch one’s legs briefly" ; ! no. 1104
 mannat:mann V_EVEN_A "go, travel" ; ! no. 1130
 masstat:masst V_EVEN_A "mix together" ; ! no. 1146
@@ -476,7 +476,7 @@ njiessat:njiess V_EVEN_A "slip down, slide down" ; ! no. 1285
 njimmat:njimm V_EVEN_A "whimper (for children and puppies)" ; ! no. 1289
 njissat:njiss V_EVEN_A "whine, whimper (for dogs)" ; ! no. 2730
 njuovvat:nju^Ovv V_EVEN_A "slaughter, butcher, flay, skin, clean fish" ; ! no. 1304
-njållogåhtet:njållogåht V_EVEN_A "begin to calf" ; ! no. 4590
+njållogåhtet:njållogåht V_EVEN_E "begin to calf" ; ! no. 4590
 nuggdat:nuggd V_EVEN_A "be satisfied" ; ! no. 2565
 nuhttsat:nuhtts V_EVEN_A "rant, brawl" ; ! no. 2471
 nuollat:nu^Oll V_EVEN_A "untie, get undressed" ; ! no. 1322
@@ -493,8 +493,8 @@ rájadallat:rájadall V_EVEN_A "be sent; be dismissed" ; ! no. 5068
 rájjat+Use/NG:rájj V_EVEN_A "send" ; ! no. 90439
 rájjgat:rájjg V_EVEN_A "make a hole" ; ! no. 1381
 rássjodallat:rássjodall V_EVEN_A "rain lightly, drizzle" ; ! no. 5073
-riekknegåhtet:riekknegåht V_EVEN_A "begin counting" ; ! no. 4402
-rievedasstet:rievedasst V_EVEN_A "pull towards oneself quickly" ; ! no. 5076
+riekknegåhtet:riekknegåht V_EVEN_E "begin counting" ; ! no. 4402
+rievedasstet:rievedasst V_EVEN_E "pull towards oneself quickly" ; ! no. 5076
 ruavvgat:ru^Ovvg V_EVEN_A "grunt (reindeer)" ; ! no. 2462
 rudnat:rudn V_EVEN_A "talk, speak" ; ! no. 1424
 ruodjat:ru^Odj V_EVEN_A "scream out, holler" ; ! no. 1429
@@ -562,7 +562,7 @@ säkktat:siekkt V_EVEN_A "first snow on a frozen lake" ; ! no. 90746
 tjadnat:tjadn V_EVEN_A "tie tightly, attach tightly" ; ! no. 1855
 tjalbmat:tjalbm V_EVEN_A "sight something" ; ! no. 1869
 tjallat:tjall V_EVEN_A "rub and scrape antlers (for reindeer, moose)" ; ! no. 1874
-tjarrvagåhtet:tjarrvagåht V_EVEN_A "begin to crust over (for snow)" ; ! no. 5951
+tjarrvagåhtet:tjarrvagåht V_EVEN_E "begin to crust over (for snow)" ; ! no. 5951
 tjarrvat:tjarrv V_EVEN_A "when crust forms on snow" ; ! no. 1881
 tjábbrat:tjábbr V_EVEN_A "take in as much as possible" ; ! no. 1850
 tjágŋat:tjágŋ V_EVEN_A "get in, climb in" ; ! no. 1857
@@ -579,7 +579,7 @@ tjuajjgat:tju^Ojjg V_EVEN_A "ski, go skiing" ; ! no. 1950
 tjuavvgat:tju^Ovvg V_EVEN_A "light, illuminate, glow" ; ! no. 1953
 tjuhkudallat:tjuhkudall V_EVEN_A "sit down for a while" ; ! no. 5346
 tjuodjat:tju^Odj V_EVEN_A "sound" ; ! no. 2516
-tjuodtjanasstet:tjuodtjanasst V_EVEN_A "get up quickly" ; ! no. 4772
+tjuodtjanasstet:tjuodtjanasst V_EVEN_E "get up quickly" ; ! no. 4772
 tjuohkat:tju^Ohk V_EVEN_A "eat liquid food or drink water (for dogs)" ; ! no. 4025
 tjuollat:tju^Oll V_EVEN_A "chop" ; ! no. 1936
 tjuvvgat:tjuvvg V_EVEN_A "give birth" ; ! no. 3773
@@ -601,24 +601,24 @@ vavvdat:vavvd V_EVEN_A "become caught, catch" ; ! no. 5976
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
 vánnjgat:vánnjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 viegadallat:viegadall V_EVEN_A "run after, chase" ; ! no. 5443
-viegadasstet:viegadasst V_EVEN_A "run briefly" ; ! no. 5442
+viegadasstet:viegadasst V_EVEN_E "run briefly" ; ! no. 5442
 viehkat:viehk V_EVEN_A "run (for humans)" ; ! no. 2105
-viehkedasstet:viehkedasst V_EVEN_A "help" ; ! no. 90390
+viehkedasstet:viehkedasst V_EVEN_E "help" ; ! no. 90390
 vierrodallat:vierrodall V_EVEN_A "sacrifice" ; ! no. 90672
-vihtanasstet:vihtanasst V_EVEN_A "witness" ; ! no. 3307
+vihtanasstet:vihtanasst V_EVEN_E "witness" ; ! no. 3307
 villat:vil'l V_EVEN_A "go too far" ; ! no. 90572
-villidasstet:villidasst V_EVEN_A "take a break" ; ! no. 90396
+villidasstet:villidasst V_EVEN_E "take a break" ; ! no. 90396
 villudallat:villudall V_EVEN_A "rest a little bit" ; ! no. 3024
 vuajjdat:vu^Ojjd V_EVEN_A "grease" ; ! no. 2501
 vuassjat:vu^Ossj V_EVEN_A "make coffee" ; ! no. 2144
-vuasstalasstet:vuasstalasst V_EVEN_A "resist" ; ! no. 2197
+vuasstalasstet:vuasstalasst V_EVEN_E "resist" ; ! no. 2197
 vuodjat:vu^Odj V_EVEN_A "swim" ; ! no. 2153
 vuollat:vu^Oll V_EVEN_A "carve" ; ! no. 2179
 vuosádallat:vuosádall V_EVEN_A "show off, display" ; ! no. 2194
 vädtjat:viedtj V_EVEN_A "get, procure, pick up" ; ! no. 2217
 väjjsat:viejjs V_EVEN_A "go far out of the way, take a detour" ; ! no. 2220
 ådtjodallat:ådtjodall V_EVEN_A "stricken by disease" ; ! no. 3900
-ånedasstet:ånedasst V_EVEN_A "make a bit shorter" ; ! no. 5037
+ånedasstet:ånedasst V_EVEN_E "make a bit shorter" ; ! no. 5037
 åvrostallat:åvrostall V_EVEN_A "become uneasy" ; ! no. 4330
 äjidallat:äjidall V_EVEN_A "waste time" ; ! no. 5573
 ävvudallat:ävvudall V_EVEN_A "rejoice, have fun" ; ! no. 2290
@@ -872,7 +872,7 @@ råssot:råss V_EVEN_O "wake someone up" ; ! no. 1460
 sárrgot:sárrg V_EVEN_O "draw, sketch" ; ! no. 1513
 sárrjot:sárrj V_EVEN_O "hurt" ; ! no. 1511
 sillot:sill V_EVEN_O "become tired" ; ! no. 6530
-sjavdnjot:sjadnj V_EVEN_O "shake, dust off (several times)" ; ! no. 1561
+sjavdnjot:sjavdnj V_EVEN_O "shake, dust off (several times)" ; ! no. 1561
 sjkilltjot:sjkilltj V_EVEN_O "form a layer of ice" ; ! no. 1574
 sjkäbbtjot:sjkiebbtj V_EVEN_O "be ill, be sick" ; ! no. 1636
 sjlábbtjot:sjlábbtj V_EVEN_O "flap, wave (in wind)" ; ! no. 2399
