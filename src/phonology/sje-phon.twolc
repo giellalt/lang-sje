@@ -189,7 +189,7 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: ;
+Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: \%^CDEL: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
 "Consonant Gradation for xxy:xy"
@@ -265,6 +265,14 @@ Cx:Cy <=> _ (%^WG:) (%>:) # ;
           Cy in ( p  t 	k )
           matched ; 
 
+"Final CC simplification"
+Cx:0 <=> Vow Cx _ %^CDEL: ;
+	where Cx in ( s ) ;
+
+!!€ fábmogiss^CDEL
+!!€ fábmogis00
+
+	
 ! !!€ gål'leg2
 ! !!€ gål0lek
 ! !!€ gål'leg2a
