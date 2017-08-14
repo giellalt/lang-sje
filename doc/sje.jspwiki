@@ -52,7 +52,6 @@ Semantic properties of names
  ^IUML    * a to i, gallgat gillgin
  ^IJ      * e to i in front of Plural j and Sg Com
  ^V2O2U   * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
- ^VHBAR   * block VH from happening
 
 
  i2  * Variable vowel, does not trigger VH
@@ -111,6 +110,86 @@ The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
 
 
 !!!Adjectives !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,15 +283,12 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_C   är uddastaviga ex tjvdes:tjavvdás-
 
- * LEXICON A_ODD_D   är uddastaviga ex tjåskes:tjåsskás-
 
- * LEXICON A_ODD_JIS   är uddastaviga ex tjåskes:tjåsskás-
 
  * LEXICON A_ODD_E   är uddastaviga ex åhpes:åhppás-
 
  * LEXICON A_ODD_F   är uddastaviga ex stuores:stuorrás-
 
- * LEXICON A_ODD_G   är uddastaviga ex báhkas:báhkkas-
 
  * LEXICON A_ODD_H   är uddastaviga ex dimes:dibmas-
 
@@ -240,7 +316,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
 
- * LEXICON A_ODD_T   är uddastaviga ex tjáhppat:tjáhppad-
 
  * LEXICON A_ODD_U   är uddastaviga ex jallgat:jallgad-/jillgis
 
@@ -256,7 +331,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
  * LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
 
- * LEXICON A_ODD_Ö   är uddastaviga ex amás:abmás
 
  * LEXICON A_ODD_BB   är uddastaviga ex árvas:árvvas-
 
@@ -422,52 +496,11 @@ Here come POS and Case tags, and no period.
 
 
 
-!!!Pite Saami adjectives
+!!!Pite Saami Adjectives
 
- * __LEXICON Adjective   __ is the list of adjectives
+ * __LEXICON Adjective   __ is the main lexicon
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+!!Lexc inflectional classes (Mini-grammar)
 
 
 
@@ -1266,7 +1299,6 @@ Properhoun, toy file only
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
    %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
-   %^VHBAR:0  * block VH from happening
 
 
 
@@ -1359,6 +1391,17 @@ __Special VH for ie __
 
 __Ä in G3 __  
 
+
+* __tjalmed%>ibme^WG __
+* __tjalmed0i0me0 __
+
+* __dibme^WG __
+* __di0me0 __
+
+
+* __vu^Os'sa^WG __
+* __vuos0sa0 __
+
 * __fiede^G3^UAUML>0 __
 * __f0äde0000 __
 * __fiede^WG>v __
@@ -1387,7 +1430,6 @@ __V2 E to Á __
 __V2 E to Á before S __  
 
 __V2 O to U __  
-
 
 
 
