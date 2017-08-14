@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-14T09:42:49+02:00
+! Timestamp: 2017-08-14T14:31:10+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -75,7 +75,7 @@ vuostatj+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
 iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
 nagan:nagan A_NAGAN "some (-thing, -one)" ; ! no. 3430
-nagin+Use/NG:nagin A_NAGAN "some (-thing, -one)" ; ! no. 90807
+nagin+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpe:dummpe A_NUORRA "stupid, dumb" ; ! no. 2383
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
