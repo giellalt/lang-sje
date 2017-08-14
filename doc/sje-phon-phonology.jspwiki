@@ -12,7 +12,6 @@
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
    %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
-   %^VHBAR:0  * block VH from happening
 
 
 
@@ -105,6 +104,17 @@ __Special VH for ie __
 
 __Ä in G3 __  
 
+
+* __tjalmed%>ibme^WG __
+* __tjalmed0i0me0 __
+
+* __dibme^WG __
+* __di0me0 __
+
+
+* __vu^Os'sa^WG __
+* __vuos0sa0 __
+
 * __fiede^G3^UAUML>0 __
 * __f0äde0000 __
 * __fiede^WG>v __
@@ -133,7 +143,6 @@ __V2 E to Á __
 __V2 E to Á before S __  
 
 __V2 O to U __  
-
 
 
 
