@@ -381,7 +381,7 @@ s:t <=> _ j2: .#. ;
 
 "Special VH for ie" ! ie:0e
 !! __@RULENAME@__  
-i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* %>: ; !iello->0elluj
+i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga, siebla<->säbblag-
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* _ e: noCG Vow: \%^WG: \%^WG: ; !bierdna->b0ärdna !double \%^WG: for gierbma<->gärbmaha  (ie: neither of the two elements after V2 can be ^WG)
