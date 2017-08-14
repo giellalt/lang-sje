@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-12T10:29:41+02:00
+! Timestamp: 2017-08-14T09:42:49+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -88,6 +88,7 @@ buäjjde:bu^Ojjde A_TJAEHPPE "fat" ; ! no. 90797
 fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
 gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
+vasste:vasste A_TJAEHPPE "ugly, horrible" ; ! no. 2337
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
 dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
 gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
