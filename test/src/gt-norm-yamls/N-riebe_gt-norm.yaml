@@ -11,18 +11,18 @@ Tests:
 
   Noun - riebe: # N_ODD_WG_H 'red fox'
     riebe+N+Sg+Nom: riebe
-    riebe+N+Sg+Gen: rehpeha
-    riebe+N+Sg+Acc: rehpehav
-    riebe+N+Sg+Ill: rehpehij
-    riebe+N+Sg+Ine: rehpehin
-    riebe+N+Sg+Ela: [rehpehist, rehpehis]
-    riebe+N+Sg+Com: rehpehijn
-    riebe+N+Pl+Nom: rehpeha
-    riebe+N+Pl+Gen: rehpehij
-    riebe+N+Pl+Acc: rehpehijd
-    riebe+N+Pl+Ill: rehpehijd
-    riebe+N+Pl+Ine: rehpehijn
-    riebe+N+Pl+Ela: [rehpehijst, rehpehis]
-    riebe+N+Pl+Com: [rehpehij, rehpehijgum]
-#    riebe+N+Ess: rehpehin !??
-#    riebe+N+Abe: rehpehak !??
+    riebe+N+Sg+Gen: rehpiha
+    riebe+N+Sg+Acc: rehpihav
+    riebe+N+Sg+Ill: rehpihij
+    riebe+N+Sg+Ine: rehpihin
+    riebe+N+Sg+Ela: [rehpihist, rehpihis]
+    riebe+N+Sg+Com: rehpihijn
+    riebe+N+Pl+Nom: rehpiha
+    riebe+N+Pl+Gen: rehpihij
+    riebe+N+Pl+Acc: rehpihijd
+    riebe+N+Pl+Ill: rehpihijd
+    riebe+N+Pl+Ine: rehpihijn
+    riebe+N+Pl+Ela: [rehpihijst, rehpihis]
+    riebe+N+Pl+Com: [rehpihij, rehpihijgum]
+#    riebe+N+Ess: rehpihin !??
+#    riebe+N+Abe: rehpihak !??
