@@ -174,9 +174,14 @@ LEXICON N_ODD_V2E2AA !odd-syllable with change in V2 from E to Á, eg. åres->å
 +N:^V2E2AA N_ODD_X ;
 +N:^V2E2AA N_ODD_DIM ; !link to DIM
 
-LEXICON N_ODD_WG_H !odd-syllable noun with CGrad, nom.sg ends in -j, extension in -h-, eg. ginij<->gidnih-
+LEXICON N_ODD_WG_eH !odd-syllable noun with CGrad, nom.sg ends in -e, extension in -ih-, eg. gane<->gidnih-
 +N+Sg+Nom:e^WG%>0 K ;
 +N:ih N_ODD_X ;
+!+N: N_ODD_DIM ; !link to DIM !CHECK!
+
+LEXICON N_ODD_WG_oH !odd-syllable noun with CGrad, nom.sg ends in -o, extension in -uh-, eg. njuono<->njunnuh-
++N+Sg+Nom:o^WG%>0 K ;
++N:uh N_ODD_X ;
 !+N: N_ODD_DIM ; !link to DIM !CHECK!
 
 LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
