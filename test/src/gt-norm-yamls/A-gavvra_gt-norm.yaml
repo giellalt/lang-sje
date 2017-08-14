@@ -10,7 +10,7 @@ Config:
 Tests:
 
   Adjektiv - gävvra: # -a-stammar
-    gävvra+A+Attr: [gievras, gievres] #gievras in corpus, gievres in wordlist, the latter needs to be added
+    gävvra+A+Attr: [gievres, gievras] #gievres in wordlist, gievras in corpus, the latter needs to be added
 
     gävvra+A+Sg+Nom: gävvra
     gävvra+A+Pl+Nom: gievra
