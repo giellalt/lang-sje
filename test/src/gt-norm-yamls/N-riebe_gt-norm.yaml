@@ -9,7 +9,7 @@ Config:
 
 Tests:
 
-  Noun - riebe: # N_ODD_WG_H 'red fox'
+  Noun - riebe: # N_ODD_WG_eH 'red fox'
     riebe+N+Sg+Nom: riebe
     riebe+N+Sg+Gen: rehpiha
     riebe+N+Sg+Acc: rehpihav

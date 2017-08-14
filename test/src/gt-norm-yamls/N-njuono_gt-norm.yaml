@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - njuono: # N_ODD_WG_oH 'tip of a reideer herd'
+    njuono+N+Sg+Nom: njuono
+    njuono+N+Sg+Gen: njunnuha
+    njuono+N+Sg+Acc: njunnuhav
+    njuono+N+Sg+Ill: njunnuhij
+    njuono+N+Sg+Ine: njunnuhin
+    njuono+N+Sg+Ela: [njunnuhist, njunnuhis]
+    njuono+N+Sg+Com: njunnuhijn
+    njuono+N+Pl+Nom: njunnuha
+    njuono+N+Pl+Gen: njunnuhij
+    njuono+N+Pl+Acc: njunnuhijd
+    njuono+N+Pl+Ill: njunnuhijda
+    njuono+N+Pl+Ine: njunnuhijn
+    njuono+N+Pl+Ela: [njunnuhijst, njunnuhijs]
+    njuono+N+Pl+Com: [njunnuhij, njunnuhijgum]
+#    njuono+N+Ess: njunnuhin !??
+#    njuono+N+Abe: njunnuhak !??
