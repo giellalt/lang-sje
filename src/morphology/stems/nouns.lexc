@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-14T12:31:53+02:00
+! Timestamp: 2017-08-15T11:25:18+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -821,10 +821,10 @@ njállgá:njállgá N_EVEN "caramel, candy" ; ! no. 90288
 njárrga:njárrga N_EVEN "point, cape (geography)" ; ! no. 2352
 njávve:njávve N_EVEN "neck fur on an animal" ; ! no. 1282
 njukktja:njukktja N_EVEN "swan" ; ! no. 1294
-njunnerájjge:njunne#rájjge N_EVEN "nostril" ; ! no. 5020
 njuolla:nju^Olla N_EVEN "arrow" ; ! no. 1298
 njuonne:nju^Onne N_EVEN "nose, snout, tip" ; ! no. 1300
 njuonnegiehtje:njuonne#giehtje N_EVEN "nose tip" ; ! no. 5887
+njuonnerájjge:njuonne#rájjge N_EVEN "nostril" ; ! no. 5020
 njuvvdemlihtte:njuvvdem#lihtte N_EVEN "pestle" ; ! no. 1308
 njuäbbrebässe:njuäbbre#bies'se N_EVEN "thin birch bark" ; ! no. 1310
 njållomájjge:njållom#ájjge N_EVEN "calving season" ; ! no. 5017
