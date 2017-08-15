@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-15T10:10:55+02:00
+! Timestamp: 2017-08-15T10:51:51+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -35,6 +35,9 @@ gávkas:gávvkas A_AMAS "slow, boring" ; ! no. 578
 asedis:ased A_ASEDIS "thin" ; ! no. 2704
 balvagis:balvag A_ASEDIS "cloudy" ; ! no. 4161
 durrulis:durrul A_ASEDIS "belligerent" ; ! no. 3455
+fábmogis:fábmog A_ASEDIS "strong, powerful" ; ! no. 90812
+tjerrulis:tjerrul A_ASEDIS "whimpering (for children)" ; ! no. 5213
+unogis:unog A_ASEDIS "strange, unusual, odd" ; ! no. 2033
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
 garras:gar'ra A_BAAHKAS "hard" ; ! no. 90186
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
