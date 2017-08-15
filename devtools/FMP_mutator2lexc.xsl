@@ -263,10 +263,7 @@ sjnuttjo A_EVEN_NOCG_S ;
 tjåvvgå A_EVEN_IES ;
 tjavvga A_EVEN_0 ; ! fungerar
 uhttse A_EVEN_B ; !little
-fábmogis:fábmogiss A_EVEN_4 ;
 suddulatj:suddulatj A_EVEN_D ;
-tjerrulis:tjerruliss A_EVEN_4 ;
-unugis:unugiss A_EVEN_4 ;
 vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
 ávos A_ODD_Å ; !happy, glad
 gilos:gil A_ODD_DD ; !gillus?
