@@ -265,14 +265,6 @@ Cx:Cy <=> _ (%^WG:) (%>:) # ;
           Cy in ( p  t 	k )
           matched ; 
 
-"Final CC simplification"
-Cx:0 <=> Vow Cx _ %^CDEL: ;
-	where Cx in ( s ) ;
-
-!!€ fábmogiss^CDEL
-!!€ fábmogis00
-
-	
 ! !!€ gål'leg2
 ! !!€ gål0lek
 ! !!€ gål'leg2a
