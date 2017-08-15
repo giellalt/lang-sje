@@ -506,6 +506,8 @@ Here come POS and Case tags, and no period.
 
 
 
+
+
 !!!Adpositions
 
  * __LEXICON PP   __  adds the tag +Po
@@ -1280,8 +1282,8 @@ Properhoun, toy file only
 * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
 
- *  LE "copula/auxiliary verb" ;  
- *  IJ "negation verb" ;  
+ * LE "copula/auxiliary verb" ;  
+ * IJ "negation verb" ;  
 
 
 !!!Pite Sámi TWOLC file
@@ -1351,11 +1353,6 @@ __Consonant Gradation for rdj:rj __
 __Final C Deletion__  
 
 __Final devoicing__  
-
-
-* __fábmogiss^CDEL __
-* __fábmogis00 __
-
 
 
 __Word Final Simplification in -st __  
