@@ -240,27 +240,27 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Pl+Com:u%>j K ;
 +N+Pl+Com+Use/NG:u%>jgum K ;
 
-LEXICON N_CONTR_AJA !ålmaj<->ålma
-+N+Sg+Nom:a^WGj%>0 K ;
-+N+Sg+Acc:a%>v K ;
-+N+Sg+Gen:a%>0 K ;
-+N+Sg+Ill:a%>j K ;
-+N+Sg+Ine:a%>n K ;
-+N+Sg+Ela:a%>st K ;
-+N+Sg+Ela+Use/NG:a%>s K ;
-+N+Sg+Com:a%>jn K ;
-+N+Ess:a%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-!+N+Ess:a^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:a%>dak K ; ! XXX
-+N+Pl+Nom:a%>0 K ;
-+N+Pl+Acc:a%>jd K ;
-+N+Pl+Gen:a%>j K ;
-+N+Pl+Ill:a%>jda K ;
-+N+Pl+Ine:a%>jn K ;
-+N+Pl+Ela:a%>jst K ;
-+N+Pl+Ela+Use/NG:a%>js K ;
-+N+Pl+Com:a%>j K ;
-+N+Pl+Com+Use/NG:a%>jgum K ;
+LEXICON N_CONTR_AJA !ålmáj<->ålmá
++N+Sg+Nom:á^WGj%>0 K ;
++N+Sg+Acc:á%>v K ;
++N+Sg+Gen:á%>0 K ;
++N+Sg+Ill:á%>j K ;
++N+Sg+Ine:á%>n K ;
++N+Sg+Ela:á%>st K ;
++N+Sg+Ela+Use/NG:á%>s K ;
++N+Sg+Com:á%>jn K ;
++N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
+!+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:á%>dak K ; ! XXX
++N+Pl+Nom:á%>0 K ;
++N+Pl+Acc:á%>jd K ;
++N+Pl+Gen:á%>j K ;
++N+Pl+Ill:á%>jda K ;
++N+Pl+Ine:á%>jn K ;
++N+Pl+Ela:á%>jst K ;
++N+Pl+Ela+Use/NG:á%>js K ;
++N+Pl+Com:á%>j K ;
++N+Pl+Com+Use/NG:á%>jgum K ;
 
 LEXICON N_CONTR_ESA !sarves<->sarvvá
 +N+Sg+Nom:e^WGs%>0 K ;
