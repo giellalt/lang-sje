@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-15T11:13:47+02:00
+! Timestamp: 2017-08-18T11:07:43+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -56,6 +56,7 @@ dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
 duallbat:du^Ollba A_DUALLBAT "flat" ; ! no. 5578
+gassak:gassa A_DUALLBAT "thick, fat" ; ! no. 562
 aktamielagatj:akta#mielagatj A_ELULATJ "of one opinion" ; ! no. 3989
 aktasatj:aktasatj A_ELULATJ "common, mutual" ; ! no. 39
 bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
@@ -70,6 +71,7 @@ buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
 dulutj:dulutj A_FIEROK "old-time" ; ! no. 4213
 fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
 färrtalágátj:färrta#lágátj A_FIEROK "all kinds of" ; ! no. 6224
+gávak:gávag2 A_FIEROK "bent" ; ! no. 4816
 guäkktelágátj:guäkkte#lágátj A_FIEROK "twins, two similar things" ; ! no. 4873
 ietjálágátj:ietjá#lágátj A_FIEROK "different" ; ! no. 458
 lágátj:lágátj A_FIEROK "like (adjective compound component)" ; ! no. 90801
@@ -77,6 +79,9 @@ suhtelágátj:suhte#lágátj A_FIEROK "in many ways, multiple" ; ! no. 4258
 särralágátj:särra#lágátj A_FIEROK "special, original" ; ! no. 3975
 vuostatj+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
+gienes:giedne A_GIENES "painful, evil, nasty" ; ! no. 2656
+gieres:gierre A_GIENES "in love, loved" ; ! no. 90194
+gåjkes:gåjjke A_GÅJKES "dry" ; ! no. 6239
 iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
 nagan:nagan A_NAGAN "some (-thing, -one)" ; ! no. 3430
 nagin+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
@@ -90,6 +95,7 @@ tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
 buäjjde:bu^Ojjde A_TJAEHPPE "fat" ; ! no. 90797
 fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
+gallje:gallje A_TJAEHPPE "wide, spacious" ; ! no. 3783
 gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
 vasste:vasste A_TJAEHPPE "ugly, horrible" ; ! no. 2337
