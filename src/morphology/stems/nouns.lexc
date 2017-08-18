@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-17T14:48:29+02:00
+! Timestamp: 2017-08-18T11:07:36+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2087,7 +2087,6 @@ gårrom:gårrom N_ODD "sewing" ; ! no. 5278
 gårråk:gårråg2 N_ODD "mountain Saami" ; ! no. 2716
 gåsek:gåseg2 N_ODD "five-year-old reindeer buck" ; ! no. 4353
 gälldim:gä2lldim N_ODD "castration" ; ! no. 5708
-gärris:gä2rris N_ODD "Saami sled" ; ! no. 3504
 hábak:hábag2 N_ODD "sparrow hawk" ; ! no. 798
 hednik:hednig2 N_ODD "heathen" ; ! no. 3289
 hiestak:hiestag2 N_ODD "shoe made of horse leather" ; ! no. 90237
@@ -2436,6 +2435,7 @@ guosmak:gu^Ossmag2 N_ODD_WG "coffee" ; ! no. 706
 gåbtjås:gåbbtjås N_ODD_WG "tarpaulin" ; ! no. 726
 gållek:gål'leg2 N_ODD_WG "gilded" ; ! no. 752
 gålmås:gålbmås N_ODD_WG "threesome" ; ! no. 4891
+gärris:gä2r'ris N_ODD_WG "Saami sled" ; ! no. 3504
 iehpal:iehppal N_ODD_WG "apple" ; ! no. 4184
 juällgeladas:juällge#lahtas N_ODD_WG "ankle" ; ! no. 945
 kráptjok:krápptjog2 N_ODD_WG "furless leather glove" ; ! no. 90255
