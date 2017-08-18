@@ -293,6 +293,29 @@ LEXICON A_NAGAN ! nagan/nagan/nagana etc. (no COMP/SUPERL)
 +A: N_ODD_X ; 
 
 
+LEXICON A_GIENES ! gienes/gienes/gädnása/?/?
++A+Attr:s^WG%> # ;
++A: A_GIENES_s2 ; 
+
+LEXICON A_GIENES_s2 
++Sg+Nom:s^WG%> K ; 
++Pl+Nom:s^V2E2AA%>a K ; 
+!+Comp:^V2E2AA A_EVEN_COMP ;
+!+Superl:^V2E2AA A_EVEN_SUP ;
+
+
+LEXICON A_GÅJKES ! gåjjke/gåjkes/gåjjkása/gåjjkáp/gåjjkájmus-
++A+Attr:%> # ;
++A: A_GÅJKES_s2 ; 
+
+LEXICON A_GÅJKES_s2 
++Sg+Nom:^WG%>s K ; 
++Pl+Nom:%>^V2E2AAsa K ; 
++Comp: A_ODD_COMP_V2E2AA ;
++Superl: A_ODD_jSUP_V2E2AA ;
+
+
+
 
 ! COMP/SUPERL rules:
 !COMP:
