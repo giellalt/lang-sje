@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - ålmáj: # N_CONTR_AJA (no grade alternations in normative version)
+    ålmáj+N+Sg+Nom: ålmáj
+    ålmáj+N+Sg+Gen: [ålmá, ålbmá]
+    ålmáj+N+Sg+Acc: [ålmáv, ålbmáv]
+    ålmáj+N+Sg+Ill: [ålmáj, ålbmáj]
+    ålmáj+N+Sg+Ine: [ålmán, ålbmán]
+    ålmáj+N+Sg+Ela: [ålmást, ålmás, ålbmást, ålbmás]
+    ålmáj+N+Sg+Com: [ålmájn, ålbmájn]
+    ålmáj+N+Pl+Nom: [ålmá, ålbmá]
+    ålmáj+N+Pl+Gen: [ålmáj, ålbmáj]
+    ålmáj+N+Pl+Acc: [ålmájd, ålbmájd]
+    ålmáj+N+Pl+Ill: [ålmájda, ålbmájda]
+    ålmáj+N+Pl+Ine: [ålmájn, ålbmájn]
+    ålmáj+N+Pl+Ela: [ålmájst, ålmájs, ålbmájst, ålbmájs]
+    ålmáj+N+Pl+Com: [ålmáj, ålmájgum, ålbmáj, ålbmájgum]
+    ålmáj+N+Ess: [ålmán, ålbmán]
+    ålmáj+N+Abe: [ålmádak, ålbmádak]
+
