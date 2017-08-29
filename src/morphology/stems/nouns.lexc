@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-18T11:07:36+02:00
+! Timestamp: 2017-08-29T13:46:28-06:00
 
 !! !!!Pite Saami Nouns
 
@@ -90,7 +90,6 @@ anuráhkka:anuráhkka N_EVEN "anorak" ; ! no. 3108
 apparahtta:apparahtta N_EVEN "device, machine" ; ! no. 3126
 appelsijdna:appelsijdna N_EVEN "orange (fruit)" ; ! no. 3124
 arbmogis+N+Der/State:arbmogisvu^Ohta N_EVEN "mercy" ; ! no. 63
-arrabävvla:arra#bievvla N_EVEN "bare ground early in the season" ; ! no. 6844
 artonåsse:arton#åsse N_EVEN "payment for a reindeer hand in form of a slaughtered reindeer" ; ! no. 4206
 asjmen:asjmen N_EVEN "bitter and disappointed" ; ! no. 3134
 asmen:asmen N_EVEN "displeased" ; ! no. 3541
@@ -122,6 +121,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ánnda:ánnda N_EVEN "Anders" ; ! no. 3100
 árbeåbme:árbe#åbme N_EVEN "inheritance" ; ! no. 2732
 árjepluovve:árjeplu^Ovve N_EVEN "Arjeplog" ; ! no. 66
+árrabävvla:árra#bievvla N_EVEN "bare ground early in the season" ; ! no. 6844
 árranásste:árra#násste N_EVEN "morning star" ; ! no. 2995
 árrangärrge:árran#gierrge N_EVEN "stone around a fireplace" ; ! no. 69
 árransadje:árran#sadje N_EVEN "fire place" ; ! no. 4664
@@ -1501,9 +1501,9 @@ vuoksanis:vu^Oksan N_EVEN4_ISA "vomit" ; ! no. 2174
 addam+Use/NG:addam N_EVEN_NOCG "marrowbone" ; ! no. 90520
 alátbägga:alát#biegga N_EVEN_NOCG "westerly wind" ; ! no. 42
 arbmo:arbmo N_EVEN_NOCG "mercy" ; ! no. 6197
-arrangaddsåbbe:arran#gadd#såbbe N_EVEN_NOCG "stick for stirring ashes" ; ! no. 5177
 ájagádde:ája#gádde N_EVEN_NOCG "edge of a spring" ; ! no. 2686
 árdna:árdna N_EVEN_NOCG "Árdna" ; ! no. 90692
+árrangáddsåbbe:árran#gádd#såbbe N_EVEN_NOCG "stick for stirring ashes" ; ! no. 5177
 ávosbádde:ávos#bádde N_EVEN_NOCG "reindeer harness" ; ! no. 89
 bassemtsagge:bassem#tsagge N_EVEN_NOCG "grilling stick" ; ! no. 1491
 bádde:bádde N_EVEN_NOCG "ribbon, string, band" ; ! no. 95
