@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-29T13:46:28-06:00
+! Timestamp: 2017-08-30T16:04:14-06:00
 
 !! !!!Pite Saami Nouns
 
@@ -70,10 +70,10 @@ várrebåtsoj:várre#båhts N_CONTR_OJU "mountain reindeer" ; ! no. 90386
 guokso:gu^Okks N_CONTR_OU "dawn" ; ! no. 690
 suolo:su^Oll N_CONTR_OU "island" ; ! no. 1771
 adjektijjva:adjektijjva N_EVEN "adjective" ; ! no. 3112
-adnemräkta:adnem#rä2kta N_EVEN "right of use" ; ! no. 4581
+adnemräkkta:adnem#riekkta N_EVEN "right of use" ; ! no. 4581
 adrässa:adries'sa N_EVEN "address" ; ! no. 2683
-adverba:adverba N_EVEN "adverb" ; ! no. 3113
 advokáhtta:advokáhtta N_EVEN "lawyer" ; ! no. 3114
+advärrba:advierrba N_EVEN "adverb" ; ! no. 3113
 ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 akkusatijjva:akkusatijjva N_EVEN "accusative" ; ! no. 3115
 aksjuvdna:aksjuvdna N_EVEN "auction" ; ! no. 3145
@@ -912,6 +912,7 @@ råmmå+Use/NG:råm'må N_EVEN "room" ; ! no. 90704
 råssne:råssne N_EVEN "vapor from open water during cold weather" ; ! no. 2669
 råvve:råvve N_EVEN "bridge, stoop for a cabin" ; ! no. 1461
 räjjdolårrå:räjjdo#lårrå N_EVEN "tool box" ; ! no. 1667
+räkkta:riekkta N_EVEN "right" ; ! no. 90813
 räkta:rä2kta N_EVEN "right, correct" ; ! no. 90627
 räppsa:rieppsa N_EVEN "rake" ; ! no. 5899
 rässjme:riessjme N_EVEN "line for fishing under ice" ; ! no. 2754
