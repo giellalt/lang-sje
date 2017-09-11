@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-30T16:04:14-06:00
+! Timestamp: 2017-09-11T06:37:15+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -37,7 +37,7 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 !! ** N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
 !! ** N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
-arbålmáj:arb#ålm N_CONTR_AJA "widower" ; ! no. 64
+árbålmáj:árb#ålm N_CONTR_AJA "widower" ; ! no. 64
 åjjveålmáj:åjjve#ålm N_CONTR_AJA "elder, alderman" ; ! no. 4780
 ålmáj:ålm N_CONTR_AJA "man, guy" ; ! no. 5222
 ålmáj+Use/NG:ålbm N_CONTR_AJA "man, guy" ; ! no. 90762
@@ -123,7 +123,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 árjepluovve:árjeplu^Ovve N_EVEN "Arjeplog" ; ! no. 66
 árrabävvla:árra#bievvla N_EVEN "bare ground early in the season" ; ! no. 6844
 árranásste:árra#násste N_EVEN "morning star" ; ! no. 2995
-árrangärrge:árran#gierrge N_EVEN "stone around a fireplace" ; ! no. 69
+árrangärrge:árran#gierrge N_EVEN "stone around a fireplace" ; ! no. 90814
 árransadje:árran#sadje N_EVEN "fire place" ; ! no. 4664
 árrbe:árrbe N_EVEN "heritage, inheritance" ; ! no. 2589
 árrga:árrga N_EVEN "everyday" ; ! no. 6105
@@ -1392,7 +1392,6 @@ assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
 áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
 ássálatj:ássálatj N_EVEN4 "accessory, participatory" ; ! no. 3571
 bárgáldak:bárgáldag2 N_EVEN4 "braid" ; ! no. 141
-biednagatj:biednagatj N_EVEN4 "small adult dog" ; ! no. 5717
 biejvadak:biejvadag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
 bietsastak:bietsastag2 N_EVEN4 "dense pine forest" ; ! no. 6867
 buddestak:buddestag2 N_EVEN4 "sewn ribbon bordering a frock or cap" ; ! no. 202
@@ -1504,6 +1503,7 @@ alátbägga:alát#biegga N_EVEN_NOCG "westerly wind" ; ! no. 42
 arbmo:arbmo N_EVEN_NOCG "mercy" ; ! no. 6197
 ájagádde:ája#gádde N_EVEN_NOCG "edge of a spring" ; ! no. 2686
 árdna:árdna N_EVEN_NOCG "Árdna" ; ! no. 90692
+árrangádde:árran#gádde N_EVEN_NOCG "edge of a fireplace" ; ! no. 4663
 árrangáddsåbbe:árran#gádd#såbbe N_EVEN_NOCG "stick for stirring ashes" ; ! no. 5177
 ávosbádde:ávos#bádde N_EVEN_NOCG "reindeer harness" ; ! no. 89
 bassemtsagge:bassem#tsagge N_EVEN_NOCG "grilling stick" ; ! no. 1491
@@ -1531,7 +1531,7 @@ fágge:fágge N_EVEN_NOCG "wrestling" ; ! no. 465
 flággá:flággá N_EVEN_NOCG "flag" ; ! no. 476
 fårbmå:fårbmå N_EVEN_NOCG "shape" ; ! no. 5535
 gadtsa:gadtsa N_EVEN_NOCG "fingernail, claw" ; ! no. 488
-gádde:gádde N_EVEN_NOCG "shore" ; ! no. 2930
+gádde:gádde N_EVEN_NOCG "shore; edge" ; ! no. 2930
 gáddo:gáddo N_EVEN_NOCG "suspicion" ; ! no. 3266
 gágga:gágga N_EVEN_NOCG "keg, cask" ; ! no. 5206
 gálatjimlådde:gálatjim#lådde N_EVEN_NOCG "wader bird" ; ! no. 4754
@@ -1550,7 +1550,9 @@ hägga:hiegga N_EVEN_NOCG "life" ; ! no. 861
 härbmo:hierbmo N_EVEN_NOCG "sleet" ; ! no. 3906
 idjabåddå:idja#båddå N_EVEN_NOCG "nighttime" ; ! no. 4933
 jargŋa:jargŋa N_EVEN_NOCG "root of a windfallen tree" ; ! no. 3742
+jávvregádde:jávvre#gádde N_EVEN_NOCG "lake shore" ; ! no. 4918
 jiegŋaradde:jiegŋa#radde N_EVEN_NOCG "edge of the ice" ; ! no. 4633
+jåhkågádde:jåhkå#gádde N_EVEN_NOCG "bank of a stream" ; ! no. 90232
 jägge:jiegge N_EVEN_NOCG "marsh, bog" ; ! no. 965
 káffabåddå:káffa#båddå N_EVEN_NOCG "coffee break, coffee time" ; ! no. 6021
 klabjobägga:klabjo#biegga N_EVEN_NOCG "whirlwind, tornado" ; ! no. 974
@@ -1942,7 +1944,6 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 ájlekárrat:ájlek#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 áldar:áldar N_ODD "age" ; ! no. 2719
 áldas:áldas N_ODD "leather on front top part of shoe" ; ! no. 47
-árbatj:árbatj N_ODD "widow" ; ! no. 62
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
 árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
