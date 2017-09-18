@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-09-11T06:37:15+02:00
+! Timestamp: 2017-09-18T13:27:39+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1006,6 +1006,7 @@ skávvtjá:skávvtjá N_EVEN "beard" ; ! no. 1622
 skibble:skibble N_EVEN "sore on one's scalp" ; ! no. 1628
 skidnja:skidnja N_EVEN "echo" ; ! no. 3980
 skiedjá:skiedjá N_EVEN "small storage unit on runners" ; ! no. 1630
+skiedjáluäppte:skiedjá#lu^Oppte N_EVEN "storage unit on runners" ; ! no. 90815
 skilla:skilla N_EVEN "zinc bucket" ; ! no. 1624
 skilltja:skilltja N_EVEN "Saami frock made of raw leather" ; ! no. 1639
 skilltje+Use/NG:skilltje N_EVEN "ice on reindeer lichen underneath snow" ; ! no. 90744
@@ -1668,7 +1669,7 @@ bassto:bassto N_EVEN_O "sauna" ; ! no. 1517
 báhko:báhko N_EVEN_O "word" ; ! no. 108
 bárrdesvahkko:bárrdes#vahkko N_EVEN_O "Bartolomeusveckan i augusti" ; ! no. 3841
 bárrko:bárrko N_EVEN_O "bark" ; ! no. 147
-bárro:bárro N_EVEN_O "wave" ; ! no. 4685
+bárro:bárro N_EVEN_O "wave (in water)" ; ! no. 4685
 bássemánno:básse#mánno N_EVEN_O "November" ; ! no. 151
 bidumiedno:bidum#iedno N_EVEN_O "Pite river" ; ! no. 170
 biednekdårrjo:biednek#dårrjo N_EVEN_O "contribution, subsidy, financial support" ; ! no. 3309
