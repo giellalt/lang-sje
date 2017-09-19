@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-08-15T09:39:28+02:00
+! Timestamp: 2017-09-19T11:26:26+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -395,6 +395,7 @@ gullat:gull V_EVEN_A "hear" ; ! no. 667
 gullat:gull V_EVEN_A "feel" ; ! no. 90732
 guohpat:gu^Ohp V_EVEN_A "sew together" ; ! no. 4857
 guohtsat:gu^Ohts V_EVEN_A "run (for animals with four legs)" ; ! no. 687
+guohtsat:gu^Ohts V_EVEN_A "climb (up onto)" ; ! no. 90816
 guoradallat:guoradall V_EVEN_A "track, follow a track" ; ! no. 5494
 guorrat:gu^Orr V_EVEN_A "track" ; ! no. 6148
 guossástallat:guossástall V_EVEN_A "visit" ; ! no. 3271
