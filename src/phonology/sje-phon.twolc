@@ -189,7 +189,7 @@ d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 
 "Consonant Gradation for xx:x"
 !! __@RULENAME@__  
-Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: \%^CDEL: ;
+Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg (auch nicht dtj, dts)
      
 "Consonant Gradation for xxy:xy"
