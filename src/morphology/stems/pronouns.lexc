@@ -42,7 +42,7 @@ LEXICON pers   !!= * __@CODE@__
 +Pron+Pers+Sg+Ill:unji    # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 +Pron+Pers+Sg+Ine:uvne    # ;
 +Pron+Pers+Sg+Ine:ujna    # ; !nordlig variant
-+Pron+Pers+Sg+Ela:uvvste  # ;
++Pron+Pers+Sg+Ela:uvste   # ;
 +Pron+Pers+Sg+Com:ujna    # ;
 
 +Pron+Pers+Du+Nom:åj      # ;
@@ -899,6 +899,7 @@ sämmi+Pron+Indef+Sg+Nom:semmi # ;
 
 LEXICON Reflexive   !!= * __@CODE@__
 
+iehtja+Pron+Refl+Sg+Nom:ietj # ; !JW's data
 iehtja+Pron+Refl+Sg+Nom:iehtja # ; !Martin Sjaggo huvudinformant
 iehtja+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
 iehtja+Pron+Refl+Sg+Acc+PxSg1:iehtjanav # ;
