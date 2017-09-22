@@ -20,8 +20,8 @@ LEXICON CC   !!= * __@CODE@__ gives +CC
 
 LEXICON Conjunction   !!= * __@CODE@__ is the list.
 ájnat CC ;
-beru CC ;
-ber CC ;
+!beru CC ;
+!ber CC ; ! why should this be a conjunction?
 dalának CC ;
 dalle CC ;
 desik CC ;
