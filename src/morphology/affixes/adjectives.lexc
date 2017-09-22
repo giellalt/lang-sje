@@ -314,6 +314,15 @@ LEXICON A_GÅJKES_s2
 +Comp: A_ODD_COMP_V2E2AA ;
 +Superl: A_ODD_jSUP_V2E2AA ;
 
+LEXICON A_KUORA ! kuora 'left over, kvar' NO ATTR FORM!
++A: A_KUORA_s2 ; 
+
+LEXICON A_KUORA_s2 
++Sg+Nom:%>0 K ; 
++Pl+Nom:%>0 K ; 
+!+Comp: A_ODD_COMP_V2E2AA ;
+!+Superl: A_ODD_jSUP_V2E2AA ;
+
 
 
 
