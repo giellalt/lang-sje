@@ -175,7 +175,7 @@ LEXICON V_EVEN_Å !viessot, årrot
 +V:å^WG V_EVEN_Å_WK ;
 
 LEXICON V_EVEN_Å_STR
-+Ind+Prs+Sg3:a%>0 #;
++Ind+Prs+Sg3:á%>0 #;
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:å%>behtin #;
 !+Ind+Prs+Du2:å%>bähtten #;
