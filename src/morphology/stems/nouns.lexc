@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-02T20:56:57+02:00
+! Timestamp: 2017-10-03T09:32:30+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2347,7 +2347,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åbbátj:åbbátj N_ODD "sister" ; ! no. 90399
 åbbås:åbbås N_ODD "snow, deep virgin blanket of snow" ; ! no. 2230
 ådåk+Use/NG:ådåg2 N_ODD "puppy (older than six months)" ; ! no. 2239
-åjvok:åjvog2 N_ODD "oldest brother" ; ! no. 2254
+åjvåk:åjvåg2 N_ODD "oldest brother" ; ! no. 2254
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
 årrås:årrås N_ODD "piece of news" ; ! no. 90201
