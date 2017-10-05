@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-09-19T11:26:26+02:00
+! Timestamp: 2017-10-05T16:02:59+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1103,10 +1103,10 @@ däddodit:dä2ddod V_ODD "emphasize" ; ! no. 3275
 dälkudit:dä2lkud V_ODD "cure, heal with medicine" ; ! no. 3393
 dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
 därjedit:dä2rjed V_ODD "curse, swear" ; ! no. 440
+fádmastit:fádmast V_ODD "hug, embrace" ; ! no. 2410
 fággadit:fággad V_ODD "struggle, wrestle" ; ! no. 464
 fáhtádit:fáhtád V_ODD "capture, catch" ; ! no. 2651
 fármastit+Use/NG:fármast V_ODD "hug, embrace" ; ! no. 90563
-fátmastit:fátmast V_ODD "hug, embrace" ; ! no. 2410
 fielastit:fielast V_ODD "travel" ; ! no. 2813
 fielbardit:fielbard V_ODD "drift (for snow)" ; ! no. 4012
 fieradit:fierad V_ODD "perish, die" ; ! no. 474
