@@ -96,7 +96,7 @@ Definitions
 
         b b [d|j|l|m|n|r] |
         b d n |
-        d d [g|j|n] |
+        d d [g|j|m|n] |
         d t [j|s] |
         f f [t|n] |
         g g d |
@@ -195,8 +195,8 @@ Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: ;
 "Consonant Gradation for xxy:xy"
 !! __@RULENAME@__  
 Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
-     where Cx in ( b b b b b b d d d d f f g g g g j j j j j j j j j j k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
-           Cy in ( d j l m n r j k n v d n d l ŋ v b d g p k l m r s v s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d j k l r g s )  
+     where Cx in ( b b b b b b d d d d d f f g g g g j j j j j j j j j j k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
+           Cy in ( d j l m n r j k m n v d n d l ŋ v b d g p k l m r s v s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d j k l r g s )  
           matched ;
 !!€ tjállag^WG^CDEL
 !!€ tjál0a000
