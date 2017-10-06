@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-05T16:02:59+02:00
+! Timestamp: 2017-10-06T08:32:06+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -78,6 +78,8 @@ didtjit:didtji V_CONTR "beg" ; ! no. 362
 dielmoduvvut:dielmoduvvu V_CONTR "be trampled, stomped on" ; ! no. 5533
 dinntjit:dinntji V_CONTR "give someone a beating" ; ! no. 365
 dipptjit:dipptji V_CONTR "press down" ; ! no. 5658
+dubbmit:dubbmi V_CONTR "empty" ; ! no. 2676
+dubbmit:dubbmi V_CONTR "judge" ; ! no. 90821
 dubdiduvvut:dubdiduvvu V_CONTR "mark, characterize" ; ! no. 5679
 duddjut:duddju V_CONTR "break off, break apart" ; ! no. 3369
 duhkkit:duhkki V_CONTR "suffice" ; ! no. 385
@@ -359,7 +361,7 @@ duagŋat:du^Ogŋ V_EVEN_A "repair" ; ! no. 6178
 duahttat:du^Ohtt V_EVEN_A "touch" ; ! no. 3257
 dualldat:du^Olld V_EVEN_A "boil hard" ; ! no. 2555
 duasstat:du^Osst V_EVEN_A "risk, dare" ; ! no. 380
-dubmedallat:dubmedall V_EVEN_A "be sentenced, be judged" ; ! no. 5605
+dubbmidallat:dubbmidall V_EVEN_A "be sentenced, be judged" ; ! no. 5605
 dudnat:dudn V_EVEN_A "roar" ; ! no. 3302
 duffat:duff V_EVEN_A "be in the middle of something, dawdle" ; ! no. 5839
 dullvat:dullv V_EVEN_A "rise, flood (water, eg. in a creek)" ; ! no. 5049
@@ -635,7 +637,6 @@ bävvket:bä2vvk V_EVEN_E "chirp (for ptarmigan)" ; ! no. 4583
 dibbdet:dibbd V_EVEN_E "disappear (for snow crust)" ; ! no. 3502
 diehtet:dieht V_EVEN_E "know" ; ! no. 350
 dubbanasstet:dubbanasst V_EVEN_E "move over more" ; ! no. 4738
-dubbmet:dubbm V_EVEN_E "empty" ; ! no. 2676
 dumbalasstet:dumbalasst V_EVEN_E "be reckless" ; ! no. 5808
 duvvdet:duvvd V_EVEN_E "drive, push ahead reindeer" ; ! no. 405
 dåbbdågåhtet:dåbbdågåht V_EVEN_E "get to know someone" ; ! no. 412
