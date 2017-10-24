@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-16T08:52:18+02:00
+! Timestamp: 2017-10-24T07:44:37+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1885,6 +1885,7 @@ stárrfo:stárrfo N_EVEN_O "boat landing" ; ! no. 3515
 stárro:stár'ro N_EVEN_O "sedge hay" ; ! no. 6570
 ståhpo:ståhpo N_EVEN_O "hut, cabin" ; ! no. 1746
 stänntjo:stienntjo N_EVEN_O "wet clay" ; ! no. 4497
+suakkno+Use/NG:su^Okkno N_EVEN_O "municipality" ; ! no. 90824
 sujjto:sujjto N_EVEN_O "care" ; ! no. 3110
 suovasbärrgo:suovas#bierrgo N_EVEN_O "smoked meat" ; ! no. 5150
 surrgo:surrgo N_EVEN_O "sorrow" ; ! no. 1776
