@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-06T08:32:06+02:00
+! Timestamp: 2017-10-24T09:32:49+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -444,6 +444,7 @@ masstat:masst V_EVEN_A "mix together" ; ! no. 1146
 máhttsat:máhtts V_EVEN_A "turn around" ; ! no. 1116
 mássjat:mássj V_EVEN_A "control oneself, let something be" ; ! no. 1145
 merustallat:merustall V_EVEN_A "calculate, estimate" ; ! no. 3255
+mihástallat:mihástall V_EVEN_A "boast, brag, be arrogant" ; ! no. 90825
 mivvat:mivv V_EVEN_A "give in, give up, yield" ; ! no. 4227
 mujtodallat:mujtodall V_EVEN_A "remember" ; ! no. 5779
 mujudallat:mujudall V_EVEN_A "smile slightly" ; ! no. 2638
