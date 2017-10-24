@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-09-22T07:49:51+02:00
+! Timestamp: 2017-10-24T08:19:47+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -52,7 +52,7 @@ blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
 jallgat:jallg A_BLAAVVAT "even, level, flat" ; ! no. 919
 tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
-gähppe:giehppe A_BUOSSJE "light" ; ! no. 782
+gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
 dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
@@ -82,6 +82,7 @@ vuostatj+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
 gienes:giedne A_GIENES "painful, evil, nasty" ; ! no. 2656
 gieres:gierre A_GIENES "in love, loved" ; ! no. 90194
+hieves:hievve A_GIENES "proud, impressive" ; ! no. 840
 gåjkes:gåjjke A_GÅJKES "dry" ; ! no. 6239
 iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
@@ -99,7 +100,7 @@ buäjjde:bu^Ojjde A_TJAEHPPE "fat" ; ! no. 90797
 fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
 gallje:gallje A_TJAEHPPE "wide, spacious" ; ! no. 3783
 gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
-tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent" ; ! no. 1983
+tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent, skilled" ; ! no. 1983
 vasste:vasste A_TJAEHPPE "ugly, horrible" ; ! no. 2337
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
 dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
