@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-24T07:44:37+02:00
+! Timestamp: 2017-10-27T12:45:47+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1685,7 +1685,7 @@ bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
 bumullo:bumul'lo N_EVEN_O "cotton" ; ! no. 3370
 bårrgemánno:bårrge#mánno N_EVEN_O "August" ; ! no. 252
 bårrgo:bårrgo N_EVEN_O "snow flurry" ; ! no. 4708
-båssjo:båssjo N_EVEN_O "kitchen, cooking part of a Saami hut" ; ! no. 258
+båssjo:bås'sjo N_EVEN_O "kitchen, cooking part of a Saami hut" ; ! no. 258
 båtsojbarrgo:båtsoj#barrgo N_EVEN_O "reindeer husbandry" ; ! no. 5544
 bäbbmo:biebbmo N_EVEN_O "food, feed" ; ! no. 266
 bäbbmogissto:bäbbmo#gissto N_EVEN_O "food case" ; ! no. 267
