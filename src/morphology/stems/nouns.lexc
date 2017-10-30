@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-27T12:45:47+02:00
+! Timestamp: 2017-10-30T20:05:55+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -254,7 +254,7 @@ båttkå:båttkå N_EVEN "break, rest" ; ! no. 265
 bäbbmosadje:bäbbmo#sadje N_EVEN "place for eating" ; ! no. 4639
 bäbbmovuassa:bäbbmo#vu^Os'sa N_EVEN "food bag" ; ! no. 268
 bähkke:biehkke N_EVEN "piece, part" ; ! no. 269
-bäjjve:biejjve N_EVEN "day, sun" ; ! no. 271
+bäjjve:biejjve N_EVEN "day; sun" ; ! no. 271
 bäjjvebállká:bäjjve#bállká N_EVEN "daily allowance" ; ! no. 3550
 bäjjvetjuavvga:bäjjve#tju^Ovvga N_EVEN "daylight" ; ! no. 90537
 bällge:biellge N_EVEN "thumb" ; ! no. 273
@@ -1370,8 +1370,8 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 årremsadje:årrem#sadje N_EVEN "place to sleep" ; ! no. 3677
 årrjelsábme:årrjel#sábme N_EVEN "South Saami" ; ! no. 5046
 årromsadje:årrom#sadje N_EVEN "place of residence, dwelling" ; ! no. 3373
+årråjagbäjjve:årrå#jag#biejjve N_EVEN "New Years Day" ; ! no. 5169
 årråjahke:årrå#jahke N_EVEN "new year" ; ! no. 5170
-årråjakbäjjve:årrå#jak#biejjve N_EVEN "New Years Day" ; ! no. 5169
 åsestimbuvvda:åsestim#buvvda N_EVEN "shop" ; ! no. 2723
 åsest+N+Der/Ag:åsestieddje N_EVEN "salesman" ; ! no. 2585
 åsse:åsse N_EVEN "part, share" ; ! no. 2269
@@ -1642,7 +1642,6 @@ vuässtebägga:vuässte#biegga N_EVEN_NOCG "headwind" ; ! no. 5486
 vädtja:viedtja N_EVEN_NOCG "wall" ; ! no. 3000
 värbme:vierbme N_EVEN_NOCG "net" ; ! no. 2225
 åbbá:åbbá N_EVEN_NOCG "sister" ; ! no. 2228
-åddås+Use/NG:åddås N_EVEN_NOCG "piece of news" ; ! no. 90519
 ågge:ågge N_EVEN_NOCG "undertow, eddy" ; ! no. 3077
 åggomvuagga:åggom#vu^Ogga N_EVEN_NOCG "fishing hook" ; ! no. 5034
 årjátbägga:årját#biegga N_EVEN_NOCG "southernly wind" ; ! no. 2262
@@ -1935,7 +1934,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 åggommáhto:åggom#máhto N_EVEN_O "fishing worm (for bait)" ; ! no. 4475
 ålbmábarrgo:ålbmá#barrgo N_EVEN_O "men’s work, typical male activities" ; ! no. 4208
 årrvo:årrvo N_EVEN_O "scythe handle" ; ! no. 3789
-årråjakmánno:årrå#jak#mánno N_EVEN_O "January" ; ! no. 2234
+årråjagmánno:årrå#jag#mánno N_EVEN_O "January" ; ! no. 2234
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åstobäbbmo:åsto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
 alltar:alltar N_ODD "altar" ; ! no. 3799
@@ -2353,7 +2352,6 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åjvåk:åjvåg2 N_ODD "oldest brother" ; ! no. 2254
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
-årrås:årrås N_ODD "piece of news" ; ! no. 90201
 åråk:åråg2 N_ODD "new-born puppy" ; ! no. 90294
 ähpar:ä2hpar N_ODD "ghost of unbaptized babies" ; ! no. 4312
 äjjgut:ä2jjgud2 N_ODD "intent" ; ! no. 3171
