@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-30T20:05:55+01:00
+! Timestamp: 2017-10-31T09:59:49+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -826,6 +826,7 @@ njuolla:nju^Olla N_EVEN "arrow" ; ! no. 1298
 njuonne:nju^Onne N_EVEN "nose, snout, tip" ; ! no. 1300
 njuonnegiehtje:njuonne#giehtje N_EVEN "nose tip" ; ! no. 5887
 njuonnerájjge:njuonne#rájjge N_EVEN "nostril" ; ! no. 5020
+njuonnje+Use/NG:nju^Onnje N_EVEN "nose, snout, tip" ; ! no. 90826
 njuvvdemlihtte:njuvvdem#lihtte N_EVEN "pestle" ; ! no. 1308
 njuäbbrebässe:njuäbbre#bies'se N_EVEN "thin birch bark" ; ! no. 1310
 njållomájjge:njållom#ájjge N_EVEN "calving season" ; ! no. 5017
