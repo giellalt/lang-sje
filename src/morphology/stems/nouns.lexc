@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-31T09:59:49+01:00
+! Timestamp: 2017-11-01T12:24:58+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -278,7 +278,7 @@ dajjva:dajjva N_EVEN "place, area" ; ! no. 310
 danmarrka:danmarrka N_EVEN "Denmark" ; ! no. 3555
 darrve:darrve N_EVEN "tar" ; ! no. 337
 dábbde:dábbde N_EVEN "spleen" ; ! no. 292
-dábbtja:dábbtja N_EVEN "small whetstone" ; ! no. 294
+dábbtjá:dábbtjá N_EVEN "small, portable whetstone" ; ! no. 294
 dábme:dábme N_EVEN "glue" ; ! no. 331
 dáhpa:dáhpa N_EVEN "boat drain plug" ; ! no. 6566
 dáhpe:dáhpe N_EVEN "custom, way, tradition" ; ! no. 6089
@@ -879,9 +879,10 @@ rássjotjalbme:rássjo#tjalbme N_EVEN "raindrop" ; ! no. 5186
 rátkamnávvká:rátkam#návvká N_EVEN "group of separated reindeer" ; ! no. 5075
 rávvke:rávvke N_EVEN "deceased, dead person" ; ! no. 3689
 rávvsá:rávvsá N_EVEN "gland" ; ! no. 2887
-regadembäjjve:regadem#biejjve N_EVEN "birthday" ; ! no. 4245
 ribbre:ribbre N_EVEN "liver" ; ! no. 1403
 ridne:ridne N_EVEN "snow on trees" ; ! no. 3066
+riegádimbäjjve:riegádim#biejjve N_EVEN "birthday" ; ! no. 4245
+riegádimjahke:riegádim#jahke N_EVEN "year of birth" ; ! no. 4246
 riehtabuäjjde:riehta#bu^Ojjde N_EVEN "groin fat" ; ! no. 90329
 riektes+N+Der/State:riektesvu^Ohta N_EVEN "legal right" ; ! no. 3856
 riessak:riessag2 N_EVEN "edge of a Saami frock" ; ! no. 90300
@@ -1429,7 +1430,7 @@ mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
 muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "place for cutting firewood" ; ! no. 5553
 mållának:mållánag2 N_EVEN4 "expression, dialect, pronunciation" ; ! no. 1202
 njalkadak:njalkadag2 N_EVEN4 "slipperiness, slippery road surface" ; ! no. 4196
-njuonnodak:nju^Onnodag2 N_EVEN4 "nose halter" ; ! no. 1301
+njunnudak:njunnudag2 N_EVEN4 "nose halter" ; ! no. 1301
 sagerdak:sagerdag2 N_EVEN4 "towel" ; ! no. 1481
 sávaldak:sávaldag2 N_EVEN4 "wish" ; ! no. 90313
 sillbagietsaldak:sillba#gietsaldag2 N_EVEN4 "silver belt" ; ! no. 1542
@@ -2208,7 +2209,7 @@ ruävvdeáldar:ruävvde#áldar N_ODD "iron age" ; ! no. 3660
 råggåk:råggåg2 N_ODD "uneven territory" ; ! no. 3067
 råhtem:råhtem N_ODD "lynx" ; ! no. 3506
 sabek:sabeg2 N_ODD "ski" ; ! no. 1466
-sadjem:sadjem N_ODD "sharpening stone" ; ! no. 1472
+sadjem:sadjem N_ODD "large round sharpening stone" ; ! no. 1472
 salpek:salpeg2 N_ODD "tool made of reindeer antlers" ; ! no. 4773
 saŋátj:saŋátj N_ODD "itch" ; ! no. 1506
 savek:saveg2 N_ODD "ski with climbing skin" ; ! no. 1518
