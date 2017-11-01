@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-24T09:32:49+02:00
+! Timestamp: 2017-11-01T12:25:05+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -722,8 +722,8 @@ riegádahttet:riegádahtt V_EVEN_E "give birth to" ; ! no. 1396
 riekknegåhtet:riekknegåht V_EVEN_E "begin counting" ; ! no. 4402
 rievedasstet:rievedasst V_EVEN_E "pull towards oneself quickly" ; ! no. 5076
 rijjdet:rijjd V_EVEN_E "argue, quarrel" ; ! no. 1411
+sadjet:sadj V_EVEN_E "sharpen (axes, knives, other tools)" ; ! no. 1473
 savvet:savv V_EVEN_E "heal, get better" ; ! no. 1520
-sádjet:sádj V_EVEN_E "sharpen (axes, knives, other tools)" ; ! no. 1473
 sáhttet:sáhtt V_EVEN_E "be able to" ; ! no. 5934
 sjivnjudahttet:sjivnjudahtt V_EVEN_E "blacken, darken" ; ! no. 1565
 sjävudahttet:sjävudahtt V_EVEN_E "quiet down" ; ! no. 5874
