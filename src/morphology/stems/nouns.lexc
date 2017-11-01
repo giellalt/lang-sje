@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-01T12:24:58+01:00
+! Timestamp: 2017-11-01T17:28:10+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -278,7 +278,7 @@ dajjva:dajjva N_EVEN "place, area" ; ! no. 310
 danmarrka:danmarrka N_EVEN "Denmark" ; ! no. 3555
 darrve:darrve N_EVEN "tar" ; ! no. 337
 dábbde:dábbde N_EVEN "spleen" ; ! no. 292
-dábbtjá:dábbtjá N_EVEN "small, portable whetstone" ; ! no. 294
+dábbtjá:dábbtjá N_EVEN "portable whetstone" ; ! no. 294
 dábme:dábme N_EVEN "glue" ; ! no. 331
 dáhpa:dáhpa N_EVEN "boat drain plug" ; ! no. 6566
 dáhpe:dáhpe N_EVEN "custom, way, tradition" ; ! no. 6089
@@ -370,7 +370,6 @@ gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
 gahpa:gahpa N_EVEN "cheese mass" ; ! no. 497
 gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
 gallva:gallva N_EVEN "dry deciduous tree" ; ! no. 4757
-gaŋŋka:gaŋŋka N_EVEN "iron pole" ; ! no. 4067
 gappte:gappte N_EVEN "Saami frock" ; ! no. 539
 gasskabäjjve:gasska#biejjve N_EVEN "dinner time" ; ! no. 564
 gasskadállve:gasska#dállve N_EVEN "the middle of the winter" ; ! no. 5728
@@ -401,6 +400,7 @@ gámabielle:gáma#bielle N_EVEN "one shoe (as opposed to both shoes of a pair)" 
 gámasuäjdne:gáma#su^Ojdne N_EVEN "shoe hay" ; ! no. 4349
 gámasuäjdneájjge:gáma#suäjdne#ájjge N_EVEN "season to harvest shoe hay" ; ! no. 6188
 gámmsa:gámmsa N_EVEN "dumpling" ; ! no. 533
+gáŋŋká:gáŋŋká N_EVEN "iron pole" ; ! no. 4067
 gárdijdna:gárdijdna N_EVEN "curtain" ; ! no. 90339
 gárrde:gárrde N_EVEN "fence, pen, corral" ; ! no. 548
 gárrdevárre:gárrde#várre N_EVEN "fenced in mountainous area" ; ! no. 5251
@@ -2209,7 +2209,7 @@ ruävvdeáldar:ruävvde#áldar N_ODD "iron age" ; ! no. 3660
 råggåk:råggåg2 N_ODD "uneven territory" ; ! no. 3067
 råhtem:råhtem N_ODD "lynx" ; ! no. 3506
 sabek:sabeg2 N_ODD "ski" ; ! no. 1466
-sadjem:sadjem N_ODD "large round sharpening stone" ; ! no. 1472
+sadjem:sadjem N_ODD "grindstone" ; ! no. 1472
 salpek:salpeg2 N_ODD "tool made of reindeer antlers" ; ! no. 4773
 saŋátj:saŋátj N_ODD "itch" ; ! no. 1506
 savek:saveg2 N_ODD "ski with climbing skin" ; ! no. 1518
