@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-03T14:51:19+01:00
+! Timestamp: 2017-11-05T11:13:32+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -116,7 +116,6 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ájmon:ájmon N_EVEN "in stock, left over" ; ! no. 31
 álkes+N+Der/State:álkesvu^Ohta N_EVEN "ease" ; ! no. 4792
 álldomällke:álldo#miellke N_EVEN "reindeer milk" ; ! no. 3837
-álldovuassta:álldo#vu^Ossta N_EVEN "reindeer cheese" ; ! no. 5933
 állge:állge N_EVEN "amateur, beginner" ; ! no. 3095
 ánnda:ánnda N_EVEN "Anders" ; ! no. 3100
 árbeåbme:árbe#åbme N_EVEN "inheritance" ; ! no. 2732
@@ -391,7 +390,6 @@ gájjse:gájjse N_EVEN "pointed mountain peak, mountain terrain with high peaks"
 gájjtsa:gájjtsa N_EVEN "goat" ; ! no. 2370
 gájtsamällke:gájtsa#miellke N_EVEN "goat’s milk" ; ! no. 4561
 gájtsanakvuassa:gájtsanak#vu^Os'sa N_EVEN "bag made of goat leather" ; ! no. 5840
-gájtsavuassta:gájtsa#vu^Ossta N_EVEN "goat’s cheese" ; ! no. 4562
 gájvas+N+Der/State:gájvasvu^Ohta N_EVEN "stupidity" ; ! no. 3931
 gállbe:gállbe N_EVEN "calf (for bovines)" ; ! no. 4331
 gállesbuavvda:gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
@@ -746,7 +744,6 @@ mijjla:mijjla N_EVEN "Swedish mile (ten kilometers)" ; ! no. 2387
 mikrovuäbbne:mikro#vu^Obbne N_EVEN "microwave oven" ; ! no. 1165
 minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
 missu:mis'su N_EVEN "whey" ; ! no. 3196
-missuvuassta:missu#vu^Ossta N_EVEN "brown cheese" ; ! no. 5989
 missuvuodja:missu#vu^Odja N_EVEN "whey butter" ; ! no. 3197
 motuvvra:motuvvra N_EVEN "motor" ; ! no. 5977
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
@@ -1079,7 +1076,6 @@ stilltje:stilltje N_EVEN "snow and ice in the trees" ; ! no. 6003
 stirrge:stirrge N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
 stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
-struhtávuassta:struhtá#vu^Ossta N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
 struvvdagappte:struvvda#gappte N_EVEN "broadcloth frock" ; ! no. 5231
 strähttá:striehttá N_EVEN "Epiphany" ; ! no. 5088
@@ -1306,7 +1302,7 @@ vuappta:vu^Oppta N_EVEN "head hair (for humans)" ; ! no. 2141
 vuarrtja:vu^Orrtja N_EVEN "crow" ; ! no. 2189
 vuarrtjamuärrje:vuarrtja#mu^Orrje N_EVEN "crowberry" ; ! no. 1923
 vuassa:vu^Os'sa N_EVEN "sack, backpack, bag" ; ! no. 2143
-vuassta:vu^Ossta N_EVEN "cheese" ; ! no. 2332
+vuasstá:vu^Osstá N_EVEN "cheese" ; ! no. 2332
 vuavvda:vu^Ovvda N_EVEN "birdhouse" ; ! no. 2145
 vuavvla:vu^Ovvla N_EVEN "abdominal cavity" ; ! no. 2146
 vuobme:vu^Obme N_EVEN "forest" ; ! no. 5457
