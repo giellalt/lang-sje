@@ -9,21 +9,21 @@ Config:
 
 Tests:
 
-  Noun - bunnde: # N_EVEN (with final -e in nom.sg)
-    bunnde+N+Sg+Nom: bunnde
-    bunnde+N+Sg+Gen: bunde
-    bunnde+N+Sg+Acc: bundev
-    bunnde+N+Sg+Ill: bunndáj
-    bunnde+N+Sg+Ine: bunden
-    bunnde+N+Sg+Ela: [bundest, bundes]
-    bunnde+N+Sg+Com: [bundijn, bundijna]
-    bunnde+N+Pl+Nom: bunde
-    bunnde+N+Pl+Gen: bundij
-    bunnde+N+Pl+Acc: bundijd
-    bunnde+N+Pl+Ill: bundijda
-    bunnde+N+Pl+Ine: bundijn
-    bunnde+N+Pl+Ela: [bundijst, bundijs]
-    bunnde+N+Pl+Com: [bundij, bundijgum]
-    bunnde+N+Ess: bunnden
-    bunnde+N+Abe: bundedak
+  Noun - bunndi: # N_EVEN (with final -i in nom.sg)
+    bunndi+N+Sg+Nom: bunndi
+    bunndi+N+Sg+Gen: bundi
+    bunndi+N+Sg+Acc: bundiv
+    bunndi+N+Sg+Ill: bunndij
+    bunndi+N+Sg+Ine: bundin
+    bunndi+N+Sg+Ela: [bundist, bundis]
+    bunndi+N+Sg+Com: [bundijn, bundijna]
+    bunndi+N+Pl+Nom: bundi
+    bunndi+N+Pl+Gen: bundij
+    bunndi+N+Pl+Acc: bundijd
+    bunndi+N+Pl+Ill: bundijda
+    bunndi+N+Pl+Ine: bundijn
+    bunndi+N+Pl+Ela: [bundijst, bundijs]
+    bunndi+N+Pl+Com: [bundij, bundijgum]
+    bunndi+N+Ess: bunndin
+    bunndi+N+Abe: bundidak
 

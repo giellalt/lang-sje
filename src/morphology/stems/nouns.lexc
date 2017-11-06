@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-06T09:41:44+01:00
+! Timestamp: 2017-11-06T11:04:40+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -192,7 +192,7 @@ biologija:biologija N_EVEN "biology" ; ! no. 3312
 bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 birre:birre N_EVEN "bear" ; ! no. 2357
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
-bisste:bisste N_EVEN "spoon" ; ! no. 190
+bissti:bissti N_EVEN "spoon" ; ! no. 190
 bivvda+Use/NG:bivvda N_EVEN "shed" ; ! no. 90466
 bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
 blárre:blárre N_EVEN "sheet, leaf (of paper)" ; ! no. 2922
@@ -213,8 +213,8 @@ buavvdåjjve:buavvd#åjjve N_EVEN "bald head" ; ! no. 4701
 buhtsutjårrve:buhtsu#tjårrve N_EVEN "reindeer antler" ; ! no. 2300
 bukstávva:bukstávva N_EVEN "letter of the alphabet" ; ! no. 3364
 bulla:bulla N_EVEN "bread roll, bun" ; ! no. 90705
-bullke:bullke N_EVEN "sled" ; ! no. 2535
-bunnde:bunnde N_EVEN "farmer" ; ! no. 205
+bullki:bullki N_EVEN "sled" ; ! no. 2535
+bunndi:bunndi N_EVEN "farmer" ; ! no. 205
 buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
 buogŋa:bu^Ogŋa N_EVEN "space above the belt in a Saami frock" ; ! no. 3023
 buohtja:bu^Ohtja N_EVEN "penis" ; ! no. 4538
@@ -472,8 +472,8 @@ guhtse:guhtse N_EVEN "first thin blanket of snow" ; ! no. 663
 gujjávvre:guj#jávvre N_EVEN "Gujjávvre" ; ! no. 6522
 gukkse:gukkse N_EVEN "drinking cup, scoop, ladle" ; ! no. 665
 gulldal+N+Der/Ag:gulldalieddje N_EVEN "listener, audience" ; ! no. 669
-gullke:gullke N_EVEN "big knife" ; ! no. 6876
-gummpe:gummpe N_EVEN "wolf" ; ! no. 671
+gullki:gullki N_EVEN "big knife" ; ! no. 6876
+gummpi:gummpi N_EVEN "wolf" ; ! no. 671
 guohke:gu^Ohke N_EVEN "strap on a Saami cradle" ; ! no. 3191
 guoksonásste:guokso#násste N_EVEN "morning star" ; ! no. 691
 guoledisjávvre:guoledis#jávvre N_EVEN "Guoletisjávvre" ; ! no. 6529
@@ -959,7 +959,6 @@ sievva:sievva N_EVEN "ocean, sea" ; ! no. 1533
 sigarähtta:sigariehtta N_EVEN "cigarette" ; ! no. 3524
 sijjda:sijjda N_EVEN "family of reindeer herders and the place they live, their migration paths and settlement area" ; ! no. 3512
 sillba:sillba N_EVEN "silver" ; ! no. 1541
-sillbabisste:sillba#bisste N_EVEN "silver spoon" ; ! no. 6015
 sillbagukkse:sillba#gukkse N_EVEN "silver cup" ; ! no. 5671
 sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 1543
 sillbajåhkå:sillba#jåhkå N_EVEN "Silbojåkk" ; ! no. 5684
@@ -1222,7 +1221,6 @@ tjålle:tjålle N_EVEN "intestine" ; ! no. 1969
 tjållgå:tjållgå N_EVEN "saliva, spit" ; ! no. 1970
 tjårrge:tjårrge N_EVEN "goldeneye (bird)" ; ! no. 1974
 tjårrve:tjårrve N_EVEN "antler, horn" ; ! no. 2635
-tjårrvebisste:tjårrve#bisste N_EVEN "spoon made of antler" ; ! no. 5322
 tjårrvemájjde:tjårrve#májjde N_EVEN "buckle made of antler" ; ! no. 1976
 tjårrvenarra:tjårrve#narra N_EVEN "knife handle made of antler" ; ! no. 6011
 tjårvegiehtje:tjårve#giehtje N_EVEN "tip (of reindeer antler)" ; ! no. 2374
@@ -1789,7 +1787,7 @@ mákkso:mákkso N_EVEN_O "payment" ; ! no. 4967
 mánnásujjto:mánná#sujjto N_EVEN_O "pediatric care" ; ! no. 3219
 mánno:mánno N_EVEN_O "month; moon" ; ! no. 1134
 márrso:márrso N_EVEN_O "basket made of fibers" ; ! no. 5577
-misso:mis'su N_EVEN_O "whey" ; ! no. 3196
+misso:mis'so N_EVEN_O "whey" ; ! no. 3196
 mujjto:mujjto N_EVEN_O "memory" ; ! no. 1178
 muohto:mu^Ohto N_EVEN_O "face, cheek" ; ! no. 1185
 murrko:murrko N_EVEN_O "fog" ; ! no. 1192
