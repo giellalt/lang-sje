@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - bissti: # N_EVEN (with final -i in nom.sg)
+    bissti+N+Sg+Nom: bissti
+    bissti+N+Sg+Gen: bisti
+    bissti+N+Sg+Acc: bistiv
+    bissti+N+Sg+Ill: bisstij
+    bissti+N+Sg+Ine: bistin
+    bissti+N+Sg+Ela: [bistist, bistis]
+    bissti+N+Sg+Com: [bistijn, bistijna]
+    bissti+N+Pl+Nom: bisti
+    bissti+N+Pl+Gen: bistij
+    bissti+N+Pl+Acc: bistijd
+    bissti+N+Pl+Ill: bistijda
+    bissti+N+Pl+Ine: bistijn
+    bissti+N+Pl+Ela: [bistijst, bistijs]
+    bissti+N+Pl+Com: [bistij, bistijgum]
+    bissti+N+Ess: bisstin
+    bissti+N+Abe: bistidak
+
