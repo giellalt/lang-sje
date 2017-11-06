@@ -2,9 +2,11 @@
 
 This is a grammatical analyser for Pite Saami.
 
-It is still in an initial state, and contains some 1500 words.
+It contains the basic vocabulary and morphology, all in all some 7500 words
+plus inflectional and partly also derivatoinal patterns.
 
-Persons to contact are Ann-Charlott Sjaggo and Trond Trosterud.
+The analyser was initially created by Ann-Charlott Sjaggo and Trond Trosterud,
+but the principal developer the last years has been Joshua Wilbur.
 
 ----
 
