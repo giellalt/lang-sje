@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-06T11:04:40+01:00
+! Timestamp: 2017-11-08T13:40:36+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -539,6 +539,7 @@ hakksa:hakksa N_EVEN "steam boat, sailboat, ship" ; ! no. 3188
 happsa:happsa N_EVEN "smell, odor" ; ! no. 90549
 harmeguallga:harme#gu^Ollga N_EVEN "eye brow" ; ! no. 90236
 hábme:hábme N_EVEN "characteristic, similarity" ; ! no. 5209
+hájjte:hájjte N_EVEN "haste, hurry" ; ! no. 90831
 háled+N+Der/Ag:háledieddje N_EVEN "pilot" ; ! no. 5693
 hárre:hárre N_EVEN "direction, perspective" ; ! no. 818
 hárre:hár're N_EVEN "greyling" ; ! no. 819
@@ -2246,6 +2247,7 @@ skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
 skåvlåk:skåvlåg2 N_ODD "teacher" ; ! no. 90754
 slihtor+Use/NG:slihtor N_ODD "creature, livestock (not reindeer)" ; ! no. 90716
 släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
+snihkkus:snihkkus N_ODD "wood carving" ; ! no. 90829
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
 sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
 spádnas:spádnas N_ODD "wood chip" ; ! no. 1709
