@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-01T12:25:05+01:00
+! Timestamp: 2017-11-08T07:11:11+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1249,7 +1249,7 @@ håvkådit:håvkåd V_ODD "speak incoherently" ; ! no. 5797
 hähkaldit:hä2hkald V_ODD "process shoe hay, beat shoe hay against something hard" ; ! no. 6544
 hähppidit:hä2hppid V_ODD "manage on time, reach" ; ! no. 3712
 häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
-häjtorit:hä2jtor V_ODD "hurry" ; ! no. 831
+häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
 hämsarit:hä2msar V_ODD "mix, blend" ; ! no. 867
 härredit:hä2rred V_ODD "imitate" ; ! no. 869
 idjadit:idjad V_ODD "sleep over" ; ! no. 6895
