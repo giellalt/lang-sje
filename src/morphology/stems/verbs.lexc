@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-08T07:11:11+01:00
+! Timestamp: 2017-11-09T15:38:30+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -43,6 +43,7 @@ IJ "negation verb" ; !!= * @CODE@
 adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
 allvaduvvut:allvaduvvu V_CONTR "be perplexed" ; ! no. 3282
 álgeduvvut:álgeduvvu V_CONTR "begin" ; ! no. 6017
+ballát:bal'la V_CONTR "become scared" ; ! no. 131
 bájneduvvut:bájneduvvu V_CONTR "get painted" ; ! no. 90149
 bálkestuvvut:bálkestuvvu V_CONTR "be thrown" ; ! no. 2507
 báneduvvut:báneduvvu V_CONTR "became toothless" ; ! no. 90150
@@ -327,7 +328,7 @@ asstat:asst V_EVEN_A "have time" ; ! no. 80
 ávvat:ávv V_EVEN_A "release a reindeer herd" ; ! no. 2801
 badjelgähttjat:badjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 96
 bahástallat:bahástall V_EVEN_A "be against something" ; ! no. 4705
-ballat:ball V_EVEN_A "become scared" ; ! no. 131
+ballat:ball V_EVEN_A "be scared" ; ! no. 90833
 barrgat:barrg V_EVEN_A "work, do a job" ; ! no. 144
 bassat:bass V_EVEN_A "wash" ; ! no. 149
 bádjat:bádj V_EVEN_A "let, cause" ; ! no. 3439
@@ -570,8 +571,8 @@ tjäkktjat:tjiekktj V_EVEN_A "kick" ; ! no. 1984
 tjällgat:tjiellg V_EVEN_A "sober up" ; ! no. 4487
 trimkudallat:trimkudall V_EVEN_A "be winking and flirting" ; ! no. 1989
 tsaggat:tsagg V_EVEN_A "fasten tightly, brace, support (eg. reindeer hide)" ; ! no. 2658
+tsahkat:tsahk V_EVEN_A "smolder" ; ! no. 1995
 tsanntsat:tsannts V_EVEN_A "repeat, nag" ; ! no. 2633
-tsáhkat:tsáhk V_EVEN_A "smolder" ; ! no. 1995
 tsáhpat:tsáhp V_EVEN_A "cut, shred (meat)" ; ! no. 1997
 tsiellat:tsiell V_EVEN_A "bark" ; ! no. 2004
 tsirrat:tsirr V_EVEN_A "ring, strum, whistle" ; ! no. 2009
