@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-08T13:40:36+01:00
+! Timestamp: 2017-11-09T15:42:31+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -116,6 +116,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ájmon:ájmon N_EVEN "in stock, left over" ; ! no. 31
 álkes+N+Der/State:álkesvu^Ohta N_EVEN "ease" ; ! no. 4792
 álldomällke:álldo#miellke N_EVEN "reindeer milk" ; ! no. 3837
+álldovuasstá:álldo#vu^Osstá N_EVEN "reindeer cheese" ; ! no. 5933
 állge:állge N_EVEN "amateur, beginner" ; ! no. 3095
 ánnda:ánnda N_EVEN "Anders" ; ! no. 3100
 árbeåbme:árbe#åbme N_EVEN "inheritance" ; ! no. 2732
@@ -390,6 +391,7 @@ gájjse:gájjse N_EVEN "pointed mountain peak, mountain terrain with high peaks"
 gájjtsa:gájjtsa N_EVEN "goat" ; ! no. 2370
 gájtsamällke:gájtsa#miellke N_EVEN "goat’s milk" ; ! no. 4561
 gájtsanakvuassa:gájtsanak#vu^Os'sa N_EVEN "bag made of goat leather" ; ! no. 5840
+gájtsavuasstá:gájtsa#vu^Osstá N_EVEN "goat’s cheese" ; ! no. 4562
 gájvas+N+Der/State:gájvasvu^Ohta N_EVEN "stupidity" ; ! no. 3931
 gállbe:gállbe N_EVEN "calf (for bovines)" ; ! no. 4331
 gállesbuavvda:gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
@@ -744,7 +746,8 @@ miesseduällje:miesse#du^Ollje N_EVEN "winter fur on a reindeer calf" ; ! no. 59
 mijjla:mijjla N_EVEN "Swedish mile (ten kilometers)" ; ! no. 2387
 mikrovuäbbne:mikro#vu^Obbne N_EVEN "microwave oven" ; ! no. 1165
 minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
-missovuodja:missu#vu^Odja N_EVEN "whey butter" ; ! no. 3197
+missovuasstá:misso#vu^Osstá N_EVEN "brown cheese" ; ! no. 5989
+missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
 motuvvra:motuvvra N_EVEN "motor" ; ! no. 5977
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
 muohtadállke:muohta#dállke N_EVEN "blizzard, snow storm" ; ! no. 6559
@@ -1075,6 +1078,7 @@ stilltje:stilltje N_EVEN "snow and ice in the trees" ; ! no. 6003
 stirrge:stirrge N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
 stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
+struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
 struvvdagappte:struvvda#gappte N_EVEN "broadcloth frock" ; ! no. 5231
 strähttá:striehttá N_EVEN "Epiphany" ; ! no. 5088
