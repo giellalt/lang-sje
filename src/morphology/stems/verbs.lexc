@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-09T15:38:30+01:00
+! Timestamp: 2017-11-09T15:41:21+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -43,7 +43,7 @@ IJ "negation verb" ; !!= * @CODE@
 adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
 allvaduvvut:allvaduvvu V_CONTR "be perplexed" ; ! no. 3282
 álgeduvvut:álgeduvvu V_CONTR "begin" ; ! no. 6017
-ballát:bal'la V_CONTR "become scared" ; ! no. 131
+ballát:bal'lá V_CONTR "become scared" ; ! no. 131
 bájneduvvut:bájneduvvu V_CONTR "get painted" ; ! no. 90149
 bálkestuvvut:bálkestuvvu V_CONTR "be thrown" ; ! no. 2507
 báneduvvut:báneduvvu V_CONTR "became toothless" ; ! no. 90150
