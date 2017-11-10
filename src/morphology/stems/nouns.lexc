@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-09T15:42:31+01:00
+! Timestamp: 2017-11-10T14:13:36+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -916,7 +916,6 @@ råssne:råssne N_EVEN "vapor from open water during cold weather" ; ! no. 2669
 råvve:råvve N_EVEN "bridge, stoop for a cabin" ; ! no. 1461
 räjjdolårrå:räjjdo#lårrå N_EVEN "tool box" ; ! no. 1667
 räkkta:riekkta N_EVEN "right" ; ! no. 90813
-räkta:rä2kta N_EVEN "right, correct" ; ! no. 90627
 räppsa:rieppsa N_EVEN "rake" ; ! no. 5899
 rässjme:riessjme N_EVEN "line for fishing under ice" ; ! no. 2754
 sabeknjuonne:sabek#nju^Onne N_EVEN "ski tip" ; ! no. 5106
@@ -2346,7 +2345,7 @@ vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
 vusjkun:vusjkun N_ODD "perch" ; ! no. 2196
 vuärrdem:vu^Orrdem N_ODD "waiting, period of waiting" ; ! no. 6587
 våffel+Use/NG:våffel N_ODD "waffle" ; ! no. 90721
-vähtjir:vä2htjir N_ODD "hammer" ; ! no. 2106
+vähttjer:vä2httjer N_ODD "hammer" ; ! no. 2106
 väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åjjvak:åjjvag2 N_ODD "Uddjaur" ; ! no. 2811
 åbbátj:åbbátj N_ODD "sister" ; ! no. 90399
