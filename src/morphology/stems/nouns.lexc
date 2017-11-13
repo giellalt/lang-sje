@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-10T14:13:36+01:00
+! Timestamp: 2017-11-13T08:17:15+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -370,7 +370,6 @@ gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
 gahpa:gahpa N_EVEN "cheese mass" ; ! no. 497
 gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
 gallva:gallva N_EVEN "dry deciduous tree" ; ! no. 4757
-gappte:gappte N_EVEN "Saami frock" ; ! no. 539
 gasskabäjjve:gasska#biejjve N_EVEN "dinner time" ; ! no. 564
 gasskadállve:gasska#dállve N_EVEN "the middle of the winter" ; ! no. 5728
 gasskaidja:gasska#idja N_EVEN "midnight" ; ! no. 5727
@@ -401,6 +400,7 @@ gámasuäjdne:gáma#su^Ojdne N_EVEN "shoe hay" ; ! no. 4349
 gámasuäjdneájjge:gáma#suäjdne#ájjge N_EVEN "season to harvest shoe hay" ; ! no. 6188
 gámmsa:gámmsa N_EVEN "dumpling" ; ! no. 533
 gáŋŋká:gáŋŋká N_EVEN "iron pole" ; ! no. 4067
+gáppte:gáppte N_EVEN "Saami frock" ; ! no. 539
 gárdijdna:gárdijdna N_EVEN "curtain" ; ! no. 90339
 gárrde:gárrde N_EVEN "fence, pen, corral" ; ! no. 548
 gárrdevárre:gárrde#várre N_EVEN "fenced in mountainous area" ; ! no. 5251
@@ -999,7 +999,7 @@ skájjde:skájjde N_EVEN "land between two rivers which conjoin, point" ; ! no. 
 skájjte:skájjte N_EVEN "long-tailed jaeger" ; ! no. 4082
 skárrja:skárrja N_EVEN "scissors, also a reindeer earmark" ; ! no. 1618
 skárrjadåhppå:skárrja#dåhppå N_EVEN "scissor holder" ; ! no. 5126
-skárrjaldaggappte:skárrjaldag#gappte N_EVEN "Arjeplog-style Saami frock" ; ! no. 6763
+skárrjaldaggáppte:skárrjaldag#gáppte N_EVEN "Arjeplog-style Saami frock" ; ! no. 6763
 skárrjamärrka:skárrja#mierrka N_EVEN "'scissors' reindeer earmark" ; ! no. 6839
 skávve:skávve N_EVEN "pattern, model" ; ! no. 1620
 skávvle:skávvle N_EVEN "seagull" ; ! no. 1621
@@ -1079,7 +1079,7 @@ stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
 struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
-struvvdagappte:struvvda#gappte N_EVEN "broadcloth frock" ; ! no. 5231
+struvvdagáppte:struvvda#gáppte N_EVEN "broadcloth frock" ; ! no. 5231
 strähttá:striehttá N_EVEN "Epiphany" ; ! no. 5088
 stuhtja:stuhtja N_EVEN "piece of something" ; ! no. 3492
 stummba:stummba N_EVEN "stump" ; ! no. 3014
