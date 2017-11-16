@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-09T15:41:21+01:00
+! Timestamp: 2017-11-16T08:15:30+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1269,8 +1269,8 @@ jimmkudit:jimmkud V_ODD "shut one’s eyes" ; ! no. 925
 jiridit:jirid V_ODD "clear up one's head, start thinking straight" ; ! no. 3950
 jugestit:jugest V_ODD "sip" ; ! no. 5620
 juksudit:juksud V_ODD "put on skis" ; ! no. 6132
-jullordit:jullord V_ODD "roll, rotate" ; ! no. 935
 jullorit:jullor V_ODD "roll, e.g. in the snow" ; ! no. 6843
+jullurdit:jullurd V_ODD "roll, rotate" ; ! no. 935
 jumijdit:jumijd V_ODD "roar, blow loudly (for wind)" ; ! no. 936
 juogadit:ju^Ogad V_ODD "divide up, distribute" ; ! no. 3569
 juohkádit:ju^Ohkád V_ODD "separate, divorce" ; ! no. 3788

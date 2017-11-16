@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-10-30T19:37:33+01:00
+! Timestamp: 2017-11-16T08:18:42+01:00
 
 !! !!!Pite Saami Adjectives
 
@@ -88,11 +88,12 @@ hieves:hievve A_GIENES "proud, impressive" ; ! no. 840
 vijses:vijjse A_GIENES "smart, wise" ; ! no. 5224
 gåjkes:gåjjke A_GÅJKES "dry" ; ! no. 6239
 iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
+jårrbåt:jårrbåd2 A_JAORRBAOT "round" ; ! no. 4921
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
 nagan:nagan A_NAGAN "some (-thing, -one)" ; ! no. 3430
 nagin+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
-dummpe:dummpe A_NUORRA "stupid, dumb" ; ! no. 2383
+dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
 stuores+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
