@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-13T08:17:15+01:00
+! Timestamp: 2017-11-17T07:47:38+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2027,7 +2027,7 @@ duogŋas:du^Ogŋas N_ODD "piece of cloth and leather" ; ! no. 395
 duolbak:du^Olbag2 N_ODD "platform" ; ! no. 3790
 durkum:durkum N_ODD "birch bud" ; ! no. 403
 dåját:dåjád2 N_ODD "thin snow crust which breaks everywhere" ; ! no. 3607
-dåktor:dåktor N_ODD "doctor, physician" ; ! no. 90619
+dåktår:dåktår N_ODD "doctor, physician" ; ! no. 90619
 däbmuk:dä2bmug2 N_ODD "trout" ; ! no. 296
 ertik:ertig2 N_ODD "side of reindeer" ; ! no. 2881
 fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
@@ -2273,6 +2273,7 @@ svierek:sviereg2 N_ODD "Swedish" ; ! no. 1798
 syhkel:syhkel N_ODD "bicycle" ; ! no. 1809
 säditj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
 säritj:sä2ritj N_ODD "young pine forest" ; ! no. 90349
+tidnik:tidnig2 N_ODD "newspaper" ; ! no. 90834
 tjaktjaiednam:tjaktja#iednam N_ODD "autumn land" ; ! no. 5188
 tjatsek:tjatseg2 N_ODD "leather boot" ; ! no. 1884
 tjavelg:tjavelg N_ODD "lower back (for humans and animals), ridge (geography)" ; ! no. 4056
