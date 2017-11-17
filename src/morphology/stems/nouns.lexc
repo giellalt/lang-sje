@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-17T15:53:00+01:00
+! Timestamp: 2017-11-17T16:14:10+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -95,6 +95,7 @@ asjmen:asjmen N_EVEN "bitter and disappointed" ; ! no. 3134
 asmen:asmen N_EVEN "displeased" ; ! no. 3541
 asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
+atåmå:atåmå N_EVEN "atom" ; ! no. 3143
 avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
@@ -1650,7 +1651,6 @@ värbme:vierbme N_EVEN_NOCG "net" ; ! no. 2225
 andersmässo:anders#mies'so N_EVEN_O "Andersmässhelgen" ; ! no. 4229
 arrvo:arrvo N_EVEN_O "value, price" ; ! no. 4176
 assto:assto N_EVEN_O "time" ; ! no. 81
-atomo:atomo N_EVEN_O "atom" ; ! no. 3143
 ággŋo:ággŋo N_EVEN_O "oarlock" ; ! no. 9
 ájjdo:ájjdo N_EVEN_O "trampled path in snow" ; ! no. 23
 ájjro:ájjro N_EVEN_O "oar, paddle" ; ! no. 28
