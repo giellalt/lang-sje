@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-17T07:47:38+01:00
+! Timestamp: 2017-11-17T08:11:20+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2273,7 +2273,7 @@ svierek:sviereg2 N_ODD "Swedish" ; ! no. 1798
 syhkel:syhkel N_ODD "bicycle" ; ! no. 1809
 säditj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
 säritj:sä2ritj N_ODD "young pine forest" ; ! no. 90349
-tidnik:tidnig2 N_ODD "newspaper" ; ! no. 90834
+tijdnik:tijdnig2 N_ODD "newspaper" ; ! no. 90834
 tjaktjaiednam:tjaktja#iednam N_ODD "autumn land" ; ! no. 5188
 tjatsek:tjatseg2 N_ODD "leather boot" ; ! no. 1884
 tjavelg:tjavelg N_ODD "lower back (for humans and animals), ridge (geography)" ; ! no. 4056
