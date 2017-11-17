@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-16T08:15:30+01:00
+! Timestamp: 2017-11-17T15:53:09+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1486,9 +1486,9 @@ skuoldardit:sku^Oldard V_ODD "gossip" ; ! no. 3716
 skuolkedit:sku^Olked V_ODD "clank, rattle" ; ! no. 4109
 skånårdit:skånård V_ODD "gobble up" ; ! no. 2891
 slapkedit:slapked V_ODD "hang (for dog ears)" ; ! no. 5412
-slatjastit:slatjast V_ODD "become out of joint" ; ! no. 4489
 slatjerdit:slatjerd V_ODD "become out of joint" ; ! no. 90344
 slábagit:slábag V_ODD "become depressed or sad" ; ! no. 1662
+slátjastit:slátjast V_ODD "become out of joint" ; ! no. 4489
 slimpardit:slimpard V_ODD "be careless" ; ! no. 4444
 smeridit:smerid V_ODD "ruminate" ; ! no. 1689
 smiljodit:smiljod V_ODD "mix together (for food)" ; ! no. 1690

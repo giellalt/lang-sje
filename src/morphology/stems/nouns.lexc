@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-17T08:11:20+01:00
+! Timestamp: 2017-11-17T15:53:00+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -95,8 +95,6 @@ asjmen:asjmen N_EVEN "bitter and disappointed" ; ! no. 3134
 asmen:asmen N_EVEN "displeased" ; ! no. 3541
 asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
-atjáddjá:atj#áddjá N_EVEN "paternal grandfather" ; ! no. 2897
-atjáhkka:atj#áhkka N_EVEN "paternal grandmother" ; ! no. 2896
 avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
@@ -131,8 +129,10 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 árrje:árrje N_EVEN "short esker" ; ! no. 72
 árrka:árrka N_EVEN "ark" ; ! no. 3136
 ásfallta:ásfallta N_EVEN "asphalt" ; ! no. 3141
-átjadállke:átja#dállke N_EVEN "stormy weather" ; ! no. 6123
-átjajuakksa:átja#ju^Okksa N_EVEN "rainbow" ; ! no. 3514
+átjádállke:átjá#dállke N_EVEN "stormy weather" ; ! no. 6123
+átjáddjá:átj#áddjá N_EVEN "paternal grandfather" ; ! no. 2897
+átjáhkka:átj#áhkka N_EVEN "paternal grandmother" ; ! no. 2896
+átjájuakksa:átjá#ju^Okksa N_EVEN "rainbow" ; ! no. 3514
 ávahávvde:áva#hávvde N_EVEN "hiding place for silver in a pile of stones" ; ! no. 85
 ávtjamuärrje:ávtja#mu^Orrje N_EVEN "hagberry" ; ! no. 4668
 ávvke:ávvke N_EVEN "use, benefit" ; ! no. 94
