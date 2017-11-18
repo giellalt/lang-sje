@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-18T08:46:09+01:00
+! Timestamp: 2017-11-18T08:55:39+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -293,7 +293,6 @@ tuhttjit:tuhttji V_CONTR "think, consider, deem" ; ! no. 4733
 tuŋŋkit:tuŋŋki V_CONTR "castrate reindeer" ; ! no. 6655
 uddnut:uddnu V_CONTR "indulge, not begrudge" ; ! no. 2020
 ullit:ulli V_CONTR "finish something" ; ! no. 3713
-unnut:un'nu V_CONTR "become smaller, shrink" ; ! no. 90570
 urdnit:urdni V_CONTR "arrange" ; ! no. 2034
 vádtsát:vádtsá V_CONTR "head out, start going, begin walking" ; ! no. 90394
 vájvastuvvut:vájvastuvvu V_CONTR "anguish, squirm" ; ! no. 2069
@@ -914,6 +913,7 @@ tjällot:tjiell V_EVEN_O "jump several times" ; ! no. 1896
 tsåhkot:tsåhk V_EVEN_O "go down (for water), recede" ; ! no. 2016
 tsåjjtsot:tsåjjts V_EVEN_O "flame up suddenly" ; ! no. 2017
 tsähkkot:tsiehkk V_EVEN_O "cut a notch, tick off" ; ! no. 3360
+unnot:un'n V_EVEN_O "become smaller, shrink" ; ! no. 90570
 vassjot:vassj V_EVEN_O "become angry" ; ! no. 2097
 vasskot:vassk V_EVEN_O "scrape, scrub" ; ! no. 2098
 vasstot:vasst V_EVEN_O "become uglier" ; ! no. 5633
