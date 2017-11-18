@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-17T15:53:09+01:00
+! Timestamp: 2017-11-18T08:46:09+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1613,7 +1613,7 @@ ullgonit:ullgon V_ODD "move to the side" ; ! no. 5035
 unnedit:unned V_ODD "lessen, minimize" ; ! no. 3563
 urudit:urud V_ODD "be somewhere temporarily" ; ! no. 2035
 usjudit:usjud V_ODD "think, mean" ; ! no. 2036
-uvvadit:uvvad V_ODD "kiss" ; ! no. 2039
+uvvádit:uvvád V_ODD "kiss" ; ! no. 2039
 vahtalit:vahtal V_ODD "be missing" ; ! no. 90747
 vanadit:vanad V_ODD "stretch" ; ! no. 2078
 vádtsatjit:vádtsatj V_ODD "go for a walk, walk slowly" ; ! no. 2047
