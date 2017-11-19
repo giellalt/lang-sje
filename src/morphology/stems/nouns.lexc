@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-17T16:14:10+01:00
+! Timestamp: 2017-11-19T19:22:58+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1395,7 +1395,7 @@ assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
 áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
 ássálatj:ássálatj N_EVEN4 "accessory, participatory" ; ! no. 3571
 bárgáldak:bárgáldag2 N_EVEN4 "braid" ; ! no. 141
-biejvadak:biejvadag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
+biejvádak:biejvádag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
 bietsastak:bietsastag2 N_EVEN4 "dense pine forest" ; ! no. 6867
 buddestak:buddestag2 N_EVEN4 "sewn ribbon bordering a frock or cap" ; ! no. 202
 bujjdudak:bujjdudag2 N_EVEN4 "obesity" ; ! no. 4057
