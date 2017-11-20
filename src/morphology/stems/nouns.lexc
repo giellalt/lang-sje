@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-19T19:22:58+01:00
+! Timestamp: 2017-11-20T11:13:59+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2146,7 +2146,7 @@ miessák:miesság2 N_ODD "reindeer calf's winter hide" ; ! no. 4259
 mijdnik:mijdnig2 N_ODD "opinion" ; ! no. 1151
 minjitj:minjitj N_ODD "respective daughter-in-law" ; ! no. 90276
 mirrgem:mirrgem N_ODD "rose root" ; ! no. 90280
-misåmmar:misommar N_ODD "midsommer" ; ! no. 4264
+misåmmar:misåmmar N_ODD "midsommer" ; ! no. 4264
 muoddák:mu^Oddág2 N_ODD "bear" ; ! no. 3616
 muodok:mu^Odog2 N_ODD "similarity" ; ! no. 1674
 mådtsok:mådtsog2 N_ODD "reindeer fur shoe for children with seams on the inside" ; ! no. 2740
