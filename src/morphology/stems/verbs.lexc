@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-18T08:55:39+01:00
+! Timestamp: 2017-11-27T11:13:12+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -254,7 +254,7 @@ stuvvsit:stuvvsi V_CONTR "play around with one another" ; ! no. 1743
 stäbbnut:stä2bbnu V_CONTR "sue" ; ! no. 3493
 stäggit:stä2ggi V_CONTR "close, shut" ; ! no. 1750
 stämmpit:stä2mmpi V_CONTR "stomp" ; ! no. 4273
-stännit:stä2nni V_CONTR "stop, stay" ; ! no. 3292
+stänit:stä2ni V_CONTR "stop, stay" ; ! no. 3292
 suhppit+Use/NG:suhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 90664
 sujdnit:sujdni V_CONTR "examine, inspect" ; ! no. 3262
 sujdnit:sujdni V_CONTR "harvest hay" ; ! no. 4799
@@ -1034,9 +1034,8 @@ buhksudit:buhksud V_ODD "get dressed" ; ! no. 6002
 buhtsidit:buhtsid V_ODD "turn green (for grass)" ; ! no. 225
 bulledit:bulled V_ODD "ignite, light" ; ! no. 2664
 buolvastit:bu^Olvast V_ODD "kneel" ; ! no. 2860
-buoránit:bu^Orán V_ODD "improve" ; ! no. 143
 buoredit:bu^Ored V_ODD "cure, heal, get better" ; ! no. 3392
-buorranit:bu^Orran V_ODD "recover, become healthy" ; ! no. 4191
+buorránit:bu^Orrán V_ODD "improve, recover" ; ! no. 143
 buridit:burid V_ODD "disperse, spread out" ; ! no. 220
 buskedit:busked V_ODD "become angry" ; ! no. 223
 busodit:busod V_ODD "blow out" ; ! no. 4704
@@ -1085,11 +1084,11 @@ duabbalit:du^Obbal V_ODD "pull towards oneself quickly" ; ! no. 3472
 duahtadit:du^Ohtad V_ODD "finger" ; ! no. 4077
 duallvanit:du^Ollvan V_ODD "become dirty" ; ! no. 3349
 dubbanit:dubban V_ODD "make room" ; ! no. 3383
+dudjuhit:dudjuh V_ODD "do handicrafts" ; ! no. 4735
 duffadit:duffad V_ODD "dawdle, procrastinate" ; ! no. 3474
 dujtosit:dujtos V_ODD "hurry up, stress" ; ! no. 387
 dullvudit:dullvud V_ODD "chase, hunt (for dogs following reindeer)" ; ! no. 3779
 duoddastit:du^Oddast V_ODD "attest" ; ! no. 3144
-duodjuhit:du^Odjuh V_ODD "do handicrafts" ; ! no. 4735
 duohpanit:du^Ohpan V_ODD "shrink" ; ! no. 397
 duoldadit:du^Oldad V_ODD "boil for a long time" ; ! no. 2554
 dustodit:dustod V_ODD "meet, receive repeatedly" ; ! no. 5409
@@ -1551,8 +1550,8 @@ tjaskelit:tjaskel V_ODD "track, check if there is a track" ; ! no. 6567
 tjavgodit:tjavgod V_ODD "become harder" ; ! no. 5197
 tjádjánit:tjádján V_ODD "get lost" ; ! no. 1853
 tjágerdit:tjágerd V_ODD "tickle" ; ! no. 1856
-tjájánit+Use/NG:tjáján V_ODD "get lost" ; ! no. 90446
 tjájedit:tjájed V_ODD "point at" ; ! no. 1863
+tjájjánit+Use/NG:tjájján V_ODD "get lost" ; ! no. 90446
 tjájmadit:tjájmad V_ODD "smile, laugh" ; ! no. 1865
 tjáledit:tjáled V_ODD "register, record, write down" ; ! no. 5190
 tjávkastit:tjávkast V_ODD "pull towards oneself quickly" ; ! no. 2764
