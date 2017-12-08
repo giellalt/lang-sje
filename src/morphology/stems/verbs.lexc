@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-27T11:13:12+01:00
+! Timestamp: 2017-12-08T08:17:20+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -74,6 +74,7 @@ bällit:bä2lli V_CONTR "get the opportunity to do something" ; ! no. 4203
 bärrkit:bä2rrki V_CONTR "tan leather using willow" ; ! no. 3218
 dagaduvvut:dagaduvvu V_CONTR "be done" ; ! no. 90154
 deklarerit:deklareri V_CONTR "declare" ; ! no. 3567
+devdnut:devdnu V_CONTR "serve, earn" ; ! no. 366
 devvut:devvu V_CONTR "become full" ; ! no. 4710
 didtjit:didtji V_CONTR "beg" ; ! no. 362
 dielmoduvvut:dielmoduvvu V_CONTR "be trampled, stomped on" ; ! no. 5533
@@ -94,7 +95,6 @@ durrgit:durrgi V_CONTR "lay out branches in a Saami hut" ; ! no. 90538
 durrut:durru V_CONTR "start to argue or fight" ; ! no. 90644
 däbbut:dä2bbu V_CONTR "become soaked" ; ! no. 5608
 dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
-dävdnut:dä2vdnu V_CONTR "serve, earn" ; ! no. 366
 fámoduvvut:fámoduvvu V_CONTR "become powerless, strengthless" ; ! no. 4187
 firrjit:firrji V_CONTR "color" ; ! no. 2476
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
@@ -135,11 +135,11 @@ jåhttát:jåhttá V_CONTR "begin moving, begin migrating" ; ! no. 4464
 klähppit:klä2hppi V_CONTR "clap (in a friendly way)" ; ! no. 5819
 kämmpit:kä2mmpi V_CONTR "comb" ; ! no. 3345
 leggit:leggi V_CONTR "warm, heat up" ; ! no. 1028
+lenit:leni V_CONTR "be worth it" ; ! no. 3698
 lijjgit:lijjgi V_CONTR "hire, employ" ; ! no. 3121
 lijjkit:lijjki V_CONTR "dump out, pour out" ; ! no. 3480
 lijjkut:lijjku V_CONTR "like" ; ! no. 1050
 lijjsit:lijjsi V_CONTR "be worth doing" ; ! no. 3697
-linit:lini V_CONTR "be worth it" ; ! no. 3698
 livvgit:livvgi V_CONTR "be boisterous" ; ! no. 1041
 livvsut:livvsu V_CONTR "announce an intended marriage" ; ! no. 2438
 lubbit:lubbi V_CONTR "spread out once" ; ! no. 4165
