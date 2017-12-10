@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-08T08:17:20+01:00
+! Timestamp: 2017-12-10T19:54:40+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -59,7 +59,7 @@ blänndit:blä2nndi V_CONTR "mix, blend" ; ! no. 4252
 buallát:bu^Ollá V_CONTR "burn, be on fire" ; ! no. 3303
 buddit:buddi V_CONTR "sew on a ribbon" ; ! no. 203
 budnjut:budnju V_CONTR "dip" ; ! no. 2960
-buhttut:buhttu V_CONTR "be punished" ; ! no. 3260
+buhttut:buhttu V_CONTR "be punished; be caught in the act" ; ! no. 3260
 bullit:bulli V_CONTR "light, ignite" ; ! no. 5522
 bulltjit:bulltji V_CONTR "form ice crust on rocks" ; ! no. 204
 burgoduvvut:burgoduvvu V_CONTR "be forbidden" ; ! no. 90153
@@ -1246,12 +1246,13 @@ håjjgådit:håjjgåd V_ODD "push, shove away" ; ! no. 852
 hålådit:hålåd V_ODD "ask for something" ; ! no. 2712
 håskålit:håskål V_ODD "incite, sic a dog on reindeer" ; ! no. 858
 håvkådit:håvkåd V_ODD "speak incoherently" ; ! no. 5797
+häddidit+Use/NG:hä2ddid V_ODD "imitate" ; ! no. 90838
 hähkaldit:hä2hkald V_ODD "process shoe hay, beat shoe hay against something hard" ; ! no. 6544
 hähppidit:hä2hppid V_ODD "manage on time, reach" ; ! no. 3712
 häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
 häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
 hämsarit:hä2msar V_ODD "mix, blend" ; ! no. 867
-härredit:hä2rred V_ODD "imitate" ; ! no. 869
+härridit:hä2rrid V_ODD "imitate" ; ! no. 869
 idjadit:idjad V_ODD "sleep over" ; ! no. 6895
 ieljadit:ieljad V_ODD "manage" ; ! no. 5162
 ieredit:iered V_ODD "change a reindeer earmark" ; ! no. 455
