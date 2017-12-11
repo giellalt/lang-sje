@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-11T14:02:20+01:00
+! Timestamp: 2017-12-11T19:31:08+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -621,11 +621,11 @@ järrja:jierrja N_EVEN "alpine sow thistle" ; ! no. 970
 jässka:jiesska N_EVEN "large abscess" ; ! no. 2475
 jävvja:jievvja N_EVEN "white (for reindeer)" ; ! no. 6592
 kaffea:kaffea N_EVEN "café" ; ! no. 3519
-kammpa:kammpa N_EVEN "comb" ; ! no. 3075
 katetjiesa:katetjiesa N_EVEN "catechism" ; ! no. 5667
 káffa:káffa N_EVEN "coffee, package of coffee" ; ! no. 971
 káffavuassa:káffa#vu^Os'sa N_EVEN "coffee bag made of leather" ; ! no. 972
 káhppa:káhppa N_EVEN "coat" ; ! no. 973
+kámmpa:kámmpa N_EVEN "comb" ; ! no. 3075
 klåhkkå:klåhkkå N_EVEN "clock" ; ! no. 975
 knáhppa:knáhppa N_EVEN "button" ; ! no. 5820
 knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
@@ -1083,8 +1083,8 @@ struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
 struvvdagáppte:struvvda#gáppte N_EVEN "broadcloth frock" ; ! no. 5231
 strähttá:striehttá N_EVEN "Epiphany" ; ! no. 5088
 stuhtja:stuhtja N_EVEN "piece of something" ; ! no. 3492
-stummba:stummba N_EVEN "stump" ; ! no. 3014
 stummpa:stummpa N_EVEN "loaf of bread" ; ! no. 1738
+stummpa:stummba N_EVEN "stump" ; ! no. 3014
 stuornjárrga:stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
 sturrje:sturrje N_EVEN "mud" ; ! no. 5158
 ståhkke:ståhkke N_EVEN "dry rotten birch" ; ! no. 2721
