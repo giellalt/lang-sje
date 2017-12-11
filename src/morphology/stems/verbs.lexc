@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-10T19:54:40+01:00
+! Timestamp: 2017-12-11T19:50:41+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -638,7 +638,7 @@ bävvket:bä2vvk V_EVEN_E "chirp (for ptarmigan)" ; ! no. 4583
 dibbdet:dibbd V_EVEN_E "disappear (for snow crust)" ; ! no. 3502
 diehtet:dieht V_EVEN_E "know" ; ! no. 350
 dubbanasstet:dubbanasst V_EVEN_E "move over more" ; ! no. 4738
-dumbalasstet:dumbalasst V_EVEN_E "be reckless" ; ! no. 5808
+dumpalasstet:dumpalasst V_EVEN_E "be reckless" ; ! no. 5808
 duvvdet:duvvd V_EVEN_E "drive, push ahead reindeer" ; ! no. 405
 dåbbdågåhtet:dåbbdågåht V_EVEN_E "get to know someone" ; ! no. 412
 dådjet:dådj V_EVEN_E "break, break off" ; ! no. 413
