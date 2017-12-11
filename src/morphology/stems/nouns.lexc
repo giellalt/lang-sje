@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-10T19:54:33+01:00
+! Timestamp: 2017-12-11T14:02:20+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -316,7 +316,7 @@ duddnovuassa:duddno#vu^Os'sa N_EVEN "thin jute sack" ; ! no. 5410
 dullve:dullve N_EVEN "flood" ; ! no. 2660
 dulutjájjge:dulutj#ájjge N_EVEN "past, old days" ; ! no. 3444
 dulutjdáhpe:dulutj#dáhpe N_EVEN "old-fashioned custom" ; ! no. 390
-dumbåjjve:dumb#åjjve N_EVEN "idiot" ; ! no. 3932
+dumpåjjve:dump#åjjve N_EVEN "idiot" ; ! no. 3932
 duodje:du^Odje N_EVEN "handicraft" ; ! no. 3093
 duodjebarrge:duodje#barrge N_EVEN "artesian" ; ! no. 5686
 duohpa:du^Ohpa N_EVEN "tassel" ; ! no. 5838
@@ -343,7 +343,7 @@ fábmogis+N+Der/State:fábmogisvu^Ohta N_EVEN "authority, power" ; ! no. 3247
 fáddme:fáddme N_EVEN "bosom; armful; hug" ; ! no. 471
 fággad+N+Der/Ag:fággadieddje N_EVEN "wrestler" ; ! no. 3420
 fáhtte:fáhtte N_EVEN "rumen" ; ! no. 5510
-fáhttsa:fáhttsa N_EVEN "glove" ; ! no. 466
+fáhttsa:fáhttsa N_EVEN "mitten" ; ! no. 466
 fálldebåkkså:fállde#båkkså N_EVEN "old-style trousers made of homespun cloth and leather" ; ! no. 5561
 fálskes+N+Der/State:fálskesvu^Ohta N_EVEN "falsehood, untruth" ; ! no. 4035
 fáŋŋgagåhte:fáŋŋga#gåhte N_EVEN "prison" ; ! no. 4188
@@ -386,7 +386,7 @@ gáhkobähkke:gáhko#biehkke N_EVEN "piece of bread" ; ! no. 3460
 gáhkogárre:gáhko#gárre N_EVEN "bread tray" ; ! no. 3459
 gáhtotjuvvga:gáhto#tjuvvga N_EVEN "kitten" ; ! no. 4558
 gájjbe:gájjbe N_EVEN "chin" ; ! no. 509
-gájjra:gájjra N_EVEN "wedge or gore used in clothing or tent covers" ; ! no. 4560
+gájjrá:gájjrá N_EVEN "wedge or gore used in clothing or tent covers" ; ! no. 4560
 gájjse:gájjse N_EVEN "pointed mountain peak, mountain terrain with high peaks" ; ! no. 511
 gájjtsa:gájjtsa N_EVEN "goat" ; ! no. 2370
 gájtsamällke:gájtsa#miellke N_EVEN "goat’s milk" ; ! no. 4561
@@ -1897,7 +1897,7 @@ såhkebárrko:såhke#bárrko N_EVEN_O "birch bark" ; ! no. 3951
 såvvo:såvvo N_EVEN_O "moist, lush deciduous forest area" ; ! no. 3939
 sävvro:sievvro N_EVEN_O "fish meat cooked until its firm" ; ! no. 4306
 tjarrfo:tjarrfo N_EVEN_O "ice pick" ; ! no. 5195
-tjájjmo:tjájjmo N_EVEN_O "laughter" ; ! no. 90361
+tjájbmo:tjájbmo N_EVEN_O "laughter" ; ! no. 90361
 tjijjlo:tjijjlo N_EVEN_O "kilo" ; ! no. 5215
 tjivvko:tjivvko N_EVEN_O "fresh cheese curd" ; ! no. 4420
 tjuajjgamláhtto:tjuajjgam#láhtto N_EVEN_O "ski tracks" ; ! no. 3615
