@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-11T19:31:08+01:00
+! Timestamp: 2017-12-12T08:49:52+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1938,7 +1938,6 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 årråjagmánno:årrå#jag#mánno N_EVEN_O "January" ; ! no. 2234
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åstobäbbmo:åsto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
-alltar:alltar N_ODD "altar" ; ! no. 3799
 almatj:almatj N_ODD "human, person" ; ! no. 54
 ananas:ananas N_ODD "pineapple" ; ! no. 3097
 arram:arram N_ODD "marrowbone" ; ! no. 90202
@@ -1948,6 +1947,7 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 ájlekárrat:ájlek#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 áldar:áldar N_ODD "age" ; ! no. 2719
 áldas:áldas N_ODD "leather on front top part of shoe" ; ! no. 47
+álltár:álltár N_ODD "altar" ; ! no. 3799
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
 árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
