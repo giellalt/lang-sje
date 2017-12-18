@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-11T19:50:41+01:00
+! Timestamp: 2017-12-18T15:36:10+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1294,12 +1294,12 @@ lagadit:lagad V_ODD "put forth" ; ! no. 1000
 lahkanit:lahkan V_ODD "approach, get closer" ; ! no. 2412
 lasedit:lased V_ODD "expand, fill up" ; ! no. 3186
 laskadit:laskad V_ODD "tack leather boot soles" ; ! no. 6884
+lassanit:lassan V_ODD "be deadlocked" ; ! no. 3201
 lassánit:lassán V_ODD "increase, gain" ; ! no. 1019
 lavtedit:lavted V_ODD "talk vulgarly" ; ! no. 1023
 lágedit:láged V_ODD "want to have, ensure to have" ; ! no. 1001
 láhpedit:láhped V_ODD "lose, drop" ; ! no. 6077
 lárrkanit+Use/NG:lárrkan V_ODD "hit oneself" ; ! no. 90428
-lássanit:lássan V_ODD "be deadlocked" ; ! no. 3201
 láttkanit:láttkan V_ODD "be killed, become unconscious" ; ! no. 994
 liegastit:liegast V_ODD "relax, rest" ; ! no. 1037
 lieggadit:lieggad V_ODD "thaw, thaw out" ; ! no. 1112
