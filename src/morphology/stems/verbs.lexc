@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-20T09:14:32+01:00
+! Timestamp: 2017-12-26T15:29:35+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -59,7 +59,7 @@ blänndit:blä2nndi V_CONTR "mix, blend" ; ! no. 4252
 buallát:bu^Ollá V_CONTR "burn, be on fire" ; ! no. 3303
 buddit:buddi V_CONTR "sew on a ribbon" ; ! no. 203
 budnjut:budnju V_CONTR "dip" ; ! no. 2960
-buhttut:buhttu V_CONTR "be punished; be caught in the act" ; ! no. 3260
+buhttut:buhttu V_CONTR "be surprised; be caught in the act" ; ! no. 3260
 bullit:bulli V_CONTR "light, ignite" ; ! no. 5522
 bulltjit:bulltji V_CONTR "form ice crust on rocks" ; ! no. 204
 burgoduvvut:burgoduvvu V_CONTR "be forbidden" ; ! no. 90153
@@ -1029,7 +1029,7 @@ birastit:birast V_ODD "cruise around" ; ! no. 185
 bitjádit:bitjád V_ODD "complain" ; ! no. 5776
 bivkidit:bivkid V_ODD "say something in passing" ; ! no. 4416
 buajdodit:bu^Ojdod V_ODD "fatten up" ; ! no. 5803
-buddosit:buddos V_ODD "stuff, plug, block" ; ! no. 206
+buddusit:buddus V_ODD "stuff, plug, block" ; ! no. 206
 budidit+Use/NG:budid V_ODD "disperse, spread out" ; ! no. 90558
 buhksudit:buhksud V_ODD "get dressed" ; ! no. 6002
 buhtsidit:buhtsid V_ODD "turn green (for grass)" ; ! no. 225
@@ -1087,7 +1087,7 @@ duallvanit:du^Ollvan V_ODD "become dirty" ; ! no. 3349
 dubbanit:dubban V_ODD "make room" ; ! no. 3383
 dudjuhit:dudjuh V_ODD "do handicrafts" ; ! no. 4735
 duffadit:duffad V_ODD "dawdle, procrastinate" ; ! no. 3474
-dujtosit:dujtos V_ODD "hurry up, stress" ; ! no. 387
+dujtusit:dujtus V_ODD "hurry up, stress" ; ! no. 387
 dullvudit:dullvud V_ODD "chase, hunt (for dogs following reindeer)" ; ! no. 3779
 duoddastit:du^Oddast V_ODD "attest" ; ! no. 3144
 duohpanit:du^Ohpan V_ODD "shrink" ; ! no. 397
@@ -1370,10 +1370,10 @@ náhpalit:náhpal V_ODD "quickly cut off" ; ! no. 6527
 náradit:nárad V_ODD "nail" ; ! no. 1250
 násadit:násad V_ODD "scratch oneself against something" ; ! no. 1246
 návrodit:návrod V_ODD "maka a fool of someone, tease, annoy" ; ! no. 1251
+nerrusit:nerrus V_ODD "become dull" ; ! no. 6139
 nibdastit:nibdast V_ODD "avenge" ; ! no. 1260
 niddastit:niddast V_ODD "defy, intentionally do something bad" ; ! no. 1261
 niegadit:niegad V_ODD "dream" ; ! no. 1262
-nierrosit:nierros V_ODD "become dull" ; ! no. 6139
 nievredit:nievred V_ODD "make worse" ; ! no. 5006
 njadtsastit:njadtsast V_ODD "skin while butchering" ; ! no. 5015
 njaládit:njalád V_ODD "cut and peel loose birch bark during sap season" ; ! no. 4406
