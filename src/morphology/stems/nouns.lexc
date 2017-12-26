@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-18T15:36:34+01:00
+! Timestamp: 2017-12-26T15:29:24+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -264,7 +264,7 @@ bäŋŋka:bieŋŋka N_EVEN "bench, couch" ; ! no. 281
 bärrgoliebma:bärrgo#liebma N_EVEN "meat bouillon" ; ! no. 5626
 bässe:bies'se N_EVEN "birch bark" ; ! no. 285
 bävvde:bievvde N_EVEN "table" ; ! no. 289
-bävvdegirrje:bävvde#girrje N_EVEN "minutes (of a meeting)" ; ! no. 290
+bävvdegirrje:bävvde#girrje N_EVEN "minutes (of a meeting), records (in court)" ; ! no. 290
 bävvla:bievvla N_EVEN "bare (snow-free) ground" ; ! no. 2437
 bävvle:bievvle N_EVEN "musical drum" ; ! no. 3298
 dadne:dadne N_EVEN "tin" ; ! no. 298
@@ -732,9 +732,9 @@ mánnágirrje:mánná#girrje N_EVEN "children’s book" ; ! no. 3220
 mánnámiella:mánná#miella N_EVEN "childish ood" ; ! no. 90632
 mánná+N+Der/State:mánnávu^Ohta N_EVEN "childhood" ; ! no. 3221
 márrtná:márrtná N_EVEN "market" ; ! no. 2594
-mieda:mieda N_EVEN "honey" ; ! no. 1160
 miehtedievvá:miehte#dievvá N_EVEN "downhill slope" ; ! no. 5893
 miella:miella N_EVEN "temperament, reason, mood, senses" ; ! no. 1153
+mierra:mierra N_EVEN "honey" ; ! no. 1160
 mierra:mierra N_EVEN "shore, coast" ; ! no. 6887
 miesse:miesse N_EVEN "reindeer calf, moose calf" ; ! no. 1158
 miesseduällje:miesse#du^Ollje N_EVEN "winter fur on a reindeer calf" ; ! no. 5988
@@ -1559,6 +1559,7 @@ luägge:lu^Ogge N_EVEN_NOCG "dog sphincter" ; ! no. 4163
 lådde:lådde N_EVEN_NOCG "bird" ; ! no. 1083
 låddå+Use/NG:låddå N_EVEN_NOCG "box, case" ; ! no. 90513
 máddo:máddo N_EVEN_NOCG "relatives, family, ancestry" ; ! no. 2659
+miedda+Use/NG:miedda N_EVEN_NOCG "honey" ; ! no. 90840
 miehtebägga:miehte#biegga N_EVEN_NOCG "tailwind" ; ! no. 4976
 mierragádde:mierra#gádde N_EVEN_NOCG "coastline" ; ! no. 2708
 muaddá:mu^Oddá N_EVEN_NOCG "reindeer fur" ; ! no. 1170
