@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-26T15:29:24+01:00
+! Timestamp: 2018-01-02T11:05:00+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -174,7 +174,7 @@ báŋŋkagirrje:báŋŋka#girrje N_EVEN "bankbook" ; ! no. 3212
 bárrde:bárrde N_EVEN "bowed part of a boat’s keel" ; ! no. 2804
 bárrka:bárrka N_EVEN "Bárrka" ; ! no. 90697
 bensijdna:bensijdna N_EVEN "gasoline, petrol" ; ! no. 3250
-biblotehka:biblotehka N_EVEN "library" ; ! no. 3308
+bibliotähkka:bibliotiehkka N_EVEN "library" ; ! no. 3308
 biehtse:biehtse N_EVEN "pine tree" ; ! no. 2680
 biehtsevuobme:biehtse#vu^Obme N_EVEN "pine forest" ; ! no. 6075
 biejvebielle:biejve#bielle N_EVEN "sunny side" ; ! no. 2523
@@ -986,7 +986,7 @@ sjuovva:sju^Ovva N_EVEN "slush" ; ! no. 3917
 sjåvvå:sjåvvå N_EVEN "a kind of shed" ; ! no. 5850
 själbma:sjielbma N_EVEN "doorstop, lower part of door of kåta" ; ! no. 1611
 skahtte:skahtte N_EVEN "tax, valuable" ; ! no. 1614
-skalla:skalla N_EVEN "ice-crusted snow" ; ! no. 4509
+skallá:skallá N_EVEN "ice-crusted snow" ; ! no. 4509
 skannjga:skannjga N_EVEN "wild reindeer doe" ; ! no. 1617
 skarrorájjge:skarro#rájjge N_EVEN "ventilation hole" ; ! no. 4907
 skájjde:skájjde N_EVEN "land between two rivers which conjoin, point" ; ! no. 1615
@@ -1044,7 +1044,7 @@ slämmá:sliem'má N_EVEN "mucous in a human’s throat" ; ! no. 3859
 slämme:sliem'me N_EVEN "old cap" ; ! no. 2542
 smájjle:smájjle N_EVEN "mud (in a spring or creek)" ; ! no. 5153
 smáladuällje:smála#du^Ollje N_EVEN "sheep skin" ; ! no. 1365
-smálla:smálla N_EVEN "sheep" ; ! no. 1687
+smállá:smállá N_EVEN "sheep" ; ! no. 1687
 smávbåkkså:smáv#båkkså N_EVEN "panty, underwear" ; ! no. 90346
 småråsdákkte:smårås#dákkte N_EVEN "osteoporosis, brittle bone" ; ! no. 3456
 snuallga:snu^Ollga N_EVEN "snot" ; ! no. 2789
@@ -2035,6 +2035,7 @@ gaskok:gaskog2 N_ODD "middle brother" ; ! no. 560
 gasskaáldar:gasska#áldar N_ODD "middle ages" ; ! no. 4814
 gasskas:gasskas N_ODD "juniper, juniper twig" ; ! no. 566
 gáddek:gáddeg2 N_ODD "along the shore, someone who lives at the shore" ; ! no. 3189
+gáffal:gáffal N_ODD "fork (eating utensil)" ; ! no. 90841
 gáhtsem:gáhtsem N_ODD "neck (humans)" ; ! no. 504
 gálav:gálav N_ODD "ford" ; ! no. 4332
 gállok:gállog2 N_ODD "shoe made of leather from a reindeer's forehead" ; ! no. 527
@@ -2115,7 +2116,7 @@ kåpter:kåpter N_ODD "helicopter" ; ! no. 4226
 lafnas:lafnas N_ODD "a reindeer’s morning rest" ; ! no. 2615
 láddak:láddag2 N_ODD "cloudberry" ; ! no. 990
 lávvotárrat:lávvot#árrad2 N_ODD "Saturday morning" ; ! no. 2474
-libbjok:libbjog2 N_ODD "butterfly" ; ! no. 3008
+libjuk:libjug2 N_ODD "butterfly" ; ! no. 3008
 libluk:liblug2 N_ODD "butterfly" ; ! no. 1034
 liggim:liggim N_ODD "birch tree around treeline" ; ! no. 1042
 luobbal:lu^Obbal N_ODD "calm water, wide place in a stream" ; ! no. 3919
@@ -2243,10 +2244,9 @@ släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
 snihkkus:snihkkus N_ODD "wood carving" ; ! no. 90829
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
 sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
-spádnas:spádnas N_ODD "wood chip" ; ! no. 1709
 spággak:spággag2 N_ODD "bear spear" ; ! no. 1710
 spáhkak:spáhkag2 N_ODD "hitch in a Saami packsaddle" ; ! no. 1712
-spieddjel:spieddjel N_ODD "mirror" ; ! no. 4585
+spedjil:spedjil N_ODD "mirror" ; ! no. 4585
 spietjam+Use/NG:spietjam N_ODD "tail stump on a hoofed animal" ; ! no. 90730
 spånjgåt:spånjgåd2 N_ODD "whip" ; ! no. 2982
 stalldak:stalldag2 N_ODD "reindeer which stays around a homestead" ; ! no. 4493
@@ -2451,6 +2451,7 @@ ruppsisruohtas:ruppsis#ru^Ohttas N_ODD_WG "red beet" ; ! no. 5080
 rusjmas:russjmas N_ODD_WG "eczema, rash" ; ! no. 1422
 sárjas:sárrjas N_ODD_WG "sore, wound" ; ! no. 90621
 sjkäbtjasujtár:sjkäbtja#sujjtár N_ODD_WG "nurse" ; ! no. 1635
+spánas:spádnas N_ODD_WG "wood chips, wood shavings" ; ! no. 90842
 spijkár:spijjkár N_ODD_WG "nail" ; ! no. 5143
 stäbbleruojas:stäbble#ru^Odjas N_ODD_WG "shaft of a boot" ; ! no. 5144
 subtsas:subbtsas N_ODD_WG "story, fairytale" ; ! no. 1779
