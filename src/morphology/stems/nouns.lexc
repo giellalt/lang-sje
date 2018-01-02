@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-02T11:05:00+01:00
+! Timestamp: 2018-01-02T19:57:24+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1075,7 +1075,7 @@ struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer 
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
 struvvdagáppte:struvvda#gáppte N_EVEN "broadcloth frock" ; ! no. 5231
 strähttá:striehttá N_EVEN "Epiphany" ; ! no. 5088
-stuhtja:stuhtja N_EVEN "piece of something" ; ! no. 3492
+stuhttja:stuhttja N_EVEN "piece of something" ; ! no. 3492
 stummpa:stummpa N_EVEN "loaf of bread" ; ! no. 1738
 stummpa:stummba N_EVEN "stump" ; ! no. 3014
 stuornjárrga:stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
