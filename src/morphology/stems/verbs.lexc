@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-12-26T15:29:35+01:00
+! Timestamp: 2018-01-02T11:05:53+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1219,7 +1219,7 @@ gårrodit:gårrod V_ODD "become covered in ice" ; ! no. 4693
 gåsådit:gåsåd V_ODD "cough a little bit" ; ! no. 4898
 gähppadit:gä2hppad V_ODD "work out easily" ; ! no. 6807
 gähttjalit:gä2httjal V_ODD "attempt, try" ; ! no. 2384
-gärvudit:gä2rvud V_ODD "get dressed, put on clothes" ; ! no. 793
+gärrvudit:gä2rrvud V_ODD "get dressed, put on clothes" ; ! no. 793
 hagŋedit:hagŋed V_ODD "be scared out of breath" ; ! no. 802
 hartsastit:hartsast V_ODD "execute by hanging" ; ! no. 3707
 hádjánit:hádján V_ODD "spread out, disperse" ; ! no. 859
