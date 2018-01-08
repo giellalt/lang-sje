@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-03T09:02:42+01:00
+! Timestamp: 2018-01-08T15:08:43+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1742,6 +1742,7 @@ gäjdno:giejdno N_EVEN_O "unmarked trail" ; ! no. 4300
 gärrgegållo:gärrge#gållo N_EVEN_O "rock cave" ; ! no. 6525
 gärrisrájjdo:gärris#rájjdo N_EVEN_O "reindeer sled caravan" ; ! no. 4827
 hallgo:hallgo N_EVEN_O "long stick, cane" ; ! no. 2759
+hállo:hállo N_EVEN_O "desire" ; ! no. 90844
 hárrdo:hárrdo N_EVEN_O "uppar part of back" ; ! no. 817
 hilldo:hilldo N_EVEN_O "shelf" ; ! no. 3120
 hubblo:hubblo N_EVEN_O "bumble bee" ; ! no. 844
