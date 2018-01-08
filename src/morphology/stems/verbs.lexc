@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-03T09:03:25+01:00
+! Timestamp: 2018-01-08T15:08:50+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1253,6 +1253,7 @@ hähkaldit:hä2hkald V_ODD "process shoe hay, beat shoe hay against something ha
 hähppidit:hä2hppid V_ODD "manage on time, reach" ; ! no. 3712
 häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
 häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
+hälijdit:hä2lijd V_ODD "desire, want to have" ; ! no. 90845
 hämsarit:hä2msar V_ODD "mix, blend" ; ! no. 867
 härridit:hä2rrid V_ODD "imitate" ; ! no. 869
 idjadit:idjad V_ODD "sleep over" ; ! no. 6895
@@ -1606,7 +1607,7 @@ tsieskastit:tsieskast V_ODD "puncture slightly with a needle or knife tip" ; ! n
 tsieskedit:tsiesked V_ODD "smart, hurt" ; ! no. 5787
 tsigástit:tsigást V_ODD "nag persistently and insistently" ; ! no. 2002
 tsintsardit:tsintsard V_ODD "scrawl" ; ! no. 2008
-tsivnjedit:tsivnjed V_ODD "smell smoky (eg. for clothes)" ; ! no. 2011
+tsivnjidit:tsivnjid V_ODD "smell smoky (eg. for clothes)" ; ! no. 2011
 tsåggålit:tsåggål V_ODD "quickly pack into a bag" ; ! no. 5349
 tsåjtsedit:tsåjtsed V_ODD "catch on fire, explode resulting in flying debris" ; ! no. 4001
 tsäggahit:tsä2ggah V_ODD "stand upright" ; ! no. 3608
