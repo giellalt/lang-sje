@@ -36,7 +36,7 @@
 # ---------------------- #
 #
 # emacs grammarchecker.cg3  # and C-c C-i / C-c C-c if you have cg-mode installed
-# echo "Sun ij puátá." | sh modes/sjegram.mode  # from the terminal
+# echo "Sån ij hålbmá." | sh modes/sjegram.mode  # from the terminal
 #
 # ---------------------- #
 #   Other debug-pipes:   #
