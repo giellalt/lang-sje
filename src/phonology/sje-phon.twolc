@@ -40,6 +40,12 @@ Alphabet
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
   %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
 
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
 ! Morpheme boundaries:
  «    ! Derivational prefix
  »    ! Derivational suffix
