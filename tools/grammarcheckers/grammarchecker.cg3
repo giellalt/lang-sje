@@ -398,6 +398,8 @@ LIST PL1-V = (V Pl1) ;   #!! PL1-V
 LIST PL2-V = (V Pl2) ;   #!! PL2-V
 LIST PL3-V = (V Pl3)  ;  #!! PL3-V
 
+LIST PERSON = Sg1 Du1 Pl1 Sg2 Du2 Pl2 Sg3 Du3 Pl3 ;
+
  # Note that imperative verbs are not included in these sets!
 
 # Some subsets of the VFIN sets
@@ -623,7 +625,7 @@ ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
 
-ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs Sg3) IF (0 Ind OR Cond)(-1 (V Neg Sg3) LINK NOT 0 Sup);	
+ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs $$PERSON) IF (0 Ind OR Cond)(-1 (V Neg $$PERSON) LINK NOT 0 Sup);	
 #ok Sån hålbmá
 #ok Sån ij hålme
 #err Sån ij hålbmá
