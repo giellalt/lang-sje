@@ -3,9 +3,11 @@
 
 # =================================================================== #
 # =================================================================== #
-#            S O U T H   S Á M I   D I S A M B I G U A T O R          #
+#             P I T E  S Á M I   D I S A M B I G U A T O R            #
 # =================================================================== #
 # =================================================================== #
+
+# copied from South Saami disambiguator by Joshua Wilbur on 2018-01-09
 
             # =========================================== #
             #            Short table of contents          #
@@ -53,6 +55,7 @@ LIST Ine = Ine ;
 LIST Ela = Ela ;
 LIST Ill = Ill ;
 LIST Com = Com ;
+LIST Abe = Abe ;
 LIST Ess = Ess ;
 
 LIST PxSg1 = PxSg1 ;
@@ -224,7 +227,7 @@ LIST Guess = Guess ;
 # SET TITLE = REAL-TITLE OR TITLE-LIKE OR PROFESSION OR OFFICE ; 
 
 
-LIST CASES = Nom Acc Gen Ill Ine Ela Com Ess ;
+LIST CASES = Nom Acc Gen Ill Ine Ela Com Abe Ess ;
 LIST ADVLCASE = Ine Ill Com Ela ;
 LIST NUMBER = Sg Pl ;
 LIST NOMEN-NOT-PRON = N A Indef Num Ord ;  # they can have Dem as attr
