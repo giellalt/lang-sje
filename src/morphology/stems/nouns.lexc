@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-08T15:08:43+02:00
+! Timestamp: 2018-01-11T12:05:08+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1947,7 +1947,6 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 átjek:átjeg2 N_ODD "thunder" ; ! no. 83
 bahák:bahág2 N_ODD "evil" ; ! no. 2601
 baksem:baksem N_ODD "lip" ; ! no. 90526
-baktjás:baktjás N_ODD "pain" ; ! no. 5739
 bavrek:bavreg2 N_ODD "awake, alert person" ; ! no. 5992
 báhper:báhper N_ODD "paper" ; ! no. 110
 báhtsak:báhtsag2 N_ODD "cone" ; ! no. 114
@@ -2411,6 +2410,7 @@ vuordnos:vu^Ordnos N_ODD_VH "denial, retraction" ; ! no. 90574
 áhtselisbålås:áhtselis#bållås N_ODD_WG "heavy rain shower" ; ! no. 15
 ánjas:ádnjas N_ODD_WG "leg tendon" ; ! no. 5832
 ávvoganjal:ávvo#gadnjal N_ODD_WG "tear of joy" ; ! no. 90633
+báktjas:bákktjas N_ODD_WG "pain" ; ! no. 5739
 bierjas:bierrjas N_ODD_WG "cloth rain covering smoke hole in a tent kåta" ; ! no. 176
 bievas:bievvas N_ODD_WG "sweat" ; ! no. 4218
 buäjjdetjálmas:buäjjde#tjálmas N_ODD_WG "reticulum filled with fat" ; ! no. 5831
