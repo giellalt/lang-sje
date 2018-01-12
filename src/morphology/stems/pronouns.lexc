@@ -29,44 +29,52 @@ Indefinita ;
 ! =================
 
 LEXICON Personal   !!= * __@CODE@__
-mån:m  pers ;
-dån:d  pers ;
-sån:s  pers ;
+mån+Pron+Pers+Sg1:m  perssg ;
+mån+Pron+Pers+Du1:m  persdu ;
+mån+Pron+Pers+Pl1:m  perspl ;
+dån+Pron+Pers+Sg2:d  perssg ;
+dån+Pron+Pers+Du2:d  persdu ;
+dån+Pron+Pers+Pl2:d  perspl ;
+sån+Pron+Pers+Sg3:s  perssg ;
+sån+Pron+Pers+Du3:s  persdu ;
+sån+Pron+Pers+Pl3:s  perspl ;
 
-LEXICON pers   !!= * __@CODE@__
-+Pron+Pers+Sg+Nom:ån      # ;
-+Pron+Pers+Sg+Nom:ånnå    # ;
-+Pron+Pers+Sg+Acc:uv      # ;
-+Pron+Pers+Sg+Gen:uv      # ;
-+Pron+Pers+Sg+Ill:unje    # ;
-+Pron+Pers+Sg+Ill:unji    # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
-+Pron+Pers+Sg+Ine:uvne    # ;
-+Pron+Pers+Sg+Ine:ujna    # ; !nordlig variant
-+Pron+Pers+Sg+Ela:uvste   # ;
-+Pron+Pers+Sg+Com:ujna    # ;
+LEXICON perssg   !!= * __@CODE@__
++Nom:ån      # ;
++Nom:ånnå    # ;
++Acc:uv      # ;
++Gen:uv      # ;
++Ill:unje    # ;
++Ill:unji    # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
++Ine:uvne    # ;
++Ine:ujna    # ; !nordlig variant
++Ela:uvste   # ;
++Com:ujna    # ;
++Ess:ånnan # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
-+Pron+Pers+Du+Nom:åj      # ;
-+Pron+Pers+Du+Nom:åjå     # ;
-+Pron+Pers+Du+Acc:unuv   # ;
-+Pron+Pers+Du+Gen:unu    # ;
-+Pron+Pers+Du+Ill:unnuj   # ;
-+Pron+Pers+Du+Ine:unun   # ;
-+Pron+Pers+Du+Ela:unust  # ;
-+Pron+Pers+Du+Com:unujn   # ;
+LEXICON persdu   !!= * __@CODE@__
++Nom:åj      # ;
++Nom:åjå     # ;
++Acc:unuv   # ;
++Gen:unu    # ;
++Ill:unnuj   # ;
++Ine:unun   # ;
++Ela:unust  # ;
++Com:unujn   # ;
++Ess:unnun # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
-+Pron+Pers+Pl+Nom:ij      # ;
-+Pron+Pers+Pl+Nom:ija     # ;
-+Pron+Pers+Pl+Nom+Use/NG:ijá     # ;
-+Pron+Pers+Pl+Acc:ijav    # ;
-+Pron+Pers+Pl+Acc+Use/NG:ijáv     # ;
-+Pron+Pers+Pl+Gen:ija     # ;
-+Pron+Pers+Pl+Ill:ijjij   # ;
-+Pron+Pers+Pl+Ine:ijan    # ;
-+Pron+Pers+Pl+Ela:ijast   # ;
-+Pron+Pers+Pl+Com:ijajn   # ;
+LEXICON perspl   !!= * __@CODE@__
++Nom:ij      # ;
++Nom:ija     # ;
++Nom+Use/NG:ijá     # ;
++Acc:ijav    # ;
++Acc+Use/NG:ijáv     # ;
++Gen:ija     # ;
++Ill:ijjij   # ;
++Ine:ijan    # ;
++Ela:ijast   # ;
++Com:ijajn   # ;
 
-+Pron+Pers+Ess+Sg:ånnan # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
-+Pron+Pers+Ess+Du:unnun # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
 
 LEXICON Demonstrative   !!= * __@CODE@__
@@ -90,41 +98,41 @@ dat+Pron+Det+Pl+Ela:dajste # ;
 dat+Pron+Det+Pl+Com:daj # ;
 
 
-dat+Pron+Det+Sg+Nom:dát # ;
-dat+Pron+Det+Sg+Acc:dáv # ;
-dat+Pron+Det+Sg+Gen:dán # ;
-dat+Pron+Det+Sg+Ill:dása # ;
-dat+Pron+Det+Sg+Ine:dánne # ;
-dat+Pron+Det+Sg+Ela:dásste # ;
-dat+Pron+Det+Sg+Com:dájna # ;
-dat+Pron+Det+Sg+Ess:dánen # ;
+dát+Pron+Det+Sg+Nom:dát # ;
+dát+Pron+Det+Sg+Acc:dáv # ;
+dát+Pron+Det+Sg+Gen:dán # ;
+dát+Pron+Det+Sg+Ill:dása # ;
+dát+Pron+Det+Sg+Ine:dánne # ;
+dát+Pron+Det+Sg+Ela:dásste # ;
+dát+Pron+Det+Sg+Com:dájna # ;
+dát+Pron+Det+Sg+Ess:dánen # ;
 
-dat+Pron+Det+Pl+Nom:dá # ;
-dat+Pron+Det+Pl+Acc:dájd # ;
-dat+Pron+Det+Pl+Gen:dáj # ;
-dat+Pron+Det+Pl+Ill:dájda # ;
-dat+Pron+Det+Pl+Ine:dájn # ;
-dat+Pron+Det+Pl+Ine:dájdne # ; 
-dat+Pron+Det+Pl+Ela:dájst # ;
-dat+Pron+Det+Pl+Ela:dájste # ;
-dat+Pron+Det+Pl+Com:dáj # ;
+dát+Pron+Det+Pl+Nom:dá # ;
+dát+Pron+Det+Pl+Acc:dájd # ;
+dát+Pron+Det+Pl+Gen:dáj # ;
+dát+Pron+Det+Pl+Ill:dájda # ;
+dát+Pron+Det+Pl+Ine:dájn # ;
+dát+Pron+Det+Pl+Ine:dájdne # ; 
+dát+Pron+Det+Pl+Ela:dájst # ;
+dát+Pron+Det+Pl+Ela:dájste # ;
+dát+Pron+Det+Pl+Com:dáj # ;
 
-dat+Pron+Det+Sg+Nom:duot # ;
-dat+Pron+Det+Sg+Acc:duov # ;
-dat+Pron+Det+Sg+Gen:duon # ;
-dat+Pron+Det+Sg+Ill:dusi # ;
-dat+Pron+Det+Sg+Ine:duanna # ;
-dat+Pron+Det+Sg+Ela:duassta # ;
-dat+Pron+Det+Sg+Com:duojna # ;
+duot+Pron+Det+Sg+Nom:duot # ;
+duot+Pron+Det+Sg+Acc:duov # ;
+duot+Pron+Det+Sg+Gen:duon # ;
+duot+Pron+Det+Sg+Ill:dusi # ;
+duot+Pron+Det+Sg+Ine:duanna # ;
+duot+Pron+Det+Sg+Ela:duassta # ;
+duot+Pron+Det+Sg+Com:duojna # ;
 
 
-dat+Pron+Det+Pl+Nom:duo # ;
-dat+Pron+Det+Pl+Acc:duojd # ;
-dat+Pron+Det+Pl+Gen:duoj # ;
-dat+Pron+Det+Pl+Ill:duojda # ;
-dat+Pron+Det+Pl+Ine:duojn # ;
-dat+Pron+Det+Pl+Ela:duojs # ;
-dat+Pron+Det+Pl+Com:duoj # ;
+duot+Pron+Det+Pl+Nom:duo # ;
+duot+Pron+Det+Pl+Acc:duojd # ;
+duot+Pron+Det+Pl+Gen:duoj # ;
+duot+Pron+Det+Pl+Ill:duojda # ;
+duot+Pron+Det+Pl+Ine:duojn # ;
+duot+Pron+Det+Pl+Ela:duojs # ;
+duot+Pron+Det+Pl+Com:duoj # ;
 
 LEXICON Relative   !!= * __@CODE@__
 !gie, predikativ ställning
@@ -273,67 +281,67 @@ galla+Pron+Int: gallacase ;
 !mikkir~makkar:mikkir-~makkar- ´hurudan?, vad för slags?, (sådan) som, (likadan) som´, attributivt oböjligt
 
 !mikkir predikativ ställning
-mikkir+Pron+Int+Sg+Nom:miggir # ;
-mikkir+Pron+Int+Sg+Acc:miggirav # ;
-mikkir+Pron+Int+Sg+Gen:miggira # ;
-mikkir+Pron+Int+Sg+Ill:miggirij # ;
-mikkir+Pron+Int+Sg+Ine:miggirin # ;
-mikkir+Pron+Int+Sg+Ela:miggirist # ;
-mikkir+Pron+Int+Sg+Com:miggirijn # ;
-mikkir+Pron+Int+Sg+Ess:miggirin # ;
+mikkir+Pron+Interr+Sg+Nom:miggir # ;
+mikkir+Pron+Interr+Sg+Acc:miggirav # ;
+mikkir+Pron+Interr+Sg+Gen:miggira # ;
+mikkir+Pron+Interr+Sg+Ill:miggirij # ;
+mikkir+Pron+Interr+Sg+Ine:miggirin # ;
+mikkir+Pron+Interr+Sg+Ela:miggirist # ;
+mikkir+Pron+Interr+Sg+Com:miggirijn # ;
+mikkir+Pron+Interr+Sg+Ess:miggirin # ;
 
-mikkir+Pron+Int+Pl+Nom:miggira # ;
-mikkir+Pron+Int+Pl+Acc:miggirijd # ;
-mikkir+Pron+Int+Pl+Gen:miggirij # ;
-mikkir+Pron+Int+Pl+Ill:miggirijda # ;
-mikkir+Pron+Int+Pl+Ine:miggirijn # ;
-mikkir+Pron+Int+Pl+Ela:miggirijst # ;
-mikkir+Pron+Int+Pl+Com:miggirij # ;
+mikkir+Pron+Interr+Pl+Nom:miggira # ;
+mikkir+Pron+Interr+Pl+Acc:miggirijd # ;
+mikkir+Pron+Interr+Pl+Gen:miggirij # ;
+mikkir+Pron+Interr+Pl+Ill:miggirijda # ;
+mikkir+Pron+Interr+Pl+Ine:miggirijn # ;
+mikkir+Pron+Interr+Pl+Ela:miggirijst # ;
+mikkir+Pron+Interr+Pl+Com:miggirij # ;
 
 !mikkir attributiv ställning
-mikkir+Pron+Int+Sg+Nom:miggir # ;
+mikkir+Pron+Interr+Sg+Nom:miggir # ;
 
 !galles:gallas- ´hur många personer?´ (brukas aldrig attributivt)
 
 !galles, predikativ ställning
-galles+Pron+Int+Sg+Nom:galles # ;
-galles+Pron+Int+Sg+Acc:gallasav # ;
-galles+Pron+Int+Sg+Gen:gallasa # ;
-galles+Pron+Int+Sg+Ill:gallasij # ;
-galles+Pron+Int+Sg+Ine:gallasin # ;
-galles+Pron+Int+Sg+Ela:gallasist # ;
-galles+Pron+Int+Sg+Com:gallasijn # ;
-galles+Pron+Int+Sg+Ess:gallasin # ;
+galles+Pron+Interr+Sg+Nom:galles # ;
+galles+Pron+Interr+Sg+Acc:gallasav # ;
+galles+Pron+Interr+Sg+Gen:gallasa # ;
+galles+Pron+Interr+Sg+Ill:gallasij # ;
+galles+Pron+Interr+Sg+Ine:gallasin # ;
+galles+Pron+Interr+Sg+Ela:gallasist # ;
+galles+Pron+Interr+Sg+Com:gallasijn # ;
+galles+Pron+Interr+Sg+Ess:gallasin # ;
 
-galles+Pron+Int+Pl+Nom:gallasa # ;
-galles+Pron+Int+Pl+Acc:gallasijd # ;
-galles+Pron+Int+Pl+Gen:gallasij # ;
-galles+Pron+Int+Pl+Ill:gallasijda # ;
-galles+Pron+Int+Pl+Ine:gallasijn # ;
-galles+Pron+Int+Pl+Ela:gallasijst # ;
-galles+Pron+Int+Pl+Com:gallasij # ;
+galles+Pron+Interr+Pl+Nom:gallasa # ;
+galles+Pron+Interr+Pl+Acc:gallasijd # ;
+galles+Pron+Interr+Pl+Gen:gallasij # ;
+galles+Pron+Interr+Pl+Ill:gallasijda # ;
+galles+Pron+Interr+Pl+Ine:gallasijn # ;
+galles+Pron+Interr+Pl+Ela:gallasijst # ;
+galles+Pron+Interr+Pl+Com:gallasij # ;
 
 !gallat ´vilken (i ordningen)?´
 
 !gallat attributiv ställning
-gallat+Pron+Int+Sg+Nom:gallat # ;
+gallat+Pron+Interr+Sg+Nom:gallat # ;
 
-gallat+Pron+Int+Sg+Nom:gallat # ;
-gallat+Pron+Int+Sg+Acc:galladav # ;
-gallat+Pron+Int+Sg+Gen:gallada # ;
-gallat+Pron+Int+Sg+Ill:galladij # ;
-gallat+Pron+Int+Sg+Ine:galladin # ;
-gallat+Pron+Int+Sg+Ela:galladist # ;
-gallat+Pron+Int+Sg+Com:galladijn # ;
-gallat+Pron+Int+Sg+Ess:galladin # ;
+gallat+Pron+Interr+Sg+Nom:gallat # ;
+gallat+Pron+Interr+Sg+Acc:galladav # ;
+gallat+Pron+Interr+Sg+Gen:gallada # ;
+gallat+Pron+Interr+Sg+Ill:galladij # ;
+gallat+Pron+Interr+Sg+Ine:galladin # ;
+gallat+Pron+Interr+Sg+Ela:galladist # ;
+gallat+Pron+Interr+Sg+Com:galladijn # ;
+gallat+Pron+Interr+Sg+Ess:galladin # ;
 
-gallat+Pron+Int+Pl+Nom:gallada # ;
-gallat+Pron+Int+Pl+Acc:galladijd # ;
-gallat+Pron+Int+Pl+Gen:galladij # ;
-gallat+Pron+Int+Pl+Ill:galladijda # ;
-gallat+Pron+Int+Pl+Ine:galladijn # ;
-gallat+Pron+Int+Pl+Ela:galladijst # ;
-gallat+Pron+Int+Pl+Com:galladij # ;
+gallat+Pron+Interr+Pl+Nom:gallada # ;
+gallat+Pron+Interr+Pl+Acc:galladijd # ;
+gallat+Pron+Interr+Pl+Gen:galladij # ;
+gallat+Pron+Interr+Pl+Ill:galladijda # ;
+gallat+Pron+Interr+Pl+Ine:galladijn # ;
+gallat+Pron+Interr+Pl+Ela:galladijst # ;
+gallat+Pron+Interr+Pl+Com:galladij # ;
 
 LEXICON Indefinita   !!= * __@CODE@__
 
@@ -1053,40 +1061,40 @@ LEXICON gallacase   !!= * __@CODE@__
 
 
 
-! galla+Pron+Int+Sg+Nom:galla # ;
-! galla+Pron+Int+Sg+Acc:gallev # ;
-! galla+Pron+Int+Sg+Gen:galle # ;
-! galla+Pron+Int+Sg+Ill:galláj # ;
-! galla+Pron+Int+Sg+Ine:gallen # ;
-! galla+Pron+Int+Sg+Ela:gallest # ;
-! galla+Pron+Int+Sg+Com:gallijn # ;
-! galla+Pron+Int+Sg+Ess:gallen # ;
+! galla+Pron+Interr+Sg+Nom:galla # ;
+! galla+Pron+Interr+Sg+Acc:gallev # ;
+! galla+Pron+Interr+Sg+Gen:galle # ;
+! galla+Pron+Interr+Sg+Ill:galláj # ;
+! galla+Pron+Interr+Sg+Ine:gallen # ;
+! galla+Pron+Interr+Sg+Ela:gallest # ;
+! galla+Pron+Interr+Sg+Com:gallijn # ;
+! galla+Pron+Interr+Sg+Ess:gallen # ;
 !
-! galla+Pron+Int+Pl+Nom:galle # ;
-! galla+Pron+Int+Pl+Acc:gallijt # ;
-! galla+Pron+Int+Pl+Gen:gallij # ;
-! galla+Pron+Int+Pl+Ill:gallijda # ;
-! galla+Pron+Int+Pl+Ine:gallijn # ;
-! galla+Pron+Int+Pl+Ela:gallijst # ;
-! galla+Pron+Int+Pl+Com:gallij # ;
+! galla+Pron+Interr+Pl+Nom:galle # ;
+! galla+Pron+Interr+Pl+Acc:gallijt # ;
+! galla+Pron+Interr+Pl+Gen:gallij # ;
+! galla+Pron+Interr+Pl+Ill:gallijda # ;
+! galla+Pron+Interr+Pl+Ine:gallijn # ;
+! galla+Pron+Interr+Pl+Ela:gallijst # ;
+! galla+Pron+Interr+Pl+Com:gallij # ;
 !
 ! !galla, attributiv ställning
-! galla+Pron+Int+Sg+Nom:galla # ;
-! galla+Pron+Int+Sg+Acc:galla # ;
-! galla+Pron+Int+Sg+Gen:galle # ;
-! galla+Pron+Int+Sg+Ill:galla # ;
-! galla+Pron+Int+Sg+Ine:gallen # ;
-! galla+Pron+Int+Sg+Ela:gallet # ;
-! galla+Pron+Int+Sg+Com:gallijn # ;
-! galla+Pron+Int+Sg+Ess:gallen # ;
+! galla+Pron+Interr+Sg+Nom:galla # ;
+! galla+Pron+Interr+Sg+Acc:galla # ;
+! galla+Pron+Interr+Sg+Gen:galle # ;
+! galla+Pron+Interr+Sg+Ill:galla # ;
+! galla+Pron+Interr+Sg+Ine:gallen # ;
+! galla+Pron+Interr+Sg+Ela:gallet # ;
+! galla+Pron+Interr+Sg+Com:gallijn # ;
+! galla+Pron+Interr+Sg+Ess:gallen # ;
 !
-! galla+Pron+Int+Pl+Nom:galle # ;
-! galla+Pron+Int+Pl+Acc:gallijt # ;
-! galla+Pron+Int+Pl+Gen:gallij # ;
-! galla+Pron+Int+Pl+Ill:gallijda # ;
-! galla+Pron+Int+Pl+Ine:gallijn # ;
-! galla+Pron+Int+Pl+Ela:gallijst # ;
-! galla+Pron+Int+Pl+Com:gallij # ;
+! galla+Pron+Interr+Pl+Nom:galle # ;
+! galla+Pron+Interr+Pl+Acc:gallijt # ;
+! galla+Pron+Interr+Pl+Gen:gallij # ;
+! galla+Pron+Interr+Pl+Ill:gallijda # ;
+! galla+Pron+Interr+Pl+Ine:gallijn # ;
+! galla+Pron+Interr+Pl+Ela:gallijst # ;
+! galla+Pron+Interr+Pl+Com:gallij # ;
 
 
  ! LEXICON gallicase # ; ! kanskje skrive denne

@@ -62,7 +62,7 @@ LEXICON N_EVEN_ESS
 +Ess:^UAUML%>n K ;
 
 LEXICON N_EVEN_WK
-+Der/Dim:%>tj^V2E2AA N_ODD ;
++Der/Dimin:%>tj^V2E2AA N_ODD ;
 +Sg+Gen:%>0  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
@@ -205,7 +205,7 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Pl+Com+Use/NG:i2%>jgum K ;
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
-+Der/Dim:a%>tj N_ODD ;
++Der/Dimin:a%>tj N_ODD ;
 
 
 ! contracted
