@@ -20,8 +20,13 @@
 ! Prefixing and compounding
 ! =========================
 
-
 LEXICON R
+ RTags1 ;
+
+LEXICON RHyph
++Cmp/Hyph:-   RTags1 ;
+
+LEXICON RTags1
  @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RTags ; ! Flags to control compounding
 
 ! This is for regular compounding. All entries NOT requiring a hyphen should point to this:
@@ -40,8 +45,6 @@ LEXICON RTags
            +Cmp/SplitR:%-  ENDLEX     ; ! This to take care of Oahpo- ja dutkandept - want this in speller
 
 
-LEXICON RHyph
- @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RTags ; ! Flags to control compounding
 
 ! This is for compounding with hyphen. All entries REQUIRING a hyphen should point to this:
 !!xx comment out when put back to use
