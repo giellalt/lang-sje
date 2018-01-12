@@ -1884,8 +1884,8 @@ LEXICON ARABICCASECOLL   !!= * __@CODE@__
  +Sg+Gen:%>sa   # ;
  +Sg+Acc:%>sav  # ;
  +Sg+Ill:%>sij  # ;
- +Sg+Loc:%>sin  # ;
- +Sg+Loc:%>sis  # ;
+ +Sg+Ine:%>sin  # ;
+ +Sg+Ela:%>sis  # ;
  +Sg+Com:%>sijn # ;
 
 ! The Roman numerals !

@@ -42,8 +42,8 @@ LEXICON V_EVEN_E_STR
 +Ind+Prt+Sg2:i%>0 #; 
 +Ind+Prt+Pl3:i%>n #; 
 
-+Imp+Du2:e%>n # ; 
-+Imp+Pl2:i%>t #;
++Imprt+Du2:e%>n # ; 
++Imprt+Pl2:i%>t #;
 
 +Inf:e%>t # ; 
 +GerII:e%>min # ; !aka: +Actio+Ess ?
@@ -56,7 +56,7 @@ LEXICON V_EVEN_E_WK
 +Ind+Prs+Sg2:%>0^V2E2AA #;
 :^IJ%>j V_EVEN_E_WK_J ; !suffixes with -j-element that trigger e->i in V2
 
-+Imp+Sg2:%>0 #; 
++Imprt+Sg2:%>0 #; 
 
 +GerI:%>din # ;  
 +ConNeg:%>0 # ; 
@@ -93,8 +93,8 @@ LEXICON V_EVEN_A_STR
 +Ind+Prt+Sg2:i%>0 #; 
 +Ind+Prt+Pl3:i%>n #; 
 
-+Imp+Du2:e%>n # ; 
-+Imp+Pl2:i%>t #;
++Imprt+Du2:e%>n # ; 
++Imprt+Pl2:i%>t #;
 
 +Inf:a%>t # ; 
 +GerII:a%>min # ;
@@ -112,7 +112,7 @@ LEXICON V_EVEN_A_WK
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
-+Imp+Sg2:%>0 #; 
++Imprt+Sg2:%>0 #; 
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
@@ -141,8 +141,8 @@ LEXICON V_EVEN_O_STR
 +Ind+Prt+Sg2:u%>0 #; 
 +Ind+Prt+Pl3:u%>n #; 
 
-+Imp+Du2:o%>n # ; 
-+Imp+Pl2:u%>t #;
++Imprt+Du2:o%>n # ; 
++Imprt+Pl2:u%>t #;
 
 +Inf:o%>t # ; 
 +GerII:o%>min # ;
@@ -160,7 +160,7 @@ LEXICON V_EVEN_O_WK
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
-+Imp+Sg2:%>0 #; 
++Imprt+Sg2:%>0 #; 
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
@@ -188,8 +188,8 @@ LEXICON V_EVEN_Å_STR
 +Ind+Prt+Sg2:i%>0 #; 
 +Ind+Prt+Pl3:i%>n #; 
 
-+Imp+Du2:e%>n # ; 
-+Imp+Pl2:i%>t #;
++Imprt+Du2:e%>n # ; 
++Imprt+Pl2:i%>t #;
 
 +Inf:å%>t # ; 
 +GerII:å%>min # ;
@@ -207,7 +207,7 @@ LEXICON V_EVEN_Å_WK
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
-+Imp+Sg2:%>0 #; 
++Imprt+Sg2:%>0 #; 
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
@@ -243,9 +243,9 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prt+Pl2:i%>jde #;
 +V+Ind+Prt+Pl3:i%>n #; 
 
-+V+Imp+Sg2:e%>0 #; 
-+V+Imp+Du2:e%>hten # ; 
-+V+Imp+Pl2:i%>httit #;
++V+Imprt+Sg2:e%>0 #; 
++V+Imprt+Du2:e%>hten # ; 
++V+Imprt+Pl2:i%>httit #;
 
 +V+Inf:i%>t # ; 
 +V+GerII:e%>min # ;
@@ -284,9 +284,9 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Pl2:%>jde #;
 +V+Ind+Prt+Pl3:%>jin #; 
 
-+V+Imp+Sg2:%>0 #; 
-!+V+Imp+Du2:%>hten # ; 
-!+V+Imp+Pl2:%>httit #;
++V+Imprt+Sg2:%>0 #; 
+!+V+Imprt+Du2:%>hten # ; 
+!+V+Imprt+Pl2:%>httit #;
 
 +V+Inf:%>t # ; 
 !+V+GerII:%>min # ;
@@ -464,8 +464,8 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+GerII:o%>min # ;
 !+PrfPrc:u%>m # ;
 !+PrsPrc:o # ; !extra starkt, hur få till det?
-!+Imp+Du2:o%>n # ; 
-!+Imp+Pl2:u%>t #;
+!+Imprt+Du2:o%>n # ; 
+!+Imprt+Pl2:u%>t #;
 !+Vsubst:%>om #; 
 !
 !+Ind+Prs+Sg3:u #;
@@ -486,7 +486,7 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+Sup:%>otjit # ;
 !+Neg:%>o # ; 
 !+Pot:%>otj V_ODD_IND_PRS ; 
-!+Imp+Sg2:o #; 
+!+Imprt+Sg2:o #; 
 !+Vgen:o #;  
 !
 !+Ind+Prs+Sg1:%>ov #;
@@ -526,8 +526,8 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+GerII:å%>min # ; 
 !+PrfPrc:å%>m # ;
 !+PrsPrc:e # ; !extra starkt, hur få till det? 
-!+Imp+Du2:e%>n # ; 
-!+Imp+Pl2:i%>t #;
+!+Imprt+Du2:e%>n # ; 
+!+Imprt+Pl2:i%>t #;
 !+Vsubst:%>åm #;  
 !
 !+Ind+Prs+Sg3:a #;
@@ -548,7 +548,7 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+GerI:%>ådin # ; 
 !+Sup:%>åtjit # ;
 !+Pot:%>åtj V_ODD_IND_PRS ; 
-!+Imp+Sg2:å #; 
+!+Imprt+Sg2:å #; 
 !+Vgen:å #;
 !+Neg:%>å # ;  
 !
@@ -571,8 +571,8 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+GerII:e%>min # ;
 !+PrfPrc:á%>m # ;
 !+PrsPrc:e # ; !extra starkt, hur få till det? 
-!+Imp+Du2:e%>n # ; 
-!+Imp+Pl2:i%>t #;
+!+Imprt+Du2:e%>n # ; 
+!+Imprt+Pl2:i%>t #;
 !+Vsubst:%>em #; 
 !
 !+Ind+Prs+Sg3:a #;
@@ -593,7 +593,7 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+GerI:%>edin # ; 
 !+Sup:%>átjit # ;
 !+Pot:%>itj V_ODD_IND_PRS ; 
-!+Imp+Sg2:e #; 
+!+Imprt+Sg2:e #; 
 !+Vgen:e #;
 !+Neg:%>e # ;  
 !
@@ -618,10 +618,10 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+V+Sup:%>tjit # ; 
 !+V+Pot:%>tj V_ODD_IND_PRS ; 
 !+V+Pot+Sg3:%>tj # ; 
-!+V+Imp+Sg2: #;
-!+V+Imp+Du2:%>bähtten # ;
-!+V+Imp+Du2:%>jehtin # ; 
-!+V+Imp+Pl2:%>jit #;
+!+V+Imprt+Sg2: #;
+!+V+Imprt+Du2:%>bähtten # ;
+!+V+Imprt+Du2:%>jehtin # ; 
+!+V+Imprt+Pl2:%>jit #;
 !+V+Vgen: #; 
 !+Vsubst:%>m #;
 !+Neg: # ; 
@@ -657,8 +657,8 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+GerII:a%>min # ;
 !+PrfPrc:a%>m # ;
 !+PrsPrc:e # ; !extra starkt, hur få till det? 
-!+Imp+Du2:e%>n # ; 
-!+Imp+Pl2:i%>t #; 
+!+Imprt+Du2:e%>n # ; 
+!+Imprt+Pl2:i%>t #; 
 !+Vsubst:%>am #; 
 !
 !+Ind+Prs+Sg3:á #;		   ! gallgá
@@ -679,7 +679,7 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+Sup:%>tjit # ; 
 !+Pot:%>tj V_ODD_IND_PRS_EXC_SG3 ; 
 !+Pot+Sg3:%>tj # ;
-!+Imp+Sg2: #; 
+!+Imprt+Sg2: #; 
 !+Vgen: #;
 !+Neg: # ;  
 !
@@ -706,9 +706,9 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 !+V+GerII:a%>me # ;
 !+V+PrfPrc:a%>m # ;
 !+V+PrsPrc:äddje # ; 
-!+V+Imp+Sg2:e #;  
-!+V+Imp+Du2:e%>htin # ; 
-!+V+Imp+Pl2:i%>htit #; 
+!+V+Imprt+Sg2:e #;  
+!+V+Imprt+Du2:e%>htin # ; 
+!+V+Imprt+Pl2:i%>htit #; 
 !+V+Vsubst:%>ibme #;
 !+Neg:%>a # ;
 !

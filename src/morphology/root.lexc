@@ -25,12 +25,22 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Adv +CC +CS
 +Interj
 +Pron +Num
++Pcle
++Po
 
 !! !!Subclasses
-+Pers +Dem +Interr +Indef 		  !!= * @CODE@
-+Refl +Recipr +Rel +NomAg			  !!= * @CODE@
++Pers 
++Dem 
++Interr 
++Indef 		  !!= * @CODE@
++Refl 
++Recipr 
++Rel 
++NomAg			  !!= * @CODE@
 +Attr
-+Comp +VGen
++Comp
++Superl
+
 
 ! Verbal MSP
 +Prs +Fut +Prt +Prf
@@ -43,6 +53,16 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +GerI +GerII +PrfPrc
 +VAbess +Sup +VAdv
 +Cmp
++TV +IV
++ABBR
++Coll
++Cmp/SgNom ! numerals
++Der/Ag
++Der/Dimin
++Der/State
++Det
++Par ! Numerals (?)
+
 
 !! Nominal MSP
 +Sg +Pl
@@ -62,8 +82,15 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Sem/Plc +Sem/Org +Sem/Obj
 
 
-+PxSg1 +PxSg2 +PxSg3
-+PxPl1 +PxPl2 +PxPl3
++PxSg1 
++PxSg2 
++PxSg3
++PxDu1
++PxDu2
++PxDu3
++PxPl1 
++PxPl2 
++PxPl3
 
 
 +Err/Orth ! Not part of standard
