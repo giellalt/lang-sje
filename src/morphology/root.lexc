@@ -129,6 +129,7 @@ i2 !!= @CODE@ * Variable vowel, does not trigger VH
 u2 !!= @CODE@ * Variable vowel, does not trigger VH
 ä2 !!= @CODE@ * Variable vowel, does not undergo (further) VH
 b2 d2 g2 t2 j2 !!= @CODE@ * Variable consonants, undergo final devoicing or other alternations
+d9 !!= @CODE@ * obs
 ^O      !!= @CODE@ * o but ä in uä
 
 !! {{{
