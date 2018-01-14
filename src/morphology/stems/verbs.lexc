@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-08T15:08:50+02:00
+! Timestamp: 2018-01-14T16:12:26+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -946,7 +946,7 @@ gårrsåt:gårrs V_EVEN_Å "clear one's throat" ; ! no. 766
 gåssåt:gåss V_EVEN_Å "cough" ; ! no. 773
 håjjgåt:håjjg V_EVEN_Å "push, shove, throw" ; ! no. 4929
 hållåt:håll V_EVEN_Å "say, speak" ; ! no. 856
-jåkksåt:jåkks V_EVEN_Å "catch up, manage on time" ; ! no. 952
+jåkksåt:jåkks V_EVEN_Å "catch up, manage on time, catch" ; ! no. 952
 jårråt:jårr V_EVEN_Å "fall over" ; ! no. 2524
 låhkåt:låhk V_EVEN_Å "read" ; ! no. 1089
 mårdnåt:mårdn V_EVEN_Å "decay, rot" ; ! no. 1212
@@ -1065,7 +1065,7 @@ dádjadit:dádjad V_ODD "understand" ; ! no. 4309
 dájjsalit:dájjsal V_ODD "become hysterical" ; ! no. 4718
 dállkanit:dállkan V_ODD "become bad (weather)" ; ! no. 3326
 dállkarit:dállkar V_ODD "become bad (weather)" ; ! no. 3325
-dállvadit:dállvad V_ODD "hibernate" ; ! no. 2472
+dálvadit:dálvad V_ODD "hibernate" ; ! no. 2472
 dámadit:dámad V_ODD "tame reindeer" ; ! no. 4723
 dárbahit:dárbah V_ODD "need" ; ! no. 333
 dávestit:dávest V_ODD "answer from a long distance" ; ! no. 342
