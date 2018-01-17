@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-16T17:01:54+01:00
+! Timestamp: 2018-01-17T13:34:43+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1059,7 +1059,7 @@ bähturit:bä2htur V_ODD "run, hide, escape" ; ! no. 6220
 bässkedit:bä2ssked V_ODD "cut (with scissors)" ; ! no. 286
 dabbrahit:dabbrah V_ODD "catch, capture" ; ! no. 293
 dabbránit:dabbrán V_ODD "become stuck" ; ! no. 297
-dahpasit:dahpas V_ODD "clog, close" ; ! no. 303
+dahpasit:dahpas V_ODD "clog, close, become plugged" ; ! no. 303
 dargŋástit:dargŋást V_ODD "become a thin layer of ice" ; ! no. 335
 darrastit:darrast V_ODD "boil something for a short time" ; ! no. 90332
 dádjadit:dádjad V_ODD "understand" ; ! no. 4309
