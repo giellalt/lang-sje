@@ -7,6 +7,12 @@ This file contains the tags and reference to main lexica
 
 POS
 
+!!Subclasses
+ * +Indef 		  
+ * +NomAg			  
+
+
+
 
 Nominal MSP
 
@@ -41,12 +47,14 @@ Semantic properties of names
  ^IUML    * a to i, gallgat gillgin
  ^IJ      * e to i in front of Plural j and Sg Com
  ^V2O2U   * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ ^MONB4J  * No rules for this one in twolc!
 
 
  i2  * Variable vowel, does not trigger VH
  u2  * Variable vowel, does not trigger VH
  ä2  * Variable vowel, does not undergo (further) VH
  b2 d2 g2 t2 j2  * Variable consonants, undergo final devoicing or other alternations
+ d9  * obs
  ^O       * o but ä in uä
 
 {{{
