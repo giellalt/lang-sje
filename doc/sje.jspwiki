@@ -18,6 +18,12 @@ This file contains the tags and reference to main lexica
 
 POS
 
+!!Subclasses
+ * +Indef 		  
+ * +NomAg			  
+
+
+
 
 Nominal MSP
 
@@ -52,12 +58,14 @@ Semantic properties of names
  ^IUML    * a to i, gallgat gillgin
  ^IJ      * e to i in front of Plural j and Sg Com
  ^V2O2U   * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ ^MONB4J  * No rules for this one in twolc!
 
 
  i2  * Variable vowel, does not trigger VH
  u2  * Variable vowel, does not trigger VH
  ä2  * Variable vowel, does not undergo (further) VH
  b2 d2 g2 t2 j2  * Variable consonants, undergo final devoicing or other alternations
+ d9  * obs
  ^O       * o but ä in uä
 
 {{{
@@ -110,6 +118,9 @@ The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
 
 
 !!!Adjectives !
+
+
+
 
 
 
@@ -1063,9 +1074,11 @@ Pronouns
 
  * __LEXICON Personal   __
 
- * __LEXICON pers   __
+ * __LEXICON perssg   __
 
+ * __LEXICON persdu   __
 
+ * __LEXICON perspl   __
 
 
 
@@ -1309,6 +1322,7 @@ Properhoun, toy file only
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
    %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+   %^MONB4J:0  * what is this?
 
 
 
