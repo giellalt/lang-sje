@@ -47,6 +47,17 @@ LEXICON A_AMAS_s2
 +Superl: A_EVEN_SUP ;
 
 
+LEXICON A_AARVAS ! árvas/árvas/árrvasa/árvasup/árvasumos/árvasubmusa
++A+Attr:^WG%>0 # ;
++A: A_AARVAS_s2 ; 
+
+LEXICON A_AARVAS_s2 
++Sg+Nom:^WG%>0 K ; 
++Pl+Nom:%>a K ; 
++Comp:^WG A_EVEN_COMP ;
++Superl:^WG A_EVEN_SUP ;
+
+
 LEXICON A_BIVVAL ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 +A+Attr:%>is # ;
 +A: A_BIVVAL_s2 ; 
