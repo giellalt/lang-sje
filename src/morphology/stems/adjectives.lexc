@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2017-11-16T08:48:10+01:00
+! Timestamp: 2018-01-19T14:28:59+01:00
 
 !! !!!Pite Saami Adjectives
 
@@ -27,6 +27,8 @@ LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 állke:állke A_AALLKE "easy, simple" ; ! no. 53
 bahá:bahá A_AALLKE "evil" ; ! no. 101
 hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
+árvas:árrvas A_AARVAS "generous" ; ! no. 74
+ávtas:ávvtas A_AARVAS "empty, desolate, outlying" ; ! no. 91
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
 dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343

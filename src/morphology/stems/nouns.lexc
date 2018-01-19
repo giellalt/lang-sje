@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-17T13:35:21+01:00
+! Timestamp: 2018-01-19T10:47:37+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1984,6 +1984,7 @@ bånjok:bånjog2 N_ODD "reindeer on its own, alone" ; ! no. 2975
 bårdnos:bårdnos N_ODD "back part of a boat or Saami sled" ; ! no. 6793
 bärdnabivdár:bärdna#bivdár N_ODD "bear hunter" ; ! no. 3321
 bärrgal:bä2rrgal N_ODD "devil" ; ! no. 90118
+bärrjediehket:bärrjed#iehked2 N_ODD "Friday evening" ; ! no. 4239
 bässtak:bä2sstag2 N_ODD "bush" ; ! no. 287
 davek:daveg2 N_ODD "Arctic loon" ; ! no. 341
 dábak:dábag2 N_ODD "mud" ; ! no. 359
