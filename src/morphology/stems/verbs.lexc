@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-17T13:34:43+01:00
+! Timestamp: 2018-01-23T13:21:50+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -290,6 +290,7 @@ tsiggit:tsiggi V_CONTR "build, set up, raise" ; ! no. 2003
 tsihkkit:tsihkki V_CONTR "start (a fire)" ; ! no. 90083
 tsujjgit:tsujjgi V_CONTR "point out, draw someone’s attention to something" ; ! no. 2012
 tuhttjit:tuhttji V_CONTR "think, consider, deem" ; ! no. 4733
+tullit:tulli V_CONTR "charge customs, collect tax" ; ! no. 90848
 tuŋŋkit:tuŋŋki V_CONTR "castrate reindeer" ; ! no. 6655
 uddnut:uddnu V_CONTR "indulge, not begrudge" ; ! no. 2020
 ullit:ulli V_CONTR "finish something" ; ! no. 3713
