@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-23T13:21:50+01:00
+! Timestamp: 2018-01-24T11:18:10+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -951,6 +951,7 @@ håjjgåt:håjjg V_EVEN_Å "push, shove, throw" ; ! no. 4929
 hållåt:håll V_EVEN_Å "say, speak" ; ! no. 856
 jåkksåt:jåkks V_EVEN_Å "catch up, manage on time, catch" ; ! no. 952
 jårråt:jårr V_EVEN_Å "fall over" ; ! no. 2524
+jåvvlåt:jåvvl V_EVEN_Å "say, utter, pronounce" ; ! no. 90855
 låhkåt:låhk V_EVEN_Å "read" ; ! no. 1089
 mårdnåt:mårdn V_EVEN_Å "decay, rot" ; ! no. 1212
 njållgåt:njållg V_EVEN_Å "trot (for reindeer)" ; ! no. 1312
@@ -997,6 +998,7 @@ avvadit:avvad V_ODD "waste time" ; ! no. 90143
 baddjanit:baddjan V_ODD "get up" ; ! no. 2391
 bagestit:bagest V_ODD "rip, tear off" ; ! no. 4417
 bajedit:bajed V_ODD "raise, lift" ; ! no. 4102
+balldalit:balldal V_ODD "scare" ; ! no. 90852
 baltjastit:baltjast V_ODD "be mischievous" ; ! no. 137
 balvadit:balvad V_ODD "become cloudy" ; ! no. 5737
 bargastit:bargast V_ODD "work a little bit" ; ! no. 4682
@@ -1118,6 +1120,7 @@ fielastit:fielast V_ODD "travel" ; ! no. 2813
 fielbardit:fielbard V_ODD "drift (for snow)" ; ! no. 4012
 fieradit:fierad V_ODD "perish, die" ; ! no. 474
 firkodit:firkod V_ODD "shake" ; ! no. 2840
+funderit:funder V_ODD "think about, consider" ; ! no. 90854
 fuomahit:fu^Omah V_ODD "realize" ; ! no. 479
 gabbredit:gabbred V_ODD "steepen" ; ! no. 4381
 gaggaldit:gaggald V_ODD "speak unclearly" ; ! no. 90540

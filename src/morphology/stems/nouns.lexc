@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-24T08:16:39+01:00
+! Timestamp: 2018-01-24T11:35:47+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -293,6 +293,7 @@ dávvle:dávvle N_EVEN "roll or ball of birch bark used as kindling" ; ! no. 294
 departemännta:departemiennta N_EVEN "department" ; ! no. 3583
 diagramma:diagramma N_EVEN "diagram" ; ! no. 3594
 diamannta:diamannta N_EVEN "diamond" ; ! no. 3593
+diehpe:diehpe N_EVEN "shine, light" ; ! no. 90853
 dielle:dielle N_EVEN "compact snow without crust and only in the mountains" ; ! no. 3759
 dierre:dierre N_EVEN "middle layer of cowhide with a seam against the outer part of shoes" ; ! no. 4316
 dievvá:dievvá N_EVEN "hill, slope" ; ! no. 357
@@ -732,6 +733,7 @@ mánnábálle:mánná#bálle N_EVEN "childhood" ; ! no. 90604
 mánnágirrje:mánná#girrje N_EVEN "children’s book" ; ! no. 3220
 mánnámiella:mánná#miella N_EVEN "childish ood" ; ! no. 90632
 mánná+N+Der/State:mánnávu^Ohta N_EVEN "childhood" ; ! no. 3221
+mánnodiehpe:mánno#diehpe N_EVEN "moonlight" ; ! no. 4310
 márrtná:márrtná N_EVEN "market" ; ! no. 2594
 miehtedievvá:miehte#dievvá N_EVEN "downhill slope" ; ! no. 5893
 miella:miella N_EVEN "temperament, reason, mood, senses" ; ! no. 1153
@@ -1770,7 +1772,7 @@ juobmo:ju^Obmo N_EVEN_O "mountain sorrel" ; ! no. 937
 juohko:ju^Ohko N_EVEN_O "button on a harness's trace" ; ! no. 939
 jålåsájjdo:jålås#ájjdo N_EVEN_O "reindeer trail, compacted reindeer trail" ; ! no. 955
 jålåsláhtto:jålås#láhtto N_EVEN_O "track, fresh track in the snow" ; ! no. 954
-jåvvlåbäbbmo:jåvvlå#biebbmo N_EVEN_O "Christmas food" ; ! no. 5704
+jåvvlåbäbbmo:jåvvlå#biebbmo N_EVEN_O "Christmas food" ; ! no. 90856
 jåvvlåmánno:jåvvlå#mánno N_EVEN_O "December" ; ! no. 964
 kryhtto:kryhtto N_EVEN_O "pot, pan" ; ! no. 3752
 láhppo:láhppo N_EVEN_O "beard lichen" ; ! no. 1668
