@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-24T11:18:10+01:00
+! Timestamp: 2018-01-24T13:18:33+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -659,10 +659,10 @@ gáddet:gádd V_EVEN_E "suspect, mistrust" ; ! no. 487
 gállet:gáll V_EVEN_E "wade" ; ! no. 521
 gásskegåhtet:gásskegåht V_EVEN_E "begin biting" ; ! no. 4398
 gássket:gássk V_EVEN_E "bite, chew; castrate" ; ! no. 3279
-genugahttet:genugahtt V_EVEN_E "stop, come to a stop" ; ! no. 4399
 gibbnjet:gibbnj V_EVEN_E "hang up" ; ! no. 603
 giesset:giess V_EVEN_E "drag, pull" ; ! no. 601
 gijjtet:gijjt V_EVEN_E "thank" ; ! no. 3866
+ginugahttet:ginugahtt V_EVEN_E "stop, come to a stop" ; ! no. 4399
 gunádahttet:gunádahtt V_EVEN_E "say goodbye" ; ! no. 5829
 guoddet+Use/NG:gu^Odd V_EVEN_E "leave, vacate" ; ! no. 90414
 guorret:gu^Orr V_EVEN_E "leave, vacate" ; ! no. 704
@@ -1157,7 +1157,6 @@ gástadit:gástad V_ODD "baptise" ; ! no. 571
 gávastit:gávast V_ODD "yawn" ; ! no. 575
 gávnadit:gávnad V_ODD "meet" ; ! no. 581
 gávodit:gávod V_ODD "turn a boat on an even keel" ; ! no. 3497
-genugit:genug V_ODD "stay, stop, remain" ; ! no. 597
 gerjudit:gerjud V_ODD "wag" ; ! no. 4817
 giegadit:giegad V_ODD "intend" ; ! no. 606
 giehpebut:giehpeb V_ODD "make easier, simplify" ; ! no. 4821
@@ -1181,6 +1180,7 @@ gijjtelit:gijjtel V_ODD "thank quickly" ; ! no. 4837
 gijkudit:gijkud V_ODD "rip apart" ; ! no. 3879
 giljastit:giljast V_ODD "call out briefly" ; ! no. 4839
 giljádit:giljád V_ODD "cry out" ; ! no. 4838
+ginugit:ginug V_ODD "stay, stop, remain" ; ! no. 597
 girredit:girred V_ODD "carefully drive reindeer" ; ! no. 637
 girrsulit:girrsul V_ODD "dance around, circle in a reindeer corral" ; ! no. 2586
 gisjkadit:gisjkad V_ODD "continue, aim for" ; ! no. 642
