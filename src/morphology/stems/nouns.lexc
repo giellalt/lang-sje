@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-23T13:44:16+01:00
+! Timestamp: 2018-01-24T08:16:39+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1383,6 +1383,7 @@ akktagatj:akktagatj N_EVEN4 "single" ; ! no. 3991
 aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
 assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
 áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
+ájádus:ájádus N_EVEN4 "thought, speculation" ; ! no. 5296
 ássálatj:ássálatj N_EVEN4 "accessory, participatory" ; ! no. 3571
 bárgáldak:bárgáldag2 N_EVEN4 "braid" ; ! no. 141
 biejvádak:biejvádag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
@@ -1391,6 +1392,7 @@ buddestak:buddestag2 N_EVEN4 "sewn ribbon bordering a frock or cap" ; ! no. 202
 bujjdudak:bujjdudag2 N_EVEN4 "obesity" ; ! no. 4057
 bullidak:bullidag2 N_EVEN4 "kindling" ; ! no. 4700
 bärrjedak:bä2rrjedag2 N_EVEN4 "Friday" ; ! no. 284
+dahkamus:dahkamus N_EVEN4 "task" ; ! no. 3268
 duorastak:du^Orastag2 N_EVEN4 "Thursday" ; ! no. 401
 dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 4803
 därbulatj:dä2rbulatj N_EVEN4 "need" ; ! no. 3242
@@ -1402,6 +1404,7 @@ gáskaldak:gáskaldag2 N_EVEN4 "bite" ; ! no. 3278
 gejnudak:gejnudag2 N_EVEN4 "route" ; ! no. 3665
 gietsaldak:gietsaldag2 N_EVEN4 "belt" ; ! no. 624
 guhkabärrjedak:guhka#bä2rrjedag2 N_EVEN4 "Easter Friday" ; ! no. 4852
+gulgijdus:gulgijdus N_EVEN4 "drainage, outlet" ; ! no. 3159
 guoddáldak:gu^Oddáldag2 N_EVEN4 "sash with sewing materials" ; ! no. 2518
 guosastak:gu^Osastag2 N_EVEN4 "dense fir forest" ; ! no. 6869
 gåbdådak:gåbdådag2 N_EVEN4 "width" ; ! no. 3404
@@ -1413,12 +1416,15 @@ jådadak:jådadag2 N_EVEN4 "migration path" ; ! no. 948
 klubbádak:klubbádag2 N_EVEN4 "snow stuck to the bottom of skis" ; ! no. 4614
 laskadak:laskadag2 N_EVEN4 "wet snow in the spring" ; ! no. 4587
 lávvodak:lávvodag2 N_EVEN4 "Saturday" ; ! no. 1027
+låhkåmus:låhkåmus N_EVEN4 "reading, text" ; ! no. 1088
 lähpedak:lä2hpedag2 N_EVEN4 "rennet" ; ! no. 3030
 mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
+mierrádus:mierrádus N_EVEN4 "decision" ; ! no. 5921
 muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "place for cutting firewood" ; ! no. 5553
 mållának:mållánag2 N_EVEN4 "expression, dialect, pronunciation" ; ! no. 1202
 njalkadak:njalkadag2 N_EVEN4 "slipperiness, slippery road surface" ; ! no. 4196
 njunnudak:njunnudag2 N_EVEN4 "nose halter" ; ! no. 1301
+njuolgadus:nju^Olgadus N_EVEN4 "rule, principle" ; ! no. 90293
 sagerdak:sagerdag2 N_EVEN4 "towel" ; ! no. 1481
 sávaldak:sávaldag2 N_EVEN4 "wish" ; ! no. 90313
 sillbagietsaldak:sillba#gietsaldag2 N_EVEN4 "silver belt" ; ! no. 1542
@@ -1427,6 +1433,7 @@ skárrjaldak:skárrjaldag2 N_EVEN4 "clipped cloth zig-zag in a Saami frock" ; ! 
 såbmelatj:såbmelatj N_EVEN4 "Finn" ; ! no. 1761
 sågastak:sågastag2 N_EVEN4 "dense birch forest" ; ! no. 6868
 sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
+tjielgadus:tjielgadus N_EVEN4 "definition, explanation" ; ! no. 3565
 tjuoladak:tju^Oladag2 N_EVEN4 "clear-cut area" ; ! no. 1933
 tjårrågatj:tjårrågatj N_EVEN4 "small group of reindeer" ; ! no. 3912
 tsaskadak:tsaskadag2 N_EVEN4 "spring snow which neither holds one up nor breaks" ; ! no. 3195
@@ -2059,7 +2066,6 @@ girrjetjállej:girrje#tjállej N_ODD "author, writer" ; ! no. 4011
 gistotj:gistotj N_ODD "little box" ; ! no. 6048
 guarrbaiednam:guarrba#iednam N_ODD "burned land" ; ! no. 651
 gudájagak:gudá#jagag2 N_ODD "six-year-old" ; ! no. 656
-guhtik:guhtig2 N_ODD "someone, anyone" ; ! no. 5277
 gulitj:gulitj N_ODD "frozen person" ; ! no. 4889
 guobok:gu^Obog2 N_ODD "Arjeplog model of shoe made of leather from reindeer legs" ; ! no. 4315
 guoddalm:gu^Oddalm N_ODD "messenger, omen" ; ! no. 6562
