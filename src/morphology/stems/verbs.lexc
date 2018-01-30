@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-24T13:18:33+01:00
+! Timestamp: 2018-01-30T15:56:54+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1196,13 +1196,12 @@ gulastit:gulast V_ODD "get wind of something" ; ! no. 4856
 gulladit:gullad V_ODD "be in touch" ; ! no. 4770
 gulldalit:gulldal V_ODD "listen to someone, hear" ; ! no. 668
 gullgidit:gullgid V_ODD "run away" ; ! no. 4015
-gulmudit:gulmud V_ODD "begin to turn dusk" ; ! no. 698
 guoddadit:gu^Oddad V_ODD "carry" ; ! no. 6680
 guododit:gu^Odod V_ODD "let graze" ; ! no. 677
 guoggardit:gu^Oggard V_ODD "dawdle, crawl on one’s knees" ; ! no. 2426
 guohtsalit:gu^Ohtsal V_ODD "run off (for reindeer herd)" ; ! no. 6558
 guoljastit:gu^Oljast V_ODD "lift with antlers" ; ! no. 90210
-guolmodit:gu^Olmod V_ODD "begin to dawn" ; ! no. 90211
+guolmodit:gu^Olmod V_ODD "begin to turn dusk" ; ! no. 698
 guoradit:gu^Orad V_ODD "track" ; ! no. 701
 guorrasit:gu^Orras V_ODD "agree" ; ! no. 6569
 guotsadit:gu^Otsad V_ODD "run around" ; ! no. 708
