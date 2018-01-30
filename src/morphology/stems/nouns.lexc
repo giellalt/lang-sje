@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-24T11:35:47+01:00
+! Timestamp: 2018-01-30T15:56:45+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -459,7 +459,7 @@ grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
 guabbla:gu^Obbla N_EVEN "cornice, hanging ice in a stream" ; ! no. 3540
 guadna+Use/NG:gu^Odna N_EVEN "female genitals" ; ! no. 90498
 guallga:gu^Ollga N_EVEN "fur" ; ! no. 2871
-guanna:gu^On'na N_EVEN "female genitals" ; ! no. 4881
+guanná:gu^On'ná N_EVEN "female genitals" ; ! no. 4881
 guappsa:gu^Oppsa N_EVEN "milt" ; ! no. 4370
 guarrba:gu^Orrba N_EVEN "burned area (from forest fire)" ; ! no. 650
 guarrbanjárrga:guarrba#njárrga N_EVEN "Brännudden" ; ! no. 3401
@@ -662,7 +662,7 @@ láddegiella:ládde#giella N_EVEN "the Swedish language" ; ! no. 6076
 lágadis+N+Der/State:lágadisvu^Ohta N_EVEN "lawlessness" ; ! no. 3098
 láhka:láhka N_EVEN "law, regulation" ; ! no. 1003
 láhke:láhke N_EVEN "manner, method, way" ; ! no. 90799
-láhppa:láhppa N_EVEN "overhang" ; ! no. 1004
+láhppa:láhppa N_EVEN "rock overhang (used for shelter)" ; ! no. 1004
 lájjbe:lájjbe N_EVEN "hard bread" ; ! no. 1008
 lájjge:lájjge N_EVEN "yarn" ; ! no. 1009
 lájjre:lájjre N_EVEN "clay" ; ! no. 1011
