@@ -1,0 +1,9 @@
++A+Sg+Nom
++A+Pl+Nom
++A+Attr
++A+Comp+Attr
++A+Comp+Sg+Nom
++A+Comp+Pl+Nom
++A+Superl+Attr
++A+Superl+Sg+Nom
++A+Superl+Pl+Nom

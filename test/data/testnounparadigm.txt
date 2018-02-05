@@ -1,0 +1,16 @@
++N+Sg+Nom
++N+Sg+Gen
++N+Sg+Acc
++N+Sg+Ill
++N+Sg+Ine
++N+Sg+Ela
++N+Sg+Com
++N+Pl+Nom
++N+Pl+Gen
++N+Pl+Acc
++N+Pl+Ill
++N+Pl+Ine
++N+Pl+Ela
++N+Pl+Com
++N+Ess
++N+Abe
