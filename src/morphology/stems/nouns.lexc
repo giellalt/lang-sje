@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-02-02T09:25:59+01:00
+! Timestamp: 2018-02-13T08:48:56+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1334,7 +1334,7 @@ väldja+Use/NG:vieldja N_EVEN "brother" ; ! no. 90452
 vällge:viellge N_EVEN "debt" ; ! no. 3560
 vällja:viellja N_EVEN "brother" ; ! no. 2224
 välljabielle:vällja#bielle N_EVEN "half brother" ; ! no. 4766
-värrbmehållgå:värrbme#hållgå N_EVEN "drying stand for nets" ; ! no. 5448
+värbmehållgå:värbme#hållgå N_EVEN "drying stand for nets" ; ! no. 5448
 värrjotjiehka:värrjo#tjiehka N_EVEN "gun closet" ; ! no. 5536
 värrtsa:vierrtsa N_EVEN "ram (sheep)" ; ! no. 2603
 vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
@@ -1489,7 +1489,7 @@ mujjtulis:mujjtul N_EVEN4_ISA "memory, story" ; ! no. 90283
 náranis:náran N_EVEN4_ISA "abscess, boil" ; ! no. 1245
 nieljagis:nieljag N_EVEN4_ISA "quarter" ; ! no. 5270
 njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
-rájdaris:rájdar N_EVEN4_ISA "wooden ladder" ; ! no. 2899
+rájdaris:rájdar N_EVEN4_ISA "wooden ladder; log with steps chopped into it" ; ! no. 2899
 rájsagis:rájsag N_EVEN4_ISA "long-legged spider" ; ! no. 3010
 suojvanis:su^Ojvan N_EVEN4_ISA "shadow" ; ! no. 2763
 tjåmodis:tjåmod N_EVEN4_ISA "a reindeer’s shoulder" ; ! no. 2883
@@ -2017,7 +2017,6 @@ diehkak:diehkag2 N_ODD "kåta pole" ; ! no. 364
 dieltek:dielteg2 N_ODD "leather covering for the front of a Saami sled" ; ! no. 3297
 dievnár:dievnár N_ODD "servant, farmhand" ; ! no. 368
 dijstak:dijstag2 N_ODD "Tuesday" ; ! no. 372
-dimbar:dimbar N_ODD "wood, timber" ; ! no. 90322
 drudnik:drudnig2 N_ODD "queen" ; ! no. 377
 dubbos:dubbos N_ODD "packsaddle blanket" ; ! no. 4192
 duffor:duffor N_ODD "dustball, hairball" ; ! no. 384
@@ -2244,7 +2243,7 @@ skiddnak:skiddnag2 N_ODD "sickly, thin reindeer" ; ! no. 1629
 skijun:skijun N_ODD "loudspeaker" ; ! no. 1638
 skillbim:skillbim N_ODD "vibration, shaking" ; ! no. 5614
 skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predator" ; ! no. 1643
-skubmuk:skubmug2 N_ODD "mouth protection" ; ! no. 5911
+skubmok:skubmog2 N_ODD "mouth protection" ; ! no. 5911
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvvlik:skuvvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
@@ -2427,6 +2426,7 @@ bålås:bållås N_ODD_WG "rain or snow shower" ; ! no. 245
 bårjås:bårrjås N_ODD_WG "sail" ; ! no. 248
 båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
 bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
+dimbar:dimmbar N_ODD_WG "wood, timber" ; ! no. 90322
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 gamár:gabmár N_ODD_WG "getostmassa (efter första ystning)" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
