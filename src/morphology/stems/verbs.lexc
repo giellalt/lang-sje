@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-30T15:56:54+01:00
+! Timestamp: 2018-02-13T08:49:04+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -983,8 +983,8 @@ arranit:arran V_ODD "tan hide in water that is too hot" ; ! no. 4437
 asskelit:asskel V_ODD "yell at a dog" ; ! no. 2631
 avvadit:avvad V_ODD "waste time" ; ! no. 90143
 ádjanit:ádjan V_ODD "delay, be late" ; ! no. 4
-ájbanit:ájban V_ODD "disappear, parish" ; ! no. 18
 ájedit:ájed V_ODD "be kept from working" ; ! no. 2557
+ájjbanit:ájjban V_ODD "disappear, perish" ; ! no. 18
 ájlestit:ájlest V_ODD "sanctify, revere" ; ! no. 5538
 álbedit:álbed V_ODD "barter, haggle" ; ! no. 5257
 állkedit:állked V_ODD "simplify" ; ! no. 4247
