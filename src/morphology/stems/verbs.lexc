@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-02-15T12:24:24+01:00
+! Timestamp: 2018-02-15T18:59:36+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1359,7 +1359,7 @@ mulsudit:mulsud V_ODD "change clothes" ; ! no. 1180
 mulsustit:mulsust V_ODD "change clothes quickly" ; ! no. 4986
 muohtalit:mu^Ohtal V_ODD "spread out (for reindeer in summer)" ; ! no. 1190
 muonadit:mu^Onad V_ODD "guess repeatedly" ; ! no. 1169
-muridit:murid V_ODD "thrive, feel good" ; ! no. 2428
+murijdit:murijd V_ODD "thrive, feel good" ; ! no. 2428
 mådtsåstit:mådtsåst V_ODD "turn inside out" ; ! no. 1197
 måjedit:måjed V_ODD "smile" ; ! no. 1200
 måjvárit:måjvár V_ODD "feel ill" ; ! no. 4357
