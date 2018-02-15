@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-02-15T12:24:18+01:00
+! Timestamp: 2018-02-15T18:59:19+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -499,7 +499,7 @@ gåbbákbielle:gåbbák#bielle N_EVEN "one of two sides" ; ! no. 90635
 gåbbda:gåbbda N_EVEN "Gåbbda" ; ! no. 90696
 gåbbdá:gåbbdá N_EVEN "drum" ; ! no. 724
 gåbbde:gåbbde N_EVEN "buoyancy" ; ! no. 4311
-gåhkkå:gåhkkå N_EVEN "stiff collar on a man’s Saami frock" ; ! no. 733
+gåhkkå:gåhkkå N_EVEN "standing collar on a man’s Saami frock" ; ! no. 733
 gåhpe:gåhpe N_EVEN "depression in the ground" ; ! no. 734
 gåhte:gåhte N_EVEN "Saami tent" ; ! no. 738
 gåhtefuällke:gåhte#fu^Ollke N_EVEN "people that belong to a person's Saami home" ; ! no. 4844
@@ -1453,7 +1453,6 @@ vuotjadak:vu^Otjadag2 N_EVEN4 "wolverine spear" ; ! no. 2791
 ärbulatj:ä2rbulatj N_EVEN4 "heir" ; ! no. 2731
 bähtsedas:bä2htsed N_EVEN4_ASA "relict, remain" ; ! no. 90536
 gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
-gåsådis:gåsådas N_EVEN4_ASA "cough" ; ! no. 90866
 iehkedisråhkålvas:iehkedis#råhkålv N_EVEN4_ASA "evening prayer" ; ! no. 3076
 jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
 lävvludas:lä2vvlud N_EVEN4_ASA "song" ; ! no. 5857
@@ -1481,6 +1480,7 @@ guoledis+Use/NG:gu^Oled N_EVEN4_ISA "Guoletisjávvre, 'fisklös'" ; ! no. 90743
 gåhpålis:gåhpål N_EVEN4_ISA "pus-filled blister" ; ! no. 736
 gålmådis:gålmåd N_EVEN4_ISA "third (fraction)" ; ! no. 4172
 gånågis:gånåg N_EVEN4_ISA "king" ; ! no. 760
+gåsådis:gåsåd N_EVEN4_ISA "cough" ; ! no. 90866
 ieradis:ierad N_EVEN4_ISA "an altered reindeer earmark diverging from the main earmark" ; ! no. 4624
 jiehtanis:jiehtan N_EVEN4_ISA "giant" ; ! no. 4210
 jielagis:jielag N_EVEN4_ISA "cold, clear weather" ; ! no. 3479
@@ -2289,7 +2289,7 @@ tjiehtar:tjiehtar N_ODD "servant" ; ! no. 4377
 tjiehtsev:tjiehtsev N_ODD "niece, nephew (brother’s child)" ; ! no. 3417
 tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
-tjillik:tjillig2 N_ODD "baby goat, kid" ; ! no. 5216
+tjilik:tjilig2 N_ODD "baby goat, kid" ; ! no. 5216
 tjilumähtter:tjilu#mä2htter N_ODD "kilometer" ; ! no. 5217
 tjuanntjom:tju^Onntjom N_ODD "upper marrowbone on the back leg of a reindeer" ; ! no. 3767
 tjujjvis:tjujjvis N_ODD "dark grey reindeer" ; ! no. 1931
