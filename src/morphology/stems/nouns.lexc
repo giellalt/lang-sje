@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-02-13T15:07:06+01:00
+! Timestamp: 2018-02-15T12:24:18+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1453,6 +1453,7 @@ vuotjadak:vu^Otjadag2 N_EVEN4 "wolverine spear" ; ! no. 2791
 ärbulatj:ä2rbulatj N_EVEN4 "heir" ; ! no. 2731
 bähtsedas:bä2htsed N_EVEN4_ASA "relict, remain" ; ! no. 90536
 gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
+gåsådis:gåsådas N_EVEN4_ASA "cough" ; ! no. 90866
 iehkedisråhkålvas:iehkedis#råhkålv N_EVEN4_ASA "evening prayer" ; ! no. 3076
 jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
 lävvludas:lä2vvlud N_EVEN4_ASA "song" ; ! no. 5857
@@ -2019,6 +2020,7 @@ dievnár:dievnár N_ODD "servant, farmhand" ; ! no. 368
 dijstak:dijstag2 N_ODD "Tuesday" ; ! no. 372
 drudnik:drudnig2 N_ODD "queen" ; ! no. 377
 dubbos:dubbos N_ODD "packsaddle blanket" ; ! no. 4192
+duffor:duffor N_ODD "dustball, hairball" ; ! no. 384
 duobak:du^Obag2 N_ODD "lead reindeer with a tuft at its neck" ; ! no. 5837
 duobmár:du^Obmár N_ODD "judge" ; ! no. 391
 duogŋas:du^Ogŋas N_ODD "piece of cloth and leather" ; ! no. 395
@@ -2402,7 +2404,6 @@ nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
 vuontsaåres:vuontsa#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
-dåfor:dåffor N_ODD_VH "dustball, hairball" ; ! no. 384
 judos:juhtos N_ODD_VH "animal" ; ! no. 929
 jugos:juhkos N_ODD_VH "drink, beverage" ; ! no. 3458
 liepsos:lieppsos N_ODD_VH "fat around the rumen" ; ! no. 90552

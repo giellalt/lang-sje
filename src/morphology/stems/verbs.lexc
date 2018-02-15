@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-02-13T08:49:04+01:00
+! Timestamp: 2018-02-15T12:24:24+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -132,6 +132,7 @@ ietjájduvvut:ietjájduvvu V_CONTR "be changed" ; ! no. 4634
 jimmkit:jimmki V_CONTR "blink, shut one’s eyes" ; ! no. 2775
 jurrbit:jurrbi V_CONTR "round off" ; ! no. 3167
 jåhttát:jåhttá V_CONTR "begin moving, begin migrating" ; ! no. 4464
+jävvrit:jä2vvri V_CONTR "fish in a lake" ; ! no. 90865
 klähppit:klä2hppi V_CONTR "clap (in a friendly way)" ; ! no. 5819
 kämmpit:kä2mmpi V_CONTR "comb" ; ! no. 3345
 leggit:leggi V_CONTR "warm, heat up" ; ! no. 1028
@@ -366,7 +367,7 @@ dualldat:du^Olld V_EVEN_A "boil hard" ; ! no. 2555
 duasstat:du^Osst V_EVEN_A "risk, dare" ; ! no. 380
 dubbmidallat:dubbmidall V_EVEN_A "be sentenced, be judged" ; ! no. 5605
 dudnat:dudn V_EVEN_A "roar" ; ! no. 3302
-duffat:duff V_EVEN_A "be in the middle of something, dawdle" ; ! no. 5839
+duffat:duff V_EVEN_A "be in the middle of something, deal with something, dilly dally" ; ! no. 5839
 dullvat:dullv V_EVEN_A "rise, flood (water, eg. in a creek)" ; ! no. 5049
 duohkat:du^Ohk V_EVEN_A "sell" ; ! no. 396
 duorrat:du^Orr V_EVEN_A "take up a fishing net" ; ! no. 402
@@ -1092,7 +1093,7 @@ duahtadit:du^Ohtad V_ODD "finger" ; ! no. 4077
 duallvanit:du^Ollvan V_ODD "become dirty" ; ! no. 3349
 dubbanit:dubban V_ODD "make room" ; ! no. 3383
 dudjuhit:dudjuh V_ODD "do handicrafts" ; ! no. 4735
-duffadit:duffad V_ODD "dawdle, procrastinate" ; ! no. 3474
+dufádit:dufád V_ODD "dawdle, procrastinate" ; ! no. 3474
 dujtusit:dujtus V_ODD "hurry up, stress" ; ! no. 387
 dullvudit:dullvud V_ODD "chase, hunt (for dogs following reindeer)" ; ! no. 3779
 duoddastit:du^Oddast V_ODD "attest" ; ! no. 3144
