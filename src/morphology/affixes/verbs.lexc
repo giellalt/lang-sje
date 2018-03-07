@@ -398,9 +398,12 @@ LEXICON LEPOT
 !+Pl3:itjin    # ; 
 
 LEXICON IJ !!= * @CODE@ 
-ij+V+Neg+Prs: IJPRS ;
-ij+V+Neg+Prt: IJPRT ;
-ij+V+Neg+Imprt: IJIMP ;
+ij+V+Ind+Prs: IJPRS ;
+ij+V+Ind+Prt: IJPRT ;
+ij+V+Imprt: IJIMP ;
+!ij+V+Neg+Prs: IJPRS ;
+!ij+V+Neg+Prt: IJPRT ;
+!ij+V+Neg+Imprt: IJIMP ;
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    # ;  !!= * @CODE@ 
