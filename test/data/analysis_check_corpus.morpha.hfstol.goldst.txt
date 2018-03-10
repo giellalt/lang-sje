@@ -12,7 +12,7 @@
 	"darrve" N Sg Nom
 "<.>"
 	"." CLB
-"<gu>"
+"<Gu>"
 	"gu" Adv
 	"gu" CC
 "<lij>"
@@ -46,8 +46,6 @@
 "<Stálo>"
 	"stállo" N Pl Nom
 	"stállo" N Sg Gen
-"<?>"
-	"?" CLB
 "<luhte>"
 	"luhte" ?
 "<,>"
@@ -60,8 +58,6 @@
 	"stállo" N Pl Nom
 	"stállo" N Sg Gen
 	"stállo" N Sg Nom
-"<?>"
-	"?" CLB
 "<rárestij>"
 	"rárestij" ?
 "<gåsse>"
@@ -80,7 +76,7 @@
 	"båjjtjå" N Sg Acc
 "<.>"
 	"." CLB
-"<nå>"
+"<Nå>"
 	"nå" Pcle
 "<så>"
 	"så" ?
@@ -92,8 +88,6 @@
 	"funderija" ?
 "<gåkkte>"
 	"gåkkte" ?
-"<?>"
-	"?" CLB
 "<sådnatja>"
 	"sådnatja" ?
 "<biessat>"
@@ -101,13 +95,11 @@
 "<Stálo>"
 	"stállo" N Pl Nom
 	"stállo" N Sg Gen
-"<?>"
-	"?" CLB
 "<luhte>"
 	"luhte" ?
 "<.>"
 	"." CLB
-"<nå>"
+"<Nå>"
 	"nå" Pcle
 "<så>"
 	"så" ?
@@ -118,17 +110,15 @@
 	"mujjtájit" V Ind Prs Sg3
 "<:>"
 	":" CLB
-"<?>"
-	"?" CLB
-"<bassetit>"
-	"bassetit" ?
+"<Bassetit>"
+	"Bassetit" ?
 "<dållåj>"
 	"dållå" N Pl Com
 	"dållå" N Pl Gen
 	"dållå" N Sg Ill
 "<.>"
 	"." CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<gu>"
 	"gu" Adv
@@ -167,7 +157,7 @@
 	"gatjádit" V Ind Prt Sg3
 "<:>"
 	":" CLB
-"<mav>"
+"<Mav>"
 	"mij" Pron Rel Sg Acc
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
@@ -177,7 +167,7 @@
 	"dållå" N Sg Ine
 "<?>"
 	"?" CLB
-"<dä>"
+"<Dä>"
 	"dä" Pcle
 "<båjjtjå>"
 	"båjjtjå" N Pl Nom
@@ -187,7 +177,7 @@
 	"vásstedij" ?
 "<:>"
 	":" CLB
-"<mån>"
+"<Mån>"
 	"mån" Pron Pers Sg1 Nom
 "<vuojnáv>"
 	"vuäjdnet" V Ind Prs Sg1
@@ -201,7 +191,7 @@
 	"dållå" N Sg Ine
 "<.>"
 	"." CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<så>"
 	"så" ?
@@ -213,8 +203,8 @@
 	"gatjádit" V Ind Prt Sg3
 "<:>"
 	":" CLB
-"<gåkkte>"
-	"gåkkte" ?
+"<Gåkkte>"
+	"Gåkkte" ?
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
 "<dav>"
@@ -223,7 +213,7 @@
 	"vuäjdnet" V Ind Prs Sg2
 "<?>"
 	"?" CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<dä>"
 	"dä" Pcle
@@ -235,7 +225,7 @@
 	"vásstedij" ?
 "<:>"
 	":" CLB
-"<mån>"
+"<Mån>"
 	"mån" Pron Pers Sg1 Nom
 "<lev>"
 	"lä" V Ind Prs Sg1
@@ -252,7 +242,7 @@
 	"darrve" N Sg Com
 "<.>"
 	"." CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<dä>"
 	"dä" Pcle
@@ -266,7 +256,7 @@
 	"sån" Pron Pers Sg3 Ill
 "<:>"
 	":" CLB
-"<dä>"
+"<Dä>"
 	"dä" Pcle
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
@@ -280,13 +270,11 @@
 	"mån" Pron Pers Sg1 Gen
 "<tjilmijd>"
 	"tjalbme" N Pl Acc
-"<?>"
-	"?" CLB
 "<lägit>"
 	"lägit" V Inf
 "<.>"
 	"." CLB
-"<dä>"
+"<Dä>"
 	"dä" Pcle
 "<båjjtjå>"
 	"båjjtjå" N Pl Nom
@@ -306,7 +294,7 @@
 	"darrve" N Sg Acc
 "<.>"
 	"." CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<dä>"
 	"dä" Pcle
@@ -324,13 +312,11 @@
 	"ja" CC
 "<villidit>"
 	"villidit" V Inf
-"<?>"
-	"?" CLB
 "<lähttjuses>"
 	"lähttjuses" ?
 "<.>"
 	"." CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<dä>"
 	"dä" Pcle
@@ -367,7 +353,7 @@
 	"nala" Po
 "<.>"
 	"." CLB
-"<dä>"
+"<Dä>"
 	"dä" Pcle
 "<Stállo>"
 	"stállo" N Pl Nom
@@ -377,13 +363,13 @@
 	"vásstedij" ?
 "<:>"
 	":" CLB
-"<vuj>"
-	"vuj" ?
+"<Vuj>"
+	"Vuj" ?
 "<vuj>"
 	"vuj" ?
 "<!>"
 	"^excl" CLB
-"<báhkas>"
+"<Báhkas>"
 	"báhkas" A Sg Nom
 	"báhkka" N Sg Ela
 "<lij>"
@@ -397,7 +383,7 @@
 	"gullat" V Vgen
 "<!>"
 	"^excl" CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<dä>"
 	"dä" Pcle
@@ -428,7 +414,7 @@
 	"rastá" Po
 "<.>"
 	"." CLB
-"<ja>"
+"<Ja>"
 	"ja" CC
 "<dä>"
 	"dä" Pcle
