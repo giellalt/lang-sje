@@ -976,6 +976,7 @@ tsåggåt:tsågg V_EVEN_Å "pack, stuff in a bag" ; ! no. 4170
 adnalit:adnal V_ODD "grab onto, hold onto" ; ! no. 3862
 aktanit:aktan V_ODD "unite" ; ! no. 2718
 alledit:alled V_ODD "promote, raise, increase the price" ; ! no. 3232
+vásstedit:vássted V_ODD "" ;
 allodit:allod V_ODD "honor, revere" ; ! no. 5258
 allvadit:allvad V_ODD "amaze, astonish" ; ! no. 4148
 alvadit:alvad V_ODD "be frightened, be amazed" ; ! no. 55
@@ -1346,6 +1347,7 @@ mastadit:mastad V_ODD "be mixed together" ; ! no. 4975
 máhtsastit:máhtsast V_ODD "fold, fold together" ; ! no. 1114
 májeldit:májeld V_ODD "become milder (for weather)" ; ! no. 3329
 málestit:málest V_ODD "boil, cook" ; ! no. 1125
+rárestit:rárest V_ODD "" ;
 miededit:mieded V_ODD "agree, concede" ; ! no. 1161
 miehtjedit:miehtjed V_ODD "put aside, put away" ; ! no. 2632
 mierostit:mierost V_ODD "judge, decide" ; ! no. 3229
@@ -1692,3 +1694,5 @@ värránit:vä2rrán V_ODD "worsen" ; ! no. 3286
 äjbmudit:ä2jbmud V_ODD "manage to do something" ; ! no. 3281
 ärrusit:ä2rrus V_ODD "not able to find a solution" ; ! no. 2289
 ävvusit:ä2vvus V_ODD "become happy, become glad" ; ! no. 2291
+gilgit:gilgi V_CONTR ;
+lijkit:lijki V_CONTR ;
