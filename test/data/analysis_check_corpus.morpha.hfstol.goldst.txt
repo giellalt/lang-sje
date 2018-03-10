@@ -1,0 +1,446 @@
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<ja>"
+	"ja" CC
+"<duoldaja>"
+	"duoldaja" ?
+"<darrve>"
+	"darrve" N Pl Nom
+	"darrve" N Sg Gen
+	"darrve" N Sg Nom
+"<.>"
+	"." CLB
+"<gu>"
+	"gu" Adv
+	"gu" CC
+"<lij>"
+	"lä" V Ind Prt Sg3
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<akt>"
+	"akt" Adv ABBR
+"<sáme>"
+	"sábme" N Pl Nom
+	"sábme" N Sg Gen
+"<påjkåv>"
+	"påjjkå" N Sg Acc
+"<válldám>"
+	"válldet" V PrfPrc
+"<,>"
+	"," CLB
+"<så>"
+	"så" ?
+"<idtjij>"
+	"ij" V Neg Prt Sg3
+"<vil>"
+	"vil" Pcle
+"<biesa>"
+	"biessat" V ConNeg
+	"biessat" V Imprt Sg2
+	"biessat" V Ind Prs Sg2
+	"biessat" V Vgen
+"<Stálo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+"<?>"
+	"?" CLB
+"<luhte>"
+	"luhte" ?
+"<,>"
+	"," CLB
+"<ja>"
+	"ja" CC
+"<så>"
+	"så" ?
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<?>"
+	"?" CLB
+"<rárestij>"
+	"rárestij" ?
+"<gåsse>"
+	"gåsse" Adv
+"<gilgij>"
+	"gilgij" ?
+"<åjjtet>"
+	"åjjtet" V Inf
+"<dav>"
+	"dat" Pron Det Sg Acc
+"<påjkåv>"
+	"påjjkå" N Sg Acc
+"<dav>"
+	"dat" Pron Det Sg Acc
+"<båjtjåv>"
+	"båjjtjå" N Sg Acc
+"<.>"
+	"." CLB
+"<nå>"
+	"nå" Pcle
+"<så>"
+	"så" ?
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<funderija>"
+	"funderija" ?
+"<gåkkte>"
+	"gåkkte" ?
+"<?>"
+	"?" CLB
+"<sådnatja>"
+	"sådnatja" ?
+"<biessat>"
+	"biessat" V Inf
+"<Stálo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+"<?>"
+	"?" CLB
+"<luhte>"
+	"luhte" ?
+"<.>"
+	"." CLB
+"<nå>"
+	"nå" Pcle
+"<så>"
+	"så" ?
+"<sån>"
+	"sån" Pron Pers Sg3 Nom
+"<mujjtája>"
+	"mujjtájit" V Ind Prs Sg2
+	"mujjtájit" V Ind Prs Sg3
+"<:>"
+	":" CLB
+"<?>"
+	"?" CLB
+"<bassetit>"
+	"bassetit" ?
+"<dållåj>"
+	"dållå" N Pl Com
+	"dållå" N Pl Gen
+	"dållå" N Sg Ill
+"<.>"
+	"." CLB
+"<ja>"
+	"ja" CC
+"<gu>"
+	"gu" Adv
+	"gu" CC
+"<dä>"
+	"dä" Pcle
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<vujnij>"
+	"vuäjdnet" V Ind Prt Sg3
+"<mav>"
+	"mij" Pron Rel Sg Acc
+"<dat>"
+	"dat" Pron Det Sg Nom
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<dållåj>"
+	"dållå" N Pl Com
+	"dållå" N Pl Gen
+	"dållå" N Sg Ill
+"<gähttja>"
+	"gähttjat" V ConNeg
+	"gähttjat" V Imprt Sg2
+	"gähttjat" V Ind Prs Sg2
+	"gähttjat" V Ind Prs Sg3
+	"gähttjat" V Vgen
+"<dä>"
+	"dä" Pcle
+"<sån>"
+	"sån" Pron Pers Sg3 Nom
+"<gatjádij>"
+	"gatjádit" V Ind Prt Sg3
+"<:>"
+	":" CLB
+"<mav>"
+	"mij" Pron Rel Sg Acc
+"<dån>"
+	"dån" Pron Pers Sg2 Nom
+"<vuojná>"
+	"vuäjdnet" V Ind Prs Sg2
+"<dålån>"
+	"dållå" N Sg Ine
+"<?>"
+	"?" CLB
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<vásstedij>"
+	"vásstedij" ?
+"<:>"
+	":" CLB
+"<mån>"
+	"mån" Pron Pers Sg1 Nom
+"<vuojnáv>"
+	"vuäjdnet" V Ind Prs Sg1
+"<gållev>"
+	"gålle" N Sg Acc
+"<ja>"
+	"ja" CC
+"<silbav>"
+	"sillba" N Sg Acc
+"<dålån>"
+	"dållå" N Sg Ine
+"<.>"
+	"." CLB
+"<ja>"
+	"ja" CC
+"<så>"
+	"så" ?
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<gatjádij>"
+	"gatjádit" V Ind Prt Sg3
+"<:>"
+	":" CLB
+"<gåkkte>"
+	"gåkkte" ?
+"<dån>"
+	"dån" Pron Pers Sg2 Nom
+"<dav>"
+	"dat" Pron Det Sg Acc
+"<vuojná>"
+	"vuäjdnet" V Ind Prs Sg2
+"<?>"
+	"?" CLB
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<vásstedij>"
+	"vásstedij" ?
+"<:>"
+	":" CLB
+"<mån>"
+	"mån" Pron Pers Sg1 Nom
+"<lev>"
+	"lä" V Ind Prs Sg1
+"<vuajjdam>"
+	"vuajjdat" V PrfPrc
+"<iehtjan>"
+	"iehtja" Pron Refl Sg Gen PxSg1
+"<tjilmijd>"
+	"tjalbme" N Pl Acc
+"<duoldaja>"
+	"duoldaja" ?
+"<dirvijn>"
+	"darrve" N Pl Ine
+	"darrve" N Sg Com
+"<.>"
+	"." CLB
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<hålåj>"
+	"hållåt" V Ind Prt Sg3
+"<sunje>"
+	"sån" Pron Pers Sg3 Ill
+"<:>"
+	":" CLB
+"<dä>"
+	"dä" Pcle
+"<dån>"
+	"dån" Pron Pers Sg2 Nom
+"<ådtjo>"
+	"ådtjot" V ConNeg
+	"ådtjot" V Imprt Sg2
+	"ådtjot" V Ind Prs Sg2
+	"ådtjot" V Vgen
+"<muv>"
+	"mån" Pron Pers Sg1 Acc
+	"mån" Pron Pers Sg1 Gen
+"<tjilmijd>"
+	"tjalbme" N Pl Acc
+"<?>"
+	"?" CLB
+"<lägit>"
+	"lägit" V Inf
+"<.>"
+	"." CLB
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<väldij>"
+	"válldet" V Ind Prt Sg3
+"<stuorra>"
+	"stuores" A Attr
+"<kryhtov>"
+	"kryhtto" N Sg Acc
+"<ja>"
+	"ja" CC
+"<duoldadij>"
+	"duoldadit" V Ind Prt Sg3
+"<darvev>"
+	"darrve" N Sg Acc
+"<.>"
+	"." CLB
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<gåhtjoj>"
+	"gåhttjot" V Ind Prt Sg3
+"<Stálov>"
+	"stállo" N Sg Acc
+"<nuoladit>"
+	"nuoladit" V Inf
+"<ja>"
+	"ja" CC
+"<villidit>"
+	"villidit" V Inf
+"<?>"
+	"?" CLB
+"<lähttjuses>"
+	"lähttjuses" ?
+"<.>"
+	"." CLB
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<väldij>"
+	"válldet" V Ind Prt Sg3
+"<duv>"
+	"dån" Pron Pers Sg2 Acc
+	"dån" Pron Pers Sg2 Gen
+"<duoldaja>"
+	"duoldaja" ?
+"<darrvekryhtov>"
+	"darrvekryhtto" N Sg Acc
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<sån>"
+	"sån" Pron Pers Sg3 Nom
+"<lijkij>"
+	"lijkij" ?
+"<dav>"
+	"dat" Pron Det Sg Acc
+"<Stálo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+"<tjilmij>"
+	"tjalbme" N Pl Com
+	"tjalbme" N Pl Gen
+"<nala>"
+	"nala" Po
+"<.>"
+	"." CLB
+"<dä>"
+	"dä" Pcle
+"<Stállo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+	"stállo" N Sg Nom
+"<vásstedij>"
+	"vásstedij" ?
+"<:>"
+	":" CLB
+"<vuj>"
+	"vuj" ?
+"<vuj>"
+	"vuj" ?
+"<!>"
+	"^excl" CLB
+"<báhkas>"
+	"báhkas" A Sg Nom
+	"báhkka" N Sg Ela
+"<lij>"
+	"lä" V Ind Prt Sg3
+"<,>"
+	"," CLB
+"<gula>"
+	"gullat" V ConNeg
+	"gullat" V Imprt Sg2
+	"gullat" V Ind Prs Sg2
+	"gullat" V Vgen
+"<!>"
+	"^excl" CLB
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<väldij>"
+	"válldet" V Ind Prt Sg3
+"<Stálo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+"<áksjov>"
+	"ákksjo" N Sg Acc
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<tjuolastij>"
+	"tjuolastit" V Ind Prt Sg3
+"<Stálo>"
+	"stállo" N Pl Nom
+	"stállo" N Sg Gen
+"<tjiebodav>"
+	"tjiebot" N Sg Acc
+"<rastá>"
+	"rastá" Adv
+	"rastá" Po
+"<.>"
+	"." CLB
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Pl Nom
+	"båjjtjå" N Sg Gen
+	"båjjtjå" N Sg Nom
+"<biesaj>"
+	"biessat" V Ind Prt Sg3
+"<ulgus>"
+	"ulgus" Adv
+"<Stálost>"
+	"stállo" N Sg Ela
+"<.>"
+	"." CLB
