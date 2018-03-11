@@ -45,7 +45,7 @@
 	"så" ?
 "<Stállo>"
 	"stállo" N Sg Nom @SUBJ>
-"<rárestij>"
+"<rárestit>"
 	"rárestij" V Ind Prt Sg3
 "<gåsse>"
 	"gåsse" Adv
@@ -148,7 +148,7 @@
 	"dä" Pcle
 "<båjjtjå>"
 	"båjjtjå" N Sg Nom
-"<vásstedij>"
+"<vásstedit>"
 	"vásstedij" V Ind Prt Sg3
 "<:>"
 	":" CLB
@@ -195,7 +195,7 @@
 "<båjjtjå>"
 	"båjjtjå" N Sg Nom
 "<vásstedij>"
-	"vásstedij" V Ind Prt Sg3
+	"vásstedit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Mån>"
@@ -305,7 +305,7 @@
 "<sån>"
 	"sån" Pron Pers Sg3 Nom @<SUBJ
 "<lijkij>"
-	"lijkij" V Ind Prt Sg3
+	"lijkit" V Ind Prt Sg3
 "<dav>"
 	"dat" Pron Det Sg Acc @OBJ>
 "<Stálo>"
@@ -322,11 +322,11 @@
 "<Stállo>"
 	"stállo" N Sg Nom
 "<vásstedij>"
-	"vásstedij" V Ind Prt Sg3
+	"vásstedit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Vuj>"
-	"Vuj" Interj
+	"vuj" Interj
 "<vuj>"
 	"vuj" Interj
 "<!>"

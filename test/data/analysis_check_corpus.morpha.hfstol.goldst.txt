@@ -58,7 +58,7 @@
 	"stállo" N Pl Nom
 	"stállo" N Sg Gen
 	"stállo" N Sg Nom
-"<rárestij>"
+"<rárestit>"
 	"rárestij" V Ind Prt Sg3
 "<gåsse>"
 	"gåsse" Adv
@@ -174,7 +174,7 @@
 	"båjjtjå" N Sg Gen
 	"båjjtjå" N Sg Nom
 "<vásstedij>"
-	"vásstedij" V Ind Prt Sg3
+	"vásstedit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Mån>"
@@ -222,7 +222,7 @@
 	"båjjtjå" N Sg Gen
 	"båjjtjå" N Sg Nom
 "<vásstedij>"
-	"vásstedij" ?
+	"vásstedit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Mån>"
@@ -340,7 +340,7 @@
 "<sån>"
 	"sån" Pron Pers Sg3 Nom
 "<lijkij>"
-	"lijkij" V Ind Prt Sg3
+	"lijkit" V Ind Prt Sg3
 "<dav>"
 	"dat" Pron Det Sg Acc
 "<Stálo>"
@@ -360,11 +360,11 @@
 	"stállo" N Sg Gen
 	"stállo" N Sg Nom
 "<vásstedij>"
-	"vásstedij" ?
+	"vásstedit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Vuj>"
-	"Vuj" Interj
+	"vuj" Interj
 "<vuj>"
 	"vuj" Interj
 "<!>"
