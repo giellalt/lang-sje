@@ -11,7 +11,6 @@
 
 "<Gu>"
 	"gu" Adv @ADVL>
-	"gu" CC
 "<lij>"
 	"lä" V Ind Prt Sg3 @+FMAINV
 "<Stállo>"
@@ -19,7 +18,6 @@
 "<akt>"
 	"akt" Adv ABBR @ADVL>
 "<sáme>"
-	"sábme" N Pl Nom @<SUBJ
 	"sábme" N Sg Gen
 "<påjkåv>"
 	"påjjkå" N Sg Acc @OBJ>
@@ -34,10 +32,8 @@
 "<vil>"
 	"vil" Pcle
 "<biesa>"
-	"biessat" V Vgen
-	"biessat" V Ind Prs Sg2 @+FMAINV
+	"biessat" V ConNeg
 "<Stálo>"
-	"stállo" N Pl Nom @<SUBJ
 	"stállo" N Sg Gen
 "<luhte>"
 	"luhte" Po
@@ -83,7 +79,6 @@
 "<biessat>"
 	"biessat" V Inf
 "<Stálo>"
-	"stállo" N Pl Nom
 	"stállo" N Sg Gen
 "<luhte>"
 	"luhte" Po
@@ -97,7 +92,6 @@
 "<sån>"
 	"sån" Pron Pers Sg3 Nom
 "<mujjtája>"
-	"mujjtájit" V Ind Prs Sg2 @+FMAINV
 	"mujjtájit" V Ind Prs Sg3 @+FMAINV
 "<:>"
 	":" CLB
@@ -112,7 +106,6 @@
 	"ja" CC
 "<gu>"
 	"gu" Adv @ADVL>
-	"gu" CC
 "<dä>"
 	"dä" Pcle
 "<Stállo>"
@@ -215,7 +208,6 @@
 "<duoldaja>"
 	"duoldaja" ?
 "<dirvijn>"
-	"darrve" N Pl Ine @<ADVL
 	"darrve" N Sg Com @<ADVL
 "<.>"
 	"." CLB
@@ -239,7 +231,6 @@
 "<ådtjo>"
 	"ådtjot" V Ind Prs Sg2 @+FMAINV
 "<muv>"
-	"mån" Pron Pers Sg1 Acc @OBJ>
 	"mån" Pron Pers Sg1 Gen
 "<tjilmijd>"
 	"tjalbme" N Pl Acc @OBJ>
@@ -314,10 +305,8 @@
 "<dav>"
 	"dat" Pron Det Sg Acc @OBJ>
 "<Stálo>"
-	"stállo" N Pl Nom @<SUBJ
 	"stállo" N Sg Gen
 "<tjilmij>"
-	"tjalbme" N Pl Com @<ADVL
 	"tjalbme" N Pl Gen
 "<nala>"
 	"nala" Po
@@ -340,16 +329,13 @@
 	"^excl" CLB
 
 "<Báhkas>"
-	"báhkas" A Sg Nom @SUBJ>
 	"báhkka" N Sg Ela @ADVL>
 "<lij>"
 	"lä" V Ind Prt Sg3 @+FMAINV
 "<,>"
 	"," CLB
 "<gula>"
-	"gullat" V Vgen
 	"gullat" V Imprt Sg2 @+FMAINV
-	"gullat" V Ind Prs Sg2 @+FMAINV
 "<!>"
 	"^excl" CLB
 
@@ -362,7 +348,6 @@
 "<väldij>"
 	"válldet" V Ind Prt Sg3 @+FMAINV
 "<Stálo>"
-	"stállo" N Pl Nom
 	"stállo" N Sg Gen
 "<áksjov>"
 	"ákksjo" N Sg Acc @OBJ>
@@ -373,7 +358,6 @@
 "<tjuolastij>"
 	"tjuolastit" V Ind Prt Sg3 @+FMAINV
 "<Stálo>"
-	"stállo" N Pl Nom @<SUBJ
 	"stállo" N Sg Gen
 "<tjiebodav>"
 	"tjiebot" N Sg Acc @OBJ>
