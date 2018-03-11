@@ -50,7 +50,7 @@
 "<gåsse>"
 	"gåsse" Adv
 "<gilgij>"
-	"gilgij" ?
+	"gilgit" V Ind Prt Sg3 @+FMAINV
 "<åjjtet>"
 	"åjjtet" V Inf
 "<dav>"
@@ -120,8 +120,6 @@
 "<båjjtjå>"
 	"båjjtjå" N Sg Nom
 "<dållåj>"
-	"dållå" N Pl Com @ADVL>
-	"dållå" N Pl Gen
 	"dållå" N Sg Ill @ADVL>
 "<gähttja>"
 	"gähttjat" V Ind Prs Sg3 @+FMAINV
@@ -211,7 +209,6 @@
 "<duoldaja>"
 	"duoldaja" ?
 "<dirvijn>"
-	"darrve" N Pl Ine @<ADVL
 	"darrve" N Sg Com @<ADVL
 "<.>"
 	"." CLB
