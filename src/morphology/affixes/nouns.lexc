@@ -63,7 +63,7 @@ LEXICON N_EVEN_ESS
 
 LEXICON N_EVEN_WK
 +Der/Dimin:%>tj^V2E2AA N_ODD ;
-+Sg+Gen:%>0  K ;
++Sg+Gen:  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>st K ;
@@ -71,11 +71,11 @@ LEXICON N_EVEN_WK
 +Abe:%>dak K ; ! Norm
 !+Abe:%>htaka K ; ! Informants S and Bj 
 !+Abe:%>htak K ; ! Informants S and Bj 
-+Pl+Nom:%>0  K ;
++Pl+Nom:  K ;
 :^IJ%>j N_EVEN_J ;
 
 LEXICON N_EVEN_J
-+Pl+Gen:0    K ;
++Pl+Gen:    K ;
 +Pl+Acc:d   K ;
 +Pl+Ine:n   K ;
 +Pl+Ela:st  K ; !norm
