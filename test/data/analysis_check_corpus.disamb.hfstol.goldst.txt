@@ -175,8 +175,8 @@
 	"gatjádit" V Ind Prt Sg3 @+FMAINV
 "<:>"
 	":" CLB
-"<Gåkkte>"
-	"Gåkkte" ?
+"<Gukkte>"
+	"Gukkte" ?
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
 "<dav>"

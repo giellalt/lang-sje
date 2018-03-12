@@ -3,6 +3,395 @@
 "<ja>"
 	"ja" CC
 "<duoldaja>"
+	"duoldaja" V PrsPrc
+"<darrve>"
+	"darrve" N Sg Nom
+"<.>"
+	"." CLB
+
+"<Gu>"
+	"gu" Adv @ADVL>
+"<lij>"
+	"lä" V Ind Prt Sg3 @+FMAINV
+"<Stállo>"
+	"stállo" N Sg Nom
+"<akt>"
+	"akt" Adv ABBR @ADVL>
+"<sáme>"
+	"sábme" N Sg Gen
+"<påjkåv>"
+	"påjjkå" N Sg Acc @OBJ>
+"<válldám>"
+	"válldet" V PrfPrc
+"<,>"
+	"," CLB
+"<så>"
+	"så" Adv
+"<idtjij>"
+	"ij" V Neg Prt Sg3
+"<vil>"
+	"vil" Pcle
+"<biesa>"
+	"biessat" V ConNeg
+"<Stálo>"
+	"stállo" N Sg Gen
+"<luhte>"
+	"luhte" Po
+"<,>"
+	"," CLB
+"<ja>"
+	"ja" CC
+"<så>"
+	"så" Adv
+"<Stállo>"
+	"stállo" N Sg Nom @SUBJ>
+"<rárestit>"
+	"rárestij" V Ind Prt Sg3
+"<gåsse>"
+	"gåsse" Adv
+"<gilgij>"
+	"gilgij" ?
+"<åjjtet>"
+	"åjjtet" V Inf
+"<dav>"
+	"dat" Pron Det Sg Acc @OBJ>
+"<påjkåv>"
+	"påjjkå" N Sg Acc @OBJ>
+"<dav>"
+	"dat" Pron Det Sg Acc @OBJ>
+"<båjtjåv>"
+	"båjjtjå" N Sg Acc @<OBJ
+"<.>"
+	"." CLB
+
+"<Nå>"
+	"nå" Pcle
+"<så>"
+	"så" Adv
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<funderija>"
+	"funderija" ?
+"<gåkkte>"
+	"gåkkte" ?
+"<sådnatja>"
+	"sådnatja" ?
+"<biessat>"
+	"biessat" V Inf
+"<Stálo>"
+	"stállo" N Sg Gen
+"<luhte>"
+	"luhte" Po
+"<.>"
+	"." CLB
+
+"<Nå>"
+	"nå" Pcle
+"<så>"
+	"så" Adv
+"<sån>"
+	"sån" Pron Pers Sg3 Nom
+"<mujjtája>"
+	"mujjtájit" V Ind Prs Sg3 @+FMAINV
+"<:>"
+	":" CLB
+"<Bassetit>"
+	"Bassetit" ?
+"<dållåj>"
+	"dållå" N Pl Com
+	"dållå" N Sg Ill
+"<.>"
+	"." CLB
+
+"<Ja>"
+	"ja" CC
+"<gu>"
+	"gu" Adv @ADVL>
+"<dä>"
+	"dä" Pcle
+"<Stállo>"
+	"stállo" N Sg Nom
+"<vujnij>"
+	"vuäjdnet" V Ind Prt Sg3 @+FMAINV
+"<mav>"
+	"mij" Pron Rel Sg Acc @OBJ>
+"<dat>"
+	"dat" Pron Det Sg Nom
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<dållåj>"
+	"dållå" N Pl Com @ADVL>
+	"dållå" N Pl Gen
+	"dållå" N Sg Ill @ADVL>
+"<gähttja>"
+	"gähttjat" V Ind Prs Sg3 @+FMAINV
+"<dä>"
+	"dä" Pcle
+"<sån>"
+	"sån" Pron Pers Sg3 Nom @<SUBJ
+"<gatjádij>"
+	"gatjádit" V Ind Prt Sg3 @+FMAINV
+"<:>"
+	":" CLB
+"<Mav>"
+	"mij" Pron Rel Sg Acc @OBJ>
+"<dån>"
+	"dån" Pron Pers Sg2 Nom @<SUBJ
+"<vuojná>"
+	"vuäjdnet" V Ind Prs Sg2 @+FMAINV
+"<dålån>"
+	"dållå" N Sg Ine @<ADVL
+"<?>"
+	"?" CLB
+
+"<Dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<vásstedit>"
+	"vásstedij" V Ind Prt Sg3
+"<:>"
+	":" CLB
+"<Mån>"
+	"mån" Pron Pers Sg1 Nom
+"<vuojnáv>"
+	"vuäjdnet" V Ind Prs Sg1 @+FMAINV
+"<gållev>"
+	"gålle" N Sg Acc @OBJ>
+"<ja>"
+	"ja" CC @CNP
+"<silbav>"
+	"sillba" N Sg Acc @OBJ>
+"<dålån>"
+	"dållå" N Sg Ine @<ADVL
+"<.>"
+	"." CLB
+
+"<Ja>"
+	"ja" CC
+"<så>"
+	"så" Adv
+"<Stállo>"
+	"stállo" N Sg Nom @SUBJ>
+"<gatjádij>"
+	"gatjádit" V Ind Prt Sg3 @+FMAINV
+"<:>"
+	":" CLB
+"<Gukkte>"
+	"Gukkte" ?
+"<dån>"
+	"dån" Pron Pers Sg2 Nom
+"<dav>"
+	"dat" Pron Det Sg Acc @OBJ>
+"<vuojná>"
+	"vuäjdnet" V Ind Prs Sg2 @+FMAINV
+"<?>"
+	"?" CLB
+
+"<Ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<vásstedij>"
+	"vásstedit" V Ind Prt Sg3
+"<:>"
+	":" CLB
+"<Mån>"
+	"mån" Pron Pers Sg1 Nom
+"<lev>"
+	"lä" V Ind Prs Sg1 @+FMAINV
+"<vuajjdam>"
+	"vuajjdat" V PrfPrc
+"<iehtjan>"
+	"iehtja" Pron Refl Sg Gen PxSg1
+"<tjilmijd>"
+	"tjalbme" N Pl Acc @OBJ>
+"<duoldaja>"
+	"duoldaja" ?
+"<dirvijn>"
+	"darrve" N Pl Ine @<ADVL
+	"darrve" N Sg Com @<ADVL
+"<.>"
+	"." CLB
+
+"<Ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<Stállo>"
+	"stállo" N Sg Nom
+"<hålåj>"
+	"hållåt" V Ind Prt Sg3 @+FMAINV
+"<sunje>"
+	"sån" Pron Pers Sg3 Ill @<ADVL
+"<:>"
+	":" CLB
+"<Dä>"
+	"dä" Pcle
+"<dån>"
+	"dån" Pron Pers Sg2 Nom
+"<ådtjo>"
+	"ådtjot" V Ind Prs Sg2 @+FMAINV
+"<muv>"
+	"mån" Pron Pers Sg1 Gen
+"<tjilmijd>"
+	"tjalbme" N Pl Acc @OBJ>
+"<lägit>"
+	"lägit" V Inf
+"<.>"
+	"." CLB
+
+"<Dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<väldij>"
+	"válldet" V Ind Prt Sg3 @+FMAINV
+"<stuorra>"
+	"stuores" A Attr
+"<kryhtov>"
+	"kryhtto" N Sg Acc @OBJ>
+"<ja>"
+	"ja" CC @CVP
+"<duoldadij>"
+	"duoldadit" V Ind Prt Sg3 @+FMAINV
+"<darvev>"
+	"darrve" N Sg Acc @<OBJ
+"<.>"
+	"." CLB
+
+"<Ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<gåhtjoj>"
+	"gåhttjot" V Ind Prt Sg3 @+FMAINV
+"<Stálov>"
+	"stállo" N Sg Acc @OBJ>
+"<nuoladit>"
+	"nuoladit" V Inf
+"<ja>"
+	"ja" CC @CNP
+"<villidit>"
+	"villidit" V Inf
+"<lähttjuses>"
+	"lähttjuses" ?
+"<.>"
+	"." CLB
+
+"<Ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<väldij>"
+	"válldet" V Ind Prt Sg3 @+FMAINV
+"<duv>"
+	"dån" Pron Pers Sg2 Acc @OBJ>
+	"dån" Pron Pers Sg2 Gen
+"<duoldaja>"
+	"duoldaja" ?
+"<darrvekryhtov>"
+	"darrvekryhtto" N Sg Acc @OBJ>
+"<ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<sån>"
+	"sån" Pron Pers Sg3 Nom @<SUBJ
+"<lijkij>"
+	"lijkit" V Ind Prt Sg3
+"<dav>"
+	"dat" Pron Det Sg Acc @OBJ>
+"<Stálo>"
+	"stállo" N Sg Gen
+"<tjilmij>"
+	"tjalbme" N Pl Gen
+"<nala>"
+	"nala" Po
+"<.>"
+	"." CLB
+
+"<Dä>"
+	"dä" Pcle
+"<Stállo>"
+	"stállo" N Sg Nom
+"<vásstedij>"
+	"vásstedit" V Ind Prt Sg3
+"<:>"
+	":" CLB
+"<Vuj>"
+	"vuj" Interj
+"<vuj>"
+	"vuj" Interj
+"<!>"
+	"^excl" CLB
+
+"<Báhkas>"
+	"báhkka" N Sg Ela @ADVL>
+"<lij>"
+	"lä" V Ind Prt Sg3 @+FMAINV
+"<,>"
+	"," CLB
+"<gula>"
+	"gullat" V Imprt Sg2 @+FMAINV
+"<!>"
+	"^excl" CLB
+
+"<Ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<väldij>"
+	"válldet" V Ind Prt Sg3 @+FMAINV
+"<Stálo>"
+	"stállo" N Sg Gen
+"<áksjov>"
+	"ákksjo" N Sg Acc @OBJ>
+"<ja>"
+	"ja" CC @CVP
+"<dä>"
+	"dä" Pcle
+"<tjuolastij>"
+	"tjuolastit" V Ind Prt Sg3 @+FMAINV
+"<Stálo>"
+	"stállo" N Sg Gen
+"<tjiebodav>"
+	"tjiebot" N Sg Acc @OBJ>
+"<rastá>"
+	"rastá" Adv @<ADVL
+"<.>"
+	"." CLB
+
+"<Ja>"
+	"ja" CC
+"<dä>"
+	"dä" Pcle
+"<båjjtjå>"
+	"båjjtjå" N Sg Nom
+"<biesaj>"
+	"biessat" V Ind Prt Sg3 @+FMAINV
+"<ulgus>"
+	"ulgus" Adv @<ADVL
+"<Stálost>"
+	"stállo" N Sg Ela @<ADVL
+"<.>"
+	"." CLB
+
+||||||| .r0
+=======
+"<Stállo>"
+	"stállo" N Sg Nom @SUBJ
+"<ja>"
+	"ja" CC
+"<duoldaja>"
 	"duoldaja" ?
 "<darrve>"
 	"darrve" N Sg Nom @<SPRED
@@ -174,8 +563,8 @@
 	"gatjádit" V Ind Prt Sg3 @+FMAINV
 "<:>"
 	":" CLB
-"<Gåkkte>"
-	"Gåkkte" ?
+"<Gukkte>"
+	"Gukkte" ?
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
 "<dav>"
@@ -380,4 +769,3 @@
 	"stállo" N Sg Ela @<ADVL
 "<.>"
 	"." CLB
-

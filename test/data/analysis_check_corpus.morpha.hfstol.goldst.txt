@@ -203,8 +203,8 @@
 	"gatjádit" V Ind Prt Sg3
 "<:>"
 	":" CLB
-"<Gåkkte>"
-	"Gåkkte" ?
+"<Gukkte>"
+	"gukkte" Adv
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
 "<dav>"
