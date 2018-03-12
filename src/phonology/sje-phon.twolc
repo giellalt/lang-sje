@@ -169,9 +169,11 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
 
 "Consonant Gradation for xdn(j):xn(j)"
 !! __@RULENAME@__  
-d:0 <=> Vow: Cx _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
+d:0 <=> Vow: j _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
+		Vow: v _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
+		Vow: l _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 		Vow: _ n j Vow: Cns: %^WG: ;
-     where Cx in ( j v l ) ;
+
 !		[#|.#.] Cns:+ Vow: _ n j Vow: Cns: %^WG: ;
 
 ! !!€ jalgŋe^WGs>0
