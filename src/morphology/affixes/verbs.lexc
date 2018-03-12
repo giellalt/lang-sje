@@ -30,6 +30,7 @@ LEXICON V_EVEN_E !båhtet
 
 LEXICON V_EVEN_E_STR
 +Ind+Prs+Sg3:á%>0 #;
+!+Ind+Prs+Sg3+Err/Orth:a%>0 #; !just as an example, for possible later implementation
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:e%>behtin #;
 +Ind+Prs+Du2:e%>bähtten #;
