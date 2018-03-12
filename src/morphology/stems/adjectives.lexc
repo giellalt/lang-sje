@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-01-19T14:28:59+01:00
+! Timestamp: 2018-03-12T19:59:19+01:00
 
 !! !!!Pite Saami Adjectives
 
@@ -46,7 +46,7 @@ báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
 garras:gar'ra A_BAAHKAS "hard" ; ! no. 90186
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
 båjjtot:båjjto A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
-båsstot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
+båjjtot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
 basstel:basstel A_BIVVAL "sharp (for a knife, scissors etc.)" ; ! no. 3727
 bivval:bivval A_BIVVAL "warm" ; ! no. 192
 bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
@@ -80,9 +80,9 @@ ietjálágátj:ietjá#lágátj A_FIEROK "different" ; ! no. 458
 lágátj:lágátj A_FIEROK "like (adjective compound component)" ; ! no. 90801
 suhtelágátj:suhte#lágátj A_FIEROK "in many ways, multiple" ; ! no. 4258
 särralágátj:särra#lágátj A_FIEROK "special, original" ; ! no. 3975
-vuostatj+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
+vuostas+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
 galmas:galbma A_GALMAS "cold" ; ! no. 90123
-ådås+Use/NG:ådå A_GALMAS "new" ; ! no. 90519
+årås+Use/NG:ådå A_GALMAS "new" ; ! no. 90519
 årås:årrå A_GALMAS "new" ; ! no. 90201
 gienes:giedne A_GIENES "painful, evil, nasty" ; ! no. 2656
 gieres:gierre A_GIENES "in love, loved" ; ! no. 90194
@@ -93,12 +93,12 @@ iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
 jårrbåt:jårrb A_JAORRBAOT "round" ; ! no. 4921
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
 nagan:nagan A_NAGAN "some (-thing, -one)" ; ! no. 3430
-nagin+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
+nagan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
-stuores+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
+stuorra+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
 állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
 basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
