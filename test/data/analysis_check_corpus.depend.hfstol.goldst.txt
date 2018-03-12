@@ -204,8 +204,8 @@
 	"gatjádit" <mv> <mv> V Ind Prt Sg3 @FMV #4->0
 "<:>"
 	":" CLB #5->5
-"<Gåkkte>"
-	"Gåkkte" ? #6->6
+"<Gukkte>"
+	"Gukkte" ? #6->6
 "<dån>"
 	"dån" Pron Pers Sg2 Nom @SUBJ> #7->9
 "<dav>"
