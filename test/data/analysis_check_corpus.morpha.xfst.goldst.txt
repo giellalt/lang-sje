@@ -3,7 +3,7 @@
 "<ja>"
 	"ja" CC
 "<duoldaja>"
-	"duoldaja" ?
+	"duoldaja" V PrsPrc
 "<darrve>"
 	"darrve" N Sg Nom
 "<.>"
@@ -27,7 +27,7 @@
 "<,>"
 	"," CLB
 "<så>"
-	"så" ?
+	"så" Adv
 "<idtjij>"
 	"ij" V Neg Prt Sg3
 "<vil>"
@@ -47,7 +47,7 @@
 "<ja>"
 	"ja" CC
 "<så>"
-	"så" ?
+	"så" Adv
 "<Stállo>"
 	"stállo" N Sg Nom
 "<rárestij>"
@@ -71,7 +71,7 @@
 "<Nå>"
 	"nå" Pcle
 "<så>"
-	"så" ?
+	"så" Adv
 "<båjjtjå>"
 	"båjjtjå" N Sg Nom
 "<funderija>"
@@ -92,7 +92,7 @@
 "<Nå>"
 	"nå" Pcle
 "<så>"
-	"så" ?
+	"så" Adv
 "<sån>"
 	"sån" Pron Pers Sg3 Nom
 "<mujjtája>"
@@ -170,7 +170,7 @@
 "<Ja>"
 	"ja" CC
 "<så>"
-	"så" ?
+	"så" Adv
 "<Stállo>"
 	"stállo" N Sg Nom
 "<gatjádij>"
