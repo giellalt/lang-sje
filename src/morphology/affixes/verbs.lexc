@@ -120,6 +120,7 @@ LEXICON V_EVEN_A_WK
 !+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
 !+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
++PrsPrc:%>ja #;
 
 
 
