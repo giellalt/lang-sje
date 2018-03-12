@@ -90,6 +90,7 @@ LEXICON N_EVEN_J
 LEXICON N_EVEN4 !mánnodak<->mánnodag-
 +N+Sg+Nom:%>0 K ;
 +N:a N_EVEN4_DEFAULT ;
++N+Cmp/SgNom:%>0 R ;
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Nom:i2s%>0 K ;
@@ -298,9 +299,9 @@ LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
 ! NOTE: 
 
 !used by adjectives - don't delete:
-LEXICON EVENCASE_4 !used by adjectives - don't delete
-+Sg+Nom:^CDEL K ;
-:a N_EVEN_ESS ; !essive
+!LEXICON EVENCASE_4 !used by adjectives - don't delete
+!+Sg+Nom:^CDEL K ;
+!:a N_EVEN_ESS ; !essive
 
 !used by adjectives - don't delete:
 LEXICON N_EVEN_C !used by adjectives - don't delete
