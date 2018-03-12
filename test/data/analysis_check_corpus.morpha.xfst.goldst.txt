@@ -76,8 +76,8 @@
 	"båjjtjå" N Sg Nom
 "<funderija>"
 	"funderija" ?
-"<gåkkte>"
-	"gåkkte" ?
+"<gukkte>"
+	"gukkte" Adv
 "<sådnatja>"
 	"sådnatja" ?
 "<biessat>"
@@ -178,7 +178,7 @@
 "<:>"
 	":" CLB
 "<Gukkte>"
-	"Gukkte" ?
+	"gukkte" Adv
 "<dån>"
 	"dån" Pron Pers Sg2 Nom
 "<dav>"
