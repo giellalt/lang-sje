@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-02-26T14:41:47+02:00
+! Timestamp: 2018-03-12T19:43:29+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -105,7 +105,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áhttje:áhttje N_EVEN "father, dad" ; ! no. 16
 ájatjáhtse:ája#tjáhtse N_EVEN "spring water" ; ! no. 2688
 ájbme:ájbme N_EVEN "leather needle" ; ! no. 4204
-ájjá+Use/NG:ájjá N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
+áddjá+Use/NG:ájjá N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
 ájjge:ájjge N_EVEN "time" ; ! no. 22
 ájjgebielle:ájjge#bielle N_EVEN "halftime" ; ! no. 2693
 ájjte:ájjte N_EVEN "shed" ; ! no. 34
@@ -191,7 +191,7 @@ bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 birre:birre N_EVEN "bear" ; ! no. 2357
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
 bissti:bissti N_EVEN "spoon" ; ! no. 190
-bivvda+Use/NG:bivvda N_EVEN "shed" ; ! no. 90466
+buvvda+Use/NG:bivvda N_EVEN "shed" ; ! no. 90466
 bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
 blárre:blárre N_EVEN "sheet, leaf (of paper)" ; ! no. 2922
 bluvvsa:bluvvsa N_EVEN "blouse" ; ! no. 1352
@@ -239,7 +239,7 @@ bållå:bållå N_EVEN "ball" ; ! no. 3365
 båmmpå:båmmpå N_EVEN "bomb" ; ! no. 3368
 bårre:bår're N_EVEN "float, ferry, raft" ; ! no. 251
 bårrgemiesse:bårrge#miesse N_EVEN "reindeer calf, fur becomes thicker and tighter" ; ! no. 253
-bårrkå+Use/NG:bårrkå N_EVEN "break, rest" ; ! no. 90575
+båttkå+Use/NG:bårrkå N_EVEN "break, rest" ; ! no. 90575
 bårråmájjge:bårråm#ájjge N_EVEN "mealtime" ; ! no. 4712
 bårråmbuärrde:bårråm#bu^Orrde N_EVEN "dining table" ; ! no. 4713
 bårråmguolle:bårråm#gu^Olle N_EVEN "edible fish" ; ! no. 4294
@@ -414,7 +414,7 @@ gávva:gávva N_EVEN "bend, curve" ; ! no. 3518
 gávvtja:gávvtja N_EVEN "silver chalice with handles" ; ! no. 6010
 getjukmiesse:getjuk#miesse N_EVEN "unmarked calf" ; ! no. 4902
 gibme:gibme N_EVEN "capercaillie's mating display" ; ! no. 604
-giddadállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
+girradállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
 giehka:giehka N_EVEN "cuckoo" ; ! no. 587
 giehpesdávvda:giehpes#dávvda N_EVEN "lung infection, pulmonary tuberculosis" ; ! no. 609
 giehta:giehta N_EVEN "hand, arm" ; ! no. 589
@@ -441,7 +441,7 @@ ginálsuodna:ginál#su^Odna N_EVEN "neck tendon" ; ! no. 2848
 ginntalbäjjve:ginntal#biejjve N_EVEN "Candlemas" ; ! no. 6652
 ginntaljuällge:ginntal#ju^Ollge N_EVEN "candlestick" ; ! no. 2481
 gippta:gippta N_EVEN "fishing net sinker, wrapped in birchbark" ; ! no. 4445
-girdje+Use/NG:girdje N_EVEN "book" ; ! no. 90413
+girrje+Use/NG:girdje N_EVEN "book" ; ! no. 90413
 girra:girra N_EVEN "spring (season)" ; ! no. 636
 girradállve:girra#dállve N_EVEN "spring-winter" ; ! no. 2362
 girragiesse:girra#giesse N_EVEN "spring summer" ; ! no. 5654
@@ -457,7 +457,7 @@ glássa:glássa N_EVEN "ice cream" ; ! no. 529
 grásse:grásse N_EVEN "grass" ; ! no. 3604
 grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
 guabbla:gu^Obbla N_EVEN "cornice, hanging ice in a stream" ; ! no. 3540
-guadna+Use/NG:gu^Odna N_EVEN "female genitals" ; ! no. 90498
+guanná+Use/NG:gu^Odna N_EVEN "female genitals" ; ! no. 90498
 guallga:gu^Ollga N_EVEN "fur" ; ! no. 2871
 guanná:gu^On'ná N_EVEN "female genitals" ; ! no. 4881
 guappsa:gu^Oppsa N_EVEN "milt" ; ! no. 4370
@@ -511,7 +511,7 @@ gållge:gållge N_EVEN "vagabond" ; ! no. 753
 gållgedávvda:gållge#dávvda N_EVEN "plague, epidemic" ; ! no. 4014
 gållse:gållse N_EVEN "merganser" ; ! no. 756
 gårdneåjjve:gårdne#åjjve N_EVEN "ear (of grain)" ; ! no. 3181
-gårrkå+Use/NG:gårrkå N_EVEN "ant" ; ! no. 90566
+gåttkå+Use/NG:gårrkå N_EVEN "ant" ; ! no. 90566
 gårrså:gårrså N_EVEN "waterfall" ; ! no. 2600
 gårrtje:gårrtje N_EVEN "ravine with a small creek" ; ! no. 3185
 gårrå:gårrå N_EVEN "ravine" ; ! no. 765
@@ -524,14 +524,14 @@ gåvnjosäjjbe:gåvnjo#siejjbe N_EVEN "hanging tail on a dog" ; ! no. 2640
 gåvvå:gåvvå N_EVEN "picture, painting" ; ! no. 776
 gåvvåráma:gåvvå#ráma N_EVEN "picture frame" ; ! no. 3152
 gäbbne:giebbne N_EVEN "pot" ; ! no. 779
-gäddge+Use/NG:gieddge N_EVEN "stone, rock" ; ! no. 90417
+gärrge+Use/NG:gieddge N_EVEN "stone, rock" ; ! no. 90417
 gähttje:giehttje N_EVEN "guardian" ; ! no. 3687
 gällu:giel'lu N_EVEN "big stone, boulder" ; ! no. 525
 gäŋŋka:gieŋŋka N_EVEN "reindeer which avoids being caught" ; ! no. 2878
 gärrda:gierrda N_EVEN "reindeer corral" ; ! no. 787
 gärrge:gierrge N_EVEN "stone, rock" ; ! no. 791
 gärrgemuvvra:gärrge#muvvra N_EVEN "rock wall" ; ! no. 3795
-gärrke+Use/NG:gierrke N_EVEN "wolverine" ; ! no. 90465
+gättke+Use/NG:gierrke N_EVEN "wolverine" ; ! no. 90465
 gättka:giettka N_EVEN "protruding, weight-bearing log in a shed on a stilt (njalla)" ; ! no. 5869
 gättke:giettke N_EVEN "wolverine" ; ! no. 2792
 gävvle:gievvle N_EVEN "circle, ring, musical drum" ; ! no. 796
@@ -564,7 +564,7 @@ härra:hier'ra N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer buck, castrated reindeer buck" ; ! no. 870
 härrgevárre:härrge#várre N_EVEN "Renberget" ; ! no. 4123
 hässta:hiessta N_EVEN "horse" ; ! no. 4932
-hävdne+Use/NG:hievdne N_EVEN "spider" ; ! no. 90418
+häffne+Use/NG:hievdne N_EVEN "spider" ; ! no. 90418
 ibme:ibme N_EVEN "uncle’s wife" ; ! no. 872
 idja:idja N_EVEN "night" ; ! no. 874
 idjaguässe:idja#gu^Os'se N_EVEN "overnight guest" ; ! no. 5172
@@ -577,7 +577,7 @@ iehkedisidja:iehkedis#idja N_EVEN "late evening" ; ! no. 3744
 iehkedisnásste:iehkedis#násste N_EVEN "evening star" ; ! no. 2935
 ietjasvuohke:ietjas#vu^Ohke N_EVEN "distinctive" ; ! no. 4940
 ihtátjbäjjve:ihtátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
-ijja+Use/NG:ijja N_EVEN "night" ; ! no. 90421
+idja+Use/NG:ijja N_EVEN "night" ; ! no. 90421
 inntjáválle:inntjá#válle N_EVEN "Älvsbyn" ; ! no. 4782
 inuijjta:inuijjta N_EVEN "Inuit" ; ! no. 4000
 irrge:irrge N_EVEN "fiancé, future husband" ; ! no. 3425
@@ -690,7 +690,7 @@ lurrka:lurrka N_EVEN "small firearm such as a saloon rifle" ; ! no. 5460
 lussis+N+Der/State:lussisvu^Ohta N_EVEN "melancholia, heavy-heartedness" ; ! no. 2519
 lusspe:lusspe N_EVEN "beginning of rapids" ; ! no. 1077
 luvvka:luvvka N_EVEN "wooden harness" ; ! no. 5980
-luäkkta+Use/NG:lu^Okkta N_EVEN "bay" ; ! no. 90459
+luakkta+Use/NG:lu^Okkta N_EVEN "bay" ; ! no. 90459
 luäppte:lu^Oppte N_EVEN "storage place" ; ! no. 3904
 låbme:låbme N_EVEN "dip, small depression in the ground" ; ! no. 4810
 låddebiesse:lådde#biesse N_EVEN "nest" ; ! no. 1084
@@ -762,7 +762,7 @@ murrumbällje:murrum#biellje N_EVEN "shriveled ear" ; ! no. 6126
 musea:musea N_EVEN "museum" ; ! no. 90636
 muvvra:muvvra N_EVEN "wall" ; ! no. 5938
 muärrje:mu^Orrje N_EVEN "berry" ; ! no. 1195
-muärrke+Use/NG:mu^Orrke N_EVEN "isthmus" ; ! no. 90462
+muättke+Use/NG:mu^Orrke N_EVEN "isthmus" ; ! no. 90462
 muättke:mu^Ottke N_EVEN "isthmus" ; ! no. 2607
 mådtsåbielle:mådtså#bielle N_EVEN "opposite side, inside" ; ! no. 4989
 måhkke:måhkke N_EVEN "errand, task" ; ! no. 1198
@@ -823,7 +823,7 @@ njuolla:nju^Olla N_EVEN "arrow" ; ! no. 1298
 njuonne:nju^Onne N_EVEN "nose, snout, tip" ; ! no. 1300
 njuonnegiehtje:njuonne#giehtje N_EVEN "nose tip" ; ! no. 5887
 njuonnerájjge:njuonne#rájjge N_EVEN "nostril" ; ! no. 5020
-njuonnje+Use/NG:nju^Onnje N_EVEN "nose, snout, tip" ; ! no. 90826
+njuonne+Use/NG:nju^Onnje N_EVEN "nose, snout, tip" ; ! no. 90826
 njuvvdemlihtte:njuvvdem#lihtte N_EVEN "pestle" ; ! no. 1308
 njuäbbrebässe:njuäbbre#bies'se N_EVEN "thin birch bark" ; ! no. 1310
 njållomájjge:njållom#ájjge N_EVEN "calving season" ; ! no. 5017
@@ -831,7 +831,7 @@ nuarrta:nu^Orrta N_EVEN "north" ; ! no. 3844
 nuorra+N+Der/State:nuorravu^Ohta N_EVEN "youth" ; ! no. 3055
 nurrsjudållå:nurrsju#dållå N_EVEN "log fire" ; ! no. 1326
 nuähtte:nu^Ohtte N_EVEN "seine net (fishing net)" ; ! no. 1328
-nåddebielle+Use/NG:nådde#bielle N_EVEN "load on one side of a pack animal" ; ! no. 90567
+nårrebielle+Use/NG:nådde#bielle N_EVEN "load on one side of a pack animal" ; ! no. 90567
 nåjjde:nåjjde N_EVEN "shaman, fortune-teller" ; ! no. 1330
 nårre:nårre N_EVEN "load, cargo" ; ! no. 3064
 nårrebielle:nårre#bielle N_EVEN "load on one side of a pack animal" ; ! no. 4193
@@ -887,7 +887,7 @@ rijjka:rijjka N_EVEN "kingdom, state, country" ; ! no. 1413
 rimmste:rimmste N_EVEN "one-year-old reindeer calf after its mother has deserted it" ; ! no. 2582
 risse:ris'se N_EVEN "twig, birch twig (only for deciduous trees)" ; ! no. 1416
 rissja:rissja N_EVEN "sulfur" ; ! no. 1417
-ruassa+Use/NG:ru^Os'sa N_EVEN "cross" ; ! no. 90731
+kruassa+Use/NG:ru^Os'sa N_EVEN "cross" ; ! no. 90731
 ruassta:ru^Ossta N_EVEN "rust" ; ! no. 5081
 ruhta:ruhta N_EVEN "a groom's present to his bride's parents" ; ! no. 6036
 ruhtse:ruhtse N_EVEN "trash, rubbish, garbage, waste" ; ! no. 3154
@@ -907,7 +907,7 @@ råbme:råbme N_EVEN "scurf, worms" ; ! no. 6891
 råhkå:råhkå N_EVEN "rye" ; ! no. 90304
 råhkåd+N+Der/Ag:råhkådieddje N_EVEN "worshipper, adorer" ; ! no. 4289
 råhtje:råhtje N_EVEN "stream valley" ; ! no. 1459
-råmmå+Use/NG:råm'må N_EVEN "room" ; ! no. 90704
+rumma+Use/NG:råm'må N_EVEN "room" ; ! no. 90704
 råssne:råssne N_EVEN "vapor from open water during cold weather" ; ! no. 2669
 råvve:råvve N_EVEN "bridge, stoop for a cabin" ; ! no. 1461
 räjjdolårrå:räjjdo#lårrå N_EVEN "tool box" ; ! no. 1667
@@ -1006,7 +1006,7 @@ skiedjá:skiedjá N_EVEN "small storage unit on runners" ; ! no. 1630
 skiedjáluäppte:skiedjá#lu^Oppte N_EVEN "storage unit on runners" ; ! no. 90815
 skillá:skillá N_EVEN "zinc bucket" ; ! no. 1624
 skilltja:skilltja N_EVEN "Saami frock made of raw leather" ; ! no. 1639
-skilltje+Use/NG:skilltje N_EVEN "ice on reindeer lichen underneath snow" ; ! no. 90744
+sjkilltje+Use/NG:skilltje N_EVEN "ice on reindeer lichen underneath snow" ; ! no. 90744
 skruvva:skruvva N_EVEN "screw" ; ! no. 5130
 skruvvta:skruvvta N_EVEN "scrap, rubbish" ; ! no. 5748
 skråvvá:skråvvá N_EVEN "muzzle, gag" ; ! no. 3632
@@ -1141,7 +1141,7 @@ såpptå:såpptå N_EVEN "foam, lather" ; ! no. 1824
 sårrtå:sårrtå N_EVEN "type, sort" ; ! no. 3139
 sårrve:sårrve N_EVEN "dry pine" ; ! no. 4904
 såvvle:såvvle N_EVEN "water on top of ice but under snow on a lake" ; ! no. 1827
-säddga+Use/NG:sieddga N_EVEN "willow" ; ! no. 90443
+särrga+Use/NG:sieddga N_EVEN "willow" ; ! no. 90443
 sähkoguallga:sähko#gu^Ollga N_EVEN "fur bristle around reindeer hooves" ; ! no. 90226
 säjdne:siejdne N_EVEN "inside tent covering" ; ! no. 1836
 säjjbe:siejjbe N_EVEN "tail" ; ! no. 3294
@@ -1262,7 +1262,7 @@ varravádne:varra#vádne N_EVEN "shortage of blood, low blood count" ; ! no. 208
 vassjalis+N+Der/State:vassjalisvu^Ohta N_EVEN "activity" ; ! no. 3082
 vassje:vassje N_EVEN "hate, disgust" ; ! no. 5915
 vavvle:vavvle N_EVEN "deep trench in a lake or creek" ; ! no. 2101
-vádálatj+N+Der/State+Use/NG:vádálatjvu^Ohta N_EVEN "danger" ; ! no. 90482
+várálatj+N+Der/State+Use/NG:vádálatjvu^Ohta N_EVEN "danger" ; ! no. 90482
 vádne:vádne N_EVEN "lack, shortage" ; ! no. 6022
 vádtsemráddna:vádtsem#ráddna N_EVEN "companion on a journey" ; ! no. 5725
 vágod+N+Der/Ag:vágodieddje N_EVEN "reprimander, admonisher" ; ! no. 6204
@@ -1330,7 +1330,7 @@ vuävvde:vu^Ovvde N_EVEN "forest, woods" ; ! no. 6043
 väddegárre:vädde#gárre N_EVEN "bowl woven out of roots" ; ! no. 5237
 vähkke:viehkke N_EVEN "help, assistance" ; ! no. 2218
 vähkked+N+Der/Ag:vähkkedieddje N_EVEN "assistent" ; ! no. 3142
-väldja+Use/NG:vieldja N_EVEN "brother" ; ! no. 90452
+vällja+Use/NG:vieldja N_EVEN "brother" ; ! no. 90452
 vällge:viellge N_EVEN "debt" ; ! no. 3560
 vällja:viellja N_EVEN "brother" ; ! no. 2224
 välljabielle:vällja#bielle N_EVEN "half brother" ; ! no. 4766
@@ -1476,7 +1476,7 @@ gieldagis:gieldag N_EVEN4_ISA "tendon in a reindeer's back foot" ; ! no. 3822
 giljánis:gilján N_EVEN4_ISA "roar" ; ! no. 4840
 guddudis:guddud N_EVEN4_ISA "four-year-old reindeer buck" ; ! no. 2842
 guoksagis:gu^Oksag N_EVEN4_ISA "northern lights" ; ! no. 688
-guoledis+Use/NG:gu^Oled N_EVEN4_ISA "Guoletisjávvre, 'fisklös'" ; ! no. 90743
+guoledisjávvre+Use/NG:gu^Oled N_EVEN4_ISA "Guoletisjávvre, 'fisklös'" ; ! no. 90743
 gåhpålis:gåhpål N_EVEN4_ISA "pus-filled blister" ; ! no. 736
 gålmådis:gålmåd N_EVEN4_ISA "third (fraction)" ; ! no. 4172
 gånågis:gånåg N_EVEN4_ISA "king" ; ! no. 760
@@ -1500,7 +1500,7 @@ vágodis:vágod N_EVEN4_ISA "admonishment" ; ! no. 2050
 vuoberis:vu^Ober N_EVEN4_ISA "three year old reindeer buck" ; ! no. 2149
 vuoksanis:vu^Oksan N_EVEN4_ISA "vomit" ; ! no. 2174
 ådnåris:ådnår N_EVEN4_ISA "curved crossbar (part of a Saami hut)" ; ! no. 2236
-addam+Use/NG:addam N_EVEN_NOCG "marrowbone" ; ! no. 90520
+arram+Use/NG:addam N_EVEN_NOCG "marrowbone" ; ! no. 90520
 alátbägga:alát#biegga N_EVEN_NOCG "westerly wind" ; ! no. 42
 arbmo:arbmo N_EVEN_NOCG "mercy" ; ! no. 6197
 ájagádde:ája#gádde N_EVEN_NOCG "edge of a spring" ; ! no. 2686
@@ -1513,7 +1513,7 @@ bádde:bádde N_EVEN_NOCG "ribbon, string, band" ; ! no. 95
 bágge:bágge N_EVEN_NOCG "halter for a draft reindeer" ; ! no. 3688
 bárdne:bárdne N_EVEN_NOCG "son, boy" ; ! no. 139
 bivvdorågge:bivvdo#rågge N_EVEN_NOCG "trapping pit" ; ! no. 3683
-bládde+Use/NG:bládde N_EVEN_NOCG "sheet, leaf (of paper)" ; ! no. 90467
+blárre+Use/NG:bládde N_EVEN_NOCG "sheet, leaf (of paper)" ; ! no. 90467
 buäjjdedågge:buäjjde#dågge N_EVEN_NOCG "abomasum filled with fat" ; ! no. 6577
 båddå:båddå N_EVEN_NOCG "time, while" ; ! no. 231
 bårråmbåddå:bårråm#båddå N_EVEN_NOCG "meal, snack break" ; ! no. 2748
@@ -1537,7 +1537,7 @@ gádde:gádde N_EVEN_NOCG "shore; edge" ; ! no. 2930
 gáddo:gáddo N_EVEN_NOCG "suspicion" ; ! no. 3266
 gágga:gágga N_EVEN_NOCG "keg, cask" ; ! no. 5206
 gálatjimlådde:gálatjim#lådde N_EVEN_NOCG "wader bird" ; ! no. 4754
-gidda+Use/NG:gidda N_EVEN_NOCG "spring (season)" ; ! no. 90412
+girra+Use/NG:gidda N_EVEN_NOCG "spring (season)" ; ! no. 90412
 grädda:griedda N_EVEN_NOCG "cream" ; ! no. 2923
 guollegágga:guolle#gágga N_EVEN_NOCG "fish bucket" ; ! no. 6094
 gurbma:gurbma N_EVEN_NOCG "warble fly larva" ; ! no. 711
@@ -1564,13 +1564,13 @@ ládde:ládde N_EVEN_NOCG "man (not Saami)" ; ! no. 993
 libba:libba N_EVEN_NOCG "lamb" ; ! no. 2757
 luadda:lu^Odda N_EVEN_NOCG "footprint, track" ; ! no. 1056
 lulátbägga:lulát#biegga N_EVEN_NOCG "easterly wind" ; ! no. 1061
-luodda+Use/NG:lu^Odda N_EVEN_NOCG "ammunition, shot" ; ! no. 90432
+luorra+Use/NG:lu^Odda N_EVEN_NOCG "ammunition, shot" ; ! no. 90432
 luojtavbádde:luojtav#bádde N_EVEN_NOCG "rope tying a stick to a fishing net for ice fishing" ; ! no. 3468
 luägge:lu^Ogge N_EVEN_NOCG "dog sphincter" ; ! no. 4163
 lådde:lådde N_EVEN_NOCG "bird" ; ! no. 1083
-låddå+Use/NG:låddå N_EVEN_NOCG "box, case" ; ! no. 90513
+lårrå+Use/NG:låddå N_EVEN_NOCG "box, case" ; ! no. 90513
 máddo:máddo N_EVEN_NOCG "relatives, family, ancestry" ; ! no. 2659
-miedda+Use/NG:miedda N_EVEN_NOCG "honey" ; ! no. 90840
+mierra+Use/NG:miedda N_EVEN_NOCG "honey" ; ! no. 90840
 miehtebägga:miehte#biegga N_EVEN_NOCG "tailwind" ; ! no. 4976
 mierragádde:mierra#gádde N_EVEN_NOCG "coastline" ; ! no. 2708
 muaddá:mu^Oddá N_EVEN_NOCG "reindeer fur" ; ! no. 1170
@@ -1582,15 +1582,15 @@ muorraklabba:muorraklabba N_EVEN_NOCG "piece of wood" ; ! no. 1980
 muorralådde:muorra#lådde N_EVEN_NOCG "forest bird" ; ! no. 1189
 muorrarigge:muorra#rigge N_EVEN_NOCG "wooden chain used to hang a pot over a fire" ; ! no. 4778
 måddå:måddå N_EVEN_NOCG "powder snow on the road" ; ! no. 5272
-nadda+Use/NG:nadda N_EVEN_NOCG "handle" ; ! no. 90463
+narra+Use/NG:nadda N_EVEN_NOCG "handle" ; ! no. 90463
 niddo:niddo N_EVEN_NOCG "defiance, spite, intentionally malicious action" ; ! no. 4282
-niedda+Use/NG:niedda N_EVEN_NOCG "emergency, danger" ; ! no. 90477
+nierra+Use/NG:niedda N_EVEN_NOCG "emergency, danger" ; ! no. 90477
 njálbmeråbbe:njálbme#råbbe N_EVEN_NOCG "cold sore" ; ! no. 1275
 njidtje:njidtje N_EVEN_NOCG "breast" ; ! no. 1286
 nuortelbägga:nuortel#biegga N_EVEN_NOCG "northernly wind" ; ! no. 1325
-nådde+Use/NG:nådde N_EVEN_NOCG "burden" ; ! no. 90470
-nåddo+Use/NG:nåddo N_EVEN_NOCG "ball of yarn, skein" ; ! no. 90499
-rádde+Use/NG:rádde N_EVEN_NOCG "advice, proposal, council" ; ! no. 90440
+nårre+Use/NG:nådde N_EVEN_NOCG "burden" ; ! no. 90470
+nårro+Use/NG:nåddo N_EVEN_NOCG "ball of yarn, skein" ; ! no. 90499
+rárre+Use/NG:rádde N_EVEN_NOCG "advice, proposal, council" ; ! no. 90440
 riddo:riddo N_EVEN_NOCG "avalanche" ; ! no. 3539
 rigge:rigge N_EVEN_NOCG "chain, especially used to hang a pot over a fire" ; ! no. 1407
 ruävvderigge:ruävvde#rigge N_EVEN_NOCG "iron chain to hold up a skillet" ; ! no. 4779
@@ -1599,10 +1599,10 @@ rågge:rågge N_EVEN_NOCG "pit, hole" ; ! no. 1453
 råhtojägge:råhto#jiegge N_EVEN_NOCG "marsh with willow brush" ; ! no. 5104
 rägga:riegga N_EVEN_NOCG "anchor" ; ! no. 3104
 räjdnosåbbe:räjdno#såbbe N_EVEN_NOCG "reindeer herder’s stick" ; ! no. 2636
-räjjdolåddå+Use/NG:räjjdo#låddå N_EVEN_NOCG "tool box" ; ! no. 90441
+räjjdolårrå+Use/NG:räjjdo#låddå N_EVEN_NOCG "tool box" ; ! no. 90441
 sádde:sádde N_EVEN_NOCG "sand" ; ! no. 3408
 sájjtesåbbe:sájjte#såbbe N_EVEN_NOCG "spear pole" ; ! no. 1495
-sidde+Use/NG:sidde N_EVEN_NOCG "cheese rack " ; ! no. 90471
+sirre+Use/NG:sidde N_EVEN_NOCG "cheese rack " ; ! no. 90471
 sievvagádde:sievva#gádde N_EVEN_NOCG "seashore" ; ! no. 5114
 sjádde:sjádde N_EVEN_NOCG "hole dug in the snow because reindeer ate there" ; ! no. 4776
 sládjojägge:sládjo#jiegge N_EVEN_NOCG "marsh with hay for harvesting" ; ! no. 90342
@@ -1615,7 +1615,7 @@ suddo:suddo N_EVEN_NOCG "sin; a pity" ; ! no. 2400
 såbbe:såbbe N_EVEN_NOCG "stick, pole" ; ! no. 1811
 säddo:sieddo N_EVEN_NOCG "peace, stillness" ; ! no. 1830
 säddu:sieddu N_EVEN_NOCG "sandbank" ; ! no. 3407
-tjadda+Use/NG:tjadda N_EVEN_NOCG "soot, coal" ; ! no. 90445
+tjarra+Use/NG:tjadda N_EVEN_NOCG "soot, coal" ; ! no. 90445
 tjátslådde:tjáts#lådde N_EVEN_NOCG "waterfowl" ; ! no. 1885
 tjátsrågge:tjáts#rågge N_EVEN_NOCG "water hole" ; ! no. 5196
 tjidtje:tjidtje N_EVEN_NOCG "mother" ; ! no. 3618
@@ -1633,10 +1633,10 @@ vahtjobägga:vahtjo#biegga N_EVEN_NOCG "biting wind" ; ! no. 2056
 vanasradde:vanas#radde N_EVEN_NOCG "boat railing" ; ! no. 3376
 vádtsemsåbbe:vádtsem#såbbe N_EVEN_NOCG "walking stick" ; ! no. 2048
 vágge:vágge N_EVEN_NOCG "valley" ; ! no. 2329
-vággevuoddo+Use/NG:vágge#vu^Oddo N_EVEN_NOCG "bottom of a valley" ; ! no. 90508
+vággevuorro+Use/NG:vágge#vu^Oddo N_EVEN_NOCG "bottom of a valley" ; ! no. 90508
 vuadtja:vu^Odtja N_EVEN_NOCG "smooth ice" ; ! no. 2138
 vuagga:vu^Ogga N_EVEN_NOCG "fishing hook" ; ! no. 2205
-vuoddo+Use/NG:vu^Oddo N_EVEN_NOCG "base, bottom" ; ! no. 90450
+vuorro+Use/NG:vu^Oddo N_EVEN_NOCG "base, bottom" ; ! no. 90450
 vuodjemsåbbe:vuodjem#såbbe N_EVEN_NOCG "driving stick (for herding reindeer)" ; ! no. 2155
 vuorasbárdne:vuoras#bárdne N_EVEN_NOCG "unmarried man, bachelor" ; ! no. 6101
 vuässtebägga:vuässte#biegga N_EVEN_NOCG "headwind" ; ! no. 5486
@@ -1647,7 +1647,7 @@ värbme:vierbme N_EVEN_NOCG "net" ; ! no. 2225
 åggomvuagga:åggom#vu^Ogga N_EVEN_NOCG "fishing hook" ; ! no. 5034
 årjátbägga:årját#biegga N_EVEN_NOCG "southernly wind" ; ! no. 2262
 årrembåddå:årrem#båddå N_EVEN_NOCG "nap" ; ! no. 2692
-ädda+Use/NG:iedda N_EVEN_NOCG "scar" ; ! no. 90497
+ärra+Use/NG:iedda N_EVEN_NOCG "scar" ; ! no. 90497
 andersmässo:anders#mies'so N_EVEN_O "Andersmässhelgen" ; ! no. 4229
 arrvo:arrvo N_EVEN_O "value, price" ; ! no. 4176
 assto:assto N_EVEN_O "time" ; ! no. 81
@@ -1679,7 +1679,7 @@ bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
 bienomässo:bieno#mies'so N_EVEN_O "Böndagshelgen" ; ! no. 5427
 bihpo:bihpo N_EVEN_O "pipe (for smoking)" ; ! no. 5055
 birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
-bisumiedno+Use/NG:bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
+bidumiedno+Use/NG:bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
 bumullo:bumul'lo N_EVEN_O "cotton" ; ! no. 3370
 bårrgemánno:bårrge#mánno N_EVEN_O "August" ; ! no. 252
@@ -1879,14 +1879,14 @@ snuvvto:snuvvto N_EVEN_O "bundle of shoe hay" ; ! no. 3339
 spádnjo:spádnjo N_EVEN_O "grove of young birch trees" ; ! no. 6133
 spálagummo:spála#gum'mo N_EVEN_O "gossiping old woman" ; ! no. 4520
 spirrko:spirrko N_EVEN_O "bent wooden piece in a packsaddle" ; ! no. 1721
-stáddfo+Use/NG:stáddfo N_EVEN_O "boat landing" ; ! no. 90474
+stárrfo+Use/NG:stáddfo N_EVEN_O "boat landing" ; ! no. 90474
 stáhkkabärrgo:stáhkka#bierrgo N_EVEN_O "boneless meat from a steak" ; ! no. 3249
 stállo:stállo N_EVEN_O "Saami troll figure" ; ! no. 2498
 stárrfo:stárrfo N_EVEN_O "boat landing" ; ! no. 3515
 stárro:stár'ro N_EVEN_O "sedge hay" ; ! no. 6570
 ståhpo:ståhpo N_EVEN_O "hut, cabin" ; ! no. 1746
 stänntjo:stienntjo N_EVEN_O "wet clay" ; ! no. 4497
-suakkno+Use/NG:su^Okkno N_EVEN_O "municipality" ; ! no. 90824
+suohkan+Use/NG:su^Okkno N_EVEN_O "municipality" ; ! no. 90824
 sujjto:sujjto N_EVEN_O "care" ; ! no. 3110
 suovasbärrgo:suovas#bierrgo N_EVEN_O "smoked meat" ; ! no. 5150
 surrgo:surrgo N_EVEN_O "sorrow" ; ! no. 1776
@@ -1904,7 +1904,7 @@ tjivvko:tjivvko N_EVEN_O "fresh cheese curd" ; ! no. 4420
 tjuajjgamláhtto:tjuajjgam#láhtto N_EVEN_O "ski tracks" ; ! no. 3615
 tjullgo:tjullgo N_EVEN_O "stick for pulling fishing nets under ice" ; ! no. 2753
 tjullko:tjullko N_EVEN_O "piece of wood placed on a dog to impede it" ; ! no. 2574
-tjuvvko+Use/NG:tjuvvko N_EVEN_O "fresh cheese curd" ; ! no. 90495
+tjivvko+Use/NG:tjuvvko N_EVEN_O "fresh cheese curd" ; ! no. 90495
 tjårgŋehárrdo:tjårgŋe#hárrdo N_EVEN_O "humpback" ; ! no. 3705
 tjårro:tjårro N_EVEN_O "mountain ridge" ; ! no. 3791
 tjårrvebarrgo:tjårrve#barrgo N_EVEN_O "handicraft made of antlers" ; ! no. 6006
@@ -1976,7 +1976,7 @@ bissjum:bissjum N_ODD "strap in tent cloth" ; ! no. 3696
 bissmer:bissmer N_ODD "steelyard" ; ! no. 3267
 bissuk:bissug2 N_ODD "tall thin young birch tree" ; ! no. 90529
 bistitj:bistitj N_ODD "teaspoon" ; ! no. 4767
-bisum+Use/NG:bisum N_ODD "Piteå" ; ! no. 90771
+bidám+Use/NG:bisum N_ODD "Piteå" ; ! no. 90771
 bivdár:bivdár N_ODD "hunter, fisherman" ; ! no. 90196
 budnjus:budnjus N_ODD "baked good to be eaten with coffee" ; ! no. 90530
 bunjitj:bunjitj N_ODD "twisted birch" ; ! no. 6526
@@ -2100,7 +2100,7 @@ hijvel:hijvel N_ODD "plane (tool)" ; ! no. 841
 hilsik:hilsig2 N_ODD "greeting" ; ! no. 90238
 hujnik:hujnig2 N_ODD "someone who does not care, a passive person" ; ! no. 5845
 hähkkal:hä2hkkal N_ODD "board with nails in it for combing shoe hay" ; ! no. 862
-idet+Use/NG:ided2 N_ODD "tomorrow" ; ! no. 90420
+iret+Use/NG:ided2 N_ODD "tomorrow" ; ! no. 90420
 idjaiednam:idja#iednam N_ODD "place for reindeer to spend the night" ; ! no. 5952
 iednam:iednam N_ODD "earth, soil, land" ; ! no. 444
 iednamskillbim:iednam#skillbim N_ODD "earthquake" ; ! no. 4182
@@ -2138,7 +2138,7 @@ låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
 máddak:máddag2 N_ODD "size" ; ! no. 1109
 máddár:máddár N_ODD "root" ; ! no. 90620
-miedem+Use/NG:miedem N_ODD "roe" ; ! no. 90434
+mierem+Use/NG:miedem N_ODD "roe" ; ! no. 90434
 mierek:miereg2 N_ODD "spawning fish with roe" ; ! no. 5094
 mierem:mierem N_ODD "roe" ; ! no. 1149
 miesak:miesag2 N_ODD "reindeer doe which has a calf" ; ! no. 1162
@@ -2177,7 +2177,7 @@ njurrgun:njurrgun N_ODD "whistle" ; ! no. 1306
 njåmmel:njåmmel N_ODD "hare, rabbit" ; ! no. 3505
 nulpok:nulpog2 N_ODD "without antlers" ; ! no. 2872
 nuortok:nu^Ortog2 N_ODD "North Saami" ; ! no. 5027
-páhper+Use/NG:páhper N_ODD "paper" ; ! no. 90700
+báhper+Use/NG:páhper N_ODD "paper" ; ! no. 90700
 perun:perun N_ODD "potato" ; ! no. 1346
 plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
@@ -2249,7 +2249,7 @@ skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvvlik:skuvvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
 skåvlåk:skåvlåg2 N_ODD "teacher" ; ! no. 90754
-slihtur+Use/NG:slihtur N_ODD "cattle, livestock (not reindeer)" ; ! no. 90716
+klihtar+Use/NG:slihtur N_ODD "cattle, livestock (not reindeer)" ; ! no. 90716
 släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
 snihkkus:snihkkus N_ODD "wood carving" ; ! no. 90829
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
@@ -2257,7 +2257,7 @@ sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
 spággak:spággag2 N_ODD "bear spear" ; ! no. 1710
 spáhkak:spáhkag2 N_ODD "hitch in a Saami packsaddle" ; ! no. 1712
 spedjil:spedjil N_ODD "mirror" ; ! no. 4585
-spietjam+Use/NG:spietjam N_ODD "tail stump on a hoofed animal" ; ! no. 90730
+spietjav+Use/NG:spietjam N_ODD "tail stump on a hoofed animal" ; ! no. 90730
 spånjgåt:spånjgåd2 N_ODD "whip" ; ! no. 2982
 stalldak:stalldag2 N_ODD "reindeer which stays around a homestead" ; ! no. 4493
 stájnak:stájnag2 N_ODD "strong reindeer doe which has never had a calf" ; ! no. 1729
@@ -2271,7 +2271,7 @@ svargatj:svargatj N_ODD "snack" ; ! no. 1795
 svájlek:svájleg2 N_ODD "untamed castrated reindeer" ; ! no. 2843
 svierek:sviereg2 N_ODD "Swedish" ; ! no. 1798
 syhkel:syhkel N_ODD "bicycle" ; ! no. 1809
-säditj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
+säritj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
 säritj:sä2ritj N_ODD "young pine forest" ; ! no. 90349
 tijdnik:tijdnig2 N_ODD "newspaper" ; ! no. 90834
 tjaktjaiednam:tjaktja#iednam N_ODD "autumn land" ; ! no. 5188
@@ -2318,7 +2318,7 @@ uvdutj:uvdutj N_ODD "like before" ; ! no. 6079
 vaddas:vaddas N_ODD "present, gift" ; ! no. 2042
 vaddnem:vaddnem N_ODD "beaver" ; ! no. 2045
 vahák:vahág2 N_ODD "injury, damage" ; ! no. 5475
-vádas+Use/NG:vádas N_ODD "homespun cloth" ; ! no. 90410
+váras+Use/NG:vádas N_ODD "homespun cloth" ; ! no. 90410
 vádtsatj:vádtsatj N_ODD "a little snow on the ground, thin blanket of snow" ; ! no. 2441
 váhtam:váhtam N_ODD "small snack" ; ! no. 90571
 váhtjam:váhtjam N_ODD "reindeer cow" ; ! no. 2055
@@ -2346,14 +2346,14 @@ vuonjal:vu^Onjal N_ODD "one-year-old reindeer cow" ; ! no. 2184
 vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
 vusjkun:vusjkun N_ODD "perch" ; ! no. 2196
 vuärrdem:vu^Orrdem N_ODD "waiting, period of waiting" ; ! no. 6587
-våffel+Use/NG:våffel N_ODD "waffle" ; ! no. 90721
+vuaffal+Use/NG:våffel N_ODD "waffle" ; ! no. 90721
 vähttjer:vä2httjer N_ODD "hammer" ; ! no. 2106
 väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åjjvak:åjjvag2 N_ODD "Uddjaur" ; ! no. 2811
 åbbátj:åbbátj N_ODD "sister" ; ! no. 90399
 åbbås:åbbås N_ODD "snow, deep virgin blanket of snow" ; ! no. 2230
-ådåk+Use/NG:ådåg2 N_ODD "puppy (older than six months)" ; ! no. 2239
-ådåk+Use/NG:ådåg2 N_ODD "new-born puppy" ; ! no. 90524
+åråk+Use/NG:ådåg2 N_ODD "puppy (older than six months)" ; ! no. 2239
+åråk+Use/NG:ådåg2 N_ODD "new-born puppy" ; ! no. 90524
 åjvåk:åjvåg2 N_ODD "oldest brother" ; ! no. 2254
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
@@ -2477,7 +2477,7 @@ tjieskas:tjiesskas N_ODD_WG "piece of firewood" ; ! no. 3411
 tjällár:tjä2l'lár N_ODD_WG "cellar, basement" ; ! no. 90624
 urtas:urrtas N_ODD_WG "garden angelica root" ; ! no. 4016
 vanas:vadnas N_ODD_WG "boat, canoe" ; ! no. 2079
-vanás+Use/NG:vadnás N_ODD_WG "boat, canoe" ; ! no. 90448
+vanas+Use/NG:vadnás N_ODD_WG "boat, canoe" ; ! no. 90448
 vidas:vihtas N_ODD_WG "fivesome" ; ! no. 5439
 vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
 vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
