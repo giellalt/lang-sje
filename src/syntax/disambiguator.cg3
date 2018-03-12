@@ -172,6 +172,8 @@ LIST PAR = PAR ;
 
 
 SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER V) ;
+	## Beispiel (am besten ein langes Beispiel)
+	#$ Gegenbeispiel
 SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
 SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
 
@@ -180,6 +182,18 @@ SELECT:Sg2 Ind + Sg2 IF (0 V)(-1 Pers + Sg2);
 
 	          # Cycle 4: Syntactic disambiguation 
 	          # Cycle 5: Post-syntactic morphological disambiguation
+
+
+#-1C = careful mode
+
+REMOVE:PoAdv Po IF (NOT -1 Gen)(0 Adv) ;	
+REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
+
+#REMOVE, SELECT, MAP, IFF
+
+
+
+
 
 
 
