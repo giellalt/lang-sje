@@ -17,6 +17,7 @@
 "<akt>"
 	"akt" Adv ABBR
 "<sáme>"
+	"sábme" N Pl Nom
 	"sábme" N Sg Gen
 "<påjkåv>"
 	"påjjkå" N Sg Acc
@@ -53,7 +54,7 @@
 "<gåsse>"
 	"gåsse" Adv
 "<gilgij>"
-	"gilgit" V Ind Prt Sg3
+	"gallgat" V Ind Prt Sg3
 "<åjjtet>"
 	"åjjtet" V Inf
 "<dav>"
@@ -129,7 +130,7 @@
 "<sån>"
 	"sån" Pron Pers Sg3 Nom
 "<gatjádij>"
-	"gatjádit" V Ind Prt Sg3
+	"gatjadit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Mav>"
@@ -171,7 +172,7 @@
 "<Stállo>"
 	"stállo" N Sg Nom
 "<gatjádij>"
-	"gatjádit" V Ind Prt Sg3
+	"gatjadit" V Ind Prt Sg3
 "<:>"
 	":" CLB
 "<Gukkte>"
@@ -383,5 +384,33 @@
 	"ulgus" Adv
 "<Stálost>"
 	"stállo" N Sg Ela
+"<.>"
+	"." CLB
+"<Båtsoj>"
+	"båtsoj" N Sg Nom
+"<máhttá>"
+	"máhttet" V Ind Prs Sg3
+"<duv>"
+	"dån" Pron Pers Sg2 Acc
+	"dån" Pron Pers Sg2 Gen
+"<nala>"
+	"nala" Po
+"<båhtet>"
+	"båhtet" V Inf
+"<.>"
+	"." CLB
+"<Mån>"
+	"mån" Pron Pers Sg1 Nom
+"<virrtiv>"
+	"virrtit" V Ind Prs Sg1
+"<tjátsev>"
+	"tjáhtse" N Sg Acc
+"<biejjat>"
+	"biedjat" V Inf
+"<dan>"
+	"dat" Pron Det Sg Gen
+"<sisa>"
+	"sisa" Adv
+	"sisa" Po
 "<.>"
 	"." CLB
