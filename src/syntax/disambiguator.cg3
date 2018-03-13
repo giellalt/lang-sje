@@ -191,14 +191,20 @@ REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
 
 #REMOVE, SELECT, MAP, IFF
 
+# ----- #
 #disambiguate gen.sg vs nom.pl
-#if there is no full NP (eg: with noun) or Po in slot directly after, then choose nom.pl
-REMOVE:NomPlnoPo (Pl Nom) IF (1C Po) ;
+# ----- #
+	##Gu lij Stállo akt SÁME påjkåv válldám.
+	##idtjij vil biesa STÁLO luhte.
+	##ja dä sån lijjkij dav STÁLO tjalme nala.
+	##ja dä sån lijjkij dav STÁLO tjilmij nala.
 
-	##Gu lij Stállo akt sáme påjkåv válldám.
-	##idtjij vil biesa Stálo luhte.
-	##ja dä sån lijjkij dav Stálo tjalme nala.
-	##ja dä sån lijjkij dav Stálo tjilmij nala.
+#if there is no full NP (eg: with noun) or Po in slot directly after, then choose nom.pl
+SELECT:NomPlnoPo Gen IF (1C Po) ;
+
+#if the following slot has a noun, choose gen.sg
+SELECT:GenSgbeforeNP (Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
+
 
 
 
