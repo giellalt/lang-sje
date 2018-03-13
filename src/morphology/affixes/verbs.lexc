@@ -124,6 +124,17 @@ LEXICON V_EVEN_A_WK
 +PrsPrc:%>ja #;
 
 
+LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
++V:	V_GILGIJ_FORMS ;
+
+LEXICON V_GILGIJ_FORMS !see above
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmen #;
++Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du3:%>j 3DUPRT ;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
+
 
 LEXICON V_EVEN_O !viessot, årrot
 +V:     V_EVEN_O_STR ;
