@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - gallgat: # Verb 'shall'
+     gallgat+V+Inf: gallgat
+     gallgat+V+Ind+Prs+Sg1: galgav
+     gallgat+V+Ind+Prs+Sg2: galga
+     gallgat+V+Ind+Prs+Sg3: gallga
+     gallgat+V+Ind+Prs+Du1: gillgin
+     gallgat+V+Ind+Prs+Du2: gallgabehtin #, gallgabähtten]
+     gallgat+V+Ind+Prs+Du3: [gallgaba, gallgaban]
+     gallgat+V+Ind+Prs+Pl1: gallgap
+     gallgat+V+Ind+Prs+Pl2: gallgabehtit #, gallgabähttet]
+     gallgat+V+Ind+Prs+Pl3: gillgi
+
+     gallgat+V+Ind+Prt+Sg1: gillgiv
+     gallgat+V+Ind+Prt+Sg2: gillgi
+     gallgat+V+Ind+Prt+Sg3: [galgaj, gilgij]
+     gallgat+V+Ind+Prt+Du1: [galgajmen, gilgijmen]
+     gallgat+V+Ind+Prt+Du2: [galgajden, gilgijden]
+     gallgat+V+Ind+Prt+Du3: [galgajga, galgajgan, gilgijga, gilgijgan]
+     gallgat+V+Ind+Prt+Pl1: [galgajme, gilgijme]
+     gallgat+V+Ind+Prt+Pl2: [galgajde, gilgijde]
+     gallgat+V+Ind+Prt+Pl3: gillgin
+
+     gallgat+V+Imp+Sg2: galga  
+     gallgat+V+Imp+Du2: dahken
+     gallgat+V+Imp+Pl2: gillgit
+
+#     gallgat+V+Pot+Sg1: gillgitjav
+#     gallgat+V+Pot+Sg2: gillgitja
+#     gallgat+V+Pot+Sg3: gillgitj
+#     gallgat+V+Pot+Du1: gillgitjin
+#     gallgat+V+Pot+Du2: gillgitjähppen]
+#     gallgat+V+Pot+Du3: gillgitjiebá
+#     gallgat+V+Pot+Pl1: gillgitjip
+#     gallgat+V+Pot+Pl2: gillgitjihpit
+#     gallgat+V+Pot+Pl3: gillgitji
+
+     gallgat+V+ConNeg: galga 
+     gallgat+V+GerI: galgadin 
+#     gallgat+V+Sup: galgatjit
+#     gallgat+V+Vabe: gallgak  
+     gallgat+V+Vgen: galga 
+     gallgat+V+GerII: gallgamin
+     gallgat+V+PrfPrc: gallgam
+#     gallgat+V+PrsPrc: gallga 
+#     gallgat+V+Vsubst: gallgam
+
