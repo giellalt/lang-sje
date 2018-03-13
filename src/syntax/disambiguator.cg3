@@ -198,9 +198,11 @@ REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
 	##idtjij vil biesa STÁLO luhte.
 	##ja dä sån lijjkij dav STÁLO tjalme nala.
 	##ja dä sån lijjkij dav STÁLO tjilmij nala.
+	#also pronouns:
+	##båtsoj máhtta DUV nala båhtet
 
-#if there is no full NP (eg: with noun) or Po in slot directly after, then choose nom.pl
-SELECT:NomPlnoPo Gen IF (1C Po) ;
+#NP (incl. pronouns) preceding certain Po is Gen # actually more general than just gen.sg/nom.pl
+SELECT:genb4Po Gen IF (1C Po) ;
 
 #if the following slot has a noun, choose gen.sg
 SELECT:GenSgbeforeNP (Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
