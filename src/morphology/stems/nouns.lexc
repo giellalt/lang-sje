@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-14T09:06:51+01:00
+! Timestamp: 2018-03-14T09:19:47+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1250,8 +1250,8 @@ täkksta:tiekksta N_EVEN "text" ; ! no. 4620
 udnátjbäjjve:udnátj#biejjve N_EVEN "today" ; ! no. 5612
 ugrásse:ugrásse N_EVEN "weed" ; ! no. 2755
 ukksa:ukksa N_EVEN "door, gate" ; ! no. 2022
-uksarájjge:uksa#rájjge N_EVEN "doorframe" ; ! no. 3938
-uksáhkka:uks#áhkka N_EVEN "goddess who protects children" ; ! no. 4324
+ukksarájjge:uksa#rájjge N_EVEN "doorframe" ; ! no. 3938
+ukksáhkka:uks#áhkka N_EVEN "goddess who protects children" ; ! no. 4324
 ulla:ulla N_EVEN "greed, desire" ; ! no. 90371
 ullgurijjka:ullgu#rijjka N_EVEN "abroad" ; ! no. 5165
 universitähtta:universitiehtta N_EVEN "university" ; ! no. 5503
@@ -1633,7 +1633,7 @@ tsabbe:tsabbe N_EVEN_NOCG "lower marrowbone on the front leg of a reindeer" ; ! 
 tsagge:tsagge N_EVEN_NOCG "forked stick" ; ! no. 3624
 tsuadtsa:tsu^Odtsa N_EVEN_NOCG "film, membrane on meat" ; ! no. 2962
 tsuobbo:tsu^Obbo N_EVEN_NOCG "frog" ; ! no. 2981
-uksatsagge:uksa#tsagge N_EVEN_NOCG "door frame" ; ! no. 2023
+ukksatsagge:uksa#tsagge N_EVEN_NOCG "door frame" ; ! no. 2023
 vahtjobägga:vahtjo#biegga N_EVEN_NOCG "biting wind" ; ! no. 2056
 vanasradde:vanas#radde N_EVEN_NOCG "boat railing" ; ! no. 3376
 vádtsemsåbbe:vádtsem#såbbe N_EVEN_NOCG "walking stick" ; ! no. 2048
