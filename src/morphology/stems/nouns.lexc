@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-12T19:43:29+01:00
+! Timestamp: 2018-03-14T09:06:51+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -213,6 +213,7 @@ bukstávva:bukstávva N_EVEN "letter of the alphabet" ; ! no. 3364
 bulla:bulla N_EVEN "bread roll, bun" ; ! no. 90705
 bullki:bullki N_EVEN "sled" ; ! no. 2535
 bunndi:bunndi N_EVEN "farmer" ; ! no. 205
+bunndudahka:buhkudahka N_EVEN "wealth" ; ! no. 90535
 buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
 buogŋa:bu^Ogŋa N_EVEN "space above the belt in a Saami frock" ; ! no. 3023
 buohtja:bu^Ohtja N_EVEN "penis" ; ! no. 4538
@@ -431,6 +432,7 @@ gieres+N+Der/State:gieresvu^Ohta N_EVEN "love" ; ! no. 620
 giesse:giesse N_EVEN "summer" ; ! no. 599
 giesseájjge:giesse#ájjge N_EVEN "summer time" ; ! no. 4828
 giesselåhpe:giesse#låhpe N_EVEN "summer vacation" ; ! no. 5855
+gietjaldahka:giehkaldahka N_EVEN "hinge" ; ! no. 4841
 gietjobäjjve:gietjo#biejjve N_EVEN "the whole day" ; ! no. 4376
 gietsvuolle:giets#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
 gijjle:gijjle N_EVEN "dowry" ; ! no. 6037
@@ -907,6 +909,7 @@ råbme:råbme N_EVEN "scurf, worms" ; ! no. 6891
 råhkå:råhkå N_EVEN "rye" ; ! no. 90304
 råhkåd+N+Der/Ag:råhkådieddje N_EVEN "worshipper, adorer" ; ! no. 4289
 råhtje:råhtje N_EVEN "stream valley" ; ! no. 1459
+råmmså:råmmså N_EVEN "Tromsø" ; ! no. 90869
 rumma+Use/NG:råm'må N_EVEN "room" ; ! no. 90704
 råssne:råssne N_EVEN "vapor from open water during cold weather" ; ! no. 2669
 råvve:råvve N_EVEN "bridge, stoop for a cabin" ; ! no. 1461
@@ -1227,6 +1230,7 @@ tjårvegiehtje:tjårve#giehtje N_EVEN "tip (of reindeer antler)" ; ! no. 2374
 tjårvemåhkke:tjårve#måhkke N_EVEN "bend in reindeer antlers" ; ! no. 2379
 tjåsskå:tjåsskå N_EVEN "small chunk of fish used to prepare as food" ; ! no. 1882
 tjåvded+N+Der/Ag:tjåvdedieddje N_EVEN "liberator" ; ! no. 3234
+tjäbbudahka:tjä2hkudahka N_EVEN "decoration" ; ! no. 3568
 tjäkksa:tjiekksa N_EVEN "omasum (reindeer's third stomach)" ; ! no. 2850
 tjäkksa:tjiekksa N_EVEN "cookie" ; ! no. 5219
 tjällde:tjiellde N_EVEN "reindeer herding cooperative" ; ! no. 1985
@@ -1248,11 +1252,12 @@ ugrásse:ugrásse N_EVEN "weed" ; ! no. 2755
 ukksa:ukksa N_EVEN "door, gate" ; ! no. 2022
 uksarájjge:uksa#rájjge N_EVEN "doorframe" ; ! no. 3938
 uksáhkka:uks#áhkka N_EVEN "goddess who protects children" ; ! no. 4324
-ulgurijjka:ulgu#rijjka N_EVEN "abroad" ; ! no. 5165
 ulla:ulla N_EVEN "greed, desire" ; ! no. 90371
+ullgurijjka:ullgu#rijjka N_EVEN "abroad" ; ! no. 5165
 universitähtta:universitiehtta N_EVEN "university" ; ! no. 5503
 uŋŋga:uŋŋga N_EVEN "youth, child" ; ! no. 4186
-uuddnugis+N+Der/State:uuddnugisvu^Ohta N_EVEN "envy" ; ! no. 3178
+urudahka:uhkudahka N_EVEN "settlement, camp" ; ! no. 3391
+uudnogis+N+Der/State:uudnogisvu^Ohta N_EVEN "envy" ; ! no. 3178
 vahkkogiehtje:vahkko#giehtje N_EVEN "end of the week, weekend" ; ! no. 5356
 vallda:vallda N_EVEN "mountain meadow" ; ! no. 4084
 vanashuvvsa:vanas#huvvsa N_EVEN "boat house" ; ! no. 2621
@@ -1439,7 +1444,7 @@ tjuoladak:tju^Oladag2 N_EVEN4 "clear-cut area" ; ! no. 1933
 tjårrågatj:tjårrågatj N_EVEN4 "small group of reindeer" ; ! no. 3912
 tsaskadak:tsaskadag2 N_EVEN4 "spring snow which neither holds one up nor breaks" ; ! no. 3195
 unnagatj:unnagatj N_EVEN4 "small" ; ! no. 5353
-urudak:urudag2 N_EVEN4 "residence, camp" ; ! no. 3341
+urudahka+Use/NG:urudag2 N_EVEN4 "settlement, camp" ; ! no. 3341
 vaddáldak:vaddáldag2 N_EVEN4 "talent, skill, gift" ; ! no. 3105
 vierdádak:vierdádag2 N_EVEN4 "clear-cut area" ; ! no. 2121
 visjulatj:visjulatj N_EVEN4 "enemy" ; ! no. 2131

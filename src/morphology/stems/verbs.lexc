@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-13T16:17:19+01:00
+! Timestamp: 2018-03-14T09:07:04+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -784,7 +784,7 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 årodahttet:årodahtt V_EVEN_E "be habitable" ; ! no. 3226
 årret:årr V_EVEN_E "sleep" ; ! no. 2267
 åsstet:åsst V_EVEN_E "buy" ; ! no. 3918
-åvdånahttet:åvdånahtt V_EVEN_E "propose, present" ; ! no. 5815
+åvvdånahttet:åvvdånahtt V_EVEN_E "propose, present" ; ! no. 5815
 ähttset:iehtts V_EVEN_E "love" ; ! no. 2286
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
 agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
@@ -1694,6 +1694,7 @@ värránit:vä2rrán V_ODD "worsen" ; ! no. 3286
 åsestit:åsest V_ODD "buy, shop" ; ! no. 2467
 åssålit:åssål V_ODD "collect, gather" ; ! no. 3814
 åtsådit:åtsåd V_ODD "investigate, research, search for" ; ! no. 2238
+åvdedit:åvded V_ODD "move ahead, progress, develop" ; ! no. 90870
 åvvdånit:åvvdån V_ODD "advance, progress" ; ! no. 3148
 äjbmudit:ä2jbmud V_ODD "manage to do something" ; ! no. 3281
 ärrusit:ä2rrus V_ODD "not able to find a solution, be baffled" ; ! no. 2289
