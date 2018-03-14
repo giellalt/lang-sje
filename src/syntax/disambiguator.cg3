@@ -172,6 +172,8 @@ LIST HYPHEN = "-" ;
 LIST ¶ = ¶;
 
 
+SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
+
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 ##!! * The set COPULAS is for predicative constructions
@@ -239,10 +241,15 @@ SELECT:genb4Po Gen IF (1C Po) ;
 #if the following slot has a noun, choose gen.sg
 SELECT:GenSgbeforeNP (Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 
-
+#add subj tags to NPs
 MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
 
+#subject in Sg(3) triggers 3sg on finite V
 SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC);
+	##båtsoj älgij	#not a very useful example
 
+#remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
+REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER S-BOUNDARY);
+	##Dä dån ådtjo MUV TJILMIJD lägit.
 
 
