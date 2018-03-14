@@ -155,7 +155,13 @@ LIST PAR = PAR ;
 
 
 
-
+# Punctuation
+# ----------------
+ 
+LIST COMMA = "," ;
+LIST CITATION = """ ; #"
+LIST HYPHEN = "-" ;
+LIST ¶ = ¶;
 
 # ============== #
 # Disambiguation #
@@ -170,8 +176,15 @@ LIST PAR = PAR ;
 
 # Negation rules
 
+#examples from N-Saami:
+SET S-BOUNDARY  = (Pron Interr) OR (Pron Rel) OR ("men") OR ("dä" CC) OR ("\;") OR (":") OR ("-") OR ("–") OR CS ;
+#LIST MO-MANge = "goas" "gokko" "gos" "gosa" "govt" ("got" Adv) ("guđe ládje" Adv) "makkár" "man" ("man ládje" Adv) "manne" "mo" "mot" "mov" "movt" ("nugo" @CVP) (V Qst);
+#SET MO = MO-MANge - ("man" Foc/ge) ;
+
+
 
 SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER V) ;
+REMOVE:ConNeg4 ConNeg IF (NOT *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
 	## Beispiel (am besten ein langes Beispiel)
 	#$ Gegenbeispiel
 SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
