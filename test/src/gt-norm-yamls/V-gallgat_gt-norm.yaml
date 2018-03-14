@@ -31,9 +31,9 @@ Tests:
      gallgat+V+Ind+Prt+Pl2: [galgajde, gilgijde]
      gallgat+V+Ind+Prt+Pl3: gillgin
 
-     gallgat+V+Imp+Sg2: galga  
-     gallgat+V+Imp+Du2: dahken
-     gallgat+V+Imp+Pl2: gillgit
+     gallgat+V+Imprt+Sg2: galga
+     gallgat+V+Imprt+Du2: gallgen
+     gallgat+V+Imprt+Pl2: gillgit
 
 #     gallgat+V+Pot+Sg1: gillgitjav
 #     gallgat+V+Pot+Sg2: gillgitja
