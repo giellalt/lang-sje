@@ -154,6 +154,14 @@ LIST HYPH = HYPH ;
 LIST PAR = PAR ;
 
 
+# Syntactic tags
+# -----------------
+
+LIST @SUBJ> = @SUBJ> ; 
+LIST @<SUBJ = @<SUBJ ;
+LIST @SPRED> = @SPRED> ;
+LIST @<SPRED = @<SPRED ;
+
 
 # Punctuation
 # ----------------
@@ -162,6 +170,17 @@ LIST COMMA = "," ;
 LIST CITATION = """ ; #"
 LIST HYPHEN = "-" ;
 LIST ¶ = ¶;
+
+
+##from north saami
+#LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
+##!! * The set COPULAS is for predicative constructions
+#LIST COPULAS = "dáidit" "gártat" "leat" "soaitit" "šaddat" "orrut" "veadjit" "liehket" "sjaddat" "lea" "sjïdtedh" ;
+
+
+SET V-MOOD = Ind OR Pot OR Imprt OR Cond ;
+
+SET VFIN = V-MOOD ;
 
 # ============== #
 # Disambiguation #
@@ -221,7 +240,9 @@ SELECT:genb4Po Gen IF (1C Po) ;
 SELECT:GenSgbeforeNP (Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 
 
+MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
 
+SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC);
 
 
 
