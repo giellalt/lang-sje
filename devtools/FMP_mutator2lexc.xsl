@@ -260,7 +260,7 @@ gåbbde A_EVEN_B ;
 hiedjo A_EVEN_B ; ! poor?
 järrme A_EVEN_B ;
 järbme A_EVEN_B ;
-maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
+!maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
 sjnuttjo A_EVEN_NOCG_S ;
 tjåvvgå A_EVEN_IES ;
