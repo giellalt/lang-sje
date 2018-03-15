@@ -180,12 +180,25 @@ SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 ##!! * The set COPULAS is for predicative constructions
-#LIST COPULAS = "dáidit" "gártat" "leat" "soaitit" "šaddat" "orrut" "veadjit" "liehket" "sjaddat" "lea" "sjïdtedh" ;
+LIST COPULAS = "sjaddat" "lä" ;
 
 
 SET V-MOOD = Ind OR Pot OR Imprt OR Cond ;
 
 SET VFIN = V-MOOD ;
+
+
+SET NOT-COP-V = V - COPULAS ;
+
+LIST MOD-ASP = "áigut" "bállet" "berret" "dáidit" "fertet" "galgat" "gillet" "lávet" "sáhttit" "seahtit" "soaitit" "viggat" ;
+
+LIST AUX-OR-MAIN = "áigut" "álgit" "beassat" "galgat" "háliidit" "máhttit" "ollit" "orrut" "sihtat" "veadjit"; #"nagodit"  "nagadit" "
+
+SET AUX = COPULAS OR Neg OR MOD-ASP OR AUX-OR-MAIN ;
+
+SET VFIN-NOT-AUX = VFIN - AUX ;
+
+
 
 #SET AdjP = A OR 
 
@@ -258,13 +271,13 @@ SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
 #add subj tags to NPs
-MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
+#MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
 
 #subject in Sg(3) triggers 3sg on finite V after
-SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC);
+#SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC);
 	##båtsoj älgij	#not a very useful example
 #subject in Sg(3) triggers 3sg on finite V before
-SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
+#SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
 	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
 
 
@@ -286,7 +299,18 @@ MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
 
 
 
+#!! !!!Mapping rules
 
+#!! !!Mapping CC
+
+
+#!! * __CCasCNPCVP__ Map (@CNP @CVP) to CC
+MAP:CCasCNPCVP (@CNP @CVP) TARGET CC ;
+
+#!! !!Mapping verbs
+#!! * __+FMAINVinfv__ maps to main verb followed by inf
+MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
+	#$ Liná liikui sárgut ja tennjet.
 
 
 
