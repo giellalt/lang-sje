@@ -27,7 +27,6 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 				root.lexc \
 				compounding.lexc \
-				stems/abbreviations.lexc \
 				stems/adjectives.lexc \
 				stems/adpositions.lexc \
 				stems/adverbs.lexc \
@@ -45,7 +44,8 @@ GT_LEXC_SRCS_L1_L2=\
 				affixes/nouns.lexc \
 				affixes/verbs.lexc \
 				clitics.lexc 
-
+# removed for temporary testing purposes (until sje gets some written texts!)
+#				stems/abbreviations.lexc \
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
 # L2 respectively. L2 files must end in "*-L2.lexc". See SME for an example.
