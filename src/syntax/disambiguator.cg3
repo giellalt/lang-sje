@@ -67,6 +67,7 @@ LIST Pcle = Pcle ;
 LIST Qst = Qst ; 
 LIST Num = Num ; 
 LIST Prop = Prop ;
+LIST Interj = Interj ;
 
 # POS sub-categories
 # ------------------
@@ -80,6 +81,7 @@ LIST Refl = Refl ;
 LIST Rel = Rel ;
 LIST Interj = Interj ; 
 LIST Adp = Adp ;
+LIST ABBR = ABBR ;
 
 
 # Morphosyntactic properties
@@ -161,6 +163,7 @@ LIST @SUBJ> = @SUBJ> ;
 LIST @<SUBJ = @<SUBJ ;
 LIST @SPRED> = @SPRED> ;
 LIST @<SPRED = @<SPRED ;
+LIST @>N = @>N ;
 
 
 # Punctuation
@@ -183,6 +186,18 @@ SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
 SET V-MOOD = Ind OR Pot OR Imprt OR Cond ;
 
 SET VFIN = V-MOOD ;
+
+#SET AdjP = A OR 
+
+
+# any word
+LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num \? ;
+
+SET PRE-NP-HEAD = (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
+         Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
+         (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
+SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
+
 
 # ============== #
 # Disambiguation #
@@ -239,17 +254,49 @@ REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
 SELECT:genb4Po Gen IF (1C Po) ;
 
 #if the following slot has a noun, choose gen.sg
-SELECT:GenSgbeforeNP (Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
+SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
+REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
 #add subj tags to NPs
 MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
 
-#subject in Sg(3) triggers 3sg on finite V
+#subject in Sg(3) triggers 3sg on finite V after
 SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC);
 	##båtsoj älgij	#not a very useful example
+#subject in Sg(3) triggers 3sg on finite V before
+SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
+	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
+
 
 #remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
 REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER S-BOUNDARY);
 	##Dä dån ådtjo MUV TJILMIJD lägit.
+
+#"<nuoramus>"
+#	"nuorra" A Superl Sg Nom
+#	"nuorra" A Superl Attr
+#"<bärdnijn>"
+#	"bárdne" N Pl Ine
+#	"bárdne" N Sg Com
+#choose attr when followed by (adj)(adv+adj)N
+SELECT:attrB4N (A Attr) IF (1 N OR (Attr N));
+
+#tag A Attr as N modifier
+MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
