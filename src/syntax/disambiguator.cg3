@@ -315,6 +315,20 @@ MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 
 
 
+#!! !!Add language code
+
+SUBSTITUTE (A) (A <sje>) WORD ; 
+SUBSTITUTE (N) (N <sje>) WORD ; 
+SUBSTITUTE (Adv) (Adv <sje>) WORD ; 
+SUBSTITUTE (V) (V <sje>) WORD ; 
+SUBSTITUTE (Num) (Num <sje>) WORD ; 
+SUBSTITUTE (Interj) (Interj <sje>) WORD ; 
+SUBSTITUTE (Po) (Po <sje>) WORD ; 
+SUBSTITUTE (Pr) (Pr <sje>) WORD ; 
+SUBSTITUTE (Pron) (Pron <sje>) WORD ; 
+SUBSTITUTE (CC) (CC <sje>) WORD ; 
+SUBSTITUTE (CS) (CS <sje>) WORD ; 
+SUBSTITUTE (Pcle) (Pcle <sje>) WORD ; 
 
 
 
