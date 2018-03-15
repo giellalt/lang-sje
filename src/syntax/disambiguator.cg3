@@ -223,15 +223,15 @@ SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
               # Cycle 3: Global disambiguation 
 
 
-# Negation rules
-
 #examples from N-Saami:
 SET S-BOUNDARY  = (Pron Interr) OR (Pron Rel) OR ("men") OR ("dä" CC) OR ("\;") OR (":") OR ("-") OR ("–") OR CS ;
 #LIST MO-MANge = "goas" "gokko" "gos" "gosa" "govt" ("got" Adv) ("guđe ládje" Adv) "makkár" "man" ("man ládje" Adv) "manne" "mo" "mot" "mov" "movt" ("nugo" @CVP) (V Qst);
 #SET MO = MO-MANge - ("man" Foc/ge) ;
 
 
+#!! !Negation rules
 
+#!! * __ConNeg3__ conneg form when neg-verb to the left
 SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER V) ;
 REMOVE:ConNeg4 ConNeg IF (NOT *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
 	## Beispiel (am besten ein langes Beispiel)
