@@ -285,8 +285,8 @@ SELECT:NomSG-B4-FinVSg (N Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC);
 
 
 #for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
-SELECT Prop IF (0 LINK *-1 WORD) ;
-REMOVE Prop IF (0 LINK *-1 BOS BARRIER WORD) ;
+#SELECT Prop IF (0 LINK *-1 WORD) ;
+#REMOVE Prop IF (0 LINK *-1 BOS BARRIER WORD) ;
 
 
 
