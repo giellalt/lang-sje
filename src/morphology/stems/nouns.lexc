@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-14T09:19:47+01:00
+! Timestamp: 2018-03-16T08:27:06+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -42,7 +42,7 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 ålmáj:ålm N_CONTR_AJA "man, guy" ; ! no. 5222
 ålmáj+Use/NG:ålbm N_CONTR_AJA "man, guy" ; ! no. 90762
 bálges:bállg N_CONTR_ESA "trail, path" ; ! no. 129
-biejveldisbálges:biejveldis#bállg N_CONTR_ESA "the sunny side of the street" ; ! no. 5659
+biejveldisbálges:biejveldis#bállg N_CONTR_ESA "trail on a sun-facing slope" ; ! no. 5659
 bierdnes:bierdn N_CONTR_ESA "mid-plate on skis where shoes are placed" ; ! no. 3718
 fáles:fáll N_CONTR_ESA "whale" ; ! no. 467
 giehpes:giehpp N_CONTR_ESA "lung" ; ! no. 608
@@ -1402,7 +1402,6 @@ dahkamus:dahkamus N_EVEN4 "task" ; ! no. 3268
 duorastak:du^Orastag2 N_EVEN4 "Thursday" ; ! no. 401
 dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 4803
 därbulatj:dä2rbulatj N_EVEN4 "need" ; ! no. 3242
-fämulatj:fä2mulatj N_EVEN4 "strong, powerful person" ; ! no. 3344
 gahpadak:gahpadag2 N_EVEN4 "woven ribbon with a alternating 'jumping' pattern" ; ! no. 6874
 gatjaldak:gatjaldag2 N_EVEN4 "question" ; ! no. 573
 gájolatj:gájolatj N_EVEN4 "Kven" ; ! no. 90546
