@@ -12,9 +12,20 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! Properhoun, toy file only
+!! Propernoun, toy file only
+
+!+Prop
+!+Sem/Fem (female)
+!+Sem/Mal (male)
+!+Sem/Ani (animal)
+!+Sem/Sur (surname)
+!+Sem/Plc (place)
+!+Sem/Org (organisation)
+!+Sem/Obj (film, book, etc.)
 
 LEXICON ProperNoun   !!= * __@CODE@__
-Ann-Charlotte N_EVEN ;
+!Ann-Charlotte N_EVEN ;
 Gálldesbuovvda N_EVEN "xxx" ;
-Vuodna N_EVEN "n Norge" ;
+Vuodna:Vu^Odna N_EVEN "Norge" ; !in stems/nouns.lexc, too (at least as non-proper noun for fjord)!
+Änntse:Ienntse N_EVEN "Änntse" ;
+Jåssjå N_EVEN "Josh" ;
