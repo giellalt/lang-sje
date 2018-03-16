@@ -63,8 +63,7 @@ LEXICON V_EVEN_E_WK
 +ConNeg:%>0 # ; 
 +Vgen:%>0 #;  
 !+Sup:%>tjit # ;
-!+Pot:%>otj V_ODD_IND_PRS ; !update later
-!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
++Pot:%>tj V_EVEN_POT ; 
 
 LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Sg3: #;
@@ -118,9 +117,8 @@ LEXICON V_EVEN_A_WK
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
 +ConNeg:%>0 # ; 
-!+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
-!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
++Pot:%>tj V_EVEN_POT ;
 +PrsPrc:%>ja #;
 
 
@@ -178,9 +176,8 @@ LEXICON V_EVEN_O_WK
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
 +ConNeg:%>0 # ; 
-!+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
-!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
++Pot:%>tj V_EVEN_POT ; 
 
 
 LEXICON V_EVEN_Å !viessot, årrot
@@ -225,10 +222,23 @@ LEXICON V_EVEN_Å_WK
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
 +ConNeg:%>0 # ; 
-!+Pot:%>otj V_ODD_IND_PRS ; !update later
 +Vgen:%>0 #;  
-!+Pot:u%>tj V_ODD ; !but should only trigger +Ind+Prs forms!
++Pot:%>tj V_EVEN_POT ; 
 
+
+
+!POT forms for V_EVEN_
+LEXICON V_EVEN_POT !
++Sg1:a%>v #;
++Sg2:a%>0 #;
++Sg3:a%>0 #;
++Sg3+Use/NG:%>0 #;
++Du1:i%>n #; 
++Du2:ä%>hppen #;
++Du3:e%>ba #;
++Pl1:i%>p #;
++Pl2:i%>hppit #;
++Pl3:i%>0 #; 
 
 
 
@@ -268,8 +278,24 @@ LEXICON V_ODD !ságastit
 !+V+Vsubst:a%>m #; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
-!+V+Pot:o%>otj V_ODD_IND_PRS ; !update later
 !+V+Vgen:e%>0 #;  
+
+!V_ODD POT forms -- check!
++V+Pot:a%>tj V_ODD_POT ;
+
+!POT forms for V_ODD
+LEXICON V_ODD_POT !
+!+Sg1:a%>v #;
+!+Sg2:a%>0 #;
++Sg3:a%>0 #;
++Sg3+Use/NG:%>0 #;
+!+Du1:i%>n #; 
+!+Du2:ä%>hppen #;
+!+Du3:e%>ba #;
+!+Pl1:i%>p #;
+!+Pl2:i%>hppit #;
+!+Pl3:i%>0 #; 
+
 
 
 
@@ -309,9 +335,23 @@ LEXICON V_CONTR !välldut, tjerrut
 !+V+Vsubst:%>m #; 
 !+V+GerI:%>din # ;  
 !+V+Sup:%>tjit # ;
-!+V+Pot:%>otj V_ODD_IND_PRS ; !update later
 !+V+Vgen:%>0 #;  
 
+!V_CONTR POT forms -- check!
++V+Pot:%>tj V_CONTR_POT ;
+
+!POT forms for V_CONTR
+LEXICON V_CONTR_POT !
++Sg1:a%>v #;
++Sg2:a%>0 #;
++Sg3:a%>0 #;
++Sg3+Use/NG:%>0 #;
++Du1:i%>n #; 
++Du2:ä%>hppen #;
++Du3:e%>ba #;
++Pl1:i%>p #;
++Pl2:i%>hppit #;
++Pl3:i%>0 #; 
 
 
 
