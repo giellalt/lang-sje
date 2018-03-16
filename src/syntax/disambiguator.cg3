@@ -180,7 +180,7 @@ SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 ##!! * The set COPULAS is for predicative constructions
-LIST COPULAS = "sjaddat" "lä" ;
+LIST COPULAS = "sjaddat" "lä" "gallgat";
 
 
 SET V-MOOD = Ind OR Pot OR Imprt OR Cond ;
@@ -271,26 +271,29 @@ SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
 #add subj tags to NPs
+#MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
 #MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
 
 #subject in Sg(3) triggers 3sg on finite V after
-#SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC);
+SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg OR Sg3 BARRIER S-BOUNDARY OR CC);
 	##båtsoj älgij	#not a very useful example
 #subject in Sg(3) triggers 3sg on finite V before
 #SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
 	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
+#select Nom Sg reading if followed by a Fin-V in 3sg
+SELECT:NomSG-B4-FinVSg (N Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC);
+
+
+#for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
+SELECT Prop IF (0 LINK *-1 WORD) ;
+REMOVE Prop IF (0 LINK *-1 BOS BARRIER WORD) ;
+
 
 
 #remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
 REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER S-BOUNDARY);
 	##Dä dån ådtjo MUV TJILMIJD lägit.
 
-#"<nuoramus>"
-#	"nuorra" A Superl Sg Nom
-#	"nuorra" A Superl Attr
-#"<bärdnijn>"
-#	"bárdne" N Pl Ine
-#	"bárdne" N Sg Com
 #choose attr when followed by (adj)(adv+adj)N
 SELECT:attrB4N (A Attr) IF (1 N OR (Attr N));
 
@@ -309,6 +312,7 @@ MAP:CCasCNPCVP (@CNP @CVP) TARGET CC ;
 
 #!! !!Mapping verbs
 #!! * __+FMAINVinfv__ maps to main verb followed by inf
+#FiniteMAINVerb
 MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 	#$ Liná liikui sárgut ja tennjet.
 
@@ -317,18 +321,18 @@ MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 
 #!! !!Add language code
 
-SUBSTITUTE (A) (A <sje>) WORD ; 
-SUBSTITUTE (N) (N <sje>) WORD ; 
-SUBSTITUTE (Adv) (Adv <sje>) WORD ; 
-SUBSTITUTE (V) (V <sje>) WORD ; 
-SUBSTITUTE (Num) (Num <sje>) WORD ; 
-SUBSTITUTE (Interj) (Interj <sje>) WORD ; 
-SUBSTITUTE (Po) (Po <sje>) WORD ; 
-SUBSTITUTE (Pr) (Pr <sje>) WORD ; 
-SUBSTITUTE (Pron) (Pron <sje>) WORD ; 
-SUBSTITUTE (CC) (CC <sje>) WORD ; 
-SUBSTITUTE (CS) (CS <sje>) WORD ; 
-SUBSTITUTE (Pcle) (Pcle <sje>) WORD ; 
+#SUBSTITUTE (A) (A <sje>) WORD ; 
+#SUBSTITUTE (N) (N <sje>) WORD ; 
+#SUBSTITUTE (Adv) (Adv <sje>) WORD ; 
+#SUBSTITUTE (V) (V <sje>) WORD ; 
+#SUBSTITUTE (Num) (Num <sje>) WORD ; 
+#SUBSTITUTE (Interj) (Interj <sje>) WORD ; 
+#SUBSTITUTE (Po) (Po <sje>) WORD ; 
+#SUBSTITUTE (Pr) (Pr <sje>) WORD ; 
+#SUBSTITUTE (Pron) (Pron <sje>) WORD ; 
+#SUBSTITUTE (CC) (CC <sje>) WORD ; 
+#SUBSTITUTE (CS) (CS <sje>) WORD ; 
+#SUBSTITUTE (Pcle) (Pcle <sje>) WORD ; 
 
 
 
