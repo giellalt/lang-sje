@@ -68,6 +68,7 @@
   <xsl:when test="$PoS_Samica = 'adj'"><xsl:value-of select="'adj'"/></xsl:when>
   <xsl:when test="$PoS_Samica = 'post'"><xsl:value-of select="'post'"/></xsl:when>
   <xsl:when test="$PoS_Samica = 'adv'"><xsl:value-of select="'adv'"/></xsl:when>
+  <xsl:when test="$PoS_Samica = 'egen'"><xsl:value-of select="'prop'"/></xsl:when>
   <xsl:otherwise><xsl:value-of select="'unknown'"/></xsl:otherwise>
   </xsl:choose>
 </xsl:variable>
@@ -80,6 +81,7 @@
   <xsl:when test="$PoS = 'adj'"><xsl:value-of select="'Adjective'"/></xsl:when>
   <xsl:when test="$PoS = 'post'"><xsl:value-of select="'Postposition'"/></xsl:when>
   <xsl:when test="$PoS = 'adv'"><xsl:value-of select="'Adverb'"/></xsl:when>
+  <xsl:when test="$PoS = 'prop'"><xsl:value-of select="'ProperNoun'"/></xsl:when>
   <xsl:otherwise><xsl:value-of select="'ERROR'"/></xsl:otherwise>
   </xsl:choose>
 </xsl:variable>
@@ -212,9 +214,30 @@ LEXICON Postposition   !!= * __@CODE@__ is the list
 </xsl:text>
   </xsl:when>
 
+<!-- PROPER NOUNS HEADER -->
+  <xsl:when test="$PoS = 'prop'">
+<xsl:text>
+
+!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+
+!! Propernouns
+!+Prop
+!+Sem/Fem (female)
+!+Sem/Mal (male)
+!+Sem/Ani (animal)
+!+Sem/Sur (surname)
+!+Sem/Plc (place)
+!+Sem/Org (organisation)
+!+Sem/Obj (film, book, etc.)
+
+LEXICON ProperNoun   !!= * __@CODE@__
+
+</xsl:text>
+  </xsl:when>
+
 <!-- ERROR HEADER -->
   <xsl:otherwise>
-    <xsl:value-of select="'unknown (error in header, PoS)'"/>
+    <xsl:value-of select="concat($nl,$nl,'unknown (++++ERROR in header, PoS, listed as ',$PoS,')',$nl,$nl)"/>
   </xsl:otherwise>
 </xsl:choose>
 <!--xsl:value-of select="$nl"/-->
