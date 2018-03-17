@@ -20,6 +20,7 @@
 
 Alphabet
   a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å
+  A B C D E F G H I   J K L M N Ŋ O P Q R S T U V w X Y Z Æ Ä Ø Ö Å
   á é í 
   Å Ä Ö Ø Æ Á
   Á É Ó Ú Í À È Ò Ù Ì Ë Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
@@ -415,6 +416,11 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG Vow: \%^WG: ; !bierdna->b0ärdna
+"Ä in G3 capitalized" ! Ie:0Ä (bägga, bävvde); can be word-initial
+!! __@RULENAME@__  
+e:Ä <=> I:0 _ G3 Vow: \%^WG: ; !Änntse->Ientse !for proper nouns beginning with capital Ä - Ie
+        I:0 _ Cns:+ Vow:+ %^G3: ; !
+		I:0 _ noCG Vow: \%^WG: ; !
 
 
 !!€ tjalmed%>ibme^WG
