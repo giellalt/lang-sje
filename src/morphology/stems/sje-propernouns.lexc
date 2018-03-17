@@ -11,9 +11,13 @@
 !
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
+!
+! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+! Timestamp: 2018-03-17T15:51:50+01:00
 
-!! Propernoun, toy file only
+!! !!!Pite Saami ProperNouns
 
+!! Propernouns
 !+Prop
 !+Sem/Fem (female)
 !+Sem/Mal (male)
@@ -24,8 +28,38 @@
 !+Sem/Obj (film, book, etc.)
 
 LEXICON ProperNoun   !!= * __@CODE@__
-!Ann-Charlotte N_EVEN ;
-Gálldesbuovvda N_EVEN "xxx" ;
-Vuodna:Vu^Odna N_EVEN "Norge" ; !in stems/nouns.lexc, too (at least as non-proper noun for fjord)!
-Änntse:Ienntse N_EVEN "Änntse" ;
-Jåssjå N_EVEN "Josh" ;
+
+Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
+Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
+Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
+Gåbbda:Gåbbda N_EVEN "Gåbbda" ; ! no. 90696
+Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
+Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
+Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
+Lässe:Lä2sse N_EVEN "Lars" ; ! no. 6035
+Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
+Piera:Piera N_EVEN "Per" ; ! no. 4215
+Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
+Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
+Skärrfa:Skierrfa N_EVEN "Skärrfa" ; ! no. 2809
+Svärdje:Svierdje N_EVEN "Sweden" ; ! no. 1799
+Såbma:Såbma N_EVEN "Finland" ; ! no. 1760
+Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
+Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
+Tjäggelvas:Tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
+Aleldis:Aleld N_EVEN4_ISA "Örnvik" ; ! no. 90719
+Guoledisjávvre+Use/NG:Gu^Oled N_EVEN4_ISA "Guoletisjávvre" ; ! no. 90743
+Maltegis:Malteg N_EVEN4_ISA "Maltegis" ; ! no. 1127
+Árdna:Árdna N_EVEN_NOCG "Árdna" ; ! no. 90692
+Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
+Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
+Bávval:Bávval N_ODD "Paul" ; ! no. 4637
+Bidám:Bidám N_ODD "Piteå" ; ! no. 167
+Bidám+Use/NG:Bisum N_ODD "Piteå" ; ! no. 90771
+Ruopsok:Ru^Opsog2 N_ODD "Ruopsok" ; ! no. 1436
+Tjidtják:Tjidtjág2 N_ODD "Tjidtjak" ; ! no. 6585
+Tjårvek:Tjårveg2 N_ODD "Hornavan" ; ! no. 1977
+Vuoktanj:Vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
+Åjjvak:Åjjvag2 N_ODD "Uddjaur Lake" ; ! no. 2811
+Mávas:Mávvas N_ODD_WG "Mavas" ; ! no. 90281
+Märrgit:Mierrgid2 N_ODD_WG "Margareta" ; ! no. 5974
