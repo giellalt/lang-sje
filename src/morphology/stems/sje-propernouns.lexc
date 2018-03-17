@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-17T15:51:50+01:00
+! Timestamp: 2018-03-17T16:02:20+01:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -46,6 +46,7 @@ Svärdje:Svierdje N_EVEN "Sweden" ; ! no. 1799
 Såbma:Såbma N_EVEN "Finland" ; ! no. 1760
 Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
 Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
+Änntse:Ienntse N_EVEN "Änntse" ; ! no. 90872
 Tjäggelvas:Tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
 Aleldis:Aleld N_EVEN4_ISA "Örnvik" ; ! no. 90719
 Guoledisjávvre+Use/NG:Gu^Oled N_EVEN4_ISA "Guoletisjávvre" ; ! no. 90743
