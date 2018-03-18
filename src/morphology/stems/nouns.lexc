@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-17T15:52:33+01:00
+! Timestamp: 2018-03-18T16:24:34+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -573,6 +573,7 @@ jahke:jahke N_EVEN "year" ; ! no. 906
 jallga:jallga N_EVEN "flat area" ; ! no. 90309
 jáffovuassa:jáffo#vu^Os'sa N_EVEN "flour sack" ; ! no. 4910
 jáhkka:jáhkka N_EVEN "jacket, coat" ; ! no. 907
+jahke+Use/NG:jáhpe N_EVEN "year" ; ! no. 90873
 jávvre:jávvre N_EVEN "lake" ; ! no. 2316
 jávvrebåddne:jávvre#båddne N_EVEN "lake floor" ; ! no. 4368
 jiedna:jiedna N_EVEN "voice, sound; vote" ; ! no. 921
