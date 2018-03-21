@@ -174,6 +174,7 @@ LIST CITATION = """ ; #"
 LIST HYPHEN = "-" ;
 LIST ¶ = ¶;
 
+LIST NumChar = "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ;
 
 SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
 
@@ -317,6 +318,9 @@ MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 	#$ Liná liikui sárgut ja tennjet.
 
 
+
+# remove ordinal number marking function of full-stop when not preceded by a ordinal numeral
+REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
 
 
 #!! !!Add language code
