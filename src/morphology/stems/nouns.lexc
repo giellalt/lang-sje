@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-18T16:24:34+01:00
+! Timestamp: 2018-03-21T07:29:52+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1909,7 +1909,6 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 ájlek:ájleg2 N_ODD "Sunday" ; ! no. 29
 ájlekárrat:ájlek#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 áldar:áldar N_ODD "age" ; ! no. 2719
-áldas:áldas N_ODD "leather on front top part of shoe" ; ! no. 47
 álltár:álltár N_ODD "altar" ; ! no. 3799
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
 árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
@@ -2370,6 +2369,7 @@ tsuojkos:tsu^Ojjkos N_ODD_VH "clear, visible reindeer earmark" ; ! no. 4488
 vijor:vidjor N_ODD_VH "order, context" ; ! no. 2126
 vuordnos:vu^Ordnos N_ODD_VH "denial, retraction" ; ! no. 90574
 ålol:ållol N_ODD_VH "jaw" ; ! no. 2257
+aldas:alldas N_ODD_WG "leather on front top part of shoe" ; ! no. 47
 áhtselisbålås:áhtselis#bållås N_ODD_WG "heavy rain shower" ; ! no. 15
 ánjas:ádnjas N_ODD_WG "leg tendon" ; ! no. 5832
 ávvoganjal:ávvo#gadnjal N_ODD_WG "tear of joy" ; ! no. 90633
