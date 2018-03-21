@@ -321,7 +321,7 @@ MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 
 # remove ordinal number marking function of full-stop when not preceded by a ordinal numeral
 REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
-
+    ## 4. båtsoj
 
 #!! !!Add language code
 
