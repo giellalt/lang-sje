@@ -2035,7 +2035,7 @@ LEXICON ROMNUMTAG   !!= * __@CODE@__
  +Num+Nom: # ;
  +Num+Gen: # ;
 !+Num+Acc: # ;
- +A+Ord:%. # ; !III. as ordinal.
+! +A+Ord:%. # ; !III. as ordinal. !!JW: commentet out because it added +A+Ord to all full-stops!
  +A+Ord:   # ; !Looking for trouble...
  +Num:%: ROMNUMTAGOBL  ;
  +Num:%'7 ROMNUMTAGOBL ;
