@@ -341,6 +341,11 @@ REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
 
 
 
+##### NOTES, things to work on:
+## 1. ambiguity between Iness.Pl and Com.Sg, e.g.:
+##		##mån lev vuajjdam iehtjan tjilmijd duoldaja DIRVIJN.)
+##		--> classify lexical verbs as typically expecting locatives and/or instrumental/commitatives
+
 
 
 
