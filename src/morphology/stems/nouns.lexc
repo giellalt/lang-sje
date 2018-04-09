@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-04-06T13:52:33+03:00
+! Timestamp: 2018-04-09T08:32:54+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -2023,6 +2023,7 @@ gietkam:gietkam N_ODD "Saami cradle" ; ! no. 623
 gietsol:gietsol N_ODD "snail" ; ! no. 4544
 girrjetjállej:girrje#tjállej N_ODD "author, writer" ; ! no. 4011
 gistotj:gistotj N_ODD "little box" ; ! no. 6048
+guallgamäduk:guallga#mä2dug2 N_ODD "hairy black caterpillar which becomes a butterfly" ; ! no. 5437
 guarrbaiednam:guarrba#iednam N_ODD "burned land" ; ! no. 651
 gudájagak:gudá#jagag2 N_ODD "six-year-old" ; ! no. 656
 gulitj:gulitj N_ODD "frozen person" ; ! no. 4889
