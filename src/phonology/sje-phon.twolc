@@ -146,7 +146,6 @@ Definitions
         ] ; !vowels that can trigger VH (does NOT include i2 and u2)
 
  V2E2AAtrig = [
-        0 |
         v |
         j |
         t j
