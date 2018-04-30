@@ -32,9 +32,9 @@ Tests:
      tjerrut+V+Ind+Prt+Pl2: tjerrujde
      tjerrut+V+Ind+Prt+Pl3: tjerrujin
 
-#     tjerrut+V+Imp+Sg2: tjerru          # Check!
-#     tjerrut+V+Imp+Du2: tjerrujehten    # Check!
-#     tjerrut+V+Imp+Pl2: tjerrujihttit   # Check!
+#     tjerrut+V+Imprt+Sg2: tjerru          # Check!
+#     tjerrut+V+Imprt+Du2: tjerrujehten    # Check!
+#     tjerrut+V+Imprt+Pl2: tjerrujihttit   # Check!
 
      tjerrut+V+ConNeg: tjerru
 #     tjerrut+V+GerII: tjerrumin   # Check!

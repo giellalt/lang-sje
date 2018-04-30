@@ -31,9 +31,9 @@ Tests:
      vuällget+V+Ind+Prt+Pl2: vulgijde
      vuällget+V+Ind+Prt+Pl3: vullgin
 
-     vuällget+V+Imp+Sg2: vuolge  
-     vuällget+V+Imp+Du2: vuällgen
-     vuällget+V+Imp+Pl2: vullgit
+     vuällget+V+Imprt+Sg2: vuolge  
+     vuällget+V+Imprt+Du2: vuällgen
+     vuällget+V+Imprt+Pl2: vullgit
 
      vuällget+V+ConNeg: vuolge 
      vuällget+V+GerII: vuällgemin

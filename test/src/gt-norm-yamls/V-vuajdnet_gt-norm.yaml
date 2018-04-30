@@ -31,9 +31,9 @@ Tests:
      vuäjdnet+V+Ind+Prt+Pl2: vujnijde
      vuäjdnet+V+Ind+Prt+Pl3: vujdnin
 
-     vuäjdnet+V+Imp+Sg2: vuojne  
-     vuäjdnet+V+Imp+Du2: vuäjdnen
-     vuäjdnet+V+Imp+Pl2: vujdnit
+     vuäjdnet+V+Imprt+Sg2: vuojne  
+     vuäjdnet+V+Imprt+Du2: vuäjdnen
+     vuäjdnet+V+Imprt+Pl2: vujdnit
 
      vuäjdnet+V+ConNeg: vuojne 
      vuäjdnet+V+GerII: vuäjdnemin
