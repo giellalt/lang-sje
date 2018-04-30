@@ -29,8 +29,8 @@ LEXICON V_EVEN_E !båhtet
 +V:e^WG V_EVEN_E_WK ;
 
 LEXICON V_EVEN_E_STR
-+Ind+Prs+Sg3:á%>0 #;
-!+Ind+Prs+Sg3+Err/Orth:a%>0 #; !just as an example, for possible later implementation
++Ind+Prs+Sg3:á%> #;
+!+Ind+Prs+Sg3+Err/Orth:a%> #; !just as an example, for possible later implementation
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:e%>behtin #;
 +Ind+Prs+Du2:e%>bähtten #;
@@ -38,9 +38,9 @@ LEXICON V_EVEN_E_STR
 +Ind+Prs+Pl1:e%>p #;
 +Ind+Prs+Pl2:e%>behtit #;
 +Ind+Prs+Pl2:e%>bähttet #;
-+Ind+Prs+Pl3:i%>0 #; 
++Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
-+Ind+Prt+Sg2:i%>0 #; 
++Ind+Prt+Sg2:i%> #; 
 +Ind+Prt+Pl3:i%>n #; 
 
 +Imprt+Du2:e%>n # ; 
@@ -49,19 +49,19 @@ LEXICON V_EVEN_E_STR
 +Inf:e%>t # ; 
 +GerII:e%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:á%>m # ;
-!+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
+!+PrsPrc:o%> # ; !extra starkt, hur få till det?
 +Vsubst:e%>m #; 
 
 LEXICON V_EVEN_E_WK
 +Ind+Prs+Sg1:%>v^V2E2AA #;
-+Ind+Prs+Sg2:%>0^V2E2AA #;
++Ind+Prs+Sg2:%>^V2E2AA #;
 :^IJ%>j V_EVEN_E_WK_J ; !suffixes with -j-element that trigger e->i in V2
 
-+Imprt+Sg2:%>0 #; 
++Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
-+ConNeg:%>0 # ; 
-+Vgen:%>0 #;  
++ConNeg:%> # ; 
++Vgen:%> #;  
 !+Sup:%>tjit # ;
 +Pot:%>tj V_EVEN_POT ; 
 
@@ -80,7 +80,7 @@ LEXICON V_EVEN_A !dahkat
 +V:a^WG V_EVEN_A_WK ;
 
 LEXICON V_EVEN_A_STR
-+Ind+Prs+Sg3:a%>0 #;
++Ind+Prs+Sg3:a%> #;
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:a%>behtin #;
 !+Ind+Prs+Du2:a%>bähtten #;
@@ -88,9 +88,9 @@ LEXICON V_EVEN_A_STR
 +Ind+Prs+Pl1:a%>p #;
 +Ind+Prs+Pl2:a%>behtit #;
 !+Ind+Prs+Pl2:a%>bähttet #;
-+Ind+Prs+Pl3:i%>0 #; 
++Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
-+Ind+Prt+Sg2:i%>0 #; 
++Ind+Prt+Sg2:i%> #; 
 +Ind+Prt+Pl3:i%>n #; 
 
 +Imprt+Du2:e%>n # ; 
@@ -99,12 +99,12 @@ LEXICON V_EVEN_A_STR
 +Inf:a%>t # ; 
 +GerII:a%>min # ;
 +PrfPrc:a%>m # ;
-!+PrsPrc:a%>0 # ; !extra starkt, hur få till det?
+!+PrsPrc:a%> # ; !extra starkt, hur få till det?
 !+Vsubst:a%>m #; 
 
 LEXICON V_EVEN_A_WK
 +Ind+Prs+Sg1:%>v #;
-+Ind+Prs+Sg2:%>0 #;
++Ind+Prs+Sg2:%> #;
 +Ind+Prt+Sg3:%>j #;
 +Ind+Prt+Du1:%>jmen #;
 +Ind+Prt+Du2:%>jden #;
@@ -112,12 +112,12 @@ LEXICON V_EVEN_A_WK
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
-+Imprt+Sg2:%>0 #; 
++Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
-+ConNeg:%>0 # ; 
-+Vgen:%>0 #;  
++ConNeg:%> # ; 
++Vgen:%> #;  
 +Pot:%>tj V_EVEN_POT ;
 +PrsPrc:%>ja #;
 
@@ -139,7 +139,7 @@ LEXICON V_EVEN_O !viessot, årrot
 +V:o^WG V_EVEN_O_WK ;
 
 LEXICON V_EVEN_O_STR
-+Ind+Prs+Sg3:u%>0 #;
++Ind+Prs+Sg3:u%> #;
 +Ind+Prs+Du1:u%>n #; 
 +Ind+Prs+Du2:o%>behtin #;
 +Ind+Prs+Du2:o%>bähtten #;
@@ -147,9 +147,9 @@ LEXICON V_EVEN_O_STR
 +Ind+Prs+Pl1:o%>p #;
 +Ind+Prs+Pl2:o%>behtit #;
 +Ind+Prs+Pl2:o%>bähttet #;
-+Ind+Prs+Pl3:u%>0 #; 
++Ind+Prs+Pl3:u%> #; 
 +Ind+Prt+Sg1:u%>v #; 
-+Ind+Prt+Sg2:u%>0 #; 
++Ind+Prt+Sg2:u%> #; 
 +Ind+Prt+Pl3:u%>n #; 
 
 +Imprt+Du2:o%>n # ; 
@@ -158,12 +158,12 @@ LEXICON V_EVEN_O_STR
 +Inf:o%>t # ; 
 +GerII:o%>min # ;
 +PrfPrc:u%>m # ;
-!+PrsPrc:o%>0 # ; !extra starkt, hur få till det?
+!+PrsPrc:o%> # ; !extra starkt, hur få till det?
 +Vsubst:o%>m #; 
 
 LEXICON V_EVEN_O_WK
 +Ind+Prs+Sg1:%>v #;
-+Ind+Prs+Sg2:%>0 #;
++Ind+Prs+Sg2:%> #;
 +Ind+Prt+Sg3:%>j #;
 +Ind+Prt+Du1:%>jmen #;
 +Ind+Prt+Du2:%>jden #;
@@ -171,12 +171,12 @@ LEXICON V_EVEN_O_WK
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
-+Imprt+Sg2:%>0 #; 
++Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
-+ConNeg:%>0 # ; 
-+Vgen:%>0 #;  
++ConNeg:%> # ; 
++Vgen:%> #;  
 +Pot:%>tj V_EVEN_POT ; 
 
 
@@ -185,7 +185,7 @@ LEXICON V_EVEN_Å !viessot, årrot
 +V:å^WG V_EVEN_Å_WK ;
 
 LEXICON V_EVEN_Å_STR
-+Ind+Prs+Sg3:á%>0 #;
++Ind+Prs+Sg3:á%> #;
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:å%>behtin #;
 !+Ind+Prs+Du2:å%>bähtten #;
@@ -193,9 +193,9 @@ LEXICON V_EVEN_Å_STR
 +Ind+Prs+Pl1:å%>p #;
 +Ind+Prs+Pl2:å%>behtit #;
 !+Ind+Prs+Pl2:å%>bähttet #;
-+Ind+Prs+Pl3:i%>0 #; 
++Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
-+Ind+Prt+Sg2:i%>0 #; 
++Ind+Prt+Sg2:i%> #; 
 +Ind+Prt+Pl3:i%>n #; 
 
 +Imprt+Du2:e%>n # ; 
@@ -204,12 +204,12 @@ LEXICON V_EVEN_Å_STR
 +Inf:å%>t # ; 
 +GerII:å%>min # ;
 +PrfPrc:å%>m # ;
-!+PrsPrc:å%>0 # ; !extra starkt, hur få till det?
+!+PrsPrc:å%> # ; !extra starkt, hur få till det?
 !+Vsubst:å%>m #; 
 
 LEXICON V_EVEN_Å_WK
 +Ind+Prs+Sg1:%>v #;
-+Ind+Prs+Sg2:%>0 #;
++Ind+Prs+Sg2:%> #;
 +Ind+Prt+Sg3:%>j #;
 +Ind+Prt+Du1:%>jmen #;
 +Ind+Prt+Du2:%>jden #;
@@ -217,12 +217,12 @@ LEXICON V_EVEN_Å_WK
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
 
-+Imprt+Sg2:%>0 #; 
++Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
-+ConNeg:%>0 # ; 
-+Vgen:%>0 #;  
++ConNeg:%> # ; 
++Vgen:%> #;  
 +Pot:%>tj V_EVEN_POT ; 
 
 
@@ -230,15 +230,15 @@ LEXICON V_EVEN_Å_WK
 !POT forms for V_EVEN_
 LEXICON V_EVEN_POT !
 +Sg1:a%>v #;
-+Sg2:a%>0 #;
-+Sg3:a%>0 #;
-+Sg3+Use/NG:%>0 #;
++Sg2:a%> #;
++Sg3:a%> #;
++Sg3+Use/NG:%> #;
 +Du1:i%>n #; 
 +Du2:ä%>hppen #;
 +Du3:e%>ba #;
 +Pl1:i%>p #;
 +Pl2:i%>hppit #;
-+Pl3:i%>0 #; 
++Pl3:i%> #; 
 
 
 
@@ -246,18 +246,18 @@ LEXICON V_EVEN_POT !
 
 LEXICON V_ODD !ságastit
 +V+Ind+Prs+Sg1:a%>v #;
-+V+Ind+Prs+Sg2:a%>0 #;
-+V+Ind+Prs+Sg3:a%>0 #;
-+V+Ind+Prs+Sg3+Use/NG:%>0 #;
++V+Ind+Prs+Sg2:a%> #;
++V+Ind+Prs+Sg3:a%> #;
++V+Ind+Prs+Sg3+Use/NG:%> #;
 +V+Ind+Prs+Du1:i%>n #; 
 +V+Ind+Prs+Du2:ä%>hppen #;
 +V+Ind+Prs+Du3:e%>ba #;
 +V+Ind+Prs+Pl1:i%>p #;
 +V+Ind+Prs+Pl2:i%>hppit #;
-+V+Ind+Prs+Pl3:i%>0 #; 
++V+Ind+Prs+Pl3:i%> #; 
 
 +V+Ind+Prt+Sg1:i%>v #; 
-+V+Ind+Prt+Sg2:i%>0 #; 
++V+Ind+Prt+Sg2:i%> #; 
 +V+Ind+Prt+Sg3:i%>j #;
 +V+Ind+Prt+Du1:i%>jmen #;
 +V+Ind+Prt+Du2:i%>jden #;
@@ -266,19 +266,19 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prt+Pl2:i%>jde #;
 +V+Ind+Prt+Pl3:i%>n #; 
 
-+V+Imprt+Sg2:e%>0 #; 
++V+Imprt+Sg2:e%> #; 
 +V+Imprt+Du2:e%>hten # ; 
 +V+Imprt+Pl2:i%>httit #;
 
 +V+Inf:i%>t # ; 
 +V+GerII:e%>min # ;
 +V+PrfPrc:a%>m # ;
-+V+ConNeg:e%>0 # ; 
-!+V+PrsPrc:o%>0 # ; 
++V+ConNeg:e%> # ; 
+!+V+PrsPrc:o%> # ; 
 !+V+Vsubst:a%>m #; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
-!+V+Vgen:e%>0 #;  
+!+V+Vgen:e%> #;  
 
 !V_ODD POT forms -- check!
 +V+Pot:a%>tj V_ODD_POT ;
@@ -286,15 +286,15 @@ LEXICON V_ODD !ságastit
 !POT forms for V_ODD
 LEXICON V_ODD_POT !
 !+Sg1:a%>v #;
-!+Sg2:a%>0 #;
-+Sg3:a%>0 #;
-+Sg3+Use/NG:%>0 #;
+!+Sg2:a%> #;
++Sg3:a%> #;
++Sg3+Use/NG:%> #;
 !+Du1:i%>n #; 
 !+Du2:ä%>hppen #;
 !+Du3:e%>ba #;
 !+Pl1:i%>p #;
 !+Pl2:i%>hppit #;
-!+Pl3:i%>0 #; 
+!+Pl3:i%> #; 
 
 
 
@@ -304,7 +304,7 @@ LEXICON V_ODD_POT !
 
 LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prs+Sg1:%>v #;
-+V+Ind+Prs+Sg2:%>0 #;
++V+Ind+Prs+Sg2:%> #;
 +V+Ind+Prs+Sg3:%>ja #;
 +V+Ind+Prs+Du1:%>jin #; 
 +V+Ind+Prs+Du2:%>bähttin #;
@@ -323,19 +323,19 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Pl2:%>jde #;
 +V+Ind+Prt+Pl3:%>jin #; 
 
-+V+Imprt+Sg2:%>0 #; 
++V+Imprt+Sg2:%> #; 
 !+V+Imprt+Du2:%>hten # ; 
 !+V+Imprt+Pl2:%>httit #;
 
 +V+Inf:%>t # ; 
 !+V+GerII:%>min # ;
 +V+PrfPrc:%>m # ;
-+V+ConNeg:%>0 # ; 
-!+V+PrsPrc:%>0 # ; 
++V+ConNeg:%> # ; 
+!+V+PrsPrc:%> # ; 
 !+V+Vsubst:%>m #; 
 !+V+GerI:%>din # ;  
 !+V+Sup:%>tjit # ;
-!+V+Vgen:%>0 #;  
+!+V+Vgen:%> #;  
 
 !V_CONTR POT forms -- check!
 +V+Pot:%>tj V_CONTR_POT ;
@@ -343,15 +343,15 @@ LEXICON V_CONTR !välldut, tjerrut
 !POT forms for V_CONTR
 LEXICON V_CONTR_POT !
 +Sg1:a%>v #;
-+Sg2:a%>0 #;
-+Sg3:a%>0 #;
-+Sg3+Use/NG:%>0 #;
++Sg2:a%> #;
++Sg3:a%> #;
++Sg3+Use/NG:%> #;
 +Du1:i%>n #; 
 +Du2:ä%>hppen #;
 +Du3:e%>ba #;
 +Pl1:i%>p #;
 +Pl2:i%>hppit #;
-+Pl3:i%>0 #; 
++Pl3:i%> #; 
 
 
 
