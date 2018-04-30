@@ -157,28 +157,23 @@ LEXICON ab-dot-verb   !!= * __@CODE@__
 
 LEXICON ITRAB   !!= * __@CODE@__
 
-! List the beginning of the alphabet, !
-! in order to account for numbering !
-! of paragraphs etc. !
 
 1p+Use/Circ:1p ab-noun ; ! !
 2p+Use/Circ:2p ab-noun ; ! !
+3-st ab-dot-noun ;
 3p+Use/Circ:3p ab-noun ; ! !
+Kr ab-noun ; !
+Spd ab-dot-noun ; !
 a ab-noun ; !adjektiiva !
 a.-g+Use/Circ:a.-g ab-dot-noun; !
 a./g+Use/Circ:a./g ab-dot-noun; !
+a.D ab-dot-noun ;
 abess:abess ab-noun ;
-3-st ab-dot-noun ;
 abl ab-noun ;
 abstr ab-adj ;
 adess ab-noun ;
 adj ab-noun ;
-a.D ab-dot-noun ;
-at ab-dot-noun ;
-can ab-dot-noun ;
-kan ab-dot-noun ;
 adv ab-noun ;
-pred ab-noun ;
 advl ab-noun ;
 affekt ab-noun ;
 akk ab-noun ;
@@ -186,20 +181,20 @@ akt ab-adv ;
 all ab-noun ;
 am ab-dot-adv ; !
 anat ab-dot-adj ; !anatomalaš !
+at ab-dot-noun ;
 att ab-noun ;
 attr ab-noun ;
 biol ab-dot-adj ; !
 bot ab-dot-adj ; !
-r ab-dot-adj ; !
 bto ab-dot-adv ; !
 ca ab-dot-adv ; !
 cal ab-noun ; !
+can ab-dot-noun ;
 cc ab-dot-adv ; !
-dat ab-dot-noun ;
 d.d ab-dot-adv ; !
+dat ab-dot-noun ;
 ded ab-dot-noun ; !
 dept ab-dot-noun ; !
-u.b ab-dot-noun ; !
 do ab-dot-adv ; !
 dub ab-dot-adv ;
 dus		ab-dot-adv ;                        !
@@ -230,35 +225,35 @@ ing ab-dot-noun ; !
 instr ab-noun ;
 interr ab-dot-adj ;
 intr ab-dot-adj ;
-jed ab-dot-adv  ; !
 j.i ab-dot-adv  ;
+jed ab-dot-adv  ; !
 js ab-dot-adv  ; !
 jur ab-dot-adj ; !juridihkalaš !
 jv ab-adv ; !
+kan ab-dot-noun ;
+kl ab-dot-noun ;
 kom ab-noun ;
 komp ab-noun ;
 kond ab-noun ;
 konj ab-noun ;
 konkr ab-dot-adj; !konkrehta
-Kr ab-noun ; !
-kl ab-dot-noun ;
 lok ab-dot-noun ; !lokatiiva
 lp ab-dot-noun ; !laktapartihkkal
 m ab-noun ;
 m.fl ab-dot-adv  ;
+mKr ab-dot-noun   ;
 matem ab-dot-adj ; !matematihkalaš
 milj ab-num ;
 miljo ab-dot-num ;
-mKr ab-dot-noun   ;
 ml ab-noun ;
-p.b ab-dot-noun ;
 mrd ab-num ;
 nom ab-noun ;
+oKr ab-dot-adv ;
 obj ab-noun ;
 od.prp ab-dot-noun   ;
-oKr ab-dot-adv ;
 op.cit ab-dot-noun   ;
 osd ab-dot-noun   ;
+p.b ab-dot-noun ;
 part ab-dot-noun ; !partihkkal
 partit ab-dot-noun ; !partitiiva
 perf ab-dot-noun   ;
@@ -268,6 +263,7 @@ pl ab-dot-noun   ;
 postp ab-dot-noun ;
 pot ab-noun ;
 pr ab-dot-adv ;
+pred ab-noun ;
 prep ab-dot-noun ;
 pres ab-noun ;
 pret ab-noun ;
@@ -278,6 +274,7 @@ prs ab-dot-noun ;
 prt ab-noun ;
 prv ab-dot-noun   ;
 pst ab-noun ;
+r ab-dot-adj ; !
 refl ab-adj ;
 rel ab-dot-noun ;
 relat ab-dot-adj ; !relatiiva
@@ -289,7 +286,6 @@ sek ab-noun ;
 sg ab-dot-noun   ;
 sl ab-dot-adv ;
 spd ab-dot-noun ;
-Spd ab-dot-noun ; !
 stip ab-dot-noun ;
 subj ab-noun ;
 subst ab-noun ;
@@ -299,6 +295,7 @@ tan ab-noun ; !tangeansa
 temp ab-dot-noun ; !temporála
 trans ab-dot-noun ;
 transl ab-dot-noun ;
+u.b ab-dot-noun ; !
 
 
 
@@ -318,26 +315,26 @@ LEXICON TRNUMAB   !!= * __@CODE@__
 Apd ab-dot-noun   ; !
 Bnr ab-dot-noun ; !
 Gnr ab-noun ; !
+ILO-konv:ILO%-konv ab-dot-noun ;
 Kommunenr ab-dot-noun ;
+O.nr ab-noun ; !
 Pb ab-noun ; ! Postbox
 Postnr ab-dot-noun ;
 Rt ab-dot-noun   ; !
 S.nr ab-noun ; !
-O.nr ab-noun ; !
 alm ab-dot-adj ; !
 bnr ab-noun ; !
 fnr ab-noun ;
 gnr ab-dot-noun ; !
 jnr ab-dot-noun ; !
 kapp ab-dot-noun ; !
+konv ab-dot-noun ;
 kr ab-noun ; !
 nr ab-noun ; ! Nr nicht !
 s ab-noun ; !
 tab ab-noun ; ! or: Add capital Tab. !
 tlf ab-dot-noun ; !
 vnr ab-dot-noun ; !
-konv ab-dot-noun ;
-ILO-konv:ILO%-konv ab-dot-noun ;
 
 
 
@@ -356,31 +353,63 @@ LEXICON TRAB   !!= * __@CODE@__
 !Od ab-dot-noun   ; !
 1.aman ab-dot-noun ; ! !1.amanuensis
 Adr ab-dot-noun ; !Adreassa
+Avd.dir ab-dot-noun   ; !Advelingsdirektør
+Bj ab-dot-noun ; !Bjørn, Bjarne
+Chr ab-dot-noun   ; !Christian
+Dep ab-dot-noun   ; !Departemeantta
+Edv ab-dot-noun ; !Edvard
+H.K.H ab-dot-noun   ; !Hans/hennes kongelige høyhet
+H.M ab-dot-noun   ; !Hans/hennes majestet
+Innst ab-dot-noun   ; !Innstilling
+Jak ab-dot-noun ;
+Joh:Joh ab-noun ; !Johannes
+Johs ab-dot-noun ; !Johannes
+Kr ab-dot-noun ; !Kristian, Kristin, Kristus
+Luk ab-noun ; !Lukas
+Mr ab-dot-noun ; !
+Mrs ab-dot-noun ; !
+Ms ab-dot-noun ; !
+Od.prop ab-dot-noun ; !Odeldikkeproposišuvdna
+Od.prp ab-dot-noun ; !Odeldikkeproposišuvdna
+Od.prp.nr ab-dot-noun ; !
+Ot ab-dot-noun ; !
+Ot.prop ab-noun ; !
+Ot.prop.nr ab-noun ; !Odelstingsproposisjon nummer
+Ot.prp ab-noun ; !
+Ot.prp.nr ab-noun ; !Odelstingsproposisjon nummer
+Oth ab-dot-noun ; !
+Oth.prop ab-noun ; !h?
+Oth.prp ab-noun ; !
+Rom ab-noun ; !Girje romalaččaide
+Seb ab-dot-noun ; !Sebastian, Sebedeus
+St ab-noun ; !
+St.meld ab-noun ; !
+St.meld.nr ab-noun ; !
+St.nr ab-noun ; !
+St.prp ab-noun ; !Stortingsproposisjon
+St.prp.nr ab-noun ; !Stortingsproposisjon nummer
+adr ab-dot-noun ; !adreassa
+al ab-dot-noun ;
 aman ab-dot-noun ; !amanuenssa
 anár ab-dot-adj ; !anársámegiella
 art ab-dot-noun ; !artihkkal, artium
 ass ab-dot-noun ; !assisteanta, assortemeanta
-adr ab-dot-noun ; !adreassa
 avd ab-dot-noun ; !
 avd.dir ab-dot-noun ; !
-Avd.dir ab-dot-noun   ; !Advelingsdirektør
+bbl ab-noun ; !Bargobirašláhka
 bd ab-dot-noun ; !
 biht ab-dot-noun ; !
-Bj ab-dot-noun ; !Bjørn, Bjarne
-bbl ab-noun ; !Bargobirašláhka
 bnr ab-dot-noun ;
 bs ab-dot-verb ;
 bv ab-dot-noun ;
+cand ab-dot-noun ; !
 cand.mag ab-dot-noun ; !
 cand.oecon ab-dot-noun ; !
 cand.philol ab-dot-noun ; !
 cand.real ab-dot-noun ; !
 cand.scient ab-dot-noun ; !
 cand.theol ab-dot-noun ; !
-cand ab-dot-noun ; !
-Chr ab-dot-noun   ; !Christian
 d.l ab-dot-noun ; !
-Dep ab-dot-noun   ; !Departemeantta
 dipl.ing ab-dot-noun ; !
 dipl.ins ab-dot-noun ; !
 dir ab-dot-noun ; !direktevra
@@ -389,136 +418,104 @@ dr.art ab-dot-noun ; !doktor artium
 dr.med ab-dot-noun ; !
 dr.philos ab-dot-noun ; !
 dr.theol ab-dot-noun ; !
-gl.res ab-dot-noun ;
-al ab-dot-noun ;
-pers ab-dot-noun ;
-gt ab-dot-noun ;
-mus ab-dot-noun ;
-Jak ab-dot-noun ;
-kat ab-dot-noun ;
-korr ab-dot-noun ;
-kto ab-dot-noun ;
-lab ab-dot-noun ;
-lat ab-dot-noun ;
-log ab-dot-noun ;
-med ab-dot-noun ;
-miner ab-dot-noun ;
-mod ab-dot-noun ;
-neg ab-dot-noun ;
-nto ab-dot-noun ;
-obsol ab-dot-noun ;
-op ab-dot-noun ;
-ord ab-dot-noun ;
-pa ab-dot-noun ;
-par ab-dot-noun ;
-part.prf ab-dot-noun ;
-pass ab-dot-noun ;
-pic ab-noun ;
-pm ab-dot-noun ;
-pos ab-dot-noun ;
-post ab-dot-noun ;
-pp ab-dot-noun ;
-pt ab-dot-noun ;
-pts ab-dot-noun ;
-tlg ab-dot-noun ;
-reg ab-dot-noun ;
-rek ab-dot-noun ;
-sic ab-dot-noun ;
-st ab-dot-noun ;
-vol ab-dot-noun ;
-vulg ab-dot-noun ;
-st.prp ab-dot-noun ;
-Edv ab-dot-noun ; !Edvard
 ex ab-noun ; !
 fax ab-dot-noun ;
 fenr ab-dot-noun ; !
 fig ab-dot-noun   ; !
-Gnr ab-dot-noun ;
 gen.lt ab-dot-noun ; !
 genr ab-dot-noun ; !
 genr.lt ab-dot-noun ; !
 germ ab-dot-adj   ; !
-H.K.H ab-dot-noun   ; !Hans/hennes kongelige høyhet
-H.M ab-dot-noun   ; !Hans/hennes majestet
+gl.res ab-dot-noun ;
+gt ab-dot-noun ;
 h.r.adv ab-dot-noun   ; !
 hr ab-dot-noun   ; !
-inkl ab-dot-adj ; !
-Innst ab-dot-noun   ; !Innstilling
 i.s ab-dot-adv ;
+inkl ab-dot-adj ; !
 isl ab-dot-noun   ; !
-Joh:Joh ab-noun ; !Johannes
-Johs ab-dot-noun ; !Johannes
 juovlam ab-dot-noun ; !
 kapt ab-dot-noun ; !
 kard ab-dot-noun ; !
+kat ab-dot-noun ;
 koord ab-dot-noun ; !
 korp ab-dot-noun ; !
 korpr ab-dot-noun ; !
-Kr ab-dot-noun ; !Kristian, Kristin, Kristus
+korr ab-dot-noun ;
+kto ab-dot-noun ;
+lab ab-dot-noun ;
+lat ab-dot-noun ;
 lekt ab-dot-noun ; !
 lic ab-dot-noun ; !
 lnr ab-dot-noun   ; !
+log ab-dot-noun ;
 ltn ab-dot-noun ; !
-Luk ab-noun ; !Lukas
 lul ab-dot-noun   ; !lullisámegiela, lulesamisk
 mag ab-dot-noun   ; !
 mag.art ab-dot-noun ; !
+med ab-dot-noun ;
 merc ab-dot-noun   ; !
 milj ab-dot-num ; !
+miner ab-dot-noun ;
+mod ab-dot-noun ;
 mr ab-dot-noun   ; !
-Mr ab-dot-noun ; !
 mrs ab-dot-noun   ; !
-Mrs ab-dot-noun ; !
 ms ab-dot-noun   ; !
-Ms ab-dot-noun ; !
+mus ab-dot-noun ;
+neg ab-dot-noun ;
+nto ab-dot-noun ;
 obl ab-dot-adj   ; !
 oblt ab-dot-noun   ; !
-Od.prop ab-dot-noun ; !Odeldikkeproposišuvdna
-Od.prp ab-dot-noun ; !Odeldikkeproposišuvdna
-Od.prp.nr ab-dot-noun ; !
+obsol ab-dot-noun ;
 odont ab-dot-noun ; !
 oecon ab-dot-noun   ; !
+op ab-dot-noun ;
+ord ab-dot-noun ;
 ordf ab-dot-noun ; !ordførar
-Ot ab-dot-noun ; !
-Ot.prop ab-noun ; !
-Ot.prop.nr ab-noun ; !Odelstingsproposisjon nummer
-Ot.prp ab-noun ; !
-Ot.prp.nr ab-noun ; !Odelstingsproposisjon nummer
-Oth.prop ab-noun ; !h?
-Oth.prp ab-noun ; !
-Oth ab-dot-noun ; !
 overs ab-dot-noun   ; !oversatt, oversetter
+pa ab-dot-noun ;
+par ab-dot-noun ;
+part.prf ab-dot-noun ;
+pass ab-dot-noun ;
 ped ab-dot-noun   ; !padagoga, pedagogihkka, pedagogalaš
+pers ab-dot-noun ;
 pharm ab-dot-adj ; !
 philol ab-dot-noun   ; !
+pic ab-noun ;
+pm ab-dot-noun ;
 pol ab-dot-adj ; !
 polit ab-dot-adj ; !
+pos ab-dot-noun ;
+post ab-dot-noun ;
+pp ab-dot-noun ;
 priv ab-dot-adj ; !
 pro ab-noun ; !
 prof ab-dot-noun ; !
 prp ab-dot-noun   ; !
 psychol ab-dot-noun ; !
 psyk ab-dot-adj ; !
+pt ab-dot-noun ;
+pts ab-dot-noun ;
 red ab-dot-noun ; !
+reg ab-dot-noun ;
+rek ab-dot-noun ;
 res.kap ab-dot-noun ; !
 resipr ab-dot-adj ; !resiprohka TRAB or ITRAB?
-Rom ab-noun ; !Girje romalaččaide
-Seb ab-dot-noun ; !Sebastian, Sebedeus
+sic ab-dot-noun ;
 spes.ped ab-dot-noun ; !spesiála
-St ab-noun ; !
-St.meld ab-noun ; !
-St.meld.nr ab-noun ; !
-St.nr ab-noun ; !
-St.prp ab-noun ; !Stortingsproposisjon
-St.prp.nr ab-noun ; !Stortingsproposisjon nummer
+st ab-dot-noun ;
+st.prp ab-dot-noun ;
 stud ab-dot-noun ; !
 stud.philol ab-dot-noun ; !
 su ab-dot-adv ; ! sullii
 sugr ab-dot-adj ; !suoma-ugralaš
 tel ab-dot-noun ;
 tlf ab-dot-noun ;
+tlg ab-dot-noun ;
 vit.ass ab-dot-noun ; !
+vol ab-dot-noun ;
 vs ab-dot-cc ; !
+vulg ab-dot-noun ;
+
 
 ! Here comes the initials
 ! They are found in names etc.
