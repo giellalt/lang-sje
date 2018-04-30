@@ -209,8 +209,8 @@ Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
            Cy in ( d j l m n r j k m n v d n d l ŋ v b d g p k l m r s v n s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d j k l r g s )  
           matched ;
 
-!!€ stállo^WG
-!!€ stál0o0
+! !!€ stállo^WG
+! !!€ stál0o0
 
 ! !!€ tjállag^WG^CDEL
 ! !!€ tjál0a000
@@ -394,10 +394,10 @@ s:t <=> _ j2: .#. ;
 %^O:ä <=> Cns:* u _ G3 :e \%^WG: ; 
           Cns:* u _ Cns:+ :e %^G3: ; ! duädde<->duodde
 
-!!€ nju^Onnje^UAUML
-!!€ njuonnje0
-!!€ nju^Onnje^WG
-!!€ njuon0je0
+! !!€ nju^Onnje^UAUML
+! !!€ njuonnje0
+! !!€ nju^Onnje^WG
+! !!€ njuon0je0
 
 "Special VH for u^O" ! u^O:u0
 !! __@RULENAME@__  
@@ -422,32 +422,32 @@ e:Ä <=> I:0 _ G3 Vow: \%^WG: ; !Änntse->Ientse !for proper nouns beginning wit
 		I:0 _ noCG Vow: \%^WG: ; !
 
 
-!!€ tjalmed%>ibme^WG
-!!€ tjalmed0i0me0
+! !!€ tjalmed%>ibme^WG
+! !!€ tjalmed0i0me0
 
-!!€ dibme^WG
-!!€ di0me0
+! !!€ dibme^WG
+! !!€ di0me0
 
 
-!!€ vu^Os'sa^WG
-!!€ vuos0sa0
+! !!€ vu^Os'sa^WG
+! !!€ vuos0sa0
 
-!!€ fiede^G3^UAUML>0
-!!€ f0äde00>0
-!!€ fiede^WG>v
-!!€ fiede0>v
-!!€ fiede^WG^IJ>jn
-!!€ f0edi00>jn
+! !!€ fiede^G3^UAUML>0
+! !!€ f0äde00>0
+! !!€ fiede^WG>v
+! !!€ fiede0>v
+! !!€ fiede^WG^IJ>jn
+! !!€ f0edi00>jn
 
-!!€ gierbmah^WG^CDEL>0
-!!€ gierbma00000
-!!€ gierbmaha>v
-!!€ g0ärbmaha>v
+! !!€ gierbmah^WG^CDEL>0
+! !!€ gierbma00000
+! !!€ gierbmaha>v
+! !!€ g0ärbmaha>v
 
-!!€ bierdne^WGs>0
-!!€ bierdne0s>0
-!!€ bierdná>v
-!!€ b0ärdná>v
+! !!€ bierdne^WGs>0
+! !!€ bierdne0s>0
+! !!€ bierdná>v
+! !!€ b0ärdná>v
 
 ! !!€ ku^Ordna^UAUML
 ! !!€ kuardna0
@@ -487,7 +487,17 @@ e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme
 
 "V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj, vágge->vággáj, båhtet->bådáv
 !! __@RULENAME@__  
-e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ V2E2AAtrig %^V2E2AA:0 ;
+e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ (V2E2AAtrig) %^V2E2AA:0 ;
+
+!!€ båhte^WG%>v^V2E2AA
+!!€ bå0dá00v0
+!!€ båhte^WG%>^V2E2AA
+!!€ bå0dá000
+!!€ máhtte^WG%>v^V2E2AA
+!!€ máht0á00v0
+!!€ máhtte^WG%>^V2E2AA
+!!€ máht0á000
+
 
 "V2 E to Á before S" ! åres->årrás-, tjåskes->tjåsskas-
 !! __@RULENAME@__  
