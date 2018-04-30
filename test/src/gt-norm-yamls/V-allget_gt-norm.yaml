@@ -31,9 +31,9 @@ Tests:
      állget+V+Ind+Prt+Pl2: älgijde
      állget+V+Ind+Prt+Pl3: ällgin
 
-     állget+V+Imp+Sg2: álge  
-     állget+V+Imp+Du2: állgen
-     állget+V+Imp+Pl2: ällgit
+     állget+V+Imprt+Sg2: álge  
+     állget+V+Imprt+Du2: állgen
+     állget+V+Imprt+Pl2: ällgit
 
      állget+V+ConNeg: álge 
      állget+V+GerII: állgemin

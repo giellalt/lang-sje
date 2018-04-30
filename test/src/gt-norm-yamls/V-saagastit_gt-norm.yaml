@@ -32,9 +32,9 @@ Tests:
      ságastit+V+Ind+Prt+Pl2: ságastijde
      ságastit+V+Ind+Prt+Pl3: ságastin
 
-     ságastit+V+Imp+Sg2: ságaste  
-     ságastit+V+Imp+Du2: ságastehten    #check!
-     ságastit+V+Imp+Pl2: ságastihttit   #check!
+     ságastit+V+Imprt+Sg2: ságaste  
+     ságastit+V+Imprt+Du2: ságastehten    #check!
+     ságastit+V+Imprt+Pl2: ságastihttit   #check!
 
      ságastit+V+ConNeg: ságaste
      ságastit+V+GerII: ságastemin

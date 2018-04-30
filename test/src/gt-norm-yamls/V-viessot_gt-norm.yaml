@@ -31,9 +31,9 @@ Tests:
      viessot+V+Ind+Prt+Pl2: viesojde
      viessot+V+Ind+Prt+Pl3: vessun
 
-     viessot+V+Imp+Sg2: vieso  
-     viessot+V+Imp+Du2: viesson
-     viessot+V+Imp+Pl2: vessut
+     viessot+V+Imprt+Sg2: vieso  
+     viessot+V+Imprt+Du2: viesson
+     viessot+V+Imprt+Pl2: vessut
 
 #     viessot+V+Pot+Sg1: vesutjav
 #     viessot+V+Pot+Sg2: vesutja

@@ -13,7 +13,7 @@ Tests:
      bårråt+V+Inf: bårråt
      bårråt+V+Ind+Prs+Sg1: båråv
      bårråt+V+Ind+Prs+Sg2: bårå
-     bårråt+V+Ind+Prs+Sg3: bårra
+     bårråt+V+Ind+Prs+Sg3: bårrá
      bårråt+V+Ind+Prs+Du1: burrin
      bårråt+V+Ind+Prs+Du2: bårråbehtin #, bårråbähtten]
      bårråt+V+Ind+Prs+Du3: [bårråba, bårråban]
@@ -31,9 +31,9 @@ Tests:
      bårråt+V+Ind+Prt+Pl2: båråjde
      bårråt+V+Ind+Prt+Pl3: burrin
 
-     bårråt+V+Imp+Sg2: bårå  
-     bårråt+V+Imp+Du2: bårren
-     bårråt+V+Imp+Pl2: burrit
+     bårråt+V+Imprt+Sg2: bårå  
+     bårråt+V+Imprt+Du2: bårren
+     bårråt+V+Imprt+Pl2: burrit
 
 #     bårråt+V+Pot+Sg1: burutjav
 #     bårråt+V+Pot+Sg2: burutja

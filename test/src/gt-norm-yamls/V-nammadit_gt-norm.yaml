@@ -32,9 +32,9 @@ Tests:
      nammadit+V+Ind+Prt+Pl2: nammadijde
      nammadit+V+Ind+Prt+Pl3: nammadin
 
-     nammadit+V+Imp+Sg2: nammade  
-     nammadit+V+Imp+Du2: nammadehten    #check!
-     nammadit+V+Imp+Pl2: nammadihttit   #check!
+     nammadit+V+Imprt+Sg2: nammade  
+     nammadit+V+Imprt+Du2: nammadehten    #check!
+     nammadit+V+Imprt+Pl2: nammadihttit   #check!
 
      nammadit+V+ConNeg: nammade
      nammadit+V+GerII: nammademin
