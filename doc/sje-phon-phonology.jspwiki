@@ -47,8 +47,6 @@ __Consonant Gradation for xx:x__
 
 __Consonant Gradation for xxy:xy__  
 
-* __stállo^WG __
-* __stál0o0 __
 
 
 
@@ -107,10 +105,6 @@ __Default UA in G3 __
 
 __Special UÄ (VH) in G3 __  
 
-* __nju^Onnje^UAUML __
-* __njuonnje0 __
-* __nju^Onnje^WG __
-* __njuon0je0 __
 
 __Special VH for u^O __  
 
@@ -120,32 +114,12 @@ __Ä in G3 __
 __Ä in G3 capitalized __  
 
 
-* __tjalmed%>ibme^WG __
-* __tjalmed0i0me0 __
-
-* __dibme^WG __
-* __di0me0 __
 
 
-* __vu^Os'sa^WG __
-* __vuos0sa0 __
 
-* __fiede^G3^UAUML>0 __
-* __f0äde00>0 __
-* __fiede^WG>v __
-* __fiede0>v __
-* __fiede^WG^IJ>jn __
-* __f0edi00>jn __
 
-* __gierbmah^WG^CDEL>0 __
-* __gierbma00000 __
-* __gierbmaha>v __
-* __g0ärbmaha>v __
 
-* __bierdne^WGs>0 __
-* __bierdne0s>0 __
-* __bierdná>v __
-* __b0ärdná>v __
+
 
 
 
@@ -154,6 +128,16 @@ __Ä in G3 capitalized __
 __V2 E to I before j-suffixes __  
 
 __V2 E to Á __  
+
+* __båhte^WG%>v^V2E2AA __
+* __bå0dá00v0 __
+* __båhte^WG%>^V2E2AA __
+* __bå0dá000 __
+* __máhtte^WG%>v^V2E2AA __
+* __máht0á00v0 __
+* __máhtte^WG%>^V2E2AA __
+* __máht0á000 __
+
 
 __V2 E to Á before S __  
 
