@@ -10,37 +10,37 @@ Config:
 Tests:
 
   Noun - vanas: # N_ODD_WG (with CGrad)
-    vanas+N+Sg+Nom: vanas
-    vanas+N+Sg+Gen: vadnasa
-    vanas+N+Sg+Acc: vadnasav
-    vanas+N+Sg+Ill: vadnasij
-    vanas+N+Sg+Ine: vadnasin
-    vanas+N+Sg+Ela: [vadnasist, vadnasis]
-    vanas+N+Sg+Com: vadnasijn
-    vanas+N+Pl+Nom: vadnasa
-    vanas+N+Pl+Gen: vadnasij
-    vanas+N+Pl+Acc: vadnasijd
-    vanas+N+Pl+Ill: vadnasijda
-    vanas+N+Pl+Ine: vadnasijn
-    vanas+N+Pl+Ela: [vadnasijst, vadnasijs]
-    vanas+N+Pl+Com: [vadnasij, vadnasijgum]
-    vanas+N+Ess: vadnasin
-    vanas+N+Abe: vadnasahtá
+    vanas+N+Sg+Nom: [vanas, vanás]
+    vanas+N+Sg+Gen: [vadnasa, vadnása]
+    vanas+N+Sg+Acc: [vadnasav, vadnásav]
+    vanas+N+Sg+Ill: [vadnasij, vadnásij]
+    vanas+N+Sg+Ine: [vadnasin, vadnásin]
+    vanas+N+Sg+Ela: [vadnasist, vadnásis]
+    vanas+N+Sg+Com: [vadnasijn, vadnásijn]
+    vanas+N+Pl+Nom: [vadnasa, vadnása]
+    vanas+N+Pl+Gen: [vadnasij, vadnásij]
+    vanas+N+Pl+Acc: [vadnasijd, vadnásijd]
+    vanas+N+Pl+Ill: [vadnasijda, vadnásijda]
+    vanas+N+Pl+Ine: [vadnasijn, vadnásijn]
+    vanas+N+Pl+Ela: [vadnasijst, vadnásijs]
+    vanas+N+Pl+Com: [vadnasij, vadnasijgum, vadnásij, vadnásijgum]
+    vanas+N+Ess: [vadnasin, vadnásin]
+    vanas+N+Abe: [vadnasahtá, vadnásahtá]
 
 
-    vanas+N+Der/Dimin+N+Sg+Nom: vadnasatj
-    vanas+N+Der/Dimin+N+Sg+Gen: vadnasatja
-    vanas+N+Der/Dimin+N+Sg+Acc: vadnasatjav
-    vanas+N+Der/Dimin+N+Sg+Ill: vadnasatjij
-    vanas+N+Der/Dimin+N+Sg+Ine: vadnasatjin
-    vanas+N+Der/Dimin+N+Sg+Ela: [vadnasatjist, vadnasatjis]
-    vanas+N+Der/Dimin+N+Sg+Com: vadnasatjijn
-    vanas+N+Der/Dimin+N+Pl+Nom: vadnasatja
-    vanas+N+Der/Dimin+N+Pl+Gen: vadnasatjij
-    vanas+N+Der/Dimin+N+Pl+Acc: vadnasatjijd
-    vanas+N+Der/Dimin+N+Pl+Ill: vadnasatjijda
-    vanas+N+Der/Dimin+N+Pl+Ine: vadnasatjijn
-    vanas+N+Der/Dimin+N+Pl+Ela: [vadnasatjijst, vadnasatjijs]
-    vanas+N+Der/Dimin+N+Pl+Com: [vadnasatjij, vadnasatjijgum]
-    vanas+N+Der/Dimin+N+Ess: vadnasatjin
+    vanas+N+Der/Dimin+N+Sg+Nom: [vadnasatj, vadnásatj]
+    vanas+N+Der/Dimin+N+Sg+Gen: [vadnasatja, vadnásatja]
+    vanas+N+Der/Dimin+N+Sg+Acc: [vadnasatjav, vadnásatjav]
+    vanas+N+Der/Dimin+N+Sg+Ill: [vadnasatjij, vadnásatjij]
+    vanas+N+Der/Dimin+N+Sg+Ine: [vadnasatjin, vadnásatjin]
+    vanas+N+Der/Dimin+N+Sg+Ela: [vadnasatjist, vadnásatjis]
+    vanas+N+Der/Dimin+N+Sg+Com: [vadnasatjijn, vadnásatjijn]
+    vanas+N+Der/Dimin+N+Pl+Nom: [vadnasatja, vadnásatja]
+    vanas+N+Der/Dimin+N+Pl+Gen: [vadnasatjij, vadnásatjij]
+    vanas+N+Der/Dimin+N+Pl+Acc: [vadnasatjijd, vadnásatjijd]
+    vanas+N+Der/Dimin+N+Pl+Ill: [vadnasatjijda, vadnásatjijda]
+    vanas+N+Der/Dimin+N+Pl+Ine: [vadnasatjijn, vadnásatjijn]
+    vanas+N+Der/Dimin+N+Pl+Ela: [vadnasatjijst, vadnásatjijs]
+    vanas+N+Der/Dimin+N+Pl+Com: [vadnasatjij, vadnasatjijgum, vadnásatjij, vadnásatjijgum]
+    vanas+N+Der/Dimin+N+Ess: [vadnasatjin, vadnásatjin]
  
