@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-21T10:13:46+01:00
+! Timestamp: 2018-05-01T11:45:04+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -369,7 +369,7 @@ dábmat:dábm V_EVEN_A "tame" ; ! no. 4285
 dájjsat:dájjs V_EVEN_A "fool around" ; ! no. 308
 duagŋat:du^Ogŋ V_EVEN_A "repair" ; ! no. 6178
 duahttat:du^Ohtt V_EVEN_A "touch" ; ! no. 3257
-dualldat:du^Olld V_EVEN_A "boil hard" ; ! no. 2555
+dualldat:du^Olld V_EVEN_A "boil hard (for water)" ; ! no. 2555
 duasstat:du^Osst V_EVEN_A "risk, dare" ; ! no. 380
 dubbmidallat:dubbmidall V_EVEN_A "be sentenced, be judged" ; ! no. 5605
 dudnat:dudn V_EVEN_A "roar" ; ! no. 3302
@@ -484,7 +484,7 @@ rahkat:rahk V_EVEN_A "breed, mate (for animals)" ; ! no. 3911
 rahpat:rahp V_EVEN_A "open" ; ! no. 1372
 rahtat:raht V_EVEN_A "slit open, unstitch" ; ! no. 1376
 rahtjat:rahtj V_EVEN_A "strive for, desire to get away (for reindeer)" ; ! no. 1377
-ravvgat:ravvg V_EVEN_A "trip, fall down" ; ! no. 1393 !Changed from V_EVEN_A_IV, because it doesn't exist
+ravvgat:ravvg V_EVEN_A "trip, fall down" ; ! no. 1393
 rádjat:rádj V_EVEN_A "send" ; ! no. 1364
 ráhkat:ráhk V_EVEN_A "split, cleave" ; ! no. 4066
 rájadallat:rájadall V_EVEN_A "be sent; be dismissed" ; ! no. 5068
@@ -876,7 +876,7 @@ njihkot:njihk V_EVEN_O "whine, whimper (for dogs)" ; ! no. 1288
 njissjkot:njissjk V_EVEN_O "weave (with a weaving reed)" ; ! no. 1292
 njuajjkot:nju^Ojjk V_EVEN_O "drip" ; ! no. 3485
 njurrgot:njurrg V_EVEN_O "whistle" ; ! no. 1307
-njållot:njåll V_EVEN_O "suck, lick, suckle" ; ! no. 1313
+njållot:njåll V_EVEN_O "suck, lick, suckle; calve" ; ! no. 1313
 nåjjdot:nåjjd V_EVEN_O "act as a shaman, interpret omens" ; ! no. 1331
 nällgot:niellg V_EVEN_O "hunger, starve" ; ! no. 1337
 riehtjot:riehtj V_EVEN_O "scream and cry" ; ! no. 1398

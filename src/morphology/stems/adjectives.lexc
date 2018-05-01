@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-03-16T08:26:50+01:00
+! Timestamp: 2018-05-01T11:45:13+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -36,6 +36,7 @@ dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
 divras:divvras A_AMAS "expensive" ; ! no. 2977
 gávkas:gávvkas A_AMAS "slow, boring" ; ! no. 578
 suohtas:su^Ohttas A_AMAS "fun" ; ! no. 4525
+vuoras:vu^Orras A_AMAS "old (for humans and animals)" ; ! no. 2187
 asedis:ased A_ASEDIS "thin" ; ! no. 2704
 balvagis:balvag A_ASEDIS "cloudy" ; ! no. 4161
 durrulis:durrul A_ASEDIS "belligerent" ; ! no. 3455
@@ -108,6 +109,7 @@ buäjjde:bu^Ojjde A_TJAEHPPE "fat" ; ! no. 90797
 fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
 gallje:gallje A_TJAEHPPE "wide, spacious" ; ! no. 3783
 gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
+låjje:lådje A_TJAEHPPE "calm, tame" ; ! no. 4964
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent, skilled" ; ! no. 1983
 vasste:vasste A_TJAEHPPE "ugly, horrible" ; ! no. 2337
 ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
