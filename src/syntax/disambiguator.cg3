@@ -32,7 +32,7 @@
 # ========== #
 
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent SENT ;
 
 
 # ============= #
@@ -54,6 +54,9 @@ LIST EOS = (<<<) (</s>) (sent) ; # vislcg and CG-2 together.
 # Parts of speech
 # ---------------
 
+
+	
+LIST SENT = SENT ;
 LIST N = N ; 
 LIST A = A ; 
 LIST Adv = Adv ; 
@@ -155,6 +158,9 @@ LIST RIGHT = RIGHT ;
 LIST HYPH = HYPH ; 
 LIST PAR = PAR ;
 
+LIST ITRAB = ITRAB ;
+LIST TRAB = TRAB ;
+LIST TRNUMAB = TRNUMAB ;
 
 # Syntactic tags
 # -----------------
@@ -222,6 +228,10 @@ SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
               # Local disambiguation - cycles 1 and 2
               # Cycle 2: Other local disambiguation         
               # Cycle 3: Global disambiguation 
+
+# Sentence border
+
+REMOVE:trab SENT IF (-1 TRAB) ;
 
 
 #examples from N-Saami:
