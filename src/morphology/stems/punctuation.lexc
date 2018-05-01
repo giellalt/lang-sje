@@ -18,6 +18,7 @@ LEXICON Punctuation   !!= * __@CODE@__
 
 ! Clause boundary symbols:
     %,+CLB:%,     # ;
+    %.+SENT+CLB:%.     # ;
     %.+CLB:%.     # ;
   %.%.+CLB:%.%.   # ;
 %.%.%.+CLB:%.%.%. # ;

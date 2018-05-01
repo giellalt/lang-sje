@@ -85,7 +85,7 @@ LEXICON Numeral					   !!= * __@CODE@__
  num-imprecise ;                 ! Inte ännu              
 ! COLLECTIVE ;       ! Inte ännu
  +Use/Circ: ARABIC ;           ! for the arabic numerals !
- +Use/Circ: ROMAN ;            ! for the roman numerals	!
+! +Use/Circ: ROMAN ;            ! for the roman numerals	!
  +Use/Circ: NUM-PREFIXES ;     ! for §34 etc.		!
  +Use/Circ: ISOLATED-NUMEXP ;  ! for ½ etc.			!
 O-NL ; 
@@ -2036,7 +2036,7 @@ LEXICON ROMNUMTAG   !!= * __@CODE@__
  +Num+Gen: # ;
 !+Num+Acc: # ;
 ! +A+Ord:%. # ; !III. as ordinal. !!JW: commentet out because it added +A+Ord to all full-stops!
- +A+Ord:   # ; !Looking for trouble...
+! +A+Ord:   # ; !Looking for trouble...
  +Num:%: ROMNUMTAGOBL  ;
  +Num:%'7 ROMNUMTAGOBL ;
  +Num:%- ROMNUMTAGOBL  ;

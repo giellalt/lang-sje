@@ -111,7 +111,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +CmpNP/Only      !!≈ * @CODE@ - ... can only be part of a compound, i.e. can never
                 !!                 be used alone, but can appear in any position
 
-+CLB +PUNCT +PAR +LEFT +RIGHT
++CLB +PUNCT +PAR +LEFT +RIGHT +SENT
 
 ^WG     !!= @CODE@ * weak grade
 ^G3     !!= @CODE@ * marks grade three for stems w/o Cgrad
@@ -169,12 +169,19 @@ b2 d2 g2 t2 j2 !!= @CODE@ * Variable consonants, undergo final devoicing or othe
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 
+! testing these
++TRAB
++ITRAB
++TRNUMAB
+
+
 ! Key lexicon
 
 LEXICON Root
 
 !removed for temporary testing purposes (until sje gets some written texts!)
 !+Use/-Spell: Abbreviation ;
+ Abbreviation ;
  Adjective ;
  Adverb ;
  Conjunction ;
