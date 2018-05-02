@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-01T11:44:53+02:00
+! Timestamp: 2018-05-02T10:50:19+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2029,6 +2029,7 @@ gudájagak:gudá#jagag2 N_ODD "six-year-old" ; ! no. 656
 gulitj:gulitj N_ODD "frozen person" ; ! no. 4889
 guobok:gu^Obog2 N_ODD "Arjeplog model of shoe made of leather from reindeer legs" ; ! no. 4315
 guoddalm:gu^Oddalm N_ODD "messenger, omen" ; ! no. 6562
+guoddej:gu^Oddej N_ODD "carrier" ; ! no. 90878
 guohtom:gu^Ohtom N_ODD "reindeer feeding grounds" ; ! no. 685
 guohtomiednam:guohtom#iednam N_ODD "grazing land" ; ! no. 3273
 guoksak:gu^Oksag2 N_ODD "Siberian jay" ; ! no. 689
