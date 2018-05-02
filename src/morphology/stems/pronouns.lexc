@@ -135,23 +135,23 @@ duot+Pron+Det+Pl+Ela:duojs # ;
 duot+Pron+Det+Pl+Com:duoj # ;
 
 LEXICON Relative   !!= * __@CODE@__
-!gie, predikativ ställning
-gie+Pron+Rel+Sg+Nom:gie # ;
-gie+Pron+Rel+Sg+Acc:giev # ;
-gie+Pron+Rel+Sg+Gen:gien # ;
-gie+Pron+Rel+Sg+Ill:gesi # ;
-gie+Pron+Rel+Sg+Ine:gänne # ;
-gie+Pron+Rel+Sg+Ela:gässte # ;
-gie+Pron+Rel+Sg+Com:giejna # ;
-gie+Pron+Rel+Sg+Ess:gännen # ;
+!!gie, predikativ ställning
+!gie+Pron+Rel+Sg+Nom:gie # ;
+!gie+Pron+Rel+Sg+Acc:giev # ;
+!gie+Pron+Rel+Sg+Gen:gien # ;
+!gie+Pron+Rel+Sg+Ill:gesi # ;
+!gie+Pron+Rel+Sg+Ine:gänne # ;
+!gie+Pron+Rel+Sg+Ela:gässte # ;
+!gie+Pron+Rel+Sg+Com:giejna # ;
+!gie+Pron+Rel+Sg+Ess:gännen # ;
 
-gie+Pron+Rel+Pl+Nom:gie # ;
-gie+Pron+Rel+Pl+Acc:giejd # ;
-gie+Pron+Rel+Pl+Gen:giej # ;
-gie+Pron+Rel+Pl+Ill:giejda # ;
-gie+Pron+Rel+Pl+Ine:gäjdne # ;
-gie+Pron+Rel+Pl+Ela:gäjste # ;
-gie+Pron+Rel+Pl+Com:giej # ;
+!gie+Pron+Rel+Pl+Nom:gie # ;
+!gie+Pron+Rel+Pl+Acc:giejd # ;
+!gie+Pron+Rel+Pl+Gen:giej # ;
+!gie+Pron+Rel+Pl+Ill:giejda # ;
+!gie+Pron+Rel+Pl+Ine:gäjdne # ;
+!gie+Pron+Rel+Pl+Ela:gäjste # ;
+!gie+Pron+Rel+Pl+Com:giej # ;
 
 !mij predikativ ställning
 mij+Pron+Rel+Sg+Nom:mij # ;
@@ -172,42 +172,42 @@ mij+Pron+Rel+Pl+Ela:majste # ;
 mij+Pron+Rel+Pl+Ela:majjste # ; ! kanskje
 mij+Pron+Rel+Pl+Com:maj # ;
 
-!ge attributiv ställning
-gie+Pron+Rel+Sg+Nom:gie # ;
-gie+Pron+Rel+Sg+Acc:gudi # ;
-gie+Pron+Rel+Sg+Gen:gien # ;
-gie+Pron+Rel+Sg+Ill:gien # ;
-gie+Pron+Rel+Sg+Ine:gudin # ;
-gie+Pron+Rel+Sg+Ela:gudit # ;
-gie+Pron+Rel+Sg+Com:gudijn # ;
-gie+Pron+Rel+Sg+Ess:guhtin # ;
+!!gie attributiv ställning
+!gie+Pron+Rel+Sg+Nom:gie # ;
+!gie+Pron+Rel+Sg+Acc:gudi # ;
+!gie+Pron+Rel+Sg+Gen:gien # ;
+!gie+Pron+Rel+Sg+Ill:gien # ;
+!gie+Pron+Rel+Sg+Ine:gudin # ;
+!gie+Pron+Rel+Sg+Ela:gudit # ;
+!gie+Pron+Rel+Sg+Com:gudijn # ;
+!gie+Pron+Rel+Sg+Ess:guhtin # ;
 
-gie+Pron+Rel+Pl+Nom:gie # ;
-gie+Pron+Rel+Pl+Acc:gudijd # ;
-gie+Pron+Rel+Pl+Gen:gudij # ;
-gie+Pron+Rel+Pl+Ill:gudijda # ;
-gie+Pron+Rel+Pl+Ine:gudijn # ;
-gie+Pron+Rel+Pl+Ela:gudijst # ;
-gie+Pron+Rel+Pl+Com:gudij # ;
+!gie+Pron+Rel+Pl+Nom:gie # ;
+!gie+Pron+Rel+Pl+Acc:gudijd # ;
+!gie+Pron+Rel+Pl+Gen:gudij # ;
+!gie+Pron+Rel+Pl+Ill:gudijda # ;
+!gie+Pron+Rel+Pl+Ine:gudijn # ;
+!gie+Pron+Rel+Pl+Ela:gudijst # ;
+!gie+Pron+Rel+Pl+Com:gudij # ;
 
-!mij attributiv ställning
-mij+Pron+Rel+Sg+Nom:mij # ;
-mij+Pron+Rel+Sg+Acc:mav # ;
-mij+Pron+Rel+Sg+Gen:man # ;
-mij+Pron+Rel+Sg+Ill:man # ;
-mij+Pron+Rel+Sg+Ine:man # ;
-mij+Pron+Rel+Sg+Ela:mat # ;
-mij+Pron+Rel+Sg+Com:majna # ;
-mij+Pron+Rel+Sg+Ess:manen # ;
+!!mij attributiv ställning
+!mij+Pron+Rel+Sg+Nom:mij # ;
+!mij+Pron+Rel+Sg+Acc:mav # ;
+!mij+Pron+Rel+Sg+Gen:man # ;
+!mij+Pron+Rel+Sg+Ill:man # ;
+!mij+Pron+Rel+Sg+Ine:man # ;
+!mij+Pron+Rel+Sg+Ela:mat # ;
+!mij+Pron+Rel+Sg+Com:majna # ;
+!mij+Pron+Rel+Sg+Ess:manen # ;
 
-mij+Pron+Rel+Pl+Nom:ma # ;
-mij+Pron+Rel+Pl+Acc:majd # ;
-mij+Pron+Rel+Pl+Gen:maj # ;
-mij+Pron+Rel+Pl+Ill:majda # ;
-mij+Pron+Rel+Pl+Ine:majn # ;
-mij+Pron+Rel+Pl+Ine:majdne # ;
-mij+Pron+Rel+Pl+Ela:majste # ;
-mij+Pron+Rel+Pl+Com:maj # ;
+!mij+Pron+Rel+Pl+Nom:ma # ;
+!mij+Pron+Rel+Pl+Acc:majd # ;
+!mij+Pron+Rel+Pl+Gen:maj # ;
+!mij+Pron+Rel+Pl+Ill:majda # ;
+!mij+Pron+Rel+Pl+Ine:majn # ;
+!mij+Pron+Rel+Pl+Ine:majdne # ;
+!mij+Pron+Rel+Pl+Ela:majste # ;
+!mij+Pron+Rel+Pl+Com:maj # ;
 
 
 ! gåbba predikativ ställning
@@ -271,6 +271,83 @@ guhtimus+Pron+Rel+Pl+Com:guhtimusaj # ;
 guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
 
 LEXICON Interrogativa   !!= * __@CODE@__
+
+!gie, predikativ ställning
+gie+Pron+Interr+Sg+Nom:gie # ;
+gie+Pron+Interr+Sg+Acc:giev # ;
+gie+Pron+Interr+Sg+Gen:gien # ;
+gie+Pron+Interr+Sg+Ill:gesi # ;
+gie+Pron+Interr+Sg+Ine:gänne # ;
+gie+Pron+Interr+Sg+Ela:gässte # ;
+gie+Pron+Interr+Sg+Com:giejna # ;
+gie+Pron+Interr+Sg+Ess:gännen # ;
+
+gie+Pron+Interr+Pl+Nom:gie # ;
+gie+Pron+Interr+Pl+Acc:giejd # ;
+gie+Pron+Interr+Pl+Gen:giej # ;
+gie+Pron+Interr+Pl+Ill:giejda # ;
+gie+Pron+Interr+Pl+Ine:gäjdne # ;
+gie+Pron+Interr+Pl+Ela:gäjste # ;
+gie+Pron+Interr+Pl+Com:giej # ;
+
+!mij predikativ ställning
+mij+Pron+Interr+Sg+Nom:mij # ;
+mij+Pron+Interr+Sg+Acc:mav # ;
+mij+Pron+Interr+Sg+Gen:man # ;
+mij+Pron+Interr+Sg+Ill:masa # ;
+mij+Pron+Interr+Sg+Ine:manne # ;
+mij+Pron+Interr+Sg+Ela:masste # ;
+mij+Pron+Interr+Sg+Com:majna # ;
+mij+Pron+Interr+Sg+Ess:manen # ;
+
+mij+Pron+Interr+Pl+Nom:ma # ;
+mij+Pron+Interr+Pl+Acc:majd # ;
+mij+Pron+Interr+Pl+Gen:maj # ;
+mij+Pron+Interr+Pl+Ill:majda # ;
+mij+Pron+Interr+Pl+Ine:majdne # ;
+mij+Pron+Interr+Pl+Ela:majste # ;
+mij+Pron+Interr+Pl+Ela:majjste # ; ! kanskje
+mij+Pron+Interr+Pl+Com:maj # ;
+
+!gie attributiv ställning
+gie+Pron+Interr+Sg+Nom:gie # ;
+gie+Pron+Interr+Sg+Acc:gudi # ;
+gie+Pron+Interr+Sg+Gen:gien # ;
+gie+Pron+Interr+Sg+Ill:gien # ;
+gie+Pron+Interr+Sg+Ine:gudin # ;
+gie+Pron+Interr+Sg+Ela:gudit # ;
+gie+Pron+Interr+Sg+Com:gudijn # ;
+gie+Pron+Interr+Sg+Ess:guhtin # ;
+
+gie+Pron+Interr+Pl+Nom:gie # ;
+gie+Pron+Interr+Pl+Acc:gudijd # ;
+gie+Pron+Interr+Pl+Gen:gudij # ;
+gie+Pron+Interr+Pl+Ill:gudijda # ;
+gie+Pron+Interr+Pl+Ine:gudijn # ;
+gie+Pron+Interr+Pl+Ela:gudijst # ;
+gie+Pron+Interr+Pl+Com:gudij # ;
+
+!mij attributiv ställning
+mij+Pron+Interr+Sg+Nom:mij # ;
+mij+Pron+Interr+Sg+Acc:mav # ;
+mij+Pron+Interr+Sg+Gen:man # ;
+mij+Pron+Interr+Sg+Ill:man # ;
+mij+Pron+Interr+Sg+Ine:man # ;
+mij+Pron+Interr+Sg+Ela:mat # ;
+mij+Pron+Interr+Sg+Com:majna # ;
+mij+Pron+Interr+Sg+Ess:manen # ;
+
+mij+Pron+Interr+Pl+Nom:ma # ;
+mij+Pron+Interr+Pl+Acc:majd # ;
+mij+Pron+Interr+Pl+Gen:maj # ;
+mij+Pron+Interr+Pl+Ill:majda # ;
+mij+Pron+Interr+Pl+Ine:majn # ;
+mij+Pron+Interr+Pl+Ine:majdne # ;
+mij+Pron+Interr+Pl+Ela:majste # ;
+mij+Pron+Interr+Pl+Com:maj # ;
+
+
+
 
 !galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
 !galla, predikativ ställning
