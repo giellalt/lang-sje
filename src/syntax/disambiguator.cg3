@@ -299,6 +299,9 @@ SELECT:NomSG-B4-FinVSg (N Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC);
 #SELECT Prop IF (0 LINK *-1 WORD) ;
 #REMOVE Prop IF (0 LINK *-1 BOS BARRIER WORD) ;
 
+#prefer relative pronoun when preceded by NP
+SELECT:relProAfterNP (Pron Rel) IF (-1 N);
+#SELECT:interrProStartQ (Pron Interr) IF (-1 S-BOUNDARY);# LINK *1 ("\?"));
 
 
 #remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
