@@ -361,32 +361,32 @@ gájjka+Pron+Indef+Pl+Com:gájkaj # ;
 
 !mådde:dd ´fler än två, flera´
 
-!mådde,predikativ ställning
-mådda+Pron+Indef+Sg+Nom:mådde # ;
-mådda+Pron+Indef+Sg+Acc:måddev # ;
-mådda+Pron+Indef+Sg+Gen:mådde # ;
-mådda+Pron+Indef+Sg+Ill:måddáj # ;
-mådda+Pron+Indef+Sg+Ine:mådden # ;
-mådda+Pron+Indef+Sg+Ela:måddest # ;
-mådda+Pron+Indef+Sg+Com:muddijn # ;
-mådda+Pron+Indef+Sg+Ess:mådden # ;
-
-mådda+Pron+Indef+Pl+Nom:mådde # ;
-mådda+Pron+Indef+Pl+Acc:muddijd # ;
-mådda+Pron+Indef+Pl+Gen:muddij # ;
-mådda+Pron+Indef+Pl+Ill:muddijda # ;
-mådda+Pron+Indef+Pl+Ine:muddijn # ;
-mådda+Pron+Indef+Pl+Ela:muddijst # ;
-mådda+Pron+Indef+Pl+Com:muddij # ;
-
-!mådda,attributiv ställning, endast i plural
-mådda+Pron+Indef+Pl+Nom:mådde # ;
-mådda+Pron+Indef+Pl+Acc:muddijd # ;
-mådda+Pron+Indef+Pl+Gen:muddij # ;
-mådda+Pron+Indef+Pl+Ill:muddijda # ;
-mådda+Pron+Indef+Pl+Ine:muddijn # ;
-mådda+Pron+Indef+Pl+Ela:muddijst # ;
-mådda+Pron+Indef+Pl+Com:muddij # ;
+!!mådde,predikativ ställning    !JW: removed from pronouns.lexc; prefer analysis as Adj which is often subject to elipsis (should be done for others, too, such as gájk-?
+!mådde+Pron+Indef+Sg+Nom:mådde # ;
+!mådde+Pron+Indef+Sg+Acc:måddev # ;
+!mådde+Pron+Indef+Sg+Gen:mådde # ;
+!mådde+Pron+Indef+Sg+Ill:måddáj # ;
+!mådde+Pron+Indef+Sg+Ine:mådden # ;
+!mådde+Pron+Indef+Sg+Ela:måddest # ;
+!mådde+Pron+Indef+Sg+Com:muddijn # ;
+!mådde+Pron+Indef+Sg+Ess:mådden # ;
+!
+!mådde+Pron+Indef+Pl+Nom:mådde # ;
+!mådde+Pron+Indef+Pl+Acc:muddijd # ;
+!mådde+Pron+Indef+Pl+Gen:muddij # ;
+!mådde+Pron+Indef+Pl+Ill:muddijda # ;
+!mådde+Pron+Indef+Pl+Ine:muddijn # ;
+!mådde+Pron+Indef+Pl+Ela:muddijst # ;
+!mådde+Pron+Indef+Pl+Com:muddij # ;
+!
+!!mådde,attributiv ställning, endast i plural
+!mådde+Pron+Indef+Pl+Nom:mådde # ;
+!mådde+Pron+Indef+Pl+Acc:muddijd # ;
+!mådde+Pron+Indef+Pl+Gen:muddij # ;
+!mådde+Pron+Indef+Pl+Ill:muddijda # ;
+!mådde+Pron+Indef+Pl+Ine:muddijn # ;
+!mådde+Pron+Indef+Pl+Ela:muddijst # ;
+!mådde+Pron+Indef+Pl+Com:muddij # ;
 
 !juabba~juäbba:bb ´någon (av två), endera´förekommer bara attributivt och endast i singularis
 
@@ -791,23 +791,23 @@ muhtem+Pron+Indef+Sg+Nom:muhtem # ;
 
 !måddes:måddás-  ´några,flera (personer)´, brukas inte attributivt
 
-!måddas,predikativ ställning
-måddas+Pron+Indef+Sg+Nom:måddes # ;
-måddas+Pron+Indef+Sg+Acc:måddásav # ;
-måddas+Pron+Indef+Sg+Gen:måddása # ;
-måddas+Pron+Indef+Sg+Ill:måddásij # ;
-måddas+Pron+Indef+Sg+Ine:måddásin # ;
-måddas+Pron+Indef+Sg+Ela:måddásis # ;
-måddas+Pron+Indef+Sg+Com:måddásijn # ;
-måddas+Pron+Indef+Sg+Ess:måddásin # ;
+!måddes,predikativ ställning
+måddes+Pron+Indef+Sg+Nom:måddes # ;
+måddes+Pron+Indef+Sg+Acc:måddásav # ;
+måddes+Pron+Indef+Sg+Gen:måddása # ;
+måddes+Pron+Indef+Sg+Ill:måddásij # ;
+måddes+Pron+Indef+Sg+Ine:måddásin # ;
+måddes+Pron+Indef+Sg+Ela:måddásis # ;
+måddes+Pron+Indef+Sg+Com:måddásijn # ;
+måddes+Pron+Indef+Sg+Ess:måddásin # ;
 
-måddas+Pron+Indef+Pl+Nom:måddása # ;
-måddas+Pron+Indef+Pl+Acc:måddásijd # ;
-måddas+Pron+Indef+Pl+Gen:måddásij # ;
-måddas+Pron+Indef+Pl+Ill:måddásijda # ;
-måddas+Pron+Indef+Pl+Ine:måddásijn # ;
-måddas+Pron+Indef+Pl+Ela:måddásijs # ;
-måddas+Pron+Indef+Pl+Com:måddásij # ;
+måddes+Pron+Indef+Pl+Nom:måddása # ;
+måddes+Pron+Indef+Pl+Acc:måddásijd # ;
+måddes+Pron+Indef+Pl+Gen:måddásij # ;
+måddes+Pron+Indef+Pl+Ill:måddásijda # ;
+måddes+Pron+Indef+Pl+Ine:måddásijn # ;
+måddes+Pron+Indef+Pl+Ela:måddásijs # ;
+måddes+Pron+Indef+Pl+Com:måddásij # ;
 
 
 !nágan:nágan- /nágan ´någon, något, några få´, attributivt oböjligt

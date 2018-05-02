@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-01T11:45:13+02:00
+! Timestamp: 2018-05-02T10:26:27+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -24,6 +24,7 @@ LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 ! adjective classes are named after a prototypical adjective
 
 ájdna:ájdna A_AAJDNA "only, only one" ; ! no. 21
+mådde:mådde A_AAJDNA "several" ; ! no. 1196
 állke:állke A_AALLKE "easy, simple" ; ! no. 53
 bahá:bahá A_AALLKE "evil" ; ! no. 101
 hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
