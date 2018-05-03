@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-02T10:26:27+02:00
+! Timestamp: 2018-05-03T09:59:34+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -65,6 +65,7 @@ duallbat:du^Ollba A_DUALLBAT "flat" ; ! no. 5578
 gassak:gassa A_DUALLBAT "thick, fat" ; ! no. 562
 aktamielagatj:akta#mielagatj A_ELULATJ "of one opinion" ; ! no. 3989
 aktasatj:aktasatj A_ELULATJ "common, mutual" ; ! no. 39
+ássjálatj:ássjálatj A_ELULATJ "accessory, participating, involved" ; ! no. 3571
 bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
 elulatj:elulatj A_ELULATJ "rich in reindeer" ; ! no. 3728
 fämulatj:fä2mulatj A_ELULATJ "strong, powerful" ; ! no. 3344

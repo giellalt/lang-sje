@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-02T10:50:19+02:00
+! Timestamp: 2018-05-03T09:59:27+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -123,6 +123,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 árrje:árrje N_EVEN "short esker" ; ! no. 72
 árrka:árrka N_EVEN "ark" ; ! no. 3136
 ásfallta:ásfallta N_EVEN "asphalt" ; ! no. 3141
+ássje:ássje N_EVEN "matter, affair; case, hearing" ; ! no. 90879
 átjádállke:átjá#dállke N_EVEN "stormy weather" ; ! no. 6123
 átjáddjá:átj#áddjá N_EVEN "paternal grandfather" ; ! no. 2897
 átjáhkka:átj#áhkka N_EVEN "paternal grandmother" ; ! no. 2896
@@ -1354,10 +1355,9 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 akademiker:akademiker N_EVEN4 "academic" ; ! no. 3079
 akktagatj:akktagatj N_EVEN4 "single" ; ! no. 3991
 aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
-assjalatj:assjalatj N_EVEN4 "criminal" ; ! no. 5263
 áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
 ájádus:ájádus N_EVEN4 "thought, speculation" ; ! no. 5296
-ássálatj:ássálatj N_EVEN4 "accessory, participatory" ; ! no. 3571
+ássjálatj:ássjálatj N_EVEN4 "criminal" ; ! no. 5263
 bárgáldak:bárgáldag2 N_EVEN4 "braid" ; ! no. 141
 biejvádak:biejvádag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
 bietsastak:bietsastag2 N_EVEN4 "dense pine forest" ; ! no. 6867
@@ -2029,7 +2029,6 @@ gudájagak:gudá#jagag2 N_ODD "six-year-old" ; ! no. 656
 gulitj:gulitj N_ODD "frozen person" ; ! no. 4889
 guobok:gu^Obog2 N_ODD "Arjeplog model of shoe made of leather from reindeer legs" ; ! no. 4315
 guoddalm:gu^Oddalm N_ODD "messenger, omen" ; ! no. 6562
-guoddej:gu^Oddej N_ODD "carrier" ; ! no. 90878
 guohtom:gu^Ohtom N_ODD "reindeer feeding grounds" ; ! no. 685
 guohtomiednam:guohtom#iednam N_ODD "grazing land" ; ! no. 3273
 guoksak:gu^Oksag2 N_ODD "Siberian jay" ; ! no. 689
@@ -2039,6 +2038,7 @@ guorátj:gu^Orátj N_ODD "bear’s den" ; ! no. 703
 guosatj:gu^Osatj N_ODD "light snowfall" ; ! no. 2949
 gurpak:gurpag2 N_ODD "knot" ; ! no. 712
 gusak:gusag2 N_ODD "shoe made of cowhide" ; ! no. 90222
+guäddej:gu^Oddej N_ODD "carrier" ; ! no. 90878
 guäddemiednam:guäddem#iednam N_ODD "calving ground" ; ! no. 6653
 guähpper:gu^Ohpper N_ODD "hoof" ; ! no. 684
 guävvdel:gu^Ovvdel N_ODD "in the middle of the day" ; ! no. 4870
