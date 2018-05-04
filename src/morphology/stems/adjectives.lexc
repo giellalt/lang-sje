@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-03T09:59:34+02:00
+! Timestamp: 2018-05-04T09:30:35+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -70,6 +70,7 @@ bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
 elulatj:elulatj A_ELULATJ "rich in reindeer" ; ! no. 3728
 fämulatj:fä2mulatj A_ELULATJ "strong, powerful" ; ! no. 3344
 färrtabäjjvásatj:färrta#bä2jjvásatj A_ELULATJ "daily" ; ! no. 3548
+ihttátj:ihttátj A_ELULATJ "tomorrow's" ; ! no. 90880
 mielagatj:mielagatj A_ELULATJ "of an opinion" ; ! no. 90804
 vuorbálatj:vu^Orbálatj A_ELULATJ "successful, fortunate" ; ! no. 3719
 vuällegatj:vu^Ol'legatj A_ELULATJ "low, humble" ; ! no. 4547
