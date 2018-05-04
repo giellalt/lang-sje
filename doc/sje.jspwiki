@@ -106,6 +106,8 @@ given the proper use of these flags.
 
 
 
+
+
 !!!Lexicon ENDLEX
 And this is the ENDLEX of everything:
 {{{
@@ -352,14 +354,27 @@ Splitting in 3 groups, because of the preprocessor
 
 
 
- * __LEXICON ab-noun   __
+ * __LEXICON trab-ab-noun   __
+ * __LEXICON trab-ab-adj   __
+ * __LEXICON trab-ab-adv   __
+ * __LEXICON trab-ab-verb   __
+ * __LEXICON trab-ab-num   __
+ * __LEXICON trab-ab-cc   __
 
- * __LEXICON ab-adj   __
 
- * __LEXICON ab-adv   __
+ * __LEXICON itrab-ab-noun   __
+ * __LEXICON itrab-ab-adj   __
+ * __LEXICON itrab-ab-adv   __
+ * __LEXICON itrab-ab-num   __
 
- * __LEXICON ab-num   __
 
+ * __LEXICON trnumab-ab-noun   __
+ * __LEXICON trnumab-ab-adj   __
+ * __LEXICON trnumab-ab-adv   __
+ * __LEXICON trnumab-ab-num   __
+
+
+ * __LEXICON ab-cc   __
 
 
 
@@ -372,23 +387,13 @@ Here come POS and Case tags, and no period.
 
  * __LEXICON ab-nodot-num   __
 
-
-
- * __LEXICON ab-dot-noun   __  This is the lexicon for abbrs that must have a period.
-
- * __LEXICON ab-dot-adj   __  This is the lexicon for abbrs that must have a period.
-
- * __LEXICON ab-dot-adv   __  This is the lexicon for abbrs that must have a period.
-
- * __LEXICON ab-dot-num   __  This is the lexicon for abbrs that must have a period.
-
- * __LEXICON ab-dot-cc   __
+ * __LEXICON ab-nodot-cc   __
 
 
 
 
- * __LEXICON ab-dot-verb   __
 
+ * __LEXICON ab-nodot-verb   __
 
 
 
@@ -415,7 +420,6 @@ Here come POS and Case tags, and no period.
 !!Transitive abbreviations 
 
  * __LEXICON TRAB   __
-
 
 
 
@@ -1036,9 +1040,18 @@ Pronouns
 
 
 
+
+
+
+
+
+
+
+
+
+
+
  * __LEXICON Indefinita   __
-
-
 
 
 
