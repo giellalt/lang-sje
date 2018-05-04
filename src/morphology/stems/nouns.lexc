@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-03T10:03:02+02:00
+! Timestamp: 2018-05-04T09:30:31+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -565,7 +565,7 @@ iehkedisbäjjve:iehkedis#biejjve N_EVEN "afternoon" ; ! no. 3965
 iehkedisidja:iehkedis#idja N_EVEN "late evening" ; ! no. 3744
 iehkedisnásste:iehkedis#násste N_EVEN "evening star" ; ! no. 2935
 ietjasvuohke:ietjas#vu^Ohke N_EVEN "distinctive" ; ! no. 4940
-ihtátjbäjjve:ihtátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
+ihttátjbäjjve:ihtátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
 idja+Use/NG:ijja N_EVEN "night" ; ! no. 90421
 inuijjta:inuijjta N_EVEN "Inuit" ; ! no. 4000
 irrge:irrge N_EVEN "fiancé, future husband" ; ! no. 3425
