@@ -213,6 +213,8 @@ SET VFIN-NOT-AUX = VFIN - AUX ;
 # any word
 LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num \? ;
 
+LIST NPH = N Pron ; #set of NP heads
+
 SET PRE-NP-HEAD = (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
          Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
          (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
@@ -323,6 +325,9 @@ MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
 
 #!! * __CCasCNPCVP__ Map (@CNP @CVP) to CC
 MAP:CCasCNPCVP (@CNP @CVP) TARGET CC ;
+
+# remove coordinating NP tag if not followed by an NP
+REMOVE:CNPnoNP (@CNP) IF (NOT *1 NPH BARRIER VFIN OR Inf);
 
 #!! !!Mapping verbs
 #!! * __+FMAINVinfv__ maps to main verb followed by inf
