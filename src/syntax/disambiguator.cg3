@@ -213,13 +213,14 @@ SET VFIN-NOT-AUX = VFIN - AUX ;
 # any word
 LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num \? ;
 
-LIST NPH = N Pron ; #set of NP heads
+LIST NP-HEAD = N Pron ; #set of NP heads
 
 SET PRE-NP-HEAD = (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
          Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
          (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
 SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 
+SET NoNP = WORD - NP-HEAD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, pluc CC
 
 # ============== #
 # Disambiguation #
@@ -277,7 +278,8 @@ REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
 	##båtsoj máhtta DUV nala båhtet
 
 #NP (incl. pronouns) preceding certain Po is Gen # actually more general than just gen.sg/nom.pl
-SELECT:genb4Po Gen IF (1C Po) ;
+SELECT:genb4Po Gen IF (*1C Po BARRIER NoNP);
+
 
 #if the following slot has a noun, choose gen.sg
 SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
@@ -327,7 +329,7 @@ MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
 MAP:CCasCNPCVP (@CNP @CVP) TARGET CC ;
 
 # remove coordinating NP tag if not followed by an NP
-REMOVE:CNPnoNP (@CNP) IF (NOT *1 NPH BARRIER VFIN OR Inf OR S-BOUNDARY OR CC) ;
+REMOVE:CNPnoNP (@CNP) IF (NOT *1 NP-HEAD BARRIER VFIN OR Inf OR S-BOUNDARY OR CC) ;
 
 #!! !!Mapping verbs
 #!! * __+FMAINVinfv__ maps to main verb followed by inf
