@@ -4,7 +4,6 @@ args:
 dictitems:
   Cmp: !!set
     !!python/unicode 'Cmp/SgNom': null
-    !!python/unicode 'CmpNP/First': null
   Der: !!set
     !!python/unicode 'Der/Ag': null
     !!python/unicode 'Der/State': null
@@ -71,7 +70,6 @@ dictitems:
     !!python/unicode 'RIGHT': null
     !!python/unicode 'Refl': null
     !!python/unicode 'Rel': null
-    !!python/unicode 'SENT': null
     !!python/unicode 'Sg': null
     !!python/unicode 'Sg1': null
     !!python/unicode 'Sg2': null
