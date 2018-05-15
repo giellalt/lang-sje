@@ -1,0 +1,82 @@
+!!python/object/apply:collections.defaultdict
+args:
+- !!python/name:__builtin__.set ''
+dictitems:
+  Cmp: !!set
+    !!python/unicode 'Cmp/SgNom': null
+    !!python/unicode 'CmpNP/First': null
+  Der: !!set
+    !!python/unicode 'Der/Ag': null
+    !!python/unicode 'Der/State': null
+  Err: !!set
+    !!python/unicode 'Err/Orth': null
+  Use: !!set
+    !!python/unicode 'Use/-Spell': null
+    !!python/unicode 'Use/Circ': null
+    !!python/unicode 'Use/NG': null
+  resten: !!set
+    ? !!python/unicode ''
+    : null
+    !!python/unicode '% ': null
+    !!python/unicode '/-': null
+    !!python/unicode 'A': null
+    !!python/unicode 'ABBR': null
+    !!python/unicode 'Abe': null
+    !!python/unicode 'Acc': null
+    !!python/unicode 'Adv': null
+    !!python/unicode 'Attr': null
+    !!python/unicode 'CC': null
+    !!python/unicode 'CLB': null
+    !!python/unicode 'CS': null
+    !!python/unicode 'Coll': null
+    !!python/unicode 'Com': null
+    !!python/unicode 'Det': null
+    !!python/unicode 'Du1': null
+    !!python/unicode 'Du2': null
+    !!python/unicode 'Du3': null
+    !!python/unicode 'Ela': null
+    !!python/unicode 'Ess': null
+    !!python/unicode 'Gen': null
+    !!python/unicode 'ITRAB': null
+    !!python/unicode 'Ill': null
+    !!python/unicode 'Imprt': null
+    !!python/unicode 'Indef': null
+    !!python/unicode 'Ine': null
+    !!python/unicode 'Interj': null
+    !!python/unicode 'Interr': null
+    !!python/unicode 'LEFT': null
+    !!python/unicode 'N': null
+    !!python/unicode 'Nom': null
+    !!python/unicode 'Num': null
+    !!python/unicode 'Ord': null
+    !!python/unicode 'PUNCT': null
+    !!python/unicode 'Par': null
+    !!python/unicode 'Pcle': null
+    !!python/unicode 'Pers': null
+    !!python/unicode 'Pl': null
+    !!python/unicode 'Pl1': null
+    !!python/unicode 'Pl2': null
+    !!python/unicode 'Pl3': null
+    !!python/unicode 'Po': null
+    !!python/unicode 'Pron': null
+    !!python/unicode 'PxDu1': null
+    !!python/unicode 'PxDu2': null
+    !!python/unicode 'PxDu3': null
+    !!python/unicode 'PxPl1': null
+    !!python/unicode 'PxPl2': null
+    !!python/unicode 'PxPl3': null
+    !!python/unicode 'PxSg1': null
+    !!python/unicode 'PxSg2': null
+    !!python/unicode 'PxSg3': null
+    !!python/unicode 'RIGHT': null
+    !!python/unicode 'Refl': null
+    !!python/unicode 'Rel': null
+    !!python/unicode 'SENT': null
+    !!python/unicode 'Sg': null
+    !!python/unicode 'Sg1': null
+    !!python/unicode 'Sg2': null
+    !!python/unicode 'Sg3': null
+    !!python/unicode 'TRAB': null
+    !!python/unicode 'TRNUMAB': null
+    !!python/unicode 'TV': null
+    !!python/unicode 'V': null
