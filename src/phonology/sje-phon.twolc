@@ -64,6 +64,7 @@ Sets
   Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
              b2 d2 g2 t2 j2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
+           A       E       I               O           U           Æ Ä Ø Ö Å Á É Í Ó Ú 
                            i2              %^O         u2            ä2 ;
   Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U ; 
   
@@ -208,6 +209,12 @@ Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( b b b b b b d d d d d f f g g g g j j j j j j j j j j k k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
            Cy in ( d j l m n r j k m n v d n d l ŋ v b d g p k l m r s v n s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d j k l r g s )  
           matched ;
+
+!!€ Ánnda^WG
+!!€ Án0da0
+
+!!€ ánnde^WG
+!!€ án0de0
 
 ! !!€ stállo^WG
 ! !!€ stál0o0
