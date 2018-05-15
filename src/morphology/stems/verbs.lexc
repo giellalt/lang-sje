@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-02T10:50:27+02:00
+! Timestamp: 2018-05-15T09:38:53+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -332,7 +332,7 @@ asstat:asst V_EVEN_A "have time" ; ! no. 80
 ánodallat:ánodall V_EVEN_A "request several times" ; ! no. 4662
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
 ávvat:ávv V_EVEN_A "release a reindeer herd" ; ! no. 2801
-badjelgähttjat:badjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 96
+badjelgähttjat:badjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 90882
 bahástallat:bahástall V_EVEN_A "be against something" ; ! no. 4705
 ballat:ball V_EVEN_A "be scared" ; ! no. 90833
 barrgat:barrg V_EVEN_A "work, do a job" ; ! no. 144
