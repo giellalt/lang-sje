@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-15T16:24:02+02:00
+! Timestamp: 2018-05-15T17:54:51+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -31,6 +31,7 @@ LEXICON ProperNoun   !!= * __@CODE@__
 
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
+Árjepluovve:Árjepluovve N_EVEN "Arjeplog" ; ! no. 66
 Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
 Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
 Gåbbda:Gåbbda N_EVEN "Gåbbda" ; ! no. 90696
@@ -39,6 +40,7 @@ Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
 Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
 Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
 Lässe:Lä2sse N_EVEN "Lars" ; ! no. 6035
+Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
 Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
 Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
@@ -58,12 +60,12 @@ Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
 Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 Bávval:Bávval N_ODD "Paul" ; ! no. 4637
 Bidám:Bidám N_ODD "Piteå" ; ! no. 167
-Bierok:Bierog2 N_ODD "Per?" ; ! no. 90885
+Bierok:Bierog2 N_ODD "Per" ; ! no. 90885
 Bidám+Use/NG:Bisum N_ODD "Piteå" ; ! no. 90771
+Märrgit:Mä2rrgid2 N_ODD "Margareta" ; ! no. 5974
 Ruopsok:Ru^Opsog2 N_ODD "Ruopsok" ; ! no. 1436
 Tjidtják:Tjidtjág2 N_ODD "Tjidtjak" ; ! no. 6585
 Tjårvek:Tjårveg2 N_ODD "Hornavan" ; ! no. 1977
 Vuoktanj:Vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
 Åjjvak:Åjjvag2 N_ODD "Uddjaur Lake" ; ! no. 2811
 Mávas:Mávvas N_ODD_WG "Mavas" ; ! no. 90281
-Märrgit:Mierrgid2 N_ODD_WG "Margareta" ; ! no. 5974
