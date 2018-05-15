@@ -327,7 +327,7 @@ MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
 MAP:CCasCNPCVP (@CNP @CVP) TARGET CC ;
 
 # remove coordinating NP tag if not followed by an NP
-REMOVE:CNPnoNP (@CNP) IF (NOT *1 NPH BARRIER VFIN OR Inf);
+REMOVE:CNPnoNP (@CNP) IF (NOT *1 NPH BARRIER VFIN OR Inf OR S-BOUNDARY OR CC) ;
 
 #!! !!Mapping verbs
 #!! * __+FMAINVinfv__ maps to main verb followed by inf
