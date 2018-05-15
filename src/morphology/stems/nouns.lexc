@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-15T09:38:45+02:00
+! Timestamp: 2018-05-15T17:54:44+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1911,6 +1911,7 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 áldar:áldar N_ODD "age" ; ! no. 2719
 álltár:álltár N_ODD "altar" ; ! no. 3799
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
+árjepluovek:árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609
 árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
 árrat:árrad2 N_ODD "morning" ; ! no. 70
