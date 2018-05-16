@@ -27,10 +27,10 @@ CARD ;
 
 
 LEXICON CARD
-nålla:nål'la SUPLETIVEORD "noll, zero" ;
-akkta:akkta SUPLETIVEORD "ett, one" ;
+nålla:nål'la NUM0 "noll, zero" ;
+akkta: NUM1 "ett, one" ;
 vuostas:vuostas ORDsuppl "först, first" ;
-guäkkte:gu^Okkte SUPLETIVEORD "två, two" ;
+guäkkte: NUM2 "två, two" ;
 mubbe:mubbe ORDsuppl "andra, second/other" ;
 mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
 gålbmå:gålbm NUMå "tre, three" ;
@@ -40,24 +40,33 @@ guhta:guht NUMa "sex, six" ;
 gietjav:giehtj NUM7 "sju, seven" ;
 gákktse:gákkts NUMe "åtta, eight" ;
 åkktse:åkkts NUMe "nio, nine" ;
-lågev:låg NUM10 "tio, ten" ;
+lågev:låg2 NUM10 "tio, ten" ;
 tjuohte:tjuoht NUMe "hundra, hundred"; !verify ORD form!
 tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
-!aktalågakkta num "elva" ;
-!aktalågguäkkte num "tolv" ;
-!aktalåggålbmå num "tretton" ;
-!aktalågnällje num "fjorton" ;
-!aktalågvihta num "femton" ;
-!aktalågguhta num "sexton" ;
-!aktalåggietjav num "sjutton" ;
-!aktalåggákktse num "arton" ;
-!aktalågåkktse num "nitton" ;
+!akktalågakkta num "elva" ;
+!akktalågguäkkte num "tolv" ;
+!akktalåggålbmå num "tretton" ;
+!akktalågnällje num "fjorton" ;
+!akktalågvihta num "femton" ;
+!akktalågguhta num "sexton" ;
+!akktalåggietjav num "sjutton" ;
+!akktalåggákktse num "arton" ;
+!akktalågåkktse num "nitton" ;
 !guakktalåg num "tjugo" ;
 !guakktalågakkta num "tjugoett" ;
 
-
-LEXICON SUPLETIVEORD ! nums with a suppletive ordinal in single-digit (1,2) or none at all (0)
+LEXICON NUM0 ! num 0
 +Num: # ; 
+
+LEXICON NUM1 ! num 1
++Num:akkta # ; 
+:#akkt ORD ; !only for 2+digit NUMs
+!:akkta 10s ;
+
+LEXICON NUM2 ! num 2
++Num:gu^Okkte # ; 
+:#gu^Okkt ORD ; !only for 2+digit NUMs
+!:gu^Okkte 10s ;
 
 LEXICON NUMa ! a-stem num (5,6)
 +Num:a # ; 
@@ -66,17 +75,21 @@ ORD ;
 LEXICON NUMå ! å-stem num (3)
 +Num:å # ; 
 ORD ;
+!:å 10s ;
 
 LEXICON NUMe ! e-stem num (4,8,9)
 +Num:e # ; 
 ORD ;
+!:e 10s ;
 
 LEXICON NUM7 ! num (7)
 +Num:av^WG # ; 
 ORD7 ;
+!:av 10s ; !verify this
 
 LEXICON NUM10 ! num (10)
 +Num:ev^WG # ; 
++Num: # ; !in compound numbers
 ORD10 ;
 
 LEXICON NUM1000 ! num (1000)
@@ -96,6 +109,18 @@ LEXICON ORD10
 
 LEXICON ORDsuppl !suppletive ordinal forms
 +A+Ord: # ;
+
+
+
+
+! !Compound NUMs for 10s (10-20-30-etc)
+! !akktalåkguäkkte
+! !akkta#låk#guäkkte
+! LEXICON 10s !
+! +lågev:%>#låg2 NUM10 ; !but akktalågev doesn't exist!!
+! +låk+:%>#låk%># CARD ;
+
+
 
 
 !vuostas ordNum "första, first" ;
