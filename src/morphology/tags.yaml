@@ -1,57 +1,53 @@
-!!python/object/apply:collections.defaultdict
-args:
-- !!python/name:__builtin__.set ''
-dictitems:
-  Der: !!set
-    !!python/unicode 'Der/Ag': null
-    !!python/unicode 'Der/State': null
-  Err: !!set
-    !!python/unicode 'Err/Orth': null
-  Use: !!set
-    !!python/unicode 'Use/-Spell': null
-    !!python/unicode 'Use/Circ': null
-    !!python/unicode 'Use/NG': null
-  resten: !!set
-    !!python/unicode 'A': null
-    !!python/unicode 'Acc': null
-    !!python/unicode 'Attr': null
-    !!python/unicode 'CLB': null
-    !!python/unicode 'Coll': null
-    !!python/unicode 'Com': null
-    !!python/unicode 'Det': null
-    !!python/unicode 'Du1': null
-    !!python/unicode 'Du2': null
-    !!python/unicode 'Du3': null
-    !!python/unicode 'Ela': null
-    !!python/unicode 'Ess': null
-    !!python/unicode 'Gen': null
-    !!python/unicode 'Ill': null
-    !!python/unicode 'Indef': null
-    !!python/unicode 'Ine': null
-    !!python/unicode 'Interr': null
-    !!python/unicode 'N': null
-    !!python/unicode 'Nom': null
-    !!python/unicode 'Num': null
-    !!python/unicode 'Ord': null
-    !!python/unicode 'Par': null
-    !!python/unicode 'Pers': null
-    !!python/unicode 'Pl': null
-    !!python/unicode 'Pl1': null
-    !!python/unicode 'Pl2': null
-    !!python/unicode 'Pl3': null
-    !!python/unicode 'Pron': null
-    !!python/unicode 'PxDu1': null
-    !!python/unicode 'PxDu2': null
-    !!python/unicode 'PxDu3': null
-    !!python/unicode 'PxPl1': null
-    !!python/unicode 'PxPl2': null
-    !!python/unicode 'PxPl3': null
-    !!python/unicode 'PxSg1': null
-    !!python/unicode 'PxSg2': null
-    !!python/unicode 'PxSg3': null
-    !!python/unicode 'Refl': null
-    !!python/unicode 'Rel': null
-    !!python/unicode 'Sg': null
-    !!python/unicode 'Sg1': null
-    !!python/unicode 'Sg2': null
-    !!python/unicode 'Sg3': null
+Der
+	Der/Ag
+	Der/State
+Err
+	Err/Orth
+Use
+	Use/-Spell
+	Use/Circ
+	Use/NG
+resten
+	A
+	Acc
+	Attr
+	CLB
+	Coll
+	Com
+	Det
+	Du1
+	Du2
+	Du3
+	Ela
+	Ess
+	Gen
+	Ill
+	Indef
+	Ine
+	Interr
+	N
+	Nom
+	Num
+	Ord
+	Par
+	Pers
+	Pl
+	Pl1
+	Pl2
+	Pl3
+	Pron
+	PxDu1
+	PxDu2
+	PxDu3
+	PxPl1
+	PxPl2
+	PxPl3
+	PxSg1
+	PxSg2
+	PxSg3
+	Refl
+	Rel
+	Sg
+	Sg1
+	Sg2
+	Sg3
