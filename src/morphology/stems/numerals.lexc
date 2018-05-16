@@ -29,7 +29,10 @@ CARD ;
 LEXICON CARD
 nålla:nål'la SUPLETIVEORD "noll, zero" ;
 akkta:akkta SUPLETIVEORD "ett, one" ;
+vuostas:vuostas ORDsuppl "först, first" ;
 guäkkte:gu^Okkte SUPLETIVEORD "två, two" ; 
+mubbe:mubbe ORDsuppl "andra, second/other" ;
+mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
 gålbmå:gålbm NUMå "tre, three" ;
 nällje:niellj NUMe "fyra, four";
 vihta:viht NUMa "fem, five" ;
@@ -75,7 +78,7 @@ LEXICON NUM10 ! num (10)
 ORD10 ;
 
 
-
+!ordninal forms (add cases later)
 LEXICON ORD
 +A+Ord:át^WG # ;
 
@@ -84,6 +87,10 @@ LEXICON ORD7
 
 LEXICON ORD10
 +A+Ord:át # ;
+
+LEXICON ORDsuppl !suppletive ordinal forms
++A+Ord: # ;
+
 
 !vuostas ordNum "första, first" ;
 !nubbe ordNum "andra, second" ;
