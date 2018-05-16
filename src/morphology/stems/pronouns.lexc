@@ -1073,7 +1073,7 @@ LEXICON nubbecase   !!= * __@CODE@__
  +Sg+Gen:e%> # ;
  +Sg+Ine+Attr:e%> # ;
  +Sg+Ill+Attr:e%> # ;
- +Sg+Gen+Use/NG:e%> NAMÁK ; !
+! +Sg+Gen+Use/NG:e%> NAMÁK ; !
 ! +Sg+Abe:e%>#da # ;
  +Sg+Abe+Use/NG:e%>#dak # ; !
  +Sg+Abe+Use/NG:e%>#dagi # ; !
@@ -1085,7 +1085,7 @@ LEXICON nubbecase   !!= * __@CODE@__
  +Sg+Com:i%>jn # ;
  +Pl+Nom:e%> # ;
  +Pl+Gen:i%>j # ;
- +Pl+Gen+Use/NG:i%>j NAMÁK ; !
+! +Pl+Gen+Use/NG:i%>j NAMÁK ; !
 ! +Pl+Abe:i%>j#da # ;
  +Pl+Abe+Use/NG:i%>j#dak # ; !
  +Pl+Abe+Use/NG:i%>j#dagi # ; !
