@@ -30,7 +30,7 @@ LEXICON CARD
 nålla:nål'la SUPLETIVEORD "noll, zero" ;
 akkta:akkta SUPLETIVEORD "ett, one" ;
 vuostas:vuostas ORDsuppl "först, first" ;
-guäkkte:gu^Okkte SUPLETIVEORD "två, two" ; 
+guäkkte:gu^Okkte SUPLETIVEORD "två, two" ;
 mubbe:mubbe ORDsuppl "andra, second/other" ;
 mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
 gålbmå:gålbm NUMå "tre, three" ;
@@ -41,6 +41,8 @@ gietjav:giehtj NUM7 "sju, seven" ;
 gákktse:gákkts NUMe "åtta, eight" ;
 åkktse:åkkts NUMe "nio, nine" ;
 lågev:låg NUM10 "tio, ten" ;
+tjuohte:tjuoht NUMe "hundra, hundred"; !verify ORD form!
+tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
 !aktalågakkta num "elva" ;
 !aktalågguäkkte num "tolv" ;
 !aktalåggålbmå num "tretton" ;
@@ -77,8 +79,12 @@ LEXICON NUM10 ! num (10)
 +Num:ev^WG # ; 
 ORD10 ;
 
+LEXICON NUM1000 ! num (1000)
++Num: # ; 
+ORD10 ;
 
-!ordninal forms (add cases later)
+
+!ORDINAL forms (add cases later)
 LEXICON ORD
 +A+Ord:át^WG # ;
 
