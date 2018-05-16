@@ -23,16 +23,14 @@
 ! ------------------
 
 LEXICON Numeral					   !!= * __@CODE@__
-CARD ;
+CARDbasic ;
+CARDsuppletive ;
+CARD10s ;
 
 
-LEXICON CARD
-nålla:nål'la NUM0 "noll, zero" ;
+LEXICON CARDbasic
 akkta: NUM1 "ett, one" ;
-vuostas:vuostas ORDsuppl "först, first" ;
 guäkkte: NUM2 "två, two" ;
-mubbe:mubbe ORDsuppl "andra, second/other" ;
-mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
 gålbmå:gålbm NUMå "tre, three" ;
 nällje:niellj NUMe "fyra, four";
 vihta:viht NUMa "fem, five" ;
@@ -40,20 +38,17 @@ guhta:guht NUMa "sex, six" ;
 gietjav:giehtj NUM7 "sju, seven" ;
 gákktse:gákkts NUMe "åtta, eight" ;
 åkktse:åkkts NUMe "nio, nine" ;
+
+
+LEXICON CARDsuppletive
+nålla:nål'la NUM0 "noll, zero" ;
+vuostas:vuostas ORDsuppl "först, first" ;
+mubbe:mubbe ORDsuppl "andra, second/other" ;
+mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
 lågev:låg2 NUM10 "tio, ten" ;
 tjuohte:tjuoht NUMe "hundra, hundred"; !verify ORD form!
 tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
-!akktalågakkta num "elva" ;
-!akktalågguäkkte num "tolv" ;
-!akktalåggålbmå num "tretton" ;
-!akktalågnällje num "fjorton" ;
-!akktalågvihta num "femton" ;
-!akktalågguhta num "sexton" ;
-!akktalåggietjav num "sjutton" ;
-!akktalåggákktse num "arton" ;
-!akktalågåkktse num "nitton" ;
-!guakktalåg num "tjugo" ;
-!guakktalågakkta num "tjugoett" ;
+
 
 LEXICON NUM0 ! num 0
 +Num: # ; 
@@ -112,28 +107,40 @@ LEXICON ORDsuppl !suppletive ordinal forms
 
 
 
+LEXICON CARD10s !2-digit NUMs
+akkta#lågev:akkta#låg2 ROUND10s ; !but does akktalågev really exist??
+akkta#lågev+Num:akkta#låg2 # ; !but does akktalågev really exist??
+akkta#lågev#:akkta#låk# CARDbasic ;
+guäkkte#lågev:guäkkte#låg2 ROUND10s ; 
+guäkkte#lågev+Num:guäkkte#låg2 # ; 
+guäkkte#lågev#:guäkkte#låk# CARDbasic ;
+gålbmå#lågev:gålbmå#låg2 ROUND10s ; 
+gålbmå#lågev+Num:gålbmå#låg2 # ; 
+gålbmå#lågev#:gålbmå#låk# CARDbasic ;
+nällje#lågev:nällje#låg2 ROUND10s ; 
+nällje#lågev+Num:nällje#låg2 # ; 
+nällje#lågev#:nällje#låk# CARDbasic ;
+vihta#lågev:vihta#låg2 ROUND10s ; 
+vihta#lågev+Num:vihta#låg2 # ; 
+vihta#lågev#:vihta#låk# CARDbasic ;
+guhta#lågev:guhta#låg2 ROUND10s ; 
+guhta#lågev+Num:guhta#låg2 # ; 
+guhta#lågev#:guhta#låk# CARDbasic ;
+gietjav#lågev:gietjav#låg2 ROUND10s ; 
+gietjav#lågev+Num:gietjav#låg2 # ; 
+gietjav#lågev#:gietjav#låk# CARDbasic ;
+gákktse#lågev:gákktse#låg2 ROUND10s ; 
+gákktse#lågev+Num:gákktse#låg2 # ; 
+gákktse#lågev#:gákktse#låk# CARDbasic ;
+åkktse#lågev:åkktse#låg2 ROUND10s ; 
+åkktse#lågev+Num:åkktse#låg2 # ; 
+åkktse#lågev#:åkktse#låk# CARDbasic ;
 
-! !Compound NUMs for 10s (10-20-30-etc)
-! !akktalåkguäkkte
-! !akkta#låk#guäkkte
-! LEXICON 10s !
-! +lågev:%>#låg2 NUM10 ; !but akktalågev doesn't exist!!
-! +låk+:%>#låk%># CARD ;
 
+LEXICON ROUND10s !round 2-digit NUMs (10,20,30,etc.)
++Num:ev K ;
+ORD10 ;
 
-
-
-!vuostas ordNum "första, first" ;
-!nubbe ordNum "andra, second" ;
-!mubbe ordNum "andra, second" ;
-!gålmát ordNum "tredje, thrid" ;
-!nielját ordNum "fjärde, fourth" ;
-!vidát ordNum "femte, fifth" ;
-!gudát ordNum "sjätte, sixth" ;
-!giehtjit ordNum "sjunde, seventh" ;
-!gákktsát ordNum "åttonde , eighth" ;
-!åkktsát ordNum "nionde, ninth" ;
-!lågát ordNum "tionde, tenth" ;
 
 
 
