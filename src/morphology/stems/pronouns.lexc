@@ -477,43 +477,43 @@ juabba+Pron+Indef+Sg+Ela:juobbat # ;
 juabba+Pron+Indef+Sg+Com:juobbajn # ;
 juabba+Pron+Indef+Sg+Ess:juabban # ;
 
-!nubbe:bb ´den ena, den andra, de andra´(nubbe uppträder även som ordningstal) rättat hit
-
-!nubbe,predikativ ställning
-nubbe+Pron+Indef+Sg+Nom:nubbe # ;
-nubbe+Pron+Indef+Sg+Acc:nubbev # ;
-nubbe+Pron+Indef+Sg+Gen:nubbe # ;
-nubbe+Pron+Indef+Sg+Ill:nubbáj # ;
-nubbe+Pron+Indef+Sg+Ine:nubben # ;
-nubbe+Pron+Indef+Sg+Ela:nubbest # ;
-nubbe+Pron+Indef+Sg+Com:nubbijn # ;
-nubbe+Pron+Indef+Sg+Ess:nubben # ;
-
-nubbe+Pron+Indef+Pl+Nom:nubbe # ;
-nubbe+Pron+Indef+Pl+Acc:nubbijd # ;
-nubbe+Pron+Indef+Pl+Gen:nubbij # ;
-nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
-nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
-nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
-nubbe+Pron+Indef+Pl+Com:nubbij # ;
-
-!nubbe,attributiv ställning
-nubbe+Pron+Indef+Sg+Nom:nubbe # ;
-nubbe+Pron+Indef+Sg+Acc:nubbev # ;
-nubbe+Pron+Indef+Sg+Gen:nubbe # ;
-nubbe+Pron+Indef+Sg+Ill:nubbe # ;
-nubbe+Pron+Indef+Sg+Ine:nubben # ;
-nubbe+Pron+Indef+Sg+Ela:nubbet # ;
-nubbe+Pron+Indef+Sg+Com:nubbijn # ;
-nubbe+Pron+Indef+Sg+Ess:nubben # ;
-
-nubbe+Pron+Indef+Pl+Nom:nubbe # ;
-nubbe+Pron+Indef+Pl+Acc:nubbijd # ;
-nubbe+Pron+Indef+Pl+Gen:nubbij # ;
-nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
-nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
-nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
-nubbe+Pron+Indef+Pl+Com:nubbij # ;
+! !nubbe:bb ´den ena, den andra, de andra´(nubbe uppträder även som ordningstal) rättat hit
+! 
+! !nubbe,predikativ ställning
+! nubbe+Pron+Indef+Sg+Nom:nubbe # ;
+! nubbe+Pron+Indef+Sg+Acc:nubbev # ;
+! nubbe+Pron+Indef+Sg+Gen:nubbe # ;
+! nubbe+Pron+Indef+Sg+Ill:nubbáj # ;
+! nubbe+Pron+Indef+Sg+Ine:nubben # ;
+! nubbe+Pron+Indef+Sg+Ela:nubbest # ;
+! nubbe+Pron+Indef+Sg+Com:nubbijn # ;
+! nubbe+Pron+Indef+Sg+Ess:nubben # ;
+! 
+! nubbe+Pron+Indef+Pl+Nom:nubbe # ;
+! nubbe+Pron+Indef+Pl+Acc:nubbijd # ;
+! nubbe+Pron+Indef+Pl+Gen:nubbij # ;
+! nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
+! nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
+! nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
+! nubbe+Pron+Indef+Pl+Com:nubbij # ;
+! 
+! !nubbe,attributiv ställning
+! nubbe+Pron+Indef+Sg+Nom:nubbe # ;
+! nubbe+Pron+Indef+Sg+Acc:nubbev # ;
+! nubbe+Pron+Indef+Sg+Gen:nubbe # ;
+! nubbe+Pron+Indef+Sg+Ill:nubbe # ;
+! nubbe+Pron+Indef+Sg+Ine:nubben # ;
+! nubbe+Pron+Indef+Sg+Ela:nubbet # ;
+! nubbe+Pron+Indef+Sg+Com:nubbijn # ;
+! nubbe+Pron+Indef+Sg+Ess:nubben # ;
+! 
+! nubbe+Pron+Indef+Pl+Nom:nubbe # ;
+! nubbe+Pron+Indef+Pl+Acc:nubbijd # ;
+! nubbe+Pron+Indef+Pl+Gen:nubbij # ;
+! nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
+! nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
+! nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
+! nubbe+Pron+Indef+Pl+Com:nubbij # ;
 
 !binna:binn-/ binna ´lite,litegrann´, plural ´några få´
 
