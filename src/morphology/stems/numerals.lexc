@@ -89,13 +89,19 @@ LEXICON NUM10 ! num (10)
 ORD10 ;
 
 LEXICON NUM100 ! num (100); treat as noun and NUM
-:e N_EVEN ;
-NUMe ;
++Num:e EVENCASE ;  ! Sg Nom, Ess
++Num:e N_EVEN_ILL ;
++Num:e^WG N_EVEN_WK ; ! (but this leads to a DIM possibility, too - for tjuohte? tjuodátj?)
+ORD ;
+!:e N_EVEN ;
+!NUMe ;
 
 LEXICON NUM1000 ! num (1000); treat as noun and NUM
-N_ODD ;
-+Num: # ; 
++Num+Sg+Nom:%> K ; 
++Num: N_ODD_X ;
 ORD10 ;
+!N_ODD ;
+!+Num: # ; 
 
 
 !ORDINAL forms (add cases later)
