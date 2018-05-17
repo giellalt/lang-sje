@@ -46,7 +46,7 @@ vuostas:vuostas ORDsuppl "först, first" ;
 mubbe:mubbe ORDsuppl "andra, second/other" ;
 mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
 lågev:låg2 NUM10 "tio, ten" ;
-tjuohte:tjuoht NUMe "hundra, hundred"; !verify ORD form!
+tjuohte:tjuoht NUM100 "hundra, hundred"; !verify ORD form!
 tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
 
 
@@ -83,11 +83,17 @@ ORD7 ;
 !:av 10s ; !verify this
 
 LEXICON NUM10 ! num (10)
++N+Sg+Gen:e # ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
 +Num:ev^WG # ; 
 +Num: # ; !in compound numbers
 ORD10 ;
 
-LEXICON NUM1000 ! num (1000)
+LEXICON NUM100 ! num (100); treat as noun and NUM
+:e N_EVEN ;
+NUMe ;
+
+LEXICON NUM1000 ! num (1000); treat as noun and NUM
+N_ODD ;
 +Num: # ; 
 ORD10 ;
 
