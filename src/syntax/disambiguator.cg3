@@ -312,8 +312,9 @@ SELECT:relProAfterNP (Pron Rel) IF (-1 N);
 REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER S-BOUNDARY);
 	##Dä dån ådtjo MUV TJILMIJD lägit.
 
-#choose attr when followed by (adj)(adv+adj)N
+#choose attr when followed by (adj)(adv+adj)N, otherwise remove it
 SELECT:attrB4N (A Attr) IF (1 N OR (Attr N));
+REMOVE:attrNoNP (A Attr) IF (NOT 1 N OR (Attr N));
 
 #tag A Attr as N modifier
 MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
