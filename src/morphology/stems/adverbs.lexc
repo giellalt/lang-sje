@@ -20,6 +20,7 @@ LEXICON adv   !!= * __@CODE@__ adds the tag +Adv
 LEXICON Adverb   !!= * __@CODE@__ is the list
 agev adv ;
 áj adv "också" ;
+áj+Use/NG:aj adv "också" ;
 ájlegin adv ;
 ájjve adv ;
 ájmon adv;
@@ -42,7 +43,7 @@ alvos adv ;
 bajás adv ;
 bálldalugguj adv ;
 ber adv "only" ;
-bar+Use/NG:bar adv "only" ;
+ber+Use/NG:bar adv "only" ;
 beru adv ;
 !biejven adv ;
 bihko adv ;
