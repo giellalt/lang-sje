@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-15T09:38:53+02:00
+! Timestamp: 2018-05-25T18:50:35+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -1494,6 +1494,7 @@ sjävudit:sjä2vud V_ODD "become silent" ; ! no. 3324
 skáladit:skálad V_ODD "fence, fight (using something sharp)" ; ! no. 2760
 skámadit:skámad V_ODD "be ashamed" ; ! no. 2979
 skidárdit:skidárd V_ODD "waste, squander" ; ! no. 2415
+skillbidit:skillbid V_ODD "begin to shake" ; ! no. 90889
 skillbistit:skillbist V_ODD "shiver, shake" ; ! no. 5127
 skinjijdit:skinjijd V_ODD "echo, resound" ; ! no. 1637
 skuoladit:sku^Olad V_ODD "ring (with a bell)" ; ! no. 1648

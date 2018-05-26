@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-15T17:54:44+02:00
+! Timestamp: 2018-05-25T18:47:53+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -282,6 +282,7 @@ dállve:dállve N_EVEN "winter" ; ! no. 322
 dállveájjge:dállve#ájjge N_EVEN "winter time" ; ! no. 323
 dállveviega:dállve#viega N_EVEN "winter path" ; ! no. 2560
 dámakhärrge:dámak#hierrge N_EVEN "tame reindeer bull" ; ! no. 2844
+dánnsa:dánnsa N_EVEN "dance" ; ! no. 90888
 dássa:dás'sa N_EVEN "toilet" ; ! no. 842
 dávvda:dávvda N_EVEN "illness, sickness, disease" ; ! no. 344
 dávvle:dávvle N_EVEN "roll or ball of birch bark used as kindling" ; ! no. 2947
