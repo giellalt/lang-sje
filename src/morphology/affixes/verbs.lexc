@@ -139,7 +139,7 @@ LEXICON V_EVEN_O !viessot, årrot
 +V:o^WG V_EVEN_O_WK ;
 
 LEXICON V_EVEN_O_STR
-+Ind+Prs+Sg3:u%> #;
++Ind+Prs+Sg3:o%> #; !should this be -u-?
 +Ind+Prs+Du1:u%>n #; 
 +Ind+Prs+Du2:o%>behtin #;
 +Ind+Prs+Du2:o%>bähtten #;
