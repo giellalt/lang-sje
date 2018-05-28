@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-28T12:22:32+03:00
+! Timestamp: 2018-05-28T12:27:15+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -2023,6 +2023,7 @@ giessam:giessam N_ODD "large plug of tobacco" ; ! no. 6640
 giesseiednam:giesse#iednam N_ODD "summer land" ; ! no. 6059
 gietkam:gietkam N_ODD "Saami cradle" ; ! no. 623
 gietsol:gietsol N_ODD "snail" ; ! no. 4544
+girrajåhtej:girra#jåhtej N_ODD "a person migrating in spring" ; ! no. 90892
 girrjetjállej:girrje#tjállej N_ODD "author, writer" ; ! no. 4011
 gistotj:gistotj N_ODD "little box" ; ! no. 6048
 guallgamäduk:guallga#mä2dug2 N_ODD "hairy black caterpillar which becomes a butterfly" ; ! no. 5437
