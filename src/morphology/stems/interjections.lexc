@@ -16,6 +16,7 @@ LEXICON interj   !!= * __@CODE@__ gives the tag +Interj
 +Interj: # ;
 
 LEXICON Interjection   !!= * __@CODE@__ is the list 
-vuj interj ;
 burist interj ;
 burist+Use/NG:buris interj ;
+jå interj ;
+vuj interj ;
