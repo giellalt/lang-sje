@@ -268,6 +268,11 @@ SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)(-1C V + Pl1);
 
+#!! !choose relative pronoun when preceded by NP and not ending in Q-mark
+SELECT:RelProAfterNP Rel IF (-1 NP-HEAD)(NOT *1 ("\?"));
+#but what about this: mån gatjádav duvste mij lä dat (I ask you what is that)
+
+
 
 	          # Cycle 4: Syntactic disambiguation 
 	          # Cycle 5: Post-syntactic morphological disambiguation
