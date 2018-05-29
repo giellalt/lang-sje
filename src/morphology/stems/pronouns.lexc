@@ -638,48 +638,48 @@ gåbbák+Pron+Indef+Sg+Com:gåbbájnik # ;
 !daggar:daggar- /daggir, ´en sådan där, som den där´
 
 !daggar,predikativ ställning
-daggar+Pron+Indef+Sg+Nom:daggár # ;
-daggar+Pron+Indef+Sg+Acc:daggárav # ;
-daggar+Pron+Indef+Sg+Gen:daggára # ;
-daggar+Pron+Indef+Sg+Ill:daggárij # ;
-daggar+Pron+Indef+Sg+Ine:daggárin # ;
-daggar+Pron+Indef+Sg+Ela:daggáris # ;
-daggar+Pron+Indef+Sg+Com:daggárijn # ;
-daggar+Pron+Indef+Sg+Ess:daggárin # ;
+daggar+Pron+Indef+Sg+Nom:daggar # ;
+daggar+Pron+Indef+Sg+Acc:daggarav # ;
+daggar+Pron+Indef+Sg+Gen:daggara # ;
+daggar+Pron+Indef+Sg+Ill:daggarij # ;
+daggar+Pron+Indef+Sg+Ine:daggarin # ;
+daggar+Pron+Indef+Sg+Ela:daggaris # ;
+daggar+Pron+Indef+Sg+Com:daggarijn # ;
+daggar+Pron+Indef+Sg+Ess:daggarin # ;
 
-daggar+Pron+Indef+Pl+Nom:daggára # ;
-daggar+Pron+Indef+Pl+Acc:daggárijd # ;
-daggar+Pron+Indef+Pl+Gen:daggárij # ;
-daggar+Pron+Indef+Pl+Ill:daggárijda # ;
-daggar+Pron+Indef+Pl+Ine:daggárijn # ;
-daggar+Pron+Indef+Pl+Ela:daggárijs # ;
-daggar+Pron+Indef+Pl+Com:daggárij # ;
+daggar+Pron+Indef+Pl+Nom:daggara # ;
+daggar+Pron+Indef+Pl+Acc:daggarijd # ;
+daggar+Pron+Indef+Pl+Gen:daggarij # ;
+daggar+Pron+Indef+Pl+Ill:daggarijda # ;
+daggar+Pron+Indef+Pl+Ine:daggarijn # ;
+daggar+Pron+Indef+Pl+Ela:daggarijs # ;
+daggar+Pron+Indef+Pl+Com:daggarij # ;
 
 !daggar,attributiv ställning
-daggar+Pron+Indef+Sg+Nom:daggár # ;
+daggar+Pron+Indef+Sg+Nom:daggar # ;
 
 !daggár:daggár- /daggár, ´en sådan här, som den här´
 
 !daggár,predikativ ställning
-daggár+Pron+Indef+Sg+Nom:dággár # ;
-daggár+Pron+Indef+Sg+Acc:dággárav # ;
-daggár+Pron+Indef+Sg+Gen:dággára # ;
-daggár+Pron+Indef+Sg+Ill:dággárij # ;
-daggár+Pron+Indef+Sg+Ine:dággárin # ;
-daggár+Pron+Indef+Sg+Ela:dággáris # ;
-daggár+Pron+Indef+Sg+Com:dággárijn # ;
-daggár+Pron+Indef+Sg+Ess:dággárin # ;
+dággar+Pron+Indef+Sg+Nom:dággar # ;
+dággar+Pron+Indef+Sg+Acc:dággarav # ;
+dággar+Pron+Indef+Sg+Gen:dággara # ;
+dággar+Pron+Indef+Sg+Ill:dággarij # ;
+dággar+Pron+Indef+Sg+Ine:dággarin # ;
+dággar+Pron+Indef+Sg+Ela:dággaris # ;
+dággar+Pron+Indef+Sg+Com:dággarijn # ;
+dággar+Pron+Indef+Sg+Ess:dággarin # ;
 
-daggár+Pron+Indef+Pl+Nom:dággára # ;
-daggár+Pron+Indef+Pl+Acc:dággárijd # ;
-daggár+Pron+Indef+Pl+Gen:dággárij # ;
-daggár+Pron+Indef+Pl+Ill:dággárijda # ;
-daggár+Pron+Indef+Pl+Ine:dággárijn # ;
-daggár+Pron+Indef+Pl+Ela:dággárijs # ;
-daggár+Pron+Indef+Pl+Com:dággárij # ;
+dággar+Pron+Indef+Pl+Nom:dággara # ;
+dággar+Pron+Indef+Pl+Acc:dággarijd # ;
+dággar+Pron+Indef+Pl+Gen:dággarij # ;
+dággar+Pron+Indef+Pl+Ill:dággarijda # ;
+dággar+Pron+Indef+Pl+Ine:dággarijn # ;
+dággar+Pron+Indef+Pl+Ela:dággarijs # ;
+dággar+Pron+Indef+Pl+Com:dággarij # ;
 
-!daggár,attributiv ställning
-daggár+Pron+Indef+Sg+Nom:dággár # ;
+!daggár,attributiv ställning a
+dággar+Pron+Indef+Sg+Nom:dággar # ;
 
 !duggir:duggir- /duggir, ´en sådan där (längst bort), som den där (längst bort)´
 
