@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-17T14:44:44+02:00
+! Timestamp: 2018-05-29T12:15:42+03:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -29,12 +29,23 @@
 
 LEXICON ProperNoun   !!= * __@CODE@__
 
+Aksamnjárrga:Aksam#njárrga N_EVEN "Vaksamnjárgga" ; ! no. 90893
+Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
 Árjepluovve:Árjepluovve N_EVEN "Arjeplog" ; ! no. 66
+Bassåjjve:Bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
 Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
+Bieljegájjse:Bielje#gájjse N_EVEN "Pieljekaise" ; ! no. 6841
 Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
+Frankrijjka:Frank#rijjka N_EVEN "France" ; ! no. 4238
+Gállesbuavvda:Gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
+Guarrbanjárrga:Guarrba#njárrga N_EVEN "Brännudden" ; ! no. 3401
+Gujjávvre:Guj#jávvre N_EVEN "Gujjávvre" ; ! no. 6522
+Guoledisjávvre:Guoledis#jávvre N_EVEN "Guoletisjávvre" ; ! no. 6529
 Gåbbda:Gåbbda N_EVEN "Gåbbda" ; ! no. 90696
+Härrgevárre:Härrge#várre N_EVEN "Renberget" ; ! no. 4123
+Inntjáválle:Inntjá#válle N_EVEN "Älvsbyn" ; ! no. 4782
 Jånnå:Jån'nå N_EVEN "Jon, Jonas, osv." ; ! no. 90884
 Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
 Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
@@ -45,17 +56,25 @@ Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
 Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
 Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
+Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
+Sállvojåhkå:Sállvo#jåhkå N_EVEN "Sállvobäck" ; ! no. 90694
+Sillbajåhkå:Sillba#jåhkå N_EVEN "Silbojåkk" ; ! no. 5684
 Skärrfa:Skierrfa N_EVEN "Skärrfa" ; ! no. 2809
+Stuornjárrga:Stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
 Svärdje:Svierdje N_EVEN "Sweden" ; ! no. 1799
 Såbma:Såbma N_EVEN "Finland" ; ! no. 1760
+Tjuvtasvuodna:Tjuvtas#vu^Odna N_EVEN "Tysfjord" ; ! no. 4017
 Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
 Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
+Vuonatjluakkta:Vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
 Änntse:Ienntse N_EVEN "Änntse" ; ! no. 90872
 Tjäggelvas:Tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
 Aleldis:Aleld N_EVEN4_ISA "Örnvik" ; ! no. 90719
 Guoledisjávvre+Use/NG:Gu^Oled N_EVEN4_ISA "Guoletisjávvre" ; ! no. 90743
 Maltegis:Malteg N_EVEN4_ISA "Maltegis" ; ! no. 1127
 Árdna:Árdna N_EVEN_NOCG "Árdna" ; ! no. 90692
+Bidumiedno:Bidum#iedno N_EVEN_O "Pite river" ; ! no. 170
+Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
 Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 Bávval:Bávval N_ODD "Paul" ; ! no. 4637
