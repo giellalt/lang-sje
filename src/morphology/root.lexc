@@ -170,9 +170,9 @@ b2 d2 g2 t2 j2 !!= @CODE@ * Variable consonants, undergo final devoicing or othe
 
 
 ! testing these
-!+TRAB
-!+ITRAB
-!+TRNUMAB
++TRAB
++ITRAB
++TRNUMAB
 
 
 ! Key lexicon
@@ -181,7 +181,7 @@ LEXICON Root
 
 !removed for temporary testing purposes (until sje gets some written texts!)
 !+Use/-Spell: Abbreviation ;
-! Abbreviation ;
+ Abbreviation ;
  Adjective ;
  Adverb ;
  Conjunction ;
