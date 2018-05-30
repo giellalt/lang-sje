@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-28T12:27:15+03:00
+! Timestamp: 2018-05-30T08:44:39+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -104,7 +104,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áhttje:áhttje N_EVEN "father, dad" ; ! no. 16
 ájatjáhtse:ája#tjáhtse N_EVEN "spring water" ; ! no. 2688
 ájbme:ájbme N_EVEN "leather needle" ; ! no. 4204
-áddjá+Use/NG:ájjá N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
+áddjá+Use/NG:áj'já N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
 ájjge:ájjge N_EVEN "time" ; ! no. 22
 ájjgebielle:ájjge#bielle N_EVEN "halftime" ; ! no. 2693
 ájjte:ájjte N_EVEN "shed" ; ! no. 34
@@ -919,6 +919,7 @@ sáhppe:sáhppe N_EVEN "gall" ; ! no. 2934
 sáhppegärrge:sáhppe#gierrge N_EVEN "gallstone" ; ! no. 1490
 sájjte:sájjte N_EVEN "spear, wolf or bear spear" ; ! no. 1494
 sálbma:sálbma N_EVEN "psalm, hymn" ; ! no. 1496
+sálbmagirrje:sálbma#girrje N_EVEN "hymnal" ; ! no. 1497
 sállte:sállte N_EVEN "salt" ; ! no. 1498
 sálltegárre:sállte#gárre N_EVEN "pestle" ; ! no. 1499
 sállteguolle:sállte#gu^Olle N_EVEN "salted fish" ; ! no. 5111
@@ -1150,6 +1151,8 @@ tjájdne:tjájdne N_EVEN "woodpecker" ; ! no. 1864
 tjállemgirrje:tjállem#girrje N_EVEN "exercise book" ; ! no. 5191
 tjállemvuohke:tjállem#vu^Ohke N_EVEN "orthography" ; ! no. 2430
 tjátselihtte:tjátse#lihtte N_EVEN "water bucket" ; ! no. 5178
+tjidtjáddjá:tjidtj#áddjá N_EVEN "maternal grandfather" ; ! no. 90894
+tjidtjáddjá+Use/NG:tjidtj#áj'já N_EVEN "maternal grandfather" ; ! no. 90895
 tjiebotdákkte:tjiebot#dákkte N_EVEN "cervical vertebra" ; ! no. 3771
 tjiebotlijdne:tjiebot#lijdne N_EVEN "scarf" ; ! no. 1902
 tjiehka:tjiehka N_EVEN "corner, nook" ; ! no. 1888
