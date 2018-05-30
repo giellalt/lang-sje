@@ -254,18 +254,6 @@ SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
 SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
 
 
-#!! !Agreement rules for verb triggered by PersPron
-SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
-SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
-SELECT:Sg3afterSg3	Sg3 IF (0 V)(-1 Pers + Nom + Sg3);
-SELECT:Sg3b4Sg3		Sg3 IF (0 V)( 1 Pers + Nom + Sg3);
-SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
-SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
-SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
-SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
-#!! !Agreement rules for verb triggered by full NP
-SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C N + Pl + Nom BARRIER CLB);
-SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C N + Sg + Nom BARRIER CLB);
 
 #!! !Agreement rules for subject NP
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);
@@ -313,6 +301,9 @@ SELECT:genb4Po Gen IF (*1C Po BARRIER NoNP);
 SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
+#remove GenSg if no noun immediately follows
+REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 N);
+
 #add subj tags to NPs
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
 #MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
@@ -344,8 +335,20 @@ REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER S-B
 SELECT:attrB4N (A Attr) IF (1 N OR (Attr N));
 REMOVE:attrNoNP (A Attr) IF (NOT 1 N OR (Attr N));
 
-#tag A Attr as N modifier
-MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
+#!! !Agreement rules for verb triggered by PersPron
+SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
+SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
+SELECT:Sg3afterSg3	Sg3 IF (0 V)(-1 Pers + Nom + Sg3);
+SELECT:Sg3b4Sg3		Sg3 IF (0 V)( 1 Pers + Nom + Sg3);
+SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
+SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
+SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
+SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
+#!! !Agreement rules for verb triggered by full NP
+SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C N + Pl + Nom BARRIER CLB);
+SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C N + Sg + Nom BARRIER CLB);
+
+
 
 
 
@@ -369,6 +372,9 @@ REMOVE:CNP4men (@CNP) IF (0 ("men")) ;
 #FiniteMAINVerb
 MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 	#$ Liná liikui sárgut ja tennjet.
+
+#tag A Attr as N modifier
+MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
 
 
 
