@@ -303,8 +303,25 @@ REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 #remove GenSg if no noun immediately follows
 REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 N);
 
-#reject demonstrative pronoun reading if DET followed by NP-head
-REMOVE:DemPronWO-NPhead Pron IF (*1C N BARRIER NPNH);
+#reject demonstrative pronoun reading if DET followed by NP-head with same case/number
+REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-NomPl	(Pron Pl Nom)	IF (*1C (N Pl Nom) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-GenSg	(Pron Sg Gen)	IF (*1C (N Sg Gen) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-GenPl	(Pron Pl Gen)	IF (*1C (N Pl Gen) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-AccSg	(Pron Sg Acc)	IF (*1C (N Sg Acc) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-AccPl	(Pron Pl Acc)	IF (*1C (N Pl Acc) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-IllSg	(Pron Sg Ill)	IF (*1C (N Sg Ill) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-IllPl	(Pron Pl Ill)	IF (*1C (N Pl Ill) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-IneSg	(Pron Sg Ine)	IF (*1C (N Sg Ine) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-InePl	(Pron Pl Ine)	IF (*1C (N Pl Ine) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-ElaSg	(Pron Sg Ela)	IF (*1C (N Sg Ela) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-ElaPl	(Pron Pl Ela)	IF (*1C (N Pl Ela) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-ComSg	(Pron Sg Com)	IF (*1C (N Sg Com) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-ComPl	(Pron Pl Com)	IF (*1C (N Pl Com) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-AbeSg	(Pron Sg Abe)	IF (*1C (N Sg Abe) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess) BARRIER NPNH);
+
 #select demonstrative pronoun reading if NOT directly followed by possible NP-material
 SELECT:DemPronWithNPhead Pron IF (NOT 1C (NPNH) OR (N));
 #select demonstrative pronoun reading if directly followed by certain postposition
@@ -317,8 +334,8 @@ SELECT:IllSgDetB4IllSgNH (Det Sg Ill) IF (*1 (N Sg Ill) BARRIER NoNP);
 SELECT:GenSgDetB4GenSgNH (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNP);
 
 ##rules for choosing Determiner reading when followed by NP in same case/number (only needed if a specific det-form can be ambiguous)
-SELECT:DetNomSgB4NounNomSg (Det Sg Nom) IF (*1 (N Sg Nom) BARRIER NoNP);
-SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1 (N Sg Ela) BARRIER NoNP);
+SELECT:DetNomSgB4NounNomSg (Det Sg Nom) IF (*1C (N Sg Nom) BARRIER NoNP);
+SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1C (N Sg Ela) BARRIER NoNP);
 
 #add subj tags to NPs
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);

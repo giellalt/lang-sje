@@ -419,13 +419,6 @@ mij+Pron+Interr+Pl+Com:maj # ;
 
 
 
-
-!galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
-!galla, predikativ ställning
-galla+Pron+Interr: gallacase ;
-
-
-
 !miggir~maggar:miggir-~maggar- ´hurudan?, vad för slags?, (sådan) som, (likadan) som´, attributivt oböjligt
 
 !miggir predikativ ställning
@@ -1170,6 +1163,9 @@ LEXICON nubbecase   !!= * __@CODE@__
 
 
 
+!galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
+!galla, predikativ ställning
+galla+Pron+Interr: gallacase ;
 
 LEXICON gallacase   !!= * __@CODE@__
 
@@ -1190,22 +1186,22 @@ LEXICON gallacase   !!= * __@CODE@__
 +Pl+Ela:gallijst # ;
 +Pl+Com:gallij # ;
 
-+Sg+Nom:galla # ;
-+Sg+Acc:galla # ;
-+Sg+Gen:galle # ;
-+Sg+Ill:galla # ;
-+Sg+Ine:gallen # ;
-+Sg+Ela:gallet # ;
-+Sg+Com:gallijn # ;
-+Sg+Ess:gallen # ;
-
-+Pl+Nom:galle # ;
-+Pl+Acc:gallijd # ;
-+Pl+Gen:gallij # ;
-+Pl+Ill:gallijda # ;
-+Pl+Ine:gallijn # ;
-+Pl+Ela:gallijst # ;
-+Pl+Com:gallij # ;
+! +Sg+Nom:galla # ;
+! +Sg+Acc:galla # ;
+! +Sg+Gen:galle # ;
+! +Sg+Ill:galla # ;
+! +Sg+Ine:gallen # ;
+! +Sg+Ela:gallet # ;
+! +Sg+Com:gallijn # ;
+! +Sg+Ess:gallen # ;
+! 
+! +Pl+Nom:galle # ;
+! +Pl+Acc:gallijd # ;
+! +Pl+Gen:gallij # ;
+! +Pl+Ill:gallijda # ;
+! +Pl+Ine:gallijn # ;
+! +Pl+Ela:gallijst # ;
+! +Pl+Com:gallij # ;
 
 
 
