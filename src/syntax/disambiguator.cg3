@@ -309,9 +309,10 @@ REMOVE:DemPronWO-NPhead Pron IF (*1C N BARRIER NPNH);
 SELECT:DemPronWithNPhead Pron IF (NOT 1C NPNH OR N);
 
 #rules for choosing correct Determiner case/number based on case/number of NP-Head:
-SELECT:GenSgDetB4GenSgNH (Det Sg Gen) IF (*1C (N Sg Gen) BARRIER NoNP);
-SELECT:InessSgDetB4InessSgNH (Det Sg Ine) IF (*1C (N Sg Ine) BARRIER NoNP);
-SELECT:IllSgDetB4IllSgNH (Det Sg Ill) IF (*1C (N Sg Ill) BARRIER NoNP);
+SELECT:InessSgDetB4InessSgNH (Det Sg Ine) IF (*1 (N Sg Ine) BARRIER NoNP);
+SELECT:IllSgDetB4IllSgNH (Det Sg Ill) IF (*1 (N Sg Ill) BARRIER NoNP);
+#this GenSg rule must go last of these otherwise a Gen-NP-complement will trump the previous rules
+SELECT:GenSgDetB4GenSgNH (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNP);
 
 
 #add subj tags to NPs
