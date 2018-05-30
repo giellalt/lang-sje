@@ -278,6 +278,8 @@ SELECT:InterrogProNoPreNP Interr IF (NOT -1 NP-HEAD)(*1 ("\?"));
 #!! !rule out imperative forms in questions
 REMOVE:noImperativeQs Imprt IF (*1 ("\?"));
 
+#!! !rule out finite verbforms after infinitive verbform
+REMOVE:noFiniteVafterINF VFIN IF (*-1 Inf BARRIER CLB);
 
 	          # Cycle 4: Syntactic disambiguation 
 	          # Cycle 5: Post-syntactic morphological disambiguation
