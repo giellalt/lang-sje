@@ -306,7 +306,9 @@ REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 N);
 #reject demonstrative pronoun reading if DET followed by NP-head
 REMOVE:DemPronWO-NPhead Pron IF (*1C N BARRIER NPNH);
 #select demonstrative pronoun reading if NOT directly followed by possible NP-material
-SELECT:DemPronWithNPhead Pron IF (NOT 1C NPNH OR N);
+SELECT:DemPronWithNPhead Pron IF (NOT 1C (NPNH) OR (N));
+#select demonstrative pronoun reading if directly followed by certain postposition
+SELECT:DemPronWithPosthead Pron IF (1C Po);
 
 #rules for choosing correct Determiner case/number based on case/number of NP-Head:
 SELECT:InessSgDetB4InessSgNH (Det Sg Ine) IF (*1 (N Sg Ine) BARRIER NoNP);
@@ -314,6 +316,8 @@ SELECT:IllSgDetB4IllSgNH (Det Sg Ill) IF (*1 (N Sg Ill) BARRIER NoNP);
 #this GenSg rule must go last of these otherwise a Gen-NP-complement will trump the previous rules
 SELECT:GenSgDetB4GenSgNH (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNP);
 
+##rules for ignoring Pronoun reading when followed by NP in same case/number:
+#REMOVE: (Pron Det Sg Acc) IF (*1  BARRIER NoNP);
 
 #add subj tags to NPs
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
