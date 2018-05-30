@@ -54,7 +54,7 @@ LEXICON NUM0 ! num 0
 +Num: # ; 
 
 LEXICON NUM1 ! num 1
-+Num:akkta # ; 
++Num:akkta NumCase ; !needs to be added later for other Nums, but definitely works for akkta
 :#akkt ORD ; !only for 2+digit NUMs
 !:akkta 10s ;
 
@@ -102,6 +102,10 @@ LEXICON NUM1000 ! num (1000); treat as noun and NUM
 ORD10 ;
 !N_ODD ;
 !+Num: # ; 
+
+LEXICON NumCase ! case forms for Numerals
+: # ;
++Sg+Acc:^WG%>v # ; !needs to be generalized later, but definitely works for akkta
 
 
 !ORDINAL forms (add cases later)
