@@ -19,6 +19,7 @@ LEXICON Pronoun   !!= * __@CODE@__
 
 Personal ;
 Demonstrative ;
+Determiner ;
 Relative ;
 Reflexive ;
 Interrogativa ;
@@ -133,6 +134,76 @@ duot+Pron+Det+Pl+Ill:duojda # ;
 duot+Pron+Det+Pl+Ine:duojn # ;
 duot+Pron+Det+Pl+Ela:duojs # ;
 duot+Pron+Det+Pl+Com:duoj # ;
+
+
+
+! Determiners (NOT Demonstrative pronouns!)
+LEXICON Determiner   !!= * __@CODE@__
+dat+Det+Sg+Nom:dat # ;
+dat+Det+Sg+Acc:dav # ;
+dat+Det+Sg+Gen:dan # ;
+dat+Det+Sg+Ill:dan # ;
+dat+Det+Sg+Ine:dan # ;
+dat+Det+Sg+Ela:dat # ;
+dat+Det+Sg+Com:dajna # ;
+dat+Det+Sg+Ess:danen # ;
+
+dat+Det+Pl+Nom:da # ;
+dat+Det+Pl+Acc:dajd # ;
+dat+Det+Pl+Gen:daj # ;
+dat+Det+Pl+Ill:dajda # ;
+dat+Det+Pl+Ine:dajn # ;
+dat+Det+Pl+Ine:dajdne # ;
+dat+Det+Pl+Ela:dajst # ;
+dat+Det+Pl+Ela:dajste # ;
+dat+Det+Pl+Com:daj # ;
+
+dát+Det+Sg+Nom:dát # ;
+dát+Det+Sg+Acc:dáv # ;
+dát+Det+Sg+Gen:dán # ;
+dát+Det+Sg+Ill:dán # ;
+dát+Det+Sg+Ine:dán # ;
+dát+Det+Sg+Ela:dát # ;
+dát+Det+Sg+Com:dájna # ;
+dát+Det+Sg+Ess:dánen # ;
+
+dát+Det+Pl+Nom:dá # ;
+dát+Det+Pl+Acc:dájd # ;
+dát+Det+Pl+Gen:dáj # ;
+dát+Det+Pl+Ill:dájda # ;
+dát+Det+Pl+Ine:dájn # ;
+dát+Det+Pl+Ine:dájdne # ; 
+dát+Det+Pl+Ela:dájst # ;
+dát+Det+Pl+Ela:dájste # ;
+dát+Det+Pl+Com:dáj # ;
+
+duon+Det+Sg+Nom:duot # ;
+duon+Det+Sg+Acc:duov # ;
+duon+Det+Sg+Gen:duon # ;
+duon+Det+Sg+Ill:dut # ;
+duon+Det+Sg+Ine:dun # ;
+duon+Det+Sg+Ela:dut # ;
+duon+Det+Sg+Com:duojna # ;
+
+duon+Det+Pl+Nom:duo # ;
+duon+Det+Pl+Acc:duojd # ;
+duon+Det+Pl+Gen:duoj # ;
+duon+Det+Pl+Ill:duojda # ;
+duon+Det+Pl+Ine:duojn # ;
+duon+Det+Pl+Ela:duojs # ;
+duon+Det+Pl+Com:duoj # ;
+
+
+
+
+
+
+
+
+
+
+
+
 
 LEXICON Relative   !!= * __@CODE@__
 !!gie, predikativ ställning
