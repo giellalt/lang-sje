@@ -311,7 +311,7 @@ SELECT:genb4Po Gen IF (*1C Po BARRIER NoNP);
 
 #if the following slot has a noun, choose gen.sg
 SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
-REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;") OR NOT N);
+REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
 #add subj tags to NPs
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
