@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-30T08:44:39+03:00
+! Timestamp: 2018-05-30T09:08:29+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -1152,6 +1152,7 @@ tjállemgirrje:tjállem#girrje N_EVEN "exercise book" ; ! no. 5191
 tjállemvuohke:tjállem#vu^Ohke N_EVEN "orthography" ; ! no. 2430
 tjátselihtte:tjátse#lihtte N_EVEN "water bucket" ; ! no. 5178
 tjidtjáddjá:tjidtj#áddjá N_EVEN "maternal grandfather" ; ! no. 90894
+tjidtjáhkka:tjidtj#áhkka N_EVEN "maternal grandmother" ; ! no. 90897
 tjidtjáddjá+Use/NG:tjidtj#áj'já N_EVEN "maternal grandfather" ; ! no. 90895
 tjiebotdákkte:tjiebot#dákkte N_EVEN "cervical vertebra" ; ! no. 3771
 tjiebotlijdne:tjiebot#lijdne N_EVEN "scarf" ; ! no. 1902
