@@ -316,8 +316,9 @@ SELECT:IllSgDetB4IllSgNH (Det Sg Ill) IF (*1 (N Sg Ill) BARRIER NoNP);
 #this GenSg rule must go last of these otherwise a Gen-NP-complement will trump the previous rules
 SELECT:GenSgDetB4GenSgNH (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNP);
 
-##rules for ignoring Pronoun reading when followed by NP in same case/number:
-#REMOVE: (Pron Det Sg Acc) IF (*1  BARRIER NoNP);
+##rules for choosing Determiner reading when followed by NP in same case/number (only needed if a specific det-form can be ambiguous)
+SELECT:DetNomSgB4NounNomSg (Det Sg Nom) IF (*1 (N Sg Nom) BARRIER NoNP);
+SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1 (N Sg Ela) BARRIER NoNP);
 
 #add subj tags to NPs
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
