@@ -254,7 +254,7 @@ SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
 SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
 
 
-#!! !Agreement rules for verb
+#!! !Agreement rules for verb triggered by PersPron
 SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
 SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
 SELECT:Sg3afterSg3	Sg3 IF (0 V)(-1 Pers + Nom + Sg3);
@@ -263,6 +263,9 @@ SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
 SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
 SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
 SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
+#!! !Agreement rules for verb triggered by full NP
+SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C N + Pl + Nom BARRIER CLB);
+SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C N + Sg + Nom BARRIER CLB);
 
 #!! !Agreement rules for subject NP
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);
