@@ -296,13 +296,23 @@ REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
 #NP (incl. pronouns) preceding certain Po is Gen # actually more general than just gen.sg/nom.pl
 SELECT:genb4Po Gen IF (*1C Po BARRIER NoNP);
 
-
 #if the following slot has a noun, choose gen.sg
 SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
 #remove GenSg if no noun immediately follows
 REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 N);
+
+#reject demonstrative pronoun reading if DET followed by NP-head
+REMOVE:DemPronWO-NPhead Pron IF (*1C N BARRIER NPNH);
+#select demonstrative pronoun reading if NOT directly followed by possible NP-material
+SELECT:DemPronWithNPhead Pron IF (NOT 1C NPNH OR N);
+
+#rules for choosing correct Determiner case/number based on case/number of NP-Head:
+SELECT:GenSgDetB4GenSgNH (Det Sg Gen) IF (*1C (N Sg Gen) BARRIER NoNP);
+SELECT:InessSgDetB4InessSgNH (Det Sg Ine) IF (*1C (N Sg Ine) BARRIER NoNP);
+SELECT:IllSgDetB4IllSgNH (Det Sg Ill) IF (*1C (N Sg Ill) BARRIER NoNP);
+
 
 #add subj tags to NPs
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
@@ -328,7 +338,7 @@ SELECT:relProAfterNP (Pron Rel) IF (-1 N);
 
 
 #remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
-REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER S-BOUNDARY);
+REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER CLB);
 	##Dä dån ådtjo MUV TJILMIJD lägit.
 
 #choose attr when followed by (adj)(adv+adj)N, otherwise remove it
