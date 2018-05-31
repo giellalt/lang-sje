@@ -368,6 +368,9 @@ SELECT:NPjalaNP CC IF (-1 NP-HEAD)(*1 NP-HEAD BARRIER NoNP);
 REMOVE:noPredWithoutCopula (A Nom) IF (NOT *-1 ("lä") BARRIER NoAP )(NOT *1 ("lä") BARRIER NoAP );
 	##ájjárajjde tsábmestam dav livva ielov ja båhtjejniejdav jámas. <- jámas is ADV not PRED
 
+#remove GerII reading if no AUX around
+REMOVE:noGerIIWithoutAux (V GerII) IF (NOT *-1 ("lä") BARRIER S-BOUNDARY )(NOT *1 ("lä") BARRIER  S-BOUNDARY );
+
 #for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
 #SELECT Prop IF (0 LINK *-1 WORD) ;
 #REMOVE Prop IF (0 LINK *-1 BOS BARRIER WORD) ;
