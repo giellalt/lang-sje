@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-30T14:00:47+03:00
+! Timestamp: 2018-05-31T08:18:31+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -105,6 +105,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ájatjáhtse:ája#tjáhtse N_EVEN "spring water" ; ! no. 2688
 ájbme:ájbme N_EVEN "leather needle" ; ! no. 4204
 áddjá+Use/NG:áj'já N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
+átjárajjde+Use/NG:ájjárajjde N_EVEN "thunder" ; ! no. 90906
 ájjge:ájjge N_EVEN "time" ; ! no. 22
 ájjgebielle:ájjge#bielle N_EVEN "halftime" ; ! no. 2693
 ájjte:ájjte N_EVEN "shed" ; ! no. 34
@@ -128,6 +129,7 @@ avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 átjáddjá:átj#áddjá N_EVEN "paternal grandfather" ; ! no. 2897
 átjáhkka:átj#áhkka N_EVEN "paternal grandmother" ; ! no. 2896
 átjájuakksa:átjá#ju^Okksa N_EVEN "rainbow" ; ! no. 3514
+átjárajjde:átjárajjde N_EVEN "thunder" ; ! no. 82
 ávahávvde:áva#hávvde N_EVEN "hiding place for silver in a pile of stones" ; ! no. 85
 ávtjamuärrje:ávtja#mu^Orrje N_EVEN "hagberry" ; ! no. 4668
 ávvke:ávvke N_EVEN "use, benefit" ; ! no. 94
@@ -1951,6 +1953,7 @@ burun:burun N_ODD "horsefly" ; ! no. 3366
 buäjjdedijstak:buäjjde#dijstag2 N_ODD "Mardis Gras, Fat Tuesday" ; ! no. 4232
 buälldem:bu^Olldem N_ODD "lighting of a fire" ; ! no. 5572
 båddåtj:båddåtj N_ODD "a little while" ; ! no. 3342
+båhtjej:båhtjej N_ODD "milker" ; ! no. 90905
 båhtjem:båhtjem N_ODD "milking" ; ! no. 6710
 båjmátj:båjmátj N_ODD "rough-legged hawk" ; ! no. 241
 båjtojubmel:båjto#jubmel N_ODD "idol, false god" ; ! no. 3155
