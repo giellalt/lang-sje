@@ -184,6 +184,8 @@ LIST NumChar = "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ;
 
 SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
 
+SET NonThirdPerson = Sg1 OR Sg2 OR Du1 OR Du2 OR Pl1 OR Pl2 ;
+
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 ##!! * The set COPULAS is for predicative constructions
@@ -220,7 +222,7 @@ SET PRE-NP-HEAD = (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (N
          (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
 SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 
-SET NoNP = WORD - NP-HEAD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, pluc CC
+SET NoNP = WORD - NP-HEAD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, plus CC
 
 # ============== #
 # Disambiguation #
@@ -349,6 +351,14 @@ SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg OR Sg3 BARRIER S-BOUNDARY OR CC);
 	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
 #select Nom Sg reading if followed by a Fin-V in 3sg
 SELECT:NomSG-B4-FinVSg (N Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC);
+
+#remove 1/2 person verb readings if NP in NOM.SG present on both sides
+REMOVE:VSg1WithoutSg1Pron NonThirdPerson IF (*-1 (N Nom) BARRIER S-BOUNDARY)(*1 (N Nom) BARRIER S-BOUNDARY);
+	##dä lij átjárajjde jala ájjárajjde tsábmestam
+
+#select CC reading of jala if preceded directly by NP-head or followed by NP
+SELECT:NPjalaNP CC IF (-1 NP-HEAD)(*1 NP-HEAD BARRIER NoNP); 
+	##dä lij átjárajjde jala ájjárajjde tsábmestam
 
 
 #for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
