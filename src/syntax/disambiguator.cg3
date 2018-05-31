@@ -224,6 +224,10 @@ SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 
 SET NoNP = WORD - NP-HEAD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, plus CC
 
+SET PRE-AP-HEAD = Adv OR CC ;
+
+SET NoAP = WORD - A - PRE-AP-HEAD ; #NoAP = not possibly anywhere in NP, plus CC
+
 # ============== #
 # Disambiguation #
 # ============== #
@@ -360,6 +364,9 @@ REMOVE:VSg1WithoutSg1Pron NonThirdPerson IF (*-1 (N Nom) BARRIER S-BOUNDARY)(*1 
 SELECT:NPjalaNP CC IF (-1 NP-HEAD)(*1 NP-HEAD BARRIER NoNP); 
 	##dä lij átjárajjde jala ájjárajjde tsábmestam
 
+#remove PRED reading if no COPULA around
+REMOVE:noPredWithoutCopula (A Nom) IF (NOT *-1 ("lä") BARRIER NoAP )(NOT *1 ("lä") BARRIER NoAP );
+	##ájjárajjde tsábmestam dav livva ielov ja båhtjejniejdav jámas. <- jámas is ADV not PRED
 
 #for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
 #SELECT Prop IF (0 LINK *-1 WORD) ;
