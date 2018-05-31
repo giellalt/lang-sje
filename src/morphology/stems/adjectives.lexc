@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-04T09:30:35+02:00
+! Timestamp: 2018-05-31T07:48:37+03:00
 
 !! !!!Pite Saami Adjectives
 
@@ -36,6 +36,7 @@ amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
 divras:divvras A_AMAS "expensive" ; ! no. 2977
 gávkas:gávvkas A_AMAS "slow, boring" ; ! no. 578
+jámas:jábmas A_AMAS "dead" ; ! no. 5569
 suohtas:su^Ohttas A_AMAS "fun" ; ! no. 4525
 vuoras:vu^Orras A_AMAS "old (for humans and animals)" ; ! no. 2187
 asedis:ased A_ASEDIS "thin" ; ! no. 2704
