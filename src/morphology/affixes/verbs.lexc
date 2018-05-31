@@ -364,7 +364,7 @@ LEXICON LE !!= * @CODE@
 lä+V+Ind+Prs: LEPRS ; 
 lä+V+Ind+Prt: LEPRT ; 
 lä+V+Ind+Pot: LEPOT ;
-lä+V+PrfPrc:lam # ; !fattas negformer av le 
+lä+V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
 lä+V+Inf:årrot # ; !infinitive
 lä+V+ConNeg:lä # ; !connegative
 
@@ -457,6 +457,8 @@ LEXICON IJ !!= * @CODE@
 ij+V+Neg+Prs: IJPRS ;
 ij+V+Neg+Prt: IJPRT ;
 ij+V+Neg+Imprt: IJIMP ;
+
+!ij+V+Neg+Prs+Pl3+ConNeg+PrfPrc:iellam # ; ! = ie+lam
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    # ;  !!= * @CODE@ 
