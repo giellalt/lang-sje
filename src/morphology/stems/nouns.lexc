@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-31T08:18:31+03:00
+! Timestamp: 2018-05-31T14:40:05+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -229,6 +229,7 @@ båddnje:båddnje N_EVEN "husband" ; ! no. 230
 bådnemsuodna:bådnem#su^Odna N_EVEN "twisted tendon string" ; ! no. 232
 båhteájjge:båhte#ájjge N_EVEN "future" ; ! no. 3050
 båhteidja:båhte#idja N_EVEN "tonight" ; ! no. 5876
+båhtjejnäjjda:båhtjej#niejjda N_EVEN "milkmaid" ; ! no. 90907
 båhtjemlihtte:båhtjem#lihtte N_EVEN "milking pail" ; ! no. 4706
 båjjtjå:båjjtjå N_EVEN "boy" ; ! no. 2569
 båkkså:båkkså N_EVEN "trouser, pant" ; ! no. 243
