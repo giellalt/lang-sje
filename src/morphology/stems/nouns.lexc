@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-31T14:40:05+03:00
+! Timestamp: 2018-05-31T15:07:37+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -427,6 +427,7 @@ gierdis+N+Der/State:gierdisvu^Ohta N_EVEN "patience" ; ! no. 3536
 gieres+N+Der/State:gieresvu^Ohta N_EVEN "love" ; ! no. 620
 giesse:giesse N_EVEN "summer" ; ! no. 599
 giesseájjge:giesse#ájjge N_EVEN "summer time" ; ! no. 4828
+giessebäjjve:giesse#biejjve N_EVEN "summer day" ; ! no. 6713
 giesselåhpe:giesse#låhpe N_EVEN "summer vacation" ; ! no. 5855
 gietjaldahka:giehkaldahka N_EVEN "hinge" ; ! no. 4841
 gietjobäjjve:gietjo#biejjve N_EVEN "the whole day" ; ! no. 4376
@@ -2365,7 +2366,7 @@ vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; !
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
 gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
 gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
-guoktes:gu^Oktes N_ODD_V2E2AA "twosome" ; ! no. 90200
+guoktes:gu^Okktes N_ODD_V2E2AA "twosome" ; ! no. 90200
 gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
 máles:málles N_ODD_V2E2AA "cooked meal" ; ! no. 90270
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
