@@ -19,8 +19,8 @@ LEXICON adv   !!= * __@CODE@__ adds the tag +Adv
 
 LEXICON Adverb   !!= * __@CODE@__ is the list
 agev adv ;
-áj adv "också" ;
-áj+Use/NG:aj adv "också" ;
+aj adv "också" ;
+aj+Use/NG:áj adv "också" ;
 ájjve adv ;
 ájmon adv;
 alás adv "åt väster" ;
