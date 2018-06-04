@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-05-31T15:18:27+03:00
+! Timestamp: 2018-06-04T14:51:02+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -23,6 +23,8 @@ LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
 
 ! adjective classes are named after a prototypical adjective
 
+guhkke+Use/NG+A+Attr:guhka # "long" ; ! no. 90547
+jallgat+Use/NG+A+Attr:jallga # "even, level, flat" ; ! no. 90798
 ájdna:ájdna A_AAJDNA "only, only one" ; ! no. 21
 mådde:mådde A_AAJDNA "several" ; ! no. 1196
 állke:állke A_AALLKE "easy, simple" ; ! no. 53
@@ -60,7 +62,9 @@ blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
 jallgat:jallg A_BLAAVVAT "even, level, flat" ; ! no. 919
 tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
+guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
 gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
+nävvre:nievvre A_BUOSSJE "bad" ; ! no. 1342
 vájjve:vájjve A_BUOSSJE "difficult, troublesome, serious" ; ! no. 2067
 dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
