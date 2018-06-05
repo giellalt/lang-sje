@@ -267,6 +267,17 @@ LEXICON A_FIEROK_s2
 +Superl:^WG A_EVEN_SUP ;
 
 
+LEXICON A_IETJAA ! ietjá/ietjá/ietjáda/..?
++A+Attr:^WG%> # ;
++A: A_IETJAA_s2 ; 
+
+LEXICON A_IETJAA_s2 
++Sg+Nom:^WG%> K ; 
++Pl+Nom:d%>a K ; 
++Comp:^WG A_EVEN_COMP ;
++Superl:^WG A_EVEN_SUP ;
+
+
 LEXICON A_DUALLBAT ! duallba/duallbat/duallbada/?duallbadup/?duallbadumus/?-bmusa
 +A+Attr:%> # ;
 +A: A_DUALLBAT_s2 ; 
