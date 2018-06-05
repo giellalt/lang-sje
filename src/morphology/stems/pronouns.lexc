@@ -882,29 +882,6 @@ gåbbatj+Pron+Indef+Pl+Com:gåbbatjij # ;
 !gåbbatj,attributiv ställning
 gåbbatj+Pron+Indef+Sg+Nom:gåbbatja # ;
 
-!!ietjá:ietjád- /ietjá ´en annan,övrig (pl) övriga´, attributivt oböjligt 
-!!(!NOT A PRONOUN!!)
-!
-!!ietjá,predikativ ställning
-!ietjá+Pron+Indef+Sg+Nom:iehtjá # ;
-!ietjá+Pron+Indef+Sg+Acc:iehtjádav # ;
-!ietjá+Pron+Indef+Sg+Gen:iehtjáda # ;
-!ietjá+Pron+Indef+Sg+Ill:iehtjádij # ;
-!ietjá+Pron+Indef+Sg+Ine:iehtjádin # ;
-!ietjá+Pron+Indef+Sg+Ela:iehtjádis # ;
-!ietjá+Pron+Indef+Sg+Com:iehtjádijn # ;
-!ietjá+Pron+Indef+Sg+Ess:iehtjádin # ;
-!
-!ietjá+Pron+Indef+Pl+Nom:iehtjáda # ;
-!ietjá+Pron+Indef+Pl+Acc:iehtjádijd # ;
-!ietjá+Pron+Indef+Pl+Gen:iehtjádij # ;
-!ietjá+Pron+Indef+Pl+Ill:iehtjádijda # ;
-!ietjá+Pron+Indef+Pl+Ine:iehtjádijn # ;
-!ietjá+Pron+Indef+Pl+Ela:iehtjádijs # ;
-!ietjá+Pron+Indef+Pl+Com:iehtjádij # ;
-!
-!!ietjá,attributiv ställning
-!ietjá+Pron+Indef+Sg+Nom:ietjá # ;
 
 !muhtem:muhtem- /muhtem ´en viss, en och annan, någon, några, vissa, somliga, en del´, attributivt oböjligt
 
@@ -990,29 +967,6 @@ suhta+Pron+Indef+Sg+Ess:suhtásin # ;
 
 !suhta,attributiv ställning
 suhta+Pron+Indef+Sg+Nom:suhta # ;
-
-!såmes:såbmás- /såmes ´någon, några (andra), somliga (andra), attributivt oböjligt
-
-!såmes,predikativ ställning
-såmes+Pron+Indef+Sg+Nom:såmes # ;
-såmes+Pron+Indef+Sg+Acc:såbmásav # ;
-såmes+Pron+Indef+Sg+Gen:såbmása # ;
-såmes+Pron+Indef+Sg+Ill:såbmásij # ;
-såmes+Pron+Indef+Sg+Ine:såbmásin # ;
-såmes+Pron+Indef+Sg+Ela:såbmásis # ;
-såmes+Pron+Indef+Sg+Com:såbmásijn # ;
-såmes+Pron+Indef+Sg+Ess:såbmásin # ;
-
-såmes+Pron+Indef+Pl+Nom:såbmása # ;
-såmes+Pron+Indef+Pl+Acc:såbmásijd # ;
-såmes+Pron+Indef+Pl+Gen:såbmásij # ;
-såmes+Pron+Indef+Pl+Ill:såbmásijda # ;
-såmes+Pron+Indef+Pl+Ine:såbmásijn # ;
-såmes+Pron+Indef+Pl+Ela:såbmásijs # ;
-såmes+Pron+Indef+Pl+Com:såbmásij # ;
-
-!såmes,attributiv ställning
-såmes+Pron+Indef+Sg+Nom:såmes # ;
 
 !ålos:ullus- ´många personer´(endast i plural), brukas inte attributivt
 
