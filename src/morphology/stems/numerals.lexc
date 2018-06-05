@@ -60,6 +60,7 @@ LEXICON NUM1 ! num 1
 
 LEXICON NUM2 ! num 2
 +Num:gu^Okkte # ; 
++Num+Pl+Nom:gu^Okkte^WG # ; ! cf. sje19521200a.027 !this needs to be generalized for other case/num later
 :#gu^Okkt ORD ; !only for 2+digit NUMs
 !:gu^Okkte 10s ;
 
