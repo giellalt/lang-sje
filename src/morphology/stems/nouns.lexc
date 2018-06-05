@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-05T08:44:55+02:00
+! Timestamp: 2018-06-05T16:00:12+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -245,6 +245,7 @@ bårråmguolle:bårråm#gu^Olle N_EVEN "edible fish" ; ! no. 4294
 båsske:båsske N_EVEN "heel" ; ! no. 259
 båsskå:båsskå N_EVEN "garden angelica" ; ! no. 260
 båtsojguohtomsadje:båtsoj#guohtom#sadje N_EVEN "grazing land for reindeer" ; ! no. 5696
+båtsojlahkke:båtsoj#lahkke N_EVEN "half of the reindeer" ; ! no. 90923
 båtsojmärrka:båtsoj#mierrka N_EVEN "reindeer earmark" ; ! no. 4296
 båttkå:båttkå N_EVEN "break, rest" ; ! no. 265
 bäbbmosadje:bäbbmo#sadje N_EVEN "place for eating" ; ! no. 4639
