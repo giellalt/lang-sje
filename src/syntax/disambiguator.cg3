@@ -217,6 +217,8 @@ LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num \? ;
 
 LIST NP-HEAD = N Pron ; #set of NP heads
 
+SET NounOrNum = N OR Num ;
+
 SET PRE-NP-HEAD = (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
          Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
          (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
@@ -401,9 +403,10 @@ SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
 SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
 SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
 SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
+
 #!! !Agreement rules for verb triggered by full NP
-SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C N + Pl + Nom BARRIER CLB);
-SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C N + Sg + Nom BARRIER CLB);
+SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C NounOrNum + Pl + Nom BARRIER CLB);
+SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB);
 
 
 
