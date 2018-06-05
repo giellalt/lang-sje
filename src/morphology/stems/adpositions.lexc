@@ -14,86 +14,114 @@
 
 !! !!!Adpositions
 
-LEXICON PP   !!= * __@CODE@__  adds the tag +Po
+LEXICON Adposition ! main class
+!Preposition ; !only prepositions -- check to see if this is a valid category!
+Postposition ;
+PrePostposition ;
+
+
+!only postpositions
+LEXICON Postposition   !!= * __@CODE@__ is the list
+allelin PostP "i väster" ;
+bajjel PostP ;
+bajjelij PostP ;
+bajjelin PostP ;
+bajjelis PostP ;
+bajelt PostP ;
+bálldal PostP ;
+bálldala PostP ;
+bálldaj PostP ;
+birraj PostP ;
+buohta PostP ;
+dehti+Use/NG:dihta PostP ;
+dehti PostP ;
+gaskav PostP ;
+gaskan PostP ;
+gaskanit PostP ;
+gaskas PostP ;
+gaskajnisa PostP ;
+gasskaj PostP ;
+gassko PostP ;
+gitta+Use/NG:git PostP ;
+gitta PostP ;
+gugu PostP ;
+guoran PostP ;
+guorraj PostP ;
+lahka PostP ;
+lagamusan PostP ;
+lunne PostP ;
+lunne+Use/NG:ludne PostP ;
+luhte PostP ;
+lusi PostP ;
+maŋen PostP ;
+maŋŋáj PostP ;
+maŋŋelin PostP ;
+maŋŋel PostP ;
+maŋŋela PostP ;
+maŋŋelatj PostP ;
+maŋŋelatja PostP ;
+maŋŋelij PostP ;
+maŋŋelis PostP ;
+maŋŋelt PostP ;
+milde PostP ;
+mäddel PostP ;
+nala PostP ;
+nala+Use/NG:nalá PostP ;
+nala+Use/NG:nile PostP ;
+nali PostP ;
+nalta PostP ;
+nanne PostP ;
+nanne+Use/NG:nan PostP ;
+nanne+Use/NG:naldne PostP ;
+nuarrtal PostP ;
+nuarrtala PostP ;
+nuarrtalij PostP ;
+nuarrtalin PostP ;
+rájjáj PostP ;
+rájen PostP ;
+rájest PostP ;
+sinne PostP ;
+sinne+Use/NG:sin PostP ;
+sisa PostP ;
+sisa+Use/NG:sisá PostP ;
+sisa+Use/NG:sis PostP ;
+sissŋela PostP ;
+sissŋelij PostP ;
+tjada PostP ;
+vuolelt PostP ;
+vuolen PostP ;
+vuolest PostP ;
+vuolev PostP ;
+vuolláj PostP ;
+vuässte PostP "against" ;
+åvdålt PostP "towards" ;
+åvdån PostP ;
+åvvdåj PostP ;
+åvdåst PostP ;
+
+
+!only prepositions -- check to see if this is a valid category!
+!LEXICON Preposition   !!= * __@CODE@__ is the list
+
+
+!both pre- and postpositions
+LEXICON PrePostposition   !!= * __@CODE@__ is the list
+rastá PrePost ;
+birra PrePost ;
+
+
+
+! PoS tags added below:
+
+!only postpositions
+LEXICON PostP   !!= * __@CODE@__  adds the tag +Po
 +Po: # ;
 
-LEXICON Postposition   !!= * __@CODE@__ is the list
-allelin PP "i väster" ;
-bajjel PP ;
-bajjelij PP ;
-bajjelin PP ;
-bajjelis PP ;
-bajelt PP ;
-bálldal PP ;
-bálldala PP ;
-bálldaj PP ;
-birra PP ;
-birraj PP ;
-buohta PP ;
-dehti+Use/NG:dihta PP ;
-dehti PP ;
-gaskav PP ;
-gaskan PP ;
-gaskanit PP ;
-gaskas PP ;
-gaskajnisa PP ;
-gasskaj PP ;
-gassko PP ;
-gitta+Use/NG:git PP ;
-gitta PP ;
-gugu PP ;
-guoran PP ;
-guorraj PP ;
-lahka PP ;
-lagamusan PP ;
-lunne PP ;
-lunne+Use/NG:ludne PP ;
-luhte PP ;
-lusi PP ;
-maŋen PP ;
-maŋŋáj PP ;
-maŋŋelin PP ;
-maŋŋel PP ;
-maŋŋela PP ;
-maŋŋelatj PP ;
-maŋŋelatja PP ;
-maŋŋelij PP ;
-maŋŋelis PP ;
-maŋŋelt PP ;
-milde PP ;
-mäddel PP ;
-nala PP ;
-nala+Use/NG:nalá PP ;
-nala+Use/NG:nile PP ;
-nali PP ;
-nalta PP ;
-nanne PP ;
-nanne+Use/NG:nan PP ;
-nanne+Use/NG:naldne PP ;
-nuarrtal PP ;
-nuarrtala PP ;
-nuarrtalij PP ;
-nuarrtalin PP ;
-rájjáj PP ;
-rájen PP ;
-rájest PP ;
-rastá PP ;
-rassta PP ;
-sinne PP ;
-sinne+Use/NG:sin PP ;
-sisa PP ;
-sisa+Use/NG:sisá PP ;
-sisa+Use/NG:sis PP ;
-sissŋela PP ;
-sissŋelij PP ;
-tjada PP ;
-vuolelt PP ;
-vuolen PP ;
-vuolest PP ;
-vuolev PP ;
-vuolláj PP ;
-vuässte PP "against" ;
-åvdålt PP "towards" ;
-åvdån PP ;
-åvvdåj PP ;
-åvdåst PP ;
+!only prepositions -- check to see if this is a valid category!
+!LEXICON PreP   !!= * __@CODE@__  adds the tag +Pr
+!+Pr: # ;
+
+!both pre- and postpositions
+LEXICON PrePost   !!= * __@CODE@__  adds the tags +Po and +Pr
++Po: # ;
++Pr: # ;
