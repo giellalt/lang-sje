@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-05T16:00:12+02:00
+! Timestamp: 2018-06-05T20:56:16+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1421,7 +1421,6 @@ sågastak:sågastag2 N_EVEN4 "dense birch forest" ; ! no. 6868
 sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
 tjielgadus:tjielgadus N_EVEN4 "definition, explanation" ; ! no. 3565
 tjuoladak:tju^Oladag2 N_EVEN4 "clear-cut area" ; ! no. 1933
-tjårrågatj:tjårrågatj N_EVEN4 "small group of reindeer" ; ! no. 3912
 tsaskadak:tsaskadag2 N_EVEN4 "spring snow which neither holds one up nor breaks" ; ! no. 3195
 unnagatj:unnagatj N_EVEN4 "small" ; ! no. 5353
 urudahka+Use/NG:urudag2 N_EVEN4 "settlement, camp" ; ! no. 3341
@@ -2366,6 +2365,7 @@ tjála:tjállag N_ODD_OPEN "writing, text" ; ! no. 1867
 tjåddå:tjåddåg N_ODD_OPEN "esophagus" ; ! no. 2845
 tjåhkketjála:tjåhkke#tjállag N_ODD_OPEN "documentation" ; ! no. 5932
 tjårvegietjmádda:tjårve#gietj#máddag N_ODD_OPEN "fork in antlers" ; ! no. 2373
+tjårå:tjårråg N_ODD_OPEN "group of reindeer" ; ! no. 90924
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
