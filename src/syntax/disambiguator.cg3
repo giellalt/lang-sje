@@ -286,8 +286,15 @@ REMOVE:noFiniteVafterINF VFIN IF (*-1 Inf BARRIER CLB);
 
 #-1C = careful mode
 
-REMOVE:PoAdv Po IF (NOT -1 Gen)(0 Adv) ;	
-REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
+#remove Po analysis if Adv or Preposition
+REMOVE:NoPoIfAdv Po IF (NOT -1 Gen)(0 Adv) ;	
+REMOVE:NoPoIfPr  Po IF (NOT -1 Gen)(0 Pr)(*1 Gen) ;	
+#remove Pr analysis if Adv or Postposition
+REMOVE:NoPrIfAdv Pr IF (0 Adv)(NOT 1 Gen) ;	
+REMOVE:NoPrIfPr  Pr IF (-1 Gen)(0 Pr)(NOT *1 Gen) ;	
+#remove Adv analysis if Gen+Postposition OR Preposition+Gen
+REMOVE:NoAdvIfPo Adv IF (-1 Gen)(0 Po) ;
+REMOVE:NoAdvIfPr Adv IF (0 Pr)(1 Gen) ;
 
 #REMOVE, SELECT, MAP, IFF
 
@@ -302,14 +309,16 @@ REMOVE:AdvPo Adv IF (-1 Gen)(0 Po) ;
 	##båtsoj máhtta DUV nala båhtet
 
 #NP (incl. pronouns) preceding certain Po is Gen # actually more general than just gen.sg/nom.pl
-SELECT:genb4Po Gen IF (*1C Po BARRIER NoNP);
+SELECT:genB4Po Gen IF (*1C Po BARRIER NoNP);
+#NP (incl. pronouns) following certain Pr is Gen # actually more general than just gen.sg/nom.pl
+SELECT:genAfterPr Gen IF (*-1C Pr BARRIER NoNP);
 
 #if the following slot has a noun, choose gen.sg
 SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
 REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
 
 #remove GenSg if no noun immediately follows
-REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 N);
+REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 PRE-NP-HEAD OR N );
 
 #reject demonstrative pronoun reading if DET followed by NP-head with same case/number
 REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NPNH);
