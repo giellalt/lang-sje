@@ -201,7 +201,9 @@ SET NOT-COP-V = V - COPULAS ;
 
 LIST MOD-ASP = "áigut" "bállet" "berret" "dáidit" "fertet" "galgat" "gillet" "lávet" "sáhttit" "seahtit" "soaitit" "viggat" ;
 
-LIST AUX-OR-MAIN = "áigut" "álgit" "beassat" "galgat" "háliidit" "máhttit" "ollit" "orrut" "sihtat" "veadjit"; #"nagodit"  "nagadit" "
+LIST AUX-OR-MAIN = "áigut" "álgit" "beassat" "galgat" "háliidit" "máhttit" "ollit" "orrut" "sihtat" "veadjit"; #"nagodit"  "nagadit"
+
+LIST ESS-Vs = "gåhttjot" "sjaddat" ;
 
 SET AUX = COPULAS OR Neg OR MOD-ASP OR AUX-OR-MAIN ;
 
@@ -374,6 +376,8 @@ REMOVE:no12Vwithout12Pron NonThirdPerson IF (*-1 (N Nom) BARRIER S-BOUNDARY)(*1 
 REMOVE:no12VafterRelInterrProNOM NonThirdPerson IF (*-1 (Pron Pl Nom) BARRIER S-BOUNDARY);#(*1 (N Nom) BARRIER S-BOUNDARY);
 	##Ja ij lam báhtsám ienap buhtsu viessot, gu da ma lin ulgolin guohtomin
 
+#select ESSIVE when in clause with verb governing essive:
+SELECT:essWithEssVs Ess IF ((*-1 ESS-Vs BARRIER CLB) OR (*1 ESS-Vs BARRIER CLB));
 
 #select CC reading of jala if preceded directly by NP-head or followed by NP
 SELECT:NPjalaNP CC IF (-1 NP-HEAD)(*1 NP-HEAD BARRIER NoNP); 
