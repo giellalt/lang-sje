@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-05T20:56:16+02:00
+! Timestamp: 2018-06-06T13:02:55+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2459,5 +2459,6 @@ vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
 åjjvesárjas:åjjve#sárrjas N_ODD_WG "headache" ; ! no. 2252
 gane:gadn N_ODD_WG_eH "invisible subterranean being" ; ! no. 6873
+gane+Use/NG:gidn N_ODD_WG_eH "invisible subterranean being" ; ! no. 90926
 riebe:riehp N_ODD_WG_eH "red fox" ; ! no. 2790
 njuono:nju^Onn N_ODD_WG_oH "the front of a reindeer herd" ; ! no. 90810
