@@ -315,10 +315,6 @@ SELECT:genB4Po Gen IF (*1C Po BARRIER NoNP);
 #NP (incl. pronouns) following certain Pr is Gen # actually more general than just gen.sg/nom.pl
 SELECT:genAfterPr Gen IF (*-1C Pr BARRIER NoNP);
 
-#if the following slot has a noun, choose gen.sg
-SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
-REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
-
 #remove GenSg if no noun immediately follows
 REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 PRE-NP-HEAD OR N );
 
@@ -422,7 +418,10 @@ SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C NounOrNum + Pl + Nom BARRIER CLB);
 SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB);
 
 
-
+#if the following slot has a noun, choose gen.sg #!should come after verb agreement rules!
+#SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
+REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
+    ##Ja bällin almatja råggev dan skájjdáj ja jávestin rubmahav dasa.
 
 
 #!! !!!Mapping rules
