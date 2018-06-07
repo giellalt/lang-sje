@@ -293,7 +293,7 @@ REMOVE:NoPoIfAdv Po IF (NOT -1 Gen)(0 Adv) ;
 REMOVE:NoPoIfPr  Po IF (NOT -1 Gen)(0 Pr)(*1 Gen) ;	
 #remove Pr analysis if Adv or Postposition
 REMOVE:NoPrIfAdv Pr IF (0 Adv)(NOT 1 Gen) ;	
-REMOVE:NoPrIfPr  Pr IF (-1 Gen)(0 Pr)(NOT *1 Gen) ;	
+REMOVE:NoPrIfPo  Pr IF (-1 Gen)(0 Po)(NOT *1 Gen) ;	
 #remove Adv analysis if Gen+Postposition OR Preposition+Gen
 REMOVE:NoAdvIfPo Adv IF (-1 Gen)(0 Po) ;
 REMOVE:NoAdvIfPr Adv IF (0 Pr)(1 Gen) ;
