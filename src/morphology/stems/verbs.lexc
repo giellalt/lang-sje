@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-04T12:50:53+02:00
+! Timestamp: 2018-06-07T11:13:19+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -629,6 +629,7 @@ bájdnet:bájdn V_EVEN_E "paint, color" ; ! no. 117
 bájjtet:bájjt V_EVEN_E "shine" ; ! no. 2786
 bállet:báll V_EVEN_E "dig, grub" ; ! no. 134
 biehket:biehk V_EVEN_E "dawdle, crawl" ; ! no. 3675
+bieljeduhttet:bieljeduhtt V_EVEN_E "deafen, make deaf" ; ! no. 90638
 bivvdet:bivvd V_EVEN_E "fish, trap, hunt" ; ! no. 194
 bulligåhtet:bulligåht V_EVEN_E "begin to burn" ; ! no. 90641
 buollet:bu^Oll V_EVEN_E "burn, be on fire" ; ! no. 90640
@@ -717,6 +718,7 @@ mujjtet:mujjt V_EVEN_E "remember" ; ! no. 1177
 murrdet:murrd V_EVEN_E "back up (for vehicles)" ; ! no. 1191
 muähttet:mu^Ohtt V_EVEN_E "snow" ; ! no. 3956
 mållget:mållg V_EVEN_E "express oneself, say" ; ! no. 4483
+måráduhttet:måráduhtt V_EVEN_E "agitate, annoy" ; ! no. 6020
 mårrdet:mårrd V_EVEN_E "tie the upper and lower strings of a net" ; ! no. 1215
 mårret:mårr V_EVEN_E "thrive, be comfortable" ; ! no. 1217
 navvet:navv V_EVEN_E "remove hair (from reindeer hide)" ; ! no. 1253
@@ -729,6 +731,7 @@ njållogåhtet:njållogåht V_EVEN_E "begin to calf" ; ! no. 4590
 njäddvet:njieddv V_EVEN_E "spread butter on bread" ; ! no. 5008
 njäddvet+Use/NG:njä2rrv V_EVEN_E "spread butter on bread" ; ! no. 90503
 nässket:niessk V_EVEN_E "skin off leg or other hide" ; ! no. 2965
+ráfeduhttet:ráfeduhtt V_EVEN_E "disturb" ; ! no. 5514
 ráttket:ráttk V_EVEN_E "divide up reindeer" ; ! no. 1391
 riegádahttet:riegádahtt V_EVEN_E "give birth to" ; ! no. 1396
 riekknegåhtet:riekknegåht V_EVEN_E "begin counting" ; ! no. 4402
@@ -759,6 +762,7 @@ tsáhket:tsáhk V_EVEN_E "stuff into" ; ! no. 1996
 tsáhpet:tsáhp V_EVEN_E "endure" ; ! no. 1998
 tsápptset:tsáppts V_EVEN_E "shut or blink one’s eyes" ; ! no. 90353
 vaddet:vadd V_EVEN_E "give" ; ! no. 2044
+åjaldahttet+Use/NG:vajálduhtt V_EVEN_E "forget" ; ! no. 90447
 vanaldahttet:vanaldahtt V_EVEN_E "stretch out" ; ! no. 6099
 varrdet:varrd V_EVEN_E "bleed" ; ! no. 3287
 vádtset:vádts V_EVEN_E "go, walk" ; ! no. 2049
@@ -969,6 +973,7 @@ nårrdåt:nårrd V_EVEN_Å "bump, butt" ; ! no. 1332
 råggåt:rågg V_EVEN_Å "dig, dig up" ; ! no. 1454
 råhkåt:råhk V_EVEN_Å "pray" ; ! no. 90661
 sjåvvåt:sjåvv V_EVEN_Å "rain heavily, rush (for water)" ; ! no. 1609
+skåvvåt:skåvv V_EVEN_Å "roar (of water or wind)" ; ! no. 90930
 slåvvåt:slåvv V_EVEN_Å "beat, conquer" ; ! no. 1682
 smållåt:småll V_EVEN_Å "break into pieces" ; ! no. 5156
 snårråt:snårr V_EVEN_Å "tangle up" ; ! no. 1707
