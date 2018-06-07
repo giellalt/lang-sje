@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-06T13:02:55+02:00
+! Timestamp: 2018-06-07T07:45:54+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1277,6 +1277,7 @@ viessomvuohke:viessom#vu^Ohke N_EVEN "way of life, lifestyle" ; ! no. 5597
 vihke:vihke N_EVEN "error, mistake, damage, injury" ; ! no. 2124
 vijdna:vijdna N_EVEN "alcohol, wine" ; ! no. 3086
 vikiŋaájjge:vikiŋa#ájjge N_EVEN "the Viking era" ; ! no. 5672
+virrotjalbme:virro#tjalbme N_EVEN "sun dog, parhelion" ; ! no. 90928
 visste:visste N_EVEN "reindeer lichen" ; ! no. 2134
 vivva:vivva N_EVEN "son-in-law" ; ! no. 2136
 vuabbda:vu^Obbda N_EVEN "breast, chest" ; ! no. 2147
@@ -1898,6 +1899,7 @@ várro:várro N_EVEN_O "product" ; ! no. 3441
 várrto:várrto N_EVEN_O "nipple, wart" ; ! no. 2092
 vierramákksjo:vierram#ákksjo N_EVEN_O "hatchet" ; ! no. 5256
 vierro:vierro N_EVEN_O "sacrifice, victim" ; ! no. 90615
+virro:virro N_EVEN_O "(wind) storm" ; ! no. 90927
 vuajdno:vu^Ojdno N_EVEN_O "opinion" ; ! no. 2164
 vuajjto:vu^Ojjto N_EVEN_O "profit" ; ! no. 90275
 vuallpo:vu^Ollpo N_EVEN_O "everyday frock" ; ! no. 2180
