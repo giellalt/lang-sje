@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-07T07:45:54+02:00
+! Timestamp: 2018-06-07T11:13:13+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -981,7 +981,7 @@ skahtte:skahtte N_EVEN "tax, valuable" ; ! no. 1614
 skallá:skallá N_EVEN "ice-crusted snow" ; ! no. 4509
 skannjga:skannjga N_EVEN "wild reindeer doe" ; ! no. 1617
 skarrorájjge:skarro#rájjge N_EVEN "ventilation hole" ; ! no. 4907
-skájjde:skájjde N_EVEN "land between two rivers which conjoin, point" ; ! no. 1615
+skájjde:skájjde N_EVEN "confluence of two rivers, point" ; ! no. 1615
 skájjte:skájjte N_EVEN "long-tailed jaeger" ; ! no. 4082
 skárrja:skárrja N_EVEN "scissors, also a reindeer earmark" ; ! no. 1618
 skárrjadåhppå:skárrja#dåhppå N_EVEN "scissor holder" ; ! no. 5126
@@ -1021,6 +1021,7 @@ skåvvlålåhpe:skåvvlå#låhpe N_EVEN "school holidays, vacation" ; ! no. 1090
 skåvvlåmánná:skåvvlå#mánná N_EVEN "schoolchild, pupil" ; ! no. 90689
 skåvvlåráddna:skåvvlå#ráddna N_EVEN "school friend" ; ! no. 5134
 skåvvlåvuassa:skåvvlå#vu^Os'sa N_EVEN "school bag" ; ! no. 5135
+skåvvå:skåvvå N_EVEN "roar (of water or wind)" ; ! no. 90929
 skälbma:skielbma N_EVEN "villain, crook" ; ! no. 1658
 skäŋŋka:skieŋŋka N_EVEN "gift, present" ; ! no. 4371
 skärre:skier're N_EVEN "dwarf birch, Arctic birch" ; ! no. 1660
@@ -1277,7 +1278,6 @@ viessomvuohke:viessom#vu^Ohke N_EVEN "way of life, lifestyle" ; ! no. 5597
 vihke:vihke N_EVEN "error, mistake, damage, injury" ; ! no. 2124
 vijdna:vijdna N_EVEN "alcohol, wine" ; ! no. 3086
 vikiŋaájjge:vikiŋa#ájjge N_EVEN "the Viking era" ; ! no. 5672
-virrotjalbme:virro#tjalbme N_EVEN "sun dog, parhelion" ; ! no. 90928
 visste:visste N_EVEN "reindeer lichen" ; ! no. 2134
 vivva:vivva N_EVEN "son-in-law" ; ! no. 2136
 vuabbda:vu^Obbda N_EVEN "breast, chest" ; ! no. 2147
