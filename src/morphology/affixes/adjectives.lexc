@@ -103,6 +103,17 @@ LEXICON A_TJAEHPPE_s2
 +Superl:^WG A_ODD_SUP ;
 
 
+LEXICON A_ÅNEGIS ! ånegis/ådne/åne/ånep/ånemus-
++A+Attr:^WG%>gis # ;
++A: A_ÅNEGIS_s2 ; 
+
+LEXICON A_ÅNEGIS_s2 
++Sg+Nom:%> K ; 
++Pl+Nom:^WG%> K ; 
++Comp:^WG A_ODD_COMP ;
++Superl:^WG A_ODD_SUP ;
+
+
 LEXICON A_AALLKE ! állkes/állke/állke/állkep/állkemus-
 +A+Attr:%>s # ;
 +A: A_AALLKE_s2 ; 
