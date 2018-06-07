@@ -341,7 +341,7 @@ REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess) BARRIER NPNH);
 
 #select demonstrative pronoun reading if NOT directly followed by possible NP-material
-SELECT:DemPronWithNPhead Pron IF (NOT 1C (NPNH) OR (N));
+SELECT:DemPronWithoutNPhead Pron IF (NOT 1C (NPNH) OR (N));
 #select demonstrative pronoun reading if directly followed by certain postposition
 SELECT:DemPronWithPosthead Pron IF (1C Po);
 
