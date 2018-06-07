@@ -424,6 +424,13 @@ REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
     ##Ja bällin almatja råggev dan skájjdáj ja jávestin rubmahav dasa.
 
 
+
+#!! !!!Rules for collocations, multiword expressions etc.
+
+#buolvast buallvaj 'from generation to generation' (removes eg. "buolvastit" V Ind Prs Sg3)
+SELECT:buolvastBuallvaj (N Sg Ela) IF (0 ("buallva"))(1C ("buallva" N Sg Ill));
+
+
 #!! !!!Mapping rules
 
 #!! !!Mapping CC
