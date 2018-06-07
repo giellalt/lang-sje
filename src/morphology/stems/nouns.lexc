@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-07T11:13:13+02:00
+! Timestamp: 2018-06-07T13:12:59+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -181,7 +181,7 @@ bihtjarsábme:bihtjar#sábme N_EVEN "Saami settler" ; ! no. 4699
 bihttá:bihttá N_EVEN "bit, little piece" ; ! no. 3686
 bijjla:bijjla N_EVEN "car" ; ! no. 180
 biljähtta:biljiehtta N_EVEN "ticket" ; ! no. 3310
-billga:billga N_EVEN "braid of shoe hay" ; ! no. 5660
+billgá:billgá N_EVEN "braid of shoe hay" ; ! no. 5660
 billsamiesse:billsa#miesse N_EVEN "reindeer calf in August with full fur" ; ! no. 183
 biologija:biologija N_EVEN "biology" ; ! no. 3312
 bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
@@ -1173,6 +1173,7 @@ tjihta:tjihta N_EVEN "pen, stall" ; ! no. 5928
 tjilgimdákkte:tjilgim#dákkte N_EVEN "lock on a tobacco pouch" ; ! no. 1909
 tjitjáddjá:tjitj#áddjá N_EVEN "maternal grandfather" ; ! no. 2895
 tjitjáhkka:tjitj#áhkka N_EVEN "maternal grandmother" ; ! no. 2894
+tjitjáddjá+Use/NG:tjitj#áj'já N_EVEN "maternal grandfather" ; ! no. 90932
 tjivvda:tjivvda N_EVEN "smell and taste of reindeer in rut" ; ! no. 4413
 tjivvle:tjivvle N_EVEN "floater, bobber" ; ! no. 1981
 tjuajjka:tju^Ojjka N_EVEN "mosquito" ; ! no. 1912
