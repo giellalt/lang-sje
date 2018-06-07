@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-07T11:13:19+02:00
+! Timestamp: 2018-06-07T11:43:45+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -466,6 +466,7 @@ mivvat+Use/NG:muvv V_EVEN_A "give in, give up, yield" ; ! no. 90494
 måjvordallat:måjvordall V_EVEN_A "feel sick, ill" ; ! no. 4257
 mässkat:miessk V_EVEN_A "rot" ; ! no. 1228
 nahkat:nahk V_EVEN_A "manage" ; ! no. 1234
+narrgat:narrg V_EVEN_A "fuck" ; ! no. 90931
 nállat:náll V_EVEN_A "cut off (for antlers, branches)" ; ! no. 1239
 nierrat:nierr V_EVEN_A "make dull or blunt (e.g. a knife)" ; ! no. 6140
 nissjkat:nissjk V_EVEN_A "lay down and refuse to continue on (for stubborn reindeer)" ; ! no. 6589
