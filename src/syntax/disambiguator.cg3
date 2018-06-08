@@ -226,11 +226,14 @@ SET PRE-NP-HEAD = (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (N
          (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
 SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 
-SET NoNP = WORD - NP-HEAD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, plus CC
+SET NoNP = WORD - NP-HEAD OR WORD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, plus CC
+
+SET NPpossible = NP-HEAD OR PRE-NP-HEAD ; #possible anywhere in an NP
+SET NoNPpossible = WORD - NPpossible ; #NOT possible anywhere in an NP
 
 SET PRE-AP-HEAD = Adv OR CC ;
 
-SET NoAP = WORD - A - PRE-AP-HEAD ; #NoAP = not possibly anywhere in NP, plus CC
+SET NoAP = WORD - A - PRE-AP-HEAD ; #NoAP = not possibly anywhere in AP, plus CC
 
 # ============== #
 # Disambiguation #
@@ -341,7 +344,7 @@ REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess) BARRIER NPNH);
 
 #select demonstrative pronoun reading if NOT directly followed by possible NP-material
-SELECT:DemPronWithoutNPhead Pron IF (NOT 1C (NPNH) OR (N));
+SELECT:DemPronWithoutNPhead Pron IF (1C NoNPpossible);
 #select demonstrative pronoun reading if directly followed by certain postposition
 SELECT:DemPronWithPosthead Pron IF (1C Po);
 
