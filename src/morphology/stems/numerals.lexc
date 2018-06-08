@@ -45,6 +45,7 @@ nålla:nål'la NUM0 "noll, zero" ;
 vuostas:vuostas ORDsuppl "först, first" ;
 mubbe:mubbe ORDsuppl "andra, second/other" ;
 mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
+mubbe+Use/NG+Sg+Ine:nubbe%>n K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
 lågev:låg2 NUM10 "tio, ten" ;
 tjuohte:tjuoht NUM100 "hundra, hundred"; !verify ORD form!
 tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
@@ -160,6 +161,34 @@ ORD10 ;
 
 
 
+
+!LEXICON Num_EVEN ! nubbe
+!+Num: Num_EVENCASE ;  ! Sg Nom, Ess
+!+Num: Num_EVEN_ILL ;
+!+Num:^WG Num_EVEN_WK ; ! CG here
+!
+!LEXICON Num_EVENCASE
+!+Sg+Nom:^UAUML%>    K ;
+!Num_EVEN_ESS ; ! Essive
+!
+!LEXICON Num_EVEN_ILL
+!+Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
+!
+!LEXICON Num_EVEN_ESS
+!+Ess:^UAUML%>n K ;
+!
+!LEXICON Num_EVEN_WK
+!!+Der/Dimin:%>tj^V2E2AA N_ODD ;
+!+Sg+Gen:  K ;
+!+Sg+Acc:%>v  K ;
+!+Sg+Ine:%>n K ;
+!+Sg+Ela:%>st K ;
+!+Sg+Ela+Use/NG:%>s K ; !dialectal variant, but not standard
+!+Abe:%>dak K ; ! Norm
+!!+Abe:%>htaka K ; ! Informants S and Bj 
+!!+Abe:%>htak K ; ! Informants S and Bj 
+!+Pl+Nom:  K ;
+!!:^IJ%>j N_EVEN_J ;
 
 
 
