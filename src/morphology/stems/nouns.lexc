@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-08T11:48:00+02:00
+! Timestamp: 2018-06-08T13:26:58+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -210,7 +210,7 @@ bukstávva:bukstávva N_EVEN "letter of the alphabet" ; ! no. 3364
 bulla:bulla N_EVEN "bread roll, bun" ; ! no. 90705
 bullki:bullki N_EVEN "sled" ; ! no. 2535
 bunndi:bunndi N_EVEN "farmer" ; ! no. 205
-bunndudahka:buhkudahka N_EVEN "wealth" ; ! no. 90535
+bunndudahka:bunndudahka N_EVEN "wealth" ; ! no. 90535
 buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
 buogŋa:bu^Ogŋa N_EVEN "space above the belt in a Saami frock" ; ! no. 3023
 buohtja:bu^Ohtja N_EVEN "penis" ; ! no. 4538
@@ -430,7 +430,7 @@ giesse:giesse N_EVEN "summer" ; ! no. 599
 giesseájjge:giesse#ájjge N_EVEN "summer time" ; ! no. 4828
 giessebäjjve:giesse#biejjve N_EVEN "summer day" ; ! no. 6713
 giesselåhpe:giesse#låhpe N_EVEN "summer vacation" ; ! no. 5855
-gietjaldahka:giehkaldahka N_EVEN "hinge" ; ! no. 4841
+gietjaldahka:gietjaldahka N_EVEN "hinge" ; ! no. 4841
 gietjobäjjve:gietjo#biejjve N_EVEN "the whole day" ; ! no. 4376
 gietsvuolle:giets#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
 gijjle:gijjle N_EVEN "dowry" ; ! no. 6037
@@ -736,6 +736,7 @@ miesse:miesse N_EVEN "reindeer calf, moose calf" ; ! no. 1158
 miesseduällje:miesse#du^Ollje N_EVEN "winter fur on a reindeer calf" ; ! no. 5988
 mijjla:mijjla N_EVEN "Swedish mile (ten kilometers)" ; ! no. 2387
 mikrovuäbbne:mikro#vu^Obbne N_EVEN "microwave oven" ; ! no. 1165
+minnulahka:minnulahka N_EVEN "journey, trip, travel" ; ! no. 90936
 minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
 missovuasstá:misso#vu^Osstá N_EVEN "brown cheese" ; ! no. 5989
 missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
@@ -1218,7 +1219,7 @@ tjårvegiehtje:tjårve#giehtje N_EVEN "tip (of reindeer antler)" ; ! no. 2374
 tjårvemåhkke:tjårve#måhkke N_EVEN "bend in reindeer antlers" ; ! no. 2379
 tjåsskå:tjåsskå N_EVEN "small chunk of fish used to prepare as food" ; ! no. 1882
 tjåvded+N+Der/Ag:tjåvdedieddje N_EVEN "liberator" ; ! no. 3234
-tjäbbudahka:tjä2hkudahka N_EVEN "decoration" ; ! no. 3568
+tjäbbudahka:tjäbbudahka N_EVEN "decoration" ; ! no. 3568
 tjäkksa:tjiekksa N_EVEN "omasum (reindeer's third stomach)" ; ! no. 2850
 tjäkksa:tjiekksa N_EVEN "cookie" ; ! no. 5219
 tjällde:tjiellde N_EVEN "reindeer herding cooperative" ; ! no. 1985
@@ -1244,7 +1245,7 @@ ulla:ulla N_EVEN "greed, desire" ; ! no. 90371
 ullgurijjka:ullgu#rijjka N_EVEN "abroad" ; ! no. 5165
 universitähtta:universitiehtta N_EVEN "university" ; ! no. 5503
 uŋŋga:uŋŋga N_EVEN "youth, child" ; ! no. 4186
-urudahka:uhkudahka N_EVEN "settlement, camp" ; ! no. 3391
+urudahka:urudahka N_EVEN "settlement, camp" ; ! no. 3391
 uudnogis+N+Der/State:uudnogisvu^Ohta N_EVEN "envy" ; ! no. 3178
 vahkkogiehtje:vahkko#giehtje N_EVEN "end of the week, weekend" ; ! no. 5356
 vallda:vallda N_EVEN "mountain meadow" ; ! no. 4084
