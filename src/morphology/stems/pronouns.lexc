@@ -79,61 +79,59 @@ LEXICON perspl   !!= * __@CODE@__
 
 
 LEXICON Demonstrative   !!= * __@CODE@__
-dat+Pron+Det+Sg+Nom:dat # ;
-dat+Pron+Det+Sg+Acc:dav # ;
-dat+Pron+Det+Sg+Gen:dan # ;
-dat+Pron+Det+Sg+Ill:dasa # ;
-dat+Pron+Det+Sg+Ine:danne # ;
-dat+Pron+Det+Sg+Ela:dasste # ;
-dat+Pron+Det+Sg+Com:dajna # ;
-dat+Pron+Det+Sg+Ess:danen # ;
+dat+Pron+Dem+Sg+Nom:dat # ;
+dat+Pron+Dem+Sg+Acc:dav # ;
+dat+Pron+Dem+Sg+Gen:dan # ;
+dat+Pron+Dem+Sg+Ill:dasa # ;
+dat+Pron+Dem+Sg+Ine:danne # ;
+dat+Pron+Dem+Sg+Ela:dasste # ;
+dat+Pron+Dem+Sg+Com:dajna # ;
+dat+Pron+Dem+Sg+Ess:danen # ;
 
-dat+Pron+Det+Pl+Nom:da # ;
-dat+Pron+Det+Pl+Acc:dajd # ;
-dat+Pron+Det+Pl+Gen:daj # ;
-dat+Pron+Det+Pl+Ill:dajda # ;
-dat+Pron+Det+Pl+Ine:dajn # ;
-dat+Pron+Det+Pl+Ine:dajdne # ;
-dat+Pron+Det+Pl+Ela:dajst # ;
-dat+Pron+Det+Pl+Ela:dajste # ;
-dat+Pron+Det+Pl+Com:daj # ;
+dat+Pron+Dem+Pl+Nom:da # ;
+dat+Pron+Dem+Pl+Acc:dajd # ;
+dat+Pron+Dem+Pl+Gen:daj # ;
+dat+Pron+Dem+Pl+Ill:dajda # ;
+dat+Pron+Dem+Pl+Ine:dajn # ;
+dat+Pron+Dem+Pl+Ine:dajdne # ;
+dat+Pron+Dem+Pl+Ela:dajst # ;
+dat+Pron+Dem+Pl+Ela:dajste # ;
+dat+Pron+Dem+Pl+Com:daj # ;
 
+dát+Pron+Dem+Sg+Nom:dát # ;
+dát+Pron+Dem+Sg+Acc:dáv # ;
+dát+Pron+Dem+Sg+Gen:dán # ;
+dát+Pron+Dem+Sg+Ill:dása # ;
+dát+Pron+Dem+Sg+Ine:dánne # ;
+dát+Pron+Dem+Sg+Ela:dásste # ;
+dát+Pron+Dem+Sg+Com:dájna # ;
+dát+Pron+Dem+Sg+Ess:dánen # ;
 
-dát+Pron+Det+Sg+Nom:dát # ;
-dát+Pron+Det+Sg+Acc:dáv # ;
-dát+Pron+Det+Sg+Gen:dán # ;
-dát+Pron+Det+Sg+Ill:dása # ;
-dát+Pron+Det+Sg+Ine:dánne # ;
-dát+Pron+Det+Sg+Ela:dásste # ;
-dát+Pron+Det+Sg+Com:dájna # ;
-dát+Pron+Det+Sg+Ess:dánen # ;
+dát+Pron+Dem+Pl+Nom:dá # ;
+dát+Pron+Dem+Pl+Acc:dájd # ;
+dát+Pron+Dem+Pl+Gen:dáj # ;
+dát+Pron+Dem+Pl+Ill:dájda # ;
+dát+Pron+Dem+Pl+Ine:dájn # ;
+dát+Pron+Dem+Pl+Ine:dájdne # ; 
+dát+Pron+Dem+Pl+Ela:dájst # ;
+dát+Pron+Dem+Pl+Ela:dájste # ;
+dát+Pron+Dem+Pl+Com:dáj # ;
 
-dát+Pron+Det+Pl+Nom:dá # ;
-dát+Pron+Det+Pl+Acc:dájd # ;
-dát+Pron+Det+Pl+Gen:dáj # ;
-dát+Pron+Det+Pl+Ill:dájda # ;
-dát+Pron+Det+Pl+Ine:dájn # ;
-dát+Pron+Det+Pl+Ine:dájdne # ; 
-dát+Pron+Det+Pl+Ela:dájst # ;
-dát+Pron+Det+Pl+Ela:dájste # ;
-dát+Pron+Det+Pl+Com:dáj # ;
+duot+Pron+Dem+Sg+Nom:duot # ;
+duot+Pron+Dem+Sg+Acc:duov # ;
+duot+Pron+Dem+Sg+Gen:duon # ;
+duot+Pron+Dem+Sg+Ill:dusi # ;
+duot+Pron+Dem+Sg+Ine:duanna # ;
+duot+Pron+Dem+Sg+Ela:duassta # ;
+duot+Pron+Dem+Sg+Com:duojna # ;
 
-duot+Pron+Det+Sg+Nom:duot # ;
-duot+Pron+Det+Sg+Acc:duov # ;
-duot+Pron+Det+Sg+Gen:duon # ;
-duot+Pron+Det+Sg+Ill:dusi # ;
-duot+Pron+Det+Sg+Ine:duanna # ;
-duot+Pron+Det+Sg+Ela:duassta # ;
-duot+Pron+Det+Sg+Com:duojna # ;
-
-
-duot+Pron+Det+Pl+Nom:duo # ;
-duot+Pron+Det+Pl+Acc:duojd # ;
-duot+Pron+Det+Pl+Gen:duoj # ;
-duot+Pron+Det+Pl+Ill:duojda # ;
-duot+Pron+Det+Pl+Ine:duojn # ;
-duot+Pron+Det+Pl+Ela:duojs # ;
-duot+Pron+Det+Pl+Com:duoj # ;
+duot+Pron+Dem+Pl+Nom:duo # ;
+duot+Pron+Dem+Pl+Acc:duojd # ;
+duot+Pron+Dem+Pl+Gen:duoj # ;
+duot+Pron+Dem+Pl+Ill:duojda # ;
+duot+Pron+Dem+Pl+Ine:duojn # ;
+duot+Pron+Dem+Pl+Ela:duojs # ;
+duot+Pron+Dem+Pl+Com:duoj # ;
 
 
 
