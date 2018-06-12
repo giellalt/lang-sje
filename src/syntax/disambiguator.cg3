@@ -229,7 +229,10 @@ SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 SET NoNP = WORD - NP-HEAD OR WORD - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, plus CC
 
 SET NPpossible = NP-HEAD OR PRE-NP-HEAD ; #possible anywhere in an NP
+SET NPpossibleNoPro = N OR PRE-NP-HEAD ; #possible anywhere in an NP excluding pronouns (full NPs)
 SET NoNPpossible = WORD - NPpossible ; #NOT possible anywhere in an NP
+SET NoFullNPpossible = WORD - NPpossibleNoPro ; #NOT possible anywhere in an NP
+
 
 SET PRE-AP-HEAD = Adv OR CC ;
 
@@ -341,7 +344,11 @@ REMOVE:DemPronWO-NPhead-ComSg	(Pron Sg Com)	IF (*1C (N Sg Com) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-ComPl	(Pron Pl Com)	IF (*1C (N Pl Com) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-AbeSg	(Pron Sg Abe)	IF (*1C (N Sg Abe) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess) BARRIER NPNH);
+REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess)    BARRIER NPNH);
+
+
+#reject Determiner reading if not followed by NP-head
+REMOVE:NoDetWO-NPhead (Det) IF (NOT *1 NPpossibleNoPro BARRIER NoFullNPpossible);
 
 #select demonstrative pronoun reading if NOT directly followed by possible NP-material
 SELECT:DemPronWithoutNPhead Pron IF (1C NoNPpossible);
