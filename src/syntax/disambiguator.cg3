@@ -346,7 +346,6 @@ REMOVE:DemPronWO-NPhead-AbeSg	(Pron Sg Abe)	IF (*1C (N Sg Abe) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NPNH);
 REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess)    BARRIER NPNH);
 
-
 #reject Determiner reading if not followed by NP-head
 REMOVE:NoDetWO-NPhead (Det) IF (NOT *1 NPpossibleNoPro BARRIER NoFullNPpossible);
 
@@ -377,7 +376,7 @@ SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg OR Sg3 BARRIER S-BOUNDARY OR CC);
 #SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
 	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
 #select Nom Sg reading if followed by a Fin-V in 3sg
-SELECT:NomSG-B4-FinVSg (N Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC OR CLB);
+SELECT:NomSG-B4-FinVSg (Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC OR CLB);
 
 #remove 1/2 person verb readings if NP in NOM.SG present on both sides
 REMOVE:no12Vwithout12Pron NonThirdPerson IF (*-1 (N Nom) BARRIER S-BOUNDARY)(*1 (N Nom) BARRIER S-BOUNDARY);
