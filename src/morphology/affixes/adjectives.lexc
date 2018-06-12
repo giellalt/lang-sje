@@ -84,9 +84,9 @@ LEXICON A_VUOJNOS ! vuojnos/vuojnos/vujdnusa/...?
 +A+Attr:^WG%> # ;
 +A: A_VUOJNOS_s2 ; 
 
-LEXICON A_VUOJNOS_s2 
-+Sg+Nom:^WG%> K ; 
-+Pl+Nom:^V2O2U%>a K ; 
+LEXICON A_VUOJNOS_s2 ! first ADJ lexicon to link to case/number endings, for a start...
++Sg+Nom:^WG%> K ;
+:^V2O2U N_ODD_X ;
 +Comp:^V2O2U A_EVEN_COMP ;
 +Superl:^V2O2U A_EVEN_SUP ;
 
