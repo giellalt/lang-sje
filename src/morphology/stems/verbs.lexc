@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-08T13:20:07+02:00
+! Timestamp: 2018-06-12T13:58:12+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1331,6 +1331,7 @@ lihkastit:lihkast V_ODD "limp" ; ! no. 1043
 lihkastit:lihkast V_ODD "succeed in something" ; ! no. 4616
 lihtudit:lihtud V_ODD "agree to meet" ; ! no. 1046
 liksagit:liksag V_ODD "become rancid, go bad" ; ! no. 4507
+livudit:livud V_ODD "lay down and rest (for ruminant animals)" ; ! no. 90937
 livvadit:livvad V_ODD "lay and relax (for ruminant animals)" ; ! no. 3003
 luaddanit:lu^Oddan V_ODD "chip" ; ! no. 3410
 luattkalit+Use/NG:lu^Orrkal V_ODD "tear up yarn" ; ! no. 90429
@@ -1668,7 +1669,7 @@ vuajdnalit:vu^Ojdnal V_ODD "see one another" ; ! no. 90397
 vuasstalit:vu^Osstal V_ODD "resist, oppose, protest" ; ! no. 2198
 vuodjelit:vu^Odjel V_ODD "chase off" ; ! no. 5700
 vuodjodit:vu^Odjod V_ODD "sink, talk down to" ; ! no. 4103
-vuogahit:vu^Ogah V_ODD "?like, ?feel comfortable" ; ! no. 90935
+vuogahit:vu^Ogah V_ODD "find comfortable, find fitting" ; ! no. 90935
 vuohpalit:vu^Ohpal V_ODD "sleep walk and talk in one’s sleep" ; ! no. 5458
 vuojdastit:vu^Ojdast V_ODD "grease a little bit" ; ! no. 5463
 vuojedit:vu^Ojed V_ODD "drive, push" ; ! no. 4621
