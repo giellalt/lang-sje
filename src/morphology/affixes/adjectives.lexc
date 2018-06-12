@@ -80,6 +80,17 @@ LEXICON A_TJAOSKES_s2
 +Superl:^V2E2AA A_EVEN_SUP ;
 
 
+LEXICON A_VUOJNOS ! vuojnos/vuojnos/vujdnusa/...?
++A+Attr:^WG%> # ;
++A: A_VUOJNOS_s2 ; 
+
+LEXICON A_VUOJNOS_s2 
++Sg+Nom:^WG%> K ; 
++Pl+Nom:^V2O2U%>a K ; 
++Comp:^V2O2U A_EVEN_COMP ;
++Superl:^V2O2U A_EVEN_SUP ;
+
+
 LEXICON A_ASEDIS ! asedis / asedis / asedasa / asedup / asedumos/-bmus-
 +A+Attr:is%> # ;
 +A: A_ASEDIS_s2 ; 
