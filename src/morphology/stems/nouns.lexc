@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-08T13:26:58+02:00
+! Timestamp: 2018-06-13T18:37:24+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -950,6 +950,7 @@ siessa:siessa N_EVEN "paternal aunt" ; ! no. 1532
 sievva:sievva N_EVEN "ocean, sea" ; ! no. 1533
 sigarähtta:sigariehtta N_EVEN "cigarette" ; ! no. 3524
 sijjda:sijjda N_EVEN "family of reindeer herders and the place they live, their migration paths and settlement area" ; ! no. 3512
+sijjdafuällke:sijjda#fu^Ollke N_EVEN "Saami family as part of a Saami village" ; ! no. 90941
 sillba:sillba N_EVEN "silver" ; ! no. 1541
 sillbagukkse:sillba#gukkse N_EVEN "silver cup" ; ! no. 5671
 sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 1543
@@ -1015,6 +1016,7 @@ skårrebåkkså:skårre#båkkså N_EVEN "leather trouser" ; ! no. 3830
 skårremåvvka:skårre#måvvka N_EVEN "leather trouser" ; ! no. 3831
 skårrå:skårrå N_EVEN "velvet duck" ; ! no. 1655
 skåvve:skåvve N_EVEN "pattern" ; ! no. 90261
+skåvvlå+Use/NG:skåvvle N_EVEN "school" ; ! no. 90940
 skåvvlå:skåvvlå N_EVEN "school" ; ! no. 1657
 skåvvlåájjge:skåvvlå#ájjge N_EVEN "school time" ; ! no. 5132
 skåvvlåbäjjve:skåvvlå#biejjve N_EVEN "school day" ; ! no. 5133
@@ -2258,13 +2260,13 @@ säritj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
 säritj:sä2ritj N_ODD "young pine forest" ; ! no. 90349
 tijdnik:tijdnig2 N_ODD "newspaper" ; ! no. 90834
 tjaktjaiednam:tjaktja#iednam N_ODD "autumn land" ; ! no. 5188
-tjatsek:tjatseg2 N_ODD "leather boot" ; ! no. 1884
 tjavelg:tjavelg N_ODD "lower back (for humans and animals), ridge (geography)" ; ! no. 4056
 tjáhkkar:tjáhkkar N_ODD "boiled hoof" ; ! no. 90363
 tjálam:tjálam N_ODD "canine tooth" ; ! no. 1868
 tjálgak:tjálgag2 N_ODD "few-week-old reindeer calf" ; ! no. 1873
 tjállej:tjállej N_ODD "secretary, author" ; ! no. 3645
 tjállem:tjállem N_ODD "written material, writing" ; ! no. 5279
+tjátsek:tjátseg2 N_ODD "leather boot" ; ! no. 1884
 tjiebot:tjiebod2 N_ODD "throat, neck" ; ! no. 1900
 tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and forehead" ; ! no. 2563
 tjiehtar:tjiehtar N_ODD "servant" ; ! no. 4377
