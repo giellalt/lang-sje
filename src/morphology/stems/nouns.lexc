@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-23T08:40:40+02:00
+! Timestamp: 2018-06-23T14:14:55+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1389,7 +1389,6 @@ bärrjedak:bä2rrjedag2 N_EVEN4 "Friday" ; ! no. 284
 dahkamus:dahkamus N_EVEN4 "task" ; ! no. 3268
 duorastak:du^Orastag2 N_EVEN4 "Thursday" ; ! no. 401
 dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 4803
-därbulatj:dä2rbulatj N_EVEN4 "need" ; ! no. 3242
 gahpadak:gahpadag2 N_EVEN4 "woven ribbon with a alternating 'jumping' pattern" ; ! no. 6874
 gatjaldak:gatjaldag2 N_EVEN4 "question" ; ! no. 573
 gájolatj:gájolatj N_EVEN4 "Kven" ; ! no. 90546
@@ -1592,6 +1591,7 @@ sájjtesåbbe:sájjte#såbbe N_EVEN_NOCG "spear pole" ; ! no. 1495
 sirre+Use/NG:sidde N_EVEN_NOCG "cheese rack " ; ! no. 90471
 sievvagádde:sievva#gádde N_EVEN_NOCG "seashore" ; ! no. 5114
 sjádde:sjádde N_EVEN_NOCG "hole dug in the snow because reindeer ate there" ; ! no. 4776
+skuhterluadda:skuhter#lu^Odda N_EVEN_NOCG "snowmobile trail" ; ! no. 90947
 sládjojägge:sládjo#jiegge N_EVEN_NOCG "marsh with hay for harvesting" ; ! no. 90342
 släddo:slieddo N_EVEN_NOCG "puddle, mud puddle" ; ! no. 1671
 stádtjo:stádtjo N_EVEN_NOCG "frying pan" ; ! no. 1727
@@ -2231,6 +2231,7 @@ skijun:skijun N_ODD "loudspeaker" ; ! no. 1638
 skillbim:skillbim N_ODD "vibration, shaking" ; ! no. 5614
 skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predator" ; ! no. 1643
 skubmok:skubmog2 N_ODD "mouth protection" ; ! no. 5911
+skuhter:skuhter N_ODD "snowmobile" ; ! no. 90946
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvvlik:skuvvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
