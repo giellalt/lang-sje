@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-13T18:37:24+02:00
+! Timestamp: 2018-06-23T08:40:40+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -41,22 +41,23 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 åjjveålmáj:åjjve#ålm N_CONTR_AJA "elder, alderman" ; ! no. 4780
 ålmáj:ålm N_CONTR_AJA "man, guy" ; ! no. 5222
 ålmáj+Use/NG:ålbm N_CONTR_AJA "man, guy" ; ! no. 90762
-bálges:bállg N_CONTR_ESA "trail, path" ; ! no. 129
-biejveldisbálges:biejveldis#bállg N_CONTR_ESA "trail on a sun-facing slope" ; ! no. 5659
-bierdnes:bierdn N_CONTR_ESA "mid-plate on skis where shoes are placed" ; ! no. 3718
-fáles:fáll N_CONTR_ESA "whale" ; ! no. 467
-giehpes:giehpp N_CONTR_ESA "lung" ; ! no. 608
-hábres:hábbr N_CONTR_ESA "buck (male animal)" ; ! no. 3359
-jalgŋes:jalgŋ N_CONTR_ESA "upright tree stump" ; ! no. 920
-muolvaksarves:muolvak#sarrv N_CONTR_ESA "wild reindeer buck" ; ! no. 3835
-njuorges:nju^Orrg N_CONTR_ESA "cartilage" ; ! no. 1303
-plásses:plás's N_CONTR_ESA "stone slab" ; ! no. 1349
-rájves:rájjv N_CONTR_ESA "male canine" ; ! no. 1383
-sarves:sarrv N_CONTR_ESA "uncastrated reindeer buck" ; ! no. 1515
-tjievres:tjievvr N_CONTR_ESA "otter" ; ! no. 1906
-vielmes:vielbm N_CONTR_ESA "stretch of smooth water" ; ! no. 90388
-viepses:viepps N_CONTR_ESA "wasp" ; ! no. 2768
-vuokses:vu^Okks N_CONTR_ESA "cattle" ; ! no. 90308
+bálges:bállges N_CONTR_ESAA "trail, path" ; ! no. 129
+biejveldisbálges:biejveldis#bállges N_CONTR_ESAA "trail on a sun-facing slope" ; ! no. 5659
+bierdnes:bierdnes N_CONTR_ESAA "mid-plate on skis where shoes are placed" ; ! no. 3718
+fáles:fálles N_CONTR_ESAA "whale" ; ! no. 467
+giehpes:giehppes N_CONTR_ESAA "lung" ; ! no. 608
+hábres:hábbres N_CONTR_ESAA "buck (male animal)" ; ! no. 3359
+jalgŋes:jalgŋes N_CONTR_ESAA "upright tree stump" ; ! no. 920
+muolvaksarves:muolvak#sarrves N_CONTR_ESAA "wild reindeer buck" ; ! no. 3835
+njuorges:nju^Orrges N_CONTR_ESAA "cartilage" ; ! no. 1303
+plásses:plás'ses N_CONTR_ESAA "stone slab" ; ! no. 1349
+rájves:rájjves N_CONTR_ESAA "male canine" ; ! no. 1383
+riebnes:riebbnes N_CONTR_ESAA "opening connected to a lake" ; ! no. 90943
+sarves:sarrves N_CONTR_ESAA "uncastrated reindeer buck" ; ! no. 1515
+tjievres:tjievvres N_CONTR_ESAA "otter" ; ! no. 1906
+vielmes:vielbmes N_CONTR_ESAA "stretch of smooth water" ; ! no. 90388
+viepses:vieppses N_CONTR_ESAA "wasp" ; ! no. 2768
+vuokses:vu^Okkses N_CONTR_ESAA "cattle" ; ! no. 90308
 arrambåtsoj:arram#båhts N_CONTR_OJU "fat reindeer in good condition" ; ! no. 3893
 bibmusbåtsoj:bibmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
 båtsoj:båhts N_CONTR_OJU "reindeer" ; ! no. 263
@@ -1395,11 +1396,11 @@ gájolatj:gájolatj N_EVEN4 "Kven" ; ! no. 90546
 gáskaldak:gáskaldag2 N_EVEN4 "bite" ; ! no. 3278
 gejnudak:gejnudag2 N_EVEN4 "route" ; ! no. 3665
 gietsaldak:gietsaldag2 N_EVEN4 "belt" ; ! no. 624
+gubbdudak:gubbdudag2 N_EVEN4 "width" ; ! no. 3404
 guhkabärrjedak:guhka#bä2rrjedag2 N_EVEN4 "Easter Friday" ; ! no. 4852
 gulgijdus:gulgijdus N_EVEN4 "drainage, outlet" ; ! no. 3159
 guoddáldak:gu^Oddáldag2 N_EVEN4 "sash with sewing materials" ; ! no. 2518
 guosastak:gu^Osastag2 N_EVEN4 "dense fir forest" ; ! no. 6869
-gåbdådak:gåbdådag2 N_EVEN4 "width" ; ! no. 3404
 gårustak:gårustag2 N_EVEN4 "thread" ; ! no. 2814
 gämmulak:gä2mmulag2 N_EVEN4 "large intestine" ; ! no. 2857
 häjbmulatj:hä2jbmulatj N_EVEN4 "people that belong to a person's home" ; ! no. 90239
@@ -1441,7 +1442,6 @@ vuotjadak:vu^Otjadag2 N_EVEN4 "wolverine spear" ; ! no. 2791
 åjválatj:åjválatj N_EVEN4 "authority" ; ! no. 3238
 årrádak:årrádag2 N_EVEN4 "bedsheet" ; ! no. 90401
 ärbulatj:ä2rbulatj N_EVEN4 "heir" ; ! no. 2731
-bähtsedas:bä2htsed N_EVEN4_ASA "relict, remain" ; ! no. 90536
 gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
 iehkedisråhkålvas:iehkedis#råhkålv N_EVEN4_ASA "evening prayer" ; ! no. 3076
 jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
@@ -1458,6 +1458,7 @@ bárgáldis:bárgáld N_EVEN4_ISA "braided end of shoestrap" ; ! no. 6778
 bátsadis:bátsad N_EVEN4_ISA "remainder, leftover" ; ! no. 3240
 binntjalis:binntjal N_EVEN4_ISA "Pentecost" ; ! no. 3655
 busunis:busun N_EVEN4_ISA "soap bubble, balloon" ; ! no. 3467
+bätsidis:bä2tsid N_EVEN4_ISA "relict, remain" ; ! no. 90536
 gáddolis:gáddol N_EVEN4_ISA "suspicious person, suspect" ; ! no. 4147
 gástadis:gástad N_EVEN4_ISA "baptism" ; ! no. 570
 gieldagis:gieldag N_EVEN4_ISA "tendon in a reindeer's back foot" ; ! no. 3822
@@ -2206,7 +2207,7 @@ sámegielak:sáme#gielag2 N_ODD "Saami speaker" ; ! no. 2643
 sárdnom:sárdnom N_ODD "message" ; ! no. 90305
 sávvam:sávvam N_ODD "wish" ; ! no. 5113
 sentimähtter:senti#mä2htter N_ODD "centimeter" ; ! no. 3522
-sibjuk:sibjug2 N_ODD "a woman's brother-in-law" ; ! no. 5115
+sibjuk:sibjug2 N_ODD "a woman's brother-in-law; a man's sister-in-law" ; ! no. 5115
 siddar:siddar N_ODD "fine rain" ; ! no. 1534
 sidut:sidud2 N_ODD "desire, wish" ; ! no. 1536
 siessal:siessal N_ODD "paternal aunt’s niece or nephew" ; ! no. 3418
