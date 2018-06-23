@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-12T13:36:12+02:00
+! Timestamp: 2018-06-23T15:20:05+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -45,6 +45,7 @@ asedis:ased A_ASEDIS "thin" ; ! no. 2704
 balvagis:balvag A_ASEDIS "cloudy" ; ! no. 4161
 durrulis:durrul A_ASEDIS "belligerent" ; ! no. 3455
 fábmogis:fábmog A_ASEDIS "strong, powerful" ; ! no. 90812
+suddogis:suddog A_ASEDIS "sinful" ; ! no. 6070
 tjerrulis:tjerrul A_ASEDIS "whimpering (for children)" ; ! no. 5213
 unogis:unog A_ASEDIS "strange, unusual, odd" ; ! no. 2033
 vuällegis:vu^Ol'leg A_ASEDIS "low, humble" ; ! no. 4796
