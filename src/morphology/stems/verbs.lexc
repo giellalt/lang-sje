@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-12T13:58:12+02:00
+! Timestamp: 2018-06-23T10:27:43+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -778,6 +778,7 @@ villidasstet:villidasst V_EVEN_E "take a break" ; ! no. 90396
 vuasstalasstet:vuasstalasst V_EVEN_E "resist" ; ! no. 2197
 vuodjet:vu^Odj V_EVEN_E "drive" ; ! no. 2371
 vuohtjet:vu^Ohtj V_EVEN_E "discharge, shoot" ; ! no. 3160
+vuodjet+Use/NG:vu^Ojj V_EVEN_E "drive" ; ! no. 90945
 vuäbbdet:vu^Obbd V_EVEN_E "sell" ; ! no. 2202
 vuähttet:vu^Ohtt V_EVEN_E "discover a track or trace" ; ! no. 5461
 vuäjdnet:vu^Ojdn V_EVEN_E "see, look" ; ! no. 2207
@@ -1454,6 +1455,7 @@ ruosjkedit:ru^Osjked V_ODD "roar, shout (for humans)" ; ! no. 5959
 rupsudit:rupsud V_ODD "turn red, redden" ; ! no. 3352
 russalit:russal V_ODD "speed up" ; ! no. 3903
 ruvrostit:ruvrost V_ODD "throw far away" ; ! no. 5400
+ruvvgalit:ruvvgal V_ODD "head off (for reindeer)" ; ! no. 3005
 råhkålit:råhkål V_ODD "pray to god" ; ! no. 1455
 råsodit:råsod V_ODD "wake up repeatedly" ; ! no. 6115
 rähkkudit:rä2hkkud V_ODD "shave" ; ! no. 5065
