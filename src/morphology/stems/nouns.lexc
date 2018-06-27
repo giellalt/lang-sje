@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-23T14:14:55+02:00
+! Timestamp: 2018-06-27T17:42:24+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1682,7 +1682,7 @@ dadneárrpo:dadne#árrpo N_EVEN_O "tin wire" ; ! no. 299
 darrvekryhtto:darrve#kryhtto N_EVEN_O "pot of tar" ; ! no. 90703
 dassko:dassko N_EVEN_O "bag, little sack for a silver spoon" ; ! no. 338
 dábblo:dábblo N_EVEN_O "picture, painting" ; ! no. 5176
-dáffo:dáffo N_EVEN_O "area" ; ! no. 2367
+dáffo:dáf'fo N_EVEN_O "area" ; ! no. 2367
 dárrbo:dárrbo N_EVEN_O "need" ; ! no. 336
 dátábarrgo:dátá#barrgo N_EVEN_O "computer processing" ; ! no. 3556
 dávvdadiehto:dávvda#diehto N_EVEN_O "diagnosis" ; ! no. 3592
