@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-23T10:27:43+02:00
+! Timestamp: 2018-06-27T17:42:43+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -867,7 +867,7 @@ lávvgot:lávvg V_EVEN_O "bathe, wash" ; ! no. 90839
 lávvlot:lávvl V_EVEN_O "sing" ; ! no. 1026
 lijjgot:lijjg V_EVEN_O "abstain from sth" ; ! no. 1049
 livvot:livv V_EVEN_O "become thin" ; ! no. 1054
-luabbot:lu^Ob'b V_EVEN_O "spread out" ; ! no. 1055
+luabbot:lu^Obb V_EVEN_O "spread out" ; ! no. 1055
 luaddot:lu^Odd V_EVEN_O "chop (firewood)" ; ! no. 5274
 luodjot:lu^Odj V_EVEN_O "complain" ; ! no. 1065
 lådnot:lådn V_EVEN_O "trade, loan, borrow" ; ! no. 2637
