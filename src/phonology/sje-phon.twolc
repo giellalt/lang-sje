@@ -95,6 +95,7 @@ Definitions
         v v s [j|k] |
         v v t [j|s] |
 
+        d ':0 t [j|s] |
         f ':0 f |
         l ':0 l |
         m ':0 m |
@@ -106,7 +107,6 @@ Definitions
         b b [d|j|l|m|n|r] |
         b d n |
         d d [g|j|m|n] |
-        d t [j|s] |
         f f [t|n] |
         g g d |
         g g ŋ |
