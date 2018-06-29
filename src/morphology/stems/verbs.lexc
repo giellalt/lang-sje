@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-27T17:42:43+02:00
+! Timestamp: 2018-06-29T19:39:50+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -824,6 +824,7 @@ dållvot:dållv V_EVEN_O "try to catch up" ; ! no. 3007
 dårrjot:dårrj V_EVEN_O "support oneself" ; ! no. 429
 dårrot:dårr V_EVEN_O "wrestle, fight" ; ! no. 430
 däbbtjot:diebbtj V_EVEN_O "press, knead" ; ! no. 433
+dähppot:diehpp V_EVEN_O "join (a group)" ; ! no. 90950
 dälbmot:dielbm V_EVEN_O "trample, tread" ; ! no. 408
 fierrot:fierr V_EVEN_O "mix" ; ! no. 5299
 garrtjot:garrtj V_EVEN_O "beg" ; ! no. 792
@@ -923,7 +924,7 @@ säjjvot:siejjv V_EVEN_O "land (for birds and aircraft)" ; ! no. 1838
 tjábbrot:tjábbr V_EVEN_O "pinch or grab firmly" ; ! no. 5579
 tjierrot:tjierr V_EVEN_O "cry" ; ! no. 1898
 tjiŋŋkot:tjiŋŋk V_EVEN_O "limp" ; ! no. 4356
-tjuadtjot:tju^Odtj V_EVEN_O "stand upright" ; ! no. 3724
+tjuadtjot:tju^Od'tj V_EVEN_O "stand upright" ; ! no. 3724
 tjuarrvot:tju^Orrv V_EVEN_O "call, call out" ; ! no. 1915
 tjuovvot:tju^Ovv V_EVEN_O "follow, come along" ; ! no. 1943
 tjåhkot:tjåhk V_EVEN_O "comb shoe hay" ; ! no. 1960
@@ -1588,17 +1589,17 @@ tjiektjadit:tjiektjad V_ODD "kick" ; ! no. 5641
 tjiektjastit:tjiektjast V_ODD "kick once" ; ! no. 1894
 tjielastit:tjielast V_ODD "jump once" ; ! no. 1904
 tjiergagit:tjiergag V_ODD "become numb, lose feeling" ; ! no. 3808
-tjuadtjadit:tju^Odtjad V_ODD "remain standing" ; ! no. 5338
+tjuadtjadit:tju^Od'tjad V_ODD "remain standing" ; ! no. 5338
 tjuggistit:tjuggist V_ODD "poke a hole" ; ! no. 1927
 tjuhkkidit:tjuhkkid V_ODD "sit down" ; ! no. 1918
 tjuhkkistit:tjuhkkist V_ODD "collect quickly" ; ! no. 5321
-tjujgádit:tjujgád V_ODD "follow on skis" ; ! no. 5333
 tjujtnahit:tjujtnah V_ODD "stand leaning forward" ; ! no. 5327
 tjulestit:tjulest V_ODD "kiss" ; ! no. 90382
 tjuodtjadit:tju^Odtjad V_ODD "get up, stand up" ; ! no. 1926
 tjuodtjodit:tju^Odtjod V_ODD "be in charge of, lead" ; ! no. 4248
 tjuohpastit:tju^Ohpast V_ODD "chop off, cut off" ; ! no. 4646
 tjuojadit:tju^Ojad V_ODD "call, ring" ; ! no. 4769
+tjuojgadit:tju^Ojgad V_ODD "follow on skis" ; ! no. 5333
 tjuolastit:tju^Olast V_ODD "cut off" ; ! no. 6819
 tjuolldastit:tju^Olldast V_ODD "shape homemade shoes by using a stick to stretch the material" ; ! no. 5334
 tjuorbmastit:tju^Orbmast V_ODD "snow graupel" ; ! no. 90366
@@ -1607,7 +1608,7 @@ tjurgudit:tjurgud V_ODD "turn grey (for hair and fur)" ; ! no. 1937
 tjuskudit:tjuskud V_ODD "jump around" ; ! no. 5323
 tjuvgudit:tjuvgud V_ODD "lighten, dawn" ; ! no. 5286
 tjuvudit:tjuvud V_ODD "follow stubbornly" ; ! no. 5342
-tjuädtjelit:tju^Odtjel V_ODD "get up, stand up" ; ! no. 4647
+tjuädtjelit:tju^Od'tjel V_ODD "get up, stand up" ; ! no. 4647
 tjåhkkåhit:tjåhkkåh V_ODD "sit" ; ! no. 1962
 tjåhkolit:tjåhkol V_ODD "become loose and slide off (for an ax handle)" ; ! no. 5347
 tjåhkånit:tjåhkån V_ODD "meet, gather" ; ! no. 1964

@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-23T08:50:55+02:00
+! Timestamp: 2018-06-29T20:36:57+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -32,6 +32,7 @@ LEXICON ProperNoun   !!= * __@CODE@__
 Riebnes:Riebbnes N_CONTR_ESAA "Riebnes" ; ! no. 90944
 Aksamnjárrga:Aksam#njárrga N_EVEN "Vaksamnjárgga" ; ! no. 90893
 Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
+Áhkávárre:Áhká#várre N_EVEN "Akkavare" ; ! no. 90952
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
 Árjepluovve:Árjepluovve N_EVEN "Arjeplog" ; ! no. 66
@@ -82,6 +83,8 @@ Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
 Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 Stuormo:Stu^Ormo N_EVEN_O "Stormo" ; ! no. 90899
+Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
+Árjepluovek:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609
 Bávval:Bávval N_ODD "Paul" ; ! no. 4637
 Bidám:Bidám N_ODD "Piteå" ; ! no. 167
 Bierok:Bierog2 N_ODD "Per" ; ! no. 90885
