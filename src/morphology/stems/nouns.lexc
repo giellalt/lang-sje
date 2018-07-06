@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-29T20:34:50+02:00
+! Timestamp: 2018-07-06T13:45:36+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1996,7 +1996,7 @@ desimähtter:desi#mä2htter N_ODD "decimeter" ; ! no. 3564
 diamähtter:dia#mä2htter N_ODD "diameter" ; ! no. 3595
 diddnoj:diddnoj N_ODD "spark" ; ! no. 6728
 didtjul:didtjul N_ODD "lizard" ; ! no. 348
-diehkak:diehkag2 N_ODD "kåta pole" ; ! no. 364
+diehkák:diehkág2 N_ODD "kåta pole" ; ! no. 364
 dieltek:dielteg2 N_ODD "leather covering for the front of a Saami sled" ; ! no. 3297
 dievnár:dievnár N_ODD "servant, farmhand" ; ! no. 368
 dijstak:dijstag2 N_ODD "Tuesday" ; ! no. 372
