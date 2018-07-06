@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-29T19:39:50+02:00
+! Timestamp: 2018-07-06T13:45:45+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1130,7 +1130,7 @@ dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
 därjedit:dä2rjed V_ODD "curse, swear" ; ! no. 440
 fádmastit:fádmast V_ODD "hug, embrace" ; ! no. 2410
 fággadit:fággad V_ODD "struggle, wrestle" ; ! no. 464
-fáhtádit:fáhtád V_ODD "capture, catch" ; ! no. 2651
+fáhtadit:fáhtad V_ODD "capture, catch" ; ! no. 2651
 fádmastit+Use/NG:fármast V_ODD "hug, embrace" ; ! no. 90563
 fielastit:fielast V_ODD "travel" ; ! no. 2813
 fielbardit:fielbard V_ODD "drift (for snow)" ; ! no. 4012
@@ -1619,17 +1619,17 @@ tjähkkidit:tjä2hkkid V_ODD "manage to find space" ; ! no. 5948
 tjähppudit:tjä2hppud V_ODD "become black, become dirty, sooty, filthy" ; ! no. 4472
 trisádit:trisád V_ODD "inject water or larvae into a reindeer’s nose" ; ! no. 90370
 tsaggastit:tsaggast V_ODD "obstruct, block, hinder" ; ! no. 1994
-tsamádit:tsamád V_ODD "whisper" ; ! no. 1999
+tsamadit:tsamad V_ODD "whisper" ; ! no. 1999
 tsammkalit:tsammkal V_ODD "whisper briefly" ; ! no. 6781
 tsábmestit:tsábmest V_ODD "hit down, knock down" ; ! no. 90669
 tsáskadit:tsáskad V_ODD "walk across frozen snow" ; ! no. 2000
 tsávaldit:tsávald V_ODD "make or force one's way" ; ! no. 2001
 tsibtsástit:tsibtsást V_ODD "pinch, nip, squeeze" ; ! no. 2006
-tsiehkedit:tsiehked V_ODD "light, ignite" ; ! no. 2405
 tsieladit:tsielad V_ODD "encourage a dog to bark" ; ! no. 5348
 tsieskastit:tsieskast V_ODD "puncture slightly with a needle or knife tip" ; ! no. 2647
 tsieskedit:tsiesked V_ODD "smart, hurt" ; ! no. 5787
 tsigástit:tsigást V_ODD "nag persistently and insistently" ; ! no. 2002
+tsihkkidit:tsihkkid V_ODD "light, ignite" ; ! no. 2405
 tsintsardit:tsintsard V_ODD "scrawl" ; ! no. 2008
 tsivnjidit:tsivnjid V_ODD "smell smoky (eg. for clothes)" ; ! no. 2011
 tsåggålit:tsåggål V_ODD "quickly pack into a bag" ; ! no. 5349
