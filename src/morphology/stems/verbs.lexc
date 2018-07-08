@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-06T13:45:45+02:00
+! Timestamp: 2018-07-07T16:22:14+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -493,6 +493,7 @@ rájadallat:rájadall V_EVEN_A "be sent; be dismissed" ; ! no. 5068
 rádjat+Use/NG:rájj V_EVEN_A "send" ; ! no. 90439
 rájjgat:rájjg V_EVEN_A "make a hole" ; ! no. 1381
 rássjodallat:rássjodall V_EVEN_A "rain lightly, drizzle" ; ! no. 5073
+ruahttat:ru^Ohtt V_EVEN_A "rush off, run fast" ; ! no. 90957
 ruavvgat:ru^Ovvg V_EVEN_A "grunt (reindeer)" ; ! no. 2462
 rudnat:rudn V_EVEN_A "talk, speak" ; ! no. 1424
 ruodjat:ru^Odj V_EVEN_A "scream out, holler" ; ! no. 1429
