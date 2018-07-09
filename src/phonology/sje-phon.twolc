@@ -247,8 +247,8 @@ Cx:0 <=> Vow:+ Cx _ s j Vow:+ Cns:* ( Dummy: ) %^WG: ;
 "Consonant Gradation for xy:y"
 !! __@RULENAME@__  
 Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; !Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
-     where Cx in ( b d d )
-           Cy in ( m j n )  
+     where Cx in ( b d d g )
+           Cy in ( m j n ŋ )  
           matched ;
 
 "Delete h in hx:y" ! first step
