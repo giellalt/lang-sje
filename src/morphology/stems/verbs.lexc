@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-07T16:22:14+02:00
+! Timestamp: 2018-07-11T21:42:10+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1286,6 +1286,7 @@ jalastit:jalast V_ODD "cut off quickly" ; ! no. 4913
 jalkahit:jalkah V_ODD "lie fully spread out" ; ! no. 916
 janntedit:jannted V_ODD "be irritated, annoyed" ; ! no. 4510
 jáksadit:jáksad V_ODD "extinguish" ; ! no. 913
+jámedit:jámed V_ODD "kill" ; ! no. 90962
 jávestit:jávest V_ODD "cover" ; ! no. 3475
 jienastit:jienast V_ODD "vote" ; ! no. 924
 jievsedit:jievsed V_ODD "become cold, have the shivers" ; ! no. 923
@@ -1601,6 +1602,7 @@ tjuodtjodit:tju^Odtjod V_ODD "be in charge of, lead" ; ! no. 4248
 tjuohpastit:tju^Ohpast V_ODD "chop off, cut off" ; ! no. 4646
 tjuojadit:tju^Ojad V_ODD "call, ring" ; ! no. 4769
 tjuojgadit:tju^Ojgad V_ODD "follow on skis" ; ! no. 5333
+tjuojgajit:tju^Ojgaj V_ODD "ski quickly and briefly" ; ! no. 90960
 tjuolastit:tju^Olast V_ODD "cut off" ; ! no. 6819
 tjuolldastit:tju^Olldast V_ODD "shape homemade shoes by using a stick to stretch the material" ; ! no. 5334
 tjuorbmastit:tju^Orbmast V_ODD "snow graupel" ; ! no. 90366

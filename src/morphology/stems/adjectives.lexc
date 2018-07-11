@@ -110,8 +110,9 @@ ietjá:iehtjá A_IETJAA "other" ; ! no. 6882
 jårrbåt:jårrb A_JAORRBAOT "round" ; ! no. 4921
 låssåt:lås's A_JAORRBAOT "heavy, difficult" ; ! no. 1097
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
-nagan:nagan A_NAGAN "some (-thing, -one)" ; ! no. 3430
-nagan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
+nágan:nágan A_NAGAN "some (-thing, -one)" ; ! no. 3430
+nágan+Use/NG:nági2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
+nágan+Use/NG:nagan A_NAGAN "some (-thing, -one)" ; ! no. 90807
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
