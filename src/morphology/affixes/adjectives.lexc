@@ -199,8 +199,11 @@ LEXICON A_BUOSSJE ! buosjes/buossje/buosje/buosjep/busjijmus-
 +A: A_BUOSSJE_s2 ; 
 
 LEXICON A_BUOSSJE_s2 
-+Sg+Nom:%> K ; 
-+Pl+Nom:^WG%> K ; 
+: EVENCASE ;
+: N_EVEN_ILL ;
+:^WG N_EVEN_WK ;
+!+Sg+Nom:%> K ; 
+!+Pl+Nom:^WG%> K ; 
 +Comp:^WG A_ODD_COMP ;
 +Superl:^WG^IJ A_ODD_jSUP ;
 

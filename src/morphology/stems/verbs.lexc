@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-11T21:42:10+02:00
+! Timestamp: 2018-07-12T11:33:07+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -821,6 +821,7 @@ divvot:divv V_EVEN_O "fix, repair" ; ! no. 376
 divvrot:divvr V_EVEN_O "become more expensive" ; ! no. 3937
 duarrbot:du^Orrb V_EVEN_O "splash to scare fish into a net while ice fishing" ; ! no. 6649
 duasstot:du^Osst V_EVEN_O "meet, receive" ; ! no. 381
+dåhpot:dåhp V_EVEN_O "grab repeatedly or many things" ; ! no. 90965
 dållvot:dållv V_EVEN_O "try to catch up" ; ! no. 3007
 dårrjot:dårrj V_EVEN_O "support oneself" ; ! no. 429
 dårrot:dårr V_EVEN_O "wrestle, fight" ; ! no. 430
@@ -1117,6 +1118,7 @@ duohpanit:du^Ohpan V_ODD "shrink" ; ! no. 397
 duoldadit:du^Oldad V_ODD "boil for a long time" ; ! no. 2554
 dustodit:dustod V_ODD "meet, receive repeatedly" ; ! no. 5409
 duvdistit:duvdist V_ODD "drive a reindeer herd" ; ! no. 6057
+dåhpolit:dåhpol V_ODD "grab quickly" ; ! no. 90966
 dåjdestit:dåjdest V_ODD "rinse off quickly" ; ! no. 4742
 dålåstit:dålåst V_ODD "start a fire" ; ! no. 422
 dåmådit:dåmåd V_ODD "behave" ; ! no. 425
