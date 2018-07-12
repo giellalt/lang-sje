@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-06-23T15:20:05+02:00
+! Timestamp: 2018-07-12T13:25:31+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -66,6 +66,7 @@ buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
 guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
 gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
 nävvre:nievvre A_BUOSSJE "bad" ; ! no. 1342
+vallje:vallje A_BUOSSJE "abundant, plenty of" ; ! no. 2076
 vájjve:vájjve A_BUOSSJE "difficult, troublesome, serious" ; ! no. 2067
 dievas:dievva A_DIMES "full" ; ! no. 2628
 dimes:dibme A_DIMES "soft" ; ! no. 374
@@ -110,9 +111,9 @@ ietjá:iehtjá A_IETJAA "other" ; ! no. 6882
 jårrbåt:jårrb A_JAORRBAOT "round" ; ! no. 4921
 låssåt:lås's A_JAORRBAOT "heavy, difficult" ; ! no. 1097
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
+nágan+Use/NG:nagan A_NAGAN "some (-thing, -one)" ; ! no. 90963
 nágan:nágan A_NAGAN "some (-thing, -one)" ; ! no. 3430
-nágan+Use/NG:nági2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
-nágan+Use/NG:nagan A_NAGAN "some (-thing, -one)" ; ! no. 90807
+nágan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
