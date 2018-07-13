@@ -336,6 +336,15 @@ s:t <=> _ j2: .#. ;
           matched ; 
 !This requires every root that undergoes inflection to end with a morpheme boundary, even when no suffix exists; this prevents VH in non-final compound stems (since \# wouldn't work). !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
+"Default VH for 4syllables" !(ignores first foot, otherwise same as above)
+!! __@RULENAME@__  
+	Vx:Vy <=> [#|.#.] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ _ Cns:+ VHtrig Cns:* Dummy:* Vow:* %>:0 ; 
+    where Vx in ( á a ä å )
+          Vy in ( ä i e u )
+          matched ; 
+!ságastillin, vuosádillin  <- these have to work, too!!
+
+
 ! !!€ ságasti>t
 ! !!€ ságasti0t
 ! !!€ ságasta>v
