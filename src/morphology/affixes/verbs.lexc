@@ -49,7 +49,7 @@ LEXICON V_EVEN_E_STR
 +Inf:e%>t # ; 
 +GerII:e%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:á%>m # ;
-!+PrsPrc:o%> # ; !extra starkt, hur få till det?
++PrsPrc:e%>j # ; 
 +Vsubst:e%>m #; 
 
 LEXICON V_EVEN_E_WK
@@ -99,7 +99,7 @@ LEXICON V_EVEN_A_STR
 +Inf:a%>t # ; 
 +GerII:a%>min # ;
 +PrfPrc:a%>m # ;
-!+PrsPrc:a%> # ; !extra starkt, hur få till det?
++PrsPrc:e%>j # ; 
 !+Vsubst:a%>m #; 
 
 LEXICON V_EVEN_A_WK
@@ -119,7 +119,6 @@ LEXICON V_EVEN_A_WK
 +ConNeg:%> # ; 
 +Vgen:%> #;  
 +Pot:%>tj V_EVEN_POT ;
-+PrsPrc:%>ja #;
 
 
 LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
@@ -158,7 +157,7 @@ LEXICON V_EVEN_O_STR
 +Inf:o%>t # ; 
 +GerII:o%>min # ;
 +PrfPrc:u%>m # ;
-!+PrsPrc:o%> # ; !extra starkt, hur få till det?
++PrsPrc:o%>j # ; 
 +Vsubst:o%>m #; 
 
 LEXICON V_EVEN_O_WK
@@ -204,7 +203,7 @@ LEXICON V_EVEN_Å_STR
 +Inf:å%>t # ; 
 +GerII:å%>min # ;
 +PrfPrc:å%>m # ;
-!+PrsPrc:å%> # ; !extra starkt, hur få till det?
++PrsPrc:e%>j # ; !-åt cognate with -at verbs in saL/saN, which also get -ej
 !+Vsubst:å%>m #; 
 
 LEXICON V_EVEN_Å_WK
@@ -274,7 +273,7 @@ LEXICON V_ODD !ságastit
 +V+GerII:e%>min # ;
 +V+PrfPrc:a%>m # ;
 +V+ConNeg:e%> # ; 
-!+V+PrsPrc:o%> # ; 
++V+PrsPrc:ä%>ddje # ; 
 !+V+Vsubst:a%>m #; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
@@ -331,7 +330,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+GerII:%>min # ;
 +V+PrfPrc:%>m # ;
 +V+ConNeg:%> # ; 
-!+V+PrsPrc:%> # ; 
++V+PrsPrc:%>jäddje # ; 
 !+V+Vsubst:%>m #; 
 !+V+GerI:%>din # ;  
 !+V+Sup:%>tjit # ;
@@ -480,6 +479,7 @@ LEXICON IJPRT !!= * @CODE@
 +Du1:iejme # ; 
 +Du1:idtjijmen # ; 
 +Du2:iejde  # ; 
++Du2:iejden  # ; 
 +Du2:idtjijden # ; 
 +Du3:iejga # ; 
 +Du3:idtjijga # ; 
