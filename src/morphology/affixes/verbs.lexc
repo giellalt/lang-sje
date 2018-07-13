@@ -80,7 +80,7 @@ LEXICON V_EVEN_A !dahkat
 +V:a^WG V_EVEN_A_WK ;
 
 LEXICON V_EVEN_A_STR
-+Ind+Prs+Sg3:a%> #;
++Ind+Prs+Sg3:á%> #;
 +Ind+Prs+Du1:i%>n #; 
 +Ind+Prs+Du2:a%>behtin #;
 !+Ind+Prs+Du2:a%>bähtten #;
@@ -138,7 +138,7 @@ LEXICON V_EVEN_O !viessot, årrot
 +V:o^WG V_EVEN_O_WK ;
 
 LEXICON V_EVEN_O_STR
-+Ind+Prs+Sg3:o%> #; !should this be -u-?
++Ind+Prs+Sg3:u%> #; !should this be -u-?
 +Ind+Prs+Du1:u%>n #; 
 +Ind+Prs+Du2:o%>behtin #;
 +Ind+Prs+Du2:o%>bähtten #;
@@ -179,7 +179,7 @@ LEXICON V_EVEN_O_WK
 +Pot:%>tj V_EVEN_POT ; 
 
 
-LEXICON V_EVEN_Å !viessot, årrot
+LEXICON V_EVEN_Å !hållåt, bårråt
 +V:     V_EVEN_Å_STR ;
 +V:å^WG V_EVEN_Å_WK ;
 
