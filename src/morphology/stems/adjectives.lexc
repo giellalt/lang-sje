@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-12T13:25:31+02:00
+! Timestamp: 2018-07-12T14:07:39+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -86,6 +86,7 @@ vuorbálatj:vu^Orbálatj A_ELULATJ "successful, fortunate" ; ! no. 3719
 vuällegatj:vu^Ol'legatj A_ELULATJ "low, humble" ; ! no. 4547
 ånegatj:ånegatj A_ELULATJ "short" ; ! no. 5038
 aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
+buorak:bu^Orag2 A_FIEROK "good" ; ! no. 3398
 buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
 dulutj:dulutj A_FIEROK "old-time" ; ! no. 4213
 fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
