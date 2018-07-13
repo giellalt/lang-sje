@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-13T11:31:41+02:00
+! Timestamp: 2018-07-13T22:05:36+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -83,6 +83,7 @@ albme:albme N_EVEN "sky, heavens, space" ; ! no. 43
 alfabähtta:alfabiehtta N_EVEN "alphabet" ; ! no. 3085
 allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 4212
 allavárre:alla#várre N_EVEN "alpine mountain" ; ! no. 6838
+allegiehtje:alle#giehtje N_EVEN "western end" ; ! no. 51
 alumijdna:alumijdna N_EVEN "aluminium" ; ! no. 3094
 anarkiddja:anarkiddja N_EVEN "anarchy" ; ! no. 3099
 antänna:antien'na N_EVEN "antenna" ; ! no. 3122
@@ -462,6 +463,7 @@ grásse:grásse N_EVEN "grass" ; ! no. 3604
 grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
 guabbla:gu^Obbla N_EVEN "cornice, hanging ice in a stream" ; ! no. 3540
 guanná+Use/NG:gu^Oddna N_EVEN "female genitals" ; ! no. 90498
+guajjka:gu^Ojjka N_EVEN "rapids" ; ! no. 90982
 guallga:gu^Ollga N_EVEN "fur" ; ! no. 2871
 guanná:gu^On'ná N_EVEN "female genitals" ; ! no. 4881
 guappsa:gu^Oppsa N_EVEN "milt" ; ! no. 4370
@@ -683,6 +685,7 @@ lijjge:lijjge N_EVEN "extra, reserve" ; ! no. 1048
 limblánijjbe:limblá#nijjbe N_EVEN "butcher knife" ; ! no. 3031
 livva:livva N_EVEN "rest, break" ; ! no. 90602
 luakkta:lu^Okkta N_EVEN "bay" ; ! no. 2317
+lullegiehtje:lulle#giehtje N_EVEN "eastern end" ; ! no. 4235
 luorra:lu^Orra N_EVEN "ammunition, shot" ; ! no. 1069
 luossa:lu^Ossa N_EVEN "salmon" ; ! no. 1070
 luovve:lu^Ovve N_EVEN "storage building on stilts" ; ! no. 1072
@@ -745,7 +748,6 @@ minnulahka:minnulahka N_EVEN "journey, trip, travel" ; ! no. 90936
 minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
 missovuasstá:misso#vu^Osstá N_EVEN "brown cheese" ; ! no. 5989
 missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
-motuvvra:motuvvra N_EVEN "motor" ; ! no. 5977
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
 muohtadállke:muohta#dállke N_EVEN "blizzard, snow storm" ; ! no. 6559
 muohtadállve:muohta#dállve N_EVEN "snowy winter" ; ! no. 2364
@@ -772,6 +774,7 @@ månemgärrge:månem#gierrge N_EVEN "kidney stone" ; ! no. 1209
 månne:månne N_EVEN "egg" ; ! no. 1210
 mårre:mårre N_EVEN "anger, wrath" ; ! no. 1216
 mårrse:mårrse N_EVEN "fiancée" ; ! no. 1218
+måtuvvra:måtuvvra N_EVEN "motor" ; ! no. 5977
 måvvka:måvvka N_EVEN "seat of trousers" ; ! no. 1221
 måvvrå:måvvrå N_EVEN "dame, aunt" ; ! no. 2898
 mähttse:miehttse N_EVEN "forest, woods, wilderness" ; ! no. 1222
@@ -828,6 +831,7 @@ njuäbbrebässe:njuäbbre#bies'se N_EVEN "thin birch bark" ; ! no. 1310
 njållomájjge:njållom#ájjge N_EVEN "calving season" ; ! no. 5017
 nuarrta:nu^Orrta N_EVEN "north" ; ! no. 3844
 nuorra+N+Der/State:nuorravu^Ohta N_EVEN "youth" ; ! no. 3055
+nuortatjbielle:nuortatj#bielle N_EVEN "north side, north shore" ; ! no. 90976
 nurrsjudållå:nurrsju#dållå N_EVEN "log fire" ; ! no. 1326
 nuähtte:nu^Ohtte N_EVEN "seine net (fishing net)" ; ! no. 1328
 nårrebielle+Use/NG:nådde#bielle N_EVEN "load on one side of a pack animal" ; ! no. 90567
@@ -1358,6 +1362,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 ållge:ållge N_EVEN "shoulder" ; ! no. 2255
 ånegisbåkkså:ånegis#båkkså N_EVEN "shorts" ; ! no. 90631
 åresmiesse:åres#miesse N_EVEN "male calf" ; ! no. 4595
+årjátjbielle:årjátj#bielle N_EVEN "south side, south shore" ; ! no. 90977
 årrbenbielle:årrben#bielle N_EVEN "half-sibling" ; ! no. 4764
 årrdå:årrdå N_EVEN "treeline" ; ! no. 2265
 årre:år're N_EVEN "squirrel" ; ! no. 2266
@@ -1522,6 +1527,7 @@ dábba:dábba N_EVEN_NOCG "upper marrowbone on the front leg of a reindeer" ; ! 
 digge:digge N_EVEN_NOCG "court, parlament" ; ! no. 369
 duädde:du^Odde N_EVEN_NOCG "addition" ; ! no. 406
 dågge:dågge N_EVEN_NOCG "abomasum, fourth stomach" ; ! no. 414
+dållågádde:dållå#gádde N_EVEN_NOCG "place next to a fire" ; ! no. 90981
 dåresbägga:dåres#biegga N_EVEN_NOCG "sidewind" ; ! no. 5964
 däddo:dieddo N_EVEN_NOCG "weight" ; ! no. 4745
 fágge:fágge N_EVEN_NOCG "wrestling" ; ! no. 465
