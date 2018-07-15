@@ -431,11 +431,11 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG Vow: \%^WG: ; !bierdna->b0ärdna
-"Ä in G3 capitalized" ! Ie:0Ä (bägga, bävvde); can be word-initial
+!"Ä in G3 capitalized" ! Ie:0Ä (bägga, bävvde); can be word-initial
 !! __@RULENAME@__  
-e:Ä <=> I:0 _ G3 Vow: \%^WG: ; !Änntse->Ientse !for proper nouns beginning with capital Ä - Ie
-        I:0 _ Cns:+ Vow:+ %^G3: ; !
-		I:0 _ noCG Vow: \%^WG: ; !
+!e:Ä <=> I:0 _ G3 Vow: \%^WG: ; !Änntse->Ientse !for proper nouns beginning with capital Ä - Ie
+!        I:0 _ Cns:+ Vow:+ %^G3: ; !
+!		I:0 _ noCG Vow: \%^WG: ; !
 
 
 ! !!€ tjalmed%>ibme^WG
