@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-13T22:05:36+02:00
+! Timestamp: 2018-07-19T12:50:17+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -488,6 +488,7 @@ guollegåhte:guolle#gåhte N_EVEN "fishing shed" ; ! no. 3362
 guollejávvre:guolle#jávvre N_EVEN "fishing lake" ; ! no. 3944
 guolleliebma:guolle#liebma N_EVEN "fish broth" ; ! no. 5625
 guolletjålle:guolle#tjålle N_EVEN "fish guts" ; ! no. 696
+guolletjäkktja:guolle#tjiekktja N_EVEN "osprey" ; ! no. 3017
 guossa:gu^Ossa N_EVEN "fir tree" ; ! no. 3600
 gurbmarájjge:gurbma#rájjge N_EVEN "hole in hide from a reindeer fly" ; ! no. 4864
 gurrte:gurrte N_EVEN "red-throated loon" ; ! no. 713
@@ -1217,7 +1218,7 @@ tjuäkkte:tju^Okkte N_EVEN "dog bowl" ; ! no. 1952
 tjåbbme:tjåbbme N_EVEN "bump, swollen place (on a body)" ; ! no. 90331
 tjåddååjjve:tjåddå#åjjve N_EVEN "larynx" ; ! no. 3860
 tjåhkkå:tjåhkkå N_EVEN "summit, top of a mountain" ; ! no. 3691
-tjåhkånembäjjve:tjåhkånem#biejjve N_EVEN "meeting day" ; ! no. 5812
+tjåhkånimbäjjve:tjåhkånim#biejjve N_EVEN "meeting day" ; ! no. 5812
 tjåhkåsadje:tjåhkå#sadje N_EVEN "seat" ; ! no. 1965
 tjåjjve:tjåjjve N_EVEN "stomach, rumen, abdomen" ; ! no. 1966
 tjåjvevuolmuorra:tjåjve#vuol#mu^Orra N_EVEN "wooden stomach brace on a harness" ; ! no. 3509
@@ -1235,6 +1236,7 @@ tjåvded+N+Der/Ag:tjåvdedieddje N_EVEN "liberator" ; ! no. 3234
 tjäbbudahka:tjäbbudahka N_EVEN "decoration" ; ! no. 3568
 tjäkksa:tjiekksa N_EVEN "omasum (reindeer's third stomach)" ; ! no. 2850
 tjäkksa:tjiekksa N_EVEN "cookie" ; ! no. 5219
+guolletjäkktja+Use/NG:tjiekktja N_EVEN "osprey" ; ! no. 90983
 tjällde:tjiellde N_EVEN "reindeer herding cooperative" ; ! no. 1985
 tjällka:tjiellka N_EVEN "sled" ; ! no. 2765
 tjänntá:tjienntá N_EVEN "female servant" ; ! no. 1987
@@ -2272,7 +2274,7 @@ suäbbdek:su^Obbdeg2 N_ODD "uprooted tree" ; ! no. 1783
 svargatj:svargatj N_ODD "snack" ; ! no. 1795
 svájlek:svájleg2 N_ODD "untamed castrated reindeer" ; ! no. 2843
 svierek:sviereg2 N_ODD "Swedish" ; ! no. 1798
-syhkel:syhkel N_ODD "bicycle" ; ! no. 1809
+syhkil:syhkil N_ODD "bicycle" ; ! no. 1809
 säritj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
 säritj:sä2ritj N_ODD "young pine forest" ; ! no. 90349
 tijdnik:tijdnig2 N_ODD "newspaper" ; ! no. 90834
