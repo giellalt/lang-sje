@@ -579,26 +579,26 @@ juabba+Pron+Indef+Sg+Ess:juabban # ;
 
 !binna:binn-/ binna ´lite,litegrann´, plural ´några få´
 
-!binna,predikativ ställning
-binna+Pron+Indef+Sg+Nom:binná # ;
-binna+Pron+Indef+Sg+Acc:binnáv # ;
-binna+Pron+Indef+Sg+Gen:binná # ;
-binna+Pron+Indef+Sg+Ill:binnáj # ;
-binna+Pron+Indef+Sg+Ine:binnán # ;
-binna+Pron+Indef+Sg+Ela:binnást # ;
-binna+Pron+Indef+Sg+Com:binnájn # ;
-binna+Pron+Indef+Sg+Ess:binnán # ;
-
-binna+Pron+Indef+Pl+Nom:binná # ;
-binna+Pron+Indef+Pl+Acc:binnájd # ;
-binna+Pron+Indef+Pl+Gen:binnáj # ;
-binna+Pron+Indef+Pl+Ill:binnájda # ;
-binna+Pron+Indef+Pl+Ine:binnájn # ;
-binna+Pron+Indef+Pl+Ela:binnájst # ;
-binna+Pron+Indef+Pl+Com:binnáj # ;
-
-!binna,attributiv ställning
-binna+Pron+Indef+Sg+Nom:binná # ;
+! !binna,predikativ ställning  !not a pronoun, thus commented out, delete as some point
+!binna+Pron+Indef+Sg+Nom:binná # ;
+!binna+Pron+Indef+Sg+Acc:binnáv # ;
+!binna+Pron+Indef+Sg+Gen:binná # ;
+!binna+Pron+Indef+Sg+Ill:binnáj # ;
+!binna+Pron+Indef+Sg+Ine:binnán # ;
+!binna+Pron+Indef+Sg+Ela:binnást # ;
+!binna+Pron+Indef+Sg+Com:binnájn # ;
+!binna+Pron+Indef+Sg+Ess:binnán # ;
+!
+!binna+Pron+Indef+Pl+Nom:binná # ;
+!binna+Pron+Indef+Pl+Acc:binnájd # ;
+!binna+Pron+Indef+Pl+Gen:binnáj # ;
+!binna+Pron+Indef+Pl+Ill:binnájda # ;
+!binna+Pron+Indef+Pl+Ine:binnájn # ;
+!binna+Pron+Indef+Pl+Ela:binnájst # ;
+!binna+Pron+Indef+Pl+Com:binnáj # ;
+!
+!!binna,attributiv ställning
+!binna+Pron+Indef+Sg+Nom:binná # ;
 
 !divna all, hel, alla, alltsammans, helt och hållet, existerar ej i singularis, attributivt oböjligt
 
