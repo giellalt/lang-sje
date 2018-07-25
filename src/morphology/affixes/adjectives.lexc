@@ -374,7 +374,9 @@ LEXICON A_KUORA_s2
 !+Comp: A_ODD_COMP_V2E2AA ;
 !+Superl: A_ODD_jSUP_V2E2AA ;
 
-
+LEXICON A_VAASSE ! vásse (only ATTR, no PRED-forms!)
++A+Attr:%> # ;
+!not sure about Comp/Superl
 
 
 ! COMP/SUPERL rules:
