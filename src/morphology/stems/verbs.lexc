@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-19T12:49:52+02:00
+! Timestamp: 2018-07-25T12:06:49+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1500,6 +1500,7 @@ sjulgidit:sjulgid V_ODD "melt, soften (for fat, butter)" ; ! no. 1602
 sjulgijdit:sjulgijd V_ODD "thaw" ; ! no. 4649
 sjulidit:sjulid V_ODD "slowly becoming daylight at dawn" ; ! no. 3641
 sjundardit:sjundard V_ODD "talk nonsense" ; ! no. 5368
+sjuobodit:sju^Obod V_ODD "catch a reindeer with a lasso" ; ! no. 90985
 sjuohkatjit:sju^Ohkatj V_ODD "take a deep breath, sigh" ; ! no. 1601
 sjuohkedit:sju^Ohked V_ODD "sigh" ; ! no. 4458
 sjuoskadit:sju^Oskad V_ODD "pant (for animals)" ; ! no. 5123
