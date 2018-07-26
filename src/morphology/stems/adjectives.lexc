@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-26T10:28:17+02:00
+! Timestamp: 2018-07-26T18:20:50+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -65,6 +65,7 @@ tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
 guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
 gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
+hiedjo:hiedjo A_BUOSSJE "poor" ; ! no. 828
 nävvre:nievvre A_BUOSSJE "bad" ; ! no. 1342
 vallje:vallje A_BUOSSJE "abundant, plenty of" ; ! no. 2076
 vájjve:vájjve A_BUOSSJE "difficult, troublesome, serious" ; ! no. 2067
@@ -88,6 +89,7 @@ vuällegatj:vu^Ol'legatj A_ELULATJ "low, humble" ; ! no. 4547
 aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
 buorak:bu^Orag2 A_FIEROK "good" ; ! no. 3398
 buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
+dámak:dámag2 A_FIEROK "tame" ; ! no. 90987
 dulutj:dulutj A_FIEROK "old-time" ; ! no. 4213
 fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
 färrtalágátj:färrta#lágátj A_FIEROK "all kinds of" ; ! no. 6224
