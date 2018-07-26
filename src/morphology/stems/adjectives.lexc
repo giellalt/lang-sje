@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-25T12:35:02+02:00
+! Timestamp: 2018-07-26T10:28:17+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -135,6 +135,7 @@ vasste:vasste A_TJAEHPPE "ugly, horrible" ; ! no. 2337
 dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
 gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
+umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
 unne:un'n A_UNNE "small, little" ; ! no. 90285
 vásse:vás'se A_VAASSE "previous" ; ! no. 90395
 tjiegos:tjiehkos A_VUOJNOS "hidden, secret, confidential" ; ! no. 90984
