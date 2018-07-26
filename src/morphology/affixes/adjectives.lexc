@@ -379,6 +379,19 @@ LEXICON A_VAASSE ! vásse (only ATTR, no PRED-forms!)
 !not sure about Comp/Superl
 
 
+LEXICON A_UMASSE ! umas/umas'se/umasse 'all kinds of' 
++A+Attr:%> # ;
++A:'s A_UMASSE_s2 ; 
+
+LEXICON A_UMASSE_s2 
++Sg+Nom:%>e K ; 
++Pl+Nom:^WG%>e K ; 
++Sg+Acc:^WG%>ev K ; 
+!+Pl+Acc:^WG%>ijd K ; not sure about this, plus VH won't work b/c 3 syllables!
+!+Comp: A_ODD_COMP_V2E2AA ;
+!+Superl: A_ODD_jSUP_V2E2AA ;
+
+
 ! COMP/SUPERL rules:
 !COMP:
 !if even-syllabled COMP-ATTR wordform and V2 ≠ e, then V2-p in ATTR, SG.NOM, -V2-ba in PL.NOM
