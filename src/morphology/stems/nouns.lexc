@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-19T12:50:17+02:00
+! Timestamp: 2018-07-27T14:43:25+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -272,6 +272,7 @@ bävvde:bievvde N_EVEN "table" ; ! no. 289
 bävvdegirrje:bävvde#girrje N_EVEN "minutes (of a meeting), records (in court)" ; ! no. 290
 bävvla:bievvla N_EVEN "bare (snow-free) ground" ; ! no. 2437
 bävvle:bievvle N_EVEN "musical drum" ; ! no. 3298
+dabme:dabme N_EVEN "glue" ; ! no. 331
 dadne:dadne N_EVEN "tin" ; ! no. 298
 dadnebähkke:dadne#biehkke N_EVEN "piece of tin" ; ! no. 5668
 dadnegiessemtjårrve:dadne#giessem#tjårrve N_EVEN "flat piece of antler used in making tin wire" ; ! no. 3032
@@ -282,7 +283,6 @@ dajjva:dajjva N_EVEN "place, area" ; ! no. 310
 darrve:darrve N_EVEN "tar" ; ! no. 337
 dábbde:dábbde N_EVEN "spleen" ; ! no. 292
 dábbtjá:dábbtjá N_EVEN "portable whetstone" ; ! no. 294
-dábme:dábme N_EVEN "glue" ; ! no. 331
 dáhpe:dáhpe N_EVEN "custom, way, tradition" ; ! no. 6089
 dákkte:dákkte N_EVEN "bone" ; ! no. 314
 dálatjájjge:dálatj#ájjge N_EVEN "nowadays, modern, current" ; ! no. 5763
@@ -293,6 +293,7 @@ dállveájjge:dállve#ájjge N_EVEN "winter time" ; ! no. 323
 dállveviega:dállve#viega N_EVEN "winter path" ; ! no. 2560
 dámakhärrge:dámak#hierrge N_EVEN "tame reindeer bull" ; ! no. 2844
 dánnsa:dánnsa N_EVEN "dance" ; ! no. 90888
+dárbas+N+Der/State:dárbasvu^Ohta N_EVEN "need, necessity" ; ! no. 90989
 dássa:dás'sa N_EVEN "toilet" ; ! no. 842
 dávvda:dávvda N_EVEN "illness, sickness, disease" ; ! no. 344
 dávvle:dávvle N_EVEN "roll or ball of birch bark used as kindling" ; ! no. 2947
@@ -692,7 +693,7 @@ luossa:lu^Ossa N_EVEN "salmon" ; ! no. 1070
 luovve:lu^Ovve N_EVEN "storage building on stilts" ; ! no. 1072
 lurrka:lurrka N_EVEN "small firearm such as a saloon rifle" ; ! no. 5460
 lussis+N+Der/State:lussisvu^Ohta N_EVEN "melancholia, heavy-heartedness" ; ! no. 2519
-lusspe:lusspe N_EVEN "beginning of rapids" ; ! no. 1077
+lusspe:lusspe N_EVEN "outlet of a lake" ; ! no. 1077
 luvvka:luvvka N_EVEN "wooden harness" ; ! no. 5980
 luakkta+Use/NG:lu^Okkta N_EVEN "bay" ; ! no. 90459
 luäppte:lu^Oppte N_EVEN "storage place" ; ! no. 3904
@@ -2401,7 +2402,7 @@ gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
 gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
 guoktes:gu^Okktes N_ODD_V2E2AA "twosome" ; ! no. 90200
 gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
-máles:málles N_ODD_V2E2AA "cooked meal" ; ! no. 90270
+máles:málles N_ODD_V2E2AA "hot meal, dinner" ; ! no. 90270
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
 vuontsaåres:vuontsa#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
