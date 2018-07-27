@@ -24,7 +24,6 @@ PrePostposition ;
 LEXICON Postposition   !!= * __@CODE@__ is the list
 allelin PostP "i väster" ;
 badjen PostP "uppe" ;
-bajjel PostP ;
 bajjelij PostP ;
 bajjelin PostP ;
 bajjelis PostP ;
@@ -110,6 +109,8 @@ vuässte PostP "against" ;
 LEXICON PrePostposition   !!= * __@CODE@__ is the list
 rastá PrePost ;
 birra PrePost ;
+badjel PrePost ;
+badjel+Use/NG:bajjel PrePost ;
 
 
 
