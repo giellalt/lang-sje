@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-27T14:43:25+02:00
+! Timestamp: 2018-07-28T14:57:19+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -313,7 +313,7 @@ dilljá:dilljá N_EVEN "bulkhead" ; ! no. 4423
 dimbargåhte:dimbar#gåhte N_EVEN "wooden kåta" ; ! no. 373
 dirvitjmuorra:dirvitj#mu^Orra N_EVEN "tar wood" ; ! no. 3953
 divvod+N+Der/Ag:divvodieddje N_EVEN "mechanic" ; ! no. 5595
-duarrga:du^Orrga N_EVEN "hut pole" ; ! no. 379
+duarrga:du^Orrga N_EVEN "twigs and branches placed on the floor of a Saami hut" ; ! no. 379
 dubaksbuŋŋga:dubaks#buŋŋga N_EVEN "tobacco pouch" ; ! no. 1939
 dubme:dubme N_EVEN "dust, waste" ; ! no. 382
 duddnovuassa:duddno#vu^Os'sa N_EVEN "thin jute sack" ; ! no. 5410
@@ -1701,6 +1701,7 @@ dassko:dassko N_EVEN_O "bag, little sack for a silver spoon" ; ! no. 338
 dábblo:dábblo N_EVEN_O "picture, painting" ; ! no. 5176
 dáffo:dáf'fo N_EVEN_O "area" ; ! no. 2367
 dárrbo:dárrbo N_EVEN_O "need" ; ! no. 336
+dárro:dárro N_EVEN_O "Swedish" ; ! no. 90065
 dátábarrgo:dátá#barrgo N_EVEN_O "computer processing" ; ! no. 3556
 dávvdadiehto:dávvda#diehto N_EVEN_O "diagnosis" ; ! no. 3592
 diddno:diddno N_EVEN_O "flint" ; ! no. 361
