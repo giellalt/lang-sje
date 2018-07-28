@@ -210,6 +210,27 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Pl+Com:i2%>j K ;
 +Pl+Com+Use/NG:i2%>jgum K ;
 
+LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabic adjectives
++Sg+Acc:u%>v K ;
++Sg+Gen:u%> K ;
++Sg+Ill:u%>j K ;
++Sg+Ine:u2%>n K ;
++Sg+Ela:u2%>st K ;
++Sg+Ela+Use/NG:u2%>s K ;
++Sg+Com:u2%>jn K ;
++Ess:u2%>n K ;
++Abe:u%>htá K ;
++Pl+Nom:u%> K ;
++Pl+Acc:u2%>jd K ;
++Pl+Gen:u2%>j K ;
++Pl+Ill:u2%>jda K ;
++Pl+Ine:u2%>jn K ;
++Pl+Ela:u2%>jst K ;
++Pl+Ela+Use/NG:u2%>js K ;
++Pl+Com:u2%>j K ;
++Pl+Com+Use/NG:u2%>jgum K ;
+
+
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 +Der/Dimin:a%>tj N_ODD ;
 
