@@ -53,7 +53,8 @@ lagamusan PostP ;
 lunne PostP ;
 lunne+Use/NG:ludne PostP ;
 luhte PostP ;
-lusi PostP ;
+luse PostP "to";
+luse+Use/NG:lusa PostP "to" ; !perhaps lussa?
 maŋen PostP ;
 maŋŋáj PostP ;
 maŋŋelin PostP ;

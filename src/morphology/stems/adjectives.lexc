@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-28T15:29:27+02:00
+! Timestamp: 2018-07-28T16:10:28+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -97,6 +97,7 @@ gávak:gávag2 A_FIEROK "bent" ; ! no. 4816
 guäkktelágátj:guäkkte#lágátj A_FIEROK "twins, two similar things" ; ! no. 4873
 ietjálágátj:ietjá#lágátj A_FIEROK "different" ; ! no. 458
 lágátj:lágátj A_FIEROK "like (adjective compound component)" ; ! no. 90801
+mällgat:mä2llgad2 A_FIEROK "far" ; ! no. 1224
 suhtelágátj:suhte#lágátj A_FIEROK "in many ways, multiple" ; ! no. 4258
 särralágátj:särra#lágátj A_FIEROK "special, original" ; ! no. 3975
 vuostas+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
