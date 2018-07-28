@@ -791,25 +791,25 @@ duggir+Pron+Indef+Sg+Nom:duogger # ;
 !iednak:iednag- /iedna ´mycket, många´, attributivt oböjligt
 
 !iednak,predikativ ställning
-iednak+Pron+Indef+Sg+Nom:iednak # ;
-iednak+Pron+Indef+Sg+Acc:iednagav # ;
-iednak+Pron+Indef+Sg+Gen:iednaga # ;
-iednak+Pron+Indef+Sg+Ill:iednagij # ;
-iednak+Pron+Indef+Sg+Ine:iednagin # ;
-iednak+Pron+Indef+Sg+Ela:iednagis # ;
-iednak+Pron+Indef+Sg+Com:iednagijn # ;
-iednak+Pron+Indef+Sg+Ess:iednagin # ;
+!iednak+Pron+Indef+Sg+Nom:iednak # ;
+!iednak+Pron+Indef+Sg+Acc:iednagav # ;
+!iednak+Pron+Indef+Sg+Gen:iednaga # ;
+!iednak+Pron+Indef+Sg+Ill:iednagij # ;
+!iednak+Pron+Indef+Sg+Ine:iednagin # ;
+!iednak+Pron+Indef+Sg+Ela:iednagis # ;
+!iednak+Pron+Indef+Sg+Com:iednagijn # ;
+!iednak+Pron+Indef+Sg+Ess:iednagin # ;
 
-iednak+Pron+Indef+Pl+Nom:iednaga # ;
-iednak+Pron+Indef+Pl+Acc:iednagijd # ;
-iednak+Pron+Indef+Pl+Gen:iednagij # ;
-iednak+Pron+Indef+Pl+Ill:iednagijda # ;
-iednak+Pron+Indef+Pl+Ine:iednagijn # ;
-iednak+Pron+Indef+Pl+Ela:iednagijs # ;
-iednak+Pron+Indef+Pl+Com:iednagij # ;
+!iednak+Pron+Indef+Pl+Nom:iednaga # ;
+!iednak+Pron+Indef+Pl+Acc:iednagijd # ;
+!iednak+Pron+Indef+Pl+Gen:iednagij # ;
+!iednak+Pron+Indef+Pl+Ill:iednagijda # ;
+!iednak+Pron+Indef+Pl+Ine:iednagijn # ;
+!iednak+Pron+Indef+Pl+Ela:iednagijs # ;
+!iednak+Pron+Indef+Pl+Com:iednagij # ;
 
-!iednak,attributiv ställning
-iednak+Pron+Indef+Sg+Nom:iedna # ;
+!!iednak,attributiv ställning
+!iednak+Pron+Indef+Sg+Nom:iedna # ;
 
 !färtlágátj:färtlágátj- /färtlágátj´all slags´, attributivt oböjligt
 
