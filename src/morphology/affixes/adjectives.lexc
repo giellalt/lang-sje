@@ -137,7 +137,7 @@ LEXICON A_AALLKE_s2
 
 
 LEXICON A_BAONNDAA ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
-+A+Attr:^WG%> # ;
++A+Attr:^WG%>s # ;
 +A: A_BAONNDAA_s2 ; 
 
 LEXICON A_BAONNDAA_s2 
@@ -331,9 +331,9 @@ LEXICON A_IEDNAK ! iedna/iednak/iednaga/ienap/ienamus-a
 
 LEXICON A_IEDNAK_s2 
 +Sg+Nom:g2%> K ; 
-+Pl+Nom:g2%>a K ; 
-+Comp:^WG A_ODD_COMP_a ; ! normally ienabu (but Rensund: ienaba)
-+Comp+Use/NG:^WG A_ODD_COMP ;
+:g2%> N_ODD_X ; 
++Comp:^WG A_ODD_COMP ; ! normally ienabu (but Rensund: ienaba)
++Comp+Use/NG:^WG A_ODD_COMP_a ;
 +Superl:^WG A_ODD_SUP ;
 +Superl+Use/NG:^WG A_ODD_jSUP ;
 
@@ -409,12 +409,14 @@ LEXICON A_ODD_COMP_V2E2AA
 LEXICON A_ODD_COMP_s2 
 +Attr: # ;
 +Sg+Nom: # ;
-+Pl+Nom:%>a # ;
+!+Pl+Nom:%>a # ;
+:%> N_ODD_X ;
 
 LEXICON A_ODD_COMP_a_s2 
 +Attr: # ;
 +Sg+Nom: # ;
-+Pl+Nom:%>u # ;
+!+Pl+Nom:%>u # ;
+:%> N_ODD_X_adjCompU ;
 
 !if odd-syllabled wordform COMP-ATTR, then -up in ATTR, SG.NOM, -uba/-ubo in PL.NOM (seemingly random for PL.NOM)
 LEXICON A_EVEN_COMP 
