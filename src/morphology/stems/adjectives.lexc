@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-26T18:20:50+02:00
+! Timestamp: 2018-07-28T15:29:27+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -110,6 +110,7 @@ såmes:såbme A_GIENES "some" ; ! no. 1822
 vijses:vijjse A_GIENES "smart, wise" ; ! no. 5224
 gåjkes:gåjjke A_GÅJKES "dry" ; ! no. 6239
 iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
+stuorak:stu^Ora A_IEDNAK "big" ; ! no. 1739
 ietjá:iehtjá A_IETJAA "other" ; ! no. 6882
 jårrbåt:jårrb A_JAORRBAOT "round" ; ! no. 4921
 låssåt:lås's A_JAORRBAOT "heavy, difficult" ; ! no. 1097
