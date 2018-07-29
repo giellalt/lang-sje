@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-28T16:10:28+02:00
+! Timestamp: 2018-07-29T19:16:21+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -57,7 +57,7 @@ båjjtot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
 basstel:basstel A_BIVVAL "sharp (for a knife, scissors etc.)" ; ! no. 3727
 bivval:bivval A_BIVVAL "warm" ; ! no. 192
 bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
-mårret:mårred2 A_BIVVAL "pleasant" ; ! no. 90908
+mårret:mårred2 A_BIVVAL "pleasant" ; ! no. 5506
 umårret:umårred2 A_BIVVAL "unpleasant" ; ! no. 90909
 blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
 jallgat:jallg A_BLAAVVAT "even, level, flat" ; ! no. 919
