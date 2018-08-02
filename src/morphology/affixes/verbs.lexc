@@ -399,8 +399,8 @@ LEXICON LEPRT !!= * @CODE@
 +Du1:liejme # ; 
 +Du2:lijden # ;
 +Du2:liejde # ; 
-+Du3:lijga # ;
-+Du3:liejga # ; 
++Du3:lij 3DUPRT ;
++Du3:liej 3DUPRT ; 
 +Pl1:lijme # ; 
 +Pl1:liejme # ; 
 +Pl2:lijde # ;
