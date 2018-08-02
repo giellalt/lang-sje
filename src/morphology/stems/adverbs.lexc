@@ -39,6 +39,7 @@ alvos adv ;
 árgan adv ;
 áramusat adv ;
 árrat adv ;
+
 badjen adv "uppe" ;
 bajás adv ;
 bálldalugguj adv ;
@@ -55,14 +56,12 @@ buorebut adv ;
 buorebuttjat adv ;
 båjtot adv "fel,oriktigt" ;
 båsstot adv "fel,oriktigt" ;
+
 del adv "tydligen" ;
 dájjvaj adv ;
 dájna adv ;
-
 dále adv "here; now" ;
 dule adv "there; then" ;
-
-
 dalának adv ;
 dalle adv ;
 dálle adv ;
@@ -90,10 +89,13 @@ dålen adv ;
 dåbben adv "yonder" ;
 dåbbe adv "där borta" ;
 dåhkå adv "to there; dit" ;
+
+edisik adv ;
 erit adv ;
 erida adv "away, bort" ;
-edisik adv ;
+
 fertláhkáj adv ;
+
 gáddek adv ;
 gasskat adv ;
 guggu adv "vart, till vilken plats" ;
@@ -111,7 +113,6 @@ gusa adv "vart, till vilken plats" ;
 guse adv "vart, till vilken plats" ;
 gusi adv "vart, till vilken plats" ;
 guste adv "varifrån, från vilken plats" ;
-
 gåbbelij adv "till vilkendera sidan av" ;
 gåbbelin adv "på vilkendera sidan" ;
 gåbbelist adv "från vilkendera sidan om" ;
@@ -123,24 +124,30 @@ gåsse adv "när, vid vilken tidpunkt" ;
 gåsså adv "när, vid vilken tidpunkt" ;
 gåssek adv ;
 gåsstås adv "varifrån" ;
+
 hállva adv "almost" ;
 hähkkat adv ;
+
 ilá adv ;
 ihkenis adv "som helst" ;
 ihkenas adv "som helst" ;
 iednagit adv ;
 iednak adv ;
 iehkedis adv ;
+ikktij adv "together" ;
 iktu adv ;
 iktu+Use/NG:uktu adv ;
 iktuk adv "ensam" ;
 iktuk+Use/NG:uktuk adv "ensam" ;
+
 juo adv "redan" ;
 jámas adv "deadly, fatally" ;
 jasska adv ;
 jis adv ;
+
 kano adv "kanske" ;
 kano+Use/NG:kan adv "kanske" ;
+
 lahka adv ;
 luksa adv "österut" ;
 luksaårjás adv "mot sydost" ;
@@ -157,6 +164,7 @@ lullelin adv "i öster" ;
 lullelis adv "från öster om" ;
 lulelt adv "österifrån" ;
 luoboj adv "utspridd, löst" ;
+
 maktes adv "hur, på vilket sätt" ;
 manen adv "varför, till vad, såsom var" ; !essiv av mij
 man adv ;
@@ -169,6 +177,7 @@ mudiŋ adv "sometimes" ;
 mudiŋ+Use/NG:muhtin adv "sometimes" ;
 mudiŋ+Use/NG:mudin adv "sometimes" ;
 mäddel adv "förbi" ;
+
 nav adv ;
 navte adv ;
 nåv adv ;
@@ -186,6 +195,7 @@ nuarrtan adv "i norr" ;
 nuarrtat adv "från norr" ;
 nåv adv ;
 nåvte adv ;
+
 rassta adv ;
 rastá adv ;
 ruapptot adv ;
@@ -194,9 +204,11 @@ ruapptolij adv "backwards" ;
 ruvva adv ;
 ruvva+Use/NG:ruvvaj adv ;
 räkkta adv ;
+
 sagga adv "intensely; häftigt" ;
 sämmáláhkáj adv ;
 sammáláhkáj adv ;
+!sieldes adv "terribly, incredibly" ; !check for examples in corpus!
 sierra adv ;
 särra adv ;
 sierrot adv ;
@@ -206,8 +218,10 @@ sjávot adv ;
 spájjta adv ;
 suajbma adv ;
 så adv ;
+
 tjiegŋalit adv ;
 tjårrgå adv ;
+
 uddne adv ;
 uddnik adv ;
 ullgulin adv "ute" ;
@@ -215,6 +229,7 @@ ullgulist adv "utifrån" ;
 ullgun adv ;
 ulgus adv ;
 ullu adv "väldigt" ;
+
 vastet adv "terribly" ;
 vehis adv ;
 viehka adv ;
@@ -230,8 +245,10 @@ vuolebun adv ;
 vuolen adv ;
 vuällelin adv ;
 vuällen adv ;
+
 åbbå adv ;
 åbbånis adv "med negering ..alls" ;
+ållå adv "completely, entirely" ;
 ållgon adv ;
 ållgolin adv ;
 ållgolist adv ;
