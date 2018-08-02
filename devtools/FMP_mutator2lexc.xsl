@@ -280,8 +280,6 @@ LEXICON ProperNoun   !!= * __@CODE@__
 
 almelatj:almelatj A_EVEN_D ;
 gåbbde A_EVEN_B ;
-hiedjo A_EVEN_B ; ! poor?
-järrme A_EVEN_B ;
 järbme A_EVEN_B ;
 !maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
