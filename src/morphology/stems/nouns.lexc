@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-28T14:57:19+02:00
+! Timestamp: 2018-08-02T11:05:04+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -231,7 +231,7 @@ buäjjde:bu^Ojjde N_EVEN "fat" ; ! no. 226
 buärrde:bu^Orrde N_EVEN "table" ; ! no. 3374
 båddne:båddne N_EVEN "bottom" ; ! no. 229
 båddnje:båddnje N_EVEN "husband" ; ! no. 230
-bådnemsuodna:bådnem#su^Odna N_EVEN "twisted tendon string" ; ! no. 232
+bådnemsuodna:bådnem#su^Odna N_EVEN "twisted tendon string" ; ! no. 90994
 båhteájjge:båhte#ájjge N_EVEN "future" ; ! no. 3050
 båhteidja:båhte#idja N_EVEN "tonight" ; ! no. 5876
 båhtjejnäjjda:båhtjej#niejjda N_EVEN "milkmaid" ; ! no. 90907
@@ -1701,7 +1701,7 @@ dassko:dassko N_EVEN_O "bag, little sack for a silver spoon" ; ! no. 338
 dábblo:dábblo N_EVEN_O "picture, painting" ; ! no. 5176
 dáffo:dáf'fo N_EVEN_O "area" ; ! no. 2367
 dárrbo:dárrbo N_EVEN_O "need" ; ! no. 336
-dárro:dárro N_EVEN_O "Swedish" ; ! no. 90065
+dárro:dárro N_EVEN_O "Swedish, Norwegian" ; ! no. 90065
 dátábarrgo:dátá#barrgo N_EVEN_O "computer processing" ; ! no. 3556
 dávvdadiehto:dávvda#diehto N_EVEN_O "diagnosis" ; ! no. 3592
 diddno:diddno N_EVEN_O "flint" ; ! no. 361
