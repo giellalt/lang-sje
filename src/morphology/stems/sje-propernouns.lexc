@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T12:44:37+02:00
+! Timestamp: 2018-08-02T17:08:47+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -101,4 +101,5 @@ Tjidtják:Tjidtjág2 N_ODD "Tjidtjak" ; ! no. 6585
 Tjårvek:Tjårveg2 N_ODD "Hornavan" ; ! no. 1977
 Vuoktanj:Vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
 Åjjvák:Åjjvág2 N_ODD "Uddjaur Lake" ; ! no. 2811
+Árves:Árrves N_ODD_V2E2AA "Árves" ; ! no. 91003
 Mávas:Mávvas N_ODD_WG "Mavas" ; ! no. 90281

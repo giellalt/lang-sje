@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-07-25T12:06:49+02:00
+! Timestamp: 2018-08-02T18:03:45+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1166,6 +1166,7 @@ gáhtsastit:gáhtsast V_ODD "hang, hang up" ; ! no. 2925
 gájjkanit:gájjkan V_ODD "be ripped apart" ; ! no. 4751
 gájvastit:gájvast V_ODD "be dumb" ; ! no. 516
 gálatjit:gálatj V_ODD "wade, get wet feet" ; ! no. 3878
+gálodit:gálod V_ODD "become cooler" ; ! no. 91006
 gálostit:gálost V_ODD "become cooler" ; ! no. 3749
 gámadit:gámad V_ODD "put on shoes" ; ! no. 532
 gárgadit:gárgad V_ODD "walk in a line (for reindeer)" ; ! no. 541
