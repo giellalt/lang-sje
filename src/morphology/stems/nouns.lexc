@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T15:29:29+02:00
+! Timestamp: 2018-08-02T18:11:24+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -579,7 +579,8 @@ iednamdajjva:iednam#dajjva N_EVEN "outdoor area" ; ! no. 4180
 iednamhärra:iednam#hier'ra N_EVEN "governor" ; ! no. 4181
 iehke:iehke N_EVEN "paternal uncle (older than father)" ; ! no. 878
 iehkedisbäjjve:iehkedis#biejjve N_EVEN "afternoon" ; ! no. 3965
-iehkedisidja:iehkedis#idja N_EVEN "late evening" ; ! no. 3744
+iehkedisidja:iehkedis#idja N_EVEN "late evening" ; ! no. 91007
+iehkedisidja+Use/NG:iehkedis#ijja N_EVEN "late evening" ; ! no. 3744
 iehkedisnásste:iehkedis#násste N_EVEN "evening star" ; ! no. 2935
 ietjasvuohke:ietjas#vu^Ohke N_EVEN "distinctive" ; ! no. 4940
 ihttátjbäjjve:ihttátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
