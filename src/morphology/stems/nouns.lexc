@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T11:05:04+02:00
+! Timestamp: 2018-08-02T15:29:29+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -871,6 +871,7 @@ ráffe:ráffe N_EVEN "peace, stillness" ; ! no. 1366
 ráhke:ráhke N_EVEN "fishing dam made of rocks" ; ! no. 1369
 ráhpatjålbme:ráhpa#tjålbme N_EVEN "early ice melt in a sound" ; ! no. 4327
 átjárájjde+Use/NG:rájjde N_EVEN "thunder" ; ! no. 90914
+rádje+Use/NG:rájje N_EVEN "natural border" ; ! no. 91001
 rájjge:rájjge N_EVEN "hole" ; ! no. 5071
 rájnas+N+Der/State:rájnasvu^Ohta N_EVEN "purity" ; ! no. 5785
 ráppta:ráppta N_EVEN "edge" ; ! no. 2495
@@ -1919,6 +1920,7 @@ vahkko:vahkko N_EVEN_O "week" ; ! no. 2054
 vággevuorro:vágge#vu^Orro N_EVEN_O "bottom of a valley" ; ! no. 5254
 vájbmo:vájbmo N_EVEN_O "heart" ; ! no. 2062
 várasskirrto:váras#skirrto N_EVEN_O "home-spun shirt" ; ! no. 393
+várebáhkko:váre#báhkko N_EVEN_O "mountain slope" ; ! no. 4233
 várro:várro N_EVEN_O "product" ; ! no. 3441
 várrto:várrto N_EVEN_O "nipple, wart" ; ! no. 2092
 vierramákksjo:vierram#ákksjo N_EVEN_O "hatchet" ; ! no. 5256

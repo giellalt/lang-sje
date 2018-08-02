@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T10:50:59+02:00
+! Timestamp: 2018-08-02T12:44:37+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -50,6 +50,7 @@ Gåbbdá:Gåbbdá N_EVEN "Gåbbda" ; ! no. 90696
 Härrgevárre:Härrge#várre N_EVEN "Renberget" ; ! no. 4123
 Inntjáválle:Inntjá#válle N_EVEN "Älvsbyn" ; ! no. 4782
 Jåhkåmåhkke:Jåhkå#måhkke N_EVEN "Jokkmokk" ; ! no. 90998
+Jåhkåmåhkke+Use/NG:Jåk#måhkke N_EVEN "Jokkmokk" ; ! no. 91000
 Jånnå:Jån'nå N_EVEN "Jon, Jonas, osv." ; ! no. 90884
 Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
 Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
