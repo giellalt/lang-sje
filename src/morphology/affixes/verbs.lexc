@@ -481,8 +481,8 @@ LEXICON IJPRT !!= * @CODE@
 +Du2:iejde  # ; 
 +Du2:iejden  # ; 
 +Du2:idtjijden # ; 
-+Du3:iejga # ; 
-+Du3:idtjijga # ; 
++Du3:iej 3DUPRT ; 
++Du3:idtjij 3DUPRT ; 
 +Pl1:iejme # ; 
 +Pl1:idtjijme # ; 
 +Pl2:iejde # ; 
