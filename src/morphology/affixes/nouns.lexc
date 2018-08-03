@@ -36,17 +36,20 @@ LEXICON N_EVEN ! giella, guolle, bissti
 +N: EVENCASE ;  ! Sg Nom, Ess
 +N: N_EVEN_ILL ;
 +N:^WG N_EVEN_WK ; ! CG here
++N: N_EVEN_DIM ; !DIM derivation
 
 LEXICON N_EVEN_O ! rássjo-variant rässjuj
 +N: EVENCASE ;  ! Sg Nom, Ess
 +N: N_EVEN_ILL ; 
 +N: N_EVEN_ILL_O ; ! allows rássjo-variant: rässjuj
 +N:^WG N_EVEN_WK ; ! CG here
++N: N_EVEN_O_DIM ; !DIM derivation
 
 LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
 +N:^G3 EVENCASE ;
 +N:^G3 N_EVEN_ILL ;
 +N:^WG N_EVEN_WK ; !
++N: N_EVEN_DIM ; !DIM derivation
 
 LEXICON EVENCASE
 +Sg+Nom:^UAUML%>    K ;
@@ -56,13 +59,12 @@ LEXICON N_EVEN_ILL
 +Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
 
 LEXICON N_EVEN_ILL_O
-+Sg+Ill+Use/NG:%>j^V2O2U K ; !V2 o->u in ill.sg, dim
++Sg+Ill+Use/NG:%>j^V2O2U K ; !V2 o->u in ill.sg
 
 LEXICON N_EVEN_ESS
 +Ess:^UAUML%>n K ;
 
 LEXICON N_EVEN_WK
-+Der/Dimin:%>tj^V2E2AA N_ODD ;
 +Sg+Gen:  K ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
@@ -120,6 +122,15 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Pl+Ela+Use/NG:%>js K ;
 +Pl+Com:%>j K ;
 +Pl+Com+Use/NG:%>jgum K ;
+: N_EVEN_DIM ; !DIM derivation
+
+
+LEXICON N_EVEN_DIM ! guolla->guolatj; guolle->guolátj; mánnodak->mánnodagatj
++Der/Dimin:^WG%>tj^V2E2AA N_DIM_s2 ;
+
+LEXICON N_EVEN_O_DIM !gárrvo->gärvutj
++Der/Dimin:^WG%>tj^V2O2U N_DIM_s2 ;
+
 
 
 !LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
@@ -232,7 +243,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
-+Der/Dimin:a%>tj N_ODD ;
++Der/Dimin:a%>tj N_DIM_s2 ;
 
 
 ! contracted
@@ -266,6 +277,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Pl+Ela+Use/NG:u%>js K ;
 +N+Pl+Com:u%>j K ;
 +N+Pl+Com+Use/NG:u%>jgum K ;
++N: N_CONTR_O_DIM ; !buhtsutj
 
 LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Sg+Nom:á^WGj%> K ;
@@ -288,6 +300,8 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
 +N+Pl+Com+Use/NG:á%>jgum K ;
++N: N_CONTR_DIM ; !ålmátj
+
 
 LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Sg+Nom:e^WGs%> K ;
@@ -310,9 +324,21 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
 +N+Pl+Com+Use/NG:á%>jgum K ;
++N: N_CONTR_DIM ; !sarrvátj
+
+
+LEXICON N_CONTR_O_DIM ! buhtsutj
++Der/Dimin:u%>tj N_DIM_s2 ;
+
+LEXICON N_CONTR_DIM ! ålmátj, sarrvátj
++Der/Dimin:á%>tj N_DIM_s2 ;
 
 
 
+!general addition of DIM case/number endings (avoids recursive DIM generation)
+LEXICON N_DIM_s2 !nom.sg, then link to other forms
++Sg+Nom: K ;
+: N_ODD_X ;
 
 LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
 # ;
@@ -324,13 +350,13 @@ LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
 ! NOTE: below here: lexica that are referred to in adjectives (or at least outside noun-stems)
 ! NOTE: 
 
-!used by adjectives - don't delete:
-!LEXICON EVENCASE_4 !used by adjectives - don't delete
+!used by adjectives - don't delete yet:
+!LEXICON EVENCASE_4 !used by adjectives - don't delete yet:
 !+Sg+Nom:^CDEL K ;
 !:a N_EVEN_ESS ; !essive
 
-!used by adjectives - don't delete:
-LEXICON N_EVEN_C !used by adjectives - don't delete
+!used by adjectives - don't delete yet:
+LEXICON N_EVEN_C !used by adjectives - don't delete yet:
 +Sg+Gen:%>o  K ; 
 +Sg+Acc:%>ov  K ;
 +Sg+Ine:%>on K ;
@@ -349,8 +375,8 @@ LEXICON N_EVEN_C !used by adjectives - don't delete
 +Pl+Com:%>oj    K ;
 +Ess:%>on K ;
 
-!used by adjectives - don't delete:
-LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
+!used by adjectives - don't delete yet:
+LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete yet:
 +Sg+Acc:a%>v K ;
 +Sg+Gen:a K ;
 +Sg+Ill:i%>j K ;
@@ -368,8 +394,8 @@ LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete
 +Pl+Ela+Use/NG:i%>js K ;
 +Pl+Com:i%>j K ;
 
-!used by adjectives - don't delete:
-LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete:
+!used by adjectives - don't delete yet:
+LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete yet:
 +Sg+Acc:uv K ;
 +Sg+Gen:u K ;
 +Sg+Ill:uj K ;
