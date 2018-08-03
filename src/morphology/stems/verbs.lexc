@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T18:03:45+02:00
+! Timestamp: 2018-08-03T18:26:17+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -593,10 +593,11 @@ tsissat:tsis's V_EVEN_A "pee" ; ! no. 3700
 tsähkkat:tsiehkk V_EVEN_A "ask a certain price, cost" ; ! no. 2957
 usjudallat:usjudall V_EVEN_A "intend, consider" ; ! no. 3169
 vadjat:vadj V_EVEN_A "cut, cut to size" ; ! no. 5220
+vanjgadahtjat:vanjgadahtj V_EVEN_A "begin to run briefly" ; ! no. 91016
+vannjgat:vannjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 vassjat:vassj V_EVEN_A "feel like, manage, have the energy" ; ! no. 2095
 vavvdat:vavvd V_EVEN_A "become caught, catch" ; ! no. 5976
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
-vánnjgat:vánnjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 viegadallat:viegadall V_EVEN_A "run after, chase" ; ! no. 5443
 viehkat:viehk V_EVEN_A "run (for humans)" ; ! no. 2105
 vierrodallat:vierrodall V_EVEN_A "sacrifice" ; ! no. 90672
@@ -1018,6 +1019,7 @@ badjánit:badján V_ODD "get up" ; ! no. 2391
 bagestit:bagest V_ODD "rip, tear off" ; ! no. 4417
 bajedit:bajed V_ODD "raise, lift" ; ! no. 4102
 badjánit+Use/NG:bajján V_ODD "get up" ; ! no. 90980
+balládit:ballád V_ODD "become scared" ; ! no. 91015
 balldalit:balldal V_ODD "scare" ; ! no. 90852
 baltjastit:baltjast V_ODD "be mischievous" ; ! no. 137
 balvadit:balvad V_ODD "become cloudy" ; ! no. 5737
@@ -1072,6 +1074,7 @@ båggedit:bågged V_ODD "fall, tumble" ; ! no. 2409
 båhtasit:båhtas V_ODD "boil over" ; ! no. 237
 båhtånit:båhtån V_ODD "swell, bulge" ; ! no. 240
 båktjanit:båktjan V_ODD "suffocate, have something stuck in one’s windpipe" ; ! no. 244
+bånjådit:bånjåd V_ODD "turn back and forth" ; ! no. 91017
 bånjåstit:bånjåst V_ODD "knock over a reindeer" ; ! no. 5204
 bårgestit:bårgest V_ODD "smoke, give off smoke" ; ! no. 247
 bårjåstit:bårjåst V_ODD "sail" ; ! no. 249
