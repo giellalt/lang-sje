@@ -33,13 +33,13 @@ Alphabet
   %^WG:0     !!≈ ; @CODE@ : weak grade
   %^G3:0     !!≈ ; @CODE@ : marks grade three for stems w/o Cgrad
   %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+  %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contracted stems
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä, gielbar / gällbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
-  %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
   %^MONB4J:0 !!= @CODE@ * what is this?
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
@@ -66,7 +66,7 @@ Sets
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            A       E       I               O           U           Æ Ä Ø Ö Å Á É Í Ó Ú 
                            i2              %^O         u2            ä2 ;
-  Dummy  =  %^WG %^G3 %^V2E2AA %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ %^V2O2U ; 
+  Dummy  =  %^WG %^G3 %^V2E2AA %^V2O2U %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ ; 
   
 Definitions
 
@@ -150,7 +150,7 @@ Definitions
         v |
         j |
         t j
-        ] ; !consonant (incl. digraphs) which can occur before ^V2E2AA
+        ] ; !consonants (incl. digraphs) which can occur before ^V2E2AA
 
 !! !!!Rules
 
