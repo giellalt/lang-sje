@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T13:07:54+02:00
+! Timestamp: 2018-08-03T12:48:54+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -123,6 +123,7 @@ nágan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
 binná:bin'ná A_NUORRA "a little bit" ; ! no. 2446
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
+maŋŋe:maŋŋe A_NUORRA "after" ; ! no. 91011
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 sällde:siellde A_NUORRA "terrible, huge, enormous" ; ! no. 1839
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
@@ -167,8 +168,6 @@ vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 
 almelatj:almelatj A_EVEN_D ;
 gåbbde A_EVEN_B ;
-hiedjo A_EVEN_B ; ! poor?
-järrme A_EVEN_B ;
 järbme A_EVEN_B ;
 !maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
 njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
