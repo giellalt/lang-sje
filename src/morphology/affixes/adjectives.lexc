@@ -238,8 +238,10 @@ LEXICON A_xDIBME ! tjalmedis/tjalmedibme/tjalmedime/?/?-
 +A:%>ibme A_xDIBME_s2 ; 
 
 LEXICON A_xDIBME_s2 
-+Sg+Nom: K ; 
-+Pl+Nom:^WG K ; 
+! copy of N_EVEN without +N and DIM-derivation:
+: EVENCASE ;  ! Sg Nom, Ess
+: N_EVEN_ILL ;
+:^WG N_EVEN_WK ; ! CG here
 !+Comp: A_ODD_COMP ;
 !+Superl: A_ODD_SUP ;
 
