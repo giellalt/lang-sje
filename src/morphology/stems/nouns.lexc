@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-03T14:46:45+02:00
+! Timestamp: 2018-08-03T18:42:21+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1991,7 +1991,7 @@ burun:burun N_ODD "horsefly" ; ! no. 3366
 buäjjdedijstak:buäjjde#dijstag2 N_ODD "Mardis Gras, Fat Tuesday" ; ! no. 4232
 buälldem:bu^Olldem N_ODD "lighting of a fire" ; ! no. 5572
 båddåtj:båddåtj N_ODD "a little while" ; ! no. 3342
-båhtj+N+Der/Ag:båhtjej N_ODD "milker" ; ! no. 90905
+båhtjet+N+Der/Ag:båhtjej N_ODD "milker" ; ! no. 90905
 båhtjem:båhtjem N_ODD "milking" ; ! no. 6710
 båjmátj:båjmátj N_ODD "rough-legged hawk" ; ! no. 241
 båjtojubmel:båjto#jubmel N_ODD "idol, false god" ; ! no. 3155
@@ -2018,7 +2018,7 @@ dehtus:dehtus N_ODD "knowledge" ; ! no. 90321
 derik:derig2 N_ODD "shoes made of leather from reindeer legs" ; ! no. 354
 desimähtter:desi#mä2htter N_ODD "decimeter" ; ! no. 3564
 diamähtter:dia#mä2htter N_ODD "diameter" ; ! no. 3595
-diddn+N+Der/Ag:diddnoj N_ODD "spark" ; ! no. 6728
+diddnot+N+Der/Ag:diddnoj N_ODD "spark" ; ! no. 6728
 didtjul:didtjul N_ODD "lizard" ; ! no. 348
 diehkák:diehkág2 N_ODD "pole of a Saami tent" ; ! no. 364
 dieltek:dielteg2 N_ODD "leather covering for the front of a Saami sled" ; ! no. 3297
@@ -2064,9 +2064,11 @@ giedjek:giedjeg2 N_ODD "flower" ; ! no. 585
 giehtatjállej:giehta#tjállej N_ODD "secretary" ; ! no. 5813
 gielak:gielag2 N_ODD "-speaking" ; ! no. 90758
 gieratj:gieratj N_ODD "black woodpecker" ; ! no. 615
+gietkam+Use/NG:gierkam N_ODD "Saami cradle" ; ! no. 91014
 gieron:gieron N_ODD "rock ptarmigan" ; ! no. 635
 giessam:giessam N_ODD "large plug of tobacco" ; ! no. 6640
 giesseiednam:giesse#iednam N_ODD "summer land" ; ! no. 6059
+giesset+N+Der/Ag:giessej N_ODD "dragger, puller" ; ! no. 91018
 gietkam:gietkam N_ODD "Saami cradle" ; ! no. 623
 gietsol:gietsol N_ODD "snail" ; ! no. 4544
 girrajåhtej:girra#jåhtej N_ODD "a person migrating in spring" ; ! no. 90892
@@ -2086,7 +2088,7 @@ guorátj:gu^Orátj N_ODD "bear’s den" ; ! no. 703
 guosatj:gu^Osatj N_ODD "light snowfall" ; ! no. 2949
 gurpak:gurpag2 N_ODD "knot" ; ! no. 712
 gusak:gusag2 N_ODD "shoe made of cowhide" ; ! no. 90222
-guädd+N+Der/Ag:gu^Oddej N_ODD "carrier" ; ! no. 90878
+guäddet+N+Der/Ag:gu^Oddej N_ODD "carrier" ; ! no. 90878
 guäddemiednam:guäddem#iednam N_ODD "calving ground" ; ! no. 6653
 guähpper:gu^Ohpper N_ODD "hoof" ; ! no. 684
 guävvdel:gu^Ovvdel N_ODD "in the middle of the day" ; ! no. 4870
@@ -2123,7 +2125,7 @@ jagak:jagag2 N_ODD "one-year-old" ; ! no. 4911
 jábmem:jábmem N_ODD "death" ; ! no. 901
 jubmel:jubmel N_ODD "God" ; ! no. 928
 jumitj:jumitj N_ODD "twin" ; ! no. 4435
-jåht+N+Der/Ag:jåhtej N_ODD "mover, a person migrating" ; ! no. 90891
+jåhtet+N+Der/Ag:jåhtej N_ODD "mover, a person migrating" ; ! no. 90891
 jåhtem:jåhtem N_ODD "migrating, move" ; ! no. 4463
 jårrem:jårrem N_ODD "eddy" ; ! no. 958
 jämik:jä2mig2 N_ODD "deceased person" ; ! no. 967
@@ -2198,7 +2200,7 @@ ragat:ragad2 N_ODD "mating, breeding" ; ! no. 90383
 randek:randeg2 N_ODD "antler with many forward-facing points " ; ! no. 6894
 rábon:rábon N_ODD "brush, broom, snow shovel, scraper" ; ! no. 1357
 rádak:rádag2 N_ODD "smoked fish" ; ! no. 4448
-rádj+N+Der/Ag:rádjej N_ODD "sender" ; ! no. 3176
+rádjet+N+Der/Ag:rádjej N_ODD "sender" ; ! no. 3176
 rádnatj:rádnatj N_ODD "friend" ; ! no. 90251
 rággas:rággas N_ODD "mosquito net for sleeping under" ; ! no. 2858
 rának:ránag2 N_ODD "reindeer cow which has a calf early in spring" ; ! no. 4613
@@ -2289,7 +2291,7 @@ tjavelg:tjavelg N_ODD "lower back (for humans and animals), ridge (geography)" ;
 tjáhkkar:tjáhkkar N_ODD "boiled hoof" ; ! no. 90363
 tjálam:tjálam N_ODD "canine tooth" ; ! no. 1868
 tjálgak:tjálgag2 N_ODD "few-week-old reindeer calf" ; ! no. 1873
-tjáll+N+Der/Ag:tjállej N_ODD "secretary, author" ; ! no. 3645
+tjállet+N+Der/Ag:tjállej N_ODD "secretary, author" ; ! no. 3645
 tjállem:tjállem N_ODD "written material, writing" ; ! no. 5279
 tjátsek:tjátseg2 N_ODD "leather boot" ; ! no. 1884
 tjiebot+Use/NG:tjiebed2 N_ODD "throat, neck" ; ! no. 90949
@@ -2340,13 +2342,13 @@ vieljatj:vieljatj N_ODD "brother" ; ! no. 90384
 vienak:vienag2 N_ODD "friend" ; ! no. 2353
 vieralt:vierald2 N_ODD "world" ; ! no. 2120
 vierrek:vierreg2 N_ODD "family, relatives" ; ! no. 2109
-viess+N+Der/Ag:viessoj N_ODD "a living being" ; ! no. 90377
+viessot+N+Der/Ag:viessoj N_ODD "a living being" ; ! no. 90377
 viessom:viessom N_ODD "life, lifestyle" ; ! no. 5453
 vilguk:vilgug2 N_ODD "white reindeer, also referring to white reindeer hide shoes" ; ! no. 2119
 vinndek:vinndeg2 N_ODD "window" ; ! no. 2128
 vuobmebuollem:vuobme#bu^Ollem N_ODD "forest fire" ; ! no. 3400
 vuoddobednik:vuoddo#bednig2 N_ODD "basic amount" ; ! no. 3223
-vuodj+N+Der/Ag:vu^Odjej N_ODD "driver, chauffeur" ; ! no. 3523
+vuodjet+N+Der/Ag:vu^Odjej N_ODD "driver, chauffeur" ; ! no. 3523
 vuoján:vu^Oján N_ODD "snowmobile, four-wheeler, vehicle" ; ! no. 90573
 vuolpok:vu^Olpog2 N_ODD "daggkåpa" ; ! no. 90753
 vuonak:vu^Onag2 N_ODD "Norwegian" ; ! no. 2182
