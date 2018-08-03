@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-03T10:09:34+02:00
+! Timestamp: 2018-08-03T14:46:45+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -41,23 +41,23 @@ LEXICON Noun   !!= * __@CODE@__ is the main lexicon
 åjjveålmáj:åjjve#ålm N_CONTR_AJA "elder, alderman" ; ! no. 4780
 ålmáj:ålm N_CONTR_AJA "man, guy" ; ! no. 5222
 ålmáj+Use/NG:ålbm N_CONTR_AJA "man, guy" ; ! no. 90762
-bálges:bállges N_CONTR_ESAA "trail, path" ; ! no. 129
-biejveldisbálges:biejveldis#bállges N_CONTR_ESAA "trail on a sun-facing slope" ; ! no. 5659
-bierdnes:bierdnes N_CONTR_ESAA "mid-plate on skis where shoes are placed" ; ! no. 3718
-fáles:fálles N_CONTR_ESAA "whale" ; ! no. 467
-giehpes:giehppes N_CONTR_ESAA "lung" ; ! no. 608
-hábres:hábbres N_CONTR_ESAA "buck (male animal)" ; ! no. 3359
-jalgŋes:jalgŋes N_CONTR_ESAA "upright tree stump" ; ! no. 920
-muolvaksarves:muolvak#sarrves N_CONTR_ESAA "wild reindeer buck" ; ! no. 3835
-njuorges:nju^Orrges N_CONTR_ESAA "cartilage" ; ! no. 1303
-plásses:plás'ses N_CONTR_ESAA "stone slab" ; ! no. 1349
-rájves:rájjves N_CONTR_ESAA "male canine" ; ! no. 1383
-riebnes:riebbnes N_CONTR_ESAA "opening connected to a lake" ; ! no. 90943
-sarves:sarrves N_CONTR_ESAA "uncastrated reindeer buck" ; ! no. 1515
-tjievres:tjievvres N_CONTR_ESAA "otter" ; ! no. 1906
-vielmes:vielbmes N_CONTR_ESAA "stretch of smooth water" ; ! no. 90388
-viepses:vieppses N_CONTR_ESAA "wasp" ; ! no. 2768
-vuokses:vu^Okkses N_CONTR_ESAA "cattle" ; ! no. 90308
+bálges:bállg N_CONTR_ESAA "trail, path" ; ! no. 129
+biejveldisbálges:biejveldis#bállg N_CONTR_ESAA "trail on a sun-facing slope" ; ! no. 5659
+bierdnes:bierdn N_CONTR_ESAA "mid-plate on skis where shoes are placed" ; ! no. 3718
+fáles:fáll N_CONTR_ESAA "whale" ; ! no. 467
+giehpes:giehpp N_CONTR_ESAA "lung" ; ! no. 608
+hábres:hábbr N_CONTR_ESAA "buck (male animal)" ; ! no. 3359
+jalgŋes:jalgŋ N_CONTR_ESAA "upright tree stump" ; ! no. 920
+muolvaksarves:muolvak#sarrv N_CONTR_ESAA "wild reindeer buck" ; ! no. 3835
+njuorges:nju^Orrg N_CONTR_ESAA "cartilage" ; ! no. 1303
+plásses:plás's N_CONTR_ESAA "stone slab" ; ! no. 1349
+rájves:rájjv N_CONTR_ESAA "male canine" ; ! no. 1383
+riebnes:riebbn N_CONTR_ESAA "opening connected to a lake" ; ! no. 90943
+sarves:sarrv N_CONTR_ESAA "uncastrated reindeer buck" ; ! no. 1515
+tjievres:tjievvr N_CONTR_ESAA "otter" ; ! no. 1906
+vielmes:vielbm N_CONTR_ESAA "stretch of smooth water" ; ! no. 90388
+viepses:viepps N_CONTR_ESAA "wasp" ; ! no. 2768
+vuokses:vu^Okks N_CONTR_ESAA "cattle" ; ! no. 90308
 arrambåtsoj:arram#båhts N_CONTR_OJU "fat reindeer in good condition" ; ! no. 3893
 bibmusbåtsoj:bibmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
 båtsoj:båhts N_CONTR_OJU "reindeer" ; ! no. 263
@@ -632,6 +632,7 @@ knáhppa:knáhppa N_EVEN "button" ; ! no. 5820
 knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
 komuvdna:komuvdna N_EVEN "municipality" ; ! no. 976
 kráhka:kráhka N_EVEN "collar" ; ! no. 6639
+kránna:krán'na N_EVEN "neighbor" ; ! no. 91008
 krikksja:krikksja N_EVEN "common teal" ; ! no. 979
 kristalatj+N+Der/State:kristalatjvu^Ohta N_EVEN "Christianity" ; ! no. 980
 kristáhttje:krist#áhttje N_EVEN "godfather" ; ! no. 4031
@@ -657,6 +658,7 @@ ladnje:ladnje N_EVEN "birch twig" ; ! no. 996
 lahkke:lahkke N_EVEN "half" ; ! no. 4173
 lappse:lappse N_EVEN "dew" ; ! no. 4426
 lasse:lasse N_EVEN "supplement, addition" ; ! no. 4951
+lasska:lasska N_EVEN "woven band at the bottom of a woman's Saami frock" ; ! no. 91013
 lassta:lassta N_EVEN "leaf" ; ! no. 3053
 lasstavuobme:lassta#vu^Obme N_EVEN "deciduous forest" ; ! no. 5724
 lastabijjla:lasta#bijjla N_EVEN "truck" ; ! no. 90741
@@ -2042,9 +2044,9 @@ färras:fä2rras N_ODD "migration path" ; ! no. 2810
 gahper:gahper N_ODD "cap (part of traditional dress)" ; ! no. 6765
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
 garber:garber N_ODD "unripe berry" ; ! no. 90542
-garotj:garotj N_ODD "rubber band" ; ! no. 90253
 garrás:garrás N_ODD "windpipe" ; ! no. 546
 gartsak:gartsag2 N_ODD "rein made of tendon or leather" ; ! no. 3825
+garutj:garutj N_ODD "rubber band" ; ! no. 90253
 gaskatj:gaskatj N_ODD "waist" ; ! no. 559
 gaskok:gaskog2 N_ODD "middle brother" ; ! no. 560
 gasskaáldar:gasska#áldar N_ODD "middle ages" ; ! no. 4814
@@ -2069,7 +2071,6 @@ gietkam:gietkam N_ODD "Saami cradle" ; ! no. 623
 gietsol:gietsol N_ODD "snail" ; ! no. 4544
 girrajåhtej:girra#jåhtej N_ODD "a person migrating in spring" ; ! no. 90892
 girrjetjállej:girrje#tjállej N_ODD "author, writer" ; ! no. 4011
-gistotj:gistotj N_ODD "little box" ; ! no. 6048
 guallgamäduk:guallga#mä2dug2 N_ODD "hairy black caterpillar which becomes a butterfly" ; ! no. 5437
 guarrbaiednam:guarrba#iednam N_ODD "burned land" ; ! no. 651
 gudájagak:gudá#jagag2 N_ODD "six-year-old" ; ! no. 656
