@@ -308,7 +308,6 @@ suojmuk:suojmu A_ODD_GIS ;
 tjuavvgat:tju A_ODD_Y ;
 tjuorak:tjuora A_ODD_k_K ;
 tjurguk:tjurgu A_ODD_GIS ;
-vuollak:vuolla A_ODD_Q ;
 låmmsje:låm A_EVEN_KONTR_D ; 
 låmsjes:låm A_EVEN_KONTR_H ; 
 mivkes:miv A_EVEN_KONTR_E ; !soft? muvkes?
