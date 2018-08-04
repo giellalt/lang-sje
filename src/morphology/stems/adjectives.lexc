@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-03T12:48:54+02:00
+! Timestamp: 2018-08-04T11:06:27+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -144,6 +144,8 @@ gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
 umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
 unne:un'n A_UNNE "small, little" ; ! no. 90285
+lihkas:lihkas A_VAASSE "lame, with a limp" ; ! no. 5477
+lihkas+Use/NG:liŋkas A_VAASSE "lame, with a limp" ; ! no. 91020
 norska:norska A_VAASSE "Norwegian" ; ! no. 91002
 vásse:vás'se A_VAASSE "previous" ; ! no. 90395
 tjiegos:tjiehkos A_VUOJNOS "hidden, secret, confidential" ; ! no. 90984

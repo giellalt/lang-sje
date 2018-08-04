@@ -45,7 +45,8 @@ nålla:nål'la NUM0 "noll, zero" ;
 vuostas:vuostas ORDsuppl "först, first" ;
 mubbe:mubbe ORDsuppl "andra, second/other" ;
 mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
-mubbe+Use/NG+Sg+Ine:nubbe%>n K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
+mubbe+Use/NG+A+Ord+Sg+Ine:nubbe%>n K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
+mubbe+A+Ord+Pl+Gen:mubbe%>j K "the others'" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19210000a-lagercrantz1957a-426.061)
 lågev:låg2 NUM10 "tio, ten" ;
 tjuohte:tjuoht NUM100 "hundra, hundred"; !verify ORD form!
 tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
