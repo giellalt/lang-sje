@@ -357,11 +357,12 @@ SELECT:DemPronWithoutNPhead Pron IF (1C NoNPpossible);
 SELECT:DemPronWithPosthead Pron IF (1C Po);
 
 #rules for choosing correct Determiner case/number based on case/number of NP-Head:
+#this first GenSg rule will trump the other rules if it's first
+SELECT:GenSgDetB4GenSgNH     (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNPpossible);
+	##dan Hiŋka ålmáj Lasska lij val viehka juhke.
 SELECT:InessSgDetB4InessSgNH (Det Sg Ine) IF (*1 (N Sg Ine) BARRIER NoNPpossible);
 SELECT:ComSgDetB4ComSgNH     (Det Sg Com) IF (*1 (N Sg Com) BARRIER NoNPpossible);
 SELECT:IllSgDetB4IllSgNH     (Det Sg Ill) IF (*1 (N Sg Ill) BARRIER NoNPpossible);
-#this GenSg rule must go last of these otherwise a Gen-NP-complement will trump the previous rules
-SELECT:GenSgDetB4GenSgNH     (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNPpossible);
 
 ##rules for choosing Determiner reading when followed by NP in same case/number (only needed if a specific det-form can be ambiguous)
 SELECT:DetNomSgB4NounNomSg   (Det Sg Nom) IF (*1C (N Sg Nom) BARRIER NoNPpossible);
