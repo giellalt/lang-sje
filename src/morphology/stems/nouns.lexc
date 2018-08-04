@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-04T12:48:54+02:00
+! Timestamp: 2018-08-04T13:47:52+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -96,6 +96,7 @@ asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
 atåmå:atåmå N_EVEN "atom" ; ! no. 3143
 avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
+avve:avve N_EVEN "belt" ; ! no. 91037
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
 áhkarmuärrje:áhkar#mu^Orrje N_EVEN "arctic raspberry" ; ! no. 5955
@@ -968,10 +969,13 @@ sigarähtta:sigariehtta N_EVEN "cigarette" ; ! no. 3524
 sijjda:sijjda N_EVEN "family of reindeer herders and the place they live, their migration paths and settlement area" ; ! no. 3512
 sijjdafuällke:sijjda#fu^Ollke N_EVEN "Saami family as part of a Saami village" ; ! no. 90941
 sillba:sillba N_EVEN "silver" ; ! no. 1541
+sillbaavve:sillba#avve N_EVEN "silver belt" ; ! no. 91036
 sillbagukkse:sillba#gukkse N_EVEN "silver cup" ; ! no. 5671
-sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 1543
+sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 91032
 sillbakruähkke:sillba#kru^Ohkke N_EVEN "silver eyelet" ; ! no. 1544
 sillbamusea:sillba#musea N_EVEN "the Silver Museum" ; ! no. 1545
+sillbaavve+Use/NG:sillb#avve N_EVEN "silver belt" ; ! no. 91035
+sillbagåhkkå+Use/NG:sillb#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 91033
 sillda:sillda N_EVEN "herring" ; ! no. 1546
 sirre:sirre N_EVEN "cheese rack " ; ! no. 3436
 sjaddamájjge:sjaddam#ájjge N_EVEN "childhood" ; ! no. 5117
@@ -1426,7 +1430,7 @@ gårustak:gårustag2 N_EVEN4 "thread" ; ! no. 2814
 gämmulak:gä2mmulag2 N_EVEN4 "large intestine" ; ! no. 2857
 häjbmulatj:hä2jbmulatj N_EVEN4 "people that belong to a person's home" ; ! no. 90239
 juhtulak:juhtulag2 N_EVEN4 "migration route" ; ! no. 90290
-jådadak:jådadag2 N_EVEN4 "migration path" ; ! no. 948
+jådádak:jådádag2 N_EVEN4 "migration path" ; ! no. 948
 klubbádak:klubbádag2 N_EVEN4 "snow stuck to the bottom of skis" ; ! no. 4614
 laskadak:laskadag2 N_EVEN4 "wet snow in the spring" ; ! no. 4587
 lávvodak:lávvodag2 N_EVEN4 "Saturday" ; ! no. 1027
@@ -2400,6 +2404,7 @@ tjårvegietjmádda:tjårve#gietj#máddag N_ODD_OPEN "fork in antlers" ; ! no. 23
 tjårå:tjårråg N_ODD_OPEN "group of reindeer" ; ! no. 90924
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
+vuola:vu^Ollag N_ODD_OPEN "inebriation, drunkenness" ; ! no. 91034
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
 gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
