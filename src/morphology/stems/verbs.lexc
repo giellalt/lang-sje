@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-03T18:26:17+02:00
+! Timestamp: 2018-08-04T10:51:45+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1035,6 +1035,7 @@ báhkadit:báhkad V_ODD "heat up" ; ! no. 4672
 báhtarit:báhtar V_ODD "flee, hide, escape" ; ! no. 113
 báktjagit:báktjag V_ODD "be in pain" ; ! no. 126
 báktjanit:báktjan V_ODD "hurt" ; ! no. 127
+báktjedit:báktjed V_ODD "hurt, injure" ; ! no. 91019
 báldadit:báldad V_ODD "divide reindeer using a stick" ; ! no. 3793
 bálkestit:bálkest V_ODD "throw" ; ! no. 2506
 báredit:báred V_ODD "kill a sick or injured animal" ; ! no. 140
