@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-04T10:51:45+02:00
+! Timestamp: 2018-08-04T13:08:27+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -312,7 +312,7 @@ virrtit:virrti V_CONTR "must, have to" ; ! no. 2111
 vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
-vuoladuvvut:vu^Oladuvvu V_CONTR "become inebriated, become drunk" ; ! no. 3254
+vuoláduvvut:vu^Oláduvvu V_CONTR "become inebriated, become drunk" ; ! no. 3254
 vuorastuvvut:vu^Orastuvvu V_CONTR "age" ; ! no. 2188
 vurrkit:vurrki V_CONTR "hide, cache" ; ! no. 2837
 vuäjjvit:vu^Ojjvi V_CONTR "join at shoe seam" ; ! no. 5643
@@ -1301,6 +1301,7 @@ jienastit:jienast V_ODD "vote" ; ! no. 924
 jievsedit:jievsed V_ODD "become cold, have the shivers" ; ! no. 923
 jimmkudit:jimmkud V_ODD "shut one’s eyes" ; ! no. 925
 jiridit:jirid V_ODD "clear up one's head, start thinking straight" ; ! no. 3950
+jugádit:jugád V_ODD "let drink, give something to drink" ; ! no. 91030
 jugestit:jugest V_ODD "sip" ; ! no. 5620
 juksudit:juksud V_ODD "put on skis" ; ! no. 6132
 jullorit:jullor V_ODD "roll, e.g. in the snow" ; ! no. 6843
