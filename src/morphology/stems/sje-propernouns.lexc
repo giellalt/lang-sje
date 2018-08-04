@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-02T17:08:47+02:00
+! Timestamp: 2018-08-04T11:21:34+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -29,10 +29,11 @@
 
 LEXICON ProperNoun   !!= * __@CODE@__
 
-Riebnes:Riebbnes N_CONTR_ESAA "Riebnes" ; ! no. 90944
+Riebnes:Riebbn N_CONTR_ESAA "Riebnes" ; ! no. 90944
 Aksamnjárrga:Aksam#njárrga N_EVEN "Vaksamnjárgga" ; ! no. 90893
 Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 Áhkávárre:Áhká#várre N_EVEN "Akkavare" ; ! no. 90952
+Ánna:Án'na N_EVEN "Anna" ; ! no. 91021
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
 Árjepluovve+Use/NG:Árjapluovve N_EVEN "Arjeplog" ; ! no. 90999
@@ -41,12 +42,14 @@ Bassåjjve:Bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
 Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
 Bieljegájjse:Bielje#gájjse N_EVEN "Pieljekaise" ; ! no. 6841
 Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
+Elsa:Elsa N_EVEN "Elsa" ; ! no. 91026
 Frankrijjka:Frank#rijjka N_EVEN "France" ; ! no. 4238
 Gállesbuavvda:Gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
 Guarrbanjárrga:Guarrba#njárrga N_EVEN "Brännudden" ; ! no. 3401
 Gujjávvre:Guj#jávvre N_EVEN "Gujjávvre" ; ! no. 6522
 Guoledisjávvre:Guoledis#jávvre N_EVEN "Guoletisjávvre" ; ! no. 6529
 Gåbbdá:Gåbbdá N_EVEN "Gåbbda" ; ! no. 90696
+Hiŋŋka:Hiŋŋka N_EVEN "Hinga" ; ! no. 91022
 Härrgevárre:Härrge#várre N_EVEN "Renberget" ; ! no. 4123
 Inntjáválle:Inntjá#válle N_EVEN "Älvsbyn" ; ! no. 4782
 Jåhkåmåhkke:Jåhkå#måhkke N_EVEN "Jokkmokk" ; ! no. 90998
@@ -55,6 +58,7 @@ Jånnå:Jån'nå N_EVEN "Jon, Jonas, osv." ; ! no. 90884
 Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
 Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
 Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
+Krehtta:Krehtta N_EVEN "Greta" ; ! no. 91023
 Lässe:Lä2sse N_EVEN "Lars" ; ! no. 6035
 Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
 Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
@@ -66,6 +70,7 @@ Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
 Sállvojåhkå:Sállvo#jåhkå N_EVEN "Sállvobäck" ; ! no. 90694
 Sillbajåhkå:Sillba#jåhkå N_EVEN "Silbojåkk" ; ! no. 5684
 Skärrfa:Skierrfa N_EVEN "Skärrfa" ; ! no. 2809
+Smuolle:Smu^Olle N_EVEN "Smolle" ; ! no. 91024
 Stuornjárrga:Stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
 Sulitjälbma:Sulitjielbma N_EVEN "Sulitelma" ; ! no. 90942
 Suobma:Su^Obma N_EVEN "Finland" ; ! no. 1760
@@ -86,6 +91,7 @@ Bidumiedno:Bidum#iedno N_EVEN_O "Pite river" ; ! no. 170
 Bidumiedno+Use/NG:Birruma#iedno N_EVEN_O "Pite river" ; ! no. 90939
 Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
+Lassko:Lassko N_EVEN_O "Lasko" ; ! no. 91025
 Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 Stuormo:Stu^Ormo N_EVEN_O "Stormo" ; ! no. 90899
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
