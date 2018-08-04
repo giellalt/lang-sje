@@ -393,6 +393,16 @@ LEXICON A_UMASSE_s2
 !+Comp: A_ODD_COMP_V2E2AA ;
 !+Superl: A_ODD_jSUP_V2E2AA ;
 
+LEXICON A_JUHKE !juges/juhke/juhke ??
++A+Attr:^WG%>s # ;
++A: A_JUHKE_s2 ; 
+
+LEXICON A_JUHKE_s2 
++Sg+Nom:%> K ; 
++Pl+Nom:%> K ; 
+!+Comp: A_ODD_COMP_V2E2AA ;
+!+Superl: A_ODD_jSUP_V2E2AA ;
+
 
 ! COMP/SUPERL rules:
 !COMP:
