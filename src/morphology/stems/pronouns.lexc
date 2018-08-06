@@ -1023,11 +1023,13 @@ ietj+Pron+Refl+Sg+Com+PxSg2:ietjajdin # ;
 ietj+Pron+Refl+Sg+Com+PxSg2:ietjajnat # ;
 
 ietj+Pron+Refl+Sg+Acc+PxSg3:ietjavs # ;
-ietj+Pron+Refl+Sg+Gen+PxSg3:ietjas # ;
+ietj+Pron+Refl+Sg+Gen+PxSg3:ietjas # ; !cf. wordlist no. 4941
 ietj+Pron+Refl+Sg+Ill+PxSg3:iehtjasis # ;
+ietj+Pron+Refl+Sg+Ill+PxSg3:ietjasis # ; !cf. wordlist no. 4171
 ietj+Pron+Refl+Sg+Ill+PxSg3+Use/NG:allasis # ;
 ietj+Pron+Refl+Sg+Ine+PxSg3:ietjanis # ;
-ietj+Pron+Refl+Sg+Ela+PxSg3:ietjastis # ;
+ietj+Pron+Refl+Sg+Ela+PxSg3:ietjastist # ; !cf. wordlist no. 3147
+ietj+Pron+Refl+Sg+Ela+PxSg3+Use/NG:ietjastis # ;
 ietj+Pron+Refl+Sg+Com+PxSg3:ietjajnis # ;
 
 
@@ -1080,6 +1082,7 @@ ietj+Pron+Refl+Sg+Com+PxPl2:ietjajnit # ;
 ietj+Pron+Refl+Sg+Acc+PxPl3:ietjas # ;
 ietj+Pron+Refl+Sg+Acc+PxPl3:ietjavse # ;
 ietj+Pron+Refl+Sg+Gen+PxPl3:ietjase # ;
+ietj+Pron+Refl+Sg+Gen+PxPl3:ietjasa # ; !cf. wordlist no. 4117
 ietj+Pron+Refl+Sg+Gen+PxPl3:iehtjasij # ; !cf. wordlist no. 3974
 ietj+Pron+Refl+Sg+Ill+PxPl3:iehtjasise # ;
 ietj+Pron+Refl+Sg+Ine+PxPl3:ietjanisa # ;
