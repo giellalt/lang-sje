@@ -1090,38 +1090,6 @@ ietj+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
 
 
 
-! ! Det här är för att få räkneorden att kompilera, kopi från smj
-!
-!LEXICON nubbecase   !!= * __@CODE@__
-! +Sg+Gen:e%> # ;
-! +Sg+Ine+Attr:e%> # ;
-! +Sg+Ill+Attr:e%> # ;
-!! +Sg+Gen+Use/NG:e%> NAMÁK ; !
-!! +Sg+Abe:e%>#da # ;
-! +Sg+Abe+Use/NG:e%>#dak # ; !
-! +Sg+Abe+Use/NG:e%>#dagi # ; !
-! +Sg+Abe+Use/NG:e%>#dagá # ; !
-! +Sg+Abe+Err/Orth:e%>#tagá # ; !
-! +Sg+Acc:e%>v # ;
-! +Sg+Ela:e%>s # ;
-! +Sg+Ine:e%>n # ;
-! +Sg+Com:i%>jn # ;
-! +Pl+Nom:e%> # ;
-! +Pl+Gen:i%>j # ;
-!! +Pl+Gen+Use/NG:i%>j NAMÁK ; !
-!! +Pl+Abe:i%>j#da # ;
-! +Pl+Abe+Use/NG:i%>j#dak # ; !
-! +Pl+Abe+Use/NG:i%>j#dagi # ; !
-! +Pl+Abe+Use/NG:i%>j#dagá # ; !
-! +Pl+Abe+Err/Orth:i%>j#tagá # ; !
-! +Pl+Acc:i%>jd # ;
-! +Pl+Ill:i%>jda # ;
-! +Pl+Ine:i%>jn # ;
-! +Pl+Ela:i%>js # ;
-! +Pl+Com:i%>j # ;
-
-
-
 !galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
 !galla, predikativ ställning
 galla+Pron+Interr: gallacase ;
