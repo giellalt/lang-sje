@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-04T11:21:34+02:00
+! Timestamp: 2018-08-06T16:21:22+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -93,6 +93,7 @@ Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
 Lassko:Lassko N_EVEN_O "Lasko" ; ! no. 91025
 Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
+Spallo:Spallo N_EVEN_O "Spallo" ; ! no. 91047
 Stuormo:Stu^Ormo N_EVEN_O "Stormo" ; ! no. 90899
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
 Árjepluovek:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609

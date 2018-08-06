@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-06T08:39:02+02:00
+! Timestamp: 2018-08-06T17:00:49+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -643,6 +643,7 @@ kruappta:kru^Oppta N_EVEN "crypt, outdoor grave" ; ! no. 981
 kruassa:kru^Os'sa N_EVEN "cross" ; ! no. 2486
 kruossadákkte:kruossa#dákkte N_EVEN "lumbar vertebrae" ; ! no. 2853
 kruossatjårrve:kruossa#tjårrve N_EVEN "crossed antler" ; ! no. 90256
+krussa:krussa N_EVEN "jug, pitcher, crock" ; ! no. 91045
 kruvdna:kruvdna N_EVEN "crown (currency)" ; ! no. 983
 kruähkke:kru^Ohkke N_EVEN "clasp, hook" ; ! no. 982
 kuarrta:ku^Orrta N_EVEN "quarter" ; ! no. 3676
@@ -1440,6 +1441,7 @@ jådádak:jådádag2 N_EVEN4 "migration path" ; ! no. 948
 klubbádak:klubbádag2 N_EVEN4 "snow stuck to the bottom of skis" ; ! no. 4614
 laskadak:laskadag2 N_EVEN4 "wet snow in the spring" ; ! no. 4587
 lávvodak:lávvodag2 N_EVEN4 "Saturday" ; ! no. 1027
+livágatj:livágatj N_EVEN4 "thin, weak person" ; ! no. 91049
 låhkåmus:låhkåmus N_EVEN4 "reading, text" ; ! no. 1088
 lähpedak:lä2hpedag2 N_EVEN4 "rennet" ; ! no. 3030
 mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
@@ -2170,6 +2172,7 @@ muoddák:mu^Oddág2 N_ODD "bear" ; ! no. 3616
 muodok:mu^Odog2 N_ODD "similarity" ; ! no. 1674
 mådtsok:mådtsog2 N_ODD "reindeer fur shoe for children with seams on the inside" ; ! no. 2740
 månem:månem N_ODD "kidney" ; ! no. 1208
+mårák:mårág2 N_ODD "angry person" ; ! no. 91046
 mårås:mårås N_ODD "artery" ; ! no. 2852
 mähtter:mä2htter N_ODD "meter" ; ! no. 90634
 mähttseviessoj:mähttse#viessoj N_ODD "forest animal, wild game" ; ! no. 90378
@@ -2248,6 +2251,8 @@ sillbabednik:sillba#bednig2 N_ODD "silver coin, silver money" ; ! no. 90568
 sirkus:sirkus N_ODD "circus" ; ! no. 3526
 sissmutj:sissmutj N_ODD "inner quarter meat of reindeer" ; ! no. 2521
 sivvun:sivvun N_ODD "smooth water (between rapids)" ; ! no. 1550
+sjaddok:sjaddog2 N_ODD "-grown" ; ! no. 91051
+sjaddok+Use/NG:sjiddug2 N_ODD "-grown" ; ! no. 91052
 sjluptjok:sjluptjog2 N_ODD "frock coat; long, buttoned coat for men" ; ! no. 1577
 sjnjablak:sjnjablag2 N_ODD "beetle larva" ; ! no. 5099
 sjnjierbek:sjnjierbeg2 N_ODD "strong gust of wind, whirlwind" ; ! no. 1583
