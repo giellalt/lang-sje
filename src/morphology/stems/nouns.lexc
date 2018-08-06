@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-04T13:47:52+02:00
+! Timestamp: 2018-08-06T08:39:02+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -81,7 +81,8 @@ aksjuvdna:aksjuvdna N_EVEN "auction" ; ! no. 3145
 aktasatj+N+Der/State:aktasatjvu^Ohta N_EVEN "unity" ; ! no. 3988
 albme:albme N_EVEN "sky, heavens, space" ; ! no. 43
 alfabähtta:alfabiehtta N_EVEN "alphabet" ; ! no. 3085
-allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 4212
+allaskåvvlå+Use/NG:alla#skåvvla N_EVEN "school of higher education" ; ! no. 4212
+allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 91041
 allavárre:alla#várre N_EVEN "alpine mountain" ; ! no. 6838
 allegiehtje:alle#giehtje N_EVEN "western end" ; ! no. 51
 alumijdna:alumijdna N_EVEN "aluminium" ; ! no. 3094
@@ -970,6 +971,7 @@ sijjda:sijjda N_EVEN "family of reindeer herders and the place they live, their 
 sijjdafuällke:sijjda#fu^Ollke N_EVEN "Saami family as part of a Saami village" ; ! no. 90941
 sillba:sillba N_EVEN "silver" ; ! no. 1541
 sillbaavve:sillba#avve N_EVEN "silver belt" ; ! no. 91036
+sillbabissti:sillba#bissti N_EVEN "silver spoon" ; ! no. 6015
 sillbagukkse:sillba#gukkse N_EVEN "silver cup" ; ! no. 5671
 sillbagåhkkå:sillba#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 91032
 sillbakruähkke:sillba#kru^Ohkke N_EVEN "silver eyelet" ; ! no. 1544
@@ -1037,12 +1039,14 @@ skårrebåkkså:skårre#båkkså N_EVEN "leather trouser" ; ! no. 3830
 skårremåvvka:skårre#måvvka N_EVEN "leather trouser" ; ! no. 3831
 skårrå:skårrå N_EVEN "velvet duck" ; ! no. 1655
 skåvve:skåvve N_EVEN "pattern" ; ! no. 90261
+skåvvlå+Use/NG:skåvvla N_EVEN "school" ; ! no. 91039
+skåvvlålåhpe+Use/NG:skåvvla#låhpe N_EVEN "school holidays, vacation" ; ! no. 1090
 skåvvlå+Use/NG:skåvvle N_EVEN "school" ; ! no. 90940
 skåvvlå:skåvvlå N_EVEN "school" ; ! no. 1657
 skåvvlåájjge:skåvvlå#ájjge N_EVEN "school time" ; ! no. 5132
 skåvvlåbäjjve:skåvvlå#biejjve N_EVEN "school day" ; ! no. 5133
 skåvvlåbäŋŋka:skåvvlå#bieŋŋka N_EVEN "school bench" ; ! no. 6546
-skåvvlålåhpe:skåvvlå#låhpe N_EVEN "school holidays, vacation" ; ! no. 1090
+skåvvlålåhpe:skåvvlå#låhpe N_EVEN "school holidays, vacation" ; ! no. 91040
 skåvvlåmánná:skåvvlå#mánná N_EVEN "schoolchild, pupil" ; ! no. 90689
 skåvvlåráddna:skåvvlå#ráddna N_EVEN "school friend" ; ! no. 5134
 skåvvlåvuassa:skåvvlå#vu^Os'sa N_EVEN "school bag" ; ! no. 5135
@@ -1236,6 +1240,7 @@ tjålle:tjålle N_EVEN "intestine" ; ! no. 1969
 tjållgå:tjållgå N_EVEN "saliva, spit" ; ! no. 1970
 tjårrge:tjårrge N_EVEN "goldeneye (bird)" ; ! no. 1974
 tjårrve:tjårrve N_EVEN "antler, horn" ; ! no. 2635
+tjårrvebissti:tjårrve#bissti N_EVEN "spoon made of antler" ; ! no. 5322
 tjårrvemájjde:tjårrve#májjde N_EVEN "buckle made of antler" ; ! no. 1976
 tjårrvenarra:tjårrve#narra N_EVEN "knife handle made of antler" ; ! no. 6011
 tjårvegiehtje:tjårve#giehtje N_EVEN "tip (of reindeer antler)" ; ! no. 2374
@@ -1392,7 +1397,8 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åvdåmärrka:åvdå#mierrka N_EVEN "example, for example" ; ! no. 2283
 åvdåsbádne:åvdås#bádne N_EVEN "front tooth" ; ! no. 4237
 åvvdågiehtje:åvvdå#giehtje N_EVEN "front part, stem (of boat)" ; ! no. 2275
-åvvdåskåvvlå:åvvdå#skåvvlå N_EVEN "preschool" ; ! no. 5588
+åvvdåskåvvlå+Use/NG:åvvdå#skåvvle N_EVEN "preschool" ; ! no. 5588
+åvvdåskåvvlå:åvvdå#skåvvlå N_EVEN "preschool" ; ! no. 91042
 åvve:åvve N_EVEN "current in a lake" ; ! no. 6053
 äddne:ieddne N_EVEN "mother" ; ! no. 2285
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
