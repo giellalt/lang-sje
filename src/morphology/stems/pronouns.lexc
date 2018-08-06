@@ -1003,6 +1003,8 @@ LEXICON Reflexive   !!= * __@CODE@__
 
 ietj+Pron+Refl+Sg+Nom:ietj # ; !JW's data
 ietj+Pron+Refl+Sg+Nom:iehtja # ; !Martin Sjaggo huvudinformant
+ietj+Pron+Refl+Pl+Nom:ietja # ; 
+
 ietj+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
 ietj+Pron+Refl+Sg+Acc+PxSg1:iehtjanav # ;
 ietj+Pron+Refl+Sg+Gen+PxSg1:iehtjan # ;
@@ -1023,7 +1025,7 @@ ietj+Pron+Refl+Sg+Com+PxSg2:ietjajnat # ;
 ietj+Pron+Refl+Sg+Acc+PxSg3:ietjavs # ;
 ietj+Pron+Refl+Sg+Gen+PxSg3:ietjas # ;
 ietj+Pron+Refl+Sg+Ill+PxSg3:iehtjasis # ;
-ietj+Pron+Refl+Sg+Ine+PxSg3+Use/NG:allasis # ;
+ietj+Pron+Refl+Sg+Ill+PxSg3+Use/NG:allasis # ;
 ietj+Pron+Refl+Sg+Ine+PxSg3:ietjanis # ;
 ietj+Pron+Refl+Sg+Ela+PxSg3:ietjastis # ;
 ietj+Pron+Refl+Sg+Com+PxSg3:ietjajnis # ;
@@ -1058,6 +1060,7 @@ ietj+Pron+Refl+Sg+Com+PxDu3:ietjajnisa # ;
 ietj+Pron+Refl+Sg+Acc+PxPl1:iehtjamij # ;
 ietj+Pron+Refl+Sg+Acc+PxPl1:iehtjame # ;
 ietj+Pron+Refl+Sg+Gen+PxPl1:iehtjame # ;
+ietj+Pron+Refl+Sg+Gen+PxPl1:iehtjanij # ; !cf. wordlist no. 3972
 ietj+Pron+Refl+Sg+Ill+PxPl1:iehtjasimme # ;
 ietj+Pron+Refl+Sg+Ine+PxPl1:ietjaminne # ;
 ietj+Pron+Refl+Sg+Ela+PxPl1:ietjanisste # ; !ietjanist?
@@ -1067,6 +1070,7 @@ ietj+Pron+Refl+Sg+Com+PxPl1:ietjajnenieh # ;
 ietj+Pron+Refl+Sg+Acc+PxPl2:ietjadij # ;
 ietj+Pron+Refl+Sg+Acc+PxPl2:ietjavte # ;
 ietj+Pron+Refl+Sg+Gen+PxPl2:ietjade # ;
+ietj+Pron+Refl+Sg+Gen+PxPl2:iehtjajdij # ; !cf. wordlist no. 3973
 ietj+Pron+Refl+Sg+Ill+PxPl2:iehtjasijda # ;
 ietj+Pron+Refl+Sg+Ine+PxPl2:ietjanit # ;
 ietj+Pron+Refl+Sg+Ela+PxPl2:ietjastisste # ; ! ietjastist?
@@ -1076,6 +1080,7 @@ ietj+Pron+Refl+Sg+Com+PxPl2:ietjajnit # ;
 ietj+Pron+Refl+Sg+Acc+PxPl3:ietjas # ;
 ietj+Pron+Refl+Sg+Acc+PxPl3:ietjavse # ;
 ietj+Pron+Refl+Sg+Gen+PxPl3:ietjase # ;
+ietj+Pron+Refl+Sg+Gen+PxPl3:iehtjasij # ; !cf. wordlist no. 3974
 ietj+Pron+Refl+Sg+Ill+PxPl3:iehtjasise # ;
 ietj+Pron+Refl+Sg+Ine+PxPl3:ietjanisa # ;
 ietj+Pron+Refl+Sg+Ela+PxPl3:ietjastisa # ;
@@ -1085,35 +1090,35 @@ ietj+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
 
 
 
-! Det här är för att få räkneorden att kompilera, kopi från smj
-
-LEXICON nubbecase   !!= * __@CODE@__
- +Sg+Gen:e%> # ;
- +Sg+Ine+Attr:e%> # ;
- +Sg+Ill+Attr:e%> # ;
-! +Sg+Gen+Use/NG:e%> NAMÁK ; !
-! +Sg+Abe:e%>#da # ;
- +Sg+Abe+Use/NG:e%>#dak # ; !
- +Sg+Abe+Use/NG:e%>#dagi # ; !
- +Sg+Abe+Use/NG:e%>#dagá # ; !
- +Sg+Abe+Err/Orth:e%>#tagá # ; !
- +Sg+Acc:e%>v # ;
- +Sg+Ela:e%>s # ;
- +Sg+Ine:e%>n # ;
- +Sg+Com:i%>jn # ;
- +Pl+Nom:e%> # ;
- +Pl+Gen:i%>j # ;
-! +Pl+Gen+Use/NG:i%>j NAMÁK ; !
-! +Pl+Abe:i%>j#da # ;
- +Pl+Abe+Use/NG:i%>j#dak # ; !
- +Pl+Abe+Use/NG:i%>j#dagi # ; !
- +Pl+Abe+Use/NG:i%>j#dagá # ; !
- +Pl+Abe+Err/Orth:i%>j#tagá # ; !
- +Pl+Acc:i%>jd # ;
- +Pl+Ill:i%>jda # ;
- +Pl+Ine:i%>jn # ;
- +Pl+Ela:i%>js # ;
- +Pl+Com:i%>j # ;
+! ! Det här är för att få räkneorden att kompilera, kopi från smj
+!
+!LEXICON nubbecase   !!= * __@CODE@__
+! +Sg+Gen:e%> # ;
+! +Sg+Ine+Attr:e%> # ;
+! +Sg+Ill+Attr:e%> # ;
+!! +Sg+Gen+Use/NG:e%> NAMÁK ; !
+!! +Sg+Abe:e%>#da # ;
+! +Sg+Abe+Use/NG:e%>#dak # ; !
+! +Sg+Abe+Use/NG:e%>#dagi # ; !
+! +Sg+Abe+Use/NG:e%>#dagá # ; !
+! +Sg+Abe+Err/Orth:e%>#tagá # ; !
+! +Sg+Acc:e%>v # ;
+! +Sg+Ela:e%>s # ;
+! +Sg+Ine:e%>n # ;
+! +Sg+Com:i%>jn # ;
+! +Pl+Nom:e%> # ;
+! +Pl+Gen:i%>j # ;
+!! +Pl+Gen+Use/NG:i%>j NAMÁK ; !
+!! +Pl+Abe:i%>j#da # ;
+! +Pl+Abe+Use/NG:i%>j#dak # ; !
+! +Pl+Abe+Use/NG:i%>j#dagi # ; !
+! +Pl+Abe+Use/NG:i%>j#dagá # ; !
+! +Pl+Abe+Err/Orth:i%>j#tagá # ; !
+! +Pl+Acc:i%>jd # ;
+! +Pl+Ill:i%>jda # ;
+! +Pl+Ine:i%>jn # ;
+! +Pl+Ela:i%>js # ;
+! +Pl+Com:i%>j # ;
 
 
 
