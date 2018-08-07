@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-06T17:00:49+02:00
+! Timestamp: 2018-08-07T11:14:22+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -142,7 +142,7 @@ avve:avve N_EVEN "belt" ; ! no. 91037
 ávvtja:ávvtja N_EVEN "bird cherry tree" ; ! no. 92
 badjegiehtje:badje#giehtje N_EVEN "upper end, top side" ; ! no. 6130
 badjeráppta:badje#ráppta N_EVEN "upper edge" ; ! no. 4670
-bahámiella:bahá#miella N_EVEN "bad mood" ; ! no. 90629
+bahámiella:bahá#miella N_EVEN "angry mood" ; ! no. 90629
 bahás+N+Der/State:bahásvu^Ohta N_EVEN "painfulness" ; ! no. 4168
 bahta:bahta N_EVEN "bottom, butt" ; ! no. 111
 bahtarájjge:bahta#rájjge N_EVEN "anus" ; ! no. 112
@@ -2215,7 +2215,6 @@ rádjet+N+Der/NomAg:rádjej N_ODD "sender" ; ! no. 3176
 rádnatj:rádnatj N_ODD "friend" ; ! no. 90251
 rággas:rággas N_ODD "mosquito net for sleeping under" ; ! no. 2858
 rának:ránag2 N_ODD "reindeer cow which has a calf early in spring" ; ! no. 4613
-rátkam:rátkam N_ODD "dividing up a reindeer herd by owner" ; ! no. 1390
 riebak:riebag2 N_ODD "meat which was ruined by too much heat during smoking" ; ! no. 90301
 riehpen:riehpen N_ODD "opening for smoke in a kåta" ; ! no. 1405
 riejnár:riejnár N_ODD "reindeer herder" ; ! no. 3925
@@ -2481,6 +2480,7 @@ ladas:lahtas N_ODD_WG "joint (anatomy)" ; ! no. 988
 mánnásujtár:mánná#sujjtár N_ODD_WG "baby sitter" ; ! no. 4972
 náger:náhker N_ODD_WG "sleep, tiredness" ; ! no. 90555
 njuoktjam:nju^Okktjam N_ODD_WG "tongue, clapper in a reindeer bell" ; ! no. 1296
+rátkam:ráttkam N_ODD_WG "dividing up a reindeer herd by owner" ; ! no. 1390
 ruohtas:ru^Ohttas N_ODD_WG "root" ; ! no. 1431
 ruojas:ru^Odjas N_ODD_WG "shoe shaft" ; ! no. 1432
 ruppsisruohtas:ruppsis#ru^Ohttas N_ODD_WG "red beet" ; ! no. 5080

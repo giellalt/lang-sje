@@ -23,6 +23,7 @@ aj adv "också" ;
 aj+Use/NG:áj adv "också" ;
 ájjve adv ;
 ájmon adv;
+aktan adv "together" ;
 alás adv "åt väster" ;
 alebuj adv "längre mot väster" ;
 alebun adv "i längre mot väster" ;
@@ -43,7 +44,8 @@ alvosláhkáj adv "frighteningly" ;
 árrat adv ;
 arrvogisláhkáj adv "in a worthy way" ;
 
-badjen adv "uppe" ;
+badjen adv "up" ;
+badjen+Use/NG:bajjen adv "up" ;
 bajás adv ;
 bálldalugguj adv ;
 bär adv "only" ;
@@ -154,7 +156,7 @@ iktu+Use/NG:uktu adv ;
 iktuk adv "ensam" ;
 iktuk+Use/NG:uktuk adv "ensam" ;
 
-juo adv "redan" ;
+juo adv "already; jo" ;
 jámas adv "deadly, fatally" ;
 jasska adv ;
 jis adv ;
@@ -297,6 +299,7 @@ vuällen adv ;
 
 ädasik adv  "åtminstone" ;
 älu adv "ofta" ;
+älu+Use/NG:álo adv "ofta" ;
 änj adv "still, yet" ;
 ässká adv "äntligen, nyss, nu först, då först" ;
 ässki adv ;

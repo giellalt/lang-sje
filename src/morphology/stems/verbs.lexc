@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-04T13:08:27+02:00
+! Timestamp: 2018-08-07T08:54:06+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -415,7 +415,7 @@ guossástallat:guossástall V_EVEN_A "visit" ; ! no. 3271
 gurrsat:gurrs V_EVEN_A "snore" ; ! no. 3722
 gåjkodallat:gåjkodall V_EVEN_A "dry several things for a longer period of time" ; ! no. 4885
 gähttjat:giehttj V_EVEN_A "see, look" ; ! no. 783
-gärrdat:gierrd V_EVEN_A "suffer, sustain, bear" ; ! no. 788
+gärrdat:gierrd V_EVEN_A "suffer, sustain, bear, tolerate" ; ! no. 788
 gärrgat:gierrg V_EVEN_A "get prepared, get ready" ; ! no. 790
 harrat:harr V_EVEN_A "quibble (for dogs)" ; ! no. 2398
 hássat:hás's V_EVEN_A "pick up, gather up" ; ! no. 6648
@@ -1447,6 +1447,7 @@ rájjgánit:rájjgán V_ODD "become a hole" ; ! no. 5473
 rárestit:rárest V_ODD "think back to" ; ! no. 90867
 rárredit:rárred V_ODD "come to an agreement, confer" ; ! no. 2697
 rássjodit:rássjod V_ODD "rain" ; ! no. 1387
+rátkátjit:rátkátj V_ODD "divide up reindeer for each other" ; ! no. 91053
 rávaldit:rávald V_ODD "talk nonsense" ; ! no. 1392
 rejdnuhit:rejdnuh V_ODD "watch over reindeer" ; ! no. 2932
 riegádit:riegád V_ODD "be born" ; ! no. 1397
