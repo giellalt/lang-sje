@@ -131,6 +131,12 @@ LEXICON N_EVEN_DIM ! guolla->guolatj; guolle->guolátj; mánnodak->mánnodagatj
 LEXICON N_EVEN_O_DIM !gárrvo->gärvutj
 +Der/Dimin:^WG%>tj^V2O2U N_DIM_s2 ;
 
+LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns that have unusual morphophonology (always -a- as V3))
++N+Sg+Nom:^UAUML%>    K ;
++N:a N_EVEN_ESS ; ! Essive
++N:a N_EVEN_ILL ;
++N:a^WG N_EVEN_WK ; ! CG here
++N:a N_EVEN_DIM ; !DIM derivation
 
 
 !LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
