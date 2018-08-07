@@ -196,6 +196,7 @@ SET V-MOOD = Ind OR Pot OR Imprt OR Cond ;
 
 SET VFIN = V-MOOD ;
 
+LIST 3SGV = (V Sg3) ; #finite verbs inflected for 3sg
 
 SET NOT-COP-V = V - COPULAS ;
 
@@ -372,9 +373,6 @@ SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1C (N Sg Ela) BARRIER NoNPpossibl
 #MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
 #MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
 
-#subject in Sg(3) triggers 3sg on finite V after
-SELECT:3SGafterNomSg (V Sg3) IF (*-1 Sg OR Sg3 BARRIER S-BOUNDARY OR CC);
-	##båtsoj älgij	#not a very useful example
 #subject in Sg(3) triggers 3sg on finite V before
 #SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
 	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
@@ -437,8 +435,9 @@ SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
 #!! !Agreement rules for verb triggered by full NP
 SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C NounOrNum + Pl + Nom BARRIER CLB);
 SELECT:Pl3b4NomPl    Pl3 IF (0 V)(*1C  NounOrNum + Pl + Nom BARRIER CLB);
-SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB);
-SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB);
+SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
+	##dä Hiŋŋka bätsij gåhtáj niejdaj aktan. #aktan should not be chosen as "aktanit" V Ind Prs Sg3
+SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
 
 
 #if the following slot has a noun, choose gen.sg #!should come after verb agreement rules!
