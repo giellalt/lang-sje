@@ -23,7 +23,8 @@ PrePostposition ;
 !only postpositions
 LEXICON Postposition   !!= * __@CODE@__ is the list
 allelin PostP "i väster" ;
-badjen PostP "uppe" ;
+badjen PostP "up" ;
+badjen+Use/NG:bajjen PostP "up" ;
 bajjelij PostP ;
 bajjelin PostP ;
 bajjelis PostP ;
