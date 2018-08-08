@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-08T14:40:47+02:00
+! Timestamp: 2018-08-08T16:46:39+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1157,6 +1157,7 @@ sållbe:sållbe N_EVEN "pocket" ; ! no. 1820
 såpptå:såpptå N_EVEN "foam, lather" ; ! no. 1824
 sårrtå:sårrtå N_EVEN "type, sort" ; ! no. 3139
 sårrve:sårrve N_EVEN "dry pine" ; ! no. 4904
+sårrå:sårrå N_EVEN "wound, sore" ; ! no. 91069
 såvvle:såvvle N_EVEN "water on top of ice but under snow on a lake" ; ! no. 1827
 särrga+Use/NG:sieddga N_EVEN "willow" ; ! no. 90443
 sähkoguallga:sähko#gu^Ollga N_EVEN "fur bristle around reindeer hooves" ; ! no. 90226
@@ -1411,6 +1412,7 @@ akktagatj:akktagatj N_EVEN4 "single" ; ! no. 3991
 aládak:aládag2 N_EVEN4 "westerly wind" ; ! no. 40
 áhtjelatj:áhtjelatj N_EVEN4 "fatherly" ; ! no. 4032
 ájádus:ájádus N_EVEN4 "thought, speculation" ; ! no. 5296
+árrvádus:árrvádus N_EVEN4 "suspicion, guess; mystery" ; ! no. 91070
 ássjálatj:ássjálatj N_EVEN4 "criminal" ; ! no. 5263
 bárgáldak:bárgáldag2 N_EVEN4 "braid" ; ! no. 141
 biejvádak:biejvádag2 N_EVEN4 "sunshine, sunny day" ; ! no. 4580
