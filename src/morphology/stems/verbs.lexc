@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-08T14:55:30+02:00
+! Timestamp: 2018-08-08T16:55:28+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -174,6 +174,7 @@ murrjit:murrji V_CONTR "pick berries" ; ! no. 4589
 murrkit:murrki V_CONTR "break apart" ; ! no. 2766
 mällit:mä2lli V_CONTR "grind meat or coffee beans" ; ! no. 6573
 nagerduvvut:nagerduvvu V_CONTR "become sleepy" ; ! no. 1232
+nággeduvvut:nággeduvvu V_CONTR "be forced, be pressed" ; ! no. 91067
 nikktit:nikkti V_CONTR "put up with, accept" ; ! no. 1268
 ninnit:ninni V_CONTR "support, strengthen" ; ! no. 1243
 nisskit:nisski V_CONTR "kill a reindeer by stabbing it in the neck" ; ! no. 2777
@@ -321,6 +322,7 @@ välldut:vä2lldu V_CONTR "get married" ; ! no. 2222
 välljit:vä2llji V_CONTR "choose, select" ; ! no. 3288
 värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 årrát+Use/NG:åddá V_CONTR "fall asleep" ; ! no. 90455
+åjteduvvut:åjteduvvu V_CONTR "be slain, be killed, be murdered" ; ! no. 91071
 årrát:årrá V_CONTR "fall asleep" ; ! no. 2263
 ällát:ä2llá V_CONTR "survive" ; ! no. 4339
 ärrbit:ä2rrbi V_CONTR "inherit" ; ! no. 3470
@@ -790,7 +792,7 @@ vuärrdet:vu^Orrd V_EVEN_E "wait" ; ! no. 2591
 värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 årret+Use/NG:ådd V_EVEN_E "sleep" ; ! no. 90456
 åjaldahttet:åjaldahtt V_EVEN_E "forget" ; ! no. 2060
-åjjtet:åjjt V_EVEN_E "slay" ; ! no. 3740
+åjjtet:åjjt V_EVEN_E "slay, kill, murder" ; ! no. 3740
 ånedasstet:ånedasst V_EVEN_E "make a bit shorter" ; ! no. 5037
 årodahttet:årodahtt V_EVEN_E "be habitable" ; ! no. 3226
 årret:årr V_EVEN_E "sleep" ; ! no. 2267
@@ -1250,6 +1252,7 @@ gåmådit:gåmåd V_ODD "topple" ; ! no. 757
 gåmåstit:gåmåst V_ODD "be stored" ; ! no. 758
 gårrodit:gårrod V_ODD "become covered in ice" ; ! no. 4693
 gåsådit:gåsåd V_ODD "cough a little bit" ; ! no. 4898
+gåvganit:gåvgan V_ODD "become open" ; ! no. 91068
 gähppadit:gä2hppad V_ODD "work out easily" ; ! no. 6807
 gähttjalit:gä2httjal V_ODD "attempt, try" ; ! no. 2384
 gärrvudit:gä2rrvud V_ODD "get dressed, put on clothes" ; ! no. 793
