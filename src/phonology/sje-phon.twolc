@@ -35,6 +35,7 @@ Alphabet
   %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
   %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
   %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
+  %^VDEL:0   !!≈ ; @CODE@ : delete final V2 vowel in compounds or gájk
   %^MON:0    !!≈ ; @CODE@ : Monophthong in contracted stems
   %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
   %^IEUML:0    !!≈ ; @CODE@ : ie to ä, gielbar / gällbara
@@ -66,7 +67,7 @@ Sets
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            A       E       I               O           U           Æ Ä Ø Ö Å Á É Í Ó Ú 
                            i2              %^O         u2            ä2 ;
-  Dummy  =  %^WG %^G3 %^V2E2AA %^V2O2U %^CDEL %^MON %^UAUML %^IEUML %^IUML %^IJ ; 
+  Dummy  =  %^WG %^G3 %^V2E2AA %^V2O2U %^CDEL %^VDEL %^MON %^UAUML %^IEUML %^IUML %^IJ ; 
   
 Definitions
 
@@ -533,7 +534,18 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! ! acc.sg
 ! !!€ vielbmáv
 ! !!€ v0älbmáv
-!
+
+"Final V Deletion" !gåjjkebärrgo -> gåjjkbärrgo; gájka -> gájk
+!! __@RULENAME@__  
+Vx:0 <=> [#|.#.] (Cns:) Vow:+ Cns:+ _ (%^WG:) %^VDEL: # ;
+	where Vx in ( e a ) ; !add more Vs as needed
+
+
+
+
+
+
+
 ! !nom.sg
 ! !!€ almatj
 ! !!€ almatj
