@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-07T11:14:22+02:00
+! Timestamp: 2018-08-08T08:13:40+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -284,7 +284,7 @@ dajjva:dajjva N_EVEN "place, area" ; ! no. 310
 darrve:darrve N_EVEN "tar" ; ! no. 337
 dábbde:dábbde N_EVEN "spleen" ; ! no. 292
 dábbtjá:dábbtjá N_EVEN "portable whetstone" ; ! no. 294
-dádtja:dád'tja N_EVEN "non-Saami man" ; ! no. 300
+dádtja:dád'tja N_EVEN "non-Saami man; ethnic Swede or Norwegian" ; ! no. 300
 dáhpe:dáhpe N_EVEN "custom, way, tradition" ; ! no. 6089
 dákkte:dákkte N_EVEN "bone" ; ! no. 314
 dálatjájjge:dálatj#ájjge N_EVEN "nowadays, modern, current" ; ! no. 5763
@@ -1547,6 +1547,7 @@ digge:digge N_EVEN_NOCG "court, parlament" ; ! no. 369
 duädde:du^Odde N_EVEN_NOCG "addition" ; ! no. 406
 dågge:dågge N_EVEN_NOCG "abomasum, fourth stomach" ; ! no. 414
 dållågádde:dållå#gádde N_EVEN_NOCG "place next to a fire" ; ! no. 90981
+dållågádde+Use/NG:dållåm#gádde N_EVEN_NOCG "place next to a fire" ; ! no. 91058
 dåresbägga:dåres#biegga N_EVEN_NOCG "sidewind" ; ! no. 5964
 däddo:dieddo N_EVEN_NOCG "weight" ; ! no. 4745
 fágge:fágge N_EVEN_NOCG "wrestling" ; ! no. 465
