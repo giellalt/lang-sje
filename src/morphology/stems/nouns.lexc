@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-08T08:13:40+02:00
+! Timestamp: 2018-08-08T14:40:47+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1613,6 +1613,7 @@ nårre+Use/NG:nådde N_EVEN_NOCG "burden" ; ! no. 90470
 nårro+Use/NG:nåddo N_EVEN_NOCG "ball of yarn, skein" ; ! no. 90499
 radde:radde N_EVEN_NOCG "edge" ; ! no. 1360
 rárre+Use/NG:rádde N_EVEN_NOCG "advice, proposal, council" ; ! no. 90440
+rátkamsåbbe:rátkam#såbbe N_EVEN_NOCG "stick used to divide up reindeer" ; ! no. 91064
 riddo:riddo N_EVEN_NOCG "avalanche" ; ! no. 3539
 rigge:rigge N_EVEN_NOCG "chain, especially used to hang a pot over a fire" ; ! no. 1407
 ruävvderigge:ruävvde#rigge N_EVEN_NOCG "iron chain to hold up a skillet" ; ! no. 4779
@@ -2047,6 +2048,7 @@ duolbak:du^Olbag2 N_ODD "platform" ; ! no. 3790
 durkum:durkum N_ODD "birch bud" ; ! no. 403
 dåját:dåjád2 N_ODD "thin snow crust which breaks everywhere" ; ! no. 3607
 dåktår:dåktår N_ODD "doctor, physician" ; ! no. 90619
+dållåm:dållåm N_ODD "fire place, fireside" ; ! no. 91065
 däbmuk:dä2bmug2 N_ODD "trout" ; ! no. 296
 ertik:ertig2 N_ODD "side of reindeer" ; ! no. 2881
 fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
