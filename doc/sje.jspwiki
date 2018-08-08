@@ -52,6 +52,7 @@ Semantic properties of names
  ^G3      * marks grade three for stems w/o Cgrad
  ^V2E2AA  * e to á (before j), o to u before j in V2
  ^CDEL    * Deleting final consonant, biednag
+ ^VDEL    * Deleting final V2 vowel in compounds or gájk
  ^MON     * Monophthong in contract
  ^UAUML   * uo to uä juolge / juällge
  ^IEUML   * ie to ä etc. gielbar gællbara
@@ -670,7 +671,15 @@ Pronouns
 
 
 
+
+
  * __LEXICON Indefinita   __
+
+
+
+
+
+
 
 
 
@@ -844,6 +853,7 @@ Propernouns
  ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
    %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
  ; %^CDEL:0 : delete final consonant odd (biednag)
+ ; %^VDEL:0 : delete final V2 vowel in compounds or gájk
  ; %^MON:0 : Monophthong in contracted stems
  ; %^UAUML:0 : uo to uä juolge / juällge
  ; %^IEUML:0 : ie to ä, gielbar / gällbara
@@ -988,6 +998,15 @@ __V2 E to Á __
 __V2 E to Á before S __  
 
 __V2 O to U __  
+
+
+__Final V Deletion __  
+
+
+
+
+
+
 
 
 

@@ -41,6 +41,7 @@ Semantic properties of names
  ^G3      * marks grade three for stems w/o Cgrad
  ^V2E2AA  * e to á (before j), o to u before j in V2
  ^CDEL    * Deleting final consonant, biednag
+ ^VDEL    * Deleting final V2 vowel in compounds or gájk
  ^MON     * Monophthong in contract
  ^UAUML   * uo to uä juolge / juällge
  ^IEUML   * ie to ä etc. gielbar gællbara
