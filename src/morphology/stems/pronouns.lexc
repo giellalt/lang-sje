@@ -482,21 +482,48 @@ gallat+Pron+Interr+Pl+Ine:galladijn # ;
 gallat+Pron+Interr+Pl+Ela:galladijst # ;
 gallat+Pron+Interr+Pl+Com:galladij # ;
 
+
+
 LEXICON Indefinita   !!= * __@CODE@__
 
-!gájjka:jk ´all, allt, alla, hel, hela´, används prediaktivt endast i pluralis, singularis nominativformen används attributivt
 
-!gájjka, attributiv ställning
-gájjka+Pron+Indef+Sg+Nom:gájjka # ;
+GAAJJKA ; ! ´everything, everyone, all; all, allt, alla, hel, hela´, 
 
-!gájjka, predikativ ställning
-gájjka+Pron+Indef+Pl+Nom:gájka # ;
-gájjka+Pron+Indef+Pl+Acc:gájkajd # ;
-gájjka+Pron+Indef+Pl+Gen:gájkaj # ;
-gájjka+Pron+Indef+Pl+Ill:gájkajda # ;
-gájjka+Pron+Indef+Pl+Ine:gájkajn # ;
-gájjka+Pron+Indef+Pl+Ela:gájkajst # ;
-gájjka+Pron+Indef+Pl+Com:gájkaj # ;
+LEXICON GAAJJKA !adding stem variant with -a- for all possibilities
+gájjka:gájjk GAAJJKA_s2 ;
+gájjka+Use/NG:gajjk GAAJJKA_s2 ; 
+
+LEXICON GAAJJKA_s2 !stage2
++Pron+Indef+Sg:a GAAJJKA_SG ; !indefinite pronoun in Sg
++Pron+Indef+Pl:a^WG GAAJJKA_PL ; !indefinite pronoun in Pl
++A+Attr:a^WG GAAJJKA_ATTR ;
+
+LEXICON GAAJJKA_ATTR !
+ # ;
+:^VDEL # ; !gajka->gajk
+
+LEXICON GAAJJKA_SG !
++Nom: # ;
+!check the following forms before uncommenting them!
+!+Acc:^WGv # ;
+!+Gen:^WG # ;
+!+Ill:j # ;
+!+Ine:^WGn # ;
+!+Ela:^WGst # ;
+!+Com:^WGjn # ;
+!+Com:^WGjna # ;
+
+LEXICON GAAJJKA_PL !
++Nom: # ;
+!check the following forms before uncommenting them!
++Acc:jd # ; !cf. pit080909.146
+!+Gen:j # ;
+!+Ill:jda # ;
+!+Ine:jn # ;
+!+Ela:jst # ;
+!+Com:j # ;
+
+
 
 !mådde:dd ´fler än två, flera´
 
