@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-08T09:14:22+02:00
+! Timestamp: 2018-08-08T14:55:30+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1156,7 +1156,7 @@ galljedit:galljed V_ODD "expand" ; ! no. 524
 ganástit:ganást V_ODD "chew lichen" ; ! no. 534
 ganjáldit:ganjáld V_ODD "fill with tears" ; ! no. 536
 garkagit:garkag V_ODD "become rancid" ; ! no. 4990
-garradit:gar'rad V_ODD "harden" ; ! no. 91059
+garradit:gar'rad V_ODD "harden, make harder" ; ! no. 91059
 garrodit:garrod V_ODD "curse, use profanity" ; ! no. 550
 gasnedit:gasned V_ODD "sneeze once" ; ! no. 5171
 gasnestit:gasnest V_ODD "sneeze once" ; ! no. 5765
@@ -1189,6 +1189,7 @@ giehpebut:giehpeb V_ODD "make easier, simplify" ; ! no. 4821
 giehpedit:giehped V_ODD "make easier" ; ! no. 2385
 giehtjadit:giehtjad V_ODD "contemplate" ; ! no. 3261
 giehtjastit:giehtjast V_ODD "look briefly" ; ! no. 4397
+giehtjatjit:giehtjatj V_ODD "see a little, check up on" ; ! no. 91066
 gielestit:gielest V_ODD "lie, tell an untruth" ; ! no. 614
 gierastit:gierast V_ODD "ski ahead" ; ! no. 616
 gierdastit:gierdast V_ODD "have in a corral" ; ! no. 90170
@@ -1637,7 +1638,7 @@ trisádit:trisád V_ODD "inject water or larvae into a reindeer’s nose" ; ! no
 tsaggastit:tsaggast V_ODD "obstruct, block, hinder" ; ! no. 1994
 tsamadit:tsamad V_ODD "whisper" ; ! no. 1999
 tsammkalit:tsammkal V_ODD "whisper briefly" ; ! no. 6781
-tsábmestit:tsábmest V_ODD "hit down, knock down" ; ! no. 90669
+tsábmestit:tsábmest V_ODD "hit down, knock down, strike" ; ! no. 90669
 tsáskadit:tsáskad V_ODD "walk across frozen snow" ; ! no. 2000
 tsávaldit:tsávald V_ODD "make or force one's way" ; ! no. 2001
 tsibtsástit:tsibtsást V_ODD "pinch, nip, squeeze" ; ! no. 2006
