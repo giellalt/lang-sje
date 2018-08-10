@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-08T16:55:28+02:00
+! Timestamp: 2018-08-10T09:33:43+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -105,6 +105,7 @@ firrkut:firrku V_CONTR "shake" ; ! no. 5326
 fivvrit:fivvri V_CONTR "transport" ; ! no. 5549
 fuabbmát:fu^Obbmá V_CONTR "realize" ; ! no. 481
 funderit:funderi V_CONTR "think about, consider" ; ! no. 90874
+fäŋŋgit:fä2ŋŋgi V_CONTR "arrest, catch" ; ! no. 91073
 färrut:fä2rru V_CONTR "drive, go, travel" ; ! no. 90645
 gessut:gessu V_CONTR "be drawn, be pulled" ; ! no. 5252
 gieladuvvut:gieladuvvu V_CONTR "loose one’s voice, become hoarse" ; ! no. 3876
@@ -1126,6 +1127,7 @@ duohpanit:du^Ohpan V_ODD "shrink" ; ! no. 397
 duoldadit:du^Oldad V_ODD "boil for a long time" ; ! no. 2554
 dustodit:dustod V_ODD "meet, receive repeatedly" ; ! no. 5409
 duvdistit:duvdist V_ODD "drive a reindeer herd" ; ! no. 6057
+dåbdåstit:dåbdåst V_ODD "admit, confess, acknowledge" ; ! no. 91074
 dåhpolit:dåhpol V_ODD "grab quickly" ; ! no. 90966
 dåjdestit:dåjdest V_ODD "rinse off quickly" ; ! no. 4742
 dålåstit:dålåst V_ODD "start a fire" ; ! no. 422
