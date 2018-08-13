@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-10T09:33:43+02:00
+! Timestamp: 2018-08-13T15:53:59+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -337,12 +337,12 @@ asstat:asst V_EVEN_A "have time" ; ! no. 80
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
 ávvat:ávv V_EVEN_A "release a reindeer herd" ; ! no. 2801
 badjelgähttjat:badjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 90882
+bagadallat:bagadall V_EVEN_A "chastise, admonish, warn" ; ! no. 3720
 bahástallat:bahástall V_EVEN_A "be against something" ; ! no. 4705
 ballat:ball V_EVEN_A "be scared" ; ! no. 90833
 barrgat:barrg V_EVEN_A "work, do a job" ; ! no. 144
 bassat:bass V_EVEN_A "wash" ; ! no. 149
 bádjat:bádj V_EVEN_A "let, cause" ; ! no. 3439
-bágadallat:bágadall V_EVEN_A "chastise, admonish, warn" ; ! no. 3720
 bádjat+Use/NG:bájj V_EVEN_A "let, cause" ; ! no. 90472
 bákktjat:bákktj V_EVEN_A "back out (a boat)" ; ! no. 124
 bállgat:bállg V_EVEN_A "move to a snow field in order to avoid insects in the summer " ; ! no. 3785
@@ -502,6 +502,7 @@ rudnat:rudn V_EVEN_A "talk, speak" ; ! no. 1424
 ruodjat:ru^Odj V_EVEN_A "scream out, holler" ; ! no. 1429
 ruvvat:ruvv V_EVEN_A "bark fiercely (for dogs)" ; ! no. 5750
 råhkåstallat:råhkåstall V_EVEN_A "worship, adore" ; ! no. 90660
+räjjvat:riejjv V_EVEN_A "whip, strike, beat" ; ! no. 91078
 sárrat+Use/NG:sádd V_EVEN_A "breathe heavily, pant (for animals)" ; ! no. 90468
 ságastallat:ságastall V_EVEN_A "converse" ; ! no. 5108
 sáhtsat:sáhts V_EVEN_A "carve" ; ! no. 5110
@@ -803,6 +804,7 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
 agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
 avstot:avst V_EVEN_O "scoop, bail out" ; ! no. 3674
+ájjgot:ájjg V_EVEN_O "intend, mean to" ; ! no. 27
 ávgŋot:ávgŋ V_EVEN_O "tear apart" ; ! no. 2613
 bájdnot:bájdn V_EVEN_O "get a secondary flavor or color" ; ! no. 3647
 bállkot:bállk V_EVEN_O "throw, cast" ; ! no. 135
@@ -884,6 +886,7 @@ låhtot:låht V_EVEN_O "weave shoestraps by hand" ; ! no. 1091
 låjjgot:låjjg V_EVEN_O "release, thaw" ; ! no. 2752
 májdnot:májdn V_EVEN_O "commend, praise" ; ! no. 1117
 muhkot:muhk V_EVEN_O "moo (for cows)" ; ! no. 3908
+muttkot:muttk V_EVEN_O "smash into pieces" ; ! no. 91079
 mållsot:målls V_EVEN_O "exchange, trade" ; ! no. 1203
 måsstot:måsst V_EVEN_O "become sour at someone" ; ! no. 1220
 märrkot:mierrk V_EVEN_O "mark reindeer calves" ; ! no. 1227
@@ -1019,6 +1022,7 @@ avvadit:avvad V_ODD "waste time" ; ! no. 90143
 ásatjit:ásatj V_ODD "procure a little bit at a time" ; ! no. 6087
 áskelit:áskel V_ODD "chase off a dog" ; ! no. 76
 badjánit:badján V_ODD "get up" ; ! no. 2391
+bagadit:bagad V_ODD "admonish, chastise" ; ! no. 99
 bagestit:bagest V_ODD "rip, tear off" ; ! no. 4417
 bajedit:bajed V_ODD "raise, lift" ; ! no. 4102
 badjánit+Use/NG:bajján V_ODD "get up" ; ! no. 90980
@@ -1033,7 +1037,6 @@ basadit:basad V_ODD "wash oneself" ; ! no. 148
 bassestit:bassest V_ODD "fry a little bit, fry quickly" ; ! no. 5501
 basskedit:bassked V_ODD "make tighter, shrink" ; ! no. 4694
 bavredit:bavred V_ODD "become alert" ; ! no. 155
-bágádit:bágád V_ODD "admonish, chastise" ; ! no. 99
 báhkadit:báhkad V_ODD "heat up" ; ! no. 4672
 báhtarit:báhtar V_ODD "flee, hide, escape" ; ! no. 113
 báktjagit:báktjag V_ODD "be in pain" ; ! no. 126
@@ -1122,6 +1125,7 @@ dudjuhit:dudjuh V_ODD "do handicrafts" ; ! no. 4735
 dufádit:dufád V_ODD "dawdle, procrastinate" ; ! no. 3474
 dujtusit:dujtus V_ODD "hurry up, stress" ; ! no. 387
 dullvudit:dullvud V_ODD "chase, hunt (for dogs following reindeer)" ; ! no. 3779
+duobmanit:du^Obman V_ODD "be emptied" ; ! no. 91077
 duoddastit:du^Oddast V_ODD "attest" ; ! no. 3144
 duohpanit:du^Ohpan V_ODD "shrink" ; ! no. 397
 duoldadit:du^Oldad V_ODD "boil for a long time" ; ! no. 2554
