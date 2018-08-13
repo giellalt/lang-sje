@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-13T16:17:28+02:00
+! Timestamp: 2018-08-13T19:28:49+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -195,6 +195,7 @@ bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 birri:birri N_EVEN "bear" ; ! no. 2357
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
 bissti:bissti N_EVEN "spoon" ; ! no. 190
+buvdna+Use/NG:bivdna N_EVEN "village, community" ; ! no. 4202
 buvvda+Use/NG:bivvda N_EVEN "shed" ; ! no. 90466
 bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
 blárre:blárre N_EVEN "sheet, leaf (of paper)" ; ! no. 2922

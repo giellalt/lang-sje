@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-13T15:53:59+02:00
+! Timestamp: 2018-08-13T19:16:02+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -641,7 +641,6 @@ bivvdet:bivvd V_EVEN_E "fish, trap, hunt" ; ! no. 194
 bulligåhtet:bulligåht V_EVEN_E "begin to burn" ; ! no. 90641
 buollet:bu^Oll V_EVEN_E "burn, be on fire" ; ! no. 90640
 buorastahttet:buorastahtt V_EVEN_E "greet, shake hands" ; ! no. 3753
-bivvdet+Use/NG:buvvd V_EVEN_E "fish, trap, hunt" ; ! no. 90405
 buvvet:buvv V_EVEN_E "strangle" ; ! no. 3706
 buäkktet:bu^Okkt V_EVEN_E "come with something" ; ! no. 3036
 buälldet:bu^Olld V_EVEN_E "burn, ignite" ; ! no. 228
