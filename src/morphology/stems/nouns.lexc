@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-10T09:21:58+02:00
+! Timestamp: 2018-08-13T16:17:28+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -329,7 +329,6 @@ duohpa:du^Ohpa N_EVEN "tassel" ; ! no. 5838
 duäjjke:du^Ojjke N_EVEN "pressure, hectic, effectivity" ; ! no. 407
 duällje:du^Ollje N_EVEN "reindeer, moose or other hide" ; ! no. 409
 dynamijjta:dynamijjta N_EVEN "dynamite" ; ! no. 3936
-dåbbde:dåbbde N_EVEN "expert" ; ! no. 4741
 dåhpe:dåhpe N_EVEN "house" ; ! no. 416
 dåhppå:dåhppå N_EVEN "sheath" ; ! no. 3627
 dållge:dållge N_EVEN "down, feathers" ; ! no. 419
@@ -792,7 +791,6 @@ mällga:miellga N_EVEN "chest (for animals)" ; ! no. 1225
 mällke:miellke N_EVEN "milk" ; ! no. 1226
 mällkebádne:mällke#bádne N_EVEN "baby tooth" ; ! no. 5735
 märrka:mierrka N_EVEN "mark" ; ! no. 90184
-märrkadåbbde:märrka#dåbbde N_EVEN "person knowledgable about reindeer earmarks" ; ! no. 4997
 nabdasnamma:nabdas#namma N_EVEN "nickname" ; ! no. 4564
 nagervuassa:nager#vu^Os'sa N_EVEN "sleepy head" ; ! no. 6073
 namma:namma N_EVEN "name" ; ! no. 3433
@@ -1484,7 +1482,6 @@ jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
 lävvludas:lä2vvlud N_EVEN4_ASA "song" ; ! no. 5857
 råhkålvas:råhkålv N_EVEN4_ASA "church service" ; ! no. 1456
 tjåhkålvas:tjåhkålv N_EVEN4_ASA "meeting, gathering" ; ! no. 1963
-ussjulmas:ussjulm N_EVEN4_ASA "thought" ; ! no. 2037
 vuojŋanas:vu^Ojŋan N_EVEN4_ASA "brain, mind" ; ! no. 2167
 åtsålvas:åtsålv N_EVEN4_ASA "application" ; ! no. 3168
 aldagis:aldag N_EVEN4_ISA "lightning, flash" ; ! no. 46
@@ -1519,6 +1516,7 @@ suojvanis:su^Ojvan N_EVEN4_ISA "shadow" ; ! no. 2763
 tjåmodis:tjåmod N_EVEN4_ISA "a reindeer’s shoulder" ; ! no. 2883
 tsujjgidis:tsujjgid N_EVEN4_ISA "comment" ; ! no. 3106
 urudis:urud N_EVEN4_ISA "predator" ; ! no. 1344
+ussjulmis:ussjulm N_EVEN4_ISA "thought" ; ! no. 2037
 vágodis:vágod N_EVEN4_ISA "admonishment" ; ! no. 2050
 vuoberis:vu^Ober N_EVEN4_ISA "three year old reindeer buck" ; ! no. 2149
 vuoksanis:vu^Oksan N_EVEN4_ISA "vomit" ; ! no. 2174
@@ -1729,8 +1727,8 @@ diddno:diddno N_EVEN_O "flint" ; ! no. 361
 didnolássebirrso:didno#lásse#birrso N_EVEN_O "flintlock gun" ; ! no. 5670
 diehto:diehto N_EVEN_O "knowledge, information" ; ! no. 351
 dievvamánno:dievva#mánno N_EVEN_O "full moon" ; ! no. 4725
+duabbmo:du^Obbmo N_EVEN_O "verdict, judgment, sentence" ; ! no. 3897
 duddno:duddno N_EVEN_O "barrel, cask" ; ! no. 383
-duobmo:du^Obmo N_EVEN_O "court of law" ; ! no. 3897
 dårrjo:dårrjo N_EVEN_O "support" ; ! no. 4732
 dårro:dårro N_EVEN_O "fight" ; ! no. 3996
 dårrvo:dårrvo N_EVEN_O "safety, reliance" ; ! no. 5863
@@ -2281,6 +2279,7 @@ skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
 skåvlåk:skåvlåg2 N_ODD "teacher" ; ! no. 90754
 klihtar+Use/NG:slihtur N_ODD "cattle, livestock (not reindeer)" ; ! no. 90716
 släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
+smållek:smålleg2 N_ODD "shard, splinter, fragment" ; ! no. 91080
 snihkkus:snihkkus N_ODD "wood carving" ; ! no. 90829
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
 sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
@@ -2385,7 +2384,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 årrben:årrben N_ODD "sibling" ; ! no. 2264
 åråk:åråg2 N_ODD "new-born puppy" ; ! no. 90294
 ähpar:ä2hpar N_ODD "ghost of unbaptized babies" ; ! no. 4312
-äjjgut:ä2jjgud2 N_ODD "intent" ; ! no. 3171
+äjjgut:ä2jjgud2 N_ODD "intention" ; ! no. 3171
 äjjtik:ä2jjtig2 N_ODD "forefather, ancestor, parent" ; ! no. 33
 älbmuk:ä2lbmug2 N_ODD "people, crowd, public" ; ! no. 44
 aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
@@ -2435,6 +2434,7 @@ vuontsaåres:vuontsa#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 judos:juhtos N_ODD_VH "animal" ; ! no. 929
 jugos:juhkos N_ODD_VH "drink, beverage" ; ! no. 3458
 liepsos:lieppsos N_ODD_VH "fat around the rumen" ; ! no. 90552
+muotkos:mu^Ottkos N_ODD_VH "shard, splinter, fragment" ; ! no. 91081
 slåtjos:slåhtjos N_ODD_VH "diarrhea" ; ! no. 1681
 suvol:suvvol N_ODD_VH "heat haze" ; ! no. 1780
 sågor:såhkor N_ODD_VH "sugar" ; ! no. 1815
@@ -2457,6 +2457,7 @@ bårjås:bårrjås N_ODD_WG "sail" ; ! no. 248
 båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
 bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
 dimbar:dimmbar N_ODD_WG "wood, timber" ; ! no. 90322
+dåbbdet+N+Der/NomAg:dåbbdej N_ODD_WG "expert" ; ! no. 4741
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 gamár:gabmár N_ODD_WG "getostmassa (efter första ystning)" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
