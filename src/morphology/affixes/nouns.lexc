@@ -216,6 +216,11 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Ela+Use/NG:i2%>s K ;
 +Sg+Com:i2%>jn K ;
 +Ess:i2%>n K ;
+
+!+Ess+Use/NG:^CDEL%>n K ; 
+!!needs to delete the final C of the stem! 
+!!but shouldn't apply to DIM-forms (currently just adds -n, without V before!)
+
 +Abe:a%>htá K ;
 +Pl+Nom:a%> K ;
 +Pl+Acc:i2%>jd K ;

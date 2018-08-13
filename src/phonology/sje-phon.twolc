@@ -285,6 +285,13 @@ d:0 <=> Vow r _ j Vow: Cns:* ( Dummy: ) %^WG: ; ! girdje<->girje (non-standard v
 Cx:0 <=> Vow: _ %^WG: %^CDEL: ;
 	where Cx in ( b d g s h ) ; 
 
+!!need to confirm this, then make sure it is functional first! all ODD-classes affected? what about  almatj? what about derived DIM-forms?
+!"Final C Deletion for Essive Variant" !svájnas -> svájdnas- -> svájdnan (ess)
+!!! __@RULENAME@__  
+!Cx:0 <=> Vow: _ %^CDEL: ;
+!	where Cx in ( g j l m n r s ) ; ! -tj!
+
+
 "Final devoicing"
 !! __@RULENAME@__  
 Cx:Cy <=> _ (%^WG:) (%>:) # ;
