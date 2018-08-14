@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-13T19:28:49+02:00
+! Timestamp: 2018-08-14T09:27:47+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -727,6 +727,7 @@ malle:malle N_EVEN "pattern, template" ; ! no. 3736
 mannedávvda:manne#dávvda N_EVEN "contagious disease, epidemic" ; ! no. 1131
 mannje:mannje N_EVEN "daughter-in-law, sister-in-law" ; ! no. 1133
 maŋŋegiehtje:maŋŋe#giehtje N_EVEN "back part, back side" ; ! no. 1138
+marrsa:marrsa N_EVEN "March" ; ! no. 91082
 marrta:marrta N_EVEN "marten" ; ! no. 1141
 máddaráddjá:máddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
 máddaráhkka:máddar#áhkka N_EVEN "female ancestor; mother earth" ; ! no. 3062
