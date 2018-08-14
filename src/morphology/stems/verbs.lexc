@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-13T19:16:02+02:00
+! Timestamp: 2018-08-14T14:14:24+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -44,19 +44,10 @@ IJ "negation verb" ; !!= * @CODE@
 gallgat:gilgi V_GILGIJ "shall" ; ! no. 522
 
 adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
-allvaduvvut:allvaduvvu V_CONTR "be perplexed" ; ! no. 3282
 analyserit:analyseri V_CONTR "analyze" ; ! no. 90871
-álgeduvvut:álgeduvvu V_CONTR "begin" ; ! no. 6017
 ballát:bal'lá V_CONTR "become scared" ; ! no. 131
-bájneduvvut:bájneduvvu V_CONTR "get painted" ; ! no. 90149
-bálkestuvvut:bálkestuvvu V_CONTR "be thrown" ; ! no. 2507
-báneduvvut:báneduvvu V_CONTR "became toothless" ; ! no. 90150
 biddit:biddi V_CONTR "make a bed" ; ! no. 1007
 bidtjit:bidtji V_CONTR "build" ; ! no. 4638
-biejaduvvut:biejaduvvu V_CONTR "be put aside" ; ! no. 90151
-bieljeduvvut:bieljeduvvu V_CONTR "become deaf" ; ! no. 175
-bievastuvvut:bievastuvvu V_CONTR "become sweaty" ; ! no. 6084
-bijnastuvvut:bijnastuvvu V_CONTR "be tortured" ; ! no. 4217
 birrgit:birrgi V_CONTR "manage, make do" ; ! no. 164
 birrut:birru V_CONTR "ought" ; ! no. 5904
 blänndit:blä2nndi V_CONTR "mix, blend" ; ! no. 4252
@@ -66,7 +57,6 @@ budnjut:budnju V_CONTR "dip" ; ! no. 2960
 buhttut:buhttu V_CONTR "be surprised; be caught in the act" ; ! no. 3260
 bullit:bulli V_CONTR "light, ignite" ; ! no. 5522
 bulltjit:bulltji V_CONTR "form ice crust on rocks" ; ! no. 204
-burgoduvvut:burgoduvvu V_CONTR "be forbidden" ; ! no. 90153
 burrit:bur'ri V_CONTR "drill" ; ! no. 4006
 busskit:busski V_CONTR "fart" ; ! no. 196
 buvvdit:buvvdi V_CONTR "invite, offer" ; ! no. 3316
@@ -76,17 +66,14 @@ bäjjvut:bä2jjvu V_CONTR "be bleached" ; ! no. 174
 bäkktjit:bä2kktji V_CONTR "hurt someone" ; ! no. 3947
 bällit:bä2lli V_CONTR "get the opportunity to do something" ; ! no. 4203
 bärrkit:bä2rrki V_CONTR "tan leather using willow" ; ! no. 3218
-dagaduvvut:dagaduvvu V_CONTR "be done" ; ! no. 90154
 deklarerit:deklareri V_CONTR "declare" ; ! no. 3567
 devdnut:devdnu V_CONTR "serve, earn" ; ! no. 366
 devvut:devvu V_CONTR "become full" ; ! no. 4710
 didtjit:didtji V_CONTR "beg" ; ! no. 362
-dielmoduvvut:dielmoduvvu V_CONTR "be trampled, stomped on" ; ! no. 5533
 dinntjit:dinntji V_CONTR "give someone a beating" ; ! no. 365
 dipptjit:dipptji V_CONTR "press down" ; ! no. 5658
 dubbmit:dubbmi V_CONTR "empty" ; ! no. 2676
 dubbmit:dubbmi V_CONTR "judge" ; ! no. 90821
-dubdiduvvut:dubdiduvvu V_CONTR "mark, characterize" ; ! no. 5679
 duddjut:duddju V_CONTR "break off, break apart" ; ! no. 3369
 duhkkit:duhkki V_CONTR "suffice" ; ! no. 385
 duhppit:duhppi V_CONTR "quickly pull, yank" ; ! no. 5939
@@ -99,7 +86,6 @@ durrgit:durrgi V_CONTR "lay out branches in a Saami hut" ; ! no. 90538
 durrut:durru V_CONTR "start to argue or fight" ; ! no. 90644
 däbbut:dä2bbu V_CONTR "become soaked" ; ! no. 5608
 dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
-fámoduvvut:fámoduvvu V_CONTR "become powerless, strengthless" ; ! no. 4187
 firrjit:firrji V_CONTR "color" ; ! no. 2476
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
 fivvrit:fivvri V_CONTR "transport" ; ! no. 5549
@@ -108,7 +94,6 @@ funderit:funderi V_CONTR "think about, consider" ; ! no. 90874
 fäŋŋgit:fä2ŋŋgi V_CONTR "arrest, catch" ; ! no. 91073
 färrut:fä2rru V_CONTR "drive, go, travel" ; ! no. 90645
 gessut:gessu V_CONTR "be drawn, be pulled" ; ! no. 5252
-gieladuvvut:gieladuvvu V_CONTR "loose one’s voice, become hoarse" ; ! no. 3876
 gillbit:gillbi V_CONTR "snow and be very windy" ; ! no. 4825
 grävvit:grä2vvi V_CONTR "bury" ; ! no. 90646
 gullgit:gullgi V_CONTR "lose hair (for hide)" ; ! no. 4860
@@ -120,7 +105,6 @@ gurrpit:gurrpi V_CONTR "bundle together" ; ! no. 3510
 gurrvit:gurrvi V_CONTR "make sausage" ; ! no. 3636
 guvdnjit:guvdnji V_CONTR "euthanize a dog" ; ! no. 716
 guvvnit:guvvni V_CONTR "decay, rot (inside a birch)" ; ! no. 3190
-gåhtjoduvvut:gåhtjoduvvu V_CONTR "be commanded, be called" ; ! no. 3231
 gåhttsát:gåhttsá V_CONTR "awaken" ; ! no. 743
 gähkkit:gä2hkki V_CONTR "bake soft bread" ; ! no. 6205
 gähttit:gä2htti V_CONTR "be careful, be afraid for, take care" ; ! no. 784
@@ -133,8 +117,6 @@ himmsit:himmsi V_CONTR "mess" ; ! no. 6880
 hinnit:hinni V_CONTR "manage on time" ; ! no. 4926
 hivvát:hivvá V_CONTR "become thin, become sick" ; ! no. 3921
 häddjit:hä2ddji V_CONTR "disperse, break up" ; ! no. 5266
-ieljaduvvut:ieljaduvvu V_CONTR "be weak" ; ! no. 5892
-ietjájduvvut:ietjájduvvu V_CONTR "be changed" ; ! no. 4634
 jimmkit:jimmki V_CONTR "blink, shut one’s eyes" ; ! no. 2775
 jurrbit:jurrbi V_CONTR "round off" ; ! no. 3167
 jåhttát:jåhttá V_CONTR "begin moving, begin migrating" ; ! no. 4464
@@ -155,7 +137,6 @@ luggit:luggi V_CONTR "pull on someone's hair" ; ! no. 4612
 luggŋit:luggŋi V_CONTR "lift, raise" ; ! no. 1060
 luvvit:luvvi V_CONTR "loosen a knot" ; ! no. 6049
 luvvsit:luvvsi V_CONTR "show the way, direct" ; ! no. 1078
-lånestuvvut:lånestuvvu V_CONTR "be saved, be redeemed" ; ! no. 4135
 läddit:lä2ddi V_CONTR "charge (e.g. a battery)" ; ! no. 90711
 lägit:lä2gi V_CONTR "fix, repair" ; ! no. 3494
 lähppit:lä2hppi V_CONTR "make cheese" ; ! no. 3029
@@ -165,7 +146,6 @@ lättkit+Use/NG:lä2rrki V_CONTR "not fare well" ; ! no. 90500
 lässit:lä2ssi V_CONTR "lock" ; ! no. 4090
 lättkit:lä2ttki V_CONTR "not fare well" ; ! no. 4952
 lävvkit:lä2vvki V_CONTR "take a step" ; ! no. 1106
-mierreduvvut:mierreduvvu V_CONTR "be decided, be intended" ; ! no. 90277
 mihttit:mihtti V_CONTR "measure" ; ! no. 2559
 mijdnit:mijdni V_CONTR "mean" ; ! no. 1150
 mirrkit:mirrki V_CONTR "mark" ; ! no. 5518
@@ -174,8 +154,6 @@ mulit:muli V_CONTR "paint" ; ! no. 3646
 murrjit:murrji V_CONTR "pick berries" ; ! no. 4589
 murrkit:murrki V_CONTR "break apart" ; ! no. 2766
 mällit:mä2lli V_CONTR "grind meat or coffee beans" ; ! no. 6573
-nagerduvvut:nagerduvvu V_CONTR "become sleepy" ; ! no. 1232
-nággeduvvut:nággeduvvu V_CONTR "be forced, be pressed" ; ! no. 91067
 nikktit:nikkti V_CONTR "put up with, accept" ; ! no. 1268
 ninnit:ninni V_CONTR "support, strengthen" ; ! no. 1243
 nisskit:nisski V_CONTR "kill a reindeer by stabbing it in the neck" ; ! no. 2777
@@ -217,7 +195,6 @@ sjuddit:sjuddi V_CONTR "make noise, holler" ; ! no. 1595
 sjuggát:sjuggá V_CONTR "be creative, make something up" ; ! no. 1596
 sjuhppit:sjuhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 1600
 sjussit:sjussi V_CONTR "give someone a ride" ; ! no. 5954
-sjuvtjaguvvut:sjuvtjaguvvu V_CONTR "be frostbitten" ; ! no. 5405
 skihppát:skihppá V_CONTR "become sick" ; ! no. 5129
 skillbit:skillbi V_CONTR "shake" ; ! no. 1623
 skinit:skini V_CONTR "understand" ; ! no. 1625
@@ -274,10 +251,8 @@ säddjit:sä2ddji V_CONTR "sow, scatter" ; ! no. 1831
 sälltit:sä2llti V_CONTR "salt" ; ! no. 3940
 säpptit:sä2ppti V_CONTR "bait" ; ! no. 3078
 tilltit:tillti V_CONTR "camp, tent" ; ! no. 3520
-tjalmeduvvut:tjalmeduvvu V_CONTR "go blind, lose vision" ; ! no. 1876
 tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 90668
 tjiddnut:tjiddnu V_CONTR "constipated" ; ! no. 1899
-tjiegaduvvut:tjiegaduvvu V_CONTR "become hidden" ; ! no. 3896
 tjillgit:tjillgi V_CONTR "explain, define" ; ! no. 1895
 tjubbmit:tjubbmi V_CONTR "scale fish" ; ! no. 3606
 tjuggit:tjuggi V_CONTR "stab, poke" ; ! no. 5331
@@ -285,16 +260,11 @@ tjuhkkit:tjuhkki V_CONTR "gather, collect" ; ! no. 1920
 tjujdnit:tjujdni V_CONTR "stand while leaning forward considerably" ; ! no. 5328
 tjulbmit:tjulbmi V_CONTR "knot, make a knot" ; ! no. 5228
 tjullit:tjulli V_CONTR "clean fish" ; ! no. 3605
-tjuoladuvvut:tju^Oladuvvu V_CONTR "slice, cut" ; ! no. 5528
-tjuorgaduvvut:tju^Orgaduvvu V_CONTR "paint" ; ! no. 90367
 tjurrvit:tjurrvi V_CONTR "call someone quickly" ; ! no. 5337
-tjåvdeduvvut:tjåvdeduvvu V_CONTR "set free, liberate" ; ! no. 3233
 tjähttsit:tjä2httsi V_CONTR "water" ; ! no. 4391
 truvvgit:truvvgi V_CONTR "force" ; ! no. 4579
-tsábmestuvvut:tsábmestuvvu V_CONTR "be hit down, knocked down" ; ! no. 90911
 tsevvut:tsevvu V_CONTR "become hardpack (for snow)" ; ! no. 90745
 tsibbtsut:tsibbtsu V_CONTR "pinch someone" ; ! no. 5712
-tsiggiduvvut:tsiggiduvvu V_CONTR "be constructed, be erected" ; ! no. 90234
 tsiggit:tsiggi V_CONTR "build, set up, raise" ; ! no. 2003
 tsihkkit:tsihkki V_CONTR "start (a fire)" ; ! no. 90083
 tsujjgit:tsujjgi V_CONTR "point out, draw someone’s attention to something" ; ! no. 2012
@@ -305,8 +275,6 @@ uddnut:uddnu V_CONTR "indulge, not begrudge" ; ! no. 2020
 ullit:ulli V_CONTR "finish something" ; ! no. 3713
 urdnit:urdni V_CONTR "arrange" ; ! no. 2034
 vádtsát:vádtsá V_CONTR "head out, start going, begin walking" ; ! no. 90394
-vájvástuvvut:vájvástuvvu V_CONTR "anguish, squirm" ; ! no. 2069
-válldeduvvut:válldeduvvu V_CONTR "be taken" ; ! no. 90389
 viddnit:viddni V_CONTR "win, be victorious" ; ! no. 2114
 vijjdit:vijjdi V_CONTR "take a long detour" ; ! no. 4550
 virrdut:virrdu V_CONTR "avoid being caught, get farther and farther away without being stopped (for reindeer)" ; ! no. 5943
@@ -314,8 +282,6 @@ virrtit:virrti V_CONTR "must, have to" ; ! no. 2111
 vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
-vuoláduvvut:vu^Oláduvvu V_CONTR "become inebriated, become drunk" ; ! no. 3254
-vuorastuvvut:vu^Orastuvvu V_CONTR "age" ; ! no. 2188
 vurrkit:vurrki V_CONTR "hide, cache" ; ! no. 2837
 vuäjjvit:vu^Ojjvi V_CONTR "join at shoe seam" ; ! no. 5643
 vähttjit:vä2httji V_CONTR "drive around" ; ! no. 2219
@@ -323,10 +289,46 @@ välldut:vä2lldu V_CONTR "get married" ; ! no. 2222
 välljit:vä2llji V_CONTR "choose, select" ; ! no. 3288
 värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 årrát+Use/NG:åddá V_CONTR "fall asleep" ; ! no. 90455
-åjteduvvut:åjteduvvu V_CONTR "be slain, be killed, be murdered" ; ! no. 91071
 årrát:årrá V_CONTR "fall asleep" ; ! no. 2263
 ällát:ä2llá V_CONTR "survive" ; ! no. 4339
 ärrbit:ä2rrbi V_CONTR "inherit" ; ! no. 3470
+allvaduvvut:allvaduvv V_CONTR_UVVUT "be perplexed" ; ! no. 3282
+álgeduvvut:álgeduvv V_CONTR_UVVUT "begin" ; ! no. 6017
+bájneduvvut:bájneduvv V_CONTR_UVVUT "get painted" ; ! no. 90149
+bálkestuvvut:bálkestuvv V_CONTR_UVVUT "be thrown" ; ! no. 2507
+báneduvvut:báneduvv V_CONTR_UVVUT "became toothless" ; ! no. 90150
+biejaduvvut:biejaduvv V_CONTR_UVVUT "be put aside" ; ! no. 90151
+bieljeduvvut:bieljeduvv V_CONTR_UVVUT "become deaf" ; ! no. 175
+bievastuvvut:bievastuvv V_CONTR_UVVUT "become sweaty" ; ! no. 6084
+bijnastuvvut:bijnastuvv V_CONTR_UVVUT "be tortured" ; ! no. 4217
+burgoduvvut:burgoduvv V_CONTR_UVVUT "be forbidden" ; ! no. 90153
+dagaduvvut:dagaduvv V_CONTR_UVVUT "be done" ; ! no. 90154
+dielmoduvvut:dielmoduvv V_CONTR_UVVUT "be trampled, stomped on" ; ! no. 5533
+dubdiduvvut:dubdiduvv V_CONTR_UVVUT "mark, characterize" ; ! no. 5679
+fámoduvvut:fámoduvv V_CONTR_UVVUT "become powerless, strengthless" ; ! no. 4187
+gieladuvvut:gieladuvv V_CONTR_UVVUT "loose one’s voice, become hoarse" ; ! no. 3876
+gåhtjoduvvut:gåhtjoduvv V_CONTR_UVVUT "be commanded, be called" ; ! no. 3231
+idjaduvvut:idjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91085
+ieljaduvvut:ieljaduvv V_CONTR_UVVUT "be weak" ; ! no. 5892
+ietjájduvvut:ietjájduvv V_CONTR_UVVUT "be changed" ; ! no. 4634
+idjaduvvut+Use/NG:ijjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91086
+lånestuvvut:lånestuvv V_CONTR_UVVUT "be saved, be redeemed" ; ! no. 4135
+mierreduvvut:mierreduvv V_CONTR_UVVUT "be decided, be intended" ; ! no. 90277
+nagerduvvut:nagerduvv V_CONTR_UVVUT "become sleepy" ; ! no. 1232
+nággeduvvut:nággeduvv V_CONTR_UVVUT "be forced, be pressed" ; ! no. 91067
+sjuvtjaguvvut:sjuvtjaguvv V_CONTR_UVVUT "be frostbitten" ; ! no. 5405
+tjalmeduvvut:tjalmeduvv V_CONTR_UVVUT "go blind, lose vision" ; ! no. 1876
+tjiegaduvvut:tjiegaduvv V_CONTR_UVVUT "become hidden" ; ! no. 3896
+tjuoladuvvut:tju^Oladuvv V_CONTR_UVVUT "slice, cut" ; ! no. 5528
+tjuorgaduvvut:tju^Orgaduvv V_CONTR_UVVUT "paint" ; ! no. 90367
+tjåvdeduvvut:tjåvdeduvv V_CONTR_UVVUT "set free, liberate" ; ! no. 3233
+tsábmestuvvut:tsábmestuvv V_CONTR_UVVUT "be hit down, knocked down" ; ! no. 90911
+tsiggiduvvut:tsiggiduvv V_CONTR_UVVUT "be constructed, be erected" ; ! no. 90234
+vájvástuvvut:vájvástuvv V_CONTR_UVVUT "anguish, squirm" ; ! no. 2069
+válldeduvvut:válldeduvv V_CONTR_UVVUT "be taken" ; ! no. 90389
+vuoláduvvut:vu^Oláduvv V_CONTR_UVVUT "become inebriated, become drunk" ; ! no. 3254
+vuorastuvvut:vu^Orastuvv V_CONTR_UVVUT "age" ; ! no. 2188
+åjteduvvut:åjteduvv V_CONTR_UVVUT "be slain, be killed, be murdered" ; ! no. 91071
 amastallat:amastall V_EVEN_A "feel foreign" ; ! no. 3542
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
@@ -404,6 +406,7 @@ giessat:giess V_EVEN_A "roll, wrap" ; ! no. 4829
 gievrastallat:gievrastall V_EVEN_A "sound strong" ; ! no. 4833
 gihtsat:gihts V_EVEN_A "be in the middle of something" ; ! no. 5269
 gihtsustallat:gihtsustall V_EVEN_A "do gymnastics, exercise" ; ! no. 4230
+gillat:gil'l V_EVEN_A "tolerate, endure, sustain" ; ! no. 91084
 girrjat:girrj V_EVEN_A "engrave" ; ! no. 638
 guavvlat:gu^Ovvl V_EVEN_A "peek slyly" ; ! no. 2614
 guldudallat:guldudall V_EVEN_A "find out" ; ! no. 666
@@ -577,7 +580,7 @@ tjiehkat:tjiehk V_EVEN_A "hide, conceal" ; ! no. 1891
 tjihttat:tjihtt V_EVEN_A "seal, caulk" ; ! no. 3792
 tjikktat:tjikkt V_EVEN_A "repair a net" ; ! no. 1907
 tjuahppat:tju^Ohpp V_EVEN_A "cut off, chop off, harvest" ; ! no. 5476
-tjuajjgat:tju^Ojjg V_EVEN_A "ski, go skiing" ; ! no. 1950
+tjuajjgat:tju^Ojjg V_EVEN_A "ski, go cross-country skiing" ; ! no. 1950
 tjuavvgat:tju^Ovvg V_EVEN_A "light, illuminate, glow" ; ! no. 1953
 tjuhkudallat:tjuhkudall V_EVEN_A "sit down for a while" ; ! no. 5346
 tjuodjat:tju^Odj V_EVEN_A "sound" ; ! no. 2516
