@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-14T09:27:47+02:00
+! Timestamp: 2018-08-15T13:54:59+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -213,6 +213,7 @@ buallja:bu^Ollja N_EVEN "clear-cut forest" ; ! no. 5994
 buallva:bu^Ollva N_EVEN "knee, kneecap" ; ! no. 200
 buavvda:bu^Ovvda N_EVEN "round treeless mountain top surrounded by forest" ; ! no. 201
 buavvdåjjve:buavvd#åjjve N_EVEN "bald head" ; ! no. 4701
+båtsojmärrka+Use/NG:buhtsu#mierrka N_EVEN "reindeer earmark" ; ! no. 91093
 buhtsutjårrve:buhtsu#tjårrve N_EVEN "reindeer antler" ; ! no. 2300
 bukstávva:bukstávva N_EVEN "letter of the alphabet" ; ! no. 3364
 bulla:bulla N_EVEN "bread roll, bun" ; ! no. 90705
@@ -840,6 +841,7 @@ njuäbbrebässe:njuäbbre#bies'se N_EVEN "thin birch bark" ; ! no. 1310
 njållomájjge:njållom#ájjge N_EVEN "calving season" ; ! no. 5017
 nuarrta:nu^Orrta N_EVEN "north" ; ! no. 3844
 nuorra+N+Der/State:nuorravu^Ohta N_EVEN "youth" ; ! no. 3055
+nuortabielle:nuorta#bielle N_EVEN "north side, north shore" ; ! no. 91090
 nuortatjbielle:nuortatj#bielle N_EVEN "north side, north shore" ; ! no. 90976
 nurrsjudållå:nurrsju#dållå N_EVEN "log fire" ; ! no. 1326
 nuähtte:nu^Ohtte N_EVEN "seine net (fishing net)" ; ! no. 1328
@@ -1309,6 +1311,7 @@ várrja+N+Der/NomAg:várrjalieddje N_EVEN "guardian" ; ! no. 3265
 viega:viega N_EVEN "road" ; ! no. 4137
 vierra:vierra N_EVEN "esker; wheel; ski pole basket" ; ! no. 2108
 viessomájjge:viessom#ájjge N_EVEN "lifetime" ; ! no. 4228
+viessomájjge:viessom#ájjge N_EVEN "life, lifetime" ; ! no. 91089
 viessomlájjbe:viessom#lájjbe N_EVEN "subsistence" ; ! no. 3516
 viessomvuohke:viessom#vu^Ohke N_EVEN "way of life, lifestyle" ; ! no. 5597
 vihke:vihke N_EVEN "error, mistake, damage, injury" ; ! no. 2124
@@ -1328,6 +1331,7 @@ vuasstá:vu^Osstá N_EVEN "cheese" ; ! no. 2332
 vuavvda:vu^Ovvda N_EVEN "birdhouse" ; ! no. 2145
 vuavvla:vu^Ovvla N_EVEN "abdominal cavity" ; ! no. 2146
 vuobme:vu^Obme N_EVEN "forest" ; ! no. 5457
+vuobmelánnda:vuobme#lánnda N_EVEN "forest land" ; ! no. 91092
 vuodja:vu^Odja N_EVEN "butter, grease" ; ! no. 2151
 vuodjemhärrge:vuodjem#hierrge N_EVEN "head reindeer, leading reindeer" ; ! no. 3832
 vuodna:vu^Odna N_EVEN "fjord" ; ! no. 90266
