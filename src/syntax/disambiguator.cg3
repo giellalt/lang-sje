@@ -124,11 +124,11 @@ LIST Prs = Prs ;
 LIST Prt = Prt ;
 LIST Ind = Ind ; 
 LIST Pot = Pot ; 
-LIST Cond = Cond ;
+#LIST Cond = Cond ; !
 LIST Imprt = Imprt ; 
 LIST Sup = Sup ;
-LIST IV = IV ; 
-LIST TV = TV ;
+LIST IV = IV ; #intransitive verb
+LIST TV = TV ; #transitive verb
 
 LIST Sg1 = Sg1 ; 
 LIST Sg2 = Sg2 ; 
@@ -192,7 +192,7 @@ SET NonThirdPerson = Sg1 OR Sg2 OR Du1 OR Du2 OR Pl1 OR Pl2 ;
 LIST COPULAS = "sjaddat" "lä" "gallgat";
 
 
-SET V-MOOD = Ind OR Pot OR Imprt OR Cond ;
+SET V-MOOD = Ind OR Pot OR Imprt ;
 
 SET VFIN = V-MOOD ;
 
@@ -233,7 +233,7 @@ SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen)
          (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
 SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 
-LIST NoNP = V CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok!)
+LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok!)
 
 SET NPpossible = NP-HEAD OR PRE-NP-HEAD ; #possible anywhere in an NP
 SET NPpossibleNoPro = N OR PRE-NP-HEAD ; #possible anywhere in an NP excluding personal pronouns not in GEN (full NPs)
