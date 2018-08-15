@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-14T14:14:24+02:00
+! Timestamp: 2018-08-15T10:14:47+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1646,6 +1646,7 @@ tjåsskodit:tjåsskod V_ODD "cool down" ; ! no. 3157
 tjähkkidit:tjä2hkkid V_ODD "manage to find space" ; ! no. 5948
 tjähppudit:tjä2hppud V_ODD "become black, become dirty, sooty, filthy" ; ! no. 4472
 trisádit:trisád V_ODD "inject water or larvae into a reindeer’s nose" ; ! no. 90370
+tsaggadit:tsaggad V_ODD "obstruct, block, hinder, fasten" ; ! no. 91087
 tsaggastit:tsaggast V_ODD "obstruct, block, hinder" ; ! no. 1994
 tsamadit:tsamad V_ODD "whisper" ; ! no. 1999
 tsammkalit:tsammkal V_ODD "whisper briefly" ; ! no. 6781
