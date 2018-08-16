@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-15T10:27:43+02:00
+! Timestamp: 2018-08-16T17:01:51+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -77,7 +77,6 @@ Sulitjälbma:Sulitjielbma N_EVEN "Sulitelma" ; ! no. 90942
 Suobma:Su^Obma N_EVEN "Finland" ; ! no. 1760
 Svärdje:Svierdje N_EVEN "Sweden" ; ! no. 1799
 Tjuvtasvuodna:Tjuvtas#vu^Odna N_EVEN "Tysfjord" ; ! no. 4017
-Tjårvekvuobme:Tjårvek#vu^Obme N_EVEN "Hornavan forest" ; ! no. 90959
 Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
 Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
 Vuonatjluakkta:Vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
