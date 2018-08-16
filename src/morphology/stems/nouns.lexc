@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-15T13:54:59+02:00
+! Timestamp: 2018-08-16T10:22:56+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -540,6 +540,7 @@ gärrda:gierrda N_EVEN "reindeer corral" ; ! no. 787
 gärrge:gierrge N_EVEN "stone, rock" ; ! no. 791
 gärrgeláhpa:gärrge#láhpa N_EVEN "rock overhang" ; ! no. 90916
 gärrgemuvvra:gärrge#muvvra N_EVEN "rock wall" ; ! no. 3795
+gärrisgiessejhärrge:gärris#giessej#hierrge N_EVEN "sled-pulling reindeer buck" ; ! no. 91098
 gättke+Use/NG:gierrke N_EVEN "wolverine" ; ! no. 90465
 gättka:giettka N_EVEN "protruding, weight-bearing log in a shed on a stilt (njalla)" ; ! no. 5869
 gättke:giettke N_EVEN "wolverine" ; ! no. 2792
@@ -634,6 +635,7 @@ klåhkkå:klåhkkå N_EVEN "clock" ; ! no. 975
 knáhppa:knáhppa N_EVEN "button" ; ! no. 5820
 knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
 komuvdna:komuvdna N_EVEN "municipality" ; ! no. 976
+krannasijjda:kranna#sijjda N_EVEN "neighboring (Saami) village" ; ! no. 91091
 kráhka:kráhka N_EVEN "collar" ; ! no. 6639
 kránna:krán'na N_EVEN "neighbor" ; ! no. 91008
 krikksja:krikksja N_EVEN "common teal" ; ! no. 979
@@ -663,6 +665,7 @@ lahkke:lahkke N_EVEN "half" ; ! no. 4173
 lappse:lappse N_EVEN "dew" ; ! no. 4426
 lasse:lasse N_EVEN "supplement, addition" ; ! no. 4951
 lasska:lasska N_EVEN "woven band at the bottom of a woman's Saami frock" ; ! no. 91013
+lasskabähkke:lasska#biehkke N_EVEN "piece from a woven band at the bottom of a woman's Saami frock" ; ! no. 91097
 lassta:lassta N_EVEN "leaf" ; ! no. 3053
 lasstavuobme:lassta#vu^Obme N_EVEN "deciduous forest" ; ! no. 5724
 lastabijjla:lasta#bijjla N_EVEN "truck" ; ! no. 90741
@@ -722,6 +725,8 @@ läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
 läjjdeshärrge:läjjdes#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
 lävvka:lievvka N_EVEN "silty moist clay" ; ! no. 1105
+maddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
+maddaráhkka:maddar#áhkka N_EVEN "female ancestor; mother earth" ; ! no. 3062
 mahte:mahte N_EVEN "a bit" ; ! no. 90569
 majoritähtta:majoritiehtta N_EVEN "majority" ; ! no. 5982
 malle:malle N_EVEN "pattern, template" ; ! no. 3736
@@ -730,8 +735,6 @@ mannje:mannje N_EVEN "daughter-in-law, sister-in-law" ; ! no. 1133
 maŋŋegiehtje:maŋŋe#giehtje N_EVEN "back part, back side" ; ! no. 1138
 marrsa:marrsa N_EVEN "March" ; ! no. 91082
 marrta:marrta N_EVEN "marten" ; ! no. 1141
-máddaráddjá:máddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
-máddaráhkka:máddar#áhkka N_EVEN "female ancestor; mother earth" ; ! no. 3062
 máhka:máhka N_EVEN "brother-in-law" ; ! no. 3637
 máhttelis+N+Der/State:máhttelisvu^Ohta N_EVEN "possibility" ; ! no. 6533
 májjde:májjde N_EVEN "buckle" ; ! no. 1119
@@ -973,6 +976,7 @@ sievva:sievva N_EVEN "ocean, sea" ; ! no. 1533
 sigarähtta:sigariehtta N_EVEN "cigarette" ; ! no. 3524
 sijjda:sijjda N_EVEN "family of reindeer herders and the place they live, their migration paths and settlement area" ; ! no. 3512
 sijjdafuällke:sijjda#fu^Ollke N_EVEN "Saami family as part of a Saami village" ; ! no. 90941
+sijjdakránna:sijjda#krán'na N_EVEN "village neighbor" ; ! no. 91096
 sillba:sillba N_EVEN "silver" ; ! no. 1541
 sillbaavve:sillba#avve N_EVEN "silver belt" ; ! no. 91036
 sillbabissti:sillba#bissti N_EVEN "silver spoon" ; ! no. 6015
@@ -1179,6 +1183,7 @@ telefona:telefona N_EVEN "telephone" ; ! no. 1847
 tijbma:tijbma N_EVEN "hour" ; ! no. 1848
 tjadná:tjadná N_EVEN "birch polypore (mushroom)" ; ! no. 1854
 tjakktja:tjakktja N_EVEN "autumn, fall" ; ! no. 1866
+tjakktjaårromsadje:tjakktja#årrom#sadje N_EVEN "autumn place of residence, autumn dwelling" ; ! no. 91099
 tjaktjadállve:tjaktja#dállve N_EVEN "autumn winter" ; ! no. 2361
 tjaktjagiesse:tjaktja#giesse N_EVEN "late summer, early autumn" ; ! no. 5185
 tjaktjajiegŋa:tjaktja#jiegŋa N_EVEN "autumn ice" ; ! no. 4611
@@ -1310,8 +1315,7 @@ várretjåhkkå:várre#tjåhkkå N_EVEN "mountain top, peak, summit" ; ! no. 208
 várrja+N+Der/NomAg:várrjalieddje N_EVEN "guardian" ; ! no. 3265
 viega:viega N_EVEN "road" ; ! no. 4137
 vierra:vierra N_EVEN "esker; wheel; ski pole basket" ; ! no. 2108
-viessomájjge:viessom#ájjge N_EVEN "lifetime" ; ! no. 4228
-viessomájjge:viessom#ájjge N_EVEN "life, lifetime" ; ! no. 91089
+viessomájjge:viessom#ájjge N_EVEN "lifetime, life" ; ! no. 4228
 viessomlájjbe:viessom#lájjbe N_EVEN "subsistence" ; ! no. 3516
 viessomvuohke:viessom#vu^Ohke N_EVEN "way of life, lifestyle" ; ! no. 5597
 vihke:vihke N_EVEN "error, mistake, damage, injury" ; ! no. 2124
@@ -2167,8 +2171,8 @@ luomek:lu^Omeg2 N_ODD "Norwegian lemming" ; ! no. 1068
 luorrak:lu^Orrag2 N_ODD "bear skin" ; ! no. 2795
 låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
+maddar:maddar N_ODD "root, fore-" ; ! no. 90620
 máddak:máddag2 N_ODD "size" ; ! no. 1109
-máddár:máddár N_ODD "root" ; ! no. 90620
 mierem+Use/NG:miedem N_ODD "roe" ; ! no. 90434
 mierek:miereg2 N_ODD "spawning fish with roe" ; ! no. 5094
 mierem:mierem N_ODD "roe" ; ! no. 1149
