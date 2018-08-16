@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-15T10:14:47+02:00
+! Timestamp: 2018-08-16T17:05:50+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -282,7 +282,7 @@ virrtit:virrti V_CONTR "must, have to" ; ! no. 2111
 vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
-vurrkit:vurrki V_CONTR "hide, cache" ; ! no. 2837
+vurrkit:vurrki V_CONTR "hide, store" ; ! no. 2837
 vuäjjvit:vu^Ojjvi V_CONTR "join at shoe seam" ; ! no. 5643
 vähttjit:vä2httji V_CONTR "drive around" ; ! no. 2219
 välldut:vä2lldu V_CONTR "get married" ; ! no. 2222
@@ -1371,6 +1371,8 @@ luopdidit:lu^Opdid V_ODD "lift, rise into the sky" ; ! no. 6056
 luotkedit:lu^Otked V_ODD "untie a skein of yarn; have diarrhea" ; ! no. 6550
 luovvanit:lu^Ovvan V_ODD "loosen, untie" ; ! no. 6551
 luvvadit:luvvad V_ODD "become wet" ; ! no. 2890
+luäjjtálit:lu^Ojjtál V_ODD "release, drop, let go (repeatedly)" ; ! no. 91102
+luäjjtelit:lu^Ojjtel V_ODD "release, drop, let go (quickly)" ; ! no. 91103
 lågŋånit:lågŋån V_ODD "lift, rise up" ; ! no. 3946
 lågådit:lågåd V_ODD "have someone read" ; ! no. 90651
 låhpedit:låhped V_ODD "promise, pledge" ; ! no. 911
