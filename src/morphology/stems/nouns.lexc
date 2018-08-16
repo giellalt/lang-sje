@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-16T17:20:02+02:00
+! Timestamp: 2018-08-16T19:28:13+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2285,6 +2285,7 @@ sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
 spággak:spággag2 N_ODD "bear spear" ; ! no. 1710
 spáhkak:spáhkag2 N_ODD "hitch in a Saami packsaddle" ; ! no. 1712
 spedjil:spedjil N_ODD "mirror" ; ! no. 4585
+spedjil+Use/NG:spedjul N_ODD "mirror" ; ! no. 91107
 spietjav+Use/NG:spietjam N_ODD "tail stump on a hoofed animal" ; ! no. 90730
 spånjgåt:spånjgåd2 N_ODD "whip" ; ! no. 2982
 stalldak:stalldag2 N_ODD "reindeer which stays around a homestead" ; ! no. 4493
