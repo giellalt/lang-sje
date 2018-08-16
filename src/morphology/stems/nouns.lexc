@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-16T10:22:56+02:00
+! Timestamp: 2018-08-16T10:52:14+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -683,6 +683,7 @@ lánnda:lánnda N_EVEN "land" ; ! no. 90600
 lápptje:lápptje N_EVEN "rein made of leather" ; ! no. 4442
 lásse:lásse N_EVEN "lock" ; ! no. 3787
 látjavfuällke:látjav#fu^Ollke N_EVEN "fellow parents-in-law" ; ! no. 6069
+lávvdegåhte:lávvde#gåhte N_EVEN "Saami hut made of boards" ; ! no. 91100
 lávve:lávve N_EVEN "cousin" ; ! no. 1024
 lávvke:lávvke N_EVEN "step, stride" ; ! no. 2619
 libbja:libbja N_EVEN "hanging decoration" ; ! no. 1033
@@ -1195,6 +1196,7 @@ tjalmedis+N+Der/State:tjalmedisvu^Ohta N_EVEN "blindness" ; ! no. 6201
 tjarra:tjarra N_EVEN "soot, coal" ; ! no. 1852
 tjarrva:tjarrva N_EVEN "snow crust" ; ! no. 1880
 tjasske:tjasske N_EVEN "ermine, stoat" ; ! no. 3001
+tjavelgbuallda:tjavelg#bu^Ollda N_EVEN "slope on a mountain ridge" ; ! no. 91101
 tjáhtse:tjáhtse N_EVEN "water" ; ! no. 1861
 tjájdne:tjájdne N_EVEN "woodpecker" ; ! no. 1864
 tjállemgirrje:tjállem#girrje N_EVEN "exercise book" ; ! no. 5191
