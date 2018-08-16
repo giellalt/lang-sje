@@ -54,6 +54,7 @@ LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
 LEXICON EVENCASE
 +Sg+Nom:^UAUML%>    K ;
 N_EVEN_ESS ; ! Essive
++Cmp/SgNom:^UAUML R ; !compound element in strong-grade
 
 LEXICON N_EVEN_ILL
 +Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
@@ -92,7 +93,8 @@ LEXICON N_EVEN_J
 LEXICON N_EVEN4 !mánnodak<->mánnodag-
 +N+Sg+Nom:%> K ;
 +N:a N_EVEN4_DEFAULT ;
-+N+Cmp/SgNom:%> R ;
++N+Cmp/SgNom:%> R ; !compound element
+
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
 +N+Sg+Nom:i2s%> K ;
@@ -169,16 +171,19 @@ LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns tha
 
 LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
 +N+Sg+Nom:%> K ; 
++N+Cmp/SgNom: R ; !compound element
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
 +N+Sg+Nom:^WG%> K ;
++N+Cmp/SgNom:^WG R ; !compound element
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
-LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednaga
+LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednag-, låvdå<->låvvdåk-
 +N+Sg+Nom:^WG^CDEL%> K ;
++N+Cmp/SgNom:^WG^CDEL R ; !compound element in weak-grade, no final C
 +N: N_ODD_X ;
 +N: N_ODD_DIM ; !link to DIM
 
@@ -262,10 +267,12 @@ LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
 
 LEXICON N_CONTR_OJU !båtsoj<->buhtsu
 +N+Sg+Nom:oj^WG%> K ;
++N+Cmp/SgNom:oj^WG%> R ; !compound element in weak-grade with final C
 N_CONTR_O ;
 
 LEXICON N_CONTR_OU !suolo<->sullu
 +N+Sg+Nom:o^WG%> K ;
++N+Cmp/SgNom:o^WG%> R ; !compound element in weak-grade
 N_CONTR_O ;
 
 LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
@@ -292,6 +299,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 
 LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Sg+Nom:á^WGj%> K ;
++N+Cmp/SgNom:á^WGj%> R ; !compound element in weak-grade with final-C
 +N+Sg+Acc:á%>v K ;
 +N+Sg+Gen:á%> K ;
 +N+Sg+Ill:á%>j K ;
@@ -316,6 +324,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 
 LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Sg+Nom:e^WGs%> K ;
++N+Cmp/SgNom:e^WGs%> R ; !compound element in weak-grade with final-C
 +N+Sg+Acc:á%>v K ;
 +N+Sg+Gen:á%> K ;
 +N+Sg+Ill:á%>j K ;
