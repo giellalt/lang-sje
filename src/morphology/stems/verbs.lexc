@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-16T17:05:50+02:00
+! Timestamp: 2018-08-21T17:27:51-06:00
 
 !! !!!Pite Saami Verbs
 
@@ -333,7 +333,7 @@ amastallat:amastall V_EVEN_A "feel foreign" ; ! no. 3542
 asstat:asst V_EVEN_A "have time" ; ! no. 80
 ábbjat:ábbj V_EVEN_A "find out" ; ! no. 1
 áhtat:áht V_EVEN_A "tinker, toy with" ; ! no. 90714
-ájádallat:ájádall V_EVEN_A "spend time" ; ! no. 4532
+ájádallat:ájádall V_EVEN_A "ponder; reflect (on something); mull" ; ! no. 4532
 ájjtsat:ájjts V_EVEN_A "sight, notice" ; ! no. 35
 ánodallat:ánodall V_EVEN_A "request several times" ; ! no. 4662
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
@@ -1010,7 +1010,7 @@ anedit:aned V_ODD "hold on to" ; ! no. 59
 arranit:arran V_ODD "tan hide in water that is too hot" ; ! no. 4437
 asskelit:asskel V_ODD "yell at a dog" ; ! no. 2631
 avvadit:avvad V_ODD "waste time" ; ! no. 90143
-ádjanit:ádjan V_ODD "delay, be late" ; ! no. 4
+ádjánit:ádján V_ODD "delay, be late" ; ! no. 4
 ájedit:ájed V_ODD "be kept from working" ; ! no. 2557
 ájjbanit:ájjban V_ODD "disappear, perish" ; ! no. 18
 ájlestit:ájlest V_ODD "sanctify, revere" ; ! no. 5538
