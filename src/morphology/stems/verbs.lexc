@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-21T17:27:51-06:00
+! Timestamp: 2018-08-27T02:48:19-06:00
 
 !! !!!Pite Saami Verbs
 
@@ -46,9 +46,9 @@ gallgat:gilgi V_GILGIJ "shall" ; ! no. 522
 adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
 analyserit:analyseri V_CONTR "analyze" ; ! no. 90871
 ballát:bal'lá V_CONTR "become scared" ; ! no. 131
+berrgit:berrgi V_CONTR "manage, make do" ; ! no. 164
 biddit:biddi V_CONTR "make a bed" ; ! no. 1007
 bidtjit:bidtji V_CONTR "build" ; ! no. 4638
-birrgit:birrgi V_CONTR "manage, make do" ; ! no. 164
 birrut:birru V_CONTR "ought" ; ! no. 5904
 blänndit:blä2nndi V_CONTR "mix, blend" ; ! no. 4252
 buallát:bu^Ollá V_CONTR "burn, be on fire" ; ! no. 3303
@@ -169,6 +169,7 @@ pruvvit:pruvvi V_CONTR "rub, massage" ; ! no. 1444
 pruvvkut:pruvvku V_CONTR "use, apply, usually do" ; ! no. 1354
 pruvvut:pruvvu V_CONTR "attempt, try" ; ! no. 2974
 prähttut:prä2httu V_CONTR "talk" ; ! no. 2698
+rejjdit:rejjdi V_CONTR "finish, complete" ; ! no. 91108
 rejjsit:rejjsi V_CONTR "trip, journey" ; ! no. 6028
 rekknut:rekknu V_CONTR "count" ; ! no. 3049
 revvit:revvi V_CONTR "run away with, pull towards oneself quickly" ; ! no. 3040
@@ -1488,7 +1489,7 @@ ruvvgalit:ruvvgal V_ODD "head off (for reindeer)" ; ! no. 3005
 råhkålit:råhkål V_ODD "pray to god" ; ! no. 1455
 råsodit:råsod V_ODD "wake up repeatedly" ; ! no. 6115
 rähkkudit:rä2hkkud V_ODD "shave" ; ! no. 5065
-räjdanit:rä2jdan V_ODD "complete, finish" ; ! no. 2629
+räjjdanit:rä2jjdan V_ODD "complete, finish" ; ! no. 2629
 rävvdadit:rä2vvdad V_ODD "change, alter" ; ! no. 1464
 sagerdit:sagerd V_ODD "dry, clean, erase" ; ! no. 1482
 sagŋedit:sagŋed V_ODD "scratch" ; ! no. 1483

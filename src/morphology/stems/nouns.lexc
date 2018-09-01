@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-16T19:28:13+02:00
+! Timestamp: 2018-08-22T17:22:13-06:00
 
 !! !!!Pite Saami Nouns
 
@@ -779,7 +779,7 @@ muättke:mu^Ottke N_EVEN "isthmus" ; ! no. 2607
 mådtsåbielle:mådtså#bielle N_EVEN "opposite side, inside" ; ! no. 4989
 måhkke:måhkke N_EVEN "errand, task" ; ! no. 1198
 måhkke:måhkke N_EVEN "dead end" ; ! no. 90282
-mållke:mållke N_EVEN "crooked path or lake" ; ! no. 2797
+mållke:mållke N_EVEN "crook section of a path or lake" ; ! no. 2797
 månemgärrge:månem#gierrge N_EVEN "kidney stone" ; ! no. 1209
 månne:månne N_EVEN "egg" ; ! no. 1210
 mårre:mårre N_EVEN "anger, wrath" ; ! no. 1216
@@ -1790,7 +1790,7 @@ iello:iello N_EVEN_O "reindeer herd" ; ! no. 449
 jáffo:jáf'fo N_EVEN_O "flour" ; ! no. 3442
 jáhkko:jáhkko N_EVEN_O "belief" ; ! no. 909
 jugglo:jugglo N_EVEN_O "youth, child" ; ! no. 930
-juobmo:ju^Obmo N_EVEN_O "mountain sorrel" ; ! no. 937
+juobmo:ju^Obmo N_EVEN_O "common sorrel" ; ! no. 937
 juohko:ju^Ohko N_EVEN_O "button on a harness's trace" ; ! no. 939
 jålåsájjdo:jålås#ájjdo N_EVEN_O "reindeer trail, compacted reindeer trail" ; ! no. 955
 jålåsláhtto:jålås#láhtto N_EVEN_O "track, fresh track in the snow" ; ! no. 954
