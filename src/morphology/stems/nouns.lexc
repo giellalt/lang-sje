@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-22T17:22:13-06:00
+! Timestamp: 2018-09-26T09:35:03+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -566,7 +566,6 @@ hårre:hårre N_EVEN "pile" ; ! no. 857
 hårrte:hårrte N_EVEN "large dog" ; ! no. 4930
 häffne:hieffne N_EVEN "spider" ; ! no. 860
 häjbma:hiejbma N_EVEN "home" ; ! no. 2315
-häjbmajávvre:häjbma#jávvre N_EVEN "home lake" ; ! no. 3942
 hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
 härra:hier'ra N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer buck, castrated reindeer buck" ; ! no. 870
