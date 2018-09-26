@@ -373,8 +373,8 @@ LEXICON A_KUORA ! kuora 'left over, kvar' NO ATTR FORM!
 LEXICON A_KUORA_s2 
 +Sg+Nom:%> K ; 
 +Pl+Nom:%> K ; 
-!+Comp: A_ODD_COMP_V2E2AA ;
-!+Superl: A_ODD_jSUP_V2E2AA ;
++Comp:^WG A_ODD_COMP_V2E2AA ;
++Superl:^WG A_ODD_jSUP_V2E2AA ;
 
 LEXICON A_VAASSE ! vásse (only ATTR, no PRED-forms!)
 +A+Attr:%> # ;
