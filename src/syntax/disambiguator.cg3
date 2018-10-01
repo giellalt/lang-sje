@@ -418,9 +418,9 @@ SELECT:relProAfterNP (Pron Rel) IF (-1 N);
 
 #rules for dealing with ambiguities in gájk-/gajk-
 #choose ADV before Superl-Adj
-SELECT:gajkADVb4superl Adv IF (1 (A Superl));
-	##gájk låjemus hierge #but this could theoretically mean "all the tamest reindeer"
-REMOVE:noGajkADVwoSuperl Adv IF (NOT 1 (A Superl));
+SELECT:gajkADVb4superl (Adv "gájk") IF (1 (A Superl));
+	##gájk låjemus hierge #but couldn't this theoretically mean "all the tamest reindeer"
+REMOVE:noGajkADVwoSuperl (Adv "gájk") IF (NOT 1 (A Superl));
 
 
 #remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
