@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-09-26T09:35:03+03:00
+! Timestamp: 2018-10-01T15:05:43+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -209,7 +209,6 @@ brånnså:brånnså N_EVEN "bronze" ; ! no. 3416
 bråssjå:bråssjå N_EVEN "brooch" ; ! no. 1821
 bualdáddjá:buald#áddjá N_EVEN "bear" ; ! no. 3617
 buallda:bu^Ollda N_EVEN "slope" ; ! no. 199
-buallja:bu^Ollja N_EVEN "clear-cut forest" ; ! no. 5994
 buallva:bu^Ollva N_EVEN "knee, kneecap" ; ! no. 200
 buavvda:bu^Ovvda N_EVEN "round treeless mountain top surrounded by forest" ; ! no. 201
 buavvdåjjve:buavvd#åjjve N_EVEN "bald head" ; ! no. 4701
@@ -1491,6 +1490,7 @@ bahágis:bahág N_EVEN4_ISA "evil" ; ! no. 102
 bárgáldis:bárgáld N_EVEN4_ISA "braided end of shoestrap" ; ! no. 6778
 bátsadis:bátsad N_EVEN4_ISA "remainder, leftover" ; ! no. 3240
 binntjalis:binntjal N_EVEN4_ISA "Pentecost" ; ! no. 3655
+buoljagis:bu^Oljag N_EVEN4_ISA "treeless area" ; ! no. 91114
 busunis:busun N_EVEN4_ISA "soap bubble, balloon" ; ! no. 3467
 bätsidis:bä2tsid N_EVEN4_ISA "relict, remain" ; ! no. 90536
 gáddolis:gáddol N_EVEN4_ISA "suspicious person, suspect" ; ! no. 4147
@@ -2193,7 +2193,6 @@ návlek:návleg2 N_ODD "large silver button" ; ! no. 6890
 nieljejagak:nielje#jagag2 N_ODD "four-year-old" ; ! no. 4241
 nivsak:nivsag2 N_ODD "surly, obstinate reindeer" ; ! no. 3737
 njiehtsak:njiehtsag2 N_ODD "tendon on the inside or front side of the hind leg" ; ! no. 3766
-njierek:njiereg2 N_ODD "grassy mountaintop" ; ! no. 6524
 njierram:njierram N_ODD "landslide, slide" ; ! no. 2808
 njissjkom:njissjkom N_ODD "Saami weaving reed" ; ! no. 1291
 njuonek:nju^Oneg2 N_ODD "sniffer" ; ! no. 90956
@@ -2393,6 +2392,7 @@ aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
 állgotjála:állgo#tjállag N_ODD_OPEN "draft, rough copy" ; ! no. 5991
 badjemádda:badje#máddag N_ODD_OPEN "upper part of reindeer antlers" ; ! no. 2376
 biena:biednag N_ODD_OPEN "dog" ; ! no. 160
+buallja:bu^Olljas N_ODD_OPEN "clear-cut forest" ; ! no. 5994
 garrásgiera:garrás#gierrag N_ODD_OPEN "bronchus" ; ! no. 3415
 gáma:gábmag N_ODD_OPEN "shoe" ; ! no. 531
 giehtamádda:giehta#máddag N_ODD_OPEN "wrist" ; ! no. 592
@@ -2485,6 +2485,8 @@ kráptjok:krápptjog2 N_ODD_WG "furless leather glove" ; ! no. 90255
 ladas:lahtas N_ODD_WG "joint (anatomy)" ; ! no. 988
 mánnásujtár:mánná#sujjtár N_ODD_WG "baby sitter" ; ! no. 4972
 náger:náhker N_ODD_WG "sleep, tiredness" ; ! no. 90555
+njierek:njierreg2 N_ODD_WG "flat, grassy mountaintop" ; ! no. 6524
+njierek+Use/NG:njierrem N_ODD_WG "flat, grassy mountaintop" ; ! no. 91113
 njuoktjam:nju^Okktjam N_ODD_WG "tongue, clapper in a reindeer bell" ; ! no. 1296
 rátkam:ráttkam N_ODD_WG "dividing up a reindeer herd by owner" ; ! no. 1390
 ruohtas:ru^Ohttas N_ODD_WG "root" ; ! no. 1431
