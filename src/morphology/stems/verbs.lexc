@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-08-27T02:48:19-06:00
+! Timestamp: 2018-10-03T10:12:01+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -188,6 +188,7 @@ rässkit:rä2sski V_CONTR "have the heart to, bring oneself to" ; ! no. 4791
 sejjgit:sejjgi V_CONTR "flatten out, iron out" ; ! no. 1527
 sillgit:sillgi V_CONTR "poison" ; ! no. 4249
 sirgŋit:sirgŋi V_CONTR "be just a little soft on the outside in the morning (for snow crust)" ; ! no. 3503
+sirrát:sirrá V_CONTR "separate, branch off" ; ! no. 91116
 sirrit:sirri V_CONTR "pick blueberries" ; ! no. 5990
 sirrvit:sirrvi V_CONTR "slaughter a reindeer bull or bull moose" ; ! no. 1547
 sjirrgit:sjirrgi V_CONTR "quiet someone down" ; ! no. 3721
@@ -365,6 +366,7 @@ bäbbmat:biebbm V_EVEN_A "feed" ; ! no. 3670
 bäggat:biegg V_EVEN_A "blow (wind)" ; ! no. 2700
 bävvkat:bievvk V_EVEN_A "detonate" ; ! no. 3589
 bävvlat:bä2vvl V_EVEN_A "when the snow melts and bare ground appears" ; ! no. 90740
+dadnat:dadn V_EVEN_A "decorate with tin thread; embroider with tin thread" ; ! no. 91117
 dagadallat:dagadall V_EVEN_A "pretend" ; ! no. 4716
 dahkat:dahk V_EVEN_A "do, make, produce" ; ! no. 302
 dahpat:dahp V_EVEN_A "close, plug" ; ! no. 90846
@@ -1505,6 +1507,7 @@ siddardit:siddard V_ODD "start to rain a little bit" ; ! no. 1535
 siebdatjit:siebdatj V_ODD "attract an animal with feed, bait" ; ! no. 3661
 siegodit:siegod V_ODD "mix in more" ; ! no. 4141
 siehkanit:siehkan V_ODD "get mixed in, get involved in" ; ! no. 1526
+sieradit:sierad V_ODD "separate, part ways" ; ! no. 91115
 sijnágit:sijnág V_ODD "run out of milk" ; ! no. 4432
 sirádit:sirád V_ODD "separate, divorce" ; ! no. 2987
 sjalmadit:sjalmad V_ODD "thread a needle" ; ! no. 1557
