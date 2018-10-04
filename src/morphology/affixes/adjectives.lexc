@@ -25,6 +25,7 @@ LEXICON A_BLAAVVAT ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
 +A+Attr:i%>s # ;
 +A:ad2 A_BLAAVVAT_s2 ; 
 
+
 LEXICON A_JAORRBAOT ! jurrbut/jårrbåt/jårrbåda/??
 +A+Attr:i%>s # ;
 +A:åd2 A_BLAAVVAT_s2 ; 
@@ -402,6 +403,19 @@ LEXICON A_JUHKE_s2
 +Pl+Nom:%> K ; 
 !+Comp: A_ODD_COMP_V2E2AA ;
 !+Superl: A_ODD_jSUP_V2E2AA ;
+
+
+LEXICON A_SJAEVDNJET ! sjevdnjis/sjävdnjet/sjävdnjeda/sjävdnjedup/sjävdnjemus- !unexpected forms, but evidence from wordlist
++A+Attr:^IJ%>s # ;
++A: A_SJAEVDNJET_s2 ; 
+
+LEXICON A_SJAEVDNJET_s2 
++Sg+Nom:d2%> K ; 
++Pl+Nom:d2%>a K ; 
++Comp:^WG A_ODD_COMP ;
++Superl:^WG A_ODD_SUP ;
+
+
 
 
 ! COMP/SUPERL rules:
