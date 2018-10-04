@@ -448,7 +448,6 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* _ e: noCG Vow: \%^WG: \%^WG: ; !bierdna->b0ärdna !double \%^WG: for gierbma<->gärbmaha  (ie: neither of the two elements after V2 can be ^WG)
 
-!following doesn't work because of Ä in G3: e:ä <=> Cns:* i:0 _ G3 noVHtrig \%^WG: ;
 !!€ sjievdnje^IJ%>s
 !!€ sj0evdnji00s
 
