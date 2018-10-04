@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-04T09:06:47+02:00
+! Timestamp: 2018-10-04T12:21:15+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -35,6 +35,7 @@ hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
 ávtas:ávvtas A_AARVAS "empty, desolate, outlying" ; ! no. 91
 fuovas:fu^Ovvsas A_AARVAS "numerous" ; ! no. 90334
 gámbal:gámmbal A_AARVAS "old" ; ! no. 2493
+njalkas:njallkas A_AARVAS "slippery" ; ! no. 4195
 tjiervas:tjierrvas A_AARVAS "awful, terrible; difficult" ; ! no. 90712
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
