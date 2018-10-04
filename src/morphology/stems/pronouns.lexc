@@ -486,8 +486,19 @@ gallat+Pron+Interr+Pl+Com:galladij # ;
 
 LEXICON Indefinita   !!= * __@CODE@__
 
-
 GAAJJKA ; ! ´everything, everyone, all; all, allt, alla, hel, hela´, 
+AKKTAK ; ! 'nothing'
+DIVNA ; ! 'together?'
+GUHTIK ; ! 'anyone'
+GAOBBAAK ; ! 'both; which (of two?)'
+DAGGAR ; ! 'such'
+FAERTLAAGAATJ ; ! 'every kind of'
+GAAJJKALAAGAATJ ; ! 'all kinds of'
+GAOBBATJ ; ! 'both of two'
+MUHTEM ; ! 'some, partly'
+MAODDES ; ! 'some'
+NAAGAN ; ! 'some'
+SUHTA ; ! 'several'
 
 LEXICON GAAJJKA !adding stem variant with -a- for all possibilities
 gájjka:gájjk GAAJJKA_s2 ;
@@ -557,14 +568,14 @@ LEXICON GAAJJKA_PL !
 !juabba~juäbba:bb ´någon (av två), endera´förekommer bara attributivt och endast i singularis
 
 !juabba,attributiv ställning
-juabba+Pron+Indef+Sg+Nom:juabba # ;
-juabba+Pron+Indef+Sg+Acc:juobbav # ;
-juabba+Pron+Indef+Sg+Gen:juobba # ;
-juabba+Pron+Indef+Sg+Ill:juobba # ;
-juabba+Pron+Indef+Sg+Ine:juobban # ;
-juabba+Pron+Indef+Sg+Ela:juobbat # ;
-juabba+Pron+Indef+Sg+Com:juobbajn # ;
-juabba+Pron+Indef+Sg+Ess:juabban # ;
+!juabba+Pron+Indef+Sg+Nom:juabba # ;
+!juabba+Pron+Indef+Sg+Acc:juobbav # ;
+!juabba+Pron+Indef+Sg+Gen:juobba # ;
+!juabba+Pron+Indef+Sg+Ill:juobba # ;
+!juabba+Pron+Indef+Sg+Ine:juobban # ;
+!juabba+Pron+Indef+Sg+Ela:juobbat # ;
+!juabba+Pron+Indef+Sg+Com:juobbajn # ;
+!juabba+Pron+Indef+Sg+Ess:juabban # ;
 
 ! !nubbe:bb ´den ena, den andra, de andra´(nubbe uppträder även som ordningstal) rättat hit
 ! 
@@ -630,6 +641,7 @@ juabba+Pron+Indef+Sg+Ess:juabban # ;
 !divna all, hel, alla, alltsammans, helt och hållet, existerar ej i singularis, attributivt oböjligt
 
 !divna predikativ ställning
+LEXICON DIVNA 
 divna+Pron+Indef+Pl+Nom:divna # ;
 divna+Pron+Indef+Pl+Acc:divnajd # ;
 divna+Pron+Indef+Pl+Gen:divnaj # ;
@@ -643,50 +655,50 @@ divna+Pron+Indef+Pl+Nom:divna # ;
 
 !juohkehatj;juohkehatj-, var och en, varenda en (brukas inte attributivt, endast i singularis)
 
-!juohkehatj,predikativ ställning
-juohkehatj+Pron+Indef+Sg+Nom:juohkehatj # ;
-juohkehatj+Pron+Indef+Sg+Acc:juohkehatjav # ;
-juohkehatj+Pron+Indef+Sg+Gen:juohkehatja # ;
-juohkehatj+Pron+Indef+Sg+Ill:juohkehatjaj # ;
-juohkehatj+Pron+Indef+Sg+Ine:juohkehatjan # ;
-juohkehatj+Pron+Indef+Sg+Ela:juohkehatjast # ;
-juohkehatj+Pron+Indef+Sg+Com:juohkehatjajn # ;
-juohkehatj+Pron+Indef+Sg+Ess:juohkehatjan # ;
+!!juohkehatj,predikativ ställning
+!juohkehatj+Pron+Indef+Sg+Nom:juohkehatj # ;
+!juohkehatj+Pron+Indef+Sg+Acc:juohkehatjav # ;
+!juohkehatj+Pron+Indef+Sg+Gen:juohkehatja # ;
+!juohkehatj+Pron+Indef+Sg+Ill:juohkehatjaj # ;
+!juohkehatj+Pron+Indef+Sg+Ine:juohkehatjan # ;
+!juohkehatj+Pron+Indef+Sg+Ela:juohkehatjast # ;
+!juohkehatj+Pron+Indef+Sg+Com:juohkehatjajn # ;
+!juohkehatj+Pron+Indef+Sg+Ess:juohkehatjan # ;
 
 !mige(k) ´något, någonting, några, med neg.; ingenting, inte någonting, inte några, ingen attributiv form
 
-!mige(k),predikativ ställning
-mige+Pron+Indef+Sg+Nom:mige # ;
-mige+Pron+Indef+Sg+Acc:mavgak # ;
-mige+Pron+Indef+Sg+Gen:maŋgak # ;
-mige+Pron+Indef+Sg+Ill:masik # ;
-mige+Pron+Indef+Sg+Ine:mannak # ;
-mige+Pron+Indef+Sg+Ela:masste # ;
-mige+Pron+Indef+Sg+Com:majnak # ;
-mige+Pron+Indef+Sg+Ess:mannak # ;
-
-mige+Pron+Indef+Pl+Nom:mahkkak # ;
-mige+Pron+Indef+Pl+Acc:majdak # ;
-mige+Pron+Indef+Pl+Gen:majgak # ;
-mige+Pron+Indef+Pl+Ill:mejdik # ;
-mige+Pron+Indef+Pl+Ine:majnak # ;
-mige+Pron+Indef+Pl+Ela:majstak # ;
-mige+Pron+Indef+Pl+Com:majgak # ;
+!!mige(k),predikativ ställning
+!mige+Pron+Indef+Sg+Nom:mige # ;
+!mige+Pron+Indef+Sg+Acc:mavgak # ;
+!mige+Pron+Indef+Sg+Gen:maŋgak # ;
+!mige+Pron+Indef+Sg+Ill:masik # ;
+!mige+Pron+Indef+Sg+Ine:mannak # ;
+!mige+Pron+Indef+Sg+Ela:masste # ;
+!mige+Pron+Indef+Sg+Com:majnak # ;
+!mige+Pron+Indef+Sg+Ess:mannak # ;
+!
+!mige+Pron+Indef+Pl+Nom:mahkkak # ;
+!mige+Pron+Indef+Pl+Acc:majdak # ;
+!mige+Pron+Indef+Pl+Gen:majgak # ;
+!mige+Pron+Indef+Pl+Ill:mejdik # ;
+!mige+Pron+Indef+Pl+Ine:majnak # ;
+!mige+Pron+Indef+Pl+Ela:majstak # ;
+!mige+Pron+Indef+Pl+Com:majgak # ;
 
 !juoga (endast singularis och endast predikativt)´något´
 
-!juoga,predikativ ställning
-juoga+Pron+Indef+Sg+Nom:juoga # ;
-juoga+Pron+Indef+Sg+Acc:juajjda # ;
-juoga+Pron+Indef+Sg+Gen:juoŋga # ;
-juoga+Pron+Indef+Sg+Ill:jusik # ;
-juoga+Pron+Indef+Sg+Ine:juanna # ;
-juoga+Pron+Indef+Sg+Ela:juostá # ;
-juoga+Pron+Indef+Sg+Com:juojnak # ;
-juoga+Pron+Indef+Sg+Ess:juonen # ;
+!!juoga,predikativ ställning
+!juoga+Pron+Indef+Sg+Nom:juoga # ;
+!juoga+Pron+Indef+Sg+Acc:juajjda # ;
+!juoga+Pron+Indef+Sg+Gen:juoŋga # ;
+!juoga+Pron+Indef+Sg+Ill:jusik # ;
+!juoga+Pron+Indef+Sg+Ine:juanna # ;
+!juoga+Pron+Indef+Sg+Ela:juostá # ;
+!juoga+Pron+Indef+Sg+Com:juojnak # ;
+!juoga+Pron+Indef+Sg+Ess:juonen # ;
 
+LEXICON GUHTIK 
 !guhtik /guhtik ´någon (som helst)´ med negation ´íngen´, attributivt oböjligt
-
 !guhtik,predikativ ställning
 guhtik+Pron+Indef+Sg+Nom:guhtik # ;
 guhtik+Pron+Indef+Sg+Acc:gevgak # ;
@@ -697,22 +709,23 @@ guhtik+Pron+Indef+Sg+Ela:gässtak # ;
 guhtik+Pron+Indef+Sg+Com:gejnak # ;
 guhtik+Pron+Indef+Sg+Ess:gännak # ;
 
-
 !guhtik,attributiv ställning
 guhtik+Pron+Indef+Sg+Nom:guhtik # ;
 
-!aktak ´någon enda, med neg.; ingen enda (endast singularis och endast predikativt)
+!akktak ´någon enda, med neg.; ingen enda (endast singularis och endast predikativt)
 
-!aktak,predikativ ställning
-aktak+Pron+Indef+Sg+Nom:aktak # ;
-aktak+Pron+Indef+Sg+Acc:aktagav # ;
-aktak+Pron+Indef+Sg+Gen:aktaga # ;
-aktak+Pron+Indef+Sg+Ill:aktagij # ;
-aktak+Pron+Indef+Sg+Ine:aktagin # ;
-aktak+Pron+Indef+Sg+Ela:aktagis # ;
-aktak+Pron+Indef+Sg+Com:aktagijn # ;
+LEXICON AKKTAK
+!akktak,predikativ ställning
+akktak+Pron+Indef+Sg+Nom:akktak # ;
+akktak+Pron+Indef+Sg+Acc:akktagav # ;
+akktak+Pron+Indef+Sg+Gen:akktaga # ;
+akktak+Pron+Indef+Sg+Ill:akktagij # ;
+akktak+Pron+Indef+Sg+Ine:akktagin # ;
+akktak+Pron+Indef+Sg+Ela:akktagis # ;
+akktak+Pron+Indef+Sg+Com:akktagijn # ;
 
 
+LEXICON GAOBBAAK
 !gåbbák ´ båda, bägge, någondera, vardera, med negation; ´inte någon, ingendera, endast attributivt
 
 !gåbbák, attributiv ställning
@@ -724,6 +737,8 @@ gåbbák+Pron+Indef+Sg+Ine:gåbbánik # ;
 gåbbák+Pron+Indef+Sg+Ela:gåbbástik # ;
 gåbbák+Pron+Indef+Sg+Com:gåbbájnik # ;
 
+
+LEXICON DAGGAR 
 !daggar:daggar- /daggir, ´en sådan där, som den där´
 
 !daggar,predikativ ställning
@@ -838,6 +853,7 @@ duggir+Pron+Indef+Sg+Nom:duogger # ;
 !!iednak,attributiv ställning
 !iednak+Pron+Indef+Sg+Nom:iedna # ;
 
+LEXICON FAERTLAAGAATJ
 !färtlágátj:färtlágátj- /färtlágátj´all slags´, attributivt oböjligt
 
 !färtlágátj,predikativ ställning
@@ -861,6 +877,7 @@ färtlágátj+Pron+Indef+Pl+Com:färtlágátjij # ;
 !färtlágátj,attributiv ställning
 färtlágátj+Pron+Indef+Sg+Nom:färtlágátj # ;
 
+LEXICON GAAJJKALAAGAATJ
 !gájjkalágátj:gájjkalágátj- /gájjkalágátj ´all slags, alla slags´, attributivt oböjligt
 
 !gájjkalágátj,predikativ ställning
@@ -884,6 +901,8 @@ gájjkalágátj+Pron+Indef+Pl+Com:gájjkalágátjij # ;
 !gájjkalágátj,attributiv ställning
 gájjkalágátj+Pron+Indef+Sg+Nom:gájjkalágátj # ;
 
+
+LEXICON GAOBBATJ
 !gåbbatj:gåbbatj- /gåbbatj ´båda två, bägge´, attributivt oböjligt
 
 !gåbbatj,predikativ ställning
@@ -908,6 +927,7 @@ gåbbatj+Pron+Indef+Pl+Com:gåbbatjij # ;
 gåbbatj+Pron+Indef+Sg+Nom:gåbbatja # ;
 
 
+LEXICON MUHTEM 
 !muhtem:muhtem- /muhtem ´en viss, en och annan, någon, några, vissa, somliga, en del´, attributivt oböjligt
 
 !muhtem,predikativ ställning
@@ -932,7 +952,7 @@ muhtem+Pron+Indef+Pl+Com:muhtemij # ;
 muhtem+Pron+Indef+Sg+Nom:muhtem # ;
 
 
-
+LEXICON MAODDES
 !måddes:måddás-  ´några,flera (personer)´, brukas inte attributivt
 
 !måddes,predikativ ställning
@@ -954,6 +974,7 @@ måddes+Pron+Indef+Pl+Ela:måddásijs # ;
 måddes+Pron+Indef+Pl+Com:måddásij # ;
 
 
+LEXICON NAAGAN
 !nágan:nágan- /nágan ´någon, något, några få´, attributivt oböjligt
 
 !nágan,predikativ ställning
@@ -978,6 +999,7 @@ nágan+Pron+Indef+Pl+Com:náganij # ;
 nágan+Pron+Indef+Sg+Nom:nágan # ;
 
 
+LEXICON SUHTA
 !suhta:suhtás- /suhta ´några, många (endast predikativ singularis), attributivt oböjligt
 
 !suhta,predikativ ställning
@@ -993,38 +1015,39 @@ suhta+Pron+Indef+Sg+Ess:suhtásin # ;
 !suhta,attributiv ställning
 suhta+Pron+Indef+Sg+Nom:suhta # ;
 
-!ålos:ullus- ´många personer´(endast i plural), brukas inte attributivt
 
-!ålos,predikativ ställning
-ålos+Pron+Indef+Pl+Nom:ullusa # ;
-ålos+Pron+Indef+Pl+Acc:ullusijd # ;
-ålos+Pron+Indef+Pl+Gen:ullusij # ;
-ålos+Pron+Indef+Pl+Ill:ullusijda # ;
-ålos+Pron+Indef+Pl+Ine:ullusijn # ;
-ålos+Pron+Indef+Pl+Ela:ullusijs # ;
-ålos+Pron+Indef+Pl+Com:ullusij # ;
+!!ålos:ullus- ´många personer´(endast i plural), brukas inte attributivt
+!
+!!ålos,predikativ ställning
+!ålos+Pron+Indef+Pl+Nom:ullusa # ;
+!ålos+Pron+Indef+Pl+Acc:ullusijd # ;
+!ålos+Pron+Indef+Pl+Gen:ullusij # ;
+!ålos+Pron+Indef+Pl+Ill:ullusijda # ;
+!ålos+Pron+Indef+Pl+Ine:ullusijn # ;
+!ålos+Pron+Indef+Pl+Ela:ullusijs # ;
+!ålos+Pron+Indef+Pl+Com:ullusij # ;
 
 
 !danga,endast i attributiv ställning ´samma´
-danga+Pron+Indef+Sg+Nom:danga # ;
+!danga+Pron+Indef+Sg+Nom:danga # ;
 
 !datga,endast i attributiv ställning ´samma´
-datga+Pron+Indef+Sg+Nom:datga # ;
+!datga+Pron+Indef+Sg+Nom:datga # ;
 
 !vera,endast i attributiv ställning ´allt´ (vera mij ´allt möjligt´)
-vera+Pron+Indef+Sg+Nom:vera # ;
+!vera+Pron+Indef+Sg+Nom:vera # ;
 
-!fert,endast i attributiv ställning ´varje´
-fert+Pron+Indef+Sg+Nom:fert # ;
+!färrt,endast i attributiv ställning ´varje´
+!färrt+Pron+Indef+Sg+Nom:färrt # ;
 
 !gåssek,endast i attributiv ställning ´någonstans´, med negation ´íngenstans´
-gåssek+Pron+Indef+Sg+Nom:gåsek # ;
+!gåssek+Pron+Indef+Sg+Nom:gåsek # ;
 
 !juohke,endast i attributiv ställning ´varje, var och en´
-juohke+Pron+Indef+Sg+Nom:juohke # ;
+!juohke+Pron+Indef+Sg+Nom:juohke # ;
 
 !sämmi,endast i attributiv ställning ´samma´
-sämmi+Pron+Indef+Sg+Nom:semmi # ;
+!sämmi+Pron+Indef+Sg+Nom:semmi # ;
 
 LEXICON Reflexive   !!= * __@CODE@__
 
