@@ -145,7 +145,21 @@ Definitions
         i   |
         o:u |
         u
-        ] ; !vowels that can trigger VH (does NOT include i2 and u2)
+        ] ; !vowels that trigger VH (does NOT include i2 and u2)
+
+
+ noVHtrig = [
+        a:a | 
+        á:á | 
+        e:á | 
+        e:e | 
+        o:o | 
+        y:y | 
+        i2:i | 
+        u2:u | 
+        ä2:ä |
+        %^O:o
+        ] ; !vowels that do NOT trigger VH
 
  V2E2AAtrig = [
         v |
@@ -433,17 +447,26 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga, siebla<->säbblag-
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* _ e: noCG Vow: \%^WG: \%^WG: ; !bierdna->b0ärdna !double \%^WG: for gierbma<->gärbmaha  (ie: neither of the two elements after V2 can be ^WG)
+
+!following doesn't work because of Ä in G3: e:ä <=> Cns:* i:0 _ G3 noVHtrig \%^WG: ;
+!!€ sjievdnje^IJ%>s
+!!€ sj0evdnji00s
+
+!!€ hierrge^WG^IJ%>j
+!!€ h0er0gi000j
+
+!!€ hierrge%>j^V2E2AA
+!!€ h0ärrgá0j0
+
 		
-"Ä in G3" ! ie:0ä (bägga, bävvde); can be word-initial
+"Ä in G3" ! ie:0ä (bägga, bävvde); not word-initial (thus not capitalized)
 !! __@RULENAME@__  
-e:ä <=> Cns:* i:0 _ G3 Vow: \%^WG: ; !biebbmo->b0äbbmo
-        Cns:* i:0 _ Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
-		Cns:* i:0 _ noCG Vow: \%^WG: ; !bierdna->b0ärdna
-!"Ä in G3 capitalized" ! Ie:0Ä (bägga, bävvde); can be word-initial
+e:ä <=> Cns:* i:0 _ G3 noVHtrig \%^WG: ; !biebbmo->b0äbbmo
+        Cns:* i:0 _ Cns:+ noVHtrig %^G3: ; !biegga->b0ägga
+		Cns:* i:0 _ noCG noVHtrig \%^WG: ; !bierdna->b0ärdna
+!"Ä in G3 capitalized" ! Ie:0Ä (bägga, bävvde); word-initial, thus potentially capitalized
 !! __@RULENAME@__  
-!e:Ä <=> I:0 _ G3 Vow: \%^WG: ; !Änntse->Ientse !for proper nouns beginning with capital Ä - Ie
-!        I:0 _ Cns:+ Vow:+ %^G3: ; !
-!		I:0 _ noCG Vow: \%^WG: ; !
+!e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse !for proper nouns beginning with capital Ä - Ie
 
 
 ! !!€ tjalmed%>ibme^WG
