@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-03T10:41:37+02:00
+! Timestamp: 2018-10-04T09:06:47+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -65,6 +65,7 @@ mårret:mårred2 A_BIVVAL "pleasant" ; ! no. 5506
 umårret:umårred2 A_BIVVAL "unpleasant" ; ! no. 90909
 blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
 jallgat:jallg A_BLAAVVAT "even, level, flat" ; ! no. 919
+sjävdnjet+Use/NG:sjä2vdnj A_BLAAVVAT "dark" ; ! no. 91119
 tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
 guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
@@ -134,6 +135,7 @@ dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
 maŋŋe:maŋŋe A_NUORRA "after" ; ! no. 91011
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 sällde:siellde A_NUORRA "terrible, huge, enormous" ; ! no. 1839
+sjävdnjet:sjievdnje A_SJAEVDNJET "dark" ; ! no. 3301
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
 stuorra+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
