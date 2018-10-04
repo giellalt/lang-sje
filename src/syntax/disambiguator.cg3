@@ -403,6 +403,10 @@ REMOVE:noPredWithoutCopula (V GerII) IF (NEGATE (*-1 ("lä") BARRIER NoAP ) OR (
 #remove GerII reading if no AUX around
 REMOVE:noGerIIWithoutAux (V GerII) IF (NEGATE (*-1 ("lä") BARRIER CLB ) OR (*1 ("lä") BARRIER CLB ));
 
+
+#remove Verb reading if preceded by ATTR
+REMOVE:noVerbAfterAttr (V) IF (-1C Attr);
+
 #remove Inf reading if no FINITE verb around
 REMOVE:notInfWithoutFiniteV (V Inf) IF (NOT *-1 VFIN BARRIER CLB );
 #REMOVE:notInfWithoutFiniteV (V Inf) IF (NEGATE (*-1 VFIN BARRIER CLB ) OR (*1 VFIN BARRIER CLB ));
