@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-03T10:12:01+02:00
+! Timestamp: 2018-10-05T09:59:10+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -462,7 +462,7 @@ luvvat:luvv V_EVEN_A "become wet" ; ! no. 1080
 läsjmodallat:läsjmodall V_EVEN_A "stretch one’s legs briefly" ; ! no. 1104
 mannat:mann V_EVEN_A "go, travel" ; ! no. 1130
 masstat:masst V_EVEN_A "mix together" ; ! no. 1146
-máhttsat:máhtts V_EVEN_A "turn around" ; ! no. 1116
+máhttsat:máhtts V_EVEN_A "turn back, return" ; ! no. 1116
 mássjat:mássj V_EVEN_A "control oneself, let something be" ; ! no. 1145
 merustallat:merustall V_EVEN_A "calculate, estimate" ; ! no. 3255
 mihástallat:mihástall V_EVEN_A "boast, brag, be arrogant" ; ! no. 90825
@@ -752,7 +752,7 @@ rijjdet:rijjd V_EVEN_E "argue, quarrel" ; ! no. 1411
 sadjet:sadj V_EVEN_E "sharpen (axes, knives, other tools)" ; ! no. 1473
 savvet:savv V_EVEN_E "heal, get better" ; ! no. 1520
 sáhttet:sáhtt V_EVEN_E "be able to" ; ! no. 5934
-sjivnjudahttet:sjivnjudahtt V_EVEN_E "blacken, darken" ; ! no. 1565
+sjevnjudahttet:sjevnjudahtt V_EVEN_E "blacken, darken" ; ! no. 1565
 sjävudahttet:sjävudahtt V_EVEN_E "quiet down" ; ! no. 5874
 skávvget:skávvg V_EVEN_E "reprimand" ; ! no. 2480
 smáhkket:smáhkk V_EVEN_E "be helpful" ; ! no. 1686
@@ -1514,9 +1514,9 @@ sjalmadit:sjalmad V_ODD "thread a needle" ; ! no. 1557
 sjavnjastit:sjavnjast V_ODD "shake, dust (once)" ; ! no. 1562
 sjáhtjalit:sjáhtjal V_ODD "move something away, postpone" ; ! no. 1552
 sjátjastit:sjátjast V_ODD "shove away" ; ! no. 5786
+sjevnjudit:sjevnjud V_ODD "become dusk or dark, darken" ; ! no. 1566
 sjirristit:sjirrist V_ODD "clear up (for weather)" ; ! no. 1563
 sjivdnjedit:sjivdnjed V_ODD "create (in religious sense)" ; ! no. 1571
-sjivnjudit:sjivnjud V_ODD "become dusk or dark, darken" ; ! no. 1566
 sjläbtjudit:sjlä2btjud V_ODD "fan away" ; ! no. 1578
 sjnjaltjedit:sjnjaltjed V_ODD "deplete" ; ! no. 4390
 sjnjitjádit:sjnjitjád V_ODD "shout quickly" ; ! no. 6047

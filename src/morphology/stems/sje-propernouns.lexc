@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-04T12:42:46+02:00
+! Timestamp: 2018-10-05T09:40:50+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -59,12 +59,15 @@ Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
 Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
 Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
 Krehtta:Krehtta N_EVEN "Greta" ; ! no. 91023
+Lajratjåhkkå:Lajra#tjåhkkå N_EVEN "Lajratjåhkkå" ; ! no. 91131
 Lässe:Lä2sse N_EVEN "Lars" ; ! no. 6035
+Maria:Maria N_EVEN "Maria" ; ! no. 91128
 Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
 Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
 Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
 Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
+Rájjavárre:Rájja#várre N_EVEN "Rájjavárre" ; ! no. 91132
 Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
 Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
 Sállvojåhkå:Sállvo#jåhkå N_EVEN "Sállvobäck" ; ! no. 90694
@@ -81,6 +84,7 @@ Varsjajåhkå:Varsja#jåhkå N_EVEN "Varsjajokk" ; ! no. 91122
 Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
 Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
 Vuonatjluakkta:Vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
+Åvvla:Åvvla N_EVEN "Ola" ; ! no. 91127
 Änntse:Ienntse N_EVEN "Änntse" ; ! no. 90872
 Tjäggelvas:Tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
 Aleldis:Aleld N_EVEN4_ISA "Örnvik" ; ! no. 90719
@@ -92,11 +96,16 @@ Bidumiedno:Bidum#iedno N_EVEN_O "Pite river" ; ! no. 170
 Bidumiedno+Use/NG:Birruma#iedno N_EVEN_O "Pite river" ; ! no. 90939
 Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
 Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
+Guhkavárrdo:Guhka#várrdo N_EVEN_O "Guhkavárrdo" ; ! no. 91130
 Lassko:Lassko N_EVEN_O "Lasko" ; ! no. 91025
+Olso:Olso N_EVEN_O "Olso" ; ! no. 91125
 Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
 Spallo:Spallo N_EVEN_O "Spallo" ; ! no. 91047
 Stuormo:Stu^Ormo N_EVEN_O "Stormo" ; ! no. 90899
+Varsjaguottko:Varsja#gu^Ottko N_EVEN_O "Varsjaguottko" ; ! no. 91129
 Juhán:Juhán N_JUHAAN "John" ; ! no. 5978
+Blind:Blind N_MONOSYL_PROPER "Blind" ; ! no. 91126
+Per:Per N_MONOSYL_PROPER "Per" ; ! no. 91124
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
 Árjepluovek:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609
 Bávval:Bávval N_ODD "Paul" ; ! no. 4637
