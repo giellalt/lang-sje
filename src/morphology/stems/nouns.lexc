@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-01T15:05:43+02:00
+! Timestamp: 2018-10-05T09:58:54+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -212,6 +212,7 @@ buallda:bu^Ollda N_EVEN "slope" ; ! no. 199
 buallva:bu^Ollva N_EVEN "knee, kneecap" ; ! no. 200
 buavvda:bu^Ovvda N_EVEN "round treeless mountain top surrounded by forest" ; ! no. 201
 buavvdåjjve:buavvd#åjjve N_EVEN "bald head" ; ! no. 4701
+budtsusjuällge:budtsus#ju^Ollge N_EVEN "bare leg, bare-legged" ; ! no. 5743
 båtsojmärrka+Use/NG:buhtsu#mierrka N_EVEN "reindeer earmark" ; ! no. 91093
 buhtsutjårrve:buhtsu#tjårrve N_EVEN "reindeer antler" ; ! no. 2300
 bukstávva:bukstávva N_EVEN "letter of the alphabet" ; ! no. 3364
@@ -227,7 +228,6 @@ burra:bur'ra N_EVEN "storage pit" ; ! no. 5830
 burrne:burrne N_EVEN "cellar made of rocks or earth" ; ! no. 221
 bussa:bus'sa N_EVEN "bus" ; ! no. 222
 butanijjka:butanijjka N_EVEN "botany" ; ! no. 3394
-butsusjuällge:butsus#ju^Ollge N_EVEN "bare leg, bare-legged" ; ! no. 5743
 buvdna:buvdna N_EVEN "village, community" ; ! no. 191
 buvvda:buvvda N_EVEN "shed" ; ! no. 2892
 buäjjde:bu^Ojjde N_EVEN "fat" ; ! no. 226
@@ -558,6 +558,7 @@ hiejos+N+Der/State:hiejosvu^Ohta N_EVEN "poverty" ; ! no. 4048
 hilltomuorra:hillto#mu^Orra N_EVEN "mezereon" ; ! no. 4625
 hurre:hur're N_EVEN "black grouse" ; ! no. 3009
 husbunndi:husbunndi N_EVEN "head of a household" ; ! no. 90967
+hushållå:hushållå N_EVEN "household" ; ! no. 91123
 huvvda:huvvda N_EVEN "skin, cowhide leather" ; ! no. 6234
 huvvsa:huvvsa N_EVEN "house" ; ! no. 2351
 hållgå:hållgå N_EVEN "stick, pole" ; ! no. 855
