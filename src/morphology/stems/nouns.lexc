@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-07T10:53:04+02:00
+! Timestamp: 2018-10-11T19:48:05+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1136,7 +1136,7 @@ suärre:su^Or're N_EVEN "certain piece of fat in a reindeer intestine" ; ! no. 9
 suärrge:su^Orrge N_EVEN "fork (in the road), divide" ; ! no. 1786
 svahka:svahka N_EVEN "packsaddle" ; ! no. 1788
 svajjba:svajjba N_EVEN "pole with a loop used for catching reindeer calves" ; ! no. 1790
-svarre:svarratj N_EVEN "vibration" ; ! no. 91133
+svarre:svarre N_EVEN "vibration" ; ! no. 91133
 svájnasbállká:svájnas#bállká N_EVEN "servant's wage" ; ! no. 4207
 sválla:sválla N_EVEN "mountain fox" ; ! no. 1792
 sválltjá:sválltjá N_EVEN "summer frock made of prepared hide" ; ! no. 1794
@@ -1500,7 +1500,7 @@ gástadis:gástad N_EVEN4_ISA "baptism" ; ! no. 570
 gieldagis:gieldag N_EVEN4_ISA "tendon in a reindeer's back foot" ; ! no. 3822
 giljánis:gilján N_EVEN4_ISA "roar" ; ! no. 4840
 guddudis:guddud N_EVEN4_ISA "four-year-old reindeer buck" ; ! no. 2842
-guoksagis:gu^Oksag N_EVEN4_ISA "northern lights" ; ! no. 688
+guoksagis:gu^Oksag N_EVEN4_ISA "northern lights, aurora" ; ! no. 688
 gåhpålis:gåhpål N_EVEN4_ISA "pus-filled blister" ; ! no. 736
 gålmådis:gålmåd N_EVEN4_ISA "third (fraction)" ; ! no. 4172
 gånågis:gånåg N_EVEN4_ISA "king" ; ! no. 760
@@ -2139,6 +2139,7 @@ jagak:jagag2 N_ODD "one-year-old" ; ! no. 4911
 jábmem:jábmem N_ODD "death" ; ! no. 901
 jubmel:jubmel N_ODD "God" ; ! no. 928
 jumitj:jumitj N_ODD "twin" ; ! no. 4435
+jurdisk:jurdisk N_ODD "subterranean being" ; ! no. 91135
 jåhtet+N+Der/NomAg:jåhtej N_ODD "mover, a person migrating" ; ! no. 90891
 jåhtem:jåhtem N_ODD "migrating, move" ; ! no. 4463
 jårrem:jårrem N_ODD "eddy" ; ! no. 958
@@ -2460,7 +2461,7 @@ bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
 dimbar:dimmbar N_ODD_WG "wood, timber" ; ! no. 90322
 dåbbdet+N+Der/NomAg:dåbbdej N_ODD_WG "expert" ; ! no. 4741
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
-gamár:gabmár N_ODD_WG "getostmassa (efter första ystning)" ; ! no. 90752
+gamar:gabmar N_ODD_WG "goat cheese curd mass" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
 gáhker:gáhkker N_ODD_WG "winter scat of reindeer or moose" ; ! no. 3933
 gámas:gábmas N_ODD_WG "leather from reindeer legs" ; ! no. 486
