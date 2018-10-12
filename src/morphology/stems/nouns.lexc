@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-11T19:48:05+02:00
+! Timestamp: 2018-10-12T10:05:15+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1112,6 +1112,7 @@ stänntje:stienntje N_EVEN "slush" ; ! no. 5801
 suakksa:su^Okksa N_EVEN "worm in meat/fish" ; ! no. 4166
 suarbmagåhte:suarbma#gåhte N_EVEN "thimble" ; ! no. 4076
 suavvá:su^Ov'vá N_EVEN "hole dug by a reindeer in the snow" ; ! no. 2561
+subtsas+N+Der/NomAg:subtsastieddje N_EVEN "narrator, storyteller" ; ! no. 91136
 suhkesmällke:suhkes#miellke N_EVEN "sour milk" ; ! no. 4072
 suhpe:suhpe N_EVEN "aspen" ; ! no. 2734
 sunnde:sunnde N_EVEN "official representative" ; ! no. 5371
