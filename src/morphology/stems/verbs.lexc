@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-05T09:59:10+02:00
+! Timestamp: 2018-10-16T12:34:36+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -128,7 +128,7 @@ lenit:leni V_CONTR "be worth it" ; ! no. 3698
 lijjgit:lijjgi V_CONTR "hire, employ" ; ! no. 3121
 lijjkit:lijjki V_CONTR "dump out, pour out" ; ! no. 3480
 lijjkut:lijjku V_CONTR "like" ; ! no. 1050
-lijjsit:lijjsi V_CONTR "be worth doing" ; ! no. 3697
+lijjsit:lijjsi V_CONTR "be worth doing; succeed" ; ! no. 3697
 livvgit:livvgi V_CONTR "be boisterous" ; ! no. 1041
 livvsut:livvsu V_CONTR "announce an intended marriage" ; ! no. 2438
 lubbit:lubbi V_CONTR "spread out once" ; ! no. 4165
@@ -138,7 +138,7 @@ luggŋit:luggŋi V_CONTR "lift, raise" ; ! no. 1060
 luvvit:luvvi V_CONTR "loosen a knot" ; ! no. 6049
 luvvsit:luvvsi V_CONTR "show the way, direct" ; ! no. 1078
 läddit:lä2ddi V_CONTR "charge (e.g. a battery)" ; ! no. 90711
-lägit:lä2gi V_CONTR "fix, repair" ; ! no. 3494
+lägit:lä2gi V_CONTR "fix, repair; place" ; ! no. 3494
 lähppit:lä2hppi V_CONTR "make cheese" ; ! no. 3029
 lähpput:lä2hppu V_CONTR "get lost" ; ! no. 1006
 läjjdit:lä2jjdi V_CONTR "lead, drive" ; ! no. 1100
@@ -703,7 +703,7 @@ hålbmet:hålbm V_EVEN_E "talk" ; ! no. 5109
 häjjtet:hiejjt V_EVEN_E "quit, stop, finish" ; ! no. 2536
 iedjet:iedj V_EVEN_E "mark someone else’s calf" ; ! no. 6552
 ietjájdahttet:ietjájdahtt V_EVEN_E "change, alter" ; ! no. 457
-ihtet:iht V_EVEN_E "show up, become visible" ; ! no. 882
+ihtet:iht V_EVEN_E "show up, become visible, appear" ; ! no. 882
 iltjagahttet:iltjagahtt V_EVEN_E "be stubborn, willful" ; ! no. 893
 jaskadahttet:jaskadahtt V_EVEN_E "calm someone down" ; ! no. 4915
 jábmet:jábm V_EVEN_E "die, pass away" ; ! no. 902
@@ -1255,6 +1255,7 @@ gåbdedit:gåbded V_ODD "widen" ; ! no. 3403
 gåbmánit:gåbmán V_ODD "topple, turn over" ; ! no. 5707
 gåbmåhit:gåbmåh V_ODD "lay face down" ; ! no. 4874
 gåbtjådit:gåbtjåd V_ODD "cover up several things" ; ! no. 4878
+gåddålit:gåddål V_ODD "kill, slay repeatedly" ; ! no. 91138
 gådtjådit:gådtjåd V_ODD "pee, urinate" ; ! no. 5202
 gåjkådit:gåjkåd V_ODD "dry" ; ! no. 4224
 gåldådit:gåldåd V_ODD "fish with a net" ; ! no. 4565
