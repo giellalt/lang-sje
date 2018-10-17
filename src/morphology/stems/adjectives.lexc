@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-04T12:21:15+02:00
+! Timestamp: 2018-10-17T13:35:11+02:00
 
 !! !!!Pite Saami Adjectives
 
@@ -177,6 +177,7 @@ tjalmedibme:tjalmed A_xDIBME "blind" ; ! no. 6622
 vielgedibme:vielged A_xDIBME "debt-free" ; ! no. 6137
 vigedibme:viged A_xDIBME "without mistakes" ; ! no. 4050
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
+åjvedibme:åjved A_xDIBME "headless; dumb" ; ! no. 91140
 ådne:ådne A_ÅNEGIS "short" ; ! no. 2235
 
 
