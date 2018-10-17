@@ -188,7 +188,7 @@ Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
 d:0 <=> Vow: j _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 		Vow: v _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 		Vow: l _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
-		Vow:   _ n  j  Vow: Cns:             %^WG: ;
+		Vow:   _ n  j  Vow: Cns:* ( Dummy: ) %^WG: ; ! ladnja<->lanja; ganjal<->gadnjala
 
 !		[#|.#.] Cns:+ Vow: _ n j Vow: Cns: %^WG: ;
 
