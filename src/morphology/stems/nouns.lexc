@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-17T10:26:39+02:00
+! Timestamp: 2018-10-17T10:39:50+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2424,7 +2424,6 @@ tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuola:vu^Ollag N_ODD_OPEN "inebriation, drunkenness" ; ! no. 91034
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
-åvlå:åvvlåh N_ODD_OPEN "dammed up body of water, bog full of water in the spring" ; ! no. 90372
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
 gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
 gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
@@ -2525,3 +2524,4 @@ gane:gadn N_ODD_WG_eH "invisible subterranean being" ; ! no. 6873
 gane+Use/NG:gidn N_ODD_WG_eH "invisible subterranean being" ; ! no. 90926
 riebe:riehp N_ODD_WG_eH "red fox" ; ! no. 2790
 njuono:nju^Onn N_ODD_WG_oH "the front of a reindeer herd" ; ! no. 90810
+åvlo:åvvl N_ODD_WG_oH "dammed up body of water, bog full of water in the spring" ; ! no. 90372
