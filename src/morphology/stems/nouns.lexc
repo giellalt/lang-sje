@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-17T10:39:50+02:00
+! Timestamp: 2018-10-17T17:09:33+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2366,12 +2366,13 @@ viessom:viessom N_ODD "life, lifestyle" ; ! no. 5453
 vilguk:vilgug2 N_ODD "white reindeer, also referring to white reindeer hide shoes" ; ! no. 2119
 vinndek:vinndeg2 N_ODD "window" ; ! no. 2128
 vuobmebuollem:vuobme#bu^Ollem N_ODD "forest fire" ; ! no. 3400
-vuoddobednik:vuoddo#bednig2 N_ODD "basic amount" ; ! no. 3223
+vuorrobednik+Use/NG:vuoddo#bednig2 N_ODD "basic amount" ; ! no. 3223
 vuodjet+N+Der/NomAg:vu^Odjej N_ODD "driver, chauffeur" ; ! no. 3523
 vuoján:vu^Oján N_ODD "snowmobile, four-wheeler, vehicle" ; ! no. 90573
 vuolpok:vu^Olpog2 N_ODD "daggkåpa" ; ! no. 90753
 vuonak:vu^Onag2 N_ODD "Norwegian" ; ! no. 2182
 vuonjal:vu^Onjal N_ODD "one-year-old reindeer cow" ; ! no. 2184
+vuorrobednik:vuorro#bednig2 N_ODD "basic amount" ; ! no. 91141
 vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
 vusjkun:vusjkun N_ODD "perch" ; ! no. 2196
 vuärrdem:vu^Orrdem N_ODD "waiting, period of waiting" ; ! no. 6587
@@ -2524,4 +2525,4 @@ gane:gadn N_ODD_WG_eH "invisible subterranean being" ; ! no. 6873
 gane+Use/NG:gidn N_ODD_WG_eH "invisible subterranean being" ; ! no. 90926
 riebe:riehp N_ODD_WG_eH "red fox" ; ! no. 2790
 njuono:nju^Onn N_ODD_WG_oH "the front of a reindeer herd" ; ! no. 90810
-åvlo:åvvl N_ODD_WG_oH "dammed up body of water, bog full of water in the spring" ; ! no. 90372
+åvlo:åvvl N_ODD_WG_oH "meltwater pool on the ground" ; ! no. 90372
