@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-19T07:42:32+02:00
+! Timestamp: 2018-10-23T12:14:10+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2227,8 +2227,8 @@ rieksak:rieksag2 N_ODD "willow ptarmigan" ; ! no. 1406
 rieksakhábak:rieksak#hábag2 N_ODD "pigeon hawk" ; ! no. 3018
 rijmek:rijmeg2 N_ODD "light brown (color of reindeer)" ; ! no. 3454
 runnik:runnig2 N_ODD "fertile land at a delta" ; ! no. 1434
+ruodtjok:ru^Odtjog2 N_ODD "fearless reindeer which looks for proximity to people, walks around a hut, digs and licks (human) urine in the snow" ; ! no. 2875
 ruoptak:ru^Optag2 N_ODD "plane (for wood)" ; ! no. 1437
-ruotjok:ru^Otjog2 N_ODD "fearless reindeer which looks for proximity to people, walks around a hut and digs" ; ! no. 2875
 russtik:russtig2 N_ODD "cargo, supply" ; ! no. 90303
 ruävvdeáldar:ruävvde#áldar N_ODD "iron age" ; ! no. 3660
 råggåk:råggåg2 N_ODD "uneven territory" ; ! no. 3067
