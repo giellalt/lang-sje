@@ -2161,7 +2161,7 @@ ORD10 ;
 ! ! +A+Ord:%. # ; !III. as ordinal. !!JW: commentet out because it added +A+Ord to all full-stops!
 ! ! +A+Ord:   # ; !Looking for trouble...
 !  +Num:%: ROMNUMTAGOBL  ;
-!  +Num:%'7 ROMNUMTAGOBL ;
+!  +Num:%' ROMNUMTAGOBL ;
 !  +Num:%- ROMNUMTAGOBL  ;
 !  +Num:%´ ROMNUMTAGOBL  ;
 ! ! +Num:   ROMNUMTAGOBL ;
