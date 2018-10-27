@@ -451,8 +451,8 @@ LEXICON A_EVEN_COMP
 LEXICON A_EVEN_COMP_s2 
 +Attr: # ;
 +Sg+Nom: # ;
-+Pl+Nom:%>o # ;
-+Pl+Nom+Use/NG:%>a # ;
++Pl+Nom:%> N_ODD_X ;
++Pl+Nom+Use/NG:%> N_ODD_X_adjCompU ;
 
 
 !SUPERL:
@@ -485,7 +485,10 @@ LEXICON A_EVEN_SUP_s2
 
 
 
-
+!highly unpredictable, suppletive, irregular lemmata
+LEXICON A_VIERRE !vieráp, vierájmus (N-Germn loan, including lack of positive form)
++A+Comp:^WG A_ODD_COMP_V2E2AA ;
++A+Superl:^WG A_ODD_jSUP_V2E2AA ;
 
 
 
