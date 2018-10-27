@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-23T12:14:10+02:00
+! Timestamp: 2018-10-27T15:05:48-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -161,6 +161,7 @@ basádemgárre:basádem#gárre N_EVEN "washing pan" ; ! no. 4687
 basilla:basilla N_EVEN "bacterium, germ" ; ! no. 3199
 basse:basse N_EVEN "weekend" ; ! no. 150
 bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
+bassempánna:bassem#pán'na N_EVEN "frying pan" ; ! no. 91148
 bassemvuodja:bassem#vu^Odja N_EVEN "cooking grease" ; ! no. 152
 bateridja:bateridja N_EVEN "battery" ; ! no. 3224
 bádne:bádne N_EVEN "tooth" ; ! no. 97
@@ -462,6 +463,7 @@ glassatjalbme:glassa#tjalbme N_EVEN "glasses, spectacles" ; ! no. 90630
 glássa:glássa N_EVEN "ice cream" ; ! no. 529
 grásse:grásse N_EVEN "grass" ; ! no. 3604
 grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
+grubba:grub'ba N_EVEN "pit" ; ! no. 91151
 guabbla:gu^Obbla N_EVEN "cornice, hanging ice in a stream" ; ! no. 3540
 guanná+Use/NG:gu^Oddna N_EVEN "female genitals" ; ! no. 90498
 guajjka:gu^Ojjka N_EVEN "rapids" ; ! no. 90982
@@ -859,6 +861,7 @@ pansjuvdna:pansjuvdna N_EVEN "pension" ; ! no. 5050
 paradijjsa:paradijjsa N_EVEN "paradise" ; ! no. 5051
 parlamännta:parlamiennta N_EVEN "parliament" ; ! no. 5052
 patruvdna:patruvdna N_EVEN "cartridge, shell" ; ! no. 5053
+pánna:pán'na N_EVEN "pan, frying pan" ; ! no. 91147
 perungavvla:perun#gavvla N_EVEN "potato foliage" ; ! no. 5907
 perunvuassa:perun#vu^Os'sa N_EVEN "potato sack" ; ! no. 5054
 plássá:plás'sá N_EVEN "downtown" ; ! no. 1348

@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-16T12:34:36+02:00
+! Timestamp: 2018-10-27T15:05:56-04:00
 
 !! !!!Pite Saami Verbs
 
@@ -89,6 +89,7 @@ dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
 firrjit:firrji V_CONTR "color" ; ! no. 2476
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
 fivvrit:fivvri V_CONTR "transport" ; ! no. 5549
+fräkktit:frä2kkti V_CONTR "transport, haul" ; ! no. 91145
 fuabbmát:fu^Obbmá V_CONTR "realize" ; ! no. 481
 funderit:funderi V_CONTR "think about, consider" ; ! no. 90874
 fäŋŋgit:fä2ŋŋgi V_CONTR "arrest, catch" ; ! no. 91073
@@ -382,7 +383,7 @@ dualldat:du^Olld V_EVEN_A "boil hard (for water)" ; ! no. 2555
 duasstat:du^Osst V_EVEN_A "risk, dare" ; ! no. 380
 dubbmidallat:dubbmidall V_EVEN_A "be sentenced, be judged" ; ! no. 5605
 dudnat:dudn V_EVEN_A "roar" ; ! no. 3302
-duffat:duff V_EVEN_A "be in the middle of something, deal with something, dilly dally" ; ! no. 5839
+duffat:duff V_EVEN_A "dilly dally; deal with something, " ; ! no. 5839
 dullvat:dullv V_EVEN_A "rise, flood (water, eg. in a creek)" ; ! no. 5049
 duohkat:du^Ohk V_EVEN_A "sell" ; ! no. 396
 duorrat:du^Orr V_EVEN_A "take up a fishing net" ; ! no. 402
@@ -963,7 +964,7 @@ vuodjot:vu^Odj V_EVEN_O "sink, fall down to the bottom" ; ! no. 2156
 åggot:ågg V_EVEN_O "fish using a fishing rod" ; ! no. 2241
 årrot:årr V_EVEN_O "live, reside" ; ! no. 2268
 åsskot:åssk V_EVEN_O "believe in someone or something, have trust in something" ; ! no. 2271
-åvvlot:åvvl V_EVEN_O "get heartburn" ; ! no. 2280
+åvvlot:åvvl V_EVEN_O "be covered by meltwater in spring; get heartburn" ; ! no. 2280
 bådnjåt:bådnj V_EVEN_Å "screw, twist" ; ! no. 234
 bårråt:bårr V_EVEN_Å "eat" ; ! no. 256
 båsskåt:båssk V_EVEN_Å "poke with a needle or stick" ; ! no. 3299
@@ -1396,6 +1397,7 @@ miededit:mieded V_ODD "agree, concede" ; ! no. 1161
 miehtjedit:miehtjed V_ODD "put aside, put away" ; ! no. 2632
 mierostit:mierost V_ODD "judge, decide" ; ! no. 3229
 mierredit:mierred V_ODD "decide, evaluate, determine, intend" ; ! no. 1157
+muvvkasit+Use/NG:mivvkas V_ODD "soften, make softer" ; ! no. 91150
 muddardit:muddard V_ODD "harrow (land)" ; ! no. 4605
 mujjtalit:mujjtal V_ODD "tell" ; ! no. 90163
 mujjtádit:mujjtád V_ODD "remind" ; ! no. 2652
@@ -1406,6 +1408,7 @@ mulsustit:mulsust V_ODD "change clothes quickly" ; ! no. 4986
 muohtalit:mu^Ohtal V_ODD "spread out (for reindeer in summer)" ; ! no. 1190
 muonadit:mu^Onad V_ODD "guess repeatedly" ; ! no. 1169
 murijdit:murijd V_ODD "thrive, feel good" ; ! no. 2428
+muvvkasit:muvvkas V_ODD "soften, make softer" ; ! no. 91149
 mådtsåstit:mådtsåst V_ODD "turn inside out" ; ! no. 1197
 måjedit:måjed V_ODD "smile" ; ! no. 1200
 måjvárit:måjvár V_ODD "feel ill" ; ! no. 4357
@@ -1693,6 +1696,8 @@ viegadit:viegad V_ODD "run briefly" ; ! no. 5444
 viehkalit:viehkal V_ODD "run off, run away" ; ! no. 5699
 viehkedit:viehked V_ODD "help" ; ! no. 2116
 vieksaldit:vieksald V_ODD "exchange (eg. money)" ; ! no. 4607
+vierábut:vieráb V_ODD "become worse, worsen" ; ! no. 5490
+vierránit:vierrán V_ODD "worsen" ; ! no. 3286
 vierrodit:vierrod V_ODD "sacrifice" ; ! no. 2110
 viertostit:viertost V_ODD "clear up (for weather)" ; ! no. 5451
 viesadit:viesad V_ODD "be lively" ; ! no. 1040
@@ -1730,8 +1735,6 @@ vädtjalit:vä2dtjal V_ODD "get quickly, procure quickly" ; ! no. 90375
 vällahit:vä2llah V_ODD "lie, rest (for humans)" ; ! no. 2221
 väludit:vä2lud V_ODD "cry" ; ! no. 6055
 vänijdit:vä2nijd V_ODD "accustom, get used to" ; ! no. 2936
-värrábut:vä2rráb V_ODD "become worse, worsen" ; ! no. 5490
-värránit:vä2rrán V_ODD "worsen" ; ! no. 3286
 åråstit+Use/NG:ådåst V_ODD "renew, update" ; ! no. 90454
 ågodit:ågod V_ODD "chase, hunt back and forth (for dogs and wolves)" ; ! no. 3667
 åhppånit:åhppån V_ODD "become familiar with" ; ! no. 3243
