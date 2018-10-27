@@ -192,6 +192,13 @@ duon+Det+Pl+Ela:duojs # ;
 duon+Det+Pl+Com:duoj # ;
 
 
+!determiner (but does not inflect, as attr), eg: galga válldet daggar smáva muorajd
+daggar+Det+Attr:daggar # ; 
+dággar+Det+Attr:dággar # ; 
+duggir+Det+Attr:duggir # ; 
+
+maggar+Det+Interr+Attr:maggar # ; 
+miggir+Det+Interr+Attr+Use/NG:miggir # ; 
 
 
 
@@ -420,25 +427,46 @@ mij+Pron+Interr+Pl+Com:maj # ;
 !miggir~maggar:miggir-~maggar- ´hurudan?, vad för slags?, (sådan) som, (likadan) som´, attributivt oböjligt
 
 !miggir predikativ ställning
-miggir+Pron+Interr+Sg+Nom:miggir # ;
-miggir+Pron+Interr+Sg+Acc:miggirav # ;
-miggir+Pron+Interr+Sg+Gen:miggira # ;
-miggir+Pron+Interr+Sg+Ill:miggirij # ;
-miggir+Pron+Interr+Sg+Ine:miggirin # ;
-miggir+Pron+Interr+Sg+Ela:miggirist # ;
-miggir+Pron+Interr+Sg+Com:miggirijn # ;
-miggir+Pron+Interr+Sg+Ess:miggirin # ;
+maggar+Pron+Interr+Sg+Nom:maggar # ;
+maggar+Pron+Interr+Sg+Acc:maggarav # ;
+maggar+Pron+Interr+Sg+Gen:maggara # ;
+maggar+Pron+Interr+Sg+Ill:maggarij # ;
+maggar+Pron+Interr+Sg+Ine:maggarin # ;
+maggar+Pron+Interr+Sg+Ela:maggarist # ;
+maggar+Pron+Interr+Sg+Com:maggarijn # ;
+maggar+Pron+Interr+Sg+Ess:maggarin # ;
 
-miggir+Pron+Interr+Pl+Nom:miggira # ;
-miggir+Pron+Interr+Pl+Acc:miggirijd # ;
-miggir+Pron+Interr+Pl+Gen:miggirij # ;
-miggir+Pron+Interr+Pl+Ill:miggirijda # ;
-miggir+Pron+Interr+Pl+Ine:miggirijn # ;
-miggir+Pron+Interr+Pl+Ela:miggirijst # ;
-miggir+Pron+Interr+Pl+Com:miggirij # ;
+maggar+Pron+Interr+Pl+Nom:maggara # ;
+maggar+Pron+Interr+Pl+Acc:maggarijd # ;
+maggar+Pron+Interr+Pl+Gen:maggarij # ;
+maggar+Pron+Interr+Pl+Ill:maggarijda # ;
+maggar+Pron+Interr+Pl+Ine:maggarijn # ;
+maggar+Pron+Interr+Pl+Ela:maggarijst # ;
+maggar+Pron+Interr+Pl+Com:maggarij # ;
+
+!maggar attributiv ställning
+!maggar+Pron+Interr+Sg+Nom:maggar # ; !not a pronoun
+
+!miggir predikativ ställning, variant of maggar
+miggir+Pron+Interr+Sg+Nom+Use/NG:miggir # ;
+miggir+Pron+Interr+Sg+Acc+Use/NG:miggirav # ;
+miggir+Pron+Interr+Sg+Gen+Use/NG:miggira # ;
+miggir+Pron+Interr+Sg+Ill+Use/NG:miggirij # ;
+miggir+Pron+Interr+Sg+Ine+Use/NG:miggirin # ;
+miggir+Pron+Interr+Sg+Ela+Use/NG:miggirist # ;
+miggir+Pron+Interr+Sg+Com+Use/NG:miggirijn # ;
+miggir+Pron+Interr+Sg+Ess+Use/NG:miggirin # ;
+miggir+Pron+Interr+Pl+Nom+Use/NG:miggira # ;
+miggir+Pron+Interr+Pl+Acc+Use/NG:miggirijd # ;
+miggir+Pron+Interr+Pl+Gen+Use/NG:miggirij # ;
+miggir+Pron+Interr+Pl+Ill+Use/NG:miggirijda # ;
+miggir+Pron+Interr+Pl+Ine+Use/NG:miggirijn # ;
+miggir+Pron+Interr+Pl+Ela+Use/NG:miggirijst # ;
+miggir+Pron+Interr+Pl+Com+Use/NG:miggirij # ;
 
 !miggir attributiv ställning
-miggir+Pron+Interr+Sg+Nom:miggir # ;
+!miggir+Pron+Interr+Sg+Nom+Use/NG:miggir # ; !not a pronoun
+
 
 !galles:gallas- ´hur många personer?´ (brukas aldrig attributivt)
 
@@ -760,7 +788,7 @@ daggar+Pron+Indef+Pl+Ela:daggarijs # ;
 daggar+Pron+Indef+Pl+Com:daggarij # ;
 
 !daggar,attributiv ställning
-daggar+Pron+Indef+Sg+Nom:daggar # ;
+!daggar+Pron+Indef+Sg+Nom:daggar # ; !not a pronoun
 
 !daggár:daggár- /daggár, ´en sådan här, som den här´
 
@@ -782,8 +810,8 @@ dággar+Pron+Indef+Pl+Ine:dággarijn # ;
 dággar+Pron+Indef+Pl+Ela:dággarijs # ;
 dággar+Pron+Indef+Pl+Com:dággarij # ;
 
-!daggár,attributiv ställning a
-dággar+Pron+Indef+Sg+Nom:dággar # ;
+!daggár,attributiv ställning
+!dággar+Pron+Indef+Sg+Nom:dággar # ; !not a pronoun
 
 !duggir:duggir- /duggir, ´en sådan där (längst bort), som den där (längst bort)´
 
@@ -806,30 +834,31 @@ duggir+Pron+Indef+Pl+Ela:duggirijs # ;
 duggir+Pron+Indef+Pl+Com:duggirij # ;
 
 !duggir,attributiv ställning
-duggir+Pron+Indef+Sg+Nom:duggir # ;
+!duggir+Pron+Indef+Sg+Nom:duggir # ; !not a pronoun
 
 !duggir:duggir- /duggir, ´en sådan där (längre bort), som den där (längre bort)´
 
-!duggir,predikativ ställning
-duggir+Pron+Indef+Sg+Nom:duogger # ;
-duggir+Pron+Indef+Sg+Acc:duoggerav # ;
-duggir+Pron+Indef+Sg+Gen:duoggera # ;
-duggir+Pron+Indef+Sg+Ill:duoggerij # ;
-duggir+Pron+Indef+Sg+Ine:duoggerin # ;
-duggir+Pron+Indef+Sg+Ela:duoggeris # ;
-duggir+Pron+Indef+Sg+Com:duoggerijn # ;
-duggir+Pron+Indef+Sg+Ess:duoggerin # ;
+!!duggir,predikativ ställning
+!duggir+Pron+Indef+Sg+Nom:duogger # ;
+!duggir+Pron+Indef+Sg+Acc:duoggerav # ;
+!duggir+Pron+Indef+Sg+Gen:duoggera # ;
+!duggir+Pron+Indef+Sg+Ill:duoggerij # ;
+!duggir+Pron+Indef+Sg+Ine:duoggerin # ;
+!duggir+Pron+Indef+Sg+Ela:duoggeris # ;
+!duggir+Pron+Indef+Sg+Com:duoggerijn # ;
+!duggir+Pron+Indef+Sg+Ess:duoggerin # ;
+!
+!duggir+Pron+Indef+Pl+Nom:duoggera # ;
+!duggir+Pron+Indef+Pl+Acc:duoggerijd # ;
+!duggir+Pron+Indef+Pl+Gen:duoggerij # ;
+!duggir+Pron+Indef+Pl+Ill:duoggerijda # ;
+!duggir+Pron+Indef+Pl+Ine:duoggerijn # ;
+!duggir+Pron+Indef+Pl+Ela:duoggerijs # ;
+!duggir+Pron+Indef+Pl+Com:duoggerij # ;
 
-duggir+Pron+Indef+Pl+Nom:duoggera # ;
-duggir+Pron+Indef+Pl+Acc:duoggerijd # ;
-duggir+Pron+Indef+Pl+Gen:duoggerij # ;
-duggir+Pron+Indef+Pl+Ill:duoggerijda # ;
-duggir+Pron+Indef+Pl+Ine:duoggerijn # ;
-duggir+Pron+Indef+Pl+Ela:duoggerijs # ;
-duggir+Pron+Indef+Pl+Com:duoggerij # ;
+!!duggir,attributiv ställning
+!!duggir+Pron+Indef+Sg+Nom:duogger # ; !not a pronoun
 
-!duggir,attributiv ställning
-duggir+Pron+Indef+Sg+Nom:duogger # ;
 !iednak:iednag- /iedna ´mycket, många´, attributivt oböjligt
 
 !iednak,predikativ ställning
