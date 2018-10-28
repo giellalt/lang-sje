@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-27T15:05:56-04:00
+! Timestamp: 2018-10-28T22:49:21-04:00
 
 !! !!!Pite Saami Verbs
 
@@ -724,6 +724,7 @@ låhkågåhtet:låhkågåht V_EVEN_E "begin to read" ; ! no. 90652
 låpptet:låppt V_EVEN_E "finish something off, use something up" ; ! no. 1095
 låssket:låssk V_EVEN_E "cut or saw off reindeer antlers" ; ! no. 1096
 läbbnet:liebbn V_EVEN_E "pour into, spoon into" ; ! no. 2440
+mannagåhtet:mannagåht V_EVEN_E "begin to walk, begin to travel" ; ! no. 91156
 máddet:mádd V_EVEN_E "ask someone to do something, request" ; ! no. 1108
 máhttet:máhtt V_EVEN_E "can, be able to" ; ! no. 1115
 mákkset:mákks V_EVEN_E "pay, cost" ; ! no. 1123
@@ -1140,6 +1141,7 @@ duvdistit:duvdist V_ODD "drive a reindeer herd" ; ! no. 6057
 dåbdåstit:dåbdåst V_ODD "admit, confess, acknowledge" ; ! no. 91074
 dåhpolit:dåhpol V_ODD "grab quickly" ; ! no. 90966
 dåjdestit:dåjdest V_ODD "rinse off quickly" ; ! no. 4742
+dålvestit:dålvest V_ODD "tror" ; ! no. 91157
 dålåstit:dålåst V_ODD "start a fire" ; ! no. 422
 dåmådit:dåmåd V_ODD "behave" ; ! no. 425
 dårredit:dårred V_ODD "follow" ; ! no. 428
@@ -1442,6 +1444,7 @@ njiellalit:njiellal V_ODD "swallow quickly" ; ! no. 5016
 njujkudit:njujkud V_ODD "begin to drip" ; ! no. 4783
 njultjudit:njultjud V_ODD "jump" ; ! no. 4457
 njuolgestit:nju^Olgest V_ODD "take a short cut, straighten" ; ! no. 5021
+njuonodit:nju^Onod V_ODD "sniff" ; ! no. 2996
 njålgåstit:njålgåst V_ODD "run away straight ahead" ; ! no. 5783
 njåmåstit:njåmåst V_ODD "hold onto someone lovingly" ; ! no. 4374
 njåtsådit:njåtsåd V_ODD "drag one's feet, delay" ; ! no. 1315
@@ -1460,7 +1463,6 @@ rabastit:rabast V_ODD "open repeatedly" ; ! no. 5058
 rabnjastit:rabnjast V_ODD "fold back (e.g. a tent door)" ; ! no. 1356
 radasit:radas V_ODD "unstitch" ; ! no. 4288
 radastit:radast V_ODD "unstitch" ; ! no. 5062
-rassedit:rassed V_ODD "hurry some up, get ready" ; ! no. 2668
 rábastit:rábast V_ODD "brush, sweep" ; ! no. 3380
 rádestit:rádest V_ODD "consult, advise" ; ! no. 4640
 ráhkostit:ráhkost V_ODD "fish with a net under the ice" ; ! no. 1371
@@ -1468,6 +1470,7 @@ rájgadit:rájgad V_ODD "make a hole, drill" ; ! no. 1380
 rájjgánit:rájjgán V_ODD "become a hole" ; ! no. 5473
 rárestit:rárest V_ODD "think back to" ; ! no. 90867
 rárredit:rárred V_ODD "come to an agreement, confer" ; ! no. 2697
+rásedit:rásed V_ODD "hurry some up, get ready" ; ! no. 2668
 rássjodit:rássjod V_ODD "rain" ; ! no. 1387
 rátkátjit:rátkátj V_ODD "divide up reindeer for each other" ; ! no. 91053
 rávaldit:rávald V_ODD "talk nonsense" ; ! no. 1392
