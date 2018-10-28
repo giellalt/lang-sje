@@ -430,7 +430,7 @@ s:t <=> _ j2: .#. ;
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
 %^O:ä <=> Cns:* u _ G3 :e \%^WG: ; 
-          Cns:* u _ Cns:+ :e %^G3: ; ! duädde<->duodde
+          Cns:* u _ Cns:+ :e (j:j) %^G3: ; ! duädde<->duodde, guäddej<->guäddeja
 
 ! !!€ nju^Onnje^UAUML
 ! !!€ njuonnje0
