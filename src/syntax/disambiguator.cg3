@@ -220,7 +220,7 @@ LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num \? ;
 
 LIST NP-HEAD = N Pron ; #set of NP heads
 
-SET NounOrNum = N OR Num ;
+SET NounOrNum = NP-HEAD OR Num ;
 
 SET AP = A OR Adv ;
 
@@ -230,7 +230,7 @@ SET AttrAPpossible = (A Attr) OR PRE-AP-HEAD ;
 
 SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
          Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
-         (PrfPrc @>N) OR PrsPrc OR (A Ord) ;
+         (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (A Sg) OR (A Pl) ;
 SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
 
 LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok!)
@@ -418,6 +418,10 @@ REMOVE:notInfWithoutFiniteV (V Inf) IF (NOT *-1 VFIN BARRIER CLB );
 #prefer relative pronoun when preceded by NP
 SELECT:relProAfterNP (Pron Rel) IF (-1 N);
 #SELECT:interrProStartQ (Pron Interr) IF (-1 S-BOUNDARY);# LINK *1 ("\?"));
+
+#choose adv analysis of man when directly preceding an adjective (eg. man vuoras = how old)
+SELECT:manAdvb4Adj (Adv "man") IF (1 A);
+	##man guhkev almatja lä viessom dan birraskin
 
 
 #rules for dealing with ambiguities in gájk-/gajk-
