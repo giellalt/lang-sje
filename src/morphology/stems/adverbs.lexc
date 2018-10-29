@@ -56,6 +56,7 @@ beru adv ;
 !biejven adv ;
 bihko adv ;
 binnat adv ;
+birraskin adv "around here" ;
 buohta adv ;
 buoragit+Use/NG:buoragit adv "well" ;
 buoragijt adv "well" ;
@@ -120,7 +121,7 @@ gilluk adv "alone" ;
 guggu adv "vart, till vilken plats" ;
 guhkás adv ;
 guhkebuj adv ;
-guhkev adv ;
+!guhkev adv "a long time" ; !removed because acutally Adj+acc.sg usually with a sentence adverbial function
 gukkte adv "hur, på vilket sätt" ;
 gukkte+Use/NG:gåk adv "how" ;
 gukkte+Use/NG:gåkkte adv "how" ;
@@ -188,7 +189,7 @@ luoboj adv "utspridd, löst" ;
 
 maktes adv "hur, på vilket sätt" ;
 manen adv "varför, till vad, såsom var" ; !essiv av mij
-man adv ;
+man adv "how" ; !actually an interr-adv
 maŋŋelin adv ;
 maŋŋel adv ;
 maŋelt adv ;
