@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-28T22:49:21-04:00
+! Timestamp: 2018-10-29T17:28:31-04:00
 
 !! !!!Pite Saami Verbs
 
@@ -321,6 +321,7 @@ nagerduvvut:nagerduvv V_CONTR_UVVUT "become sleepy" ; ! no. 1232
 nággeduvvut:nággeduvv V_CONTR_UVVUT "be forced, be pressed" ; ! no. 91067
 sjuvtjaguvvut:sjuvtjaguvv V_CONTR_UVVUT "be frostbitten" ; ! no. 5405
 tjalmeduvvut:tjalmeduvv V_CONTR_UVVUT "go blind, lose vision" ; ! no. 1876
+tjálleduvvut:tjálleduvv V_CONTR_UVVUT "be written" ; ! no. 91162
 tjiegaduvvut:tjiegaduvv V_CONTR_UVVUT "become hidden" ; ! no. 3896
 tjuoladuvvut:tju^Oladuvv V_CONTR_UVVUT "slice, cut" ; ! no. 5528
 tjuorgaduvvut:tju^Orgaduvv V_CONTR_UVVUT "paint" ; ! no. 90367
@@ -1141,7 +1142,7 @@ duvdistit:duvdist V_ODD "drive a reindeer herd" ; ! no. 6057
 dåbdåstit:dåbdåst V_ODD "admit, confess, acknowledge" ; ! no. 91074
 dåhpolit:dåhpol V_ODD "grab quickly" ; ! no. 90966
 dåjdestit:dåjdest V_ODD "rinse off quickly" ; ! no. 4742
-dålvestit:dålvest V_ODD "tror" ; ! no. 91157
+dålvestit:dålvest V_ODD "trot" ; ! no. 91157
 dålåstit:dålåst V_ODD "start a fire" ; ! no. 422
 dåmådit:dåmåd V_ODD "behave" ; ! no. 425
 dårredit:dårred V_ODD "follow" ; ! no. 428
