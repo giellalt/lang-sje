@@ -42,8 +42,7 @@ LEXICON A_AMAS ! amas/amas/abmasa/abmasup
 +A: A_AMAS_s2 ; 
 
 LEXICON A_AMAS_s2 
-+Sg+Nom:^WG%> K ; 
-+Pl+Nom:%>a K ; 
+N_ODD_WG_s2 ;
 +Comp: A_EVEN_COMP ;
 +Superl: A_EVEN_SUP ;
 

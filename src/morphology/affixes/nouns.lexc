@@ -176,10 +176,13 @@ LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
 +N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
-+N+Sg+Nom:^WG%> K ;
++N: N_ODD_WG_s2 ;
 +N+Cmp/SgNom:^WG R ; !compound element
-+N: N_ODD_X ;
-+N: N_ODD_DIM ; !link to DIM
+
+LEXICON N_ODD_WG_s2 !allows ADJ to dock here
++Sg+Nom:^WG%> K ;
+N_ODD_X ;
+N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednag-, låvdå<->låvvdåk-
 +N+Sg+Nom:^WG^CDEL%> K ;
