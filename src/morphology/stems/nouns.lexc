@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T01:28:48-04:00
+! Timestamp: 2018-10-31T15:11:05-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -407,7 +407,6 @@ gáŋŋká:gáŋŋká N_EVEN "iron pole" ; ! no. 4067
 gáppte:gáppte N_EVEN "Saami frock" ; ! no. 539
 gárdijdna:gárdijdna N_EVEN "curtain" ; ! no. 90339
 gárrde:gárrde N_EVEN "fence, pen, corral" ; ! no. 548
-gárrdevárre:gárrde#várre N_EVEN "fenced in mountainous area" ; ! no. 5251
 gárre:gárre N_EVEN "bowl" ; ! no. 3446
 gárrtsa:gárrtsa N_EVEN "twirled leather strip" ; ! no. 551
 gárrvoájjte:gárrvo#ájjte N_EVEN "clothing shed" ; ! no. 3585

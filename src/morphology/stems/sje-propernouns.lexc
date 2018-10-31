@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T13:46:26-04:00
+! Timestamp: 2018-10-31T15:13:50-04:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -46,6 +46,7 @@ Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
 Elsa:Elsa N_EVEN "Elsa" ; ! no. 91026
 Frankrijjka:Frank#rijjka N_EVEN "France" ; ! no. 4238
 Gállesbuavvda:Gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
+Gárrdevárre:Gárrde#várre N_EVEN "fenced in mountain area" ; ! no. 5251
 Guarrbanjárrga:Guarrba#njárrga N_EVEN "Brännudden" ; ! no. 3401
 Gujjávvre:Guj#jávvre N_EVEN "Gujjávvre" ; ! no. 6522
 Guoledisjávvre:Guoledis#jávvre N_EVEN "Guoletisjávvre" ; ! no. 6529
