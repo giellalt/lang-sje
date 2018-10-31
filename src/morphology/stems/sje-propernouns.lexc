@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-29T17:12:21-04:00
+! Timestamp: 2018-10-31T00:55:11-04:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -82,6 +82,7 @@ Sverdji:Sverdji N_EVEN "Sweden" ; ! no. 1799
 Tjuvtasvuodna:Tjuvtas#vu^Odna N_EVEN "Tysfjord" ; ! no. 4017
 Varsjajåhkå:Varsja#jåhkå N_EVEN "Varsjajokk" ; ! no. 91122
 Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
+Vuallda:Vu^Ollda N_EVEN "Vuolda" ; ! no. 91172
 Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
 Vuonatjluakkta:Vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
 Åvvla:Åvvla N_EVEN "Ola" ; ! no. 91127
@@ -119,6 +120,7 @@ Rabak:Rabag2 N_ODD "Rebakudden" ; ! no. 90887
 Ruopsok:Ru^Opsog2 N_ODD "Ruopsok" ; ! no. 1436
 Tjidtják:Tjidtjág2 N_ODD "Tjidtjak" ; ! no. 6585
 Tjårvek:Tjårveg2 N_ODD "Hornavan" ; ! no. 1977
+Vilstugan:Vilstugan N_ODD "vilstugan" ; ! no. 91167
 Vuoktanj:Vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
 Åjjvák:Åjjvág2 N_ODD "Uddjaur Lake" ; ! no. 2811
 Árves:Árrves N_ODD_V2E2AA "Árves" ; ! no. 91003

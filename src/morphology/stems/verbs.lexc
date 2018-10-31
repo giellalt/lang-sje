@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-29T17:28:31-04:00
+! Timestamp: 2018-10-31T00:18:37-04:00
 
 !! !!!Pite Saami Verbs
 
@@ -155,6 +155,7 @@ mulit:muli V_CONTR "paint" ; ! no. 3646
 murrjit:murrji V_CONTR "pick berries" ; ! no. 4589
 murrkit:murrki V_CONTR "break apart" ; ! no. 2766
 mällit:mä2lli V_CONTR "grind meat or coffee beans" ; ! no. 6573
+nevvrut:nevvru V_CONTR "become worse" ; ! no. 91168
 nikktit:nikkti V_CONTR "put up with, accept" ; ! no. 1268
 ninnit:ninni V_CONTR "support, strengthen" ; ! no. 1243
 nisskit:nisski V_CONTR "kill a reindeer by stabbing it in the neck" ; ! no. 2777
