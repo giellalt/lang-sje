@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T00:55:11-04:00
+! Timestamp: 2018-10-31T13:46:26-04:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -41,6 +41,7 @@ Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 Bassåjjve:Bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
 Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
 Bieljegájjse:Bielje#gájjse N_EVEN "Pieljekaise" ; ! no. 6841
+Dagny:Dagny N_EVEN "Dagny" ; ! no. 91174
 Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
 Elsa:Elsa N_EVEN "Elsa" ; ! no. 91026
 Frankrijjka:Frank#rijjka N_EVEN "France" ; ! no. 4238
@@ -72,6 +73,7 @@ Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
 Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
 Sállvojåhkå:Sállvo#jåhkå N_EVEN "Sállvobäck" ; ! no. 90694
 Sillbajåhkå:Sillba#jåhkå N_EVEN "Silbojåkk" ; ! no. 5684
+Skajjle:Skajjle N_EVEN "Skaile" ; ! no. 91175
 Skärrfa:Skierrfa N_EVEN "Skärrfa" ; ! no. 2809
 Smuolle:Smu^Olle N_EVEN "Smolle" ; ! no. 91024
 Stuorluobme:Stuor#luobme N_EVEN "Stuorluobme" ; ! no. 91088
