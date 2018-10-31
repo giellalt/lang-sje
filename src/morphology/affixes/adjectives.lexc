@@ -181,6 +181,18 @@ LEXICON A_UNNE_s2
 +Superl:e A_ODD_SUP ;
 !+Superl+Use/NG:i A_ODD_jSUP ;
 
+LEXICON A_SMAAVVE ! smáva/smávve/smáve/smávep-a/smávájmus-
++A+Attr:a^WG%> # ;
++A: A_SMAAVVE_s2 ; 
+
+LEXICON A_SMAAVVE_s2 
++Sg+Nom:e%> K ; 
++Pl+Nom:e^WG%> K ; 
++Comp:e^WG A_ODD_COMP ;
++Superl:á A_ODD_jSUP ;
+
+
+
 
 LEXICON A_AAJDNA ! ájdna/ájdna/?/?-
 +A+Attr:%> # ;
