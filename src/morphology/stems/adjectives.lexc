@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-28T23:02:09-04:00
+! Timestamp: 2018-10-31T01:25:06-04:00
 
 !! !!!Pite Saami Adjectives
 
@@ -36,6 +36,7 @@ hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
 ávtas:ávvtas A_AARVAS "empty, desolate, outlying" ; ! no. 91
 fuovas:fu^Ovvsas A_AARVAS "numerous" ; ! no. 90334
 gámbal:gámmbal A_AARVAS "old" ; ! no. 2493
+luovas:lu^Ovvas A_AARVAS "loose; free" ; ! no. 1071
 njalkas:njallkas A_AARVAS "slippery" ; ! no. 4195
 tjiervas:tjierrvas A_AARVAS "awful, terrible; difficult" ; ! no. 90712
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
@@ -133,6 +134,7 @@ juhke:juhke A_JUHKE "alcoholic, drunkard" ; ! no. 932
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
 lahka:lahka A_KUORA "near, close" ; ! no. 91110
 slijtane:slijtane A_KUORA "worn" ; ! no. 91105
+nágan+Use/NG:nag A_NAGAN "some (-thing, -one)" ; ! no. 91170
 nágan+Use/NG:nagan A_NAGAN "some (-thing, -one)" ; ! no. 90963
 nágan:nágan A_NAGAN "some (-thing, -one)" ; ! no. 3430
 nágan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
@@ -143,6 +145,7 @@ maŋŋe:maŋŋe A_NUORRA "after" ; ! no. 91011
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 sällde:siellde A_NUORRA "terrible, huge, enormous" ; ! no. 1839
 sjävdnjet:sjievdnje A_SJAEVDNJET "dark" ; ! no. 3301
+smávve:smávv A_SMAAVVE "small, little" ; ! no. 90347
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
 stuorra+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
 tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849

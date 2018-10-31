@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-29T17:44:52-04:00
+! Timestamp: 2018-10-31T01:28:48-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -377,6 +377,7 @@ gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
 gallva:gallva N_EVEN "dry deciduous tree" ; ! no. 4757
 gasskabäjjve:gasska#biejjve N_EVEN "dinner time" ; ! no. 564
 gasskadállve:gasska#dállve N_EVEN "the middle of the winter" ; ! no. 5728
+gasskagiesse:gasska#giesse N_EVEN "midsummer" ; ! no. 91171
 gasskaidja:gasska#idja N_EVEN "midnight" ; ! no. 5727
 gavakjuällge:gavak#ju^Ollge N_EVEN "bowlegged" ; ! no. 4536
 gavdnemärrka:gavdne#mierrka N_EVEN "owner's mark" ; ! no. 3371
@@ -1485,6 +1486,7 @@ vuojŋastak:vu^Ojŋastag2 N_EVEN4 "breath, breathing" ; ! no. 2171
 vuolestak:vu^Olestag2 N_EVEN4 "reindeer back" ; ! no. 2884
 vuotjadak:vu^Otjadag2 N_EVEN4 "wolverine spear" ; ! no. 2791
 åjválatj:åjválatj N_EVEN4 "authority" ; ! no. 3238
+årjátaládak:årját#aládag2 N_EVEN4 "southwesterly wind" ; ! no. 91169
 årrádak:årrádag2 N_EVEN4 "bedsheet" ; ! no. 90401
 ärbulatj:ä2rbulatj N_EVEN4 "heir" ; ! no. 2731
 gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
@@ -2069,6 +2071,7 @@ fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fieber:fieber N_ODD "fever" ; ! no. 4049
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
+fudder:fudder N_ODD "feed" ; ! no. 91173
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
 gahper:gahper N_ODD "cap (part of traditional dress)" ; ! no. 6765
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
@@ -2083,7 +2086,6 @@ gasskas:gasskas N_ODD "juniper, juniper twig" ; ! no. 566
 gáddek:gáddeg2 N_ODD "along the shore, someone who lives at the shore" ; ! no. 3189
 gáffal:gáffal N_ODD "fork (eating utensil)" ; ! no. 90841
 gáhtsem:gáhtsem N_ODD "neck (humans)" ; ! no. 504
-gálav:gálav N_ODD "ford" ; ! no. 4332
 gállok:gállog2 N_ODD "shoe made of leather from a reindeer's forehead" ; ! no. 527
 gálsok:gálsog2 N_ODD "leather trousers (legs sewn from leg hide of reindeer)" ; ! no. 528
 gárgŋel:gárgŋel N_ODD "elbow" ; ! no. 542
@@ -2327,7 +2329,6 @@ tjiebot+Use/NG:tjiebed2 N_ODD "throat, neck" ; ! no. 90949
 tjiebot:tjiebod2 N_ODD "throat, neck" ; ! no. 1900
 tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and forehead" ; ! no. 2563
 tjiehtar:tjiehtar N_ODD "servant" ; ! no. 4377
-tjiehtsev:tjiehtsev N_ODD "niece, nephew (brother’s child)" ; ! no. 3417
 tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
 tjilik:tjilig2 N_ODD "baby goat, kid" ; ! no. 5216
@@ -2476,6 +2477,7 @@ fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 gamar:gabmar N_ODD_WG "goat cheese curd mass" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
 gáhker:gáhkker N_ODD_WG "winter scat of reindeer or moose" ; ! no. 3933
+gálav:gállav N_ODD_WG "ford" ; ! no. 4332
 gámas:gábmas N_ODD_WG "leather from reindeer legs" ; ! no. 486
 gárkas:gárrkas N_ODD_WG "lasso made of twirled calf leather" ; ! no. 543
 giehtavuojdas:giehta#vu^Ojjdas N_ODD_WG "handcreme" ; ! no. 4823
@@ -2520,6 +2522,7 @@ suorbmas:su^Orbmas N_ODD_WG "ring" ; ! no. 1772
 svájnas:svájdnas N_ODD_WG "male servant, assistant" ; ! no. 1791
 tjálmas:tjálmas N_ODD_WG "reticulum (the second reindeer stomach)" ; ! no. 2849
 tjiegar:tjiehkar N_ODD_WG "area with holes dug by grazing reindeer" ; ! no. 3274
+tjiehtsev:tjiehttsev N_ODD_WG "niece, nephew (brother’s child)" ; ! no. 3417
 tjieskas:tjiesskas N_ODD_WG "piece of firewood" ; ! no. 3411
 tjällár:tjä2l'lár N_ODD_WG "cellar, basement" ; ! no. 90624
 urtas:urrtas N_ODD_WG "garden angelica root" ; ! no. 4016
@@ -2530,6 +2533,7 @@ vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
 vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
+vuonev:vu^Odnev N_ODD_WG "mother-in-law" ; ! no. 2183
 åjjvesárjas:åjjve#sárrjas N_ODD_WG "headache" ; ! no. 2252
 gane:gadn N_ODD_WG_eH "invisible subterranean being" ; ! no. 6873
 gane+Use/NG:gidn N_ODD_WG_eH "invisible subterranean being" ; ! no. 90926
