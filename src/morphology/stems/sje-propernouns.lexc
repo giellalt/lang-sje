@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T20:34:55-04:00
+! Timestamp: 2018-11-01T14:53:15-04:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -72,6 +72,7 @@ Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
 Rájjavárre:Rájja#várre N_EVEN "Rájjavárre" ; ! no. 91132
 Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
+Sádenåjjve:Sáden#åjjve N_EVEN "Sádenåjvve" ; ! no. 91181
 Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
 Sállvojåhkå:Sállvo#jåhkå N_EVEN "Sállvobäck" ; ! no. 90694
 Sillbajåhkå:Sillba#jåhkå N_EVEN "Silbojåkk" ; ! no. 5684
