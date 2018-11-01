@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T14:56:15-04:00
+! Timestamp: 2018-11-01T00:20:00-04:00
 
 !! !!!Pite Saami Verbs
 
@@ -546,7 +546,6 @@ sluogŋat:slu^Ogŋ V_EVEN_A "sneak in quickly (for animals)" ; ! no. 6063
 smállat:smáll V_EVEN_A "fuss around" ; ! no. 1688
 snarrat:snarr V_EVEN_A "wrangle (for dogs)" ; ! no. 3558
 snirvudallat:snirvudall V_EVEN_A "wrinkle one's nose" ; ! no. 4518
-snuaggat:snu^Ogg V_EVEN_A "spy, snoop" ; ! no. 1698
 spiedjat:spiedj V_EVEN_A "destroy" ; ! no. 1717
 spiellat:spiell V_EVEN_A "play (a game, music)" ; ! no. 6235
 stálostallat:stálostall V_EVEN_A "play blindman’s bluff" ; ! no. 3330
@@ -627,6 +626,7 @@ väjjsat:viejjs V_EVEN_A "go far out of the way, take a detour" ; ! no. 2220
 åvrostallat:åvrostall V_EVEN_A "become uneasy" ; ! no. 4330
 äjidallat:äjidall V_EVEN_A "waste time" ; ! no. 5573
 ävvudallat:ävvudall V_EVEN_A "rejoice, have fun" ; ! no. 2290
+snuaggat:snu^Ogg V_EVEN_A_G3 "spy, snoop" ; ! no. 1698
 adnet:adn V_EVEN_E "have, own, use" ; ! no. 6
 aldagasstet:aldagasst V_EVEN_E "flash lightening, thunder" ; ! no. 45
 anedahttet:anedahtt V_EVEN_E "be useful" ; ! no. 3452
@@ -690,7 +690,6 @@ ginugahttet:ginugahtt V_EVEN_E "stop, come to a stop" ; ! no. 4399
 gunádahttet:gunádahtt V_EVEN_E "say goodbye" ; ! no. 5829
 guorret+Use/NG:gu^Odd V_EVEN_E "leave, vacate" ; ! no. 90414
 guorret:gu^Orr V_EVEN_E "leave, vacate" ; ! no. 704
-guäddet:gu^Odd V_EVEN_E "carry" ; ! no. 717
 gåddet:gådd V_EVEN_E "kill, slay" ; ! no. 4879
 gåhtset:gåhts V_EVEN_E "watch, do surveillance" ; ! no. 740
 gåjkådasstet:gåjkådasst V_EVEN_E "dry next to a fire" ; ! no. 4886
@@ -811,6 +810,7 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 åvvdånahttet:åvvdånahtt V_EVEN_E "propose, present" ; ! no. 5815
 ähttset:iehtts V_EVEN_E "love" ; ! no. 2286
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
+guäddet:gu^Odd V_EVEN_E_G3 "carry" ; ! no. 717
 agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
 avstot:avst V_EVEN_O "scoop, bail out" ; ! no. 3674
 ájjgot:ájjg V_EVEN_O "intend, mean to" ; ! no. 27
@@ -853,7 +853,6 @@ gárrtjot:gárrtj V_EVEN_O "be really cold" ; ! no. 2785
 gávvlot:gávvl V_EVEN_O "cut off skin from reindeer leg" ; ! no. 2609
 gilljot:gillj V_EVEN_O "scream" ; ! no. 630
 gualldot:gu^Olld V_EVEN_O "blow hard (for snow)" ; ! no. 694
-guardnjot:gu^Ordnj V_EVEN_O "climb up" ; ! no. 3717
 guassot:gu^Os's V_EVEN_O "be a guest, visit (and get something to eat or drink)" ; ! no. 90974
 guohtot:gu^Oht V_EVEN_O "graze" ; ! no. 686
 gåbbdot:gåbbd V_EVEN_O "float, drift" ; ! no. 3857
@@ -886,8 +885,6 @@ lávvgot:lávvg V_EVEN_O "bathe, wash" ; ! no. 90839
 lávvlot:lávvl V_EVEN_O "sing" ; ! no. 1026
 lijjgot:lijjg V_EVEN_O "abstain from sth" ; ! no. 1049
 livvot:livv V_EVEN_O "become thin" ; ! no. 1054
-luabbot:lu^Obb V_EVEN_O "spread out" ; ! no. 1055
-luaddot:lu^Odd V_EVEN_O "chop (firewood)" ; ! no. 5274
 luodjot:lu^Odj V_EVEN_O "complain" ; ! no. 1065
 lådnot:lådn V_EVEN_O "trade, loan, borrow" ; ! no. 2637
 lågŋot:lågŋ V_EVEN_O "lift repeatedly" ; ! no. 4022
@@ -961,13 +958,16 @@ vállot:váll V_EVEN_O "cry" ; ! no. 2077
 viessot:viess V_EVEN_O "live, feel" ; ! no. 2112
 vijjsot:vijjs V_EVEN_O "become wiser" ; ! no. 2514
 villsjot:villsj V_EVEN_O "look around (uncomforatbly)" ; ! no. 90673
-vuardnot:vu^Ordn V_EVEN_O "reject" ; ! no. 2142
 vuodjot:vu^Odj V_EVEN_O "sink, fall down to the bottom" ; ! no. 2156
 ådtjot:ådtj V_EVEN_O "get, receive, be allowed to" ; ! no. 2237
 åggot:ågg V_EVEN_O "fish using a fishing rod" ; ! no. 2241
 årrot:årr V_EVEN_O "live, reside" ; ! no. 2268
 åsskot:åssk V_EVEN_O "believe in someone or something, have trust in something" ; ! no. 2271
 åvvlot:åvvl V_EVEN_O "be covered by meltwater in spring; get heartburn" ; ! no. 2280
+guardnjot:gu^Ordnj V_EVEN_O_G3 "climb up" ; ! no. 3717
+luabbot:lu^Obb V_EVEN_O_G3 "spread out" ; ! no. 1055
+luaddot:lu^Odd V_EVEN_O_G3 "chop (firewood)" ; ! no. 5274
+vuardnot:vu^Ordn V_EVEN_O_G3 "reject" ; ! no. 2142
 bådnjåt:bådnj V_EVEN_Å "screw, twist" ; ! no. 234
 bårråt:bårr V_EVEN_Å "eat" ; ! no. 256
 båsskåt:båssk V_EVEN_Å "poke with a needle or stick" ; ! no. 3299

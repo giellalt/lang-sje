@@ -74,6 +74,36 @@ LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Pl2:de #;
 
 
+LEXICON V_EVEN_E_G3 !guäddet, däddet
++V:     V_EVEN_E_STR_G3 ; !special case to force G3 for correct output of ua/uä
++V:e^WG V_EVEN_E_WK ; !same as all V_EVEN_E
+
+LEXICON V_EVEN_E_STR_G3 !
++Ind+Prs+Sg3:á^G3^UAUML%> #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:e^G3^UAUML%>behtin #;
++Ind+Prs+Du2:e^G3^UAUML%>bähtten #;
++Ind+Prs+Du3:e^G3^UAUML%> 3DUPRS ;
++Ind+Prs+Pl1:e^G3^UAUML%>p #;
++Ind+Prs+Pl2:e^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:e^G3^UAUML%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e^G3^UAUML%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:e^G3^UAUML%>t # ; 
++GerII:e^G3^UAUML%>min # ; !aka: +Actio+Ess ?
++PrfPrc:á^G3^UAUML%>m # ;
++PrsPrc:e^G3^UAUML%>j # ; 
++Vsubst:e^G3^UAUML%>m #; 
+
+
+
+
 
 LEXICON V_EVEN_A !dahkat
 +V:     V_EVEN_A_STR ;
@@ -121,6 +151,35 @@ LEXICON V_EVEN_A_WK
 +Pot:%>tj V_EVEN_POT ;
 
 
+
+LEXICON V_EVEN_A_G3 !snuaggat
++V:     V_EVEN_A_STR_G3 ; !special case to force G3 for correct output of ua/uä
++V:a^WG V_EVEN_A_WK ; !same as all V_EVEN_E
+
+LEXICON V_EVEN_A_STR_G3 !
++Ind+Prs+Sg3:á^G3^UAUML%> #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:a^G3^UAUML%>behtin #;
++Ind+Prs+Du2:a^G3^UAUML%>bähtten #;
++Ind+Prs+Du3:a^G3^UAUML%> 3DUPRS ;
++Ind+Prs+Pl1:a^G3^UAUML%>p #;
++Ind+Prs+Pl2:a^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:a^G3^UAUML%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e^G3^UAUML%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:a^G3^UAUML%>t # ; 
++GerII:a^G3^UAUML%>min # ; !aka: +Actio+Ess ?
++PrfPrc:a^G3^UAUML%>m # ;
++PrsPrc:a^G3^UAUML%>j # ; 
++Vsubst:e^G3^UAUML%>m #; 
+
+
 LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
 +V:	V_GILGIJ_FORMS ;
 
@@ -131,6 +190,7 @@ LEXICON V_GILGIJ_FORMS !see above
 +Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jme #;
 +Ind+Prt+Pl2:%>jde #;
+
 
 
 LEXICON V_EVEN_O !viessot, årrot
@@ -179,6 +239,36 @@ LEXICON V_EVEN_O_WK
 +Pot:%>tj V_EVEN_POT ; 
 
 
+
+LEXICON V_EVEN_O_G3 !luabbot
++V:     V_EVEN_O_STR_G3 ; !special case to force G3 for correct output of ua/uä
++V:o^WG V_EVEN_O_WK ; !same as all V_EVEN_E
+
+LEXICON V_EVEN_O_STR_G3 !
++Ind+Prs+Sg3:u%> #;
++Ind+Prs+Du1:u%>n #; 
++Ind+Prs+Du2:o^G3^UAUML%>behtin #;
++Ind+Prs+Du2:o^G3^UAUML%>bähtten #;
++Ind+Prs+Du3:o^G3^UAUML%> 3DUPRS ;
++Ind+Prs+Pl1:o^G3^UAUML%>p #;
++Ind+Prs+Pl2:o^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:o^G3^UAUML%>bähttet #;
++Ind+Prs+Pl3:u%> #; 
++Ind+Prt+Sg1:u%>v #; 
++Ind+Prt+Sg2:u%> #; 
++Ind+Prt+Pl3:u%>n #; 
+
++Imprt+Du2:o^G3^UAUML%>n # ; 
++Imprt+Pl2:u%>t #;
+
++Inf:o^G3^UAUML%>t # ; 
++GerII:o^G3^UAUML%>min # ; !aka: +Actio+Ess ?
++PrfPrc:u%>m # ;
++PrsPrc:o^G3^UAUML%>j # ; 
++Vsubst:o^G3^UAUML%>m #; 
+
+
+
 LEXICON V_EVEN_Å !hållåt, bårråt
 +V:     V_EVEN_Å_STR ;
 +V:å^WG V_EVEN_Å_WK ;
@@ -224,6 +314,8 @@ LEXICON V_EVEN_Å_WK
 +Vgen:%> #;  
 +Pot:%>tj V_EVEN_POT ; 
 
+
+!LEXICON V_EVEN_Å_G3 !does not exist (V2 -å- always has V1 -å-)
 
 
 !POT forms for V_EVEN_
