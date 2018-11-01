@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T23:47:53-04:00
+! Timestamp: 2018-11-01T14:04:55-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -1642,7 +1642,8 @@ sájjtesåbbe:sájjte#såbbe N_EVEN_NOCG "spear pole" ; ! no. 1495
 sirre+Use/NG:sidde N_EVEN_NOCG "cheese rack " ; ! no. 90471
 sievvagádde:sievva#gádde N_EVEN_NOCG "seashore" ; ! no. 5114
 sjádde:sjádde N_EVEN_NOCG "hole dug in the snow because reindeer ate there" ; ! no. 4776
-sládjojägge:sládjo#jiegge N_EVEN_NOCG "marsh with hay for harvesting" ; ! no. 90342
+sládjojägge:sládjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 90342
+sládjojägge+Use/NG:slájjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 91180
 släddo:slieddo N_EVEN_NOCG "puddle, mud puddle" ; ! no. 1671
 stádtjo:stádtjo N_EVEN_NOCG "frying pan" ; ! no. 1727
 stággo:stággo N_EVEN_NOCG "pole, stick" ; ! no. 90827
@@ -1904,6 +1905,7 @@ skåvvlåbarrgo:skåvvlå#barrgo N_EVEN_O "schoolwork" ; ! no. 3960
 skävvdo:skievvdo N_EVEN_O "bag with sewing materials" ; ! no. 1661
 sládjo:sládjo N_EVEN_O "harvest time" ; ! no. 4490
 sláhppo:sláhppo N_EVEN_O "tendon in the back" ; ! no. 2725
+sládjo+Use/NG:slájjo N_EVEN_O "harvest time" ; ! no. 91179
 slibbro:slibbro N_EVEN_O "rag" ; ! no. 1672
 släjjvo:sliejjvo N_EVEN_O "ladle" ; ! no. 4807
 smirrjo:smirrjo N_EVEN_O "mess, mix-up; forge" ; ! no. 4394
