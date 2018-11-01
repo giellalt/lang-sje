@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T15:11:05-04:00
+! Timestamp: 2018-10-31T23:47:53-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -2252,6 +2252,7 @@ saŋátj:saŋátj N_ODD "itch" ; ! no. 1506
 savek:saveg2 N_ODD "ski with climbing skin" ; ! no. 1518
 sáddebáhper:sádde#báhper N_ODD "sandpaper" ; ! no. 1468
 sáddem:sáddem N_ODD "sharpest point in a fox trap" ; ! no. 2793
+sáhkaguäddej:sáhka#gu^Oddej N_ODD "messenger" ; ! no. 3465
 sáhkotjavelg:sáhko#tjavelg N_ODD "very thin, meager reindeer" ; ! no. 4494
 sálat:sálad2 N_ODD "crevasse in a glacier" ; ! no. 4408
 sámegielak:sáme#gielag2 N_ODD "Saami speaker" ; ! no. 2643
