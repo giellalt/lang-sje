@@ -369,6 +369,8 @@ LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
 
 
 
+
+
 ! NOTE: 
 ! NOTE: below here: lexica that are referred to in adjectives (or at least outside noun-stems)
 ! NOTE: 
@@ -460,4 +462,35 @@ LEXICON MONOSYL_PROPER_N_S2
 +Pl+Ela+Use/NG:ajs K ;
 +Pl+Com:aj K ;
 +Pl+Com+Use/NG:ajgum K ;
+
+
+!for proper names for which the inflectional paradigms are not clear (at least until more is known about how they inflect – essentially only non-Saami names)
+LEXICON N_NAME_noInfl_C !C-final
++N+Sg+Nom:%> K ; 
++N: N_ODD_X ;
+
+
+LEXICON N_NAME_noInfl_V !
++N: N_NAME_noInfl_V_s2 ;
+
+LEXICON N_NAME_noInfl_V_s2 !V-final
++Sg+Nom: K ;
++Sg+Acc:v K ;
++Sg+Gen: K ;
++Sg+Ill:j K ;
++Sg+Ine:n K ;
++Sg+Ela:st K ; 
++Sg+Ela+Use/NG:s K ; 
++Sg+Com:jn K ;
++Ess:an K ;
++Pl+Nom: K ;
++Pl+Acc:jd K ;
++Pl+Gen:j K ;
++Pl+Ill:jda K ;
++Pl+Ine:jn K ;
++Pl+Ela:jst K ;
++Pl+Ela+Use/NG:js K ;
++Pl+Com:j K ;
++Pl+Com+Use/NG:jgum K ;
+
 

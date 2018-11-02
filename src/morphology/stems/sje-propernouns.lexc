@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-01T14:53:15-04:00
+! Timestamp: 2018-11-02T21:54:02-04:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -41,9 +41,7 @@ Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 Bassåjjve:Bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
 Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
 Bieljegájjse:Bielje#gájjse N_EVEN "Pieljekaise" ; ! no. 6841
-Dagny:Dagny N_EVEN "Dagny" ; ! no. 91174
 Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
-Elsa:Elsa N_EVEN "Elsa" ; ! no. 91026
 Frankrijjka:Frank#rijjka N_EVEN "France" ; ! no. 4238
 Gállesbuavvda:Gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
 Gárrdevárre:Gárrde#várre N_EVEN "fenced in mountain area" ; ! no. 5251
@@ -64,7 +62,6 @@ Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
 Krehtta:Krehtta N_EVEN "Greta" ; ! no. 91023
 Lajratjåhkkå:Lajra#tjåhkkå N_EVEN "Lajratjåhkkå" ; ! no. 91131
 Lässe:Lä2sse N_EVEN "Lars" ; ! no. 6035
-Maria:Maria N_EVEN "Maria" ; ! no. 91128
 Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
 Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
 Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
@@ -113,6 +110,12 @@ Vuallvo:Vu^Ollvo N_EVEN_O "Vuolvojávrre" ; ! no. 91178
 Juhán:Juhán N_JUHAAN "John" ; ! no. 5978
 Blind:Blind N_MONOSYL_PROPER "Blind" ; ! no. 91126
 Per:Per N_MONOSYL_PROPER "Per" ; ! no. 91124
+Bengtsson:Bengtsson N_NAME_noInfl_C "Bengtsson" ; ! no. 91184
+Sjul:Sjul N_NAME_noInfl_C "Sjul" ; ! no. 91186
+Dagny:Dagny N_NAME_noInfl_V "Dagny" ; ! no. 91174
+Elsa:Elsa N_NAME_noInfl_V "Elsa" ; ! no. 91026
+Margareta:Margareta N_NAME_noInfl_V "Margareta" ; ! no. 91185
+Maria:Maria N_NAME_noInfl_V "Maria" ; ! no. 91128
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
 Árjepluovek:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609
 Bávval:Bávval N_ODD "Paul" ; ! no. 4637
