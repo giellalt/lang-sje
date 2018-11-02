@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-01T14:04:55-04:00
+! Timestamp: 2018-11-02T15:17:37-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -748,6 +748,7 @@ mánnámiella:mánná#miella N_EVEN "childish mood" ; ! no. 90632
 mánná+N+Der/State:mánnávu^Ohta N_EVEN "childhood" ; ! no. 3221
 mánnodiehpe:mánno#diehpe N_EVEN "moonlight" ; ! no. 4310
 márrtná:márrtná N_EVEN "market" ; ! no. 2594
+metuvvda:metuvvda N_EVEN "method" ; ! no. 91182
 miehtedievvá:miehte#dievvá N_EVEN "downhill slope" ; ! no. 5893
 miella:miella N_EVEN "temperament, reason, mood, senses" ; ! no. 1153
 mierra:mierra N_EVEN "honey" ; ! no. 1160
