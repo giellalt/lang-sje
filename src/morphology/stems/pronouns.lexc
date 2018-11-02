@@ -810,6 +810,14 @@ dággar+Pron+Indef+Pl+Ine:dággarijn # ;
 dággar+Pron+Indef+Pl+Ela:dággarijs # ;
 dággar+Pron+Indef+Pl+Com:dággarij # ;
 
+dággar+Pron+Indef+Pl+Nom+Use/NG:däggira # ;
+dággar+Pron+Indef+Pl+Acc+Use/NG:däggirijd # ;
+dággar+Pron+Indef+Pl+Gen+Use/NG:däggirij # ;
+dággar+Pron+Indef+Pl+Ill+Use/NG:däggirijda # ;
+dággar+Pron+Indef+Pl+Ine+Use/NG:däggirijn # ;
+dággar+Pron+Indef+Pl+Ela+Use/NG:däggirijs # ;
+dággar+Pron+Indef+Pl+Com+Use/NG:däggirij # ;
+
 !daggár,attributiv ställning
 !dággar+Pron+Indef+Sg+Nom:dággar # ; !not a pronoun
 
