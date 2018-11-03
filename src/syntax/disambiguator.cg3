@@ -459,8 +459,12 @@ SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB OR 3SGV)
 
 #if the following slot has a noun, choose gen.sg #!should come after verb agreement rules!
 #SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
-REMOVE:GenSgB4EOS (N Sg Gen) IF (1 EOS OR ("\;"));
     ##Ja bällin almatja råggev dan skájjdáj ja jávestin rubmahav dasa.
+    ##ja mån galgav låhkåt sisa bágojd, sáme bágojd.
+
+#remove GEN reading if sentence final
+REMOVE:noGenSgAtEOS (N Sg Gen) IF ((0 EOS) OR (1 ("\;")));
+    ##
 
 
 
