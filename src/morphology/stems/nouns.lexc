@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-02T15:17:37-04:00
+! Timestamp: 2018-11-02T23:38:41-04:00
 
 !! !!!Pite Saami Nouns
 
@@ -2124,8 +2124,8 @@ guähpper:gu^Ohpper N_ODD "hoof" ; ! no. 684
 guävvdel:gu^Ovvdel N_ODD "in the middle of the day" ; ! no. 4870
 gåhpel:gåhpel N_ODD "capercaillie hen" ; ! no. 735
 gåhttjom:gåhttjom N_ODD "command" ; ! no. 4105
-gåjgek:gåjgeg2 N_ODD "shoe made of leather from reindeer legs" ; ! no. 745
 gåjjvon:gåjjvon N_ODD "spade, trowel, shovel" ; ! no. 750
+gåjkek:gåjkeg2 N_ODD "shoe made of leather from reindeer legs" ; ! no. 745
 gåmål:gåmål N_ODD "contents of the rumen" ; ! no. 4301
 gåŋgek:gåŋgeg2 N_ODD "rib in a boat or Saami sled" ; ! no. 3498
 gårot:gårod2 N_ODD "slaughtered body" ; ! no. 90548
@@ -2290,7 +2290,7 @@ skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predat
 skubmok:skubmog2 N_ODD "mouth protection" ; ! no. 5911
 skuhter:skuhter N_ODD "snowmobile" ; ! no. 90946
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
-skuvvlik:skuvvlig2 N_ODD "teacher" ; ! no. 3959
+skuvlik:skuvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
 skåvlåk:skåvlåg2 N_ODD "teacher" ; ! no. 90754
 klihtar+Use/NG:slihtur N_ODD "cattle, livestock (not reindeer)" ; ! no. 90716

@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-02T21:54:02-04:00
+! Timestamp: 2018-11-03T00:17:06-04:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -95,6 +95,7 @@ Guoledisjávvre+Use/NG:Gu^Oled N_EVEN4_ISA "Guoletisjávvre" ; ! no. 90743
 Maltegis:Malteg N_EVEN4_ISA "Maltegis" ; ! no. 1127
 Namadis:Namad N_EVEN4_ISA "Namatisfjäll, 'namnlös'" ; ! no. 90958
 Árdna:Árdna N_EVEN_NOCG "Árdna" ; ! no. 90692
+Stäggu:Stä2ggu N_EVEN_NOCG "Steggo" ; ! no. 91192
 Bidumiedno:Bidum#iedno N_EVEN_O "Pite river" ; ! no. 170
 Bidumiedno+Use/NG:Birruma#iedno N_EVEN_O "Pite river" ; ! no. 90939
 Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
@@ -111,6 +112,9 @@ Juhán:Juhán N_JUHAAN "John" ; ! no. 5978
 Blind:Blind N_MONOSYL_PROPER "Blind" ; ! no. 91126
 Per:Per N_MONOSYL_PROPER "Per" ; ! no. 91124
 Bengtsson:Bengtsson N_NAME_noInfl_C "Bengtsson" ; ! no. 91184
+Erik:Erig2 N_NAME_noInfl_C "Erik" ; ! no. 91191
+Fjällman:Fjä2llman N_NAME_noInfl_C "Fjällman" ; ! no. 91187
+Lars:Lars N_NAME_noInfl_C "Lars" ; ! no. 91190
 Sjul:Sjul N_NAME_noInfl_C "Sjul" ; ! no. 91186
 Dagny:Dagny N_NAME_noInfl_V "Dagny" ; ! no. 91174
 Elsa:Elsa N_NAME_noInfl_V "Elsa" ; ! no. 91026
