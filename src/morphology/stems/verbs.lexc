@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-01T00:20:00-04:00
+! Timestamp: 2018-11-02T22:50:16-04:00
 
 !! !!!Pite Saami Verbs
 
@@ -514,6 +514,7 @@ råhkåstallat:råhkåstall V_EVEN_A "worship, adore" ; ! no. 90660
 räjjvat:riejjv V_EVEN_A "whip, strike, beat" ; ! no. 91078
 sárrat+Use/NG:sádd V_EVEN_A "breathe heavily, pant (for animals)" ; ! no. 90468
 ságastallat:ságastall V_EVEN_A "converse" ; ! no. 5108
+sáhkadallat:sáhkadall V_EVEN_A "tell a story, relate a story" ; ! no. 91189
 sáhtsat:sáhts V_EVEN_A "carve" ; ! no. 5110
 sállat:sáll V_EVEN_A "make ski tracks in deep snow" ; ! no. 2984
 sárrat:sárr V_EVEN_A "breathe heavily, pant (for animals)" ; ! no. 2986
@@ -1301,7 +1302,7 @@ hålådit:hålåd V_ODD "ask for something" ; ! no. 2712
 håskålit:håskål V_ODD "incite, sic a dog on reindeer" ; ! no. 858
 håvkådit:håvkåd V_ODD "speak incoherently" ; ! no. 5797
 härridit+Use/NG:hä2ddid V_ODD "imitate" ; ! no. 90838
-hähkaldit:hä2hkald V_ODD "process shoe hay, beat shoe hay against something hard" ; ! no. 6544
+hähkkaldit:hä2hkkald V_ODD "process shoe hay, beat shoe hay against something hard" ; ! no. 6544
 hähppidit:hä2hppid V_ODD "manage on time, reach" ; ! no. 3712
 häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
 häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
@@ -1332,6 +1333,7 @@ jumijdit:jumijd V_ODD "roar, blow loudly (for wind)" ; ! no. 936
 juogadit:ju^Ogad V_ODD "divide up, distribute" ; ! no. 3569
 juohkádit:ju^Ohkád V_ODD "separate, divorce" ; ! no. 3788
 juojgadit:ju^Ojgad V_ODD "yoik about someome or something" ; ! no. 90649
+juojgastit:ju^Ojgast V_ODD "yoik a little" ; ! no. 91188
 juonadit:ju^Onad V_ODD "wonder" ; ! no. 3905
 jurgijdit:jurgijd V_ODD "turn around" ; ! no. 4106
 jåddådit:jåddåd V_ODD "set out net in a lake" ; ! no. 949
