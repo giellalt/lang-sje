@@ -22,7 +22,7 @@ Demonstrative ;
 Determiner ;
 Relative ;
 Reflexive ;
-Interrogativa ;
+Interrogative ;
 Indefinita ;
 
 
@@ -346,7 +346,7 @@ guhtimus+Pron+Rel+Pl+Com:guhtimusaj # ;
 !guhtimus attributiv ställning
 guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
 
-LEXICON Interrogativa   !!= * __@CODE@__
+LEXICON Interrogative   !!= * __@CODE@__
 
 !gie, predikativ ställning
 gie+Pron+Interr+Sg+Nom:gie # ;
