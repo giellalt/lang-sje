@@ -18,156 +18,216 @@
 
 !! This file contains the tags and reference to main lexica
 
-Multichar_Symbols  !!≈ !!!@CODE@ definitions
+Multichar_Symbols  !!≈ !!!@CODE@  definitions
 
-!! POS
-+N +V +A
-+Adv +CC +CS
-+Interj
-+Pron +Num
-+Pcle
-+Po
+!! !!POS
++N 	      !!= * @CODE@  Nouns
++V 	      !!= * @CODE@  
++A	      !!= * @CODE@  
++Adv      !!= * @CODE@  
++CC	      !!= * @CODE@  
+ +CS      !!= * @CODE@  
++Interj   !!= * @CODE@  
++Pron     !!= * @CODE@  
++Num      !!= * @CODE@  
++Pcle     !!= * @CODE@  
++Po	      !!= * @CODE@  
 
 !! !!Subclasses
-+Pers 
-+Dem 
-+Interr 
-+Indef 		  !!= * @CODE@
-+Refl 
-+Recipr 
-+Rel 
-+NomAg			  !!= * @CODE@
-+Attr
-+Comp
-+Superl
++Pers 		  !!= * @CODE@ 
++Dem 		  !!= * @CODE@ 
++Interr 	  !!= * @CODE@ 
++Indef 		  !!= * @CODE@ 
++Refl 		  !!= * @CODE@ 
++Recipr 	  !!= * @CODE@ 
++Rel 		  !!= * @CODE@ 
++NomAg		  !!= * @CODE@ 
++Attr		  !!= * @CODE@ 
++Comp		  !!= * @CODE@ 
++Superl		  !!= * @CODE@ 
 
 
-! Verbal MSP
-+Prs +Prt +Prf
-+Ind +Imprt +Cond +Pot
-+Sg1 +Sg2 +Sg3
-+Du1 +Du2 +Du3
-+Pl1 +Pl2 +Pl3
-+Inf
-+Pos +Neg +ConNeg
-+GerI +GerII +PrfPrc +PrsPrc
-+VAbess +Sup +VAdv
-+Cmp
-+TV +IV
-+ABBR
-+Coll
-+Cmp/SgNom ! numerals
-+Der/NomAg
-+Der/Dimin
-+Der/State
-+Det
-+Par ! Numerals (?)
+!! !!Morphosyntactic properties
+
+!! !Verbal MSP
+
+!! Tense-mode
++Prs	   	  !!= * @CODE@ Present tense
++Prt	   	  !!= * @CODE@ 
++Prf	   	  !!= * @CODE@ 
++Ind	   	  !!= * @CODE@ 
++Imprt	   	  !!= * @CODE@ 
++Cond	   	  !!= * @CODE@ 
++Pot	   	  !!= * @CODE@ 
+
+!! Person-number
++Sg1	   	  !!= * @CODE@ First person singular
++Sg2	   	  !!= * @CODE@ etc
++Sg3	   	  !!= * @CODE@ 
++Du1	   	  !!= * @CODE@ 
++Du2	   	  !!= * @CODE@ 
++Du3	   	  !!= * @CODE@ 
++Pl1	   	  !!= * @CODE@ 
++Pl2	   	  !!= * @CODE@ 
++Pl3	   	  !!= * @CODE@ 
+
+!! Infinite forms
++Inf	   	  !!= * @CODE@ Infinitive
++Pos	   	  !!= * @CODE@ 
++Neg	   	  !!= * @CODE@ 
++ConNeg	   	  !!= * @CODE@ 
++GerI	   	  !!= * @CODE@ 
++GerII	   	  !!= * @CODE@ 
++PrfPrc	   	  !!= * @CODE@ 
++PrsPrc	   	  !!= * @CODE@ 
++VAbess	   	  !!= * @CODE@ 
++Sup	   	  !!= * @CODE@ 
++VAdv	   	  !!= * @CODE@ 
++Cmp	   	  !!= * @CODE@ 
++TV		   	  !!= * @CODE@ 
++IV		   	  !!= * @CODE@ 
+
+!! Other tags
++ABBR	   	  !!= * @CODE@ 
++Coll	   	  !!= * @CODE@ 
++Cmp/SgNom 	  !!= * @CODE@ 
++Det	   	  !!= * @CODE@ 
++Par	   	  !!= * @CODE@ 
+
+!! Derivation tags
++Der/NomAg 	  !!= * @CODE@ 
++Der/Dimin 	  !!= * @CODE@ 
++Der/State 	  !!= * @CODE@ 
 
 
-!! Nominal MSP
-+Sg +Pl
+!! !Nominal MSP
++Sg 	  !!= * @CODE@  
++Pl 	  !!= * @CODE@ 
 
-!! Case
+!! !Case
 
-+Nom +Acc +Gen
-+Ill +Ine +Ela
-+Com +Ess +Abe
-+Ord +Card
-+Qst
++Nom   !!= * @CODE@ 
++Acc   !!= * @CODE@ 
++Gen   !!= * @CODE@ 
++Ill   !!= * @CODE@ 
++Ine   !!= * @CODE@ 
++Ela   !!= * @CODE@ 
++Com   !!= * @CODE@ 
++Ess   !!= * @CODE@ 
++Abe   !!= * @CODE@ 
++Ord   !!= * @CODE@ 
++Card  !!= * @CODE@ 
++Qst   !!= * @CODE@ 
 
 !! Semantic properties of names
 
-+Prop +Sem/Ani
-+Sem/Mal +Sem/Fem +Sem/Sur
-+Sem/Plc +Sem/Org +Sem/Obj
++Prop	  !!= * @CODE@ 
++Sem/Ani  !!= * @CODE@ 
++Sem/Mal  !!= * @CODE@ 
++Sem/Fem  !!= * @CODE@ 
++Sem/Sur  !!= * @CODE@ 
++Sem/Plc  !!= * @CODE@ 
++Sem/Org  !!= * @CODE@ 
++Sem/Obj  !!= * @CODE@ 
 
+!! Pssessive suffixes
++PxSg1    !!= * @CODE@ 
++PxSg2    !!= * @CODE@ 
++PxSg3    !!= * @CODE@
++PxDu1    !!= * @CODE@
++PxDu2    !!= * @CODE@
++PxDu3    !!= * @CODE@
++PxPl1    !!= * @CODE@ 
++PxPl2    !!= * @CODE@ 
++PxPl3    !!= * @CODE@
 
-+PxSg1 
-+PxSg2 
-+PxSg3
-+PxDu1
-+PxDu2
-+PxDu3
-+PxPl1 
-+PxPl2 
-+PxPl3
+!! Other tags
++Err/Orth     !!= * @CODE@ Not part of standard
++Use/NG   !!= * @CODE@  Part of standard, but not generated
++Use/Circ     !!= * @CODE@ 
++Cmp/Hyph     !!= * @CODE@ 
++Cmp/SplitR   !!= * @CODE@ 
++Use/-Spell   !!= * @CODE@ 
+ +Use/-PLX        !!≈ * @CODE@   Excluded in PLX speller
 
-
-+Err/Orth ! Not part of standard
-+Use/NG  ! Part of standard, but not generated
-+Use/Circ
-+Cmp/Hyph
-+Cmp/SplitR
-+Use/-Spell
- +Use/-PLX        !!≈ * @CODE@  Excluded in PLX speller
-
-! This part of the component can ..
-+CmpNP/All       !!≈ * @CODE@ - ... be in all positions, __default__, this tag does not have to be written
-+CmpNP/First     !!≈ * @CODE@ - ... can only be first part in a compound or alone
-+CmpNP/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
-+CmpNP/Last      !!≈ * @CODE@ - ... can only be last part in a compound or alone
-+CmpNP/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
-+CmpNP/None      !!≈ * @CODE@ - ... can not take part in compounds
-+CmpNP/Only      !!≈ * @CODE@ - ... can only be part of a compound, i.e. can never
+!! This part of the component can ..
++CmpNP/All       !!≈ * @CODE@  - ... be in all positions, __default__, this tag does not have to be written
++CmpNP/First     !!≈ * @CODE@  - ... can only be first part in a compound or alone
++CmpNP/Pref      !!≈ * @CODE@  - ... only __first__ part in a compound, NEVER alone
++CmpNP/Last      !!≈ * @CODE@  - ... can only be last part in a compound or alone
++CmpNP/Suff      !!≈ * @CODE@  - ... only __last__ part in a compound, NEVER alone
++CmpNP/None      !!≈ * @CODE@  - ... can not take part in compounds
++CmpNP/Only      !!≈ * @CODE@  - ... can only be part of a compound, i.e. can never
                 !!                 be used alone, but can appear in any position
 
-+CLB +PUNCT +PAR +LEFT +RIGHT +SENT
-
-^WG     !!= @CODE@ * weak grade
-^G3     !!= @CODE@ * marks grade three for stems w/o Cgrad
-^V2E2AA !!= @CODE@ * e to á (before j), o to u before j in V2
-^CDEL   !!= @CODE@ * Deleting final consonant, biednag
-^VDEL   !!= @CODE@ * Deleting final V2 vowel in compounds or gájk
-^MON    !!= @CODE@ * Monophthong in contract
-^UAUML  !!= @CODE@ * uo to uä juolge / juällge
-^IEUML  !!= @CODE@ * ie to ä etc. gielbar gællbara
-^IUML   !!= @CODE@ * a to i, gallgat gillgin
-^IJ     !!= @CODE@ * e to i in front of Plural j and Sg Com
-^V2O2U  !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
-^MONB4J !!= @CODE@ * No rules for this one in twolc!
+!! !!Punctuation tags
++CLB     !!= * @CODE@ 
++PUNCT   !!= * @CODE@ 
++PAR     !!= * @CODE@ 
++LEFT    !!= * @CODE@ 
++RIGHT   !!= * @CODE@ 
++SENT    !!= * @CODE@ 
 
 
-i2 !!= @CODE@ * Variable vowel, does not trigger VH
-u2 !!= @CODE@ * Variable vowel, does not trigger VH
-ä2 !!= @CODE@ * Variable vowel, does not undergo (further) VH
-b2 d2 g2 t2 j2 !!= @CODE@ * Variable consonants, undergo final devoicing or other alternations
-^O      !!= @CODE@ * o but ä in uä
+!! !! Morphophonological symbols 
+
+!! !Symbols for regulating the twolc file
+
+^WG     !!= @CODE@  * weak grade
+^G3     !!= @CODE@  * marks grade three for stems w/o Cgrad
+^V2E2AA !!= @CODE@  * e to á (before j), o to u before j in V2
+^CDEL   !!= @CODE@  * Deleting final consonant, biednag
+^VDEL   !!= @CODE@  * Deleting final V2 vowel in compounds or gájk
+^MON    !!= @CODE@  * Monophthong in contract
+^UAUML  !!= @CODE@  * uo to uä juolge / juällge
+^IEUML  !!= @CODE@  * ie to ä etc. gielbar gællbara
+^IUML   !!= @CODE@  * a to i, gallgat gillgin
+^IJ     !!= @CODE@  * e to i in front of Plural j and Sg Com
+^V2O2U  !!= @CODE@  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+^MONB4J !!= @CODE@  * No rules for this one in twolc!
+
+!! !Archiphonemes
+i2 !!= @CODE@  * Variable vowel, does not trigger VH
+u2 !!= @CODE@  * Variable vowel, does not trigger VH
+ä2 !!= @CODE@  * Variable vowel, does not undergo (further) VH
+b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or other alternations
+^O      !!= @CODE@  * o but ä in uä
 
 !! {{{
 ! Symbols that need to be escaped on the lower side (towards twolc):
- »7     !!= @CODE@ * »
- «7     !!= @CODE@ * «
- %[%>%] !!= @CODE@ * >
- %[%<%] !!= @CODE@ * <
+ »7     !!= @CODE@  * »
+ «7     !!= @CODE@  * «
+ %[%>%] !!= @CODE@  * >
+ %[%<%] !!= @CODE@  * <
 !! }}}
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ | @CODE@  | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ | @CODE@  | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ | @CODE@  | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ | @CODE@  | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ | @CODE@  | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ | @CODE@  | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ | @CODE@  | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ | @CODE@  | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ | @CODE@  | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ | @CODE@  | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ | @CODE@  | Disallow words coming directly from root.
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ | @CODE@  | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ | @CODE@  | Allowing downcasing of derived names: deatnulasj.
 
 
 ! testing these
@@ -176,7 +236,8 @@ b2 d2 g2 t2 j2 !!= @CODE@ * Variable consonants, undergo final devoicing or othe
 !+TRNUMAB
 
 
-! Key lexicon
+!! !!!Key lexicon
+!! Lexicon Root starts the analyser and directs paths to all POS.
 
 LEXICON Root
 
@@ -201,7 +262,7 @@ LEXICON ENDLEX
 !! !!!Lexicon @LEXNAME@
 !! And this is the @LEXNAME@ of everything:
 !! {{{
-   @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; !!≈ @CODE@
+   @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; !!≈ @CODE@ 
 !! }}}
 !! The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
 !! with +CmpNP/Only to end here.
