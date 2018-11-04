@@ -14,105 +14,228 @@ This is free and open source Pite Sami morphology.
 
 This file contains the tags and reference to main lexica
 
- !!!Multichar_Symbols definitions
+ !!!Multichar_Symbols  definitions
 
-POS
+!!POS
+ * +N 	        Nouns
+ * +V 	        
+ * +A	        
+ * +Adv        
+ * +CC	        
+ *  +CS        
+ * +Interj     
+ * +Pron       
+ * +Num        
+ * +Pcle       
+ * +Po	        
 
 !!Subclasses
- * +Indef 		  
- * +NomAg			  
+ * +Pers 		   
+ * +Dem 		   
+ * +Interr 	   
+ * +Indef 		   
+ * +Refl 		   
+ * +Recipr 	   
+ * +Rel 		   
+ * +NomAg		   
+ * +Attr		   
+ * +Comp		   
+ * +Superl		   
 
 
+!!Morphosyntactic properties
+
+!Verbal MSP
+
+Tense-mode
+ * +Prs	   	   Present tense
+ * +Prt	   	   
+ * +Prf	   	   
+ * +Ind	   	   
+ * +Imprt	   	   
+ * +Cond	   	   
+ * +Pot	   	   
+
+Person-number
+ * +Sg1	   	   First person singular
+ * +Sg2	   	   etc
+ * +Sg3	   	   
+ * +Du1	   	   
+ * +Du2	   	   
+ * +Du3	   	   
+ * +Pl1	   	   
+ * +Pl2	   	   
+ * +Pl3	   	   
+
+Infinite forms
+ * +Inf	   	   Infinitive
+ * +Pos	   	   
+ * +Neg	   	   
+ * +ConNeg	   	   
+ * +GerI	   	   
+ * +GerII	   	   
+ * +PrfPrc	   	   
+ * +PrsPrc	   	   
+ * +VAbess	   	   
+ * +Sup	   	   
+ * +VAdv	   	   
+ * +Cmp	   	   
+ * +TV		   	   
+ * +IV		   	   
+
+Other tags
+ * +ABBR	   	   
+ * +Coll	   	   
+ * +Cmp/SgNom 	   
+ * +Det	   	   
+ * +Par	   	   
+
+Derivation tags
+ * +Der/NomAg 	   
+ * +Der/Dimin 	   
+ * +Der/State 	   
 
 
-Nominal MSP
+!Nominal MSP
+ * +Sg 	    
+ * +Pl 	   
 
-Case
+!Case
 
+ * +Nom    
+ * +Acc    
+ * +Gen    
+ * +Ill    
+ * +Ine    
+ * +Ela    
+ * +Com    
+ * +Ess    
+ * +Abe    
+ * +Ord    
+ * +Card   
+ * +Qst    
 
 Semantic properties of names
 
+ * +Prop	   
+ * +Sem/Ani   
+ * +Sem/Mal   
+ * +Sem/Fem   
+ * +Sem/Sur   
+ * +Sem/Plc   
+ * +Sem/Org   
+ * +Sem/Obj   
 
+Pssessive suffixes
+ * +PxSg1     
+ * +PxSg2     
+ * +PxSg3    
+ * +PxDu1    
+ * +PxDu2    
+ * +PxDu3    
+ * +PxPl1     
+ * +PxPl2     
+ * +PxPl3    
 
+Other tags
+ * +Err/Orth      Not part of standard
+ * +Use/NG     Part of standard, but not generated
+ * +Use/Circ      
+ * +Cmp/Hyph      
+ * +Cmp/SplitR    
+ * +Use/-Spell    
+ * +Use/-PLX   Excluded in PLX speller
 
-
- * +Use/-PLX  Excluded in PLX speller
-
- * +CmpNP/All - ... be in all positions, __default__, this tag does not have to be written
- * +CmpNP/First - ... can only be first part in a compound or alone
- * +CmpNP/Pref - ... only __first__ part in a compound, NEVER alone
- * +CmpNP/Last - ... can only be last part in a compound or alone
- * +CmpNP/Suff - ... only __last__ part in a compound, NEVER alone
- * +CmpNP/None - ... can not take part in compounds
- * +CmpNP/Only - ... can only be part of a compound, i.e. can never
+This part of the component can ..
+ * +CmpNP/All  - ... be in all positions, __default__, this tag does not have to be written
+ * +CmpNP/First  - ... can only be first part in a compound or alone
+ * +CmpNP/Pref  - ... only __first__ part in a compound, NEVER alone
+ * +CmpNP/Last  - ... can only be last part in a compound or alone
+ * +CmpNP/Suff  - ... only __last__ part in a compound, NEVER alone
+ * +CmpNP/None  - ... can not take part in compounds
+ * +CmpNP/Only  - ... can only be part of a compound, i.e. can never
                 be used alone, but can appear in any position
 
-
- ^WG      * weak grade
- ^G3      * marks grade three for stems w/o Cgrad
- ^V2E2AA  * e to á (before j), o to u before j in V2
- ^CDEL    * Deleting final consonant, biednag
- ^VDEL    * Deleting final V2 vowel in compounds or gájk
- ^MON     * Monophthong in contract
- ^UAUML   * uo to uä juolge / juällge
- ^IEUML   * ie to ä etc. gielbar gællbara
- ^IUML    * a to i, gallgat gillgin
- ^IJ      * e to i in front of Plural j and Sg Com
- ^V2O2U   * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
- ^MONB4J  * No rules for this one in twolc!
+!!Punctuation tags
+ * +CLB      
+ * +PUNCT    
+ * +PAR      
+ * +LEFT     
+ * +RIGHT    
+ * +SENT     
 
 
- i2  * Variable vowel, does not trigger VH
- u2  * Variable vowel, does not trigger VH
- ä2  * Variable vowel, does not undergo (further) VH
- b2 d2 g2 t2 j2  * Variable consonants, undergo final devoicing or other alternations
- ^O       * o but ä in uä
+Morphophonological symbols 
+
+!Symbols for regulating the twolc file
+
+ ^WG       * weak grade
+ ^G3       * marks grade three for stems w/o Cgrad
+ ^V2E2AA   * e to á (before j), o to u before j in V2
+ ^CDEL     * Deleting final consonant, biednag
+ ^VDEL     * Deleting final V2 vowel in compounds or gájk
+ ^MON      * Monophthong in contract
+ ^UAUML    * uo to uä juolge / juällge
+ ^IEUML    * ie to ä etc. gielbar gællbara
+ ^IUML     * a to i, gallgat gillgin
+ ^IJ       * e to i in front of Plural j and Sg Com
+ ^V2O2U    * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ ^MONB4J   * No rules for this one in twolc!
+
+!Archiphonemes
+ i2   * Variable vowel, does not trigger VH
+ u2   * Variable vowel, does not trigger VH
+ ä2   * Variable vowel, does not undergo (further) VH
+ b2 d2 g2 t2 j2   * Variable consonants, undergo final devoicing or other alternations
+ ^O        * o but ä in uä
 
 {{{
-  »7      * »
-  «7      * «
-  %[%>%]  * >
-  %[%<%]  * <
+  »7       * »
+  «7       * «
+  %[%>%]   * >
+  %[%<%]   * <
 }}}
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- | @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+ | @P.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
+ | @D.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
+ | @C.NeedNoun@  | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- | @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- | @P.CmpPref.FALSE@ | Block these words from making further compounds
- | @D.CmpLast.TRUE@ | Block such words from entering R
- | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- | @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+ | @P.CmpFrst.FALSE@  | Require that words tagged as such only appear first
+ | @D.CmpPref.TRUE@  | Block such words from entering ENDLEX
+ | @P.CmpPref.FALSE@  | Block these words from making further compounds
+ | @D.CmpLast.TRUE@  | Block such words from entering R
+ | @D.CmpNone.TRUE@  | Combines with the next tag to prohibit compounding
+ | @U.CmpNone.FALSE@  | Combines with the prev tag to prohibit compounding
+ | @P.CmpOnly.TRUE@  | Sets a flag to indicate that the word has passed R
+ | @D.CmpOnly.FALSE@  | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ | @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
+ | @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
 
 
 
 
+!!!Key lexicon
+Lexicon Root starts the analyser and directs paths to all POS.
 
 
 
 !!!Lexicon ENDLEX
 And this is the ENDLEX of everything:
 {{{
- @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ;
+ @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; 
 }}}
 The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
@@ -120,6 +243,10 @@ The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
 
 
 !!!Adjectives !
+
+
+
+
 
 
 
