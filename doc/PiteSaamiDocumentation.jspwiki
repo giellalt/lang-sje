@@ -17,8 +17,11 @@
 * [Jamnstaviga verb|Verbbojning_Pitesamiska_jamnst.html]
 * [Uddastaviga verb|Verbbojning_Pitesamiska_uddast.html]
 * [Adjektiv|Adjektivbojning.html]
-* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/sje/src/morphology/root.lexc]   
-* [A list of morphological tags|../common/MorphologicalTags.html]
+
+!!!Tags
+* [The file containing tags that are in use|https://victorio.uit.no/langtech/trunk/langs/sje/src/morphology/root.lexc]   
+* [A list of the morphological tags in use for Pite Saami|docu-sje-grammartags.html]
+* [A general list of morphological tags|../common/MorphologicalTags.html]
 
 !!!Using the analysers
 
