@@ -371,8 +371,7 @@ surface form:    birra
 
             <dt>+V</dt>
             <dd>Verb</dd>
-
-		  </dl>
+  </dl>
         </section>
 
         <section>
@@ -479,7 +478,7 @@ surface form:    birra
 
             <dt>+Ess</dt>
             <dd>Essive</dd>
-			
+            
             <dt>+Gen</dt>
             <dd>Genitive</dd>
 
@@ -499,9 +498,8 @@ surface form:    birra
             <dd>Imperative</dd>
 
 <!-- not currently in use -->
-<!--            <dt>+ImprtII</dt>
-            <dd>Imperative II</dd>
--->
+<!--            <dt>+ImprtII</dt> -->
+<!--          <dd>Imperative II</dd> -->
             <dt>+Ind</dt>
             <dd>Indicative</dd>
 
@@ -524,8 +522,7 @@ surface form:    birra
             <dd>Ordinal</dd>
 
             <dt>+PUNCT</dt>
-            <dd>Punctuation other than clause boundaries<em>"/", "(", ")", "+"
-            </em></dd>
+            <dd>Punctuation other than clause boundaries "/", "(", ")", "+"</dd>
 
             <dt>+Pl</dt>
             <dd>Plural</dd>
@@ -542,7 +539,7 @@ surface form:    birra
 <!-- not currently in use -->
             <dt>+Cmp/PlGen</dt>
             <dd>Plural genitive compound</dd>
--->
+
             <dt>+Pot</dt>
             <dd>Potential</dd>
 
