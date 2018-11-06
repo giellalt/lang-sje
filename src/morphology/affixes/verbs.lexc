@@ -63,7 +63,7 @@ LEXICON V_EVEN_E_WK
 +ConNeg:%> # ; 
 +Vgen:%> #;  
 !+Sup:%>tjit # ;
-+Pot:%>tj V_EVEN_POT ; 
++Pot:%>tj^V2E2AA V_EVEN_POT ; 
 
 LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Sg3: #;
