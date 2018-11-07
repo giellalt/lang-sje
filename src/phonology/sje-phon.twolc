@@ -472,9 +472,10 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 e:ä <=> Cns:* i:0 _ G3 noVHtrig \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ noVHtrig %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG noVHtrig \%^WG: ; !bierdna->b0ärdna
-!"Ä in G3 capitalized" ! Ie:0Ä (bägga, bävvde); word-initial, thus potentially capitalized
+
+"Ä in G3 capitalized" ! Ie:0Ä (Änntse->Ientse), eg. proper nouns with word-initial capitalization
 !! __@RULENAME@__  
-!e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse !for proper nouns beginning with capital Ä - Ie
+e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse
 
 
 ! !!€ tjalmed%>ibme^WG
