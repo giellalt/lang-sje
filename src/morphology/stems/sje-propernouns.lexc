@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-03T00:17:06-04:00
+! Timestamp: 2018-11-12T01:57:44-05:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -113,6 +113,7 @@ Blind:Blind N_MONOSYL_PROPER "Blind" ; ! no. 91126
 Per:Per N_MONOSYL_PROPER "Per" ; ! no. 91124
 Bengtsson:Bengtsson N_NAME_noInfl_C "Bengtsson" ; ! no. 91184
 Erik:Erig2 N_NAME_noInfl_C "Erik" ; ! no. 91191
+Erling:Erling N_NAME_noInfl_C "Erling" ; ! no. 91194
 Fjällman:Fjä2llman N_NAME_noInfl_C "Fjällman" ; ! no. 91187
 Lars:Lars N_NAME_noInfl_C "Lars" ; ! no. 91190
 Sjul:Sjul N_NAME_noInfl_C "Sjul" ; ! no. 91186
