@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-02T22:50:16-04:00
+! Timestamp: 2018-11-15T14:59:09-05:00
 
 !! !!!Pite Saami Verbs
 
@@ -255,6 +255,7 @@ säddjit:sä2ddji V_CONTR "sow, scatter" ; ! no. 1831
 sälltit:sä2llti V_CONTR "salt" ; ! no. 3940
 säpptit:sä2ppti V_CONTR "bait" ; ! no. 3078
 tilltit:tillti V_CONTR "camp, tent" ; ! no. 3520
+tjellit:tjelli V_CONTR "jump once" ; ! no. 91197
 tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 90668
 tjiddnut:tjiddnu V_CONTR "constipated" ; ! no. 1899
 tjillgit:tjillgi V_CONTR "explain, define" ; ! no. 1895
@@ -939,6 +940,7 @@ sårrjot:sårrj V_EVEN_O "quickly grab onto something" ; ! no. 2511
 säggot:siegg V_EVEN_O "become thinner, lose weight" ; ! no. 3175
 säjjvot:siejjv V_EVEN_O "land (for birds and aircraft)" ; ! no. 1838
 tjábbrot:tjábbr V_EVEN_O "pinch or grab firmly" ; ! no. 5579
+tjiellot:tjiell V_EVEN_O "jump several times" ; ! no. 1896
 tjierrot:tjierr V_EVEN_O "cry" ; ! no. 1898
 tjiŋŋkot:tjiŋŋk V_EVEN_O "limp" ; ! no. 4356
 tjuadtjot:tju^Od'tj V_EVEN_O "stand upright" ; ! no. 3724
@@ -946,7 +948,6 @@ tjuarrvot:tju^Orrv V_EVEN_O "call, call out" ; ! no. 1915
 tjuovvot:tju^Ovv V_EVEN_O "follow, come along" ; ! no. 1943
 tjåhkot:tjåhk V_EVEN_O "comb shoe hay" ; ! no. 1960
 tjåsskot:tjåssk V_EVEN_O "become cool, cool off" ; ! no. 5218
-tjällot:tjiell V_EVEN_O "jump several times" ; ! no. 1896
 tsåhkot:tsåhk V_EVEN_O "go down (for water), recede" ; ! no. 2016
 tsåjjtsot:tsåjjts V_EVEN_O "flame up suddenly" ; ! no. 2017
 tsähkkot:tsiehkk V_EVEN_O "cut a notch, tick off" ; ! no. 3360
@@ -1674,7 +1675,7 @@ tsibtsástit:tsibtsást V_ODD "pinch, nip, squeeze" ; ! no. 2006
 tsieladit:tsielad V_ODD "encourage a dog to bark" ; ! no. 5348
 tsieskastit:tsieskast V_ODD "puncture slightly with a needle or knife tip" ; ! no. 2647
 tsieskedit:tsiesked V_ODD "smart, hurt" ; ! no. 5787
-tsigástit:tsigást V_ODD "nag persistently and insistently" ; ! no. 2002
+tsigastit:tsigast V_ODD "nag persistently and insistently" ; ! no. 2002
 tsihkkidit:tsihkkid V_ODD "light, ignite" ; ! no. 2405
 tsintsardit:tsintsard V_ODD "scrawl" ; ! no. 2008
 tsivnjidit:tsivnjid V_ODD "smell smoky (eg. for clothes)" ; ! no. 2011
