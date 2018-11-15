@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-02T23:38:41-04:00
+! Timestamp: 2018-11-12T22:15:59-05:00
 
 !! !!!Pite Saami Nouns
 
@@ -1308,6 +1308,7 @@ válle:válle N_EVEN "low mountain" ; ! no. 1897
 vállkábuäjjde:vállká#bu^Ojjde N_EVEN "fat at the base of the neck" ; ! no. 4058
 várálatj+N+Der/State:várálatjvu^Ohta N_EVEN "danger" ; ! no. 4038
 várdasdievvá:várdas#dievvá N_EVEN "hill with a good view" ; ! no. 5430
+várrá:várrá N_EVEN "danger" ; ! no. 91195
 várre:várre N_EVEN "mountain" ; ! no. 2086
 várrebákkte:várre#bákkte N_EVEN "mountain slope" ; ! no. 2087
 várregrásse:várre#grásse N_EVEN "alpine grass" ; ! no. 5583
@@ -1602,7 +1603,7 @@ luadda:lu^Odda N_EVEN_NOCG "footprint, track" ; ! no. 1056
 lulátbägga:lulát#biegga N_EVEN_NOCG "easterly wind" ; ! no. 1061
 luorra+Use/NG:lu^Odda N_EVEN_NOCG "ammunition, shot" ; ! no. 90432
 luojtavbádde:luojtav#bádde N_EVEN_NOCG "rope tying a stick to a fishing net for ice fishing" ; ! no. 3468
-luägge:lu^Ogge N_EVEN_NOCG "dog sphincter" ; ! no. 4163
+luägge:lu^Ogge N_EVEN_NOCG "canine sphincter" ; ! no. 4163
 lådde:lådde N_EVEN_NOCG "bird" ; ! no. 1083
 lårrå+Use/NG:låddå N_EVEN_NOCG "box, case" ; ! no. 90513
 máddo:máddo N_EVEN_NOCG "relatives, family, ancestry" ; ! no. 2659
@@ -1669,6 +1670,7 @@ tsuobbo:tsu^Obbo N_EVEN_NOCG "frog" ; ! no. 2981
 ukksatsagge:ukksa#tsagge N_EVEN_NOCG "door frame" ; ! no. 2023
 vahtjobägga:vahtjo#biegga N_EVEN_NOCG "biting wind" ; ! no. 2056
 vanasradde:vanas#radde N_EVEN_NOCG "boat railing" ; ! no. 3376
+várrá+Use/NG:váddá N_EVEN_NOCG "danger" ; ! no. 91196
 vádtsemsåbbe:vádtsem#såbbe N_EVEN_NOCG "walking stick" ; ! no. 2048
 vágge:vágge N_EVEN_NOCG "valley" ; ! no. 2329
 vággevuorro+Use/NG:vágge#vu^Oddo N_EVEN_NOCG "bottom of a valley" ; ! no. 90508
