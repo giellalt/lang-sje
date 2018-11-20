@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-12T22:15:59-05:00
+! Timestamp: 2018-11-20T16:21:45-06:00
 
 !! !!!Pite Saami Nouns
 
@@ -96,8 +96,8 @@ artonåsse:arton#åsse N_EVEN "payment for a reindeer hand in form of a slaughte
 asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
 atåmå:atåmå N_EVEN "atom" ; ! no. 3143
-avstagárre:avsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 avve:avve N_EVEN "belt" ; ! no. 91037
+avvstagárre:avvsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
 áhkarmuärrje:áhkar#mu^Orrje N_EVEN "arctic raspberry" ; ! no. 5955
@@ -151,7 +151,6 @@ balljá:balljá N_EVEN "tub, basin" ; ! no. 3207
 ballva:ballva N_EVEN "cloud" ; ! no. 138
 banána:banána N_EVEN "banana" ; ! no. 3210
 bargodis+N+Der/State:bargodisvu^Ohta N_EVEN "unemployment" ; ! no. 3131
-barkavuassa:barka#vu^Os'sa N_EVEN "leather backpack" ; ! no. 142
 barrge:barrge N_EVEN "worker" ; ! no. 4683
 barrgoájjge:barrgo#ájjge N_EVEN "work time" ; ! no. 3132
 barrgobäjjve:barrgo#biejjve N_EVEN "workday" ; ! no. 4537
@@ -176,6 +175,7 @@ bálle:bálle N_EVEN "time, exact point in time" ; ! no. 133
 bállká:bállká N_EVEN "pay, wage" ; ! no. 2739
 báŋŋka:báŋŋka N_EVEN "bank" ; ! no. 3211
 báŋŋkagirrje:báŋŋka#girrje N_EVEN "bankbook" ; ! no. 3212
+bárkávuassa:bárká#vu^Os'sa N_EVEN "leather backpack" ; ! no. 142
 bárrde:bárrde N_EVEN "bowed part of a boat’s keel" ; ! no. 2804
 bednikvuollánibme:bednik#vuollánibme N_EVEN "devaluation of money" ; ! no. 3591
 bensijdna:bensijdna N_EVEN "gasoline, petrol" ; ! no. 3250
@@ -386,8 +386,8 @@ gábble:gábble N_EVEN "wooden piece in top part of kåta door, cover on a backp
 gáddebävvla:gádde#bievvla N_EVEN "barren land next to a riverbank" ; ! no. 4812
 gáddegärrge:gádde#gierrge N_EVEN "rock at the shore" ; ! no. 4556
 gáhkka:gáhkka N_EVEN "pupil" ; ! no. 493
-gáhkobähkke:gáhko#biehkke N_EVEN "piece of bread" ; ! no. 3460
-gáhkogárre:gáhko#gárre N_EVEN "bread tray" ; ! no. 3459
+gáhkkobähkke:gáhkko#biehkke N_EVEN "piece of bread" ; ! no. 3460
+gáhkkogárre:gáhkko#gárre N_EVEN "bread tray" ; ! no. 3459
 gáhtotjuvvga:gáhto#tjuvvga N_EVEN "kitten" ; ! no. 4558
 gájjbe:gájjbe N_EVEN "chin" ; ! no. 509
 gájjrá:gájjrá N_EVEN "wedge or gore used in clothing or tent covers" ; ! no. 4560
@@ -431,7 +431,7 @@ giehtje:giehtje N_EVEN "end, finish" ; ! no. 594
 gieles+N+Der/NomAg:gielestieddje N_EVEN "liar" ; ! no. 4826
 giella:giella N_EVEN "language" ; ! no. 595
 giellabällje:giella#biellje N_EVEN "sense for language" ; ! no. 2459
-gierastemdievvá:gierastem#dievvá N_EVEN "ski slope" ; ! no. 5971
+gierastimdievvá:gierastim#dievvá N_EVEN "ski slope" ; ! no. 5971
 gierdis+N+Der/State:gierdisvu^Ohta N_EVEN "patience" ; ! no. 3536
 gieres+N+Der/State:gieresvu^Ohta N_EVEN "love" ; ! no. 620
 giesse:giesse N_EVEN "summer" ; ! no. 599
@@ -722,7 +722,7 @@ läjjbe:liejjbe N_EVEN "alder" ; ! no. 1101
 läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
 läjjdeshärrge:läjjdes#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
-lävvka:lievvka N_EVEN "silty moist clay" ; ! no. 1105
+lävvka:lievvka N_EVEN "silty moist clay, expansive clay" ; ! no. 1105
 maddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
 maddaráhkka:maddar#áhkka N_EVEN "female ancestor; mother earth" ; ! no. 3062
 mahte:mahte N_EVEN "a bit" ; ! no. 90569
@@ -2070,6 +2070,7 @@ dåját:dåjád2 N_ODD "thin snow crust which breaks everywhere" ; ! no. 3607
 dåktår:dåktår N_ODD "doctor, physician" ; ! no. 90619
 dållåm:dållåm N_ODD "fire place, fireside" ; ! no. 91065
 däbmuk:dä2bmug2 N_ODD "trout" ; ! no. 296
+eŋŋgel:eŋŋgel N_ODD "angel" ; ! no. 5287
 ertik:ertig2 N_ODD "side of reindeer" ; ! no. 2881
 fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
@@ -2134,6 +2135,7 @@ gårot:gårod2 N_ODD "slaughtered body" ; ! no. 90548
 gårrom:gårrom N_ODD "sewing" ; ! no. 5278
 gårråk:gårråg2 N_ODD "mountain Saami" ; ! no. 2716
 gåsek:gåseg2 N_ODD "five-year-old reindeer buck" ; ! no. 4353
+gåvvåbiras:gåvvå#biras N_ODD "picture frame" ; ! no. 777
 gälldim:gä2lldim N_ODD "castration" ; ! no. 5708
 hábak:hábag2 N_ODD "sparrow hawk" ; ! no. 798
 hednik:hednig2 N_ODD "heathen" ; ! no. 3289
@@ -2151,7 +2153,6 @@ iejgát:iejgád2 N_ODD "parents; owner" ; ! no. 446
 iemet:iemed2 N_ODD "housewife" ; ! no. 451
 iemeårroj:ieme#årroj N_ODD "permanent settler" ; ! no. 90245
 illtjak:illtjag2 N_ODD "stubborn, obstinate" ; ! no. 894
-iŋŋgel:iŋŋgel N_ODD "angel" ; ! no. 5287
 iret:ired2 N_ODD "tomorrow" ; ! no. 873
 jagak:jagag2 N_ODD "one-year-old" ; ! no. 4911
 jábmem:jábmem N_ODD "death" ; ! no. 901
