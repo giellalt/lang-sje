@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-15T14:59:09-05:00
+! Timestamp: 2018-11-20T16:21:52-06:00
 
 !! !!!Pite Saami Verbs
 
@@ -255,7 +255,7 @@ säddjit:sä2ddji V_CONTR "sow, scatter" ; ! no. 1831
 sälltit:sä2llti V_CONTR "salt" ; ! no. 3940
 säpptit:sä2ppti V_CONTR "bait" ; ! no. 3078
 tilltit:tillti V_CONTR "camp, tent" ; ! no. 3520
-tjellit:tjelli V_CONTR "jump once" ; ! no. 91197
+tjellit:tjel'li V_CONTR "jump once" ; ! no. 91197
 tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 90668
 tjiddnut:tjiddnu V_CONTR "constipated" ; ! no. 1899
 tjillgit:tjillgi V_CONTR "explain, define" ; ! no. 1895
@@ -463,7 +463,7 @@ lárrat:lárr V_EVEN_A "attack" ; ! no. 1015
 látjavdallat:látjavdall V_EVEN_A "become fellow parents-in-law" ; ! no. 3887
 lierrat:lierr V_EVEN_A "learn" ; ! no. 1032
 luvvat:luvv V_EVEN_A "become wet" ; ! no. 1080
-läsjmodallat:läsjmodall V_EVEN_A "stretch one’s legs briefly" ; ! no. 1104
+läsjmudallat:läsjmudall V_EVEN_A "stretch one’s legs briefly" ; ! no. 1104
 mannat:mann V_EVEN_A "go, travel" ; ! no. 1130
 masstat:masst V_EVEN_A "mix together" ; ! no. 1146
 máhttsat:máhtts V_EVEN_A "turn back, return" ; ! no. 1116
@@ -814,7 +814,7 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
 guäddet:gu^Odd V_EVEN_E_G3 "carry" ; ! no. 717
 agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
-avstot:avst V_EVEN_O "scoop, bail out" ; ! no. 3674
+avvstot:avvst V_EVEN_O "scoop, bail out" ; ! no. 3674
 ájjgot:ájjg V_EVEN_O "intend, mean to" ; ! no. 27
 ávgŋot:ávgŋ V_EVEN_O "tear apart" ; ! no. 2613
 bájdnot:bájdn V_EVEN_O "get a secondary flavor or color" ; ! no. 3647
