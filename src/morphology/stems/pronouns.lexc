@@ -67,10 +67,10 @@ LEXICON persdu   !!= * __@CODE@__
 LEXICON perspl   !!= * __@CODE@__
 +Nom:ij      # ;
 +Nom:ija     # ;
-+Nom+Use/NG:ijá     # ;
+!+Nom+Use/NG:ijá     # ; !check!
 +Acc:ijav    # ;
 +Acc+Use/NG:ijáv     # ;
-+Gen:ija     # ;
++Gen:ijá     # ;
 +Ill:ijjij   # ;
 +Ine:ijan    # ;
 +Ela:ijast   # ;
