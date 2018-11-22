@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-20T16:21:45-06:00
+! Timestamp: 2018-11-22T02:19:12-05:00
 
 !! !!!Pite Saami Nouns
 
@@ -184,7 +184,7 @@ biehtse:biehtse N_EVEN "pine tree" ; ! no. 2680
 biehtsevuobme:biehtse#vu^Obme N_EVEN "pine forest" ; ! no. 6075
 biejvebielle:biejve#bielle N_EVEN "sunny side" ; ! no. 2523
 bielle:bielle N_EVEN "side, half" ; ! no. 3449
-bihtjarsábme:bihtjar#sábme N_EVEN "Saami settler" ; ! no. 4699
+bihtjársábme:bihtjár#sábme N_EVEN "Saami settler" ; ! no. 4699
 bihttá:bihttá N_EVEN "bit, little piece" ; ! no. 3686
 bijjla:bijjla N_EVEN "car" ; ! no. 180
 biljähtta:biljiehtta N_EVEN "ticket" ; ! no. 3310
