@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-12T01:57:44-05:00
+! Timestamp: 2018-11-22T02:26:56-05:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -127,6 +127,7 @@ Bávval:Bávval N_ODD "Paul" ; ! no. 4637
 Bidám:Bidám N_ODD "Piteå" ; ! no. 167
 Bierok:Bierog2 N_ODD "Per" ; ! no. 90885
 Bidám+Use/NG:Bisum N_ODD "Piteå" ; ! no. 90771
+Lábbás:Lábbás N_ODD "Labbas" ; ! no. 91198
 Märrgit:Mä2rrgid2 N_ODD "Margareta" ; ! no. 5974
 Norrbotten:Norrbotten N_ODD "Norrbotten" ; ! no. 91161
 Oskar:Oskar N_ODD "Oscar" ; ! no. 91146
