@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-22T02:29:01-05:00
+! Timestamp: 2018-11-22T19:16:04-05:00
 
 !! !!!Pite Saami Verbs
 
@@ -1069,7 +1069,6 @@ bielostit:bielost V_ODD "defend verbally, go along with" ; ! no. 2434
 bievastit:bievast V_ODD "sweat" ; ! no. 2999
 biggodit:biggod V_ODD "air out, ventilate" ; ! no. 2715
 bihkaldit:bihkald V_ODD "risk, put in danger" ; ! no. 3685
-bihtjárit:bihtjár V_ODD "settle" ; ! no. 91199
 bijnedit:bijned V_ODD "torture" ; ! no. 181
 binnodit:binnod V_ODD "lessen the amount, quantity" ; ! no. 2447
 birastit:birast V_ODD "cruise around" ; ! no. 185
