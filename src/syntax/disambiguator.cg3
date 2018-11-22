@@ -202,7 +202,7 @@ SET NOT-COP-V = V - COPULAS ;
 
 LIST MOD-ASP = "áigut" "bállet" "berret" "dáidit" "fertet" "galgat" "gillet" "lávet" "sáhttit" "seahtit" "soaitit" "viggat" ;
 
-LIST AUX-OR-MAIN = "áigut" "álgit" "beassat" "galgat" "háliidit" "máhttit" "ollit" "orrut" "sihtat" "veadjit"; #"nagodit"  "nagadit"
+LIST AUX-OR-MAIN = "gallgat" "máhttet" "årrot" "sihtat"; #"nagodit"  "nagadit"
 
 LIST ESS-Vs = "gåhttjot" "sjaddat" ;
 
