@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-22T19:15:19-05:00
+! Timestamp: 2018-12-04T08:45:38+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -759,6 +759,7 @@ mijjla:mijjla N_EVEN "Swedish mile (ten kilometers)" ; ! no. 2387
 mikrovuäbbne:mikro#vu^Obbne N_EVEN "microwave oven" ; ! no. 1165
 minnulahka:minnulahka N_EVEN "journey, trip, travel" ; ! no. 90936
 minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
+miŋesgiehtje:miŋes#giehtje N_EVEN "second half, end" ; ! no. 91200
 missovuasstá:misso#vu^Osstá N_EVEN "brown cheese" ; ! no. 5989
 missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
@@ -1097,8 +1098,8 @@ stállpe:stállpe N_EVEN "wolf" ; ! no. 1731
 stállpejahke:stállpe#jahke N_EVEN "a long, cold winter" ; ! no. 6842
 stárra:stárra N_EVEN "city, town" ; ! no. 2558
 stijjla:stijjla N_EVEN "style" ; ! no. 90709
-stilltje:stilltje N_EVEN "snow and ice in the trees" ; ! no. 6003
-stirrge:stirrge N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
+stilltji:stilltji N_EVEN "snow and ice in the trees" ; ! no. 6003
+stirrgi:stirrgi N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
 stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
 struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
@@ -1460,7 +1461,7 @@ låhkåmus:låhkåmus N_EVEN4 "reading, text" ; ! no. 1088
 lähpedak:lä2hpedag2 N_EVEN4 "rennet" ; ! no. 3030
 mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
 mierrádus:mierrádus N_EVEN4 "decision" ; ! no. 5921
-muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "place for cutting firewood" ; ! no. 5553
+muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "plot of trees being felled for firewood" ; ! no. 5553
 mållának:mållánag2 N_EVEN4 "expression, dialect, pronunciation" ; ! no. 1202
 njalkadak:njalkadag2 N_EVEN4 "slipperiness, slippery road surface" ; ! no. 4196
 njunnudak:njunnudag2 N_EVEN4 "nose halter" ; ! no. 1301
@@ -1474,7 +1475,7 @@ såbmelatj:såbmelatj N_EVEN4 "Finn" ; ! no. 1761
 sågastak:sågastag2 N_EVEN4 "dense birch forest" ; ! no. 6868
 sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
 tjielgadus:tjielgadus N_EVEN4 "definition, explanation" ; ! no. 3565
-tjuoladak:tju^Oladag2 N_EVEN4 "clear-cut area" ; ! no. 1933
+tjuoladak:tju^Oladag2 N_EVEN4 "timber cutting area" ; ! no. 1933
 tsaskadak:tsaskadag2 N_EVEN4 "spring snow which neither holds one up nor breaks" ; ! no. 3195
 unnagatj:unnagatj N_EVEN4 "small" ; ! no. 5353
 urudahka+Use/NG:urudag2 N_EVEN4 "settlement, camp" ; ! no. 3341
@@ -2036,9 +2037,9 @@ bärdnabivdár:bärdna#bivdár N_ODD "bear hunter" ; ! no. 3321
 bärrgal:bä2rrgal N_ODD "devil" ; ! no. 90118
 bärrjetiehket:bärrjet#iehked2 N_ODD "Friday evening" ; ! no. 4239
 bässtak:bä2sstag2 N_ODD "bush" ; ! no. 287
+dagŋas:dagŋas N_ODD "heather" ; ! no. 330
 davek:daveg2 N_ODD "Arctic loon" ; ! no. 341
 dábak:dábag2 N_ODD "mud" ; ! no. 359
-dágŋas:dágŋas N_ODD "heather" ; ! no. 330
 dáhtor:dáhtor N_ODD "computer" ; ! no. 340
 dáhtortjállej:dáhtor#tjállej N_ODD "computer user" ; ! no. 3625
 dájgan:dájgan N_ODD "dough" ; ! no. 2466
@@ -2147,7 +2148,6 @@ hähkkal:hä2hkkal N_ODD "board with nails in it for combing shoe hay" ; ! no. 8
 iret+Use/NG:ided2 N_ODD "tomorrow" ; ! no. 90420
 idjaiednam:idja#iednam N_ODD "place for reindeer to spend the night" ; ! no. 5952
 iednam:iednam N_ODD "earth, soil, land" ; ! no. 444
-iednamskillbim:iednam#skillbim N_ODD "earthquake" ; ! no. 4182
 iehket:iehked2 N_ODD "evening" ; ! no. 445
 iejgát:iejgád2 N_ODD "parents; owner" ; ! no. 446
 iemet:iemed2 N_ODD "housewife" ; ! no. 451
@@ -2286,10 +2286,10 @@ sjvitjuk:sjvitjug2 N_ODD "white wagtail" ; ! no. 1607
 skahtteiednam:skahtte#iednam N_ODD "Saami tax land" ; ! no. 3958
 skában:skában N_ODD "small planer" ; ! no. 4298
 skálmak:skálmag2 N_ODD "reindeer buck which has discarded its antlers" ; ! no. 3534
+skellbim:skellbim N_ODD "vibration, shaking" ; ! no. 5614
 skertik:skertig2 N_ODD "wild reindeer buck" ; ! no. 3699
 skiddnak:skiddnag2 N_ODD "sickly, thin reindeer" ; ! no. 1629
 skijun:skijun N_ODD "loudspeaker" ; ! no. 1638
-skillbim:skillbim N_ODD "vibration, shaking" ; ! no. 5614
 skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predator" ; ! no. 1643
 skubmok:skubmog2 N_ODD "mouth protection" ; ! no. 5911
 skuhter:skuhter N_ODD "snowmobile" ; ! no. 90946
