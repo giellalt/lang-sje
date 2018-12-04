@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-22T19:16:04-05:00
+! Timestamp: 2018-12-04T15:32:59+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -199,12 +199,12 @@ sjuddit:sjuddi V_CONTR "make noise, holler" ; ! no. 1595
 sjuggát:sjuggá V_CONTR "be creative, make something up" ; ! no. 1596
 sjuhppit:sjuhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 1600
 sjussit:sjussi V_CONTR "give someone a ride" ; ! no. 5954
+skellbit:skellbi V_CONTR "shake" ; ! no. 1623
 skihppát:skihppá V_CONTR "become sick" ; ! no. 5129
-skillbit:skillbi V_CONTR "shake" ; ! no. 1623
 skinit:skini V_CONTR "understand" ; ! no. 1625
 skrihpput:skrihppu V_CONTR "brag, boast" ; ! no. 1645
 skruvvit:skruvvi V_CONTR "screw" ; ! no. 4655
-skullit:skulli V_CONTR "shake (a bottle)" ; ! no. 1646
+skullit:skulli V_CONTR "rinse out (a bottle)" ; ! no. 1646
 skurrját:skurrjá V_CONTR "snoop around" ; ! no. 4496
 skuvvgit:skuvvgi V_CONTR "hunt" ; ! no. 2742
 skäbbmit:skä2bbmi V_CONTR "admonish severely" ; ! no. 4652
@@ -1549,9 +1549,9 @@ sjåbbåldit:sjåbbåld V_ODD "speak unclearly" ; ! no. 1608
 sjävudit:sjä2vud V_ODD "become silent" ; ! no. 3324
 skáladit:skálad V_ODD "fence, fight (using something sharp)" ; ! no. 2760
 skámadit:skámad V_ODD "be ashamed" ; ! no. 2979
+skellbidit:skellbid V_ODD "begin to shake" ; ! no. 90889
+skellbistit:skellbist V_ODD "shiver, shake" ; ! no. 5127
 skidárdit:skidárd V_ODD "waste, squander" ; ! no. 2415
-skillbidit:skillbid V_ODD "begin to shake" ; ! no. 90889
-skillbistit:skillbist V_ODD "shiver, shake" ; ! no. 5127
 skinjijdit:skinjijd V_ODD "echo, resound" ; ! no. 1637
 skuoladit:sku^Olad V_ODD "ring (with a bell)" ; ! no. 1648
 skuoldardit:sku^Oldard V_ODD "gossip" ; ! no. 3716
