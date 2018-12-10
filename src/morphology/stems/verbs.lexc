@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-04T15:32:59+01:00
+! Timestamp: 2018-12-10T08:48:34+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1170,6 +1170,7 @@ gabbredit:gabbred V_ODD "steepen" ; ! no. 4381
 gaggaldit:gaggald V_ODD "speak unclearly" ; ! no. 90540
 gahpadit:gahpad V_ODD "jump" ; ! no. 499
 gahtjadit:gahtjad V_ODD "drop" ; ! no. 501
+gahtsahit:gahtsah V_ODD "hang" ; ! no. 91201
 galbmedit:galbmed V_ODD "freeze something" ; ! no. 6236
 gallánit:gallán V_ODD "become full" ; ! no. 4653
 galljedit:galljed V_ODD "expand" ; ! no. 524
@@ -1182,12 +1183,12 @@ gasnedit:gasned V_ODD "sneeze once" ; ! no. 5171
 gasnestit:gasnest V_ODD "sneeze once" ; ! no. 5765
 gatjadit:gatjad V_ODD "ask, ask a question" ; ! no. 572
 gatjadit+Use/NG:gatjád V_ODD "ask, ask a question" ; ! no. 90411
+gatsastit:gatsast V_ODD "hang, hang up" ; ! no. 2925
 gatsostit:gatsost V_ODD "hang, hang up" ; ! no. 574
 gádodit:gádod V_ODD "remove" ; ! no. 3163
 gággastit:gággast V_ODD "break up, pry" ; ! no. 492
 gáhtjadit:gáhtjad V_ODD "hurry, rush" ; ! no. 3635
 gáhtolit:gáhtol V_ODD "disappear suddenly" ; ! no. 4557
-gáhtsastit:gáhtsast V_ODD "hang, hang up" ; ! no. 2925
 gájjkanit:gájjkan V_ODD "be ripped apart" ; ! no. 4751
 gájvastit:gájvast V_ODD "be dumb" ; ! no. 516
 gálatjit:gálatj V_ODD "wade, get wet feet" ; ! no. 3878
