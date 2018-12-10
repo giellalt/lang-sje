@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-10T08:47:49+01:00
+! Timestamp: 2018-12-10T16:28:13+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2423,6 +2423,7 @@ giehtamádda:giehta#máddag N_ODD_OPEN "wrist" ; ! no. 592
 gielda:gieldag N_ODD_OPEN "tendon on the hind leg" ; ! no. 5842
 giera:gierrag N_ODD_OPEN "descendant" ; ! no. 2989
 gierbma:gierbmah N_ODD_OPEN "snake" ; ! no. 617
+gane+Use/NG:gidnih N_ODD_OPEN "invisible subterranean being" ; ! no. 90926
 guohpa:gu^Ohppag N_ODD_OPEN "mold" ; ! no. 680
 gäjbmebiena:gäjbme#biednag N_ODD_OPEN "female dog in heat" ; ! no. 3489
 luobodisgáma:luobodis#gábmag N_ODD_OPEN "shoe which is easy to put on" ; ! no. 90307
@@ -2544,7 +2545,6 @@ vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
 vuonev:vu^Odnev N_ODD_WG "mother-in-law" ; ! no. 2183
 åjjvesárjas:åjjve#sárrjas N_ODD_WG "headache" ; ! no. 2252
 gane:gadn N_ODD_WG_eH "invisible subterranean being" ; ! no. 6873
-gane+Use/NG:gidn N_ODD_WG_eH "invisible subterranean being" ; ! no. 90926
 riebe:riehp N_ODD_WG_eH "red fox" ; ! no. 2790
 njuono:nju^Onn N_ODD_WG_oH "the front of a reindeer herd" ; ! no. 90810
 åvlo:åvvl N_ODD_WG_oH "meltwater pool on the ground" ; ! no. 90372
