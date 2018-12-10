@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-04T08:45:38+01:00
+! Timestamp: 2018-12-10T08:47:49+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1458,7 +1458,7 @@ laskadak:laskadag2 N_EVEN4 "wet snow in the spring" ; ! no. 4587
 lávvodak:lávvodag2 N_EVEN4 "Saturday" ; ! no. 1027
 livágatj:livágatj N_EVEN4 "thin, weak person" ; ! no. 91049
 låhkåmus:låhkåmus N_EVEN4 "reading, text" ; ! no. 1088
-lähpedak:lä2hpedag2 N_EVEN4 "rennet" ; ! no. 3030
+lähppidak:lä2hppidag2 N_EVEN4 "rennet" ; ! no. 3030
 mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
 mierrádus:mierrádus N_EVEN4 "decision" ; ! no. 5921
 muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "plot of trees being felled for firewood" ; ! no. 5553
@@ -2080,6 +2080,7 @@ fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
 fudder:fudder N_ODD "feed" ; ! no. 91173
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
 gahper:gahper N_ODD "cap (part of traditional dress)" ; ! no. 6765
+gahtsem:gahtsem N_ODD "neck (humans)" ; ! no. 504
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
 garber:garber N_ODD "unripe berry" ; ! no. 90542
 garrás:garrás N_ODD "windpipe" ; ! no. 546
@@ -2091,7 +2092,6 @@ gasskaáldar:gasska#áldar N_ODD "middle ages" ; ! no. 4814
 gasskas:gasskas N_ODD "juniper, juniper twig" ; ! no. 566
 gáddek:gáddeg2 N_ODD "along the shore, someone who lives at the shore" ; ! no. 3189
 gáffal:gáffal N_ODD "fork (eating utensil)" ; ! no. 90841
-gáhtsem:gáhtsem N_ODD "neck (humans)" ; ! no. 504
 gállok:gállog2 N_ODD "shoe made of leather from a reindeer's forehead" ; ! no. 527
 gálsok:gálsog2 N_ODD "leather trousers (legs sewn from leg hide of reindeer)" ; ! no. 528
 gárgŋel:gárgŋel N_ODD "elbow" ; ! no. 542
@@ -2148,6 +2148,7 @@ hähkkal:hä2hkkal N_ODD "board with nails in it for combing shoe hay" ; ! no. 8
 iret+Use/NG:ided2 N_ODD "tomorrow" ; ! no. 90420
 idjaiednam:idja#iednam N_ODD "place for reindeer to spend the night" ; ! no. 5952
 iednam:iednam N_ODD "earth, soil, land" ; ! no. 444
+iednamskellbim:iednam#skellbim N_ODD "earthquake" ; ! no. 4182
 iehket:iehked2 N_ODD "evening" ; ! no. 445
 iejgát:iejgád2 N_ODD "parents; owner" ; ! no. 446
 iemet:iemed2 N_ODD "housewife" ; ! no. 451
