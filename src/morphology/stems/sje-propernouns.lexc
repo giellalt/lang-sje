@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-11-22T02:26:56-05:00
+! Timestamp: 2018-12-12T11:32:44+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -61,7 +61,7 @@ Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
 Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
 Krehtta:Krehtta N_EVEN "Greta" ; ! no. 91023
 Lajratjåhkkå:Lajra#tjåhkkå N_EVEN "Lajratjåhkkå" ; ! no. 91131
-Lässe:Lä2sse N_EVEN "Lars" ; ! no. 6035
+Lässe:Lies'se N_EVEN "Lars" ; ! no. 6035
 Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
 Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
 Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523

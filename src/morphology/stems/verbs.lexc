@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-10T08:48:34+01:00
+! Timestamp: 2018-12-12T12:22:55+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -51,7 +51,7 @@ biddit:biddi V_CONTR "make a bed" ; ! no. 1007
 bidtjit:bidtji V_CONTR "build" ; ! no. 4638
 birrut:birru V_CONTR "ought" ; ! no. 5904
 blänndit:blä2nndi V_CONTR "mix, blend" ; ! no. 4252
-buallát:bu^Ollá V_CONTR "burn, be on fire" ; ! no. 3303
+buallát:bu^Ol'lá V_CONTR "burn, be on fire" ; ! no. 3303
 buddit:buddi V_CONTR "sew on a ribbon" ; ! no. 203
 budnjut:budnju V_CONTR "dip" ; ! no. 2960
 buhttut:buhttu V_CONTR "be surprised; be caught in the act" ; ! no. 3260
@@ -125,6 +125,7 @@ jävvrit:jä2vvri V_CONTR "fish in a lake" ; ! no. 90865
 klähppit:klä2hppi V_CONTR "clap (in a friendly way)" ; ! no. 5819
 kämmpit:kä2mmpi V_CONTR "comb" ; ! no. 3345
 leggit:leggi V_CONTR "warm, heat up" ; ! no. 1028
+leggit:leggi V_CONTR "place, set, put" ; ! no. 91204
 lenit:leni V_CONTR "be worth it" ; ! no. 3698
 lijjgit:lijjgi V_CONTR "hire, employ" ; ! no. 3121
 lijjkit:lijjki V_CONTR "dump out, pour out" ; ! no. 3480
@@ -380,7 +381,7 @@ darrvat:darrv V_EVEN_A "tar" ; ! no. 4724
 dábbtjat:dábbtj V_EVEN_A "sharpen" ; ! no. 295
 dábmat:dábm V_EVEN_A "tame" ; ! no. 4285
 dájjsat:dájjs V_EVEN_A "fool around" ; ! no. 308
-duagŋat:du^Ogŋ V_EVEN_A "repair" ; ! no. 6178
+duaggŋat:du^Oggŋ V_EVEN_A "repair" ; ! no. 6178
 duahttat:du^Ohtt V_EVEN_A "touch" ; ! no. 3257
 dualldat:du^Olld V_EVEN_A "boil hard (for water)" ; ! no. 2555
 duasstat:du^Osst V_EVEN_A "risk, dare" ; ! no. 380
@@ -1074,7 +1075,7 @@ binnodit:binnod V_ODD "lessen the amount, quantity" ; ! no. 2447
 birastit:birast V_ODD "cruise around" ; ! no. 185
 bitjádit:bitjád V_ODD "complain" ; ! no. 5776
 bivkidit:bivkid V_ODD "say something in passing" ; ! no. 4416
-buajdodit:bu^Ojdod V_ODD "fatten up" ; ! no. 5803
+buajjdodit:bu^Ojjdod V_ODD "fatten up" ; ! no. 5803
 buddusit:buddus V_ODD "stuff, plug, block" ; ! no. 206
 buridit+Use/NG:budid V_ODD "disperse, spread out" ; ! no. 90558
 buhksudit:buhksud V_ODD "get dressed" ; ! no. 6002
@@ -1129,7 +1130,6 @@ dieverdit:dieverd V_ODD "give birth to a stillborn calf" ; ! no. 356
 diggudit:diggud V_ODD "be brought to trial" ; ! no. 2406
 dijdastit:dijdast V_ODD "interpret omens" ; ! no. 371
 duabbalit:du^Obbal V_ODD "pull towards oneself quickly" ; ! no. 3472
-duahtadit:du^Ohtad V_ODD "finger" ; ! no. 4077
 duallvanit:du^Ollvan V_ODD "become dirty" ; ! no. 3349
 dubbanit:dubban V_ODD "make room" ; ! no. 3383
 dudjuhit:dudjuh V_ODD "do handicrafts" ; ! no. 4735
@@ -1139,6 +1139,7 @@ dullvudit:dullvud V_ODD "chase, hunt (for dogs following reindeer)" ; ! no. 3779
 duobmanit:du^Obman V_ODD "be emptied" ; ! no. 91077
 duoddastit:du^Oddast V_ODD "attest" ; ! no. 3144
 duohpanit:du^Ohpan V_ODD "shrink" ; ! no. 397
+duohtadit:du^Ohtad V_ODD "finger" ; ! no. 4077
 duoldadit:du^Oldad V_ODD "boil for a long time" ; ! no. 2554
 dustodit:dustod V_ODD "meet, receive repeatedly" ; ! no. 5409
 duvdistit:duvdist V_ODD "drive a reindeer herd" ; ! no. 6057
@@ -1156,7 +1157,7 @@ däddalit:dä2ddal V_ODD "push down" ; ! no. 5751
 däddodit:dä2ddod V_ODD "emphasize" ; ! no. 3275
 dälkudit:dä2lkud V_ODD "cure, heal with medicine" ; ! no. 3393
 dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
-därjedit:dä2rjed V_ODD "curse, swear" ; ! no. 440
+därrjedit:dä2rrjed V_ODD "curse, swear" ; ! no. 440
 fádmastit:fádmast V_ODD "hug, embrace" ; ! no. 2410
 fággadit:fággad V_ODD "struggle, wrestle" ; ! no. 464
 fáhtadit:fáhtad V_ODD "capture, catch" ; ! no. 2651
@@ -1236,7 +1237,7 @@ gissjalit:gissjal V_ODD "be willing" ; ! no. 641
 gitsijdit:gitsijd V_ODD "squeak" ; ! no. 645
 givsedit:givsed V_ODD "bother" ; ! no. 5606
 grunodit:grunod V_ODD "start to flourish, turn green" ; ! no. 5079
-guasŋadit:gu^Osŋad V_ODD "become caught in a net (for fish)" ; ! no. 653
+guassŋadit:gu^Ossŋad V_ODD "become caught in a net (for fish)" ; ! no. 653
 gubdijdit:gubdijd V_ODD "migrate up" ; ! no. 674
 gudnedit:gudned V_ODD "honor" ; ! no. 658
 guhkedit:guhked V_ODD "extend" ; ! no. 4849
@@ -1309,7 +1310,7 @@ hähppidit:hä2hppid V_ODD "manage on time, reach" ; ! no. 3712
 häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
 häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
 hälijdit:hä2lijd V_ODD "desire, want to have" ; ! no. 90845
-hämsarit:hä2msar V_ODD "mix, blend" ; ! no. 867
+hämmsarit:hä2mmsar V_ODD "mix, blend" ; ! no. 867
 härridit:hä2rrid V_ODD "imitate" ; ! no. 869
 idjadit:idjad V_ODD "sleep over" ; ! no. 6895
 ieljadit:ieljad V_ODD "manage" ; ! no. 5162

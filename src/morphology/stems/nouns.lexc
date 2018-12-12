@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-10T16:28:13+01:00
+! Timestamp: 2018-12-12T11:56:03+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -655,7 +655,7 @@ kådjå:kådjå N_EVEN "hut" ; ! no. 5229
 kåhppå:kåhppå N_EVEN "cup" ; ! no. 987
 kånnstå:kånnstå N_EVEN "art" ; ! no. 5972
 kårrjå:kårrjå N_EVEN "basket" ; ! no. 5236
-källe:kiel'le N_EVEN "man, old man" ; ! no. 4340
+källi:kiel'li N_EVEN "man, old man" ; ! no. 4340
 ladnja:ladnja N_EVEN "room" ; ! no. 995
 ladnje:ladnje N_EVEN "birch twig" ; ! no. 996
 lahkke:lahkke N_EVEN "half" ; ! no. 4173
@@ -1012,10 +1012,10 @@ sjuolle:sju^Olle N_EVEN "dawn" ; ! no. 1603
 sjuovva:sju^Ovva N_EVEN "slush" ; ! no. 3917
 sjåvvå:sjåvvå N_EVEN "a kind of shed" ; ! no. 5850
 själbma:sjielbma N_EVEN "doorstop, lower part of door of kåta" ; ! no. 1611
-skahtte:skahtte N_EVEN "tax, valuable" ; ! no. 1614
 skallá:skallá N_EVEN "ice-crusted snow" ; ! no. 4509
 skannjga:skannjga N_EVEN "wild reindeer doe" ; ! no. 1617
 skarrorájjge:skarro#rájjge N_EVEN "ventilation hole" ; ! no. 4907
+skáhtte:skáhtte N_EVEN "tax, valuable" ; ! no. 1614
 skájjde:skájjde N_EVEN "confluence of two rivers, point" ; ! no. 1615
 skájjte:skájjte N_EVEN "long-tailed jaeger" ; ! no. 4082
 skárrja:skárrja N_EVEN "scissors, also a reindeer earmark" ; ! no. 1618
@@ -1170,7 +1170,7 @@ sårrve:sårrve N_EVEN "dry pine" ; ! no. 4904
 sårrå:sårrå N_EVEN "wound, sore" ; ! no. 91069
 såvvle:såvvle N_EVEN "water on top of ice but under snow on a lake" ; ! no. 1827
 särrga+Use/NG:sieddga N_EVEN "willow" ; ! no. 90443
-sähkoguallga:sähko#gu^Ollga N_EVEN "fur bristle around reindeer hooves" ; ! no. 90226
+sähkkoguallga:sähkko#gu^Ollga N_EVEN "fur bristles around reindeer hooves" ; ! no. 1835
 säjdne:siejdne N_EVEN "inside tent covering" ; ! no. 1836
 säjjbe:siejjbe N_EVEN "tail" ; ! no. 3294
 säjjde:siejjde N_EVEN "sacrifice altar" ; ! no. 1837
@@ -1728,7 +1728,7 @@ båtsojbarrgo:båtsoj#barrgo N_EVEN_O "reindeer husbandry" ; ! no. 5544
 båtsojviesso:båtsoj#viesso N_EVEN_O "reindeer husbandry" ; ! no. 91164
 bäbbmo:biebbmo N_EVEN_O "food, feed" ; ! no. 266
 bäbbmogissto:bäbbmo#gissto N_EVEN_O "food case" ; ! no. 267
-bäggombärrgo:bäggom#bierrgo N_EVEN_O "air-cured meat" ; ! no. 4456
+bäggumbärrgo:bäggom#bierrgo N_EVEN_O "air-cured meat" ; ! no. 4456
 bähkkumståhpo:bähkkum#ståhpo N_EVEN_O "bakery" ; ! no. 4615
 bällo:biel'lo N_EVEN_O "bell" ; ! no. 278
 bärrgo:bierrgo N_EVEN_O "meat" ; ! no. 283
@@ -1775,9 +1775,11 @@ gijjto:gijjto N_EVEN_O "thanks" ; ! no. 626
 girrko:girrko N_EVEN_O "church" ; ! no. 640
 girrkobällo:girrko#biel'lo N_EVEN_O "church bell" ; ! no. 5223
 gissto:gissto N_EVEN_O "box, chest" ; ! no. 644
+kryhtto+Use/NG:gruvvdo N_EVEN_O "pot, pan" ; ! no. 91202
 gualldo:gu^Olldo N_EVEN_O "snow flurry" ; ! no. 649
 guavvlo:gu^Ovvlo N_EVEN_O "area" ; ! no. 90213
 gåddebivvdo:gådde#bivvdo N_EVEN_O "hunt for wild reindeer" ; ! no. 5697
+gådtjåsähkko:gådtjå#siehkko N_EVEN_O "gooey lump and hair around a reindeer hoof" ; ! no. 2489
 gåjjko:gåjjko N_EVEN_O "drought, thirst" ; ! no. 4225
 gålgådismánno:gålgådis#mánno N_EVEN_O "October" ; ! no. 754
 gållo:gållo N_EVEN_O "cave" ; ! no. 3924
@@ -1935,6 +1937,7 @@ svánndo:svánndo N_EVEN_O "Saami from Karesuando" ; ! no. 4151
 sågorgáhkko:sågor#gáhkko N_EVEN_O "sugar cake" ; ! no. 1816
 såhkebárrko:såhke#bárrko N_EVEN_O "birch bark" ; ! no. 3951
 såvvo:såvvo N_EVEN_O "moist, lush deciduous forest area" ; ! no. 3939
+sähkko:siehkko N_EVEN_O "gooey clump of hair around a reindeer hoof" ; ! no. 3772
 sävvro:sievvro N_EVEN_O "fish meat cooked until its firm" ; ! no. 4306
 tjarrfo:tjarrfo N_EVEN_O "ice pick" ; ! no. 5195
 tjájbmo:tjájbmo N_EVEN_O "laughter" ; ! no. 90361
@@ -2405,7 +2408,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
 åråk:åråg2 N_ODD "new-born puppy" ; ! no. 90294
-ähpar:ä2hpar N_ODD "ghost of unbaptized babies" ; ! no. 4312
+ähppar:ä2hppar N_ODD "ghost of a murdered, unbaptized baby" ; ! no. 4312
 äjjgut:ä2jjgud2 N_ODD "intention" ; ! no. 3171
 äjjtik:ä2jjtig2 N_ODD "forefather, ancestor, parent" ; ! no. 33
 älbmuk:ä2lbmug2 N_ODD "people, crowd, public" ; ! no. 44
