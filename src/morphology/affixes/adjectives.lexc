@@ -227,7 +227,8 @@ LEXICON A_DIMES ! dibmá/dimes/dibmása/dibmáp/dibmájmus-
 
 LEXICON A_DIMES_s2 
 +Sg+Nom:^WG%>s K ; 
-+Pl+Nom:%>^V2E2AAsa K ; 
+:%>^V2E2AAs N_ODD_X ;
+!+Pl+Nom:%>^V2E2AAsa K ; 
 +Comp: A_ODD_COMP_V2E2AA ;
 +Superl: A_ODD_jSUP_V2E2AA ;
 
