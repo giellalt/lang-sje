@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-12T12:22:55+02:00
+! Timestamp: 2018-12-12T17:43:17+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -966,7 +966,7 @@ vuodjot:vu^Odj V_EVEN_O "sink, fall down to the bottom" ; ! no. 2156
 åggot:ågg V_EVEN_O "fish using a fishing rod" ; ! no. 2241
 årrot:årr V_EVEN_O "live, reside" ; ! no. 2268
 åsskot:åssk V_EVEN_O "believe in someone or something, have trust in something" ; ! no. 2271
-åvvlot:åvvl V_EVEN_O "be covered by meltwater in spring; get heartburn" ; ! no. 2280
+åvvlot:åvvl V_EVEN_O "be covered by meltwater in spring; have acid reflux" ; ! no. 2280
 guardnjot:gu^Ordnj V_EVEN_O_G3 "climb up" ; ! no. 3717
 luabbot:lu^Obb V_EVEN_O_G3 "spread out" ; ! no. 1055
 luaddot:lu^Odd V_EVEN_O_G3 "chop (firewood)" ; ! no. 5274
@@ -1129,7 +1129,6 @@ diergedit:dierged V_ODD "jump due to being startled" ; ! no. 5871
 dieverdit:dieverd V_ODD "give birth to a stillborn calf" ; ! no. 356
 diggudit:diggud V_ODD "be brought to trial" ; ! no. 2406
 dijdastit:dijdast V_ODD "interpret omens" ; ! no. 371
-duabbalit:du^Obbal V_ODD "pull towards oneself quickly" ; ! no. 3472
 duallvanit:du^Ollvan V_ODD "become dirty" ; ! no. 3349
 dubbanit:dubban V_ODD "make room" ; ! no. 3383
 dudjuhit:dudjuh V_ODD "do handicrafts" ; ! no. 4735
@@ -1374,7 +1373,6 @@ lihtudit:lihtud V_ODD "agree to meet" ; ! no. 1046
 liksagit:liksag V_ODD "become rancid, go bad" ; ! no. 4507
 livudit:livud V_ODD "lay down and rest (for ruminant animals)" ; ! no. 90937
 livvadit:livvad V_ODD "lay and relax (for ruminant animals)" ; ! no. 3003
-luaddanit:lu^Oddan V_ODD "chip" ; ! no. 3410
 luattkalit+Use/NG:lu^Orrkal V_ODD "tear up yarn" ; ! no. 90429
 luattkalit:lu^Ottkal V_ODD "tear up yarn" ; ! no. 1058
 lubbidit:lubbid V_ODD "spread out" ; ! no. 4962
@@ -1636,7 +1634,6 @@ tjiektjadit:tjiektjad V_ODD "kick" ; ! no. 5641
 tjiektjastit:tjiektjast V_ODD "kick once" ; ! no. 1894
 tjielastit:tjielast V_ODD "jump once" ; ! no. 1904
 tjiergagit:tjiergag V_ODD "become numb, lose feeling" ; ! no. 3808
-tjuadtjadit:tju^Od'tjad V_ODD "remain standing" ; ! no. 5338
 tjuggistit:tjuggist V_ODD "poke a hole" ; ! no. 1927
 tjuhkkidit:tjuhkkid V_ODD "sit down" ; ! no. 1918
 tjuhkkistit:tjuhkkist V_ODD "collect quickly" ; ! no. 5321
@@ -1656,7 +1653,6 @@ tjurgudit:tjurgud V_ODD "turn grey (for hair and fur)" ; ! no. 1937
 tjuskudit:tjuskud V_ODD "jump around" ; ! no. 5323
 tjuvgudit:tjuvgud V_ODD "lighten, dawn" ; ! no. 5286
 tjuvudit:tjuvud V_ODD "follow stubbornly" ; ! no. 5342
-tjuädtjelit:tju^Od'tjel V_ODD "get up, stand up" ; ! no. 4647
 tjåhkkåhit:tjåhkkåh V_ODD "sit" ; ! no. 1962
 tjåhkolit:tjåhkol V_ODD "become loose and slide off (for an ax handle)" ; ! no. 5347
 tjåhkånit:tjåhkån V_ODD "meet, gather" ; ! no. 1964
@@ -1764,3 +1760,7 @@ vänijdit:vä2nijd V_ODD "accustom, get used to" ; ! no. 2936
 äjbmudit:ä2jbmud V_ODD "manage to do something" ; ! no. 3281
 ärrusit:ä2rrus V_ODD "not able to find a solution, be baffled" ; ! no. 2289
 ävvusit:ä2vvus V_ODD "become happy, become glad" ; ! no. 2291
+duabbalit:du^Obbal V_ODD_UA "pull towards oneself quickly" ; ! no. 3472
+luaddanit:lu^Oddan V_ODD_UA "crack, split" ; ! no. 3410
+tjuadtjadit:tju^Odtjad V_ODD_UA "remain standing" ; ! no. 5338
+tjuädtjelit:tju^Odtjel V_ODD_UA "get up, stand up" ; ! no. 4647
