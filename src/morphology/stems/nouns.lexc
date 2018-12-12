@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-12T11:56:03+02:00
+! Timestamp: 2018-12-12T21:38:50+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1274,7 +1274,6 @@ tsagŋa:tsagŋa N_EVEN "short stick in a cloth kåta door" ; ! no. 3639
 tsievve:tsievve N_EVEN "hardpack snow without an ice crust" ; ! no. 2510
 tsisská:tsisská N_EVEN "fatty piece on the very back of a reindeer’s back" ; ! no. 2968
 tsuabbtsa:tsu^Obbtsa N_EVEN "patch of snow in the mountains, snow bridge over a creek" ; ! no. 2013
-tsuadtsa:tsu^Od'tsa N_EVEN "film, membrane on meat" ; ! no. 2962
 tsåhke:tsåhke N_EVEN "heart" ; ! no. 2958
 tsåhke:tsåhke N_EVEN "shallow water" ; ! no. 3741
 täkksta:tiekksta N_EVEN "text" ; ! no. 4620
@@ -1328,7 +1327,6 @@ vikiŋaájjge:vikiŋa#ájjge N_EVEN "the Viking era" ; ! no. 5672
 visste:visste N_EVEN "reindeer lichen" ; ! no. 2134
 vivva:vivva N_EVEN "son-in-law" ; ! no. 2136
 vuabbda:vu^Obbda N_EVEN "breast, chest" ; ! no. 2147
-vuadtja:vu^Od'tja N_EVEN "smooth ice" ; ! no. 2138
 vuahppa:vu^Ohppa N_EVEN "father-in-law" ; ! no. 2139
 vuanntsa:vu^Onntsa N_EVEN "chicken" ; ! no. 2140
 vuappta:vu^Oppta N_EVEN "head hair (for humans)" ; ! no. 2141
@@ -1667,6 +1665,7 @@ tjårgŋe:tjårgŋe N_EVEN_NOCG "hump" ; ! no. 3704
 tjärdna:tjierdna N_EVEN_NOCG "butter churn" ; ! no. 90580
 tsabbe:tsabbe N_EVEN_NOCG "lower marrowbone on the front leg of a reindeer" ; ! no. 3764
 tsagge:tsagge N_EVEN_NOCG "forked stick" ; ! no. 3624
+tsuadtsa:tsu^Odtsa N_EVEN_NOCG "film, membrane on meat" ; ! no. 2962
 tsuobbo:tsu^Obbo N_EVEN_NOCG "frog" ; ! no. 2981
 ukksatsagge:ukksa#tsagge N_EVEN_NOCG "door frame" ; ! no. 2023
 vahtjobägga:vahtjo#biegga N_EVEN_NOCG "biting wind" ; ! no. 2056
@@ -1675,6 +1674,7 @@ várrá+Use/NG:váddá N_EVEN_NOCG "danger" ; ! no. 91196
 vádtsemsåbbe:vádtsem#såbbe N_EVEN_NOCG "walking stick" ; ! no. 2048
 vágge:vágge N_EVEN_NOCG "valley" ; ! no. 2329
 vággevuorro+Use/NG:vágge#vu^Oddo N_EVEN_NOCG "bottom of a valley" ; ! no. 90508
+vuadtja:vu^Odtja N_EVEN_NOCG "smooth ice" ; ! no. 2138
 vuagga:vu^Ogga N_EVEN_NOCG "fishing hook" ; ! no. 2205
 vuorro+Use/NG:vu^Oddo N_EVEN_NOCG "base, bottom" ; ! no. 90450
 vuodjemsåbbe:vuodjem#såbbe N_EVEN_NOCG "driving stick (for herding reindeer)" ; ! no. 2155
@@ -1728,7 +1728,7 @@ båtsojbarrgo:båtsoj#barrgo N_EVEN_O "reindeer husbandry" ; ! no. 5544
 båtsojviesso:båtsoj#viesso N_EVEN_O "reindeer husbandry" ; ! no. 91164
 bäbbmo:biebbmo N_EVEN_O "food, feed" ; ! no. 266
 bäbbmogissto:bäbbmo#gissto N_EVEN_O "food case" ; ! no. 267
-bäggumbärrgo:bäggom#bierrgo N_EVEN_O "air-cured meat" ; ! no. 4456
+bäggumbärrgo:bäggum#bierrgo N_EVEN_O "air-cured meat" ; ! no. 4456
 bähkkumståhpo:bähkkum#ståhpo N_EVEN_O "bakery" ; ! no. 4615
 bällo:biel'lo N_EVEN_O "bell" ; ! no. 278
 bärrgo:bierrgo N_EVEN_O "meat" ; ! no. 283
