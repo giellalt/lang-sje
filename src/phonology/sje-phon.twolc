@@ -97,7 +97,6 @@ Definitions
         v v s [j|k] |
         v v t [j|s] |
 
-        d ':0 t [j|s] |
         f ':0 f |
         l ':0 l |
         m ':0 m |
@@ -427,12 +426,17 @@ s:t <=> _ j2: .#. ;
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
 !! __@RULENAME@__  
 %^O:a <=> Cns:* u _ G3 [:a|:o|:y|:ä|:å|:á] \%^WG: ; 
-          Cns:* u _ noCG [:a|:o|:y|:ä|:å|:á] %^G3:* %^UAUML: ;
+          Cns:* u _ noCG [:a|:o|:y|:ä|:å|:á] Cns:* %^G3:* %^UAUML: ;
+
+! added Cns:* before G3/UAUML for odd verbs with C after V2
+!!€ lu^Oddan^UAUMLi%>t
+!!€ luaddan0i0t
 
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
 !! __@RULENAME@__  
 %^O:ä <=> Cns:* u _ G3 :e \%^WG: ; 
           Cns:* u _ Cns:+ :e (j:j) %^G3: ; ! duädde<->duodde, guäddej<->guäddeja
+          Cns:* u _ noCG :e Cns: %^UAUML: ; ! tjuädtjelit (not tjuodtjelit)
 
 !!€ gu^Odde^G3%>t
 !!€ guädde00t
