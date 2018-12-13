@@ -283,6 +283,10 @@ Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) %^WG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)])
 !! __@RULENAME@__  
 b:0 <=> Vow [l|j] _ m Vow: Cns:* ( Dummy: ) %^WG: ; ! vájbmo, njálbme
 
+"Consonant Gradation for nnjg:njg" 
+!! __@RULENAME@__  
+n:0 <=> Vow n _ j g Vow: Cns:* ( Dummy: ) %^WG: ; ! skannjga, vannjgat
+
 "Consonant Gradation for vgŋ:vŋ" 
 !! __@RULENAME@__  
 g:0 <=> Vow v _ n Vow: Cns:* ( Dummy: ) %^WG: ; ! ávgŋot (unsure about this word!)
