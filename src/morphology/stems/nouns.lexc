@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-25T10:16:02+01:00
+! Timestamp: 2018-12-25T13:08:37+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2376,8 +2376,8 @@ váhtam:váhtam N_ODD "small snack" ; ! no. 90571
 váhtjam:váhtjam N_ODD "reindeer cow" ; ! no. 2055
 váras:váras N_ODD "homespun cloth" ; ! no. 392
 várreårroj:várre#årroj N_ODD "mountainman (non-Saami)" ; ! no. 4083
+vidajagak:vida#jagag2 N_ODD "five-year-old" ; ! no. 5438
 vidak:vidag2 N_ODD "five crown coin" ; ! no. 4051
-vidájagak:vidá#jagag2 N_ODD "five-year-old" ; ! no. 5438
 viejek:viejeg2 N_ODD "fish larva, young fish" ; ! no. 2117
 vieljatj:vieljatj N_ODD "brother" ; ! no. 90384
 vienak:vienag2 N_ODD "friend" ; ! no. 2353
