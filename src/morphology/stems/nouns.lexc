@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-12T21:38:50+02:00
+! Timestamp: 2018-12-25T10:16:02+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -903,7 +903,7 @@ riehtabuäjjde:riehta#bu^Ojjde N_EVEN "groin fat" ; ! no. 90329
 riektes+N+Der/State:riektesvu^Ohta N_EVEN "legal right" ; ! no. 3856
 rihtabielle:rihta#bielle N_EVEN "a side of reindeer (meat)" ; ! no. 6651
 rijjka:rijjka N_EVEN "kingdom, state, country" ; ! no. 1413
-rimmste:rimmste N_EVEN "one-year-old reindeer calf after its mother has deserted it" ; ! no. 2582
+rimmsti:rimmsti N_EVEN "one-year-old reindeer calf after its mother has deserted it" ; ! no. 2582
 risse:ris'se N_EVEN "twig, birch twig (only for deciduous trees)" ; ! no. 1416
 rissja:rissja N_EVEN "sulfur" ; ! no. 1417
 kruassa+Use/NG:ru^Os'sa N_EVEN "cross" ; ! no. 90731
