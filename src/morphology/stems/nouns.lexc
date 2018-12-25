@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-25T13:08:37+01:00
+! Timestamp: 2018-12-25T14:31:54+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1183,6 +1183,7 @@ táhkka:táhkka N_EVEN "roof" ; ! no. 5175
 táhttja:táhttja N_EVEN "roof" ; ! no. 1846
 tea:tea N_EVEN "tea" ; ! no. 90614
 telefona:telefona N_EVEN "telephone" ; ! no. 1847
+testamännta:testamiennta N_EVEN "testament" ; ! no. 91205
 tijbma:tijbma N_EVEN "hour" ; ! no. 1848
 tjadná:tjadná N_EVEN "birch polypore (mushroom)" ; ! no. 1854
 tjakktja:tjakktja N_EVEN "autumn, fall" ; ! no. 1866
