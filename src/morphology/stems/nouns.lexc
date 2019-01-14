@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-25T14:31:54+01:00
+! Timestamp: 2019-01-14T13:13:44+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -136,10 +136,10 @@ avvstagárre:avvsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 átjájuakksa:átjá#ju^Okksa N_EVEN "rainbow" ; ! no. 3514
 átjárájjde:átjárájjde N_EVEN "thunder" ; ! no. 82
 ávahávvde:áva#hávvde N_EVEN "hiding place for silver in a pile of stones" ; ! no. 85
-ávtjamuärrje:ávtja#mu^Orrje N_EVEN "hagberry" ; ! no. 4668
 ávvke:ávvke N_EVEN "use, benefit" ; ! no. 94
 ávvlemuorra:ávvle#mu^Orra N_EVEN "cross beam in a Saami hut" ; ! no. 86
 ávvtja:ávvtja N_EVEN "bird cherry tree" ; ! no. 92
+ávvtjamuärrje:ávvtja#mu^Orrje N_EVEN "hagberry" ; ! no. 4668
 badjegiehtje:badje#giehtje N_EVEN "upper end, top side" ; ! no. 6130
 badjeráppta:badje#ráppta N_EVEN "upper edge" ; ! no. 4670
 bahámiella:bahá#miella N_EVEN "angry mood" ; ! no. 90629
@@ -1718,7 +1718,7 @@ bednikdårrjo:bednik#dårrjo N_EVEN_O "contribution, subsidy, financial support"
 biehtsemánno:biehtse#mánno N_EVEN_O "June" ; ! no. 600
 bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
 bienomässo:bieno#mies'so N_EVEN_O "Böndagshelgen" ; ! no. 5427
-bihpo:bihpo N_EVEN_O "pipe (for smoking)" ; ! no. 5055
+bihppo:bihppo N_EVEN_O "pipe (for smoking)" ; ! no. 5055
 birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
 bumullo:bumul'lo N_EVEN_O "cotton" ; ! no. 3370
@@ -1819,7 +1819,7 @@ jåvvlåmánno:jåvvlå#mánno N_EVEN_O "December" ; ! no. 964
 kryhtto:kryhtto N_EVEN_O "pot, pan" ; ! no. 3752
 láhppo:láhppo N_EVEN_O "beard lichen" ; ! no. 1668
 láhtto:láhtto N_EVEN_O "ski track" ; ! no. 6549
-lájjrebihpo:lájjre#bihpo N_EVEN_O "clay pipe" ; ! no. 6008
+lájjrebihppo:lájjre#bihppo N_EVEN_O "clay pipe" ; ! no. 6008
 lámmpo:lámmpo N_EVEN_O "lamp" ; ! no. 1014
 liddno:liddno N_EVEN_O "eagle owl" ; ! no. 1036
 liessjo:liessjo N_EVEN_O "den, lair" ; ! no. 4529
@@ -1951,7 +1951,7 @@ tjivvko+Use/NG:tjuvvko N_EVEN_O "fresh cheese curd" ; ! no. 90495
 tjårgŋehárrdo:tjårgŋe#hárrdo N_EVEN_O "humpback" ; ! no. 3705
 tjårro:tjårro N_EVEN_O "mountain ridge" ; ! no. 3791
 tjårrvebarrgo:tjårrve#barrgo N_EVEN_O "handicraft made of antlers" ; ! no. 6006
-tjårrvebihpo:tjårrve#bihpo N_EVEN_O "pipe (for smoking) made of antler" ; ! no. 1975
+tjårrvebihppo:tjårrve#bihppo N_EVEN_O "pipe (for smoking) made of antler" ; ! no. 1975
 tjällko:tjiellko N_EVEN_O "bottom of a wooden pannier" ; ! no. 5250
 tsieggománno:tsieggo#mánno N_EVEN_O "good weather moon, waning moon" ; ! no. 5478
 tsähkko:tsiehkko N_EVEN_O "sacrificed reindeer buried into the ground" ; ! no. 3508
