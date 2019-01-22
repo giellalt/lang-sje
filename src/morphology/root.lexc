@@ -32,6 +32,7 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Num      !!= * @CODE@  
 +Pcle     !!= * @CODE@  
 +Po	      !!= * @CODE@  
++Pr	      !!= * @CODE@  
 
 !! !!Subclasses
 +Pers 		  !!= * @CODE@ 
@@ -148,7 +149,7 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Cmp/Hyph     !!= * @CODE@ 
 +Cmp/SplitR   !!= * @CODE@ 
 +Use/-Spell   !!= * @CODE@ 
- +Use/-PLX        !!≈ * @CODE@   Excluded in PLX speller
++Use/-PLX        !!≈ * @CODE@   Excluded in PLX speller
 
 !! This part of the component can ..
 +CmpNP/All       !!≈ * @CODE@  - ... be in all positions, __default__, this tag does not have to be written
@@ -231,9 +232,9 @@ b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or oth
 
 
 ! testing these
-!+TRAB
-!+ITRAB
-!+TRNUMAB
++TRAB
++ITRAB
++TRNUMAB
 
 
 !! !!!Key lexicon
