@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-12T21:38:27+02:00
+! Timestamp: 2019-01-23T18:45:52+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -640,7 +640,7 @@ arrmálasstet:arrmálasst V_EVEN_E "take pity, ask for help" ; ! no. 4062
 bajjket:bajjk V_EVEN_E "excrete" ; ! no. 6034
 ballagåhtet:ballagåht V_EVEN_E "begin to become afraid" ; ! no. 5509
 balldet:balld V_EVEN_E "scare" ; ! no. 3173
-basádasstet:basádasst V_EVEN_E "quickly wash oneself" ; ! no. 4686
+basadasstet:basadasst V_EVEN_E "quickly wash oneself" ; ! no. 4686
 basset:bass V_EVEN_E "fry, bake, grill" ; ! no. 153
 báhket:báhk V_EVEN_E "pull feathers" ; ! no. 4674
 báhtset:báhts V_EVEN_E "remain, be left over" ; ! no. 116
@@ -1042,8 +1042,8 @@ balládit:ballád V_ODD "become scared" ; ! no. 91015
 balldalit:balldal V_ODD "scare" ; ! no. 90852
 baltjastit:baltjast V_ODD "be mischievous" ; ! no. 137
 balvadit:balvad V_ODD "become cloudy" ; ! no. 5737
+bargadit:bargad V_ODD "process, work on" ; ! no. 3225
 bargastit:bargast V_ODD "work a little bit" ; ! no. 4682
-barrgádit:barrgád V_ODD "process, work on" ; ! no. 3225
 barrjedit:barrjed V_ODD "swear, curse" ; ! no. 2914
 basadit:basad V_ODD "wash oneself" ; ! no. 148
 bassestit:bassest V_ODD "fry a little bit, fry quickly" ; ! no. 5501
@@ -1078,8 +1078,8 @@ bivkidit:bivkid V_ODD "say something in passing" ; ! no. 4416
 buajjdodit:bu^Ojjdod V_ODD "fatten up" ; ! no. 5803
 buddusit:buddus V_ODD "stuff, plug, block" ; ! no. 206
 buridit+Use/NG:budid V_ODD "disperse, spread out" ; ! no. 90558
-buhksudit:buhksud V_ODD "get dressed" ; ! no. 6002
 buhtsidit:buhtsid V_ODD "turn green (for grass)" ; ! no. 225
+buksudit:buksud V_ODD "get dressed" ; ! no. 6002
 bulledit:bulled V_ODD "ignite, light" ; ! no. 2664
 buolvastit:bu^Olvast V_ODD "kneel" ; ! no. 2860
 buoredit:bu^Ored V_ODD "cure, heal, get better" ; ! no. 3392
