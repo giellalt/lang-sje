@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-14T13:13:44+01:00
+! Timestamp: 2019-01-23T15:52:19+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1715,6 +1715,7 @@ bárrko:bárrko N_EVEN_O "bark" ; ! no. 147
 bárro:bárro N_EVEN_O "wave (in water)" ; ! no. 4685
 bássemánno:básse#mánno N_EVEN_O "November" ; ! no. 151
 bednikdårrjo:bednik#dårrjo N_EVEN_O "contribution, subsidy, financial support" ; ! no. 3309
+beggumbärrgo:beggum#bierrgo N_EVEN_O "meat which is spoiled due to being in the elements" ; ! no. 4456
 biehtsemánno:biehtse#mánno N_EVEN_O "June" ; ! no. 600
 bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
 bienomässo:bieno#mies'so N_EVEN_O "Böndagshelgen" ; ! no. 5427
@@ -1729,7 +1730,6 @@ båtsojbarrgo:båtsoj#barrgo N_EVEN_O "reindeer husbandry" ; ! no. 5544
 båtsojviesso:båtsoj#viesso N_EVEN_O "reindeer husbandry" ; ! no. 91164
 bäbbmo:biebbmo N_EVEN_O "food, feed" ; ! no. 266
 bäbbmogissto:bäbbmo#gissto N_EVEN_O "food case" ; ! no. 267
-bäggumbärrgo:bäggum#bierrgo N_EVEN_O "air-cured meat" ; ! no. 4456
 bähkkumståhpo:bähkkum#ståhpo N_EVEN_O "bakery" ; ! no. 4615
 bällo:biel'lo N_EVEN_O "bell" ; ! no. 278
 bärrgo:bierrgo N_EVEN_O "meat" ; ! no. 283
@@ -2009,7 +2009,7 @@ báhper:báhper N_ODD "paper" ; ! no. 110
 báhtsak:báhtsag2 N_ODD "cone" ; ! no. 114
 bálgok:bálgog2 N_ODD "reindeer alone in the forest" ; ! no. 6134
 bednik:bednig2 N_ODD "money" ; ! no. 2624
-bielák:bielág2 N_ODD "one of two parts" ; ! no. 5770
+bielak:bielag2 N_ODD "one of two parts" ; ! no. 5770
 biellemupjagak:biellemup#jagag2 N_ODD "eighteen-month old child" ; ! no. 6576
 bietsek:bietseg2 N_ODD "fishtail" ; ! no. 2862
 bijbal:bijbal N_ODD "bible" ; ! no. 166
