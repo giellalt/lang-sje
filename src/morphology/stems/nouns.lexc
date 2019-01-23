@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-23T15:52:19+01:00
+! Timestamp: 2019-01-23T18:48:52+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -151,12 +151,11 @@ balljá:balljá N_EVEN "tub, basin" ; ! no. 3207
 ballva:ballva N_EVEN "cloud" ; ! no. 138
 banána:banána N_EVEN "banana" ; ! no. 3210
 bargodis+N+Der/State:bargodisvu^Ohta N_EVEN "unemployment" ; ! no. 3131
-barrge:barrge N_EVEN "worker" ; ! no. 4683
 barrgoájjge:barrgo#ájjge N_EVEN "work time" ; ! no. 3132
 barrgobäjjve:barrgo#biejjve N_EVEN "workday" ; ! no. 4537
 barrgosadje:barrgo#sadje N_EVEN "workplace" ; ! no. 4684
 barrte:barrte N_EVEN "difficult mountain" ; ! no. 2805
-basádemgárre:basádem#gárre N_EVEN "washing pan" ; ! no. 4687
+basadimgárre:basadim#gárre N_EVEN "washing pan" ; ! no. 4687
 basilla:basilla N_EVEN "bacterium, germ" ; ! no. 3199
 basse:basse N_EVEN "weekend" ; ! no. 150
 bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
@@ -324,7 +323,6 @@ dulutjájjge:dulutj#ájjge N_EVEN "past, old days" ; ! no. 3444
 dulutjdáhpe:dulutj#dáhpe N_EVEN "old-fashioned custom" ; ! no. 390
 dumpåjjve:dump#åjjve N_EVEN "idiot" ; ! no. 3932
 duodje:du^Odje N_EVEN "handicraft" ; ! no. 3093
-duodjebarrge:duodje#barrge N_EVEN "artesian" ; ! no. 5686
 duohpa:du^Ohpa N_EVEN "tassel" ; ! no. 5838
 duäjjke:du^Ojjke N_EVEN "pressure, hectic, effectivity" ; ! no. 407
 duällje:du^Ollje N_EVEN "reindeer, moose or other hide" ; ! no. 409
@@ -1715,7 +1713,7 @@ bárrko:bárrko N_EVEN_O "bark" ; ! no. 147
 bárro:bárro N_EVEN_O "wave (in water)" ; ! no. 4685
 bássemánno:básse#mánno N_EVEN_O "November" ; ! no. 151
 bednikdårrjo:bednik#dårrjo N_EVEN_O "contribution, subsidy, financial support" ; ! no. 3309
-beggumbärrgo:beggum#bierrgo N_EVEN_O "meat which is spoiled due to being in the elements" ; ! no. 4456
+beggumbärrgo:beggum#bierrgo N_EVEN_O "meat which is spoiled from exposure to weather" ; ! no. 4456
 biehtsemánno:biehtse#mánno N_EVEN_O "June" ; ! no. 600
 bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
 bienomässo:bieno#mies'so N_EVEN_O "Böndagshelgen" ; ! no. 5427
@@ -2476,6 +2474,7 @@ ahtselisbålås:ahtselis#bållås N_ODD_WG "heavy rain shower" ; ! no. 15
 aldas:alldas N_ODD_WG "leather on front top part of shoe" ; ! no. 47
 ánjas:ádnjas N_ODD_WG "leg tendon" ; ! no. 5832
 ávvoganjal:ávvo#gadnjal N_ODD_WG "tear of joy" ; ! no. 90633
+barrgat+N+Der/NomAg:barrgej N_ODD_WG "worker" ; ! no. 4683
 báktjas:bákktjas N_ODD_WG "pain" ; ! no. 5739
 bierjas:bierrjas N_ODD_WG "cloth rain covering smoke hole in a tent kåta" ; ! no. 176
 bievas:bievvas N_ODD_WG "sweat" ; ! no. 4218
