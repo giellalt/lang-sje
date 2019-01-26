@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-23T18:45:52+01:00
+! Timestamp: 2019-01-26T09:06:12+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1090,7 +1090,7 @@ busodit:busod V_ODD "blow out" ; ! no. 4704
 buvaldit:buvald V_ODD "thaw" ; ! no. 5285
 bådtsåstit:bådtsåst V_ODD "shake off water (for reindeer and other animals)" ; ! no. 235
 båggedit:bågged V_ODD "fall, tumble" ; ! no. 2409
-båhtasit:båhtas V_ODD "boil over" ; ! no. 237
+båhttásit:båhttás V_ODD "boil over" ; ! no. 237
 båhtånit:båhtån V_ODD "swell, bulge" ; ! no. 240
 båktjanit:båktjan V_ODD "suffocate, have something stuck in one’s windpipe" ; ! no. 244
 bånjådit:bånjåd V_ODD "turn back and forth" ; ! no. 91017
