@@ -184,6 +184,10 @@ LIST NumChar = "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ;
 
 SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
 
+SET DUAL = Du1 OR Du2 OR Du3 ;
+
+SET PLURAL = Pl1 OR Pl2 OR Pl3 ;
+
 SET NonThirdPerson = Sg1 OR Sg2 OR Du1 OR Du2 OR Pl1 OR Pl2 ;
 
 ##from north saami
@@ -465,6 +469,14 @@ SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB OR 3SGV)
 #remove GEN reading if sentence final
 REMOVE:noGenSgAtEOS (N Sg Gen) IF ((0 EOS) OR (1 ("\;")));
     ##
+
+#comitative coordination
+#select COM.SG reading when preceded by DU pronoun in clause with DU verb
+##(ideally, this includes agreement in person between Pron and V, but can this be formalized without listing a set of rules for each of the person values?)
+SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*1 V + DUAL BARRIER CLB);
+SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*-2 V + DUAL BARRIER CLB);
+	##vullgin måj rádnajn dä vit jávvráj ja åhppåt
+
 
 
 
