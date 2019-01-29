@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-23T18:48:52+01:00
+! Timestamp: 2019-01-29T11:23:44+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2374,6 +2374,7 @@ vádtsatj:vádtsatj N_ODD "a little snow on the ground, thin blanket of snow" ; 
 váhtam:váhtam N_ODD "small snack" ; ! no. 90571
 váhtjam:váhtjam N_ODD "reindeer cow" ; ! no. 2055
 váras:váras N_ODD "homespun cloth" ; ! no. 392
+várek:váreg2 N_ODD "mountain-" ; ! no. 91210
 várreårroj:várre#årroj N_ODD "mountainman (non-Saami)" ; ! no. 4083
 vidajagak:vida#jagag2 N_ODD "five-year-old" ; ! no. 5438
 vidak:vidag2 N_ODD "five crown coin" ; ! no. 4051
