@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-10-31T01:25:06-04:00
+! Timestamp: 2019-01-30T10:14:22+01:00
 
 !! !!!Pite Saami Adjectives
 
@@ -74,6 +74,7 @@ buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
 guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
 gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
 hiedjo:hiedjo A_BUOSSJE "poor" ; ! no. 828
+hådje:hådje A_BUOSSJE "sad, mournful" ; ! no. 90550
 låjje+Use/NG:lådje A_BUOSSJE "calm, tame" ; ! no. 90501
 nävvre:nievvre A_BUOSSJE "bad" ; ! no. 1342
 vallje:vallje A_BUOSSJE "abundant, plenty of" ; ! no. 2076
@@ -164,6 +165,7 @@ gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
 umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
 unne:un'n A_UNNE "small, little" ; ! no. 90285
+färrta:fä2rrta A_VAASSE "every, each and every" ; ! no. 4190
 lihkas:lihkas A_VAASSE "lame, with a limp" ; ! no. 5477
 lihkas+Use/NG:liŋkas A_VAASSE "lame, with a limp" ; ! no. 91020
 norska:norska A_VAASSE "Norwegian" ; ! no. 91002
