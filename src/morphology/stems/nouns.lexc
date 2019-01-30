@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-29T11:23:44+01:00
+! Timestamp: 2019-01-30T10:06:56+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1707,6 +1707,7 @@ ballo:ballo N_EVEN_O "fear" ; ! no. 136
 barrgo:barrgo N_EVEN_O "work, job" ; ! no. 146
 bassembärrgo:bassem#bierrgo N_EVEN_O "fried meat" ; ! no. 4695
 bassto:bassto N_EVEN_O "sauna" ; ! no. 1517
+báhkko:báhkko N_EVEN_O "hill, slope" ; ! no. 91213
 báhko:báhko N_EVEN_O "word" ; ! no. 108
 bárrdesvahkko:bárrdes#vahkko N_EVEN_O "Bartolomeusveckan i augusti" ; ! no. 3841
 bárrko:bárrko N_EVEN_O "bark" ; ! no. 147
