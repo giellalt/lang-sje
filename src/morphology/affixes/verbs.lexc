@@ -471,9 +471,9 @@ LEXICON LEPRS !!= * @CODE@
 +Sg1+Use/NG:lev # ; 
 +Sg2:lä # ;  
 +Sg2+Use/NG:le # ;  
-+Sg2:l # ; !enclitic (only attaches to vowel-final preceding word)
++Sg2:'l # ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
 +Sg3:lä # ; 
-+Sg3:l # ; !enclitic (only attaches to vowel-final preceding word)
++Sg3:'l # ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
 !+Sg3:le # ; 
 +Du1:lin # ; 
 !+Du1:len # ; 
