@@ -36,6 +36,7 @@ nällje:niellj NUMe "fyra, four";
 vihta:viht NUMa "fem, five" ;
 guhta:guht NUMa "sex, six" ;
 gietjav:giehtj NUM7 "sju, seven" ;
+gietjav+Use/NG:tjiehtj NUM7 "sju, seven" ;
 gákktse:gákkts NUMe "åtta, eight" ;
 åkktse:åkkts NUMe "nio, nine" ;
 
