@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-30T10:06:56+01:00
+! Timestamp: 2019-02-01T10:37:12+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -633,6 +633,7 @@ knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
 komuvdna:komuvdna N_EVEN "municipality" ; ! no. 976
 kráhka:kráhka N_EVEN "collar" ; ! no. 6639
 kránna:krán'na N_EVEN "neighbor" ; ! no. 91008
+kreatuvvra:kreatuvvra N_EVEN "cattle, livestock (not reindeer)" ; ! no. 91217
 krikksja:krikksja N_EVEN "common teal" ; ! no. 979
 kristalatj+N+Der/State:kristalatjvu^Ohta N_EVEN "Christianity" ; ! no. 980
 kristáhttje:krist#áhttje N_EVEN "godfather" ; ! no. 4031
@@ -653,7 +654,7 @@ kådjå:kådjå N_EVEN "hut" ; ! no. 5229
 kåhppå:kåhppå N_EVEN "cup" ; ! no. 987
 kånnstå:kånnstå N_EVEN "art" ; ! no. 5972
 kårrjå:kårrjå N_EVEN "basket" ; ! no. 5236
-källi:kiel'li N_EVEN "man, old man" ; ! no. 4340
+källi:kä2l'li N_EVEN "man, old man" ; ! no. 4340
 ladnja:ladnja N_EVEN "room" ; ! no. 995
 ladnje:ladnje N_EVEN "birch twig" ; ! no. 996
 lahkke:lahkke N_EVEN "half" ; ! no. 4173
@@ -1037,6 +1038,7 @@ skuallká:sku^Ollká N_EVEN "piece of wood used to make firewood chips" ; ! no. 
 skuhppa:skuhppa N_EVEN "scraper (for scraping out the white inside bark of a fir tree)" ; ! no. 6583
 skuollá:sku^Ollá N_EVEN "sound, ring" ; ! no. 5210
 skurrke:skurrke N_EVEN "villain" ; ! no. 78
+skåvvlå+Use/NG:skuvvli N_EVEN "school" ; ! no. 91215
 skuvvre:skuvvre N_EVEN "bear’s frontal bone" ; ! no. 1650
 skuäjjve:sku^Ojjve N_EVEN "shape, form, phantom" ; ! no. 90612
 skåhppå:skåhppå N_EVEN "closet, cabinet" ; ! no. 1652
