@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-29T11:12:05+01:00
+! Timestamp: 2019-02-11T13:16:36+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -244,7 +244,7 @@ stuvvsit:stuvvsi V_CONTR "play around with one another" ; ! no. 1743
 stäbbnut:stä2bbnu V_CONTR "sue" ; ! no. 3493
 stäggit:stä2ggi V_CONTR "close, shut" ; ! no. 1750
 stämmpit:stä2mmpi V_CONTR "stomp" ; ! no. 4273
-stänit:stä2ni V_CONTR "stop, stay" ; ! no. 3292
+stänit:stä2ni V_CONTR "stop, stay, remain" ; ! no. 3292
 sjuhppit+Use/NG:suhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 90664
 sujdnit:sujdni V_CONTR "examine, inspect" ; ! no. 3262
 sujdnit:sujdni V_CONTR "harvest hay" ; ! no. 4799
@@ -281,10 +281,10 @@ uddnut:uddnu V_CONTR "indulge, not begrudge" ; ! no. 2020
 ullit:ulli V_CONTR "finish something" ; ! no. 3713
 urdnit:urdni V_CONTR "arrange" ; ! no. 2034
 vádtsát:vádtsá V_CONTR "head out, start going, begin walking" ; ! no. 90394
+verrtit:verrti V_CONTR "must, have to" ; ! no. 2111
 viddnit:viddni V_CONTR "win, be victorious" ; ! no. 2114
 vijjdit:vijjdi V_CONTR "take a long detour" ; ! no. 4550
 virrdut:virrdu V_CONTR "avoid being caught, get farther and farther away without being stopped (for reindeer)" ; ! no. 5943
-virrtit:virrti V_CONTR "must, have to" ; ! no. 2111
 vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
