@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-10T08:34:10+01:00
+! Timestamp: 2019-02-12T14:28:50+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -692,6 +692,7 @@ lierra:lierra N_EVEN "leather" ; ! no. 6565
 lihtte:lihtte N_EVEN "container, bowl" ; ! no. 1044
 lijdne:lijdne N_EVEN "scarf, cloth" ; ! no. 1047
 lijjge:lijjge N_EVEN "extra, reserve" ; ! no. 1048
+lijjva:lijjva N_EVEN "life" ; ! no. 91221
 limblánijjbe:limblá#nijjbe N_EVEN "butcher knife" ; ! no. 3031
 livva:livva N_EVEN "rest, break" ; ! no. 90602
 luakkta:lu^Okkta N_EVEN "bay" ; ! no. 2317
@@ -2347,6 +2348,7 @@ tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
 tjilik:tjilig2 N_ODD "baby goat, kid" ; ! no. 5216
 tjilumähtter:tjilu#mä2htter N_ODD "kilometer" ; ! no. 5217
+tjuruk+Use/NG:tjirug2 N_ODD "flesh fly" ; ! no. 91220
 tjuanntjom:tju^Onntjom N_ODD "upper marrowbone on the back leg of a reindeer" ; ! no. 3767
 tjujjvis:tjujjvis N_ODD "dark grey reindeer" ; ! no. 1931
 tjulgum:tjulgum N_ODD "side piece under the shaft of a Saami shoe" ; ! no. 1935
