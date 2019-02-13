@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-13T08:24:41+01:00
+! Timestamp: 2019-02-13T09:34:56+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -137,6 +137,7 @@ lubbit:lubbi V_CONTR "spread out once" ; ! no. 4165
 luddit:luddi V_CONTR "chop bone, wood" ; ! no. 1979
 luggit:luggi V_CONTR "pull on someone's hair" ; ! no. 4612
 luggŋit:luggŋi V_CONTR "lift, raise" ; ! no. 1060
+lupptit:luppti V_CONTR "lift, raise" ; ! no. 1073
 luvvit:luvvi V_CONTR "loosen a knot" ; ! no. 6049
 luvvsit:luvvsi V_CONTR "show the way, direct" ; ! no. 1078
 läddit:lä2ddi V_CONTR "charge (e.g. a battery)" ; ! no. 90711
@@ -1381,9 +1382,9 @@ lubbidit:lubbid V_ODD "spread out" ; ! no. 4962
 lunudit:lunud V_ODD "trade with one another" ; ! no. 1063
 luojmestit:lu^Ojmest V_ODD "lament, wail" ; ! no. 1067
 luojtatjit:lu^Ojtatj V_ODD "take a break from driving reindeer and remove their panniers" ; ! no. 4644
-luopdidit:lu^Opdid V_ODD "lift, rise into the sky" ; ! no. 6056
 luotkedit:lu^Otked V_ODD "untie a skein of yarn; have diarrhea" ; ! no. 6550
 luovvanit:lu^Ovvan V_ODD "loosen, untie" ; ! no. 6551
+luptidit:luptid V_ODD "lift, rise into the sky" ; ! no. 6056
 luvvadit:luvvad V_ODD "become wet" ; ! no. 2890
 luäjjtálit:lu^Ojjtál V_ODD "release, drop, let go (repeatedly)" ; ! no. 91102
 luäjjtelit:lu^Ojjtel V_ODD "release, drop, let go (quickly)" ; ! no. 91103
