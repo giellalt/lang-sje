@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-11T13:16:36+01:00
+! Timestamp: 2019-02-13T08:24:41+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -574,12 +574,12 @@ sviŋŋgájdallat:sviŋŋgájdall V_EVEN_A "move back and forth (for trees)" ; !
 svärrgat:svierrg V_EVEN_A "kick" ; ! no. 2953
 säkktat:siekkt V_EVEN_A "first snow on a frozen lake" ; ! no. 90746
 tjadnat:tjadn V_EVEN_A "tie tightly, attach tightly" ; ! no. 1855
+tjajbmat:tjajbm V_EVEN_A "laugh" ; ! no. 1862
 tjalbmat:tjalbm V_EVEN_A "sight something" ; ! no. 1869
 tjallat:tjall V_EVEN_A "rub and scrape antlers (for reindeer, moose)" ; ! no. 1874
 tjarrvat:tjarrv V_EVEN_A "when crust forms on snow" ; ! no. 1881
 tjábbrat:tjábbr V_EVEN_A "take in as much as possible" ; ! no. 1850
 tjágŋat:tjágŋ V_EVEN_A "get in, climb in" ; ! no. 1857
-tjájbmat:tjájbm V_EVEN_A "laugh" ; ! no. 1862
 tjállgat:tjállg V_EVEN_A "become stronger" ; ! no. 5661
 tjárrgat:tjárrg V_EVEN_A "fit, have space" ; ! no. 3684
 tjátjástallat:tjátjástall V_EVEN_A "point with a finger" ; ! no. 90675
@@ -1616,6 +1616,7 @@ sähkudit:sä2hkud V_ODD "saw" ; ! no. 1834
 säjjvelit:sä2jjvel V_ODD "point" ; ! no. 5370
 tjaradit+Use/NG:tjadad V_ODD "push trough" ; ! no. 90480
 tjadnalit:tjadnal V_ODD "tie quickly" ; ! no. 5182
+tjajmadit:tjajmad V_ODD "smile, laugh" ; ! no. 1865
 tjalgadit:tjalgad V_ODD "stomp through snow in spring (for reindeer)" ; ! no. 4539
 tjanadit:tjanad V_ODD "tie" ; ! no. 5303
 tjanastit:tjanast V_ODD "tie" ; ! no. 90359
@@ -1627,7 +1628,6 @@ tjádjánit:tjádján V_ODD "get lost" ; ! no. 1853
 tjágerdit:tjágerd V_ODD "tickle" ; ! no. 1856
 tjájedit:tjájed V_ODD "point at" ; ! no. 1863
 tjádjánit+Use/NG:tjájján V_ODD "get lost" ; ! no. 90446
-tjájmadit:tjájmad V_ODD "smile, laugh" ; ! no. 1865
 tjáledit:tjáled V_ODD "register, record, write down" ; ! no. 5190
 tjávkastit:tjávkast V_ODD "pull towards oneself quickly" ; ! no. 2764
 tjiegardit:tjiegard V_ODD "graze (for reindeer)" ; ! no. 3149
