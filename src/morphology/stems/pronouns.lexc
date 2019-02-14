@@ -80,6 +80,7 @@ LEXICON perspl   !!= * __@CODE@__
 
 LEXICON Demonstrative   !!= * __@CODE@__
 dat+Pron+Dem+Sg+Nom:dat # ;
+dat+Pron+Dem+Sg+Nom+Use/NG:dahta # ;
 dat+Pron+Dem+Sg+Acc:dav # ;
 dat+Pron+Dem+Sg+Gen:dan # ;
 dat+Pron+Dem+Sg+Ill:dasa # ;
@@ -99,6 +100,7 @@ dat+Pron+Dem+Pl+Ela:dajste # ;
 dat+Pron+Dem+Pl+Com:daj # ;
 
 dát+Pron+Dem+Sg+Nom:dát # ;
+dát+Pron+Dem+Sg+Nom+Use/NG:dáhta # ;
 dát+Pron+Dem+Sg+Acc:dáv # ;
 dát+Pron+Dem+Sg+Gen:dán # ;
 dát+Pron+Dem+Sg+Ill:dása # ;
@@ -118,6 +120,7 @@ dát+Pron+Dem+Pl+Ela:dájste # ;
 dát+Pron+Dem+Pl+Com:dáj # ;
 
 duot+Pron+Dem+Sg+Nom:duot # ;
+duot+Pron+Dem+Sg+Nom+Use/NG:duohta # ;
 duot+Pron+Dem+Sg+Acc:duov # ;
 duot+Pron+Dem+Sg+Gen:duon # ;
 duot+Pron+Dem+Sg+Ill:dusi # ;
