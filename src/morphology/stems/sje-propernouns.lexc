@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2018-12-12T11:32:44+02:00
+! Timestamp: 2019-02-15T11:07:16+01:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -32,7 +32,9 @@ LEXICON ProperNoun   !!= * __@CODE@__
 Riebnes:Riebbn N_CONTR_ESAA "Riebnes" ; ! no. 90944
 Aksamnjárrga:Aksam#njárrga N_EVEN "Vaksamnjárgga" ; ! no. 90893
 Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
+Áhkábákkte:Áhká#bákkte N_EVEN "Áhkábákkte" ; ! no. 91208
 Áhkávárre:Áhká#várre N_EVEN "Akkavare" ; ! no. 90952
+Ákksjotjålbme:Ákksjo#tjålbme N_EVEN "Ákksjotjålbme" ; ! no. 91209
 Ánna:Án'na N_EVEN "Anna" ; ! no. 91021
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
