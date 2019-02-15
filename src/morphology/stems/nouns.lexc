@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-13T08:25:25+01:00
+! Timestamp: 2019-02-15T08:37:13+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1401,8 +1401,8 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 årrjelsábme:årrjel#sábme N_EVEN "South Saami" ; ! no. 5046
 årromsadje:årrom#sadje N_EVEN "place of residence, dwelling" ; ! no. 3373
 årromsadje+Use/NG:årrom#sajje N_EVEN "place of residence, dwelling" ; ! no. 91158
-årråjagbäjjve:årrå#jag#biejjve N_EVEN "New Years Day" ; ! no. 5169
 årråjahke:årrå#jahke N_EVEN "new year" ; ! no. 5170
+årråjakbäjjve:årrå#jag#biejjve N_EVEN "New Years Day" ; ! no. 5169
 åsestimbuvvda:åsestim#buvvda N_EVEN "shop" ; ! no. 2723
 åses+N+Der/NomAg:åsestieddje N_EVEN "salesman" ; ! no. 2585
 åsse:åsse N_EVEN "part, share" ; ! no. 2269
@@ -2246,10 +2246,10 @@ rádjet+N+Der/NomAg:rádjej N_ODD "sender" ; ! no. 3176
 rádnatj:rádnatj N_ODD "friend" ; ! no. 90251
 rággas:rággas N_ODD "mosquito net for sleeping under" ; ! no. 2858
 rának:ránag2 N_ODD "reindeer cow which has a calf early in spring" ; ! no. 4613
+reknik:reknig2 N_ODD "invoice, bill" ; ! no. 4033
 riebak:riebag2 N_ODD "meat which was ruined by too much heat during smoking" ; ! no. 90301
 riehpen:riehpen N_ODD "opening for smoke in a kåta" ; ! no. 1405
 riejnár:riejnár N_ODD "reindeer herder" ; ! no. 3925
-rieknik:rieknig2 N_ODD "invoice, bill" ; ! no. 4033
 rieksak:rieksag2 N_ODD "willow ptarmigan" ; ! no. 1406
 rieksakhábak:rieksak#hábag2 N_ODD "pigeon hawk" ; ! no. 3018
 rijmek:rijmeg2 N_ODD "light brown (color of reindeer)" ; ! no. 3454
