@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-01-30T10:14:22+01:00
+! Timestamp: 2019-02-19T13:25:34+01:00
 
 !! !!!Pite Saami Adjectives
 
@@ -88,6 +88,7 @@ aktamielagatj:akta#mielagatj A_ELULATJ "of one opinion" ; ! no. 3989
 aktasatj:aktasatj A_ELULATJ "common, mutual" ; ! no. 39
 ássjálatj:ássjálatj A_ELULATJ "accessory, participating, involved" ; ! no. 3571
 bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
+därbulatj:dä2rbulatj A_ELULATJ "required, needed" ; ! no. 3242
 elulatj:elulatj A_ELULATJ "rich in reindeer" ; ! no. 3728
 fämulatj:fä2mulatj A_ELULATJ "strong, powerful" ; ! no. 3344
 färrtabäjjvásatj:färrta#bä2jjvásatj A_ELULATJ "daily" ; ! no. 3548

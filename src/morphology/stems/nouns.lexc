@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-19T09:36:17+01:00
+! Timestamp: 2019-02-19T13:15:55+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -297,6 +297,7 @@ dállveviega:dállve#viega N_EVEN "winter path" ; ! no. 2560
 dámakhärrge:dámak#hierrge N_EVEN "tame reindeer bull" ; ! no. 2844
 dánnsa:dánnsa N_EVEN "dance" ; ! no. 90888
 dárbas+N+Der/State:dárbasvu^Ohta N_EVEN "need, necessity" ; ! no. 90989
+dárogiella:dáro#giella N_EVEN "the Swedish/Norwegian language" ; ! no. 91225
 dássa:dás'sa N_EVEN "toilet" ; ! no. 842
 dávvda:dávvda N_EVEN "illness, sickness, disease" ; ! no. 344
 dávvle:dávvle N_EVEN "roll or ball of birch bark used as kindling" ; ! no. 2947
@@ -1440,6 +1441,7 @@ bärrjedak:bä2rrjedag2 N_EVEN4 "Friday" ; ! no. 284
 dahkamus:dahkamus N_EVEN4 "task" ; ! no. 3268
 duorastak:du^Orastag2 N_EVEN4 "Thursday" ; ! no. 401
 dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 4803
+därrulatj:dä2rrulatj N_EVEN4 "Swede or Norwegian" ; ! no. 91226
 gahpadak:gahpadag2 N_EVEN4 "woven ribbon with a alternating 'jumping' pattern" ; ! no. 6874
 gatjaldak:gatjaldag2 N_EVEN4 "question" ; ! no. 573
 gájolatj:gájolatj N_EVEN4 "Kven" ; ! no. 90546
