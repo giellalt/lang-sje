@@ -334,8 +334,8 @@ LEXICON A_ELULATJ ! elulatj/elulatj/elulatja/??elulatjap/??elulatjamus-a
 +A: A_ELULATJ_s2 ; 
 
 LEXICON A_ELULATJ_s2 
-+Sg+Nom:%> K ; 
-+Pl+Nom:%>a K ; 
++Sg+Nom: K ; 
+:a N_EVEN4_DEFAULT ; 
 +Comp:a A_ODD_COMP ;
 +Superl:a A_ODD_SUP ;
 
