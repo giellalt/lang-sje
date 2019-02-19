@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-17T17:18:07+01:00
+! Timestamp: 2019-02-19T09:36:17+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -165,6 +165,8 @@ bateridja:bateridja N_EVEN "battery" ; ! no. 3224
 bádne:bádne N_EVEN "tooth" ; ! no. 97
 bádnedálko+N+Der/NomAg:bádne#dálkodieddje N_EVEN "dentist" ; ! no. 4671
 báhkka:báhkka N_EVEN "warmth, heat" ; ! no. 107
+báhkogirrje+Use/NG:báhko#girdje N_EVEN "dictionary" ; ! no. 91223
+báhkogirrje:báhko#girrje N_EVEN "dictionary" ; ! no. 91222
 báhtaramsadje:báhtaram#sadje N_EVEN "refuge" ; ! no. 6081
 báhta+N+Der/NomAg:báhtarieddje N_EVEN "refugee, escapee" ; ! no. 6541
 bájjke:bájjke N_EVEN "area, place" ; ! no. 122
