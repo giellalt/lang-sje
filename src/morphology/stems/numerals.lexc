@@ -87,7 +87,7 @@ ORD7 ;
 !:av 10s ; !verify this
 
 LEXICON NUM10 ! num (10)
-+N+Sg+Gen:e # ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
++Num+Sg+Gen:e # ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
 +Num:ev^WG # ; 
 +Num: # ; !in compound numbers
 ORD10 ;
