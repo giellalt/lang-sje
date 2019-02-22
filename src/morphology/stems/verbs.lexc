@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-19T13:18:29+01:00
+! Timestamp: 2019-02-22T10:03:55+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -149,9 +149,9 @@ lättkit+Use/NG:lä2rrki V_CONTR "not fare well" ; ! no. 90500
 lässit:lä2ssi V_CONTR "lock" ; ! no. 4090
 lättkit:lä2ttki V_CONTR "not fare well" ; ! no. 4952
 lävvkit:lä2vvki V_CONTR "take a step" ; ! no. 1106
-mihttit:mihtti V_CONTR "measure" ; ! no. 2559
+mehttit:mehtti V_CONTR "measure" ; ! no. 2559
+merrkit:merrki V_CONTR "mark" ; ! no. 5518
 mijdnit:mijdni V_CONTR "mean" ; ! no. 1150
-mirrkit:mirrki V_CONTR "mark" ; ! no. 5518
 muddit:muddi V_CONTR "skin and butcher a reindeer" ; ! no. 1171
 mulit:muli V_CONTR "paint" ; ! no. 3646
 murrjit:murrji V_CONTR "pick berries" ; ! no. 4589
@@ -346,10 +346,10 @@ asstat:asst V_EVEN_A "have time" ; ! no. 80
 ánodallat:ánodall V_EVEN_A "request several times" ; ! no. 4662
 ássnat:ássn V_EVEN_A "wither, atrophy" ; ! no. 6502
 ávvat:ávv V_EVEN_A "release a reindeer herd" ; ! no. 2801
-badjelgähttjat:badjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 90882
+badjelgähttjat:badjel#giehttj V_EVEN_A "look down on, disrespect" ; ! no. 90882
 bagadallat:bagadall V_EVEN_A "chastise, admonish, warn" ; ! no. 3720
 bahástallat:bahástall V_EVEN_A "be against something" ; ! no. 4705
-badjelgähttjat+Use/NG:bajjel#giehttj V_EVEN_A "look down on someone, disrespect someone" ; ! no. 91227
+badjelgähttjat+Use/NG:bajjel#giehttj V_EVEN_A "look down on, disrespect" ; ! no. 91227
 ballat:ball V_EVEN_A "be scared" ; ! no. 90833
 barrgat:barrg V_EVEN_A "work, do a job" ; ! no. 144
 bassat:bass V_EVEN_A "wash" ; ! no. 149
