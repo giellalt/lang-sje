@@ -90,6 +90,7 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 
 !! Other tags
 +ABBR	   	  !!= * @CODE@ 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +Coll	   	  !!= * @CODE@ 
 +Cmp/SgNom 	  !!= * @CODE@ 
 +Det	   	  !!= * @CODE@ 
