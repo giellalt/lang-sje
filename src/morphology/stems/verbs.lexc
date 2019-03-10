@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-22T10:03:55+01:00
+! Timestamp: 2019-03-10T20:17:24+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -127,7 +127,6 @@ kämmpit:kä2mmpi V_CONTR "comb" ; ! no. 3345
 leggit:leggi V_CONTR "warm, heat up" ; ! no. 1028
 leggit:leggi V_CONTR "place, set, put" ; ! no. 91204
 lenit:leni V_CONTR "be worth it" ; ! no. 3698
-lijjgit:lijjgi V_CONTR "hire, employ" ; ! no. 3121
 lijjkit:lijjki V_CONTR "dump out, pour out" ; ! no. 3480
 lijjkut:lijjku V_CONTR "like" ; ! no. 1050
 lijjsit:lijjsi V_CONTR "be worth doing; succeed" ; ! no. 3697
@@ -145,6 +144,7 @@ lägit:lä2gi V_CONTR "fix, repair; place" ; ! no. 3494
 lähppit:lä2hppi V_CONTR "make cheese" ; ! no. 3029
 lähpput:lä2hppu V_CONTR "get lost" ; ! no. 1006
 läjjdit:lä2jjdi V_CONTR "lead, drive" ; ! no. 1100
+läjjgit:lä2jjgi V_CONTR "hire, employ" ; ! no. 3121
 lättkit+Use/NG:lä2rrki V_CONTR "not fare well" ; ! no. 90500
 lässit:lä2ssi V_CONTR "lock" ; ! no. 4090
 lättkit:lä2ttki V_CONTR "not fare well" ; ! no. 4952
@@ -1326,10 +1326,10 @@ janntedit:jannted V_ODD "be irritated, annoyed" ; ! no. 4510
 jáksadit:jáksad V_ODD "extinguish" ; ! no. 913
 jámedit:jámed V_ODD "kill" ; ! no. 90962
 jávestit:jávest V_ODD "cover" ; ! no. 3475
+jeridit:jerid V_ODD "clear up one's head, start thinking straight" ; ! no. 3950
 jienastit:jienast V_ODD "vote" ; ! no. 924
 jievsedit:jievsed V_ODD "become cold, have the shivers" ; ! no. 923
 jimmkudit:jimmkud V_ODD "shut one’s eyes" ; ! no. 925
-jiridit:jirid V_ODD "clear up one's head, start thinking straight" ; ! no. 3950
 jugádit:jugád V_ODD "let drink, give something to drink" ; ! no. 91030
 jugestit:jugest V_ODD "sip" ; ! no. 5620
 juksudit:juksud V_ODD "put on skis" ; ! no. 6132
