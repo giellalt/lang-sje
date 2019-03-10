@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-02-19T13:15:55+01:00
+! Timestamp: 2019-03-10T20:17:17+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -458,6 +458,7 @@ girraåsse:girra#åsse N_EVEN "meat stored for spring" ; ! no. 3836
 girrje:girrje N_EVEN "book" ; ! no. 639
 girrjebuvvda:girrje#buvvda N_EVEN "book store" ; ! no. 3363
 girrkogárrde:girrko#gárrde N_EVEN "cemetery" ; ! no. 2482
+girrkohärrá:girrko#hier'rá N_EVEN "pastor" ; ! no. 634
 gisstá:gisstá N_EVEN "gloves made of reindeer leather (leg leather)" ; ! no. 643
 gisstásuäjdne:gisstá#su^Ojdne N_EVEN "hay for gloves" ; ! no. 5268
 glassatjalbme:glassa#tjalbme N_EVEN "glasses, spectacles" ; ! no. 90630
@@ -570,7 +571,7 @@ hårrte:hårrte N_EVEN "large dog" ; ! no. 4930
 häffne:hieffne N_EVEN "spider" ; ! no. 860
 häjbma:hiejbma N_EVEN "home" ; ! no. 2315
 hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
-härra:hier'ra N_EVEN "pastor" ; ! no. 868
+härrá:hier'rá N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer buck, castrated reindeer buck" ; ! no. 870
 hässta:hiessta N_EVEN "horse" ; ! no. 4932
 häffne+Use/NG:hievdne N_EVEN "spider" ; ! no. 90418
@@ -579,7 +580,6 @@ idja:idja N_EVEN "night" ; ! no. 874
 idjaguässe:idja#gu^Os'se N_EVEN "overnight guest" ; ! no. 5172
 idjatjårrge:idja#tjårrge N_EVEN "midnight" ; ! no. 876
 iednamdajjva:iednam#dajjva N_EVEN "outdoor area" ; ! no. 4180
-iednamhärra:iednam#hier'ra N_EVEN "governor" ; ! no. 4181
 iehke:iehke N_EVEN "paternal uncle (older than father)" ; ! no. 878
 iehkedisbäjjve:iehkedis#biejjve N_EVEN "afternoon" ; ! no. 3965
 iehkedisidja:iehkedis#idja N_EVEN "late evening" ; ! no. 91007
@@ -587,6 +587,7 @@ iehkedisidja+Use/NG:iehkedis#ijja N_EVEN "late evening" ; ! no. 3744
 iehkedisnásste:iehkedis#násste N_EVEN "evening star" ; ! no. 2935
 ietjasvuohke:ietjas#vu^Ohke N_EVEN "distinctive" ; ! no. 4940
 ihttátjbäjjve:ihttátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
+ijaráppta:ija#ráppta N_EVEN "late evening" ; ! no. 3743
 idja+Use/NG:ijja N_EVEN "night" ; ! no. 90421
 inuijjta:inuijjta N_EVEN "Inuit" ; ! no. 4000
 irrge:irrge N_EVEN "fiancé, future husband" ; ! no. 3425
@@ -1844,6 +1845,7 @@ márrso:márrso N_EVEN_O "basket made of fibers" ; ! no. 5577
 misso:mis'so N_EVEN_O "whey" ; ! no. 3196
 mujjto:mujjto N_EVEN_O "memory" ; ! no. 1178
 muohto:mu^Ohto N_EVEN_O "face, cheek" ; ! no. 1185
+muorrasáhko:muorra#sáhko N_EVEN_O "circular wood saw" ; ! no. 1238
 murrko:murrko N_EVEN_O "fog" ; ! no. 1192
 mårbmesmánno:mårbmes#mánno N_EVEN_O "May" ; ! no. 2547
 mähttsebarrgo:mähttse#barrgo N_EVEN_O "forestry work" ; ! no. 4234
@@ -2151,8 +2153,8 @@ gåvvåbiras:gåvvå#biras N_ODD "picture frame" ; ! no. 777
 gälldim:gä2lldim N_ODD "castration" ; ! no. 5708
 hábak:hábag2 N_ODD "sparrow hawk" ; ! no. 798
 hednik:hednig2 N_ODD "heathen" ; ! no. 3289
+hevel:hevel N_ODD "plane (tool)" ; ! no. 841
 hiestak:hiestag2 N_ODD "shoe made of horse leather" ; ! no. 90237
-hijvel:hijvel N_ODD "plane (tool)" ; ! no. 841
 hilsik:hilsig2 N_ODD "greeting" ; ! no. 90238
 hujnik:hujnig2 N_ODD "someone who does not care, a passive person" ; ! no. 5845
 hähkkal:hä2hkkal N_ODD "board with nails in it for combing shoe hay" ; ! no. 862
