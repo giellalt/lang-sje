@@ -79,8 +79,8 @@ LEXICON N_EVEN_WK
 
 LEXICON N_EVEN_J
 +Pl+Gen:    K ;
-+Pl+Acc:d   K ;
-+Pl+Acc+Use/NG:t   K ;
++Pl+Acc:t   K ;
++Pl+Acc+Use/NG:d   K ;
 +Pl+Ine:n   K ;
 +Pl+Ela:st  K ; !norm
 +Pl+Ela+Use/NG:s  K ;
@@ -117,8 +117,8 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Ess:%>n K ;
 !+Abe:%>dak K ; ! XXX
 +Pl+Nom:%> K ;
-+Pl+Acc:%>jd K ;
-+Pl+Acc+Use/NG:%>jt K ;
++Pl+Acc:%>jt K ;
++Pl+Acc+Use/NG:%>jd K ;
 +Pl+Gen:%>j K ;
 +Pl+Ill:%>jda K ;
 +Pl+Ine:%>jn K ;
@@ -233,8 +233,8 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 
 +Abe:a%>htá K ;
 +Pl+Nom:a%> K ;
-+Pl+Acc:i2%>jd K ;
-+Pl+Acc+Use/NG:i2%>jt K ;
++Pl+Acc:i2%>jt K ;
++Pl+Acc+Use/NG:i2%>jd K ;
 +Pl+Gen:i2%>j K ;
 +Pl+Ill:i2%>jda K ;
 +Pl+Ine:i2%>jn K ;
@@ -254,8 +254,8 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Ess:u2%>n K ;
 +Abe:u%>htá K ;
 +Pl+Nom:u%> K ;
-+Pl+Acc:u2%>jd K ;
-+Pl+Acc+Use/NG:u2%>jt K ;
++Pl+Acc:u2%>jt K ;
++Pl+Acc+Use/NG:u2%>jd K ;
 +Pl+Gen:u2%>j K ;
 +Pl+Ill:u2%>jda K ;
 +Pl+Ine:u2%>jn K ;
@@ -294,8 +294,8 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Ess:u%>n K ;
 +N+Abe:u%>dak K ; ! XXX
 +N+Pl+Nom:u%> K ;
-+N+Pl+Acc:u%>jd K ;
-+N+Pl+Acc+Use/NG:u%>jt K ;
++N+Pl+Acc:u%>jt K ;
++N+Pl+Acc+Use/NG:u%>jd K ;
 +N+Pl+Gen:u%>j K ;
 +N+Pl+Ill:u%>jda K ;
 +N+Pl+Ine:u%>jn K ;
@@ -319,8 +319,8 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 !+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:á%>dak K ; ! XXX
 +N+Pl+Nom:á%> K ;
-+N+Pl+Acc:á%>jd K ;
-+N+Pl+Acc+Use/NG:á%>jt K ;
++N+Pl+Acc:á%>jt K ;
++N+Pl+Acc+Use/NG:á%>jd K ;
 +N+Pl+Gen:á%>j K ;
 +N+Pl+Ill:á%>jda K ;
 +N+Pl+Ine:á%>jn K ;
@@ -345,8 +345,8 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 !+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:á%>dak K ; ! XXX
 +N+Pl+Nom:á%> K ;
-+N+Pl+Acc:á%>jd K ;
-+N+Pl+Acc+Use/NG:á%>jt K ;
++N+Pl+Acc:á%>jt K ;
++N+Pl+Acc+Use/NG:á%>jd K ;
 +N+Pl+Gen:á%>j K ;
 +N+Pl+Ill:á%>jda K ;
 +N+Pl+Ine:á%>jn K ;
@@ -399,8 +399,8 @@ LEXICON N_EVEN_C !used by adjectives - don't delete yet:
 +Sg+Com:%>ojn   K ; !norm
 +Sg+Com+Use/NG:%>ojna  K ; !variant
 +Pl+Gen:%>oj    K ;
-+Pl+Acc:%>ojd   K ;
-+Pl+Acc+Use/NG:%>ojt   K ;
++Pl+Acc:%>ojt   K ;
++Pl+Acc+Use/NG:%>ojd   K ;
 +Pl+Ine:%>ojn   K ;
 +Pl+Ela:%>ojst  K ; !norm
 +Pl+Ela+Use/NG:%>ojs  K ;
@@ -419,8 +419,8 @@ LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete yet:
 +Sg+Com:i%>jn K ;
 +Ess:i%>n K ;
 +Pl+Nom:a K ;
-+Pl+Acc:i%>jd K ;
-+Pl+Acc+Use/NG:i%>jt K ;
++Pl+Acc:i%>jt K ;
++Pl+Acc+Use/NG:i%>jd K ;
 +Pl+Gen:i%>j K ;
 +Pl+Ill:i%>jda K ;
 +Pl+Ine:i%>jn K ;
@@ -439,8 +439,8 @@ LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete yet:
 +Sg+Com:ujn K ;
 +Ess:un K ;
 +Pl+Nom:u K ;
-+Pl+Acc:ujd K ;
-+Pl+Acc+Use/NG:ujt K ;
++Pl+Acc:ujt K ;
++Pl+Acc+Use/NG:ujd K ;
 +Pl+Gen:uj K ;
 +Pl+Ill:ujda K ;
 +Pl+Ine:ujn K ;
@@ -464,8 +464,8 @@ LEXICON MONOSYL_PROPER_N_S2
 +Sg+Com:ajn K ;
 +Ess:an K ;
 +Pl+Nom:a K ;
-+Pl+Acc:ajd K ;
-+Pl+Acc+Use/NG:ajt K ;
++Pl+Acc:ajt K ;
++Pl+Acc+Use/NG:ajd K ;
 +Pl+Gen:aj K ;
 +Pl+Ill:ajda K ;
 +Pl+Ine:ajn K ;
@@ -495,8 +495,8 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Sg+Com:jn K ;
 +Ess:an K ;
 +Pl+Nom: K ;
-+Pl+Acc:jd K ;
-+Pl+Acc+Use/NG:jt K ;
++Pl+Acc:jt K ;
++Pl+Acc+Use/NG:jd K ;
 +Pl+Gen:j K ;
 +Pl+Ill:jda K ;
 +Pl+Ine:jn K ;
