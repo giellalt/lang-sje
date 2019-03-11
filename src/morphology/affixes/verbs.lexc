@@ -72,6 +72,8 @@ LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Du3: 3DUPRT ;
 +Ind+Prt+Pl1:mä #;
 +Ind+Prt+Pl2:dä #;
++Ind+Prt+Pl1+Use/NG:me #;
++Ind+Prt+Pl2+Use/NG:de #;
 
 
 LEXICON V_EVEN_E_G3 !guäddet, däddet
@@ -141,6 +143,8 @@ LEXICON V_EVEN_A_WK
 +Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jmä #;
 +Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
 
 +Imprt+Sg2:%> #; 
 
@@ -190,6 +194,8 @@ LEXICON V_GILGIJ_FORMS !see above
 +Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jmä #;
 +Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
 
 
 
@@ -229,6 +235,8 @@ LEXICON V_EVEN_O_WK
 +Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jmä #;
 +Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
 
 +Imprt+Sg2:%> #; 
 
@@ -305,6 +313,8 @@ LEXICON V_EVEN_Å_WK
 +Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jmä #;
 +Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
 
 +Imprt+Sg2:%> #; 
 
@@ -350,11 +360,11 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prt+Sg1:i%>v #; 
 +V+Ind+Prt+Sg2:i%> #; 
 +V+Ind+Prt+Sg3:i%>j #;
-+V+Ind+Prt+Du1:i%>jmin #;
-+V+Ind+Prt+Du2:i%>jdin #;
++V+Ind+Prt+Du1:i%>jmen #;
++V+Ind+Prt+Du2:i%>jden #;
 +V+Ind+Prt+Du3:i%>jga #;
-+V+Ind+Prt+Pl1:i%>jmä #;
-+V+Ind+Prt+Pl2:i%>jdä #;
++V+Ind+Prt+Pl1:i%>jme #;
++V+Ind+Prt+Pl2:i%>jde #;
 +V+Ind+Prt+Pl3:i%>n #; 
 
 +V+Imprt+Sg2:e%> #; 
@@ -417,6 +427,8 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Du3:%>j 3DUPRT ;
 +V+Ind+Prt+Pl1:%>jmä #;
 +V+Ind+Prt+Pl2:%>jdä #;
++V+Ind+Prt+Pl1+Use/NG:%>jme #;
++V+Ind+Prt+Pl2+Use/NG:%>jde #;
 +V+Ind+Prt+Pl3:%>jin #; 
 
 +V+Imprt+Sg2:%> #; 
