@@ -67,11 +67,11 @@ LEXICON V_EVEN_E_WK
 
 LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Sg3: #;
-+Ind+Prt+Du1:men #;
-+Ind+Prt+Du2:den #;
++Ind+Prt+Du1:min #;
++Ind+Prt+Du2:din #;
 +Ind+Prt+Du3: 3DUPRT ;
-+Ind+Prt+Pl1:me #;
-+Ind+Prt+Pl2:de #;
++Ind+Prt+Pl1:mä #;
++Ind+Prt+Pl2:dä #;
 
 
 LEXICON V_EVEN_E_G3 !guäddet, däddet
@@ -136,11 +136,11 @@ LEXICON V_EVEN_A_WK
 +Ind+Prs+Sg1:%>v #;
 +Ind+Prs+Sg2:%> #;
 +Ind+Prt+Sg3:%>j #;
-+Ind+Prt+Du1:%>jmen #;
-+Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme #;
-+Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
 
 +Imprt+Sg2:%> #; 
 
@@ -185,11 +185,11 @@ LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
 
 LEXICON V_GILGIJ_FORMS !see above
 +Ind+Prt+Sg3:%>j #;
-+Ind+Prt+Du1:%>jmen #;
-+Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme #;
-+Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
 
 
 
@@ -224,11 +224,11 @@ LEXICON V_EVEN_O_WK
 +Ind+Prs+Sg1:%>v #;
 +Ind+Prs+Sg2:%> #;
 +Ind+Prt+Sg3:%>j #;
-+Ind+Prt+Du1:%>jmen #;
-+Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme #;
-+Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
 
 +Imprt+Sg2:%> #; 
 
@@ -300,11 +300,11 @@ LEXICON V_EVEN_Å_WK
 +Ind+Prs+Sg1:%>v #;
 +Ind+Prs+Sg2:%> #;
 +Ind+Prt+Sg3:%>j #;
-+Ind+Prt+Du1:%>jmen #;
-+Ind+Prt+Du2:%>jden #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme #;
-+Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
 
 +Imprt+Sg2:%> #; 
 
@@ -350,11 +350,11 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prt+Sg1:i%>v #; 
 +V+Ind+Prt+Sg2:i%> #; 
 +V+Ind+Prt+Sg3:i%>j #;
-+V+Ind+Prt+Du1:i%>jmen #;
-+V+Ind+Prt+Du2:i%>jden #;
++V+Ind+Prt+Du1:i%>jmin #;
++V+Ind+Prt+Du2:i%>jdin #;
 +V+Ind+Prt+Du3:i%>jga #;
-+V+Ind+Prt+Pl1:i%>jme #;
-+V+Ind+Prt+Pl2:i%>jde #;
++V+Ind+Prt+Pl1:i%>jmä #;
++V+Ind+Prt+Pl2:i%>jdä #;
 +V+Ind+Prt+Pl3:i%>n #; 
 
 +V+Imprt+Sg2:e%> #; 
@@ -415,8 +415,8 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Du1:%>jmin #;
 +V+Ind+Prt+Du2:%>jdin #;
 +V+Ind+Prt+Du3:%>j 3DUPRT ;
-+V+Ind+Prt+Pl1:%>jme #;
-+V+Ind+Prt+Pl2:%>jde #;
++V+Ind+Prt+Pl1:%>jmä #;
++V+Ind+Prt+Pl2:%>jdä #;
 +V+Ind+Prt+Pl3:%>jin #; 
 
 +V+Imprt+Sg2:%> #; 
