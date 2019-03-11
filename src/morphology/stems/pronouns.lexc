@@ -71,7 +71,9 @@ LEXICON perspl   !!= * __@CODE@__
 +Acc:ijav    # ;
 +Acc+Use/NG:ijáv     # ;
 +Gen:ijá     # ;
-+Ill:ijjij   # ;
++Ill:ijjaj   # ;
++Ill+Use/NG:ijjáj   # ;
++Ill+Use/NG:ijjij   # ;
 +Ine:ijan    # ;
 +Ela:ijast   # ;
 +Com:ijajn   # ;
