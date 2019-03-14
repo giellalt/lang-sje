@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-10T20:17:17+01:00
+! Timestamp: 2019-03-14T07:47:55+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -828,7 +828,7 @@ nijjbe:nijjbe N_EVEN "knife" ; ! no. 1267
 nijjbeskåvve:nijjbe#skåvve N_EVEN "knife pattern" ; ! no. 5691
 nisske:nisske N_EVEN "a reindeer's neck" ; ! no. 2847
 njabbrabässe:njabbra#bies'se N_EVEN "fine birch bark" ; ! no. 4447
-njalátájjge:njalát#ájjge N_EVEN "sap season" ; ! no. 4407
+njalatájjge:njalat#ájjge N_EVEN "spring bark harvesting season" ; ! no. 4407
 njalla:njalla N_EVEN "elevated shed supported by a thick post" ; ! no. 1278
 njavve:njavve N_EVEN "running water over bare rock" ; ! no. 2954
 njavvle:njavvle N_EVEN "slime (on stones or on fish)" ; ! no. 1283
