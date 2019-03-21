@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-14T07:47:55+01:00
+! Timestamp: 2019-03-21T07:43:45+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -1653,7 +1653,7 @@ sievvagádde:sievva#gádde N_EVEN_NOCG "seashore" ; ! no. 5114
 sjádde:sjádde N_EVEN_NOCG "hole dug in the snow because reindeer ate there" ; ! no. 4776
 sládjojägge:sládjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 90342
 sládjojägge+Use/NG:slájjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 91180
-släddo:slieddo N_EVEN_NOCG "puddle, mud puddle" ; ! no. 1671
+släddu:slieddu N_EVEN_NOCG "puddle, mud puddle" ; ! no. 1671
 stádtjo:stádtjo N_EVEN_NOCG "frying pan" ; ! no. 1727
 stággo:stággo N_EVEN_NOCG "pole, stick" ; ! no. 90827
 stänntjejägge:stänntje#jiegge N_EVEN_NOCG "wet bog" ; ! no. 3358
