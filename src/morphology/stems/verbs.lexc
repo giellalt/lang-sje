@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-22T08:15:34+01:00
+! Timestamp: 2019-03-22T13:57:56+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1160,6 +1160,7 @@ däddodit:dä2ddod V_ODD "emphasize" ; ! no. 3275
 dälkudit:dä2lkud V_ODD "cure, heal with medicine" ; ! no. 3393
 dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
 därrjedit:dä2rrjed V_ODD "curse, swear" ; ! no. 440
+därustit:dä2rust V_ODD "speak Swedish/Norwegian" ; ! no. 91232
 fádmastit:fádmast V_ODD "hug, embrace" ; ! no. 2410
 fággadit:fággad V_ODD "struggle, wrestle" ; ! no. 464
 fáhtadit:fáhtad V_ODD "capture, catch" ; ! no. 2651
@@ -1489,10 +1490,10 @@ riegádit:riegád V_ODD "be born" ; ! no. 1397
 riektodit:riektod V_ODD "correct" ; ! no. 5238
 riesjkedit:riesjked V_ODD "roar" ; ! no. 1402
 rietjodit:rietjod V_ODD "let scream" ; ! no. 5078
-rievkastit:rievkast V_ODD "smoke (a pipe or a cigarette)" ; ! no. 4363
 rijjdalit:rijjdal V_ODD "argue, squabble" ; ! no. 1410
 rijudit:rijud V_ODD "relive" ; ! no. 2751
 riksjaldit:riksjald V_ODD "move forward, attain or reach something" ; ! no. 5794
+rivkastit:rivkast V_ODD "smoke (a pipe or a cigarette)" ; ! no. 4363
 ruhttistit:ruhttist V_ODD "pull briefly" ; ! no. 3899
 ruodastit:ru^Odast V_ODD "tear up, tear open" ; ! no. 90302
 ruodjalit:ru^Odjal V_ODD "reprimand severely" ; ! no. 3928
@@ -1508,6 +1509,7 @@ ruvvgalit:ruvvgal V_ODD "head off (for reindeer)" ; ! no. 3005
 råhkålit:råhkål V_ODD "pray to god" ; ! no. 1455
 råsodit:råsod V_ODD "wake up repeatedly" ; ! no. 6115
 rähkkudit:rä2hkkud V_ODD "shave" ; ! no. 5065
+rähkustit:rä2hkust V_ODD "ice fishing using nets" ; ! no. 91231
 räjjdanit:rä2jjdan V_ODD "complete, finish" ; ! no. 2629
 rävvdadit:rä2vvdad V_ODD "change, alter" ; ! no. 1464
 sagerdit:sagerd V_ODD "dry, clean, erase" ; ! no. 1482
@@ -1515,6 +1517,7 @@ sagŋedit:sagŋed V_ODD "scratch" ; ! no. 1483
 sahkkedit:sahkked V_ODD "beget" ; ! no. 2735
 ságastit:ságast V_ODD "speak, hold a speech" ; ! no. 1480
 sáhkadit:sáhkad V_ODD "converse" ; ! no. 90166
+sámástit:sámást V_ODD "speak Saami" ; ! no. 91233
 sáŋardit:sáŋard V_ODD "regret" ; ! no. 1505
 sárdnedit:sárdned V_ODD "preach" ; ! no. 1508
 sáredit:sáred V_ODD "separate tendon thread" ; ! no. 1509
