@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-21T07:43:45+01:00
+! Timestamp: 2019-03-25T08:32:21+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -248,6 +248,7 @@ bållå:bållå N_EVEN "ball" ; ! no. 3365
 båmmpå:båmmpå N_EVEN "bomb" ; ! no. 3368
 bårre:bår're N_EVEN "float, ferry, raft" ; ! no. 251
 bårrgemiesse:bårrge#miesse N_EVEN "reindeer calf, fur becomes thicker and tighter" ; ! no. 253
+bårrgå:bårrgå N_EVEN "snow flurry" ; ! no. 4708
 båttkå+Use/NG:bårrkå N_EVEN "break, rest" ; ! no. 90575
 bårråmájjge:bårråm#ájjge N_EVEN "mealtime" ; ! no. 4712
 bårråmbuärrde:bårråm#bu^Orrde N_EVEN "dining table" ; ! no. 4713
@@ -917,6 +918,7 @@ ruhtse:ruhtse N_EVEN "trash, rubbish, garbage, waste" ; ! no. 3154
 rumma:rum'ma N_EVEN "room" ; ! no. 1421
 ruŋŋka:ruŋŋka N_EVEN "raven" ; ! no. 1428
 ruovdegárre:ruovde#gárre N_EVEN "iron bowl" ; ! no. 90933
+russjma:russjma N_EVEN "evening fog (rising above water in cool weather); night fog (rising above water in cool weather)" ; ! no. 91235
 russna:russna N_EVEN "cold smoke, vapor (on a lake/ocean)" ; ! no. 1440
 ruvvdna:ruvvdna N_EVEN "uneasy feeling" ; ! no. 4429
 ruäjjve:ru^Ojjve N_EVEN "cut of meat" ; ! no. 1446
@@ -1732,7 +1734,6 @@ birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
 bumullo:bumul'lo N_EVEN_O "cotton" ; ! no. 3370
 bårrgemánno:bårrge#mánno N_EVEN_O "August" ; ! no. 252
-bårrgo:bårrgo N_EVEN_O "snow flurry" ; ! no. 4708
 båssjo:bås'sjo N_EVEN_O "kitchen, cooking part of a Saami hut" ; ! no. 258
 båtsojbarrgo:båtsoj#barrgo N_EVEN_O "reindeer husbandry" ; ! no. 5544
 båtsojviesso:båtsoj#viesso N_EVEN_O "reindeer husbandry" ; ! no. 91164
@@ -2351,6 +2352,7 @@ tjiebot:tjiebod2 N_ODD "throat, neck" ; ! no. 1900
 tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and forehead" ; ! no. 2563
 tjiehtar:tjiehtar N_ODD "servant" ; ! no. 4377
 tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
+tjijjkar:tjijjkar N_ODD "binoculars" ; ! no. 91237
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
 tjilik:tjilig2 N_ODD "baby goat, kid" ; ! no. 5216
 tjilumähtter:tjilu#mä2htter N_ODD "kilometer" ; ! no. 5217

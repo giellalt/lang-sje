@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-22T13:57:56+01:00
+! Timestamp: 2019-03-25T08:31:47+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1406,6 +1406,7 @@ mastadit:mastad V_ODD "be mixed together" ; ! no. 4975
 máhtsastit:máhtsast V_ODD "fold, fold together" ; ! no. 1114
 májeldit:májeld V_ODD "become milder (for weather)" ; ! no. 3329
 málestit:málest V_ODD "boil, cook" ; ! no. 1125
+márfastit:márfast V_ODD "wander about and make a mess (about bears)" ; ! no. 91234
 miededit:mieded V_ODD "agree, concede" ; ! no. 1161
 miehtjedit:miehtjed V_ODD "put aside, put away" ; ! no. 2632
 mierostit:mierost V_ODD "judge, decide" ; ! no. 3229
@@ -1503,6 +1504,7 @@ ruojadit:ru^Ojad V_ODD "scream, cry" ; ! no. 90657
 ruojvedit:ru^Ojved V_ODD "carve up meat, butcher" ; ! no. 5973
 ruosjkedit:ru^Osjked V_ODD "roar, shout (for humans)" ; ! no. 5959
 rupsudit:rupsud V_ODD "turn red, redden" ; ! no. 3352
+rusjmastit:rusjmast V_ODD "rise (about mist over water); get misty (over water)" ; ! no. 91236
 russalit:russal V_ODD "speed up" ; ! no. 3903
 ruvrostit:ruvrost V_ODD "throw far away" ; ! no. 5400
 ruvvgalit:ruvvgal V_ODD "head off (for reindeer)" ; ! no. 3005
@@ -1642,6 +1644,7 @@ tjiektjadit:tjiektjad V_ODD "kick" ; ! no. 5641
 tjiektjastit:tjiektjast V_ODD "kick once" ; ! no. 1894
 tjielastit:tjielast V_ODD "jump once" ; ! no. 1904
 tjiergagit:tjiergag V_ODD "become numb, lose feeling" ; ! no. 3808
+tjijkardit:tjijkard V_ODD "see through binoculars" ; ! no. 91238
 tjuggistit:tjuggist V_ODD "poke a hole" ; ! no. 1927
 tjuhkkidit:tjuhkkid V_ODD "sit down" ; ! no. 1918
 tjuhkkistit:tjuhkkist V_ODD "collect quickly" ; ! no. 5321
