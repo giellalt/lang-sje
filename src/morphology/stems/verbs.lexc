@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-25T08:31:47+01:00
+! Timestamp: 2019-03-27T18:50:34+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -190,7 +190,7 @@ räjdnit:rä2jdni V_CONTR "clean" ; ! no. 1462
 rässjut:rä2ssju V_CONTR "begin raining" ; ! no. 90299
 rässkit:rä2sski V_CONTR "have the heart to, bring oneself to" ; ! no. 4791
 sejjgit:sejjgi V_CONTR "flatten out, iron out" ; ! no. 1527
-sillgit:sillgi V_CONTR "poison" ; ! no. 4249
+sellgit:sellgi V_CONTR "poison" ; ! no. 4249
 sirgŋit:sirgŋi V_CONTR "be just a little soft on the outside in the morning (for snow crust)" ; ! no. 3503
 sirrát:sirrá V_CONTR "separate, branch off" ; ! no. 91116
 sirrit:sirri V_CONTR "pick blueberries" ; ! no. 5990

@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-25T08:32:21+01:00
+! Timestamp: 2019-03-27T18:50:59+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2286,7 +2286,7 @@ siddar:siddar N_ODD "fine rain" ; ! no. 1534
 sidut:sidud2 N_ODD "desire, wish" ; ! no. 1536
 siessal:siessal N_ODD "paternal aunt’s niece or nephew" ; ! no. 3418
 sillbabednik:sillba#bednig2 N_ODD "silver coin, silver money" ; ! no. 90568
-sirkus:sirkus N_ODD "circus" ; ! no. 3526
+sirrkus:sirrkus N_ODD "circus" ; ! no. 3526
 sissmutj:sissmutj N_ODD "inner quarter meat of reindeer" ; ! no. 2521
 sivvun:sivvun N_ODD "smooth water (between rapids)" ; ! no. 1550
 sjaddok:sjaddog2 N_ODD "-grown" ; ! no. 91051
