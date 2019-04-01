@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-03-27T18:50:34+02:00
+! Timestamp: 2019-04-01T12:46:27+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1062,6 +1062,7 @@ bálkestit:bálkest V_ODD "throw" ; ! no. 2506
 báredit:báred V_ODD "kill a sick or injured animal" ; ! no. 140
 bárrgedit:bárrged V_ODD "braid" ; ! no. 145
 bátjastit:bátjast V_ODD "wound by shooting" ; ! no. 154
+beggudit:beggud V_ODD "air out, ventilate" ; ! no. 2715
 berkistit:berkist V_ODD "understand, perceive as" ; ! no. 3804
 bevkudit:bevkud V_ODD "chirp (for ptarmigan)" ; ! no. 3551
 biddjudit:biddjud V_ODD "come into existence" ; ! no. 2648
@@ -1071,7 +1072,6 @@ biejvudit:biejvud V_ODD "sun oneself" ; ! no. 2902
 bielkatjit:bielkatj V_ODD "argue a little bit" ; ! no. 4698
 bielostit:bielost V_ODD "defend verbally, go along with" ; ! no. 2434
 bievastit:bievast V_ODD "sweat" ; ! no. 2999
-biggodit:biggod V_ODD "air out, ventilate" ; ! no. 2715
 bihkaldit:bihkald V_ODD "risk, put in danger" ; ! no. 3685
 bijnedit:bijned V_ODD "torture" ; ! no. 181
 binnodit:binnod V_ODD "lessen the amount, quantity" ; ! no. 2447
