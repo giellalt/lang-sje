@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-01T12:46:27+02:00
+! Timestamp: 2019-04-03T10:46:08+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -229,10 +229,10 @@ snirrit:snirri V_CONTR "itch" ; ! no. 1696
 snujjtit:snujjti V_CONTR "blow one's nose" ; ! no. 1703
 snävvrut:snä2vvru V_CONTR "learn from mistakes" ; ! no. 4343
 speddjut:speddju V_CONTR "be destroyed" ; ! no. 1718
+spevvtjit:spevvtji V_CONTR "haunt" ; ! no. 4198
 spijjkit:spijjki V_CONTR "nail" ; ! no. 1722
 spillit:spilli V_CONTR "spill" ; ! no. 4276
 spirrit:spirri V_CONTR "disperse, scatter" ; ! no. 2413
-spivvtjit:spivvtji V_CONTR "haunt" ; ! no. 4198
 spädtjut:spä2dtju V_CONTR "slap, hit" ; ! no. 90259
 spärrkit:spä2rrki V_CONTR "ride a kick-sled" ; ! no. 1725
 spärrut:spä2rru V_CONTR "save" ; ! no. 2836
