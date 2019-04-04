@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-01T11:33:28+02:00
+! Timestamp: 2019-04-04T07:24:30+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1027,10 +1027,10 @@ skarrorájjge:skarro#rájjge N_EVEN "ventilation hole" ; ! no. 4907
 skáhtte:skáhtte N_EVEN "tax, valuable" ; ! no. 1614
 skájjde:skájjde N_EVEN "confluence of two rivers, point" ; ! no. 1615
 skájjte:skájjte N_EVEN "long-tailed jaeger" ; ! no. 4082
-skárrja:skárrja N_EVEN "scissors, also a reindeer earmark" ; ! no. 1618
-skárrjadåhppå:skárrja#dåhppå N_EVEN "scissor holder" ; ! no. 5126
-skárrjaldaggáppte:skárrjaldag#gáppte N_EVEN "Arjeplog-style Saami frock" ; ! no. 6763
-skárrjamärrka:skárrja#mierrka N_EVEN "'scissors' reindeer earmark" ; ! no. 6839
+skárrjá:skárrjá N_EVEN "scissors, also a reindeer earmark" ; ! no. 1618
+skárrjádåhppå:skárrjá#dåhppå N_EVEN "scissor holder" ; ! no. 5126
+skárrjáldaggáppte:skárrjáldag#gáppte N_EVEN "Arjeplog-style Saami frock" ; ! no. 6763
+skárrjámärrka:skárrjá#mierrka N_EVEN "'scissors' reindeer earmark" ; ! no. 6839
 skávve:skávve N_EVEN "pattern, model" ; ! no. 1620
 skávvle:skávvle N_EVEN "seagull" ; ! no. 1621
 skávvtjá:skávvtjá N_EVEN "beard" ; ! no. 1622
@@ -1481,7 +1481,7 @@ sagerdak:sagerdag2 N_EVEN4 "towel" ; ! no. 1481
 sávaldak:sávaldag2 N_EVEN4 "wish" ; ! no. 90313
 sillbagietsaldak:sillba#gietsaldag2 N_EVEN4 "silver belt" ; ! no. 1542
 sjierádak:sjierádag2 N_EVEN4 "clear skies, fog-less" ; ! no. 6116
-skárrjaldak:skárrjaldag2 N_EVEN4 "clipped cloth zig-zag in a Saami frock" ; ! no. 6762
+skárrjáldak:skárrjáldag2 N_EVEN4 "clipped cloth zig-zag in a Saami frock" ; ! no. 6762
 såbmelatj:såbmelatj N_EVEN4 "Finn" ; ! no. 1761
 sågastak:sågastag2 N_EVEN4 "dense birch forest" ; ! no. 6868
 sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
