@@ -12,8 +12,8 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
-! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-08T12:19:18+02:00
+! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+! Timestamp: 2019-04-08T15:45:35+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -59,7 +59,7 @@ vielmes:vielbm N_CONTR_ESAA "stretch of smooth water" ; ! no. 90388
 viepses:viepps N_CONTR_ESAA "wasp" ; ! no. 2768
 vuokses:vu^Okks N_CONTR_ESAA "cattle" ; ! no. 90308
 arrambåtsoj:arram#båhts N_CONTR_OJU "fat reindeer in good condition" ; ! no. 3893
-bibmusbåtsoj:bibmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
+bebbmusbåtsoj:bebbmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
 båtsoj:båhts N_CONTR_OJU "reindeer" ; ! no. 263
 guddoj:gudd N_CONTR_OJU "stump (on its side)" ; ! no. 675
 guolmoj:gu^Olbm N_CONTR_OJU "dusk" ; ! no. 699
@@ -725,7 +725,7 @@ lähppa:liehppa N_EVEN "shed, shack" ; ! no. 3193
 lähttse:liehttse N_EVEN "willow bark" ; ! no. 6759
 läjjbe:liejjbe N_EVEN "alder" ; ! no. 1101
 läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
-läjjdeshärrge:läjjdes#hierrge N_EVEN "lead reindeer" ; ! no. 2941
+läjjdishärrge:läjjdis#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
 lävvka:lievvka N_EVEN "silty moist clay, expansive clay" ; ! no. 1105
 maddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
