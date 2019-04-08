@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-08T14:00:04+02:00
+! Timestamp: 2019-04-08T15:45:07+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -46,8 +46,8 @@ gallgat:gilgi V_GILGIJ "shall" ; ! no. 522
 adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
 analyserit:analyseri V_CONTR "analyze" ; ! no. 90871
 ballát:bal'lá V_CONTR "become scared" ; ! no. 131
+beddit:beddi V_CONTR "make a bed" ; ! no. 1007
 berrgit:berrgi V_CONTR "manage, make do" ; ! no. 164
-biddit:biddi V_CONTR "make a bed" ; ! no. 1007
 bidtjit:bidtji V_CONTR "build" ; ! no. 4638
 birrut:birru V_CONTR "ought" ; ! no. 5904
 blänndit:blä2nndi V_CONTR "mix, blend" ; ! no. 4252
@@ -290,7 +290,6 @@ vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
 vurrkit:vurrki V_CONTR "hide, store" ; ! no. 2837
-vuäjjvit:vu^Ojjvi V_CONTR "join at shoe seam" ; ! no. 5643
 vähttjit:vä2httji V_CONTR "drive around" ; ! no. 2219
 välldut:vä2lldu V_CONTR "get married" ; ! no. 2222
 välljit:vä2llji V_CONTR "choose, select" ; ! no. 3288
@@ -622,7 +621,7 @@ vierrodallat:vierrodall V_EVEN_A "sacrifice" ; ! no. 90672
 villat:vil'l V_EVEN_A "go too far" ; ! no. 90572
 villudallat:villudall V_EVEN_A "rest a little bit" ; ! no. 3024
 vuajjdat:vu^Ojjd V_EVEN_A "grease" ; ! no. 2501
-vuassjat:vu^Ossj V_EVEN_A "make coffee" ; ! no. 2144
+vuassjat:vu^Os'sj V_EVEN_A "make coffee" ; ! no. 2144
 vuodjat:vu^Odj V_EVEN_A "swim" ; ! no. 2153
 vuollat:vu^Oll V_EVEN_A "carve" ; ! no. 2179
 vuosádallat:vuosádall V_EVEN_A "show off, display" ; ! no. 2194
@@ -745,19 +744,19 @@ mårret:mårr V_EVEN_E "thrive, be comfortable" ; ! no. 1217
 navvet:navv V_EVEN_E "remove hair (from reindeer hide)" ; ! no. 1253
 návvlet:návvl V_EVEN_E "nail" ; ! no. 4287
 nihttet:nihtt V_EVEN_E "threaten, warn" ; ! no. 1266
-njiejjdet:njiejjd V_EVEN_E "bend, fell, knock over" ; ! no. 3517
 njuvvdet:njuvvd V_EVEN_E "knead, press" ; ! no. 1309
 njuäjjdet:nju^Ojjd V_EVEN_E "defeat, destroy" ; ! no. 1316
 njållogåhtet:njållogåht V_EVEN_E "begin to calf" ; ! no. 4590
 njäddvet:njieddv V_EVEN_E "spread butter on bread" ; ! no. 5008
+njäjjdet:njiejjd V_EVEN_E "bend, fell, knock over" ; ! no. 3517
 njäddvet+Use/NG:njä2rrv V_EVEN_E "spread butter on bread" ; ! no. 90503
 nässket:niessk V_EVEN_E "skin off leg or other hide" ; ! no. 2965
 ráfeduhttet:ráfeduhtt V_EVEN_E "disturb" ; ! no. 5514
 ráttket:ráttk V_EVEN_E "divide up reindeer" ; ! no. 1391
 riegádahttet:riegádahtt V_EVEN_E "give birth to" ; ! no. 1396
-riekknegåhtet:riekknegåht V_EVEN_E "begin counting" ; ! no. 4402
 rievedasstet:rievedasst V_EVEN_E "pull towards oneself quickly" ; ! no. 5076
 rijjdet:rijjd V_EVEN_E "argue, quarrel" ; ! no. 1411
+räkknegåhtet:räkknegåht V_EVEN_E "begin counting" ; ! no. 4402
 sadjet:sadj V_EVEN_E "sharpen (axes, knives, other tools)" ; ! no. 1473
 savvet:savv V_EVEN_E "heal, get better" ; ! no. 1520
 sáhttet:sáhtt V_EVEN_E "be able to" ; ! no. 5934
@@ -802,6 +801,7 @@ vuodjet+Use/NG:vu^Ojj V_EVEN_E "drive" ; ! no. 90945
 vuäbbdet:vu^Obbd V_EVEN_E "sell" ; ! no. 2202
 vuähttet:vu^Ohtt V_EVEN_E "discover a track or trace" ; ! no. 5461
 vuäjdnet:vu^Ojdn V_EVEN_E "see, look" ; ! no. 2207
+vuäjjvet:vu^Ojjv V_EVEN_E "join at shoe seam" ; ! no. 5643
 vuäkkset:vu^Okks V_EVEN_E "vomit, puke" ; ! no. 2209
 vuällget:vu^Ollg V_EVEN_E "drive, travel, go" ; ! no. 2211
 vuärrdet:vu^Orrd V_EVEN_E "wait" ; ! no. 2591
@@ -1368,7 +1368,6 @@ láhpedit:láhped V_ODD "lose, drop" ; ! no. 6077
 láttkanit+Use/NG:lárrkan V_ODD "hit oneself" ; ! no. 90428
 láttkanit:láttkan V_ODD "be killed, become unconscious" ; ! no. 994
 liegastit:liegast V_ODD "relax, rest" ; ! no. 1037
-lieggadit:lieggad V_ODD "thaw, thaw out" ; ! no. 1112
 liejsagit:liejsag V_ODD "tire of" ; ! no. 4018
 liemgedit:liemged V_ODD "become milder (for weather)" ; ! no. 1038
 lieradit:lierad V_ODD "teach" ; ! no. 1039
@@ -1378,6 +1377,7 @@ lihtudit:lihtud V_ODD "agree to meet" ; ! no. 1046
 liksagit:liksag V_ODD "become rancid, go bad" ; ! no. 4507
 livudit:livud V_ODD "lay down and rest (for ruminant animals)" ; ! no. 90937
 livvadit:livvad V_ODD "lay and relax (for ruminant animals)" ; ! no. 3003
+luajjtálit:lu^Ojjtál V_ODD "release, drop, let go (repeatedly)" ; ! no. 91102
 luattkalit+Use/NG:lu^Orrkal V_ODD "tear up yarn" ; ! no. 90429
 luattkalit:lu^Ottkal V_ODD "tear up yarn" ; ! no. 1058
 lubbidit:lubbid V_ODD "spread out" ; ! no. 4962
@@ -1388,12 +1388,12 @@ luotkedit:lu^Otked V_ODD "untie a skein of yarn; have diarrhea" ; ! no. 6550
 luovvanit:lu^Ovvan V_ODD "loosen, untie" ; ! no. 6551
 luptidit:luptid V_ODD "lift, rise into the sky" ; ! no. 6056
 luvvadit:luvvad V_ODD "become wet" ; ! no. 2890
-luäjjtálit:lu^Ojjtál V_ODD "release, drop, let go (repeatedly)" ; ! no. 91102
 luäjjtelit:lu^Ojjtel V_ODD "release, drop, let go (quickly)" ; ! no. 91103
 lågŋånit:lågŋån V_ODD "lift, rise up" ; ! no. 3946
 lågådit:lågåd V_ODD "have someone read" ; ! no. 90651
 låhpedit:låhped V_ODD "promise, pledge" ; ! no. 911
 lånestit:lånest V_ODD "redeem, save" ; ! no. 4134
+läggadit:lä2ggad V_ODD "thaw, thaw out" ; ! no. 1112
 lägganit:lä2ggan V_ODD "become warm" ; ! no. 3734
 lägidit:lä2gid V_ODD "have something repaired" ; ! no. 3495
 läjjdestit:lä2jjdest V_ODD "go first with a lead reindeer" ; ! no. 4959
@@ -1423,6 +1423,7 @@ muonadit:mu^Onad V_ODD "guess repeatedly" ; ! no. 1169
 murijdit:murijd V_ODD "thrive, feel good" ; ! no. 2428
 muvvkasit:muvvkas V_ODD "soften, make softer" ; ! no. 91149
 mådtsåstit:mådtsåst V_ODD "turn inside out" ; ! no. 1197
+mådårdit:mådård V_ODD "chatter" ; ! no. 91242
 måjedit:måjed V_ODD "smile" ; ! no. 1200
 måjvárit:måjvár V_ODD "feel ill" ; ! no. 4357
 målkostit:målkost V_ODD "stop in to visit, go out of one’s way to visit someone" ; ! no. 4345
@@ -1656,7 +1657,7 @@ tjuojadit:tju^Ojad V_ODD "call, ring" ; ! no. 4769
 tjuojgadit:tju^Ojgad V_ODD "follow on skis" ; ! no. 5333
 tjuojgajit:tju^Ojgaj V_ODD "ski quickly and briefly" ; ! no. 90960
 tjuolastit:tju^Olast V_ODD "cut off" ; ! no. 6819
-tjuolldastit:tju^Olldast V_ODD "shape homemade shoes by using a stick to stretch the material" ; ! no. 5334
+tjuoldastit:tju^Oldast V_ODD "shape homemade shoes by using a stick to stretch the material, stretch out" ; ! no. 5334
 tjuorbmastit:tju^Orbmast V_ODD "snow graupel" ; ! no. 90366
 tjuorvodit:tju^Orvod V_ODD "call out for someone" ; ! no. 5336
 tjurgudit:tjurgud V_ODD "turn grey (for hair and fur)" ; ! no. 1937
