@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-03T10:46:08+02:00
+! Timestamp: 2019-04-08T10:29:14+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -917,7 +917,7 @@ råssot:råss V_EVEN_O "wake someone up" ; ! no. 1460
 sárrgot:sárrg V_EVEN_O "draw, sketch" ; ! no. 1513
 sárrjot:sárrj V_EVEN_O "hurt" ; ! no. 1511
 sillot:sill V_EVEN_O "become tired" ; ! no. 6530
-sjavdnjot:sjadnj V_EVEN_O "shake, dust off (several times)" ; ! no. 1561
+sjavdnjot:sjavdnj V_EVEN_O "shake, dust off (several times)" ; ! no. 1561
 sjkilltjot:sjkilltj V_EVEN_O "form a layer of ice" ; ! no. 1574
 sjkäbbtjot:sjkiebbtj V_EVEN_O "be ill, be sick" ; ! no. 1636
 sjlábbtjot:sjlábbtj V_EVEN_O "flap, wave (in wind)" ; ! no. 2399
