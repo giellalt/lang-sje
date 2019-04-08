@@ -12,8 +12,8 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
-! This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-08T10:29:14+02:00
+! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+! Timestamp: 2019-04-08T13:25:32+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1063,12 +1063,11 @@ báredit:báred V_ODD "kill a sick or injured animal" ; ! no. 140
 bárrgedit:bárrged V_ODD "braid" ; ! no. 145
 bátjastit:bátjast V_ODD "wound by shooting" ; ! no. 154
 beggudit:beggud V_ODD "air out, ventilate" ; ! no. 2715
+bejvudit:biejvud V_ODD "sun oneself" ; ! no. 2902
 berkistit:berkist V_ODD "understand, perceive as" ; ! no. 3804
 bevkudit:bevkud V_ODD "chirp (for ptarmigan)" ; ! no. 3551
 biddjudit:biddjud V_ODD "come into existence" ; ! no. 2648
 bidjudit:bidjud V_ODD "settle" ; ! no. 3390
-bieggodit:bieggod V_ODD "name, reveal" ; ! no. 157
-biejvudit:biejvud V_ODD "sun oneself" ; ! no. 2902
 bielkatjit:bielkatj V_ODD "argue a little bit" ; ! no. 4698
 bielostit:bielost V_ODD "defend verbally, go along with" ; ! no. 2434
 bievastit:bievast V_ODD "sweat" ; ! no. 2999
@@ -1103,6 +1102,7 @@ bårjåstit:bårjåst V_ODD "sail" ; ! no. 249
 båskådit:båskåd V_ODD "sting, stab" ; ! no. 3300
 båtjestit:båtjest V_ODD "wring out water or liquid" ; ! no. 262
 båttkånit:båttkån V_ODD "break, tear (ex. string)" ; ! no. 3409
+bäggodit:bä2ggod V_ODD "name, reveal" ; ! no. 157
 bähturit:bä2htur V_ODD "run, hide, escape" ; ! no. 6220
 bässkedit:bä2ssked V_ODD "cut (with scissors)" ; ! no. 286
 dabbrahit:dabbrah V_ODD "catch, capture" ; ! no. 293
