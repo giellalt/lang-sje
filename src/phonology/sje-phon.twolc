@@ -104,10 +104,11 @@ Definitions
         r ':0 r |
         s ':0 s |
         v ':0 v |
+        s ':0 s j |
 
         b b [d|j|l|m|n|r] |
         b d n |
-        d d [g|j|m|n] |
+        d d [g|j|m|n|v] |
         f f [t|n] |
         g g d |
         g g ŋ |
@@ -123,10 +124,10 @@ Definitions
         m m [b|g|p|s] |
         n n [d|t] |
         ŋ ŋ [g|k|n] |
-        p p [s|t] |
+        p p [k|s|t] |
         r r [b|d|f|g|j|k|s|t|v] |
         r d j |
-        s s [k|m|n|p|t] |
+        s s [k|m|n|ŋ|p|t] |
         t t k |
         v v [d|g|j|k|l|r|s] |
         v d n ] ;
