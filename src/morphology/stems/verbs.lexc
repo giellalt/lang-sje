@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-08T13:25:32+02:00
+! Timestamp: 2019-04-08T14:00:04+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1063,7 +1063,7 @@ báredit:báred V_ODD "kill a sick or injured animal" ; ! no. 140
 bárrgedit:bárrged V_ODD "braid" ; ! no. 145
 bátjastit:bátjast V_ODD "wound by shooting" ; ! no. 154
 beggudit:beggud V_ODD "air out, ventilate" ; ! no. 2715
-bejvudit:biejvud V_ODD "sun oneself" ; ! no. 2902
+bejvudit:bejvud V_ODD "sun oneself" ; ! no. 2902
 berkistit:berkist V_ODD "understand, perceive as" ; ! no. 3804
 bevkudit:bevkud V_ODD "chirp (for ptarmigan)" ; ! no. 3551
 biddjudit:biddjud V_ODD "come into existence" ; ! no. 2648
@@ -1210,7 +1210,6 @@ gávnadit:gávnad V_ODD "meet" ; ! no. 581
 gávodit:gávod V_ODD "turn a boat on an even keel" ; ! no. 3497
 gerjudit:gerjud V_ODD "wag" ; ! no. 4817
 giegadit:giegad V_ODD "intend" ; ! no. 606
-giehpebut:giehpeb V_ODD "make easier, simplify" ; ! no. 4821
 giehpedit:giehped V_ODD "make easier" ; ! no. 2385
 giehtjadit:giehtjad V_ODD "contemplate" ; ! no. 3261
 giehtjastit:giehtjast V_ODD "look briefly" ; ! no. 4397
@@ -1714,7 +1713,6 @@ viegadit:viegad V_ODD "run briefly" ; ! no. 5444
 viehkalit:viehkal V_ODD "run off, run away" ; ! no. 5699
 viehkedit:viehked V_ODD "help" ; ! no. 2116
 vieksaldit:vieksald V_ODD "exchange (eg. money)" ; ! no. 4607
-vierábut:vieráb V_ODD "become worse, worsen" ; ! no. 5490
 vierránit:vierrán V_ODD "worsen" ; ! no. 3286
 vierrodit:vierrod V_ODD "sacrifice" ; ! no. 2110
 viertostit:viertost V_ODD "clear up (for weather)" ; ! no. 5451
@@ -1776,3 +1774,5 @@ duabbalit:du^Obbal V_ODD_UA "pull towards oneself quickly" ; ! no. 3472
 luaddanit:lu^Oddan V_ODD_UA "crack, split" ; ! no. 3410
 tjuadtjadit:tju^Odtjad V_ODD_UA "remain standing" ; ! no. 5338
 tjuädtjelit:tju^Odtjel V_ODD_UA "get up, stand up" ; ! no. 4647
+giehpebut:giehpeb V_ODD_UT "make easier, simplify" ; ! no. 4821
+vierábut:vieráb V_ODD_UT "become worse, worsen" ; ! no. 5490
