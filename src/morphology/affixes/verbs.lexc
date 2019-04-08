@@ -386,6 +386,44 @@ LEXICON V_ODD_UA ! luaddanit (not luoddanit! class for ua/uä + noCG CCenter)
 :^UAUML V_ODD ;
 
 
+LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes should be checked!
++V+Ind+Prs+Sg1:u%>v #;
++V+Ind+Prs+Sg2:u%> #;
++V+Ind+Prs+Sg3:u%> #;
++V+Ind+Prs+Sg3+Use/NG:%> #;
++V+Ind+Prs+Du1:i%>n #; 
++V+Ind+Prs+Du2:ä%>hppen #;
++V+Ind+Prs+Du3:e%>ba #;
++V+Ind+Prs+Pl1:i%>p #;
++V+Ind+Prs+Pl2:i%>hppit #;
++V+Ind+Prs+Pl3:i%> #; 
+
++V+Ind+Prt+Sg1:i%>v #; 
++V+Ind+Prt+Sg2:i%> #; 
++V+Ind+Prt+Sg3:i%>j #;
++V+Ind+Prt+Du1:i%>jmen #;
++V+Ind+Prt+Du2:i%>jden #;
++V+Ind+Prt+Du3:i%>jga #;
++V+Ind+Prt+Pl1:i%>jme #;
++V+Ind+Prt+Pl2:i%>jde #;
++V+Ind+Prt+Pl3:i%>n #; 
+
++V+Imprt+Sg2:e%> #; 
++V+Imprt+Du2:e%>hten # ; 
++V+Imprt+Pl2:i%>httit #;
+
++V+Inf:u%>t # ; 
++V+GerII:e%>min # ;
++V+PrfPrc:u%>m # ;
++V+ConNeg:e%> # ; 
++V+PrsPrc:ä%>ddje # ; 
+!+V+Vsubst:a%>m #; 
+!+V+GerI:a%>din # ;  
+!+V+Sup:a%>tjit # ;
+!+V+Vgen:e%> #;  
+
+
+
 !V_ODD POT forms -- check!
 +V+Pot:a%>tj V_ODD_POT ;
 
