@@ -31,17 +31,19 @@ LEXICON SYMBOL_NO_suff
  +Sg+Nom: # ;
 
 LEXICON SYMBOL_suff
- +Sg+Gen:n       # ;
- +Sg+Acc:m       # ;
- +Sg+Ill:se      # ;
- +Sg+Ine:sne     # ;
- +Sg+Ela:ste     # ;
- +Sg+Com:ine     # ;
-    +Ess:ine     # ;
- +Pl+Nom:h       # ;
- +Pl+Gen:ij      # ;
- +Pl+Acc:ide     # ;
- +Pl+Ill:ide     # ;
- +Pl+Ine:ine     # ;
- +Pl+Ela:jste    # ;
- +Pl+Com:jgujmie # ;
+ +Sg+Gen:       # ;
+ +Sg+Acc:v       # ;
+ +Sg+Ill:j      # ;
+ +Sg+Ine:n     # ;
+ +Sg+Ela:st     # ;
+ +Sg+Ela+Use/NG:s     # ;
+ +Sg+Com:jna     # ;
+ +Sg+Com+Use/NG:jn     # ;
+    +Ess:n     # ;
+ +Pl+Nom:       # ;
+ +Pl+Gen:j      # ;
+ +Pl+Acc:jd     # ;
+ +Pl+Ill:jda     # ;
+ +Pl+Ine:jn     # ;
+ +Pl+Ela:jst    # ;
+ +Pl+Com:j # ;
