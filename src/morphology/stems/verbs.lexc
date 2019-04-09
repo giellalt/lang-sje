@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-08T15:45:07+02:00
+! Timestamp: 2019-04-09T16:19:19+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1705,6 +1705,7 @@ vádtsedit:vádtsed V_ODD "teach a child to walk" ; ! no. 5435
 vágodit:vágod V_ODD "admonish, warn" ; ! no. 2051
 vájaldit:vájald V_ODD "stroll" ; ! no. 2059
 vájbadit:vájbad V_ODD "tire out" ; ! no. 5358
+válgostit:válgost V_ODD "set out a string of fishing nets" ; ! no. 91244
 várodit:várod V_ODD "warn" ; ! no. 2083
 várrdahit:várrdah V_ODD "watch, keep watch" ; ! no. 2082
 várrjalit:várrjal V_ODD "protect, defend" ; ! no. 2090
