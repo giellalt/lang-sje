@@ -19,7 +19,7 @@ Tests:
     biena+N+Sg+Com: biednagijn
     biena+N+Pl+Nom: biednaga
     biena+N+Pl+Gen: biednagij
-    biena+N+Pl+Acc: biednagijd
+    biena+N+Pl+Acc: biednagijt
     biena+N+Pl+Ill: biednagijda
     biena+N+Pl+Ine: biednagijn
     biena+N+Pl+Ela: [biednagijst, biednagijs]
@@ -37,7 +37,7 @@ Tests:
     biena+N+Der/Dimin+N+Sg+Com: biednagatjijn
     biena+N+Der/Dimin+N+Pl+Nom: biednagatja
     biena+N+Der/Dimin+N+Pl+Gen: biednagatjij
-    biena+N+Der/Dimin+N+Pl+Acc: biednagatjijd
+    biena+N+Der/Dimin+N+Pl+Acc: biednagatjijt
     biena+N+Der/Dimin+N+Pl+Ill: biednagatjijda
     biena+N+Der/Dimin+N+Pl+Ine: biednagatjijn
     biena+N+Der/Dimin+N+Pl+Ela: [biednagatjijst, biednagatjijs]

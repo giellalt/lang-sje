@@ -20,7 +20,7 @@ Tests:
     suolo+N+Sg+Com: sullujn
     suolo+N+Pl+Nom: sullu
     suolo+N+Pl+Gen: sulluj
-    suolo+N+Pl+Acc: sullujd
+    suolo+N+Pl+Acc: sullujt
     suolo+N+Pl+Ill: sullujda
     suolo+N+Pl+Ine: sullujn
     suolo+N+Pl+Ela: [sullujst, sullujs]
@@ -40,7 +40,7 @@ Tests:
 #    suoloj+N+Sg+Com: sullujn
 #    suoloj+N+Pl+Nom: sullu
 #    suoloj+N+Pl+Gen: sulluj
-#    suoloj+N+Pl+Acc: sullujd
+#    suoloj+N+Pl+Acc: sullujt
 #    suoloj+N+Pl+Ill: sullujda
 #    suoloj+N+Pl+Ine: sullujn
 #    suoloj+N+Pl+Ela: sullujst
