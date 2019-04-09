@@ -32,4 +32,5 @@
 # they may indicate sentence boundaries.
 #
 #
-åvtohke	åvtehke
+bena	biena
+
