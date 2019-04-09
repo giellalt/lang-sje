@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: 2019-04-08T15:45:35+02:00
+! Timestamp: 2019-04-09T13:31:22+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -60,7 +60,7 @@ viepses:viepps N_CONTR_ESAA "wasp" ; ! no. 2768
 vuokses:vu^Okks N_CONTR_ESAA "cattle" ; ! no. 90308
 arrambåtsoj:arram#båhts N_CONTR_OJU "fat reindeer in good condition" ; ! no. 3893
 bebbmusbåtsoj:bebbmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
-båtsoj:båhts N_CONTR_OJU "reindeer" ; ! no. 263
+båtsoj+CmpN/SgN+CmpN/SgG:båhts N_CONTR_OJU "reindeer" ; ! no. 263
 guddoj:gudd N_CONTR_OJU "stump (on its side)" ; ! no. 675
 guolmoj:gu^Olbm N_CONTR_OJU "dusk" ; ! no. 699
 gåggoj:gågg N_CONTR_OJU "larynx" ; ! no. 2846
@@ -501,7 +501,7 @@ gurrte:gurrte N_EVEN "red-throated loon" ; ! no. 713
 gurrtsa:gurrtsa N_EVEN "stray reindeer, small reindeer buck" ; ! no. 4865
 gurrva:gurrva N_EVEN "sausage" ; ! no. 3630
 gurrvalihtte:gurrva#lihtte N_EVEN "intestine used for sausage" ; ! no. 3631
-gussa:gussa N_EVEN "cow" ; ! no. 2372
+gussa+CmpN/SgN+CmpN/SgG:gussa N_EVEN "cow" ; ! no. 2372
 guällbe:gu^Ollbe N_EVEN "floor" ; ! no. 720
 guässe:gu^Os'se N_EVEN "guest, visitor, stranger" ; ! no. 721
 guässegirrje:guässe#girrje N_EVEN "guest book" ; ! no. 4869
@@ -574,7 +574,7 @@ häjbma:hiejbma N_EVEN "home" ; ! no. 2315
 hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
 härrá:hier'rá N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer buck, castrated reindeer buck" ; ! no. 870
-hässta:hiessta N_EVEN "horse" ; ! no. 4932
+hässta+CmpN/SgN+CmpN/SgG:hiessta N_EVEN "horse" ; ! no. 4932
 häffne+Use/NG:hievdne N_EVEN "spider" ; ! no. 90418
 ibme:ibme N_EVEN "uncle’s wife" ; ! no. 872
 idja:idja N_EVEN "night" ; ! no. 874
@@ -928,7 +928,7 @@ ruäjjve:ru^Ojjve N_EVEN "cut of meat" ; ! no. 1446
 ruäkksje:ru^Okksje N_EVEN "loin" ; ! no. 2612
 ruäkksjebuäjjde:ruäkksje#bu^Ojjde N_EVEN "fat around the loin" ; ! no. 5407
 ruäkksjedákkte:ruäkksje#dákkte N_EVEN "loin bone" ; ! no. 3769
-ruävvde:ru^Ovvde N_EVEN "iron" ; ! no. 1449
+ruävvde+CmpN/SgN+CmpN/SgG:ru^Ovvde N_EVEN "iron" ; ! no. 1449
 ruävvdetjarrva:ruävvde#tjarrva N_EVEN "crusted snow that does not thaw during the day" ; ! no. 4748
 ruävvdeviega:ruävvde#viega N_EVEN "railway" ; ! no. 3209
 ruävvse:ru^Ovvse N_EVEN "udder" ; ! no. 1450
@@ -1012,7 +1012,7 @@ sjkilltje:sjkilltje N_EVEN "ice on reindeer lichen underneath snow" ; ! no. 1573
 sjlávvtjá:sjlávvtjá N_EVEN "warble fly " ; ! no. 1575
 sjnjablamiesse:sjnjabla#miesse N_EVEN "wet new-born reindeer calf" ; ! no. 1580
 sjnjárrtjá:sjnjárrtjá N_EVEN "flank (meat)" ; ! no. 3311
-sjnjierra:sjnjierra N_EVEN "rat, mouse" ; ! no. 1582
+sjnjierra+CmpN/SgN+CmpN/SgG:sjnjierra N_EVEN "rat, mouse" ; ! no. 1582
 sjnjilltjaguallga:sjnjilltja#gu^Ollga N_EVEN "short-haired reindeer" ; ! no. 1586
 sjnjuhtje:sjnjuhtje N_EVEN "point, tip (eg. of a knife or pencil)" ; ! no. 1589
 sjnjuhtjegällu:sjnjuhtje#giel'lu N_EVEN "large, pointed rock" ; ! no. 4005
@@ -1085,7 +1085,7 @@ slämmá:sliem'má N_EVEN "mucous in a human’s throat" ; ! no. 3859
 slämme:sliem'me N_EVEN "old cap" ; ! no. 2542
 smájjle:smájjle N_EVEN "mud (in a spring or creek)" ; ! no. 5153
 smáladuällje:smála#du^Ollje N_EVEN "sheep skin" ; ! no. 1365
-smállá:smállá N_EVEN "sheep" ; ! no. 1687
+smállá+CmpN/SgN+CmpN/SgG:smállá N_EVEN "sheep" ; ! no. 1687
 smávbåkkså:smáv#båkkså N_EVEN "panty, underwear" ; ! no. 90346
 småråsdákkte:smårås#dákkte N_EVEN "osteoporosis, brittle bone" ; ! no. 3456
 snuallga:snu^Ollga N_EVEN "snot" ; ! no. 2789
@@ -1159,7 +1159,7 @@ svarre:svarre N_EVEN "vibration" ; ! no. 91133
 svájnasbállká:svájnas#bállká N_EVEN "servant's wage" ; ! no. 4207
 sválla:sválla N_EVEN "mountain fox" ; ! no. 1792
 sválltjá:sválltjá N_EVEN "summer frock made of prepared hide" ; ! no. 1794
-svijdne:svijdne N_EVEN "pig" ; ! no. 3601
+svijdne+CmpN/SgN+CmpN/SgG:svijdne N_EVEN "pig" ; ! no. 3601
 svijjla:svijjla N_EVEN "tray" ; ! no. 1801
 svuddnje:svuddnje N_EVEN "facial wrinkle, wrinkled face" ; ! no. 1806
 svälla:sviel'la N_EVEN "steam" ; ! no. 1797
@@ -1774,7 +1774,7 @@ garro:garro N_EVEN_O "curse, profanity" ; ! no. 3057
 gasskavahkko:gasska#vahkko N_EVEN_O "Wednesday" ; ! no. 568
 gassko:gassko N_EVEN_O "in the middle of, between" ; ! no. 4267
 gáhkko:gáhkko N_EVEN_O "soft bread, cake" ; ! no. 495
-gáhtto:gáhtto N_EVEN_O "cat" ; ! no. 505
+gáhtto+CmpN/SgN+CmpN/SgG:gáhtto N_EVEN_O "cat" ; ! no. 505
 gájdno:gájdno N_EVEN_O "rope for net, seine" ; ! no. 508
 gájtsabällo:gájtsa#biel'lo N_EVEN_O "goat bell" ; ! no. 4753
 gállo:gál'lo N_EVEN_O "forehead" ; ! no. 526
@@ -1999,7 +1999,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 årråjagmánno:årrå#jag#mánno N_EVEN_O "January" ; ! no. 2234
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åsstobäbbmo:åssto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
-almatj:almatj N_ODD "human, person" ; ! no. 54
+almatj+CmpN/SgN+CmpN/SgG:almatj N_ODD "human, person" ; ! no. 54
 ananas:ananas N_ODD "pineapple" ; ! no. 3097
 arram:arram N_ODD "marrowbone" ; ! no. 90202
 áddjov:áddjov N_ODD "grandchild" ; ! no. 5
@@ -2389,7 +2389,7 @@ vahák:vahág2 N_ODD "injury, damage" ; ! no. 5475
 váras+Use/NG:vádas N_ODD "homespun cloth" ; ! no. 90410
 vádtsatj:vádtsatj N_ODD "a little snow on the ground, thin blanket of snow" ; ! no. 2441
 váhtam:váhtam N_ODD "small snack" ; ! no. 90571
-váhtjam:váhtjam N_ODD "reindeer cow" ; ! no. 2055
+váhtjam+CmpN/SgN+CmpN/SgG:váhtjam N_ODD "reindeer cow" ; ! no. 2055
 váras:váras N_ODD "homespun cloth" ; ! no. 392
 várek:váreg2 N_ODD "mountain-" ; ! no. 91210
 várreårroj:várre#årroj N_ODD "mountainman (non-Saami)" ; ! no. 4083
@@ -2435,7 +2435,7 @@ aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
 ájjtetjåvdå:ájjte#tjåvvdåg N_ODD_OPEN "key for a shed" ; ! no. 4091
 állgotjála:állgo#tjállag N_ODD_OPEN "draft, rough copy" ; ! no. 5991
 badjemádda:badje#máddag N_ODD_OPEN "upper part of reindeer antlers" ; ! no. 2376
-biena:biednag N_ODD_OPEN "dog" ; ! no. 160
+biena+CmpN/SgN+CmpN/SgG:biednag N_ODD_OPEN "dog" ; ! no. 160
 buallja:bu^Olljas N_ODD_OPEN "clear-cut forest" ; ! no. 5994
 garrásgiera:garrás#gierrag N_ODD_OPEN "bronchus" ; ! no. 3415
 gáma:gábmag N_ODD_OPEN "shoe" ; ! no. 531
