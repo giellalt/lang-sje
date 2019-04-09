@@ -152,15 +152,61 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Use/-Spell   !!= * @CODE@ 
 +Use/-PLX        !!≈ * @CODE@   Excluded in PLX speller
 
-!! This part of the component can ..
-+CmpNP/All       !!≈ * @CODE@  - ... be in all positions, __default__, this tag does not have to be written
-+CmpNP/First     !!≈ * @CODE@  - ... can only be first part in a compound or alone
-+CmpNP/Pref      !!≈ * @CODE@  - ... only __first__ part in a compound, NEVER alone
-+CmpNP/Last      !!≈ * @CODE@  - ... can only be last part in a compound or alone
-+CmpNP/Suff      !!≈ * @CODE@  - ... only __last__ part in a compound, NEVER alone
-+CmpNP/None      !!≈ * @CODE@  - ... can not take part in compounds
-+CmpNP/Only      !!≈ * @CODE@  - ... can only be part of a compound, i.e. can never
-                !!                 be used alone, but can appear in any position
+
+
+!! !Compounding tags
+
+!! The tags are of the following form:
+!! * __+CmpNP/xxx__ - Normative (N), Position (P), ie. the tag describes what
+!!                    position the tagged word can be in in a compound
+!! * __+CmpN/xxx__  - Normative (N) __form__ ie. the tag describes what
+!!                    form the tagged word should use when making compounds
+!! * __+Cmp/xxx__   - Descriptive compounding tags, ie. tags that''describes''
+!!                    what form a word actually is using in a compound
+
+!! Normative/prescriptive compounding tags:
+!! (to govern compound behaviour for the speller, ie. what a compound SHOULD BE)
+
+!! The first part of the component may be ..
++CmpN/Sg          !!≈ * @CODE@ = Singular
++CmpN/SgN         !!≈ * @CODE@ = Singular Nominative
++CmpN/SgG         !!≈ * @CODE@ = Singular Genitive
++CmpN/PlG         !!≈ * @CODE@ = Plural Genitive
+
+! This part of the component can ..
++CmpNP/All       !!≈ * @CODE@ - ... be in all positions, __default__, this tag does not have to be written
++CmpNP/First     !!≈ * @CODE@ - ... only be first part in a compound or alone
++CmpNP/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
++CmpNP/Last      !!≈ * @CODE@ - ... only be last part in a compound or alone
++CmpNP/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
++CmpNP/None      !!≈ * @CODE@ - ... not take part in compounds
++CmpNP/Only      !!≈ * @CODE@ - ... only be part of a compound, i.e. can never
+                 !!                 be used alone, but can appear in any position
+
+! The second part of the compound may require that the previous (left part) is (and thus overrides the regular CmpN tags):
++CmpN/SgLeft     !!≈ * @CODE@  Singular to the left
++CmpN/SgNomLeft  !!≈ * @CODE@  Singular nominative to the left
++CmpN/SgGenLeft  !!≈ * @CODE@  Singular genitive to the left
++CmpN/PlGenLeft  !!≈ * @CODE@  Plural genitive to the left
+
+! Descriptive compounding tags:
+
+! Tags for compound analysis - this is what a compound actually is:
+ +Cmp/Sg       !!≈ * __@CODE@__  Singular
+ +Cmp/SgNom    !!≈ * __@CODE@__  Singular Nominative
+ +Cmp/SgGen    !!≈ * __@CODE@__  Singular Genitive
+ +Cmp/PlGen    !!≈ * __@CODE@__  Plural Genitiv
+ +Cmp/PlNom    !!≈ * __@CODE@__  Plural Nominative
+ +Cmp/Attr     !!≈ * __@CODE@__  Attribute
+ +Cmp          !!≈ * __@CODE@__  Dynamic compound - this tag should always be part of a
+               !!                dynamic compound.
+               !!                It is important for Apertium, and useful in other cases as well.
+ +Cmp/SplitR   !!≈ * __@CODE@__  This is a split compound with the other part to the right:
+               !!                "Arbeids- og inkluderingsdepartementet" => Arbeids- = +Cmp/SplitR
+ +Cmp/SplitL   !!≈ * __@CODE@__  This is a split compound with the other part to the left
+ +Cmp/Sh       !!≈ * __@CODE@__  testing ShCmp
+
+
 
 !! !!Punctuation tags
 +CLB     !!= * @CODE@ 
