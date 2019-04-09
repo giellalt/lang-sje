@@ -81,7 +81,7 @@ LEXICON N_EVEN_WK
 LEXICON N_EVEN_J
 +Pl+Gen:    K ;
 +Pl+Acc:t   K ;
-+Pl+Acc+Use/NG:d   K ;
++Pl+Acc+Err/Orth:d   K ;
 +Pl+Ine:n   K ;
 +Pl+Ela:st  K ; !norm
 +Pl+Ela+Use/NG:s  K ;
@@ -120,7 +120,7 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 !+Abe:%>dak K ; ! XXX
 +Pl+Nom:%> K ;
 +Pl+Acc:%>jt K ;
-+Pl+Acc+Use/NG:%>jd K ;
++Pl+Acc+Err/Orth:%>jd K ;
 +Pl+Gen:%>j K ;
 +Pl+Ill:%>jda K ;
 +Pl+Ine:%>jn K ;
@@ -132,10 +132,10 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 
 
 LEXICON N_EVEN_DIM ! guolla->guolatj; guolle->guolátj; mánnodak->mánnodagatj
-+Der/Dimin:^WG%>tj^V2E2AA N_DIM_s2 ;
++Der/Dimin+N:^WG%>tj^V2E2AA N_DIM_s2 ;
 
 LEXICON N_EVEN_O_DIM !gárrvo->gärvutj
-+Der/Dimin:^WG%>tj^V2O2U N_DIM_s2 ;
++Der/Dimin+N:^WG%>tj^V2O2U N_DIM_s2 ;
 
 LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns that have unusual morphophonology (always -a- as V3))
 +N+Sg+Nom:^UAUML%>    K ;
@@ -239,7 +239,7 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Abe:a%>htá K ;
 +Pl+Nom:a%> K ;
 +Pl+Acc:i2%>jt K ;
-+Pl+Acc+Use/NG:i2%>jd K ;
++Pl+Acc+Err/Orth:i2%>jd K ;
 +Pl+Gen:i2%>j K ;
 +Pl+Ill:i2%>jda K ;
 +Pl+Ine:i2%>jn K ;
@@ -260,7 +260,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Abe:u%>htá K ;
 +Pl+Nom:u%> K ;
 +Pl+Acc:u2%>jt K ;
-+Pl+Acc+Use/NG:u2%>jd K ;
++Pl+Acc+Err/Orth:u2%>jd K ;
 +Pl+Gen:u2%>j K ;
 +Pl+Ill:u2%>jda K ;
 +Pl+Ine:u2%>jn K ;
@@ -271,7 +271,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
-+Der/Dimin:a%>tj N_DIM_s2 ;
++Der/Dimin+N:a%>tj N_DIM_s2 ;
 
 
 ! contracted
@@ -302,7 +302,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Abe:u%>dak K ; ! XXX
 +N+Pl+Nom:u%> K ;
 +N+Pl+Acc:u%>jt K ;
-+N+Pl+Acc+Use/NG:u%>jd K ;
++N+Pl+Acc+Err/Orth:u%>jd K ;
 +N+Pl+Gen:u%>j K ;
 +N+Pl+Ill:u%>jda K ;
 +N+Pl+Ine:u%>jn K ;
@@ -328,7 +328,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Abe:á%>dak K ; ! XXX
 +N+Pl+Nom:á%> K ;
 +N+Pl+Acc:á%>jt K ;
-+N+Pl+Acc+Use/NG:á%>jd K ;
++N+Pl+Acc+Err/Orth:á%>jd K ;
 +N+Pl+Gen:á%>j K ;
 +N+Pl+Ill:á%>jda K ;
 +N+Pl+Ine:á%>jn K ;
@@ -355,7 +355,7 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Abe:á%>dak K ; ! XXX
 +N+Pl+Nom:á%> K ;
 +N+Pl+Acc:á%>jt K ;
-+N+Pl+Acc+Use/NG:á%>jd K ;
++N+Pl+Acc+Err/Orth:á%>jd K ;
 +N+Pl+Gen:á%>j K ;
 +N+Pl+Ill:á%>jda K ;
 +N+Pl+Ine:á%>jn K ;
@@ -367,10 +367,10 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 
 
 LEXICON N_CONTR_O_DIM ! buhtsutj
-+Der/Dimin:u%>tj N_DIM_s2 ;
++Der/Dimin+N:u%>tj N_DIM_s2 ;
 
 LEXICON N_CONTR_DIM ! ålmátj, sarrvátj
-+Der/Dimin:á%>tj N_DIM_s2 ;
++Der/Dimin+N:á%>tj N_DIM_s2 ;
 
 
 
@@ -409,7 +409,7 @@ LEXICON N_EVEN_C !used by adjectives - don't delete yet:
 +Sg+Com+Use/NG:%>ojna  K ; !variant
 +Pl+Gen:%>oj    K ;
 +Pl+Acc:%>ojt   K ;
-+Pl+Acc+Use/NG:%>ojd   K ;
++Pl+Acc+Err/Orth:%>ojd   K ;
 +Pl+Ine:%>ojn   K ;
 +Pl+Ela:%>ojst  K ; !norm
 +Pl+Ela+Use/NG:%>ojs  K ;
@@ -429,7 +429,7 @@ LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete yet:
 +Ess:i%>n K ;
 +Pl+Nom:a K ;
 +Pl+Acc:i%>jt K ;
-+Pl+Acc+Use/NG:i%>jd K ;
++Pl+Acc+Err/Orth:i%>jd K ;
 +Pl+Gen:i%>j K ;
 +Pl+Ill:i%>jda K ;
 +Pl+Ine:i%>jn K ;
@@ -449,7 +449,7 @@ LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete yet:
 +Ess:un K ;
 +Pl+Nom:u K ;
 +Pl+Acc:ujt K ;
-+Pl+Acc+Use/NG:ujd K ;
++Pl+Acc+Err/Orth:ujd K ;
 +Pl+Gen:uj K ;
 +Pl+Ill:ujda K ;
 +Pl+Ine:ujn K ;
@@ -474,7 +474,7 @@ LEXICON MONOSYL_PROPER_N_S2
 +Ess:an K ;
 +Pl+Nom:a K ;
 +Pl+Acc:ajt K ;
-+Pl+Acc+Use/NG:ajd K ;
++Pl+Acc+Err/Orth:ajd K ;
 +Pl+Gen:aj K ;
 +Pl+Ill:ajda K ;
 +Pl+Ine:ajn K ;
@@ -505,7 +505,7 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Ess:an K ;
 +Pl+Nom: K ;
 +Pl+Acc:jt K ;
-+Pl+Acc+Use/NG:jd K ;
++Pl+Acc+Err/Orth:jd K ;
 +Pl+Gen:j K ;
 +Pl+Ill:jda K ;
 +Pl+Ine:jn K ;
