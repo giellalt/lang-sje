@@ -6,7 +6,6 @@ Lexica for adding tags and periods
 
 Splitting in 3 groups, because of the preprocessor
 
- * __LEXICON Abbreviation   __
 
 
 
@@ -29,11 +28,8 @@ Splitting in 3 groups, because of the preprocessor
 
  * __LEXICON trnumab-ab-noun   __
  * __LEXICON trnumab-ab-adj   __
- * __LEXICON trnumab-ab-adv   __
- * __LEXICON trnumab-ab-num   __
 
 
- * __LEXICON ab-cc   __
 
 
 
