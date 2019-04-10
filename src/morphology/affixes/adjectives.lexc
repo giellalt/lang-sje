@@ -807,11 +807,11 @@ LEXICON A_ODD_AA  !!= * @CODE@ är uddastaviga ex suddes.suddás-
 !+A:d ODD_OBLIQUE_COMMON ;
 !+A:d ODD_COMPSUP_A ;
 
-LEXICON A_ODD_Q  !!= * @CODE@ är uddastaviga ex vuollak:vuollag-/vuolla
-+A+Attr: # ;
-+A+Sg+Nom:k PX ;
-+A:g ODD_OBLIQUE_COMMON ;
-+A:g ODD_COMPSUP_A ;
+!LEXICON A_ODD_Q  !!= * @CODE@ är uddastaviga ex vuollak:vuollag-/vuolla
+!+A+Attr: # ;
+!+A+Sg+Nom:k PX ;
+!+A:g ODD_OBLIQUE_COMMON ;
+!+A:g ODD_COMPSUP_A ;
 
 !LEXICON A_ODD_HIS  !!= * @CODE@ är uddastaviga ex vuollak:vuollag-/vuolla
 !+A+Attr: # ;

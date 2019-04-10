@@ -23,10 +23,10 @@
 !! Splitting in 3 groups, because of the preprocessor
 ! - - - - - - - - - - - - - - - - - - - - - - - - -
 
-LEXICON Abbreviation   !!= * __@CODE@__
-ITRAB ;
-TRNUMAB ;
-TRAB ;
+!LEXICON Abbreviation   !!= * __@CODE@__
+!ITRAB ;
+!TRNUMAB ;
+!TRAB ;
 
 ! Now splitting according to POS, and according to dot or not
 ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -78,14 +78,14 @@ LEXICON trnumab-ab-noun   !!= * __@CODE@__
 +TRNUMAB: ab-nodot-noun ;
 LEXICON trnumab-ab-adj   !!= * __@CODE@__
 +TRNUMAB: ab-nodot-adj ;
-LEXICON trnumab-ab-adv   !!= * __@CODE@__
-+TRNUMAB: ab-nodot-adv ;
-LEXICON trnumab-ab-num   !!= * __@CODE@__
-+TRNUMAB: ab-nodot-num;
+!LEXICON trnumab-ab-adv   !!= * __@CODE@__
+!+TRNUMAB: ab-nodot-adv ;
+!LEXICON trnumab-ab-num   !!= * __@CODE@__
+!+TRNUMAB: ab-nodot-num;
 
 
-LEXICON ab-cc   !!= * __@CODE@__
-+CC+ABBR: # ;
+!LEXICON ab-cc   !!= * __@CODE@__
+!+CC+ABBR: # ;
 
 
 
