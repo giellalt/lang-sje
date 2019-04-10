@@ -488,7 +488,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
- * LEXICON A_ODD_Q   är uddastaviga ex vuollak:vuollag-/vuolla
 
 
  * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
@@ -537,7 +536,6 @@ Lexica for adding tags and periods
 
 Splitting in 3 groups, because of the preprocessor
 
- * __LEXICON Abbreviation   __
 
 
 
@@ -560,11 +558,8 @@ Splitting in 3 groups, because of the preprocessor
 
  * __LEXICON trnumab-ab-noun   __
  * __LEXICON trnumab-ab-adj   __
- * __LEXICON trnumab-ab-adv   __
- * __LEXICON trnumab-ab-num   __
 
 
- * __LEXICON ab-cc   __
 
 
 
