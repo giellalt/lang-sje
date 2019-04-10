@@ -910,7 +910,7 @@ SET NOT-NUM = WORD - Num ;
 LIST MANGA = "máŋga" "galle" ;
  # Not referred to by any rule.
 
-LIST SOAMES = "soames" "muhtun" ;
+LIST SOAMES = "soames" "muhtun" "ollugat" ;
 
 
 SET CARDINALS = Num - Ord - MANGA ;
@@ -1271,6 +1271,7 @@ MAP:num< (@Num<) TARGET ("miljovdna")(-1 NUM + Sg + Nom LINK NOT -1 JAHKI)(1 ("s
 MAP:n<titel1 (@N<) TARGET ("jr") OR ("sr") (-1 Prop) ;
 	#$ Loahpas jearai Johttisámelisttu Anders Somby jr. sudnos njuolga háliida go čearru gulahallat, juo dahje ii.
 
+MAP:n< (@N<) TARGET ("OS") OR ("AS") IF (-1 N) ;
 
 
 #!! * __n<titel2__ (@N<) for INITIAL; if first one to the left is a noun, or if to the left of you is a single letter which is part of a noun conjunction ''bustávas e ja f gáibiduvvo''
@@ -1456,6 +1457,11 @@ MAP:dasmaŋŋel (@>ADVL) TARGET Dem + Loc + Sg (1 ("maŋŋel" Adv)) ;
 #!! * __adv>advl__ (@>ADVL) 
 MAP:adv>advl (@>ADVL) TARGET Adv (1 Ill OR Loc OR Com) ;
 	#$ Mii leat giellaprošeavttaide bidjan vuoruhemiid njuolga dáidda guovlluide ja gielaide.
+
+#!! * __adv>advl__ (@>ADVL) 
+MAP:adv>advl (@>ADVL) TARGET (Sem/Measr_Time) (1 Adv + Sem/Time) ;
+	#$ Dievasčoahkkin galgá dán háve meannudit ášši mii šaddá láidestit min doaimmaid máŋga jagi ovddasguvlui.
+
 
 MAP:>a (@>A) TARGET GRADE-ADV (*1 A BARRIER NOT-NPMOD) ;
 MAP:>aSup (@>A) TARGET ("buot") (*1 Superl BARRIER NOT-NPMOD) ;
@@ -2007,8 +2013,8 @@ MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LIN
 MAP:n< (@N<) TARGET N + Sg + Loc (-1 Num LINK -1 (Coll @SUBJ>))(1 VFIN) ;
 	#$ Gávccis logi politiijas háliidit guoddit vearjju bissovaččat.
 
-MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (**-1 Pron + Gen OR Pron + Loc OR A + Attr BARRIER NOT-Attr LINK -1 OKTA) ;
-MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (-1 SOAMES + Pl) ;
+MAP:num< (@Num<) TARGET (Pl Loc) OR Sem/Group + Loc OR Pers + Pl3 (**-1 Pron + Gen OR Pron + Loc OR A + Attr BARRIER NOT-Attr LINK -1 OKTA) ;
+MAP:num< (@Pron<) TARGET (Pl Loc) OR Sem/Group + Loc OR Pers + Pl3 (*-1 SOAMES + Pl BARRIER NOT-NPMOD) ;
 	#$ Dat lea okta min buoremus girjjiin.
 	#$ Sámegiella lea okta dain dehálaš vuođđogeđggiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
@@ -2022,10 +2028,13 @@ MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A OR RIGHT LINK *-1 OKTA 
 MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
 
+
+
 LIST COUNTABLE = "oassi" "kapihtal" "paragráfa" ;
 
-MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-A OR LEFT) ;
+MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-NPMOD OR LEFT) ;
 	#$ Dat lea oassin giellaprográmmas.
+	#$ Go guorahallat guovttegielat olbmuid giellageavaheami, de okta dehálaš oassi olbmo gielalaš resurssain lea čálamáhttu
 
 LIST VEL = ("vel" <sme>) ;
 
@@ -2041,7 +2050,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "vuodjit" "vuojehit" "vuolgit"  ;
 
-LIST OTH-ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "gáibidit" "geassádit" "goaikut" "jearrat" "muitalit" "nákkáhallat" "njoammut" "oastit" "oažžut" "váldit" "viežžat" "vuovdit"  ;
+LIST OTH-ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "gáibidit" "geassádit" "goaikut" "jearrat" "muitalit" "nákkáhallat" "njoammut" "oastit" "oažžut" "sierranit" "váldit" "viežžat" "vuovdit"  ;
 
 SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme ;
 
@@ -2096,8 +2105,8 @@ MAP:fadvl> (@-FADVL>) TARGET ADVLCASEAdv - MO - S-BOUNDARY OR TIME-N + Gen OR Ge
 MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVLCASEAdv + Sem/Plc (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + ("vázzit")) OR (*-1 FMAINV + ("vázzit")))(0 (<sme>)) ;
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
 
-MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
-MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Clth OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") OR FMAINV + ("goarrut") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Clth OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") OR FMAINV + ("goarrut") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Ctain-abstr)(*-1 FMAINV + ("ohcat") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 	#$ Ain vejolaš ohcat suohkana ealáhusfoanddas.
 
@@ -2173,7 +2182,7 @@ MAP (@ADVL-ine>) TARGET Num + Gen (-1 DUSSE) ;
 MAP (@ADVL-ine>) TARGET ADVLCASEAdv + Sem/Year (0 Loc)(NEGATE 1 Sem/Year OR Ill)(0 (<sme>)) ;
 	#$ 1964:s bođii Ráisii dálueamitskuvla.
 MAP:coahkkimis (@ADVL-ine>) TARGET Loc (0 ("čoahkkin"))(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
-MAP:coahkkimis (@<ADVL-ine>) TARGET Loc (0 ("čoahkkin"))(*-1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
+MAP:coahkkimis (@<ADVL-ine) TARGET Loc (0 ("čoahkkin"))(*-1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
 MAP (@ADVL-ela>) TARGET ADVLCASEAdv - INE-NOUNS-sme (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY LINK NEGATE 0 OTH-ELA-VERBS-sme)(0 (<sme>)) ;
 
 
