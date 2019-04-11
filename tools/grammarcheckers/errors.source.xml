@@ -11,11 +11,11 @@
       </ids>
       <header>
         <title xml:lang="en">Real-word error</title>
-        <title xml:lang="se">Čállinmeattáhus</title>
+        <title xml:lang="sje">Čállinmeattáhus</title>
       </header>
       <body>
         <description xml:lang="en">The word "$1" exists in the dictionary, but means something different in this context.</description>
-        <description xml:lang="se">"$1" maŋis galggašii leat blah</description>
+        <description xml:lang="sje">"$1" maŋis galggašii leat blah</description>
       </body>
     </default>
 
@@ -25,11 +25,11 @@
       </ids>
       <header>
         <title xml:lang="en">Grammar error</title>
-        <title xml:lang="se">Čállinmeattáhus</title>
+        <title xml:lang="sje">Čállinmeattáhus</title>
       </header>
       <body>
         <description xml:lang="en">The word "$1" exists in the dictionary, but means something different in this context.</description>
-        <description xml:lang="se">"$1" maŋis galggašii leat blah</description>
+        <description xml:lang="sje">"$1" maŋis galggašii leat blah</description>
       </body>
     </default>
   </defaults>
@@ -37,25 +37,25 @@
   <error id="real-override">
     <header>
       <title xml:lang="en">cake instead of cheese</title>
-      <title xml:lang="se">gáhkku iige vuostá</title>
+      <title xml:lang="sje">gáhkku iige vuostá</title>
     </header>
     <body>
       <description xml:lang="en">this should be "cake" instead of "cheese"</description>
-      <description xml:lang="se">galggašii leat "gáhkku" iige "vuostá"</description>
+      <description xml:lang="sje">galggašii leat "gáhkku" iige "vuostá"</description>
     </body>
   </error>
 
   <error id="msyn-valency-ill">
     <header>
       <title xml:lang="en">illative instead of accusative</title>
-      <title xml:lang="se">illatiiva iige akkusatiiva</title>
+      <title xml:lang="sje">illatiiva iige akkusatiiva</title>
       <references> <ref n=""/></references>
     </header>
     <body>
       <description xml:lang="en">illative instead of accusative</description>
-      <description xml:lang="se">illatiiva iige akkusatiiva</description>
+      <description xml:lang="sje">illatiiva iige akkusatiiva</description>
     <examples>
-      <ex xml:lang="se">Hui ollu liikon {bohccobierggu} ja {goikebierggu}.</ex>
+      <ex xml:lang="sje">Hui ollu liikon {bohccobierggu} ja {goikebierggu}.</ex>
     </examples>
     </body>
   </error>
@@ -64,14 +64,14 @@
   <error id="msyn-valency-acc">
     <header>
       <title xml:lang="en">accusative instead of nominative</title>
-      <title xml:lang="se">akkusatiiva iige nominatiiva</title>
+      <title xml:lang="sje">akkusatiiva iige nominatiiva</title>
       <references> <ref n=""/></references>
     </header>
     <body>
       <description xml:lang="en">accusative instead of nominative</description>
-      <description xml:lang="se">illatiiva iige nominatiiva</description>
+      <description xml:lang="sje">illatiiva iige nominatiiva</description>
     <examples>
-      <ex xml:lang="se">Mun čálán {reive}.</ex>
+      <ex xml:lang="sje">Mun čálán {reive}.</ex>
     </examples>
     </body>
   </error>
@@ -79,14 +79,14 @@
   <error id="msyn-valency-loc-com">
     <header>
       <title xml:lang="en">msyn thing</title>
-      <title xml:lang="se">msyn thingy</title>
+      <title xml:lang="sje">msyn thingy</title>
       <references><ref n=""/></references>
     </header>
     <body>
       <description xml:lang="en">wrong word</description>
-      <description xml:lang="se">boasttut sátni</description>
+      <description xml:lang="sje">boasttut sátni</description>
     <examples>
-      <ex xml:lang="se">Ovdalgihtiigeassima sierra máksingoartta ferte álohii atnit go máksá boastagiro dahje báŋku {badjel}.</ex>
+      <ex xml:lang="sje">Ovdalgihtiigeassima sierra máksingoartta ferte álohii atnit go máksá boastagiro dahje báŋku {badjel}.</ex>
     </examples>
     </body>
   </error>
@@ -94,40 +94,74 @@
   <error id="lex-bokte-not-badjel">
     <header>
       <title xml:lang="en">"bokte" not "badjel"</title>
-      <title xml:lang="se">"bokte" iige "badjel"</title>
+      <title xml:lang="sje">"bokte" iige "badjel"</title>
       <references><ref n=""/></references>
     </header>
     <body>
       <description xml:lang="en">wrong word</description>
-      <description xml:lang="se">boasttut sátni</description>
+      <description xml:lang="sje">boasttut sátni</description>
     <examples>
-      <ex xml:lang="se">Ovdalgihtiigeassima sierra máksingoartta ferte álohii atnit go máksá boastagiro dahje báŋku {badjel}.</ex>
+      <ex xml:lang="sje">Ovdalgihtiigeassima sierra máksingoartta ferte álohii atnit go máksá boastagiro dahje báŋku {badjel}.</ex>
     </examples>
     </body>
   </error>
 
   <error id="syn-pred-not-attr-msg">
     <header>
-      <title xml:lang="se">«$1» ja «$2» leaba blah</title>
+      <title xml:lang="sje">«$1» ja «$2» leaba blah</title>
     </header>
     <body>
-      <description xml:lang="se">Predicative, iige attributive – «$1» ja «$2» leaba blah</description>
+      <description xml:lang="sje">Predicative, iige attributive – «$1» ja «$2» leaba blah</description>
     </body>
   </error>
 
   <error id="msyn-valency-go-inf">
     <header>
       <title xml:lang="en">Try a subclause with <em>go</em> instead of illative</title>
-      <title xml:lang="se">Iskka<em>go</em>-oalgecealkaga iige infinitiiva</title>
+      <title xml:lang="sje">Iskka<em>go</em>-oalgecealkaga iige infinitiiva</title>
       <references> <ref n=""/></references>
     </header>
     <body>
       <description xml:lang="en"><em>go</em> instead of illative</description>
-      <description xml:lang="se"><em>go</em> iige infinitiiva</description>
+      <description xml:lang="sje"><em>go</em> iige infinitiiva</description>
     <examples>
-      <ex xml:lang="se">Soai leaigga sihke dolkan ja suhttan gullat olbmuid šláddariid sudno birra, ja bovdiiga.</ex>
+      <ex xml:lang="sje">Soai leaigga sihke dolkan ja suhttan gullat olbmuid šláddariid sudno birra, ja bovdiiga.</ex>
     </examples>
     </body>
   </error>
+
+
+
+  <error id="err-conneg-not-sg2">
+    <header>
+      <title xml:lang="en">Negative verb wants ConNeg form</title>
+      <title xml:lang="sje">biehttálanvearba dárbbáša ConNeg-hámi</title>
+      <references> <ref n=""/></references>
+    </header>
+    <body>
+      <description xml:lang="en">After <em>i</em> the verb should be in the ConNeg form.</description>
+      <description xml:lang="sje"><em>i</em> máŋŋel vearbá dárbbaša ConNeg</description>
+    <examples>
+      <ex xml:lang="sje">Soai leaigga sihke dolkan ja suhttan gullat olbmuid šláddariid sudno birra, ja bovdiiga.</ex>
+    </examples>
+    </body>
+  </error>
+
+
+  <error id="err-conneg-not-sg3">
+    <header>
+      <title xml:lang="en">Negative verb wants ConNeg form</title>
+      <title xml:lang="sje">biehttálanvearba dárbbáša ConNeg-hámi</title>
+      <references> <ref n=""/></references>
+    </header>
+    <body>
+      <description xml:lang="en">After <em>ij</em> the verb «$1» should be in the ConNeg form.</description>
+      <description xml:lang="sje"><em>ij</em> máŋŋel vearbá «$1» dárbbaša ConNeg</description>
+    <examples>
+      <ex xml:lang="sje">Soai leaigga sihke dolkan ja suhttan gullat olbmuid šláddariid sudno birra, ja bovdiiga.</ex>
+    </examples>
+    </body>
+  </error>
+
 
 </errors>
