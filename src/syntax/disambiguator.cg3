@@ -198,6 +198,7 @@ LIST Cases = Nom Gen Acc Ill Ine Ela Com Abe Ess ;
 
 LIST NP-Num = Sg Pl ;
 
+LIST NumCases = (Sg Nom) (Pl Nom) (Sg Gen) (Pl Gen) (Sg Acc) (Pl Acc) (Sg Ill) (Pl Ill) (Sg Ine) (Pl Ine) (Sg Ela) (Pl Ela) (Sg Com) (Pl Com) (Sg Abe) (Pl Abe) Ess ;
 
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
@@ -359,7 +360,7 @@ REMOVE:NoPrWithoutGen Pr IF (NOT *1 Gen BARRIER NoNP);
 REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 PRE-NP-HEAD OR N );
 
 #reject demonstrative pronoun reading if DET followed by NP-head with same case/number
-#REMOVE:DemPronWO-NPhead	Pron + $$NP-Num + $$Cases IF (*1 N + $$NP-Num + $$Cases BARRIER WORD);
+REMOVE:DemPronWO-NPhead	Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMOD);
 
 #REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NOT-NPMOD);
 #REMOVE:DemPronWO-NPhead-NomPl	(Pron Pl Nom)	IF (*1C (N Pl Nom) BARRIER NoNPpossible);
