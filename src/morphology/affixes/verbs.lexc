@@ -61,7 +61,7 @@ LEXICON V_EVEN_E_WK
 
 +GerI:%>din # ;  
 +ConNeg:%> # ; 
-+Vgen:%> #;  
++VGen:%> #;  
 !+Sup:%>tjit # ;
 +Pot:%>tj^V2E2AA V_EVEN_POT ; 
 
@@ -151,7 +151,7 @@ LEXICON V_EVEN_A_WK
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
 +ConNeg:%> # ; 
-+Vgen:%> #;  
++VGen:%> #;  
 +Pot:%>tj V_EVEN_POT ;
 
 
@@ -243,7 +243,7 @@ LEXICON V_EVEN_O_WK
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
 +ConNeg:%> # ; 
-+Vgen:%> #;  
++VGen:%> #;  
 +Pot:%>tj V_EVEN_POT ; 
 
 
@@ -321,7 +321,7 @@ LEXICON V_EVEN_Å_WK
 +GerI:%>din # ;  
 !+Sup:%>tjit # ;
 +ConNeg:%> # ; 
-+Vgen:%> #;  
++VGen:%> #;  
 +Pot:%>tj V_EVEN_POT ; 
 
 
@@ -379,7 +379,7 @@ LEXICON V_ODD !ságastit
 !+V+Vsubst:a%>m #; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
-!+V+Vgen:e%> #;  
+!+V+VGen:e%> #;  
 
 
 LEXICON V_ODD_UA ! luaddanit (not luoddanit! class for ua/uä + noCG CCenter)
@@ -420,7 +420,7 @@ LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes s
 !+V+Vsubst:a%>m #; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
-!+V+Vgen:e%> #;  
+!+V+VGen:e%> #;  
 
 
 
@@ -481,7 +481,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Vsubst:%>m #; !cf. sujjtim (sje19360100a.001)
 !+V+GerI:%>din # ;  
 !+V+Sup:%>tjit # ;
-!+V+Vgen:%> #;  
+!+V+VGen:%> #;  
 
 !V_CONTR POT forms -- check!
 +V+Pot:%>tj V_CONTR_POT ;

@@ -149,8 +149,7 @@ LIST ConNeg = ConNeg ;
 LIST Neg = Neg ;
 LIST PrsPrc = PrsPrc ; 
 LIST PrfPrc = PrfPrc ;
-LIST Vgen = Vgen ; 
-#LIST VGen = Vgen VGen ; 
+LIST VGen = VGen ; 
 LIST VAbess = VAbess ;
 LIST Arab = Arab ;
 
@@ -203,9 +202,9 @@ LIST COPULAS = "sjaddat" "lä" "gallgat";
 
 #just playing around to show variables and regExs
 LIST LEMMA = (".*"r) ;
-#SET VGenLEMMA = LEMMA + Vgen ; 
-SELECT:testAfter $$LEMMA + Vgen IF (1 $$LEMMA + Vgen) ;
-SELECT:testB4 $$LEMMA + Vgen IF (-1 $$LEMMA + Vgen) ;
+#SET VGenLEMMA = LEMMA + VGen ; 
+SELECT:testAfter $$LEMMA + VGen IF (1 $$LEMMA + VGen) ;
+SELECT:testB4 $$LEMMA + VGen IF (-1 $$LEMMA + VGen) ;
 	##dån lä både både. #(at least ok in saN)
 	##you are about to come
 
