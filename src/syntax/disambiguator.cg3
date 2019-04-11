@@ -555,7 +555,7 @@ REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
 AFTER-SECTIONS #things here are only run once
 
 #because Det is not a standard GT tag, and so things work with smi-functions.cg3
-#SUBSTITUTE (Det) (Pron <sje>) TARGET (Det) ;
+#SUBSTITUTE (Det) (Pron) TARGET (Det) ;
 
 #!! !!Add language code
 # used to tag everything as being sje to be able to use specific rules in general smi-functions.cg3
