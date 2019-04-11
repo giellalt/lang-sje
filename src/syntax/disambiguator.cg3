@@ -26,6 +26,8 @@
 
 
 
+BEFORE-SECTIONS #things here are only run once
+
 
 # ========== #
 # Delimiters #
@@ -147,7 +149,8 @@ LIST ConNeg = ConNeg ;
 LIST Neg = Neg ;
 LIST PrsPrc = PrsPrc ; 
 LIST PrfPrc = PrfPrc ;
-LIST VGen = VGen ; 
+LIST Vgen = Vgen ; 
+#LIST VGen = Vgen VGen ; 
 LIST VAbess = VAbess ;
 LIST Arab = Arab ;
 
@@ -190,10 +193,22 @@ SET PLURAL = Pl1 OR Pl2 OR Pl3 ;
 
 SET NonThirdPerson = Sg1 OR Sg2 OR Du1 OR Du2 OR Pl1 OR Pl2 ;
 
+LIST NumPers = Sg1 Sg2 Sg3 Du1 Du2 Du3 Pl1 Pl2 Pl3 ; 
+
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 ##!! * The set COPULAS is for predicative constructions
 LIST COPULAS = "sjaddat" "lä" "gallgat";
+
+
+#just playing around to show variables and regExs
+LIST LEMMA = (".*"r) ;
+#SET VGenLEMMA = LEMMA + Vgen ; 
+SELECT:testAfter $$LEMMA + Vgen IF (1 $$LEMMA + Vgen) ;
+SELECT:testB4 $$LEMMA + Vgen IF (-1 $$LEMMA + Vgen) ;
+	##dån lä både både. #(at least ok in saN)
+	##you are about to come
+
 
 
 SET V-MOOD = Ind OR Pot OR Imprt ;
@@ -246,6 +261,9 @@ SET NoFullNPpossible = WORD - NPpossibleNoPro ; #NOT possible anywhere in an NP
 
 
 SET NoAP = WORD - A - PRE-AP-HEAD ; #NoAP = not possibly anywhere in AP, plus CC
+
+
+SECTION # -1- this potentially run multiple times, or can be targeted in command line
 
 # ============== #
 # Disambiguation #
@@ -443,15 +461,16 @@ REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER CLB
 SELECT:attrWithinNP (A Attr) IF (1 NPpossibleNoPro);
 REMOVE:noAttrWithoutNP (A Attr) IF (NOT 1 NPpossibleNoPro);
 
-#!! !Agreement rules for verb triggered by PersPron
-SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
-SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
-SELECT:Sg3afterSg3	Sg3 IF (0 V)(-1 Pers + Nom + Sg3);
-SELECT:Sg3b4Sg3		Sg3 IF (0 V)( 1 Pers + Nom + Sg3);
-SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
-SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
-SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
-SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
+#!! !Agreement rule for verb triggered by PersPron
+SELECT:AgrPersPron	$$NumPers IF (0 V)(-1 Pers + Nom + $$NumPers);
+#SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
+#SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
+#SELECT:Sg3afterSg3	Sg3 IF (0 V)(-1 Pers + Nom + Sg3);
+#SELECT:Sg3b4Sg3		Sg3 IF (0 V)( 1 Pers + Nom + Sg3);
+#SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
+#SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
+#SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
+#SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
 
 #!! !Agreement rules for verb triggered by full NP
 SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C NounOrNum + Pl + Nom BARRIER CLB);
@@ -487,6 +506,7 @@ SELECT:buolvastBuallvaj (N Sg Ela) IF (0 ("buallva"))(1C ("buallva" N Sg Ill));
 
 
 #!! !!!Mapping rules
+# Map rules block further tags from being added (otherwise use ADD)
 
 #!! !!Mapping CC
 
@@ -523,7 +543,15 @@ MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
 REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
     ## 4. båtsoj
 
+
+
+AFTER-SECTIONS #things here are only run once
+
+#because Det is not a standard GT tag, and so things work with smi-functions.cg3
+SUBSTITUTE (Det) (Pron <sje>) TARGET (Det) ;
+
 #!! !!Add language code
+# used to tag everything as being sje to be able to use specific rules in general smi-functions.cg3
 
 #SUBSTITUTE (A) (A <sje>) WORD ; 
 #SUBSTITUTE (N) (N <sje>) WORD ; 
