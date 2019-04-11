@@ -33,7 +33,7 @@
 +V+GerI
 +V+Sup
 +V+Vabe
-+V+Vgen
++V+VGen
 +V+GerII
 +V+PrfPrc
 +V+PrsPrc

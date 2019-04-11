@@ -49,7 +49,7 @@ Tests:
      gallgat+V+GerI: galgadin 
 #     gallgat+V+Sup: galgatjit
 #     gallgat+V+Vabe: gallgak  
-     gallgat+V+Vgen: galga 
+     gallgat+V+VGen: galga 
      gallgat+V+GerII: gallgamin
      gallgat+V+PrfPrc: gallgam
 #     gallgat+V+PrsPrc: gallga 
