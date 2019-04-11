@@ -48,7 +48,7 @@
 
 
 # The pipeline (but use modes, above)
-# echo "Hei." | hfst-tokenise -g ../tokenisers/tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g disambiguator.cg3 -t | vislcg3 -g grammarchecker.cg3 -t  
+#  echo "Sån ij hålbmá." | hfst-tokenise -g ../tokenisers/tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g disambiguator.cg3 -t | vislcg3 -g grammarchecker.cg3 -t  
 
 
 
@@ -604,7 +604,8 @@ LIST &err-no-conneg = &err-no-conneg ;
 LIST &err-orrood-inf = &err-orrood-inf ;
 LIST &err-ext-agr = &err-ext-agr ;
 LIST &err-ext-vagr = &err-ext-vagr ;
-LIST &err-conneg-not-3rdsg = &err-conneg-not-3rdsg ;
+LIST &err-conneg-not-sg2 = &err-conneg-not-sg2 ;
+LIST &err-conneg-not-sg3 = &err-conneg-not-sg3 ;
 
 
 MAPPING-PREFIX = & ;
@@ -625,7 +626,14 @@ ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
 
-ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs $$PERSON) IF (0 Ind OR Cond)(-1 (V Neg $$PERSON) LINK NOT 0 Sup);	
+#ADD:err-conneg-not-sg3 (&err-conneg-not-sg3) TARGET (V Prs $$PERSON) IF (0 Ind OR Cond)(-1 (V Neg $$PERSON) LINK NOT 0 Sup);
+ADD:err-conneg-not-sg2 (&err-conneg-not-sg2) TARGET (V Prs Sg2) IF (0 Ind)(-1 (V Neg Sg2) LINK NOT 0 Sup) ;
+COPY:err-conneg-not-sg2 (ConNeg &SUGGEST) EXCEPT (Ind Prs Sg2 &err-conneg-not-sg2) TARGET (&err-conneg-not-sg2) ;	
+#err Dån i hålmá.
+#ok Dån i hålme.
+
+ADD:err-conneg-not-sg3 (&err-conneg-not-sg3) TARGET (V Prs Sg3) IF (0 Ind)(-1 (V Neg Sg3) LINK NOT 0 Sup);
+COPY:err-conneg-not-sg3 (ConNeg &SUGGEST) EXCEPT (Ind Prs Sg3 &err-conneg-not-sg3) TARGET (&err-conneg-not-sg3) ;	
 #ok Sån hålbmá
 #ok Sån ij hålme
 #err Sån ij hålbmá
