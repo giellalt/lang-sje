@@ -194,6 +194,11 @@ SET NonThirdPerson = Sg1 OR Sg2 OR Du1 OR Du2 OR Pl1 OR Pl2 ;
 
 LIST NumPers = Sg1 Sg2 Sg3 Du1 Du2 Du3 Pl1 Pl2 Pl3 ; 
 
+LIST Cases = Nom Gen Acc Ill Ine Ela Com Abe Ess ;
+
+LIST NP-Num = Sg Pl ;
+
+
 ##from north saami
 #LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 ##!! * The set COPULAS is for predicative constructions
@@ -249,7 +254,7 @@ SET AttrAPpossible = (A Attr) OR PRE-AP-HEAD ;
 SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
          Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
          (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (A Sg) OR (A Pl) ;
-SET NPNH = WORD - PRE-NP-HEAD OR ABBR ; #NPNotpreHead (used as barrier)
+SET NOT-NPMOD = WORD - PRE-NP-HEAD OR ABBR ; #not NP modifier (used as barrier)
 
 LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok!)
 
@@ -354,23 +359,25 @@ REMOVE:NoPrWithoutGen Pr IF (NOT *1 Gen BARRIER NoNP);
 REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 PRE-NP-HEAD OR N );
 
 #reject demonstrative pronoun reading if DET followed by NP-head with same case/number
-REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-NomPl	(Pron Pl Nom)	IF (*1C (N Pl Nom) BARRIER NoNPpossible);
-REMOVE:DemPronWO-NPhead-GenSg	(Pron Sg Gen)	IF (*1C (N Sg Gen) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-GenPl	(Pron Pl Gen)	IF (*1C (N Pl Gen) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-AccSg	(Pron Sg Acc)	IF (*1C (N Sg Acc) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-AccPl	(Pron Pl Acc)	IF (*1C (N Pl Acc) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-IllSg	(Pron Sg Ill)	IF (*1C (N Sg Ill) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-IllPl	(Pron Pl Ill)	IF (*1C (N Pl Ill) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-IneSg	(Pron Sg Ine)	IF (*1C (N Sg Ine) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-InePl	(Pron Pl Ine)	IF (*1C (N Pl Ine) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-ElaSg	(Pron Sg Ela)	IF (*1C (N Sg Ela) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-ElaPl	(Pron Pl Ela)	IF (*1C (N Pl Ela) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-ComSg	(Pron Sg Com)	IF (*1C (N Sg Com) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-ComPl	(Pron Pl Com)	IF (*1C (N Pl Com) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-AbeSg	(Pron Sg Abe)	IF (*1C (N Sg Abe) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NPNH);
-REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess)    BARRIER NPNH);
+#REMOVE:DemPronWO-NPhead	Pron + $$NP-Num + $$Cases IF (*1 N + $$NP-Num + $$Cases BARRIER WORD);
+
+#REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-NomPl	(Pron Pl Nom)	IF (*1C (N Pl Nom) BARRIER NoNPpossible);
+#REMOVE:DemPronWO-NPhead-GenSg	(Pron Sg Gen)	IF (*1C (N Sg Gen) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-GenPl	(Pron Pl Gen)	IF (*1C (N Pl Gen) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AccSg	(Pron Sg Acc)	IF (*1C (N Sg Acc) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AccPl	(Pron Pl Acc)	IF (*1C (N Pl Acc) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-IllSg	(Pron Sg Ill)	IF (*1C (N Sg Ill) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-IllPl	(Pron Pl Ill)	IF (*1C (N Pl Ill) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-IneSg	(Pron Sg Ine)	IF (*1C (N Sg Ine) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-InePl	(Pron Pl Ine)	IF (*1C (N Pl Ine) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ElaSg	(Pron Sg Ela)	IF (*1C (N Sg Ela) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ElaPl	(Pron Pl Ela)	IF (*1C (N Pl Ela) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ComSg	(Pron Sg Com)	IF (*1C (N Sg Com) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ComPl	(Pron Pl Com)	IF (*1C (N Pl Com) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AbeSg	(Pron Sg Abe)	IF (*1C (N Sg Abe) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess)    BARRIER NOT-NPMOD);
 
 #reject Determiner reading if not followed by NP-head
 REMOVE:NoDetWO-NPhead (Det) IF (NOT *1 NPpossibleNoPro BARRIER NoNP);
@@ -534,7 +541,7 @@ MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 	#$ Liná liikui sárgut ja tennjet.
 
 #tag A Attr as N modifier
-MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NPNH);
+MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NOT-NPMOD);
 
 
 
@@ -547,7 +554,7 @@ REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
 AFTER-SECTIONS #things here are only run once
 
 #because Det is not a standard GT tag, and so things work with smi-functions.cg3
-SUBSTITUTE (Det) (Pron <sje>) TARGET (Det) ;
+#SUBSTITUTE (Det) (Pron <sje>) TARGET (Det) ;
 
 #!! !!Add language code
 # used to tag everything as being sje to be able to use specific rules in general smi-functions.cg3
