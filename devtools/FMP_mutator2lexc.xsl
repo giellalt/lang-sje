@@ -103,7 +103,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Timestamp: </xsl:text>
+! Generated at: </xsl:text>
 <xsl:value-of select="date:date-time()"/>
 <!--xsl:value-of select="current-date(),current-time()"/-->
 
