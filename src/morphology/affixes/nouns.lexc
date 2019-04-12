@@ -127,7 +127,7 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Pl+Ela:%>jst K ;
 +Pl+Ela+Use/NG:%>js K ;
 +Pl+Com:%>j K ;
-+Pl+Com+Use/NG:%>jgum K ;
++Pl+Com+Use/NGminip:%>jgum K ;
 : N_EVEN_DIM ; !DIM derivation
 
 
@@ -164,7 +164,7 @@ LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns tha
 !+Pl+Ela:asa%>jst K ;
 !+Pl+Ela+Use/NG:asa%>js K ;
 !+Pl+Com:asa%>j K ;
-!+Pl+Com+Use/NG:asa%>jgum K ;
+!+Pl+Com+Use/NGminip:asa%>jgum K ;
 
 
 
@@ -246,7 +246,7 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Pl+Ela:i2%>jst K ;
 +Pl+Ela+Use/NG:i2%>js K ;
 +Pl+Com:i2%>j K ;
-+Pl+Com+Use/NG:i2%>jgum K ;
++Pl+Com+Use/NGminip:i2%>jgum K ;
 
 LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabic adjectives
 +Sg+Acc:u%>v K ;
@@ -267,7 +267,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Pl+Ela:u2%>jst K ;
 +Pl+Ela+Use/NG:u2%>js K ;
 +Pl+Com:u2%>j K ;
-+Pl+Com+Use/NG:u2%>jgum K ;
++Pl+Com+Use/NGminip:u2%>jgum K ;
 
 
 LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
@@ -309,7 +309,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Pl+Ela:u%>jst K ;
 +N+Pl+Ela+Use/NG:u%>js K ;
 +N+Pl+Com:u%>j K ;
-+N+Pl+Com+Use/NG:u%>jgum K ;
++N+Pl+Com+Use/NGminip:u%>jgum K ;
 +N: N_CONTR_O_DIM ; !buhtsutj
 
 LEXICON N_CONTR_AJA !ålmáj<->ålmá
@@ -335,7 +335,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
-+N+Pl+Com+Use/NG:á%>jgum K ;
++N+Pl+Com+Use/NGminip:á%>jgum K ;
 +N: N_CONTR_DIM ; !ålmátj
 
 
@@ -362,7 +362,7 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
-+N+Pl+Com+Use/NG:á%>jgum K ;
++N+Pl+Com+Use/NGminip:á%>jgum K ;
 +N: N_CONTR_DIM ; !sarrvátj
 
 
@@ -456,7 +456,7 @@ LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete yet:
 +Pl+Ela:ujst K ;
 +Pl+Ela+Use/NG:ujs K ;
 +Pl+Com:uj K ;
-+Pl+Com+Use/NG:ujgum K ;
++Pl+Com+Use/NGminip:ujgum K ;
 
 
 LEXICON N_MONOSYL_PROPER ! monosyllabic proper nouns (mostly person names)
@@ -481,7 +481,7 @@ LEXICON MONOSYL_PROPER_N_S2
 +Pl+Ela:ajst K ;
 +Pl+Ela+Use/NG:ajs K ;
 +Pl+Com:aj K ;
-+Pl+Com+Use/NG:ajgum K ;
++Pl+Com+Use/NGminip:ajgum K ;
 
 
 !for proper names for which the inflectional paradigms are not clear (at least until more is known about how they inflect – essentially only non-Saami names)
@@ -512,6 +512,6 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Pl+Ela:jst K ;
 +Pl+Ela+Use/NG:js K ;
 +Pl+Com:j K ;
-+Pl+Com+Use/NG:jgum K ;
++Pl+Com+Use/NGminip:jgum K ;
 
 
