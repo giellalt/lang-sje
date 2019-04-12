@@ -66,9 +66,10 @@ This code is made available under a Creative Commons Attribution license
 You are free to copy, distribute and adapt the work, as long as you always give
 proper attribution using the attribution text below.
 
-For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
-          and members of the language communities. Source code
-          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+For the full license text, see the link above.</lic><ref>Lexicographic work done by 
+	 Nils-Henrik Bengtsson, Marianne Eriksson, Inger Fjällås, Eva-Karin Rosenberg, Gry Helen Sivertsen, Valborg Sjaggo, Dagny Skaile, Peter Steggo, Olve Utne and Joshua Wilbur.
+	 With technical support from Giellatekno at UiT. 
+	 Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
      THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
      published dictionary. As such it can and
      will contain unfinished entries, unpublished entries, entries with
@@ -77,7 +78,7 @@ For the full license text, see the link above.</lic><ref>Work by Nils Jernslette
      Please also note that the entries are not necessarily sorted,
      or could be wrongly sorted.
 ** This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This xml file was extracted from J. Wilbur's Pite Saami lexcial database (FileMaker Pro). Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-** Timestamp: <xsl:value-of select="concat(date:date-time(),$nl)"/>
+** Generated at: <xsl:value-of select="concat(date:date-time(),$nl)"/>
 
 </sourcenote></lics>
 
