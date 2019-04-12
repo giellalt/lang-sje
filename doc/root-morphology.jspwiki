@@ -6,31 +6,31 @@ This file contains the tags and reference to main lexica
  !!!Multichar_Symbols  definitions
 
 !!POS
- * +N 	        Nouns
- * +V 	        
- * +A	        
- * +Adv        
- * +CC	        
- *  +CS        
- * +Interj     
- * +Pron       
- * +Num        
- * +Pcle       
- * +Po	        
- * +Pr	        
+ * +N 	        Noun
+ * +V 	        Verb
+ * +A	        Adjective
+ * +Adv        Adverb
+ * +CC	        Coordinating conjuction
+ * +CS	        Subordinating conjuction
+ * +Interj     Interjection
+ * +Pron       Pronoun
+ * +Num        Numeral
+ * +Pcle       Particle
+ * +Po	        Postposition
+ * +Pr	        Preposition
 
 !!Subclasses
- * +Pers 		   
- * +Dem 		   
- * +Interr 	   
- * +Indef 		   
- * +Refl 		   
- * +Recipr 	   
- * +Rel 		   
- * +NomAg		   
- * +Attr		   
- * +Comp		   
- * +Superl		   
+ * +Pers 		   Personal
+ * +Dem 		   Demonstrative
+ * +Interr 	   Interrogative
+ * +Indef 		   Indefinite
+ * +Refl 		   Reflexive
+ * +Recipr 	   Reciprocal
+ * +Rel 		   Relative
+ * +NomAg		   Agent noun
+ * +Attr		   Attributive
+ * +Comp		   Comparative
+ * +Superl		   Superlative
 
 
 !!Morphosyntactic properties
@@ -39,103 +39,88 @@ This file contains the tags and reference to main lexica
 
 Tense-mode
  * +Prs	   	   Present tense
- * +Prt	   	   
- * +Prf	   	   
- * +Ind	   	   
- * +Imprt	   	   
- * +Cond	   	   
- * +Pot	   	   
+ * +Prt	   	   Preterite (past) tense
+ * +Ind	   	   Indicative mood
+ * +Imprt	   	   Imperative mood
+ * +Pot	   	   Potential mood
 
 Person-number
  * +Sg1	   	   First person singular
- * +Sg2	   	   etc
- * +Sg3	   	   
- * +Du1	   	   
- * +Du2	   	   
- * +Du3	   	   
- * +Pl1	   	   
- * +Pl2	   	   
- * +Pl3	   	   
+ * +Sg2	   	   Second person singular
+ * +Sg3	   	   Third person singular
+ * +Du1	   	   First person dual
+ * +Du2	   	   Second person dual
+ * +Du3	   	   Third person dual
+ * +Pl1	   	   First person plural
+ * +Pl2	   	   Second person plural
+ * +Pl3	   	   Third person plural
 
 Infinite forms
  * +Inf	   	   Infinitive
- * +Pos	   	   
- * +Neg	   	   
- * +ConNeg	   	   
- * +GerI	   	   
- * +GerII	   	   
- * +PrfPrc	   	   
- * +PrsPrc	   	   
- * +VAbess	   	   
- * +Sup	   	   
- * +VAdv	   	   
- * +Cmp	   	   
- * +TV		   	   
- * +IV		   	   
+ * +Neg	   	   Negation verb
+ * +ConNeg	   	   Connegative verb
+ * +GerI	   	   Gerund I
+ * +GerII	   	   Gerund II
+ * +PrfPrc	   	   Perfect participle
+ * +PrsPrc	   	   Present participle
+ * +VAbess	   	   Verb abessive
+ * +Cmp	   	   Compound
+ * +TV		   	   Transitive verb
+ * +IV		   	   Intransitive verb
 
 Other tags
- * +ABBR	   	   
+ * +ABBR	   	   Abbreviation
  * +Symbol = independent symbols in the text stream, like £, €, ©
- * +Coll	   	   
- * +Cmp/SgNom 	   
- * +Det	   	   
- * +Par	   	   
+ * +Coll	   	   Collocation
+ * +Cmp/SgNom 	   Compound component using Nominative Singular form
+ * +Cmp/SgGen 	   Compound component using Genitive Singular form
+ * +Det	   	   Determiner
 
 Derivation tags
- * +Der/NomAg 	   
- * +Der/Dimin 	   
- * +Der/State 	   
+ * +Der/NomAg 	   Derived agent noun
+ * +Der/Dimin 	   Derived diminutive
+ * +Der/State 	   Derived state noun
 
 
 !Nominal MSP
- * +Sg 	    
- * +Pl 	   
+ * +Sg 	   Singular
+ * +Pl 	   Plural
 
 !Case
 
- * +Nom    
- * +Acc    
- * +Gen    
- * +Ill    
- * +Ine    
- * +Ela    
- * +Com    
- * +Ess    
- * +Abe    
- * +Ord    
- * +Card   
- * +Qst    
+ * +Nom    Nominative
+ * +Acc    Accusative
+ * +Gen    Genitive
+ * +Ill    Illative
+ * +Ine    Inessive
+ * +Ela    Elative
+ * +Com    Comitative
+ * +Ess    Essive
+ * +Abe    Abessive
+ * +Ord    Ordinal
+ * +Card   Cardinal
 
 Semantic properties of names
 
- * +Prop	   
- * +Sem/Ani   
- * +Sem/Mal   
- * +Sem/Fem   
- * +Sem/Sur   
- * +Sem/Plc   
- * +Sem/Org   
- * +Sem/Obj   
 
 Pssessive suffixes
- * +PxSg1     
- * +PxSg2     
- * +PxSg3    
- * +PxDu1    
- * +PxDu2    
- * +PxDu3    
- * +PxPl1     
- * +PxPl2     
- * +PxPl3    
+ * +PxSg1     First person singular possessive suffix
+ * +PxSg2     Second person singular possessive suffix
+ * +PxSg3     Third person singular possessive suffix
+ * +PxDu1     First person dual possessive suffix
+ * +PxDu2     Second person dual possessive suffix
+ * +PxDu3     Third person dual possessive suffix
+ * +PxPl1     First person plural possessive suffix
+ * +PxPl2     Second person plural possessive suffix
+ * +PxPl3     Third person plural possessive suffix
 
 Other tags
- * +Err/Orth      Not part of standard
- * +Use/NG     Part of standard, but not generated
+ * +Err/Orth      Not part of standard orthography
+ * +Use/NG        Found in reality, but not generated
  * +Use/Circ      
  * +Cmp/Hyph      
  * +Cmp/SplitR    
  * +Use/-Spell    
- * +Use/-PLX   Excluded in PLX speller
 
 
 
@@ -190,9 +175,8 @@ The first part of the component may be ..
 
 
 !!Punctuation tags
- * +CLB      
- * +PUNCT    
- * +PAR      
+ * +CLB      Clause boundary
+ * +PUNCT    Punctuation
  * +LEFT     
  * +RIGHT    
  * +SENT     
