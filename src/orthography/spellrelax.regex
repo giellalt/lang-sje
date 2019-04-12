@@ -1,15 +1,14 @@
 # Pite
 # not written
 
-
-á (->) á,
-Á (->) Á,
+á (->) á, # with COMBINING ACUTE ACCENT
+Á (->) Á, # with COMBINING ACUTE ACCENT
 đ (->) ð,
 ŋ (->) ń, # precomposed
 ŋ (->) ń, # n + combining acure
 ŋ (->) ñ, # ditto
 ŋ (->) ñ,
-æ (->) ä, # ditto, etc.
+æ (->) ä, 
 æ (->) ä,
 Æ (->) Ä,
 Æ (->) Ä,
@@ -21,11 +20,12 @@
 ö (->) ø,
 Ö (->) Ø,
 Ö (->) Ø,
-ï (->) i # sma norm
 ;
 
 # Explanation:
 # lexical side (->) input 
+# X = the form you want (->) Y = will be found even with this form
+# X (->) Y
 
 # Future thought:
 # A posible change is to split this file into lg-specific files.
