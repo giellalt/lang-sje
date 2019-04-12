@@ -21,31 +21,31 @@
 Multichar_Symbols  !!≈ !!!@CODE@  definitions
 
 !! !!POS
-+N 	      !!= * @CODE@  Nouns
-+V 	      !!= * @CODE@  
-+A	      !!= * @CODE@  
-+Adv      !!= * @CODE@  
-+CC	      !!= * @CODE@  
- +CS      !!= * @CODE@  
-+Interj   !!= * @CODE@  
-+Pron     !!= * @CODE@  
-+Num      !!= * @CODE@  
-+Pcle     !!= * @CODE@  
-+Po	      !!= * @CODE@  
-+Pr	      !!= * @CODE@  
++N 	      !!= * @CODE@  Noun
++V 	      !!= * @CODE@  Verb
++A	      !!= * @CODE@  Adjective
++Adv      !!= * @CODE@  Adverb
++CC	      !!= * @CODE@  Coordinating conjuction
++CS	      !!= * @CODE@  Subordinating conjuction
++Interj   !!= * @CODE@  Interjection
++Pron     !!= * @CODE@  Pronoun
++Num      !!= * @CODE@  Numeral
++Pcle     !!= * @CODE@  Particle
++Po	      !!= * @CODE@  Postposition
++Pr	      !!= * @CODE@  Preposition
 
 !! !!Subclasses
-+Pers 		  !!= * @CODE@ 
-+Dem 		  !!= * @CODE@ 
-+Interr 	  !!= * @CODE@ 
-+Indef 		  !!= * @CODE@ 
-+Refl 		  !!= * @CODE@ 
-+Recipr 	  !!= * @CODE@ 
-+Rel 		  !!= * @CODE@ 
-+NomAg		  !!= * @CODE@ 
-+Attr		  !!= * @CODE@ 
-+Comp		  !!= * @CODE@ 
-+Superl		  !!= * @CODE@ 
++Pers 		  !!= * @CODE@ Personal
++Dem 		  !!= * @CODE@ Demonstrative
++Interr 	  !!= * @CODE@ Interrogative
++Indef 		  !!= * @CODE@ Indefinite
++Refl 		  !!= * @CODE@ Reflexive
++Recipr 	  !!= * @CODE@ Reciprocal
++Rel 		  !!= * @CODE@ Relative
++NomAg		  !!= * @CODE@ Agent noun
++Attr		  !!= * @CODE@ Attributive
++Comp		  !!= * @CODE@ Comparative
++Superl		  !!= * @CODE@ Superlative
 
 
 !! !!Morphosyntactic properties
@@ -54,103 +54,104 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 
 !! Tense-mode
 +Prs	   	  !!= * @CODE@ Present tense
-+Prt	   	  !!= * @CODE@ 
-+Prf	   	  !!= * @CODE@ 
-+Ind	   	  !!= * @CODE@ 
-+Imprt	   	  !!= * @CODE@ 
-+Cond	   	  !!= * @CODE@ 
-+Pot	   	  !!= * @CODE@ 
++Prt	   	  !!= * @CODE@ Preterite (past) tense
+!+Prf	   	  !!= * @CODE@ Perfect
++Ind	   	  !!= * @CODE@ Indicative mood
++Imprt	   	  !!= * @CODE@ Imperative mood
+!+Cond	   	  !!= * @CODE@ Conditional mood
++Pot	   	  !!= * @CODE@ Potential mood
 
 !! Person-number
 +Sg1	   	  !!= * @CODE@ First person singular
-+Sg2	   	  !!= * @CODE@ etc
-+Sg3	   	  !!= * @CODE@ 
-+Du1	   	  !!= * @CODE@ 
-+Du2	   	  !!= * @CODE@ 
-+Du3	   	  !!= * @CODE@ 
-+Pl1	   	  !!= * @CODE@ 
-+Pl2	   	  !!= * @CODE@ 
-+Pl3	   	  !!= * @CODE@ 
++Sg2	   	  !!= * @CODE@ Second person singular
++Sg3	   	  !!= * @CODE@ Third person singular
++Du1	   	  !!= * @CODE@ First person dual
++Du2	   	  !!= * @CODE@ Second person dual
++Du3	   	  !!= * @CODE@ Third person dual
++Pl1	   	  !!= * @CODE@ First person plural
++Pl2	   	  !!= * @CODE@ Second person plural
++Pl3	   	  !!= * @CODE@ Third person plural
 
 !! Infinite forms
 +Inf	   	  !!= * @CODE@ Infinitive
-+Pos	   	  !!= * @CODE@ 
-+Neg	   	  !!= * @CODE@ 
-+ConNeg	   	  !!= * @CODE@ 
-+GerI	   	  !!= * @CODE@ 
-+GerII	   	  !!= * @CODE@ 
-+PrfPrc	   	  !!= * @CODE@ 
-+PrsPrc	   	  !!= * @CODE@ 
-+VAbess	   	  !!= * @CODE@ 
-+Sup	   	  !!= * @CODE@ 
-+VAdv	   	  !!= * @CODE@ 
-+Cmp	   	  !!= * @CODE@ 
-+TV		   	  !!= * @CODE@ 
-+IV		   	  !!= * @CODE@ 
+!+Pos	   	  !!= * @CODE@ 
++Neg	   	  !!= * @CODE@ Negation verb
++ConNeg	   	  !!= * @CODE@ Connegative verb
++GerI	   	  !!= * @CODE@ Gerund I
++GerII	   	  !!= * @CODE@ Gerund II
++PrfPrc	   	  !!= * @CODE@ Perfect participle
++PrsPrc	   	  !!= * @CODE@ Present participle
++VAbess	   	  !!= * @CODE@ Verb abessive
+!+Sup	   	  !!= * @CODE@ Supine
+!+VAdv	   	  !!= * @CODE@ 
++Cmp	   	  !!= * @CODE@ Compound
++TV		   	  !!= * @CODE@ Transitive verb
++IV		   	  !!= * @CODE@ Intransitive verb
 
 !! Other tags
-+ABBR	   	  !!= * @CODE@ 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-+Coll	   	  !!= * @CODE@ 
-+Cmp/SgNom 	  !!= * @CODE@ 
-+Det	   	  !!= * @CODE@ 
-+Par	   	  !!= * @CODE@ 
++ABBR	   	  !!= * @CODE@ Abbreviation
++Symbol       !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
++Coll	   	  !!= * @CODE@ Collocation
++Cmp/SgNom 	  !!= * @CODE@ Compound component using Nominative Singular form
++Cmp/SgGen 	  !!= * @CODE@ Compound component using Genitive Singular form
++Det	   	  !!= * @CODE@ Determiner
+!+Par	   	  !!= * @CODE@ 
 
 !! Derivation tags
-+Der/NomAg 	  !!= * @CODE@ 
-+Der/Dimin 	  !!= * @CODE@ 
-+Der/State 	  !!= * @CODE@ 
++Der/NomAg 	  !!= * @CODE@ Derived agent noun
++Der/Dimin 	  !!= * @CODE@ Derived diminutive
++Der/State 	  !!= * @CODE@ Derived state noun
 
 
 !! !Nominal MSP
-+Sg 	  !!= * @CODE@  
-+Pl 	  !!= * @CODE@ 
++Sg 	  !!= * @CODE@ Singular
++Pl 	  !!= * @CODE@ Plural
 
 !! !Case
 
-+Nom   !!= * @CODE@ 
-+Acc   !!= * @CODE@ 
-+Gen   !!= * @CODE@ 
-+Ill   !!= * @CODE@ 
-+Ine   !!= * @CODE@ 
-+Ela   !!= * @CODE@ 
-+Com   !!= * @CODE@ 
-+Ess   !!= * @CODE@ 
-+Abe   !!= * @CODE@ 
-+Ord   !!= * @CODE@ 
-+Card  !!= * @CODE@ 
-+Qst   !!= * @CODE@ 
++Nom   !!= * @CODE@ Nominative
++Acc   !!= * @CODE@ Accusative
++Gen   !!= * @CODE@ Genitive
++Ill   !!= * @CODE@ Illative
++Ine   !!= * @CODE@ Inessive
++Ela   !!= * @CODE@ Elative
++Com   !!= * @CODE@ Comitative
++Ess   !!= * @CODE@ Essive
++Abe   !!= * @CODE@ Abessive
++Ord   !!= * @CODE@ Ordinal
++Card  !!= * @CODE@ Cardinal
+!+Qst   !!= * @CODE@ Question particle (as clitic?)
 
 !! Semantic properties of names
 
-+Prop	  !!= * @CODE@ 
-+Sem/Ani  !!= * @CODE@ 
-+Sem/Mal  !!= * @CODE@ 
-+Sem/Fem  !!= * @CODE@ 
-+Sem/Sur  !!= * @CODE@ 
-+Sem/Plc  !!= * @CODE@ 
-+Sem/Org  !!= * @CODE@ 
-+Sem/Obj  !!= * @CODE@ 
+!+Prop	  !!= * @CODE@ 
+!+Sem/Ani  !!= * @CODE@ 
+!+Sem/Mal  !!= * @CODE@ 
+!+Sem/Fem  !!= * @CODE@ 
+!+Sem/Sur  !!= * @CODE@ 
+!+Sem/Plc  !!= * @CODE@ 
+!+Sem/Org  !!= * @CODE@ 
+!+Sem/Obj  !!= * @CODE@ 
 
 !! Pssessive suffixes
-+PxSg1    !!= * @CODE@ 
-+PxSg2    !!= * @CODE@ 
-+PxSg3    !!= * @CODE@
-+PxDu1    !!= * @CODE@
-+PxDu2    !!= * @CODE@
-+PxDu3    !!= * @CODE@
-+PxPl1    !!= * @CODE@ 
-+PxPl2    !!= * @CODE@ 
-+PxPl3    !!= * @CODE@
++PxSg1    !!= * @CODE@ First person singular possessive suffix
++PxSg2    !!= * @CODE@ Second person singular possessive suffix
++PxSg3    !!= * @CODE@ Third person singular possessive suffix
++PxDu1    !!= * @CODE@ First person dual possessive suffix
++PxDu2    !!= * @CODE@ Second person dual possessive suffix
++PxDu3    !!= * @CODE@ Third person dual possessive suffix
++PxPl1    !!= * @CODE@ First person plural possessive suffix
++PxPl2    !!= * @CODE@ Second person plural possessive suffix
++PxPl3    !!= * @CODE@ Third person plural possessive suffix
 
 !! Other tags
-+Err/Orth     !!= * @CODE@ Not part of standard
-+Use/NG   !!= * @CODE@  Part of standard, but not generated
++Err/Orth     !!= * @CODE@ Not part of standard orthography
++Use/NG       !!= * @CODE@ Found in reality, but not generated
 +Use/Circ     !!= * @CODE@ 
 +Cmp/Hyph     !!= * @CODE@ 
 +Cmp/SplitR   !!= * @CODE@ 
 +Use/-Spell   !!= * @CODE@ 
-+Use/-PLX        !!≈ * @CODE@   Excluded in PLX speller
+!+Use/-PLX     !!≈ * @CODE@   Excluded in PLX speller
 
 
 
@@ -209,9 +210,9 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 
 
 !! !!Punctuation tags
-+CLB     !!= * @CODE@ 
-+PUNCT   !!= * @CODE@ 
-+PAR     !!= * @CODE@ 
++CLB     !!= * @CODE@ Clause boundary
++PUNCT   !!= * @CODE@ Punctuation
+!+PAR     !!= * @CODE@ 
 +LEFT    !!= * @CODE@ 
 +RIGHT   !!= * @CODE@ 
 +SENT    !!= * @CODE@ 
