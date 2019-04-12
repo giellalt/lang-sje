@@ -129,6 +129,24 @@ analyser-oahpa-gt-norm.%: analyser-gt-norm.tmp.% \
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
 
+
+# Dict-fst local modifications and language-specific changes:
+generator-dict-gt-norm.%: generator-dict-gt-norm.tmp.% \
+					filters/remove-norm-comp-tags.%           \
+					filters/remove-derivation-position-tags.% \
+					filters/make-optional-variant-tags.%      \
+					filters/remove-number-string-tags.%       
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/remove-number-string-tags.$*\"  \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"filters/make-optional-variant-tags.$*\"      \
+			.o. @\"$<\"                                         \
+			;\n\
+		 $(INVERT_XFST)$(INVERT_FOMA)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 # ... as well as in the disambiguation analyser:
 analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.%      \
 					filters/remove-derivation-position-tags.% \
@@ -143,6 +161,21 @@ analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.%      \
 		 $(INVERT_HFST)\
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
+
+
+# We need to add processing of language-specific tags in the analysers:
+analyser-dict-gt-desc.%: analyser-dict-gt-desc.tmp.%          \
+					filters/remove-norm-comp-tags.%           \
+					filters/remove-derivation-position-tags.% 
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 
 # We need to add processing of language-specific tags in the generator:
 define giella_generators
