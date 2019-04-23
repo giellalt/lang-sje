@@ -176,6 +176,18 @@ analyser-dict-gt-desc.%: analyser-dict-gt-desc.tmp.%          \
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
 
+# We need to add processing of language-specific tags in the analysers:
+analyser-dict-gt-desc-mobile.%: analyser-dict-gt-desc-mobile.tmp.%          \
+					filters/remove-norm-comp-tags.%           \
+					filters/remove-derivation-position-tags.% 
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			    @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
 
 # We need to add processing of language-specific tags in the generator:
 define giella_generators
