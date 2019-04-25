@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-04-19T13:37:09+02:00
+! Generated at: 2019-04-23T14:58:39+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -58,6 +58,7 @@ tjievres:tjievvr N_CONTR_ESAA "otter" ; ! no. 1906
 vielmes:vielbm N_CONTR_ESAA "stretch of smooth water" ; ! no. 90388
 viepses:viepps N_CONTR_ESAA "wasp" ; ! no. 2768
 vuokses:vu^Okks N_CONTR_ESAA "cattle" ; ! no. 90308
+vuontses:vu^Onnts N_CONTR_ESAA "chicken" ; ! no. 91246
 arrambåtsoj:arram#båhts N_CONTR_OJU "fat reindeer in good condition" ; ! no. 3893
 bebbmusbåtsoj:bebbmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
 båtsoj+CmpN/SgN+CmpN/SgG:båhts N_CONTR_OJU "reindeer" ; ! no. 263
@@ -79,7 +80,7 @@ ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 akkusatijjva:akkusatijjva N_EVEN "accusative" ; ! no. 3115
 aksjuvdna:aksjuvdna N_EVEN "auction" ; ! no. 3145
 aktasatj+A+Der/State:aktasatjvu^Ohta N_EVEN "unity" ; ! no. 3988
-albme:albme N_EVEN "sky, heavens, space" ; ! no. 43
+albme:albme N_EVEN "sky, heavens, (outer) space" ; ! no. 43
 alfabähtta:alfabiehtta N_EVEN "alphabet" ; ! no. 3085
 allaskåvvlå+Use/NG:alla#skåvvla N_EVEN "school of higher education" ; ! no. 4212
 allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 91041
@@ -1339,7 +1340,6 @@ visste:visste N_EVEN "reindeer lichen" ; ! no. 2134
 vivva:vivva N_EVEN "son-in-law" ; ! no. 2136
 vuabbda:vu^Obbda N_EVEN "breast, chest" ; ! no. 2147
 vuahppa:vu^Ohppa N_EVEN "father-in-law" ; ! no. 2139
-vuanntsa:vu^Onntsa N_EVEN "chicken" ; ! no. 2140
 vuappta:vu^Oppta N_EVEN "head hair (for humans)" ; ! no. 2141
 vuarrtja:vu^Orrtja N_EVEN "crow" ; ! no. 2189
 vuarrtjamuärrje:vuarrtja#mu^Orrje N_EVEN "crowberry" ; ! no. 1923
@@ -2472,7 +2472,7 @@ gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
 máles:málles N_ODD_V2E2AA "hot meal, dinner" ; ! no. 90270
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
-vuontsaåres:vuontsa#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
+vuanntsáåres:vuanntsá#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
 judos:juhtos N_ODD_VH "animal" ; ! no. 929
 jugos:juhkos N_ODD_VH "drink, beverage" ; ! no. 3458
