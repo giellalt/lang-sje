@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-04-23T14:58:39+02:00
+! Generated at: 2019-05-04T14:07:02+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -93,12 +93,11 @@ anuráhkka:anuráhkka N_EVEN "anorak" ; ! no. 3108
 apparahtta:apparahtta N_EVEN "device, machine" ; ! no. 3126
 appelsijdna:appelsijdna N_EVEN "orange (fruit)" ; ! no. 3124
 arbmogis+A+Der/State:arbmogisvu^Ohta N_EVEN "mercy" ; ! no. 63
-artonåsse:arton#åsse N_EVEN "payment for a reindeer hand in form of a slaughtered reindeer" ; ! no. 4206
+artånåsse:artån#åsse N_EVEN "payment for a reindeer hand in form of a slaughtered reindeer" ; ! no. 4206
 asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
 atåmå:atåmå N_EVEN "atom" ; ! no. 3143
 avve:avve N_EVEN "belt" ; ! no. 91037
-avvstagárre:avvsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
 áhkarmuärrje:áhkar#mu^Orrje N_EVEN "arctic raspberry" ; ! no. 5955
@@ -132,6 +131,7 @@ avvstagárre:avvsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 árrgabäjjve:árrga#biejjve N_EVEN "everyday" ; ! no. 71
 árrje:árrje N_EVEN "short esker" ; ! no. 72
 árrka:árrka N_EVEN "ark" ; ! no. 3136
+árrvopåsstå:árrvo#påsstå N_EVEN "certified mail" ; ! no. 4178
 ásfallta:ásfallta N_EVEN "asphalt" ; ! no. 3141
 ássje:ás'sje N_EVEN "matter, affair; case, hearing" ; ! no. 90879
 átjádállke:átjá#dállke N_EVEN "stormy weather" ; ! no. 6123
@@ -140,6 +140,7 @@ avvstagárre:avvsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ávahávvde:áva#hávvde N_EVEN "hiding place for silver in a pile of stones" ; ! no. 85
 ávvke:ávvke N_EVEN "use, benefit" ; ! no. 94
 ávvlemuorra:ávvle#mu^Orra N_EVEN "cross beam in a Saami hut" ; ! no. 86
+ávvstagárre:ávvsta#gárre N_EVEN "bailing scoop" ; ! no. 90
 ávvtja:ávvtja N_EVEN "bird cherry tree" ; ! no. 92
 ávvtjamuärrje:ávvtja#mu^Orrje N_EVEN "hagberry" ; ! no. 4668
 badjegiehtje:badje#giehtje N_EVEN "upper end, top side" ; ! no. 6130
@@ -883,6 +884,7 @@ plåhttå:plåhttå N_EVEN "sheet metal" ; ! no. 90296
 prunnta:prunnta N_EVEN "water hole, water pit" ; ! no. 1427
 prusjäkkta:prusjiekkta N_EVEN "project" ; ! no. 5057
 påjjkå:påjjkå N_EVEN "boy" ; ! no. 2570
+påsstå:påsstå N_EVEN "mail, post" ; ! no. 91248
 pänna:pien'na N_EVEN "pen" ; ! no. 1355
 rabma:rabma N_EVEN "little ledge" ; ! no. 6892
 ragatájjge:ragat#ájjge N_EVEN "mating season for reindeer" ; ! no. 2439
@@ -1703,7 +1705,6 @@ värbme:vierbme N_EVEN_NOCG "net" ; ! no. 2225
 ärra+Use/NG:iedda N_EVEN_NOCG "scar" ; ! no. 90497
 ahtselisrássjo:ahtselis#rássjo N_EVEN_O "heavy rain shower" ; ! no. 90915
 andersmässo:anders#mies'so N_EVEN_O "Andersmässhelgen" ; ! no. 4229
-arrvo:arrvo N_EVEN_O "value, price" ; ! no. 4176
 assto:assto N_EVEN_O "time" ; ! no. 81
 ággŋo:ággŋo N_EVEN_O "oarlock" ; ! no. 9
 ájjdo:ájjdo N_EVEN_O "trampled path in snow" ; ! no. 23
@@ -1714,6 +1715,7 @@ assto:assto N_EVEN_O "time" ; ! no. 81
 álldo:álldo N_EVEN_O "reindeer doe with calf" ; ! no. 50
 állgo:állgo N_EVEN_O "beginning" ; ! no. 3237
 árrpo:árrpo N_EVEN_O "wire" ; ! no. 2596
+árrvo:árrvo N_EVEN_O "value, price" ; ! no. 4176
 ávvo:ávvo N_EVEN_O "happiness" ; ! no. 4293
 ávvtso:ávvtso N_EVEN_O "brushwood (next to water)" ; ! no. 93
 bajeldisgárrvo:bajeldis#gárrvo N_EVEN_O "outer layer of clothing" ; ! no. 119
@@ -2014,6 +2016,7 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
 árrat:árrad2 N_ODD "morning" ; ! no. 70
 árrbeiednam:árrbe#iednam N_ODD "land with customary law" ; ! no. 6846
+árrvobáhper:árrvo#báhper N_ODD "security paper" ; ! no. 4177
 átjek:átjeg2 N_ODD "thunder" ; ! no. 83
 bahák:bahág2 N_ODD "evil" ; ! no. 2601
 baksem:baksem N_ODD "lip" ; ! no. 90526
@@ -2247,11 +2250,11 @@ plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
 prufässur:prufä2ssur N_ODD "professor" ; ! no. 4268
 pruvnok:pruvnog2 N_ODD "braided rein made of eight leather strips" ; ! no. 4059
+radak:radag2 N_ODD "smoked, spread out fish" ; ! no. 4448
 ragak:ragag2 N_ODD "reindeer buck with only one testicle due to a partially failed castration" ; ! no. 90739
 ragat:ragad2 N_ODD "mating, breeding" ; ! no. 90383
 randek:randeg2 N_ODD "antler with many forward-facing points " ; ! no. 6894
 rábon:rábon N_ODD "brush, broom, snow shovel, scraper" ; ! no. 1357
-rádak:rádag2 N_ODD "smoked fish" ; ! no. 4448
 rádjet+V+Der/NomAg:rádjej N_ODD "sender" ; ! no. 3176
 rádnatj:rádnatj N_ODD "friend" ; ! no. 90251
 rággas:rággas N_ODD "mosquito net for sleeping under" ; ! no. 2858
