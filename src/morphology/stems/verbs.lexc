@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-04-28T15:09:47+02:00
+! Generated at: 2019-05-04T14:06:24+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -501,7 +501,7 @@ närridallat:närridall V_EVEN_A "be teased" ; ! no. 90656
 práhttat:práhtt V_EVEN_A "crackle (for fire)" ; ! no. 1353
 rahkat:rahk V_EVEN_A "breed, mate (for animals)" ; ! no. 3911
 rahpat:rahp V_EVEN_A "open" ; ! no. 1372
-rahtat:raht V_EVEN_A "slit open, unstitch" ; ! no. 1376
+rahtat:raht V_EVEN_A "split open, unstitch" ; ! no. 1376
 rahtjat:rahtj V_EVEN_A "strive for, desire to get away (for reindeer)" ; ! no. 1377
 ravvgat:ravvg V_EVEN_A "trip, fall down" ; ! no. 1393
 rádjat:rádj V_EVEN_A "send" ; ! no. 1364
@@ -657,7 +657,7 @@ bulligåhtet:bulligåht V_EVEN_E "begin to burn" ; ! no. 90641
 buollet:bu^Oll V_EVEN_E "burn, be on fire" ; ! no. 90640
 buorastahttet:buorastahtt V_EVEN_E "greet, shake hands" ; ! no. 3753
 buvvet:buvv V_EVEN_E "strangle" ; ! no. 3706
-buäkktet:bu^Okkt V_EVEN_E "come with something" ; ! no. 3036
+buäkktet:bu^Okkt V_EVEN_E "come (with something)" ; ! no. 3036
 buälldet:bu^Olld V_EVEN_E "burn, ignite" ; ! no. 228
 bådnet:bådn V_EVEN_E "twist tendon into string" ; ! no. 233
 båhtet:båht V_EVEN_E "come, arrive" ; ! no. 238
@@ -819,9 +819,9 @@ värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 ällvet:iellv V_EVEN_E "discover" ; ! no. 2287
 guäddet:gu^Odd V_EVEN_E_G3 "carry" ; ! no. 717
 agŋot:agŋ V_EVEN_O "stretch, reach for something" ; ! no. 90637
-avvstot:avvst V_EVEN_O "scoop, bail out" ; ! no. 3674
 ájjgot:ájjg V_EVEN_O "intend, mean to" ; ! no. 27
 ávgŋot:ávgŋ V_EVEN_O "tear apart" ; ! no. 2613
+ávvstot:ávvst V_EVEN_O "scoop, bail out" ; ! no. 3674
 bájdnot:bájdn V_EVEN_O "get a secondary flavor or color" ; ! no. 3647
 bállkot:bállk V_EVEN_O "throw, cast" ; ! no. 135
 biehkot:biehk V_EVEN_O "bleat" ; ! no. 90811
@@ -1474,8 +1474,7 @@ nårrdådit:nårrdåd V_ODD "bump into" ; ! no. 4333
 pláhkodit:pláhkod V_ODD "lay stretched out" ; ! no. 1347
 rabastit:rabast V_ODD "open repeatedly" ; ! no. 5058
 rabnjastit:rabnjast V_ODD "fold back (e.g. a tent door)" ; ! no. 1356
-radasit:radas V_ODD "unstitch" ; ! no. 4288
-radastit:radast V_ODD "unstitch" ; ! no. 5062
+radastit:radast V_ODD "split open, unstitch (quickly)" ; ! no. 4288
 rábastit:rábast V_ODD "brush, sweep" ; ! no. 3380
 rádestit:rádest V_ODD "consult, advise" ; ! no. 4640
 ráhkostit:ráhkost V_ODD "fish with a net under the ice" ; ! no. 1371
