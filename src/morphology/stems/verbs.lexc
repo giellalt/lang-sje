@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-05-04T14:06:24+02:00
+! Generated at: 2019-05-05T21:34:58+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -366,7 +366,7 @@ billsat:bills V_EVEN_A "change fur (for reindeer)" ; ! no. 2576
 bivvat:bivv V_EVEN_A "keep warm" ; ! no. 4415
 buakktjat:bu^Okktj V_EVEN_A "duck" ; ! no. 198
 bualdnat:bu^Oldn V_EVEN_A "wither, wilt" ; ! no. 90639
-bådadallat:bådadall V_EVEN_A "be surprised" ; ! no. 4156
+bådádallat:bådádall V_EVEN_A "be surprised" ; ! no. 4156
 bånjudallat:bånjudall V_EVEN_A "writhe in pain" ; ! no. 4707
 bårådallat:bårådall V_EVEN_A "be bitten" ; ! no. 257
 bäbbmat:biebbm V_EVEN_A "feed" ; ! no. 3670
@@ -454,7 +454,6 @@ juhkat:juhk V_EVEN_A "drink" ; ! no. 931
 juhtsat:juhts V_EVEN_A "thunder, boom" ; ! no. 933
 jurgudallat:jurgudall V_EVEN_A "spin around, turn in circles" ; ! no. 5556
 jåksådallat:jåksådall V_EVEN_A "catch up" ; ! no. 5548
-jårrgat:jårrg V_EVEN_A "turn over" ; ! no. 959
 krádjat:krádj V_EVEN_A "grunt (for reindeer cows and calves)" ; ! no. 977
 krápptat:kráppt V_EVEN_A "tolerate" ; ! no. 2161
 kruahkkat:kru^Ohkk V_EVEN_A "itch, scratch" ; ! no. 3865
@@ -706,7 +705,7 @@ harrdet:harrd V_EVEN_E "irritate, agitate" ; ! no. 5754
 hásstet:hásst V_EVEN_E "ask someone to come along" ; ! no. 822
 hiejtedahttet:hiejtedahtt V_EVEN_E "wean, quit" ; ! no. 3180
 huorvedasstet:huorvedasst V_EVEN_E "pull one's hair" ; ! no. 90768
-hålajdahttet:hålajdahtt V_EVEN_E "address" ; ! no. 853
+hålájdahttet:hålájdahtt V_EVEN_E "address" ; ! no. 853
 hålbmet:hålbm V_EVEN_E "talk" ; ! no. 5109
 häjjtet:hiejjt V_EVEN_E "quit, stop, finish" ; ! no. 2536
 iedjet:iedj V_EVEN_E "mark someone else’s calf" ; ! no. 6552
@@ -783,7 +782,7 @@ tsáhket:tsáhk V_EVEN_E "stuff into" ; ! no. 1996
 tsáhpet:tsáhp V_EVEN_E "endure" ; ! no. 1998
 tsápptset:tsáppts V_EVEN_E "shut or blink one’s eyes" ; ! no. 90353
 vaddet:vadd V_EVEN_E "give" ; ! no. 2044
-åjaldahttet+Use/NG:vajálduhtt V_EVEN_E "forget" ; ! no. 90447
+åjáldahttet+Use/NG:vajálduhtt V_EVEN_E "forget" ; ! no. 90447
 vanaldahttet:vanaldahtt V_EVEN_E "stretch out" ; ! no. 6099
 varrdet:varrd V_EVEN_E "bleed" ; ! no. 3287
 vádtset:vádts V_EVEN_E "go, walk" ; ! no. 2049
@@ -808,7 +807,7 @@ vuällget:vu^Ollg V_EVEN_E "drive, travel, go" ; ! no. 2211
 vuärrdet:vu^Orrd V_EVEN_E "wait" ; ! no. 2591
 värrdet:vierrd V_EVEN_E "fell" ; ! no. 4008
 årret+Use/NG:ådd V_EVEN_E "sleep" ; ! no. 90456
-åjaldahttet:åjaldahtt V_EVEN_E "forget" ; ! no. 2060
+åjáldahttet:åjáldahtt V_EVEN_E "forget" ; ! no. 2060
 åjjtet:åjjt V_EVEN_E "slay, kill, murder" ; ! no. 3740
 ånedasstet:ånedasst V_EVEN_E "make a bit shorter" ; ! no. 5037
 årodahttet:årodahtt V_EVEN_E "be habitable" ; ! no. 3226
@@ -1095,7 +1094,7 @@ bådtsåstit:bådtsåst V_ODD "shake off water (for reindeer and other animals)"
 båggedit:bågged V_ODD "fall, tumble" ; ! no. 2409
 båhttásit:båhttás V_ODD "boil over" ; ! no. 237
 båhtånit:båhtån V_ODD "swell, bulge" ; ! no. 240
-båktjanit:båktjan V_ODD "suffocate, have something stuck in one’s windpipe" ; ! no. 244
+båktjánit:båktján V_ODD "suffocate, have something stuck in one’s windpipe" ; ! no. 244
 bånjådit:bånjåd V_ODD "turn back and forth" ; ! no. 91017
 bånjåstit:bånjåst V_ODD "knock over a reindeer" ; ! no. 5204
 bårgestit:bårgest V_ODD "smoke, give off smoke" ; ! no. 247
@@ -1277,7 +1276,7 @@ gåmådit:gåmåd V_ODD "topple" ; ! no. 757
 gåmåstit:gåmåst V_ODD "be stored" ; ! no. 758
 gårrodit:gårrod V_ODD "become covered in ice" ; ! no. 4693
 gåsådit:gåsåd V_ODD "cough a little bit" ; ! no. 4898
-gåvganit:gåvgan V_ODD "become open" ; ! no. 91068
+gåvvgánit:gåvvgán V_ODD "become open" ; ! no. 91068
 gähppadit:gä2hppad V_ODD "work out easily" ; ! no. 6807
 gähttjalit:gä2httjal V_ODD "attempt, try" ; ! no. 2384
 gärrvudit:gä2rrvud V_ODD "get dressed, put on clothes" ; ! no. 793
@@ -1347,7 +1346,7 @@ jurgijdit:jurgijd V_ODD "turn around" ; ! no. 4106
 jåddådit:jåddåd V_ODD "set out net in a lake" ; ! no. 949
 jådedit:jåded V_ODD "migrate or move a short distance" ; ! no. 4465
 jåksådit:jåksåd V_ODD "catch up" ; ! no. 953
-jållarit:jållar V_ODD "spin around" ; ! no. 6051
+jållárit:jållár V_ODD "spin around" ; ! no. 6051
 jårgedit:jårged V_ODD "turn around" ; ! no. 956
 jårrgålit:jårrgål V_ODD "turn, translate" ; ! no. 957
 jårådit:jåråd V_ODD "fall over repeatedly" ; ! no. 4923
@@ -1616,7 +1615,7 @@ sväjjluhit:svä2jjluh V_ODD "be difficult to control, untamed (for reindeer)" ;
 syhkildit:syhkild V_ODD "bicycle" ; ! no. 1810
 sågordit:sågord V_ODD "sugar, sweeten" ; ! no. 5799
 såjådit:såjåd V_ODD "bend; decline, conjugate" ; ! no. 1819
-sårbmanit:sårbman V_ODD "perish" ; ! no. 4379
+sårbmánit:sårbmán V_ODD "perish" ; ! no. 4379
 sårestit:sårest V_ODD "hurt, hurt something, injure" ; ! no. 1825
 sårjåstit:sårjåst V_ODD "seize, grab" ; ! no. 1826
 sähkkarit:sä2hkkar V_ODD "fancy someone" ; ! no. 1833
@@ -1759,7 +1758,7 @@ vänijdit:vä2nijd V_ODD "accustom, get used to" ; ! no. 2936
 åhppånit:åhppån V_ODD "become familiar with" ; ! no. 3243
 åhpådit:åhpåd V_ODD "teach, instruct" ; ! no. 2246
 åhtsålit:åhtsål V_ODD "miss, long for, desire" ; ! no. 2839
-åjaldit:åjald V_ODD "forget" ; ! no. 4460
+åjáldit:åjáld V_ODD "forget" ; ! no. 4460
 åjjvodit:åjjvod V_ODD "guide, advise" ; ! no. 5168
 åmåstit:åmåst V_ODD "be stored" ; ! no. 2259
 ånedit:åned V_ODD "shorten, abbreviate" ; ! no. 3156
