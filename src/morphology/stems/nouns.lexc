@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-05-05T21:36:09+02:00
+! Generated at: 2019-05-08T10:55:33+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1389,7 +1389,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åbme:åbme N_EVEN "thing, object" ; ! no. 2232
 åggomsadje:åggom#sadje N_EVEN "fishing spot" ; ! no. 4265
 åhke:åhke N_EVEN "human fetus" ; ! no. 2242
-åhpa+N+Der/NomAg:åhpadieddje N_EVEN "teacher" ; ! no. 2243
+åhpå+N+Der/NomAg:åhpådieddje N_EVEN "teacher" ; ! no. 2243
 åhtså:åhtså N_EVEN "V-shaped neck opening in a Saami frock" ; ! no. 3464
 åhtsålibme:åhtsålibme N_EVEN "longing, desire" ; ! no. 4279
 åhtsåslähppá:åhtså#sliehppá N_EVEN "clothing piece covering chest" ; ! no. 2249
