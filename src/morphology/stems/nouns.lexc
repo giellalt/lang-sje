@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-05-08T10:55:33+02:00
+! Generated at: 2019-05-08T14:23:43+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1484,7 +1484,7 @@ sávaldak:sávaldag2 N_EVEN4 "wish" ; ! no. 90313
 sillbagietsaldak:sillba#gietsaldag2 N_EVEN4 "silver belt" ; ! no. 1542
 sjierádak:sjierádag2 N_EVEN4 "clear skies, fog-less" ; ! no. 6116
 skárrjáldak:skárrjáldag2 N_EVEN4 "clipped cloth zig-zag in a Saami frock" ; ! no. 6762
-såbmelatj:såbmelatj N_EVEN4 "Finn" ; ! no. 1761
+suobmelatj:su^Obmelatj N_EVEN4 "Finn" ; ! no. 1761
 sågástak:sågástag2 N_EVEN4 "dense birch forest" ; ! no. 6868
 sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
 tjielgadus:tjielgadus N_EVEN4 "definition, explanation" ; ! no. 3565
