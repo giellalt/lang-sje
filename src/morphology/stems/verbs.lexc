@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-05-05T21:34:58+02:00
+! Generated at: 2019-05-27T12:46:09+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1686,7 +1686,7 @@ tsieskedit:tsiesked V_ODD "smart, hurt" ; ! no. 5787
 tsigastit:tsigast V_ODD "nag persistently and insistently" ; ! no. 2002
 tsihkkidit:tsihkkid V_ODD "light, ignite" ; ! no. 2405
 tsintsardit:tsintsard V_ODD "scrawl" ; ! no. 2008
-tsivnjidit:tsivnjid V_ODD "smell smoky (eg. for clothes)" ; ! no. 2011
+tsivdnjedit:tsivdnjed V_ODD "smell smoky (eg. for clothes)" ; ! no. 2011
 tsåggålit:tsåggål V_ODD "quickly pack into a bag" ; ! no. 5349
 tsåjtsedit:tsåjtsed V_ODD "catch on fire, explode resulting in flying debris" ; ! no. 4001
 tsäggahit:tsä2ggah V_ODD "stand upright" ; ! no. 3608
@@ -1709,6 +1709,7 @@ várodit:várod V_ODD "warn" ; ! no. 2083
 várrdahit:várrdah V_ODD "watch, keep watch" ; ! no. 2082
 várrjalit:várrjal V_ODD "protect, defend" ; ! no. 2090
 vásstedit:vássted V_ODD "answer" ; ! no. 90670
+vejudit:vejud V_ODD "polish (silver, brass)" ; ! no. 91253
 venudit:venud V_ODD "reconcile, make up, become friends" ; ! no. 3322
 viegadit:viegad V_ODD "run briefly" ; ! no. 5444
 viehkalit:viehkal V_ODD "run off, run away" ; ! no. 5699
