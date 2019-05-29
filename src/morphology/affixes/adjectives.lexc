@@ -125,7 +125,7 @@ LEXICON A_ÅNEGIS_s2
 +Superl:^WG A_ODD_SUP ;
 
 
-LEXICON A_AALLKE ! állkes/állke/állke/állkep/állkemus-
+LEXICON A_AALLKE ! állkes/állke/állke/állkep/állkemus- (COMP-variant állkáp!)
 +A+Attr:%>s # ;
 +A: A_AALLKE_s2 ; 
 
@@ -133,6 +133,7 @@ LEXICON A_AALLKE_s2
 +Sg+Nom:%> K ; 
 +Pl+Nom:%> K ; 
 +Comp: A_ODD_COMP ;
++Comp+Use/NG: A_ODD_COMP_V2E2AA ;
 +Superl: A_ODD_SUP ;
 
 
