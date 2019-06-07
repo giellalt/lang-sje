@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-06-07T10:07:26+02:00
+! Generated at: 2019-06-07T13:39:44+02:00
 
 !! !!!Pite Saami ProperNouns
 
@@ -39,7 +39,7 @@ Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
 Árjepluovve+Use/NG:Árjapluovve N_EVEN "Arjeplog" ; ! no. 90999
-Árjepluovve+Use/NG:Árjelu^Ovve N_EVEN "Arjeplog" ; ! no. 91255
+Árjepluovve+Use/NG:Árjelu^Ovve N_EVEN "Arjeplog" ; ! no. 91256
 Árjepluovve:Árjepluovve N_EVEN "Arjeplog" ; ! no. 66
 Bassåjjve:Bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
 Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697

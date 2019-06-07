@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-06-07T10:50:20+02:00
+! Generated at: 2019-06-07T13:42:27+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -108,7 +108,7 @@ guvdnjit:guvdnji V_CONTR "euthanize a dog" ; ! no. 716
 guvvnit:guvvni V_CONTR "decay, rot (inside a birch)" ; ! no. 3190
 gåhttsát:gåhttsá V_CONTR "awaken" ; ! no. 743
 gähkkit:gä2hkki V_CONTR "bake soft bread" ; ! no. 6205
-gähkkut:gä2hkku V_CONTR "bake gáhkko" ; ! no. 91256
+gähkkut:gä2hkku V_CONTR "bake gáhkko" ; ! no. 91255
 gähttit:gä2htti V_CONTR "be careful, be afraid for, take care" ; ! no. 784
 gälldit:gä2lldi V_CONTR "castrate" ; ! no. 4452
 gällgit:gä2llgi V_CONTR "give, stretch" ; ! no. 786
