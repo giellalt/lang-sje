@@ -202,7 +202,7 @@ LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul-
 +N:^V2O2U N_ODD_X ;
 +N:^V2O2U N_ODD_DIM ; !link to DIM
 
-LEXICON N_ODD_V2E2AA !odd-syllable with change in V2 from E to Á, eg. åres->årrás-; ALWAYS followed by -s-
+LEXICON N_ODD_V2E2AA !odd-syllable with change in V2 from E to Á, eg. åres->årrás-; ALWAYS followed by -s- or -r-
 +N+Sg+Nom:^WG%> K ;
 +N:^V2E2AA N_ODD_X ;
 +N:^V2E2AA N_ODD_DIM ; !link to DIM
