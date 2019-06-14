@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-06-01T18:07:36+02:00
+! Generated at: 2019-06-14T00:55:51-06:00
 
 !! !!!Pite Saami Nouns
 
@@ -2016,12 +2016,10 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
 árrat:árrad2 N_ODD "morning" ; ! no. 70
 árrbeiednam:árrbe#iednam N_ODD "land with customary law" ; ! no. 6846
-árrvobáhper:árrvo#báhper N_ODD "security paper" ; ! no. 4177
 átjek:átjeg2 N_ODD "thunder" ; ! no. 83
 bahák:bahág2 N_ODD "evil" ; ! no. 2601
 baksem:baksem N_ODD "lip" ; ! no. 90526
 bavrek:bavreg2 N_ODD "awake, alert person" ; ! no. 5992
-báhper:báhper N_ODD "paper" ; ! no. 110
 báhtsak:báhtsag2 N_ODD "cone" ; ! no. 114
 bálgok:bálgog2 N_ODD "reindeer alone in the forest" ; ! no. 6134
 bednik:bednig2 N_ODD "money" ; ! no. 2624
@@ -2034,7 +2032,6 @@ biŋgalsabek:biŋgal#sabeg2 N_ODD "ski made of hardwood made for using on iced-o
 biras:biras N_ODD "duodenum, first section of the small intestine" ; ! no. 90328
 birám:birám N_ODD "bird's crop" ; ! no. 6143
 bissjum:bissjum N_ODD "strap in tent cloth" ; ! no. 3696
-bissmer:bissmer N_ODD "steelyard" ; ! no. 3267
 bissuk:bissug2 N_ODD "tall thin young birch tree" ; ! no. 90529
 bistitj:bistitj N_ODD "teaspoon" ; ! no. 4767
 bivdár:bivdár N_ODD "hunter, fisherman" ; ! no. 90196
@@ -2071,8 +2068,6 @@ dállveiednam:dállve#iednam N_ODD "winter land" ; ! no. 90195
 dállveårroj:dállve#årroj N_ODD "reindeer which remained behind during the winter instead of migrating" ; ! no. 4722
 dehtus:dehtus N_ODD "knowledge" ; ! no. 90321
 derik:derig2 N_ODD "shoes made of leather from reindeer legs" ; ! no. 354
-desimähtter:desi#mä2htter N_ODD "decimeter" ; ! no. 3564
-diamähtter:dia#mä2htter N_ODD "diameter" ; ! no. 3595
 diddnot+V+Der/NomAg:diddnoj N_ODD "spark" ; ! no. 6728
 didtjul:didtjul N_ODD "lizard" ; ! no. 348
 diehkák:diehkág2 N_ODD "pole of a Saami tent" ; ! no. 364
@@ -2095,14 +2090,10 @@ eŋŋgel:eŋŋgel N_ODD "angel" ; ! no. 5287
 ertik:ertig2 N_ODD "side of reindeer" ; ! no. 2881
 fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
-fieber:fieber N_ODD "fever" ; ! no. 4049
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
-fudder:fudder N_ODD "feed" ; ! no. 91173
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
-gahper:gahper N_ODD "cap (part of traditional dress)" ; ! no. 6765
 gahtsem:gahtsem N_ODD "neck (humans)" ; ! no. 504
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
-garber:garber N_ODD "unripe berry" ; ! no. 90542
 garrás:garrás N_ODD "windpipe" ; ! no. 546
 gartsak:gartsag2 N_ODD "rein made of tendon or leather" ; ! no. 3825
 garutj:garutj N_ODD "rubber band" ; ! no. 90253
@@ -2144,7 +2135,6 @@ gurpak:gurpag2 N_ODD "knot" ; ! no. 712
 gusak:gusag2 N_ODD "shoe made of cowhide" ; ! no. 90222
 guäddet+V+Der/NomAg:gu^Oddej^G3 N_ODD "carrier" ; ! no. 90878
 guäddemiednam:guäddem#iednam N_ODD "calving ground" ; ! no. 6653
-guähpper:gu^Ohpper N_ODD "hoof" ; ! no. 684
 guävvdel:gu^Ovvdel N_ODD "in the middle of the day" ; ! no. 4870
 gåhpel:gåhpel N_ODD "capercaillie hen" ; ! no. 735
 gåhttjom:gåhttjom N_ODD "command" ; ! no. 4105
@@ -2184,10 +2174,8 @@ jåhtet+V+Der/NomAg:jåhtej N_ODD "mover, a person migrating" ; ! no. 90891
 jårrem:jårrem N_ODD "eddy" ; ! no. 958
 jämik:jä2mig2 N_ODD "deceased person" ; ! no. 967
 karaalmatj:kara#almatj N_ODD "male, man" ; ! no. 3678
-kánser:kánser N_ODD "cancer" ; ! no. 3521
 klihtar:klihtar N_ODD "creature, livestock (not reindeer)" ; ! no. 90254
 krähppuk:krä2hppug2 N_ODD "glove" ; ! no. 984
-kåpter:kåpter N_ODD "helicopter" ; ! no. 4226
 lafnas:lafnas N_ODD "a reindeer’s morning rest" ; ! no. 2615
 láddak:láddag2 N_ODD "cloudberry" ; ! no. 990
 lávvotárrat:lávvot#árrad2 N_ODD "Saturday morning" ; ! no. 2474
@@ -2218,7 +2206,6 @@ mådtsok:mådtsog2 N_ODD "reindeer fur shoe for children with seams on the insid
 månem:månem N_ODD "kidney" ; ! no. 1208
 mårák:mårág2 N_ODD "angry person" ; ! no. 91046
 mårås:mårås N_ODD "artery" ; ! no. 2852
-mähtter:mä2htter N_ODD "meter" ; ! no. 90634
 mähttseviessoj:mähttse#viessoj N_ODD "forest animal, wild game" ; ! no. 90378
 mähttseårroj:mähttse#årroj N_ODD "hermit" ; ! no. 3999
 nageralmatj:nager#almatj N_ODD "sleepy person" ; ! no. 4998
@@ -2244,7 +2231,6 @@ njåmmel:njåmmel N_ODD "hare, rabbit" ; ! no. 3505
 nulpok:nulpog2 N_ODD "without antlers" ; ! no. 2872
 nuortok:nu^Ortog2 N_ODD "North Saami" ; ! no. 5027
 nybidtjár:nybidtjár N_ODD "settlement" ; ! no. 91199
-báhper+Use/NG:páhper N_ODD "paper" ; ! no. 90700
 perun:perun N_ODD "potato" ; ! no. 1346
 plirgum:plirgum N_ODD "hazel grouse" ; ! no. 177
 plåsstor:plåsstor N_ODD "plaster, bandage" ; ! no. 5056
@@ -2278,7 +2264,6 @@ sadjem:sadjem N_ODD "grindstone" ; ! no. 1472
 salpek:salpeg2 N_ODD "tool made of reindeer antlers" ; ! no. 4773
 saŋátj:saŋátj N_ODD "itch" ; ! no. 1506
 savek:saveg2 N_ODD "ski with climbing skin" ; ! no. 1518
-sáddebáhper:sádde#báhper N_ODD "sandpaper" ; ! no. 1468
 sáddem:sáddem N_ODD "sharpest point in a fox trap" ; ! no. 2793
 sáhkaguäddej:sáhka#gu^Oddej N_ODD "messenger" ; ! no. 3465
 sáhkotjavelk:sáhko#tjavelg2 N_ODD "very thin, meager reindeer" ; ! no. 4494
@@ -2286,7 +2271,6 @@ sálat:sálad2 N_ODD "crevasse in a glacier" ; ! no. 4408
 sámegielak:sáme#gielag2 N_ODD "Saami speaker" ; ! no. 2643
 sárdnom:sárdnom N_ODD "message" ; ! no. 90305
 sávvam:sávvam N_ODD "wish" ; ! no. 5113
-sentimähtter:senti#mä2htter N_ODD "centimeter" ; ! no. 3522
 sibjuk:sibjug2 N_ODD "a woman's brother-in-law; a man's sister-in-law" ; ! no. 5115
 siddar:siddar N_ODD "fine rain" ; ! no. 1534
 sidut:sidud2 N_ODD "desire, wish" ; ! no. 1536
@@ -2313,7 +2297,6 @@ skiddnak:skiddnag2 N_ODD "sickly, thin reindeer" ; ! no. 1629
 skijun:skijun N_ODD "loudspeaker" ; ! no. 1638
 skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predator" ; ! no. 1643
 skubmok:skubmog2 N_ODD "mouth protection" ; ! no. 5911
-skuhter:skuhter N_ODD "snowmobile" ; ! no. 90946
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvlik:skuvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
@@ -2340,7 +2323,7 @@ suorek:su^Oreg2 N_ODD "fork, forked" ; ! no. 1774
 suäbbdek:su^Obbdeg2 N_ODD "uprooted tree" ; ! no. 1783
 svargatj:svargatj N_ODD "snack" ; ! no. 1795
 svájlek:svájleg2 N_ODD "untamed castrated reindeer" ; ! no. 2843
-svierek:sviereg2 N_ODD "Swedish" ; ! no. 1798
+sverik:sverig2 N_ODD "Swedish" ; ! no. 1798
 syhkil:syhkil N_ODD "bicycle" ; ! no. 1809
 säritj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
 säritj:sä2ritj N_ODD "young pine forest" ; ! no. 90349
@@ -2361,7 +2344,6 @@ tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjijjkar:tjijjkar N_ODD "binoculars" ; ! no. 91237
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
 tjilik:tjilig2 N_ODD "baby goat, kid" ; ! no. 5216
-tjilumähtter:tjilu#mä2htter N_ODD "kilometer" ; ! no. 5217
 tjuruk+Use/NG:tjirug2 N_ODD "flesh fly" ; ! no. 91220
 tjuanntjom:tju^Onntjom N_ODD "upper marrowbone on the back leg of a reindeer" ; ! no. 3767
 tjujjvis:tjujjvis N_ODD "dark grey reindeer" ; ! no. 1931
@@ -2418,7 +2400,6 @@ vuovdek:vu^Ovdeg2 N_ODD "forest Saami" ; ! no. 90343
 vusjkun:vusjkun N_ODD "perch" ; ! no. 2196
 vuärrdem:vu^Orrdem N_ODD "waiting, period of waiting" ; ! no. 6587
 vuaffal+Use/NG:våffel N_ODD "waffle" ; ! no. 90721
-vähttjer:vä2httjer N_ODD "hammer" ; ! no. 2106
 väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åbbås:åbbås N_ODD "snow, deep virgin blanket of snow" ; ! no. 2230
 åråk+Use/NG:ådåg2 N_ODD "puppy (older than six months)" ; ! no. 2239
@@ -2467,15 +2448,36 @@ tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuola:vu^Ollag N_ODD_OPEN "inebriation, drunkenness" ; ! no. 91034
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
+árrvobáhper:árrvo#báhper N_ODD_V2E2AA "security paper" ; ! no. 4177
+báhper:báhper N_ODD_V2E2AA "paper" ; ! no. 110
+bissmer:bissmer N_ODD_V2E2AA "steelyard" ; ! no. 3267
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
+desimähtter:desi#mä2htter N_ODD_V2E2AA "decimeter" ; ! no. 3564
+diamähtter:dia#mä2htter N_ODD_V2E2AA "diameter" ; ! no. 3595
+fieber:fieber N_ODD_V2E2AA "fever" ; ! no. 4049
+fudder:fudder N_ODD_V2E2AA "feed" ; ! no. 91173
+gahper:gahper N_ODD_V2E2AA "cap (part of traditional dress)" ; ! no. 6765
+garber:garber N_ODD_V2E2AA "unripe berry" ; ! no. 90542
+gáhker:gáhkker N_ODD_V2E2AA "winter scat of reindeer or moose" ; ! no. 3933
 gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
 gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
 guoktes:gu^Okktes N_ODD_V2E2AA "twosome" ; ! no. 90200
+guähpper:gu^Ohpper N_ODD_V2E2AA "hoof" ; ! no. 684
 gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
+kánser:kánser N_ODD_V2E2AA "cancer" ; ! no. 3521
+kåpter:kåpter N_ODD_V2E2AA "helicopter" ; ! no. 4226
 máles:málles N_ODD_V2E2AA "hot meal, dinner" ; ! no. 90270
+mähtter:mä2htter N_ODD_V2E2AA "meter" ; ! no. 90634
+náger:náhker N_ODD_V2E2AA "sleep, tiredness" ; ! no. 90555
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
+báhper+Use/NG:páhper N_ODD_V2E2AA "paper" ; ! no. 90700
+sáddebáhper:sádde#báhper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
+sentimähtter:senti#mä2htter N_ODD_V2E2AA "centimeter" ; ! no. 3522
+skuhter:skuhter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
+tjilumähtter:tjilu#mä2htter N_ODD_V2E2AA "kilometer" ; ! no. 5217
 vuanntsáåres:vuanntsá#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
+vähttjer:vä2httjer N_ODD_V2E2AA "hammer" ; ! no. 2106
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
 judos:juhtos N_ODD_VH "animal" ; ! no. 929
 jugos:juhkos N_ODD_VH "drink, beverage" ; ! no. 3458
@@ -2509,7 +2511,6 @@ dåbbdet+V+Der/NomAg:dåbbdej N_ODD_WG "expert" ; ! no. 4741
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 gamar:gabmar N_ODD_WG "goat cheese curd mass" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
-gáhker:gáhkker N_ODD_WG "winter scat of reindeer or moose" ; ! no. 3933
 gálav:gállav N_ODD_WG "ford" ; ! no. 4332
 gámas:gábmas N_ODD_WG "leather from reindeer legs" ; ! no. 486
 gárkas:gárrkas N_ODD_WG "lasso made of twirled calf leather" ; ! no. 543
@@ -2534,7 +2535,6 @@ juällgeladas:juällge#lahtas N_ODD_WG "ankle" ; ! no. 945
 kráptjok:krápptjog2 N_ODD_WG "furless leather glove" ; ! no. 90255
 ladas:lahtas N_ODD_WG "joint (anatomy)" ; ! no. 988
 mánnásujtár:mánná#sujjtár N_ODD_WG "baby sitter" ; ! no. 4972
-náger:náhker N_ODD_WG "sleep, tiredness" ; ! no. 90555
 njierek:njierreg2 N_ODD_WG "flat, grassy mountaintop" ; ! no. 6524
 njierek+Use/NG:njierrem N_ODD_WG "flat, grassy mountaintop" ; ! no. 91113
 njuoktjam:nju^Okktjam N_ODD_WG "tongue, clapper in a reindeer bell" ; ! no. 1296
