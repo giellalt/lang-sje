@@ -151,6 +151,7 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Cmp/Hyph     !!= * @CODE@ 
 +Cmp/SplitR   !!= * @CODE@ 
 +Use/-Spell   !!= * @CODE@ 
++Use/NGminip  !!= * @CODE@
 !+Use/-PLX     !!≈ * @CODE@   Excluded in PLX speller
 
 
