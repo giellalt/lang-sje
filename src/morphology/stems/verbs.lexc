@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-06-07T13:42:27+02:00
+! Generated at: 2019-09-08T10:53:17+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -86,9 +86,9 @@ durrgit:durrgi V_CONTR "lay out branches in a Saami hut" ; ! no. 90538
 durrut:durru V_CONTR "start to argue or fight" ; ! no. 90644
 däbbut:dä2bbu V_CONTR "become soaked" ; ! no. 5608
 dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
-firrjit:firrji V_CONTR "color" ; ! no. 2476
+ferrjit:ferrji V_CONTR "color" ; ! no. 2476
+fevvrit:fevvri V_CONTR "transport" ; ! no. 5549
 firrkut:firrku V_CONTR "shake" ; ! no. 5326
-fivvrit:fivvri V_CONTR "transport" ; ! no. 5549
 fräkktit:frä2kkti V_CONTR "transport, haul" ; ! no. 91145
 fuabbmát:fu^Obbmá V_CONTR "realize" ; ! no. 481
 funderit:funderi V_CONTR "think about, consider" ; ! no. 90874
@@ -215,7 +215,7 @@ skäffut:skä2ffu V_CONTR "get, procure, obtain" ; ! no. 77
 skävvgit:skä2vvgi V_CONTR "admonish" ; ! no. 3781
 skävvit:skä2vvi V_CONTR "chafe" ; ! no. 5511
 slibbit:slibbi V_CONTR "quickly throw out washing water or other liquid" ; ! no. 4159
-slihppit:slihppi V_CONTR "grind, polish" ; ! no. 2675
+slijjpit:slijjpi V_CONTR "grind, polish" ; ! no. 2675
 slirrit:slirri V_CONTR "rain in" ; ! no. 4438
 slubbit:slubbi V_CONTR "euthanize" ; ! no. 4492
 släddjit:slä2ddji V_CONTR "cut grass with a scythe" ; ! no. 2673
@@ -1122,8 +1122,8 @@ dárbahit:dárbah V_ODD "need" ; ! no. 333
 dávestit:dávest V_ODD "answer from a long distance" ; ! no. 342
 demsudit:demsud V_ODD "push down and mix while cooking" ; ! no. 3715
 denuskit:denusk V_ODD "lose consciousness" ; ! no. 353
-dibbridit:dibbrid V_ODD "get stuck" ; ! no. 346
 dibmadit:dibmad V_ODD "soften" ; ! no. 2386
+dibridit:dibrid V_ODD "get stuck" ; ! no. 346
 didnadit:didnad V_ODD "repeat, nag" ; ! no. 360
 diebtjastit:diebtjast V_ODD "press down quickly" ; ! no. 5777
 diededit:dieded V_ODD "inform, let know, indicate" ; ! no. 2729
@@ -1293,6 +1293,7 @@ hásodit:hásod V_ODD "pressure someone, incite" ; ! no. 2504
 hávvdadit:hávvdad V_ODD "bury" ; ! no. 2483
 hávvkadit:hávvkad V_ODD "suffocate, choke" ; ! no. 4925
 hedjunit:hedjun V_ODD "become poor" ; ! no. 829
+hevildit:hevild V_ODD "plane, shave" ; ! no. 91259
 hiebadit:hiebad V_ODD "adapt" ; ! no. 3109
 hiehpanit:hiehpan V_ODD "become confused, feel awkward" ; ! no. 833
 hielkedit:hielked V_ODD "be startled" ; ! no. 838
