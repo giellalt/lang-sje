@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-09-11T11:59:26+03:00
+! Generated at: 2019-09-12T12:53:27+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -624,7 +624,7 @@ jåvvlåbäjjve:jåvvlå#biejjve N_EVEN "Christmas Day" ; ! no. 4917
 jåvvlåguossa:jåvvlå#gu^Ossa N_EVEN "Christmas tree" ; ! no. 2484
 jåvvlåidja:jåvvlå#idja N_EVEN "Christmas night" ; ! no. 5860
 jäggemuärrje:jägge#mu^Orrje N_EVEN "bog cranberry" ; ! no. 90223
-jähkke:jiehkke N_EVEN "glacier" ; ! no. 91261
+jähkke:jiehkke N_EVEN "(snowy) glacier" ; ! no. 91261
 järre:jier're N_EVEN "currant" ; ! no. 969
 järrja:jierrja N_EVEN "alpine sow thistle" ; ! no. 970
 jässka:jiesska N_EVEN "large abscess" ; ! no. 2475
@@ -1197,6 +1197,7 @@ táhkka:táhkka N_EVEN "roof" ; ! no. 5175
 táhttja:táhttja N_EVEN "roof" ; ! no. 1846
 tea:tea N_EVEN "tea" ; ! no. 90614
 telefona:telefona N_EVEN "telephone" ; ! no. 1847
+telefona+Use/NG:telefuvdna N_EVEN "telephone" ; ! no. 91262
 testamännta:testamiennta N_EVEN "testament" ; ! no. 91205
 tijbma:tijbma N_EVEN "hour" ; ! no. 1848
 tjadná:tjadná N_EVEN "birch polypore (mushroom)" ; ! no. 1854
