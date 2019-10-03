@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-09-25T08:59:14+03:00
+! Generated at: 2019-10-03T10:46:18+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -766,6 +766,7 @@ mierra:mierra N_EVEN "honey" ; ! no. 1160
 mierra:mierra N_EVEN "shore, coast" ; ! no. 6887
 miesse:miesse N_EVEN "reindeer calf, moose calf" ; ! no. 1158
 miesseduällje:miesse#du^Ollje N_EVEN "winter fur on a reindeer calf" ; ! no. 5988
+mihás+A+Der/State:mihásvu^Ohta N_EVEN "proudness" ; ! no. 91264
 mijjla:mijjla N_EVEN "Swedish mile (ten kilometers)" ; ! no. 2387
 mikrovuäbbne:mikro#vu^Obbne N_EVEN "microwave oven" ; ! no. 1165
 minnulahka:minnulahka N_EVEN "journey, trip, travel" ; ! no. 90936
@@ -1543,6 +1544,7 @@ nieljagis:nieljag N_EVEN4_ISA "quarter" ; ! no. 5270
 njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
 rájdaris:rájdar N_EVEN4_ISA "wooden ladder; log with steps chopped into it" ; ! no. 2899
 rájsagis:rájsag N_EVEN4_ISA "long-legged spider" ; ! no. 3010
+rávkalvis:rávkalv N_EVEN4_ISA "requirement" ; ! no. 91267
 suojvanis:su^Ojvan N_EVEN4_ISA "shadow" ; ! no. 2763
 tjåmodis:tjåmod N_EVEN4_ISA "a reindeer’s shoulder" ; ! no. 2883
 tsujjgidis:tsujjgid N_EVEN4_ISA "comment" ; ! no. 3106
