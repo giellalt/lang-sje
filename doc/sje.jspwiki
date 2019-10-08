@@ -17,7 +17,6 @@ This file contains the tags and reference to main lexica
  !!!Multichar_Symbols  definitions
 
 !!POS
- * +N 	        Noun
  * +V 	        Verb
  * +A	        Adjective
  * +Adv        Adverb
@@ -132,6 +131,7 @@ Other tags
  * +Cmp/Hyph      
  * +Cmp/SplitR    
  * +Use/-Spell    
+ * +Use/NGminip  
 
 
 
