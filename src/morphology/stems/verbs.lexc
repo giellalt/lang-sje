@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-10-03T10:46:26+03:00
+! Generated at: 2019-10-15T15:14:25+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -1651,7 +1651,7 @@ tjijkardit:tjijkard V_ODD "see through binoculars" ; ! no. 91238
 tjuggistit:tjuggist V_ODD "poke a hole" ; ! no. 1927
 tjuhkkidit:tjuhkkid V_ODD "sit down" ; ! no. 1918
 tjuhkkistit:tjuhkkist V_ODD "collect quickly" ; ! no. 5321
-tjujtnahit:tjujtnah V_ODD "stand leaning forward" ; ! no. 5327
+tjujdnahit:tjujdnah V_ODD "stand leaning forward" ; ! no. 5327
 tjulestit:tjulest V_ODD "kiss" ; ! no. 90382
 tjuodtjadit:tju^Odtjad V_ODD "get up, stand up" ; ! no. 1926
 tjuodtjodit:tju^Odtjod V_ODD "be in charge of, lead" ; ! no. 4248
