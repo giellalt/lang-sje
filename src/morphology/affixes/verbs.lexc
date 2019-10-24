@@ -509,12 +509,12 @@ LEXICON V_CONTR_UVVUT ! variation in derived (passive) stems -uv'vut (~uvvat)
 !! !!!Auxiliaries
 
 LEXICON LE !!= * @CODE@ 
-lä+V+Ind+Prs: LEPRS ; 
-lä+V+Ind+Prt: LEPRT ; 
-lä+V+Ind+Pot: LEPOT ;
-lä+V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
-lä+V+Inf:årrot # ; !infinitive
-lä+V+ConNeg:lä # ; !connegative
++V+Ind+Prs: LEPRS ; 
++V+Ind+Prt: LEPRT ; 
++V+Ind+Pot: LEPOT ;
++V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
++V+Inf:årrot # ; !infinitive
++V+ConNeg:lä # ; !connegative
 
 LEXICON LEPRS !!= * @CODE@ 
 +Sg1:läv # ; 
@@ -599,16 +599,16 @@ LEXICON LEPOT
 !+Pl3:itjin    # ; 
 
 LEXICON IJ !!= * @CODE@ 
-!ij+V+Ind+Prs: IJPRS ;
-!ij+V+Ind+Prt: IJPRT ;
-!ij+V+Imprt: IJIMP ;
-ij+V+Neg+Prs: IJPRS ;
-ij+V+Neg+Prt: IJPRT ;
-ij+V+Neg+Imprt: IJIMP ;
+!+V+Ind+Prs: IJPRS ;
+!+V+Ind+Prt: IJPRT ;
+!+V+Imprt: IJIMP ;
++V+Neg+Prs: IJPRS ;
++V+Neg+Prt: IJPRT ;
++V+Neg+Imprt: IJIMP ;
 
-!cf. lä+V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
+!cf. +V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
 !check tags!
-ij+V+Neg+Prs+Pl3+ConNeg+PrfPrc:iellam # ; ! = e+lam
++V+Neg+Prs+Pl3+ConNeg+PrfPrc:iellam # ; ! = e+lam
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    K ;  !!= * @CODE@ 
