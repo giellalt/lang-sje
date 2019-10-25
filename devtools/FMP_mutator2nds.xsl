@@ -169,6 +169,42 @@ For the full license text, see the link above.</lic><ref>Lexicographic work done
 
 </xsl:for-each>
 
+<!-- add copula and negation verbs, but only for verb export -->
+<xsl:if test="fm:FMPXMLRESULT/fm:RESULTSET/fm:ROW/fm:COL[position()=3]/fm:DATA='verb'">
+<e>
+    <lg>
+    	<l pos="V" psdpDBno="2340">lä</l>
+    </lg>
+    <mg>
+    	<tg xml:lang="eng">
+    		<t>be</t>
+    	</tg>
+    	<tg xml:lang="swe">
+    		<t>vara</t>
+    	</tg>
+    	<tg xml:lang="nob">
+    		<t>være</t>
+    	</tg>
+    </mg>
+</e>
+<e>
+    <lg>
+    	<l pos="V" psdpDBno="6233">ij</l>
+    </lg>
+    <mg>
+    	<tg xml:lang="eng">
+    		<t>not (negation verb)</t>
+    	</tg>
+    	<tg xml:lang="swe">
+    		<t>inte (negeringsverb)</t>
+    	</tg>
+    	<tg xml:lang="nob">
+    		<t>ikke (negeringsverb)</t>
+    	</tg>
+    </mg>
+</e>
+</xsl:if>
+
 </r>
 
   </xsl:template>
