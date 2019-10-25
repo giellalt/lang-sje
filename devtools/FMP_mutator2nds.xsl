@@ -196,10 +196,10 @@ For the full license text, see the link above.</lic><ref>Lexicographic work done
     		<t>not (negation verb)</t>
     	</tg>
     	<tg xml:lang="swe">
-    		<t>inte (negeringsverb)</t>
+    		<t>inte (negationsverb)</t>
     	</tg>
     	<tg xml:lang="nob">
-    		<t>ikke (negeringsverb)</t>
+    		<t>ikke (negasjonsverb)</t>
     	</tg>
     </mg>
 </e>
