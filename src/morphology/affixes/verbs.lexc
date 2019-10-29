@@ -645,7 +645,7 @@ LEXICON IJPRT !!= * @CODE@
 LEXICON IJIMP !!= * @CODE@ 
 +Sg2:iele  K ; !!= * @CODE@ 
 +Du2:iellen K ; 
-+Du3:ellit  K ;
++Pl2:illit  K ;
 
 
 LEXICON 3DUPRS !variation in 3rd-DUAL-Presence suffixes for EVEN stems
