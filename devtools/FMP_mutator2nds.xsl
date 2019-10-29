@@ -188,22 +188,97 @@ For the full license text, see the link above.</lic><ref>Lexicographic work done
     </mg>
 </e>
 <e>
-    <lg>
-    	<l pos="V" psdpDBno="6233">ij</l>
-    </lg>
-    <mg>
-    	<tg xml:lang="eng">
-    		<t>not (negation verb)</t>
-    	</tg>
-    	<tg xml:lang="swe">
-    		<t>inte (negationsverb)</t>
-    	</tg>
-    	<tg xml:lang="nob">
-    		<t>ikke (negasjonsverb)</t>
-    	</tg>
-    </mg>
-</e>
-</xsl:if>
+	<lg>
+		<l context="manne" pos="V" psdpDBno="6233">ij</l>
+		<analysis>Neg_Prs_Sg3</analysis>
+		<mini_paradigm>
+			<analysis ms="Neg_Prs_Sg1">
+				<wordform>iv</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Sg2">
+				<wordform>i</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Sg3">
+				<wordform>ij</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Du1">
+				<wordform>en</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Du2">
+				<wordform>ehpen</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Du3">
+				<wordform>iebá</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Pl1">
+				<wordform>iehpe</wordform>
+				<wordform>ep</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Pl2">
+				<wordform>ehpit</wordform>
+			</analysis>
+			<analysis ms="Neg_Prs_Pl3">
+				<wordform>e</wordform>
+				<wordform>ie</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Sg1">
+				<wordform>idtjiv</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Sg2">
+				<wordform>idtji</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Sg3">
+				<wordform>idtjij</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Du1">
+				<wordform>iejme</wordform>
+				<wordform>idtjijmen</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Du2">
+				<wordform>iejden</wordform>
+				<wordform>iejde</wordform>
+				<wordform>idtjijden</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Du3">
+				<wordform>iejga</wordform>
+				<wordform>iejgan</wordform>
+				<wordform>idtjijga</wordform>
+				<wordform>idtjijgan</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Pl1">
+				<wordform>iejme</wordform>
+				<wordform>idtjijme</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Pl2">
+				<wordform>iejde</wordform>
+				<wordform>idtjijde</wordform>
+			</analysis>
+			<analysis ms="Neg_Prt_Pl3">
+				<wordform>idtjin</wordform>
+			</analysis>
+			<analysis ms="Neg_Imprt_Sg2">
+				<wordform>iele</wordform>
+			</analysis>
+			<analysis ms="Neg_Imprt_Du2">
+				<wordform>iellen</wordform>
+			</analysis>
+			<analysis ms="Neg_Imprt_Pl2">
+				<wordform>illit</wordform>
+			</analysis>
+		</mini_paradigm>
+	</lg>
+	<mg>
+		<tg xml:lang="eng">
+			<t>not (negation verb)</t>
+		</tg>
+		<tg xml:lang="swe">
+			<t>inte (negationsverb)</t>
+		</tg>
+		<tg xml:lang="nob">
+			<t>ikke (negasjonsverb)</t>
+		</tg>
+	</mg>
+</e></xsl:if>
 
 </r>
 
