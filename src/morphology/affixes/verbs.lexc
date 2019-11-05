@@ -381,6 +381,8 @@ LEXICON V_ODD !ságastit
 !+V+Sup:a%>tjit # ;
 !+V+VGen:e%> #;  
 
++V+Pot:a%>tj V_ODD_POT ;
+
 
 LEXICON V_ODD_UA ! luaddanit (not luoddanit! class for ua/uä + noCG CCenter)
 :^UAUML V_ODD ;
