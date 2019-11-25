@@ -386,6 +386,7 @@ gie+Pron+Interr+Pl+Com:giej # ;
 !mij predikativ ställning
 mij+Pron+Interr+Sg+Nom:mij # ;
 mij+Pron+Interr+Sg+Acc:mav # ;
+mij+Pron+Interr+Sg+Acc+Use/NG:mava # ; !long form when isolated
 mij+Pron+Interr+Sg+Gen:man # ;
 mij+Pron+Interr+Sg+Ill:masa # ;
 mij+Pron+Interr+Sg+Ine:manne # ;

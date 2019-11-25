@@ -33,6 +33,7 @@ akkta: NUM1 "ett, one" ;
 guäkkte: NUM2 "två, two" ;
 gålbmå:gålbm NUMå "tre, three" ;
 nällje:niellj NUMe "fyra, four";
+nällje+Use/NG:nieldj NUMe "fyra, four";
 vihta:viht NUMa "fem, five" ;
 guhta:guht NUMa "sex, six" ;
 gietjav:giehtj NUM7 "sju, seven" ;
