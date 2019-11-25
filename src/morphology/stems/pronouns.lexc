@@ -205,6 +205,7 @@ duon+Det+Pl+Com:duoj # ;
 
 !determiner (but does not inflect, as attr), eg: galga válldet daggár smáva muorajd
 daggár+Det+Attr:daggár # ; 
+daggár+Det+Attr+Use/NG:diggir # ; 
 dággár+Det+Attr:dággár # ; 
 duggir+Det+Attr:duggir # ; 
 

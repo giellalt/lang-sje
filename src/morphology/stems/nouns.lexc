@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-11-25T11:00:08+02:00
+! Generated at: 2019-11-25T12:37:26+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -343,6 +343,7 @@ dåresåjjve:dåres#åjjve N_EVEN "diagonally oriented mountaintop" ; ! no. 5408
 dårrjo+N+Der/NomAg:dårrjodieddje N_EVEN "caregiver" ; ! no. 6657
 dåssje:dåssje N_EVEN "nonsense" ; ! no. 431
 däŋŋna:dieŋŋna N_EVEN "day and night" ; ! no. 439
+ienoj+Use/NG:ieddnoj N_EVEN "maternal uncle" ; ! no. 91271
 ekologiddja:ekologiddja N_EVEN "ecology" ; ! no. 3979
 ekspårrtå:ekspårrtå N_EVEN "export" ; ! no. 4002
 elefánnta:elefánnta N_EVEN "elephant" ; ! no. 3982
@@ -1331,6 +1332,7 @@ várregrásse:várre#grásse N_EVEN "alpine grass" ; ! no. 5583
 várresábme:várre#sábme N_EVEN "mountain Saami" ; ! no. 2717
 várretjåhkkå:várre#tjåhkkå N_EVEN "mountain top, peak, summit" ; ! no. 2088
 várrja+N+Der/NomAg:várrjalieddje N_EVEN "guardian" ; ! no. 3265
+viega+Use/NG:viega N_EVEN "road" ; ! no. 91268
 viega:viega N_EVEN "road" ; ! no. 4137
 vierra:vierra N_EVEN "esker; wheel; ski pole basket" ; ! no. 2108
 viessomájjge:viessom#ájjge N_EVEN "lifetime, life" ; ! no. 4228
