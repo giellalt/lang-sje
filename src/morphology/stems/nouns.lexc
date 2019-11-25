@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-11-05T17:07:12+02:00
+! Generated at: 2019-11-25T11:00:08+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -374,7 +374,7 @@ fävvse:fievvse N_EVEN "cow shed, barn" ; ! no. 3907
 gabbnja:gabbnja N_EVEN "scarecrow" ; ! no. 2562
 gadna:gadna N_EVEN "lichen on rocks and tree trunks" ; ! no. 490
 gadtsasuodna:gadtsa#su^Odna N_EVEN "short tendon between the hoof and the ankle in a reindeer’s hind leg" ; ! no. 3823
-gadtsavuodja:gadtsa#vu^Odja N_EVEN "grease made from hooves" ; ! no. 3821
+gadtsavuodja:gadtsa#vu^Odja N_EVEN "hoof suet" ; ! no. 3821
 gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
 gahpa:gahpa N_EVEN "cheese mass, cream" ; ! no. 497
 gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
@@ -2478,7 +2478,7 @@ báhper+Use/NG:páhper N_ODD_V2E2AA "paper" ; ! no. 90700
 sáddebáhper:sádde#báhper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
 sentimähtter:senti#mä2htter N_ODD_V2E2AA "centimeter" ; ! no. 3522
-skuhter:skuhter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
+skuhter:skuhtter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
 tjilumähtter:tjilu#mä2htter N_ODD_V2E2AA "kilometer" ; ! no. 5217
 vuanntsáåres:vuanntsá#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 vähttjer:vä2httjer N_ODD_V2E2AA "hammer" ; ! no. 2106
