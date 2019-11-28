@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-11-25T12:37:26+02:00
+! Generated at: 2019-11-28T07:11:17+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -343,7 +343,7 @@ dåresåjjve:dåres#åjjve N_EVEN "diagonally oriented mountaintop" ; ! no. 5408
 dårrjo+N+Der/NomAg:dårrjodieddje N_EVEN "caregiver" ; ! no. 6657
 dåssje:dåssje N_EVEN "nonsense" ; ! no. 431
 däŋŋna:dieŋŋna N_EVEN "day and night" ; ! no. 439
-ienoj+Use/NG:ieddnoj N_EVEN "maternal uncle" ; ! no. 91271
+ienoj+Use/NG:eddnu N_EVEN "maternal uncle" ; ! no. 91271
 ekologiddja:ekologiddja N_EVEN "ecology" ; ! no. 3979
 ekspårrtå:ekspårrtå N_EVEN "export" ; ! no. 4002
 elefánnta:elefánnta N_EVEN "elephant" ; ! no. 3982
@@ -988,7 +988,7 @@ sávve:sáv've N_EVEN "seam" ; ! no. 5271
 sávvtsa:sávvtsa N_EVEN "sheep" ; ! no. 2605
 siedja:siedja N_EVEN "pus" ; ! no. 1524
 siegŋa:siegŋa N_EVEN "nostril" ; ! no. 1525
-siehka:siehka N_EVEN "shade" ; ! no. 5181
+siehka:siehka N_EVEN "shade, shadow" ; ! no. 5181
 siessa:siessa N_EVEN "paternal aunt" ; ! no. 1532
 sievva:sievva N_EVEN "ocean, sea" ; ! no. 1533
 sigarähtta:sigariehtta N_EVEN "cigarette" ; ! no. 3524
@@ -1332,7 +1332,6 @@ várregrásse:várre#grásse N_EVEN "alpine grass" ; ! no. 5583
 várresábme:várre#sábme N_EVEN "mountain Saami" ; ! no. 2717
 várretjåhkkå:várre#tjåhkkå N_EVEN "mountain top, peak, summit" ; ! no. 2088
 várrja+N+Der/NomAg:várrjalieddje N_EVEN "guardian" ; ! no. 3265
-viega+Use/NG:viega N_EVEN "road" ; ! no. 91268
 viega:viega N_EVEN "road" ; ! no. 4137
 vierra:vierra N_EVEN "esker; wheel; ski pole basket" ; ! no. 2108
 viessomájjge:viessom#ájjge N_EVEN "lifetime, life" ; ! no. 4228
@@ -1380,6 +1379,7 @@ vuässtebuallda:vuässte#bu^Ollda N_EVEN "uphill slope" ; ! no. 5487
 vuässtemiella:vuässte#miella N_EVEN "reluctance" ; ! no. 2214
 vuävvde:vu^Ovvde N_EVEN "forest, woods" ; ! no. 6043
 väddegárre:vädde#gárre N_EVEN "bowl woven out of roots" ; ! no. 5237
+viega+Use/NG:vieddja N_EVEN "road, trail" ; ! no. 91268
 vähkke:viehkke N_EVEN "help, assistance" ; ! no. 2218
 vähkke+N+Der/NomAg:vähkkedieddje N_EVEN "assistent" ; ! no. 3142
 vällja+Use/NG:vieldja N_EVEN "brother" ; ! no. 90452
@@ -1489,7 +1489,7 @@ sávaldak:sávaldag2 N_EVEN4 "wish" ; ! no. 90313
 sillbagietsaldak:sillba#gietsaldag2 N_EVEN4 "silver belt" ; ! no. 1542
 sjierádak:sjierádag2 N_EVEN4 "clear skies, fog-less" ; ! no. 6116
 skárrjáldak:skárrjáldag2 N_EVEN4 "clipped cloth zig-zag in a Saami frock" ; ! no. 6762
-suobmelatj:su^Obmelatj N_EVEN4 "Finn" ; ! no. 1761
+såbmelatj:såbmelatj N_EVEN4 "Finn" ; ! no. 1761
 sågástak:sågástag2 N_EVEN4 "dense birch forest" ; ! no. 6868
 sågådak:sågådag2 N_EVEN4 "soft snow which one sinks into" ; ! no. 3809
 tjielgadus:tjielgadus N_EVEN4 "definition, explanation" ; ! no. 3565
@@ -1547,7 +1547,7 @@ njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
 rájdaris:rájdar N_EVEN4_ISA "wooden ladder; log with steps chopped into it" ; ! no. 2899
 rájsagis:rájsag N_EVEN4_ISA "long-legged spider" ; ! no. 3010
 rávkalvis:rávkalv N_EVEN4_ISA "requirement" ; ! no. 91267
-suojvanis:su^Ojvan N_EVEN4_ISA "shadow" ; ! no. 2763
+suojvanis:su^Ojvan N_EVEN4_ISA "shadow. shade" ; ! no. 2763
 tjåmodis:tjåmod N_EVEN4_ISA "a reindeer’s shoulder" ; ! no. 2883
 tsujjgidis:tsujjgid N_EVEN4_ISA "comment" ; ! no. 3106
 urudis:urud N_EVEN4_ISA "predator" ; ! no. 1344
@@ -2474,7 +2474,7 @@ kánser:kánser N_ODD_V2E2AA "cancer" ; ! no. 3521
 kåpter:kåpter N_ODD_V2E2AA "helicopter" ; ! no. 4226
 máles:málles N_ODD_V2E2AA "hot meal, dinner" ; ! no. 90270
 mähtter:mä2htter N_ODD_V2E2AA "meter" ; ! no. 90634
-náger:náhker N_ODD_V2E2AA "sleep, tiredness" ; ! no. 90555
+nager:nahker N_ODD_V2E2AA "sleep, tiredness" ; ! no. 90555
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 báhper+Use/NG:páhper N_ODD_V2E2AA "paper" ; ! no. 90700
 sáddebáhper:sádde#báhper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
