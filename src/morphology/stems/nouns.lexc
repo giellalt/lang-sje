@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-11-28T07:11:17+01:00
+! Generated at: 2019-11-29T07:33:53+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -780,7 +780,7 @@ muohtadállke:muohta#dállke N_EVEN "blizzard, snow storm" ; ! no. 6559
 muohtadállve:muohta#dállve N_EVEN "snowy winter" ; ! no. 2364
 muohtasuovva:muohta#su^Ovva N_EVEN "white out, blowing snow" ; ! no. 4223
 muohtatjalbme:muohta#tjalbme N_EVEN "snowflake" ; ! no. 4231
-muorra:mu^Orra N_EVEN "tree, firewood" ; ! no. 1187
+muorra:mu^Orra N_EVEN "tree; wood, firewood" ; ! no. 1187
 muorragárre:muorra#gárre N_EVEN "wooden bowl" ; ! no. 1188
 muorragukkse:muorra#gukkse N_EVEN "wooden cup" ; ! no. 5673
 muorragåhte:muorra#gåhte N_EVEN "woodshed" ; ! no. 3361
@@ -2454,8 +2454,8 @@ tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
 vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuola:vu^Ollag N_ODD_OPEN "inebriation, drunkenness; beer" ; ! no. 91034
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
-árrvobáhper:árrvo#báhper N_ODD_V2E2AA "security paper" ; ! no. 4177
-báhper:báhper N_ODD_V2E2AA "paper" ; ! no. 110
+árrvobáhper:árrvo#báhpper N_ODD_V2E2AA "security paper" ; ! no. 4177
+báhper:báhpper N_ODD_V2E2AA "paper" ; ! no. 110
 bissmer:bissmer N_ODD_V2E2AA "steelyard" ; ! no. 3267
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
 desimähtter:desi#mä2htter N_ODD_V2E2AA "decimeter" ; ! no. 3564
@@ -2476,8 +2476,8 @@ máles:málles N_ODD_V2E2AA "hot meal, dinner" ; ! no. 90270
 mähtter:mä2htter N_ODD_V2E2AA "meter" ; ! no. 90634
 nager:nahker N_ODD_V2E2AA "sleep, tiredness" ; ! no. 90555
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
-báhper+Use/NG:páhper N_ODD_V2E2AA "paper" ; ! no. 90700
-sáddebáhper:sádde#báhper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
+báhper+Use/NG:páhpper N_ODD_V2E2AA "paper" ; ! no. 90700
+sáddebáhper:sádde#báhpper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
 sentimähtter:senti#mä2htter N_ODD_V2E2AA "centimeter" ; ! no. 3522
 skuhter:skuhtter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
