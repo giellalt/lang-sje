@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-11-30T18:48:45+01:00
+! Generated at: 2019-12-03T16:33:00+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -310,6 +310,7 @@ bievastuvvut:bievastuvv V_CONTR_UVVUT "become sweaty" ; ! no. 6084
 bijnastuvvut:bijnastuvv V_CONTR_UVVUT "be tortured" ; ! no. 4217
 burgoduvvut:burgoduvv V_CONTR_UVVUT "be forbidden" ; ! no. 90153
 dagaduvvut:dagaduvv V_CONTR_UVVUT "be done" ; ! no. 90154
+dahkaduvvut:dahkaduvv V_CONTR_UVVUT "be done, be made" ; ! no. 91278
 dielmoduvvut:dielmoduvv V_CONTR_UVVUT "be trampled, stomped on" ; ! no. 5533
 dubdiduvvut:dubdiduvv V_CONTR_UVVUT "mark, characterize" ; ! no. 5679
 fámoduvvut:fámoduvv V_CONTR_UVVUT "become powerless, strengthless" ; ! no. 4187
@@ -897,6 +898,7 @@ lådnot:lådn V_EVEN_O "trade, loan, borrow" ; ! no. 2637
 lågŋot:lågŋ V_EVEN_O "lift repeatedly" ; ! no. 4022
 låhtot:låht V_EVEN_O "weave shoestraps by hand" ; ! no. 1091
 låjjgot:låjjg V_EVEN_O "release, thaw" ; ! no. 2752
+lådnot+Use/NG:lån V_EVEN_O "trade, loan, borrow" ; ! no. 91277
 májdnot:májdn V_EVEN_O "commend, praise" ; ! no. 1117
 muhkot:muhk V_EVEN_O "moo (for cows)" ; ! no. 3908
 muttkot:muttk V_EVEN_O "smash into pieces" ; ! no. 91079
@@ -1565,6 +1567,7 @@ skámádit:skámád V_ODD "be ashamed" ; ! no. 2979
 skellbidit:skellbid V_ODD "begin to shake" ; ! no. 90889
 skellbistit:skellbist V_ODD "shiver, shake" ; ! no. 5127
 skidárdit:skidárd V_ODD "waste, squander" ; ! no. 2415
+skierastit:skierast V_ODD "ski downhill; ski slalom" ; ! no. 91276
 skinjijdit:skinjijd V_ODD "echo, resound" ; ! no. 1637
 skuoladit:sku^Olad V_ODD "ring (with a bell)" ; ! no. 1648
 skuoldardit:sku^Oldard V_ODD "gossip" ; ! no. 3716
