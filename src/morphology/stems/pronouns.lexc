@@ -207,6 +207,7 @@ duon+Det+Pl+Com:duoj # ;
 daggár+Det+Attr:daggár # ; 
 daggár+Det+Attr+Use/NG:diggir # ; 
 dággár+Det+Attr:dággár # ; 
+dággár+Det+Attr+Use/NG:däggir # ; 
 duggir+Det+Attr:duggir # ; 
 
 maggár+Det+Interr+Attr:maggár # ; 
@@ -795,7 +796,7 @@ gåbbák+Pron+Indef+Sg+Com:gåbbájnik # ;
 LEXICON DAGGAAR 
 !daggár:daggár- /daggir, ´en sådan där, som den där´
 
-!daggar,predikativ ställning
+!daggár,predikativ ställning
 daggár+Pron+Indef+Sg+Nom:daggár # ;
 daggár+Pron+Indef+Sg+Acc:daggárav # ;
 daggár+Pron+Indef+Sg+Gen:daggára # ;
@@ -814,12 +815,31 @@ daggár+Pron+Indef+Pl+Ine:daggárijn # ;
 daggár+Pron+Indef+Pl+Ela:daggárijs # ;
 daggár+Pron+Indef+Pl+Com:daggárij # ;
 
+daggár+Pron+Indef+Sg+Nom+Use/NG:diggir # ;
+daggár+Pron+Indef+Sg+Acc+Use/NG:diggirav # ;
+daggár+Pron+Indef+Sg+Gen+Use/NG:diggira # ;
+daggár+Pron+Indef+Sg+Ill+Use/NG:diggirij # ;
+daggár+Pron+Indef+Sg+Ine+Use/NG:diggirin # ;
+daggár+Pron+Indef+Sg+Ela+Use/NG:diggiris # ;
+daggár+Pron+Indef+Sg+Com+Use/NG:diggirijn # ;
+daggár+Pron+Indef+Sg+Ess+Use/NG:diggirin # ;
+
+daggár+Pron+Indef+Pl+Nom+Use/NG:diggira # ;
+daggár+Pron+Indef+Pl+Acc+Use/NG:diggirijt # ;
+daggár+Pron+Indef+Pl+Acc+Use/NG:diggirijd # ;
+daggár+Pron+Indef+Pl+Gen+Use/NG:diggirij # ;
+daggár+Pron+Indef+Pl+Ill+Use/NG:diggirijda # ;
+daggár+Pron+Indef+Pl+Ine+Use/NG:diggirijn # ;
+daggár+Pron+Indef+Pl+Ela+Use/NG:diggirijs # ;
+daggár+Pron+Indef+Pl+Com+Use/NG:diggirij # ;
+
+
 !daggár,attributiv ställning
 !daggár+Pron+Indef+Sg+Nom:daggár # ; !not a pronoun
 
 !daggár:daggár- /daggár, ´en sådan här, som den här´
 
-!daggár,predikativ ställning
+!dággár,predikativ ställning
 dággár+Pron+Indef+Sg+Nom:dággár # ;
 dággár+Pron+Indef+Sg+Acc:dággárav # ;
 dággár+Pron+Indef+Sg+Gen:dággára # ;
@@ -838,7 +858,17 @@ dággár+Pron+Indef+Pl+Ine:dággárijn # ;
 dággár+Pron+Indef+Pl+Ela:dággárijs # ;
 dággár+Pron+Indef+Pl+Com:dággárij # ;
 
+dággár+Pron+Indef+Sg+Nom+Use/NG:däggir # ;
+dággár+Pron+Indef+Sg+Acc+Use/NG:däggirav # ;
+dággár+Pron+Indef+Sg+Gen+Use/NG:däggira # ;
+dággár+Pron+Indef+Sg+Ill+Use/NG:däggirij # ;
+dággár+Pron+Indef+Sg+Ine+Use/NG:däggirin # ;
+dággár+Pron+Indef+Sg+Ela+Use/NG:däggiris # ;
+dággár+Pron+Indef+Sg+Com+Use/NG:däggirijn # ;
+dággár+Pron+Indef+Sg+Ess+Use/NG:däggirin # ;
+
 dággár+Pron+Indef+Pl+Nom+Use/NG:däggira # ;
+dággár+Pron+Indef+Pl+Acc+Use/NG:däggirijt # ;
 dággár+Pron+Indef+Pl+Acc+Use/NG:däggirijd # ;
 dággár+Pron+Indef+Pl+Gen+Use/NG:däggirij # ;
 dággár+Pron+Indef+Pl+Ill+Use/NG:däggirijda # ;
