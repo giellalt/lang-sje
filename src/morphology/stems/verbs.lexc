@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-03T16:33:00+02:00
+! Generated at: 2019-12-05T09:54:34+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1483,6 +1483,7 @@ radastit:radast V_ODD "split open, unstitch (quickly)" ; ! no. 4288
 rábastit:rábast V_ODD "brush, sweep" ; ! no. 3380
 rádestit:rádest V_ODD "consult, advise" ; ! no. 4640
 ráhkostit:ráhkost V_ODD "fish with a net under the ice" ; ! no. 1371
+rájdnanit:rájdnan V_ODD "become clean" ; ! no. 91282
 rájgadit:rájgad V_ODD "make a hole, drill" ; ! no. 1380
 rájjgánit:rájjgán V_ODD "become a hole" ; ! no. 5473
 rárestit:rárest V_ODD "think back to" ; ! no. 90867
