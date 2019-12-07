@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-05T09:54:34+02:00
+! Generated at: 2019-12-07T16:00:06+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -132,7 +132,6 @@ lijjkit:lijjki V_CONTR "dump out, pour out" ; ! no. 3480
 lijjkut:lijjku V_CONTR "like" ; ! no. 1050
 lijjsit:lijjsi V_CONTR "be worth doing; succeed" ; ! no. 3697
 livvgit:livvgi V_CONTR "be boisterous" ; ! no. 1041
-livvsut:livvsu V_CONTR "announce an intended marriage" ; ! no. 2438
 lubbit:lubbi V_CONTR "spread out once" ; ! no. 4165
 luddit:luddi V_CONTR "chop bone, wood" ; ! no. 1979
 luggit:luggi V_CONTR "pull on someone's hair" ; ! no. 4612
@@ -893,6 +892,7 @@ lávvgot:lávvg V_EVEN_O "bathe, wash" ; ! no. 90839
 lávvlot:lávvl V_EVEN_O "sing" ; ! no. 1026
 lijjgot:lijjg V_EVEN_O "abstain from sth" ; ! no. 1049
 livvot:livv V_EVEN_O "become thin" ; ! no. 1054
+livvsot:livvs V_EVEN_O "announce an intended marriage" ; ! no. 2438
 luodjot:lu^Odj V_EVEN_O "complain" ; ! no. 1065
 lådnot:lådn V_EVEN_O "trade, loan, borrow" ; ! no. 2637
 lågŋot:lågŋ V_EVEN_O "lift repeatedly" ; ! no. 4022
