@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-08T14:52:35+02:00
+! Generated at: 2019-12-10T17:08:43+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2194,6 +2194,7 @@ libjuk:libjug2 N_ODD "butterfly" ; ! no. 3008
 libluk:liblug2 N_ODD "butterfly" ; ! no. 1034
 liggim:liggim N_ODD "birch tree around treeline" ; ! no. 1042
 luobbal:lu^Obbal N_ODD "calm water, wide place in a stream" ; ! no. 3919
+luoddak:lu^Oddag2 N_ODD "bear skin" ; ! no. 91284
 luodjom:lu^Odjom N_ODD "complaint" ; ! no. 5705
 luojdok:lu^Ojdog2 N_ODD "white wagtail" ; ! no. 1066
 luomek:lu^Omeg2 N_ODD "Norwegian lemming" ; ! no. 1068
@@ -2308,6 +2309,7 @@ skiddnak:skiddnag2 N_ODD "sickly, thin reindeer" ; ! no. 1629
 skijun:skijun N_ODD "loudspeaker" ; ! no. 1638
 skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predator" ; ! no. 1643
 skubmok:skubmog2 N_ODD "mouth protection" ; ! no. 5911
+skuhter+Use/NG:skuhtter N_ODD "snowmobile" ; ! no. 91285
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvlik:skuvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
@@ -2318,6 +2320,7 @@ smållek:smålleg2 N_ODD "shard, splinter, fragment" ; ! no. 91080
 snihkkus:snihkkus N_ODD "wood carving" ; ! no. 90829
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
 sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
+spádan:spádan N_ODD "shovel, snow shovel" ; ! no. 91292
 spággak:spággag2 N_ODD "bear spear" ; ! no. 1710
 spáhkak:spáhkag2 N_ODD "hitch in a Saami packsaddle" ; ! no. 1712
 spedjil:spedjil N_ODD "mirror" ; ! no. 4585
