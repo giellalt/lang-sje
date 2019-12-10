@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-10T17:09:38+02:00
+! Generated at: 2019-12-10T18:22:43+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1212,7 +1212,7 @@ gástadit:gástad V_ODD "baptise" ; ! no. 571
 gávastit:gávast V_ODD "yawn" ; ! no. 575
 gávnadit:gávnad V_ODD "meet" ; ! no. 581
 gávodit:gávod V_ODD "turn a boat on an even keel" ; ! no. 3497
-gehtudit:gehtud V_ODD "tell (repeatedly)" ; ! no. 91293
+gehtudit:gehtud V_ODD "tell long stories repeatedly; keep going on about" ; ! no. 91293
 gerjudit:gerjud V_ODD "wag" ; ! no. 4817
 giegadit:giegad V_ODD "intend" ; ! no. 606
 giehpedit:giehped V_ODD "make easier" ; ! no. 2385
@@ -1485,7 +1485,7 @@ rábastit:rábast V_ODD "brush, sweep" ; ! no. 3380
 rádestit:rádest V_ODD "consult, advise" ; ! no. 4640
 ráhkostit:ráhkost V_ODD "fish with a net under the ice" ; ! no. 1371
 rájdnanit:rájdnan V_ODD "become clean" ; ! no. 91282
-rájdnonit:rájdnon V_ODD "clean" ; ! no. 91294
+rájdnodit:rájdnod V_ODD "clean" ; ! no. 91294
 rájgadit:rájgad V_ODD "make a hole, drill" ; ! no. 1380
 rájjgánit:rájjgán V_ODD "become a hole" ; ! no. 5473
 rárestit:rárest V_ODD "think back to" ; ! no. 90867
