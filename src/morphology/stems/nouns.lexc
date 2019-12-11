@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-10T17:08:43+02:00
+! Generated at: 2019-12-11T14:29:49+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1667,6 +1667,7 @@ sádde:sádde N_EVEN_NOCG "sand" ; ! no. 3408
 sájjtesåbbe:sájjte#såbbe N_EVEN_NOCG "spear pole" ; ! no. 1495
 sirre+Use/NG:sidde N_EVEN_NOCG "cheese rack " ; ! no. 90471
 sievvagádde:sievva#gádde N_EVEN_NOCG "seashore" ; ! no. 5114
+sjaddo:sjaddo N_EVEN_NOCG "harvest, grown things" ; ! no. 91296
 sjádde:sjádde N_EVEN_NOCG "hole dug in the snow because reindeer ate there" ; ! no. 4776
 sládjojägge:sládjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 90342
 sládjojägge+Use/NG:slájjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 91180
