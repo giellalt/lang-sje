@@ -390,7 +390,7 @@ LEXICON A_KUORA_s2
 +Comp:^WG A_ODD_COMP_V2E2AA ;
 +Superl:^WG A_ODD_jSUP_V2E2AA ;
 
-LEXICON A_VAASSE ! vásse, färrta (only ATTR, no PRED-forms!)
+LEXICON A_VAASSE ! vásse, färrta, jåhteje (only ATTR, no PRED-forms!)
 +A+Attr:%> # ;
 !not sure about Comp/Superl
 
