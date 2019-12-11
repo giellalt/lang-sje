@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-10T18:22:43+02:00
+! Generated at: 2019-12-11T17:59:26+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -329,7 +329,7 @@ tjálleduvvut:tjálleduvv V_CONTR_UVVUT "be written" ; ! no. 91162
 tjiegaduvvut:tjiegaduvv V_CONTR_UVVUT "become hidden" ; ! no. 3896
 tjuoladuvvut:tju^Oladuvv V_CONTR_UVVUT "slice, cut" ; ! no. 5528
 tjuorgaduvvut:tju^Orgaduvv V_CONTR_UVVUT "paint" ; ! no. 90367
-tjåvdeduvvut:tjåvdeduvv V_CONTR_UVVUT "set free, liberate" ; ! no. 3233
+tjåvdeduvvut:tjåvdeduvv V_CONTR_UVVUT "be set free, be liberated" ; ! no. 3233
 tsábmestuvvut:tsábmestuvv V_CONTR_UVVUT "be hit down, knocked down" ; ! no. 90911
 tsiggiduvvut:tsiggiduvv V_CONTR_UVVUT "be constructed, be erected" ; ! no. 90234
 vájvástuvvut:vájvástuvv V_CONTR_UVVUT "anguish, squirm" ; ! no. 2069
