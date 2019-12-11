@@ -125,23 +125,23 @@ dát+Pron+Dem+Pl+Ela:dájst # ;
 dát+Pron+Dem+Pl+Ela:dájste # ;
 dát+Pron+Dem+Pl+Com:dáj # ;
 
-duot+Pron+Dem+Sg+Nom:duot # ;
-duot+Pron+Dem+Sg+Nom+Use/NG:duohta # ;
-duot+Pron+Dem+Sg+Acc:duov # ;
-duot+Pron+Dem+Sg+Gen:duon # ;
-duot+Pron+Dem+Sg+Ill:dusi # ;
-duot+Pron+Dem+Sg+Ine:dun # ;
-duot+Pron+Dem+Sg+Ela:duassta # ;
-duot+Pron+Dem+Sg+Com:duojna # ;
+dut+Pron+Dem+Sg+Nom:dut # ;
+dut+Pron+Dem+Sg+Nom+Use/NG:duhta # ;
+dut+Pron+Dem+Sg+Acc:duv # ;
+dut+Pron+Dem+Sg+Gen:dun # ;
+dut+Pron+Dem+Sg+Ill:dui # ;
+dut+Pron+Dem+Sg+Ine:du # ;
+dut+Pron+Dem+Sg+Ela:dussta # ;
+dut+Pron+Dem+Sg+Com:dujna # ;
 
-duot+Pron+Dem+Pl+Nom:duo # ;
-duot+Pron+Dem+Pl+Acc:duojt # ;
-duot+Pron+Dem+Pl+Acc+Use/NG:duojd # ;
-duot+Pron+Dem+Pl+Gen:duoj # ;
-duot+Pron+Dem+Pl+Ill:duojda # ;
-duot+Pron+Dem+Pl+Ine:duojn # ;
-duot+Pron+Dem+Pl+Ela:duojs # ;
-duot+Pron+Dem+Pl+Com:duoj # ;
+dut+Pron+Dem+Pl+Nom:du # ;
+dut+Pron+Dem+Pl+Acc:dujt # ;
+dut+Pron+Dem+Pl+Acc+Use/NG:dujd # ;
+dut+Pron+Dem+Pl+Gen:duj # ;
+dut+Pron+Dem+Pl+Ill:dujda # ;
+dut+Pron+Dem+Pl+Ine:dujn # ;
+dut+Pron+Dem+Pl+Ela:dujs # ;
+dut+Pron+Dem+Pl+Com:duj # ;
 
 
 
@@ -187,22 +187,21 @@ dát+Det+Pl+Ela:dájst # ;
 dát+Det+Pl+Ela:dájste # ;
 dát+Det+Pl+Com:dáj # ;
 
-duon+Det+Sg+Nom:duot # ;
-duon+Det+Sg+Acc:duov # ;
-duon+Det+Sg+Gen:duon # ;
-duon+Det+Sg+Ill:dut # ;
-duon+Det+Sg+Ine:dun # ;
-duon+Det+Sg+Ela:dut # ;
-duon+Det+Sg+Com:duojna # ;
-
-duon+Det+Pl+Nom:duo # ;
-duon+Det+Pl+Acc:duojt # ;
-duon+Det+Pl+Acc+Use/NG:duojd # ;
-duon+Det+Pl+Gen:duoj # ;
-duon+Det+Pl+Ill:duojda # ;
-duon+Det+Pl+Ine:duojn # ;
-duon+Det+Pl+Ela:duojs # ;
-duon+Det+Pl+Com:duoj # ;
+dut+Det+Sg+Nom:dut # ;
+dut+Det+Sg+Acc:duv # ;
+dut+Det+Sg+Gen:dun # ;
+dut+Det+Sg+Ill:dut # ;
+dut+Det+Sg+Ine:dun # ;
+dut+Det+Sg+Ela:dut # ;
+dut+Det+Sg+Com:dujna # ;
+dut+Det+Pl+Nom:du # ;
+dut+Det+Pl+Acc:dujt # ;
+dut+Det+Pl+Acc+Use/NG:dujd # ;
+dut+Det+Pl+Gen:duj # ;
+dut+Det+Pl+Ill:dujda # ;
+dut+Det+Pl+Ine:dujn # ;
+dut+Det+Pl+Ela:dujs # ;
+dut+Det+Pl+Com:duj # ;
 
 
 !determiner (but does not inflect, as attr), eg: galga válldet daggár smáva muorajd
