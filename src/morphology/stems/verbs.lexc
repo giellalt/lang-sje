@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-11T17:59:26+02:00
+! Generated at: 2019-12-16T10:44:53+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -851,10 +851,10 @@ däbbtjot:diebbtj V_EVEN_O "press, knead" ; ! no. 433
 dähppot:diehpp V_EVEN_O "join (a group)" ; ! no. 90950
 dälbmot:dielbm V_EVEN_O "trample, tread" ; ! no. 408
 fierrot:fierr V_EVEN_O "mix" ; ! no. 5299
+gahtsot:gahtts V_EVEN_O "hang, hang up" ; ! no. 506
 garrtjot:garrtj V_EVEN_O "beg" ; ! no. 792
 gádjot:gádj V_EVEN_O "rescue" ; ! no. 489
 gáhtot:gáht V_EVEN_O "be gone, disappear" ; ! no. 503
-gáhttsot:gáhtts V_EVEN_O "hang, hang up" ; ! no. 506
 gájjkot:gájjk V_EVEN_O "rip, tear" ; ! no. 514
 gárrtjot:gárrtj V_EVEN_O "be really cold" ; ! no. 2785
 gávvlot:gávvl V_EVEN_O "cut off skin from reindeer leg" ; ! no. 2609
