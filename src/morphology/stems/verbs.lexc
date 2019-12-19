@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-16T10:44:53+01:00
+! Generated at: 2019-12-19T13:42:15+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -673,7 +673,7 @@ dibbdet:dibbd V_EVEN_E "disappear (for snow crust)" ; ! no. 3502
 diehtet:dieht V_EVEN_E "know" ; ! no. 350
 dubbanasstet:dubbanasst V_EVEN_E "move over more" ; ! no. 4738
 dumpalasstet:dumpalasst V_EVEN_E "be reckless" ; ! no. 5808
-duvvdet:duvvd V_EVEN_E "drive, push ahead reindeer" ; ! no. 405
+duvvdet:duvvd V_EVEN_E "drive, push ahead" ; ! no. 405
 dåbbdågåhtet:dåbbdågåht V_EVEN_E "get to know someone" ; ! no. 412
 dådjet:dådj V_EVEN_E "break, break off" ; ! no. 413
 dåjjdet:dåjjd V_EVEN_E "rinse, do the dishes" ; ! no. 417
@@ -701,7 +701,7 @@ gåhtset:gåhts V_EVEN_E "watch, do surveillance" ; ! no. 740
 gåjkådasstet:gåjkådasst V_EVEN_E "dry next to a fire" ; ! no. 4886
 gålldet:gålld V_EVEN_E "scoop up food" ; ! no. 4326
 gåppset:gåpps V_EVEN_E "go without" ; ! no. 3258
-happset:happs V_EVEN_E "smell" ; ! no. 812
+happset:happs V_EVEN_E "smell, sniff" ; ! no. 812
 harrdet:harrd V_EVEN_E "irritate, agitate" ; ! no. 5754
 hásstet:hásst V_EVEN_E "ask someone to come along" ; ! no. 822
 hiejtedahttet:hiejtedahtt V_EVEN_E "wean, quit" ; ! no. 3180
@@ -1707,7 +1707,7 @@ urudit:urud V_ODD "be somewhere temporarily" ; ! no. 2035
 usjudit:usjud V_ODD "think, mean" ; ! no. 2036
 uvvádit:uvvád V_ODD "kiss" ; ! no. 2039
 vahtalit:vahtal V_ODD "be missing" ; ! no. 90747
-vanadit:vanad V_ODD "stretch" ; ! no. 2078
+vanádit:vanád V_ODD "stretch" ; ! no. 2078
 vanjgadit:vanjgad V_ODD "run around (for humans and animals)" ; ! no. 91211
 vádtsatjit:vádtsatj V_ODD "go for a walk, walk slowly" ; ! no. 2047
 vádtsedit:vádtsed V_ODD "teach a child to walk" ; ! no. 5435
