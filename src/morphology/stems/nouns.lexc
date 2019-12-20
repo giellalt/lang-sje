@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-19T20:14:19+02:00
+! Generated at: 2019-12-20T13:19:52+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -69,6 +69,7 @@ ienoj:iedn N_CONTR_OJU "maternal uncle" ; ! no. 90769
 jållebåtsoj:jålle#båhts N_CONTR_OJU "fat reindeer, a good reindeer for eating" ; ! no. 3892
 nällgebåtsoj:nällge#båhts N_CONTR_OJU "hungry reindeer" ; ! no. 6864
 várrebåtsoj:várre#båhts N_CONTR_OJU "mountain reindeer" ; ! no. 90386
+gállo:gál'l N_CONTR_OU "big stone, boulder" ; ! no. 91297
 guokso:gu^Okks N_CONTR_OU "dawn" ; ! no. 690
 suolo:su^Oll N_CONTR_OU "island" ; ! no. 1771
 adjektijjva:adjektijjva N_EVEN "adjective" ; ! no. 3112
@@ -539,7 +540,7 @@ gäbbne:giebbne N_EVEN "pot" ; ! no. 779
 gärrge+Use/NG:gieddge N_EVEN "stone, rock" ; ! no. 90417
 gärrgeláhpa+Use/NG:gäddge#láhpa N_EVEN "rock overhang" ; ! no. 90917
 gähttje:giehttje N_EVEN "guardian" ; ! no. 3687
-gällu:giel'lu N_EVEN "big stone, boulder" ; ! no. 525
+gállo+Use/NG:gä2l'lu N_EVEN "big stone, boulder" ; ! no. 525
 gäŋŋka:gieŋŋka N_EVEN "reindeer which avoids being caught" ; ! no. 2878
 gärrda:gierrda N_EVEN "reindeer corral" ; ! no. 787
 gärrge:gierrge N_EVEN "stone, rock" ; ! no. 791
