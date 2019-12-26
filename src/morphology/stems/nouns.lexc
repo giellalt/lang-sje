@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-20T13:19:52+02:00
+! Generated at: 2019-12-26T13:29:42+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2204,9 +2204,9 @@ låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
 maddar:maddar N_ODD "root, fore-" ; ! no. 90620
 máddak:máddag2 N_ODD "size" ; ! no. 1109
-mierem+Use/NG:miedem N_ODD "roe" ; ! no. 90434
+mierrem+Use/NG:mieddem N_ODD "roe" ; ! no. 1149
 mierek:miereg2 N_ODD "spawning fish with roe" ; ! no. 5094
-mierem:mierem N_ODD "roe" ; ! no. 1149
+mierrem:mierrem N_ODD "roe" ; ! no. 90434
 miesak:miesag2 N_ODD "reindeer doe which has a calf" ; ! no. 1162
 miessák:miesság2 N_ODD "reindeer calf's winter hide" ; ! no. 4259
 mijdnik:mijdnig2 N_ODD "opinion" ; ! no. 1151
