@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-19T13:42:15+02:00
+! Generated at: 2020-01-02T10:17:32+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -265,7 +265,8 @@ tjuggit:tjuggi V_CONTR "stab, poke" ; ! no. 5331
 tjuhkkit:tjuhkki V_CONTR "gather, collect" ; ! no. 1920
 tjujdnit:tjujdni V_CONTR "stand while leaning forward considerably" ; ! no. 5328
 tjulbmit:tjulbmi V_CONTR "knot, make a knot" ; ! no. 5228
-tjullit:tjulli V_CONTR "clean fish" ; ! no. 3605
+tjullit:tjul'li V_CONTR "gut fish, clean fish" ; ! no. 3605
+tjullit:tjul'li V_CONTR "spit, spit out" ; ! no. 91299
 tjurrvit:tjurrvi V_CONTR "call someone quickly" ; ! no. 5337
 tjähttsit:tjä2httsi V_CONTR "water" ; ! no. 4391
 truvvgit:truvvgi V_CONTR "force" ; ! no. 4579
@@ -1659,6 +1660,7 @@ tjuhkkidit:tjuhkkid V_ODD "sit down" ; ! no. 1918
 tjuhkkistit:tjuhkkist V_ODD "collect quickly" ; ! no. 5321
 tjujdnahit:tjujdnah V_ODD "stand leaning forward" ; ! no. 5327
 tjulestit:tjulest V_ODD "kiss" ; ! no. 90382
+tjulestit:tjulest V_ODD "kiss" ; ! no. 91300
 tjuodtjadit:tju^Odtjad V_ODD "get up, stand up" ; ! no. 1926
 tjuodtjodit:tju^Odtjod V_ODD "be in charge of, lead" ; ! no. 4248
 tjuohpastit:tju^Ohpast V_ODD "chop off, cut off" ; ! no. 4646
