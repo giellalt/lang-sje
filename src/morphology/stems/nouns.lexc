@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-01-15T20:20:08+01:00
+! Generated at: 2020-01-16T08:17:13+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2320,10 +2320,10 @@ släpptjun:slä2pptjun N_ODD "fan" ; ! no. 1685
 smållek:smålleg2 N_ODD "shard, splinter, fragment" ; ! no. 91080
 snihkkus:snihkkus N_ODD "wood carving" ; ! no. 90829
 snubuk:snubug2 N_ODD "horsefly" ; ! no. 1699
-sparkar:sparkar N_ODD "kick-sled" ; ! no. 1714
 spádan:spádan N_ODD "shovel, snow shovel" ; ! no. 91292
 spággak:spággag2 N_ODD "bear spear" ; ! no. 1710
 spáhkak:spáhkag2 N_ODD "hitch in a Saami packsaddle" ; ! no. 1712
+spárrkár:spárrkár N_ODD "kick-sled" ; ! no. 1714
 spedjil:spedjil N_ODD "mirror" ; ! no. 4585
 spedjil+Use/NG:spedjul N_ODD "mirror" ; ! no. 91107
 spietjav+Use/NG:spietjam N_ODD "tail stump on a hoofed animal" ; ! no. 90730
