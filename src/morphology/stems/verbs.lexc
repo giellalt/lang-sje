@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-01-16T13:49:41+01:00
+! Generated at: 2020-01-20T10:19:34+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -1120,7 +1120,7 @@ dádjadit:dádjad V_ODD "understand" ; ! no. 4309
 dáhpadit:dáhpad V_ODD "miss, forget" ; ! no. 4600
 dájjsalit:dájjsal V_ODD "become hysterical" ; ! no. 4718
 dállkanit:dállkan V_ODD "become bad (weather)" ; ! no. 3326
-dállkarit:dállkar V_ODD "become bad (weather)" ; ! no. 3325
+dállkárit:dállkár V_ODD "become bad (weather)" ; ! no. 3325
 dálvadit:dálvad V_ODD "hibernate" ; ! no. 2472
 dámadit:dámad V_ODD "tame reindeer" ; ! no. 4723
 dárbahit:dárbah V_ODD "need" ; ! no. 333
@@ -1322,7 +1322,7 @@ häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
 häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
 hälijdit:hä2lijd V_ODD "desire, want to have" ; ! no. 90845
 hämmsanit:hä2mmsan V_ODD "be mixed up, become confused, become chaotic" ; ! no. 91212
-hämmsarit:hä2mmsar V_ODD "mix, blend" ; ! no. 867
+hämmsárit:hä2mmsár V_ODD "mix, blend" ; ! no. 867
 härridit:hä2rrid V_ODD "imitate" ; ! no. 869
 idjadit:idjad V_ODD "sleep over" ; ! no. 6895
 ieljadit:ieljad V_ODD "manage" ; ! no. 5162
@@ -1630,7 +1630,7 @@ såjådit:såjåd V_ODD "bend; decline, conjugate" ; ! no. 1819
 sårbmánit:sårbmán V_ODD "perish" ; ! no. 4379
 sårestit:sårest V_ODD "hurt, hurt something, injure" ; ! no. 1825
 sårjåstit:sårjåst V_ODD "seize, grab" ; ! no. 1826
-sähkkarit:sä2hkkar V_ODD "fancy someone" ; ! no. 1833
+sähkkárit:sä2hkkár V_ODD "fancy someone" ; ! no. 1833
 sähkudit:sä2hkud V_ODD "saw" ; ! no. 1834
 säjjvelit:sä2jjvel V_ODD "point" ; ! no. 5370
 tjaradit+Use/NG:tjadad V_ODD "push trough" ; ! no. 90480
