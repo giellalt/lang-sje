@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-01-18T22:26:36+01:00
+! Generated at: 2020-01-20T09:53:10+01:00
 
 !! !!!Pite Saami Nouns
 
@@ -2354,7 +2354,7 @@ tjátsek:tjátseg2 N_ODD "leather boot" ; ! no. 1884
 tjiebot+Use/NG:tjiebed2 N_ODD "throat, neck" ; ! no. 90949
 tjiebot:tjiebod2 N_ODD "throat, neck" ; ! no. 1900
 tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and forehead" ; ! no. 2563
-tjiehtar:tjiehtar N_ODD "servant" ; ! no. 4377
+tjiehtár:tjiehtár N_ODD "servant" ; ! no. 4377
 tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjijjkar:tjijjkar N_ODD "binoculars" ; ! no. 91237
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
