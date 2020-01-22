@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-01-20T10:19:34+01:00
+! Generated at: 2020-01-22T17:09:21+01:00
 
 !! !!!Pite Saami Verbs
 
@@ -615,7 +615,7 @@ vadjat:vadj V_EVEN_A "cut, cut to size" ; ! no. 5220
 vanjgadahtjat:vanjgadahtj V_EVEN_A "begin to run briefly" ; ! no. 91016
 vannjgat:vannjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 vassjat:vassj V_EVEN_A "feel like, manage, have the energy" ; ! no. 2095
-vavvdat:vavvd V_EVEN_A "become caught, catch" ; ! no. 5976
+våvvdåt+Use/NG:vavvd V_EVEN_A "become caught, become stuck" ; ! no. 5976
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
 viegadallat:viegadall V_EVEN_A "run after, chase" ; ! no. 5443
 viehkat:viehk V_EVEN_A "run (for humans)" ; ! no. 2105
@@ -1016,6 +1016,7 @@ sådjåt:sådj V_EVEN_Å "be bent" ; ! no. 1813
 såhpåt:såhp V_EVEN_Å "slice meat off a bone" ; ! no. 1817
 tjållgåt:tjållg V_EVEN_Å "spit, drool" ; ! no. 1971
 tsåggåt:tsågg V_EVEN_Å "pack, stuff in a bag" ; ! no. 4170
+våvvdåt:våvvd V_EVEN_Å "become caught, become stuck" ; ! no. 91305
 åhppåt:åhpp V_EVEN_Å "take up a net" ; ! no. 2245
 åhppåt:åhpp V_EVEN_Å "learn" ; ! no. 2247
 åhtsåt:åhts V_EVEN_Å "search for, look for" ; ! no. 2248
@@ -1618,6 +1619,7 @@ suptsijdit:suptsijd V_ODD "enjoy being somewhere and stick around" ; ! no. 4020
 surgodit:surgod V_ODD "branch, fork" ; ! no. 3158
 suvvrahit:suvvrah V_ODD "pout, sulk" ; ! no. 5152
 suvvrodit:suvvrod V_ODD "turn sour, go bad" ; ! no. 2625
+suällkedit:su^Ollked V_ODD "snitch, snatch, lift (steal)" ; ! no. 91304
 svajbastit:svajbast V_ODD "catch fish with a string" ; ! no. 1789
 sviergadit:sviergad V_ODD "kick about, flounder" ; ! no. 2456
 svijmágit:svijmág V_ODD "faint" ; ! no. 1803
