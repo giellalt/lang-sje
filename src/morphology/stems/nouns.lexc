@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-02-10T14:09:34+02:00
+! Generated at: 2020-02-11T09:04:38+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2081,6 +2081,8 @@ dállveiednam:dállve#iednam N_ODD "winter land" ; ! no. 90195
 dállveårroj:dállve#årroj N_ODD "reindeer which remained behind during the winter instead of migrating" ; ! no. 4722
 dehtus:dehtus N_ODD "knowledge" ; ! no. 90321
 derik:derig2 N_ODD "shoes made of leather from reindeer legs" ; ! no. 354
+desimehtir:desi#mehtir N_ODD "decimeter" ; ! no. 3564
+diamehtir:dia#mehtir N_ODD "diameter" ; ! no. 3595
 diddnot+V+Der/NomAg:diddnoj N_ODD "spark" ; ! no. 6728
 didtjul:didtjul N_ODD "lizard" ; ! no. 348
 diehkák:diehkág2 N_ODD "pole of a Saami tent" ; ! no. 364
@@ -2205,6 +2207,7 @@ låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
 maddar:maddar N_ODD "root, fore-" ; ! no. 90620
 máddak:máddag2 N_ODD "size" ; ! no. 1109
+mehtir:mehtir N_ODD "meter" ; ! no. 90634
 mierrem+Use/NG:mieddem N_ODD "roe" ; ! no. 1149
 mierek:miereg2 N_ODD "spawning fish with roe" ; ! no. 5094
 mierrem:mierrem N_ODD "roe" ; ! no. 90434
@@ -2285,6 +2288,7 @@ sálat:sálad2 N_ODD "crevasse in a glacier" ; ! no. 4408
 sámegielak:sáme#gielag2 N_ODD "Saami speaker" ; ! no. 2643
 sárdnom:sárdnom N_ODD "message" ; ! no. 90305
 sávvam:sávvam N_ODD "wish" ; ! no. 5113
+sentimehtir:senti#mehtir N_ODD "centimeter" ; ! no. 3522
 sibjuk:sibjug2 N_ODD "a woman's brother-in-law; a man's sister-in-law" ; ! no. 5115
 siddar:siddar N_ODD "fine rain" ; ! no. 1534
 sidut:sidud2 N_ODD "desire, wish" ; ! no. 1536
@@ -2358,6 +2362,7 @@ tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and for
 tjiehtár:tjiehtár N_ODD "servant" ; ! no. 4377
 tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjijjkar:tjijjkar N_ODD "binoculars" ; ! no. 91237
+tjijjlomehtir:tjijjlo#mehtir N_ODD "kilometer" ; ! no. 5217
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
 tjilik:tjilig2 N_ODD "baby goat, kid" ; ! no. 5216
 tjuruk+Use/NG:tjirug2 N_ODD "flesh fly" ; ! no. 91220
@@ -2468,8 +2473,6 @@ vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; !
 báhper:báhpper N_ODD_V2E2AA "paper" ; ! no. 110
 bissmer:bissmer N_ODD_V2E2AA "steelyard" ; ! no. 3267
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
-desimähtter:desi#mä2htter N_ODD_V2E2AA "decimeter" ; ! no. 3564
-diamähtter:dia#mä2htter N_ODD_V2E2AA "diameter" ; ! no. 3595
 fieber:fieber N_ODD_V2E2AA "fever" ; ! no. 4049
 fudder:fudder N_ODD_V2E2AA "feed" ; ! no. 91173
 gahper:gahper N_ODD_V2E2AA "cap (part of traditional dress)" ; ! no. 6765
@@ -2483,15 +2486,12 @@ gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
 kánser:kánser N_ODD_V2E2AA "cancer" ; ! no. 3521
 kåpter:kåpter N_ODD_V2E2AA "helicopter" ; ! no. 4226
 máles:málles N_ODD_V2E2AA "hot meal, dinner" ; ! no. 90270
-mähtter:mä2htter N_ODD_V2E2AA "meter" ; ! no. 90634
 nager:nahker N_ODD_V2E2AA "sleep, tiredness" ; ! no. 90555
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 báhper+Use/NG:páhpper N_ODD_V2E2AA "paper" ; ! no. 90700
 sáddebáhper:sádde#báhpper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
 sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
-sentimähtter:senti#mä2htter N_ODD_V2E2AA "centimeter" ; ! no. 3522
 skuhter:skuhtter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
-tjilumähtter:tjilu#mä2htter N_ODD_V2E2AA "kilometer" ; ! no. 5217
 vuanntsáåres:vuanntsá#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 vähttjer:vä2httjer N_ODD_V2E2AA "hammer" ; ! no. 2106
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
