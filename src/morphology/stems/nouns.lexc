@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-02-11T09:04:38+02:00
+! Generated at: 2020-02-16T07:53:47+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1763,9 +1763,9 @@ dadneárrpo:dadne#árrpo N_EVEN_O "tin wire" ; ! no. 299
 dassko:dassko N_EVEN_O "bag, little sack for a silver spoon" ; ! no. 338
 dábblo:dábblo N_EVEN_O "picture, painting" ; ! no. 5176
 dáffo:dáf'fo N_EVEN_O "area" ; ! no. 2367
+dáhtábarrgo:dáhtá#barrgo N_EVEN_O "computer processing" ; ! no. 3556
 dárrbo:dárrbo N_EVEN_O "need" ; ! no. 336
 dárro:dárro N_EVEN_O "Swedish, Norwegian" ; ! no. 90065
-dátábarrgo:dátá#barrgo N_EVEN_O "computer processing" ; ! no. 3556
 dávvdadiehto:dávvda#diehto N_EVEN_O "diagnosis" ; ! no. 3592
 diddno:diddno N_EVEN_O "flint" ; ! no. 361
 didnolássebirrso:didno#lásse#birrso N_EVEN_O "flintlock gun" ; ! no. 5670
