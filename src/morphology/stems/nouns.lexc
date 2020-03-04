@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-03-03T16:34:35+02:00
+! Generated at: 2020-03-04T06:26:16+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2526,6 +2526,7 @@ bårjås:bårrjås N_ODD_WG "sail" ; ! no. 248
 båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
 bässátj:bä2s'sátj N_ODD_WG "Easter" ; ! no. 90231
 dimbar:dimmbar N_ODD_WG "wood, timber" ; ! no. 90322
+duodjebarrgej:duodje#barrgej N_ODD_WG "artesian" ; ! no. 5686
 dåbbdet+V+Der/NomAg:dåbbdej N_ODD_WG "expert" ; ! no. 4741
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 gamar:gabmar N_ODD_WG "goat cheese curd mass" ; ! no. 90752
