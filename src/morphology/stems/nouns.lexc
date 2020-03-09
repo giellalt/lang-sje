@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-03-04T13:46:04+02:00
+! Generated at: 2020-03-09T07:15:05+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1312,6 +1312,7 @@ universitähtta:universitiehtta N_EVEN "university" ; ! no. 5503
 uŋŋga:uŋŋga N_EVEN "youth, child" ; ! no. 4186
 urudahka:urudahka N_EVEN "settlement, camp" ; ! no. 3391
 uudnogis+A+Der/State:uudnogisvu^Ohta N_EVEN "envy" ; ! no. 3178
+uvve:uvve N_EVEN "current in a lake" ; ! no. 6053
 vahkkogiehtje:vahkko#giehtje N_EVEN "end of the week, weekend" ; ! no. 5356
 vallda:vallda N_EVEN "mountain meadow" ; ! no. 4084
 vanashuvvsa:vanas#huvvsa N_EVEN "boat house" ; ! no. 2621
@@ -1436,7 +1437,6 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åvvdågiehtje:åvvdå#giehtje N_EVEN "front part, stem (of boat)" ; ! no. 2275
 åvvdåskåvvlå+Use/NG:åvvdå#skåvvle N_EVEN "preschool" ; ! no. 5588
 åvvdåskåvvlå:åvvdå#skåvvlå N_EVEN "preschool" ; ! no. 91042
-åvve:åvve N_EVEN "current in a lake" ; ! no. 6053
 äddne:ieddne N_EVEN "mother" ; ! no. 2285
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
 älbmukbäjjve:älbmuk#biejjve N_EVEN "day of the (Saami) people" ; ! no. 91218
@@ -1734,13 +1734,13 @@ assto:assto N_EVEN_O "time" ; ! no. 81
 bajeldisgárrvo:bajeldis#gárrvo N_EVEN_O "outer layer of clothing" ; ! no. 119
 ballo:ballo N_EVEN_O "fear" ; ! no. 136
 barrgo:barrgo N_EVEN_O "work, job" ; ! no. 146
+bassemánno:basse#mánno N_EVEN_O "November" ; ! no. 151
 bassembärrgo:bassem#bierrgo N_EVEN_O "fried meat" ; ! no. 4695
 báhkko:báhkko N_EVEN_O "hill, slope" ; ! no. 91213
 báhko:báhko N_EVEN_O "word" ; ! no. 108
 bárrdesvahkko:bárrdes#vahkko N_EVEN_O "Bartolomeusveckan i augusti" ; ! no. 3841
 bárrko:bárrko N_EVEN_O "bark" ; ! no. 147
 bárro:bárro N_EVEN_O "wave (in water)" ; ! no. 4685
-bássemánno:básse#mánno N_EVEN_O "November" ; ! no. 151
 bednikdårrjo:bednik#dårrjo N_EVEN_O "contribution, subsidy, financial support" ; ! no. 3309
 beggumbärrgo:beggum#bierrgo N_EVEN_O "meat which is spoiled from exposure to weather" ; ! no. 4456
 biehtsemánno:biehtse#mánno N_EVEN_O "June" ; ! no. 600
@@ -2104,6 +2104,7 @@ däbmuk:dä2bmug2 N_ODD "trout" ; ! no. 296
 eŋŋgel:eŋŋgel N_ODD "angel" ; ! no. 5287
 ertik:ertig2 N_ODD "side of reindeer" ; ! no. 2881
 fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
+febir:febir N_ODD "fever" ; ! no. 4049
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
@@ -2343,7 +2344,7 @@ suojmek:su^Ojmeg2 N_ODD "slow person" ; ! no. 2650
 suorek:su^Oreg2 N_ODD "fork, forked" ; ! no. 1774
 suäbbdek:su^Obbdeg2 N_ODD "uprooted tree" ; ! no. 1783
 svargatj:svargatj N_ODD "snack" ; ! no. 1795
-svájlek:svájleg2 N_ODD "untamed castrated reindeer" ; ! no. 2843
+svájlek:svájleg2 N_ODD "untamed castrated reindeer bull" ; ! no. 2843
 sverik:sverig2 N_ODD "Swedish" ; ! no. 1798
 syhkkil:syhkkil N_ODD "bicycle" ; ! no. 1809
 säritj+Use/NG:sä2ditj N_ODD "young pine forest" ; ! no. 90576
@@ -2474,7 +2475,6 @@ vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; !
 báhper:báhpper N_ODD_V2E2AA "paper" ; ! no. 110
 bissmer:bissmer N_ODD_V2E2AA "steelyard" ; ! no. 3267
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
-fieber:fieber N_ODD_V2E2AA "fever" ; ! no. 4049
 fudder:fudder N_ODD_V2E2AA "feed" ; ! no. 91173
 gahper:gahper N_ODD_V2E2AA "cap (part of traditional dress)" ; ! no. 6765
 garber:garber N_ODD_V2E2AA "unripe berry" ; ! no. 90542
