@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-03-09T07:15:05+02:00
+! Generated at: 2020-03-19T10:07:50+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -101,12 +101,12 @@ avve:avve N_EVEN "belt" ; ! no. 91037
 áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
 áhkarmuärrje:áhkar#mu^Orrje N_EVEN "arctic raspberry" ; ! no. 5955
-áhkka:áhkka N_EVEN "grandmother, closely related older female family members, goddess" ; ! no. 11
+áhkká:áhkká N_EVEN "grandmother, closely related older female family members, goddess" ; ! no. 11
 áhpe:áhpe N_EVEN "big marsh" ; ! no. 13
 áhppa:áhppa N_EVEN "ape, monkey" ; ! no. 3125
 áhta:áhta N_EVEN "thing, object" ; ! no. 90715
 áhtjáddjá:áhtj#áddjá N_EVEN "paternal grandfather" ; ! no. 2897
-áhtjáhkka:áhtj#áhkka N_EVEN "paternal grandmother" ; ! no. 2896
+áhtjáhkká:áhtj#áhkká N_EVEN "paternal grandmother" ; ! no. 2896
 áhtjáddjá+Use/NG:áhtj#áj'já N_EVEN "paternal grandfather" ; ! no. 91245
 áhttje:áhttje N_EVEN "father, dad" ; ! no. 16
 áhttjemija:áhttje#mija N_EVEN "the Lord's prayer" ; ! no. 90971
@@ -160,7 +160,7 @@ barrgosadje:barrgo#sadje N_EVEN "workplace" ; ! no. 4684
 barrte:barrte N_EVEN "difficult mountain" ; ! no. 2805
 basadimgárre:basadim#gárre N_EVEN "washing pan" ; ! no. 4687
 basilla:basilla N_EVEN "bacterium, germ" ; ! no. 3199
-basse:basse N_EVEN "weekend" ; ! no. 150
+basse:basse N_EVEN "weekend, holidy" ; ! no. 150
 bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
 bassempánna:bassem#pán'na N_EVEN "frying pan" ; ! no. 91148
 bassemvuodja:bassem#vu^Odja N_EVEN "cooking grease" ; ! no. 152
@@ -611,7 +611,7 @@ juakksa:ju^Okksa N_EVEN "bow (archery)" ; ! no. 940
 jugalvasbäjjve:jugalvas#biejjve N_EVEN "wedding day" ; ! no. 3462
 juhkamgukkse:juhkam#gukkse N_EVEN "scoop for drinking" ; ! no. 3041
 juhkamlihtte:juhkam#lihtte N_EVEN "mug, drinking vessel" ; ! no. 5662
-juhksáhkka:juhks#áhkka N_EVEN "goddess of the hunt" ; ! no. 4325
+juhksáhkká:juhks#áhkká N_EVEN "goddess of the hunt" ; ! no. 4325
 jukksa:jukksa N_EVEN "ski binding" ; ! no. 934
 juovva:ju^Ovva N_EVEN "scree" ; ! no. 2448
 jupptsa:jupptsa N_EVEN "gruel, porridge, soup" ; ! no. 2663
@@ -735,7 +735,7 @@ läjjdishärrge:läjjdis#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
 lävvka:lievvka N_EVEN "silty moist clay, expansive clay" ; ! no. 1105
 maddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
-maddaráhkka:maddar#áhkka N_EVEN "female ancestor; mother earth" ; ! no. 3062
+maddaráhkká:maddar#áhkká N_EVEN "female ancestor; mother earth" ; ! no. 3062
 mahte:mahte N_EVEN "a bit" ; ! no. 90569
 majoritähtta:majoritiehtta N_EVEN "majority" ; ! no. 5982
 malle:malle N_EVEN "pattern, template" ; ! no. 3736
@@ -956,7 +956,7 @@ rässjme:riessjme N_EVEN "line for fishing under ice" ; ! no. 2754
 sabeknjuonne:sabek#nju^Onne N_EVEN "ski tip" ; ! no. 5106
 sadje:sadje N_EVEN "place, location" ; ! no. 1471
 sadje+Use/NG:sajje N_EVEN "place, location" ; ! no. 91159
-saráhkka:sar#áhkka N_EVEN "goddess of childbirth" ; ! no. 4323
+saráhkká:sar#áhkká N_EVEN "goddess of childbirth" ; ! no. 4323
 sarre:sarre N_EVEN "blueberry" ; ! no. 1512
 sarrvá:sarrvá N_EVEN "moose" ; ! no. 2358
 sarrvágussa:sarrvá#gussa N_EVEN "moose cow" ; ! no. 4512
@@ -1226,7 +1226,7 @@ tjállemgirrje:tjállem#girrje N_EVEN "exercise book" ; ! no. 5191
 tjállemvuohke:tjállem#vu^Ohke N_EVEN "orthography" ; ! no. 2430
 tjátselihtte:tjátse#lihtte N_EVEN "water bucket" ; ! no. 5178
 tjidtjáddjá:tjidtj#áddjá N_EVEN "maternal grandfather" ; ! no. 90894
-tjidtjáhkka:tjidtj#áhkka N_EVEN "maternal grandmother" ; ! no. 90897
+tjidtjáhkká:tjidtj#áhkká N_EVEN "maternal grandmother" ; ! no. 90897
 tjidtjáddjá+Use/NG:tjidtj#áj'já N_EVEN "maternal grandfather" ; ! no. 90895
 tjiebotdákkte:tjiebot#dákkte N_EVEN "cervical vertebra" ; ! no. 3771
 tjiebotlijdne:tjiebot#lijdne N_EVEN "scarf" ; ! no. 1902
@@ -1236,7 +1236,7 @@ tjiehtse:tjiehtse N_EVEN "paternal uncle" ; ! no. 1893
 tjihta:tjihta N_EVEN "pen, stall" ; ! no. 5928
 tjilgimdákkte:tjilgim#dákkte N_EVEN "lock on a tobacco pouch" ; ! no. 1909
 tjitjáddjá:tjitj#áddjá N_EVEN "maternal grandfather" ; ! no. 2895
-tjitjáhkka:tjitj#áhkka N_EVEN "maternal grandmother" ; ! no. 2894
+tjitjáhkká:tjitj#áhkká N_EVEN "maternal grandmother" ; ! no. 2894
 tjitjáddjá+Use/NG:tjitj#áj'já N_EVEN "maternal grandfather" ; ! no. 90932
 tjivvda:tjivvda N_EVEN "smell and taste of reindeer in rut" ; ! no. 4413
 tjivvle:tjivvle N_EVEN "floater, bobber" ; ! no. 1981
@@ -1305,7 +1305,7 @@ udnátjbäjjve:udnátj#biejjve N_EVEN "today" ; ! no. 5612
 ugrásse:ugrásse N_EVEN "weed" ; ! no. 2755
 ukksa:ukksa N_EVEN "door, gate" ; ! no. 2022
 ukksarájjge:ukksa#rájjge N_EVEN "doorframe" ; ! no. 3938
-ukksáhkka:ukks#áhkka N_EVEN "goddess who protects children" ; ! no. 4324
+ukksáhkká:ukks#áhkká N_EVEN "goddess who protects children" ; ! no. 4324
 ulla:ulla N_EVEN "greed, desire" ; ! no. 90371
 ullgurijjka:ullgu#rijjka N_EVEN "abroad" ; ! no. 5165
 universitähtta:universitiehtta N_EVEN "university" ; ! no. 5503
