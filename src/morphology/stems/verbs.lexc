@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-03-19T13:36:22+02:00
+! Generated at: 2020-03-31T11:34:53+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -271,9 +271,9 @@ tjullit:tjul'li V_CONTR "spit, spit out" ; ! no. 91299
 tjurrvit:tjurrvi V_CONTR "call someone quickly" ; ! no. 5337
 tjähttsit:tjä2httsi V_CONTR "water" ; ! no. 4391
 truvvgit:truvvgi V_CONTR "force" ; ! no. 4579
+tseggit:tseggi V_CONTR "build, set up, raise" ; ! no. 2003
 tsevvut:tsevvu V_CONTR "become hardpack (for snow)" ; ! no. 90745
 tsibbtsut:tsibbtsu V_CONTR "pinch someone" ; ! no. 5712
-tsiggit:tsiggi V_CONTR "build, set up, raise" ; ! no. 2003
 tsihkkit:tsihkki V_CONTR "start (a fire)" ; ! no. 90083
 tsujjgit:tsujjgi V_CONTR "point out, draw someone’s attention to something" ; ! no. 2012
 tuhttjit:tuhttji V_CONTR "think, consider, deem" ; ! no. 4733
@@ -333,7 +333,7 @@ tjuoladuvvut:tju^Oladuvv V_CONTR_UVVUT "slice, cut" ; ! no. 5528
 tjuorgaduvvut:tju^Orgaduvv V_CONTR_UVVUT "paint" ; ! no. 90367
 tjåvdeduvvut:tjåvdeduvv V_CONTR_UVVUT "be set free, be liberated" ; ! no. 3233
 tsábmestuvvut:tsábmestuvv V_CONTR_UVVUT "be hit down, knocked down" ; ! no. 90911
-tsiggiduvvut:tsiggiduvv V_CONTR_UVVUT "be constructed, be erected" ; ! no. 90234
+tseggiduvvut:tseggiduvv V_CONTR_UVVUT "be constructed, be erected" ; ! no. 90234
 vájvástuvvut:vájvástuvv V_CONTR_UVVUT "anguish, squirm" ; ! no. 2069
 válldeduvvut:válldeduvv V_CONTR_UVVUT "be taken" ; ! no. 90389
 vuoláduvvut:vu^Oláduvv V_CONTR_UVVUT "become inebriated, become drunk" ; ! no. 3254
@@ -1696,6 +1696,7 @@ tsammkalit:tsammkal V_ODD "whisper briefly" ; ! no. 6781
 tsábmestit:tsábmest V_ODD "hit down, knock down, strike" ; ! no. 90669
 tsáskadit:tsáskad V_ODD "walk across frozen snow" ; ! no. 2000
 tsávaldit:tsávald V_ODD "make or force one's way" ; ! no. 2001
+tseggidit:tseggid V_ODD "rise up" ; ! no. 91315
 tsibtsástit:tsibtsást V_ODD "pinch, nip, squeeze" ; ! no. 2006
 tsieladit:tsielad V_ODD "encourage a dog to bark" ; ! no. 5348
 tsieskastit:tsieskast V_ODD "puncture slightly with a needle or knife tip" ; ! no. 2647

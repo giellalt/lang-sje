@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-03-19T10:07:50+02:00
+! Generated at: 2020-03-31T11:35:18+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -2379,9 +2379,9 @@ tjåhkem:tjåhkem N_ODD "collection, pile, gathering" ; ! no. 3926
 tjåhkom:tjåhkom N_ODD "comb" ; ! no. 1961
 tjårvemáddak:tjårve#máddag2 N_ODD "base of reindeer antlers" ; ! no. 2380
 tjäjjsár:tjä2jjsár N_ODD "emperor" ; ! no. 5901
+tseggim:tseggim N_ODD "rock pile, cairn" ; ! no. 6521
 tsieban:tsieban N_ODD "shrew mouse" ; ! no. 4348
-tsiggán:tsiggán N_ODD "wood frame for Saami tent" ; ! no. 2007
-tsiggim:tsiggim N_ODD "rock pile, cairn" ; ! no. 6521
+tsieggán:tsieggán N_ODD "wood frame for Saami tent" ; ! no. 2007
 tsitsuk:tsitsug2 N_ODD "sparrow" ; ! no. 2010
 tsähkkuk:tsä2hkkug2 N_ODD "forked upwards pointing antler" ; ! no. 2874
 tällik:tä2llig2 N_ODD "plate" ; ! no. 5949
