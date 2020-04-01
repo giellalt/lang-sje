@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2019-12-11T14:17:18+02:00
+! Generated at: 2020-04-01T17:44:23+03:00
 
 !! !!!Pite Saami Adjectives
 
@@ -105,6 +105,7 @@ vuällegatj:vu^Ol'legatj A_ELULATJ "low, humble" ; ! no. 4547
 aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
 buorak:bu^Orag2 A_FIEROK "good" ; ! no. 3398
 buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
+dálátj:dálátj A_FIEROK "nowadays, current" ; ! no. 3590
 dámak:dámag2 A_FIEROK "tame" ; ! no. 90987
 dulutj:dulutj A_FIEROK "old-time" ; ! no. 4213
 fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
