@@ -34,7 +34,6 @@ GT_LEXC_SRCS_L1_L2=\
 				stems/interjections.lexc \
 				stems/nouns.lexc \
 				stems/numerals.lexc \
-				stems/abbreviations.lexc \
 				stems/particles.lexc \
 				stems/pronouns.lexc \
 				stems/sje-propernouns.lexc \

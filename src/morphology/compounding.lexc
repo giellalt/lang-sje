@@ -23,8 +23,8 @@
 LEXICON R
  RTags1 ;
 
-LEXICON RHyph
-+Cmp/Hyph:-   RTags1 ;
+!LEXICON RHyph
+!+Cmp/Hyph:-   RTags1 ;
 
 LEXICON RTags1
  @P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RTags ; ! Flags to control compounding
