@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-04-03T16:19:08+03:00
+! Generated at: 2020-04-03T19:00:34+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -469,6 +469,7 @@ gisstá:gisstá N_EVEN "gloves made of reindeer leather (leg leather)" ; ! no. 6
 gisstásuäjdne:gisstá#su^Ojdne N_EVEN "hay for gloves" ; ! no. 5268
 glassatjalbme:glassa#tjalbme N_EVEN "glasses, spectacles" ; ! no. 90630
 glássa:glássa N_EVEN "ice cream" ; ! no. 529
+gránna:grán'na N_EVEN "neighbor" ; ! no. 91008
 grásse:grásse N_EVEN "grass" ; ! no. 3604
 grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
 grubba:grub'ba N_EVEN "pit" ; ! no. 91151
@@ -643,7 +644,6 @@ knáhppa:knáhppa N_EVEN "button" ; ! no. 5820
 knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
 komuvdna:komuvdna N_EVEN "municipality" ; ! no. 976
 kráhka:kráhka N_EVEN "collar" ; ! no. 6639
-kránna:krán'na N_EVEN "neighbor" ; ! no. 91008
 kreatuvvra:kreatuvvra N_EVEN "cattle, livestock (not reindeer)" ; ! no. 91217
 krikksja:krikksja N_EVEN "common teal" ; ! no. 979
 kristalatj+A+Der/State:kristalatjvu^Ohta N_EVEN "Christianity" ; ! no. 980
@@ -1625,6 +1625,7 @@ klabjobägga:klabjo#biegga N_EVEN_NOCG "whirlwind, tornado" ; ! no. 974
 kuardna:ku^Ordna N_EVEN_NOCG "coffee grinder" ; ! no. 4847
 láddakjägge:láddak#jiegge N_EVEN_NOCG "marsh with cloudberries" ; ! no. 5421
 ládde:ládde N_EVEN_NOCG "man (not Saami)" ; ! no. 993
+láddo:láddo N_EVEN_NOCG "barn" ; ! no. 91316
 libba:libba N_EVEN_NOCG "lamb" ; ! no. 2757
 luadda:lu^Odda N_EVEN_NOCG "footprint, track" ; ! no. 1056
 lulátbägga:lulát#biegga N_EVEN_NOCG "easterly wind" ; ! no. 1061
