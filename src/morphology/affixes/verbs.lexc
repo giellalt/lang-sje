@@ -543,6 +543,7 @@ LEXICON LEPRS !!= * @CODE@
 LEXICON LEPRT !!= * @CODE@ 
 +Sg1:lijjiv    # ; 
 +Sg1:lidjiv    # ;  
++Sg1:liv    # ;  
 +Sg2:lijji    # ; 
 +Sg2:lidji    # ;  
 +Sg3:lij    # ; 
