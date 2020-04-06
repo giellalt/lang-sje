@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-04-05T14:20:12+03:00
+! Generated at: 2020-04-06T14:04:56+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -382,6 +382,7 @@ gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
 gahpa:gahpa N_EVEN "cheese mass, cream" ; ! no. 497
 gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
 gallva:gallva N_EVEN "dry deciduous tree" ; ! no. 4757
+gaskamierre:gaska#mierre N_EVEN "halfway, average" ; ! no. 90545
 gasskabäjjve:gasska#biejjve N_EVEN "dinner time" ; ! no. 564
 gasskadállve:gasska#dállve N_EVEN "the middle of the winter" ; ! no. 5728
 gasskagiesse:gasska#giesse N_EVEN "midsummer" ; ! no. 91171
@@ -643,6 +644,7 @@ klåhkkå:klåhkkå N_EVEN "clock" ; ! no. 975
 knáhppa:knáhppa N_EVEN "button" ; ! no. 5820
 knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
 komuvdna:komuvdna N_EVEN "municipality" ; ! no. 976
+konjáhkka:konjáhkka N_EVEN "cognac" ; ! no. 91318
 kráhka:kráhka N_EVEN "collar" ; ! no. 6639
 kreatuvvra:kreatuvvra N_EVEN "cattle, livestock (not reindeer)" ; ! no. 91217
 krikksja:krikksja N_EVEN "common teal" ; ! no. 979
@@ -761,6 +763,7 @@ mánnágirrje:mánná#girrje N_EVEN "children’s book" ; ! no. 3220
 mánnámiella:mánná#miella N_EVEN "childish mood" ; ! no. 90632
 mánná+A+Der/State:mánnávu^Ohta N_EVEN "childhood" ; ! no. 3221
 mánnodiehpe:mánno#diehpe N_EVEN "moonlight" ; ! no. 4310
+márrtná+Use/NG:márrkná N_EVEN "market" ; ! no. 91317
 márrtná:márrtná N_EVEN "market" ; ! no. 2594
 metuvvda:metuvvda N_EVEN "method" ; ! no. 91182
 miehtedievvá:miehte#dievvá N_EVEN "downhill slope" ; ! no. 5893
@@ -1476,6 +1479,7 @@ guosastak:gu^Osastag2 N_EVEN4 "dense fir forest" ; ! no. 6869
 gårustak:gårustag2 N_EVEN4 "thread" ; ! no. 2814
 gämmulak:gä2mmulag2 N_EVEN4 "large intestine" ; ! no. 2857
 häjbmulatj:hä2jbmulatj N_EVEN4 "people that belong to a person's home" ; ! no. 90239
+jugastak:jugastag2 N_EVEN4 "sip, dram, shot (of alcohol)" ; ! no. 91320
 juhtulak:juhtulag2 N_EVEN4 "migration route" ; ! no. 90290
 jådádak:jådádag2 N_EVEN4 "migration path" ; ! no. 948
 klubbádak:klubbádag2 N_EVEN4 "snow stuck to the bottom of skis" ; ! no. 4614
@@ -2297,7 +2301,7 @@ sidut:sidud2 N_ODD "desire, wish" ; ! no. 1536
 siessal:siessal N_ODD "paternal aunt’s niece or nephew" ; ! no. 3418
 sillbabednik:sillba#bednig2 N_ODD "silver coin, silver money" ; ! no. 90568
 sirrkus:sirrkus N_ODD "circus" ; ! no. 3526
-sissmutj:sissmutj N_ODD "inner quarter meat of reindeer" ; ! no. 2521
+sissŋutj:sissŋutj N_ODD "inner quarter meat of reindeer" ; ! no. 2521
 sivvun:sivvun N_ODD "smooth water (between rapids)" ; ! no. 1550
 sjaddok:sjaddog2 N_ODD "-grown" ; ! no. 91051
 sjaddok+Use/NG:sjiddug2 N_ODD "-grown" ; ! no. 91052
@@ -2433,7 +2437,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åråk:åråg2 N_ODD "new-born puppy" ; ! no. 90294
 ähppár:ä2hppár N_ODD "ghost of a murdered, unbaptized baby" ; ! no. 4312
 äjjgut:ä2jjgud2 N_ODD "intention" ; ! no. 3171
-äjjtik:ä2jjtig2 N_ODD "forefather, ancestor, parent" ; ! no. 33
+äjjtik:ä2jjtig2 N_ODD "forefather, ancestor; parent (archaic)" ; ! no. 33
 älbmuk:ä2lbmug2 N_ODD "people, crowd, public" ; ! no. 44
 aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
 ája:ádjag N_ODD_OPEN "spring, source" ; ! no. 2685
