@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-04-06T14:04:56+03:00
+! Generated at: 2020-04-17T14:17:58+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -1685,6 +1685,7 @@ stänntjejägge:stänntje#jiegge N_EVEN_NOCG "wet bog" ; ! no. 3358
 sudde:sudde N_EVEN_NOCG "hole in the ice, open water in the winter" ; ! no. 1755
 suddo:suddo N_EVEN_NOCG "sin; a pity" ; ! no. 2400
 såbbe:såbbe N_EVEN_NOCG "stick, pole" ; ! no. 1811
+sågge:sågge N_EVEN_NOCG "area close to the wall of a hut or tent" ; ! no. 91322
 säddo:sieddo N_EVEN_NOCG "peace, stillness" ; ! no. 1830
 säddu:sieddu N_EVEN_NOCG "sandbank" ; ! no. 3407
 tjarra+Use/NG:tjadda N_EVEN_NOCG "soot, coal" ; ! no. 90445
