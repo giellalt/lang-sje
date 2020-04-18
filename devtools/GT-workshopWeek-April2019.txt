@@ -1,0 +1,115 @@
+*** NOTES from practical workshop at GT, April 2019 ***
+
+
+TO DO:
+- make tjállej-types be +V+Der/NomAg dyncamically in FST (instead of +Der/NomAg)
+
+- export closed PoS directly from FMP to lexc and NDS
+
+- add other dynamic derivation in FST, such as:
+	- InchL (inchoative long) -gåhtet
+	- cf. http://giellatekno.uit.no/doc/mt/infra/DerivationOverview.html
+	- cf. Ruong 1943 ! :)
+
+- simplify redundant CG rule sets (nom.sg, nom.pl, gen.sg, etc.)
+
+- check PoS-tags for derivations
+
+- update yamls
+
+- mark homophony (e.g. with +Hom1, +Hom2)
+
+- add smi-propernouns ?? (add to make file, adjust pearl script?)
+
+- do "make check" and yaml more often!
+
+- compounding:
+	-> add tags/paths for Adj, Verbs for compounding
+			CmpGenSg
+
+- DONE fix FM so that tjállej-types are not N+Der/NomAg but +V+Der/NomAg
+- DONE add text to lexc-xsl mentioning they are generated!
+- DONE fix initial capitalization problem for á	
+- DONE Vgen -> VGen everywher in sje/
+
+
+NOTES:
+
+- devtools	-> scripts to output mini-paradigms (adjust paths to sje!)
+			-> generate-noun-wordforms.sh
+			-> tag_test.sh 
+
+			
+
+- spellcheckers
+		-> sudo make install to install for system
+			-> system-wide live in: /usr/local/share/voikko/3/
+		-> test with this command, where -n = number of suggestions, -S make suggestions (don't just say if it exists):
+			hfst-ospell -S -n 5 tools/spellcheckers/fstbased/desktop/hfst/sje.zhfst
+			
+
+- multi-word-expression
+	-> tag: +MWE 
+		- should be directly next to lemma, eg:
+			New% York+MWE...:New% York CONTCLASS ;
+		- can be used with +Err/Orth for words which may incorrectly be written apart when they should be together, eg:
+			New% Castle+MWE+Err/Orth...:Newcastle CONTCLASS ;
+		
+- difference between
+	- +Use/NG		= use but don't generate for machine translation (MT) and Oahpa, NDS!
+	- +Err/Orth		= keep it out of the speller, i.e., descriptive analyser/generator will understand it but not the normative (incl. spell-checker)
+	- +Use/NGminip	= use but don't generate for mini-paradigms in NDS!
+	
+		->->->  should use dialect for many cases instead (like -s elat-suffix)!  
+				^--NO!!! best choice is +Use/NG because it will be accepted by spellchecker, but not used in Oahpa! or MT
+
+- NDS (neahttadigisánit)
+	-> xsl for FMP-2-NDS
+	-> lives in main/words/dicts/... (sje
+	-> +Use/NGminip --- recognized by NDS and valid in speller, but not output in NDS-paradigm
+	- think about:
+		- verbs that don't take 1/2 person
+		- verbs that don't take a subject (rásjodit)
+		- translations for derivations
+		- select slots for paradigms
+		- choose typical words to examplify (njállga vuasstá)
+		- update header with credits, license etc. in NVA_sje2X.xml
+			(or any other added later; remove Jernsletten and others as needed)
+		- spell relax (for instance to get hits for á even with a input):
+			src/orthography/spellrelax.regex  <-- for FST in general
+			src/orthography/spellrelax-mobile-keyboard.regex  <-- only for NDS
+
+- abbr file (tools/tokenizer/abbr.txt) for abbreviations and +MWE (multi-word-expressions)
+	- compiled automatically with make (only using ./conf --enable-abbr)
+		otherwise static and fetched from svn (so using make with ./config -abbr will overwrite svn version)
+
+
+- grammar checker (cf. http://giellatekno.uit.no/doc/proof/gramcheck/doc/GrammarcheckerCompilation.html)
+
+- mapping rules for CG
+	- giella-shared/sme/src/syntax/functions.cg3
+		-> this is where to add sje-specific tags OR exempt sje from general rules
+		-> understanding arrows:
+				the arrow always points from daughter (D) to mother (M), but you drop the irrelevant one;
+				these are the possibilities:
+					@D>M
+					@M>D
+				e.g.:	@>Adv = i modify an Adv, which comes before
+						@Adv< = i modify an Adv, which comes after
+						@<Adv = some Adv modifies me, which comes before
+						@Adv> = some Adv modifies me, which comes after
+		-> understanding LINK: kind of like "and" but for something embedded further down in the rule 
+			that doesn't refer to the main target of the rule, e.g.:
+				REMOVE pig IF (*1 dog BARRIER end LINK -1 cat)
+				===> remove pig i you're followed somewhere before the end by a dog not immediately preceded by a cat
+		-> +Det  not standard – maybe turn to +Pron in AFTER-SECTIONS?
+
+
+
+
+
+
+
+
+
+
