@@ -23,7 +23,7 @@ JSP_PAGES=root-morphology.jspwiki \
 		  punctuation-stems.jspwiki        \
 		  subjunctions-stems.jspwiki       \
 		  verbs-stems.jspwiki              \
-		  sje-phon-phonology.jspwiki
+		  phonology-morphology.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # acronyms-stems.jspwiki           \
