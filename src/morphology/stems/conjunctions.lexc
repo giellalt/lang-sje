@@ -22,14 +22,15 @@ LEXICON Conjunction   !!= * __@CODE@__ is the list.
 ájnát CC ;
 !beru CC ;
 !dalle CC ;
-dugu CC ;
+dugu CC "like" ;
 !ge CC ;
-ja CC ;
-jala CC ;
+ja CC "and" ;
+jala CC "or" ;
+jala+Use/NG:jili CC "or" ;
 !márrju CC ; ! what is this?
-men CC ;
+men CC "but" ;
 !ujtus CC ; ! what is this?
 !ujt CC ; ! what is this?
-vaj CC ;
-vala CC ;
+vaj CC "or" ;
+vala CC "but" ;
 
