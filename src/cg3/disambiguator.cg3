@@ -436,9 +436,12 @@ REMOVE:noGerIIWithoutAux (V GerII) IF (NEGATE (*-1 ("lä") BARRIER CLB ) OR (*1 
 #remove Verb reading if preceded by ATTR
 REMOVE:noVerbAfterAttr (V) IF (-1C Attr);
 
-#remove Inf reading if no FINITE verb around
-REMOVE:notInfWithoutFiniteV (V Inf) IF (NOT *-1 VFIN BARRIER CLB );
+#remove Inf reading if no FINITE verb before
+REMOVE:notInfWithoutFiniteV (V Inf) IF (NEGATE ( *-1 VFIN BARRIER CLB ));
 #REMOVE:notInfWithoutFiniteV (V Inf) IF (NEGATE (*-1 VFIN BARRIER CLB ) OR (*1 VFIN BARRIER CLB ));
+
+#remove Imprt reading if preceded by FINITE verb
+REMOVE:notImptWithFiniteV (V Imprt) IF ( *-1 VFIN BARRIER CLB );
 
 #for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
 #SELECT Prop IF (0 LINK *-1 WORD) ;
