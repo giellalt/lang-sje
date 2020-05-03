@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-04-25T06:55:53+03:00
+! Generated at: 2020-05-03T08:56:03+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -323,6 +323,7 @@ ietjájduvvut:ietjájduvv V_CONTR_UVVUT "be changed" ; ! no. 4634
 idjaduvvut+Use/NG:ijjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91086
 lånestuvvut:lånestuvv V_CONTR_UVVUT "be saved, be redeemed" ; ! no. 4135
 mierreduvvut:mierreduvv V_CONTR_UVVUT "be decided, be intended" ; ! no. 90277
+måraduvvut:måraduvv V_CONTR_UVVUT "become angry" ; ! no. 91325
 nagerduvvut:nagerduvv V_CONTR_UVVUT "become sleepy" ; ! no. 1232
 nággeduvvut:nággeduvv V_CONTR_UVVUT "be forced, be pressed" ; ! no. 91067
 sjuvtjaguvvut:sjuvtjaguvv V_CONTR_UVVUT "be frostbitten" ; ! no. 5405
