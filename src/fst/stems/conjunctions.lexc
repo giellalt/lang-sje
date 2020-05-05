@@ -25,8 +25,9 @@ LEXICON Conjunction   !!= * __@CODE@__ is the list.
 dugu CC "like" ;
 !ge CC ;
 ja CC "and" ;
-jala CC "or" ;
-jala+Use/NG:jili CC "or" ;
+jalá CC "or" ;
+jalá+Use/NG:jala CC "or" ;
+jalá+Use/NG:jili CC "or" ;
 !márrju CC ; ! what is this?
 men CC "but" ;
 !ujtus CC ; ! what is this?
