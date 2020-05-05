@@ -531,7 +531,8 @@ LEXICON LEPRS !!= * @CODE@
 !+Du1:len # ; 
 +Du2:lihpen # ; 
 +Du2:lähppen # ;  
-+Du3:läbá # ; 
++Du3:läba # ; 
++Du3+Use/NG:läbá # ; 
 +Pl1:läp # ; 
 +Pl1:lip # ; 
 !+Pl1:lep # ; 
