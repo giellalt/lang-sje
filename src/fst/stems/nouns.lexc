@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-03T09:02:20+03:00
+! Generated at: 2020-05-06T13:06:24+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -1107,6 +1107,7 @@ sjnjierra+Use/NG+CmpN/SgN+CmpN/SgG:snjierra N_EVEN "rat, mouse" ; ! no. 91280
 snuallga:snu^Ollga N_EVEN "snot" ; ! no. 2789
 snummpa:snummpa N_EVEN "moose throat bot fly" ; ! no. 4436
 snuohpa:snu^Ohpa N_EVEN "cold (illness)" ; ! no. 1702
+snurrká:snurrká N_EVEN "grunting" ; ! no. 91335
 snurrta:snurrta N_EVEN "snarl where a fish was caught in a net" ; ! no. 3643
 snuähtte:snu^Ohtte N_EVEN "initial foliage in the spring" ; ! no. 4446
 snårre:snårre N_EVEN "tangle, mess, problem" ; ! no. 1706
@@ -1621,6 +1622,7 @@ hägga:hiegga N_EVEN_NOCG "life" ; ! no. 861
 härbmo:hierbmo N_EVEN_NOCG "sleet" ; ! no. 3906
 idjabåddå:idja#båddå N_EVEN_NOCG "nighttime" ; ! no. 4933
 jargŋa:jargŋa N_EVEN_NOCG "root of a windfallen tree" ; ! no. 3742
+jávvregádde+Use/NG:jávr#gádde N_EVEN_NOCG "lake shore" ; ! no. 91333
 jávvregádde:jávvre#gádde N_EVEN_NOCG "lake shore" ; ! no. 4918
 jiegŋaradde:jiegŋa#radde N_EVEN_NOCG "edge of the ice" ; ! no. 4633
 jåhkågádde:jåhkå#gádde N_EVEN_NOCG "bank of a stream" ; ! no. 90232
@@ -1640,7 +1642,7 @@ luägge:lu^Ogge N_EVEN_NOCG "canine sphincter" ; ! no. 4163
 lådde:lådde N_EVEN_NOCG "bird" ; ! no. 1083
 lårrå+Use/NG:låddå N_EVEN_NOCG "box, case" ; ! no. 90513
 máddo:máddo N_EVEN_NOCG "relatives, family, ancestry" ; ! no. 2659
-mierra+Use/NG:miedda N_EVEN_NOCG "honey" ; ! no. 90840
+mierra+Use/NG:miedda^WG N_EVEN_NOCG "honey" ; ! no. 90840
 miehtebägga:miehte#biegga N_EVEN_NOCG "tailwind" ; ! no. 4976
 mierragádde:mierra#gádde N_EVEN_NOCG "coastline" ; ! no. 2708
 muaddá:mu^Oddá N_EVEN_NOCG "reindeer fur" ; ! no. 1170
@@ -1654,7 +1656,7 @@ muorrarigge:muorra#rigge N_EVEN_NOCG "wooden chain used to hang a pot over a fir
 måddå:måddå N_EVEN_NOCG "powder snow on the road" ; ! no. 5272
 narra+Use/NG:nadda N_EVEN_NOCG "handle" ; ! no. 90463
 niddo:niddo N_EVEN_NOCG "defiance, spite, intentionally malicious action" ; ! no. 4282
-nierra+Use/NG:niedda N_EVEN_NOCG "emergency, danger" ; ! no. 90477
+nierra+Use/NG:niedda^WG N_EVEN_NOCG "emergency, danger" ; ! no. 90477
 njálbmeråbbe:njálbme#råbbe N_EVEN_NOCG "cold sore" ; ! no. 1275
 njidtje:njidtje N_EVEN_NOCG "breast" ; ! no. 1286
 nuortelbägga:nuortel#biegga N_EVEN_NOCG "northernly wind" ; ! no. 1325
@@ -1753,6 +1755,7 @@ beggumbärrgo:beggum#bierrgo N_EVEN_O "meat which is spoiled from exposure to we
 biehtsemánno:biehtse#mánno N_EVEN_O "June" ; ! no. 600
 bieno:bieno N_EVEN_O "prayer, devotion" ; ! no. 5428
 bienomässo:bieno#mies'so N_EVEN_O "Böndagshelgen" ; ! no. 5427
+bihppo+Use/NG:bihpo N_EVEN_O "pipe (for smoking)" ; ! no. 91331
 bihppo:bihppo N_EVEN_O "pipe (for smoking)" ; ! no. 5055
 birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
@@ -1988,7 +1991,7 @@ tjårro:tjårro N_EVEN_O "mountain ridge" ; ! no. 3791
 tjårrvebarrgo:tjårrve#barrgo N_EVEN_O "handicraft made of antlers" ; ! no. 6006
 tjårrvebihppo:tjårrve#bihppo N_EVEN_O "pipe (for smoking) made of antler" ; ! no. 1975
 tjällko:tjiellko N_EVEN_O "bottom of a wooden pannier" ; ! no. 5250
-tsieggománno:tsieggo#mánno N_EVEN_O "good weather moon, waning moon" ; ! no. 5478
+tsieggománno:tsieggo^WG#mánno N_EVEN_O "good weather moon, waning moon" ; ! no. 5478
 tsähkko:tsiehkko N_EVEN_O "sacrificed reindeer buried into the ground" ; ! no. 3508
 ullo:ul'lo N_EVEN_O "wool" ; ! no. 2479
 vahkko:vahkko N_EVEN_O "week" ; ! no. 2054
@@ -2113,6 +2116,7 @@ fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
 febir:febir N_ODD "fever" ; ! no. 4049
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
+frijjár:frijjár N_ODD "suitor, beau" ; ! no. 91336
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
 gahtsem:gahtsem N_ODD "neck (humans)" ; ! no. 504
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
@@ -2217,7 +2221,7 @@ maddar:maddar N_ODD "root, fore-" ; ! no. 90620
 máddak:máddag2 N_ODD "size" ; ! no. 1109
 mehtir:mehtir N_ODD "meter" ; ! no. 90634
 mejdnik:mejdnig2 N_ODD "opinion" ; ! no. 1151
-mierrem+Use/NG:mieddem N_ODD "roe" ; ! no. 1149
+mierrem+Use/NG:mieddem^WG N_ODD "roe" ; ! no. 1149
 mierek:miereg2 N_ODD "spawning fish with roe" ; ! no. 5094
 mierrem:mierrem N_ODD "roe" ; ! no. 90434
 miesak:miesag2 N_ODD "reindeer doe which has a calf" ; ! no. 1162
@@ -2387,7 +2391,7 @@ tjårvemáddak:tjårve#máddag2 N_ODD "base of reindeer antlers" ; ! no. 2380
 tjäjjsár:tjä2jjsár N_ODD "emperor" ; ! no. 5901
 tseggim:tseggim N_ODD "rock pile, cairn" ; ! no. 6521
 tsieban:tsieban N_ODD "shrew mouse" ; ! no. 4348
-tsieggán:tsieggán N_ODD "wood frame for Saami tent" ; ! no. 2007
+tsieggán:tsieggán^WG N_ODD "wood frame for Saami tent" ; ! no. 2007
 tsitsuk:tsitsug2 N_ODD "sparrow" ; ! no. 2010
 tsähkkuk:tsä2hkkug2 N_ODD "forked upwards pointing antler" ; ! no. 2874
 tällik:tä2llig2 N_ODD "plate" ; ! no. 5949
@@ -2556,6 +2560,7 @@ guosmak:gu^Ossmag2 N_ODD_WG "coffee" ; ! no. 706
 gåbtjås:gåbbtjås N_ODD_WG "tarpaulin" ; ! no. 726
 gållek:gål'leg2 N_ODD_WG "gilded" ; ! no. 752
 gålmås:gålbmås N_ODD_WG "threesome" ; ! no. 4891
+gåptjås:gåpptjås N_ODD_WG "cover, blanket, covering" ; ! no. 91334
 gärris:gä2r'ris N_ODD_WG "Saami sled" ; ! no. 3504
 iehpal:iehppal N_ODD_WG "apple" ; ! no. 4184
 juällgeladas:juällge#lahtas N_ODD_WG "ankle" ; ! no. 945
