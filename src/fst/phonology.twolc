@@ -482,7 +482,8 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 !! __@RULENAME@__  
 e:ä <=> Cns:* i:0 _ G3 noVHtrig \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ noVHtrig %^G3: ; !biegga->b0ägga
-		Cns:* i:0 _ noCG noVHtrig \%^WG: ; !bierdna->b0ärdna
+		Cns:* i:0 _ noCG noVHtrig \%^WG: ; !bierdna->b0ärdna 
+			!problem: lieggadit -> *läggadit (currently solved with quickNdirty manual addition of ^WG to affected lexemes, but this is not a good permanent solution)
 
 "Ä in G3 capitalized" ! Ie:0Ä (Änntse->Ientse), eg. proper nouns with word-initial capitalization
 !! __@RULENAME@__  
