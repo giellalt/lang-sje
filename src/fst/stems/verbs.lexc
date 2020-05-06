@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-03T08:56:03+03:00
+! Generated at: 2020-05-06T13:08:49+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -619,7 +619,7 @@ vannjgat:vannjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 vassjat:vassj V_EVEN_A "feel like, manage, have the energy" ; ! no. 2095
 våvvdåt+Use/NG:vavvd V_EVEN_A "become caught, become stuck" ; ! no. 5976
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
-viegadallat:viegadall V_EVEN_A "run after, chase" ; ! no. 5443
+viegadallat:viegadall V_EVEN_A "run around after, chase back and forth" ; ! no. 5443
 viehkat:viehk V_EVEN_A "run (for humans)" ; ! no. 2105
 vierrodallat:vierrodall V_EVEN_A "sacrifice" ; ! no. 90672
 villat:vil'l V_EVEN_A "go too far" ; ! no. 90572
@@ -874,7 +874,6 @@ gåhkot:gåhk V_EVEN_O "be nauseous" ; ! no. 732
 gåhttjot:gåhttj V_EVEN_O "call, urge, request, command" ; ! no. 742
 gåjjvot:gåjjv V_EVEN_O "dig, scoop" ; ! no. 747
 gållot:gåll V_EVEN_O "feel cold" ; ! no. 3012
-gåpptjot:gåpptj V_EVEN_O "close, cover up" ; ! no. 305
 gårrjot:gårrj V_EVEN_O "lie curled up (for canines)" ; ! no. 4956
 gårrot:gårr V_EVEN_O "sew" ; ! no. 764
 gåsstot:gåsst V_EVEN_O "become rancid" ; ! no. 4392
@@ -994,6 +993,7 @@ gåhpåt:gåhp V_EVEN_Å "whittle, hollow out" ; ! no. 737
 gåhtsåt:gåhts V_EVEN_Å "slow down" ; ! no. 741
 gåjjkåt:gåjjk V_EVEN_Å "dry, be thirsty" ; ! no. 3440
 gållgåt:gållg V_EVEN_Å "flow, run, drift" ; ! no. 755
+gåpptjåt:gåpptj V_EVEN_Å "close, cover up" ; ! no. 305
 gårrsåt:gårrs V_EVEN_Å "clear one's throat" ; ! no. 766
 gåssåt:gåss V_EVEN_Å "cough" ; ! no. 773
 håjjgåt:håjjg V_EVEN_Å "push, shove, throw" ; ! no. 4929
@@ -1380,6 +1380,7 @@ láhpedit:láhped V_ODD "lose, drop" ; ! no. 6077
 láttkanit+Use/NG:lárrkan V_ODD "hit oneself" ; ! no. 90428
 láttkanit:láttkan V_ODD "be killed, become unconscious" ; ! no. 994
 liegastit:liegast V_ODD "relax, rest" ; ! no. 1037
+lieggadit:lieggad^WG V_ODD "thaw, thaw out" ; ! no. 1112
 liejsagit:liejsag V_ODD "tire of" ; ! no. 4018
 liemgedit:liemged V_ODD "become milder (for weather)" ; ! no. 1038
 lieradit:lierad V_ODD "teach" ; ! no. 1039
@@ -1405,7 +1406,6 @@ lågŋånit:lågŋån V_ODD "lift, rise up" ; ! no. 3946
 lågådit:lågåd V_ODD "have someone read" ; ! no. 90651
 låhpedit:låhped V_ODD "promise, pledge" ; ! no. 911
 lånestit:lånest V_ODD "redeem, save" ; ! no. 4134
-läggadit:lä2ggad V_ODD "thaw, thaw out" ; ! no. 1112
 lägganit:lä2ggan V_ODD "become warm" ; ! no. 3734
 lägidit:lä2gid V_ODD "have something repaired" ; ! no. 3495
 läjjdestit:lä2jjdest V_ODD "go first with a lead reindeer" ; ! no. 4959
@@ -1731,7 +1731,7 @@ vásstedit:vássted V_ODD "answer" ; ! no. 90670
 vejudit:vejud V_ODD "polish (silver, brass)" ; ! no. 91253
 vellidit:vellid V_ODD "lay down and refuse to continue" ; ! no. 2567
 venudit:venud V_ODD "reconcile, make up, become friends" ; ! no. 3322
-viegadit:viegad V_ODD "run briefly" ; ! no. 5444
+viegadit:viegad V_ODD "run briefly, run after" ; ! no. 5444
 viehkalit:viehkal V_ODD "run off, run away" ; ! no. 5699
 viehkedit:viehked V_ODD "help" ; ! no. 2116
 vieksaldit:vieksald V_ODD "exchange (eg. money)" ; ! no. 4607
