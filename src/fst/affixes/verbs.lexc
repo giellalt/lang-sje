@@ -514,9 +514,9 @@ LEXICON LE !!= * @CODE@
 +V+Ind+Prs: LEPRS ; 
 +V+Ind+Prt: LEPRT ; 
 +V+Ind+Pot: LEPOT ;
-+V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
-+V+Inf:årrot # ; !infinitive
-+V+ConNeg:lä # ; !connegative
++V+PrfPrc:lam K ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
++V+Inf:årrot K ; !infinitive
++V+ConNeg:lä K ; !connegative
 
 LEXICON LEPRS !!= * @CODE@ 
 +Sg1:läv # ; 
@@ -610,9 +610,9 @@ LEXICON IJ !!= * @CODE@
 +V+Neg+Prt: IJPRT ;
 +V+Neg+Imprt: IJIMP ;
 
-!cf. +V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
+!cf. +V+PrfPrc:lam # ; ! lä (BE.conneg) + *am (prfprc allomorph of *lä*)
 !check tags!
-+V+Neg+Prs+Pl3+ConNeg+PrfPrc:iellam # ; ! = e+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam K ; ! = e+lam
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    K ;  !!= * @CODE@ 
@@ -627,6 +627,7 @@ LEXICON IJPRS !!= * @CODE@
 +Pl2:ehpit K ;  
 +Pl3:ie   K ;
 +Pl3:e   K ;
++Pl3#lä+V+ConNeg:ällä K ; ! = e+lä
 
 LEXICON IJPRT !!= * @CODE@ 
 +Sg1:idtjiv    K ;  !!= * @CODE@ 
