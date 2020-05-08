@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-05T14:03:48+03:00
+! Generated at: 2020-05-08T18:29:41+03:00
 
 !! !!!Pite Saami Adjectives
 
@@ -39,6 +39,7 @@ fuovas:fu^Ovvas A_AARVAS "numerous" ; ! no. 90334
 gámbal:gámmbal A_AARVAS "old" ; ! no. 2493
 luovas:lu^Ovvas A_AARVAS "loose; free" ; ! no. 1071
 njalkas:njallkas A_AARVAS "slippery" ; ! no. 4195
+spájtas:spájjtas A_AARVAS "fast" ; ! no. 5141
 tjiervas:tjierrvas A_AARVAS "awful, terrible; difficult" ; ! no. 90712
 amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
 ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
