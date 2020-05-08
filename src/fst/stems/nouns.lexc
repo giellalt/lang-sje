@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-06T18:05:38+03:00
+! Generated at: 2020-05-08T10:24:22+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -1011,6 +1011,7 @@ sillbamusea:sillba#musea N_EVEN "the Silver Museum" ; ! no. 1545
 sillbaavve+Use/NG:sillb#avve N_EVEN "silver belt" ; ! no. 91035
 sillbagåhkkå+Use/NG:sillb#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 91033
 sillda:sillda N_EVEN "herring" ; ! no. 1546
+sinnti:sinnti N_EVEN "late" ; ! no. 91340
 sirre:sirre N_EVEN "cheese rack " ; ! no. 3436
 sjaddamájjge:sjaddam#ájjge N_EVEN "childhood" ; ! no. 5117
 sjalbme:sjalbme N_EVEN "eye of a needle" ; ! no. 1554
@@ -1478,6 +1479,7 @@ guhkabärrjedak:guhka#bä2rrjedag2 N_EVEN4 "Easter Friday" ; ! no. 4852
 gulgijdus:gulgijdus N_EVEN4 "drainage, outlet" ; ! no. 3159
 guoddáldak:gu^Oddáldag2 N_EVEN4 "sash with sewing materials" ; ! no. 2518
 guosastak:gu^Osastag2 N_EVEN4 "dense fir forest" ; ! no. 6869
+gåbbátjak:gåbbátjag2 N_EVEN4 "both" ; ! no. 723
 gårustak:gårustag2 N_EVEN4 "thread" ; ! no. 2814
 gämmulak:gä2mmulag2 N_EVEN4 "large intestine" ; ! no. 2857
 häjbmulatj:hä2jbmulatj N_EVEN4 "people that belong to a person's home" ; ! no. 90239
