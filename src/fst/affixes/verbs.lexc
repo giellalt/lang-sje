@@ -372,7 +372,7 @@ LEXICON V_ODD !ságastit
 +V+Imprt+Pl2:i%>httit #;
 
 +V+Inf:i%>t # ; 
-+V+GerII:e%>min # ;
++V+GerII:i%>men # ;
 +V+PrfPrc:a%>m # ;
 +V+ConNeg:e%> # ; 
 +V+PrsPrc:ä%>ddje # ; 
@@ -415,7 +415,7 @@ LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes s
 +V+Imprt+Pl2:i%>httit #;
 
 +V+Inf:u%>t # ; 
-+V+GerII:e%>min # ;
++V+GerII:i%>men # ;
 +V+PrfPrc:u%>m # ;
 +V+ConNeg:e%> # ; 
 +V+PrsPrc:ä%>ddje # ; 
