@@ -349,7 +349,7 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prs+Sg1:a%>v #;
 +V+Ind+Prs+Sg2:a%> #;
 +V+Ind+Prs+Sg3:a%> #;
-+V+Ind+Prs+Sg3+Use/NG:%> #;
++V+Ind+Prs+Sg3+Use/NG:%> #; !ságast, usjut
 +V+Ind+Prs+Du1:i%>n #; 
 +V+Ind+Prs+Du2:ä%>hppen #;
 +V+Ind+Prs+Du3:e%>ba #;
@@ -613,6 +613,7 @@ LEXICON IJ !!= * @CODE@
 !cf. +V+PrfPrc:lam # ; ! lä (BE.conneg) + *am (prfprc allomorph of *lä*)
 !check tags!
 +V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam K ; ! = e+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam K ; ! = e+lam
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    K ;  !!= * @CODE@ 
