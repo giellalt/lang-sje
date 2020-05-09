@@ -1,9 +1,0 @@
-# Add your error:correct string pairs here (not complete words, they have
-# a separate file), followed by TAB and the weight for the edit operation:
-o:uo	3
-uo:o	4
-e:ie	3
-ie:e	3
-uo:å	3
-å:uo	3
-

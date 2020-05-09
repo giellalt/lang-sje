@@ -1,7 +1,0 @@
-Voikko-Dictionary-Format: 5
-Language: sje-x-svfst
-Description: Pite Sami dictionary for VFST backend
-Morphology-Backend: null
-Speller-Backend: vfst
-Suggestion-Backend: vfst
-Grammar-Backend: null
