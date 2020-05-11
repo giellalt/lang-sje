@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-11T14:07:30+03:00
+! Generated at: 2020-05-11T15:29:14+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -1409,7 +1409,7 @@ låhpedit:låhped2 V_ODD "promise, pledge" ; ! no. 911
 lånestit:lånest V_ODD "redeem, save" ; ! no. 4134
 lägganit:lä2ggan V_ODD "become warm" ; ! no. 3734
 lägidit:lägid2 V_ODD "have something repaired" ; ! no. 3495
-läjjdestit:lä2jjdest V_ODD "go first with a lead reindeer" ; ! no. 4959
+läjjdistit:lä2jjdist V_ODD "go first with a lead reindeer" ; ! no. 4959
 läsjmudit:läsjmud2 V_ODD "exercise" ; ! no. 1103
 majgerdit:majgerd2 V_ODD "not be able to eat more fatty food" ; ! no. 4307
 malganit:malgan V_ODD "trample down (by reindeer)" ; ! no. 90267
