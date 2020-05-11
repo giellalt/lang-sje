@@ -71,20 +71,24 @@ LEXICON NUM2 ! num 2
 
 LEXICON NUMa ! a-stem num (5,6)
 +Num:a # ; 
++Num+Pl+Nom:a^WG # ; !connect to noninal inflection lexicon?
 ORD ;
 
 LEXICON NUMå ! å-stem num (3)
 +Num:å # ; 
++Num+Pl+Nom:å^WG # ; !connect to noninal inflection lexicon? 
 ORD ;
 !:å 10s ;
 
 LEXICON NUMe ! e-stem num (4,8,9)
 +Num:e # ; 
++Num+Pl+Nom:e^WG # ; !connect to noninal inflection lexicon?
 ORD ;
 !:e 10s ;
 
 LEXICON NUM7 ! num (7)
 +Num:av^WG # ; 
++Num+Pl+Nom:av N_ODD_X ; 
 ORD7 ;
 !:av 10s ; !verify this
 
@@ -112,6 +116,7 @@ ORD10 ;
 LEXICON NumCase ! case forms for Numerals
 : # ;
 +Sg+Acc:^WG%>v # ; !needs to be generalized later, but definitely works for akkta
++Sg+Gen:^WG%> # ; !needs to be generalized later, but definitely works for akkta
 
 
 !ORDINAL forms (add cases later)
