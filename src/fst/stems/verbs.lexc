@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-08T18:40:04+03:00
+! Generated at: 2020-05-11T13:32:13+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -1527,6 +1527,7 @@ råsodit:råsod2 V_ODD "wake up repeatedly" ; ! no. 6115
 rähkkudit:rähkkud2 V_ODD "shave" ; ! no. 5065
 rähkustit:rä2hkust V_ODD "ice fishing using nets" ; ! no. 91231
 räjjdanit:rä2jjdan V_ODD "complete, finish" ; ! no. 2629
+rässidit:rä2ssid2 V_ODD "rush, hurry" ; ! no. 91346
 rävvdadit:rävvdad2 V_ODD "change, alter" ; ! no. 1464
 sagerdit:sagerd2 V_ODD "dry, clean, erase" ; ! no. 1482
 sagŋedit:sagŋed2 V_ODD "scratch" ; ! no. 1483
