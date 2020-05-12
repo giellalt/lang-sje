@@ -117,8 +117,8 @@ vuässte PostP "against" ;
 
 !both pre- and postpositions
 LEXICON PrePostposition   !!= * __@CODE@__ is the list
-rastá PrePost ;
-birra PrePost ;
+rasstá PrePost "across" ;
+birra PrePost "about" ;
 badjel PrePost ;
 badjel+Use/NG:bajjel PrePost ;
 

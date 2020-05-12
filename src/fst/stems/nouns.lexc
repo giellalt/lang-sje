@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-11T15:55:44+03:00
+! Generated at: 2020-05-12T13:30:53+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -1787,6 +1787,7 @@ diehto:diehto N_EVEN_O "knowledge, information" ; ! no. 351
 dievvamánno:dievva#mánno N_EVEN_O "full moon" ; ! no. 4725
 duabbmo:du^Obbmo N_EVEN_O "verdict, judgment, sentence" ; ! no. 3897
 duddno:duddno N_EVEN_O "barrel, cask" ; ! no. 383
+dåbbdo:dåbbdo N_EVEN_O "familiarity; feeling, intuition" ; ! no. 91354
 dårrjo:dårrjo N_EVEN_O "support" ; ! no. 4732
 dårro:dårro N_EVEN_O "fight" ; ! no. 3996
 dårrvo:dårrvo N_EVEN_O "safety, reliance" ; ! no. 5863
