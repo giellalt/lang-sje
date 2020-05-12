@@ -467,9 +467,14 @@ REMOVE:noGajkADVwoSuperl (Adv "gájk") IF (NOT 1 (A Superl));
 REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER CLB);
 	##Dä dån ådtjo MUV TJILMIJD lägit.
 
-#choose attr when followed by (adj)(adv+adj)N, otherwise remove it
-SELECT:attrWithinNP (A Attr) IF (1 NPpossibleNoPro);
+#Attr coordination
+SELECT:ATTRCoord (A Attr) IF (1 CC OR COMMA LINK *1 (A Attr) BARRIER NOT-NPMOD LINK 1 N ) ; 
+##from sme:
+##SELECT:AAttrCoord1 (A Attr) IF (1 CC OR COMMA LINK *1 (A Attr) OR ("nubbi") OR PrfPrc OR PrsPrc BARRIER NOT-ADV-PCLE LINK 1 N)(NEGATE *-1 ("leat") BARRIER NOT-ADV-PCLE LINK *3 Attr OR PrfPrc LINK NOT 1 Nom)(NEGATE 0 Der/A OR ("dávjjit")) ;
+
+#remove Attr when followed by (adj)(adv+adj)N, otherwise choose it
 REMOVE:noAttrWithoutNP (A Attr) IF (NOT 1 NPpossibleNoPro);
+SELECT:attrWithinNP (A Attr) IF (1 NPpossibleNoPro)(*1 N BARRIER NoNP);
 
 #!! !Agreement rule for verb triggered by PersPron
 SELECT:AgrPersPron	$$NumPers IF (0 V)(-1 Pers + Nom + $$NumPers);
@@ -505,8 +510,6 @@ REMOVE:noGenSgAtEOS (N Sg Gen) IF ((0 EOS) OR (1 ("\;")));
 SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*1 V + DUAL BARRIER CLB);
 SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*-2 V + DUAL BARRIER CLB);
 	##vullgin måj rádnajn dä vit jávvráj ja åhppåt
-
-
 
 
 #!! !!!Rules for collocations, multiword expressions etc.
