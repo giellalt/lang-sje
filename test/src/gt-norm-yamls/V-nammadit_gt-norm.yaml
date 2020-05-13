@@ -1,0 +1,58 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - nammadit: # Verb 'name'
+     nammadit+V+Inf: nammadit
+
+     nammadit+V+Ind+Prs+Sg1: nammadav
+     nammadit+V+Ind+Prs+Sg2: nammada
+     nammadit+V+Ind+Prs+Sg3: [nammada, nammad]
+     nammadit+V+Ind+Prs+Du1: nammadin
+     nammadit+V+Ind+Prs+Du2: nammadähppen #, nammadehpen]    #check!
+     nammadit+V+Ind+Prs+Du3: nammadeba
+     nammadit+V+Ind+Prs+Pl1: nammadip
+     nammadit+V+Ind+Prs+Pl2: nammadihppit
+     nammadit+V+Ind+Prs+Pl3: nammadi
+
+     nammadit+V+Ind+Prt+Sg1: nammadiv
+     nammadit+V+Ind+Prt+Sg2: nammadi
+     nammadit+V+Ind+Prt+Sg3: nammadij
+     nammadit+V+Ind+Prt+Du1: nammadijmen
+     nammadit+V+Ind+Prt+Du2: nammadijden
+     nammadit+V+Ind+Prt+Du3: nammadijga
+     nammadit+V+Ind+Prt+Pl1: nammadijme
+     nammadit+V+Ind+Prt+Pl2: nammadijde
+     nammadit+V+Ind+Prt+Pl3: nammadin
+
+     nammadit+V+Imprt+Sg2: nammade  
+     nammadit+V+Imprt+Du2: nammadehten    #check!
+     nammadit+V+Imprt+Pl2: nammadihttit   #check!
+
+     nammadit+V+ConNeg: nammade
+     nammadit+V+GerII: nammademin
+     nammadit+V+PrfPrc: nammadam
+#     nammadit+V+GerI: nammadittijn 
+#     nammadit+V+Sup: nammaditjit
+#     nammadit+V+Vabe: nammadak  
+#     nammadit+V+VGen: nammada 
+#     nammadit+V+PrsPrc: nammadäddje 
+#     nammadit+V+Vsubst: nammadim
+
+#     nammadit+V+Pot+Sg1: nammadittjav
+#     nammadit+V+Pot+Sg2: nammadittja
+#     nammadit+V+Pot+Sg3: nammaditj
+#     nammadit+V+Pot+Du1: nammadittjin
+#     nammadit+V+Pot+Du2: [nammadittjabiehten, nammadittjabähtten]
+#     nammadit+V+Pot+Du3: nammadittjaba
+#     nammadit+V+Pot+Pl1: nammadittjap
+#     nammadit+V+Pot+Pl2: nammadittjabihtit
+#     nammadit+V+Pot+Pl3: nammadittji
+

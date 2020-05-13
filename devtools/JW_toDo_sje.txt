@@ -1,0 +1,29 @@
+notes, comments, to-do list for SJE tools
+Joshua Wilbur
+
+
+VERBS:
+- check/implement auxiliary verb
+- check/implement negation verb
+- -uvvut-derivations currently listed as lexemes (not derived forms) – change later?!
+- -ahttet-derivations currently listed as lexemes (not derived forms) – change later?!
+- implement -tj-POT forms
+- implement/check missing non-finite forms
+
+
+
+NOUNS:
+- ABESS forms
+
+
+
+
+GENERAL:
+- implement orthographic/dialect variation:
+    VERBS:
+    - -uvvut ~ -avvat (vv-v)
+    - bisyllabic suffixes for +Ind+Prs+Du2, Ind+Prs+Pl2, Pot+Du2
+    - -a/-á in 1/2sg.prs for some classes
+    NOUNS:
+    - -st/-s ELAT
+    - -oj/-uj ILL.SG

@@ -1,0 +1,30 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Adjektiv - blávvat: # A_BLAAVVAT
+
+    blávvat+A+Attr: blävvis
+
+    blávvat+A+Sg+Nom: blávvat
+    blávvat+A+Pl+Nom: blávvada
+
+
+    blávvat+A+Comp+Attr: blávvadup
+
+    blávvat+A+Comp+Sg+Nom: blávvadup
+    blávvat+A+Comp+Pl+Nom: [blávvadubo, blávvaduba]
+#    blávvat+A+Comp+Pl+Nom+Use/NG: blávvaduba
+
+
+    blávvat+A+Superl+Attr: blávvadumos
+
+    blávvat+A+Superl+Sg+Nom: blávvadumos
+    blávvat+A+Superl+Pl+Nom: blávvadubmusa

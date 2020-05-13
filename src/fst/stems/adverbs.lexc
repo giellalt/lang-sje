@@ -1,0 +1,358 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+!! Adverbs
+
+LEXICON adv   !!= * __@CODE@__ adds the tag +Adv
++Adv: # ;
+
+LEXICON Adverb   !!= * __@CODE@__ is the list
+agev adv ;
+aj adv "också" ;
+aj+Use/NG:áj adv "också" ;
+ájjve adv ;
+ájmon adv;
+aktan adv "together" ;
+alás adv "åt väster" ;
+alebuj adv "längre mot väster" ;
+alebun adv "i längre mot väster" ;
+alelt adv "i väster" ;
+állbet adv "cheaply" ;
+allela adv "längs västra sidan av" ;
+allelij adv "västerut" ;
+allelis adv "västerifrån" ;
+allen adv "i väster" ;
+allelin adv "i väster" ;
+allet adv "från väster" ;
+almatjláhkáj:almatjláhkáj adv "humanlike" ;
+alvos adv ;
+alvosláhkáj adv "frighteningly" ;
+árabut adv ;
+árgan adv ;
+áramusat adv ;
+arrvogisláhkáj adv "in a worthy way" ;
+
+baddjen adv "up" ;
+baddjen+Use/NG:bajjen adv "up" ;
+badjelt adv "above, over" ;
+badjelt+Use/NG:bajjelt adv "above, over" ;
+bajás adv ;
+bálldalugguj adv ;
+bär adv "only" ;
+bär+Use/NG:ber adv "only" ;
+bär+Use/NG:bar adv "only" ;
+beru adv ;
+!biejven adv ;
+bihko adv ;
+binnat adv ;
+birraskin adv "around here" ;
+buadtsot adv "nakedly" ;
+buohta adv ;
+buoragit+Use/NG:buoragit adv "well" ;
+buoragijt adv "well" ;
+buorebut adv ;
+buorebuttjat adv ;
+båjtot adv "fel,oriktigt" ;
+båsstot adv "fel,oriktigt" ;
+
+del adv "tydligen" ;
+del+Use/NG:däl adv "tydligen" ;
+dájjva adv "often, now and then" ;
+dájjva+Use/NG:dájjvaj adv "often, now and then" ;
+dájna adv ;
+dalá adv "immediately, directly" ;
+dalá+Use/NG:dalák adv ;
+dalá+Use/NG:dalának adv ;
+dálatjláhkáj adv "in a modern way" ;
+dále adv "here; now" ;
+dále+Use/NG:dál adv "here; now" ;
+dale adv "there; then" ;
+dule adv "yonder; long ago" ;
+dalloj adv "then, that time" ;
+danen adv "därför" ;
+danne adv "there" ;
+dánne adv "here" ;
+dunne adv "yonder" ;
+dábben adv "here, at this place" ;
+dabben adv "there, at that place" ;
+dávk adv "förmodligen, i alla fall" ;
+dehki adv "towards here" ;
+diedon adv ;
+dievva adv ;
+dijbmá adv ;
+dis adv "med negationinte längre" ;
+disste adv "med negation inte längre" ;
+duggu adv ;
+duhku adv "towards yonder" ;
+duolla adv ;
+duolloj adv ;
+dálloj adv ;
+dubben adv ;
+dulutjláhkáj adv "like in the old days" ;
+dåbbelt adv ;
+dålen adv ;
+dåbben adv "yonder" ;
+dåbbe adv "där borta" ;
+dåhkå adv "to there; dit" ;
+dårást adv "off to the side" ;
+
+edisik adv ;
+erit adv ;
+erida adv "away, bort" ;
+
+färrtláhkáj adv "in every way" ;
+
+gáddek adv ;
+gájk adv "allra; most of all" ;
+gájk+Use/NG:gajk adv "allra; most of all" ;
+gasskat adv ;
+gen adv "either" ;
+gen+Use/NG:genak adv "either" ; !check this!
+gidda adv "all the way" ;
+gidda+Use/NG:git adv "all the way" ;
+gievrasláhkáj adv "strongly, powerfully" ;
+gilluk adv "alone" ;
+guggu adv "vart, till vilken plats" ;
+guhkás adv ;
+!guhkebuj adv "towards farther away" ; !actually a adj+Case (ill.sg) with adverbial semantics
+guhkebut adv "farther away" ;
+!guhkev adv "a long time" ; !removed because acutally Adj+acc.sg usually with a sentence adverbial function
+gukkte adv "hur, på vilket sätt" ;
+gukkte+Use/NG:gåk adv "how" ;
+gukkte+Use/NG:gåkkte adv "how" ;
+guktes adv "hur" ;
+gunnik adv "like" ;
+gunnik+Use/NG:gunnuk adv "like" ;
+gunne adv "var, på/i den plats där" ;
+gusa adv "vart, till vilken plats" ;
+guse adv "vart, till vilken plats" ;
+gusi adv "vart, till vilken plats" ;
+gusste adv "varifrån, från vilken plats" ;
+gåbbelij adv "till vilkendera sidan av" ;
+gåbbelin adv "på vilkendera sidan" ;
+gåbbelist adv "från vilkendera sidan om" ;
+gågŋåt adv ;
+gåktå adv "hur" ;
+gånne adv "hur, på/ i den plats där" ;
+gånnå adv "var, på/i den plats där" ;
+gåsse adv "när, vid vilken tidpunkt" ;
+gåsså adv "när, vid vilken tidpunkt" ;
+gåssek adv ;
+gåsstås adv "varifrån" ;
+
+hállva adv "almost" ;
+hähkkat adv ;
+
+iehkep adv "maybe" ;
+iemeláhkáj adv "in the usual way" ;
+ietjáláhkáj adv "differently" ;
+ilá adv ;
+ihkenis adv "som helst" ;
+ihkenas adv "som helst" ;
+iednagit adv ;
+iednak adv "much" ;
+iehkedis adv ;
+ikktij adv "together" ;
+ikktu adv ;
+ikktu+Use/NG:ukktu adv ;
+iktuk adv "ensam" ;
+iktuk+Use/NG:uktuk adv "ensam" ;
+ienabut adv "more" ;
+
+juo adv "already; jo" ;
+jámas adv "deadly, fatally" ;
+jasska adv ;
+jis adv ;
+
+kano adv "maybe" ;
+kano+Use/NG:kan adv "maybe" ;
+
+lahka adv ;
+lukksa adv "österut" ;
+luksaårjás adv "mot sydost" ;
+lulás adv "mot öster" ;
+lules adv "mot öster" ;
+luldne adv "i öster" ;
+lulebuj adv "längre mot öster" ;
+lulebun adv "längre i öster" ;
+lullde adv "från öster" ;
+lullela adv "längs östra sidan" ;
+lullelatjan adv "lite östligare" ;
+lullelij adv "längre mot öster" ;
+lullelin adv "i öster" ;
+lullelis adv "från öster om" ;
+lulelt adv "österifrån" ;
+luoboj adv "utspridd, löst" ;
+
+maktes adv "hur, på vilket sätt" ;
+manen adv "varför, till vad, såsom var" ; !essiv av mij
+man adv "how" ; !actually an interr-adv
+maŋŋelin adv ;
+maŋŋel adv ;
+maŋelt adv ;
+maŋep adv "next" ;
+maŋen adv "along with; anbei";
+marje adv "possibly, perhaps" ;
+maŋemus adv "lastly, finally" ;
+maŋemus+Use/NG:miŋijmus adv "lastly, finally" ;
+mudiŋ adv "sometimes" ;
+mudiŋ+Use/NG:muhtin adv "sometimes" ;
+mudiŋ+Use/NG:mudin adv "sometimes" ;
+muhtemláhkáj adv "partly" ;
+mäddel adv "förbi" ;
+måddeláhkáj adv "many ways" ;
+
+nanne adv "on, on top of" ;
+nanne+Use/NG:naldne adv "on, on top of" ;
+nav adv ;
+nav+Use/NG:nåv adv ;
+navte adv ;
+navte+Use/NG:nåvte adv ;
+navte+Use/NG:navt adv ;
+navte+Use/NG:nåvt adv ;
+navte+Use/NG:nuvt adv ;
+nievresláhkáj adv "badly" ;
+njuallga adv "rakt" ;
+nuortas adv "mot norr" ;
+nuortasalás adv "mot nordväst" ;
+nuortasluksa adv "mot nordost" ;
+nuarrtaallet adv "från nordväst" ;
+nuarrtal adv "norr om" ;
+nuarrtalij adv "norrut" ;
+nuarrtalin adv "på norra sidan" ;
+nuarrtalis adv "från norra sidan" ;
+nuarrtal+Use/NG:nuärrtal adv "norr om" ;
+nuarrtalij+Use/NG:nuärrtalij adv "norrut" ;
+nuarrtalin+Use/NG:nuärrtalin adv "på norra sidan" ;
+nuarrtalis+Use/NG:nuärrtalis adv "från norra sidan" ;
+nuarrtalullet adv "från nordost" ;
+nuarrtan adv "i norr" ;
+nuarrtat adv "från norr" ;
+
+rassta adv ;
+rastá adv ;
+ruapptot adv ;
+ruoptojt adv "tillbaka" ;
+ruoptojt+Use/NG:ruoptojd adv "tillbaka" ;
+ruoptojt+Use/NG:ruptujt adv "tillbaka" ;
+ruoptojt+Use/NG:ruptujd adv "tillbaka" ;
+ruapptolij adv "backwards" ;
+ruvva adv ;
+ruvva+Use/NG:ruvvaj adv ;
+räkkta adv ;
+riekta adv ;
+
+sagga adv "intensely; häftigt" ;
+sämmáláhkáj adv "in the same way" ;
+sämmáláhkáj+Use/NG:sammáláhkáj adv "in the same way" ;
+!sieldes adv "terribly, incredibly" ; !check for examples in corpus!
+sierra adv "specially, differently, separately" ;
+särra adv ;
+sierrot adv ;
+sisa adv ;
+sissŋelij adv ;
+sjávot adv ;
+spájjta adv "quickly" ;
+spájtabut adv "more quickly" ;
+suajbma adv "slowly" ;
+suojmat adv "slowly" ;
+suojmatjij adv "slowly" ; !check pos, -tj- = DIM?
+så adv ;
+
+tjara adv ;
+tjara+Use/NG:tjada adv ;
+tjiegŋalit adv ;
+tjällga adv "clearly" ;
+tjåhken adv "together (iness)" ;
+tjåhkkáj adv "together (ill)" ;
+tjårrgå adv ;
+
+ujtu adv "of course, naturally, actually" ;
+ujtu+Use/NG:ujt adv ;
+uddni adv ;
+uddnik adv ;
+udiehtelesláhkáj:u#diehtelesláhkáj adv "unknown, mysteriously" ;
+ullgulin adv "ute" ;
+ullgulist adv "utifrån" ;
+ullgun adv ;
+ulgus adv ;
+ullu adv "väldigt" ;
+umasláhkáj adv "all ways" ;
+uvdutjláhkáj adv "like in the old days" ;
+
+vastet adv "terribly" ;
+val adv "but" ; !cognate with CC vala ??
+vehis adv ;
+viehka adv ;
+vierabut adv ;
+vide adv "åter, igen" ;
+vide+Use/NG:vit adv "åter, igen" ;
+vijjdábut adv "further" ;
+vijjdáj adv "far and wide" ;
+vijjku adv "although" ;
+vist adv "åter, igen" ;
+vistik adv "åter, igen" ;
+vis adv "återigen" ;
+vulus adv ;
+vuolebuj adv ;
+vuolebun adv ;
+vuolen adv ;
+vuostak adv "firstly" ;
+vuällelin adv ;
+vuällen adv ;
+väjjto adv "free (-range)" ;
+vällot adv "horizontally" ;
+
+åbbat adv "certainly, surely" ;
+åbbå adv ;
+åbbånis adv "med negering ..alls" ;
+ållå adv "completely, entirely" ;
+ållást adv "completely, entirely" ;
+ållgon adv ;
+ållgolin adv ;
+ållgolist adv ;
+ånegisláhkáj adv "briefly, succinctly" ;
+årjás adv "åt söder" ;
+årjebuj adv "längre åt söder" ;
+årjebun adv "i längre söderut" ;
+årjebus adv "längre söderifrån" ;
+årjelt adv "längs södra sidan" ;
+årját adv "från söder" ;
+årrjan adv "i söder, söderut" ;
+årrjealás adv "mot sydväst" ;
+årrjela adv "längs södra sidan av" ;
+årrjelatjan adv "lite söder om" ;
+årrjelij adv "söderut, riktning mot söder" ;
+årrjelin adv "riktning i söder" ;
+årrjelis adv "riktning från söder" ;
+årrjelulás adv "mot sydost" ;
+årrjelullet adv "från sydost" ;
+åvdep adv "previously" ;
+åvdebut adv ;
+åvdålt adv "towards" ;
+åvvdål adv ;
+åvvdål+Use/NG:åvvdåla adv ;
+åvvdålist adv "from in front" ;
+åvvdålin adv "in the front" ;
+åvvdålij adv "towards the front" ;
+
+ädasik adv  "åtminstone" ;
+älu adv "ofta" ;
+älu+Use/NG:álo adv "ofta" ;
+änj adv "still, yet" ;
+ässká adv "äntligen, nyss, nu först, då först" ;
+ässki adv ;
+
+
+

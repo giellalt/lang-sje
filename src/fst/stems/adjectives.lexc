@@ -1,0 +1,247 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+!
+! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+! Generated at: 2020-05-12T13:40:21+03:00
+
+!! !!!Pite Saami Adjectives
+
+LEXICON Adjective   !!= * __@CODE@__ is the main lexicon
+
+!! !!Lexc inflectional classes (Mini-grammar)
+
+! adjective classes are named after a prototypical adjective
+
+guhkke+Use/NG+A+Attr:guhka # "long" ; ! no. 90547
+jallgat+Use/NG+A+Attr:jallga # "even, level, flat" ; ! no. 90798
+jårrbås+Use/NG+A+Attr:jårrbå # "round, undivided" ; ! no. 90857
+sällde+Use/NG+A+Attr:sälldes # "terrible, huge, enormous" ; ! no. 91111
+ájdna:ájdna A_AAJDNA "only, only one" ; ! no. 21
+mådde:mådde A_AAJDNA "several" ; ! no. 1196
+állke:állke A_AALLKE "easy, simple" ; ! no. 53
+bahá:bahá A_AALLKE "evil" ; ! no. 101
+hávvske:hávvske A_AALLKE "pleasant, fun" ; ! no. 827
+mihá:mihá A_AALLKE "proud" ; ! no. 1163
+árvas:árrvas A_AARVAS "generous" ; ! no. 74
+ávtas:ávvtas A_AARVAS "empty, desolate, outlying" ; ! no. 91
+fuovas:fu^Ovvas A_AARVAS "numerous" ; ! no. 90334
+gámbal:gámmbal A_AARVAS "old" ; ! no. 2493
+luovas:lu^Ovvas A_AARVAS "loose; free" ; ! no. 1071
+njalkas:njallkas A_AARVAS "slippery" ; ! no. 4195
+spájtas:spájjtas A_AARVAS "fast" ; ! no. 5141
+tjiervas:tjierrvas A_AARVAS "awful, terrible; difficult" ; ! no. 90712
+amas:abmas A_AMAS "foreign, strange, unknown" ; ! no. 58
+ájnas:ájdnas A_AMAS "urgent, pressing" ; ! no. 3103
+dávnas:dávdnas A_AMAS "particularly soft (for skis)" ; ! no. 343
+divras:divvras A_AMAS "expensive" ; ! no. 2977
+gávkas:gávvkas A_AMAS "slow, boring" ; ! no. 578
+jámas:jábmas A_AMAS "dead" ; ! no. 5569
+suohtas:su^Ohttas A_AMAS "fun" ; ! no. 4525
+vuoras:vu^Orras A_AMAS "old (for humans and animals)" ; ! no. 2187
+asedis:ased A_ASEDIS "thin" ; ! no. 2704
+balvagis:balvag A_ASEDIS "cloudy" ; ! no. 4161
+durrulis:durrul A_ASEDIS "belligerent" ; ! no. 3455
+fábmogis:fábmog A_ASEDIS "strong, powerful" ; ! no. 90812
+suddogis:suddog A_ASEDIS "sinful" ; ! no. 6070
+tjerrulis:tjerrul A_ASEDIS "whimpering (for children)" ; ! no. 5213
+unogis:unog A_ASEDIS "strange, unusual, odd" ; ! no. 2033
+vuällegis:vu^Ol'leg A_ASEDIS "low, humble" ; ! no. 4796
+báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
+garras:gar'ra A_BAAHKAS "hard" ; ! no. 90186
+bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
+båjjtot:båjjto A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
+båjjtot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
+basstel:basstel A_BIVVAL "sharp (for a knife, scissors etc.)" ; ! no. 3727
+bivval:bivval A_BIVVAL "warm" ; ! no. 192
+bulitj:bulitj A_BIVVAL "flammable, combustible" ; ! no. 3981
+livák:livág2 A_BIVVAL "thin, slender" ; ! no. 1053
+mårret:mårred2 A_BIVVAL "pleasant" ; ! no. 5506
+umårret:umårred2 A_BIVVAL "unpleasant" ; ! no. 90909
+blávvat:blávv A_BLAAVVAT "blue" ; ! no. 195
+jallgat:jallg A_BLAAVVAT "even, level, flat" ; ! no. 919
+ruappsat:ru^Opps A_BLAAVVAT "red" ; ! no. 1423
+sjävdnjet+Use/NG:sjä2vdnj A_BLAAVVAT "dark" ; ! no. 91119
+suohkat:su^Ohk A_BLAAVVAT "thick, dense" ; ! no. 2455
+tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
+visskat:vissk A_BLAAVVAT "yellow" ; ! no. 2132
+vällgat:vällg A_BLAAVVAT "white" ; ! no. 2118
+buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
+guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
+gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
+hiedjo:hiedjo A_BUOSSJE "poor" ; ! no. 828
+hådje:hådje A_BUOSSJE "sad, mournful" ; ! no. 90550
+låjje+Use/NG:lådje A_BUOSSJE "calm, tame" ; ! no. 90501
+nävvre:nievvre A_BUOSSJE "bad" ; ! no. 1342
+vallje:vallje A_BUOSSJE "abundant, plenty of" ; ! no. 2076
+vájjve:vájjve A_BUOSSJE "difficult, troublesome, serious" ; ! no. 2067
+dievas:dievva A_DIMES "full" ; ! no. 2628
+dimes:dibme A_DIMES "soft" ; ! no. 374
+duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
+duallbat:du^Ollba A_DUALLBAT "flat" ; ! no. 5578
+aktamielagatj:akta#mielagatj A_ELULATJ "of one opinion" ; ! no. 3989
+aktasatj:aktasatj A_ELULATJ "common, mutual" ; ! no. 39
+ássjálatj:ássjálatj A_ELULATJ "accessory, participating, involved" ; ! no. 3571
+bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
+därbulatj:dä2rbulatj A_ELULATJ "required, needed" ; ! no. 3242
+elulatj:elulatj A_ELULATJ "rich in reindeer" ; ! no. 3728
+fämulatj:fä2mulatj A_ELULATJ "strong, powerful" ; ! no. 3344
+färrtabäjjvásatj:färrta#bä2jjvásatj A_ELULATJ "daily" ; ! no. 3548
+gålbmåtjiegak:gålbmå#tjiegag2 A_ELULATJ "triangular" ; ! no. 4892
+ihttátj:ihttátj A_ELULATJ "tomorrow's" ; ! no. 90880
+mielagatj:mielagatj A_ELULATJ "of an opinion" ; ! no. 90804
+nälljetjiegak:nällje#tjiegag2 A_ELULATJ "square" ; ! no. 5307
+tjiegak:tjiegag2 A_ELULATJ "angular, cornered" ; ! no. 5212
+vuorbálatj:vu^Orbálatj A_ELULATJ "successful, fortunate" ; ! no. 3719
+vuällegatj:vu^Ol'legatj A_ELULATJ "low, humble" ; ! no. 4547
+ånegatj:ånegatj A_ELULATJ "short" ; ! no. 5038
+aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
+buorak:bu^Orag2 A_FIEROK "good" ; ! no. 3398
+buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399
+dálátj:dálátj A_FIEROK "nowadays, current, modern" ; ! no. 3590
+dámak:dámag2 A_FIEROK "tame" ; ! no. 90987
+dulutj:dulutj A_FIEROK "old-time" ; ! no. 4213
+fierok:fierog2 A_FIEROK "finished, ready" ; ! no. 475
+färrtalágátj:färrta#lágátj A_FIEROK "all kinds of" ; ! no. 6224
+gávak:gávag2 A_FIEROK "bent" ; ! no. 4816
+guäkktelágátj:guäkkte#lágátj A_FIEROK "twins, two similar things" ; ! no. 4873
+ietjálágátj:ietjá#lágátj A_FIEROK "different" ; ! no. 458
+lágátj:lágátj A_FIEROK "like (adjective compound component)" ; ! no. 90801
+mällgat:mä2llgad2 A_FIEROK "far" ; ! no. 1224
+suhtelágátj:suhte#lágátj A_FIEROK "in many ways, multiple" ; ! no. 4258
+särralágátj:särra#lágátj A_FIEROK "special, original" ; ! no. 3975
+vuostas+Use/NG:vu^Ostatj A_FIEROK "first" ; ! no. 90457
+galmas:galbma A_GALMAS "cold" ; ! no. 90123
+tjielgas:tjiellga A_GALMAS "clear and distinct" ; ! no. 4582
+årås+Use/NG:ådå A_GALMAS "new" ; ! no. 90519
+årås:årrå A_GALMAS "new" ; ! no. 90201
+gienes:giedne A_GIENES "painful, evil, nasty" ; ! no. 2656
+gieres:gierre A_GIENES "in love, loved" ; ! no. 90194
+hieves:hievve A_GIENES "proud, impressive" ; ! no. 840
+sieldes:siellde A_GIENES "terrible, huge, enormous" ; ! no. 90996
+såmes:såbme A_GIENES "some" ; ! no. 1822
+vijdes:vijjde A_GIENES "wide, stretched out far" ; ! no. 5771
+vijses:vijjse A_GIENES "smart, wise" ; ! no. 5224
+gåjkes:gåjjke A_GÅJKES "dry" ; ! no. 6239
+allak:alla A_IEDNAK "high" ; ! no. 5423
+gassak:gassa A_IEDNAK "thick, fat" ; ! no. 562
+iednak:iedna A_IEDNAK "a lot, much" ; ! no. 2395
+stuorak:stu^Ora A_IEDNAK "big" ; ! no. 1739
+ietjá:iehtjá A_IETJAA "other" ; ! no. 6882
+jårrbåt:jårrb A_JAORRBAOT "round" ; ! no. 4921
+låssåt:lås's A_JAORRBAOT "heavy, difficult" ; ! no. 1097
+juhke:juhke A_JUHKE "alcoholic, drunkard" ; ! no. 932
+kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
+lahka:lahka A_KUORA "near, close" ; ! no. 91110
+nágge:nágge A_KUORA "tight, close (e.g. in a hut)" ; ! no. 4999
+slijtane:slijtane A_KUORA "worn" ; ! no. 91105
+nágan+Use/NG:nag A_NAGAN "some (-thing, -one)" ; ! no. 91170
+nágan+Use/NG:nagan A_NAGAN "some (-thing, -one)" ; ! no. 90963
+nágan:nágan A_NAGAN "some (-thing, -one)" ; ! no. 3430
+nágan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
+binná:bin'ná A_NUORRA "a little bit" ; ! no. 2446
+buorre:bu^Orre A_NUORRA "good" ; ! no. 213
+dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
+maŋŋe:maŋŋe A_NUORRA "after" ; ! no. 91011
+nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
+sällde:siellde A_NUORRA "terrible, huge, enormous" ; ! no. 1839
+sjävdnjet:sjievdnje A_SJAEVDNJET "dark" ; ! no. 3301
+njállge:njállg A_SMAAVVE "tasty, delicious" ; ! no. 2323
+smávve:smávv A_SMAAVVE "small, little" ; ! no. 90347
+stuores:stu^Orr A_STUORES "big" ; ! no. 1742
+stuorra+Use/NG:stu^Or A_STUORx "big" ; ! no. 90796
+tjábbe:tjább A_TJAABBE "beautiful" ; ! no. 1849
+állbe:állbe A_TJAEHPPE "cheap" ; ! no. 49
+basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
+buäjjde:bu^Ojjde A_TJAEHPPE "fat" ; ! no. 90797
+fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
+gallje:gallje A_TJAEHPPE "wide, spacious" ; ! no. 3783
+gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
+låjje:låjje A_TJAEHPPE "calm, tame" ; ! no. 4964
+tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent, skilled" ; ! no. 1983
+vasste:vasste A_TJAEHPPE "ugly, horrible" ; ! no. 2337
+ájles:ájjles A_TJAOSKES "holy" ; ! no. 6785
+dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
+gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
+tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
+umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
+unne:un'n A_UNNE "small, little" ; ! no. 90285
+färrta:fä2rrta A_VAASSE "every, each and every" ; ! no. 4190
+jåhteje:jåhteje A_VAASSE "mover, a person migrating" ; ! no. 91295
+lihkas:lihkas A_VAASSE "lame, with a limp" ; ! no. 5477
+lihkas+Use/NG:liŋkas A_VAASSE "lame, with a limp" ; ! no. 91020
+norska:norska A_VAASSE "Norwegian" ; ! no. 91002
+sämmi+Use/NG:samma A_VAASSE "same, identical" ; ! no. 91152
+sierra:sierra A_VAASSE "special, different, separate" ; ! no. 91118
+surgos:surgos A_VAASSE "sorrowful, sad" ; ! no. 91050
+sämmi:sä2mmi A_VAASSE "same, identical" ; ! no. 1841
+unna+Use/NG:unnes A_VAASSE "small, little" ; ! no. 90859
+vásse:vás'se A_VAASSE "previous" ; ! no. 90395
+vierre:vierre A_VIERRE "(bad -> worse/worst)" ; ! no. 91154
+guoros:gu^Orros A_VUOJNOS "empty" ; ! no. 4862
+tjiegos:tjiehkos A_VUOJNOS "hidden, secret, confidential" ; ! no. 90984
+vuojnos:vu^Ojdnos A_VUOJNOS "visible, obvious" ; ! no. 90398
+bargodibme:bargod A_xDIBME "unemployed" ; ! no. 3130
+bánedibme:báned A_xDIBME "toothless" ; ! no. 5281
+bådnedibme:bådned A_xDIBME "bottomless" ; ! no. 3397
+dåssjedibme:dåssjed A_xDIBME "unnecessary" ; ! no. 4744
+fámodibme:fámod A_xDIBME "powerless" ; ! no. 5200
+gaŋnadibme:gaŋnad A_xDIBME "useless" ; ! no. 537
+mujtodibme:mujtod A_xDIBME "forgetful" ; ! no. 5730
+sjávodibme:sjávod A_xDIBME "taciturn, reticent" ; ! no. 3993
+skábmodibme:skábmod A_xDIBME "unabashed" ; ! no. 5775
+tjalmedibme:tjalmed A_xDIBME "blind" ; ! no. 6622
+vielgedibme:vielged A_xDIBME "debt-free" ; ! no. 6137
+vigedibme:viged A_xDIBME "without mistakes" ; ! no. 4050
+vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
+åjvedibme:åjved A_xDIBME "headless; dumb" ; ! no. 91140
+ådne:ådne A_ÅNEGIS "short" ; ! no. 2235
+
+
+! original lemmas from A-C and Trond:
+
+almelatj:almelatj A_EVEN_D ;
+gåbbde A_EVEN_B ;
+järbme A_EVEN_B ;
+!maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
+njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
+sjnuttjo A_EVEN_NOCG_S ;
+tjåvvgå A_EVEN_IES ;
+tjavvga A_EVEN_0 ; ! fungerar
+uhttse A_EVEN_B ; !little
+suddulatj:suddulatj A_EVEN_D ;
+vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
+ávos A_ODD_Å ; !happy, glad
+gilos:gil A_ODD_DD ; !gillus?
+grávvat:grávv A_ODD_S ;
+gullis A_ODD ;
+máhtalk:máhtal A_ODD_GIS ;
+nággár A_ODD ;
+njálmuk:njálmu A_ODD_GIS ;
+njálbmok:njálbmo A_ODD_GIS ;
+nåjdes:nåj A_ODD_SIS ;
+rádes:rád A_ODD_AA ;  !inlagt även alt.form rádep, rádemus
+rádes:rád A_ODD_ÖÖ ;  !inlagt även alt.form rádásup
+rávvat:rávv A_ODD_S ;
+sjlusgos A_ODD_Å ;
+stumbu:stumbu A_ODD_Ä ;
+suddes:sudd A_ODD_AA ; 
+suojmuk:suojmu A_ODD_GIS ;
+tjuavvgat:tju A_ODD_Y ;
+tjuorak:tjuora A_ODD_k_K ;
+tjurguk:tjurgu A_ODD_GIS ;
+låmmsje:låm A_EVEN_KONTR_D ; 
+låmsjes:låm A_EVEN_KONTR_H ; 
+mivkes:miv A_EVEN_KONTR_E ; !soft? muvkes?
+sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ; !slushy?
+

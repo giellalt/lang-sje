@@ -1,0 +1,1331 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+!! Pronouns
+
+
+LEXICON Pronoun   !!= * __@CODE@__
+
+Personal ;
+Demonstrative ;
+Determiner ;
+Relative ;
+Reflexive ;
+Interrogative ;
+Indefinita ;
+
+
+! Personal pronouns
+! =================
+
+LEXICON Personal   !!= * __@CODE@__
+mån+Pron+Pers+Sg1:m  perssg ;
+mån+Pron+Pers+Du1:m  persdu ;
+mån+Pron+Pers+Pl1:m  perspl ;
+dån+Pron+Pers+Sg2:d  perssg ;
+dån+Pron+Pers+Du2:d  persdu ;
+dån+Pron+Pers+Pl2:d  perspl ;
+sån+Pron+Pers+Sg3:s  perssg ;
+sån+Pron+Pers+Du3:s  persdu ;
+sån+Pron+Pers+Pl3:s  perspl ;
+
+LEXICON perssg   !!= * __@CODE@__
++Nom:ån      # ;
++Nom:ånnå    # ;
++Acc:uv      # ;
++Gen:uv      # ;
++Ill:unje    # ;
++Ill:unji    # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
++Ine:uvne    # ;
++Ine:ujna    # ; !nordlig variant
++Ela:uvste   # ;
++Com:ujna    # ;
++Ess:ånnan # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
+
+LEXICON persdu   !!= * __@CODE@__
++Nom:åj      # ;
++Nom:åjå     # ;
++Acc:unuv   # ;
++Gen:unu    # ;
++Ill:unnuj   # ;
++Ine:unun   # ;
++Ela:unust  # ;
++Com:unujn   # ;
++Ess:unnun # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
+
+LEXICON perspl   !!= * __@CODE@__
++Nom:ij      # ;
++Nom:ija     # ;
+!+Nom+Use/NG:ijá     # ; !check!
++Acc:ijav    # ;
++Acc+Use/NG:ijáv     # ;
++Gen:ijá     # ;
++Ill:ijjaj   # ;
++Ill+Use/NG:ijjáj   # ;
++Ill+Use/NG:ijjij   # ;
++Ine:ijan    # ;
++Ela:ijast   # ;
++Com:ijajn   # ;
+
+
+
+LEXICON Demonstrative   !!= * __@CODE@__
+dat+Pron+Dem+Sg+Nom:dat # ;
+dat+Pron+Dem+Sg+Nom+Use/NG:dahta # ;
+dat+Pron+Dem+Sg+Acc:dav # ;
+dat+Pron+Dem+Sg+Gen:dan # ;
+dat+Pron+Dem+Sg+Ill:dasa # ;
+dat+Pron+Dem+Sg+Ill+Use/NG:disi # ;
+dat+Pron+Dem+Sg+Ine:dan # ;
+dat+Pron+Dem+Sg+Ela:dasste # ;
+dat+Pron+Dem+Sg+Com:dajna # ;
+dat+Pron+Dem+Sg+Ess:danen # ;
+
+dat+Pron+Dem+Pl+Nom:da # ;
+dat+Pron+Dem+Pl+Acc:dajt # ;
+dat+Pron+Dem+Pl+Acc+Use/NG:dajd # ;
+dat+Pron+Dem+Pl+Gen:daj # ;
+dat+Pron+Dem+Pl+Ill:dajda # ;
+dat+Pron+Dem+Pl+Ine:dajn # ;
+dat+Pron+Dem+Pl+Ine:dajdne # ;
+dat+Pron+Dem+Pl+Ela:dajst # ;
+dat+Pron+Dem+Pl+Ela:dajste # ;
+dat+Pron+Dem+Pl+Com:daj # ;
+
+dát+Pron+Dem+Sg+Nom:dát # ;
+dát+Pron+Dem+Sg+Nom+Use/NG:dáhta # ;
+dát+Pron+Dem+Sg+Acc:dáv # ;
+dát+Pron+Dem+Sg+Gen:dán # ;
+dát+Pron+Dem+Sg+Ill:dása # ;
+dát+Pron+Dem+Sg+Ill+Use/NG:däsi # ;
+dát+Pron+Dem+Sg+Ine:dán # ;
+dát+Pron+Dem+Sg+Ela:dásste # ;
+dát+Pron+Dem+Sg+Com:dájna # ;
+dát+Pron+Dem+Sg+Ess:dánen # ;
+
+dát+Pron+Dem+Pl+Nom:dá # ;
+dát+Pron+Dem+Pl+Acc:dájt # ;
+dát+Pron+Dem+Pl+Acc+Use/NG:dájd # ;
+dát+Pron+Dem+Pl+Gen:dáj # ;
+dát+Pron+Dem+Pl+Ill:dájda # ;
+dát+Pron+Dem+Pl+Ine:dájn # ;
+dát+Pron+Dem+Pl+Ine:dájdne # ; 
+dát+Pron+Dem+Pl+Ela:dájst # ;
+dát+Pron+Dem+Pl+Ela:dájste # ;
+dát+Pron+Dem+Pl+Com:dáj # ;
+
+dut+Pron+Dem+Sg+Nom:dut # ;
+dut+Pron+Dem+Sg+Nom+Use/NG:duhta # ;
+dut+Pron+Dem+Sg+Acc:duv # ;
+dut+Pron+Dem+Sg+Gen:dun # ;
+dut+Pron+Dem+Sg+Ill:dui # ;
+dut+Pron+Dem+Sg+Ine:du # ;
+dut+Pron+Dem+Sg+Ela:dussta # ;
+dut+Pron+Dem+Sg+Com:dujna # ;
+
+dut+Pron+Dem+Pl+Nom:du # ;
+dut+Pron+Dem+Pl+Acc:dujt # ;
+dut+Pron+Dem+Pl+Acc+Use/NG:dujd # ;
+dut+Pron+Dem+Pl+Gen:duj # ;
+dut+Pron+Dem+Pl+Ill:dujda # ;
+dut+Pron+Dem+Pl+Ine:dujn # ;
+dut+Pron+Dem+Pl+Ela:dujs # ;
+dut+Pron+Dem+Pl+Com:duj # ;
+
+
+
+! Determiners (NOT Demonstrative pronouns!)
+LEXICON Determiner   !!= * __@CODE@__
+dat+Det+Sg+Nom:dat # ;
+dat+Det+Sg+Acc:dav # ;
+dat+Det+Sg+Gen:dan # ;
+dat+Det+Sg+Ill:dan # ;
+dat+Det+Sg+Ine:dan # ;
+dat+Det+Sg+Ela:dat # ;
+dat+Det+Sg+Com:dajna # ;
+dat+Det+Sg+Ess:danen # ;
+
+dat+Det+Pl+Nom:da # ;
+dat+Det+Pl+Acc:dajt # ;
+dat+Det+Pl+Acc+Use/NG:dajd # ;
+dat+Det+Pl+Gen:daj # ;
+dat+Det+Pl+Ill:dajda # ;
+dat+Det+Pl+Ine:dajn # ;
+dat+Det+Pl+Ine:dajdne # ;
+dat+Det+Pl+Ela:dajst # ;
+dat+Det+Pl+Ela:dajste # ;
+dat+Det+Pl+Com:daj # ;
+
+dát+Det+Sg+Nom:dát # ;
+dát+Det+Sg+Acc:dáv # ;
+dát+Det+Sg+Gen:dán # ;
+dát+Det+Sg+Ill:dán # ;
+dát+Det+Sg+Ine:dán # ;
+dát+Det+Sg+Ela:dát # ;
+dát+Det+Sg+Com:dájna # ;
+dát+Det+Sg+Ess:dánen # ;
+
+dát+Det+Pl+Nom:dá # ;
+dát+Det+Pl+Acc:dájt # ;
+dát+Det+Pl+Acc+Use/NG:dájd # ;
+dát+Det+Pl+Gen:dáj # ;
+dát+Det+Pl+Ill:dájda # ;
+dát+Det+Pl+Ine:dájn # ;
+dát+Det+Pl+Ine:dájdne # ; 
+dát+Det+Pl+Ela:dájst # ;
+dát+Det+Pl+Ela:dájste # ;
+dát+Det+Pl+Com:dáj # ;
+
+dut+Det+Sg+Nom:dut # ;
+dut+Det+Sg+Acc:duv # ;
+dut+Det+Sg+Gen:dun # ;
+dut+Det+Sg+Ill:dut # ;
+dut+Det+Sg+Ine:dun # ;
+dut+Det+Sg+Ela:dut # ;
+dut+Det+Sg+Com:dujna # ;
+dut+Det+Pl+Nom:du # ;
+dut+Det+Pl+Acc:dujt # ;
+dut+Det+Pl+Acc+Use/NG:dujd # ;
+dut+Det+Pl+Gen:duj # ;
+dut+Det+Pl+Ill:dujda # ;
+dut+Det+Pl+Ine:dujn # ;
+dut+Det+Pl+Ela:dujs # ;
+dut+Det+Pl+Com:duj # ;
+
+
+!determiner (but does not inflect, as attr), eg: galga válldet daggár smáva muorajd
+daggár+Det+Attr:daggár # ; 
+daggár+Det+Attr+Use/NG:diggir # ; 
+dággár+Det+Attr:dággár # ; 
+dággár+Det+Attr+Use/NG:däggir # ; 
+duggir+Det+Attr:duggir # ; 
+
+maggár+Det+Interr+Attr:maggár # ; 
+maggár+Det+Interr+Attr+Use/NG:miggir # ; 
+
+
+
+
+
+
+
+
+
+
+
+LEXICON Relative   !!= * __@CODE@__
+!!gie, predikativ ställning
+!gie+Pron+Rel+Sg+Nom:gie # ;
+!gie+Pron+Rel+Sg+Acc:giev # ;
+!gie+Pron+Rel+Sg+Gen:gien # ;
+!gie+Pron+Rel+Sg+Ill:gesi # ;
+!gie+Pron+Rel+Sg+Ine:gänne # ;
+!gie+Pron+Rel+Sg+Ela:gässte # ;
+!gie+Pron+Rel+Sg+Com:giejna # ;
+!gie+Pron+Rel+Sg+Ess:gännen # ;
+
+!gie+Pron+Rel+Pl+Nom:gie # ;
+!gie+Pron+Rel+Pl+Acc:giejd # ;
+!gie+Pron+Rel+Pl+Gen:giej # ;
+!gie+Pron+Rel+Pl+Ill:giejda # ;
+!gie+Pron+Rel+Pl+Ine:gäjdne # ;
+!gie+Pron+Rel+Pl+Ela:gäjste # ;
+!gie+Pron+Rel+Pl+Com:giej # ;
+
+!mij predikativ ställning
+mij+Pron+Rel+Sg+Nom:mij # ;
+mij+Pron+Rel+Sg+Acc:mav # ;
+mij+Pron+Rel+Sg+Gen:man # ;
+mij+Pron+Rel+Sg+Ill:masa # ;
+mij+Pron+Rel+Sg+Ine:manne # ;
+mij+Pron+Rel+Sg+Ela:masste # ;
+mij+Pron+Rel+Sg+Com:majna # ;
+mij+Pron+Rel+Sg+Ess:manen # ;
+
+mij+Pron+Rel+Pl+Nom:ma # ;
+mij+Pron+Rel+Pl+Acc:majt # ;
+mij+Pron+Rel+Pl+Acc+Use/NG:majd # ;
+mij+Pron+Rel+Pl+Acc+Use/NG:majde # ;
+mij+Pron+Rel+Pl+Gen:maj # ;
+mij+Pron+Rel+Pl+Ill:majda # ;
+mij+Pron+Rel+Pl+Ine:majdne # ;
+mij+Pron+Rel+Pl+Ela:majste # ;
+mij+Pron+Rel+Pl+Ela:majjste # ; ! kanskje
+mij+Pron+Rel+Pl+Com:maj # ;
+
+!!gie attributiv ställning
+!gie+Pron+Rel+Sg+Nom:gie # ;
+!gie+Pron+Rel+Sg+Acc:gudi # ;
+!gie+Pron+Rel+Sg+Gen:gien # ;
+!gie+Pron+Rel+Sg+Ill:gien # ;
+!gie+Pron+Rel+Sg+Ine:gudin # ;
+!gie+Pron+Rel+Sg+Ela:gudit # ;
+!gie+Pron+Rel+Sg+Com:gudijn # ;
+!gie+Pron+Rel+Sg+Ess:guhtin # ;
+
+!gie+Pron+Rel+Pl+Nom:gie # ;
+!gie+Pron+Rel+Pl+Acc:gudijd # ;
+!gie+Pron+Rel+Pl+Gen:gudij # ;
+!gie+Pron+Rel+Pl+Ill:gudijda # ;
+!gie+Pron+Rel+Pl+Ine:gudijn # ;
+!gie+Pron+Rel+Pl+Ela:gudijst # ;
+!gie+Pron+Rel+Pl+Com:gudij # ;
+
+!!mij attributiv ställning
+!mij+Pron+Rel+Sg+Nom:mij # ;
+!mij+Pron+Rel+Sg+Acc:mav # ;
+!mij+Pron+Rel+Sg+Gen:man # ;
+!mij+Pron+Rel+Sg+Ill:man # ;
+!mij+Pron+Rel+Sg+Ine:man # ;
+!mij+Pron+Rel+Sg+Ela:mat # ;
+!mij+Pron+Rel+Sg+Com:majna # ;
+!mij+Pron+Rel+Sg+Ess:manen # ;
+
+!mij+Pron+Rel+Pl+Nom:ma # ;
+!mij+Pron+Rel+Pl+Acc:majd # ;
+!mij+Pron+Rel+Pl+Gen:maj # ;
+!mij+Pron+Rel+Pl+Ill:majda # ;
+!mij+Pron+Rel+Pl+Ine:majn # ;
+!mij+Pron+Rel+Pl+Ine:majdne # ;
+!mij+Pron+Rel+Pl+Ela:majste # ;
+!mij+Pron+Rel+Pl+Com:maj # ;
+
+
+! gåbba predikativ ställning
+goabba+Pron+Rel+Sg+Nom:gåbbá # ;
+goabba+Pron+Rel+Sg+Acc:gåbbáv # ;
+goabba+Pron+Rel+Sg+Gen:gåbbá # ;
+goabba+Pron+Rel+Sg+Ill:gåbbáj # ;
+goabba+Pron+Rel+Sg+Ine:gåbbán # ;
+goabba+Pron+Rel+Sg+Ela:gåbbást # ;
+goabba+Pron+Rel+Sg+Com:gåbbájn # ;
+goabba+Pron+Rel+Sg+Ess:gåbbán # ;
+
+goabba+Pron+Rel+Pl+Nom:gåbbá # ;
+goabba+Pron+Rel+Pl+Acc:gåbbájt # ;
+goabba+Pron+Rel+Pl+Acc+Use/NG:gåbbájd # ;
+goabba+Pron+Rel+Pl+Gen:gåbbáj # ;
+goabba+Pron+Rel+Pl+Ill:gåbbájda # ;
+goabba+Pron+Rel+Pl+Ine:gåbbájn # ;
+goabba+Pron+Rel+Pl+Ela:gåbbájst # ;
+goabba+Pron+Rel+Pl+Com:gåbbáj # ;
+
+! gåbba attributiv ställning
+goabba+Pron+Rel+Sg+Nom:gåbbá # ;
+goabba+Pron+Rel+Sg+Acc:gåbbáv # ;
+goabba+Pron+Rel+Sg+Gen:gåbbá # ;
+goabba+Pron+Rel+Sg+Ill:gåbbá # ;
+goabba+Pron+Rel+Sg+Ine:gåbbán # ;
+goabba+Pron+Rel+Sg+Ela:gåbbát # ;
+goabba+Pron+Rel+Sg+Com:gåbbájn # ;
+goabba+Pron+Rel+Sg+Ess:gåbbán # ;
+
+goabba+Pron+Rel+Pl+Nom:gåbbá # ;
+goabba+Pron+Rel+Pl+Acc:gåbbájt # ;
+goabba+Pron+Rel+Pl+Acc+Use/NG:gåbbájd # ;
+goabba+Pron+Rel+Pl+Gen:gåbbáj # ;
+goabba+Pron+Rel+Pl+Ill:gåbbájda # ;
+goabba+Pron+Rel+Pl+Ine:gåbbájn # ;
+goabba+Pron+Rel+Pl+Ela:gåbbájst # ;
+goabba+Pron+Rel+Pl+Com:gåbbáj # ;
+
+!guhtimus predikativ ställning, (enligt Martin Sjaggo)´vem, vilken, vilkendera (av flera)´ (interrogativt), ´den/det som (av flera)´ (relativt), attributivt oböjlig
+
+!guhtimus predikativ ställning
+guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
+guhtimus+Pron+Rel+Sg+Acc:guhtimusav # ;
+guhtimus+Pron+Rel+Sg+Gen:guhtimusa # ;
+guhtimus+Pron+Rel+Sg+Ill:guhtimussaj # ;
+guhtimus+Pron+Rel+Sg+Ine:guhtimusan # ;
+guhtimus+Pron+Rel+Sg+Ela:guhtimusas # ;
+guhtimus+Pron+Rel+Sg+Com:guhtimusajn # ;
+guhtimus+Pron+Rel+Sg+Ess:guhtimussan # ;
+
+guhtimus+Pron+Rel+Pl+Nom:guhtimusa # ;
+guhtimus+Pron+Rel+Pl+Acc:guhtimusajt # ;
+guhtimus+Pron+Rel+Pl+Acc+Use/NG:guhtimusajd # ;
+guhtimus+Pron+Rel+Pl+Gen:guhtimusaj # ;
+guhtimus+Pron+Rel+Pl+Ill:guhtimusajda # ;
+guhtimus+Pron+Rel+Pl+Ine:guhtimusajn # ;
+guhtimus+Pron+Rel+Pl+Ela:guhtimusajs # ;
+guhtimus+Pron+Rel+Pl+Com:guhtimusaj # ;
+
+
+!guhtimus attributiv ställning
+guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
+
+LEXICON Interrogative   !!= * __@CODE@__
+
+!gie, predikativ ställning
+gie+Pron+Interr+Sg+Nom:gie # ;
+gie+Pron+Interr+Sg+Acc:giev # ;
+gie+Pron+Interr+Sg+Gen:gien # ;
+gie+Pron+Interr+Sg+Ill:gesi # ;
+gie+Pron+Interr+Sg+Ine:gänne # ;
+gie+Pron+Interr+Sg+Ela:gässte # ;
+gie+Pron+Interr+Sg+Com:giejna # ;
+gie+Pron+Interr+Sg+Ess:gännen # ;
+
+gie+Pron+Interr+Pl+Nom:gie # ;
+gie+Pron+Interr+Pl+Acc:giejt # ;
+gie+Pron+Interr+Pl+Acc+Use/NG:giejd # ;
+gie+Pron+Interr+Pl+Gen:giej # ;
+gie+Pron+Interr+Pl+Ill:giejda # ;
+gie+Pron+Interr+Pl+Ine:gäjdne # ;
+gie+Pron+Interr+Pl+Ela:gäjste # ;
+gie+Pron+Interr+Pl+Com:giej # ;
+
+!mij predikativ ställning
+mij+Pron+Interr+Sg+Nom:mij # ;
+mij+Pron+Interr+Sg+Acc:mav # ;
+mij+Pron+Interr+Sg+Acc+Use/NG:mava # ; !long form when isolated
+mij+Pron+Interr+Sg+Gen:man # ;
+mij+Pron+Interr+Sg+Ill:masa # ;
+mij+Pron+Interr+Sg+Ine:manne # ;
+mij+Pron+Interr+Sg+Ela:masste # ;
+mij+Pron+Interr+Sg+Com:majna # ;
+mij+Pron+Interr+Sg+Ess:manen # ;
+
+mij+Pron+Interr+Pl+Nom:ma # ;
+mij+Pron+Interr+Pl+Acc:majt # ;
+mij+Pron+Interr+Pl+Acc+Use/NG:majd # ;
+mij+Pron+Interr+Pl+Gen:maj # ;
+mij+Pron+Interr+Pl+Ill:majda # ;
+mij+Pron+Interr+Pl+Ine:majdne # ;
+mij+Pron+Interr+Pl+Ela:majste # ;
+mij+Pron+Interr+Pl+Ela:majjste # ; ! kanskje
+mij+Pron+Interr+Pl+Com:maj # ;
+
+!gie attributiv ställning
+gie+Pron+Interr+Sg+Nom:gie # ;
+gie+Pron+Interr+Sg+Acc:gudi # ;
+gie+Pron+Interr+Sg+Gen:gien # ;
+gie+Pron+Interr+Sg+Ill:gien # ;
+gie+Pron+Interr+Sg+Ine:gudin # ;
+gie+Pron+Interr+Sg+Ela:gudit # ;
+gie+Pron+Interr+Sg+Com:gudijn # ;
+gie+Pron+Interr+Sg+Ess:guhtin # ;
+
+gie+Pron+Interr+Pl+Nom:gie # ;
+gie+Pron+Interr+Pl+Acc:gudijt # ;
+gie+Pron+Interr+Pl+Acc+Use/NG:gudijd # ;
+gie+Pron+Interr+Pl+Gen:gudij # ;
+gie+Pron+Interr+Pl+Ill:gudijda # ;
+gie+Pron+Interr+Pl+Ine:gudijn # ;
+gie+Pron+Interr+Pl+Ela:gudijst # ;
+gie+Pron+Interr+Pl+Com:gudij # ;
+
+!mij attributiv ställning
+mij+Pron+Interr+Sg+Nom:mij # ;
+mij+Pron+Interr+Sg+Acc:mav # ;
+mij+Pron+Interr+Sg+Gen:man # ;
+mij+Pron+Interr+Sg+Ill:man # ;
+mij+Pron+Interr+Sg+Ine:man # ;
+mij+Pron+Interr+Sg+Ela:mat # ;
+mij+Pron+Interr+Sg+Com:majna # ;
+mij+Pron+Interr+Sg+Ess:manen # ;
+
+mij+Pron+Interr+Pl+Nom:ma # ;
+mij+Pron+Interr+Pl+Acc:majt # ;
+mij+Pron+Interr+Pl+Acc+Use/NG:majd # ;
+mij+Pron+Interr+Pl+Gen:maj # ;
+mij+Pron+Interr+Pl+Ill:majda # ;
+mij+Pron+Interr+Pl+Ine:majn # ;
+mij+Pron+Interr+Pl+Ine:majdne # ;
+mij+Pron+Interr+Pl+Ela:majste # ;
+mij+Pron+Interr+Pl+Com:maj # ;
+
+
+
+!miggir~maggár:miggir-~maggár- ´hurudan?, vad för slags?, (sådan) som, (likadan) som´, attributivt oböjligt
+
+!miggir predikativ ställning
+maggár+Pron+Interr+Sg+Nom:maggár # ;
+maggár+Pron+Interr+Sg+Acc:maggárav # ;
+maggár+Pron+Interr+Sg+Gen:maggára # ;
+maggár+Pron+Interr+Sg+Ill:maggárij # ;
+maggár+Pron+Interr+Sg+Ine:maggárin # ;
+maggár+Pron+Interr+Sg+Ela:maggárist # ;
+maggár+Pron+Interr+Sg+Com:maggárijn # ;
+maggár+Pron+Interr+Sg+Ess:maggárin # ;
+
+maggár+Pron+Interr+Pl+Nom:maggára # ;
+maggár+Pron+Interr+Pl+Acc:maggárijt # ;
+maggár+Pron+Interr+Pl+Acc+Use/NG:maggárijd # ;
+maggár+Pron+Interr+Pl+Gen:maggárij # ;
+maggár+Pron+Interr+Pl+Ill:maggárijda # ;
+maggár+Pron+Interr+Pl+Ine:maggárijn # ;
+maggár+Pron+Interr+Pl+Ela:maggárijst # ;
+maggár+Pron+Interr+Pl+Com:maggárij # ;
+
+!maggar attributiv ställning
+!maggar+Pron+Interr+Sg+Nom:maggar # ; !not a pronoun
+
+!miggir predikativ ställning, variant of maggár
+miggár+Pron+Interr+Sg+Nom+Use/NG:miggir # ;
+miggár+Pron+Interr+Sg+Acc+Use/NG:miggirav # ;
+miggár+Pron+Interr+Sg+Gen+Use/NG:miggira # ;
+miggár+Pron+Interr+Sg+Ill+Use/NG:miggirij # ;
+miggár+Pron+Interr+Sg+Ine+Use/NG:miggirin # ;
+miggár+Pron+Interr+Sg+Ela+Use/NG:miggirist # ;
+miggár+Pron+Interr+Sg+Com+Use/NG:miggirijn # ;
+miggár+Pron+Interr+Sg+Ess+Use/NG:miggirin # ;
+miggár+Pron+Interr+Pl+Nom+Use/NG:miggira # ;
+miggár+Pron+Interr+Pl+Acc+Use/NG:miggirijd # ;
+miggár+Pron+Interr+Pl+Gen+Use/NG:miggirij # ;
+miggár+Pron+Interr+Pl+Ill+Use/NG:miggirijda # ;
+miggár+Pron+Interr+Pl+Ine+Use/NG:miggirijn # ;
+miggár+Pron+Interr+Pl+Ela+Use/NG:miggirijst # ;
+miggár+Pron+Interr+Pl+Com+Use/NG:miggirij # ;
+
+!miggir attributiv ställning
+!miggir+Pron+Interr+Sg+Nom+Use/NG:miggir # ; !not a pronoun
+
+
+!galles:gallas- ´hur många personer?´ (brukas aldrig attributivt)
+
+!galles, predikativ ställning
+galles+Pron+Interr+Sg+Nom:galles # ;
+galles+Pron+Interr+Sg+Acc:gallasav # ;
+galles+Pron+Interr+Sg+Gen:gallasa # ;
+galles+Pron+Interr+Sg+Ill:gallasij # ;
+galles+Pron+Interr+Sg+Ine:gallasin # ;
+galles+Pron+Interr+Sg+Ela:gallasist # ;
+galles+Pron+Interr+Sg+Com:gallasijn # ;
+galles+Pron+Interr+Sg+Ess:gallasin # ;
+
+galles+Pron+Interr+Pl+Nom:gallasa # ;
+galles+Pron+Interr+Pl+Acc:gallasijt # ;
+galles+Pron+Interr+Pl+Acc+Use/NG:gallasijd # ;
+galles+Pron+Interr+Pl+Gen:gallasij # ;
+galles+Pron+Interr+Pl+Ill:gallasijda # ;
+galles+Pron+Interr+Pl+Ine:gallasijn # ;
+galles+Pron+Interr+Pl+Ela:gallasijst # ;
+galles+Pron+Interr+Pl+Com:gallasij # ;
+
+!gallat ´vilken (i ordningen)?´
+
+!gallat attributiv ställning
+gallat+Pron+Interr+Sg+Nom:gallat # ;
+
+gallat+Pron+Interr+Sg+Nom:gallat # ;
+gallat+Pron+Interr+Sg+Acc:galladav # ;
+gallat+Pron+Interr+Sg+Gen:gallada # ;
+gallat+Pron+Interr+Sg+Ill:galladij # ;
+gallat+Pron+Interr+Sg+Ine:galladin # ;
+gallat+Pron+Interr+Sg+Ela:galladist # ;
+gallat+Pron+Interr+Sg+Com:galladijn # ;
+gallat+Pron+Interr+Sg+Ess:galladin # ;
+
+gallat+Pron+Interr+Pl+Nom:gallada # ;
+gallat+Pron+Interr+Pl+Acc:galladijt # ;
+gallat+Pron+Interr+Pl+Acc+Use/NG:galladijd # ;
+gallat+Pron+Interr+Pl+Gen:galladij # ;
+gallat+Pron+Interr+Pl+Ill:galladijda # ;
+gallat+Pron+Interr+Pl+Ine:galladijn # ;
+gallat+Pron+Interr+Pl+Ela:galladijst # ;
+gallat+Pron+Interr+Pl+Com:galladij # ;
+
+
+
+LEXICON Indefinita   !!= * __@CODE@__
+
+GAAJJKA ; ! ´everything, everyone, all; all, allt, alla, hel, hela´, 
+AKKTAK ; ! 'nothing'
+DIVNA ; ! 'together?'
+GUHTIK ; ! 'anyone'
+GAOBBAAK ; ! 'both; which (of two?)'
+DAGGAAR ; ! 'such'
+FAERTLAAGAATJ ; ! 'every kind of'
+GAAJJKALAAGAATJ ; ! 'all kinds of'
+GAOBBATJ ; ! 'both of two'
+MUHTEM ; ! 'some, partly'
+MAODDES ; ! 'some'
+NAAGAN ; ! 'some'
+SUHTA ; ! 'several'
+
+LEXICON GAAJJKA !adding stem variant with -a- for all possibilities
+gájjka:gájjk GAAJJKA_s2 ;
+gájjka+Use/NG:gajjk GAAJJKA_s2 ; 
+
+LEXICON GAAJJKA_s2 !stage2
++Pron+Indef+Sg:a GAAJJKA_SG ; !indefinite pronoun in Sg
++Pron+Indef+Pl:a^WG GAAJJKA_PL ; !indefinite pronoun in Pl
++A+Attr:a^WG GAAJJKA_ATTR ;
+
+LEXICON GAAJJKA_ATTR !
+ # ;
+:^VDEL # ; !gajka->gajk
+
+LEXICON GAAJJKA_SG !
++Nom: # ;
+!check the following forms before uncommenting them!
+!+Acc:^WGv # ;
+!+Gen:^WG # ;
+!+Ill:j # ;
+!+Ine:^WGn # ;
+!+Ela:^WGst # ;
+!+Com:^WGjn # ;
+!+Com:^WGjna # ;
+
+LEXICON GAAJJKA_PL !
++Nom: # ;
+!check the following forms before uncommenting them!
++Acc:jd # ; !cf. pit080909.146
+!+Gen:j # ;
+!+Ill:jda # ;
+!+Ine:jn # ;
+!+Ela:jst # ;
+!+Com:j # ;
+
+
+
+!mådde:dd ´fler än två, flera´
+
+!!mådde,predikativ ställning    !JW: removed from pronouns.lexc; prefer analysis as Adj which is often subject to elipsis (should be done for others, too, such as gájk-?
+!mådde+Pron+Indef+Sg+Nom:mådde # ;
+!mådde+Pron+Indef+Sg+Acc:måddev # ;
+!mådde+Pron+Indef+Sg+Gen:mådde # ;
+!mådde+Pron+Indef+Sg+Ill:måddáj # ;
+!mådde+Pron+Indef+Sg+Ine:mådden # ;
+!mådde+Pron+Indef+Sg+Ela:måddest # ;
+!mådde+Pron+Indef+Sg+Com:muddijn # ;
+!mådde+Pron+Indef+Sg+Ess:mådden # ;
+!
+!mådde+Pron+Indef+Pl+Nom:mådde # ;
+!mådde+Pron+Indef+Pl+Acc:muddijd # ;
+!mådde+Pron+Indef+Pl+Gen:muddij # ;
+!mådde+Pron+Indef+Pl+Ill:muddijda # ;
+!mådde+Pron+Indef+Pl+Ine:muddijn # ;
+!mådde+Pron+Indef+Pl+Ela:muddijst # ;
+!mådde+Pron+Indef+Pl+Com:muddij # ;
+!
+!!mådde,attributiv ställning, endast i plural
+!mådde+Pron+Indef+Pl+Nom:mådde # ;
+!mådde+Pron+Indef+Pl+Acc:muddijd # ;
+!mådde+Pron+Indef+Pl+Gen:muddij # ;
+!mådde+Pron+Indef+Pl+Ill:muddijda # ;
+!mådde+Pron+Indef+Pl+Ine:muddijn # ;
+!mådde+Pron+Indef+Pl+Ela:muddijst # ;
+!mådde+Pron+Indef+Pl+Com:muddij # ;
+
+!juabba~juäbba:bb ´någon (av två), endera´förekommer bara attributivt och endast i singularis
+
+!juabba,attributiv ställning
+!juabba+Pron+Indef+Sg+Nom:juabba # ;
+!juabba+Pron+Indef+Sg+Acc:juobbav # ;
+!juabba+Pron+Indef+Sg+Gen:juobba # ;
+!juabba+Pron+Indef+Sg+Ill:juobba # ;
+!juabba+Pron+Indef+Sg+Ine:juobban # ;
+!juabba+Pron+Indef+Sg+Ela:juobbat # ;
+!juabba+Pron+Indef+Sg+Com:juobbajn # ;
+!juabba+Pron+Indef+Sg+Ess:juabban # ;
+
+! !nubbe:bb ´den ena, den andra, de andra´(nubbe uppträder även som ordningstal) rättat hit
+! 
+! !nubbe,predikativ ställning
+! nubbe+Pron+Indef+Sg+Nom:nubbe # ;
+! nubbe+Pron+Indef+Sg+Acc:nubbev # ;
+! nubbe+Pron+Indef+Sg+Gen:nubbe # ;
+! nubbe+Pron+Indef+Sg+Ill:nubbáj # ;
+! nubbe+Pron+Indef+Sg+Ine:nubben # ;
+! nubbe+Pron+Indef+Sg+Ela:nubbest # ;
+! nubbe+Pron+Indef+Sg+Com:nubbijn # ;
+! nubbe+Pron+Indef+Sg+Ess:nubben # ;
+! 
+! nubbe+Pron+Indef+Pl+Nom:nubbe # ;
+! nubbe+Pron+Indef+Pl+Acc:nubbijd # ;
+! nubbe+Pron+Indef+Pl+Gen:nubbij # ;
+! nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
+! nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
+! nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
+! nubbe+Pron+Indef+Pl+Com:nubbij # ;
+! 
+! !nubbe,attributiv ställning
+! nubbe+Pron+Indef+Sg+Nom:nubbe # ;
+! nubbe+Pron+Indef+Sg+Acc:nubbev # ;
+! nubbe+Pron+Indef+Sg+Gen:nubbe # ;
+! nubbe+Pron+Indef+Sg+Ill:nubbe # ;
+! nubbe+Pron+Indef+Sg+Ine:nubben # ;
+! nubbe+Pron+Indef+Sg+Ela:nubbet # ;
+! nubbe+Pron+Indef+Sg+Com:nubbijn # ;
+! nubbe+Pron+Indef+Sg+Ess:nubben # ;
+! 
+! nubbe+Pron+Indef+Pl+Nom:nubbe # ;
+! nubbe+Pron+Indef+Pl+Acc:nubbijd # ;
+! nubbe+Pron+Indef+Pl+Gen:nubbij # ;
+! nubbe+Pron+Indef+Pl+Ill:nubbijda # ;
+! nubbe+Pron+Indef+Pl+Ine:nubbijn # ;
+! nubbe+Pron+Indef+Pl+Ela:nubbijst # ;
+! nubbe+Pron+Indef+Pl+Com:nubbij # ;
+
+!binna:binn-/ binna ´lite,litegrann´, plural ´några få´
+
+! !binna,predikativ ställning  !not a pronoun, thus commented out, delete as some point
+!binna+Pron+Indef+Sg+Nom:binná # ;
+!binna+Pron+Indef+Sg+Acc:binnáv # ;
+!binna+Pron+Indef+Sg+Gen:binná # ;
+!binna+Pron+Indef+Sg+Ill:binnáj # ;
+!binna+Pron+Indef+Sg+Ine:binnán # ;
+!binna+Pron+Indef+Sg+Ela:binnást # ;
+!binna+Pron+Indef+Sg+Com:binnájn # ;
+!binna+Pron+Indef+Sg+Ess:binnán # ;
+!
+!binna+Pron+Indef+Pl+Nom:binná # ;
+!binna+Pron+Indef+Pl+Acc:binnájd # ;
+!binna+Pron+Indef+Pl+Gen:binnáj # ;
+!binna+Pron+Indef+Pl+Ill:binnájda # ;
+!binna+Pron+Indef+Pl+Ine:binnájn # ;
+!binna+Pron+Indef+Pl+Ela:binnájst # ;
+!binna+Pron+Indef+Pl+Com:binnáj # ;
+!
+!!binna,attributiv ställning
+!binna+Pron+Indef+Sg+Nom:binná # ;
+
+!divna all, hel, alla, alltsammans, helt och hållet, existerar ej i singularis, attributivt oböjligt
+
+!divna predikativ ställning
+LEXICON DIVNA 
+divna+Pron+Indef+Pl+Nom:divna # ;
+divna+Pron+Indef+Pl+Acc:divnajt # ;
+divna+Pron+Indef+Pl+Acc+Use/NG:divnajd # ;
+divna+Pron+Indef+Pl+Gen:divnaj # ;
+divna+Pron+Indef+Pl+Ill:divnajda # ;
+divna+Pron+Indef+Pl+Ine:divnajn # ;
+divna+Pron+Indef+Pl+Ela:divnajst # ;
+divna+Pron+Indef+Pl+Com:divnaj # ;
+
+!divna attributiv ställning
+divna+Pron+Indef+Pl+Nom:divna # ;
+
+!juohkehatj;juohkehatj-, var och en, varenda en (brukas inte attributivt, endast i singularis)
+
+!!juohkehatj,predikativ ställning
+!juohkehatj+Pron+Indef+Sg+Nom:juohkehatj # ;
+!juohkehatj+Pron+Indef+Sg+Acc:juohkehatjav # ;
+!juohkehatj+Pron+Indef+Sg+Gen:juohkehatja # ;
+!juohkehatj+Pron+Indef+Sg+Ill:juohkehatjaj # ;
+!juohkehatj+Pron+Indef+Sg+Ine:juohkehatjan # ;
+!juohkehatj+Pron+Indef+Sg+Ela:juohkehatjast # ;
+!juohkehatj+Pron+Indef+Sg+Com:juohkehatjajn # ;
+!juohkehatj+Pron+Indef+Sg+Ess:juohkehatjan # ;
+
+!mige(k) ´något, någonting, några, med neg.; ingenting, inte någonting, inte några, ingen attributiv form
+
+!!mige(k),predikativ ställning
+!mige+Pron+Indef+Sg+Nom:mige # ;
+!mige+Pron+Indef+Sg+Acc:mavgak # ;
+!mige+Pron+Indef+Sg+Gen:maŋgak # ;
+!mige+Pron+Indef+Sg+Ill:masik # ;
+!mige+Pron+Indef+Sg+Ine:mannak # ;
+!mige+Pron+Indef+Sg+Ela:masste # ;
+!mige+Pron+Indef+Sg+Com:majnak # ;
+!mige+Pron+Indef+Sg+Ess:mannak # ;
+!
+!mige+Pron+Indef+Pl+Nom:mahkkak # ;
+!mige+Pron+Indef+Pl+Acc:majdak # ;
+!mige+Pron+Indef+Pl+Gen:majgak # ;
+!mige+Pron+Indef+Pl+Ill:mejdik # ;
+!mige+Pron+Indef+Pl+Ine:majnak # ;
+!mige+Pron+Indef+Pl+Ela:majstak # ;
+!mige+Pron+Indef+Pl+Com:majgak # ;
+
+!juoga (endast singularis och endast predikativt)´något´
+
+!!juoga,predikativ ställning
+!juoga+Pron+Indef+Sg+Nom:juoga # ;
+!juoga+Pron+Indef+Sg+Acc:juajjda # ;
+!juoga+Pron+Indef+Sg+Gen:juoŋga # ;
+!juoga+Pron+Indef+Sg+Ill:jusik # ;
+!juoga+Pron+Indef+Sg+Ine:juanna # ;
+!juoga+Pron+Indef+Sg+Ela:juostá # ;
+!juoga+Pron+Indef+Sg+Com:juojnak # ;
+!juoga+Pron+Indef+Sg+Ess:juonen # ;
+
+LEXICON GUHTIK 
+!guhtik /guhtik ´någon (som helst)´ med negation ´íngen´, attributivt oböjligt
+!guhtik,predikativ ställning
+guhtik+Pron+Indef+Sg+Nom:guhtik # ;
+guhtik+Pron+Indef+Sg+Acc:gevgak # ;
+guhtik+Pron+Indef+Sg+Gen:geŋgak # ;
+guhtik+Pron+Indef+Sg+Ill:gesik # ;
+guhtik+Pron+Indef+Sg+Ine:gännak # ;
+guhtik+Pron+Indef+Sg+Ela:gässtak # ;
+guhtik+Pron+Indef+Sg+Com:gejnak # ;
+guhtik+Pron+Indef+Sg+Ess:gännak # ;
+
+!guhtik,attributiv ställning
+guhtik+Pron+Indef+Sg+Nom:guhtik # ;
+
+!akktak ´någon enda, med neg.; ingen enda (endast singularis och endast predikativt)
+
+LEXICON AKKTAK
+!akktak,predikativ ställning
+akktak+Pron+Indef+Sg+Nom:akktak # ;
+akktak+Pron+Indef+Sg+Acc:akktagav # ;
+akktak+Pron+Indef+Sg+Gen:akktaga # ;
+akktak+Pron+Indef+Sg+Ill:akktagij # ;
+akktak+Pron+Indef+Sg+Ine:akktagin # ;
+akktak+Pron+Indef+Sg+Ela:akktagis # ;
+akktak+Pron+Indef+Sg+Com:akktagijn # ;
+
+
+LEXICON GAOBBAAK
+!gåbbák ´ båda, bägge, någondera, vardera, med negation; ´inte någon, ingendera, endast attributivt
+
+!gåbbák, attributiv ställning
+gåbbák+Pron+Indef+Sg+Nom:gåbbák # ;
+gåbbák+Pron+Indef+Sg+Acc:gåbbák # ;
+gåbbák+Pron+Indef+Sg+Gen:gåbbák # ;
+gåbbák+Pron+Indef+Sg+Ill:gåbbásik # ;
+gåbbák+Pron+Indef+Sg+Ine:gåbbánik # ;
+gåbbák+Pron+Indef+Sg+Ela:gåbbástik # ;
+gåbbák+Pron+Indef+Sg+Com:gåbbájnik # ;
+
+
+LEXICON DAGGAAR 
+!daggár:daggár- /daggir, ´en sådan där, som den där´
+
+!daggár,predikativ ställning
+daggár+Pron+Indef+Sg+Nom:daggár # ;
+daggár+Pron+Indef+Sg+Acc:daggárav # ;
+daggár+Pron+Indef+Sg+Gen:daggára # ;
+daggár+Pron+Indef+Sg+Ill:daggárij # ;
+daggár+Pron+Indef+Sg+Ine:daggárin # ;
+daggár+Pron+Indef+Sg+Ela:daggáris # ;
+daggár+Pron+Indef+Sg+Com:daggárijn # ;
+daggár+Pron+Indef+Sg+Ess:daggárin # ;
+
+daggár+Pron+Indef+Pl+Nom:daggára # ;
+daggár+Pron+Indef+Pl+Acc:daggárijt # ;
+daggár+Pron+Indef+Pl+Acc+Use/NG:daggárijd # ;
+daggár+Pron+Indef+Pl+Gen:daggárij # ;
+daggár+Pron+Indef+Pl+Ill:daggárijda # ;
+daggár+Pron+Indef+Pl+Ine:daggárijn # ;
+daggár+Pron+Indef+Pl+Ela:daggárijs # ;
+daggár+Pron+Indef+Pl+Com:daggárij # ;
+
+daggár+Pron+Indef+Sg+Nom+Use/NG:diggir # ;
+daggár+Pron+Indef+Sg+Acc+Use/NG:diggirav # ;
+daggár+Pron+Indef+Sg+Gen+Use/NG:diggira # ;
+daggár+Pron+Indef+Sg+Ill+Use/NG:diggirij # ;
+daggár+Pron+Indef+Sg+Ine+Use/NG:diggirin # ;
+daggár+Pron+Indef+Sg+Ela+Use/NG:diggiris # ;
+daggár+Pron+Indef+Sg+Com+Use/NG:diggirijn # ;
+daggár+Pron+Indef+Sg+Ess+Use/NG:diggirin # ;
+
+daggár+Pron+Indef+Pl+Nom+Use/NG:diggira # ;
+daggár+Pron+Indef+Pl+Acc+Use/NG:diggirijt # ;
+daggár+Pron+Indef+Pl+Acc+Use/NG:diggirijd # ;
+daggár+Pron+Indef+Pl+Gen+Use/NG:diggirij # ;
+daggár+Pron+Indef+Pl+Ill+Use/NG:diggirijda # ;
+daggár+Pron+Indef+Pl+Ine+Use/NG:diggirijn # ;
+daggár+Pron+Indef+Pl+Ela+Use/NG:diggirijs # ;
+daggár+Pron+Indef+Pl+Com+Use/NG:diggirij # ;
+
+
+!daggár,attributiv ställning
+!daggár+Pron+Indef+Sg+Nom:daggár # ; !not a pronoun
+
+!daggár:daggár- /daggár, ´en sådan här, som den här´
+
+!dággár,predikativ ställning
+dággár+Pron+Indef+Sg+Nom:dággár # ;
+dággár+Pron+Indef+Sg+Acc:dággárav # ;
+dággár+Pron+Indef+Sg+Gen:dággára # ;
+dággár+Pron+Indef+Sg+Ill:dággárij # ;
+dággár+Pron+Indef+Sg+Ine:dággárin # ;
+dággár+Pron+Indef+Sg+Ela:dággáris # ;
+dággár+Pron+Indef+Sg+Com:dággárijn # ;
+dággár+Pron+Indef+Sg+Ess:dággárin # ;
+
+dággár+Pron+Indef+Pl+Nom:dággára # ;
+dággár+Pron+Indef+Pl+Acc:dággárijt # ;
+dággár+Pron+Indef+Pl+Acc+Use/NG:dággárijd # ;
+dággár+Pron+Indef+Pl+Gen:dággárij # ;
+dággár+Pron+Indef+Pl+Ill:dággárijda # ;
+dággár+Pron+Indef+Pl+Ine:dággárijn # ;
+dággár+Pron+Indef+Pl+Ela:dággárijs # ;
+dággár+Pron+Indef+Pl+Com:dággárij # ;
+
+dággár+Pron+Indef+Sg+Nom+Use/NG:däggir # ;
+dággár+Pron+Indef+Sg+Acc+Use/NG:däggirav # ;
+dággár+Pron+Indef+Sg+Gen+Use/NG:däggira # ;
+dággár+Pron+Indef+Sg+Ill+Use/NG:däggirij # ;
+dággár+Pron+Indef+Sg+Ine+Use/NG:däggirin # ;
+dággár+Pron+Indef+Sg+Ela+Use/NG:däggiris # ;
+dággár+Pron+Indef+Sg+Com+Use/NG:däggirijn # ;
+dággár+Pron+Indef+Sg+Ess+Use/NG:däggirin # ;
+
+dággár+Pron+Indef+Pl+Nom+Use/NG:däggira # ;
+dággár+Pron+Indef+Pl+Acc+Use/NG:däggirijt # ;
+dággár+Pron+Indef+Pl+Acc+Use/NG:däggirijd # ;
+dággár+Pron+Indef+Pl+Gen+Use/NG:däggirij # ;
+dággár+Pron+Indef+Pl+Ill+Use/NG:däggirijda # ;
+dággár+Pron+Indef+Pl+Ine+Use/NG:däggirijn # ;
+dággár+Pron+Indef+Pl+Ela+Use/NG:däggirijs # ;
+dággár+Pron+Indef+Pl+Com+Use/NG:däggirij # ;
+
+!daggár,attributiv ställning
+!dággár+Pron+Indef+Sg+Nom:dággár # ; !not a pronoun
+
+!duggir:duggir- /duggir, ´en sådan där (längst bort), som den där (längst bort)´
+
+!duggir,predikativ ställning
+duggir+Pron+Indef+Sg+Nom:duggir # ;
+duggir+Pron+Indef+Sg+Acc:duggirav # ;
+duggir+Pron+Indef+Sg+Gen:duggira # ;
+duggir+Pron+Indef+Sg+Ill:duggirij # ;
+duggir+Pron+Indef+Sg+Ine:duggirin # ;
+duggir+Pron+Indef+Sg+Ela:duggiris # ;
+duggir+Pron+Indef+Sg+Com:duggirijn # ;
+duggir+Pron+Indef+Sg+Ess:duggirin # ;
+
+duggir+Pron+Indef+Pl+Nom:duggira # ;
+duggir+Pron+Indef+Pl+Acc:duggirijt # ;
+duggir+Pron+Indef+Pl+Acc+Use/NG:duggirijd # ;
+duggir+Pron+Indef+Pl+Gen:duggirij # ;
+duggir+Pron+Indef+Pl+Ill:duggirijda # ;
+duggir+Pron+Indef+Pl+Ine:duggirijn # ;
+duggir+Pron+Indef+Pl+Ela:duggirijs # ;
+duggir+Pron+Indef+Pl+Com:duggirij # ;
+
+!duggir,attributiv ställning
+!duggir+Pron+Indef+Sg+Nom:duggir # ; !not a pronoun
+
+!duggir:duggir- /duggir, ´en sådan där (längre bort), som den där (längre bort)´
+
+!!duggir,predikativ ställning
+!duggir+Pron+Indef+Sg+Nom:duogger # ;
+!duggir+Pron+Indef+Sg+Acc:duoggerav # ;
+!duggir+Pron+Indef+Sg+Gen:duoggera # ;
+!duggir+Pron+Indef+Sg+Ill:duoggerij # ;
+!duggir+Pron+Indef+Sg+Ine:duoggerin # ;
+!duggir+Pron+Indef+Sg+Ela:duoggeris # ;
+!duggir+Pron+Indef+Sg+Com:duoggerijn # ;
+!duggir+Pron+Indef+Sg+Ess:duoggerin # ;
+!
+!duggir+Pron+Indef+Pl+Nom:duoggera # ;
+!duggir+Pron+Indef+Pl+Acc:duoggerijd # ;
+!duggir+Pron+Indef+Pl+Gen:duoggerij # ;
+!duggir+Pron+Indef+Pl+Ill:duoggerijda # ;
+!duggir+Pron+Indef+Pl+Ine:duoggerijn # ;
+!duggir+Pron+Indef+Pl+Ela:duoggerijs # ;
+!duggir+Pron+Indef+Pl+Com:duoggerij # ;
+
+!!duggir,attributiv ställning
+!!duggir+Pron+Indef+Sg+Nom:duogger # ; !not a pronoun
+
+!iednak:iednag- /iedna ´mycket, många´, attributivt oböjligt
+
+!iednak,predikativ ställning
+!iednak+Pron+Indef+Sg+Nom:iednak # ;
+!iednak+Pron+Indef+Sg+Acc:iednagav # ;
+!iednak+Pron+Indef+Sg+Gen:iednaga # ;
+!iednak+Pron+Indef+Sg+Ill:iednagij # ;
+!iednak+Pron+Indef+Sg+Ine:iednagin # ;
+!iednak+Pron+Indef+Sg+Ela:iednagis # ;
+!iednak+Pron+Indef+Sg+Com:iednagijn # ;
+!iednak+Pron+Indef+Sg+Ess:iednagin # ;
+
+!iednak+Pron+Indef+Pl+Nom:iednaga # ;
+!iednak+Pron+Indef+Pl+Acc:iednagijd # ;
+!iednak+Pron+Indef+Pl+Gen:iednagij # ;
+!iednak+Pron+Indef+Pl+Ill:iednagijda # ;
+!iednak+Pron+Indef+Pl+Ine:iednagijn # ;
+!iednak+Pron+Indef+Pl+Ela:iednagijs # ;
+!iednak+Pron+Indef+Pl+Com:iednagij # ;
+
+!!iednak,attributiv ställning
+!iednak+Pron+Indef+Sg+Nom:iedna # ;
+
+LEXICON FAERTLAAGAATJ
+!färtlágátj:färtlágátj- /färtlágátj´all slags´, attributivt oböjligt
+
+!färtlágátj,predikativ ställning
+färtlágátj+Pron+Indef+Sg+Nom:färtlágátj # ;
+färtlágátj+Pron+Indef+Sg+Acc:färtlágátjav # ;
+färtlágátj+Pron+Indef+Sg+Gen:färtlágátja # ;
+färtlágátj+Pron+Indef+Sg+Ill:färtlágátjij # ;
+färtlágátj+Pron+Indef+Sg+Ine:färtlágátjin # ;
+färtlágátj+Pron+Indef+Sg+Ela:färtlágátjis # ;
+färtlágátj+Pron+Indef+Sg+Com:färtlágátjijn # ;
+färtlágátj+Pron+Indef+Sg+Ess:färtlágátjin # ;
+
+färtlágátj+Pron+Indef+Pl+Nom:färtlágátja # ;
+färtlágátj+Pron+Indef+Pl+Acc:färtlágátjijt # ;
+färtlágátj+Pron+Indef+Pl+Acc+Use/NG:färtlágátjijd # ;
+färtlágátj+Pron+Indef+Pl+Gen:färtlágátjij # ;
+färtlágátj+Pron+Indef+Pl+Ill:färtlágátjijda # ;
+färtlágátj+Pron+Indef+Pl+Ine:färtlágátjijn # ;
+färtlágátj+Pron+Indef+Pl+Ela:färtlágátjijs # ;
+färtlágátj+Pron+Indef+Pl+Com:färtlágátjij # ;
+
+!färtlágátj,attributiv ställning
+färtlágátj+Pron+Indef+Sg+Nom:färtlágátj # ;
+
+LEXICON GAAJJKALAAGAATJ
+!gájjkalágátj:gájjkalágátj- /gájjkalágátj ´all slags, alla slags´, attributivt oböjligt
+
+!gájjkalágátj,predikativ ställning
+gájjkalágátj+Pron+Indef+Sg+Nom:gájjkalágátj # ;
+gájjkalágátj+Pron+Indef+Sg+Acc:gájjkalágátjav # ;
+gájjkalágátj+Pron+Indef+Sg+Gen:gájjkalágátja # ;
+gájjkalágátj+Pron+Indef+Sg+Ill:gájjkalágátjij # ;
+gájjkalágátj+Pron+Indef+Sg+Ine:gájjkalágátjin # ;
+gájjkalágátj+Pron+Indef+Sg+Ela:gájjkalágátjis # ;
+gájjkalágátj+Pron+Indef+Sg+Com:gájjkalágátjijn # ;
+gájjkalágátj+Pron+Indef+Sg+Ess:gájjkalágátjin # ;
+
+gájjkalágátj+Pron+Indef+Pl+Nom:gájjkalágátja # ;
+gájjkalágátj+Pron+Indef+Pl+Acc:gájjkalágátjijt # ;
+gájjkalágátj+Pron+Indef+Pl+Acc+Use/NG:gájjkalágátjijd # ;
+gájjkalágátj+Pron+Indef+Pl+Gen:gájjkalágátjij # ;
+gájjkalágátj+Pron+Indef+Pl+Ill:gájjkalágátjijda # ;
+gájjkalágátj+Pron+Indef+Pl+Ine:gájjkalágátjijn # ;
+gájjkalágátj+Pron+Indef+Pl+Ela:gájjkalágátjijs # ;
+gájjkalágátj+Pron+Indef+Pl+Com:gájjkalágátjij # ;
+
+!gájjkalágátj,attributiv ställning
+gájjkalágátj+Pron+Indef+Sg+Nom:gájjkalágátj # ;
+
+
+LEXICON GAOBBATJ
+!gåbbatj:gåbbatj- /gåbbatj ´båda två, bägge´, attributivt oböjligt
+
+!gåbbatj,predikativ ställning
+gåbbatj+Pron+Indef+Sg+Nom:gåbbatj # ;
+gåbbatj+Pron+Indef+Sg+Acc:gåbbatjav # ;
+gåbbatj+Pron+Indef+Sg+Gen:gåbbatja # ;
+gåbbatj+Pron+Indef+Sg+Ill:gåbbatjij # ;
+gåbbatj+Pron+Indef+Sg+Ine:gåbbatjin # ;
+gåbbatj+Pron+Indef+Sg+Ela:gåbbatjis # ;
+gåbbatj+Pron+Indef+Sg+Com:gåbbatjijn # ;
+gåbbatj+Pron+Indef+Sg+Ess:gåbbatjin # ;
+
+gåbbatj+Pron+Indef+Pl+Nom:gåbbatja # ;
+gåbbatj+Pron+Indef+Pl+Acc:gåbbatjijt # ;
+gåbbatj+Pron+Indef+Pl+Acc+Use/NG:gåbbatjijd # ;
+gåbbatj+Pron+Indef+Pl+Gen:gåbbatjij # ;
+gåbbatj+Pron+Indef+Pl+Ill:gåbbatjijda # ;
+gåbbatj+Pron+Indef+Pl+Ine:gåbbatjijn # ;
+gåbbatj+Pron+Indef+Pl+Ela:gåbbatjijs # ;
+gåbbatj+Pron+Indef+Pl+Com:gåbbatjij # ;
+
+!gåbbatj,attributiv ställning
+gåbbatj+Pron+Indef+Sg+Nom:gåbbatja # ;
+
+
+LEXICON MUHTEM 
+!muhtem:muhtem- /muhtem ´en viss, en och annan, någon, några, vissa, somliga, en del´, attributivt oböjligt
+
+!muhtem,predikativ ställning
+muhtem+Pron+Indef+Sg+Nom:muhtem # ;
+muhtem+Pron+Indef+Sg+Acc:muhtemav # ;
+muhtem+Pron+Indef+Sg+Gen:muhtema # ;
+muhtem+Pron+Indef+Sg+Ill:muhtemij # ;
+muhtem+Pron+Indef+Sg+Ine:muhtemin # ;
+muhtem+Pron+Indef+Sg+Ela:muhtemis # ;
+muhtem+Pron+Indef+Sg+Com:muhtemijn # ;
+muhtem+Pron+Indef+Sg+Ess:muhtemin # ;
+
+muhtem+Pron+Indef+Pl+Nom:muhtema # ;
+muhtem+Pron+Indef+Pl+Acc:muhtemijt # ;
+muhtem+Pron+Indef+Pl+Acc+Use/NG:muhtemijd # ;
+muhtem+Pron+Indef+Pl+Gen:muhtemij # ;
+muhtem+Pron+Indef+Pl+Ill:muhtemijda # ;
+muhtem+Pron+Indef+Pl+Ine:muhtemijn # ;
+muhtem+Pron+Indef+Pl+Ela:muhtemijs # ;
+muhtem+Pron+Indef+Pl+Com:muhtemij # ;
+
+!muhtem,attributiv ställning
+muhtem+Pron+Indef+Sg+Nom:muhtem # ;
+
+
+LEXICON MAODDES
+!måddes:måddás-  ´några,flera (personer)´, brukas inte attributivt
+
+!måddes,predikativ ställning
+måddes+Pron+Indef+Sg+Nom:måddes # ;
+måddes+Pron+Indef+Sg+Acc:måddásav # ;
+måddes+Pron+Indef+Sg+Gen:måddása # ;
+måddes+Pron+Indef+Sg+Ill:måddásij # ;
+måddes+Pron+Indef+Sg+Ine:måddásin # ;
+måddes+Pron+Indef+Sg+Ela:måddásis # ;
+måddes+Pron+Indef+Sg+Com:måddásijn # ;
+måddes+Pron+Indef+Sg+Ess:måddásin # ;
+
+måddes+Pron+Indef+Pl+Nom:måddása # ;
+måddes+Pron+Indef+Pl+Acc:måddásijt # ;
+måddes+Pron+Indef+Pl+Acc+Use/NG:måddásijd # ;
+måddes+Pron+Indef+Pl+Gen:måddásij # ;
+måddes+Pron+Indef+Pl+Ill:måddásijda # ;
+måddes+Pron+Indef+Pl+Ine:måddásijn # ;
+måddes+Pron+Indef+Pl+Ela:måddásijs # ;
+måddes+Pron+Indef+Pl+Com:måddásij # ;
+
+
+LEXICON NAAGAN
+!nágan:nágan- /nágan ´någon, något, några få´, attributivt oböjligt
+
+!nágan,predikativ ställning
+nágan+Pron+Indef+Sg+Nom:nágan # ;
+nágan+Pron+Indef+Sg+Acc:náganav # ;
+nágan+Pron+Indef+Sg+Gen:nágana # ;
+nágan+Pron+Indef+Sg+Ill:náganij # ;
+nágan+Pron+Indef+Sg+Ine:náganin # ;
+nágan+Pron+Indef+Sg+Ela:náganis # ;
+nágan+Pron+Indef+Sg+Com:náganijn # ;
+nágan+Pron+Indef+Sg+Ess:náganin # ;
+
+nágan+Pron+Indef+Pl+Nom:nágana # ;
+nágan+Pron+Indef+Pl+Acc:náganijt # ;
+nágan+Pron+Indef+Pl+Acc+Use/NG:náganijd # ;
+nágan+Pron+Indef+Pl+Gen:náganij # ;
+nágan+Pron+Indef+Pl+Ill:náganijda # ;
+nágan+Pron+Indef+Pl+Ine:náganijn # ;
+nágan+Pron+Indef+Pl+Ela:náganijs # ;
+nágan+Pron+Indef+Pl+Com:náganij # ;
+
+!nágan,attributiv ställning
+nágan+Pron+Indef+Sg+Nom:nágan # ;
+
+
+LEXICON SUHTA
+!suhta:suhtás- /suhta ´några, många (endast predikativ singularis), attributivt oböjligt
+
+!suhta,predikativ ställning
+suhta+Pron+Indef+Sg+Nom:suhta # ;
+suhta+Pron+Indef+Sg+Acc:suhtásav # ;
+suhta+Pron+Indef+Sg+Gen:suhtása # ;
+suhta+Pron+Indef+Sg+Ill:suhtásij # ;
+suhta+Pron+Indef+Sg+Ine:suhtásin # ;
+suhta+Pron+Indef+Sg+Ela:suhtásis # ;
+suhta+Pron+Indef+Sg+Com:suhtásijn # ;
+suhta+Pron+Indef+Sg+Ess:suhtásin # ;
+
+!suhta,attributiv ställning
+suhta+Pron+Indef+Sg+Nom:suhta # ;
+
+
+!!ålos:ullus- ´många personer´(endast i plural), brukas inte attributivt
+!
+!!ålos,predikativ ställning
+!ålos+Pron+Indef+Pl+Nom:ullusa # ;
+!ålos+Pron+Indef+Pl+Acc:ullusijd # ;
+!ålos+Pron+Indef+Pl+Gen:ullusij # ;
+!ålos+Pron+Indef+Pl+Ill:ullusijda # ;
+!ålos+Pron+Indef+Pl+Ine:ullusijn # ;
+!ålos+Pron+Indef+Pl+Ela:ullusijs # ;
+!ålos+Pron+Indef+Pl+Com:ullusij # ;
+
+
+!danga,endast i attributiv ställning ´samma´
+!danga+Pron+Indef+Sg+Nom:danga # ;
+
+!datga,endast i attributiv ställning ´samma´
+!datga+Pron+Indef+Sg+Nom:datga # ;
+
+!vera,endast i attributiv ställning ´allt´ (vera mij ´allt möjligt´)
+!vera+Pron+Indef+Sg+Nom:vera # ;
+
+!färrt,endast i attributiv ställning ´varje´
+!färrt+Pron+Indef+Sg+Nom:färrt # ;
+
+!gåssek,endast i attributiv ställning ´någonstans´, med negation ´íngenstans´
+!gåssek+Pron+Indef+Sg+Nom:gåsek # ;
+
+!juohke,endast i attributiv ställning ´varje, var och en´
+!juohke+Pron+Indef+Sg+Nom:juohke # ;
+
+!sämmi,endast i attributiv ställning ´samma´
+!sämmi+Pron+Indef+Sg+Nom:semmi # ;
+
+LEXICON Reflexive   !!= * __@CODE@__
+
+ietj+Pron+Refl+Sg+Nom:ietj # ; !JW's data
+ietj+Pron+Refl+Sg+Nom:iehtja # ; !Martin Sjaggo huvudinformant
+ietj+Pron+Refl+Pl+Nom:ietja # ; 
+
+ietj+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
+ietj+Pron+Refl+Sg+Acc+PxSg1:iehtjanav # ;
+ietj+Pron+Refl+Sg+Gen+PxSg1:iehtjan # ;
+ietj+Pron+Refl+Sg+Ill+PxSg1:iehtjasin # ;
+ietj+Pron+Refl+Sg+Ine+PxSg1:ietjanin # ;
+ietj+Pron+Refl+Sg+Ela+PxSg1:ietjanist # ;
+ietj+Pron+Refl+Sg+Com+PxSg1:ietjajmin # ;
+ietj+Pron+Refl+Sg+Com+PxSg1:ietjajnam # ;
+
+ietj+Pron+Refl+Sg+Acc+PxSg2:ietjavt # ;
+ietj+Pron+Refl+Sg+Gen+PxSg2:ietjat # ;
+ietj+Pron+Refl+Sg+Ill+PxSg2:iehtjasit # ;
+ietj+Pron+Refl+Sg+Ine+PxSg2:ietjanit # ;
+ietj+Pron+Refl+Sg+Ela+PxSg2:ietjastit # ;
+ietj+Pron+Refl+Sg+Com+PxSg2:ietjajdin # ;
+ietj+Pron+Refl+Sg+Com+PxSg2:ietjajnat # ;
+
+ietj+Pron+Refl+Sg+Acc+PxSg3:ietjavs # ;
+ietj+Pron+Refl+Sg+Gen+PxSg3:ietjas # ; !cf. wordlist no. 4941
+ietj+Pron+Refl+Sg+Ill+PxSg3:iehtjasis # ;
+ietj+Pron+Refl+Sg+Ill+PxSg3:ietjasis # ; !cf. wordlist no. 4171
+ietj+Pron+Refl+Sg+Ill+PxSg3+Use/NG:allasis # ;
+ietj+Pron+Refl+Sg+Ine+PxSg3:ietjanis # ;
+ietj+Pron+Refl+Sg+Ela+PxSg3:ietjastist # ; !cf. wordlist no. 3147
+ietj+Pron+Refl+Sg+Ela+PxSg3+Use/NG:ietjastis # ;
+ietj+Pron+Refl+Sg+Com+PxSg3:ietjajnis # ;
+
+
+ietj+Pron+Refl+Sg+Acc+PxDu1:iehtjamijd # ;
+ietj+Pron+Refl+Sg+Acc+PxDu1:iehtjamenien # ;
+ietj+Pron+Refl+Sg+Gen+PxDu1:iehtjame # ;
+ietj+Pron+Refl+Sg+Ill+PxDu1:iehtjamijde # ;
+ietj+Pron+Refl+Sg+Ine+PxDu1:ietjanimme # ;
+ietj+Pron+Refl+Sg+Ela+PxDu1:ietjanisste # ; !ietjanist?
+ietj+Pron+Refl+Sg+Com+PxDu1:ietjajnimme # ;
+ietj+Pron+Refl+Sg+Com+PxDu1:ietjajnenie # ;
+
+ietj+Pron+Refl+Sg+Acc+PxDu2:ietjadi # ;
+ietj+Pron+Refl+Sg+Acc+PxDu2:ietjavten # ;
+ietj+Pron+Refl+Sg+Gen+PxDu2:ietjade # ;
+ietj+Pron+Refl+Sg+Ill+PxDu2:iehtjasijde # ;
+ietj+Pron+Refl+Sg+Ine+PxDu2:ietjanit # ;
+ietj+Pron+Refl+Sg+Ela+PxDu2:ietjastisste # ; !ietjastit?
+ietj+Pron+Refl+Sg+Com+PxDu2:ietjajnit # ;
+
+ietj+Pron+Refl+Sg+Acc+PxDu3:ietjasijd # ;
+ietj+Pron+Refl+Sg+Acc+PxDu3:ietjavska # ;
+ietj+Pron+Refl+Sg+Gen+PxDu3:ietjaska # ;
+ietj+Pron+Refl+Sg+Ill+PxDu3:iehtjasiska # ;
+ietj+Pron+Refl+Sg+Ine+PxDu3:ietjaniska # ;
+ietj+Pron+Refl+Sg+Ela+PxDu3:ietjastiska # ;
+ietj+Pron+Refl+Sg+Com+PxDu3:ietjajnisa # ;
+
+
+ietj+Pron+Refl+Sg+Acc+PxPl1:iehtjamij # ;
+ietj+Pron+Refl+Sg+Acc+PxPl1:iehtjame # ;
+ietj+Pron+Refl+Sg+Gen+PxPl1:iehtjame # ;
+ietj+Pron+Refl+Sg+Gen+PxPl1:iehtjanij # ; !cf. wordlist no. 3972
+ietj+Pron+Refl+Sg+Ill+PxPl1:iehtjasimme # ;
+ietj+Pron+Refl+Sg+Ine+PxPl1:ietjaminne # ;
+ietj+Pron+Refl+Sg+Ela+PxPl1:ietjanisste # ; !ietjanist?
+ietj+Pron+Refl+Sg+Com+PxPl1:ietjajnimme # ;
+ietj+Pron+Refl+Sg+Com+PxPl1:ietjajnenieh # ;
+
+ietj+Pron+Refl+Sg+Acc+PxPl2:ietjadij # ;
+ietj+Pron+Refl+Sg+Acc+PxPl2:ietjavte # ;
+ietj+Pron+Refl+Sg+Gen+PxPl2:ietjade # ;
+ietj+Pron+Refl+Sg+Gen+PxPl2:iehtjajdij # ; !cf. wordlist no. 3973
+ietj+Pron+Refl+Sg+Ill+PxPl2:iehtjasijda # ;
+ietj+Pron+Refl+Sg+Ine+PxPl2:ietjanit # ;
+ietj+Pron+Refl+Sg+Ela+PxPl2:ietjastisste # ; ! ietjastist?
+ietj+Pron+Refl+Sg+Com+PxPl2:ietjajnit # ;
+
+
+ietj+Pron+Refl+Sg+Acc+PxPl3:ietjas # ;
+ietj+Pron+Refl+Sg+Acc+PxPl3:ietjavse # ;
+ietj+Pron+Refl+Sg+Gen+PxPl3:ietjase # ;
+ietj+Pron+Refl+Sg+Gen+PxPl3:ietjasa # ; !cf. wordlist no. 4117
+ietj+Pron+Refl+Sg+Gen+PxPl3:iehtjasij # ; !cf. wordlist no. 3974
+ietj+Pron+Refl+Sg+Ill+PxPl3:iehtjasise # ;
+ietj+Pron+Refl+Sg+Ine+PxPl3:ietjanisa # ;
+ietj+Pron+Refl+Sg+Ela+PxPl3:ietjastisa # ;
+ietj+Pron+Refl+Sg+Com+PxPl3:ietjajnisa # ;
+ietj+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
+
+
+
+
+!galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
+!galla, predikativ ställning
+!SHOULD UNDERGO VH, eg: gallijd->gillijd
+galla+Pron+Interr: gallacase ;
+
+LEXICON gallacase   !!= * __@CODE@__
+
++Sg+Nom:galla # ;
++Sg+Acc:gallev # ;
++Sg+Gen:galle # ;
++Sg+Ill:galláj # ;
++Sg+Ine:gallen # ;
++Sg+Ela:gallest # ;
++Sg+Com:gallijn # ;
++Sg+Ess:gallen # ;
+
++Pl+Nom:galle # ;
++Pl+Acc:gallijt # ;
++Pl+Acc+Use/NG:gallijd # ;
++Pl+Gen:gallij # ;
++Pl+Ill:gallijda # ;
++Pl+Ine:gallijn # ;
++Pl+Ela:gallijst # ;
++Pl+Com:gallij # ;
+
+! +Sg+Nom:galla # ;
+! +Sg+Acc:galla # ;
+! +Sg+Gen:galle # ;
+! +Sg+Ill:galla # ;
+! +Sg+Ine:gallen # ;
+! +Sg+Ela:gallet # ;
+! +Sg+Com:gallijn # ;
+! +Sg+Ess:gallen # ;
+! 
+! +Pl+Nom:galle # ;
+! +Pl+Acc:gallijd # ;
+! +Pl+Gen:gallij # ;
+! +Pl+Ill:gallijda # ;
+! +Pl+Ine:gallijn # ;
+! +Pl+Ela:gallijst # ;
+! +Pl+Com:gallij # ;
+
+
+
+! galla+Pron+Interr+Sg+Nom:galla # ;
+! galla+Pron+Interr+Sg+Acc:gallev # ;
+! galla+Pron+Interr+Sg+Gen:galle # ;
+! galla+Pron+Interr+Sg+Ill:galláj # ;
+! galla+Pron+Interr+Sg+Ine:gallen # ;
+! galla+Pron+Interr+Sg+Ela:gallest # ;
+! galla+Pron+Interr+Sg+Com:gallijn # ;
+! galla+Pron+Interr+Sg+Ess:gallen # ;
+!
+! galla+Pron+Interr+Pl+Nom:galle # ;
+! galla+Pron+Interr+Pl+Acc:gallijt # ;
+! galla+Pron+Interr+Pl+Gen:gallij # ;
+! galla+Pron+Interr+Pl+Ill:gallijda # ;
+! galla+Pron+Interr+Pl+Ine:gallijn # ;
+! galla+Pron+Interr+Pl+Ela:gallijst # ;
+! galla+Pron+Interr+Pl+Com:gallij # ;
+!
+! !galla, attributiv ställning
+! galla+Pron+Interr+Sg+Nom:galla # ;
+! galla+Pron+Interr+Sg+Acc:galla # ;
+! galla+Pron+Interr+Sg+Gen:galle # ;
+! galla+Pron+Interr+Sg+Ill:galla # ;
+! galla+Pron+Interr+Sg+Ine:gallen # ;
+! galla+Pron+Interr+Sg+Ela:gallet # ;
+! galla+Pron+Interr+Sg+Com:gallijn # ;
+! galla+Pron+Interr+Sg+Ess:gallen # ;
+!
+! galla+Pron+Interr+Pl+Nom:galle # ;
+! galla+Pron+Interr+Pl+Acc:gallijt # ;
+! galla+Pron+Interr+Pl+Gen:gallij # ;
+! galla+Pron+Interr+Pl+Ill:gallijda # ;
+! galla+Pron+Interr+Pl+Ine:gallijn # ;
+! galla+Pron+Interr+Pl+Ela:gallijst # ;
+! galla+Pron+Interr+Pl+Com:gallij # ;
+
+
+ ! LEXICON gallicase # ; ! kanskje skrive denne
+
+

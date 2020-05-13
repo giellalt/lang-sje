@@ -1,0 +1,199 @@
+
+!!!Pite Sámi TWOLC file
+
+
+ ; %^WG:0 : weak grade
+ ; %^G3:0 : marks grade three for stems w/o Cgrad
+ ; %^V2E2AA:0 : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ ; %^CDEL:0 : delete final consonant odd (biednag)
+ ; %^VDEL:0 : delete final V2 vowel in compounds or gájk
+ ; %^MON:0 : Monophthong in contracted stems
+ ; %^UAUML:0 : uo to uä juolge / juällge
+ ; %^IEUML:0 : ie to ä, gielbar / gällbara
+   %^IUML:0    * a to i, gallgat gillgin
+   %^IJ:0      * e to i in front of Plural j and Sg Com
+   %^MONB4J:0  * what is this?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!Rules
+
+
+
+!!Consonant gradation rules
+
+__Consonant Gradation for htt(j|s):ht(j|s)__  
+
+__Consonant Gradation for hxx:hx__  
+
+__Consonant Gradation for xdn(j):xn(j)__  
+
+
+
+
+
+
+__Consonant Gradation for xx:x__  
+
+
+__Consonant Gradation for xxy:xy__  
+
+
+
+
+
+__Consonant Gradation for xxt(j|s):xt(j|s) __  
+
+__Consonant Gradation for xxsj:xsj __  
+
+
+__Consonant Gradation for xy:y__  
+
+__Delete h in hx:y __  
+
+__Intervocalic voiced plosives in hx:y __  
+
+__Consonant Gradation for l/jbm:l/jm __  
+
+__Consonant Gradation for nnjg:njg __  
+
+__Consonant Gradation for vgŋ:vŋ __  
+
+__Consonant Gradation for rdj:rj __  
+
+
+!!Other consonant rules 
+
+__Final C Deletion__  
+
+
+
+__Final devoicing__  
+
+
+__Word Final Simplification in -st __  
+
+
+__Word-final De-Affricatization for tj  __  
+
+
+
+
+!!Vowel rules 
+
+! metaphony
+
+__Default VH __  
+
+__Default VH for 4syllables __  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__Default UA in G3 __  
+
+* __lu^Oddan^UAUMLi%>t __
+* __luaddan0i0t __
+
+__Special UÄ (VH) in G3 __  
+
+* __gu^Odde^G3%>t __
+* __guädde00t __
+
+* __gu^Odde^G3%>t __
+* __guädde00t __
+
+
+
+__Special VH for u^O __  
+
+__Special VH for ie __  
+
+* __sjievdnje^IJ%>s __
+* __sj0evdnji00s __
+
+* __hierrge^WG^IJ%>j __
+* __h0er0gi000j __
+
+* __hierrge%>j^V2E2AA __
+* __h0ärrgá0j0 __
+
+
+__Ä in G3 __  
+
+__Ä in G3 capitalized __  
+
+
+
+
+
+
+
+
+
+
+
+
+
+__V2 E to I before j-suffixes __  
+
+__V2 E to Á __  
+
+* __båhte^WG%>v^V2E2AA __
+* __bå0dá00v0 __
+* __båhte^WG%>^V2E2AA __
+* __bå0dá000 __
+* __máhtte^WG%>v^V2E2AA __
+* __máht0á00v0 __
+* __máhtte^WG%>^V2E2AA __
+* __máht0á000 __
+
+
+__V2 E to Á before S or R __  
+
+__V2 O to U __  
+
+
+__Final V Deletion __  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __a __
+* __b __
+
+

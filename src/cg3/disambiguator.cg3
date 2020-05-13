@@ -1,0 +1,594 @@
+# Distributed under the terms of the GNU General Public License version 2 
+# or any later version.
+
+# =================================================================== #
+# =================================================================== #
+#             P I T E  S Á M I   D I S A M B I G U A T O R            #
+# =================================================================== #
+# =================================================================== #
+
+# copied from South Saami disambiguator by Joshua Wilbur on 2018-01-09
+
+            # =========================================== #
+            #            Short table of contents          #
+            # =========================================== #
+
+            # Delimiters
+            # Tags and sets
+	        # Mapping rules
+            # Disambiguation rules
+              # One-cohort disambiguation - cycle 0
+              # Local disambiguation - cycles 1 and 2
+              # Cycle 2: Other local disambiguation         
+              # Cycle 3: Global disambiguation 
+	          # Cycle 4: Syntactic disambiguation 
+	          # Cycle 5: Post-syntactic morphological disambiguation
+
+
+
+BEFORE-SECTIONS #things here are only run once
+
+
+# ========== #
+# Delimiters #
+# ========== #
+
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent SENT ;
+
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+
+# ========
+   SETS
+# ========
+
+LIST BOS = (>>>) (<s>) (sent) ; 
+LIST EOS = (<<<) (</s>) (sent) ; # vislcg and CG-2 together.
+
+# Tags declared as single-membered LISTs 
+# ======================================
+
+
+# Parts of speech
+# ---------------
+
+
+	
+LIST SENT = SENT ;
+LIST N = N ; 
+LIST A = A ; 
+LIST Adv = Adv ; 
+LIST V = V ; 
+LIST Pron = Pron ;
+LIST CS = CS ; 
+LIST CC = CC ; 
+LIST Po = Po ; 
+LIST Pr = Pr ;
+LIST Pcle = Pcle ; 
+LIST Qst = Qst ; 
+LIST Num = Num ; 
+LIST Prop = Prop ;
+LIST Interj = Interj ;
+
+# POS sub-categories
+# ------------------
+
+LIST Pers = Pers ; 
+LIST Dem = Dem ; 
+LIST Interr = Interr ;
+LIST Indef = Indef ;
+LIST Recipr = Recipr ; 
+LIST Refl = Refl ; 
+LIST Rel = Rel ;
+LIST Interj = Interj ; 
+LIST Adp = Adp ;
+LIST ABBR = ABBR ;
+
+
+# Morphosyntactic properties
+# --------------------------
+
+LIST Sg = Sg ; 
+LIST Pl = Pl ;
+
+LIST Nom = Nom ; 
+LIST Gen = Gen ; 
+LIST Acc = Acc ;
+LIST Ill = Ill ; 
+LIST Ine = Ine ; 
+LIST Ela = Ela ;
+LIST Com = Com ; 
+LIST Ess = Ess ; 
+LIST Par = Par ; 
+LIST Abe = Abe ;
+
+
+LIST Comp = Comp ; 
+LIST Superl = Superl ; 
+LIST NomAg = NomAg ;
+
+LIST Actio = Actio ; 
+LIST Clt = Clt ; 
+LIST Foc = Foc ;
+LIST Attr = Attr ;
+LIST Card = Card ; 
+LIST Ord = Ord ;
+LIST Date = Date ; 
+LIST Range = Range ;
+LIST Dim = Dim ; 
+LIST Inch = Inch ; 
+
+LIST Prs = Prs ; 
+LIST Prt = Prt ;
+LIST Ind = Ind ; 
+LIST Pot = Pot ; 
+#LIST Cond = Cond ; !
+LIST Imprt = Imprt ; 
+LIST Sup = Sup ;
+LIST IV = IV ; #intransitive verb
+LIST TV = TV ; #transitive verb
+
+LIST Sg1 = Sg1 ; 
+LIST Sg2 = Sg2 ; 
+LIST Sg3 = Sg3 ;
+LIST Du1 = Du1 ; 
+LIST Du2 = Du2 ; 
+LIST Du3 = Du3 ;
+LIST Pl1 = Pl1 ; 
+LIST Pl2 = Pl2 ; 
+LIST Pl3 = Pl3 ;
+
+LIST Inf = Inf ; 
+LIST GerI = GerI ; 
+LIST GerII = GerII ;
+LIST ConNeg = ConNeg ; 
+LIST Neg = Neg ;
+LIST PrsPrc = PrsPrc ; 
+LIST PrfPrc = PrfPrc ;
+LIST VGen = VGen ; 
+LIST VAbess = VAbess ;
+LIST Arab = Arab ;
+
+LIST CLB = CLB ; 
+LIST PUNCT = PUNCT ;
+LIST LEFT = LEFT ; 
+LIST RIGHT = RIGHT ;
+LIST HYPH = HYPH ; 
+LIST PAR = PAR ;
+
+LIST ITRAB = ITRAB ;
+LIST TRAB = TRAB ;
+LIST TRNUMAB = TRNUMAB ;
+
+# Syntactic tags
+# -----------------
+
+LIST @SUBJ> = @SUBJ> ; 
+LIST @<SUBJ = @<SUBJ ;
+LIST @SPRED> = @SPRED> ;
+LIST @<SPRED = @<SPRED ;
+LIST @>N = @>N ;
+
+
+# Punctuation
+# ----------------
+ 
+LIST COMMA = "," ;
+LIST CITATION = """ ; #"
+LIST HYPHEN = "-" ;
+LIST ¶ = ¶;
+
+LIST NumChar = "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ;
+
+SET SINGULAR = Sg1 OR Sg2 OR Sg3 ;
+
+SET DUAL = Du1 OR Du2 OR Du3 ;
+
+SET PLURAL = Pl1 OR Pl2 OR Pl3 ;
+
+SET NonThirdPerson = Sg1 OR Sg2 OR Du1 OR Du2 OR Pl1 OR Pl2 ;
+
+LIST NumPers = Sg1 Sg2 Sg3 Du1 Du2 Du3 Pl1 Pl2 Pl3 ; 
+
+LIST Cases = Nom Gen Acc Ill Ine Ela Com Abe Ess ;
+
+LIST NP-Num = Sg Pl ;
+
+LIST NumCases = (Sg Nom) (Pl Nom) (Sg Gen) (Pl Gen) (Sg Acc) (Pl Acc) (Sg Ill) (Pl Ill) (Sg Ine) (Pl Ine) (Sg Ela) (Pl Ela) (Sg Com) (Pl Com) (Sg Abe) (Pl Abe) Ess ;
+
+##from north saami
+#LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
+##!! * The set COPULAS is for predicative constructions
+LIST COPULAS = "sjaddat" "lä" "gallgat";
+
+
+#just playing around to show variables and regExs
+LIST LEMMA = (".*"r) ;
+#SET VGenLEMMA = LEMMA + VGen ; 
+SELECT:testAfter $$LEMMA + VGen IF (1 $$LEMMA + VGen) ;
+SELECT:testB4 $$LEMMA + VGen IF (-1 $$LEMMA + VGen) ;
+	##dån lä både både. #(at least ok in saN)
+	##you are about to come
+
+
+
+SET V-MOOD = Ind OR Pot OR Imprt ;
+
+SET VFIN = V-MOOD ;
+
+LIST 3SGV = (V Sg3) ; #finite verbs inflected for 3sg
+
+SET NOT-COP-V = V - COPULAS ;
+
+LIST MOD-ASP = "áigut" "bállet" "berret" "dáidit" "fertet" "galgat" "gillet" "lávet" "sáhttit" "seahtit" "soaitit" "viggat" ;
+
+LIST AUX-OR-MAIN = "gallgat" "máhttet" "årrot" "sihtat"; #"nagodit"  "nagadit"
+
+LIST ESS-Vs = "gåhttjot" "sjaddat" ;
+
+SET AUX = COPULAS OR Neg OR MOD-ASP OR AUX-OR-MAIN ;
+
+SET VFIN-NOT-AUX = VFIN - AUX ;
+
+
+
+#SET AdjP = A OR 
+
+
+# any word
+LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num \? ;
+
+LIST NP-HEAD = N Pron ; #set of NP heads
+
+SET NounOrNum = NP-HEAD OR Num ;
+
+SET AP = A OR Adv ;
+
+SET PRE-AP-HEAD = Adv OR CC ;
+
+SET AttrAPpossible = (A Attr) OR PRE-AP-HEAD ;
+
+SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
+         Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
+         (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (A Sg) OR (A Pl) ;
+SET NOT-NPMOD = WORD - PRE-NP-HEAD OR ABBR ; #not NP modifier (used as barrier)
+
+LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok!)
+
+SET NPpossible = NP-HEAD OR PRE-NP-HEAD ; #possible anywhere in an NP
+SET NPpossibleNoPro = N OR PRE-NP-HEAD ; #possible anywhere in an NP excluding personal pronouns not in GEN (full NPs)
+SET NoNPpossible = WORD - NPpossible ; #NOT possible anywhere in an NP
+SET NoFullNPpossible = WORD - NPpossibleNoPro ; #NOT possible anywhere in an NP
+
+
+SET NoAP = WORD - A - PRE-AP-HEAD ; #NoAP = not possibly anywhere in AP, plus CC
+
+
+SECTION # -1- this potentially run multiple times, or can be targeted in command line
+
+# ============== #
+# Disambiguation #
+# ============== #
+
+
+              # One-cohort disambiguation - cycle 0
+              # Local disambiguation - cycles 1 and 2
+              # Cycle 2: Other local disambiguation         
+              # Cycle 3: Global disambiguation 
+
+# Sentence border
+
+REMOVE:trab SENT IF (-1 TRAB) ;
+
+
+#examples from N-Saami:
+SET S-BOUNDARY  = (Pron Interr) OR (Pron Rel) OR ("men") OR ("dä" CC) OR ("\;") OR (":") OR ("-") OR ("–") OR CS ;
+#LIST MO-MANge = "goas" "gokko" "gos" "gosa" "govt" ("got" Adv) ("guđe ládje" Adv) "makkár" "man" ("man ládje" Adv) "manne" "mo" "mot" "mov" "movt" ("nugo" @CVP) (V Qst);
+#SET MO = MO-MANge - ("man" Foc/ge) ;
+
+
+#!! !Negation rules
+
+#!! * __ConNeg3__ conneg form when neg-verb to the left
+SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER V) ;
+REMOVE:ConNeg4 ConNeg IF (NOT *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
+	## Beispiel (am besten ein langes Beispiel)
+	#$ Gegenbeispiel
+SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
+SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
+
+
+
+#!! !Agreement rules for subject NP
+SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);
+SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)(-1C V + Pl1);
+
+#!! !choose relative pronoun when preceded by NP and not ending in Q-mark
+SELECT:RelProAfterNP Rel IF (-1 NP-HEAD)(NOT *1 ("\?"));
+#but what about this: mån gatjádav duvste mij lä dat (I ask you what is that)
+
+#!! !choose iterrogative pronoun when ending in Q-mark and NOT preceded by NP 
+SELECT:InterrogProNoPreNP Interr IF (NOT -1 NP-HEAD)(*1 ("\?"));
+
+#!! !rule out imperative forms in questions
+REMOVE:noImperativeQs Imprt IF (*1 ("\?"));
+
+#!! !rule out finite verbforms after infinitive verbform
+REMOVE:noFiniteVafterINF VFIN IF (*-1 Inf BARRIER CLB);
+
+	          # Cycle 4: Syntactic disambiguation 
+	          # Cycle 5: Post-syntactic morphological disambiguation
+
+
+#-1C = careful mode
+
+#remove Po analysis if Adv or Preposition
+REMOVE:NoPoIfAdv Po IF (NOT -1 Gen)(0 Adv) ;	
+REMOVE:NoPoIfPr  Po IF (NOT -1 Gen)(0 Pr)(*1 Gen) ;	
+#remove Pr analysis if Adv or Postposition
+REMOVE:NoPrIfAdv Pr IF (0 Adv)(NOT 1 Gen) ;	
+REMOVE:NoPrIfPo  Pr IF (-1 Gen)(0 Po)(NOT *1 Gen) ;	
+#remove Adv analysis if Gen+Postposition OR Preposition+Gen
+REMOVE:NoAdvIfPo Adv IF (-1 Gen)(0 Po) ;
+REMOVE:NoAdvIfPr Adv IF (0 Pr)(1 Gen) ;
+
+#REMOVE, SELECT, MAP, IFF
+
+# ----- #
+#disambiguate gen.sg vs nom.pl
+# ----- #
+	##Gu lij Stállo akt SÁME påjkåv válldám.
+	##idtjij vil biesa STÁLO luhte.
+	##ja dä sån lijjkij dav STÁLO tjalme nala.
+	##ja dä sån lijjkij dav STÁLO tjilmij nala.
+	#also pronouns:
+	##båtsoj máhtta DUV nala båhtet
+
+#NP (incl. pronouns) preceding certain Po is Gen # actually more general than just gen.sg/nom.pl
+SELECT:genB4Po Gen IF (*1C Po BARRIER NoNP);
+REMOVE:NoPoWithoutGen Po IF (NOT *-1 Gen BARRIER NoNP);
+#NP (incl. pronouns) following certain Pr is Gen # actually more general than just gen.sg/nom.pl
+SELECT:genAfterPr Gen IF (*-1C Pr BARRIER NoNP);
+REMOVE:NoPrWithoutGen Pr IF (NOT *1 Gen BARRIER NoNP);
+
+
+#remove GenSg if no noun immediately follows
+REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 PRE-NP-HEAD OR N );
+
+#reject demonstrative pronoun reading if DET followed by NP-head with same case/number
+REMOVE:DemPronWO-NPhead	Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMOD);
+
+#REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-NomPl	(Pron Pl Nom)	IF (*1C (N Pl Nom) BARRIER NoNPpossible);
+#REMOVE:DemPronWO-NPhead-GenSg	(Pron Sg Gen)	IF (*1C (N Sg Gen) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-GenPl	(Pron Pl Gen)	IF (*1C (N Pl Gen) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AccSg	(Pron Sg Acc)	IF (*1C (N Sg Acc) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AccPl	(Pron Pl Acc)	IF (*1C (N Pl Acc) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-IllSg	(Pron Sg Ill)	IF (*1C (N Sg Ill) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-IllPl	(Pron Pl Ill)	IF (*1C (N Pl Ill) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-IneSg	(Pron Sg Ine)	IF (*1C (N Sg Ine) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-InePl	(Pron Pl Ine)	IF (*1C (N Pl Ine) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ElaSg	(Pron Sg Ela)	IF (*1C (N Sg Ela) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ElaPl	(Pron Pl Ela)	IF (*1C (N Pl Ela) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ComSg	(Pron Sg Com)	IF (*1C (N Sg Com) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-ComPl	(Pron Pl Com)	IF (*1C (N Pl Com) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AbeSg	(Pron Sg Abe)	IF (*1C (N Sg Abe) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-AbePl	(Pron Pl Abe)	IF (*1C (N Pl Abe) BARRIER NOT-NPMOD);
+#REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess)    BARRIER NOT-NPMOD);
+
+#reject Determiner reading if not followed by NP-head
+REMOVE:NoDetWO-NPhead (Det) IF (NOT *1 NPpossibleNoPro BARRIER NoNP);
+
+#select demonstrative pronoun reading if NOT directly followed by possible NP-material
+SELECT:DemPronWithoutNPhead Pron IF (1C NoNPpossible);
+#select demonstrative pronoun reading if directly followed by certain postposition
+SELECT:DemPronWithPosthead Pron IF (1C Po);
+
+#rules for choosing correct Determiner case/number based on case/number of NP-Head:
+#this first GenSg rule will trump the other rules if it's first
+SELECT:GenSgDetB4GenSgNH     (Det Sg Gen) IF (*1 (N Sg Gen) BARRIER NoNPpossible);
+	##dan Hiŋka ålmáj Lasska lij val viehka juhke.
+SELECT:InessSgDetB4InessSgNH (Det Sg Ine) IF (*1 (N Sg Ine) BARRIER NoNPpossible);
+SELECT:ComSgDetB4ComSgNH     (Det Sg Com) IF (*1 (N Sg Com) BARRIER NoNPpossible);
+SELECT:IllSgDetB4IllSgNH     (Det Sg Ill) IF (*1 (N Sg Ill) BARRIER NoNPpossible);
+
+##rules for choosing Determiner reading when followed by NP in same case/number (only needed if a specific det-form can be ambiguous)
+SELECT:DetNomSgB4NounNomSg   (Det Sg Nom) IF (*1C (N Sg Nom) BARRIER NoNPpossible);
+SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1C (N Sg Ela) BARRIER NoNPpossible);
+
+#add subj tags to NPs
+#MAP (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (*0 VFIN);
+#MAP (@SUBJ> @<SUBJ @SPRED> @<SPRED) TARGET (N Nom Sg) OR (Pron Nom) (*0 VFIN);
+
+#subject in Sg(3) triggers 3sg on finite V before
+#SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
+	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
+#select Nom Sg reading if followed by a Fin-V in 3sg
+SELECT:NomSG-B4-FinVSg (Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC OR CLB OR N);
+
+#remove 1/2 person verb readings if NP in NOM.SG present on both sides
+REMOVE:no12Vwithout12Pron NonThirdPerson IF (*-1 (N Nom) BARRIER S-BOUNDARY)(*1 (N Nom) BARRIER S-BOUNDARY);
+	##dä lij átjárajjde jala ájjárajjde tsábmestam
+#remove 1/2 person verb readings if Rel-Pro/Interr-Pro in NOM.SG present
+REMOVE:no12VafterRelInterrProNOM NonThirdPerson IF (*-1 (Pron Pl Nom) BARRIER S-BOUNDARY);#(*1 (N Nom) BARRIER S-BOUNDARY);
+	##Ja ij lam báhtsám ienap buhtsu viessot, gu da ma lin ulgolin guohtomin
+
+#select ESSIVE when in clause with verb governing essive:
+SELECT:essWithEssVs Ess IF ((*-1 ESS-Vs BARRIER CLB) OR (*1 ESS-Vs BARRIER CLB));
+
+#select CC reading of jala if preceded directly by NP-head or followed by NP
+SELECT:NPjalaNP CC IF (-1 NP-HEAD)(*1 NP-HEAD BARRIER NoNP); 
+	##dä lij átjárajjde jala ájjárajjde tsábmestam
+
+#remove PRED reading if no COPULA around
+REMOVE:noPredWithoutCopula (V GerII) IF (NEGATE (*-1 ("lä") BARRIER NoAP ) OR (*1 ("lä") BARRIER NoAP ));
+	##ájjárajjde tsábmestam dav livva ielov ja båhtjejniejdav jámas. <- jámas is ADV not PRED
+	##Sån lij nåv gävvra ja mårret. <- mårret should not be analysed as V!
+
+#remove GerII reading if no AUX around
+REMOVE:noGerIIWithoutAux (V GerII) IF (NEGATE (*-1 ("lä") BARRIER CLB ) OR (*1 ("lä") BARRIER CLB ));
+
+
+#remove Verb reading if preceded by ATTR
+REMOVE:noVerbAfterAttr (V) IF (-1C Attr);
+
+#remove Inf reading if no FINITE verb before
+REMOVE:notInfWithoutFiniteV (V Inf) IF (NEGATE ( *-1 VFIN BARRIER CLB ));
+#REMOVE:notInfWithoutFiniteV (V Inf) IF (NEGATE (*-1 VFIN BARRIER CLB ) OR (*1 VFIN BARRIER CLB ));
+
+#remove Imprt reading if preceded by FINITE verb
+REMOVE:notImptWithFiniteV (V Imprt) IF ( *-1 VFIN BARRIER CLB );
+
+#for proper nouns – need to implement this first for proper nouns (cf. sje-propernouns.lexc)
+#SELECT Prop IF (0 LINK *-1 WORD) ;
+#REMOVE Prop IF (0 LINK *-1 BOS BARRIER WORD) ;
+
+#prefer relative pronoun when preceded by NP
+SELECT:relProAfterNP (Pron Rel) IF (-1 N);
+#SELECT:interrProStartQ (Pron Interr) IF (-1 S-BOUNDARY);# LINK *1 ("\?"));
+
+#choose adv analysis of man when directly preceding an adjective (eg. man vuoras = how old)
+SELECT:manAdvb4Adj (Adv "man") IF (1 A);
+	##man guhkev almatja lä viessom dan birraskin
+
+
+#rules for dealing with ambiguities in gájk-/gajk-
+#choose ADV before Superl-Adj
+SELECT:gajkADVb4superl (Adv "gájk") IF (1 (A Superl));
+	##gájk låjemus hierge #but couldn't this theoretically mean "all the tamest reindeer"
+REMOVE:noGajkADVwoSuperl (Adv "gájk") IF (NOT 1 (A Superl));
+
+
+#remove ambiguity for singular personal pronouns in acc and gen when N in Acc follows (the pronoun can't be Acc, but only Gen)
+REMOVE:accPersPronb4accNP (Pron Pers Acc) + SINGULAR IF (*1C (N Acc) BARRIER CLB);
+	##Dä dån ådtjo MUV TJILMIJD lägit.
+
+#Attr coordination
+SELECT:ATTRCoord (A Attr) IF (1 CC OR COMMA LINK *1 (A Attr) BARRIER NOT-NPMOD LINK 1 N ) ; 
+##from sme:
+##SELECT:AAttrCoord1 (A Attr) IF (1 CC OR COMMA LINK *1 (A Attr) OR ("nubbi") OR PrfPrc OR PrsPrc BARRIER NOT-ADV-PCLE LINK 1 N)(NEGATE *-1 ("leat") BARRIER NOT-ADV-PCLE LINK *3 Attr OR PrfPrc LINK NOT 1 Nom)(NEGATE 0 Der/A OR ("dávjjit")) ;
+
+#remove Attr when followed by (adj)(adv+adj)N, otherwise choose it
+REMOVE:noAttrWithoutNP (A Attr) IF (NOT 1 NPpossibleNoPro);
+SELECT:attrWithinNP (A Attr) IF (1 NPpossibleNoPro)(*1 N BARRIER NoNP);
+
+#!! !Agreement rule for verb triggered by PersPron
+SELECT:AgrPersPron	$$NumPers IF (0 V)(-1 Pers + Nom + $$NumPers);
+#SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
+#SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
+#SELECT:Sg3afterSg3	Sg3 IF (0 V)(-1 Pers + Nom + Sg3);
+#SELECT:Sg3b4Sg3		Sg3 IF (0 V)( 1 Pers + Nom + Sg3);
+#SELECT:Du1afterDu1	Du1 IF (0 V)(-1 Pers + Nom + Du1);
+#SELECT:Du1b4Du1		Du1 IF (0 V)( 1 Pers + Nom + Du1);
+#SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
+#SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
+
+#!! !Agreement rules for verb triggered by full NP
+SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C NounOrNum + Pl + Nom BARRIER CLB);
+SELECT:Pl3b4NomPl    Pl3 IF (0 V)(*1C  NounOrNum + Pl + Nom BARRIER CLB);
+SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
+	##dä Hiŋŋka bätsij gåhtáj niejdaj aktan. #aktan should not be chosen as "aktanit" V Ind Prs Sg3
+SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
+
+
+#if the following slot has a noun, choose gen.sg #!should come after verb agreement rules!
+#SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
+    ##Ja bällin almatja råggev dan skájjdáj ja jávestin rubmahav dasa.
+    ##ja mån galgav låhkåt sisa bágojd, sáme bágojd.
+
+#remove GEN reading if sentence final
+REMOVE:noGenSgAtEOS (N Sg Gen) IF ((0 EOS) OR (1 ("\;")));
+    ##
+
+#comitative coordination
+#select COM.SG reading when preceded by DU pronoun in clause with DU verb
+##(ideally, this includes agreement in person between Pron and V, but can this be formalized without listing a set of rules for each of the person values?)
+SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*1 V + DUAL BARRIER CLB);
+SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*-2 V + DUAL BARRIER CLB);
+	##vullgin måj rádnajn dä vit jávvráj ja åhppåt
+
+
+#!! !!!Rules for collocations, multiword expressions etc.
+
+#buolvast buallvaj 'from generation to generation' (removes eg. "buolvastit" V Ind Prs Sg3)
+SELECT:buolvastBuallvaj (N Sg Ela) IF (0 ("buallva"))(1C ("buallva" N Sg Ill));
+
+
+#!! !!!Mapping rules
+# Map rules block further tags from being added (otherwise use ADD)
+
+#!! !!Mapping CC
+
+
+#!! * __CCasCNPCVP__ Map (@CNP @CVP) to CC
+MAP:CCasCNPCVPCAP (@CNP @CVP @CAP) TARGET CC ;
+
+# remove coordinating NP tag if not followed by an NP
+REMOVE:CNPnoNP (@CNP) IF (NOT *1 NP-HEAD BARRIER VFIN OR Inf OR S-BOUNDARY OR CC) ;
+
+# remove coordinating NP tag for men (until evidence to the contrary is found)
+REMOVE:CNP4men (@CNP) IF (0 ("men")) ;
+
+# remove coordinating AP tag if not preceded and followed by APs
+REMOVE:CAPnoAPs (@CAP) IF (NOT *-1 A BARRIER NoAP)(NOT *1 A BARRIER NoAP) ;
+
+# remove coordinating VP tag if preceded and followed by APs
+REMOVE:CVPonlyAPs (@CVP) IF (*-1 A BARRIER NoAP)(*1 A BARRIER NoAP) ;
+
+
+
+#!! !!Mapping verbs
+#!! * __+FMAINVinfv__ maps to main verb followed by inf
+#FiniteMAINVerb
+MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
+	#$ Liná liikui sárgut ja tennjet.
+
+#tag A Attr as N modifier
+MAP (@>N) TARGET (A Attr) IF (*1 N BARRIER NOT-NPMOD);
+
+
+
+# remove ordinal number marking function of full-stop when not preceded by a ordinal numeral
+REMOVE:A-OrdB4nonNumeralCharacter (A Ord) IF (NOT -1 NumChar);
+    ## 4. båtsoj
+
+
+
+AFTER-SECTIONS #things here are only run once
+
+#because Det is not a standard GT tag, and so things work with smi-functions.cg3
+#SUBSTITUTE (Det) (Pron) TARGET (Det) ;
+
+#!! !!Add language code
+# used to tag everything as being sje to be able to use specific rules in general smi-functions.cg3
+
+#SUBSTITUTE (A) (A <sje>) WORD ; 
+#SUBSTITUTE (N) (N <sje>) WORD ; 
+#SUBSTITUTE (Adv) (Adv <sje>) WORD ; 
+#SUBSTITUTE (V) (V <sje>) WORD ; 
+#SUBSTITUTE (Num) (Num <sje>) WORD ; 
+#SUBSTITUTE (Interj) (Interj <sje>) WORD ; 
+#SUBSTITUTE (Po) (Po <sje>) WORD ; 
+#SUBSTITUTE (Pr) (Pr <sje>) WORD ; 
+#SUBSTITUTE (Pron) (Pron <sje>) WORD ; 
+#SUBSTITUTE (CC) (CC <sje>) WORD ; 
+#SUBSTITUTE (CS) (CS <sje>) WORD ; 
+#SUBSTITUTE (Pcle) (Pcle <sje>) WORD ; 
+
+
+
+
+##### NOTES, things to work on:
+## 1. ambiguity between Iness.Pl and Com.Sg, e.g.:
+##		##mån lev vuajjdam iehtjan tjilmijd duoldaja DIRVIJN.)
+##		--> classify lexical verbs as typically expecting locatives and/or instrumental/commitatives
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - biena: # N_ODD_OPEN (nom.sg. with open final syllable)
+    biena+N+Sg+Nom: biena
+    biena+N+Sg+Gen: biednaga
+    biena+N+Sg+Acc: biednagav
+    biena+N+Sg+Ill: biednagij
+    biena+N+Sg+Ine: biednagin
+    biena+N+Sg+Ela: [biednagist, biednagis]
+    biena+N+Sg+Com: biednagijn
+    biena+N+Pl+Nom: biednaga
+    biena+N+Pl+Gen: biednagij
+    biena+N+Pl+Acc: biednagijt
+    biena+N+Pl+Ill: biednagijda
+    biena+N+Pl+Ine: biednagijn
+    biena+N+Pl+Ela: [biednagijst, biednagijs]
+    biena+N+Pl+Com: [biednagij, biednagijgum]
+    biena+N+Ess: biednagin
+    biena+N+Abe: biednagahtá
+
+ 
+    biena+N+Der/Dimin+N+Sg+Nom: biednagatj
+    biena+N+Der/Dimin+N+Sg+Gen: biednagatja
+    biena+N+Der/Dimin+N+Sg+Acc: biednagatjav
+    biena+N+Der/Dimin+N+Sg+Ill: biednagatjij
+    biena+N+Der/Dimin+N+Sg+Ine: biednagatjin
+    biena+N+Der/Dimin+N+Sg+Ela: [biednagatjist, biednagatjis]
+    biena+N+Der/Dimin+N+Sg+Com: biednagatjijn
+    biena+N+Der/Dimin+N+Pl+Nom: biednagatja
+    biena+N+Der/Dimin+N+Pl+Gen: biednagatjij
+    biena+N+Der/Dimin+N+Pl+Acc: biednagatjijt
+    biena+N+Der/Dimin+N+Pl+Ill: biednagatjijda
+    biena+N+Der/Dimin+N+Pl+Ine: biednagatjijn
+    biena+N+Der/Dimin+N+Pl+Ela: [biednagatjijst, biednagatjijs]
+    biena+N+Der/Dimin+N+Pl+Com: [biednagatjij, biednagatjijgum]
+    biena+N+Der/Dimin+N+Ess: biednagatjin
+ 

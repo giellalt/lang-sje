@@ -1,0 +1,2230 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+! ############################## !
+!!    !!!Pite Saami numerals 
+! ############################## !
+
+! Numerals
+! ========
+
+! The initial lexica
+! ------------------
+
+LEXICON Numeral					   !!= * __@CODE@__
+CARDbasic ;
+CARDsuppletive ;
+CARD10s ;
+
+
+LEXICON CARDbasic
+akkta: NUM1 "ett, one" ;
+guäkkte: NUM2 "två, two" ;
+gålbmå:gålbm NUMå "tre, three" ;
+nällje:niellj NUMe "fyra, four";
+nällje+Use/NG:nieldj NUMe "fyra, four";
+vihta:viht NUMa "fem, five" ;
+guhta:guht NUMa "sex, six" ;
+gietjav:giehtj NUM7 "sju, seven" ;
+gietjav+Use/NG:tjiehtj NUM7 "sju, seven" ;
+gákktse:gákkts NUMe "åtta, eight" ;
+åkktse:åkkts NUMe "nio, nine" ;
+
+
+LEXICON CARDsuppletive
+nålla:nål'la NUM0 "noll, zero" ;
+vuostas:vuostas ORDsuppl "först, first" ;
+mubbe:mubbe ORDsuppl "andra, second/other" ;
+mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
+mubbe+Use/NG+A+Ord+Sg+Acc:nubbe%>v K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. pit100405b.052)
+mubbe+Use/NG+A+Ord+Sg+Ine:nubbe%>n K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
+mubbe+A+Ord+Pl+Gen:mubbe%>j K "the others'" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19210000a-lagercrantz1957a-426.061)
+lågev:låg2 NUM10 "tio, ten" ;
+tjuohte:tjuoht NUM100 "hundra, hundred"; !verify ORD form!
+tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
+
+
+LEXICON NUM0 ! num 0
++Num: # ; 
+
+LEXICON NUM1 ! num 1
++Num:akkta NumCase ; !needs to be added later for other Nums, but definitely works for akkta
+:#akkt ORD ; !only for 2+digit NUMs
+!:akkta 10s ;
+
+LEXICON NUM2 ! num 2
++Num:gu^Okkte # ; 
++Num+Pl+Nom:gu^Okkte^WG # ; ! cf. sje19521200a.027 !this needs to be generalized for other case/num later
+:#gu^Okkt ORD ; !only for 2+digit NUMs
+!:gu^Okkte 10s ;
+
+LEXICON NUMa ! a-stem num (5,6)
++Num:a # ; 
++Num+Pl+Nom:a^WG # ; !connect to noninal inflection lexicon?
+ORD ;
+
+LEXICON NUMå ! å-stem num (3)
++Num:å # ; 
++Num+Pl+Nom:å^WG # ; !connect to noninal inflection lexicon? 
+ORD ;
+!:å 10s ;
+
+LEXICON NUMe ! e-stem num (4,8,9)
++Num:e # ; 
++Num+Pl+Nom:e^WG # ; !connect to noninal inflection lexicon?
+ORD ;
+!:e 10s ;
+
+LEXICON NUM7 ! num (7)
++Num:av^WG # ; 
++Num+Pl+Nom:av N_ODD_X ; 
+ORD7 ;
+!:av 10s ; !verify this
+
+LEXICON NUM10 ! num (10)
++Num+Sg+Gen:e # ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
++Num:ev^WG # ; 
++Num: # ; !in compound numbers
+ORD10 ;
+
+LEXICON NUM100 ! num (100); treat as noun and NUM
++Num:e EVENCASE ;  ! Sg Nom, Ess
++Num:e N_EVEN_ILL ;
++Num:e^WG N_EVEN_WK ; ! (but this leads to a DIM possibility, too - for tjuohte? tjuodátj?)
+ORD ;
+!:e N_EVEN ;
+!NUMe ;
+
+LEXICON NUM1000 ! num (1000); treat as noun and NUM
++Num+Sg+Nom:%> K ; 
++Num: N_ODD_X ;
+ORD10 ;
+!N_ODD ;
+!+Num: # ; 
+
+LEXICON NumCase ! case forms for Numerals
+: # ;
++Sg+Acc:^WG%>v # ; !needs to be generalized later, but definitely works for akkta
++Sg+Gen:^WG%> # ; !needs to be generalized later, but definitely works for akkta
+
+
+!ORDINAL forms (add cases later)
+LEXICON ORD
++A+Ord:át^WG # ;
+
+LEXICON ORD7
++A+Ord:et # ;
+
+LEXICON ORD10
++A+Ord:át # ;
+
+LEXICON ORDsuppl !suppletive ordinal forms
++A+Ord: # ;
+
+
+
+LEXICON CARD10s !2-digit NUMs
+akkta#lågev:akkta#låg2 ROUND10s ; !but does akktalågev really exist??
+akkta#lågev+Num:akkta#låg2 # ; !but does akktalågev really exist??
+akkta#lågev#:akkta#låk# CARDbasic ;
+guäkkte#lågev:guäkkte#låg2 ROUND10s ; 
+guäkkte#lågev+Num:guäkkte#låg2 # ; 
+guäkkte#lågev#:guäkkte#låk# CARDbasic ;
+gålbmå#lågev:gålbmå#låg2 ROUND10s ; 
+gålbmå#lågev+Num:gålbmå#låg2 # ; 
+gålbmå#lågev#:gålbmå#låk# CARDbasic ;
+nällje#lågev:nällje#låg2 ROUND10s ; 
+nällje#lågev+Num:nällje#låg2 # ; 
+nällje#lågev#:nällje#låk# CARDbasic ;
+vihta#lågev:vihta#låg2 ROUND10s ; 
+vihta#lågev+Num:vihta#låg2 # ; 
+vihta#lågev#:vihta#låk# CARDbasic ;
+guhta#lågev:guhta#låg2 ROUND10s ; 
+guhta#lågev+Num:guhta#låg2 # ; 
+guhta#lågev#:guhta#låk# CARDbasic ;
+gietjav#lågev:gietjav#låg2 ROUND10s ; 
+gietjav#lågev+Num:gietjav#låg2 # ; 
+gietjav#lågev#:gietjav#låk# CARDbasic ;
+gákktse#lågev:gákktse#låg2 ROUND10s ; 
+gákktse#lågev+Num:gákktse#låg2 # ; 
+gákktse#lågev#:gákktse#låk# CARDbasic ;
+åkktse#lågev:åkktse#låg2 ROUND10s ; 
+åkktse#lågev+Num:åkktse#låg2 # ; 
+åkktse#lågev#:åkktse#låk# CARDbasic ;
+
+
+LEXICON ROUND10s !round 2-digit NUMs (10,20,30,etc.)
++Num:ev K ;
+ORD10 ;
+
+
+
+
+!LEXICON Num_EVEN ! nubbe
+!+Num: Num_EVENCASE ;  ! Sg Nom, Ess
+!+Num: Num_EVEN_ILL ;
+!+Num:^WG Num_EVEN_WK ; ! CG here
+!
+!LEXICON Num_EVENCASE
+!+Sg+Nom:^UAUML%>    K ;
+!Num_EVEN_ESS ; ! Essive
+!
+!LEXICON Num_EVEN_ILL
+!+Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
+!
+!LEXICON Num_EVEN_ESS
+!+Ess:^UAUML%>n K ;
+!
+!LEXICON Num_EVEN_WK
+!!+Der/Dimin:%>tj^V2E2AA N_ODD ;
+!+Sg+Gen:  K ;
+!+Sg+Acc:%>v  K ;
+!+Sg+Ine:%>n K ;
+!+Sg+Ela:%>st K ;
+!+Sg+Ela+Use/NG:%>s K ; !dialectal variant, but not standard
+!+Abe:%>dak K ; ! Norm
+!!+Abe:%>htaka K ; ! Informants S and Bj 
+!!+Abe:%>htak K ; ! Informants S and Bj 
+!+Pl+Nom:  K ;
+!!:^IJ%>j N_EVEN_J ;
+
+
+
+! ! Numerals
+! ! ========
+! 
+! ! The initial lexica
+! ! ------------------
+! 
+! LEXICON Numeral					   !!= * __@CODE@__
+!  MILIJÅVNNÅ ;       ! a noun of its own		
+!  UNDERTUVSÁN ;      ! for generator under 1000	
+!  JUSTTUVSÁN ;       ! going via 1000		
+!  OVERTUVSÁN ;       ! for generator over 1000	
+!  OLD ;              ! for "thirteen hundred, etc.	
+!  num-imprecise ;                 ! Inte ännu              
+! ! COLLECTIVE ;       ! Inte ännu
+!  +Use/Circ: ARABIC ;           ! for the arabic numerals !
+! ! +Use/Circ: ROMAN ;            ! for the roman numerals	!
+!  +Use/Circ: NUM-PREFIXES ;     ! for §34 etc.		!
+!  +Use/Circ: ISOLATED-NUMEXP ;  ! for ½ etc.			!
+! O-NL ; 
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+! ! We now run through the alphabetic numerals, ending up with the case
+! ! inflection of the final number.
+! 
+! ! Million, a noun of its own
+! ! --------------------------
+! 
+! LEXICON MILIJÅVNNÅ					   !!= * __@CODE@__
+! milijåvdnå:milijåvdnå AKTA ;			
+! millijåvdnå:millijåvdnå AKTA ;
+! milijåvnåt+A+Ord:milijåvnåd2 VUOSTASJ ;	
+! millijåvnåt+A+Ord:millijåvnåd2 VUOSTASJ ;
+! milliárrda:milliárrda AKTA ;		! Num or N? Err/Sub?
+! millijárrda:millijárrda AKTA ;
+! milliárdat+A+Ord:milliárdad2 VUOSTASJ ;	
+! 
+! ! Overtuvsán, for the numerals over 1000
+! ! --------------------------------------
+! 
+! LEXICON OVERTUVSÁN				   !!= * __@CODE@__
+!  O-AKTAF ;      ! 1000				
+!  O-2TO9F ;      ! 2000, 3000, ...			
+!  O-JUSTLÅGEVF ; ! 10000				
+!  O-2TO9LÅG ;    ! 20000, 30000, ...		
+!  O-LÅGENAN ;    ! 11000, 12000, ...		
+!  O-TJUOHTE ;    ! 100000					
+!  O-2TO9TJUO ;   ! 200000, 300000, ...
+! 
+! ! All the child lexica of OVERTUVSÁN have the prefix O-.
+! ! They are directed via their respective numerals to the lexicon JUSTTUVSÁN.
+! 
+! 
+! ! Thousands
+! 
+! LEXICON O-AKTAF		   !!= * __@CODE@__
+! akkta# JUSTDUHÁT ;
+! JUSTDUHÁT ;		
+! 
+! LEXICON O-X1000		   !!= * __@CODE@__
+! akkta# JUSTTUVSÁN ;
+! 
+! LEXICON O-2TO9F   !!= * __@CODE@__                              
+! guakkta#  JUSTTUVSÁN ;      
+! guäkkte#  JUSTTUVSÁN ;
+! guok#    JUSTTUVSÁN ;        
+! guakkta#:guokte# ẈG-O-LÅGEVF ;
+! guäkkte#:guokte# ẈG-O-LÅGEVF ;		    
+! guakkta#:guokte# WG-JUSTTUVSÁN ;
+! guäkkte#:guokte# WG-JUSTTUVSÁN ;		                                                                                                                                                                                                          
+! gålbmå#  JUSTTUVSÁN ; 
+! gålbmå#:gålmå# ẈG-O-LÅGEVF ;				
+! gålbmå#:gålmå# WG-JUSTTUVSÁN ;				                                                   
+! nällja# JUSTTUVSÁN ;  
+! nällje# JUSTTUVSÁN ;
+! nällja#:nielje# ẈG-O-LÅGEVF ;
+! nällje#:nielje# ẈG-O-LÅGEVF ;	  
+! nällja#:nielje# WG-JUSTTUVSÁN ;
+! nällje#:nielje# WG-JUSTTUVSÁN ;	                                                                                                                            
+! vihta#  JUSTTUVSÁN ;      
+! vihta#:vida# ẈG-O-LÅGEVF ;				  
+! vihta#:vida# WG-JUSTTUVSÁN ;				                                      
+! guhta#  JUSTTUVSÁN ;            
+! guhta#:guda# ẈG-O-LÅGEVF ;	   
+! guhta#:guda# WG-JUSTTUVSÁN ;	                         
+! gietjav# JUSTTUVSÁN ;                            
+! gietjav# ẈG-O-LÅGEVF ;										
+! gietjav# WG-JUSTTUVSÁN ;										
+! gákktja#  JUSTTUVSÁN ;        
+! gákktse#  JUSTTUVSÁN ;  
+! gákktse#:gáktse# ẈG-O-LÅGEVF ;						
+! gákktse#:gáktse# WG-JUSTTUVSÁN ;					                              
+! åkktjå#   JUSTTUVSÁN ;
+! åkktse#   JUSTTUVSÁN ;  
+! åkktse#:åktse# ẈG-O-LÅGEVF ;                
+! åkktse#:åktse# WG-JUSTTUVSÁN ;                
+! 
+! ! Tens of thousands
+! 
+! LEXICON O-JUSTLÅGEVF		   !!= * __@CODE@__
+! lågev# JUSTTUVSÁN ;		
+! ! This lexicon is for the number 10000 only. it is separated from the
+! ! rest to avoid forms like *logivihttaduhát, etc.
+! 
+! 
+! LEXICON O-LÅGEVF				   !!= * __@CODE@__    
+! låg# JUSTTUVSÁN ;		
+! låg# O-X1000 ;			
+! låg# O-2TO9F ;
+! 
+! 
+! LEXICON ẈG-O-LÅGEVF   !!= * __@CODE@__
+! låg# WG-LÅK-JUSTTUVSÁN ;		
+! 	
+! 	
+! 
+! LEXICON O-2TO9LÅG			   !!= * __@CODE@__ 
+! guakkta# O-LÅGEVF ;		
+! guäkkte# O-LÅGEVF ;
+! guak# O-LÅGEVF ;
+! guakkta#:guokte# ẈG-O-LÅGEVF ;		
+! gålbmå# O-LÅGEVF ;		
+! gålbmå#:gålmå# ẈG-O-LÅGEVF ;				
+! nällja# O-LÅGEVF ;	
+! nällje# O-LÅGEVF ;		
+! nällja#:nielje# ẈG-O-LÅGEVF ;
+! nällje#:nielje# ẈG-O-LÅGEVF ;	
+! vihta# O-LÅGEVF ;		
+! vihta#:vida# ẈG-O-LÅGEVF ;				
+! guhta# O-LÅGEVF ;	
+! guhta#:guda# ẈG-O-LÅGEVF ;	
+! gietjav# O-LÅGEVF ;								
+! gietjav#:gietja ẈG-O-LÅGEVF ;										
+! gákktja# O-LÅGEVF ;
+! gákktse# O-LÅGEVF ;
+! gákktse#:gáktse# ẈG-O-LÅGEVF ;					
+! åkktjå# O-LÅGEVF ;
+! åkktse# O-LÅGEVF ;			
+! åkktjå#:åktje# ẈG-O-LÅGEVF ;
+! åkktse#:åktse# ẈG-O-LÅGEVF ;
+! 
+! 
+! ! Teens of thousands
+! 
+! LEXICON O-LÅGENAN		   !!= * __@CODE@__
+! lågenan#akkta# JUSTTUVSÁN ;       
+! lågenan#guakkta#:lågenan#guakkta# JUSTTUVSÁN ;   
+! lågenan#guäkkte#:lågenan#guäkkte# JUSTTUVSÁN ;
+! lågenan#guak#:lågenan#guak# JUSTTUVSÁN ;                                 
+! lågenan#gålbmå# JUSTTUVSÁN ;      
+! lågenan#nällja#:lågenan#nällja# JUSTTUVSÁN ;  
+! lågenan#nällje#:lågenan#nällje# JUSTTUVSÁN ;          
+! lågenan#vihta#:lågenan#vihta# JUSTTUVSÁN ;            
+! lågenan#guhta#:lågenan#guhta# JUSTTUVSÁN ;         
+! lågenan#gietjav#:lågenan#gietjav# JUSTTUVSÁN ;                       
+! lågenan#gákktja#:lågenan#gákktja# JUSTTUVSÁN ;      
+! lågenan#gákktse#:lågenan#gákktse# JUSTTUVSÁN ;      
+! lågenan#åkktjå#:lågenan#åkktjå# JUSTTUVSÁN ;
+! lågenan#åkktse#:lågenan#åkktse# JUSTTUVSÁN ;                
+! 
+! akkta# O-NL ;       
+! guakkta# O-NL ;          
+! guäkkte# O-NL ;   
+! guak# O-NL ;      
+! gålbmå# O-NL ;      
+! nällja# O-NL ;   
+! nällje# O-NL ;         
+! vihta# O-NL ;            
+! guhta# O-NL ;         
+! gietjav# O-NL ;
+! gákktja# O-NL ;      
+! gákktse# O-NL ;
+! åkktjå# O-NL ;      
+! åkktse# O-NL ;                
+! 
+! 
+!  LEXICON O-NL			
+!  lågenan# JUSTTUVSÁN ;
+! 
+! 
+! ! Hundreds of thousands
+! 
+! LEXICON O-TJUOHTE					   !!= * __@CODE@__
+!  tjuohte# JUSTTUVSÁN ; ! 100000			
+!  tjuohte# O-X1000 ;    ! 101000			
+!  tjuohte# O-2TO9F ;    ! 102000, 103000, ...	
+!  tjuohte# O-LÅGEVF ;   ! 110000, 113000, ...	
+!  tjuohte# O-2TO9LÅG ;  ! 120000, 123000, ...	
+!  tjuohte# O-LÅGENAN ;  ! 115000, ...		
+! 
+! 
+! LEXICON O-TJUODE					   !!= * __@CODE@__
+!  tjuode# JUSTTUVSÁN ;  ! 200000			
+!  tjuode# O-X1000 ;     ! 201000			
+!  tjuode# O-2TO9F ;     ! 202000, 203000, ...	
+!  tjuode# O-LÅGEVF ;    ! 210000, 213000, ...	
+!  tjuode# O-2TO9LÅG ;   ! 220000, 223000, ...	
+!  tjuode# O-LÅGENAN ;   ! 215000, ...		
+!  tjuohte# JUSTTUVSÁN ;  ! 200000			
+!  tjuohte# O-X1000 ;     ! 201000			
+!  tjuohte# O-2TO9F ;     ! 202000, 203000, ...	
+!  tjuohte# O-LÅGEVF ;    ! 210000, 213000, ...	
+!  tjuohte# O-2TO9LÅG ;   ! 220000, 223000, ...	
+!  tjuohte# O-LÅGENAN ;   ! 215000, ...		
+! 
+! 
+! LEXICON WG-O-TJUODE					   !!= * __@CODE@__
+!  tjuode# WG-LÅK-JUSTTUVSÁN ;  ! 200000			
+!  			
+! 
+! LEXICON O-2TO9TJUO				   !!= * __@CODE@__
+! akkta# O-TJUOHTE ;       ! #one# hundred...		
+! akkta#:akta# WG-O-TJUODE ;
+! guakkta# O-TJUODE ;				
+! guäkkte# O-TJUODE ;	
+! guakkta#:guokte# WG-O-TJUODE ;
+! guäkkte#:guokte# WG-O-TJUODE ;					
+! guak# O-TJUODE ;		
+! gålbmå# O-TJUODE ;
+! gålbmå#:gålmå# WG-O-TJUODE ;							
+! nällja# O-TJUODE ;		
+! nällje# O-TJUODE ;		
+! nällja#:nielje# WG-O-TJUODE ;		
+! nällje#:nielje# WG-O-TJUODE ;				
+! vihta# O-TJUODE ;
+! vihta#:vida# WG-O-TJUODE ;							
+! guhta# O-TJUODE ;
+! guhta#:guda# WG-O-TJUODE ;							
+! gietjav# O-TJUODE ;	
+! gietjav#:gietja WG-O-TJUODE ;								
+! gákktja# O-TJUODE ;		
+! gákktse# O-TJUODE ;	
+! gákktse#:gáktse# WG-O-TJUODE ;							
+! åkktjå# O-TJUODE ;
+! åkktse# O-TJUODE ;
+! åkktjå#:åktje# WG-O-TJUODE ;	
+! åkktse#:åktse# WG-O-TJUODE ;						
+! 				
+! 
+! LEXICON JUSTDUHÁT				   !!= * __@CODE@__
+! tuvsán# UNDERTUVSÁN ;
+! tuvsán# AVTAS ;  	  	
+! tuvsán TUVSÁN ;                    ! Case infl of tuvsán
+! tuvsánat+A+Ord:tuvsána TUVSÁNAT ;
+! 
+!                    ! Case infl of tuvsán
+! 		
+! 
+! ! Justtuvsán, for numerals going via 1000
+! ! -------------------------------------
+! 
+! LEXICON JUSTTUVSÁN				   !!= * __@CODE@__
+!  tuvsán# UNDERTUVSÁN ;             ! Thousand-and-something	
+!  tuvsán# AVTAS ;                   ! Thousand-and-something	
+!  tuvsán TUVSÁN ;                   ! Case infl of tuvsán	
+!  tuvsánat+A+Ord:tuvsána TUVSÁNAT ;
+!  		
+!  		
+! 
+! LEXICON WG-LÅK-JUSTTUVSÁN				   !!= * __@CODE@__
+!  tuvsán WG-LÅK-TUVSÁN ;                   ! Case infl of tuvsán	
+! 
+! LEXICON WG-JUSTTUVSÁN				   !!= * __@CODE@__
+!  tuvsán WG-TUVSÁN ;                   ! Case infl of tuvsán	
+!  	
+!  tuvsán+Num+Ess:n#tuvsán%>in # ;                 
+!  tuvsán+Num+Sg+Com:jn#tuvsán%>ijn # ;           
+!  tuvsán+Num+Sg+Ela:t#tuvsán%>is # ;           
+! 
+! 
+! 
+! ! Old, for the old counting thirteen hundred etc.	
+! ! -----------------------------------------------
+! 
+! LEXICON OLD					   !!= * __@CODE@__
+! akkta# NLX ;						
+! guakkta# NLX ;					
+! guäkkte# NLX ;	
+! guak# NLX ;									
+! gålbmå# NLX ;					
+! nällja# NLX ;			
+! nällje# NLX ;		
+! vihta# NLX ;					
+! guhta# NLX ;					
+! gietjav# NLX ;	
+! gákktja# NLX ;				
+! gákktse# NLX ;						
+! åkktjå# NLX ;
+! åkktse# NLX ;					
+! lågenan#akkta# GTJUODE-SPLIT ;						
+! lågenan#guakkta# GTJUODE-SPLIT ;		
+! lågenan#guäkkte# GTJUODE-SPLIT ;	
+! lågenan#guak# GTJUODE-SPLIT ;							
+! lågenan#gålbmå# GTJUODE-SPLIT ;					
+! lågenan#nällja# GTJUODE-SPLIT ;	
+! lågenan#nällje# GTJUODE-SPLIT ;									
+! lågenan#vihta# GTJUODE-SPLIT ;					
+! lågenan#guhta# GTJUODE-SPLIT ;					
+! lågenan#gietjav# GTJUODE-SPLIT ;					
+! lågenan#gákktja# GTJUODE-SPLIT ;		
+! lågenan#gákktse# GTJUODE-SPLIT ;								
+! lågenan#åkktjå# GTJUODE-SPLIT ;
+! lågenan#åkktse# GTJUODE-SPLIT ;
+! 
+! LEXICON NLX					   !!= * __@CODE@__
+! lågenan# GTJUODE-SPLIT ;				
+! 
+! 
+! 
+! !! Här är alla talorden under 1000.
+! !! Vi börjar nedanfrån, från ett.
+! 
+! LEXICON UNDERTUVSÁN				   !!= * __@CODE@__
+!  AKTAF ;     ! 1				
+!  2TO9F ;     ! 2-9			
+!  LÅGEVF ;     ! 10				
+!  LÅGENAN ;   ! 11-19            
+!  2TO9LÅG ;   ! 20-99				
+!  TJUOHTE ;     ! 100-199				
+!  2TO9TJUO ;   ! 200-999				
+! 
+! LEXICON AKTAF					   !!= * __@CODE@__
+! akkta:akkta AKTA ;        		
+! vuostas+A+Ord:vuostatj VUOSTASJ ;
+! 
+! LEXICON AVTAS			   !!= * __@CODE@__
+! avtas+N+Coll+Sg+Nom:avtas%> # ;
+! avtas+N+Coll:aktas VIDÁS ;     
+! åvtås+N+Coll+Sg+Nom:åvtås%> # ;
+! åvtås+N+Coll:åktås VIDÁS ;
+! 
+! LEXICON 2TO9F					   !!= * __@CODE@__
+! guakkta:guakkt GUOKTA ;
+! guakkta+Num+Sg+Ill:guakkta%>j # ;   
+! guakkta+Num+Sg+Attr:guakk%> # ;
+! nubbe+A+Ord:nubb nubbecase ;		
+! nubbe+A+Ord+Sg+Nom:nubbe%> # ;        
+! nubbe+A+Ord+Ess:nubbe%>n # ;         
+! nubbe+A+Ord+Sg+Ill:nubbá%>j # ;       
+! nubbe#+A+Ord+Sg+Gen:nubbe%> NUMERALCOMPOUNDS ; 
+! guoktes+N+Coll+Sg+Nom:guoktes%> # ;
+! guoktes+N+Coll:guakktas VIDÁS ;   
+! guoktes+N+Coll:guakkt GUOVTES ;   
+! gålbmå:gålbmå GÅLMMÅ ;      
+! gålmát+A+Ord:gålmád2 VUOSTASJ ;
+! gålmås+N+Coll:gållmås VIDÁS ;       
+! gålmås+N+Coll+Sg+Nom:gålmås%> # ;     
+! nällja:nällj GUOKTA ; 
+! nällja+Num+Sg+Ill:nälljá%>j # ;               
+! nielját+A+Ord:nieljád2 VUOSTASJ ;
+! nieljes+N+Coll+Sg+Nom:nieljes%> # ;     
+! nieljes+N+Coll:nälljás VIDÁS ;      
+! vihta+Num:vida GÅLMMÅ-OBL ;                   
+! vihta+Num+Sg+Nom:vihta%> # ;         
+! vihta+Num+Sg+Acc:vihta%> # ;        
+! vihta+Num+Sg+Ill:vihta%>j # ;        
+! vihta+Num+Ess:vihta%>n # ;           
+! vidát+A+Ord:vidád2 VUOSTASJ ;
+! vidás+N+Coll+Sg+Nom:vidás%> # ;     
+! viđás+N+Coll:vihtas VIDÁS ;      
+! guhta+Num:guda GÅLMMÅ-OBL ;               
+! guhta+Num+Sg+Nom:guhta%> # ;         
+! guhta+Num+Sg+Acc:guhta%> # ;        
+! guhta+Num+Sg+Ill:guhta%>j # ;        
+! guhta+Num+Ess:guhta%>n # ;           
+! gudát+A+Ord:gudád2 VUOSTASJ ;
+! gudas+N+Coll+Sg+Nom:gudas%> # ;  
+! guđas+N+Coll:guhtas VIDÁS ;     
+! gietjav:giehtja GIETJAV ;        
+! gehtjit+A+Ord:gehtjid2 VUOSTASJ ;
+! gietjas+N+Coll+Sg+Nom:gietjas%> # ;  
+! gietjas+N+Coll:giehtjas VIDÁS ;      
+! gákktse:gákkts GÁKTSA ;             
+! gákktse+Num+Sg+Nom:gákktja # ;                     
+! gáktját+A+Ord:gáktjád2 VUOSTASJ ;
+! gáktjes+N+Coll+Sg+Nom:gáktjes%> # ;  
+! gáktjes+N+Coll:gákktjás VIDÁS ;       
+! åkktjå:åkktj ÅKKTJÅ ;                     
+! åktját+A+Ord:åktjád2 VUOSTASJ ;
+! åktjes+N+Coll+Sg+Nom:åktjes%> # ;  
+! åktjes+N+Coll:åkktjas VIDÁS ;      
+! 
+! 
+! LEXICON ẈG-LÅK-2TO9F					   !!= * __@CODE@__
+! guakkta:guakkt ẈG-LÅK-GUOKTA ;
+! guakkta+Num+Sg+Ill:guakkta%>j # ;   
+! nubbe+A+Ord:nubb nubbecase ;		
+! nubbe+A+Ord+Ess:nubbe%>n # ;         
+! nubbe+A+Ord+Sg+Ill:nubbá%>j # ;       
+! nubbe#+A+Ord+Sg+Gen:nubbe%> NUMERALCOMPOUNDS ;
+! gålbmå ẈG-LÅK-GÅLMMÅ ;      
+! nällja:nällj ẈG-LÅK-GUOKTA ; 
+! nällja+Num+Sg+Ill:nälljá%>j # ;               
+! vihta+Num:vida ẈG-LÅK-GÅLMMÅ-OBL ;                   
+! vihta+Num+Sg+Ill:vihta%>j # ;        
+! vihta+Num+Ess:vihta%>n # ;           
+! guhta+Num:guda ẈG-LÅK-GÅLMMÅ-OBL ;               
+! guhta+Num+Sg+Ill:guhta%>j # ;        
+! guhta+Num+Ess:guhta%>n # ;           
+! gietjav:giehtja ẈG-LÅK-GIETJAV ;        
+! gákktse:gákkts ẈG-LÅK-GÁKTSA ;             
+! åkktse:åkkts ẈG-LÅK-AKTSE ;
+! 
+!                   
+! 
+! 
+! LEXICON LÅGEVF					   !!= * __@CODE@__
+! lågev:låg LÅGEV ;
+! akkta#lågev:akkta#låg LÅGEV ;     
+! lågát+A+Ord:lågád2 VUOSTASJ ;
+! akkta#lågát+A+Ord:akkta#lågád2 VUOSTASJ ;						
+! låg:låg TJUOHTECASE ;
+! akkta#låg:akkta#låg TJUOHTECASE ; 
+! låhke+Num+Sg+Ill:låhká%>j # ;  
+! låhke+Num+Sg+Nom:låhke%> # ;                       
+! låhke+Num+Ess:låhke%>n # ;                         
+! akkta#låhke+Num+Sg+Ill:akkta#låhká%>j # ;
+! akkta#låhke+Num+Sg+Nom:akkta#låhke%> # ;                       
+! akkta#låhke+Num+Ess:akkta#låhke%>n # ;                                            
+! låges+N+Coll+Sg+Nom:låges%> # ;
+! akta#låges+N+Coll+Sg+Nom:akta#låges%> # ;     
+! låges+N+Coll:låhkás VIDÁS ;      
+! akkta#låges+N+Coll:akkta#låhkas VIDÁS ;      
+! 
+! 
+! LEXICON LÅK-					   !!= * __@CODE@__
+! låg# AKTAF ;
+! låg# AVTAS ;								
+! låg# 2TO9F ;
+! 								
+! låhke+Num+Sg+Attr:låg%> # ;   
+! låhke#+Num+Sg+Attr:låg%> NUMERALCOMPOUNDS ;
+! låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
+!  låhke:låhk  TJUOHTECASE ;  ! vihttalåhke, collective number
+! låhke+Num+Sg+Ill:låhká%>j # ;
+! låhke+Num+Sg+Nom:låhke%> # ;           
+! låhke+Num+Ess:låhke%>n # ;                      
+! lågát+A+Ord:lågád2 VUOSTASJ ;
+! låges+N+Coll+Sg+Nom:låges%> # ;
+! låges+N+Coll:låhkas VIDÁS ;      
+! 		
+! LEXICON ẈG-LÅK-					   !!= * __@CODE@__
+! låg#akkta ẈG-LÅK-AKTA ;
+! låg# ẈG-LÅK-2TO9F ;
+! 								
+! låhke+Num+Sg+Attr:låg%> # ;   
+! låhke#+Num+Sg+Attr:låg%> NUMERALCOMPOUNDS ;
+! låhke#+Num+Sg+Gen:låge%> NUMERALCOMPOUNDS ;
+! låhke:låhk  ẈG-LÅK-TJUOHTECASE ;  ! vihttalåhke, collective number
+! låhke+Num+Sg+Ill:låhká%>j # ;
+! låhke+Num+Ess:n#låhke%>n # ;   
+! låhke+Num+Sg+Com:jn#lugi%>jn # ;                      
+! låhke+Num+Sg+Ela:t#låge%>s # ;                      
+! låhke+Num+Sg+Par:låge%>t # ;                      
+! låhke+Num+Sg+Par:t#låge%>t # ;                      
+! 
+! 
+! LEXICON LÅGENAN					   !!= * __@CODE@__
+! lågenan#akkta AKTA ;       
+! lågenan#akkta:lågenan#akkta ÅVTÅ ;		
+! lågenan#vuostatj+A+Ord:lågenan#vuostatj VUOSTASJ ;		
+! lågenan#vuostas+A+Ord:lågenan#vuostas VUOSTASJ ;		 
+! lågenan#guakkta:lågenan#guakkt GUOKTA ;
+! lågenan#guakkta+Num+Sg+Ill:lågenan#guakkta%>j # ;   
+! lågenan#guakkta+Num+Sg+Nom:lågenan#guakk%> # ; 
+! lågenan#guakkta+Num+Sg+Acc:lågenan#guakk%> # ;                                            
+! lågenan#nubbe+A+Ord:lågenan#nubb nubbecase ;		
+! lågenan#nubbe+A+Ord+Sg+Nom:lågenan#nubbe%> # ;      
+! lågenan#nubbe+A+Ord+Ess:lågenan#nubbe%>n # ;       
+! lågenan#nubbe+A+Ord+Sg+Ill:lågenan#nubbá%>j # ;    
+! lågenan#nuppát+A+Ord:lågenan#nuppád2 VUOSTASJ ;      
+! guoktes#lågenan+N+Coll+Sg+Nom:guoktes#lågenan%> # ;     
+! guoktes#lågenan+N+Coll:guakktas VIDÁSLÅGENAN ;      
+! lågenan#gålbmå GÅLMMÅ ;      
+! lågenan#gålmát+A+Ord:lågenan#gålmád2 VUOSTASJ ;       
+! gålmås#lågenan+N+Coll+Sg+Nom:gålmås#lågenan%> # ;     
+! gålmås#lågenan+N+Coll:gållmås VIDÁSLÅGENAN ;       
+! lågenan#nällja:lågenan#nällj GUOKTA ;  
+! lågenan#nällja+Num+Sg+Ill:lågenan#nälljá%>j # ;   
+! lågenan#nielját+A+Ord:lågenan#nieljád2 VUOSTASJ ;       
+! nieljes#lågenan+N+Coll+Sg+Nom:nieljes#lågenan%> # ;     
+! nieljes#lågenan+N+Coll:nälljás VIDÁSLÅGENAN ;      
+! lågenan#vihta+Num:lågenan#vida GÅLMMÅ-OBL ;            
+! lågenan#vihta+Num+Sg+Nom:lågenan#vihta%> # ;         
+! lågenan#vihta+Num+Sg+Acc:lågenan#vihta%> # ;        
+! lågenan#vihta+Num+Sg+Ill:lågenan#vihta%>j # ;        
+! lågenan#vihta+Num+Ess:lågenan#vihta%>n # ;           
+! lågenan#vidát+A+Ord:lågenan#vidád2 VUOSTASJ ;      
+! vidas#lågenan+N+Coll+Sg+Nom:vidas#lågenan%> # ;     
+! vidas#lågenan+N+Coll:vihtas VIDÁSLÅGENAN ;  
+! gudas#lågenan+N+Coll+Sg+Nom:gudas#lågenan%> # ;     
+! guđas#lågenan+N+Coll:guhtas VIDÁSLÅGENAN ;      
+! lågenan#guhtta+Num:lågenan#guda GÅLMMÅ-OBL ;         
+! lågenan#guhta+Num+Sg+Nom:lågenan#guhta%> # ;         
+! lågenan#guhta+Num+Sg+Acc:lågenan#guhta%> # ;        
+! lågenan#guhta+Num+Sg+Ill:lågenan#guhta%>j # ;        
+! lågenan#guhta+Num+Ess:lågenan#guhta%>n # ;           
+! lågenan#gudát+A+Ord:lågenan#gudád2 VUOSTASJ ;
+!        
+! lågenan#gietjav:lågenan#giehtja GIETJAV ;        
+! lågenan#giehtjit+A+Ord:lågenan#giehtjid2 VUOSTASJ ;    
+! gietjas#lågenan+N+Coll+Sg+Nom:gietjas#lågenan%> # ;     
+! gietjas#lågenan+N+Coll:giehtjas VIDÁSLÅGENAN ;      
+! gáktjes#lågenan+N+Coll+Sg+Nom:gáktjes#lågenan%> # ;     
+! gáktjes#lågenan+N+Coll:gákktjás VIDÁSLÅGENAN ;       
+! åktjes#lågenan+N+Coll+Sg+Nom:åktjes#lågenan%> # ;     
+! åktses#lågenan+N+Coll:åkktjas# VIDÁSLÅGENAN ;      
+! lågenan#gákktse:lågenan#gákkts GÁKTSA ;
+! lågenan#gákktse+Num+Sg+Nom:lågenan#gákktja # ;      
+! lågenan#gáktját+A+Ord:lågenan#gáktjád2
+! 
+! VUOSTASJ ;      
+! lågenan#åkktse:lågenan#åkkts AKTSE ;
+! lågenan#åkktjå+Num+Sg+Nom:lågenan#åkktjå # ;                
+! lågenan#åktját+A+Ord:lågenan#åktjád2 VUOSTASJ ;       
+! akkta#lågenan:akkta AKTALÅGENAN ;       
+! 		
+! vuostatj#lågåt+A+Ord:vuostasj#lågåd2 VUOSTASJ ;
+! vuostas#lågåt+A+Ord:vuostas#lågåd2 VUOSTASJ ;			 			
+! guakkta#lågenan:guakkt GUOKTALÅGENAN ;
+! guakkta#lågenan+Num+Sg+Ill:guakkta%>j#lågenan%> # ;                  
+! guakkta#lågenan+Num+Sg+Nom:guakk%>#lågenan%> # ;  
+! guakkta#lågenan+Num+Sg+Acc:guakk%>#lågenan%> # ;      
+! nubbát#lågát+A+Ord:nubbát#lågád2 VUOSTASJ ;       
+! gålbmå#lågenan:gålbmå GÅLMMÅLÅGENAN ;      
+! gålmát#lågát+A+Ord:gålmát#lågád2 VUOSTASJ ;       
+! nällja#lågenan:nällj GUOKTALÅGENAN ;  
+! nällja#lågenan+Num+Sg+Ill:nälljá%>j#lågenan%> # ;                  
+! nielját#lågát+A+Ord:nielját#lågád2 VUOSTASJ ;       
+! vihta#lågenan+Num:vida GÅLMMÅLÅGENAN-OBL ;            
+! vihta#lågenan+Num+Sg+Nom:vihta%>#lågenan%> # ;         
+! vihta#lågenan+Num+Sg+Acc:vihta%>#lågenan%> # ;        
+! vihta#lågenan+Num+Sg+Ill:vihta%>j#lågenan%> # ;        
+! vihta#lågenan+Num+Ess:vihta%>n#lågenan%> # ;           
+! vidát#lågát+A+Ord:vidát#lågåd2 VUOSTASJ ;       
+! guhtta#lågenan+Num:guda GÅLMMÅLÅGENAN-OBL ;         
+! guhta#lågenan+Num+Sg+Nom:guhta%>#lågenan%> # ;         
+! guhta#lågenan+Num+Sg+Acc:guhta%>#lågenan%> # ;        
+! guhta#lågenan+Num+Sg+Ill:guhta%>j#lågenan%> # ;        
+! guhta#lågenan+Num+Ess:guhta%>n#lågenan%> # ;           
+! gudát#lågát+A+Ord:gudát#lågád2 VUOSTASJ ;       
+! gietjav#lågenan:giehtja GIETJAVLÅGENAN ;
+! giehtjit#lågát+A+Ord:giehtjit#lågád2 VUOSTASJ ;        
+! gákktja#lågenan:gákktj GÁKTSALÅGENAN ; 
+! gákktse#lågenan:gákkts GÁKTSALÅGENAN ;      
+! gáktját#lågát+A+Ord:gáktját#lågát VUOSTASJ ;      
+! åkktse#lågenan:åkktse AKTSELÅGENAN ;
+! åkktse#lågenan+Nom+Sg+Nom:åkktjålågenan # ;                
+! åktját#lågát+A+Ord:åktját#lågád2 VUOSTASJ ;
+!        
+! lågenan#guoktes+N+Coll+Sg+Nom:lågenan#guoktes%> # ;    
+! lågenan#guoktes+N+Coll:lågenan#guakktás VIDÁS ;   
+! lågenan#guoktes+N+Coll:lågenan#guakkt GUOVTES ;   
+! lågenan#gålmås+N+Coll:lågenan#gållmås VIDÁS ;       
+! lågenan#gålmås+N+Coll+Sg+Nom:lågenan#gålmås%> # ;     
+! lågenan#nieljes+N+Coll:lågenan#nälljás VIDÁS ;      
+! lågenan#vidas+N+Coll+Sg+Nom:lågenan#vidas%> # ;     
+! lågenan#viđas+N+Coll:lågenan#vihtas VIDÁS ;      
+! lågenan#gudas+N+Coll+Sg+Nom:lågenan#gudas%> # ;  
+! lågenan#guđas+N+Coll:lågenan#guhtas VIDÁS ;     
+! lågenan#gietjas+N+Coll+Sg+Nom:lågenan#gietjas%> # ;  
+! lågenan#gietjas+N+Coll:lågenan#giehtjas VIDÁS ;      
+! lågenan#gáktjes+N+Coll+Sg+Nom:lågenan#gáktjes%> # ;  
+! lågenan#gáktjes+N+Coll:lågenan#gákktjás VIDÁS ;       
+! lågenan#åktjes+N+Coll+Sg+Nom:lågenan#åktjes%> # ;  
+! lågenan#åktjes+N+Coll:lågenan#åkktjás VIDÁS ;      
+! 
+! 
+! 
+! LEXICON 2TO9LÅG					   !!= * __@CODE@__
+! guakkta# LÅK- ;		
+! guäkkte# LÅK- ;	
+! guak# LÅK- ;
+! guakkta#:guokte# ẈG-LÅK- ;													
+! gålbmå# LÅK- ;
+! gålbmå#:gålmå# ẈG-LÅK- ;				
+! nällja# LÅK- ;	
+! nällje# LÅK- ;
+! nällja#:nielje# ẈG-LÅK- ;
+! nällje#:nielje# ẈG-LÅK- ;
+! vihta# LÅK- ;
+! vihta#:vida# ẈG-LÅK- ;				
+! guhta# LÅK- ;
+! guhta#:guda# ẈG-LÅK- ;
+! gietjav# LÅK- ;	
+! gietja# ẈG-LÅK- ;									
+! gákktse# LÅK- ;
+! gákktja# LÅK- ;
+! gákktse#:gáktse# ẈG-LÅK- ;					
+! åkktse# LÅK- ;
+! åkktjå# LÅK- ;					
+! åkktse#:åktse# ẈG-LÅK- ;
+! 
+! LEXICON TJUOHTE					   !!= * __@CODE@__
+! tjuohte:tjuoht TJUOHTECASE ;   
+! tjuohte+Num+Sg+Ill:tjuohtá%>j # ; 
+! tjuohte+Num+Sg+Nom:tjuohte%> # ; 
+! tjuohte+Num+Ess:tjuohte%>n # ; 
+! tjuohte#+Num+Sg+Attr:tjuohte%> NUMERALCOMPOUNDS ;
+! tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
+! tjuohte# LÅGEVF ;
+! tjuohte# LÅK- ;
+! tjuohte# 2TO9LÅG ;					
+! tjuohte# AKTAF ;
+! tjuohte# AVTAS ;										
+! tjuohte# 2TO9F ;					
+! tjuohte# LÅGENAN ;				
+! tjuodát+A+Ord:tjuodád2 VUOSTASJ ;			
+! akkta#tjuohte:akkta#tjuoht TJUOHTECASE ;   
+! akkta#tjuohte+Num+Sg+Ill:akkta#tjuohtá%>j # ;
+! akkta#tjuohte+Num+Sg+Nom:akkta#tjuohte%> # ; 
+! akkta#tjuohte+Num+Ess:akkta#tjuohte%>n # ;  
+! akkta#tjuohte# LÅGEVF ;
+! akkta#tjuohte# LÅK- ;
+! akta#tjuohte# 2TO9LÅG ;					
+! akkta#tjuohte# AKTAF ;
+! akkta#tjuohte# AVTAS ;										
+! akkta#tjuohte# 2TO9F ;					
+! akkta#tjuohte# LÅGENAN ;				
+! tjuodes+N+Coll+Sg+Nom:tjuodes%> # ;     
+! tjuodes+N+Coll:tjuohtás VIDÁS ;      
+! akkta#tjuodes+N+Coll+Sg+Nom:akkta#tjuodes%> # ;     
+! akkta#tjuodes+N+Coll:akkta#tjuohtás VIDÁS ;      
+! 
+! 
+! 
+! 
+! LEXICON 2TO9TJUO					   !!= * __@CODE@__
+! guakkta# GTJUODE-SPLIT ;			
+! guäkkte# GTJUODE-SPLIT ;	
+! guak# GTJUODE-SPLIT ;													
+! gålbmå# GTJUODE-SPLIT ;					
+! nällja# GTJUODE-SPLIT ;				
+! nällje# GTJUODE-SPLIT ;				
+! vihta# GTJUODE-SPLIT ;					
+! guhta# GTJUODE-SPLIT ;					
+! gietjav# GTJUODE-SPLIT ;													
+! gákktse# GTJUODE-SPLIT ;			
+! gákktja# GTJUODE-SPLIT ;							
+! åkktse# GTJUODE-SPLIT ;
+! åkktjå# GTJUODE-SPLIT ;
+! 	
+! guakkta#:guokte# WG-GTJUODE ;	
+! gålbmå#:gålmå# WG-GTJUODE ;					
+! nällja#:nielja# WG-GTJUODE ;				
+! nällje#:nielje# WG-GTJUODE ;				
+! vihta#:vida# WG-GTJUODE ;					
+! guhta#:guda# WG-GTJUODE ;					
+! gietja# WG-GTJUODE ;
+! gákktse#:gáktse# WG-GTJUODE ;							
+! åkktse#:åktse# WG-GTJUODE ;	
+! 
+! 
+! LEXICON	GTJUODE-SPLIT
+!  GTJUODE ;
+!  TJUOHTEIMPRECISE ;			
+! 
+!  
+! LEXICON GTJUODE					   !!= * __@CODE@__
+! tjuode#+Num+Sg+Attr:tjuode%> NUMERALCOMPOUNDS ;
+! tjuohte#+Num+Sg+Attr:tjuohte%> NUMERALCOMPOUNDS ;
+! 
+! tjuode LÅGEVF ;		
+! tjuohte LÅGEVF ;													
+! tjuode# 2TO9LÅG ;
+! tjuohte# 2TO9LÅG ;															
+! tjuode# AKTAF ;	
+! tjuohte# AKTAF ;	
+! tjuode# AVTAS ;
+! tjuohte# AVTAS ;															
+! tjuode# 2TO9F ;							
+! tjuohte# 2TO9F ;			
+! tjuode# LÅGENAN ;				
+! tjuohte# LÅGENAN ;	
+! 		
+! !tjuohte:tjuoht TJUOHTECASE ;      ! imprecise number
+! tjuode:tjuoht TJUOHTECASE ;
+! tjuode+Num+Sg+Ill:tjuohtá%>j # ;
+! tjuode+Num+Ess:tjuohte%>n # ;
+! tjuode+Num+Sg+Attr:tjuot%> # ;
+! tjuodát+A+Ord:tjuodád2 VUOSTASJ ;			
+! tjuodes+N+Coll+Sg+Nom:tjuodes%> # ;     
+! tjuodes+N+Coll:tjuohtás VIDÁS ;      
+! 
+! LEXICON WG-GTJUODE					   !!= * __@CODE@__
+! tjuode#+Num+Sg+Attr:tjuode%> NUMERALCOMPOUNDS ;
+! tjuohte#+Num+Sg+Attr:tjuot%> NUMERALCOMPOUNDS ;
+! tjuode:tjuoht ẈG-LÅK-TJUOHTECASE ;
+! tjuode+Num+Sg+Ill:tjuohtá%>j # ;
+! tjuode+Num+Ess:n#tjuohte%>n # ;
+! tjuode+Num+Sg+Attr:tjuot%> # ;
+! tjuode+Num+Sg+Attr:tjuode%> # ;
+! tjuode+Num+Sg+Com:jn#tjuodi%>jn # ;                      
+! tjuode+Num+Sg+Ela:t#tjuode%>s # ;                      
+! tjuode+Num+Sg+Par:tjuode%>t # ;                      
+! tjuode+Num+Sg+Par:t#tjuode%>t # ;                      
+! 
+! 
+! LEXICON TJUOHTEIMPRECISE   !!= * __@CODE@__
+!  tjuohte+Num+Sg+Nom:tjuohte%> # ; ! 200-or-so
+! 
+! 
+! 
+! 
+! ! collective in här
+! 
+! 
+! ! Från här och ut är det lulesamiska, tyvärr
+! 
+! 
+! 
+! 
+! ! Case forms of the basic digits
+! ! ------------------------------
+! 
+! LEXICON AKTA   !!= * __@CODE@__               
+! +Num:%> AKTA-NIE ;  !starkstadium            
+! +Num:^WG%> AKTA-OBL ;             
+! 
+! LEXICON AKTA-NIE   !!= * __@CODE@__               
+!  +Sg+Nom: # ;              
+!  +Sg+Ill:j # ;             
+!  +Ess:n # ;                
+! 
+! LEXICON AKTA-OBL   !!= * __@CODE@__               
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;                            
+!  +Sg+Gen:%> NUMERALCOMPOUNDS ;
+!  +Sg+Acc:v # ;             
+!  +Sg+Ine:n # ;             
+!  +Sg+Ela:s # ;             
+!  +Sg+Com:jn # ;            
+!  +Sg+Par:t # ;              
+!  +Pl+Nom: # ;               
+!  +Pl+Gen:j # ;              
+!  +Pl+Acc:jt # ;             
+!  +Pl+Ill:jda # ;            
+!  +Pl+Ine:jn # ;             
+!  +Pl+Ela:js # ;             
+!  +Pl+Com:j # ;              
+! 
+! LEXICON ÅVTÅ   !!= * __@CODE@__                
+! +Num+Sg+Gen:%> # ;
+! +Num+Sg+Ill+Attr:%> # ;                        
+! +Num+Sg+Gen:%> NUMERALCOMPOUNDS ;
+! +Num+Sg+Acc:%>v # ;           
+! +Num+Sg+Ine:%>n # ;           
+! +Num+Sg+Ela:%>s # ;           
+! +Num+Sg+Com:%>jn # ;          
+! +Num+Sg+Par:%>t # ;           
+! +Num+Pl+Nom:%> # ;            
+! +Num+Pl+Gen:%>j # ;           
+! +Num+Pl+Acc:%>jt # ;          
+! +Num+Pl+Ill:%>jda # ;         
+! +Num+Pl+Ine:%>jn # ;          
+! +Num+Pl+Ela:%>js # ;          
+! +Num+Pl+Com:%>j # ;
+! 
+! !LEXICON ẈG-LÅK-ÅVTÅ   !!= * __@CODE@__                
+! !+Num+Sg+Gen:%> # ;
+! !+Num+Sg+Ill+Attr:%> # ;                        
+! !+Num+Sg+Gen:%> NUMERALCOMPOUNDS ;
+! !+Num+Sg+Acc:%>v # ;           
+! !+Num+Sg+Ine:%>n # ;           
+! !+Num+Sg+Ela:%>s # ;           
+! !+Num+Sg+Com:%>jn # ;          
+! !+Num+Sg+Par:%>t # ;           
+!       
+! LEXICON ẈG-LÅK-AKTA   !!= * __@CODE@__               
+! +Num:%> ẈG-LÅK-AKTA-NIE ;              
+! +Num:^WG%> ẈG-LÅK-AKTA-OBL ;             
+! 
+! LEXICON ẈG-LÅK-AKTA-NIE   !!= * __@CODE@__               
+!  +Sg+Ill:j # ;             
+!  +Ess:n # ;                
+! 
+! LEXICON ẈG-LÅK-AKTA-OBL   !!= * __@CODE@__               
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;                            
+!  +Sg+Gen:%> NUMERALCOMPOUNDS ;
+!  +Sg+Acc:v # ;             
+!  +Sg+Ine:n # ;             
+!  +Sg+Ela:s # ;             
+!  +Sg+Com:jn # ;            
+!  +Sg+Par:t # ;              
+!  +Pl+Nom: # ;               
+!  +Pl+Gen:j # ;              
+!  +Pl+Acc:jt # ;             
+!  +Pl+Ill:jda # ;            
+!  +Pl+Ine:jn # ;             
+!  +Pl+Ela:js # ;             
+!  +Pl+Com:j # ; 
+! 
+!  !det här nedan blir fel men jag vet inte vad som ska ändras            
+! 
+! LEXICON GUOKTA   !!= * __@CODE@__                 
+! +Num:guokkte^WG%> GUOVTE- ;
+! +Num+Sg+Gen:guokkte^WG%> # ;             
+! +Num+Sg+Gen:guokkte^WG%> NUMERALCOMPOUNDS ;  
+! +Num:guokkti^WG%> GUOVTI- ;              
+! +Num: GUOKTA- ;                
+! 
+! LEXICON GUOVTE-   !!= * __@CODE@__
+!  +Sg+Acc:v # ;           
+!  +Sg+Gen: # ; 
+!  +Sg+Ill+Attr: # ; 
+!  +Sg+Gen:%- # ;                        
+!  +Sg+Gen: NUMERALCOMPOUNDS ;  
+!  +Sg+Ine:n # ;            
+!  +Sg+Ela:s # ;            
+!  +Sg+Par:t # ;            
+!  +Pl+Nom: # ;             
+! 
+! LEXICON GUOVTI-   !!= * __@CODE@__  
+!  +Sg+Com:jn # ;           
+!  +Pl+Gen:j # ;            
+!  +Pl+Acc:jt # ;           
+!  +Pl+Ill:jda # ;          
+!  +Pl+Ine:jn # ;           
+!  +Pl+Ela:js # ;           
+!  +Pl+Com:j # ;            
+! 
+! 
+! LEXICON GUOKTA-   !!= * __@CODE@__           
+!  +Sg+Nom:a%> # ;      
+!  +Sg+Ill:á%>j # ;                       
+!  +Ess:guäkkte%>n # ;  !hur få in essiv guäkkten
+!             
+! 
+!          
+! LEXICON ẈG-LÅK-GUOKTA   !!= * __@CODE@__                 
+! +Num:guokkte^WG%> ẈG-LÅK-GUOVTE- ;
+! +Num+Sg+Gen:guokkte^WG%> # ;             
+! +Num+Sg+Gen:guokkte^WG%> NUMERALCOMPOUNDS ;  
+! +Num:guokkti^WG%> ẈG-LÅK-GUOVTI- ;              
+! +Num: ẈG-LÅK-GUOKTA- ;                
+! 
+! LEXICON ẈG-LÅK-GUOVTE-   !!= * __@CODE@__
+!  +Sg+Acc:v # ;           
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;    
+!  +Sg+Gen:%- # ;                        
+!  +Sg+Gen: NUMERALCOMPOUNDS ;  
+!  +Sg+Ine:n # ;            
+!  +Sg+Ela:s # ;            
+!  +Sg+Par:t # ;            
+! 
+! LEXICON ẈG-LÅK-GUOVTI-   !!= * __@CODE@__  
+!  +Sg+Com:jn # ;           
+! 
+! LEXICON ẈG-LÅK-GUOKTA-   !!= * __@CODE@__           
+! +Ess:guäkkte%>n # ;
+! 
+!             
+!                
+! LEXICON GÅLMMÅ   !!= * __@CODE@__          
+! +Num:%> GÅLMMÅ-NAIE ;     
+! +Num:^WG%> GÅLMMÅ-OBL ;    
+!                        
+! LEXICON GÅLMMÅ-NAIE   !!= * __@CODE@__     
+!  +Sg+Nom: # ;                       
+!  +Sg+Ill:j # ;          
+!  +Ess:n # ;             
+!                         
+! LEXICON GÅLMMÅ-OBL   !!= * __@CODE@__
+!  +Sg+Acc:v # ;                 
+!  +Sg+Gen: # ; 
+!  +Sg+Ill+Attr: # ;                     
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;          
+!  +Sg+Ela:s # ;          
+!  +Sg+Com:jn # ;         
+!  +Sg+Par:t # ;          
+!  +Pl+Nom: # ;           
+!  +Pl+Gen:j # ;          
+!  +Pl+Acc:jt # ;         
+!  +Pl+Ill:jda # ;        
+!  +Pl+Ine:jn # ;         
+!  +Pl+Ela:js # ;         
+!  +Pl+Com:j # ;          
+! 
+! LEXICON ẈG-LÅK-GÅLMMÅ   !!= * __@CODE@__          
+! +Num:%> ẈG-LÅK-GÅLMMÅ-NAIE ;     
+! +Num:^WG%> ẈG-LÅK-GÅLMMÅ-OBL ;    
+!                        
+! LEXICON ẈG-LÅK-GÅLMMÅ-NAIE   !!= * __@CODE@__     
+!  +Sg+Ill:j # ;          
+!  +Ess:n # ;             
+!                         
+! LEXICON ẈG-LÅK-GÅLMMÅ-OBL   !!= * __@CODE@__
+!  +Sg+Acc:v # ;                 
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;                      
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;          
+!  +Sg+Ela:s # ;          
+!  +Sg+Com:jn # ;         
+!  +Sg+Par:t # ;          
+! 
+! 
+! LEXICON GIETJAV   !!= * __@CODE@__            
+! +Num:%> GIETJAV-IE ;         
+! +Num:^WG%> GIETJAV-OBL ;      
+!                            
+! LEXICON GIETJAV-IE   !!= * __@CODE@__ 
+!  +Ill:j # ;       
+!  +Ess:n # ;
+!                  
+!                        
+! LEXICON GIETJAV-OBL   !!= * __@CODE@__        
+!  +Sg+Nom:v # ;
+!  +Sg+Nom: # ;                           
+!  +Sg+Gen: # ; 
+!  +Sg+Ill+Attr: # ;                           
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Acc:v # ;             
+!  +Sg+Ine:n # ;             
+!  +Sg+Ela:s # ;             
+!  +Sg+Com:jn # ;            
+!  +Sg+Par:t # ;             
+!  +Pl+Nom: # ;              
+!  +Pl+Gen:j # ;             
+!  +Pl+Acc:jt # ;            
+!  +Pl+Ill:jda # ;           
+!  +Pl+Ine:jn # ;            
+!  +Pl+Ela:js # ;            
+!  +Pl+Com:j # ;             
+! 
+! LEXICON ẈG-LÅK-GIETJAV   !!= * __@CODE@__            
+! +Num:%> ẈG-LÅK-GIETJAV-IE ;         
+! +Num:^WG%> ẈG-LÅK-GIETJAV-OBL ;      
+!                            
+! LEXICON ẈG-LÅK-GIETJAV-IE   !!= * __@CODE@__ 
+!  +Ill:j # ;       
+!  +Ess:n # ;
+!                        
+! LEXICON ẈG-LÅK-GIETJAV-OBL   !!= * __@CODE@__        
+!  +Sg+Nom:v # ;
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;                            
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Acc:v # ;             
+!  +Sg+Ine:n # ;             
+!  +Sg+Ela:s # ;             
+!  +Sg+Com:jn # ;            
+!  +Sg+Par:t # ;             
+! 
+! !LEXICON GÁKKTJA   !!= * __@CODE@__
+! !+Num+Sg+Nom:a # ;
+! 
+! LEXICON GÁKTSA   !!= * __@CODE@__             
+! +Num:e^WG%> GÁVTSE- ;          
+! +Num:i^WG%> GÁVTSI- ;          
+! +Num: GÁKTSA- ;            
+!                            
+! LEXICON GÁVTSE-   !!= * __@CODE@__  
+!  +Sg+Acc:v # ;                      
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;                          
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;            
+!  +Sg+Ela:s # ;            
+!  +Sg+Par:t # ;            
+!  +Pl+Nom: # ;             
+! 
+! LEXICON GÁVTSI-   !!= * __@CODE@__       
+!  +Sg+Com:jn # ;           
+!  +Pl+Gen:j # ;            
+!  +Pl+Acc:jt # ;           
+!  +Pl+Ill:jda # ;          
+!  +Pl+Ine:jn # ;           
+!  +Pl+Ela:js # ;           
+!  +Pl+Com:j # ;            
+!                            
+!                            
+! LEXICON GÁKTSA-   !!= * __@CODE@__            
+!    
+!  +Sg+Nom:%>e # ;                        
+!  +Sg+Ill:á%>j # ;              
+!  +Ess:e%>n # ;     
+!   
+! LEXICON ẈG-LÅK-GÁKTSA   !!= * __@CODE@__             
+! +Num:e^WG%> ẈG-LÅK-GÁVTSE- ;          
+! +Num:i^WG%> ẈG-LÅK-GÁVTSI- ;          
+! +Num: ẈG-LÅK-GÁKTSA- ;            
+!                            
+! LEXICON ẈG-LÅK-GÁVTSE-   !!= * __@CODE@__  
+!  +Sg+Acc:v # ;                      
+!  +Sg+Gen: # ;  
+!  +Sg+Ill+Attr: # ;                        
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;            
+!  +Sg+Ela:s # ;            
+!  +Sg+Par:t # ;            
+! 
+! LEXICON ẈG-LÅK-GÁVTSI-   !!= * __@CODE@__       
+!  +Sg+Com:jn # ;           
+!                            
+!                            
+! LEXICON ẈG-LÅK-GÁKTSA-   !!= * __@CODE@__            
+!  +Sg+Nom:%>a # ;  
+!  +Sg+Nom:%>e # ;                        
+!  +Sg+Ill:á%>j # ;            
+!  +Ess:e%>n # ;     
+! 
+! 
+! LEXICON ÅKKTJÅ   !!= * __@CODE@__
+! +Num+Sg+Nom:å # ;
+!                    AKTSE ;
+! LEXICON AKTSE   !!= * __@CODE@__           
+! +Num:e^WG%> AVTSE- ;          
+! +Num:i^WG%> AVTSI- ;          
+! +Num: AKTS- ;            
+! 
+! LEXICON AVTSE-   !!= * __@CODE@__
+!  +Sg+Acc:v # ;                   
+!  +Sg+Gen: # ;  
+!  +Sg+Ill+Attr: # ;                
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;        
+!  +Sg+Ela:s # ;        
+!  +Sg+Par:t # ;        
+!  +Pl+Nom: # ;         
+! 
+! LEXICON AVTSI-   !!= * __@CODE@__        
+!  +Sg+Com:jn # ;       
+!  +Pl+Gen:j # ;        
+!  +Pl+Acc:jt # ;       
+!  +Pl+Ill:jda # ;      
+!  +Pl+Ine:jn # ;       
+!  +Pl+Ela:js # ;       
+!  +Pl+Com:j # ;        
+!                        
+!                    
+! LEXICON AKTS-   !!= * __@CODE@__          
+!  +Sg+Nom:e%> # ;         
+!  +Sg+Ill:á%>j # ;        
+!  +Ess:e%>n # ;       
+! 
+! LEXICON ẈG-LÅK-AKTSE   !!= * __@CODE@__           
+! +Num:e^WG%> ẈG-LÅK-AVTSE- ;          
+! +Num:i^WG%> ẈG-LÅK-AVTSI- ;          
+! +Num: ẈG-LÅK-AKTS- ;            
+! 
+! LEXICON ẈG-LÅK-AVTSE-   !!= * __@CODE@__
+!  +Sg+Acc:v # ;                   
+!  +Sg+Gen: # ; 
+!  +Sg+Ill+Attr: # ;                        
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;        
+!  +Sg+Ela:s # ;        
+!  +Sg+Par:t # ;        
+!  +Pl+Nom: # ;         
+! 
+! LEXICON ẈG-LÅK-AVTSI-   !!= * __@CODE@__        
+!  +Sg+Com:jn # ;       
+!  +Pl+Gen:j # ;        
+!  +Pl+Acc:jt # ;       
+!  +Pl+Ill:jda # ;      
+!  +Pl+Ine:jn # ;       
+!  +Pl+Ela:js # ;       
+!  +Pl+Com:j # ;        
+!                        
+!                    
+! LEXICON ẈG-LÅK-AKTS-   !!= * __@CODE@__          
+!  +Sg+Nom:e%> # ;                   
+!  +Sg+Ill:á%>j # ;        
+!  +Ess:e%>n # ;
+! 
+!  !lagt in lugi Ann-Ch      
+! 
+! LEXICON LÅGEV   !!= * __@CODE@__               
+! +Num:e^WG%> LÅGE- ;   
+! +Num:i^WG%> LÅGI- ;   
+! +Num: LÅHK- ;    
+!                   
+! LEXICON LÅGE-   !!= * __@CODE@__     
+!  +Sg+Nom:v # ;   
+!  +Sg+Acc:v # ;   
+!  +Sg+Gen: # ;
+!  +Sg+Ill+Attr: # ;                             
+!  +Sg+Gen: NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n # ;   
+!  +Sg+Ela:s # ;   
+!  +Sg+Par:t # ;   
+!  +Pl+Nom: # ;    
+! 
+! LEXICON LÅGI-   !!= * __@CODE@__     
+!  +Sg+Com:jn # ;  
+!  +Pl+Gen:j # ;   
+!  +Pl+Acc:jt # ;  
+!  +Pl+Ill:jda # ; 
+!  +Pl+Ine:jn # ;  
+!  +Pl+Ela:js # ;  
+!  +Pl+Com:j # ;   
+!                   
+!                   
+! LEXICON LÅHK-   !!= * __@CODE@__     
+!  +Sg+Ill:å%>j # ;   
+!  +Ess:e%>n # ;      
+!                   
+!                   
+! LEXICON AKTALÅGENAN   !!= * __@CODE@__ 
+! +Num:%> AKTALÅGENAN-NIE ; 
+! +Num:^WG%> AKTALÅGENAN-OBL ;     
+!                   
+! LEXICON AKTALÅGENAN-NIE   !!= * __@CODE@__   
+!  +Sg+Nom:#lågenan%> # ;    
+!  +Sg+Ill:j#lågenan%> # ;      
+!  +Ess:n#lågenan%> # ;       
+!                   
+! LEXICON AKTALÅGENAN-OBL   !!= * __@CODE@__   
+!  +Sg+Gen:#lågenan%> # ;
+!  +Sg+Ill+Attr:#lågenan%> # ;          
+!  +Sg+Gen:#lågenan%> NUMERALCOMPOUNDS ;
+!  +Sg+Acc:v#lågenan%> # ;
+!  +Sg+Ine:n#lågenan%> # ;
+!  +Sg+Ela:s#lågenan%> # ;
+!  +Sg+Com:jn#lågenan%> # ;
+!  +Sg+Par:t#lågenan%> # ;
+!  +Pl+Nom:#lågenan%> # ;
+!  +Pl+Gen:j#lågenan%> # ;
+!  +Pl+Acc:jt#lågenan%> # ;
+!  +Pl+Ill:jda#lågenan%> # ;
+!  +Pl+Ine:jn#lågenan%> # ;
+!  +Pl+Ela:js#lågenan%> # ;
+!  +Pl+Com:j#lågenan%> # ;
+! 
+!  !varför ska åvtålågenan vara med
+! 
+! !LEXICON ÅVTÅLÅGENAN   !!= * __@CODE@__                  
+! !+Num+Sg+Gen:%>#lågenan%> # ;
+! !+Num+Sg+Ill+Attr:%>#lågenan%> # ;                        
+! !+Num+Sg+Gen:%>#lågenan%> NUMERALCOMPOUNDS ;
+! !+Num+Sg+Acc:%>v#lågenan%> # ;            
+! !+Num+Sg+Ine:%>n#lågenan%> # ;            
+! !+Num+Sg+Ela:%>s#lågenan%> # ;            
+! !+Num+Sg+Com:%>jn#lågenan%> # ;           
+! !+Num+Sg+Par:%>t#lågenan%> # ;            
+! !+Num+Pl+Nom:%>#lågenan%> # ;             
+! !+Num+Pl+Gen:%>j#lågenan%> # ;            
+! !+Num+Pl+Acc:%>jt#lågenan%> # ;           
+! !+Num+Pl+Ill:%>jda#lågenan%> # ;          
+! !+Num+Pl+Ine:%>jn#lågenan%> # ;           
+! !+Num+Pl+Ela:%>js#lågenan%> # ;           
+! !+Num+Pl+Com:%>j#lågenan%> # ;            
+!                                      
+! LEXICON GUOKTALÅGENAN   !!= * __@CODE@__                
+! +Num: GUOVTELÅGENAN ;              
+! +Num: GUOKT-LÅGENAN ;                
+!                                      
+! LEXICON GUOVTELÅGENAN   !!= * __@CODE@__    
+!  +Sg+Acc:e^WG%>v#lågenan%> # ;                          
+!  +Sg+Gen:e^WG%>#lågenan%> # ;
+!  +Sg+Ill+Attr:e^WG%>#lågenan%> # ;                              
+!  +Sg+Gen:e^WG%>#lågenan%> NUMERALCOMPOUNDS ;
+!  +Sg+Ine:e^WG%>n#lågenan%> # ;              
+!  +Sg+Ela:e^WG%>s#lågenan%> # ;              
+!  +Sg+Com:i^WG%>jn#lågenan%> # ;             
+!  +Sg+Par:e^WG%>t#lågenan%> # ;              
+!  +Pl+Nom:e^WG%>#lågenan%> # ;               
+!  +Pl+Gen:i^WG%>j#lågenan%> # ;              
+!  +Pl+Acc:i^WG%>jt#lågenan%> # ;             
+!  +Pl+Ill:i^WG%>jda#lågenan%> # ;            
+!  +Pl+Ine:i^WG%>jn#lågenan%> # ;             
+!  +Pl+Ela:i^WG%>js#lågenan%> # ;             
+!  +Pl+Com:i^WG%>j#lågenan%> # ;              
+!                                      
+! LEXICON GUOKT-LÅGENAN   !!= * __@CODE@__                
+!  +Sg+Nom:a%>#lågenan%> # ;          
+!  +Ess:guäkkte%>n#lågenan%> # ;
+! 
+!  !guakktalågenan osv. med kasus fungerar ej, sätta in vokal kanske                           
+!                                      
+! LEXICON GÅLMMÅLÅGENAN   !!= * __@CODE@__                
+! +Num:%> GÅLMMÅLÅGENAN-NAIE ;           
+! +Num:^WG%> GÅLMMÅLÅGENAN-OBL ;          
+!                                      
+! LEXICON GÅLMMÅLÅGENAN-NAIE   !!= * __@CODE@__           
+!  +Sg+Nom:#lågenan%> # ;                
+!  +Sg+Acc:#lågenan%> # ;                
+!  +Sg+Ill:j#lågenan%> # ;               
+!  +Ess:n#lågenan%> # ;                  
+!                                      
+! LEXICON GÅLMMÅLÅGENAN-OBL   !!= * __@CODE@__ 
+!  +Sg+Acc:v#lågenan%> # ;                          
+!  +Sg+Gen:#lågenan%> # ;
+!  +Sg+Ill+Attr:#lågenan%> # ;                                 
+!  +Sg+Gen:#lågenan%> NUMERALCOMPOUNDS ;
+!  +Sg+Ine:n#lågenan%> # ;               
+!  +Sg+Ela:s#lågenan%> # ;               
+!  +Sg+Com:jn#lågenan%> # ;              
+!  +Sg+Par:t#lågenan%> # ;               
+!  +Pl+Nom:#lågenan%> # ;                
+!  +Pl+Gen:j#lågenan%> # ;               
+!  +Pl+Acc:jt#lågenan%> # ;              
+!  +Pl+Ill:jda#lågenan%> # ;             
+!  +Pl+Ine:jn#lågenan%> # ;              
+!  +Pl+Ela:js#lågenan%> # ;              
+!  +Pl+Com:j#lågenan%> # ;               
+!                                      
+! LEXICON GIETJAVLÅGENAN   !!= * __@CODE@__               
+! +Num:%> GIETJAVLÅGENAN-IE ;            
+! +Num:^WG%> GIETJAVLÅGENAN-OBL ;         
+!                                      
+! LEXICON GIETJAVLÅGENAN-IE   !!= * __@CODE@__ 
+!  +Ill:j#lågenan%> # ;          
+!  +Ess:n#lågenan%> # ;
+!  +Sg+Nom:#lågenan%> # ;               
+!                  
+!                                      
+! LEXICON GIETJAVLÅGENAN-OBL   !!= * __@CODE@__           
+!  +Sg+Nom:v#lågenan%> # ;  
+!  +Sg+Nom:#lågenan%> # ;                            
+!  +Sg+Gen:#lågenan%> # ; 
+!  +Sg+Ill+Attr:#lågenan%> # ;                               
+!  +Sg+Gen:#lågenan%> NUMERALCOMPOUNDS ;
+!  +Sg+Acc:v#lågenan%> # ;               
+!  +Sg+Ine:n#lågenan%> # ;               
+!  +Sg+Ela:s#lågenan%> # ;               
+!  +Sg+Com:jn#lågenan%> # ;              
+!  +Sg+Par:t#lågenan%> # ;               
+!  +Pl+Nom:#lågenan%> # ;                
+!  +Pl+Gen:j#lågenan%> # ;               
+!  +Pl+Acc:jt#lågenan%> # ;              
+!  +Pl+Ill:jda#lågenan%> # ;             
+!  +Pl+Ine:jn#lågenan%> # ;              
+!  +Pl+Ela:js#lågenan%> # ;              
+!  +Pl+Com:j#lågenan%> # ;               
+!                                      
+! LEXICON GÁKTSALÅGENAN   !!= * __@CODE@__                
+! +Num: GÁVTSELÅGENAN ;              
+! +Num: GÁKTS-LÅGENAN ;                
+!                                      
+! LEXICON GÁVTSELÅGENAN   !!= * __@CODE@__   
+!  +Sg+Acc:e^WG%>v#lågenan%> # ;                           
+!  +Sg+Gen:e^WG%>#lågenan%> # ;
+!  +Sg+Ill+Attr:e^WG%>#lågenan%> # ;                              
+!  +Sg+Gen:e^WG%>#lågenan%> NUMERALCOMPOUNDS ;
+!  +Sg+Ine:e^WG%>n#lågenan%> # ;              
+!  +Sg+Ela:e^WG%>s#lågenan%> # ;              
+!  +Sg+Com:i^WG%>jn#lågenan%> # ;             
+!  +Sg+Par:e^WG%>t#lågenan%> # ;              
+!  +Pl+Nom:e^WG%>#lågenan%> # ;               
+!  +Pl+Gen:i^WG%>j#lågenan%> # ;              
+!  +Pl+Acc:i^WG%>jt#lågenan%> # ;             
+!  +Pl+Ill:i^WG%>jda#lågenan%> # ;            
+!  +Pl+Ine:i^WG%>jn#lågenan%> # ;             
+!  +Pl+Ela:i^WG%>js#lågenan%> # ;             
+!  +Pl+Com:i^WG%>j#lågenan%> # ;              
+!                                      
+! LEXICON GÁKTS-LÅGENAN   !!= * __@CODE@__                
+!  +Sg+Nom:a%>#lågenan%> # ;          
+!  +Sg+Nom:e%>#lågenan%> # ;                    
+!  +Sg+Acc:a%>#lågenan%> # ;               
+!  +Sg+Ill:á%>j#lågenan%> # ;
+!  +Ess:a%>n#lågenan%> # ;      
+!  +Ess:e%>n#lågenan%> # ;                 
+!           
+!                                      
+! LEXICON AKTSELÅGENAN   !!= * __@CODE@__                 
+! +Num: AVTSELÅGENAN ;               
+! +Num: AKTS-LÅGENAN ;                 
+!                                      
+! LEXICON AVTSELÅGENAN   !!= * __@CODE@__
+!  +Sg+Acc:e^WG%>v#lågenan%> # ;                               
+!  +Sg+Gen:e^WG%>#lågenan%> # ; 
+!  +Sg+Ill+Attr:e^WG%>#lågenan%> # ;                             
+!  +Sg+Gen:e^WG%>#lågenan%> NUMERALCOMPOUNDS ;
+!  +Sg+Ine:e^WG%>n#lågenan%> # ;              
+!  +Sg+Ela:e^WG%>s#lågenan%> # ;              
+!  +Sg+Com:i^WG%>jn#lågenan%> # ;             
+!  +Sg+Par:e^WG%>t#lågenan%> # ;              
+!  +Pl+Nom:e^WG%>#lågenan%> # ;               
+!  +Pl+Gen:i^WG%>j#lågenan%> # ;              
+!  +Pl+Acc:i^WG%>jt#lågenan%> # ;             
+!  +Pl+Ill:i^WG%>jda#lågenan%> # ;            
+!  +Pl+Ine:i^WG%>jn#lågenan%> # ;             
+!  +Pl+Ela:i^WG%>js#lågenan%> # ;             
+!  +Pl+Com:i^WG%>j#lågenan%> # ;              
+!                                      
+! LEXICON AKTS-LÅGENAN   !!= * __@CODE@__                 
+!  +Sg+Nom:e%>#lågenan%> # ;               
+!  +Sg+Acc:e%>#lågenan%> # ;               
+!  +Sg+Ill:á%>j#lågenan%> # ;              
+!  +Ess:e%>n#lågenan%> # ;                 
+!                                      
+! LEXICON TJUOHTECASE   !!= * __@CODE@__          
+!  +Num:e^WG%> TJUODE- ;                    
+!  +Num:i^WG%> TJUODI- ;                    
+! ! +Num: TJUOHT- ;                      
+!                                      
+! LEXICON TJUODE-   !!= * __@CODE@__                      
+!  +Sg+Acc:v # ;                      
+!  +Sg+Gen: # ;  
+!  +Sg+Ill+Attr: # ;                                            
+!  +Sg+Ine:n # ;                      
+!  +Sg+Ela:s # ;                      
+!  +Sg+Par:t # ;                      
+!  +Pl+Nom: # ;                       
+! 
+! LEXICON TJUODI-   !!= * __@CODE@__                     
+!  +Pl+Gen:j # ;                      
+!  +Sg+Com:jn # ;                     
+!  +Pl+Acc:jt # ;                     
+!  +Pl+Ill:jda # ;                    
+!  +Pl+Ine:jn # ;                     
+!  +Pl+Ela:js # ;                     
+!  +Pl+Com:j # ;                      
+!                                      
+! !LEXICON TJUOHT-                      
+! ! +Sg+Nom:%>e # ;                       
+! ! +Ess:e%>n # ;                         
+! ! +Sg+Ill:á%>j # ;                      
+! 
+! LEXICON ẈG-LÅK-TJUOHTECASE   !!= * __@CODE@__          
+!  +Num:e^WG%> ẈG-LÅK-TJUODE- ;                    
+!                                      
+! LEXICON ẈG-LÅK-TJUODE-   !!= * __@CODE@__                      
+!  +Sg+Acc:v # ;                      
+!  +Sg+Gen: # ;                       
+!  +Sg+Ine:n # ;                      
+! 
+! 
+! LEXICON TUVSÁN				   !!= * __@CODE@__
+!  +Num+Sg+Nom:%> # ;         
+!  +Num+Sg+Gen:%>a # ;        
+!  +Num+Sg+Attr:%> NUMERALCOMPOUNDS ;
+!  +Num+Sg+Acc:%>av # ;           
+!  +Num+Sg+Ill:%>ij # ;   
+!  +Num+Sg+Ine:%>in # ;          
+!  +Num+Sg+Ela:%>is # ;           
+!  +Num+Sg+Com:%>ijn # ;           
+!  +Num+Ess:%>in # ;                 
+!  +Num+Pl+Nom:%>a # ;                
+!  +Num+Pl+Gen:%>ij # ;             
+!  +Num+Pl+Acc:%>ijt # ;             
+!  +Num+Pl+Ill:%>ijda # ;             
+!  +Num+Pl+Ine:%>ijn # ;               
+!  +Num+Pl+Ela:%>ijs # ;                
+!  +Num+Pl+Com:%>ij # ;                
+! 
+! LEXICON WG-LÅK-TUVSÁN				   !!= * __@CODE@__
+!  +Num+Sg+Gen:%>a # ;        
+!  +Num+Sg+Attr:%> NUMERALCOMPOUNDS ;
+!  +Num+Sg+Acc:%>av # ;           
+!  +Num+Sg+Ill:%>ij # ;   
+!  +Num+Sg+Ine:%>in # ;          
+!  +Num+Sg+Ela:%>is # ;           
+!  +Num+Sg+Com:%>ijn # ;           
+!  +Num+Ess:%>in # ;                 
+! 
+! LEXICON WG-TUVSÁN				   !!= * __@CODE@__
+!  +Num+Sg+Gen:%>a # ;        
+!  +Num+Sg+Attr:%> NUMERALCOMPOUNDS ;
+!  +Num+Sg+Acc:%>av # ;           
+!  +Num+Sg+Ill:%>ij # ;   
+!  +Num+Sg+Ine:%>in # ;          
+! 
+! LEXICON NUMERALCOMPOUNDS   !!= * __@CODE@__  numeral as first part
+!  NAMÁK ;			   ! tuvsánjienat, logigielat, etc.
+!  SASJ ;
+! ! NounSecond ;	! golmmačiegahas	
+! ! geardásaš:geardás DABALAS ;	  
+! ! !tuvsán#geardásaš
+! ! jahkásaš:jahkás DABALAS ;
+! 
+! 
+! ! Ordinal numbers
+! ! ---------------
+! 
+! 
+! LEXICON VUOSTASJ   !!= * __@CODE@__      				
+!  +Sg+Nom:%> # ;         
+!  +Sg+Gen:%>a # ;        
+!  +Sg+Acc:%>av # ;           
+!  +Sg+Ill:%>ij # ;  
+!  +Sg+Ine:%>in # ;          
+!  +Sg+Ela:%>is # ;           
+!  +Sg+Com:%>ijn # ;           
+!  +Ess:%>in # ;                 
+!  +Pl+Nom:%>a # ;                
+!  +Pl+Gen:%>ij # ;             
+!  +Pl+Acc:%>ijt # ;             
+!  +Pl+Ill:%>ijda # ;             
+!  +Pl+Ine:%>ijn # ;               
+!  +Pl+Ela:%>ijs # ;                
+!  +Pl+Com:%>ij # ;                
+!  +Attr:%> # ;					
+!  +Cmp/SgNom: R ;
+! 
+! LEXICON TUVSÁNAT				   !!= * __@CODE@__
+!  +Sg+Nom:t%> # ;         
+!  +Sg+Gen:tta%> # ;        
+!  +Sg+Acc:tta%>v # ;           
+!  +Sg+Ill:dda%>j # ;  
+!  +Sg+Ine:tta%>n # ;          
+!  +Sg+Ela:tta%>s # ;           
+!  +Sg+Com:tta%>jn # ;           
+!  +Ess:dda%>n # ;                 
+!  +Pl+Nom:tta%> # ;                
+!  +Pl+Gen:tta%>j # ;             
+!  +Pl+Acc:tta%>jt # ;             
+!  +Pl+Ill:tta%>jda # ;             
+!  +Pl+Ine:tta%>jn # ;               
+!  +Pl+Ela:tta%>js # ;                
+!  +Pl+Com:tta%>j # ;                
+!  +Attr:t%> # ;					
+! 
+! ! Collection numbers
+! ! ---------------
+! 
+! LEXICON GUOVTES   !!= * __@CODE@__          
+!  +Sg+Gen:á%> # ;         
+!  +Sg+Acc:á%>v # ;                
+!  +Sg+Ill:á%>j # ;                    
+!  +Sg+Ine:á%>n # ;                
+!  +Sg+Ela:á%>s # ;                
+!  +Sg+Com:á%>jn # ;                   
+!  +Ess:á%>n # ;                   
+!  +Pl+Nom:á%> # ;                 
+!  +Pl+Gen:á%>j # ;                
+!  +Pl+Acc:á%>jt # ;               
+!  +Pl+Ill:á%>jda # ;                  
+!  +Pl+Ine:á%>jn # ;                       
+!  +Pl+Ela:á%>js # ;                       
+!  +Pl+Com:á%>j # ;                        
+!  +Sg+Nom:á%> PxV ;    
+!  +Sg+Gen:á%> PxV ;    
+!  +Sg+Acc:á%> PxV ;    
+!  +Sg+Ill:á%>s PxCi ;     
+!  +Sg+Ine:á%>n PxC ;     
+!  +Sg+Ela:á%>st PxC ;    
+!  +Sg+Com:á%>jn PxC ;     
+!  +Pl+Gen:á%>j PxC ;     
+!  +Pl+Acc:á%>jd PxC ;    
+!  +Pl+Ill:á%>jdis PxC ;       
+!  +Pl+Ine:á%>jn PxC ;    
+!  +Pl+Ela:á%>jst PxC ;       
+!  +Pl+Com:á%>j PxC ;     
+! 
+! 
+! LEXICON VIDÁS   !!= * __@CODE@__          
+!  +Sg+Gen:%>a # ;         
+!  +Sg+Acc:%>av # ;                
+!  +Sg+Ill:%>ij # ;                    
+!  +Sg+Ine:%>in # ;                
+!  +Sg+Ela:%>is # ;                
+!  +Sg+Com:%>ijn # ;                   
+!  +Ess:%>in # ;                   
+!  +Pl+Nom:%>a # ;                 
+!  +Pl+Gen:%>ij # ;                
+!  +Pl+Acc:%>ijt # ;               
+!  +Pl+Ill:%>ijda # ;                  
+!  +Pl+Ine:%>ijn # ;                       
+!  +Pl+Ela:%>ijs # ;                       
+!  +Pl+Com:%>ij # ;                        
+!  +Sg+Nom:%> PxC ;    
+!  +Sg+Gen:%> PxC ;    
+!  +Sg+Acc:%> PxC ;    
+!  +Sg+Ill:%>as PxCs ;     
+!  +Sg+Ine:%>in PxCs ;     
+!  +Sg+Ela:%>ist PxCs ;    
+!  +Sg+Com:%>ijn PxCs;     
+!  +Pl+Gen:%>ij PxCs ;     
+!  +Pl+Acc:%>ijd PxCs ;    
+!  +Pl+Ill:%>ijdas PxC ;       
+!  +Pl+Ine:%>ijn PxCs ;    
+!  +Pl+Ela:%>ijst PxCs ;       
+!  +Pl+Com:%>ij PxCs ;     
+! 
+! 
+! LEXICON VIDÁSLÅGENAN   !!= * __@CODE@__                       
+!  +Sg+Gen:%>a#lågenan%> # ;     
+!  +Sg+Acc:%>av#lågenan%> # ;
+!  +Sg+Ill:%>ij#lågenan%> # ;      
+!  +Sg+Ine:%>in#lågenan%> # ;
+!  +Sg+Ela:%>is#lågenan%> # ;
+!  +Sg+Com:%>ijn#lågenan%> # ;
+!  +Sg+Par:%>it#lågenan%> # ;
+!  +Pl+Nom:%>a#lågenan%> # ;                     
+!  +Pl+Gen:%>ij#lågenan%> # ;            
+!  +Pl+Acc:%>ijt#lågenan%> # ;               
+!  +Pl+Ill:%>ijda#lågenan%> # ;              
+!  +Pl+Ine:%>ijn#lågenan%> # ;                   
+!  +Pl+Ela:%>ijs#lågenan%> # ;                       
+!  +Pl+Com:%>ij#lågenan%> # ;                    
+! 
+! !LEXICON TJUODAGIS   !!= * __@CODE@__                      
+! ! +Sg+Nom:%> # ;                         
+! ! +Sg+Ill:sa%>j # ;                                      
+! ! +Sg+Gen:á%> # ;                         
+! ! +Sg+Acc:á%>v # ;                        
+! ! +Sg+Ine:á%>n # ;                        
+! ! +Sg+Ela:á%>s # ;                                    
+! ! +Pl+Nom:á%> # ;                                 
+! ! +Pl+Gen:á%>j # ;                                        
+! ! +Pl+Acc:á%>jt # ;                           
+! ! +Pl+Ill:á%>jda # ;                      
+! ! +Pl+Ine:á%>jn # ;                                   
+! ! +Pl+Ela:á%>js # ;                               
+! ! +Pl+Com:á%>j # ;                                    
+! ! +Sg+Com:á%>jn # ;                           
+! ! +Sg+Nom:á%> PxV ;       
+! ! +Sg+Ill:sa%>s PxCi ;     
+! ! +Sg+Gen:á%> PxV ;       
+! ! +Sg+Acc:á%> PxV ;       
+! ! +Sg+Ine:á%>n PxC ;      
+! ! +Sg+Ela:á%>st PxC ;     
+! ! +Pl+Nom:á%> PxNomPlV ;      
+! ! +Pl+Gen:á%>j PxC ;      
+! ! +Pl+Acc:á%>jd PxC ;     
+! ! +Pl+Ill:á%>jdis PxCs ;      
+! ! +Pl+Ine:á%>jn PxC ;     
+! ! +Pl+Ela:á%>jst PxC ;    
+! ! +Pl+Com:á%>j PxC ;      
+! ! +Sg+Com:á%>jn PxC ;       
+! 
+! 
+! 
+! ! Imprecise numbers
+! ! -----------------
+! 
+! LEXICON num-imprecise   !!= * __@CODE@__
+! galla+Num: gallacase ;
+! 
+! !galla+Num+Sg+Nom:galla%> # ;
+! !galli+Num:galli gallicase ;
+! !galla+Num+Sg+Nom:galla%> # ;
+! !galla+Num+Sg+Ill:gallá%>j # ;
+! !galla+Num:gall nubbecase ;
+! máŋŋga+Num+Sg+Nom:máŋŋga%> # ;
+! máŋŋga+Num+Sg+Acc:máŋŋga%> # ;
+! máŋŋga+Num+Sg+Ill:máŋŋga%>j # ;
+! máŋŋga+Num:máŋga máŋŋgacase ;
+! moadda+Num+Sg+Nom:moadda%> # ;
+! moadda+Num+Pl+Acc:måtti%>jt # ;
+! máŋŋga+Num+Sg+Com:máŋga%>jn # ;
+! moadda+Num+Sg+Com:måtti%>jn # ;
+! moadda+Num+Sg+Ill:moadda%>j # ;
+! moadda+Num:moatte máŋŋgacase ;
+! moadda+Num+Sg+Acc:moadda%> # ;
+! ållo+Num+Sg+Nom:ållo%> # ;
+! ållo+Num+Sg+Attr:ållo%> NAMÁK ;
+! ållo+Num+Sg+Ill:ållu%>j # ;
+! ållo+Num:ålo ållocase ;
+! biel#nup+A+Ord+Sg+Nom:biel#nup%> # ;				
+! biel#nup+A+Ord+Sg+Gen:biel#nup%> # ;				
+! biel#nup+A+Ord+Sg+Acc:biel#nup%> # ;				
+! biel#nup#+A+Ord+Sg+Attr:biel#nup%># SASJ ;
+! bielle#nup+A+Ord+Sg+Nom:bielle#nup%> # ;				
+! bielle#nup+A+Ord+Sg+Gen:bielle#nup%> # ;				
+! bielle#nup+A+Ord+Sg+Acc:bielle#nup%> # ;				
+! bielle#nup#+A+Ord+Sg+Attr:bielle#nup%># SASJ ;								
+! biel#goalmát+A+Ord:biel#goalmád2 VUOSTASJ ; 
+! bielle#goalmát+A+Ord:bielle#goalmád2 VUOSTASJ ;             
+! biel#nælját+A+Ord:biel#næljád2 VUOSTASJ ;      
+! bielle#nælját+A+Ord:bielle#næljád2 VUOSTASJ ;        
+! biel#vidát+A+Ord:biel#vidád2 VUOSTASJ ;       
+! bielle#vidát+A+Ord:bielle#vidád2 VUOSTASJ ;
+! biel#gudát+A+Ord:biel#gudád2 VUOSTASJ ;   
+! bielle#gudát+A+Ord:bielle#gudád2 VUOSTASJ ;           
+! biel#giehttjit+A+Ord:biel#giehttjid2 VUOSTASJ ;   
+! bielle#giehttjit+A+Ord:bielle#giehttjid2 VUOSTASJ ;             
+! biel#gávtsát+A+Ord:biel#gávtsád2 VUOSTASJ ;   
+! bielle#gávtsát+A+Ord:bielle#gávtsád2 VUOSTASJ ;         
+! biel#avtsát+A+Ord:biel#avtsád2 VUOSTASJ ; 
+! bielle#avtsát+A+Ord:bielle#avtsád2 VUOSTASJ ;             
+! biel#lågåt+A+Ord:biel#lågåd2 VUOSTASJ ;	
+! bielle#lågåt+A+Ord:bielle#lågåd2 VUOSTASJ ;			 		
+! biel#goalmát+A+Ord+Attr:biel#goalmád2%> SASJ ;       
+! biel#nælját+A+Ord+Attr:biel#næljád2%> SASJ ;       
+! biel#vidát+A+Ord+Attr:biel#vidád2%> SASJ ;       
+! biel#gudát+A+Ord+Attr:biel#gudád2%> SASJ ;       
+! biel#giehttjit+A+Ord+Attr:biel#giehttjid2%> SASJ ;        
+! biel#gávtsát+A+Ord+Attr:biel#gávtsád2%> SASJ ;      
+! biel#avtsát+A+Ord+Attr:biel#avtsád2%> SASJ ;       
+! biel#lågåt+A+Ord+Attr:biel#lågåd2%> SASJ ;
+! bielle#goalmát+A+Ord+Attr:bielle#goalmád2%> SASJ ;       
+! bielle#nælját+A+Ord+Attr:bielle#næljád2%> SASJ ;       
+! bielle#vidát+A+Ord+Attr:bielle#vidád2%> SASJ ;       
+! bielle#gudát+A+Ord+Attr:bielle#gudád2%> SASJ ;       
+! bielle#giehttjit+A+Ord+Attr:bielle#giehttjid2%> SASJ ;        
+! bielle#gávtsát+A+Ord+Attr:bielle#gávtsád2%> SASJ ;      
+! bielle#avtsát+A+Ord+Attr:bielle#avtsád2%> SASJ ;       
+! bielle#lågåt+A+Ord+Attr:bielle#lågåd2%> SASJ ;
+! biel#nubbe+A+Ord:biel#nupp nubbecase ;		
+! biel#nubbe+A+Ord+Sg+Nom:biel#nubbe%> # ;        
+! biel#nubbe+A+Ord+Ess:biel#nubbe%>n # ;         
+! biel#nubbe+A+Ord+Sg+Ill:biel#nubbá%>j # ;
+! bielle#nubbe+A+Ord:bielle#nupp nubbecase ;       
+! bielle#nubbe+A+Ord+Sg+Nom:bielle#nubbe%> # ;
+! bielle#nubbe+A+Ord+Ess:bielle#nubbe%>n # ;
+! bielle#nubbe+A+Ord+Sg+Ill:bielle#nubbá%>j # ;			
+! 
+! 
+! !LEXICON num-imprecise-distribution		
+! !NUPPELOHKAIGENERATOR ;  ! máŋga#nuppe#lohkái, máŋga
+! !LOGIF ;        ! máŋga#logi, máŋga#lot		 
+! !CUODI ;        ! máŋga#čuođi			 
+! !NL ;           ! máŋga#nuppe#lohkái#duhát		 
+! !O-NL ;         ! máŋga#nuppe#lohkái#duhát		 
+! !O-LOGIF ;      ! máŋga#logi#duhát			 
+! !JUSTTUVSÁN ;   ! máŋga#duhát			 
+! !O-CUODI ;      ! máŋga#duhát			 
+! 
+! LEXICON máŋŋgacase   !!= * __@CODE@__          
+!  +Sg+Gen:%> # ;
+!  +Sg+Ill+Attr:%> # ;
+!  +Sg+Gen:%> NUMERALCOMPOUNDS ;               
+!  +Sg+Acc:%>v # ;     
+!  +Sg+Ela:%>s # ;     
+!  +Sg+Ine:%>n # ;  
+!  +Sg+Par:%>t # ;    
+! 
+! LEXICON ållocase   !!= * __@CODE@__          
+!  +Sg+Gen:%> # ;
+!  +Sg+Ill+Attr:%> # ;
+!  +Sg+Acc:%>v # ;     
+!  +Sg+Ela:%>s # ;     
+!  +Sg+Ine:%>n # ;  
+!  +Sg+Com:%>jn # ;        
+!  +Sg+Par:%>t # ;
+!  +Pl+Nom:%> # ;
+!  +Pl+Gen:%>j # ;
+!  +Pl+Acc:%>jt # ;     
+!  +Pl+Ela:%>js # ;     
+!  +Pl+Ine:%>jn # ;  
+!  +Pl+Com:%>j # ;        
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+! ! Arabic numerals
+! ! ---------------
+! 
+! 
+! LEXICON NUM-PREFIXES   !!= * __@CODE@__
+!  §+Use/Circ:§       ARABIC ; ! §24
+!  §§+Use/Circ:§§     ARABIC ; ! §§24
+!  §% +Use/Circ:§%    ARABIC ; ! § 24
+!  §§% +Use/Circ:§§%  ARABIC ; ! §§ 24
+!  %-+Use/Circ:%- ARABIC ; ! -24
+!  %‒+Use/Circ:%‒ ARABIC ; ! -24 U+2012
+!  %–+Use/Circ:%– ARABIC ; ! -24 U+2013
+!  %—+Use/Circ:%— ARABIC ; ! -24 U+2014
+!  %―+Use/Circ:%― ARABIC ; ! -24 U+2015
+!  %++Use/Circ:%+ ARABIC ; ! <plus>24
+!  %-% +Use/Circ:%-%  ARABIC ; ! - 24
+!  %‒% +Use/Circ:%‒%  ARABIC ; ! - 24 U+2012
+!  %–% +Use/Circ:%–%  ARABIC ; ! - 24 U+2013
+!  %—% +Use/Circ:%—%  ARABIC ; ! - 24 U+2014
+!  %―% +Use/Circ:%―%  ARABIC ; ! - 24 U+2015
+!  %+% +Use/Circ:%+%  ARABIC ; ! <plus> 24
+!  %*+Use/Circ:%* ARABIC ; ! *24
+!  %$+Use/Circ:%$ ARABIC ; ! $24
+!  %€+Use/Circ:%€ ARABIC ; ! €24
+!  %<+Use/Circ:%[%<%] ARABIC ; ! <24
+!  %>+Use/Circ:%[%>%] ARABIC ; ! >24
+!  s%.+Use/Circ:s%. ARABIC ; ! s.24
+! 	
+! 
+! 
+! LEXICON ARABIC   !!= * __@CODE@__
+! < [1|2|3|4|5|6|7|8|9|%0] > THE_ARABICS ;
+! 
+! LEXICON THE_ARABICS
+!  ARABICLOOP ;
+!  ARABICLOOPORD ;
+!  ARABICLOOPCOLL ;
+! 
+! 
+! LEXICON ARABICLOOP   !!= * __@CODE@__
+!  +Use/Circ: ARABIC ;					!
+!  %-+Use/Circ:%- ARABIC;	      ! 1-2    multipart numbers	!
+!  %–+Use/Circ:%– ARABIC;	      ! 1–2    multipart numbers	!
+!  %—+Use/Circ:%— ARABIC;	      ! 1—2    multipart numbers	!
+!  %.%-+Use/Circ:%.%- ARABIC;	      ! 1.-2   multipart numbers	!
+!  %.%–+Use/Circ:%.%– ARABIC;	      ! 1.–2   multipart numbers	!
+!  %.%—+Use/Circ:%.%— ARABIC;	      ! 1.—2   multipart numbers	!
+!  %-% +Use/Circ:%-%  ARABIC;	      ! 1- 2   multipart numbers	!
+!  %–% +Use/Circ:%–%  ARABIC;	      ! 1– 2   multipart numbers	!
+!  %—% +Use/Circ:%—%  ARABIC;	      ! 1— 2   multipart numbers	!
+!  % %-+Use/Circ:% %- ARABIC;	      ! 1 -2   multipart numbers	!
+!  % %–+Use/Circ:% %– ARABIC;	      ! 1 –2   multipart numbers	!
+!  % %—+Use/Circ:% %— ARABIC;	      ! 1 —2   multipart numbers	!
+!  % %-% +Use/Circ:% %-%  ARABIC;	      ! 1 - 2  multipart numbers	!
+!  % %–% +Use/Circ:% %–%  ARABIC;	      ! 1 – 2  multipart numbers	!
+!  % %—% +Use/Circ:% %—%  ARABIC;	      ! 1 — 2  multipart numbers	!
+!  % %-%-% +Use/Circ:% %-%-%  ARABIC;	      ! 1 -- 2 multipart numbers	!
+!  % %–%–% +Use/Circ:% %–%–%  ARABIC;	      ! 1 –– 2 multipart numbers	!
+!  % %—%—% +Use/Circ:% %—%—%  ARABIC;	      ! 1 —— 2 multipart numbers	!
+!  % %-+Use/Circ:% %- ARABICDELIMITER;   ! 1 -   multipart numbers		!
+!  % %–+Use/Circ:% %– ARABICDELIMITER;   ! 1 –   multipart numbers		!
+!  % %—+Use/Circ:% %— ARABICDELIMITER;   ! 1 —   multipart numbers		!
+!  % %-%-+Use/Circ:% %-%- ARABICDELIMITER;   ! 1 --  multipart numbers		!
+!  % %–%–+Use/Circ:% %–%– ARABICDELIMITER;   ! 1 ––  multipart numbers		!
+!  % %—%—+Use/Circ:% %—%— ARABICDELIMITER;   ! 1 ——  multipart numbers		!
+!  %.+Use/Circ:%. ARABIC;							!
+!  %,+Use/Circ:%, ARABIC;							!
+!  %+Use/Circ: ARABIC ;							!
+!  % +Use/Circ:%  ARABIC;	   ! Allowing for "23 500". !			
+!  +Use/Circ: ARABIC ;	   ! Allowing for "23 500" w/nbsp (initial char is alt-space)	!
+!  %/+Use/Circ:%/ ARABIC;	   ! 24/12			!		
+! !%' ARABIC ;	   ! Since ' denotes cons.grad. This is not optimal either.
+! !+A+Ord:%. # ;
+!  ,%-+Num:,%-       # ; ! 10,-
+!  ,%–+Num:,%–       # ; ! 10,–
+!  ,%—+Num:,%—       # ; ! 10,—
+!  %%+Num+Nom:%%     # ; ! 50%. It is wrong, but 75 % of us write "75%".
+!  % %%+Num+Nom:% %% # ;! We must analyse the correct ones as well... 50 % etc.
+!  +Num: ARABICDELIMITER ; ! list of number-case delimiters
+!  +Num: RHyph  ;          ! Hyphen and +Use/Circ added appropriately in RHyph
+! 
+! LEXICON ARABICLOOPORD   !!= * __@CODE@__
+!  +A+Ord:%. # ;
+!  +A+Ord: ARABICDELIMITERORD ;
+! 
+! LEXICON ARABICLOOPCOLL   !!= * __@CODE@__
+!  +N+Coll: ARABICDELIMITERCOLL ;
+! 
+! 
+! LEXICON ARABICDELIMITER   !!= * __@CODE@__
+!              ARABICCASE0 ; ! This is the 1984 case.
+!  :%:         ARABICCASE  ; ! This is the 1984:s case.
+!  +Err/Orth:   ARABICCASE  ; ! This is the 1984s case.
+!  +Err/Orth:%' ARABICCASE  ; ! This is the 1984's case.
+!  +Err/Orth:%- ARABICCASE  ; ! This is the 1984-s case.
+! 
+! LEXICON ARABICDELIMITERORD   !!= * __@CODE@__
+! ! :          ARABICCASE0   ; ! This is the 1984:s case.
+!  :%:         ARABICCASEORD ; ! This is the 1984:s case.
+!  +Err/Orth:   ARABICCASEORD ; ! This is the 1984s case.
+!  +Err/Orth:%' ARABICCASEORD ; ! This is the 1984's case.
+!  +Err/Orth:%- ARABICCASEORD ; ! This is the 1984-s case.
+! 
+! LEXICON ARABICDELIMITERCOLL   !!= * __@CODE@__
+! !            ARABICCASE0    ; ! This is the 1984 case.
+!  :%:         ARABICCASECOLL ; ! This is the 1984:s case.
+!  +Err/Orth:   ARABICCASECOLL ; ! This is the 1984s case.
+!  +Err/Orth:%' ARABICCASECOLL ; ! This is the 1984's case.
+!  +Err/Orth:%- ARABICCASECOLL ; ! This is the 1984-s case.
+! 
+!                      		
+! LEXICON ARABICCASE0   !!= * __@CODE@__
+!  +Sg+Nom:%> # ;
+!  +Sg+Gen:%> # ;
+!  +Pl+Nom:%> # ;
+! 
+! 
+! LEXICON ARABICCASE   !!= * __@CODE@__
+!   f+Sg+Nom+Err/Orth:f  # ; ! s. 123f.
+!  ff+Sg+Nom+Err/Orth:ff # ; ! s. 123ff.
+!   b+Sg+Nom+Err/Orth:b  # ; ! § 123b
+!   c+Sg+Nom+Err/Orth:c  # ; ! § 123c
+!   d+Sg+Nom+Err/Orth:d  # ; ! § 123d
+!   e+Sg+Nom+Err/Orth:e  # ; ! § 123e
+! 
+!  +Sg+Nom+Err/Orth:    # ;
+!  +Sg+Gen+Err/Orth:    # ;
+! !+Sg+Acc:            # ;
+!  +Sg+Gen+Err/Orth:a   # ; !But here 123a 123
+!  +Sg+Acc+Err/Orth:av  # ;
+!  +Sg+Acc:%>v         # ;
+!  +Sg+Ill:%>j         # ;
+!  +Sg+Ill+Err/Orth:aj  # ;
+!  +Sg+Ela:%>s         # ;
+!  +Sg+Ela+Err/Orth:is  # ;
+!  +Sg+Ela+Err/Orth:as  # ;
+!  +Sg+Ine:%>n         # ;
+!  +Sg+Ine+Err/Orth:in  # ;
+!  +Sg+Ine+Err/Orth:an  # ;
+!  +Sg+Com:%>jn        # ;
+!  +Sg+Com+Err/Orth:ajn # ;
+!  +Ess:%>n            # ;
+!  +Ess+Err/Orth:an     # ;
+!  +Pl+Gen:%>j   # ; !
+!  +Pl+Acc:%>jt  # ; !
+!  +Pl+Ill:%>jda # ; ! 100:iide čuđiide
+!  +Pl+Ine:%>jn  # ; !
+!  +Pl+Ela:%>js  # ; !
+!  +Pl+Com:%>j   # ; !
+! !ordinals
+! 
+! LEXICON ARABICCASEORD   !!= * __@CODE@__
+!  +Sg+Gen:%>da    # ;
+!  +Sg+Acc:%>dav   # ;
+!  +Sg+Ill:%>dij   # ;
+!  +Sg+Ine:%>din   # ;
+!  +Sg+Ela:%>dis   # ;
+!  +Sg+Com:%>dijn  # ;
+!  +Sg+Ess:%>din   # ;
+!  +Pl+Nom:%>da    # ;
+!  +Pl+Gen:%>dij   # ;
+!  +Pl+Acc:%>dijt  # ;
+!  +Pl+Ill:%>dijda # ;
+!  +Pl+Ine:%>dijn  # ;
+!  +Pl+Ela:%>dijs  # ;
+!  +Pl+Com:%>dij   # ;
+! 
+! LEXICON ARABICCASECOLL   !!= * __@CODE@__
+!  +Sg+Gen:%>sa   # ;
+!  +Sg+Acc:%>sav  # ;
+!  +Sg+Ill:%>sij  # ;
+!  +Sg+Ine:%>sin  # ;
+!  +Sg+Ela:%>sis  # ;
+!  +Sg+Com:%>sijn # ;
+! 
+! ! The Roman numerals !
+! ! ------------------ !
+! 
+! LEXICON ROMAN						   !!= * __@CODE@__
+!  +Use/Circ: ROM-THOUSAND ;						!
+!  +Use/Circ: ROM-HUNDRED ;						!
+!  +Use/Circ: ROM-TEN ;							!
+!  +Use/Circ: ROM-ONE ;							!
+! 
+! LEXICON ROM-THOUSAND   !!= * __@CODE@__              	
+!  M+Use/Circ:M ROM-THOUSAND-TAG;				!
+!  MM+Use/Circ:MM ROM-THOUSAND-TAG;				!
+!  MMM+Use/Circ:MMM ROM-THOUSAND-TAG;				!
+!  MMMM+Use/Circ:MMMM ROM-THOUSAND-TAG;			!
+!  MMMMM+Use/Circ:MMMMM ROM-THOUSAND-TAG;			!
+! 
+! LEXICON ROM-THOUSAND-TAG			   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;						!
+!  +Use/Circ: ROM-HUNDRED ;						!
+!  +Use/Circ: ROM-SPLIT	;						!
+! 
+! LEXICON ROM-HUNDRED					   !!= * __@CODE@__
+!  C+Use/Circ:C ROM-HUNDRED-TAG;				!
+!  CC+Use/Circ:CC ROM-HUNDRED-TAG;				!
+!  CCC+Use/Circ:CCC ROM-HUNDRED-TAG;				!
+!  CD+Use/Circ:CD ROM-HUNDRED-TAG;				!
+!  D+Use/Circ:D ROM-HUNDRED-TAG;				!
+!  DC+Use/Circ:DC ROM-HUNDRED-TAG;				!
+!  DCC+Use/Circ:DCC ROM-HUNDRED-TAG;				!
+!  DCCC+Use/Circ:DCCC ROM-HUNDRED-TAG;				!
+!  CM+Use/Circ:CM ROM-HUNDRED-TAG;				!
+! 
+! LEXICON ROM-HUNDRED-TAG				   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;						!
+!  +Use/Circ: ROM-TEN ;							!
+!  +Use/Circ: ROM-SPLIT ;						!
+! 
+! LEXICON ROM-TEN						   !!= * __@CODE@__
+!  X+Use/Circ:X ROM-TEN-TAG;					!
+!  XX+Use/Circ:XX ROM-TEN-TAG;					!
+!  XXX+Use/Circ:XXX ROM-TEN-TAG;					!
+!  XL+Use/Circ:XL ROM-TEN-TAG;					!
+!  L+Use/Circ:L ROM-TEN-TAG;					!
+!  LX+Use/Circ:LX ROM-TEN-TAG;					!
+!  LXX+Use/Circ:LXX ROM-TEN-TAG;					!
+!  LXXX+Use/Circ:LXXX ROM-TEN-TAG;					!
+!  XC+Use/Circ:XC ROM-TEN-TAG;					!
+! 
+! LEXICON ROM-TEN-TAG					   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;						!
+!  +Use/Circ: ROM-ONE ;							!
+!  +Use/Circ: ROM-SPLIT ;						!
+! 
+! LEXICON ROM-ONE						   !!= * __@CODE@__
+!  I+Use/Circ:I ROM-ONE-TAG;					!
+!  II+Use/Circ:II ROM-ONE-TAG;					!
+!  III+Use/Circ:III ROM-ONE-TAG;					!
+!  IV+Use/Circ:IV ROM-ONE-TAG;					!
+!  V+Use/Circ:V ROM-ONE-TAG;					!
+!  VI+Use/Circ:VI ROM-ONE-TAG;					!
+!  VII+Use/Circ:VII ROM-ONE-TAG;					!
+!  VIII+Use/Circ:VIII ROM-ONE-TAG;					!
+!  IX+Use/Circ:IX ROM-ONE-TAG;					!
+! 
+! LEXICON ROM-ONE-TAG					   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;						!
+! ! +N: ROMNUMTAG ;					 !The Olav viđeš fix (Roman V now gets A)
+!  +Use/Circ: ROM-SPLIT ;						!
+! 
+! ! Here, we split the Roman numerals, in order to account for cases like "Kapihtal II-IV".
+! ! We may send this first part directly to ROM-TAG below (and get the +Num tag), or we may
+! ! send them through a second loop, identical to the first one, but marked wit "2" (the lexica
+! ! are called 2ROMAN, etc. We do this instead of making a loop, since we do not want cases
+! ! like "II-IV-VI-VII-IX". If that should turn out to be a good idea, a loop would do the
+! ! trick.
+! 
+! LEXICON ROM-SPLIT						   !!= * __@CODE@__
+!  +Use/Circ:%- 2ROMAN ; ! II-VI, etc.				!
+! 
+! 
+! ! Here goes loop 2.
+! 
+! LEXICON 2ROMAN							   !!= * __@CODE@__
+!  +Use/Circ: 2ROM-THOUSAND ;						!
+!  +Use/Circ: 2ROM-HUNDRED ;							!
+!  +Use/Circ: 2ROM-TEN ;								!
+!  +Use/Circ: 2ROM-ONE ;								!
+! 
+! LEXICON 2ROM-THOUSAND   !!= * __@CODE@__              		
+!  M+Use/Circ:M 2ROM-THOUSAND-TAG;					!
+!  MM+Use/Circ:MM 2ROM-THOUSAND-TAG;					!
+!  MMM+Use/Circ:MMM 2ROM-THOUSAND-TAG;				!
+!  MMMM+Use/Circ:MMMM 2ROM-THOUSAND-TAG;				!
+!  MMMMM+Use/Circ:MMMMM 2ROM-THOUSAND-TAG;				!
+! 
+! LEXICON 2ROM-THOUSAND-TAG				   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;							!
+!  +Use/Circ: 2ROM-HUNDRED ;							!
+! 
+! LEXICON 2ROM-HUNDRED					   !!= * __@CODE@__
+!  C+Use/Circ:C 2ROM-HUNDRED-TAG;					!
+!  CC+Use/Circ:CC 2ROM-HUNDRED-TAG;					!
+!  CCC+Use/Circ:CCC 2ROM-HUNDRED-TAG;					!
+!  CD+Use/Circ:CD 2ROM-HUNDRED-TAG;					!
+!  D+Use/Circ:D 2ROM-HUNDRED-TAG;					!
+!  DC+Use/Circ:DC 2ROM-HUNDRED-TAG;					!
+!  DCC+Use/Circ:DCC 2ROM-HUNDRED-TAG;					!
+!  DCCC+Use/Circ:DCCC 2ROM-HUNDRED-TAG;				!
+!  CM+Use/Circ:CM 2ROM-HUNDRED-TAG;					!
+! 
+! LEXICON 2ROM-HUNDRED-TAG				   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;							!
+!  +Use/Circ: 2ROM-TEN ;								!
+! 
+! LEXICON 2ROM-TEN						   !!= * __@CODE@__
+!  X+Use/Circ:X 2ROM-TEN-TAG;						!
+!  XX+Use/Circ:XX 2ROM-TEN-TAG;						!
+!  XXX+Use/Circ:XXX 2ROM-TEN-TAG;						!
+!  XL+Use/Circ:XL 2ROM-TEN-TAG;						!
+!  L+Use/Circ:L 2ROM-TEN-TAG;						!
+!  LX+Use/Circ:LX 2ROM-TEN-TAG;						!
+!  LXX+Use/Circ:LXX 2ROM-TEN-TAG;						!
+!  LXXX+Use/Circ:LXXX 2ROM-TEN-TAG;					!
+!  XC+Use/Circ:XC 2ROM-TEN-TAG;						!
+! 
+! LEXICON 2ROM-TEN-TAG					   !!= * __@CODE@__
+!  +Use/Circ: ROMNUMTAG ;							!
+!  +Use/Circ: 2ROM-ONE ;								!
+! 
+! LEXICON 2ROM-ONE						   !!= * __@CODE@__
+!  I+Use/Circ:I 2ROM-ONE-TAG;						!
+!  II+Use/Circ:II 2ROM-ONE-TAG;						!
+!  III+Use/Circ:III 2ROM-ONE-TAG;						!
+!  IV+Use/Circ:IV 2ROM-ONE-TAG;						!
+!  V+Use/Circ:V 2ROM-ONE-TAG;						!
+!  VI+Use/Circ:VI 2ROM-ONE-TAG;						!
+!  VII+Use/Circ:VII 2ROM-ONE-TAG;						!
+!  VIII+Use/Circ:VIII 2ROM-ONE-TAG;					!
+!  IX+Use/Circ:IX 2ROM-ONE-TAG;						!
+! 
+! LEXICON 2ROM-ONE-TAG   !!= * __@CODE@__
+!  ROMNUMTAG ;
+! 
+! LEXICON ROMNUMTAG   !!= * __@CODE@__
+!  +Num+Nom: # ;
+!  +Num+Gen: # ;
+! !+Num+Acc: # ;
+! ! +A+Ord:%. # ; !III. as ordinal. !!JW: commentet out because it added +A+Ord to all full-stops!
+! ! +A+Ord:   # ; !Looking for trouble...
+!  +Num:%: ROMNUMTAGOBL  ;
+!  +Num:%' ROMNUMTAGOBL ;
+!  +Num:%- ROMNUMTAGOBL  ;
+!  +Num:%´ ROMNUMTAGOBL  ;
+! ! +Num:   ROMNUMTAGOBL ;
+! 
+! LEXICON ROMNUMTAGOBL   !!= * __@CODE@__
+!  +Gen+Err/Orth:a  # ; ! But here 123a 123
+!  +Acc+Err/Orth:av # ;
+!  +Ill:%>j        # ;
+!  +Ill+Err/Orth:ij # ;
+!  +Ill+Err/Orth:áj # ;
+!  +Ela:%>s        # ;
+!  +Ine:%>n        # ;
+!  +Com:%>jn       # ;
+!  +Ess:%>n        # ;
+!  +Acc:%>v        # ;
+! 
+! 
+! 
+! 
+! 
+! ! A final section with some isolated numeral expresssions !
+! ! ------------------------------------------------------- !
+! 
+!      
+! LEXICON ISOLATED-NUMEXP					   !!= * __@CODE@__
+!  ½+Num+Use/Circ:½ # ;						!
+!  ¹+Num+Use/Circ:¹ # ;						!
+!  ²+Num+Use/Circ:² # ;						!
+!  ³+Num+Use/Circ:³ # ;						!
+!  ¼+Num+Use/Circ:¼ # ;						!
+! 
+! 
+! 
+! ! För att få det att kompilera
+! 
+! LEXICON PxV   !!= * __@CODE@__
+! # ;
+! 
+! LEXICON PxC   !!= * __@CODE@__
+! # ;
+! 
+! LEXICON PxCi   !!= * __@CODE@__
+! # ;
+! 
+! LEXICON PxCs   !!= * __@CODE@__
+! # ;
+! 
+! !LEXICON Px   !!= * __@CODE@__
+! !# ;
+! 
+! LEXICON NAMÁK   !!= * __@CODE@__
+! namák # ;
+! 
+! LEXICON SASJ   !!= * __@CODE@__
+! gielasasj # ;
+! 
+! !LEXICON PxNomPlV   !!= * __@CODE@__
+! !# ;

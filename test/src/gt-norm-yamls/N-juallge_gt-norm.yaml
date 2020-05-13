@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - juällge: # N_EVEN (CGrad, umlaut, VH)
+    juällge+N+Sg+Nom: juällge
+    juällge+N+Sg+Gen: juolge
+    juällge+N+Sg+Acc: juolgev
+    juällge+N+Sg+Ill: juallgáj
+    juällge+N+Sg+Ine: juolgen
+    juällge+N+Sg+Ela: [juolgest, juolges]
+    juällge+N+Sg+Com: [julgijn, julgijna]
+    juällge+N+Pl+Nom: juolge
+    juällge+N+Pl+Gen: julgij
+    juällge+N+Pl+Acc: julgijt
+    juällge+N+Pl+Ill: julgijda
+    juällge+N+Pl+Ine: julgijn
+    juällge+N+Pl+Ela: [julgijst, julgijs]
+    juällge+N+Pl+Com: [julgij, julgijgum]
+    juällge+N+Ess: juällgen
+    juällge+N+Abe: juolgedak
+

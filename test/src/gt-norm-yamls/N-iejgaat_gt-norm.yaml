@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - iejgát: # N_ODD
+    iejgát+N+Sg+Nom: iejgát
+    iejgát+N+Sg+Gen: iejgáda
+    iejgát+N+Sg+Acc: iejgádav
+    iejgát+N+Sg+Ill: iejgádij
+    iejgát+N+Sg+Ine: iejgádin
+    iejgát+N+Sg+Ela: [iejgádist, iejgádis]
+    iejgát+N+Sg+Com: iejgádijn
+    iejgát+N+Pl+Nom: iejgáda
+    iejgát+N+Pl+Gen: iejgádij
+    iejgát+N+Pl+Acc: iejgádijt
+    iejgát+N+Pl+Ill: iejgádijda
+    iejgát+N+Pl+Ine: iejgádijn
+    iejgát+N+Pl+Ela: [iejgádijst, iejgádijs]
+    iejgát+N+Pl+Com: [iejgádij, iejgádijgum]
+    iejgát+N+Ess: iejgádin
+    iejgát+N+Abe: iejgádahtá
+
+ 
+ 

@@ -1,0 +1,665 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+
+
+
+
+
+! ===== !
+! Verbs !
+! ===== !
+
+
+!! !!!Even syllabled verbs
+
+LEXICON V_EVEN_E !båhtet
++V:     V_EVEN_E_STR ;
++V:e^WG V_EVEN_E_WK ;
+
+LEXICON V_EVEN_E_STR
++Ind+Prs+Sg3:á%> #;
+!+Ind+Prs+Sg3+Err/Orth:a%> #; !just as an example, for possible later implementation
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:e%>behtin #;
++Ind+Prs+Du2:e%>bähtten #;
++Ind+Prs+Du3:e%> 3DUPRS ;
++Ind+Prs+Pl1:e%>p #;
++Ind+Prs+Pl2:e%>behtit #;
++Ind+Prs+Pl2:e%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:e%>t # ; 
++GerII:e%>min # ; !aka: +Actio+Ess ?
++PrfPrc:á%>m # ;
++PrsPrc:e%>j # ; 
++Vsubst:e%>m #; 
+
+LEXICON V_EVEN_E_WK
++Ind+Prs+Sg1:%>v^V2E2AA #;
++Ind+Prs+Sg2:%>^V2E2AA #;
+:^IJ%>j V_EVEN_E_WK_J ; !suffixes with -j-element that trigger e->i in V2
+
++Imprt+Sg2:%> #; 
+
++GerI:%>din # ;  
++ConNeg:%> # ; 
++VGen:%> #;  
+!+Sup:%>tjit # ;
++Pot:%>tj^V2E2AA V_EVEN_POT ; 
+
+LEXICON V_EVEN_E_WK_J
++Ind+Prt+Sg3: #;
++Ind+Prt+Du1:min #;
++Ind+Prt+Du2:din #;
++Ind+Prt+Du3: 3DUPRT ;
++Ind+Prt+Pl1:mä #;
++Ind+Prt+Pl2:dä #;
++Ind+Prt+Pl1+Use/NG:me #;
++Ind+Prt+Pl2+Use/NG:de #;
+
+
+LEXICON V_EVEN_E_G3 !guäddet, däddet
++V:     V_EVEN_E_STR_G3 ; !special case to force G3 for correct output of ua/uä
++V:e^WG V_EVEN_E_WK ; !same as all V_EVEN_E
+
+LEXICON V_EVEN_E_STR_G3 !
++Ind+Prs+Sg3:á^G3^UAUML%> #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:e^G3^UAUML%>behtin #;
++Ind+Prs+Du2:e^G3^UAUML%>bähtten #;
++Ind+Prs+Du3:e^G3^UAUML%> 3DUPRS ;
++Ind+Prs+Pl1:e^G3^UAUML%>p #;
++Ind+Prs+Pl2:e^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:e^G3^UAUML%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e^G3^UAUML%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:e^G3^UAUML%>t # ; 
++GerII:e^G3^UAUML%>min # ; !aka: +Actio+Ess ?
++PrfPrc:á^G3^UAUML%>m # ;
++PrsPrc:e^G3^UAUML%>j # ; 
++Vsubst:e^G3^UAUML%>m #; 
+
+
+
+
+
+LEXICON V_EVEN_A !dahkat
++V:     V_EVEN_A_STR ;
++V:a^WG V_EVEN_A_WK ;
+
+LEXICON V_EVEN_A_STR
++Ind+Prs+Sg3:á%> #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:a%>behtin #;
+!+Ind+Prs+Du2:a%>bähtten #;
++Ind+Prs+Du3:a%> 3DUPRS ;
++Ind+Prs+Pl1:a%>p #;
++Ind+Prs+Pl2:a%>behtit #;
+!+Ind+Prs+Pl2:a%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:a%>t # ; 
++GerII:a%>min # ;
++PrfPrc:a%>m # ;
++PrsPrc:e%>j # ; 
+!+Vsubst:a%>m #; 
+
+LEXICON V_EVEN_A_WK
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2:%> #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
++Ind+Prt+Du3:%>j 3DUPRT ;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
+
++Imprt+Sg2:%> #; 
+
++GerI:%>din # ;  
+!+Sup:%>tjit # ;
++ConNeg:%> # ; 
++VGen:%> #;  
++Pot:%>tj V_EVEN_POT ;
+
+
+
+LEXICON V_EVEN_A_G3 !snuaggat
++V:     V_EVEN_A_STR_G3 ; !special case to force G3 for correct output of ua/uä
++V:a^WG V_EVEN_A_WK ; !same as all V_EVEN_E
+
+LEXICON V_EVEN_A_STR_G3 !
++Ind+Prs+Sg3:á^G3^UAUML%> #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:a^G3^UAUML%>behtin #;
++Ind+Prs+Du2:a^G3^UAUML%>bähtten #;
++Ind+Prs+Du3:a^G3^UAUML%> 3DUPRS ;
++Ind+Prs+Pl1:a^G3^UAUML%>p #;
++Ind+Prs+Pl2:a^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:a^G3^UAUML%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e^G3^UAUML%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:a^G3^UAUML%>t # ; 
++GerII:a^G3^UAUML%>min # ; !aka: +Actio+Ess ?
++PrfPrc:a^G3^UAUML%>m # ;
++PrsPrc:a^G3^UAUML%>j # ; 
++Vsubst:e^G3^UAUML%>m #; 
+
+
+LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
++V:	V_GILGIJ_FORMS ;
+
+LEXICON V_GILGIJ_FORMS !see above
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
++Ind+Prt+Du3:%>j 3DUPRT ;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
+
+
+
+LEXICON V_EVEN_O !viessot, årrot
++V:     V_EVEN_O_STR ;
++V:o^WG V_EVEN_O_WK ;
+
+LEXICON V_EVEN_O_STR
++Ind+Prs+Sg3:u%> #; !should this be -u-?
++Ind+Prs+Du1:u%>n #; 
++Ind+Prs+Du2:o%>behtin #;
++Ind+Prs+Du2:o%>bähtten #;
++Ind+Prs+Du3:o%> 3DUPRS ;
++Ind+Prs+Pl1:o%>p #;
++Ind+Prs+Pl2:o%>behtit #;
++Ind+Prs+Pl2:o%>bähttet #;
++Ind+Prs+Pl3:u%> #; 
++Ind+Prt+Sg1:u%>v #; 
++Ind+Prt+Sg2:u%> #; 
++Ind+Prt+Pl3:u%>n #; 
+
++Imprt+Du2:o%>n # ; 
++Imprt+Pl2:u%>t #;
+
++Inf:o%>t # ; 
++GerII:o%>min # ;
++PrfPrc:u%>m # ;
++PrsPrc:o%>j # ; 
++Vsubst:o%>m #; 
+
+LEXICON V_EVEN_O_WK
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2:%> #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
++Ind+Prt+Du3:%>j 3DUPRT ;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
+
++Imprt+Sg2:%> #; 
+
++GerI:%>din # ;  
+!+Sup:%>tjit # ;
++ConNeg:%> # ; 
++VGen:%> #;  
++Pot:%>tj V_EVEN_POT ; 
+
+
+
+LEXICON V_EVEN_O_G3 !luabbot
++V:     V_EVEN_O_STR_G3 ; !special case to force G3 for correct output of ua/uä
++V:o^WG V_EVEN_O_WK ; !same as all V_EVEN_E
+
+LEXICON V_EVEN_O_STR_G3 !
++Ind+Prs+Sg3:u%> #;
++Ind+Prs+Du1:u%>n #; 
++Ind+Prs+Du2:o^G3^UAUML%>behtin #;
++Ind+Prs+Du2:o^G3^UAUML%>bähtten #;
++Ind+Prs+Du3:o^G3^UAUML%> 3DUPRS ;
++Ind+Prs+Pl1:o^G3^UAUML%>p #;
++Ind+Prs+Pl2:o^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:o^G3^UAUML%>bähttet #;
++Ind+Prs+Pl3:u%> #; 
++Ind+Prt+Sg1:u%>v #; 
++Ind+Prt+Sg2:u%> #; 
++Ind+Prt+Pl3:u%>n #; 
+
++Imprt+Du2:o^G3^UAUML%>n # ; 
++Imprt+Pl2:u%>t #;
+
++Inf:o^G3^UAUML%>t # ; 
++GerII:o^G3^UAUML%>min # ; !aka: +Actio+Ess ?
++PrfPrc:u%>m # ;
++PrsPrc:o^G3^UAUML%>j # ; 
++Vsubst:o^G3^UAUML%>m #; 
+
+
+
+LEXICON V_EVEN_Å !hållåt, bårråt
++V:     V_EVEN_Å_STR ;
++V:å^WG V_EVEN_Å_WK ;
+
+LEXICON V_EVEN_Å_STR
++Ind+Prs+Sg3:á%> #;
++Ind+Prs+Du1:i%>n #; 
++Ind+Prs+Du2:å%>behtin #;
+!+Ind+Prs+Du2:å%>bähtten #;
++Ind+Prs+Du3:å%> 3DUPRS ;
++Ind+Prs+Pl1:å%>p #;
++Ind+Prs+Pl2:å%>behtit #;
+!+Ind+Prs+Pl2:å%>bähttet #;
++Ind+Prs+Pl3:i%> #; 
++Ind+Prt+Sg1:i%>v #; 
++Ind+Prt+Sg2:i%> #; 
++Ind+Prt+Pl3:i%>n #; 
+
++Imprt+Du2:e%>n # ; 
++Imprt+Pl2:i%>t #;
+
++Inf:å%>t # ; 
++GerII:å%>min # ;
++PrfPrc:å%>m # ;
++PrsPrc:e%>j # ; !-åt cognate with -at verbs in saL/saN, which also get -ej
+!+Vsubst:å%>m #; 
+
+LEXICON V_EVEN_Å_WK
++Ind+Prs+Sg1:%>v #;
++Ind+Prs+Sg2:%> #;
++Ind+Prt+Sg3:%>j #;
++Ind+Prt+Du1:%>jmin #;
++Ind+Prt+Du2:%>jdin #;
++Ind+Prt+Du3:%>j 3DUPRT ;
++Ind+Prt+Pl1:%>jmä #;
++Ind+Prt+Pl2:%>jdä #;
++Ind+Prt+Pl1+Use/NG:%>jme #;
++Ind+Prt+Pl2+Use/NG:%>jde #;
+
++Imprt+Sg2:%> #; 
+
++GerI:%>din # ;  
+!+Sup:%>tjit # ;
++ConNeg:%> # ; 
++VGen:%> #;  
++Pot:%>tj V_EVEN_POT ; 
+
+
+!LEXICON V_EVEN_Å_G3 !does not exist (V2 -å- always has V1 -å-)
+
+
+!POT forms for V_EVEN_
+LEXICON V_EVEN_POT !
++Sg1:a%>v #;
++Sg2:a%> #;
++Sg3:a%> #;
++Sg3+Use/NG:%> #;
++Du1:i%>n #; 
++Du2:ä%>hppen #;
++Du3:e%>ba #;
++Pl1:i%>p #;
++Pl2:i%>hppit #;
++Pl3:i%> #; 
+
+
+
+!! !!!Odd syllabled verbs
+
+LEXICON V_ODD !ságastit
++V+Ind+Prs+Sg1:a%>v #;
++V+Ind+Prs+Sg2:a%> #;
++V+Ind+Prs+Sg3:a%> #;
++V+Ind+Prs+Sg3+Use/NG:%> #; !ságast, usjut
++V+Ind+Prs+Du1:i%>n #; 
++V+Ind+Prs+Du2:ä%>hppen #;
++V+Ind+Prs+Du3:e%>ba #;
++V+Ind+Prs+Pl1:i%>p #;
++V+Ind+Prs+Pl2:i%>hppit #;
++V+Ind+Prs+Pl3:i%> #; 
+
++V+Ind+Prt+Sg1:i%>v #; 
++V+Ind+Prt+Sg2:i%> #; 
++V+Ind+Prt+Sg3:i%>j #;
++V+Ind+Prt+Du1:i%>jmen #;
++V+Ind+Prt+Du2:i%>jden #;
++V+Ind+Prt+Du3:i%>jga #;
++V+Ind+Prt+Pl1:i%>jme #;
++V+Ind+Prt+Pl2:i%>jde #;
++V+Ind+Prt+Pl3:i%>n #; 
+
++V+Imprt+Sg2:e%> #; 
++V+Imprt+Du2:e%>hten # ; 
++V+Imprt+Pl2:i%>httit #;
+
++V+Inf:i%>t # ; 
++V+GerII:i%>men # ;
++V+PrfPrc:a%>m # ;
++V+ConNeg:e%> # ; 
++V+PrsPrc:ä%>ddje # ; 
+!+V+Vsubst:a%>m #; 
+!+V+GerI:a%>din # ;  
+!+V+Sup:a%>tjit # ;
+!+V+VGen:e%> #;  
+
++V+Pot:a%>tj V_ODD_POT ;
+
+
+LEXICON V_ODD_UA ! luaddanit (not luoddanit! class for ua/uä + noCG CCenter)
+:^UAUML V_ODD ;
+
+
+LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes should be checked!
++V+Ind+Prs+Sg1:u%>v #;
++V+Ind+Prs+Sg2:u%> #;
++V+Ind+Prs+Sg3:u%> #;
++V+Ind+Prs+Sg3+Use/NG:%> #;
++V+Ind+Prs+Du1:i%>n #; 
++V+Ind+Prs+Du2:ä%>hppen #;
++V+Ind+Prs+Du3:e%>ba #;
++V+Ind+Prs+Pl1:i%>p #;
++V+Ind+Prs+Pl2:i%>hppit #;
++V+Ind+Prs+Pl3:i%> #; 
+
++V+Ind+Prt+Sg1:i%>v #; 
++V+Ind+Prt+Sg2:i%> #; 
++V+Ind+Prt+Sg3:i%>j #;
++V+Ind+Prt+Du1:i%>jmen #;
++V+Ind+Prt+Du2:i%>jden #;
++V+Ind+Prt+Du3:i%>jga #;
++V+Ind+Prt+Pl1:i%>jme #;
++V+Ind+Prt+Pl2:i%>jde #;
++V+Ind+Prt+Pl3:i%>n #; 
+
++V+Imprt+Sg2:e%> #; 
++V+Imprt+Du2:e%>hten # ; 
++V+Imprt+Pl2:i%>httit #;
+
++V+Inf:u%>t # ; 
++V+GerII:i%>men # ;
++V+PrfPrc:u%>m # ;
++V+ConNeg:e%> # ; 
++V+PrsPrc:ä%>ddje # ; 
+!+V+Vsubst:a%>m #; 
+!+V+GerI:a%>din # ;  
+!+V+Sup:a%>tjit # ;
+!+V+VGen:e%> #;  
+
+
+
+!V_ODD POT forms -- check!
++V+Pot:a%>tj V_ODD_POT ;
+
+!POT forms for V_ODD
+LEXICON V_ODD_POT !
+!+Sg1:a%>v #;
+!+Sg2:a%> #;
++Sg3:a%> #;
++Sg3+Use/NG:%> #;
+!+Du1:i%>n #; 
+!+Du2:ä%>hppen #;
+!+Du3:e%>ba #;
+!+Pl1:i%>p #;
+!+Pl2:i%>hppit #;
+!+Pl3:i%> #; 
+
+
+
+
+
+!! !!!contracted verbs
+
+LEXICON V_CONTR !välldut, tjerrut
++V+Ind+Prs+Sg1:%>v #;
++V+Ind+Prs+Sg2:%> #;
++V+Ind+Prs+Sg3:%>ja #;
++V+Ind+Prs+Du1:%>jin #; 
++V+Ind+Prs+Du2:%>bähttin #;
++V+Ind+Prs+Du3:%>ba #;
++V+Ind+Prs+Pl1:%>p #;
++V+Ind+Prs+Pl2:%>bihttit #;
++V+Ind+Prs+Pl3:%>ji #; 
+
++V+Ind+Prt+Sg1:%>jiv #; 
++V+Ind+Prt+Sg2:%>ji #; 
++V+Ind+Prt+Sg3:%>j #;
++V+Ind+Prt+Du1:%>jmin #;
++V+Ind+Prt+Du2:%>jdin #;
++V+Ind+Prt+Du3:%>j 3DUPRT ;
++V+Ind+Prt+Pl1:%>jmä #;
++V+Ind+Prt+Pl2:%>jdä #;
++V+Ind+Prt+Pl1+Use/NG:%>jme #;
++V+Ind+Prt+Pl2+Use/NG:%>jde #;
++V+Ind+Prt+Pl3:%>jin #; 
+
++V+Imprt+Sg2:%> #; 
+!+V+Imprt+Du2:%>hten # ; 
+!+V+Imprt+Pl2:%>httit #;
+
++V+Inf:%>t # ; 
++V+GerII:%>min # ;
++V+PrfPrc:%>m # ;
++V+ConNeg:%> # ; 
++V+PrsPrc:%>jäddje # ; 
++V+Vsubst:%>m #; !cf. sujjtim (sje19360100a.001)
+!+V+GerI:%>din # ;  
+!+V+Sup:%>tjit # ;
+!+V+VGen:%> #;  
+
+!V_CONTR POT forms -- check!
++V+Pot:%>tj V_CONTR_POT ;
+
+!POT forms for V_CONTR
+LEXICON V_CONTR_POT !
++Sg1:a%>v #;
++Sg2:a%> #;
++Sg3:a%> #;
++Sg3+Use/NG:%> #;
++Du1:i%>n #; 
++Du2:ä%>hppen #;
++Du3:e%>ba #;
++Pl1:i%>p #;
++Pl2:i%>hppit #;
++Pl3:i%> #; 
+
+
+LEXICON V_CONTR_UVVUT ! variation in derived (passive) stems -uv'vut (~uvvat)
+:u V_CONTR ; !standard inflectional class: tjalmeduv'vut -j-
++Use/NG: V_EVEN_A ; !variant inflectional class: tjalmeduvvat
+
+
+
+!! !!!Auxiliaries
+
+LEXICON LE !!= * @CODE@ 
++V+Ind+Prs: LEPRS ; 
++V+Ind+Prt: LEPRT ; 
++V+Ind+Pot: LEPOT ;
++V+PrfPrc:lam K ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
++V+Inf:årrot K ; !infinitive
++V+ConNeg:lä K ; !connegative
+
+LEXICON LEPRS !!= * @CODE@ 
++Sg1:läv # ; 
++Sg1+Use/NG:lev # ; 
++Sg2:lä # ;  
++Sg2+Use/NG:le # ;  
++Sg2:'l # ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
++Sg3:lä # ; 
++Sg3:'l # ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
+!+Sg3:le # ; 
++Du1:lin # ; 
+!+Du1:len # ; 
++Du2:lihpen # ; 
++Du2:lähppen # ;  
++Du3:läba # ; 
++Du3+Use/NG:läbá # ; 
++Pl1:läp # ; 
++Pl1:lip # ; 
+!+Pl1:lep # ; 
++Pl2:lihpit # ; 
++Pl2:lehpit # ; 
++Pl3:lä # ;
++Pl3:l # ; !enclitic (only attaches to vowel-final preceding word)
+
+LEXICON LEPRT !!= * @CODE@ 
++Sg1:lijjiv    # ; 
++Sg1:lidjiv    # ;  
++Sg1:liv    # ;  
++Sg2:lijji    # ; 
++Sg2:lidji    # ;  
++Sg3:lij    # ; 
++Du1:lijmen # ; 
++Du1:liejme # ; 
++Du2:lijden # ;
++Du2:liejde # ; 
++Du3:lij 3DUPRT ;
++Du3:liej 3DUPRT ; 
++Pl1:lijme # ; 
++Pl1:liejme # ; 
++Pl2:lijde # ;
++Pl2:liejde # ; 
++Pl3:lidjin    # ;  
++Pl3:lijjin    # ; 
++Pl3:lin    # ; 
+
+LEXICON LEPOT
++Sg1:lidtjav # ; 
++Sg2:lidtja # ; 
++Sg3:litj # ; 
++Du1:lidtjin # ; 
++Du2:lidtjabehtin # ; 
++Du3:lidtjaba # ; 
++Du3:lidtjaban # ; 
++Pl1:lidtjap # ;  
++Pl2:lidtjabihtit # ; 
++Pl3:lidtji # ; 
+
+
+!LEXICON ATJA !!= * @CODE@ !!! originally in ACSj:  ATJA "skola" ;  !!= * @CODE@  ???
+!atja+V+Ind+Prs: ATJAPRS ; 
+!atja+V+Ind+Prt: ATJAPRT ; 
+!
+!
+!LEXICON ATJAPRS !!= * @CODE@ 
+!+Sg1:atjav      # ;  !!= * @CODE@ 
+!+Sg2:atjah      # ; 
+!+Sg3:atja       # ; 
+!+Du1:itjin      # ; 
+!+Du2:atjabihten # ; 
+!+Du3:atjaba     # ; 
+!+Pl1:atjap      # ; 
+!+Pl2:atjabihtit # ; 
+!+Pl3:itjih      # ; 
+!
+!LEXICON ATJAPRT !!= * @CODE@ 
+!+Sg1:itjiv    # ;  !!= * @CODE@ 
+!+Sg2:itjih    # ; 
+!+Sg3:atjaj    # ; 
+!+Du1:atjajmen # ; 
+!+Du2:atjajden # ; 
+!+Du3:atjajgan # ; 
+!+Pl1:atjajmeh # ; 
+!+Pl2:atjajdeh # ; 
+!+Pl3:itjin    # ; 
+
+LEXICON IJ !!= * @CODE@ 
+!+V+Ind+Prs: IJPRS ;
+!+V+Ind+Prt: IJPRT ;
+!+V+Imprt: IJIMP ;
++V+Neg+Prs: IJPRS ;
++V+Neg+Prt: IJPRT ;
++V+Neg+Imprt: IJIMP ;
+
+!cf. +V+PrfPrc:lam # ; ! lä (BE.conneg) + *am (prfprc allomorph of *lä*)
+!check tags!
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam K ; ! = e+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam K ; ! = e+lam
+
+LEXICON IJPRS !!= * @CODE@ 
++Sg1:iv    K ;  !!= * @CODE@ 
++Sg2:i    K ; 
++Sg3:ij    K ; 
+!+Sg3+Use/NG:ijja    K ; ! long form? not 100% sure, cf. sje20150329b.138
++Du1:en K ; 
++Du2:ehpen K ;   
++Du3:iebá K ; 
++Pl1:iehpe K ; 
++Pl1:ep K ; 
++Pl2:ehpit K ;  
++Pl3:ie   K ;
++Pl3:e   K ;
++Pl3#lä+V+ConNeg:ällä K ; ! = e+lä
+
+LEXICON IJPRT !!= * @CODE@ 
++Sg1:idtjiv    K ;  !!= * @CODE@ 
++Sg2:idtji    K ; 
++Sg3:idtjij    K ; 
++Du1:iejme K ; 
++Du1:idtjijmen K ; 
++Du2:iejde  K ; 
++Du2:iejden  K ; 
++Du2:idtjijden K ; 
++Du3:iej 3DUPRT ; 
++Du3:idtjij 3DUPRT ; 
++Pl1:iejme K ; 
++Pl1:idtjijme K ; 
++Pl2:iejde K ; 
++Pl2:idtjijde K ; 
++Pl3:idtjin    K ;
+
+
+LEXICON IJIMP !!= * @CODE@ 
++Sg2:iele  K ; !!= * @CODE@ 
++Du2:iellen K ; 
++Pl2:illit  K ;
+
+
+LEXICON 3DUPRS !variation in 3rd-DUAL-Presence suffixes for EVEN stems
+:ba # ;
++Use/NG:ban # ;
+
+LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED stems
+:ga # ;
++Use/NG:gan # ;
+
+

@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - vielmes: # N_CONTR_ESA
+    vielmes+N+Sg+Nom: vielmes
+    vielmes+N+Sg+Gen: välbmá
+    vielmes+N+Sg+Acc: välbmáv
+    vielmes+N+Sg+Ill: välbmáj
+    vielmes+N+Sg+Ine: välbmán
+    vielmes+N+Sg+Ela: [välbmást, välbmás]
+    vielmes+N+Sg+Com: välbmájn
+    vielmes+N+Pl+Nom: välbmá
+    vielmes+N+Pl+Gen: välbmáj
+    vielmes+N+Pl+Acc: välbmájt
+    vielmes+N+Pl+Ill: välbmájda
+    vielmes+N+Pl+Ine: välbmájn
+    vielmes+N+Pl+Ela: [välbmájst, välbmájs]
+    vielmes+N+Pl+Com: [välbmáj, välbmájgum]
+#    vielmes+N+Ess: vielmán # välbmán ?
+#    vielmes+N+Abe: välbmádak
+

@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - guohtom: # N_ODD
+    guohtom+N+Sg+Nom: guohtom
+    guohtom+N+Sg+Gen: guohtoma
+    guohtom+N+Sg+Acc: guohtomav
+    guohtom+N+Sg+Ill: guohtomij
+    guohtom+N+Sg+Ine: guohtomin
+    guohtom+N+Sg+Ela: [guohtomist, guohtomis]
+    guohtom+N+Sg+Com: guohtomijn
+    guohtom+N+Pl+Nom: guohtoma
+    guohtom+N+Pl+Gen: guohtomij
+    guohtom+N+Pl+Acc: guohtomijt
+    guohtom+N+Pl+Ill: guohtomijda
+    guohtom+N+Pl+Ine: guohtomijn
+    guohtom+N+Pl+Ela: [guohtomijst, guohtomijs]
+    guohtom+N+Pl+Com: [guohtomij, guohtomijgum]
+    guohtom+N+Ess: guohtomin
+    guohtom+N+Abe: guohtomahtá
+
+ 
+ 

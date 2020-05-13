@@ -1,0 +1,140 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+!! !!!Adpositions
+
+LEXICON Adposition ! main class
+!Preposition ; !only prepositions -- check to see if this is a valid category!
+Postposition ;
+PrePostposition ;
+
+
+!only postpositions
+LEXICON Postposition   !!= * __@CODE@__ is the list
+allelin PostP "i väster" ;
+badjen PostP "up" ;
+badjen+Use/NG:bajjen PostP "up" ;
+bajjelij PostP ;
+bajjelin PostP ;
+bajjelis PostP ;
+bajelt PostP ;
+baktu PostP ;
+bálldal PostP ;
+bálldala PostP ;
+bálldaj PostP ;
+birraj PostP ;
+buohta PostP ;
+dehti+Use/NG:dihta PostP ;
+dehti PostP ;
+duogen PostP "behind" ;
+gaskav PostP ;
+gaskan PostP ;
+gaskanit PostP ;
+gaskas PostP ;
+gaskajnisa PostP ;
+gasskaj PostP ;
+gassko PostP ;
+gitta+Use/NG:git PostP ;
+gitta PostP ;
+gugu PostP ;
+guoran PostP ;
+guorraj PostP ;
+lahka PostP ;
+lagamusan PostP ;
+lunne PostP ;
+lunne+Use/NG:lunn PostP ;
+lunne+Use/NG:ludne PostP ;
+luhte PostP ;
+luse PostP "to";
+luse+Use/NG:lusa PostP "to" ; !perhaps lussa?
+maŋen PostP "along with; anbei";
+maŋŋáj PostP ;
+maŋŋelin PostP ;
+maŋŋel PostP ;
+maŋŋela PostP ;
+maŋŋelatj PostP ;
+maŋŋelatja PostP ;
+maŋŋelij PostP ;
+maŋŋelis PostP ;
+maŋŋelt PostP ;
+mehti PostP ;
+mehti+Use/NG:melti PostP ;
+mäddel PostP "förbi" ;
+nala PostP ;
+nala+Use/NG:nalá PostP ;
+nala+Use/NG:nile PostP ;
+nali PostP ;
+nalta PostP ;
+nanne PostP ;
+nanne+Use/NG:nan PostP ;
+nanne+Use/NG:naldne PostP ;
+nanne+Use/NG:nanna PostP ;
+nuarrtal PostP ;
+nuarrtala PostP ;
+nuarrtalij PostP ;
+nuarrtalin PostP ;
+rájen PostP ;
+rájest PostP ;
+sinne PostP ;
+sinne+Use/NG:sin PostP ;
+sisste PostP "out of" ;
+sisa PostP ;
+sisa+Use/NG:sisá PostP ;
+sisa+Use/NG:sis PostP ;
+sissŋela PostP ;
+sissŋelij PostP ;
+tjara PostP ;
+tjara+Use/NG:tjada PostP ;
+vuolelt PostP ;
+vuolen PostP ;
+vuolest PostP ;
+vuolev PostP ;
+vuolláj PostP ;
+vuässte PostP "against" ;
+åvdålt PostP "towards" ;
+åvdån PostP ;
+åvvdåj PostP ;
+åvdåst PostP ;
+åvvdålist PostP "from in front" ;
+åvvdålin PostP "in the front" ;
+åvvdålij PostP "towards the front" ;
+
+
+!only prepositions -- check to see if this is a valid category!
+!LEXICON Preposition   !!= * __@CODE@__ is the list
+
+
+!both pre- and postpositions
+LEXICON PrePostposition   !!= * __@CODE@__ is the list
+rasstá PrePost "across" ;
+birra PrePost "about" ;
+badjel PrePost ;
+badjel+Use/NG:bajjel PrePost ;
+
+
+
+! PoS tags added below:
+
+!only postpositions
+LEXICON PostP   !!= * __@CODE@__  adds the tag +Po
++Po: # ;
+
+!only prepositions -- check to see if this is a valid category!
+!LEXICON PreP   !!= * __@CODE@__  adds the tag +Pr
+!+Pr: # ;
+
+!both pre- and postpositions
+LEXICON PrePost   !!= * __@CODE@__  adds the tags +Po and +Pr
++Po: # ;
++Pr: # ;

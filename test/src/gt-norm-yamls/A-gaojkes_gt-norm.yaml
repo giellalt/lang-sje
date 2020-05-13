@@ -1,0 +1,55 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Adjektiv - gåjkes: # 
+    gåjkes+A+Attr: gåjjke
+
+    gåjkes+A+Sg+Nom: gåjkes
+    gåjkes+A+Pl+Nom: gåjjkása
+
+#    gåjkes+A+Sg+Gen: gåjjkása
+#    gåjkes+A+Sg+Acc: gåjjkásav
+#    gåjkes+A+Sg+Ill: gåjjkásij
+#    gåjkes+A+Sg+Ine: gåjjkásin
+#    gåjkes+A+Sg+Ela: [gåjjkásist, gåjjkásis]
+#    gåjkes+A+Sg+Com: gåjjkásijn
+#    gåjkes+A+Pl+Gen: gåjjkásij
+#    gåjkes+A+Pl+Acc: gåjjkásijd
+#    gåjkes+A+Pl+Ill: gåjjkásijda
+#    gåjkes+A+Pl+Ine: gåjjkásijn
+#    gåjkes+A+Pl+Ela: [gåjjkásijst, gåjjkásijs]
+#    gåjkes+A+Pl+Com: [gåjjkásij, gåjjkásijgum]
+##    gåjkes+A+Ess: gåjjkásan
+
+    gåjkes+A+Comp+Attr: gåjjkáp
+
+    gåjkes+A+Comp+Sg+Nom: gåjjkáp
+    gåjkes+A+Comp+Pl+Nom: [gåjjkába, gåjjkábo]
+
+    gåjkes+A+Superl+Attr: gåjjkájmus
+
+    gåjkes+A+Superl+Sg+Nom: gåjjkájmus
+    gåjkes+A+Superl+Pl+Nom: gåjjkájmusa
+
+#    gåjkes+A+Superl+Sg+Gen: gåjjkásubmusa
+#    gåjkes+A+Superl+Sg+Acc: gåjjkásubmusav
+#    gåjkes+A+Superl+Sg+Ill: gåjjkásubmusij
+#    gåjkes+A+Superl+Sg+Ine: gåjjkásubmusin
+#    gåjkes+A+Superl+Sg+Ela: [gåjjkásubmusist, gåjjkásubmusis]
+#    gåjkes+A+Superl+Sg+Com: gåjjkásubmusijn
+#    gåjkes+A+Superl+Pl+Gen: gåjjkásubmusij
+#    gåjkes+A+Superl+Pl+Acc: gåjjkásubmusijd
+#    gåjkes+A+Superl+Pl+Ill: gåjjkásubmusijda
+#    gåjkes+A+Superl+Pl+Ine: gåjjkásubmusijn
+#    gåjkes+A+Superl+Pl+Ela: [gåjjkásubmusijst, gåjjkásubmusijs]
+#    gåjkes+A+Superl+Pl+Com: [gåjjkásubmusij, gåjjkásubmusijgum]
+##    gåjkes+A+Superl+Ess: gåjjkásubmusan
+

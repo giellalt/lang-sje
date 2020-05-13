@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verbs - ballat: # -a-stammar
+    ballat+V+Inf: ballat
+    
+    ballat+V+Ind+Prs+Sg1: balav
+    ballat+V+Ind+Prs+Sg2: bala
+    ballat+V+Ind+Prs+Sg3: ballá
+    ballat+V+Ind+Prs+Du1: billin
+    ballat+V+Ind+Prs+Du2: [ballabehtin, ballabähtten]
+    ballat+V+Ind+Prs+Du3: ballaba
+    ballat+V+Ind+Prs+Pl1: ballap
+    ballat+V+Ind+Prs+Pl2: [ballabihtit, ballabehtit]
+    ballat+V+Ind+Prs+Pl3: billi
+
+    ballat+V+Ind+Prt+Sg1: billiv
+    ballat+V+Ind+Prt+Sg2: billi
+    ballat+V+Ind+Prt+Sg3: balaj
+    ballat+V+Ind+Prt+Du1: balajmen
+    ballat+V+Ind+Prt+Du2: balajden
+    ballat+V+Ind+Prt+Du3: balajga
+    ballat+V+Ind+Prt+Pl1: balajme
+    ballat+V+Ind+Prt+Pl2: balajde
+    ballat+V+Ind+Prt+Pl3: billin
+
+    ballat+V+Pot+Sg1: balatjav
+    ballat+V+Pot+Sg2: balatja
+    ballat+V+Pot+Sg3: balatj
+    ballat+V+Pot+Du1: balatjin
+    ballat+V+Pot+Du2: [balatjiehpen, balatjähppen]
+    ballat+V+Pot+Du3: balatjiebá
+    ballat+V+Pot+Pl1: balatjip
+    ballat+V+Pot+Pl2: balatjihpit
+    ballat+V+Pot+Pl3: balatji
+    
+    
+

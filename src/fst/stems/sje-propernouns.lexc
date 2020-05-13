@@ -1,0 +1,154 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+!
+! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+! Generated at: 2020-05-05T12:45:43+03:00
+
+!! !!!Pite Saami ProperNouns
+
+!! Propernouns
+!+Prop
+!+Sem/Fem (female)
+!+Sem/Mal (male)
+!+Sem/Ani (animal)
+!+Sem/Sur (surname)
+!+Sem/Plc (place)
+!+Sem/Org (organisation)
+!+Sem/Obj (film, book, etc.)
+
+LEXICON ProperNoun   !!= * __@CODE@__
+
+Riebnes:Riebbn N_CONTR_ESAA "Riebnes" ; ! no. 90944
+Aksamnjárrga:Aksam#njárrga N_EVEN "Vaksamnjárgga" ; ! no. 90893
+Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
+Áhkábákkte:Áhká#bákkte N_EVEN "Áhkábákkte" ; ! no. 91208
+Áhkávárre:Áhká#várre N_EVEN "Akkavare" ; ! no. 90952
+Ákksjotjålbme:Ákksjo#tjålbme N_EVEN "Ákksjotjålbme" ; ! no. 91209
+Ánna:Án'na N_EVEN "Anna" ; ! no. 91021
+Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
+Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
+Árjepluovve+Use/NG:Árjapluovve N_EVEN "Arjeplog" ; ! no. 90999
+Árjepluovve+Use/NG:Árjelu^Ovve N_EVEN "Arjeplog" ; ! no. 91256
+Árjepluovve:Árjepluovve N_EVEN "Arjeplog" ; ! no. 66
+Bassåjjve:Bass#åjjve N_EVEN "Bassåjjve, heliga fjället" ; ! no. 6641
+Bárrka:Bárrka N_EVEN "Bárrka" ; ! no. 90697
+Bidumsábme:Bidum#sábme N_EVEN "Pite Saami" ; ! no. 91260
+Bieljegájjse:Bielje#gájjse N_EVEN "Pieljekaise" ; ! no. 6841
+Båŋŋka:Båŋŋka N_EVEN "Pånka" ; ! no. 91252
+Danmarrka:Danmarrka N_EVEN "Denmark" ; ! no. 3555
+Frankrijjka:Frank#rijjka N_EVEN "France" ; ! no. 4238
+Gállesbuavvda:Gálles#bu^Ovvda N_EVEN "Galtispuoda" ; ! no. 6840
+Gárrdevárre:Gárrde#várre N_EVEN "fenced in mountain area" ; ! no. 5251
+Gárrdevárre+Use/NG:Gárrd#várre N_EVEN "fenced in mountain area" ; ! no. 91176
+Gibbnu:Gibbnu N_EVEN "Stenudden" ; ! no. 91291
+Guarrbanjárrga:Guarrba#njárrga N_EVEN "Brännudden" ; ! no. 3401
+Gujjávvre:Guj#jávvre N_EVEN "Gujjávvre" ; ! no. 6522
+Guoledisjávvre:Guoledis#jávvre N_EVEN "Guoletisjávvre" ; ! no. 6529
+Gåbbdá:Gåbbdá N_EVEN "Gåbbda" ; ! no. 90696
+Hiŋŋga:Hiŋŋga N_EVEN "Hinga" ; ! no. 91022
+Härrgevárre:Härrge#várre N_EVEN "Renberget" ; ! no. 4123
+Inntjáválle:Inntjá#válle N_EVEN "Älvsbyn" ; ! no. 4782
+Jåhkåmåhkke:Jåhkå#måhkke N_EVEN "Jokkmokk" ; ! no. 90998
+Jåhkåmåhkke+Use/NG:Jåk#måhkke N_EVEN "Jokkmokk" ; ! no. 91000
+Jånnå:Jån'nå N_EVEN "Jon, Jonas, osv." ; ! no. 90884
+Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
+Jåvvná:Jåvvná N_EVEN "Jonas" ; ! no. 5979
+Katrijdna:Katrijdna N_EVEN "Katrin" ; ! no. 91287
+Krájja:Krájja N_EVEN "Kraja" ; ! no. 4140
+Krehtta:Krehtta N_EVEN "Greta" ; ! no. 91023
+Lajratjåhkkå:Lajra#tjåhkkå N_EVEN "Lajratjåhkkå" ; ! no. 91131
+Lässe:Lies'se N_EVEN "Lars" ; ! no. 6035
+Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
+Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
+Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
+Piera:Piera N_EVEN "Per" ; ! no. 4215
+Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
+Rájjavárre:Rájja#várre N_EVEN "Rájjavárre" ; ! no. 91132
+Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
+Sádenåjjve:Sáden#åjjve N_EVEN "Sádenåjvve" ; ! no. 91181
+Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
+Sállvojåhkå:Sállvo#jåhkå N_EVEN "Sállvobäck" ; ! no. 90694
+Sillbajåhkå:Sillba#jåhkå N_EVEN "Silbojåkk" ; ! no. 5684
+Skajjle:Skajjle N_EVEN "Skaile" ; ! no. 91175
+Skärrfa:Skierrfa N_EVEN "Skärrfa" ; ! no. 2809
+Smuolle:Smu^Olle N_EVEN "Smolle" ; ! no. 91024
+Stuorluobme:Stuor#luobme N_EVEN "Stuorluobme" ; ! no. 91088
+Stuornjárrga:Stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
+Sulitjälbma:Sulitjielbma N_EVEN "Sulitelma" ; ! no. 90942
+Sverdji:Sverdji N_EVEN "Sweden" ; ! no. 1799
+Såbmá:Såbmá N_EVEN "Finland" ; ! no. 1760
+Tjuvtasvuodna:Tjuvtas#vu^Odna N_EVEN "Tysfjord" ; ! no. 4017
+Varsjajåhkå:Varsja#jåhkå N_EVEN "Varsjajokk" ; ! no. 91122
+Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
+Vuallda:Vu^Ollda N_EVEN "Vuolda" ; ! no. 91172
+Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
+Vuonatjluakkta:Vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
+Åvvlá:Åvvlá N_EVEN "Ola" ; ! no. 91127
+Änntse:Ienntse N_EVEN "Änntse" ; ! no. 90872
+Tjäggelvas:Tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
+Aleldis:Aleld N_EVEN4_ISA "Örnvik" ; ! no. 90719
+Guoledisjávvre+Use/NG:Gu^Oled N_EVEN4_ISA "Guoletisjávvre" ; ! no. 90743
+Maltegis:Malteg N_EVEN4_ISA "Maltegis" ; ! no. 1127
+Namadis:Namad N_EVEN4_ISA "Namatisfjäll, 'namnlös'" ; ! no. 90958
+Árdna:Árdna N_EVEN_NOCG "Árdna" ; ! no. 90692
+Stäggu:Stä2ggu N_EVEN_NOCG "Steggo" ; ! no. 91192
+Bidumiedno:Bidum#iedno N_EVEN_O "Pite river" ; ! no. 170
+Bidumiedno+Use/NG:Birruma#iedno N_EVEN_O "Pite river" ; ! no. 90939
+Bidumiedno+Use/NG:Bisum#iedno N_EVEN_O "Pite river" ; ! no. 90773
+Bäno:Bä2no N_EVEN_O "Bäno" ; ! no. 90755
+Guhkavárrdo:Guhka#várrdo N_EVEN_O "Guhkavárrdo" ; ! no. 91130
+Lassko:Lassko N_EVEN_O "Lasko" ; ! no. 91025
+Olso:Olso N_EVEN_O "Olso" ; ! no. 91125
+Sállvo:Sállvo N_EVEN_O "Sállvo" ; ! no. 90693
+Spallo:Spallo N_EVEN_O "Spallo" ; ! no. 91047
+Stuormo:Stu^Ormo N_EVEN_O "Stormo" ; ! no. 90899
+Varsjaguottko:Varsja#gu^Ottko N_EVEN_O "Varsjaguottko" ; ! no. 91129
+Vuallvo:Vu^Ollvo N_EVEN_O "Vuolvojávrre" ; ! no. 91178
+Juhán:Juhán N_JUHAAN "John" ; ! no. 5978
+Blind:Blind N_MONOSYL_PROPER "Blind" ; ! no. 91126
+Per:Per N_MONOSYL_PROPER "Per" ; ! no. 91124
+Bengtsson:Bengtsson N_NAME_noInfl_C "Bengtsson" ; ! no. 91184
+Erik:Erig2 N_NAME_noInfl_C "Erik" ; ! no. 91191
+Erling:Erling N_NAME_noInfl_C "Erling" ; ! no. 91194
+Fjällman:Fjä2llman N_NAME_noInfl_C "Fjällman" ; ! no. 91187
+Lars:Lars N_NAME_noInfl_C "Lars" ; ! no. 91190
+Sjul:Sjul N_NAME_noInfl_C "Sjul" ; ! no. 91186
+Dagny:Dagny N_NAME_noInfl_V "Dagny" ; ! no. 91174
+Elsa:Elsa N_NAME_noInfl_V "Elsa" ; ! no. 91026
+Margareta:Margareta N_NAME_noInfl_V "Margareta" ; ! no. 91185
+Maria:Maria N_NAME_noInfl_V "Maria" ; ! no. 91128
+Alits:Alits N_ODD "Alits" ; ! no. 91327
+Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
+Árjepluovek+Use/NG:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 91249
+Árjepluovek:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609
+Bávval:Bávval N_ODD "Paul" ; ! no. 4637
+Bidám:Bidám N_ODD "Piteå" ; ! no. 167
+Bierok:Bierog2 N_ODD "Per" ; ! no. 90885
+Bidám+Use/NG:Bisum N_ODD "Piteå" ; ! no. 90771
+Dävit:Dä2vid2 N_ODD "David" ; ! no. 91306
+Halvar:Halvar N_ODD "Halvar" ; ! no. 91286
+Lábbás:Lábbás N_ODD "Labbas" ; ! no. 91198
+Märrgit:Mä2rrgid2 N_ODD "Margareta" ; ! no. 5974
+Norrbotten:Norrbotten N_ODD "Norrbotten" ; ! no. 91161
+Oskar:Oskar N_ODD "Oscar" ; ! no. 91146
+Rabak:Rabag2 N_ODD "Rebakudden" ; ! no. 90887
+Ruopsok:Ru^Opsog2 N_ODD "Ruopsok" ; ! no. 1436
+Tjidtják:Tjidtjág2 N_ODD "Tjidtjak" ; ! no. 6585
+Tjårvek:Tjårveg2 N_ODD "Hornavan" ; ! no. 1977
+Vilstugan:Vilstugan N_ODD "vilstugan" ; ! no. 91167
+Vuoktanj:Vu^Oktanj N_ODD "Vuoktanj" ; ! no. 6478
+Åjjvák:Åjjvág2 N_ODD "Uddjaur Lake" ; ! no. 2811
+Stäggu+Use/NG:Stä2ggun N_ODD_OPEN "Steggo" ; ! no. 91254
+Árves:Árrves N_ODD_V2E2AA "Árves" ; ! no. 91003
+Mávas:Mávvas N_ODD_WG "Mavas" ; ! no. 90281

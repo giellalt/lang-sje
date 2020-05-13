@@ -1,0 +1,197 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+! ======================== !
+! Hyphenator for Pite Sámi !
+! ======================== !
+! This one is taken from Lule Sámi and should be adjusted.
+! Most things should be the same, though.
+
+echo <<defining Cns and Vow...>>
+
+define Vow       [ a | á | e | i | o | u | y | æ | ø | å | ä | ö |
+                   A | Á | E | I | O | U | Y | Æ | Ø | Å | Ä | Ö |
+é | ó | ú | í | à | è | ò | ù | ì | ë | ü | ï | â | ê | ô | û | î | ã | ý
+É | Ó | Ú | Í | À | È | Ò | Ù | Ì | Ë | Ü | Ï | Â | Ê | Ô | Û | Î | Ã | Ý ] ;
+
+define 2ndVow [ e | a | o | u | y | ø | i | E | A | O | U | Y | Ø | I ] ;
+
+define VowNot2ndVow [ Vow - 2ndVow ] ;
+
+define vU     [ u | U ] ;
+define vO     [ o | O ] ;
+define vA     [ a | A ] ;
+define vE     [ e | E ] ;
+define vI     [ i | I ] ;
+define vAO    [ a | A | o | O ] ;
+define vAEIO  [ a | A | e | E | i | I | o | O ] ;
+define vAEOU [ a | A | e | E | o | O | u | U ] ;
+define vØ     [ ø | Ø | ö | Ö ] ;
+define vIØ     [ i | I | ø | Ø | ö | Ö ] ;
+define vYØ     [ y | Y | ø | Ø | ö | Ö ] ;
+define vIOU   [ i | I | o | O | u | U ] ;
+
+define VowNotU [ Vow - vU ] ;
+define VowNotO [ Vow - vO ] ;
+define VowNotA [ Vow - vA ] ;
+define VowNotE [ Vow - vE ] ;
+define VowNotI [ Vow - vI ] ;
+define VowNotØ [ Vow - vØ ] ;
+define VowNotY [ Vow - vY ] ;
+
+
+define IEdipht [ i e | I e | I E ] ;
+define UOdipht [ u o | U o | U O ] ;
+define OAdipht [ o a | O a | O A ] ;
+define OUdipht [ o u | O u | O U ] ; ! jour-na-lis-sta
+define AUdipht [ a u | A u | A U ] ; ! fau-na
+define EUdipht [ e u | E u | E U ] ; ! leut-nánta
+define AEdipht [ a e | A e | A E ] ; ! lae-sta-dius (gives: laes^ta^dius)
+define ØYdipht [ ø y | Ø y | Ø Y ] ; ! nøyt-rála
+define OEdipht [ o e | O e | O E ] ; ! goe-the
+define IEdipht [ i e | I e | I E ] ; ! skiøld
+define IOdipht [ i o | I o | I O ] ; ! skiold, na-tion
+
+
+
+define dipht [ IEdipht | UOdipht | OAdipht | OUdipht | AUdipht | EUdipht | AEdipht | ØYdipht | OEdipht | IEdipht | IOdipht ] ;
+
+define Cns [ b | c | č | d | đ | f | g | h | j | k | l | m | n | ŋ | ñ | ń |
+             B | C | Č | D | Đ | F | G | H | J | K | L | M | N | Ŋ | Ñ | Ń |
+             p | q | r | s | š | t | ŧ | v | w | x | z | ž |
+             P | Q | R | S | Š | T | Ŧ | V | W | X | Z | Ž ] ;
+
+!define Gem [ b b | d d | f f | g g | k k | l l | m m | n n | ŋ ŋ | ñ ñ | ń ń |
+!             B B | D D | F F | G G | K K | L L | M M | N N | Ŋ Ŋ | Ñ Ñ | Ń Ń |
+!             p p | r r | s s | š š | t t | ŧ ŧ | v v |
+!             P P | R R | S S | Š Š | T T | Ŧ Ŧ | V V ]  ;
+
+define cS   [ S | s ] ;
+define Cnss [ Cns - cS ] ;
+
+!define Sgm [ Cns | Vow ] ;
+
+!define Cns [ Cnssymb | Vow i ] ;
+
+echo << Rules>>
+
+define befdipht   [..] -> %^ ||       Vow               _ dipht ;        ! ta^iet
+define nodipht    [..] -> %^ || Cns   Vow               _ VowNot2ndVow ; ! By^ån.
+define NotXUdipht [..] -> %^ || Cns [ Vow - vAEOU ]     _ vU ;           ! by^ungdom, fauna
+define NotUOdipht [..] -> %^ || Cns [ Vow - vIOU ]      _ vO ;           ! fly^ost
+define NotOAdipht [..] -> %^ || Cns [ Vow - vAO ]       _ vA ;           ! ni^an
+define NotIEdipht [..] -> %^ || Cns [ Vow - vAEIO ]     _ vE ;           ! Le)
+define NotØYdipht [..] -> %^ || Cns [ Vow - vYØ ]       _ vY ;           !
+define NotIØdipht [..] -> %^ || Cns [ Vow - vIØ ]       _ vØ Sgm ;        !
+!Cns VowNotU _ vO , Cns VowNotO                         _ [vA|vU] , Cns VowNotI _ vE
+
+define rdnj4cns [..] -> %^ || Vow (Cns) r       _ d n j ;
+!define unvoiced [..] -> %^ || Vow (Cns)         _ h [ n | m | l | j | r ] Vow ; tjájh-ne, buvh-le is norm
+define palatal  [..] -> %^ || Vow (Cns) d       _ d j ,
+                              Vow (Cns) l l     _   j ,
+                              Vow (Cns) n       _ n j ,
+                              Vow ([Cns - d]) d _ n j ,
+                              Vow ([Cns - t]) t _ n j ;
+
+!define dissnas [..] -> %^ || Vow [ b | d | j | l | r | v ] _ [ b m | d n | g ŋ ] Vow ; !North sámi, messes up the following rules
+
+define gem1cns  [..] -> %^ || Vow b b       _      m                      Vow ,
+                              Vow d d       _     (n) j                   Vow ,
+                              Vow g g       _     [ŋ|ń|ñ]                 Vow ,
+                              Vow k k       _          n                  Vow ,
+                              Vow l l       _      [d|j|n|t (j) ]         Vow ,
+                              Vow m m       _      [b|p]                  Vow ,
+                              Vow n n       _      [ d | g | t ([j|s]) ]  Vow ,
+                              Vow [ŋ|ń|ñ]
+                                    [ŋ|ń|ñ] _          [g|k] (Cns)        Vow ,
+                              Vow p p       _      [k|t ([j|s]) | s (j) ] Vow ,
+                              Vow s s  (j)  _      [ k|m|v|n|t ]          Vow ;
+
+define s2cns    [..] -> %^ || Vow [j|l|n|r|v|m] s        _ s (j)  (Cnss) Vow ; ! májs-stet,  (if out: májs-tet),
+define Ls2cnswg [..] -> %^ || Vow [j|l|n|r|v|m]  _ s (j)  (Cnss) Vow ; ! máj-stáv
+                                                         ! " Vow (Cns)" as Left Context gives må-rå-stit,
+                                                         ! fá-sto, now må-rås-tit, fás-to.
+
+! Ordered rule set: Maximise coda: 3 cns before 2 cns before 1 cns before vow:
+
+define j4cns    [..] -> %^ || Vow  Cns Cns Cns  _ [ [s|t|n] j | t s ] Vow ;
+define j3cns    [..] -> %^ || Vow  Cns Cns      _ [ [s|t|n] j | t s ] Vow ;
+define j2cns    [..] -> %^ || Vow  Cns          _ [ [s|t|n] j | t s ] Vow ;
+define j1cns    [..] -> %^ || Vow               _ [ [s|t|n] j | t s ] Vow ;
+define 4cns     [..] -> %^ || Vow  Cns Cns  Cns _  Cns Vow ;
+define 3cns     [..] -> %^ || Vow  Cns Cns      _  Cns Vow ;
+define xcns     [..] -> %^ ||      x            _      Vow ;
+define 2cns     [..] -> %^ || Vow  Cns          _  Cns Vow ;
+define 1cns     [..] -> %^ || Vow               _  Cns Vow ;
+
+! The philosophy here is to remove some boundaries who, when seen also in a left
+! context, are parts of triphthongs, and thus should not be divided. We do it
+! via restoring, in order not to mess up our diphthong rules.
+
+define savetripht  %^ -> 0 || e _ a u ;  ! does  work...
+define savetripht2 %^ -> 0 || i _ e u ;  ! does  work...
+define savetripht3 %^ -> 0 || i _ o u ;  ! does  work...
+define saveclitic  %# -> 0 || _ k .#. ;
+
+
+define removedouble %^ -> 0 || %- _ ;
+define removedouble2 %^ -> 0 || _ %- ;
+define removedouble3 %# -> 0 || %- _ ;
+define removedouble4 %# -> 0 || _ %- ;
+
+
+
+echo <<Combining...>>
+
+read regex [
+    befdipht
+.o. nodipht
+.o. NotXUdipht
+.o. NotUOdipht
+.o. NotOAdipht
+.o. NotIEdipht
+.o. NotØYdipht
+.o. NotIØdipht
+.o. rdnj4cns
+!.o. unvoiced
+.o. palatal
+.o. gem1cns
+.o. s2cns
+.o. Ls2cnswg
+.o. j4cns
+.o. j3cns
+.o. j2cns
+.o. j1cns
+.o. 4cns
+.o. 3cns
+.o. xcns
+.o. 2cns
+.o. 1cns
+.o. savetripht
+.o. savetripht2
+.o. savetripht3
+.o. saveclitic
+.o. removedouble
+.o. removedouble2
+.o. removedouble3
+.o. removedouble4
+ ] ;
+
+
+
+!define dissnas  [..] -> %^ || Vow [ b | d | j | l | r | v ] _ [ b m | d n | g ŋ ] Vow ;
+
+! xfst -e "source hyphenatoin.xfscript"
+! invert net
+! save j.fst

@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - båhtet: # Verb 'come'
+     båhtet+V+Inf: båhtet
+     båhtet+V+Ind+Prs+Sg1: bådáv
+     båhtet+V+Ind+Prs+Sg2: bådá
+     båhtet+V+Ind+Prs+Sg3: båhtá
+     båhtet+V+Ind+Prs+Du1: buhtin
+     båhtet+V+Ind+Prs+Du2: [båhtebehtin, båhtebähtten]
+     båhtet+V+Ind+Prs+Du3: [båhteba, båhteban]
+     båhtet+V+Ind+Prs+Pl1: båhtep
+     båhtet+V+Ind+Prs+Pl2: [båhtebehtit, båhtebähttet]
+     båhtet+V+Ind+Prs+Pl3: buhti
+
+     båhtet+V+Ind+Prt+Sg1: buhtiv
+     båhtet+V+Ind+Prt+Sg2: buhti
+     båhtet+V+Ind+Prt+Sg3: budij
+     båhtet+V+Ind+Prt+Du1: budijmen
+     båhtet+V+Ind+Prt+Du2: budijden
+     båhtet+V+Ind+Prt+Du3: [budijga, budijgan]
+     båhtet+V+Ind+Prt+Pl1: budijme
+     båhtet+V+Ind+Prt+Pl2: budijde
+     båhtet+V+Ind+Prt+Pl3: buhtin
+
+     båhtet+V+Imprt+Sg2: både  
+     båhtet+V+Imprt+Du2: båhten
+     båhtet+V+Imprt+Pl2: buhtit
+
+#     båhtet+V+Pot+Sg1: buditjav
+#     båhtet+V+Pot+Sg2: buditja
+#     båhtet+V+Pot+Sg3: buditj
+#     båhtet+V+Pot+Du1: buditjin
+#     båhtet+V+Pot+Du2: [buditjähppen, buditjehpin]
+#     båhtet+V+Pot+Du3: buditjiebá
+#     båhtet+V+Pot+Pl1: buditjip
+#     båhtet+V+Pot+Pl2: buditjihpit
+#     båhtet+V+Pot+Pl3: buditji
+
+     båhtet+V+ConNeg: både 
+     båhtet+V+GerI: bådedin 
+#     båhtet+V+Sup: bådátjit
+#     båhtet+V+Vabe: båhtek  
+     båhtet+V+VGen: både 
+     båhtet+V+GerII: båhtemin
+     båhtet+V+PrfPrc: båhtám
+#     båhtet+V+PrsPrc: båhtte 
+#     båhtet+V+Vsubst: båhtem
+

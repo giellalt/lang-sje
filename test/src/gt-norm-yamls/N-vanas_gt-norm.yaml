@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - vanas: # N_ODD_WG (with CGrad)
+    vanas+N+Sg+Nom: [vanas, vanás]
+    vanas+N+Sg+Gen: [vadnasa, vadnása]
+    vanas+N+Sg+Acc: [vadnasav, vadnásav]
+    vanas+N+Sg+Ill: [vadnasij, vadnásij]
+    vanas+N+Sg+Ine: [vadnasin, vadnásin]
+    vanas+N+Sg+Ela: [vadnasist, vadnásis]
+    vanas+N+Sg+Com: [vadnasijn, vadnásijn]
+    vanas+N+Pl+Nom: [vadnasa, vadnása]
+    vanas+N+Pl+Gen: [vadnasij, vadnásij]
+    vanas+N+Pl+Acc: [vadnasijt, vadnásijt]
+    vanas+N+Pl+Ill: [vadnasijda, vadnásijda]
+    vanas+N+Pl+Ine: [vadnasijn, vadnásijn]
+    vanas+N+Pl+Ela: [vadnasijst, vadnásijs]
+    vanas+N+Pl+Com: [vadnasij, vadnasijgum, vadnásij, vadnásijgum]
+    vanas+N+Ess: [vadnasin, vadnásin]
+    vanas+N+Abe: [vadnasahtá, vadnásahtá]
+
+
+    vanas+N+Der/Dimin+N+Sg+Nom: [vadnasatj, vadnásatj]
+    vanas+N+Der/Dimin+N+Sg+Gen: [vadnasatja, vadnásatja]
+    vanas+N+Der/Dimin+N+Sg+Acc: [vadnasatjav, vadnásatjav]
+    vanas+N+Der/Dimin+N+Sg+Ill: [vadnasatjij, vadnásatjij]
+    vanas+N+Der/Dimin+N+Sg+Ine: [vadnasatjin, vadnásatjin]
+    vanas+N+Der/Dimin+N+Sg+Ela: [vadnasatjist, vadnásatjis]
+    vanas+N+Der/Dimin+N+Sg+Com: [vadnasatjijn, vadnásatjijn]
+    vanas+N+Der/Dimin+N+Pl+Nom: [vadnasatja, vadnásatja]
+    vanas+N+Der/Dimin+N+Pl+Gen: [vadnasatjij, vadnásatjij]
+    vanas+N+Der/Dimin+N+Pl+Acc: [vadnasatjijt, vadnásatjijt]
+    vanas+N+Der/Dimin+N+Pl+Ill: [vadnasatjijda, vadnásatjijda]
+    vanas+N+Der/Dimin+N+Pl+Ine: [vadnasatjijn, vadnásatjijn]
+    vanas+N+Der/Dimin+N+Pl+Ela: [vadnasatjijst, vadnásatjijs]
+    vanas+N+Der/Dimin+N+Pl+Com: [vadnasatjij, vadnasatjijgum, vadnásatjij, vadnásatjijgum]
+    vanas+N+Der/Dimin+N+Ess: [vadnasatjin, vadnásatjin]
+ 

@@ -1,0 +1,51 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Verb - vuäjdnet: # Verb 'see'
+     vuäjdnet+V+Inf: vuäjdnet
+     vuäjdnet+V+Ind+Prs+Sg1: vuojnáv
+     vuäjdnet+V+Ind+Prs+Sg2: vuojná
+     vuäjdnet+V+Ind+Prs+Sg3: vuajdná
+     vuäjdnet+V+Ind+Prs+Du1: vujdnin
+     vuäjdnet+V+Ind+Prs+Du2: [vuäjdnebehtin, vuäjdnebähtten]
+     vuäjdnet+V+Ind+Prs+Du3: [vuäjdneba, vuäjdneban]
+     vuäjdnet+V+Ind+Prs+Pl1: vuäjdnep
+     vuäjdnet+V+Ind+Prs+Pl2: [vuäjdnebehtit, vuäjdnebähttet]
+     vuäjdnet+V+Ind+Prs+Pl3: vujdni
+
+     vuäjdnet+V+Ind+Prt+Sg1: vujdniv
+     vuäjdnet+V+Ind+Prt+Sg2: vujdni
+     vuäjdnet+V+Ind+Prt+Sg3: vujnij
+     vuäjdnet+V+Ind+Prt+Du1: vujnijmen
+     vuäjdnet+V+Ind+Prt+Du2: vujnijden
+     vuäjdnet+V+Ind+Prt+Du3: [vujnijga, vujnijgan]
+     vuäjdnet+V+Ind+Prt+Pl1: vujnijme
+     vuäjdnet+V+Ind+Prt+Pl2: vujnijde
+     vuäjdnet+V+Ind+Prt+Pl3: vujdnin
+
+     vuäjdnet+V+Imprt+Sg2: vuojne  
+     vuäjdnet+V+Imprt+Du2: vuäjdnen
+     vuäjdnet+V+Imprt+Pl2: vujdnit
+
+     vuäjdnet+V+ConNeg: vuojne 
+     vuäjdnet+V+GerII: vuäjdnemin
+     vuäjdnet+V+PrfPrc: vuajdnám
+
+#     vuäjdnet+V+Pot+Sg1: vujnitjav
+#     vuäjdnet+V+Pot+Sg2: vujnitja
+#     vuäjdnet+V+Pot+Sg3: vujnitj
+#     vuäjdnet+V+Pot+Du1: vujnitjin
+#     vuäjdnet+V+Pot+Du2: [vujnitjiehpen, vujnitjähppen] 
+#     vuäjdnet+V+Pot+Du3: vujnitjiebá
+#     vuäjdnet+V+Pot+Pl1: vujnitjip
+#     vuäjdnet+V+Pot+Pl2: vujnitjihpit
+#     vuäjdnet+V+Pot+Pl3: vujnitji
+

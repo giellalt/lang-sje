@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+  Noun - dållå: # N_EVEN (with final å in nom.sg)
+    dållå+N+Sg+Nom: dållå
+    dållå+N+Sg+Gen: dålå
+    dållå+N+Sg+Acc: dålåv
+    dållå+N+Sg+Ill: dållåj
+    dållå+N+Sg+Ine: dålån
+    dållå+N+Sg+Ela: [dålåst, dålås]
+    dållå+N+Sg+Com: [dålåjn, dålåjna]
+    dållå+N+Pl+Nom: dålå
+    dållå+N+Pl+Gen: dålåj
+    dållå+N+Pl+Acc: dålåjt
+    dållå+N+Pl+Ill: dålåjda
+    dållå+N+Pl+Ine: dålåjn
+    dållå+N+Pl+Ela: [dålåjst, dålåjs]
+    dållå+N+Pl+Com: [dålåj, dålåjgum]
+    dållå+N+Ess: dållån
+    dållå+N+Abe: dålådak
+
