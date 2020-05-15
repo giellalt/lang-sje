@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-12T13:30:53+03:00
+! Generated at: 2020-05-14T19:40:06+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -198,7 +198,7 @@ biljähtta:biljiehtta N_EVEN "ticket" ; ! no. 3310
 billgá:billgá N_EVEN "braid of shoe hay" ; ! no. 5660
 billsamiesse:billsa#miesse N_EVEN "reindeer calf in August with full fur" ; ! no. 183
 binnedibme:binnedibme N_EVEN "deduction" ; ! no. 3153
-biologija:biologija N_EVEN "biology" ; ! no. 3312
+biologijja:biologijja N_EVEN "biology" ; ! no. 3312
 bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
 bissti:bissti N_EVEN "spoon" ; ! no. 190
@@ -343,7 +343,7 @@ dållå:dållå N_EVEN "fire" ; ! no. 421
 dållåstihkka:dållå#stihkka N_EVEN "matchstick" ; ! no. 423
 dåresmuorra:dåres#mu^Orra N_EVEN "crossbar" ; ! no. 4731
 dåresåjjve:dåres#åjjve N_EVEN "diagonally oriented mountaintop" ; ! no. 5408
-dårrjo+N+Der/NomAg:dårrjodieddje N_EVEN "caregiver" ; ! no. 6657
+dårjo+N+Der/NomAg:dårjodieddje N_EVEN "caregiver" ; ! no. 6657
 dåssje:dåssje N_EVEN "nonsense" ; ! no. 431
 däŋŋna:dieŋŋna N_EVEN "day and night" ; ! no. 439
 ienoj+Use/NG:eddnu N_EVEN "maternal uncle" ; ! no. 91271
@@ -799,6 +799,8 @@ muvvra:muvvra N_EVEN "wall" ; ! no. 5938
 muärrje:mu^Orrje N_EVEN "berry" ; ! no. 1195
 muättke+Use/NG:mu^Orrke N_EVEN "isthmus" ; ! no. 90462
 muättke:mu^Ottke N_EVEN "isthmus" ; ! no. 2607
+myhtta:myhtta N_EVEN "myth" ; ! no. 91357
+mytologijja:mytologijja N_EVEN "mythology" ; ! no. 91356
 mådtsåbielle:mådtså#bielle N_EVEN "opposite side, inside" ; ! no. 4989
 måhkke:måhkke N_EVEN "errand, task" ; ! no. 1198
 måhkke:måhkke N_EVEN "dead end" ; ! no. 90282
@@ -1467,7 +1469,7 @@ bullidak:bullidag2 N_EVEN4 "kindling" ; ! no. 4700
 bärrjedak:bä2rrjedag2 N_EVEN4 "Friday" ; ! no. 284
 dahkamus:dahkamus N_EVEN4 "task" ; ! no. 3268
 duorastak:du^Orastag2 N_EVEN4 "Thursday" ; ! no. 401
-dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 4803
+dårrjodak:dårrjodag2 N_EVEN4 "subsidy, support" ; ! no. 91355
 därrulatj:dä2rrulatj N_EVEN4 "Swede or Norwegian" ; ! no. 91226
 gahpadak:gahpadag2 N_EVEN4 "woven ribbon with a alternating 'jumping' pattern" ; ! no. 6874
 gatjaldak:gatjaldag2 N_EVEN4 "question" ; ! no. 573
