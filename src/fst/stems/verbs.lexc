@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-12T13:31:49+03:00
+! Generated at: 2020-05-14T19:18:03+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -197,7 +197,7 @@ sirrát:sirrá V_CONTR "separate, branch off" ; ! no. 91116
 sirrit:sirri V_CONTR "pick blueberries" ; ! no. 5990
 sirrvit:sirrvi V_CONTR "slaughter a reindeer bull or bull moose" ; ! no. 1547
 sjirrgit:sjirrgi V_CONTR "quiet someone down" ; ! no. 3721
-sjirrit:sjirri V_CONTR "clear up (for weather)" ; ! no. 1564
+sjirrit:sjir'ri V_CONTR "clear up (for weather)" ; ! no. 1564
 sjuddit:sjuddi V_CONTR "make noise, holler" ; ! no. 1595
 sjuggát:sjuggá V_CONTR "be creative, make something up" ; ! no. 1596
 sjuhppit:sjuhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 1600
@@ -531,7 +531,7 @@ sebrustallat:sebrustall V_EVEN_A "flirt" ; ! no. 1523
 sejvudallat:sejvudall V_EVEN_A "point far away" ; ! no. 2772
 siedjat:siedj V_EVEN_A "fester" ; ! no. 4297
 siegastallat:siegastall V_EVEN_A "shade" ; ! no. 5415
-siellat:siell V_EVEN_A "loose snow (for trees)" ; ! no. 1529
+siellat:siell V_EVEN_A "lose snow or frost (for trees)" ; ! no. 1529
 sihtat:siht V_EVEN_A "want, wish" ; ! no. 1540
 sihtsat:sihts V_EVEN_A "sketch, doodle" ; ! no. 5927
 sjaddat:sjadd V_EVEN_A "grow, become" ; ! no. 1551
@@ -1553,7 +1553,7 @@ sjavnjastit:sjavnjast V_ODD "shake, dust (once)" ; ! no. 1562
 sjáhtjalit:sjáhtjal V_ODD "move something away, postpone" ; ! no. 1552
 sjátjastit:sjátjast V_ODD "shove away" ; ! no. 5786
 sjevnjudit:sjevnjud2 V_ODD "become dusk or dark, darken" ; ! no. 1566
-sjirristit:sjirrist V_ODD "clear up (for weather)" ; ! no. 1563
+sjirristit:sjir'rist V_ODD "clear up a bit (for weather)" ; ! no. 1563
 sjivdnjedit:sjivdnjed2 V_ODD "create (in religious sense)" ; ! no. 1571
 sjläbtjudit:sjläbtjud2 V_ODD "fan away" ; ! no. 1578
 sjnjaltjedit:sjnjaltjed2 V_ODD "deplete" ; ! no. 4390
