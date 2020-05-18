@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-14T19:40:06+03:00
+! Generated at: 2020-05-18T11:51:13+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -1409,6 +1409,7 @@ värrtsa:vierrtsa N_EVEN "ram (sheep)" ; ! no. 2603
 vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åbbábielle:åbbá#bielle N_EVEN "halfsister" ; ! no. 4765
 åbme:åbme N_EVEN "thing, object" ; ! no. 2232
+årårdibme+Use/NG:ådårdibme N_EVEN "phlebotomy, bloodletting" ; ! no. 91363
 åggomsadje:åggom#sadje N_EVEN "fishing spot" ; ! no. 4265
 åhke:åhke N_EVEN "human fetus" ; ! no. 2242
 åhpå+N+Der/NomAg:åhpådieddje N_EVEN "teacher" ; ! no. 2243
@@ -1435,6 +1436,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 årromsadje+Use/NG:årrom#sajje N_EVEN "place of residence, dwelling" ; ! no. 91158
 årråjahke:årrå#jahke N_EVEN "new year" ; ! no. 5170
 årråjakbäjjve:årrå#jak#biejjve N_EVEN "New Years Day" ; ! no. 5169
+årårdibme:årårdibme N_EVEN "phlebotomy, bloodletting" ; ! no. 91362
 åsestimbuvvda:åsestim#buvvda N_EVEN "shop" ; ! no. 2723
 åses+N+Der/NomAg:åsestieddje N_EVEN "buyer, businessman" ; ! no. 2585
 åsse:åsse N_EVEN "part, share" ; ! no. 2269
