@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-18T11:51:13+03:00
+! Generated at: 2020-05-19T15:45:59+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -81,7 +81,7 @@ ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 akkusatijjva:akkusatijjva N_EVEN "accusative" ; ! no. 3115
 aksjuvdna:aksjuvdna N_EVEN "auction" ; ! no. 3145
 aktasatj+A+Der/State:aktasatjvu^Ohta N_EVEN "unity" ; ! no. 3988
-albme:albme N_EVEN "sky, heavens, (outer) space" ; ! no. 43
+albme:albme N_EVEN "sky, heavens, outer space" ; ! no. 43
 alfabähtta:alfabiehtta N_EVEN "alphabet" ; ! no. 3085
 allaskåvvlå:alla#skåvvlå N_EVEN "school of higher education" ; ! no. 91041
 allavárre:alla#várre N_EVEN "alpine mountain" ; ! no. 6838
@@ -569,6 +569,7 @@ hávve:hávve N_EVEN "scratch, wound from a predatory animal’s bite" ; ! no. 8
 hávvga:hávvga N_EVEN "pike" ; ! no. 2678
 hiejos+A+Der/State:hiejosvu^Ohta N_EVEN "poverty" ; ! no. 4048
 hilltomuorra:hillto#mu^Orra N_EVEN "mezereon" ; ! no. 4625
+hiŋŋu:hiŋ'ŋu N_EVEN "long-tailed duck" ; ! no. 91366
 hurre:hur're N_EVEN "black grouse" ; ! no. 3009
 husbunndi:husbunndi N_EVEN "head of a household" ; ! no. 90967
 hushållå:hushållå N_EVEN "household" ; ! no. 91123
@@ -598,6 +599,7 @@ ietjasvuohke:ietjas#vu^Ohke N_EVEN "distinctive" ; ! no. 4940
 ihttátjbäjjve:ihttátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
 ijaráppta:ija#ráppta N_EVEN "late evening" ; ! no. 3743
 idja+Use/NG:ijja N_EVEN "night" ; ! no. 90421
+ilbme:ilbme N_EVEN "air" ; ! no. 91365
 inuijjta:inuijjta N_EVEN "Inuit" ; ! no. 4000
 irrge:irrge N_EVEN "fiancé, future husband" ; ! no. 3425
 itkabielle:itka#bielle N_EVEN "backside of a mountain" ; ! no. 2525
@@ -2572,7 +2574,6 @@ gålmås:gålbmås N_ODD_WG "threesome" ; ! no. 4891
 gåptjås:gåpptjås N_ODD_WG "cover, blanket, covering" ; ! no. 91334
 gärris:gä2r'ris N_ODD_WG "Saami sled" ; ! no. 3504
 iehpal:iehppal N_ODD_WG "apple" ; ! no. 4184
-juällgeladas:juällge#lahtas N_ODD_WG "ankle" ; ! no. 945
 kráptjok:krápptjog2 N_ODD_WG "furless leather glove" ; ! no. 90255
 ladas:lahtas N_ODD_WG "joint (anatomy)" ; ! no. 988
 mánnásujtár:mánná#sujjtár N_ODD_WG "baby sitter" ; ! no. 4972
