@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-15T08:50:46+03:00
+! Generated at: 2020-05-21T13:57:39+03:00
 
 !! !!!Pite Saami Adjectives
 
@@ -59,6 +59,7 @@ unogis:unog A_ASEDIS "strange, unusual, odd" ; ! no. 2033
 vuällegis:vu^Ol'leg A_ASEDIS "low, humble" ; ! no. 4796
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
 garras:gar'ra A_BAAHKAS "hard" ; ! no. 90186
+lieggas:liegga A_BAAHKAS "warm" ; ! no. 90122
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
 båjjtot:båjjto A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
 båjjtot+Use/NG:båssto A_BAOSSTOT "wrong, incorrect" ; ! no. 90560
