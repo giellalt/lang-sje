@@ -270,7 +270,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Pl+Com+Use/NGminip:u2%>jgum K ;
 
 
-LEXICON N_ODD_DIM !N_ODD suffixes (X as in suffiX)
+LEXICON N_ODD_DIM !N_ODD suffixes
 +Der/Dimin+N:a%>tj N_DIM_s2 ;
 
 
@@ -376,8 +376,9 @@ LEXICON N_CONTR_DIM ! ålmátj, sarrvátj
 
 !general addition of DIM case/number endings (avoids recursive DIM generation)
 LEXICON N_DIM_s2 !nom.sg, then link to other forms
-+Sg+Nom: K ;
-: N_ODD_X ;
+!+Sg+Nom: K ;
+!: N_ODD_X ;
+: NO_VH_X ;
 
 LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
 # ;
@@ -460,9 +461,10 @@ LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete yet:
 
 
 LEXICON N_MONOSYL_PROPER ! monosyllabic proper nouns (mostly person names)
-+N: MONOSYL_PROPER_N_S2 ; !add PoS, then link to morphology
++N: NO_VH_X ; !add PoS, then link to morphology
 
-LEXICON MONOSYL_PROPER_N_S2 
+!LEXICON MONOSYL_PROPER_N_S2 
+LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (no -i- in suffixes)
 +Sg+Nom: K ;
 +Sg+Acc:av K ;
 +Sg+Gen:a K ;
