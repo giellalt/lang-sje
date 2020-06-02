@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-20T08:20:52+03:00
+! Generated at: 2020-06-02T18:55:52+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -47,6 +47,7 @@ adopterit:adopteri V_CONTR "adopt" ; ! no. 3119
 analyserit:analyseri V_CONTR "analyze" ; ! no. 90871
 ballát:bal'lá V_CONTR "become scared" ; ! no. 131
 beddit:beddi V_CONTR "make a bed" ; ! no. 1007
+bejjvut:bejjvu V_CONTR "be bleached" ; ! no. 174
 berrgit:berrgi V_CONTR "manage, make do" ; ! no. 164
 berrut:berru V_CONTR "ought" ; ! no. 5904
 bidtjit:bidtji V_CONTR "build" ; ! no. 4638
@@ -63,7 +64,6 @@ busskit:busski V_CONTR "fart" ; ! no. 196
 buvvdit:buvvdi V_CONTR "invite, offer" ; ! no. 3316
 bäddit:bä2ddi V_CONTR "record onto tape" ; ! no. 3544
 bähkkut:bä2hkku V_CONTR "bake" ; ! no. 494
-bäjjvut:bä2jjvu V_CONTR "be bleached" ; ! no. 174
 bäkktjit:bä2kktji V_CONTR "hurt someone" ; ! no. 3947
 bällit:bä2lli V_CONTR "get the opportunity to do something" ; ! no. 4203
 bärrkit:bä2rrki V_CONTR "tan leather using willow" ; ! no. 3218
