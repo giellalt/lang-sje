@@ -1,0 +1,9 @@
+name = "Pite Sami"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.sje"
+
+[windows]
+system_product_code = "A7AAB3BF-7B9B-468E-8956-739857019D2F"
+msoffice_product_code = "37BB0BBF-0791-4E15-9746-E232D8E20C60"
