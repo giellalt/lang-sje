@@ -84,6 +84,7 @@ LEXICON Demonstrative   !!= * __@CODE@__
 dat+Pron+Dem+Sg+Nom:dat # ;
 dat+Pron+Dem+Sg+Nom+Use/NG:dahta # ;
 dat+Pron+Dem+Sg+Acc:dav # ;
+dat+Pron+Dem+Sg+Acc+Use/NG:dava # ; !long form when isolated
 dat+Pron+Dem+Sg+Gen:dan # ;
 dat+Pron+Dem+Sg+Ill:dasa # ;
 dat+Pron+Dem+Sg+Ill+Use/NG:disi # ;
@@ -106,6 +107,7 @@ dat+Pron+Dem+Pl+Com:daj # ;
 dát+Pron+Dem+Sg+Nom:dát # ;
 dát+Pron+Dem+Sg+Nom+Use/NG:dáhta # ;
 dát+Pron+Dem+Sg+Acc:dáv # ;
+dát+Pron+Dem+Sg+Acc+Use/NG:dáva # ; !long form when isolated
 dát+Pron+Dem+Sg+Gen:dán # ;
 dát+Pron+Dem+Sg+Ill:dása # ;
 dát+Pron+Dem+Sg+Ill+Use/NG:däsi # ;
