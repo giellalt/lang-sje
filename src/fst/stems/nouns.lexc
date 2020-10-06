@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-05-19T15:45:59+03:00
+! Generated at: 2020-10-06T19:32:46+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -355,6 +355,7 @@ fabrijjka:fabrijjka N_EVEN "factory" ; ! no. 4029
 fábmogis+A+Der/State:fábmogisvu^Ohta N_EVEN "authority, power" ; ! no. 3247
 fáddme:fáddme N_EVEN "bosom; armful; hug" ; ! no. 471
 fágga+N+Der/NomAg:fággadieddje N_EVEN "wrestler" ; ! no. 3420
+fáhkagirjálatj+A+Der/State:fáhka#girjálatjvu^Ohta N_EVEN "specialist literature" ; ! no. 91375
 fáhtte:fáhtte N_EVEN "rumen" ; ! no. 5510
 fáhttsa:fáhttsa N_EVEN "mitten" ; ! no. 466
 fálldebåkkså:fállde#båkkså N_EVEN "old-style trousers made of homespun cloth and leather" ; ! no. 5561
@@ -459,6 +460,7 @@ ginntalbäjjve:ginntal#biejjve N_EVEN "Candlemas" ; ! no. 6652
 ginntaljuällge:ginntal#ju^Ollge N_EVEN "candlestick" ; ! no. 2481
 gippta:gippta N_EVEN "fishing net sinker, wrapped in birchbark" ; ! no. 4445
 girrje+Use/NG:girdje N_EVEN "book" ; ! no. 90413
+girjálatj+A+Der/State:girjálatjvu^Ohta N_EVEN "literature" ; ! no. 91376
 girra:girra N_EVEN "spring (season)" ; ! no. 636
 girradállve:girra#dállve N_EVEN "spring-winter" ; ! no. 2362
 girragiesse:girra#giesse N_EVEN "spring summer" ; ! no. 5654
