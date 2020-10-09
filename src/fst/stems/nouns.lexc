@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-10-06T19:32:46+03:00
+! Generated at: 2020-10-09T18:17:22+03:00
 
 !! !!!Pite Saami Nouns
 
@@ -2042,9 +2042,9 @@ ananas:ananas N_ODD "pineapple" ; ! no. 3097
 arram:arram N_ODD "marrowbone" ; ! no. 90202
 áddjov:áddjov N_ODD "grandchild" ; ! no. 5
 ájajågåtj:ája#jågåtj N_ODD "small stream fed by a spring" ; ! no. 2687
+ájjlek:ájjleg2 N_ODD "Sunday" ; ! no. 29
+ájjlekárrat:ájjlek#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 ájjtek:ájjteg2 N_ODD "parent" ; ! no. 90964
-ájlek:ájleg2 N_ODD "Sunday" ; ! no. 29
-ájlekárrat:ájlek#árrad2 N_ODD "Sunday morning" ; ! no. 4657
 álltár:álltár N_ODD "altar" ; ! no. 3799
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
 árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
