@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/sjedoc/index.html>
+-   <https://giellalt.uit.no/lang/sje/PiteSaamiDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
