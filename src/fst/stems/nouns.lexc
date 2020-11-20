@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-10-09T18:17:22+03:00
+! Generated at: 2020-11-20T13:30:48+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1569,7 +1569,8 @@ mujjtulis:mujjtul N_EVEN4_ISA "memory, story" ; ! no. 90283
 náranis:náran N_EVEN4_ISA "abscess, boil" ; ! no. 1245
 nieljagis:nieljag N_EVEN4_ISA "quarter" ; ! no. 5270
 njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
-rájdaris:rájdar N_EVEN4_ISA "wooden ladder; log with steps chopped into it" ; ! no. 2899
+rájjderis+Use/NG:rájjdar N_EVEN4_ISA "wooden ladder; log with steps chopped into it" ; ! no. 91377
+rájjderis:rájjder N_EVEN4_ISA "wooden ladder; log with steps chopped into it" ; ! no. 2899
 rájsagis:rájsag N_EVEN4_ISA "long-legged spider" ; ! no. 3010
 rávkalvis:rávkalv N_EVEN4_ISA "requirement" ; ! no. 91267
 suojvanis:su^Ojvan N_EVEN4_ISA "shadow. shade" ; ! no. 2763
