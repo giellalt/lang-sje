@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-11-20T13:30:48+02:00
+! Generated at: 2020-12-25T11:29:13+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -939,7 +939,6 @@ ruhta:ruhta N_EVEN "a groom's present to his bride's parents" ; ! no. 6036
 ruhtse:ruhtse N_EVEN "trash, rubbish, garbage, waste" ; ! no. 3154
 rumma:rum'ma N_EVEN "room" ; ! no. 1421
 ruŋŋka:ruŋŋka N_EVEN "raven" ; ! no. 1428
-ruovdegárre:ruovde#gárre N_EVEN "iron bowl" ; ! no. 90933
 russjma:russjma N_EVEN "evening fog (rising above water in cool weather); night fog (rising above water in cool weather)" ; ! no. 91235
 russna:russna N_EVEN "cold smoke, vapor (on a lake/ocean)" ; ! no. 1440
 ruvvdna:ruvvdna N_EVEN "uneasy feeling" ; ! no. 4429
@@ -949,6 +948,7 @@ ruäkksje:ru^Okksje N_EVEN "loin" ; ! no. 2612
 ruäkksjebuäjjde:ruäkksje#bu^Ojjde N_EVEN "fat around the loin" ; ! no. 5407
 ruäkksjedákkte:ruäkksje#dákkte N_EVEN "loin bone" ; ! no. 3769
 ruävvde+CmpN/SgN+CmpN/SgG:ru^Ovvde N_EVEN "iron" ; ! no. 1449
+ruävvdegárre:ruävvde#gárre N_EVEN "iron bowl" ; ! no. 90933
 ruävvdetjarrva:ruävvde#tjarrva N_EVEN "crusted snow that does not thaw during the day" ; ! no. 4748
 ruävvdeviega:ruävvde#viega N_EVEN "railway" ; ! no. 3209
 ruävvse:ru^Ovvse N_EVEN "udder" ; ! no. 1450
