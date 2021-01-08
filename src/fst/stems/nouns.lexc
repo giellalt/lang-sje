@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-12-25T11:29:13+02:00
+! Generated at: 2021-01-08T13:01:56+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -1540,7 +1540,7 @@ jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
 lävvludas:lä2vvlud N_EVEN4_ASA "song" ; ! no. 5857
 råhkålvas:råhkålv N_EVEN4_ASA "church service" ; ! no. 1456
 tjåhkålvas:tjåhkålv N_EVEN4_ASA "meeting, gathering" ; ! no. 1963
-vuojŋanas:vu^Ojŋan N_EVEN4_ASA "brain, mind" ; ! no. 2167
+vuojŋanis+Use/NG:vu^Ojŋan N_EVEN4_ASA "spirit; brain, mind" ; ! no. 2167
 åtsålvas:åtsålv N_EVEN4_ASA "application" ; ! no. 3168
 aldagis:aldag N_EVEN4_ISA "lightning, flash" ; ! no. 46
 ávdnogis:ávdnog N_EVEN4_ISA "reindeer which has been attacked by a predator and is still alive" ; ! no. 87
