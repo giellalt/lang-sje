@@ -70,10 +70,10 @@ LEXICON V_EVEN_E_WK_J
 +Ind+Prt+Du1:min #;
 +Ind+Prt+Du2:din #;
 +Ind+Prt+Du3: 3DUPRT ;
-+Ind+Prt+Pl1:mä #;
-+Ind+Prt+Pl2:dä #;
-+Ind+Prt+Pl1+Use/NG:me #;
-+Ind+Prt+Pl2+Use/NG:de #;
++Ind+Prt+Pl1:me #;
++Ind+Prt+Pl2:de #;
++Ind+Prt+Pl1+Use/NG:mä #;
++Ind+Prt+Pl2+Use/NG:dä #;
 
 
 LEXICON V_EVEN_E_G3 !guäddet, däddet
@@ -141,10 +141,10 @@ LEXICON V_EVEN_A_WK
 +Ind+Prt+Du1:%>jmin #;
 +Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jmä #;
-+Ind+Prt+Pl2:%>jdä #;
-+Ind+Prt+Pl1+Use/NG:%>jme #;
-+Ind+Prt+Pl2+Use/NG:%>jde #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1+Use/NG:%>jmä #;
++Ind+Prt+Pl2+Use/NG:%>jdä #;
 
 +Imprt+Sg2:%> #; 
 
@@ -192,10 +192,10 @@ LEXICON V_GILGIJ_FORMS !see above
 +Ind+Prt+Du1:%>jmin #;
 +Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jmä #;
-+Ind+Prt+Pl2:%>jdä #;
-+Ind+Prt+Pl1+Use/NG:%>jme #;
-+Ind+Prt+Pl2+Use/NG:%>jde #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1+Use/NG:%>jmä #;
++Ind+Prt+Pl2+Use/NG:%>jdä #;
 
 
 
@@ -233,10 +233,10 @@ LEXICON V_EVEN_O_WK
 +Ind+Prt+Du1:%>jmin #;
 +Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jmä #;
-+Ind+Prt+Pl2:%>jdä #;
-+Ind+Prt+Pl1+Use/NG:%>jme #;
-+Ind+Prt+Pl2+Use/NG:%>jde #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1+Use/NG:%>jmä #;
++Ind+Prt+Pl2+Use/NG:%>jdä #;
 
 +Imprt+Sg2:%> #; 
 
@@ -311,10 +311,10 @@ LEXICON V_EVEN_Å_WK
 +Ind+Prt+Du1:%>jmin #;
 +Ind+Prt+Du2:%>jdin #;
 +Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jmä #;
-+Ind+Prt+Pl2:%>jdä #;
-+Ind+Prt+Pl1+Use/NG:%>jme #;
-+Ind+Prt+Pl2+Use/NG:%>jde #;
++Ind+Prt+Pl1:%>jme #;
++Ind+Prt+Pl2:%>jde #;
++Ind+Prt+Pl1+Use/NG:%>jmä #;
++Ind+Prt+Pl2+Use/NG:%>jdä #;
 
 +Imprt+Sg2:%> #; 
 
@@ -465,10 +465,10 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Du1:%>jmin #;
 +V+Ind+Prt+Du2:%>jdin #;
 +V+Ind+Prt+Du3:%>j 3DUPRT ;
-+V+Ind+Prt+Pl1:%>jmä #;
-+V+Ind+Prt+Pl2:%>jdä #;
-+V+Ind+Prt+Pl1+Use/NG:%>jme #;
-+V+Ind+Prt+Pl2+Use/NG:%>jde #;
++V+Ind+Prt+Pl1:%>jme #;
++V+Ind+Prt+Pl2:%>jde #;
++V+Ind+Prt+Pl1+Use/NG:%>jmä #;
++V+Ind+Prt+Pl2+Use/NG:%>jdä #;
 +V+Ind+Prt+Pl3:%>jin #; 
 
 +V+Imprt+Sg2:%> #; 
