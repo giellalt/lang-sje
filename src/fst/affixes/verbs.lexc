@@ -32,11 +32,11 @@ LEXICON V_EVEN_E_STR
 +Ind+Prs+Sg3:á%> #;
 !+Ind+Prs+Sg3+Err/Orth:a%> #; !just as an example, for possible later implementation
 +Ind+Prs+Du1:i%>n #; 
-+Ind+Prs+Du2:e%>behtin #;
++Ind+Prs+Du2:e%>behttin #;
 +Ind+Prs+Du2:e%>bähtten #;
 +Ind+Prs+Du3:e%> 3DUPRS ;
 +Ind+Prs+Pl1:e%>p #;
-+Ind+Prs+Pl2:e%>behtit #;
++Ind+Prs+Pl2:e%>behttit #;
 +Ind+Prs+Pl2:e%>bähttet #;
 +Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
@@ -83,11 +83,11 @@ LEXICON V_EVEN_E_G3 !guäddet, däddet
 LEXICON V_EVEN_E_STR_G3 !
 +Ind+Prs+Sg3:á^G3^UAUML%> #;
 +Ind+Prs+Du1:i%>n #; 
-+Ind+Prs+Du2:e^G3^UAUML%>behtin #;
++Ind+Prs+Du2:e^G3^UAUML%>behttin #;
 +Ind+Prs+Du2:e^G3^UAUML%>bähtten #;
 +Ind+Prs+Du3:e^G3^UAUML%> 3DUPRS ;
 +Ind+Prs+Pl1:e^G3^UAUML%>p #;
-+Ind+Prs+Pl2:e^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:e^G3^UAUML%>behttit #;
 +Ind+Prs+Pl2:e^G3^UAUML%>bähttet #;
 +Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
@@ -114,11 +114,11 @@ LEXICON V_EVEN_A !dahkat
 LEXICON V_EVEN_A_STR
 +Ind+Prs+Sg3:á%> #;
 +Ind+Prs+Du1:i%>n #; 
-+Ind+Prs+Du2:a%>behtin #;
++Ind+Prs+Du2:a%>behttin #;
 !+Ind+Prs+Du2:a%>bähtten #;
 +Ind+Prs+Du3:a%> 3DUPRS ;
 +Ind+Prs+Pl1:a%>p #;
-+Ind+Prs+Pl2:a%>behtit #;
++Ind+Prs+Pl2:a%>behttit #;
 !+Ind+Prs+Pl2:a%>bähttet #;
 +Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
@@ -163,11 +163,11 @@ LEXICON V_EVEN_A_G3 !snuaggat
 LEXICON V_EVEN_A_STR_G3 !
 +Ind+Prs+Sg3:á^G3^UAUML%> #;
 +Ind+Prs+Du1:i%>n #; 
-+Ind+Prs+Du2:a^G3^UAUML%>behtin #;
++Ind+Prs+Du2:a^G3^UAUML%>behttin #;
 +Ind+Prs+Du2:a^G3^UAUML%>bähtten #;
 +Ind+Prs+Du3:a^G3^UAUML%> 3DUPRS ;
 +Ind+Prs+Pl1:a^G3^UAUML%>p #;
-+Ind+Prs+Pl2:a^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:a^G3^UAUML%>behttit #;
 +Ind+Prs+Pl2:a^G3^UAUML%>bähttet #;
 +Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
@@ -206,11 +206,11 @@ LEXICON V_EVEN_O !viessot, årrot
 LEXICON V_EVEN_O_STR
 +Ind+Prs+Sg3:u%> #; !should this be -u-?
 +Ind+Prs+Du1:u%>n #; 
-+Ind+Prs+Du2:o%>behtin #;
++Ind+Prs+Du2:o%>behttin #;
 +Ind+Prs+Du2:o%>bähtten #;
 +Ind+Prs+Du3:o%> 3DUPRS ;
 +Ind+Prs+Pl1:o%>p #;
-+Ind+Prs+Pl2:o%>behtit #;
++Ind+Prs+Pl2:o%>behttit #;
 +Ind+Prs+Pl2:o%>bähttet #;
 +Ind+Prs+Pl3:u%> #; 
 +Ind+Prt+Sg1:u%>v #; 
@@ -255,11 +255,11 @@ LEXICON V_EVEN_O_G3 !luabbot
 LEXICON V_EVEN_O_STR_G3 !
 +Ind+Prs+Sg3:u%> #;
 +Ind+Prs+Du1:u%>n #; 
-+Ind+Prs+Du2:o^G3^UAUML%>behtin #;
++Ind+Prs+Du2:o^G3^UAUML%>behttin #;
 +Ind+Prs+Du2:o^G3^UAUML%>bähtten #;
 +Ind+Prs+Du3:o^G3^UAUML%> 3DUPRS ;
 +Ind+Prs+Pl1:o^G3^UAUML%>p #;
-+Ind+Prs+Pl2:o^G3^UAUML%>behtit #;
++Ind+Prs+Pl2:o^G3^UAUML%>behttit #;
 +Ind+Prs+Pl2:o^G3^UAUML%>bähttet #;
 +Ind+Prs+Pl3:u%> #; 
 +Ind+Prt+Sg1:u%>v #; 
@@ -284,11 +284,11 @@ LEXICON V_EVEN_Å !hållåt, bårråt
 LEXICON V_EVEN_Å_STR
 +Ind+Prs+Sg3:á%> #;
 +Ind+Prs+Du1:i%>n #; 
-+Ind+Prs+Du2:å%>behtin #;
++Ind+Prs+Du2:å%>behttin #;
 !+Ind+Prs+Du2:å%>bähtten #;
 +Ind+Prs+Du3:å%> 3DUPRS ;
 +Ind+Prs+Pl1:å%>p #;
-+Ind+Prs+Pl2:å%>behtit #;
++Ind+Prs+Pl2:å%>behttit #;
 !+Ind+Prs+Pl2:å%>bähttet #;
 +Ind+Prs+Pl3:i%> #; 
 +Ind+Prt+Sg1:i%>v #; 
@@ -567,11 +567,11 @@ LEXICON LEPOT
 +Sg2:lidtja # ; 
 +Sg3:litj # ; 
 +Du1:lidtjin # ; 
-+Du2:lidtjabehtin # ; 
++Du2:lidtjabehttin # ; 
 +Du3:lidtjaba # ; 
 +Du3:lidtjaban # ; 
 +Pl1:lidtjap # ;  
-+Pl2:lidtjabihtit # ; 
++Pl2:lidtjabihttit # ; 
 +Pl3:lidtji # ; 
 
 
