@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2020-11-11T12:52:10+02:00
+! Generated at: 2021-01-22T08:32:49+02:00
 
 !! !!!Pite Saami Verbs
 
@@ -1088,6 +1088,7 @@ bijnedit:bijned2 V_ODD "torture" ; ! no. 181
 binnodit:binnod2 V_ODD "lessen the amount, quantity" ; ! no. 2447
 birastit:birast V_ODD "cruise around" ; ! no. 185
 bitjádit:bitjád2 V_ODD "complain" ; ! no. 5776
+biváldit:biváld2 V_ODD "thaw, become milder" ; ! no. 5285
 bivkidit:bivkid2 V_ODD "say something in passing" ; ! no. 4416
 buajjdodit:buajjdod2 V_ODD "fatten up" ; ! no. 5803
 buddusit:buddus V_ODD "stuff, plug, block" ; ! no. 206
@@ -1101,7 +1102,6 @@ buorránit:bu^Orrán V_ODD "improve, recover" ; ! no. 143
 buridit:burid2 V_ODD "disperse, spread out" ; ! no. 220
 buskedit:busked2 V_ODD "become angry" ; ! no. 223
 busodit:busod2 V_ODD "blow out" ; ! no. 4704
-buvaldit:buvald2 V_ODD "thaw" ; ! no. 5285
 bådtsåstit:bådtsåst V_ODD "shake off water (for reindeer and other animals)" ; ! no. 235
 båggedit:bågged2 V_ODD "fall, tumble" ; ! no. 2409
 båhttásit:båhttás V_ODD "boil over" ; ! no. 237
