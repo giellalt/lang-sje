@@ -27,3 +27,6 @@ GENERAL:
     NOUNS:
     - -st/-s ELAT
     - -oj/-uj ILL.SG
+
+
+text for git token
