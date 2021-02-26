@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-01-08T13:01:56+02:00
+! Generated at: 2021-02-26T16:04:45+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -449,7 +449,6 @@ giesseájjge:giesse#ájjge N_EVEN "summer time" ; ! no. 4828
 giessebäjjve:giesse#biejjve N_EVEN "summer day" ; ! no. 6713
 giesselåhpe:giesse#låhpe N_EVEN "summer vacation" ; ! no. 5855
 gietjaldahka:gietjaldahka N_EVEN "hinge" ; ! no. 4841
-gietjobäjjve:gietjo#biejjve N_EVEN "the whole day" ; ! no. 4376
 gietsvuolle:giets#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
 gijjle:gijjle N_EVEN "dowry" ; ! no. 6037
 gijjsá:gijjsá N_EVEN "wooden pannier" ; ! no. 4470
@@ -705,7 +704,7 @@ liebma:liebma N_EVEN "bouillon, broth" ; ! no. 2503
 liehke:liehke N_EVEN "dip in the ground" ; ! no. 1029
 liena:liena N_EVEN "province, county" ; ! no. 91160
 lienasmanne:lienas#man'ne N_EVEN "sheriff, police officer" ; ! no. 91072
-lienastivvra:liena#stivvra N_EVEN "provincial administration" ; ! no. 1031
+lienastivvrá:liena#stivvrá N_EVEN "provincial administration" ; ! no. 1031
 lierra:lierra N_EVEN "leather" ; ! no. 6565
 lihtte:lihtte N_EVEN "container, bowl" ; ! no. 1044
 lijdne:lijdne N_EVEN "scarf, cloth" ; ! no. 1047
@@ -1135,7 +1134,7 @@ stárra:stárra N_EVEN "city, town" ; ! no. 2558
 stijjla:stijjla N_EVEN "style" ; ! no. 90709
 stilltji:stilltji N_EVEN "snow and ice in the trees" ; ! no. 6003
 stirrgi:stirrgi N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
-stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
+stivvrá:stivvrá N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
 struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
@@ -1455,7 +1454,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 äddne:ieddne N_EVEN "mother" ; ! no. 2285
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
 älbmukbäjjve:älbmuk#biejjve N_EVEN "day of the (Saami) people" ; ! no. 91218
-älbmukstivvra:älbmuk#stivvra N_EVEN "democracy" ; ! no. 3579
+älbmukstivvrá:älbmuk#stivvrá N_EVEN "democracy" ; ! no. 3579
 äldja:ieldja N_EVEN "moose" ; ! no. 91251
 ärlugis+A+Der/State:ärlugisvu^Ohta N_EVEN "honesty, integrity" ; ! no. 5917
 ärra:ier'ra N_EVEN "scar" ; ! no. 4805
@@ -2434,7 +2433,7 @@ viessot+V+Der/NomAg:viessoj N_ODD "a living being" ; ! no. 90377
 viessom:viessom N_ODD "life, lifestyle" ; ! no. 5453
 vinndek:vinndeg2 N_ODD "window" ; ! no. 2128
 vuobmebuollem:vuobme#bu^Ollem N_ODD "forest fire" ; ! no. 3400
-vuorrobednik+Use/NG:vuoddo#bednig2 N_ODD "basic amount" ; ! no. 3223
+vuorrobednik+Use/NG:vuoddo#bednig2 N_ODD "base amount" ; ! no. 3223
 vuodjet+V+Der/NomAg:vu^Odjej N_ODD "driver, chauffeur" ; ! no. 3523
 vuoján:vu^Oján N_ODD "snowmobile, four-wheeler, vehicle" ; ! no. 90573
 vuolpok:vu^Olpog2 N_ODD "daggkåpa" ; ! no. 90753
