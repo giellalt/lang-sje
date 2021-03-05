@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-03-03T14:31:32+02:00
+! Generated at: 2021-03-05T08:36:34+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -2194,7 +2194,7 @@ hevil:hevil N_ODD "plane (tool)" ; ! no. 841
 hiestak:hiestag2 N_ODD "shoe made of horse leather" ; ! no. 90237
 hujnik:hujnig2 N_ODD "someone who does not care, a passive person" ; ! no. 5845
 hähkkal:hä2hkkal N_ODD "board with nails in it for combing shoe hay" ; ! no. 862
-iret+Use/NG:ided2 N_ODD "tomorrow" ; ! no. 90420
+iret+Use/NG:ided2 N_ODD "tomorrow" ; ! no. 873
 idjaiednam:idja#iednam N_ODD "place for reindeer to spend the night" ; ! no. 5952
 iednam:iednam N_ODD "earth, soil, land" ; ! no. 444
 iednamskellbim:iednam#skellbim N_ODD "earthquake" ; ! no. 4182
@@ -2203,7 +2203,7 @@ iejgát:iejgád2 N_ODD "parents; owner" ; ! no. 446
 iemet:iemed2 N_ODD "housewife" ; ! no. 451
 iemeårroj:ieme#årroj N_ODD "permanent settler" ; ! no. 90245
 illtjak:illtjag2 N_ODD "stubborn, obstinate" ; ! no. 894
-iret:ired2 N_ODD "tomorrow" ; ! no. 873
+iret:ired2 N_ODD "tomorrow" ; ! no. 90420
 jagak:jagag2 N_ODD "one-year-old" ; ! no. 4911
 jábmem:jábmem N_ODD "death" ; ! no. 901
 jubmel:jubmel N_ODD "God" ; ! no. 928
