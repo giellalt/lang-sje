@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-03-05T08:36:34+02:00
+! Generated at: 2021-03-07T16:32:19+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -384,6 +384,7 @@ gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
 gahpa:gahpa N_EVEN "cheese mass, cream" ; ! no. 497
 gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
 gallva:gallva N_EVEN "dry deciduous tree" ; ! no. 4757
+garrtsa:garrtsa N_EVEN "twirled leather strip" ; ! no. 551
 gaskamierre:gaska#mierre N_EVEN "halfway, average" ; ! no. 90545
 gasskabäjjve:gasska#biejjve N_EVEN "dinner time" ; ! no. 564
 gasskadállve:gasska#dállve N_EVEN "the middle of the winter" ; ! no. 5728
@@ -418,7 +419,6 @@ gáppte:gáppte N_EVEN "Saami frock" ; ! no. 539
 gárdijdna:gárdijdna N_EVEN "curtain" ; ! no. 90339
 gárrde:gárrde N_EVEN "fence, pen, corral" ; ! no. 548
 gárre:gárre N_EVEN "bowl" ; ! no. 3446
-gárrtsa:gárrtsa N_EVEN "twirled leather strip" ; ! no. 551
 gárrvoájjte:gárrvo#ájjte N_EVEN "clothing shed" ; ! no. 3585
 gárrvohållgå:gárrvo#hållgå N_EVEN "clothes rack" ; ! no. 4594
 gássa:gássa N_EVEN "lesser white-fronted goose" ; ! no. 561
