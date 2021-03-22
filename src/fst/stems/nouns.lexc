@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-03-07T16:32:19+02:00
+! Generated at: 2021-03-22T18:00:09+02:00
 
 !! !!!Pite Saami Nouns
 
@@ -214,7 +214,6 @@ bruvdna:bruvdna N_EVEN "bridge" ; ! no. 3413
 bruvvda:bruvvda N_EVEN "bride" ; ! no. 3423
 brånnså:brånnså N_EVEN "bronze" ; ! no. 3416
 bråssjå:bråssjå N_EVEN "brooch" ; ! no. 1821
-bualdáddjá:buald#áddjá N_EVEN "bear" ; ! no. 3617
 buallda:bu^Ollda N_EVEN "slope" ; ! no. 199
 buallva:bu^Ollva N_EVEN "knee, kneecap" ; ! no. 200
 buavvda:bu^Ovvda N_EVEN "round treeless mountain top surrounded by forest" ; ! no. 201
@@ -231,6 +230,7 @@ buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
 buogŋa:bu^Ogŋa N_EVEN "space above the belt in a Saami frock" ; ! no. 3023
 buohtja:bu^Ohtja N_EVEN "penis" ; ! no. 4538
 buohtsa:bu^Ohtsa N_EVEN "small round bone between femur and marrowbone" ; ! no. 5014
+buoldáddjá:buold#áddjá N_EVEN "bear" ; ! no. 3617
 burra:bur'ra N_EVEN "storage pit" ; ! no. 5830
 burrne:burrne N_EVEN "cellar made of rocks or earth" ; ! no. 221
 bussa:bus'sa N_EVEN "bus" ; ! no. 222
@@ -1996,7 +1996,7 @@ tjarrfo:tjarrfo N_EVEN_O "ice pick" ; ! no. 5195
 tjijjlo:tjijjlo N_EVEN_O "kilo" ; ! no. 5215
 tjivvko:tjivvko N_EVEN_O "fresh cheese curd" ; ! no. 4420
 tjuajjgamláhtto:tjuajjgam#láhtto N_EVEN_O "ski tracks" ; ! no. 3615
-tjullgo:tjullgo N_EVEN_O "stick for pulling fishing nets under ice" ; ! no. 2753
+tjullgo:tjullgo N_EVEN_O "stick or jigger for pulling fishing nets under ice" ; ! no. 2753
 tjullko:tjullko N_EVEN_O "piece of wood placed on a dog to impede it" ; ! no. 2574
 tjivvko+Use/NG:tjuvvko N_EVEN_O "fresh cheese curd" ; ! no. 90495
 tjårgŋehárrdo:tjårgŋe#hárrdo N_EVEN_O "humpback" ; ! no. 3705
