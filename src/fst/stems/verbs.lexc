@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-02-23T16:13:02+02:00
+! Generated at: 2021-03-29T07:37:06+03:00
 
 !! !!!Pite Saami Verbs
 
@@ -321,6 +321,7 @@ idjaduvvut:idjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing
 ieljaduvvut:ieljaduvv V_CONTR_UVVUT "be weak" ; ! no. 5892
 ietjájduvvut:ietjájduvv V_CONTR_UVVUT "be changed" ; ! no. 4634
 idjaduvvut+Use/NG:ijjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91086
+juogeduvvut:ju^Ogeduvv V_CONTR_UVVUT "be divided up, be distributed" ; ! no. 91408
 lånestuvvut:lånestuvv V_CONTR_UVVUT "be saved, be redeemed" ; ! no. 4135
 mierreduvvut:mierreduvv V_CONTR_UVVUT "be decided, be intended" ; ! no. 90277
 måraduvvut:måraduvv V_CONTR_UVVUT "become angry" ; ! no. 91325
@@ -335,6 +336,7 @@ tjuorgaduvvut:tju^Orgaduvv V_CONTR_UVVUT "paint" ; ! no. 90367
 tjåvdeduvvut:tjåvdeduvv V_CONTR_UVVUT "be set free, be liberated" ; ! no. 3233
 tsábmestuvvut:tsábmestuvv V_CONTR_UVVUT "be hit down, knocked down" ; ! no. 90911
 tseggiduvvut:tseggiduvv V_CONTR_UVVUT "be constructed, be erected" ; ! no. 90234
+vaddeduvvut:vaddeduvv V_CONTR_UVVUT "be given" ; ! no. 91411
 vájvástuvvut:vájvástuvv V_CONTR_UVVUT "anguish, squirm" ; ! no. 2069
 válldeduvvut:válldeduvv V_CONTR_UVVUT "be taken" ; ! no. 90389
 vuoláduvvut:vu^Oláduvv V_CONTR_UVVUT "become inebriated, become drunk" ; ! no. 3254
@@ -619,11 +621,11 @@ vannjgat:vannjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 vassjat:vassj V_EVEN_A "feel like, manage, have the energy" ; ! no. 2095
 våvvdåt+Use/NG:vavvd V_EVEN_A "become caught, become stuck" ; ! no. 5976
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
+veludallat:veludall V_EVEN_A "rest a little bit" ; ! no. 3024
 viegadallat:viegadall V_EVEN_A "run around after, chase back and forth" ; ! no. 5443
 viehkat:viehk V_EVEN_A "run (for humans)" ; ! no. 2105
 vierrodallat:vierrodall V_EVEN_A "sacrifice" ; ! no. 90672
 villat:vil'l V_EVEN_A "go too far" ; ! no. 90572
-villudallat:villudall V_EVEN_A "rest a little bit" ; ! no. 3024
 vuajjdat:vu^Ojjd V_EVEN_A "grease" ; ! no. 2501
 vuassjat:vu^Os'sj V_EVEN_A "make coffee" ; ! no. 2144
 vuodjat:vu^Odj V_EVEN_A "swim" ; ! no. 2153
@@ -795,11 +797,11 @@ vádtset:vádts V_EVEN_E "go, walk" ; ! no. 2049
 vájjdet:vájjd V_EVEN_E "wish" ; ! no. 5793
 válldet:válld V_EVEN_E "take" ; ! no. 2073
 vásset:váss V_EVEN_E "pass" ; ! no. 3803
+vellidasstet:vellidasst V_EVEN_E "take a break" ; ! no. 90396
 viedjet:viedj V_EVEN_E "may, shall, manage" ; ! no. 2104
 viegadasstet:viegadasst V_EVEN_E "run briefly" ; ! no. 5442
 viehkedasstet:viehkedasst V_EVEN_E "help" ; ! no. 90390
 vihtanasstet:vihtanasst V_EVEN_E "witness" ; ! no. 3307
-villidasstet:villidasst V_EVEN_E "take a break" ; ! no. 90396
 vuasstalasstet:vuasstalasst V_EVEN_E "resist" ; ! no. 2197
 vuodjet:vu^Odj V_EVEN_E "drive" ; ! no. 2371
 vuohtjet:vu^Ohtj V_EVEN_E "discharge, shoot" ; ! no. 3160
