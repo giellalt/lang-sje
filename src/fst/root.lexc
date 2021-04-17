@@ -13,14 +13,14 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!               !!!Pite Sámi morphological analyser
+!! # Pite Sámi morphological analyser
 ! ========================================================================== !
 
 !! This file contains the tags and reference to main lexica
 
-Multichar_Symbols  !!≈ !!!@CODE@  definitions
+Multichar_Symbols  !!≈ # @CODE@  definitions
 
-!! !!POS
+!! ## POS
 +N 	      !!= * @CODE@  Noun
 +V 	      !!= * @CODE@  Verb
 +A	      !!= * @CODE@  Adjective
@@ -34,7 +34,7 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Po	      !!= * @CODE@  Postposition
 +Pr	      !!= * @CODE@  Preposition
 
-!! !!Subclasses
+!! ## Subclasses
 +Pers 		  !!= * @CODE@ Personal
 +Dem 		  !!= * @CODE@ Demonstrative
 +Interr 	  !!= * @CODE@ Interrogative
@@ -48,9 +48,9 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Superl		  !!= * @CODE@ Superlative
 
 
-!! !!Morphosyntactic properties
+!! ## Morphosyntactic properties
 
-!! !Verbal MSP
+!! ### Verbal MSP
 
 !! Tense-mode
 +Prs	   	  !!= * @CODE@ Present tense
@@ -103,11 +103,11 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +Der/State 	  !!= * @CODE@ Derived state noun
 
 
-!! !Nominal MSP
+!! ### Nominal MSP
 +Sg 	  !!= * @CODE@ Singular
 +Pl 	  !!= * @CODE@ Plural
 
-!! !Case
+!! ### Case
 
 +Nom   !!= * @CODE@ Nominative
 +Acc   !!= * @CODE@ Accusative
@@ -156,14 +156,14 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 
 
 
-!! !Compounding tags
+!! ### Compounding tags
 
 !! The tags are of the following form:
-!! * __+CmpNP/xxx__ - Normative (N), Position (P), ie. the tag describes what
+!! * **+CmpNP/xxx** - Normative (N), Position (P), ie. the tag describes what
 !!                    position the tagged word can be in in a compound
-!! * __+CmpN/xxx__  - Normative (N) __form__ ie. the tag describes what
+!! * **+CmpN/xxx**  - Normative (N) **form** ie. the tag describes what
 !!                    form the tagged word should use when making compounds
-!! * __+Cmp/xxx__   - Descriptive compounding tags, ie. tags that''describes''
+!! * **+Cmp/xxx**   - Descriptive compounding tags, ie. tags that*describes*
 !!                    what form a word actually is using in a compound
 
 !! Normative/prescriptive compounding tags:
@@ -176,11 +176,11 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +CmpN/PlG         !!≈ * @CODE@ = Plural Genitive
 
 ! This part of the component can ..
-+CmpNP/All       !!≈ * @CODE@ - ... be in all positions, __default__, this tag does not have to be written
++CmpNP/All       !!≈ * @CODE@ - ... be in all positions, **default**, this tag does not have to be written
 +CmpNP/First     !!≈ * @CODE@ - ... only be first part in a compound or alone
-+CmpNP/Pref      !!≈ * @CODE@ - ... only __first__ part in a compound, NEVER alone
++CmpNP/Pref      !!≈ * @CODE@ - ... only **first** part in a compound, NEVER alone
 +CmpNP/Last      !!≈ * @CODE@ - ... only be last part in a compound or alone
-+CmpNP/Suff      !!≈ * @CODE@ - ... only __last__ part in a compound, NEVER alone
++CmpNP/Suff      !!≈ * @CODE@ - ... only **last** part in a compound, NEVER alone
 +CmpNP/None      !!≈ * @CODE@ - ... not take part in compounds
 +CmpNP/Only      !!≈ * @CODE@ - ... only be part of a compound, i.e. can never
                  !!                 be used alone, but can appear in any position
@@ -194,23 +194,23 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 ! Descriptive compounding tags:
 
 ! Tags for compound analysis - this is what a compound actually is:
- +Cmp/Sg       !!≈ * __@CODE@__  Singular
- +Cmp/SgNom    !!≈ * __@CODE@__  Singular Nominative
- +Cmp/SgGen    !!≈ * __@CODE@__  Singular Genitive
- +Cmp/PlGen    !!≈ * __@CODE@__  Plural Genitiv
- +Cmp/PlNom    !!≈ * __@CODE@__  Plural Nominative
- +Cmp/Attr     !!≈ * __@CODE@__  Attribute
- +Cmp          !!≈ * __@CODE@__  Dynamic compound - this tag should always be part of a
+ +Cmp/Sg       !!≈ * **@CODE@**  Singular
+ +Cmp/SgNom    !!≈ * **@CODE@**  Singular Nominative
+ +Cmp/SgGen    !!≈ * **@CODE@**  Singular Genitive
+ +Cmp/PlGen    !!≈ * **@CODE@**  Plural Genitiv
+ +Cmp/PlNom    !!≈ * **@CODE@**  Plural Nominative
+ +Cmp/Attr     !!≈ * **@CODE@**  Attribute
+ +Cmp          !!≈ * **@CODE@**  Dynamic compound - this tag should always be part of a
                !!                dynamic compound.
                !!                It is important for Apertium, and useful in other cases as well.
- +Cmp/SplitR   !!≈ * __@CODE@__  This is a split compound with the other part to the right:
+ +Cmp/SplitR   !!≈ * **@CODE@**  This is a split compound with the other part to the right:
                !!                "Arbeids- og inkluderingsdepartementet" => Arbeids- = +Cmp/SplitR
- +Cmp/SplitL   !!≈ * __@CODE@__  This is a split compound with the other part to the left
- +Cmp/Sh       !!≈ * __@CODE@__  testing ShCmp
+ +Cmp/SplitL   !!≈ * **@CODE@**  This is a split compound with the other part to the left
+ +Cmp/Sh       !!≈ * **@CODE@**  testing ShCmp
 
 
 
-!! !!Punctuation tags
+!! ## Punctuation tags
 +CLB     !!= * @CODE@ Clause boundary
 +PUNCT   !!= * @CODE@ Punctuation
 !+PAR     !!= * @CODE@ 
@@ -219,9 +219,9 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 +SENT    !!= * @CODE@ 
 
 
-!! !! Morphophonological symbols 
+!! Morphophonological symbols 
 
-!! !Symbols for regulating the twolc file
+!! ### Symbols for regulating the twolc file
 
 ^WG     !!= @CODE@  * weak grade
 ^G3     !!= @CODE@  * marks grade three for stems w/o Cgrad
@@ -236,48 +236,48 @@ Multichar_Symbols  !!≈ !!!@CODE@  definitions
 ^V2O2U  !!= @CODE@  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
 ^MONB4J !!= @CODE@  * No rules for this one in twolc!
 
-!! !Archiphonemes
+!! ### Archiphonemes
 i2 !!= @CODE@  * Variable vowel, does not trigger VH
 u2 !!= @CODE@  * Variable vowel, does not trigger VH
 ä2 !!= @CODE@  * Variable vowel, does not undergo (further) VH
 b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or other alternations
 ^O      !!= @CODE@  * o but ä in uä
 
-!! {{{
+!! ```
 ! Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!= @CODE@  * »
  «7     !!= @CODE@  * «
  %[%>%] !!= @CODE@  * >
  %[%<%] !!= @CODE@  * <
-!! }}}
+!! ```
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@  | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@  | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@  | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  @CODE@  | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@  | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@  | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@  | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@  | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@  | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@  | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@  | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@  | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@  | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@  | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@  | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@  | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@  | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@  | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@  | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@  | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@  | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@  | Disallow words coming directly from root.
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@  | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@  | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ |  @CODE@  | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  @CODE@  | Allowing downcasing of derived names: deatnulasj.
 
 
 ! testing these
@@ -286,7 +286,7 @@ b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or oth
 +TRNUMAB
 
 
-!! !!!Key lexicon
+!! # Key lexicon
 !! Lexicon Root starts the analyser and directs paths to all POS.
 
 LEXICON Root
@@ -310,11 +310,11 @@ LEXICON Root
  Verb ;
 
 LEXICON ENDLEX
-!! !!!Lexicon @LEXNAME@
+!! # Lexicon @LEXNAME@
 !! And this is the @LEXNAME@ of everything:
-!! {{{
+!! ```
    @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; !!≈ @CODE@ 
-!! }}}
-!! The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
+!! ```
+!! The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 !! with +CmpNP/Only to end here.
-!! The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
+!! The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.

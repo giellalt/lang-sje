@@ -15,7 +15,7 @@
 !! Pronouns
 
 
-LEXICON Pronoun   !!= * __@CODE@__
+LEXICON Pronoun   !!= * **@CODE@**
 
 Personal ;
 Demonstrative ;
@@ -29,7 +29,7 @@ Indefinita ;
 ! Personal pronouns
 ! =================
 
-LEXICON Personal   !!= * __@CODE@__
+LEXICON Personal   !!= * **@CODE@**
 mån+Pron+Pers+Sg1:m  perssg ;
 mån+Pron+Pers+Du1:m  persdu ;
 mån+Pron+Pers+Pl1:m  perspl ;
@@ -40,7 +40,7 @@ sån+Pron+Pers+Sg3:s  perssg ;
 sån+Pron+Pers+Du3:s  persdu ;
 sån+Pron+Pers+Pl3:s  perspl ;
 
-LEXICON perssg   !!= * __@CODE@__
+LEXICON perssg   !!= * **@CODE@**
 +Nom:ån      # ;
 +Nom:ånnå    # ;
 +Acc:uv      # ;
@@ -53,7 +53,7 @@ LEXICON perssg   !!= * __@CODE@__
 +Com:ujna    # ;
 +Ess:ånnan # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
-LEXICON persdu   !!= * __@CODE@__
+LEXICON persdu   !!= * **@CODE@**
 +Nom:åj      # ;
 +Nom:åjå     # ;
 +Acc:unuv   # ;
@@ -64,7 +64,7 @@ LEXICON persdu   !!= * __@CODE@__
 +Com:unujn   # ;
 +Ess:unnun # ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
 
-LEXICON perspl   !!= * __@CODE@__
+LEXICON perspl   !!= * **@CODE@**
 +Nom:ij      # ;
 +Nom:ija     # ;
 !+Nom+Use/NG:ijá     # ; !check!
@@ -80,7 +80,7 @@ LEXICON perspl   !!= * __@CODE@__
 
 
 
-LEXICON Demonstrative   !!= * __@CODE@__
+LEXICON Demonstrative   !!= * **@CODE@**
 dat+Pron+Dem+Sg+Nom:dat # ;
 dat+Pron+Dem+Sg+Nom+Use/NG:dahta # ;
 dat+Pron+Dem+Sg+Acc:dav # ;
@@ -148,7 +148,7 @@ dut+Pron+Dem+Pl+Com:duj # ;
 
 
 ! Determiners (NOT Demonstrative pronouns!)
-LEXICON Determiner   !!= * __@CODE@__
+LEXICON Determiner   !!= * **@CODE@**
 dat+Det+Sg+Nom:dat # ;
 dat+Det+Sg+Acc:dav # ;
 dat+Det+Sg+Gen:dan # ;
@@ -226,7 +226,7 @@ maggár+Det+Interr+Attr+Use/NG:miggir # ;
 
 
 
-LEXICON Relative   !!= * __@CODE@__
+LEXICON Relative   !!= * **@CODE@**
 !!gie, predikativ ställning
 !gie+Pron+Rel+Sg+Nom:gie # ;
 !gie+Pron+Rel+Sg+Acc:giev # ;
@@ -368,7 +368,7 @@ guhtimus+Pron+Rel+Pl+Com:guhtimusaj # ;
 !guhtimus attributiv ställning
 guhtimus+Pron+Rel+Sg+Nom:guhtimus # ;
 
-LEXICON Interrogative   !!= * __@CODE@__
+LEXICON Interrogative   !!= * **@CODE@**
 
 !gie, predikativ ställning
 gie+Pron+Interr+Sg+Nom:gie # ;
@@ -542,7 +542,7 @@ gallat+Pron+Interr+Pl+Com:galladij # ;
 
 
 
-LEXICON Indefinita   !!= * __@CODE@__
+LEXICON Indefinita   !!= * **@CODE@**
 
 GAAJJKA ; ! ´everything, everyone, all; all, allt, alla, hel, hela´, 
 AKKTAK ; ! 'nothing'
@@ -1155,7 +1155,7 @@ suhta+Pron+Indef+Sg+Nom:suhta # ;
 !sämmi,endast i attributiv ställning ´samma´
 !sämmi+Pron+Indef+Sg+Nom:semmi # ;
 
-LEXICON Reflexive   !!= * __@CODE@__
+LEXICON Reflexive   !!= * **@CODE@**
 
 ietj+Pron+Refl+Sg+Nom:ietj # ; !JW's data
 ietj+Pron+Refl+Sg+Nom:iehtja # ; !Martin Sjaggo huvudinformant
@@ -1254,7 +1254,7 @@ ietj+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
 !SHOULD UNDERGO VH, eg: gallijd->gillijd
 galla+Pron+Interr: gallacase ;
 
-LEXICON gallacase   !!= * __@CODE@__
+LEXICON gallacase   !!= * **@CODE@**
 
 +Sg+Nom:galla # ;
 +Sg+Acc:gallev # ;

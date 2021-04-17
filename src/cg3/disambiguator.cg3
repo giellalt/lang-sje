@@ -291,9 +291,9 @@ SET S-BOUNDARY  = (Pron Interr) OR (Pron Rel) OR ("men") OR ("dä" CC) OR ("\;")
 #SET MO = MO-MANge - ("man" Foc/ge) ;
 
 
-#!! !Negation rules
+#!! ### Negation rules
 
-#!! * __ConNeg3__ conneg form when neg-verb to the left
+#!! * **ConNeg3** conneg form when neg-verb to the left
 SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER V) ;
 REMOVE:ConNeg4 ConNeg IF (NOT *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
 	## Beispiel (am besten ein langes Beispiel)
@@ -303,21 +303,21 @@ SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
 
 
 
-#!! !Agreement rules for subject NP
+#!! ### Agreement rules for subject NP
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)(-1C V + Pl1);
 
-#!! !choose relative pronoun when preceded by NP and not ending in Q-mark
+#!! ### choose relative pronoun when preceded by NP and not ending in Q-mark
 SELECT:RelProAfterNP Rel IF (-1 NP-HEAD)(NOT *1 ("\?"));
 #but what about this: mån gatjádav duvste mij lä dat (I ask you what is that)
 
-#!! !choose iterrogative pronoun when ending in Q-mark and NOT preceded by NP 
+#!! ### choose iterrogative pronoun when ending in Q-mark and NOT preceded by NP 
 SELECT:InterrogProNoPreNP Interr IF (NOT -1 NP-HEAD)(*1 ("\?"));
 
-#!! !rule out imperative forms in questions
+#!! ### rule out imperative forms in questions
 REMOVE:noImperativeQs Imprt IF (*1 ("\?"));
 
-#!! !rule out finite verbforms after infinitive verbform
+#!! ### rule out finite verbforms after infinitive verbform
 REMOVE:noFiniteVafterINF VFIN IF (*-1 Inf BARRIER CLB);
 
 	          # Cycle 4: Syntactic disambiguation 
@@ -476,7 +476,7 @@ SELECT:ATTRCoord (A Attr) IF (1 CC OR COMMA LINK *1 (A Attr) BARRIER NOT-NPMOD L
 REMOVE:noAttrWithoutNP (A Attr) IF (NOT 1 NPpossibleNoPro);
 SELECT:attrWithinNP (A Attr) IF (1 NPpossibleNoPro)(*1 N BARRIER NoNP);
 
-#!! !Agreement rule for verb triggered by PersPron
+#!! ### Agreement rule for verb triggered by PersPron
 SELECT:AgrPersPron	$$NumPers IF (0 V)(-1 Pers + Nom + $$NumPers);
 #SELECT:Sg2afterSg2	Sg2 IF (0 V)(-1 Pers + Nom + Sg2);
 #SELECT:Sg2b4Sg2		Sg2 IF (0 V)( 1 Pers + Nom + Sg2);
@@ -487,7 +487,7 @@ SELECT:AgrPersPron	$$NumPers IF (0 V)(-1 Pers + Nom + $$NumPers);
 #SELECT:Pl3afterPl3	Pl3 IF (0 V)(-1 Pers + Nom + Pl3);
 #SELECT:Pl3b4Pl3		Pl3 IF (0 V)( 1 Pers + Nom + Pl3);
 
-#!! !Agreement rules for verb triggered by full NP
+#!! ### Agreement rules for verb triggered by full NP
 SELECT:Pl3afterNomPl Pl3 IF (0 V)(*-1C NounOrNum + Pl + Nom BARRIER CLB);
 SELECT:Pl3b4NomPl    Pl3 IF (0 V)(*1C  NounOrNum + Pl + Nom BARRIER CLB);
 SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
@@ -512,19 +512,19 @@ SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*-2 V + DUAL BARRIER CLB);
 	##vullgin måj rádnajn dä vit jávvráj ja åhppåt
 
 
-#!! !!!Rules for collocations, multiword expressions etc.
+#!! # Rules for collocations, multiword expressions etc.
 
 #buolvast buallvaj 'from generation to generation' (removes eg. "buolvastit" V Ind Prs Sg3)
 SELECT:buolvastBuallvaj (N Sg Ela) IF (0 ("buallva"))(1C ("buallva" N Sg Ill));
 
 
-#!! !!!Mapping rules
+#!! # Mapping rules
 # Map rules block further tags from being added (otherwise use ADD)
 
-#!! !!Mapping CC
+#!! ## Mapping CC
 
 
-#!! * __CCasCNPCVP__ Map (@CNP @CVP) to CC
+#!! * **CCasCNPCVP** Map (@CNP @CVP) to CC
 MAP:CCasCNPCVPCAP (@CNP @CVP @CAP) TARGET CC ;
 
 # remove coordinating NP tag if not followed by an NP
@@ -541,8 +541,8 @@ REMOVE:CVPonlyAPs (@CVP) IF (*-1 A BARRIER NoAP)(*1 A BARRIER NoAP) ;
 
 
 
-#!! !!Mapping verbs
-#!! * __+FMAINVinfv__ maps to main verb followed by inf
+#!! ## Mapping verbs
+#!! * **+FMAINVinfv** maps to main verb followed by inf
 #FiniteMAINVerb
 MAP:+FMAINVinfv (@+FMAINV) TARGET VFIN-NOT-AUX ;
 	#$ Liná liikui sárgut ja tennjet.
@@ -563,7 +563,7 @@ AFTER-SECTIONS #things here are only run once
 #because Det is not a standard GT tag, and so things work with smi-functions.cg3
 #SUBSTITUTE (Det) (Pron) TARGET (Det) ;
 
-#!! !!Add language code
+#!! ## Add language code
 # used to tag everything as being sje to be able to use specific rules in general smi-functions.cg3
 
 #SUBSTITUTE (A) (A <sje>) WORD ; 

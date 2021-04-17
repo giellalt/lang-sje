@@ -12,10 +12,10 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-LEXICON pcle   !!= * __@CODE@__ the tag
+LEXICON pcle   !!= * **@CODE@** the tag
 +Pcle: # ;
 
-LEXICON Particle   !!= * __@CODE@__ the list
+LEXICON Particle   !!= * **@CODE@** the list
 anj pcle ;
 dal pcle ;
 dä+Use/NG:de pcle ;

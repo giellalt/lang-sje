@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! !!!Pite Sámi TWOLC file
+!! # Pite Sámi TWOLC file
 !
 ! $Id$
 !
@@ -30,15 +30,15 @@ Alphabet
   %^O:o
   ':0
 
-  %^WG:0     !!≈ ; @CODE@ : weak grade
-  %^G3:0     !!≈ ; @CODE@ : marks grade three for stems w/o Cgrad
-  %^V2E2AA:0 !!≈ ; @CODE@ : e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+  %^WG:0     !!≈ * **@CODE@**:  weak grade
+  %^G3:0     !!≈ * **@CODE@**:  marks grade three for stems w/o Cgrad
+  %^V2E2AA:0 !!≈ * **@CODE@**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
   %^V2O2U:0 !!= @CODE@ * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
-  %^CDEL:0   !!≈ ; @CODE@ : delete final consonant odd (biednag)
-  %^VDEL:0   !!≈ ; @CODE@ : delete final V2 vowel in compounds or gájk
-  %^MON:0    !!≈ ; @CODE@ : Monophthong in contracted stems
-  %^UAUML:0    !!≈ ; @CODE@ : uo to uä juolge / juällge
-  %^IEUML:0    !!≈ ; @CODE@ : ie to ä, gielbar / gällbara
+  %^CDEL:0   !!≈ * **@CODE@**:  delete final consonant odd (biednag)
+  %^VDEL:0   !!≈ * **@CODE@**:  delete final V2 vowel in compounds or gájk
+  %^MON:0    !!≈ * **@CODE@**:  Monophthong in contracted stems
+  %^UAUML:0    !!≈ * **@CODE@**:  uo to uä juolge / juällge
+  %^IEUML:0    !!≈ * **@CODE@**:  ie to ä, gielbar / gällbara
   %^IUML:0   !!= @CODE@ * a to i, gallgat gillgin
   %^IJ:0     !!= @CODE@ * e to i in front of Plural j and Sg Com
   %^MONB4J:0 !!= @CODE@ * what is this?
@@ -172,24 +172,24 @@ Definitions
         t j
         ] ; !consonants (incl. digraphs) which can occur before ^V2E2AA
 
-!! !!!Rules
+!! # Rules
 
 Rules
  
  
-!! !!Consonant gradation rules
+!! ## Consonant gradation rules
 
 "Consonant Gradation for htt(j|s):ht(j|s)"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 t:0 <=> Vow: h t _ ( j | s ) (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
 
 "Consonant Gradation for hxx:hx"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow: h Cx _ (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
      where Cx in (p k) ; ! 't' covered by "Consonant Gradation for htt(j|s):ht(j|s)"
 
 "Consonant Gradation for xdn(j):xn(j)"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:0 <=> Vow: j _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 		Vow: v _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 		Vow: l _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
@@ -218,13 +218,13 @@ d:0 <=> Vow: j _ n (j) Vow: Cns:* ( Dummy: ) %^WG: ;
 
 
 "Consonant Gradation for xx:x"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow: Cx _ Vow: Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( t k m n ŋ s r l f j v ) ; !not bb, dd, gg, dtj, dts
 
      
 "Consonant Gradation for xxy:xy"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( b b b b b b d d d d d d f f g g g g j j j j j j j j j j k k k l l l l l l l l l m m m m n n n p r r r r r r r r r s s s s s s t t t t ŋ ŋ ŋ v v v v v v v )
            Cy in ( d j l m n r g j k m n v d n d l ŋ v b d g p k l m r s v n s v j b d f g k p s v b g p s d j s s b d f g j k p s v j k m n p v j k m s g k n d j k l r g s )  
@@ -246,12 +246,12 @@ Cx:0 <=> Vow:+ Cx _ Cy Vow:+ Cns:* ( Dummy: ) %^WG: ;
 
           
 "Consonant Gradation for xxt(j|s):xt(j|s)" ! ájjte, gájjtsa
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow:+ Cx _ t (j:*|s:*) Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( b f j k l n p r s v ) ;
 
 "Consonant Gradation for xxsj:xsj" ! ákksjo (kksj llsj mmsj ppsj rrsj vvsj) very similar to "Consonant Gradation for xxt(j|s):xt(j|s)"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow:+ Cx _ s j Vow:+ Cns:* ( Dummy: ) %^WG: ;
      where Cx in ( k l m p r v ) ;
 
@@ -265,46 +265,46 @@ Cx:0 <=> Vow:+ Cx _ s j Vow:+ Cns:* ( Dummy: ) %^WG: ;
 ! !!€ gu0l0i000jd
 
 "Consonant Gradation for xy:y"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow (Vow:) _ Cy Vow: Cns:* ( Dummy: ) %^WG: ; !Cx:0 <=> Vow: _ Cy (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
      where Cx in ( b d d g )
            Cy in ( m j n ŋ )  
           matched ;
 
 "Delete h in hx:y" ! first step
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 h:0  <=> Vow _ Cx: ( [ j | s ] ) Vow: Cns:* ( Dummy: ) %^WG: ;
     where Cx in (p t k) ;
 
 "Intervocalic voiced plosives in hx:y" ! second step
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:Cy <=> h: _ Vow: Cns:* ( Dummy: ) %^WG: ; ! Cx:Cy <=> h: _ ([Vow:+  (Cns:+)]) ( Dummy: ) %^WG: ;
     where Cx in (p t k)
           Cy in (b d g)
           matched ;
 
 "Consonant Gradation for l/jbm:l/jm" 
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 b:0 <=> Vow [l|j] _ m Vow: Cns:* ( Dummy: ) %^WG: ; ! vájbmo, njálbme
 
 "Consonant Gradation for nnjg:njg" 
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 n:0 <=> Vow n _ j g Vow: Cns:* ( Dummy: ) %^WG: ; ! skannjga, vannjgat
 
 "Consonant Gradation for vgŋ:vŋ" 
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 g:0 <=> Vow v _ n Vow: Cns:* ( Dummy: ) %^WG: ; ! ávgŋot (unsure about this word!)
 
 "Consonant Gradation for rdj:rj" 
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 d:0 <=> Vow r _ j Vow: Cns:* ( Dummy: ) %^WG: ; ! girdje<->girje (non-standard variant)
 
 
-!! !!Other consonant rules 
+!! ## Other consonant rules 
 ! =====================
 
 "Final C Deletion"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:0 <=> Vow: _ %^WG: %^CDEL: ;
 	where Cx in ( b d g s h ) ; 
 
@@ -316,7 +316,7 @@ Cx:0 <=> Vow: _ %^WG: %^CDEL: ;
 
 
 "Final devoicing"
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Cx:Cy <=> _ (%^WG:) (%>:) # ;
     where Cx in ( b2 d2 g2 )
           Cy in ( p  t 	k )
@@ -340,27 +340,27 @@ Cx:Cy <=> _ (%^WG:) (%>:) # ;
 ! !!€ muahttaga0v
 
 "Word Final Simplification in -st" !st->s (eg. elat) variation (descriptive, not normative)
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 t2:0 <=> s _ .#. ;
 
 ! !!€ burist2
 ! !!€ buris0
 
 "Word-final De-Affricatization for tj " !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 s:t <=> _ j2: .#. ;
 
 
 
 
 ! ===========          
-!! !!Vowel rules 
+!! ## Vowel rules 
 ! ===========          
 
-!! ! metaphony
+!! ###  metaphony
 
 "Default VH" !regressive vowel height assimilation in V1 with i/u in V2" ! á:ä a:i ä:e å:u ^O:0
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 	Vx:Vy <=> [#|.#.] Cns:* _ Cns:+ VHtrig Cns:* Dummy:* Vow:* %>:0 ; 
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
@@ -368,7 +368,7 @@ s:t <=> _ j2: .#. ;
 !This requires every root that undergoes inflection to end with a morpheme boundary, even when no suffix exists; this prevents VH in non-final compound stems (since \# wouldn't work). !guolle<->gulij sábme<->sämij båtsoj<->buhtsu (last one w/o morpheme boundary!)
 
 "Default VH for 4syllables" !(ignores first foot, otherwise same as above)
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 	Vx:Vy <=> [#|.#.] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ _ Cns:+ VHtrig Cns:* Dummy:* Vow:* %>:0 ; 
     where Vx in ( á a ä å )
           Vy in ( ä i e u )
@@ -432,7 +432,7 @@ s:t <=> _ j2: .#. ;
 
 
 "Default UA in G3" ! u^O:ua (juallgáj, luakkta); always with word-initial C
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 %^O:a <=> Cns:* u _ G3 [:a|:o|:y|:ä|:å|:á] \%^WG: ; 
           Cns:* u _ noCG [:a|:o|:y|:ä|:å|:á] Cns:* %^G3:* %^UAUML: ;
 
@@ -441,7 +441,7 @@ s:t <=> _ j2: .#. ;
 !!€ luaddan0i0t
 
 "Special UÄ (VH) in G3" ! u^O:ua (juällge); always with word-initial C
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 %^O:ä <=> Cns:* u _ G3 :e \%^WG: ; 
           Cns:* u _ Cns:+ :e (j:j) %^G3: ; ! duädde<->duodde, guäddej<->guäddeja
           Cns:* u _ noCG :e Cns: %^UAUML: ; ! tjuädtjelit (not tjuodtjelit)
@@ -459,11 +459,11 @@ s:t <=> _ j2: .#. ;
 ! !!€ njuon0je0
 
 "Special VH for u^O" ! u^O:u0
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 %^O:0 <=> Cns:* u _ Cns:+ VHtrig Cns:* Dummy:* %>:* ; !juällge<->julgij
 
 "Special VH for ie" ! ie:0e
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga, siebla<->säbblag-
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
@@ -480,14 +480,14 @@ i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
 
 		
 "Ä in G3" ! ie:0ä (bägga, bävvde); not word-initial (thus not capitalized)
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 e:ä <=> Cns:* i:0 _ G3 noVHtrig \%^WG: ; !biebbmo->b0äbbmo
         Cns:* i:0 _ Cns:+ noVHtrig %^G3: ; !biegga->b0ägga
 		Cns:* i:0 _ noCG noVHtrig \%^WG: ; !bierdna->b0ärdna 
 			!problem: lieggadit -> *läggadit (currently solved with quickNdirty manual addition of ^WG to affected lexemes, but this is not a good permanent solution)
 
 "Ä in G3 capitalized" ! Ie:0Ä (Änntse->Ientse), eg. proper nouns with word-initial capitalization
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse
 
 
@@ -551,11 +551,11 @@ e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse
 
 
 "V2 E to I before j-suffixes" ! guolle -> gulij
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 e:i <=> Vow:+ Cns:+ _ (Dummy:) %^IJ:0 ; !guolle<->gulij juällge<->julgij sábme<->sämij
 
 "V2 E to Á" ! juällge->juallgáj, sábme->sábmáj, guolle->guolá>tj, vágge->vággáj, båhtet->bådáv
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ (V2E2AAtrig) %^V2E2AA:0 ;
 
 !!€ båhte^WG%>v^V2E2AA
@@ -569,11 +569,11 @@ e:á <=> Vow:+ Cns:+ _ (%^G3:0) (%^WG:0) %>:+ (V2E2AAtrig) %^V2E2AA:0 ;
 
 
 "V2 E to Á before S or R" ! åres->årrás-, tjåskes->tjåsskas-, fieber fiebár-
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 e:á <=> Vow:+ Cns:+ _ [s|r] %^V2E2AA:0 ;
 
 "V2 O to U" ! rássjo->rässjuj, iello->elluj (variant), ålol<-ullul-
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 		Vow:+ Cns:+ _ Cns:+ %^V2O2U:0 %>:* Vow:+ ; ! turns SUPERL -ubmos- into -ubmusa
 
@@ -588,7 +588,7 @@ o:u <=> Vow:+ Cns:+ _ (Dummy:*) %>:+ Cns:+ %^V2O2U:0 ;
 ! !!€ v0älbmáv
 
 "Final V Deletion" !gåjjkebärrgo -> gåjjkbärrgo; gájka -> gájk
-!! __@RULENAME@__  
+!! **@RULENAME@**  
 Vx:0 <=> [#|.#.] (Cns:) Vow:+ Cns:+ _ (%^WG:) %^VDEL: # ;
 	where Vx in ( e a ) ; !add more Vs as needed
 

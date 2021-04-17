@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! !!!Adpositions
+!! # Adpositions
 
 LEXICON Adposition ! main class
 !Preposition ; !only prepositions -- check to see if this is a valid category!
@@ -21,7 +21,7 @@ PrePostposition ;
 
 
 !only postpositions
-LEXICON Postposition   !!= * __@CODE@__ is the list
+LEXICON Postposition   !!= * **@CODE@** is the list
 allelin PostP "i väster" ;
 badjen PostP "up" ;
 badjen+Use/NG:bajjen PostP "up" ;
@@ -116,7 +116,7 @@ vuässte PostP "against" ;
 
 
 !both pre- and postpositions
-LEXICON PrePostposition   !!= * __@CODE@__ is the list
+LEXICON PrePostposition   !!= * **@CODE@** is the list
 rasstá PrePost "across" ;
 birra PrePost "about" ;
 badjel PrePost ;
@@ -127,7 +127,7 @@ badjel+Use/NG:bajjel PrePost ;
 ! PoS tags added below:
 
 !only postpositions
-LEXICON PostP   !!= * __@CODE@__  adds the tag +Po
+LEXICON PostP   !!= * **@CODE@**  adds the tag +Po
 +Po: # ;
 
 !only prepositions -- check to see if this is a valid category!
@@ -135,6 +135,6 @@ LEXICON PostP   !!= * __@CODE@__  adds the tag +Po
 !+Pr: # ;
 
 !both pre- and postpositions
-LEXICON PrePost   !!= * __@CODE@__  adds the tags +Po and +Pr
+LEXICON PrePost   !!= * **@CODE@**  adds the tags +Po and +Pr
 +Po: # ;
 +Pr: # ;

@@ -22,7 +22,7 @@
 ! ===== !
 
 
-!! !!!Even syllabled verbs
+!! # Even syllabled verbs
 
 LEXICON V_EVEN_E !båhtet
 +V:     V_EVEN_E_STR ;
@@ -343,7 +343,7 @@ LEXICON V_EVEN_POT !
 
 
 
-!! !!!Odd syllabled verbs
+!! # Odd syllabled verbs
 
 LEXICON V_ODD !ságastit
 +V+Ind+Prs+Sg1:a%>v #;
@@ -446,7 +446,7 @@ LEXICON V_ODD_POT !
 
 
 
-!! !!!contracted verbs
+!! # contracted verbs
 
 LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prs+Sg1:%>v #;
@@ -508,7 +508,7 @@ LEXICON V_CONTR_UVVUT ! variation in derived (passive) stems -uv'vut (~uvvat)
 
 
 
-!! !!!Auxiliaries
+!! # Auxiliaries
 
 LEXICON LE !!= * @CODE@ 
 +V+Ind+Prs: LEPRS ; 

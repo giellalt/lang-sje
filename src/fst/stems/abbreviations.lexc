@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 ! ============================= !
-!! !!!File containing abbreviations
+!! # File containing abbreviations
 ! ============================= !
 
 
@@ -23,7 +23,7 @@
 !! Splitting in 3 groups, because of the preprocessor
 ! - - - - - - - - - - - - - - - - - - - - - - - - -
 
-LEXICON Abbreviation   !!= * __@CODE@__
+LEXICON Abbreviation   !!= * **@CODE@**
 ITRAB ;
 TRNUMAB ;
 TRAB ;
@@ -49,34 +49,34 @@ TRAB ;
 !ab-adj ;
 
 ! tr
-LEXICON trab-ab-noun   !!= * __@CODE@__
+LEXICON trab-ab-noun   !!= * **@CODE@**
 +TRAB: ab-nodot-noun ;
-LEXICON trab-ab-adj   !!= * __@CODE@__
+LEXICON trab-ab-adj   !!= * **@CODE@**
 +TRAB: ab-nodot-adj ;
-LEXICON trab-ab-adv   !!= * __@CODE@__
+LEXICON trab-ab-adv   !!= * **@CODE@**
 +TRAB: ab-nodot-adv ;
-LEXICON trab-ab-verb   !!= * __@CODE@__
+LEXICON trab-ab-verb   !!= * **@CODE@**
 +TRAB: ab-nodot-verb ;
-LEXICON trab-ab-num   !!= * __@CODE@__
+LEXICON trab-ab-num   !!= * **@CODE@**
 +TRAB: ab-nodot-num ;
-LEXICON trab-ab-cc   !!= * __@CODE@__
+LEXICON trab-ab-cc   !!= * **@CODE@**
 +TRAB: ab-nodot-cc ;
 
 
-LEXICON itrab-ab-noun   !!= * __@CODE@__
+LEXICON itrab-ab-noun   !!= * **@CODE@**
 +ITRAB: ab-nodot-noun ;
-LEXICON itrab-ab-adj   !!= * __@CODE@__
+LEXICON itrab-ab-adj   !!= * **@CODE@**
 +ITRAB: ab-nodot-adj ;
-LEXICON itrab-ab-adv   !!= * __@CODE@__
+LEXICON itrab-ab-adv   !!= * **@CODE@**
 +ITRAB: ab-nodot-adv ;
-LEXICON itrab-ab-num   !!= * __@CODE@__
+LEXICON itrab-ab-num   !!= * **@CODE@**
 +ITRAB: ab-nodot-num;
 
 
 ! tr
-LEXICON trnumab-ab-noun   !!= * __@CODE@__
+LEXICON trnumab-ab-noun   !!= * **@CODE@**
 +TRNUMAB: ab-nodot-noun ;
-LEXICON trnumab-ab-adj   !!= * __@CODE@__
+LEXICON trnumab-ab-adj   !!= * **@CODE@**
 +TRNUMAB: ab-nodot-adj ;
 !LEXICON trnumab-ab-adv   !!= * __@CODE@__
 !+TRNUMAB: ab-nodot-adv ;
@@ -89,7 +89,7 @@ LEXICON trnumab-ab-adj   !!= * __@CODE@__
 
 
 
-LEXICON ab-nodot-noun   !!= * __@CODE@__   The bulk
+LEXICON ab-nodot-noun   !!= * **@CODE@**   The bulk
 !! Here come POS and Case tags, and no period.
 +N+Attr: # ; ! no period, that is.
 +N+Nom: # ; ! no period, that is.
@@ -115,7 +115,7 @@ LEXICON ab-nodot-noun   !!= * __@CODE@__   The bulk
 !sukk +N+ABBR+Ess:%>%:ine # ; ! no period, that is.
 !sukk +N+ABBR:%> RHyph ;
 
-LEXICON ab-nodot-adj   !!= * __@CODE@__
+LEXICON ab-nodot-adj   !!= * **@CODE@**
 !+ABBR: # ; ! no period, that is.
 +A+ABBR+Attr: # ; ! no period, that is.
 +A+ABBR+Nom: # ; ! no period, that is.
@@ -128,14 +128,14 @@ LEXICON ab-nodot-adj   !!= * __@CODE@__
 +N+ABBR+Ess:%>%:ine # ; ! no period, that is.
 +A+ABBR:%> RHyph ;
 
-LEXICON ab-nodot-adv   !!= * __@CODE@__
+LEXICON ab-nodot-adv   !!= * **@CODE@**
 +Adv+ABBR: # ; ! Adv without case, consider this.
 
-LEXICON ab-nodot-num   !!= * __@CODE@__
+LEXICON ab-nodot-num   !!= * **@CODE@**
 +Num+ABBR+Nom: # ; ! no period, that is.
 +Num+ABBR:%> RHyph ;
 
-LEXICON ab-nodot-cc   !!= * __@CODE@__
+LEXICON ab-nodot-cc   !!= * **@CODE@**
 +Adv+CC: # ; ! Adv without case, consider this.
 
 
@@ -150,7 +150,7 @@ LEXICON ab-nodot-cc   !!= * __@CODE@__
 ! ab-verb ;
 ! ab-nodot-verb ;
 ! Not in use
-LEXICON ab-nodot-verb   !!= * __@CODE@__
+LEXICON ab-nodot-verb   !!= * **@CODE@**
 +V+ABBR+TV+Imprt: # ; ! Period.
 
 !LEXICON ab-nodot-verb   !!= * __@CODE@__
@@ -165,10 +165,10 @@ LEXICON ab-nodot-verb   !!= * __@CODE@__
 
 
 ! =============================================== !
-!! !!Intransitive abbreviations 
+!! ## Intransitive abbreviations 
 ! =============================================== !
 
-LEXICON ITRAB   !!= * __@CODE@__
+LEXICON ITRAB   !!= * **@CODE@**
 
 
 1p+Use/Circ:1p itrab-ab-noun ; ! !
@@ -316,7 +316,7 @@ u.b itrab-ab-noun ; !
 ! Abreviations who are transitive in front of numerals !
 ! ============================================================ !
 
-LEXICON TRNUMAB   !!= * __@CODE@__
+LEXICON TRNUMAB   !!= * **@CODE@**
 ! For abbrs for which numerals are complements, but other
 ! words not necessarily are. This group treats arabic numerals as
 ! if it were transitive but letters as if it were intransitive.
@@ -352,10 +352,10 @@ vnr trnumab-ab-noun ; !
 
 
 ! =============================================== !
-!! !!Transitive abbreviations 
+!! ## Transitive abbreviations 
 ! =============================================== !
 
-LEXICON TRAB   !!= * __@CODE@__
+LEXICON TRAB   !!= * **@CODE@**
 ! For abbrs that always have a constituent following it.
 
 ! from here pointing to two types of TRAB:

@@ -13,12 +13,12 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 
-!! !!!Conjunctions
+!! # Conjunctions
 
-LEXICON CC   !!= * __@CODE@__ gives +CC
+LEXICON CC   !!= * **@CODE@** gives +CC
 +CC: # ;
 
-LEXICON Conjunction   !!= * __@CODE@__ is the list.
+LEXICON Conjunction   !!= * **@CODE@** is the list.
 ájnát CC ;
 !beru CC ;
 !dalle CC ;

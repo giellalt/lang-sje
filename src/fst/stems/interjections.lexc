@@ -12,10 +12,10 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-LEXICON interj   !!= * __@CODE@__ gives the tag +Interj
+LEXICON interj   !!= * **@CODE@** gives the tag +Interj
 +Interj: # ;
 
-LEXICON Interjection   !!= * __@CODE@__ is the list 
+LEXICON Interjection   !!= * **@CODE@** is the list 
 burist interj ;
 burist+Use/NG:buris interj ;
 jå interj ;

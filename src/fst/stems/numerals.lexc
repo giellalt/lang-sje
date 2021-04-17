@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 ! ############################## !
-!!    !!!Pite Saami numerals 
+!! # Pite Saami numerals 
 ! ############################## !
 
 ! Numerals
@@ -22,7 +22,7 @@
 ! The initial lexica
 ! ------------------
 
-LEXICON Numeral					   !!= * __@CODE@__
+LEXICON Numeral					   !!= * **@CODE@**
 CARDbasic ;
 CARDsuppletive ;
 CARD10s ;
