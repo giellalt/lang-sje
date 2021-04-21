@@ -1,7 +1,7 @@
 # Pite Sami documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-sje)](https://raw.githubusercontent.com/giellalt/lang-sje/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://raw.githubusercontent.com/giellalt/lang-sje/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
 [![Build status](https://github.com/giellalt/lang-sje/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sje/actions)
 
