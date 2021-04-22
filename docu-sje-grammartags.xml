@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN"
+"http://forrest.apache.org/dtd/document-v20.dtd">
+<document xml:lang="en">
+  <header>
+    <title>Morphological tags for Pite Saami (sje)</title>
+
+  </header>
+
+  <body>
+
+      <section>
+        <title>Overview</title>
+        <p>All the words are analysed with dictionary form + grammatical tags.
+        Each tag is introduced with a "+" sign. We thus have</p>
+
+        <p>bijlav bijjla+N+Sg+Acc<br/>bådáv båhtet+V+Ind+Prs+Sg1</p>
+
+          <p>The tag scheme follows the Lule Saami (smj) standard and insights from J. Wilbur's on-going work on Pite Saami</p>
+<!--          <p>Here comes a list of the tags</p>
+          <source>
+          
+! Tags for parts of speech          
+ +N +A +Adv +V +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle
+ 
+! Tags for sub-POS 
+ +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Coll
+ 
+! Tags for Inflection 
+ +Sg +Pl +Nom +Gen +Acc +Ill +Ine +Ela +Com +Ess +Par +Abe 
+ +Cmp/Sg +Cmp/SgNom +Cmp/SgGen +Cmp/PlGen +Cmpnd +Cmpnd+
+ +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +Comp +Superl +Actor +Actio +Clt +Attr +Dim +Inch 
+ +Ind +Prs +Prt +Pot +Cond +Imprt +ImprtII +Sup
+ +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Inf +Ger +GerII +ConNeg +Neg +PrsPrc +PrfPrc +VGen +VAbess 
+ 
+
+!Other tags
+ +ABBR +CLB +PUNCT +HYPH +PAR +LEFT +RIGHT +TV +IV
+</source> -->
+
+        <p>Note that you have to add the part of speech twice when you use the derivational tag: </p>
+        
+        <p>gieresvuodav  gieres+N+Der/State+N+Sg+Acc</p>
+          
+        <p>The main parts of speech (POS) for Pite Saami and their tags are:</p>
+
+<table>
+	<tr><th>POS</th><th>tag</th></tr>
+	<tr><td>noun</td><td>+N</td></tr>
+	<tr><td>verb</td><td>+V</td></tr>
+	<tr><td>adjective</td><td>+A</td></tr>
+	<tr><td>pronoun</td><td>+Pron</td></tr>
+	<tr><td>adverb</td><td>+Adv</td></tr>
+	<tr><td>conjunction</td><td>+CC</td></tr>
+	<tr><td>subjunction</td><td>+CS</td></tr>
+	<tr><td>postposition</td><td>+Po</td></tr>
+	<tr><td>preposition</td><td>+Pr</td></tr>
+	<tr><td>numeral</td><td>+Num</td></tr>
+	<tr><td>interjection</td><td>+Interj</td></tr>
+	<tr><td>particle</td><td>+Pcle</td></tr>
+</table>
+        <!--p>Nouns, adjectives, verbs, pronouns, adverbs, particles,
+        subjunctions, conjunctions, postpositions, prepositions, numerals
+        and interjections.</p-->
+      </section>
+
+      <section>
+        <title>The nouns</title>
+
+<!--        <p>The string is "+N+Number+Case+Possessivesuffix+Clitic". The word
+        form "bijlasgo" is thus analysed as "bijla+N+Sg+Gen+PxSg3+Qst".</p> -->
+
+
+        <p>Here is a list of the nominal tags, given in the same order as for
+        the analysis. Note that the grammatical categories in parentheses can
+        be omitted.</p>
+
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+N</td>
+          </tr>
+
+          <tr>
+            <td>Number:</td>
+            <td>+Sg, +Pl</td>
+          </tr>
+
+          <tr>
+            <td>Case:</td>
+            <td>+Nom +Gen +Acc +Ill +Ine +Ela +Com +Abe +Ess</td>
+          </tr>
+
+          <tr>
+            <td>(Possessive suffix:)</td>
+            <td>+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2
+            +PxPl3</td>
+          </tr>
+
+        </table>
+      </section>
+
+      <section>
+        <title>The adjectives</title>
+        <p>In attributive position, the adjective is tagged simply at that:</p>
+
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+A</td>
+          </tr>
+
+          <tr>
+            <td>Attribute</td>
+            <td>+Attr</td>
+          </tr>
+
+        </table>
+
+        <p>Used non-attributively, adjectives are inflected much like nouns, thus have a similar tag set:</p>
+
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+A</td>
+          </tr>
+
+          <tr>
+            <td>(Grade:)</td>
+            <td>+Comp, +Superl</td>
+          </tr>
+
+          <tr>
+            <td>Number:</td>
+            <td>+Sg, +Pl</td>
+          </tr>
+
+          <tr>
+            <td>Case:</td>
+            <td>+Nom +Gen +Acc +Ill +Ine +Ela +Com +Abe +Ess</td>
+          </tr>
+
+        </table>
+
+      </section>
+
+      <section>
+        <title>The verbs</title>
+
+        <p>Finite and infinite verb forms have quite distinct paradigms.</p>
+        
+        <p>Finite verbs:</p>
+
+        <table>
+          <tr>
+            <td> Part of speech:</td>
+            <td>+V</td>
+          </tr>
+
+          <tr>
+            <td>(Derivation) <em>example</em></td>
+            <td>+Der/Pass</td>
+          </tr>
+
+          <tr>
+            <td>Mood:</td>
+            <td>+Ind, +Pot, +Imprt, +Neg</td>
+          </tr>
+
+          <tr>
+            <td>Tense</td>
+            <td>+Prs, +Prt</td>
+          </tr>
+
+          <tr>
+            <td>Person/Number</td>
+            <td>+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3</td>
+          </tr>
+
+        </table>
+
+        <p>Non-Finite verbs:</p>
+
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+V</td>
+          </tr>
+
+          <tr>
+            <td>(Derivation:)</td>
+            <td>+Der/Pass</td>
+          </tr>
+
+          <tr>
+            <td>Non-finite forms</td>
+            <td>+Inf, +ConNeg, +Actio, +Ger, +PrsPrc, +PrfPrc, +VGen, +VAbess</td>
+          </tr>
+
+        </table>
+
+<!--        <p>Other derived verb forms:</p>
+
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+V</td>
+          </tr>
+
+          <tr>
+            <td>Part of speech:</td>
+            <td>+N</td>
+          </tr>
+
+          <tr>
+            <td>Derivation</td>
+            <td>+Actor</td>
+          </tr>
+
+          <tr>
+            <td>Number</td>
+            <td>+Sg, +Pl</td>
+          </tr>
+
+          <tr>
+            <td>Case:</td>
+            <td>+Ess +Nom +Gen +Acc +Ill +Ela +Ine +Com</td>
+          </tr>
+
+          <tr>
+            <td>(Possessive suffix:)</td>
+            <td>+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2
+            +PxPl3</td>
+          </tr>
+
+         </table>
+-->
+<!--        <p>Here is an example: "åtsådäddjáj" &gt;	åtså+N+Der/NomAg+N+Sg+Ill-->
+<!--</p>-->
+
+        <!--p>These tags are still not documented: +ImprtII</p-->
+      </section>
+
+      <section>
+        <title>The pronouns</title>
+
+<!--
+Personal ;
+Demonstrative ;
+Interrogativa ;
+Relative ;
+Reflexive ;
+
+Determiner ;
+Indefinita ;
+-->
+
+        <p>The personal pronouns:</p>
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+Pron</td>
+          </tr>
+          <tr>
+            <td>Subclass</td>
+            <td>+Pers</td>
+          </tr>
+          <tr>
+            <td>Person/Number</td>
+            <td>+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3</td>
+          </tr>
+          <tr>
+            <td>Case:</td>
+            <td>+Nom +Gen +Acc +Ill +Ine +Ela +Com +Abe +Ess</td>
+          </tr>
+        </table>
+
+        <p>The demonstrative, interrogative, relative and reflexive pronouns:</p>
+        <table>
+          <tr>
+            <td>Part of speech:</td>
+            <td>+Pron</td>
+          </tr>
+          <tr>
+            <td>Subclass</td>
+            <td>+Dem, +Interr, +Rel, +Refl</td>
+          </tr>
+          <tr>
+            <td>Number</td>
+            <td>+Sg, +Pl</td>
+          </tr>
+          <tr>
+            <td>Case:</td>
+            <td>+Nom +Gen +Acc +Ill +Ine +Ela +Com +Abe +Ess</td>
+          </tr>
+        </table>
+
+        <!--p>Example:</p>
+
+        <p>underlying form: mon+Pron+Pers+Sg1+Com, surface form: mujna<br />underlying form:  dat+Pron+Dem+Pl+Nom, surface form: da</p-->
+
+        <!--p>The reflexive pronouns:</p>
+
+        <p>baseform+Pron+pronoun_type+Case(+possessive suffix)</p>
+
+        <p>Example: underlying form: iesj+Pron+Refl+Ine+PxDu1, surface form: ietjanimme</p-->
+      </section>
+
+      <section>
+        <title>Indeclinable words</title>
+
+        <p>These have their POS tag as their only tag:</p>
+
+	<table>
+	<tr><td>adverb</td><td>+Adv</td></tr>
+	<tr><td>conjunction</td><td>+CC</td></tr>
+	<tr><td>subjunction</td><td>+CS</td></tr>
+	<tr><td>postposition</td><td>+Po</td></tr>
+	<tr><td>preposition</td><td>+Pr</td></tr>
+	<tr><td>numeral</td><td>+Num</td></tr>
+	<tr><td>interjection</td><td>+Interj</td></tr>
+	<tr><td>particle</td><td>+Pcle</td></tr>
+	</table>
+<!--        <source>underlying form: birra+Pr or birra+Po
+surface form:    birra
+</source>-->
+      </section>
+
+        <section>
+          <title>Alphabetic list of tags</title>
+          </section>
+
+          <section>
+            <title>Part of speech</title>
+
+          <dl>
+            <dt>+A</dt>
+            <dd>Adjective</dd>
+
+            <dt>+Adv</dt>
+            <dd>Adverb</dd>
+
+            <dt>+CC</dt>
+            <dd>Conjunction</dd>
+
+            <dt>+CS</dt>
+            <dd>Subjunction</dd>
+
+            <dt>+Interj</dt>
+            <dd>Interjection</dd>
+
+            <dt>+N</dt>
+            <dd>Noun</dd>
+
+            <dt>+Num</dt>
+            <dd>Numeral</dd>
+
+            <dt>+Pcle</dt>
+            <dd>Particle</dd>
+
+            <dt>+Po</dt>
+            <dd>Postposition</dd>
+
+            <dt>+Pr</dt>
+            <dd>Preposition</dd>
+
+            <dt>+Pron</dt>
+            <dd>Pronoun</dd>
+
+            <dt>+V</dt>
+            <dd>Verb</dd>
+  </dl>
+        </section>
+
+        <section>
+          <title>Sub-part of speech</title>
+
+          <dl>
+            <dt>+Dem</dt>
+            <dd>Demonstrative</dd>
+
+<!-- not currently in use -->
+<!--            <dt>+Coll</dt>
+            <dd>Collective</dd>
+-->
+            <dt>+Indef</dt>
+            <dd>Indefinite</dd>
+
+            <dt>+Interr</dt>
+            <dd>Interrogative</dd>
+
+            <dt>+Pers</dt>
+            <dd>Person</dd>
+
+            <dt>+Prop</dt>
+            <dd>Propernoun</dd>
+
+<!-- not currently in use -->
+<!--            <dt>+Recipr</dt>
+            <dd>Reciprocal</dd>
+-->
+            <dt>+Refl</dt>
+            <dd>Reflexive</dd>
+
+            <dt>+Rel</dt>
+            <dd>Relative</dd>
+
+          </dl>
+        </section>
+
+        <section>
+          <title>Grammatical properties</title>
+
+          <dl>
+            <dt>+ABBR</dt>
+            <dd>Abbreviation</dd>
+
+            <dt>+ACR</dt>
+            <dd>Accronym</dd>
+
+            <dt>+Abe</dt>
+            <dd>Abessive</dd>
+
+            <dt>+Acc</dt>
+            <dd>Accusative</dd>
+
+            <dt>+Actio</dt>
+            <dd>Actio form of the verb</dd>
+
+            <dt>+Actor</dt>
+            <dd>Actor noun</dd>
+
+            <dt>+Attr</dt>
+            <dd>Attributive</dd>
+
+            <dt>+CLB</dt>
+            <dd>Clause boundary</dd>
+
+            <dt>+Card</dt>
+            <dd>Cardinal</dd>
+
+<!-- not currently in use -->
+<!--            <dt>+Cmpnd</dt>
+            <dd>Compound (inconsistent with other notation for this tag)</dd>
+
+            <dt>+Cmpnd+</dt>
+            <dd>Compound (left tag)(inconsistent with other notation for this
+            tag)</dd>
+
+            <dt>+Coll</dt>
+            <dd>Collective number</dd>
+-->
+            <dt>+Com</dt>
+            <dd>Comitative</dd>
+
+            <dt>+Comp</dt>
+            <dd>Comperative</dd>
+
+            <dt>+ConNeg</dt>
+            <dd>Non-finite negation form of the verb</dd>
+
+            <dt>+Du</dt>
+            <dd>Dual</dd>
+
+            <dt>+Du1</dt>
+            <dd>Dual 1. person</dd>
+
+            <dt>+Du2</dt>
+            <dd>Dual 2. person</dd>
+
+            <dt>+Du3</dt>
+            <dd>Dual 3. person</dd>
+
+            <dt>+Ela</dt>
+            <dd>Elative</dd>
+
+            <dt>+Ess</dt>
+            <dd>Essive</dd>
+            
+            <dt>+Gen</dt>
+            <dd>Genitive</dd>
+
+            <dt>+Ger</dt>
+            <dd>Gerund</dd>
+
+            <dt>+GerII</dt>
+            <dd>Gerund II</dd>
+
+            <dt>+IV</dt>
+            <dd>Intransitive verb</dd>
+
+            <dt>+Ill</dt>
+            <dd>Illative</dd>
+
+            <dt>+Imprt</dt>
+            <dd>Imperative</dd>
+
+<!-- not currently in use -->
+<!--            <dt>+ImprtII</dt> -->
+<!--          <dd>Imperative II</dd> -->
+            <dt>+Ind</dt>
+            <dd>Indicative</dd>
+
+            <dt>+Ine</dt>
+            <dd>Inessive</dd>
+
+            <dt>+Inf</dt>
+            <dd>Infinitive</dd>
+
+            <dt>+LEFT</dt>
+            <dd>Left parenthesis</dd>
+
+            <dt>+Neg</dt>
+            <dd>Negation verb</dd>
+
+            <dt>+Nom</dt>
+            <dd>Nominative</dd>
+
+            <dt>+Ord</dt>
+            <dd>Ordinal</dd>
+
+            <dt>+PUNCT</dt>
+            <dd>Punctuation other than clause boundaries "/", "(", ")", "+"</dd>
+
+            <dt>+Pl</dt>
+            <dd>Plural</dd>
+
+            <dt>+Pl1</dt>
+            <dd>Plural 1. person</dd>
+
+            <dt>+Pl2</dt>
+            <dd>Plural 2. person</dd>
+
+            <dt>+Pl3</dt>
+            <dd>Plural 3. person</dd>
+
+<!-- not currently in use -->
+            <dt>+Cmp/PlGen</dt>
+            <dd>Plural genitive compound</dd>
+
+            <dt>+Pot</dt>
+            <dd>Potential</dd>
+
+            <dt>+PrfPrc</dt>
+            <dd>Perfect participle</dd>
+
+            <dt>+Prs</dt>
+            <dd>Present tense</dd>
+
+            <dt>+PrsPrc</dt>
+            <dd>Present participle</dd>
+
+            <dt>+Prt</dt>
+            <dd>Preteritum</dd>
+
+            <dt>+PxDu1</dt>
+            <dd>Possessivesuffix dual 1. person</dd>
+
+            <dt>+PxDu2</dt>
+            <dd>Possessivesuffix dual 2. person</dd>
+
+            <dt>+PxDu3</dt>
+            <dd>Possessivesuffix dual 3. person</dd>
+
+            <dt>+PxPl1</dt>
+            <dd>Possessivesuffix plural 1. person</dd>
+
+            <dt>+PxPl2</dt>
+            <dd>Possessivesuffix plural 1. person</dd>
+
+            <dt>+PxPl3</dt>
+            <dd>Possessivesuffix plural 1. person</dd>
+
+            <dt>+PxSg1</dt>
+            <dd>Possessivesuffix singular 1. person</dd>
+
+            <dt>+PxSg2</dt>
+            <dd>Possessivesuffix singular 2. person</dd>
+
+            <dt>+PxSg3</dt>
+            <dd>Possessivesuffix singular 3. person</dd>
+
+<!-- not currently in use (tagged as +ptcl) -->
+<!--            <dt>+Qst</dt>
+            <dd>Question clitic <em>(-)gu</em></dd>
+            
+            <dt>+Qst+Foc/son</dt>
+            <dd>Question clitic <em></em></dd>
+-->
+            <dt>+RIGHT</dt>
+            <dd>Right parenthesis</dd>
+
+            <dt>+Sg</dt>
+            <dd>Singular</dd>
+
+            <dt>+Sg1</dt>
+            <dd>Singular 1. person</dd>
+
+            <dt>+Sg2</dt>
+            <dd>Singular 2. person</dd>
+
+            <dt>+Sg3</dt>
+            <dd>Singular 3. person</dd>
+
+            <dt>+Cmp/Sg</dt>
+            <dd>Singular compound</dd>
+
+            <dt>+Cmp/SgGen</dt>
+            <dd>Singular genitive compound</dd>
+
+            <dt>+Cmp/SgNom</dt>
+            <dd>Singular nominative compound</dd>
+
+            <dt>+Sup</dt>
+            <dd>Supinum</dd>
+
+            <dt>+Superl</dt>
+            <dd>Superlative</dd>
+
+            <dt>+TV</dt>
+            <dd>Transitive verb</dd>
+
+            <dt>+VAbess</dt>
+            <dd>Verb abessive</dd>
+
+            <dt>+VGen</dt>
+            <dd>Verb genitive</dd>
+			
+          </dl>
+        </section>
+
+<!-- not currently in use -->
+<!--        <section>
+          <title>Derivational suffix tags</title>
+
+          <dl>
+            <dt>+Der/adda</dt>
+            <dd></dd>
+
+            <dt>+Der/agák</dt>
+            <dd></dd>
+
+            <dt>+Der/ahkes</dt>
+            <dd></dd>
+
+            <dt>+Der/ahtes</dt>
+            <dd></dd>
+
+            <dt>+Der/ahtte</dt>
+            <dd></dd>
+
+            <dt>+Der/alla</dt>
+            <dd></dd>
+
+            <dt>+Der/asste</dt>
+            <dd></dd>
+
+            <dt>+Der/belak</dt>
+            <dd></dd>
+
+            <dt>+Der/bieljak</dt>
+            <dd></dd>
+
+            <dt>+Der/báguk</dt>
+            <dd></dd>
+
+            <dt>+Der/bájnuk</dt>
+            <dd></dd>
+            
+            <dt>+Der/bának</dt>
+            <dd></dd>
+            
+            <dt>+Der/d</dt>
+            <dd></dd>
+            
+            <dt>+Der/dahka</dt>
+            <dd></dd>
+            
+            <dt>+Der/dahtte</dt>
+            <dd></dd>            
+            
+            <dt>+Der/dalla</dt>
+            <dd></dd>
+            
+            <dt>+Der/dasste</dt>
+            <dd></dd>
+            
+            <dt>+Der/dibme</dt>
+            <dd></dd>
+            
+            <dt>+Der/duhtte</dt>
+            <dd></dd>
+            
+            <dt>+Der/duvva</dt>
+            <dd></dd>
+            
+            <dt>+Der/dábak</dt>
+            <dd></dd>
+            
+            <dt>+Der/dáfuk</dt>
+            <dd></dd>
+            
+            <dt>+Der/dávdak</dt>
+            <dd></dd>
+            
+            <dt>+Der/dávtak</dt>
+            <dd></dd>
+            
+            <dt>+Der/Dimin</dt>
+            <dd>Diminutive</dd>
+
+            <dt>+Der/ferjak</dt>
+            <dd></dd>
+            
+            <dt>+Der/garák</dt>
+            <dd></dd>
+            
+            <dt>+Der/gattsak</dt>
+            <dd></dd>
+            
+            <dt>+Der/gerdak</dt>
+            <dd></dd>
+
+            <dt>+Der/giedak</dt>
+            <dd></dd>
+
+            <dt>+Der/gielak</dt>
+            <dd></dd>
+
+            <dt>+Der/giesjkak</dt>
+            <dd></dd>
+
+            <dt>+Der/gietjak</dt>
+            <dd></dd>
+
+            <dt>+Der/girjak</dt>
+            <dd></dd>
+
+            <dt>+Der/guovluk</dt>
+            <dd></dd>
+
+            <dt>+Der/h</dt>
+            <dd></dd>
+
+            <dt>+Der/habsak</dt>
+            <dd></dd>
+
+            <dt>+Der/hekkak</dt>
+            <dd></dd>
+
+            <dt>+Der/hábjak</dt>
+            <dd></dd>
+            
+            <dt>+Der/hájak</dt>
+            <dd></dd>
+
+            <dt>+Der/hámak</dt>
+            <dd></dd>
+
+            <dt>+Der/hápsak</dt>
+            <dd></dd>
+
+            <dt>+Der/ibme</dt>
+            <dd></dd>
+
+            <dt>+Der/ivnak</dt>
+            <dd></dd>
+
+            <dt>+Der/jagák</dt>
+            <dd></dd>
+
+            <dt>+Der/jahkásasj</dt>
+            <dd></dd>
+
+            <dt>+Der/jergak</dt>
+            <dd></dd>
+
+            <dt>+Der/jienak</dt>
+            <dd></dd>
+            
+            <dt>+Der/jiermak</dt>
+            <dd></dd>
+            
+            <dt>+Der/juolgak</dt>
+            <dd></dd>
+            
+            <dt>+Der/l</dt>
+            <dd></dd>
+            
+            <dt>+Der/ladda</dt>
+            <dd></dd>
+
+            <dt>+Der/lahkak</dt>
+            <dd></dd>
+            
+            <dt>+Der/lahtte</dt>
+            <dd></dd>            
+            
+            <dt>+Der/lanják</dt>
+            <dd></dd>
+            
+            <dt>+Der/lasj</dt>
+            <dd></dd>
+            
+            <dt>+Der/lasste</dt>
+            <dd></dd>
+            
+            <dt>+Der/lijkak</dt>
+            <dd></dd>
+            
+            <dt>+Der/linnjak</dt>
+            <dd></dd>
+            
+            <dt>+Der/lis</dt>
+            <dd></dd>
+            
+            <dt>+Der/luonduk</dt>
+            <dd></dd>
+            
+            <dt>+Der/luottak</dt>
+            <dd></dd>
+            
+            <dt>+Der/lágán</dt>
+            <dd></dd>
+            
+            <dt>+Der/lágásj</dt>
+            <dd></dd>
+            
+            <dt>+Der/m</dt>
+            <dd></dd>
+
+            <dt>+Der/merkak</dt>
+            <dd></dd>
+            
+            <dt>+Der/mielak</dt>
+            <dd></dd>
+            
+            <dt>+Der/muoduk</dt>
+            <dd></dd>
+            
+            <dt>+Der/mus</dt>
+            <dd></dd>
+            
+            <dt>+Der/n</dt>
+            <dd></dd>
+            
+            <dt>+Der/namák</dt>
+            <dd></dd>
+            
+            <dt>+Der/nierak</dt>
+            <dd></dd>
+            
+            <dt>+Der/njunjak</dt>
+            <dd></dd>
+            
+            <dt>+Der/njálmak</dt>
+            <dd></dd>
+            
+            <dt>+Der/nálak</dt>
+            <dd></dd>                          
+            
+            <dt>+Der/Pass</dt>
+            <dd>Passive</dd>
+            
+            <dt>+Der/r</dt>
+            <dd></dd>
+            
+            <dt>+Der/rabdak</dt>
+            <dd></dd>
+            
+            <dt>+Der/rattak</dt>
+            <dd></dd>
+            
+            <dt>+Der/rávak</dt>
+            <dd></dd>
+            
+            <dt>+Der/segak</dt>
+            <dd></dd>
+            
+            <dt>+Der/siejbak</dt>
+            <dd></dd>
+            
+            <dt>+Der/siejnak</dt>
+            <dd></dd>
+            
+            <dt>+Der/sijduk</dt>
+            <dd></dd>
+            
+            <dt>+Der/st</dt>
+            <dd></dd>
+            
+            <dt>+Der/stahtte</dt>
+            <dd></dd>
+            
+            <dt>+Der/stalla</dt>
+            <dd></dd>
+            
+            <dt>+Der/stasste</dt>
+            <dd></dd>
+            
+            <dt>+Der/stával</dt>
+            <dd></dd>
+            
+            <dt>+Der/suorak</dt>
+            <dd></dd>
+            
+            <dt>+Der/suorgak</dt>
+            <dd></dd>
+            
+            <dt>+Der/suttak</dt>
+            <dd></dd>
+            
+            <dt>+Der/sáv'vak</dt>
+            <dd></dd>
+            
+            <dt>+Der/tjalmak</dt>
+            <dd></dd>
+            
+            <dt>+Der/tjiegak</dt>
+            <dd></dd>
+            
+            <dt>+Der/tjuolmak</dt>
+            <dd></dd>
+            
+            <dt>+Der/tjuvdak</dt>
+            <dd></dd>
+            
+            <dt>+Der/tjålak</dt>
+            <dd></dd>
+            
+            <dt>+Der/tjårvak</dt>
+            <dd></dd>
+            
+            <dt>+Der/u/a/år</dt>
+            <dd></dd>
+            
+            <dt>+Der/us</dt>
+            <dd></dd>
+            
+            <dt>+Der/uvsak</dt>
+            <dd></dd>
+            
+            <dt>+Der/uvsuk</dt>
+            <dd></dd>
+            
+            <dt>+Der/varák</dt>
+            <dd></dd>
+            
+            <dt>+Der/vigák</dt>
+            <dd></dd>
+            
+            <dt>+Der/vuobdak</dt>
+            <dd></dd>
+            
+            <dt>+Der/vuoduk</dt>
+            <dd></dd>
+            
+            <dt>+Der/vuohta</dt>
+            <dd></dd>
+            
+            <dt>+Der/vájmuk</dt>
+            <dd></dd>
+            
+            <dt>+Der/ájvuk</dt>
+            <dd></dd>
+            
+            <dt>+Der/såjak</dt>
+            <dd></dd>
+            
+            <dt>+Der/åjvak</dt>
+            <dd></dd>
+            
+            <dt>+Der/åsak</dt>
+            <dd></dd>
+
+          </dl>
+        </section>
+-->
+<!-- not currently in use -->
+<!--        <section>
+          <title>Semantic tags</title>
+
+          <p>These are tags used for classifying names, e.g. +Prop+Sem/Fem</p>
+
+          <dl>
+            <dt>+Sem/Ani</dt>
+            <dd>Animal name</dd>
+
+            <dt>+Sem/Fem</dt>
+            <dd>Female</dd>
+
+            <dt>+Sem/Mal</dt>
+            <dd>Male</dd>
+
+            <dt>+Sem/Obj</dt>
+            <dd>Object</dd>
+
+            <dt>+Sem/Org</dt>
+            <dd>Organisation name</dd>
+
+            <dt>+Sem/Plc</dt>
+            <dd>Place name</dd>
+
+            <dt>+Sem/Sur</dt>
+            <dd>Surname</dd>
+
+            <dt>+WEB</dt>
+            <dd>Web addresse</dd>
+          </dl>
+        </section>
+-->
+
+
+
+
+
+      <p class="last_modified">Last modified: $Date: 2015-10-01 15:48:36 +0200 (Thu, 01 Oct 2015) $, by
+      $Author: sjur $</p>
+  </body>
+</document>
