@@ -7,6 +7,12 @@
 
 This page documents the work on the **Pite Sami language model**. 
 
+The morphological analyser contains the basic vocabulary and morphology, all in all some 8100 words
+plus inflectional and partly also derivatoinal patterns.
+
+The analyser was initially created by Ann-Charlott Sjaggo and Trond Trosterud,
+but the principal developer the last years has been Joshua Wilbur.
+
 # Project documentation
 
 * Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
