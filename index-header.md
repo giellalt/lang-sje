@@ -7,9 +7,32 @@
 
 This page documents the work on the **Pite Sami language model**. 
 
+The morphological analyser contains the basic vocabulary and morphology, all in all some 8100 words
+plus inflectional and partly also derivatoinal patterns.
+
+The analyser was initially created by Ann-Charlott Sjaggo and Trond Trosterud,
+but the principal developer the last years has been Joshua Wilbur.
+
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+##  Grammatical issues
+
+* [Jämnstaviga verb](Verbbojning_Pitesamiska_jamnst.html)
+* [Uddastaviga verb](Verbbojning_Pitesamiska_uddast.html)
+* [Adjektiv](Adjektivbojning.html)
+
+## Tags
+
+* [A list of the morphological tags in use for Pite Saami, with an explanation](docu-sje-grammartags.html)
+* [A general list of morphological tags in use at Giellatekno](/lang/common/MorphologicalTags.html)
+* The file **root.lexc** file contains the tags that are in actual use, cf. [an overview over the tags](root-morphology.html) and [the source file itself](https://github.com/giellalt/lang-sje/blob/develop/src/fst/root.lexc)
+
+
+## Using the analysers
+
+* In the terminal: analyse words by writing *usje*, generate with *dsje*
+* For more info, see [How to use the morphological parsers](/tools/docu-sme-manual.html)
+* Generation of [paradigms](http://giellatekno.uit.no/cgi/p-sje.nob.html)
 
 # In-source documentation
 
