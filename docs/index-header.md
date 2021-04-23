@@ -27,6 +27,7 @@ but the principal developer the last years has been Joshua Wilbur.
 * [A general list of morphological tags in use at Giellatekno](/lang/common/MorphologicalTags.html)
 * The file **root.lexc** file contains the tags that are in actual use, cf. [an overview over the tags](root-morphology.html) and [the source file itself](https://github.com/giellalt/lang-sje/blob/develop/src/fst/root.lexc)
 
+
 ## Using the analysers
 
 * In the terminal: analyse words by writing *usje*, generate with *dsje*
