@@ -1,7 +1,7 @@
 
 # Pite Saami Verbs
 
- * **LEXICON Verb** is the main lexicon
+ * **LEXICON Verb   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 

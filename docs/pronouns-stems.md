@@ -2,22 +2,22 @@
 Pronouns
 
 
- * **LEXICON Pronoun**
+ * **LEXICON Pronoun   **
 
 
 
 
- * **LEXICON Personal**
+ * **LEXICON Personal   **
 
- * **LEXICON perssg**
+ * **LEXICON perssg   **
 
- * **LEXICON persdu**
+ * **LEXICON persdu   **
 
- * **LEXICON perspl**
+ * **LEXICON perspl   **
 
 
 
- * **LEXICON Demonstrative**
+ * **LEXICON Demonstrative   **
 
 
 
@@ -26,7 +26,7 @@ Pronouns
 
 
 
- * **LEXICON Determiner**
+ * **LEXICON Determiner   **
 
 
 
@@ -45,7 +45,7 @@ Pronouns
 
 
 
- * **LEXICON Relative**
+ * **LEXICON Relative   **
 
 
 
@@ -64,7 +64,7 @@ Pronouns
 
 
 
- * **LEXICON Interrogative**
+ * **LEXICON Interrogative   **
 
 
 
@@ -92,7 +92,7 @@ Pronouns
 
 
 
- * **LEXICON Indefinita**
+ * **LEXICON Indefinita   **
 
 
 
@@ -191,7 +191,7 @@ Pronouns
 
 
 
- * **LEXICON Reflexive**
+ * **LEXICON Reflexive   **
 
 
 
@@ -210,7 +210,7 @@ Pronouns
 
 
 
- * **LEXICON gallacase**
+ * **LEXICON gallacase   **
 
 
 

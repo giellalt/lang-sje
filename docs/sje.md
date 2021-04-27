@@ -3,7 +3,7 @@
 
 This file contains the tags and reference to main lexica
 
-# Multichar_Symbols  definitions
+ # Multichar_Symbols  definitions
 
 ## POS
  * +N 	        Noun
@@ -218,29 +218,29 @@ Morphophonological symbols
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@  | (Dis)allow compounds with verbs unless nominalised
+ |  @P.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@  | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  @P.CmpFrst.FALSE@  | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@  | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@  | Block these words from making further compounds
-|  @D.CmpLast.TRUE@  | Block such words from entering R
-|  @D.CmpNone.TRUE@  | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@  | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@  | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@  | Disallow words coming directly from root.
+ |  @P.CmpFrst.FALSE@  | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@  | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@  | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@  | Block such words from entering R
+ |  @D.CmpNone.TRUE@  | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@  | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@  | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@  | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
-|  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
 
 
 
@@ -511,50 +511,50 @@ Lexica for adding tags and periods
 
 Splitting in 3 groups, because of the preprocessor
 
- * **LEXICON Abbreviation**
+ * **LEXICON Abbreviation   **
 
 
 
 
 
 
- * **LEXICON trab-ab-noun**
- * **LEXICON trab-ab-adj**
- * **LEXICON trab-ab-adv**
- * **LEXICON trab-ab-verb**
- * **LEXICON trab-ab-num**
- * **LEXICON trab-ab-cc**
+ * **LEXICON trab-ab-noun   **
+ * **LEXICON trab-ab-adj   **
+ * **LEXICON trab-ab-adv   **
+ * **LEXICON trab-ab-verb   **
+ * **LEXICON trab-ab-num   **
+ * **LEXICON trab-ab-cc   **
 
 
- * **LEXICON itrab-ab-noun**
- * **LEXICON itrab-ab-adj**
- * **LEXICON itrab-ab-adv**
- * **LEXICON itrab-ab-num**
+ * **LEXICON itrab-ab-noun   **
+ * **LEXICON itrab-ab-adj   **
+ * **LEXICON itrab-ab-adv   **
+ * **LEXICON itrab-ab-num   **
 
 
- * **LEXICON trnumab-ab-noun**
- * **LEXICON trnumab-ab-adj**
+ * **LEXICON trnumab-ab-noun   **
+ * **LEXICON trnumab-ab-adj   **
 
 
 
 
 
- * **LEXICON ab-nodot-noun**   The bulk
+ * **LEXICON ab-nodot-noun   **   The bulk
 Here come POS and Case tags, and no period.
 
- * **LEXICON ab-nodot-adj**
+ * **LEXICON ab-nodot-adj   **
 
- * **LEXICON ab-nodot-adv**
+ * **LEXICON ab-nodot-adv   **
 
- * **LEXICON ab-nodot-num**
+ * **LEXICON ab-nodot-num   **
 
- * **LEXICON ab-nodot-cc**
-
-
+ * **LEXICON ab-nodot-cc   **
 
 
 
- * **LEXICON ab-nodot-verb**
+
+
+ * **LEXICON ab-nodot-verb   **
 
 
 
@@ -564,14 +564,14 @@ Here come POS and Case tags, and no period.
 
 ## Intransitive abbreviations 
 
- * **LEXICON ITRAB**
+ * **LEXICON ITRAB   **
 
 
 
 
 
 
- * **LEXICON TRNUMAB**
+ * **LEXICON TRNUMAB   **
 
 
 
@@ -580,7 +580,7 @@ Here come POS and Case tags, and no period.
 
 ## Transitive abbreviations 
 
- * **LEXICON TRAB**
+ * **LEXICON TRAB   **
 
 
 
@@ -594,7 +594,7 @@ Here come POS and Case tags, and no period.
 
 # Pite Saami Adjectives
 
- * **LEXICON Adjective** is the main lexicon
+ * **LEXICON Adjective   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 
@@ -608,26 +608,26 @@ Here come POS and Case tags, and no period.
 
 
 
- * **LEXICON Postposition** is the list
+ * **LEXICON Postposition   ** is the list
 
 
 
 
- * **LEXICON PrePostposition** is the list
+ * **LEXICON PrePostposition   ** is the list
 
 
 
 
- * **LEXICON PostP**  adds the tag +Po
+ * **LEXICON PostP   **  adds the tag +Po
 
 
- * **LEXICON PrePost**  adds the tags +Po and +Pr
+ * **LEXICON PrePost   **  adds the tags +Po and +Pr
 
 Adverbs
 
- * **LEXICON adv** adds the tag +Adv
+ * **LEXICON adv   ** adds the tag +Adv
 
- * **LEXICON Adverb** is the list
+ * **LEXICON Adverb   ** is the list
 
 
 
@@ -654,18 +654,18 @@ Adverbs
 
 # Conjunctions
 
- * **LEXICON CC** gives +CC
+ * **LEXICON CC   ** gives +CC
 
- * **LEXICON Conjunction** is the list.
+ * **LEXICON Conjunction   ** is the list.
 
 
- * **LEXICON interj** gives the tag +Interj
+ * **LEXICON interj   ** gives the tag +Interj
 
- * **LEXICON Interjection** is the list 
+ * **LEXICON Interjection   ** is the list 
 
 # Pite Saami Nouns
 
- * **LEXICON Noun** is the main lexicon
+ * **LEXICON Noun   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 
@@ -690,7 +690,7 @@ Adverbs
 
 
 
- * **LEXICON Numeral					**
+ * **LEXICON Numeral					   **
 
 
 
@@ -725,9 +725,9 @@ Adverbs
 
 
 
- * **LEXICON pcle** the tag
+ * **LEXICON pcle   ** the tag
 
- * **LEXICON Particle** the list
+ * **LEXICON Particle   ** the list
 
 
 
@@ -735,22 +735,22 @@ Adverbs
 Pronouns
 
 
- * **LEXICON Pronoun**
+ * **LEXICON Pronoun   **
 
 
 
 
- * **LEXICON Personal**
+ * **LEXICON Personal   **
 
- * **LEXICON perssg**
+ * **LEXICON perssg   **
 
- * **LEXICON persdu**
+ * **LEXICON persdu   **
 
- * **LEXICON perspl**
+ * **LEXICON perspl   **
 
 
 
- * **LEXICON Demonstrative**
+ * **LEXICON Demonstrative   **
 
 
 
@@ -759,7 +759,7 @@ Pronouns
 
 
 
- * **LEXICON Determiner**
+ * **LEXICON Determiner   **
 
 
 
@@ -778,7 +778,7 @@ Pronouns
 
 
 
- * **LEXICON Relative**
+ * **LEXICON Relative   **
 
 
 
@@ -797,7 +797,7 @@ Pronouns
 
 
 
- * **LEXICON Interrogative**
+ * **LEXICON Interrogative   **
 
 
 
@@ -825,7 +825,7 @@ Pronouns
 
 
 
- * **LEXICON Indefinita**
+ * **LEXICON Indefinita   **
 
 
 
@@ -924,7 +924,7 @@ Pronouns
 
 
 
- * **LEXICON Reflexive**
+ * **LEXICON Reflexive   **
 
 
 
@@ -943,7 +943,7 @@ Pronouns
 
 
 
- * **LEXICON gallacase**
+ * **LEXICON gallacase   **
 
 
 
@@ -959,7 +959,7 @@ Pronouns
 
 Propernouns
 
- * **LEXICON ProperNoun**
+ * **LEXICON ProperNoun   **
 
 
 
@@ -978,13 +978,13 @@ Propernouns
 
 
 
- * **LEXICON CS**
+ * **LEXICON CS   **
 
- * **LEXICON Subjunction**
+ * **LEXICON Subjunction   **
 
 # Pite Saami Verbs
 
- * **LEXICON Verb** is the main lexicon
+ * **LEXICON Verb   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 
@@ -1009,15 +1009,15 @@ Propernouns
 # Pite Sámi TWOLC file
 
 
-* **%^WG:0**:  weak grade
-* **%^G3:0**:  marks grade three for stems w/o Cgrad
-* **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+ * **%^WG:0**:  weak grade
+ * **%^G3:0**:  marks grade three for stems w/o Cgrad
+ * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
    %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
-* **%^CDEL:0**:  delete final consonant odd (biednag)
-* **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
-* **%^MON:0**:  Monophthong in contracted stems
-* **%^UAUML:0**:  uo to uä juolge / juällge
-* **%^IEUML:0**:  ie to ä, gielbar / gällbara
+ * **%^CDEL:0**:  delete final consonant odd (biednag)
+ * **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
+ * **%^MON:0**:  Monophthong in contracted stems
+ * **%^UAUML:0**:  uo to uä juolge / juällge
+ * **%^IEUML:0**:  ie to ä, gielbar / gällbara
    %^IUML:0    * a to i, gallgat gillgin
    %^IJ:0      * e to i in front of Plural j and Sg Com
    %^MONB4J:0  * what is this?
@@ -1061,24 +1061,24 @@ Propernouns
 
 
 
-**Consonant Gradation for xxt(j|s):xt(j|s)**  
+**Consonant Gradation for xxt(j|s):xt(j|s) **  
 
-**Consonant Gradation for xxsj:xsj**  
+**Consonant Gradation for xxsj:xsj **  
 
 
 **Consonant Gradation for xy:y**  
 
-**Delete h in hx:y**  
+**Delete h in hx:y **  
 
-**Intervocalic voiced plosives in hx:y**  
+**Intervocalic voiced plosives in hx:y **  
 
-**Consonant Gradation for l/jbm:l/jm**  
+**Consonant Gradation for l/jbm:l/jm **  
 
-**Consonant Gradation for nnjg:njg**  
+**Consonant Gradation for nnjg:njg **  
 
-**Consonant Gradation for vgŋ:vŋ**  
+**Consonant Gradation for vgŋ:vŋ **  
 
-**Consonant Gradation for rdj:rj**  
+**Consonant Gradation for rdj:rj **  
 
 
 ## Other consonant rules 
@@ -1090,10 +1090,10 @@ Propernouns
 **Final devoicing**  
 
 
-**Word Final Simplification in -st**  
+**Word Final Simplification in -st **  
 
 
-**Word-final De-Affricatization for tj**  
+**Word-final De-Affricatization for tj  **  
 
 
 
@@ -1102,11 +1102,9 @@ Propernouns
 
 ###  metaphony
 
-**Default VH**  
+**Default VH **  
 
-**Default VH for 4syllables**  
-
-
+**Default VH for 4syllables **  
 
 
 
@@ -1119,12 +1117,14 @@ Propernouns
 
 
 
-**Default UA in G3**  
+
+
+**Default UA in G3 **  
 
 * *lu^Oddan^UAUMLi%>t*
 * *luaddan0i0t*
 
-**Special UÄ (VH) in G3**  
+**Special UÄ (VH) in G3 **  
 
 * *gu^Odde^G3%>t*
 * *guädde00t*
@@ -1134,9 +1134,9 @@ Propernouns
 
 
 
-**Special VH for u^O**  
+**Special VH for u^O **  
 
-**Special VH for ie**  
+**Special VH for ie **  
 
 * *sjievdnje^IJ%>s*
 * *sj0evdnji00s*
@@ -1148,11 +1148,9 @@ Propernouns
 * *h0ärrgá0j0*
 
 
-**Ä in G3**  
+**Ä in G3 **  
 
-**Ä in G3 capitalized**  
-
-
+**Ä in G3 capitalized **  
 
 
 
@@ -1164,9 +1162,11 @@ Propernouns
 
 
 
-**V2 E to I before j-suffixes**  
 
-**V2 E to Á**  
+
+**V2 E to I before j-suffixes **  
+
+**V2 E to Á **  
 
 * *båhte^WG%>v^V2E2AA*
 * *bå0dá00v0*
@@ -1178,12 +1178,12 @@ Propernouns
 * *máht0á000*
 
 
-**V2 E to Á before S or R**  
+**V2 E to Á before S or R **  
 
-**V2 O to U**  
+**V2 O to U **  
 
 
-**Final V Deletion**  
+**Final V Deletion **  
 
 
 

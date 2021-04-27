@@ -2,7 +2,7 @@
 
 # Conjunctions
 
- * **LEXICON CC** gives +CC
+ * **LEXICON CC   ** gives +CC
 
- * **LEXICON Conjunction** is the list.
+ * **LEXICON Conjunction   ** is the list.
 

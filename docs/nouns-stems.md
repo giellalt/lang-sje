@@ -1,7 +1,7 @@
 
 # Pite Saami Nouns
 
- * **LEXICON Noun** is the main lexicon
+ * **LEXICON Noun   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 

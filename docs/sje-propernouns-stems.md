@@ -3,5 +3,5 @@
 
 Propernouns
 
- * **LEXICON ProperNoun**
+ * **LEXICON ProperNoun   **
 

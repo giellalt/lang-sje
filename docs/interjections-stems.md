@@ -1,4 +1,4 @@
 
- * **LEXICON interj** gives the tag +Interj
+ * **LEXICON interj   ** gives the tag +Interj
 
- * **LEXICON Interjection** is the list 
+ * **LEXICON Interjection   ** is the list 
