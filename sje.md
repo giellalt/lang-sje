@@ -1,5 +1,810 @@
 
+
+# Conjunctions
+
+ * **LEXICON CC   ** gives +CC
+
+ * **LEXICON Conjunction   ** is the list.
+
+
+# File containing abbreviations
+
+
+Lexica for adding tags and periods
+
+Splitting in 3 groups, because of the preprocessor
+
+ * **LEXICON Abbreviation   **
+
+
+
+
+
+
+ * **LEXICON trab-ab-noun   **
+ * **LEXICON trab-ab-adj   **
+ * **LEXICON trab-ab-adv   **
+ * **LEXICON trab-ab-verb   **
+ * **LEXICON trab-ab-num   **
+ * **LEXICON trab-ab-cc   **
+
+
+ * **LEXICON itrab-ab-noun   **
+ * **LEXICON itrab-ab-adj   **
+ * **LEXICON itrab-ab-adv   **
+ * **LEXICON itrab-ab-num   **
+
+
+ * **LEXICON trnumab-ab-noun   **
+ * **LEXICON trnumab-ab-adj   **
+
+
+
+
+
+ * **LEXICON ab-nodot-noun   **   The bulk
+Here come POS and Case tags, and no period.
+
+ * **LEXICON ab-nodot-adj   **
+
+ * **LEXICON ab-nodot-adv   **
+
+ * **LEXICON ab-nodot-num   **
+
+ * **LEXICON ab-nodot-cc   **
+
+
+
+
+
+ * **LEXICON ab-nodot-verb   **
+
+
+
+
+
+
+
+## Intransitive abbreviations 
+
+ * **LEXICON ITRAB   **
+
+
+
+
+
+
+ * **LEXICON TRNUMAB   **
+
+
+
+
+
+
+## Transitive abbreviations 
+
+ * **LEXICON TRAB   **
+
+
+
+
+
+
+
+
+
+
+
+# Pite Saami Nouns
+
+ * **LEXICON Noun   ** is the main lexicon
+
+## Lexc inflectional classes (Mini-grammar)
+
+* Even-syllable stem patterns: 
+    - N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+    - N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+    - N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+    - N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
+* Odd-syllable stem patterns:  
+    - N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
+    - N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
+    - N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
+    - N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
+* Contracted stem patterns: 
+    - N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
+    - N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
+    - N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
+    - N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
+
+
+# Pite Saami numerals 
+
+
+
+ * **LEXICON Numeral					   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adverbs
+
+ * **LEXICON adv   ** adds the tag +Adv
+
+ * **LEXICON Adverb   ** is the list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Pite Saami Verbs
+
+ * **LEXICON Verb   ** is the main lexicon
+
+## Lexc inflectional classes (Mini-grammar)
+
+
+* V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
+* V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
+* V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
+* V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
+
+
+* V_ODD: odd-syllable stems (e.g. ságastit)
+
+
+* V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
+
+
+ * lä: LE "copula/auxiliary verb" ;  
+ * ij: IJ "negation verb" ;  
+
+
+
+# Adpositions
+
+
+
+ * **LEXICON Postposition   ** is the list
+
+
+
+
+ * **LEXICON PrePostposition   ** is the list
+
+
+
+
+ * **LEXICON PostP   **  adds the tag +Po
+
+
+ * **LEXICON PrePost   **  adds the tags +Po and +Pr
+
+# Pite Saami Adjectives
+
+ * **LEXICON Adjective   ** is the main lexicon
+
+## Lexc inflectional classes (Mini-grammar)
+
+
+
+
+
+
+
+Pronouns
+
+
+ * **LEXICON Pronoun   **
+
+
+
+
+ * **LEXICON Personal   **
+
+ * **LEXICON perssg   **
+
+ * **LEXICON persdu   **
+
+ * **LEXICON perspl   **
+
+
+
+ * **LEXICON Demonstrative   **
+
+
+
+
+
+
+
+
+ * **LEXICON Determiner   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Relative   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Interrogative   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Indefinita   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Reflexive   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON gallacase   **
+
+
+
+
+
+
+
+
+
+
+
+# Pite Saami ProperNouns
+
+Propernouns
+
+ * **LEXICON ProperNoun   **
+
+
+# Pite Sámi TWOLC file
+
+
+ * **%^WG:0**:  weak grade
+ * **%^G3:0**:  marks grade three for stems w/o Cgrad
+ * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ * **%^CDEL:0**:  delete final consonant odd (biednag)
+ * **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
+ * **%^MON:0**:  Monophthong in contracted stems
+ * **%^UAUML:0**:  uo to uä juolge / juällge
+ * **%^IEUML:0**:  ie to ä, gielbar / gällbara
+   %^IUML:0    * a to i, gallgat gillgin
+   %^IJ:0      * e to i in front of Plural j and Sg Com
+   %^MONB4J:0  * what is this?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Rules
+
+
+
+## Consonant gradation rules
+
+**Consonant Gradation for htt(j|s):ht(j|s)**  
+
+**Consonant Gradation for hxx:hx**  
+
+**Consonant Gradation for xdn(j):xn(j)**  
+
+
+
+
+
+
+**Consonant Gradation for xx:x**  
+
+
+**Consonant Gradation for xxy:xy**  
+
+
+
+
+
+**Consonant Gradation for xxt(j|s):xt(j|s) **  
+
+**Consonant Gradation for xxsj:xsj **  
+
+
+**Consonant Gradation for xy:y**  
+
+**Delete h in hx:y **  
+
+**Intervocalic voiced plosives in hx:y **  
+
+**Consonant Gradation for l/jbm:l/jm **  
+
+**Consonant Gradation for nnjg:njg **  
+
+**Consonant Gradation for vgŋ:vŋ **  
+
+**Consonant Gradation for rdj:rj **  
+
+
+## Other consonant rules 
+
+**Final C Deletion**  
+
+
+
+**Final devoicing**  
+
+
+**Word Final Simplification in -st **  
+
+
+**Word-final De-Affricatization for tj  **  
+
+
+
+
+## Vowel rules 
+
+###  metaphony
+
+**Default VH **  
+
+**Default VH for 4syllables **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Default UA in G3 **  
+
+* *lu^Oddan^UAUMLi%>t*
+* *luaddan0i0t*
+
+**Special UÄ (VH) in G3 **  
+
+* *gu^Odde^G3%>t*
+* *guädde00t*
+
+* *gu^Odde^G3%>t*
+* *guädde00t*
+
+
+
+**Special VH for u^O **  
+
+**Special VH for ie **  
+
+* *sjievdnje^IJ%>s*
+* *sj0evdnji00s*
+
+* *hierrge^WG^IJ%>j*
+* *h0er0gi000j*
+
+* *hierrge%>j^V2E2AA*
+* *h0ärrgá0j0*
+
+
+**Ä in G3 **  
+
+**Ä in G3 capitalized **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+**V2 E to I before j-suffixes **  
+
+**V2 E to Á **  
+
+* *båhte^WG%>v^V2E2AA*
+* *bå0dá00v0*
+* *båhte^WG%>^V2E2AA*
+* *bå0dá000*
+* *máhtte^WG%>v^V2E2AA*
+* *máht0á00v0*
+* *máhtte^WG%>^V2E2AA*
+* *máht0á000*
+
+
+**V2 E to Á before S or R **  
+
+**V2 O to U **  
+
+
+**Final V Deletion **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *a*
+* *b*
+
+
+
 # Symbol affixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Even syllabled verbs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Odd syllabled verbs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# contracted verbs
+
+
+
+
+
+
+
+
+
+
+
+# Auxiliaries
+
+ * LEXICON LE  
+
+ * LEXICON LEPRS  
+
+ * LEXICON LEPRT  
+
+
+
+
+ * LEXICON IJ  
+
+
+ * LEXICON IJPRS  
+ * +Sg1:iv    K ;   
+
+ * LEXICON IJPRT  
+ * +Sg1:idtjiv    K ;   
+
+
+ * LEXICON IJIMP  
+ * +Sg2:iele  K ;  
 
 
 
@@ -248,358 +1053,6 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
-
-
-
-
-
-
-
-
-
-
-# Even syllabled verbs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Odd syllabled verbs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# contracted verbs
-
-
-
-
-
-
-
-
-
-
-
-# Auxiliaries
-
- * LEXICON LE  
-
- * LEXICON LEPRS  
-
- * LEXICON LEPRT  
-
-
-
-
- * LEXICON IJ  
-
-
- * LEXICON IJPRS  
- * +Sg1:iv    K ;   
-
- * LEXICON IJPRT  
- * +Sg1:idtjiv    K ;   
-
-
- * LEXICON IJIMP  
- * +Sg2:iele  K ;  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Pite Sámi TWOLC file
-
-
- * **%^WG:0**:  weak grade
- * **%^G3:0**:  marks grade three for stems w/o Cgrad
- * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
-   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
- * **%^CDEL:0**:  delete final consonant odd (biednag)
- * **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
- * **%^MON:0**:  Monophthong in contracted stems
- * **%^UAUML:0**:  uo to uä juolge / juällge
- * **%^IEUML:0**:  ie to ä, gielbar / gällbara
-   %^IUML:0    * a to i, gallgat gillgin
-   %^IJ:0      * e to i in front of Plural j and Sg Com
-   %^MONB4J:0  * what is this?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Rules
-
-
-
-## Consonant gradation rules
-
-**Consonant Gradation for htt(j|s):ht(j|s)**  
-
-**Consonant Gradation for hxx:hx**  
-
-**Consonant Gradation for xdn(j):xn(j)**  
-
-
-
-
-
-
-**Consonant Gradation for xx:x**  
-
-
-**Consonant Gradation for xxy:xy**  
-
-
-
-
-
-**Consonant Gradation for xxt(j|s):xt(j|s) **  
-
-**Consonant Gradation for xxsj:xsj **  
-
-
-**Consonant Gradation for xy:y**  
-
-**Delete h in hx:y **  
-
-**Intervocalic voiced plosives in hx:y **  
-
-**Consonant Gradation for l/jbm:l/jm **  
-
-**Consonant Gradation for nnjg:njg **  
-
-**Consonant Gradation for vgŋ:vŋ **  
-
-**Consonant Gradation for rdj:rj **  
-
-
-## Other consonant rules 
-
-**Final C Deletion**  
-
-
-
-**Final devoicing**  
-
-
-**Word Final Simplification in -st **  
-
-
-**Word-final De-Affricatization for tj  **  
-
-
-
-
-## Vowel rules 
-
-###  metaphony
-
-**Default VH **  
-
-**Default VH for 4syllables **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Default UA in G3 **  
-
-* *lu^Oddan^UAUMLi%>t*
-* *luaddan0i0t*
-
-**Special UÄ (VH) in G3 **  
-
-* *gu^Odde^G3%>t*
-* *guädde00t*
-
-* *gu^Odde^G3%>t*
-* *guädde00t*
-
-
-
-**Special VH for u^O **  
-
-**Special VH for ie **  
-
-* *sjievdnje^IJ%>s*
-* *sj0evdnji00s*
-
-* *hierrge^WG^IJ%>j*
-* *h0er0gi000j*
-
-* *hierrge%>j^V2E2AA*
-* *h0ärrgá0j0*
-
-
-**Ä in G3 **  
-
-**Ä in G3 capitalized **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-**V2 E to I before j-suffixes **  
-
-**V2 E to Á **  
-
-* *båhte^WG%>v^V2E2AA*
-* *bå0dá00v0*
-* *båhte^WG%>^V2E2AA*
-* *bå0dá000*
-* *máhtte^WG%>v^V2E2AA*
-* *máht0á00v0*
-* *máhtte^WG%>^V2E2AA*
-* *máht0á000*
-
-
-**V2 E to Á before S or R **  
-
-**V2 O to U **  
-
-
-**Final V Deletion **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *a*
-* *b*
 
 
 
@@ -862,459 +1315,6 @@ And this is the ENDLEX of everything:
 The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
-
-# Pite Saami Nouns
-
- * **LEXICON Noun   ** is the main lexicon
-
-## Lexc inflectional classes (Mini-grammar)
-
-* Even-syllable stem patterns: 
-    - N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-    - N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
-    - N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
-    - N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
-* Odd-syllable stem patterns:  
-    - N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
-    - N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
-    - N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
-    - N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
-* Contracted stem patterns: 
-    - N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
-    - N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
-    - N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
-    - N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
-
-
-Pronouns
-
-
- * **LEXICON Pronoun   **
-
-
-
-
- * **LEXICON Personal   **
-
- * **LEXICON perssg   **
-
- * **LEXICON persdu   **
-
- * **LEXICON perspl   **
-
-
-
- * **LEXICON Demonstrative   **
-
-
-
-
-
-
-
-
- * **LEXICON Determiner   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Relative   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Interrogative   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Indefinita   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Reflexive   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON gallacase   **
-
-
-
-
-
-
-
-
-
-
-
-# File containing abbreviations
-
-
-Lexica for adding tags and periods
-
-Splitting in 3 groups, because of the preprocessor
-
- * **LEXICON Abbreviation   **
-
-
-
-
-
-
- * **LEXICON trab-ab-noun   **
- * **LEXICON trab-ab-adj   **
- * **LEXICON trab-ab-adv   **
- * **LEXICON trab-ab-verb   **
- * **LEXICON trab-ab-num   **
- * **LEXICON trab-ab-cc   **
-
-
- * **LEXICON itrab-ab-noun   **
- * **LEXICON itrab-ab-adj   **
- * **LEXICON itrab-ab-adv   **
- * **LEXICON itrab-ab-num   **
-
-
- * **LEXICON trnumab-ab-noun   **
- * **LEXICON trnumab-ab-adj   **
-
-
-
-
-
- * **LEXICON ab-nodot-noun   **   The bulk
-Here come POS and Case tags, and no period.
-
- * **LEXICON ab-nodot-adj   **
-
- * **LEXICON ab-nodot-adv   **
-
- * **LEXICON ab-nodot-num   **
-
- * **LEXICON ab-nodot-cc   **
-
-
-
-
-
- * **LEXICON ab-nodot-verb   **
-
-
-
-
-
-
-
-## Intransitive abbreviations 
-
- * **LEXICON ITRAB   **
-
-
-
-
-
-
- * **LEXICON TRNUMAB   **
-
-
-
-
-
-
-## Transitive abbreviations 
-
- * **LEXICON TRAB   **
-
-
-
-
-
-
-
-
-
-
-
-Adverbs
-
- * **LEXICON adv   ** adds the tag +Adv
-
- * **LEXICON Adverb   ** is the list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Pite Saami Adjectives
-
- * **LEXICON Adjective   ** is the main lexicon
-
-## Lexc inflectional classes (Mini-grammar)
-
-
-
-
-
-
-
-# Pite Saami Verbs
-
- * **LEXICON Verb   ** is the main lexicon
-
-## Lexc inflectional classes (Mini-grammar)
-
-
-* V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
-* V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
-* V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
-* V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
-
-
-* V_ODD: odd-syllable stems (e.g. ságastit)
-
-
-* V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
-
-
- * lä: LE "copula/auxiliary verb" ;  
- * ij: IJ "negation verb" ;  
-
-
-
-
-# Conjunctions
-
- * **LEXICON CC   ** gives +CC
-
- * **LEXICON Conjunction   ** is the list.
-
-
-# Pite Saami ProperNouns
-
-Propernouns
-
- * **LEXICON ProperNoun   **
-
-
-# Adpositions
-
-
-
- * **LEXICON Postposition   ** is the list
-
-
-
-
- * **LEXICON PrePostposition   ** is the list
-
-
-
-
- * **LEXICON PostP   **  adds the tag +Po
-
-
- * **LEXICON PrePost   **  adds the tags +Po and +Pr
-
-# Pite Saami numerals 
-
-
-
- * **LEXICON Numeral					   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
