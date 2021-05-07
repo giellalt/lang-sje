@@ -1,4 +1,0 @@
-
- * **LEXICON CS   **
-
- * **LEXICON Subjunction   **
