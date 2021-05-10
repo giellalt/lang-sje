@@ -2,36 +2,6 @@
 ## Copyright: Sámediggi/Divvun/UiT
 ## Licence: GPL v3+
 
-# List all md files that should be created from source files in the
-# MD_PAGES variable. The filename pattern is as follows:
-#
-# dir/filename.lexc => filename-dir.md
-
-MD_PAGES=root-morphology.md \
-		  adjectives-affixes.md \
-		  abbreviations-stems.md      \
-		  adjectives-stems.md         \
-		  adpositions-stems.md        \
-		  adverbs-stems.md            \
-		  conjunctions-stems.md       \
-		  interjections-stems.md      \
-		  nouns-stems.md              \
-		  numerals-stems.md           \
-		  particles-stems.md          \
-		  pronouns-stems.md           \
-		  sje-propernouns-stems.md        \
-		  punctuation-stems.md        \
-		  subjunctions-stems.md       \
-		  verbs-stems.md              \
-		  phonology-morphology.md
-# clitics-morphology.md       \
-# compounding-morphology.md   \
-# acronyms-stems.md           \
-# adjectives-oahpa-stems.md   \
-# nouns-oahpa-stems.md        \
-# adjectives-oahpa-affixes.md \
-# nouns-affixes.md            \
-# propernouns-affixes.md      \
-# verbs-affixes.md
+# The generated docs are automatically detected by the automake script
 
 include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am
