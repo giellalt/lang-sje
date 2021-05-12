@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
 [![Build status](https://github.com/giellalt/lang-sje/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sje/actions)
 
-This page documents the work on the **Pite Sami language model**. 
+This page documents the work on the [Pite Sami language model](http://github.com/giellalt/lang-sje). 
 
 The morphological analyser contains the basic vocabulary and morphology, all in all some 8100 words
 plus inflectional and partly also derivatoinal patterns.
