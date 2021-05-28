@@ -16,7 +16,8 @@
 !
 ! $Id$
 !
-!
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
+
 
 Alphabet
   a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å
