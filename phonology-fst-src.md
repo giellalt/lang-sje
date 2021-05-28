@@ -1,5 +1,7 @@
 
 # Pite Sámi TWOLC file
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
+
 
 
  * **%^WG:0**:  weak grade
