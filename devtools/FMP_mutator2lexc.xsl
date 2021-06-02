@@ -102,6 +102,8 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
+! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
+!
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
 ! Generated at: </xsl:text>
 <xsl:value-of select="date:date-time()"/>
@@ -113,27 +115,27 @@
   <xsl:when test="$PoS = 'noun'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+!! # Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
-LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
+LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * **@CODE@** is the main lexicon
 
-!! !!Lexc inflectional classes (Mini-grammar)
+!! ## Lexc inflectional classes (Mini-grammar)
 
 !! * Even-syllable stem patterns: 
-!! ** N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-!! ** N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
-!! ** N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
-!! ** N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
+!!     - N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+!!     - N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+!!     - N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+!!     - N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
 !! * Odd-syllable stem patterns:  
-!! ** N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
-!! ** N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
-!! ** N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
-!! ** N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
+!!     - N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
+!!     - N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
+!!     - N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
+!!     - N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
 !! * Contracted stem patterns: 
-!! ** N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
-!! ** N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
-!! ** N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
-!! ** N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
+!!     - N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
+!!     - N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
+!!     - N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
+!!     - N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
 </xsl:text>
   </xsl:when>
@@ -142,11 +144,11 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
   <xsl:when test="$PoS = 'verb'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+!! # Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
-LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
+LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * **@CODE@** is the main lexicon
 
-!! !!Lexc inflectional classes (Mini-grammar)
+!! ## Lexc inflectional classes (Mini-grammar)
 
 ! Even-syllable stem patterns:
 
@@ -177,11 +179,11 @@ gallgat:gilgi V_GILGIJ "shall" ; ! no. 522
   <xsl:when test="$PoS = 'adj'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+!! # Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
-LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@__ is the main lexicon
+LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * **@CODE@** is the main lexicon
 
-!! !!Lexc inflectional classes (Mini-grammar)
+!! ## Lexc inflectional classes (Mini-grammar)
 
 ! adjective classes are named after a prototypical adjective
 
@@ -192,12 +194,12 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * __@CODE@_
   <xsl:when test="$PoS = 'adv'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+!! # Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
-LEXICON adv   !!= * __@CODE@__ adds the tag +Adv
+LEXICON adv   !!= * **@CODE@** adds the tag +Adv
 +Adv: # ;
 
-LEXICON Adverb   !!= * __@CODE@__ is the list
+LEXICON Adverb   !!= * **@CODE@** is the list
 </xsl:text>
   </xsl:when>
 
@@ -205,12 +207,12 @@ LEXICON Adverb   !!= * __@CODE@__ is the list
   <xsl:when test="$PoS = 'post'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+!! # Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
-LEXICON PP   !!= * __@CODE@__  adds the tag +Po
+LEXICON PP   !!= * **@CODE@**  adds the tag +Po
 +Po: # ;
 
-LEXICON Postposition   !!= * __@CODE@__ is the list
+LEXICON Postposition   !!= * **@CODE@** is the list
 </xsl:text>
   </xsl:when>
 
@@ -218,7 +220,7 @@ LEXICON Postposition   !!= * __@CODE@__ is the list
   <xsl:when test="$PoS = 'prop'">
 <xsl:text>
 
-!! !!!Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
+!! # Pite Saami </xsl:text><xsl:value-of select="$LexName"/><xsl:text>s
 
 !! Propernouns
 !+Prop
@@ -230,7 +232,7 @@ LEXICON Postposition   !!= * __@CODE@__ is the list
 !+Sem/Org (organisation)
 !+Sem/Obj (film, book, etc.)
 
-LEXICON ProperNoun   !!= * __@CODE@__
+LEXICON ProperNoun   !!= * **@CODE@**
 
 </xsl:text>
   </xsl:when>

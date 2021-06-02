@@ -7,7 +7,9 @@
 # =================================================================== #
 # =================================================================== #
 
-# copied from South Saami disambiguator by Joshua Wilbur on 2018-01-09
+# initial version copied from South Saami disambiguator by Joshua Wilbur on 2018-01-09
+# NB: through June 2019, J. Wilbur's development work made possible by 
+# Deutsche Forschungsgemeinschaft, grant 286335341
 
             # =========================================== #
             #            Short table of contents          #
