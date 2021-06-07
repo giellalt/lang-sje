@@ -342,7 +342,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Sg+Nom:e^WGs%> K ;
 +N+Cmp/SgNom:e^WGs%> R ; !compound element in weak-grade with final-C
-!+N+Cmp/SgGen:á%> R ; !compound element in weak-grade with final-C ; not sure!
++N+Cmp/SgGen:á%> R ; !compound element in weak-grade with final-C ; not sure! cf. fállábärrgo
 +N+Sg+Acc:á%>v K ;
 +N+Sg+Gen:á%> K ;
 +N+Sg+Ill:á%>j K ;
