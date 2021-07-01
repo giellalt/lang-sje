@@ -1,5 +1,5 @@
 
-      P I T E   S A A M I   G R A M M A R   C H E C K E R
+P I T E   S A A M I   G R A M M A R   C H E C K E R
 
 
 
@@ -413,3 +413,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-sje/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>

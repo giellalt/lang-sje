@@ -243,3 +243,5 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/adjectives.lexc)</small>

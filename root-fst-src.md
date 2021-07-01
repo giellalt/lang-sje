@@ -129,11 +129,11 @@ Other tags
 
 The tags are of the following form:
 * **+CmpNP/xxx** - Normative (N), Position (P), ie. the tag describes what
-                   position the tagged word can be in in a compound
+position the tagged word can be in in a compound
 * **+CmpN/xxx**  - Normative (N) **form** ie. the tag describes what
-                   form the tagged word should use when making compounds
+form the tagged word should use when making compounds
 * **+Cmp/xxx**   - Descriptive compounding tags, ie. tags that*describes*
-                   what form a word actually is using in a compound
+what form a word actually is using in a compound
 
 Normative/prescriptive compounding tags:
 (to govern compound behaviour for the speller, ie. what a compound SHOULD BE)
@@ -151,7 +151,7 @@ The first part of the component may be ..
  * +CmpNP/Suff - ... only **last** part in a compound, NEVER alone
  * +CmpNP/None - ... not take part in compounds
  * +CmpNP/Only - ... only be part of a compound, i.e. can never
-                be used alone, but can appear in any position
+be used alone, but can appear in any position
 
  * +CmpN/SgLeft  Singular to the left
  * +CmpN/SgNomLeft  Singular nominative to the left
@@ -166,10 +166,10 @@ The first part of the component may be ..
  * **+Cmp/PlNom**  Plural Nominative
  * **+Cmp/Attr**  Attribute
  * **+Cmp**  Dynamic compound - this tag should always be part of a
-               dynamic compound.
-               It is important for Apertium, and useful in other cases as well.
+dynamic compound.
+It is important for Apertium, and useful in other cases as well.
  * **+Cmp/SplitR**  This is a split compound with the other part to the right:
-               "Arbeids- og inkluderingsdepartementet" => Arbeids- = +Cmp/SplitR
+"Arbeids- og inkluderingsdepartementet" => Arbeids- = +Cmp/SplitR
  * **+Cmp/SplitL**  This is a split compound with the other part to the left
  * **+Cmp/Sh**  testing ShCmp
 
@@ -258,3 +258,5 @@ And this is the ENDLEX of everything:
 The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/root.lexc)</small>
