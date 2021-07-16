@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-07-16T17:38:01+02:00
+! Generated at: 2021-07-16T19:28:33+02:00
 
 !! # Pite Saami Nouns
 
@@ -2132,7 +2132,6 @@ ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
 fridjár:fridjár N_ODD "suitor, beau" ; ! no. 91337
 fridjár+Use/NG:frijjár N_ODD "suitor, beau" ; ! no. 91336
-fuvvdar:fuvvdar N_ODD "feed" ; ! no. 91173
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
 gahtsem:gahtsem N_ODD "neck (humans)" ; ! no. 504
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
@@ -2555,6 +2554,7 @@ dimbar:dimmbar N_ODD_WG "wood, timber" ; ! no. 90322
 duodjebarrgej:duodje#barrgej N_ODD_WG "artesian" ; ! no. 5686
 dåbbdet+V+Der/NomAg:dåbbdej N_ODD_WG "expert" ; ! no. 4741
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
+fuvdar:fuvvdar N_ODD_WG "feed" ; ! no. 91173
 gamar:gabmar N_ODD_WG "goat cheese curd mass" ; ! no. 90752
 ganjal:gadnjal N_ODD_WG "tear, teardrop" ; ! no. 535
 gasskaáldar:gasska#álldar N_ODD_WG "middle ages" ; ! no. 4814
