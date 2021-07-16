@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-06-07T08:59:45+02:00
+! Generated at: 2021-07-16T17:38:01+02:00
 
 !! # Pite Saami Nouns
 
@@ -625,7 +625,7 @@ juovva:ju^Ovva N_EVEN "scree" ; ! no. 2448
 jupptsa:jupptsa N_EVEN "gruel, porridge, soup" ; ! no. 2663
 juällge:ju^Ollge N_EVEN "leg, foot" ; ! no. 943
 juällgebielle:juällge#bielle N_EVEN "one leg (as opposed to both legs)" ; ! no. 4919
-juällgeblárre:juällge#blárre N_EVEN "the ball of the foot" ; ! no. 944
+juällgeblárre:juällge#blárre N_EVEN "the sole of the foot" ; ! no. 944
 juällgetjuvvde:juällge#tjuvvde N_EVEN "toe" ; ! no. 947
 jåde+N+Der/NomAg:jådedieddje N_EVEN "leader, chairperson" ; ! no. 90556
 jågŋå:jågŋå N_EVEN "lingonberry" ; ! no. 950
@@ -2132,6 +2132,7 @@ ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
 fridjár:fridjár N_ODD "suitor, beau" ; ! no. 91337
 fridjár+Use/NG:frijjár N_ODD "suitor, beau" ; ! no. 91336
+fuvvdar:fuvvdar N_ODD "feed" ; ! no. 91173
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
 gahtsem:gahtsem N_ODD "neck (humans)" ; ! no. 504
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
@@ -2500,7 +2501,6 @@ vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; !
 báhper:báhpper N_ODD_V2E2AA "paper" ; ! no. 110
 bissmer:bissmer N_ODD_V2E2AA "steelyard" ; ! no. 3267
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
-fudder:fudder N_ODD_V2E2AA "feed" ; ! no. 91173
 gahper:gahper N_ODD_V2E2AA "cap (part of traditional dress)" ; ! no. 6765
 garber:garber N_ODD_V2E2AA "unripe berry" ; ! no. 90542
 gáhker:gáhkker N_ODD_V2E2AA "winter scat of reindeer or moose" ; ! no. 3933
