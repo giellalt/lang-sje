@@ -3,7 +3,7 @@ The Pite Sami morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
 [![Build Status](https://github.com/giellalt/lang-sje/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sje/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://raw.githubusercontent.com/giellalt/lang-sje/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/blob/main/LICENSE)
 
 This repository contains finite state source files for the Pite Sami language,
 for building morphological analysers, proofing tools
