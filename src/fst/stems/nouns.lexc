@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-07-19T15:11:26+03:00
+! Generated at: 2021-09-13T09:14:15+03:00
 
 !! # Pite Saami Nouns
 
@@ -146,7 +146,7 @@ avve:avve N_EVEN "belt" ; ! no. 91037
 ávvtja:ávvtja N_EVEN "bird cherry tree" ; ! no. 92
 ávvtjamuärrje:ávvtja#mu^Orrje N_EVEN "hagberry" ; ! no. 4668
 badjegiehtje:badje#giehtje N_EVEN "upper end, top side" ; ! no. 6130
-badjeráppta:badje#ráppta N_EVEN "upper edge" ; ! no. 4670
+badjerappta:badje#rappta N_EVEN "upper edge" ; ! no. 4670
 bahámiella:bahá#miella N_EVEN "angry mood" ; ! no. 90629
 bahás+A+Der/State:bahásvu^Ohta N_EVEN "painfulness" ; ! no. 4168
 bahta:bahta N_EVEN "bottom, butt" ; ! no. 111
@@ -600,7 +600,7 @@ iehkedisidja+Use/NG:iehkedis#ijja N_EVEN "late evening" ; ! no. 3744
 iehkedisnásste:iehkedis#násste N_EVEN "evening star" ; ! no. 2935
 ietjasvuohke:ietjas#vu^Ohke N_EVEN "distinctive" ; ! no. 4940
 ihttátjbäjjve:ihttátj#biejjve N_EVEN "tomorrow" ; ! no. 4943
-ijaráppta:ija#ráppta N_EVEN "late evening" ; ! no. 3743
+ijarappta:ija#rappta N_EVEN "late evening" ; ! no. 3743
 idja+Use/NG:ijja N_EVEN "night" ; ! no. 90421
 ilbme:ilbme N_EVEN "air" ; ! no. 91365
 inuijjta:inuijjta N_EVEN "Inuit" ; ! no. 4000
@@ -903,6 +903,7 @@ påsstå:påsstå N_EVEN "mail, post" ; ! no. 91248
 pänna:pien'na N_EVEN "pen" ; ! no. 1355
 rabma:rabma N_EVEN "little ledge" ; ! no. 6892
 ragatájjge:ragat#ájjge N_EVEN "mating season for reindeer" ; ! no. 2439
+rappta:rappta N_EVEN "edge" ; ! no. 2495
 rappte:rappte N_EVEN "forehead protection, outer hat" ; ! no. 5909
 ráddna:ráddna N_EVEN "buddy, comrade, friend" ; ! no. 1361
 rádje:rádje N_EVEN "natural border" ; ! no. 2798
@@ -914,7 +915,6 @@ ráhpatjålbme:ráhpa#tjålbme N_EVEN "early ice melt in a sound" ; ! no. 4327
 rádje+Use/NG:rájje N_EVEN "natural border" ; ! no. 91001
 rájjge:rájjge N_EVEN "hole" ; ! no. 5071
 rájnas+A+Der/State:rájnasvu^Ohta N_EVEN "purity" ; ! no. 5785
-ráppta:ráppta N_EVEN "edge" ; ! no. 2495
 rárre:rárre N_EVEN "advice, proposal, council" ; ! no. 1384
 rásse:rásse N_EVEN "rush, hurry" ; ! no. 91155
 rássjodállke:rássjo#dállke N_EVEN "rainy weather" ; ! no. 6240
@@ -1017,7 +1017,7 @@ sillbakruähkke:sillba#kru^Ohkke N_EVEN "silver eyelet" ; ! no. 1544
 sillbamusea:sillba#musea N_EVEN "the Silver Museum" ; ! no. 1545
 sillbaavve+Use/NG:sillb#avve N_EVEN "silver belt" ; ! no. 91035
 sillbagåhkkå+Use/NG:sillb#gåhkkå N_EVEN "silver collar on a Saami frock" ; ! no. 91033
-sillda:sillda N_EVEN "herring" ; ! no. 1546
+silldá:silldá N_EVEN "herring" ; ! no. 1546
 sillki:sillki N_EVEN "silk" ; ! no. 91342
 sinnti:sinnti N_EVEN "late" ; ! no. 91340
 sirre:sirre N_EVEN "cheese rack " ; ! no. 3436
@@ -1333,7 +1333,7 @@ vanashuvvsa:vanas#huvvsa N_EVEN "boat house" ; ! no. 2621
 varra:varra N_EVEN "human blood" ; ! no. 2084
 varradávvda:varra#dávvda N_EVEN "blood disease" ; ! no. 6543
 varravádne:varra#vádne N_EVEN "shortage of blood, low blood count" ; ! no. 2085
-vassjalis+A+Der/State:vassjalisvu^Ohta N_EVEN "activity" ; ! no. 3082
+vassjalis+A+Der/State:vassjalisvu^Ohta N_EVEN "industriousness, diligence" ; ! no. 3082
 vassje:vassje N_EVEN "hate, disgust" ; ! no. 5915
 vavvle:vavvle N_EVEN "deep trench in a lake or creek" ; ! no. 2101
 várálatj+A+Der/State+Use/NG:vádálatjvu^Ohta N_EVEN "danger" ; ! no. 90482
