@@ -191,689 +191,6 @@
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-sje/blob/main/../src/cg3/disambiguator.cg3)</small>
-# Pite Saami Nouns
-
- * **LEXICON Noun   ** is the main lexicon
-
-## Lexc inflectional classes (Mini-grammar)
-
-* Even-syllable stem patterns: 
-- N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
-- N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
-- N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
-- N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
-* Odd-syllable stem patterns:  
-- N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
-- N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
-- N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
-- N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
-* Contracted stem patterns: 
-- N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
-- N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
-- N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
-- N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/nouns.lexc)</small>
-# File containing abbreviations
-
-
-Lexica for adding tags and periods
-
-Splitting in 3 groups, because of the preprocessor
-
- * **LEXICON Abbreviation   **
-
-
-
-
-
-
- * **LEXICON trab-ab-noun   **
- * **LEXICON trab-ab-adj   **
- * **LEXICON trab-ab-adv   **
- * **LEXICON trab-ab-verb   **
- * **LEXICON trab-ab-num   **
- * **LEXICON trab-ab-cc   **
-
-
- * **LEXICON itrab-ab-noun   **
- * **LEXICON itrab-ab-adj   **
- * **LEXICON itrab-ab-adv   **
- * **LEXICON itrab-ab-num   **
-
-
- * **LEXICON trnumab-ab-noun   **
- * **LEXICON trnumab-ab-adj   **
-
-
-
-
-
- * **LEXICON ab-nodot-noun   **   The bulk
-Here come POS and Case tags, and no period.
-
- * **LEXICON ab-nodot-adj   **
-
- * **LEXICON ab-nodot-adv   **
-
- * **LEXICON ab-nodot-num   **
-
- * **LEXICON ab-nodot-cc   **
-
-
-
-
-
- * **LEXICON ab-nodot-verb   **
-
-
-
-
-
-
-
-## Intransitive abbreviations 
-
- * **LEXICON ITRAB   **
-
-
-
-
-
-
- * **LEXICON TRNUMAB   **
-
-
-
-
-
-
-## Transitive abbreviations 
-
- * **LEXICON TRAB   **
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/abbreviations.lexc)</small>
-
-# Conjunctions
-
- * **LEXICON CC   ** gives +CC
-
- * **LEXICON Conjunction   ** is the list.
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/conjunctions.lexc)</small>
-Adverbs
-
- * **LEXICON adv   ** adds the tag +Adv
-
- * **LEXICON Adverb   ** is the list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adverbs.lexc)</small>
-# Pite Saami Adjectives
-
- * **LEXICON Adjective   ** is the main lexicon
-
-## Lexc inflectional classes (Mini-grammar)
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adjectives.lexc)</small>
-# Pite Saami Verbs
-
- * **LEXICON Verb   ** is the main lexicon
-
-## Lexc inflectional classes (Mini-grammar)
-
-
-* V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
-* V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
-* V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
-* V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
-
-
-* V_ODD: odd-syllable stems (e.g. ságastit)
-
-
-* V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
-
-
- * lä: LE "copula/auxiliary verb" ;  
- * ij: IJ "negation verb" ;  
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/verbs.lexc)</small>
-# Pite Saami numerals 
-
-
-
- * **LEXICON Numeral					   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/numerals.lexc)</small>
-Pronouns
-
-
- * **LEXICON Pronoun   **
-
-
-
-
- * **LEXICON Personal   **
-
- * **LEXICON perssg   **
-
- * **LEXICON persdu   **
-
- * **LEXICON perspl   **
-
-
-
- * **LEXICON Demonstrative   **
-
-
-
-
-
-
-
-
- * **LEXICON Determiner   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Relative   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Interrogative   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Indefinita   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Reflexive   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON gallacase   **
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/pronouns.lexc)</small>
-# Adpositions
-
-
-
- * **LEXICON Postposition   ** is the list
-
-
-
-
- * **LEXICON PrePostposition   ** is the list
-
-
-
-
- * **LEXICON PostP   **  adds the tag +Po
-
-
- * **LEXICON PrePost   **  adds the tags +Po and +Pr
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adpositions.lexc)</small>
-# Pite Saami ProperNouns
-
-Propernouns
-
- * **LEXICON ProperNoun   **
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/sje-propernouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/sje-propernouns.lexc)</small>
-# Pite Sámi TWOLC file
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
-
-
-
- * **%^WG:0**:  weak grade
- * **%^G3:0**:  marks grade three for stems w/o Cgrad
- * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
-   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
- * **%^CDEL:0**:  delete final consonant odd (biednag)
- * **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
- * **%^MON:0**:  Monophthong in contracted stems
- * **%^UAUML:0**:  uo to uä juolge / juällge
- * **%^IEUML:0**:  ie to ä, gielbar / gällbara
-   %^IUML:0    * a to i, gallgat gillgin
-   %^IJ:0      * e to i in front of Plural j and Sg Com
-   %^MONB4J:0  * what is this?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Rules
-
-
-
-## Consonant gradation rules
-
-**Consonant Gradation for htt(j|s):ht(j|s)**  
-
-**Consonant Gradation for hxx:hx**  
-
-**Consonant Gradation for xdn(j):xn(j)**  
-
-
-
-
-
-
-**Consonant Gradation for xx:x**  
-
-
-**Consonant Gradation for xxy:xy**  
-
-
-
-
-
-**Consonant Gradation for xxt(j|s):xt(j|s) **  
-
-**Consonant Gradation for xxsj:xsj **  
-
-
-**Consonant Gradation for xy:y**  
-
-**Delete h in hx:y **  
-
-**Intervocalic voiced plosives in hx:y **  
-
-**Consonant Gradation for l/jbm:l/jm **  
-
-**Consonant Gradation for nnjg:njg **  
-
-**Consonant Gradation for vgŋ:vŋ **  
-
-**Consonant Gradation for rdj:rj **  
-
-
-## Other consonant rules 
-
-**Final C Deletion**  
-
-
-
-**Final devoicing**  
-
-
-**Word Final Simplification in -st **  
-
-
-**Word-final De-Affricatization for tj  **  
-
-
-
-
-## Vowel rules 
-
-###  metaphony
-
-**Default VH **  
-
-**Default VH for 4syllables **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Default UA in G3 **  
-
-* *lu^Oddan^UAUMLi%>t*
-* *luaddan0i0t*
-
-**Special UÄ (VH) in G3 **  
-
-* *gu^Odde^G3%>t*
-* *guädde00t*
-
-* *gu^Odde^G3%>t*
-* *guädde00t*
-
-
-
-**Special VH for u^O **  
-
-**Special VH for ie **  
-
-* *sjievdnje^IJ%>s*
-* *sj0evdnji00s*
-
-* *hierrge^WG^IJ%>j*
-* *h0er0gi000j*
-
-* *hierrge%>j^V2E2AA*
-* *h0ärrgá0j0*
-
-
-**Ä in G3 **  
-
-**Ä in G3 capitalized **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-**V2 E to I before j-suffixes **  
-
-**V2 E to Á **  
-
-* *båhte^WG%>v^V2E2AA*
-* *bå0dá00v0*
-* *båhte^WG%>^V2E2AA*
-* *bå0dá000*
-* *máhtte^WG%>v^V2E2AA*
-* *máht0á00v0*
-* *máhtte^WG%>^V2E2AA*
-* *máht0á000*
-
-
-**V2 E to Á before S or R **  
-
-**V2 O to U **  
-
-
-**Final V Deletion **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *a*
-* *b*
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
@@ -893,396 +210,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/compounding.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/compounding.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/symbols.lexc)</small>
-
-# Adjectives !
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Här är lexikon för adjektivsböjning.
-Först jämnstaviga, så uddastaviga, och sen kontrakta.
-Efteråt kommer morfologin, som också spiller över i nouns.lexc.
-
-
-
-
-
- * LEXICON A_EVEN_IES  
-
- * LEXICON A_EVEN_B  
-
-
- * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
-
-
-
- * LEXICON A_EVEN_0  cs
-
-
-
-
- * LEXICON A_EVEN_NOCG_S  ex. jasska, állke
-
-
- * LEXICON A_EVEN  
-
- * LEXICON A_EVEN_NOCG  
-
-
-
- * LEXICON COMPSUP  
-
-
- * LEXICON COMPSUP_A  
-
-
- * LEXICON COMPSUP_B  
-
-
-
-
-
- * LEXICON A_ODD  är uddastaviga
-
- * LEXICON A_ODD_GIS  är uddastaviga ex.bavrek:bavreg- d
-
-
-
-
- * LEXICON A_ODD_SIS   är uddastaviga ex aset:ased-
-
-
-
- * LEXICON A_ODD_AA   är uddastaviga ex suddes.suddás-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
-
-
-
- * LEXICON A_ODD_Y   är uddastaviga ex tjuavvgat:tjuavvgad-/tjuvvgis
-
-
- * LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
-
- * LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
-
-
-
- * LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
-
-
-
-
-
-
-
- * LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
-
- * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
-
-
-
-
- * LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
-
- * LEXICON A_EVEN_KONTR_D , exempel låmmsje:låmmsjá/låmmsjes (attr)
-
- * LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/adjectives.lexc)</small>
-
-
-
-
-
-
-
-# Even syllabled verbs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Odd syllabled verbs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# contracted verbs
-
-
-
-
-
-
-
-
-
-
-
-# Auxiliaries
-
- * LEXICON LE  
-
- * LEXICON LEPRS  
-
- * LEXICON LEPRT  
-
-
-
-
- * LEXICON IJ  
-
-
- * LEXICON IJPRS  
- * +Sg1:iv    K ;   
-
- * LEXICON IJPRT  
- * +Sg1:idtjiv    K ;   
-
-
- * LEXICON IJIMP  
- * +Sg2:iele  K ;  
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/verbs.lexc)</small>
 # Pite Sámi morphological analyser
 
 This file contains the tags and reference to main lexica
@@ -1544,6 +471,1079 @@ with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/root.lexc)</small>
+# Pite Sámi TWOLC file
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
+
+
+
+ * **%^WG:0**:  weak grade
+ * **%^G3:0**:  marks grade three for stems w/o Cgrad
+ * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+ * **%^CDEL:0**:  delete final consonant odd (biednag)
+ * **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
+ * **%^MON:0**:  Monophthong in contracted stems
+ * **%^UAUML:0**:  uo to uä juolge / juällge
+ * **%^IEUML:0**:  ie to ä, gielbar / gällbara
+   %^IUML:0    * a to i, gallgat gillgin
+   %^IJ:0      * e to i in front of Plural j and Sg Com
+   %^MONB4J:0  * what is this?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Rules
+
+
+
+## Consonant gradation rules
+
+**Consonant Gradation for htt(j|s):ht(j|s)**  
+
+**Consonant Gradation for hxx:hx**  
+
+**Consonant Gradation for xdn(j):xn(j)**  
+
+
+
+
+
+
+**Consonant Gradation for xx:x**  
+
+
+**Consonant Gradation for xxy:xy**  
+
+
+
+
+
+**Consonant Gradation for xxt(j|s):xt(j|s) **  
+
+**Consonant Gradation for xxsj:xsj **  
+
+
+**Consonant Gradation for xy:y**  
+
+**Delete h in hx:y **  
+
+**Intervocalic voiced plosives in hx:y **  
+
+**Consonant Gradation for l/jbm:l/jm **  
+
+**Consonant Gradation for nnjg:njg **  
+
+**Consonant Gradation for vgŋ:vŋ **  
+
+**Consonant Gradation for rdj:rj **  
+
+
+## Other consonant rules 
+
+**Final C Deletion**  
+
+
+
+**Final devoicing**  
+
+
+**Word Final Simplification in -st **  
+
+
+**Word-final De-Affricatization for tj  **  
+
+
+
+
+## Vowel rules 
+
+###  metaphony
+
+**Default VH **  
+
+**Default VH for 4syllables **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Default UA in G3 **  
+
+* *lu^Oddan^UAUMLi%>t*
+* *luaddan0i0t*
+
+**Special UÄ (VH) in G3 **  
+
+* *gu^Odde^G3%>t*
+* *guädde00t*
+
+* *gu^Odde^G3%>t*
+* *guädde00t*
+
+
+
+**Special VH for u^O **  
+
+**Special VH for ie **  
+
+* *sjievdnje^IJ%>s*
+* *sj0evdnji00s*
+
+* *hierrge^WG^IJ%>j*
+* *h0er0gi000j*
+
+* *hierrge%>j^V2E2AA*
+* *h0ärrgá0j0*
+
+
+**Ä in G3 **  
+
+**Ä in G3 capitalized **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+**V2 E to I before j-suffixes **  
+
+**V2 E to Á **  
+
+* *båhte^WG%>v^V2E2AA*
+* *bå0dá00v0*
+* *båhte^WG%>^V2E2AA*
+* *bå0dá000*
+* *máhtte^WG%>v^V2E2AA*
+* *máht0á00v0*
+* *máhtte^WG%>^V2E2AA*
+* *máht0á000*
+
+
+**V2 E to Á before S or R **  
+
+**V2 O to U **  
+
+
+**Final V Deletion **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *a*
+* *b*
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/phonology.twolc)</small>
+
+
+
+
+
+
+
+# Even syllabled verbs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Odd syllabled verbs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# contracted verbs
+
+
+
+
+
+
+
+
+
+
+
+# Auxiliaries
+
+ * LEXICON LE  
+
+ * LEXICON LEPRS  
+
+ * LEXICON LEPRT  
+
+
+
+
+ * LEXICON IJ  
+
+
+ * LEXICON IJPRS  
+ * +Sg1:iv    K ;   
+
+ * LEXICON IJPRT  
+ * +Sg1:idtjiv    K ;   
+
+
+ * LEXICON IJIMP  
+ * +Sg2:iele  K ;  
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+# Adjectives !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Här är lexikon för adjektivsböjning.
+Först jämnstaviga, så uddastaviga, och sen kontrakta.
+Efteråt kommer morfologin, som också spiller över i nouns.lexc.
+
+
+
+
+
+ * LEXICON A_EVEN_IES  
+
+ * LEXICON A_EVEN_B  
+
+
+ * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
+
+
+
+ * LEXICON A_EVEN_0  cs
+
+
+
+
+ * LEXICON A_EVEN_NOCG_S  ex. jasska, állke
+
+
+ * LEXICON A_EVEN  
+
+ * LEXICON A_EVEN_NOCG  
+
+
+
+ * LEXICON COMPSUP  
+
+
+ * LEXICON COMPSUP_A  
+
+
+ * LEXICON COMPSUP_B  
+
+
+
+
+
+ * LEXICON A_ODD  är uddastaviga
+
+ * LEXICON A_ODD_GIS  är uddastaviga ex.bavrek:bavreg- d
+
+
+
+
+ * LEXICON A_ODD_SIS   är uddastaviga ex aset:ased-
+
+
+
+ * LEXICON A_ODD_AA   är uddastaviga ex suddes.suddás-
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
+
+
+
+ * LEXICON A_ODD_Y   är uddastaviga ex tjuavvgat:tjuavvgad-/tjuvvgis
+
+
+ * LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
+
+ * LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
+
+
+
+ * LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
+
+
+
+
+
+
+
+ * LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
+
+ * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
+
+
+
+
+ * LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
+
+ * LEXICON A_EVEN_KONTR_D , exempel låmmsje:låmmsjá/låmmsjes (attr)
+
+ * LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/symbols.lexc)</small>
+# Adpositions
+
+
+
+ * **LEXICON Postposition   ** is the list
+
+
+
+
+ * **LEXICON PrePostposition   ** is the list
+
+
+
+
+ * **LEXICON PostP   **  adds the tag +Po
+
+
+ * **LEXICON PrePost   **  adds the tags +Po and +Pr
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adpositions.lexc)</small>
+# Pite Saami Nouns
+
+ * **LEXICON Noun   ** is the main lexicon
+
+## Lexc inflectional classes (Mini-grammar)
+
+* Even-syllable stem patterns: 
+- N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
+- N_EVEN_O: bisyllabic stems ending in -o- (e.g. iello)
+- N_EVEN4: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -k/-g-, -tj- (e.g. mánnodak, såbmelatj)
+- N_EVEN4_ISA: tetrasyllabic stems (trisyllabic in Nom.Sg) ending in -is/-as- (e.g. guoksagis)
+* Odd-syllable stem patterns:  
+- N_ODD: odd-syllable stems ending in a closed syllable and without consonant gradation (e.g. almatj) 
+- N_ODD_OPEN: odd-syllable stems ending in an open syllable (e.g. biena) 
+- N_ODD_VH: odd-syllable stems ending in a closed syllable and with vowel harmony (e.g. ålol) 
+- N_ODD_WG: odd-syllable stems ending in a closed syllable (e.g. vanas)
+* Contracted stem patterns: 
+- N_CONTR_AJA: contracted stems ending in -aj or -a (e.g. ålmaj) 
+- N_CONTR_ESA: contracted stems ending in -es or -á (e.g. sarves) 
+- N_CONTR_OJU: contracted stems ending in -oj or -u (e.g. båtsoj) 
+- N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/nouns.lexc)</small>
+# Pite Saami Verbs
+
+ * **LEXICON Verb   ** is the main lexicon
+
+## Lexc inflectional classes (Mini-grammar)
+
+
+* V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
+* V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
+* V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
+* V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
+
+
+* V_ODD: odd-syllable stems (e.g. ságastit)
+
+
+* V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
+
+
+ * lä: LE "copula/auxiliary verb" ;  
+ * ij: IJ "negation verb" ;  
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/verbs.lexc)</small>
+Adverbs
+
+ * **LEXICON adv   ** adds the tag +Adv
+
+ * **LEXICON Adverb   ** is the list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adverbs.lexc)</small>
+# Pite Saami ProperNouns
+
+Propernouns
+
+ * **LEXICON ProperNoun   **
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/sje-propernouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/sje-propernouns.lexc)</small>
+# File containing abbreviations
+
+
+Lexica for adding tags and periods
+
+Splitting in 3 groups, because of the preprocessor
+
+ * **LEXICON Abbreviation   **
+
+
+
+
+
+
+ * **LEXICON trab-ab-noun   **
+ * **LEXICON trab-ab-adj   **
+ * **LEXICON trab-ab-adv   **
+ * **LEXICON trab-ab-verb   **
+ * **LEXICON trab-ab-num   **
+ * **LEXICON trab-ab-cc   **
+
+
+ * **LEXICON itrab-ab-noun   **
+ * **LEXICON itrab-ab-adj   **
+ * **LEXICON itrab-ab-adv   **
+ * **LEXICON itrab-ab-num   **
+
+
+ * **LEXICON trnumab-ab-noun   **
+ * **LEXICON trnumab-ab-adj   **
+
+
+
+
+
+ * **LEXICON ab-nodot-noun   **   The bulk
+Here come POS and Case tags, and no period.
+
+ * **LEXICON ab-nodot-adj   **
+
+ * **LEXICON ab-nodot-adv   **
+
+ * **LEXICON ab-nodot-num   **
+
+ * **LEXICON ab-nodot-cc   **
+
+
+
+
+
+ * **LEXICON ab-nodot-verb   **
+
+
+
+
+
+
+
+## Intransitive abbreviations 
+
+ * **LEXICON ITRAB   **
+
+
+
+
+
+
+ * **LEXICON TRNUMAB   **
+
+
+
+
+
+
+## Transitive abbreviations 
+
+ * **LEXICON TRAB   **
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/abbreviations.lexc)</small>
+
+# Conjunctions
+
+ * **LEXICON CC   ** gives +CC
+
+ * **LEXICON Conjunction   ** is the list.
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+# Pite Saami numerals 
+
+
+
+ * **LEXICON Numeral					   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/numerals.lexc)</small>
+# Pite Saami Adjectives
+
+ * **LEXICON Adjective   ** is the main lexicon
+
+## Lexc inflectional classes (Mini-grammar)
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adjectives.lexc)</small>
+Pronouns
+
+
+ * **LEXICON Pronoun   **
+
+
+
+
+ * **LEXICON Personal   **
+
+ * **LEXICON perssg   **
+
+ * **LEXICON persdu   **
+
+ * **LEXICON perspl   **
+
+
+
+ * **LEXICON Demonstrative   **
+
+
+
+
+
+
+
+
+ * **LEXICON Determiner   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Relative   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Interrogative   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Indefinita   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Reflexive   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON gallacase   **
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/pronouns.lexc)</small>
 
 
 We describe here how abbreviations are in Pite Sami are read out, e.g.
