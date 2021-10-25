@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-10-25T08:42:20+02:00
+! Generated at: 2021-10-25T15:13:26+03:00
 
 !! # Pite Saami Verbs
 
@@ -1612,8 +1612,8 @@ snulkudit:snulkud2 V_ODD "peek briefly" ; ! no. 1700
 snuridit:snurid2 V_ODD "snore loudly" ; ! no. 90351
 sparralit:sparral V_ODD "chase away, disperse reindeer" ; ! no. 2970
 spánastit:spánast V_ODD "stretch out leather (from reindeer legs) with a splint" ; ! no. 1713
+spedtjudit:spedtjud2 V_ODD "clap one’s hands, applaud" ; ! no. 3871
 spehkudit:spehkud2 V_ODD "clap" ; ! no. 1719
-spetjudit:spetjud2 V_ODD "clap one’s hands, applaud" ; ! no. 3871
 stávadit:stávad2 V_ODD "spell" ; ! no. 90662
 stiempaldit:stiempald2 V_ODD "stamp" ; ! no. 6571
 stimpaldit:stimpald2 V_ODD "stagger, be out of balance" ; ! no. 4003
