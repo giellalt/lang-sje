@@ -86,7 +86,7 @@ LEXICON Demonstrative   !!= * **@CODE@**
 dat+Pron+Dem+Sg+Nom:dat # ;
 dat+Pron+Dem+Sg+Nom+Use/NG:dahta # ;
 dat+Pron+Dem+Sg+Acc:dav # ;
-dat+Pron+Dem+Sg+Acc+Use/NG:dava # ; !long form when isolated
+dat+Pron+Dem+Sg+Acc+Use/NG:davva # ; !long form when isolated
 dat+Pron+Dem+Sg+Gen:dan # ;
 dat+Pron+Dem+Sg+Ill:dasa # ;
 dat+Pron+Dem+Sg+Ill+Use/NG:disi # ;
@@ -109,7 +109,7 @@ dat+Pron+Dem+Pl+Com:daj # ;
 dát+Pron+Dem+Sg+Nom:dát # ;
 dát+Pron+Dem+Sg+Nom+Use/NG:dáhta # ;
 dát+Pron+Dem+Sg+Acc:dáv # ;
-dát+Pron+Dem+Sg+Acc+Use/NG:dáva # ; !long form when isolated
+dát+Pron+Dem+Sg+Acc+Use/NG:dávva # ; !long form when isolated
 dát+Pron+Dem+Sg+Gen:dán # ;
 dát+Pron+Dem+Sg+Ill:dása # ;
 dát+Pron+Dem+Sg+Ill+Use/NG:däsi # ;
@@ -394,7 +394,7 @@ gie+Pron+Interr+Pl+Com:giej # ;
 !mij predikativ ställning
 mij+Pron+Interr+Sg+Nom:mij # ;
 mij+Pron+Interr+Sg+Acc:mav # ;
-mij+Pron+Interr+Sg+Acc+Use/NG:mava # ; !long form when isolated
+mij+Pron+Interr+Sg+Acc+Use/NG:mava # ; !long form when isolated !not even mavva
 mij+Pron+Interr+Sg+Gen:man # ;
 mij+Pron+Interr+Sg+Ill:masa # ;
 mij+Pron+Interr+Sg+Ine:manne # ;

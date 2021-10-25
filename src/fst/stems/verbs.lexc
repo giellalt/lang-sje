@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-10-22T12:35:21+02:00
+! Generated at: 2021-10-25T08:42:20+02:00
 
 !! # Pite Saami Verbs
 
@@ -209,6 +209,7 @@ skellbit:skellbi V_CONTR "shake" ; ! no. 1623
 skihppát:skihppá V_CONTR "become sick" ; ! no. 5129
 skinit:skini V_CONTR "understand" ; ! no. 1625
 skrehpput:skrehppu V_CONTR "brag, boast" ; ! no. 1645
+skrihkkit:skrihkki V_CONTR "ice skate" ; ! no. 91414
 skruvvit:skruvvi V_CONTR "screw" ; ! no. 4655
 skullit:skulli V_CONTR "rinse out (a bottle)" ; ! no. 1646
 skurrját:skurrjá V_CONTR "snoop around" ; ! no. 4496
