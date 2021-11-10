@@ -32,7 +32,7 @@ lemmas=./filtered-${POS}.txt
 # Result files, will get filename suffix programmatically further down:
 comp_lemmas=./filtered-comp-${POS}
 hycomp_lemmas=./filtered-hycomp-${POS}
-all_lemmas=./all-${POS}
+all_lemmas=./filtered-all-${POS}
 generated_lemmas=./generated-${POS}
 result_file=missing_${POS}_lemmas
 gen_result_file=generated_missing_${POS}_lemmas
@@ -67,7 +67,7 @@ EXTEDITOR=@SEE@
 ##### --exclude "(pattern1|pattern2|...)"                          #####
 # Extract regular nouns:
 @GTCORE@/scripts/extract-lemmas.sh \
-    --exclude "(CmpN/Only|ShCmp|RCmpnd| Rreal | R | Rnoun |RHyph|Der/State)" \
+    --exclude "(CmpN/Only|ShCmp|RCmpnd| Rreal | R | Rnoun |RHyph|Der/State|Der/NomAg)" \
     $source_file > $lemmas
 
 # Extract compounding lemmas:
