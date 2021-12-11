@@ -394,7 +394,7 @@ LEXICON A_KUORA_s2
 
 LEXICON A_VAASSE ! vásse, färrta, jåhteje (only ATTR, no PRED-forms!)
 +A+Attr:%> # ;
-!not sure about Comp/Superl
+!not sure about Comp/Superl !árra -> árajmus
 
 
 LEXICON A_UMASSE ! umas/umas'se/umasse 'all kinds of' 

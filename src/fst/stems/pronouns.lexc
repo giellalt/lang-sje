@@ -260,7 +260,7 @@ mij+Pron+Rel+Sg+Ess:manen # ;
 mij+Pron+Rel+Pl+Nom:ma # ;
 mij+Pron+Rel+Pl+Acc:majt # ;
 mij+Pron+Rel+Pl+Acc+Use/NG:majd # ;
-mij+Pron+Rel+Pl+Acc+Use/NG:mejd # ; 
+mij+Pron+Rel+Pl+Acc+Use/NG:mejt # ; 
 mij+Pron+Rel+Pl+Acc+Use/NG:majde # ;
 mij+Pron+Rel+Pl+Gen:maj # ;
 mij+Pron+Rel+Pl+Ill:majda # ;
@@ -412,44 +412,45 @@ mij+Pron+Interr+Pl+Ela:majste # ;
 mij+Pron+Interr+Pl+Ela:majjste # ; ! kanskje
 mij+Pron+Interr+Pl+Com:maj # ;
 
-!gie attributiv ställning
-gie+Pron+Interr+Sg+Nom:gie # ;
-gie+Pron+Interr+Sg+Acc:gudi # ;
-gie+Pron+Interr+Sg+Gen:gien # ;
-gie+Pron+Interr+Sg+Ill:gien # ;
-gie+Pron+Interr+Sg+Ine:gudin # ;
-gie+Pron+Interr+Sg+Ela:gudit # ;
-gie+Pron+Interr+Sg+Com:gudijn # ;
-gie+Pron+Interr+Sg+Ess:guhtin # ;
-
-gie+Pron+Interr+Pl+Nom:gie # ;
-gie+Pron+Interr+Pl+Acc:gudijt # ;
-gie+Pron+Interr+Pl+Acc+Use/NG:gudijd # ;
-gie+Pron+Interr+Pl+Gen:gudij # ;
-gie+Pron+Interr+Pl+Ill:gudijda # ;
-gie+Pron+Interr+Pl+Ine:gudijn # ;
-gie+Pron+Interr+Pl+Ela:gudijst # ;
-gie+Pron+Interr+Pl+Com:gudij # ;
-
-!mij attributiv ställning
-mij+Pron+Interr+Sg+Nom:mij # ;
-mij+Pron+Interr+Sg+Acc:mav # ;
-mij+Pron+Interr+Sg+Gen:man # ;
-mij+Pron+Interr+Sg+Ill:man # ;
-mij+Pron+Interr+Sg+Ine:man # ;
-mij+Pron+Interr+Sg+Ela:mat # ;
-mij+Pron+Interr+Sg+Com:majna # ;
-mij+Pron+Interr+Sg+Ess:manen # ;
-
-mij+Pron+Interr+Pl+Nom:ma # ;
-mij+Pron+Interr+Pl+Acc:majt # ;
-mij+Pron+Interr+Pl+Acc+Use/NG:majd # ;
-mij+Pron+Interr+Pl+Gen:maj # ;
-mij+Pron+Interr+Pl+Ill:majda # ;
-mij+Pron+Interr+Pl+Ine:majn # ;
-mij+Pron+Interr+Pl+Ine:majdne # ;
-mij+Pron+Interr+Pl+Ela:majste # ;
-mij+Pron+Interr+Pl+Com:maj # ;
+!!nothing actually differentiates the following set of ATTR for gie and mij from the PRED set above, so I'm commenting it out until there is a reason to keep it (plus it needs different tags)
+!!gie attributiv ställning
+!gie+Pron+Interr+Sg+Nom:gie # ;
+!gie+Pron+Interr+Sg+Acc:gudi # ;
+!gie+Pron+Interr+Sg+Gen:gien # ;
+!gie+Pron+Interr+Sg+Ill:gien # ;
+!gie+Pron+Interr+Sg+Ine:gudin # ;
+!gie+Pron+Interr+Sg+Ela:gudit # ;
+!gie+Pron+Interr+Sg+Com:gudijn # ;
+!gie+Pron+Interr+Sg+Ess:guhtin # ;
+!
+!gie+Pron+Interr+Pl+Nom:gie # ;
+!gie+Pron+Interr+Pl+Acc:gudijt # ;
+!gie+Pron+Interr+Pl+Acc+Use/NG:gudijd # ;
+!gie+Pron+Interr+Pl+Gen:gudij # ;
+!gie+Pron+Interr+Pl+Ill:gudijda # ;
+!gie+Pron+Interr+Pl+Ine:gudijn # ;
+!gie+Pron+Interr+Pl+Ela:gudijst # ;
+!gie+Pron+Interr+Pl+Com:gudij # ;
+!
+!!mij attributiv ställning
+!mij+Pron+Interr+Sg+Nom:mij # ;
+!mij+Pron+Interr+Sg+Acc:mav # ;
+!mij+Pron+Interr+Sg+Gen:man # ;
+!mij+Pron+Interr+Sg+Ill:man # ;
+!mij+Pron+Interr+Sg+Ine:man # ;
+!mij+Pron+Interr+Sg+Ela:mat # ;
+!mij+Pron+Interr+Sg+Com:majna # ;
+!mij+Pron+Interr+Sg+Ess:manen # ;
+!
+!mij+Pron+Interr+Pl+Nom:ma # ;
+!mij+Pron+Interr+Pl+Acc:majt # ;
+!mij+Pron+Interr+Pl+Acc+Use/NG:majd # ;
+!mij+Pron+Interr+Pl+Gen:maj # ;
+!mij+Pron+Interr+Pl+Ill:majda # ;
+!mij+Pron+Interr+Pl+Ine:majn # ;
+!mij+Pron+Interr+Pl+Ine:majdne # ;
+!mij+Pron+Interr+Pl+Ela:majste # ;
+!mij+Pron+Interr+Pl+Com:maj # ;
 
 
 

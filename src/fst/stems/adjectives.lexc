@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-06-02T15:52:13+02:00
+! Generated at: 2021-12-11T17:26:42+02:00
 
 !! # Pite Saami Adjectives
 
@@ -180,6 +180,7 @@ gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
 umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
 unne:un'n A_UNNE "small, little" ; ! no. 90285
+árra:árra A_VAASSE "early" ; ! no. 91417
 färrta:fä2rrta A_VAASSE "every, each and every" ; ! no. 4190
 jåhteje:jåhteje A_VAASSE "mover, a person migrating" ; ! no. 91295
 lihkas:lihkas A_VAASSE "lame, with a limp" ; ! no. 5477
