@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-11-21T19:18:57+02:00
+! Generated at: 2021-12-16T09:43:32+02:00
 
 !! # Pite Saami Nouns
 
@@ -125,6 +125,7 @@ avve:avve N_EVEN "belt" ; ! no. 91037
 állge:állge N_EVEN "amateur, beginner" ; ! no. 3095
 árbeåbme:árbe#åbme N_EVEN "inheritance" ; ! no. 2732
 árrabävvla:árra#bievvla N_EVEN "bare ground early in the season" ; ! no. 6844
+árraidja:árra#idja N_EVEN "nighttime" ; ! no. 91416
 árranásste:árra#násste N_EVEN "morning star" ; ! no. 2995
 árrangärrge:árran#gierrge N_EVEN "stone around a fireplace" ; ! no. 90814
 árransadje:árran#sadje N_EVEN "fire place" ; ! no. 4664
@@ -433,6 +434,7 @@ gávvtja:gávvtja N_EVEN "silver chalice with handles" ; ! no. 6010
 getjukmiesse:getjuk#miesse N_EVEN "unmarked calf" ; ! no. 4902
 gibme:gibme N_EVEN "capercaillie's mating display" ; ! no. 604
 girradállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
+giedtsvuolle:giedts#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
 giehka:giehka N_EVEN "cuckoo" ; ! no. 587
 giehpesdávvda:giehpes#dávvda N_EVEN "lung infection, pulmonary tuberculosis" ; ! no. 609
 giehta:giehta N_EVEN "hand, arm" ; ! no. 589
@@ -451,7 +453,6 @@ giesseájjge:giesse#ájjge N_EVEN "summer time" ; ! no. 4828
 giessebäjjve:giesse#biejjve N_EVEN "summer day" ; ! no. 6713
 giesselåhpe:giesse#låhpe N_EVEN "summer vacation" ; ! no. 5855
 gietjaldahka:gietjaldahka N_EVEN "hinge" ; ! no. 4841
-gietsvuolle:giets#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
 gijjle:gijjle N_EVEN "dowry" ; ! no. 6037
 gijjsá:gijjsá N_EVEN "wooden pannier" ; ! no. 4470
 gillka:gillka N_EVEN "little bell" ; ! no. 631
@@ -2049,7 +2050,7 @@ arram:arram N_ODD "marrowbone" ; ! no. 90202
 ájjtek:ájjteg2 N_ODD "parent" ; ! no. 90964
 álltár:álltár N_ODD "altar" ; ! no. 3799
 árdnas:árdnas N_ODD "eagle" ; ! no. 65
-árrak:árrag2 N_ODD "awake in the morning" ; ! no. 5396
+árrak:árrag2 N_ODD "morning person" ; ! no. 5396
 árran:árran N_ODD "fireplace, fire pit" ; ! no. 68
 árrat:árrad2 N_ODD "morning" ; ! no. 70
 árrbeiednam:árrbe#iednam N_ODD "land with customary law" ; ! no. 6846
