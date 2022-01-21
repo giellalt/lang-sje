@@ -6,50 +6,50 @@ Lexica for adding tags and periods
 
 Splitting in 3 groups, because of the preprocessor
 
- * **LEXICON Abbreviation   **
+* **LEXICON Abbreviation   **
 
 
 
 
 
 
- * **LEXICON trab-ab-noun   **
- * **LEXICON trab-ab-adj   **
- * **LEXICON trab-ab-adv   **
- * **LEXICON trab-ab-verb   **
- * **LEXICON trab-ab-num   **
- * **LEXICON trab-ab-cc   **
+* **LEXICON trab-ab-noun   **
+* **LEXICON trab-ab-adj   **
+* **LEXICON trab-ab-adv   **
+* **LEXICON trab-ab-verb   **
+* **LEXICON trab-ab-num   **
+* **LEXICON trab-ab-cc   **
 
 
- * **LEXICON itrab-ab-noun   **
- * **LEXICON itrab-ab-adj   **
- * **LEXICON itrab-ab-adv   **
- * **LEXICON itrab-ab-num   **
+* **LEXICON itrab-ab-noun   **
+* **LEXICON itrab-ab-adj   **
+* **LEXICON itrab-ab-adv   **
+* **LEXICON itrab-ab-num   **
 
 
- * **LEXICON trnumab-ab-noun   **
- * **LEXICON trnumab-ab-adj   **
+* **LEXICON trnumab-ab-noun   **
+* **LEXICON trnumab-ab-adj   **
 
 
 
 
 
- * **LEXICON ab-nodot-noun   **   The bulk
+* **LEXICON ab-nodot-noun   **   The bulk
 Here come POS and Case tags, and no period.
 
- * **LEXICON ab-nodot-adj   **
+* **LEXICON ab-nodot-adj   **
 
- * **LEXICON ab-nodot-adv   **
+* **LEXICON ab-nodot-adv   **
 
- * **LEXICON ab-nodot-num   **
+* **LEXICON ab-nodot-num   **
 
- * **LEXICON ab-nodot-cc   **
-
-
+* **LEXICON ab-nodot-cc   **
 
 
 
- * **LEXICON ab-nodot-verb   **
+
+
+* **LEXICON ab-nodot-verb   **
 
 
 
@@ -59,14 +59,14 @@ Here come POS and Case tags, and no period.
 
 ## Intransitive abbreviations 
 
- * **LEXICON ITRAB   **
+* **LEXICON ITRAB   **
 
 
 
 
 
 
- * **LEXICON TRNUMAB   **
+* **LEXICON TRNUMAB   **
 
 
 
@@ -75,7 +75,7 @@ Here come POS and Case tags, and no period.
 
 ## Transitive abbreviations 
 
- * **LEXICON TRAB   **
+* **LEXICON TRAB   **
 
 
 

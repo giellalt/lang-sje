@@ -1,9 +1,9 @@
 
 Adverbs
 
- * **LEXICON adv   ** adds the tag +Adv
+* **LEXICON adv   ** adds the tag +Adv
 
- * **LEXICON Adverb   ** is the list
+* **LEXICON Adverb   ** is the list
 
 
 

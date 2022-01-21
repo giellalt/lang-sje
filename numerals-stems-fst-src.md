@@ -3,7 +3,7 @@
 
 
 
- * **LEXICON Numeral					   **
+* **LEXICON Numeral					   **
 
 
 

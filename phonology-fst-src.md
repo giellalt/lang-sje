@@ -4,18 +4,18 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 
 
- * **%^WG:0**:  weak grade
- * **%^G3:0**:  marks grade three for stems w/o Cgrad
- * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
-   %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
- * **%^CDEL:0**:  delete final consonant odd (biednag)
- * **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
- * **%^MON:0**:  Monophthong in contracted stems
- * **%^UAUML:0**:  uo to uä juolge / juällge
- * **%^IEUML:0**:  ie to ä, gielbar / gällbara
-   %^IUML:0    * a to i, gallgat gillgin
-   %^IJ:0      * e to i in front of Plural j and Sg Com
-   %^MONB4J:0  * what is this?
+* **%^WG:0**:  weak grade
+* **%^G3:0**:  marks grade three for stems w/o Cgrad
+* **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
+  %^V2O2U:0  * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+* **%^CDEL:0**:  delete final consonant odd (biednag)
+* **%^VDEL:0**:  delete final V2 vowel in compounds or gájk
+* **%^MON:0**:  Monophthong in contracted stems
+* **%^UAUML:0**:  uo to uä juolge / juällge
+* **%^IEUML:0**:  ie to ä, gielbar / gällbara
+  %^IUML:0    * a to i, gallgat gillgin
+  %^IJ:0      * e to i in front of Plural j and Sg Com
+  %^MONB4J:0  * what is this?
 
 
 

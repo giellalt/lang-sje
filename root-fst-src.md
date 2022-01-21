@@ -3,34 +3,34 @@
 
 This file contains the tags and reference to main lexica
 
- # Multichar_Symbols  definitions
+# Multichar_Symbols  definitions
 
 ## POS
- * +N 	        Noun
- * +V 	        Verb
- * +A	        Adjective
- * +Adv        Adverb
- * +CC	        Coordinating conjuction
- * +CS	        Subordinating conjuction
- * +Interj     Interjection
- * +Pron       Pronoun
- * +Num        Numeral
- * +Pcle       Particle
- * +Po	        Postposition
- * +Pr	        Preposition
+* +N 	        Noun
+* +V 	        Verb
+* +A	        Adjective
+* +Adv        Adverb
+* +CC	        Coordinating conjuction
+* +CS	        Subordinating conjuction
+* +Interj     Interjection
+* +Pron       Pronoun
+* +Num        Numeral
+* +Pcle       Particle
+* +Po	        Postposition
+* +Pr	        Preposition
 
 ## Subclasses
- * +Pers 		   Personal
- * +Dem 		   Demonstrative
- * +Interr 	   Interrogative
- * +Indef 		   Indefinite
- * +Refl 		   Reflexive
- * +Recipr 	   Reciprocal
- * +Rel 		   Relative
- * +NomAg		   Agent noun
- * +Attr		   Attributive
- * +Comp		   Comparative
- * +Superl		   Superlative
+* +Pers 		   Personal
+* +Dem 		   Demonstrative
+* +Interr 	   Interrogative
+* +Indef 		   Indefinite
+* +Refl 		   Reflexive
+* +Recipr 	   Reciprocal
+* +Rel 		   Relative
+* +NomAg		   Agent noun
+* +Attr		   Attributive
+* +Comp		   Comparative
+* +Superl		   Superlative
 
 
 ## Morphosyntactic properties
@@ -38,90 +38,90 @@ This file contains the tags and reference to main lexica
 ### Verbal MSP
 
 Tense-mode
- * +Prs	   	   Present tense
- * +Prt	   	   Preterite (past) tense
- * +Ind	   	   Indicative mood
- * +Imprt	   	   Imperative mood
- * +Pot	   	   Potential mood
+* +Prs	   	   Present tense
+* +Prt	   	   Preterite (past) tense
+* +Ind	   	   Indicative mood
+* +Imprt	   	   Imperative mood
+* +Pot	   	   Potential mood
 
 Person-number
- * +Sg1	   	   First person singular
- * +Sg2	   	   Second person singular
- * +Sg3	   	   Third person singular
- * +Du1	   	   First person dual
- * +Du2	   	   Second person dual
- * +Du3	   	   Third person dual
- * +Pl1	   	   First person plural
- * +Pl2	   	   Second person plural
- * +Pl3	   	   Third person plural
+* +Sg1	   	   First person singular
+* +Sg2	   	   Second person singular
+* +Sg3	   	   Third person singular
+* +Du1	   	   First person dual
+* +Du2	   	   Second person dual
+* +Du3	   	   Third person dual
+* +Pl1	   	   First person plural
+* +Pl2	   	   Second person plural
+* +Pl3	   	   Third person plural
 
 Infinite forms
- * +Inf	   	   Infinitive
- * +Neg	   	   Negation verb
- * +ConNeg	   	   Connegative verb
- * +GerI	   	   Gerund I
- * +GerII	   	   Gerund II
- * +PrfPrc	   	   Perfect participle
- * +PrsPrc	   	   Present participle
- * +VAbess	   	   Verb abessive
- * +Cmp	   	   Compound
- * +TV		   	   Transitive verb
- * +IV		   	   Intransitive verb
+* +Inf	   	   Infinitive
+* +Neg	   	   Negation verb
+* +ConNeg	   	   Connegative verb
+* +GerI	   	   Gerund I
+* +GerII	   	   Gerund II
+* +PrfPrc	   	   Perfect participle
+* +PrsPrc	   	   Present participle
+* +VAbess	   	   Verb abessive
+* +Cmp	   	   Compound
+* +TV		   	   Transitive verb
+* +IV		   	   Intransitive verb
 
 Other tags
- * +ABBR	   	   Abbreviation
- * +Symbol = independent symbols in the text stream, like £, €, ©
- * +Coll	   	   Collocation
- * +Cmp/SgNom 	   Compound component using Nominative Singular form
- * +Cmp/SgGen 	   Compound component using Genitive Singular form
- * +Det	   	   Determiner
+* +ABBR	   	   Abbreviation
+* +Symbol = independent symbols in the text stream, like £, €, ©
+* +Coll	   	   Collocation
+* +Cmp/SgNom 	   Compound component using Nominative Singular form
+* +Cmp/SgGen 	   Compound component using Genitive Singular form
+* +Det	   	   Determiner
 
 Derivation tags
- * +Der/NomAg 	   Derived agent noun
- * +Der/Dimin 	   Derived diminutive
- * +Der/State 	   Derived state noun
+* +Der/NomAg 	   Derived agent noun
+* +Der/Dimin 	   Derived diminutive
+* +Der/State 	   Derived state noun
 
 
 ### Nominal MSP
- * +Sg 	   Singular
- * +Pl 	   Plural
+* +Sg 	   Singular
+* +Pl 	   Plural
 
 ### Case
 
- * +Nom    Nominative
- * +Acc    Accusative
- * +Gen    Genitive
- * +Ill    Illative
- * +Ine    Inessive
- * +Ela    Elative
- * +Com    Comitative
- * +Ess    Essive
- * +Abe    Abessive
- * +Ord    Ordinal
- * +Card   Cardinal
+* +Nom    Nominative
+* +Acc    Accusative
+* +Gen    Genitive
+* +Ill    Illative
+* +Ine    Inessive
+* +Ela    Elative
+* +Com    Comitative
+* +Ess    Essive
+* +Abe    Abessive
+* +Ord    Ordinal
+* +Card   Cardinal
 
 Semantic properties of names
 
 
 Pssessive suffixes
- * +PxSg1     First person singular possessive suffix
- * +PxSg2     Second person singular possessive suffix
- * +PxSg3     Third person singular possessive suffix
- * +PxDu1     First person dual possessive suffix
- * +PxDu2     Second person dual possessive suffix
- * +PxDu3     Third person dual possessive suffix
- * +PxPl1     First person plural possessive suffix
- * +PxPl2     Second person plural possessive suffix
- * +PxPl3     Third person plural possessive suffix
+* +PxSg1     First person singular possessive suffix
+* +PxSg2     Second person singular possessive suffix
+* +PxSg3     Third person singular possessive suffix
+* +PxDu1     First person dual possessive suffix
+* +PxDu2     Second person dual possessive suffix
+* +PxDu3     Third person dual possessive suffix
+* +PxPl1     First person plural possessive suffix
+* +PxPl2     Second person plural possessive suffix
+* +PxPl3     Third person plural possessive suffix
 
 Other tags
- * +Err/Orth      Not part of standard orthography
- * +Use/NG        Found in reality, but not generated
- * +Use/Circ      
- * +Cmp/Hyph      
- * +Cmp/SplitR    
- * +Use/-Spell    
- * +Use/NGminip  
+* +Err/Orth      Not part of standard orthography
+* +Use/NG        Found in reality, but not generated
+* +Use/Circ      
+* +Cmp/Hyph      
+* +Cmp/SplitR    
+* +Use/-Spell    
+* +Use/NGminip  
 
 
 
@@ -139,108 +139,108 @@ Normative/prescriptive compounding tags:
 (to govern compound behaviour for the speller, ie. what a compound SHOULD BE)
 
 The first part of the component may be ..
- * +CmpN/Sg = Singular
- * +CmpN/SgN = Singular Nominative
- * +CmpN/SgG = Singular Genitive
- * +CmpN/PlG = Plural Genitive
+* +CmpN/Sg = Singular
+* +CmpN/SgN = Singular Nominative
+* +CmpN/SgG = Singular Genitive
+* +CmpN/PlG = Plural Genitive
 
- * +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
- * +CmpNP/First - ... only be first part in a compound or alone
- * +CmpNP/Pref - ... only **first** part in a compound, NEVER alone
- * +CmpNP/Last - ... only be last part in a compound or alone
- * +CmpNP/Suff - ... only **last** part in a compound, NEVER alone
- * +CmpNP/None - ... not take part in compounds
- * +CmpNP/Only - ... only be part of a compound, i.e. can never
+* +CmpNP/All - ... be in all positions, **default**, this tag does not have to be written
+* +CmpNP/First - ... only be first part in a compound or alone
+* +CmpNP/Pref - ... only **first** part in a compound, NEVER alone
+* +CmpNP/Last - ... only be last part in a compound or alone
+* +CmpNP/Suff - ... only **last** part in a compound, NEVER alone
+* +CmpNP/None - ... not take part in compounds
+* +CmpNP/Only - ... only be part of a compound, i.e. can never
 be used alone, but can appear in any position
 
- * +CmpN/SgLeft  Singular to the left
- * +CmpN/SgNomLeft  Singular nominative to the left
- * +CmpN/SgGenLeft  Singular genitive to the left
- * +CmpN/PlGenLeft  Plural genitive to the left
+* +CmpN/SgLeft  Singular to the left
+* +CmpN/SgNomLeft  Singular nominative to the left
+* +CmpN/SgGenLeft  Singular genitive to the left
+* +CmpN/PlGenLeft  Plural genitive to the left
 
 
- * **+Cmp/Sg**  Singular
- * **+Cmp/SgNom**  Singular Nominative
- * **+Cmp/SgGen**  Singular Genitive
- * **+Cmp/PlGen**  Plural Genitiv
- * **+Cmp/PlNom**  Plural Nominative
- * **+Cmp/Attr**  Attribute
- * **+Cmp**  Dynamic compound - this tag should always be part of a
+* **+Cmp/Sg**  Singular
+* **+Cmp/SgNom**  Singular Nominative
+* **+Cmp/SgGen**  Singular Genitive
+* **+Cmp/PlGen**  Plural Genitiv
+* **+Cmp/PlNom**  Plural Nominative
+* **+Cmp/Attr**  Attribute
+* **+Cmp**  Dynamic compound - this tag should always be part of a
 dynamic compound.
 It is important for Apertium, and useful in other cases as well.
- * **+Cmp/SplitR**  This is a split compound with the other part to the right:
+* **+Cmp/SplitR**  This is a split compound with the other part to the right:
 "Arbeids- og inkluderingsdepartementet" => Arbeids- = +Cmp/SplitR
- * **+Cmp/SplitL**  This is a split compound with the other part to the left
- * **+Cmp/Sh**  testing ShCmp
+* **+Cmp/SplitL**  This is a split compound with the other part to the left
+* **+Cmp/Sh**  testing ShCmp
 
 
 
 ## Punctuation tags
- * +CLB      Clause boundary
- * +PUNCT    Punctuation
- * +LEFT     
- * +RIGHT    
- * +SENT     
+* +CLB      Clause boundary
+* +PUNCT    Punctuation
+* +LEFT     
+* +RIGHT    
+* +SENT     
 
 
 Morphophonological symbols 
 
 ### Symbols for regulating the twolc file
 
- ^WG       * weak grade
- ^G3       * marks grade three for stems w/o Cgrad
- ^V2E2AA   * e to á (before j), o to u before j in V2
- ^CDEL     * Deleting final consonant, biednag
- ^VDEL     * Deleting final V2 vowel in compounds or gájk
- ^MON      * Monophthong in contract
- ^UAUML    * uo to uä juolge / juällge
- ^IEUML    * ie to ä etc. gielbar gællbara
- ^IUML     * a to i, gallgat gillgin
- ^IJ       * e to i in front of Plural j and Sg Com
- ^V2O2U    * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
- ^MONB4J   * No rules for this one in twolc!
+^WG       * weak grade
+^G3       * marks grade three for stems w/o Cgrad
+^V2E2AA   * e to á (before j), o to u before j in V2
+^CDEL     * Deleting final consonant, biednag
+^VDEL     * Deleting final V2 vowel in compounds or gájk
+^MON      * Monophthong in contract
+^UAUML    * uo to uä juolge / juällge
+^IEUML    * ie to ä etc. gielbar gællbara
+^IUML     * a to i, gallgat gillgin
+^IJ       * e to i in front of Plural j and Sg Com
+^V2O2U    * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
+^MONB4J   * No rules for this one in twolc!
 
 ### Archiphonemes
- i2   * Variable vowel, does not trigger VH
- u2   * Variable vowel, does not trigger VH
- ä2   * Variable vowel, does not undergo (further) VH
- b2 d2 g2 t2 j2   * Variable consonants, undergo final devoicing or other alternations
- ^O        * o but ä in uä
+i2   * Variable vowel, does not trigger VH
+u2   * Variable vowel, does not trigger VH
+ä2   * Variable vowel, does not undergo (further) VH
+b2 d2 g2 t2 j2   * Variable consonants, undergo final devoicing or other alternations
+^O        * o but ä in uä
 
 ```
-  »7       * »
-  «7       * «
-  %[%>%]   * >
-  %[%<%]   * <
+ »7       * »
+ «7       * «
+ %[%>%]   * >
+ %[%<%]   * <
 ```
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@  | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@  | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@  | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- |  @P.CmpFrst.FALSE@  | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@  | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@  | Block these words from making further compounds
- |  @D.CmpLast.TRUE@  | Block such words from entering R
- |  @D.CmpNone.TRUE@  | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@  | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@  | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@  | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@  | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@  | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@  | Block these words from making further compounds
+|  @D.CmpLast.TRUE@  | Block such words from entering R
+|  @D.CmpNone.TRUE@  | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@  | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@  | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@  | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- |  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
 
 
 
@@ -253,7 +253,7 @@ Lexicon Root starts the analyser and directs paths to all POS.
 # Lexicon ENDLEX
 And this is the ENDLEX of everything:
 ```
- @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; 
+@D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; 
 ```
 The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.

@@ -1,7 +1,7 @@
 
 # Pite Saami Verbs
 
- * **LEXICON Verb   ** is the main lexicon
+* **LEXICON Verb   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 
@@ -18,8 +18,8 @@
 * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
 
- * lä: LE "copula/auxiliary verb" ;  
- * ij: IJ "negation verb" ;  
+* lä: LE "copula/auxiliary verb" ;  
+* ij: IJ "negation verb" ;  
 
 
 * * *

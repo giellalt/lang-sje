@@ -145,53 +145,53 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
- * LEXICON A_EVEN_IES  
+* LEXICON A_EVEN_IES  
 
- * LEXICON A_EVEN_B  
+* LEXICON A_EVEN_B  
 
 
- * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
+* LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
 
 
 
- * LEXICON A_EVEN_0  cs
+* LEXICON A_EVEN_0  cs
 
 
 
 
- * LEXICON A_EVEN_NOCG_S  ex. jasska, állke
+* LEXICON A_EVEN_NOCG_S  ex. jasska, állke
 
 
- * LEXICON A_EVEN  
+* LEXICON A_EVEN  
 
- * LEXICON A_EVEN_NOCG  
+* LEXICON A_EVEN_NOCG  
 
 
 
- * LEXICON COMPSUP  
+* LEXICON COMPSUP  
 
 
- * LEXICON COMPSUP_A  
+* LEXICON COMPSUP_A  
 
 
- * LEXICON COMPSUP_B  
+* LEXICON COMPSUP_B  
 
 
 
 
 
- * LEXICON A_ODD  är uddastaviga
+* LEXICON A_ODD  är uddastaviga
 
- * LEXICON A_ODD_GIS  är uddastaviga ex.bavrek:bavreg- d
+* LEXICON A_ODD_GIS  är uddastaviga ex.bavrek:bavreg- d
 
 
 
 
- * LEXICON A_ODD_SIS   är uddastaviga ex aset:ased-
+* LEXICON A_ODD_SIS   är uddastaviga ex aset:ased-
 
 
 
- * LEXICON A_ODD_AA   är uddastaviga ex suddes.suddás-
+* LEXICON A_ODD_AA   är uddastaviga ex suddes.suddás-
 
 
 
@@ -205,20 +205,20 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
- * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
+* LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
 
 
 
- * LEXICON A_ODD_Y   är uddastaviga ex tjuavvgat:tjuavvgad-/tjuvvgis
+* LEXICON A_ODD_Y   är uddastaviga ex tjuavvgat:tjuavvgad-/tjuvvgis
 
 
- * LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
+* LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
 
- * LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
+* LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
 
 
 
- * LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
+* LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
 
 
 
@@ -226,18 +226,18 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 
 
- * LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
+* LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
 
- * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
+* LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
 
 
 
 
- * LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
+* LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
 
- * LEXICON A_EVEN_KONTR_D , exempel låmmsje:låmmsjá/låmmsjes (attr)
+* LEXICON A_EVEN_KONTR_D , exempel låmmsje:låmmsjá/låmmsjes (attr)
 
- * LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
+* LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
 
 
 
