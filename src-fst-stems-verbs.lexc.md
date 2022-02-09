@@ -5,22 +5,21 @@
 
 ## Lexc inflectional classes (Mini-grammar)
 
-
 * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
 * V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
 * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
 * V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
 
-
 * V_ODD: odd-syllable stems (e.g. ságastit)
 
-
 * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
-
 
 * lä: LE "copula/auxiliary verb" ;  
 * ij: IJ "negation verb" ;  
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+

@@ -1,99 +1,14 @@
+# Pite Sami description 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+All documents in one file
 
 
 
 * The set COPULAS is for predicative constructions
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Negation rules
 
 * **ConNeg3** conneg form when neg-verb to the left
-
-
 
 ### Agreement rules for subject NP
 
@@ -105,115 +20,40 @@
 
 ### rule out finite verbforms after infinitive verbform
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Agreement rule for verb triggered by PersPron
 
 ### Agreement rules for verb triggered by full NP
 
-
-
-
-
-
 # Rules for collocations, multiword expressions etc.
-
-
 
 # Mapping rules
 
 ## Mapping CC
 
-
 * **CCasCNPCVP** Map (@CNP @CVP) to CC
-
-
-
-
-
-
 
 ## Mapping verbs
 * **+FMAINVinfv** maps to main verb followed by inf
 
-
-
-
-
-
-
-
-
 ## Add language code
 
+* * *
 
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-sje/blob/main/src/cg3/disambiguator.cg3)</small>
 
-
-
-
-
-
+---
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-sje/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/fst/compounding.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/compounding.lexc)</small>
+
+---
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/compounding.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/compounding.lexc)</small>
 # Pite Sámi TWOLC file
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
-
-
 
 * **%^WG:0**:  weak grade
 * **%^G3:0**:  marks grade three for stems w/o Cgrad
@@ -228,22 +68,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
   %^IJ:0      * e to i in front of Plural j and Sg Com
   %^MONB4J:0  * what is this?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Rules
-
-
 
 ## Consonant gradation rules
 
@@ -253,24 +78,13 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Consonant Gradation for xdn(j):xn(j)**  
 
-
-
-
-
-
 **Consonant Gradation for xx:x**  
 
-
 **Consonant Gradation for xxy:xy**  
-
-
-
-
 
 **Consonant Gradation for xxt(j|s):xt(j|s) **  
 
 **Consonant Gradation for xxsj:xsj **  
-
 
 **Consonant Gradation for xy:y**  
 
@@ -286,23 +100,15 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Consonant Gradation for rdj:rj **  
 
-
 ## Other consonant rules 
 
 **Final C Deletion**  
 
-
-
 **Final devoicing**  
-
 
 **Word Final Simplification in -st **  
 
-
 **Word-final De-Affricatization for tj  **  
-
-
-
 
 ## Vowel rules 
 
@@ -311,19 +117,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 **Default VH **  
 
 **Default VH for 4syllables **  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Default UA in G3 **  
 
@@ -338,8 +131,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 * *gu^Odde^G3%>t*
 * *guädde00t*
 
-
-
 **Special VH for u^O **  
 
 **Special VH for ie **  
@@ -353,22 +144,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 * *hierrge%>j^V2E2AA*
 * *h0ärrgá0j0*
 
-
 **Ä in G3 **  
 
 **Ä in G3 capitalized **  
-
-
-
-
-
-
-
-
-
-
-
-
 
 **V2 E to I before j-suffixes **  
 
@@ -383,35 +161,22 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 * *máhtte^WG%>^V2E2AA*
 * *máht0á000*
 
-
 **V2 E to Á before S or R **  
 
 **V2 O to U **  
 
-
 **Final V Deletion **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * *a*
 * *b*
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
+
 # Pite Saami Nouns
 
 * **LEXICON Noun   ** is the main lexicon
@@ -435,63 +200,45 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 - N_CONTR_OU: contracted stems ending in -o or -u (e.g. suolo)
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+
 # Adpositions
-
-
 
 * **LEXICON Postposition   ** is the list
 
-
-
-
 * **LEXICON PrePostposition   ** is the list
-
-
-
 
 * **LEXICON PostP   **  adds the tag +Po
 
-
 * **LEXICON PrePost   **  adds the tags +Po and +Pr
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adpositions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/adpositions.lexc)</small>
+
+---
+
+
 Adverbs
 
 * **LEXICON adv   ** adds the tag +Adv
 
 * **LEXICON Adverb   ** is the list
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adverbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+
 Pronouns
 
-
 * **LEXICON Pronoun   **
-
-
-
 
 * **LEXICON Personal   **
 
@@ -501,251 +248,38 @@ Pronouns
 
 * **LEXICON perspl   **
 
-
-
 * **LEXICON Demonstrative   **
-
-
-
-
-
-
-
 
 * **LEXICON Determiner   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON Relative   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON Interrogative   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON Indefinita   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON Reflexive   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON gallacase   **
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+
 # Pite Saami numerals 
-
-
 
 * **LEXICON Numeral					   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+
 # Pite Saami ProperNouns
 
 Propernouns
@@ -753,58 +287,57 @@ Propernouns
 * **LEXICON ProperNoun   **
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/sje-propernouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/sje-propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/sje-propernouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/sje-propernouns.lexc)</small>
+
+---
+
+
 # Pite Saami Adjectives
 
 * **LEXICON Adjective   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/adjectives.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+
 # Pite Saami Verbs
 
 * **LEXICON Verb   ** is the main lexicon
 
 ## Lexc inflectional classes (Mini-grammar)
 
-
 * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
 * V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
 * V_EVEN_O: even-syllable stems ending in -o- (e.g. viessot)
 * V_EVEN_Å: even-syllable stems ending in -å- (e.g. bårråt)
 
-
 * V_ODD: odd-syllable stems (e.g. ságastit)
 
-
 * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
-
 
 * lä: LE "copula/auxiliary verb" ;  
 * ij: IJ "negation verb" ;  
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/verbs.lexc)</small>
-# File containing abbreviations
 
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+
+
+# File containing abbreviations
 
 Lexica for adding tags and periods
 
 Splitting in 3 groups, because of the preprocessor
 
 * **LEXICON Abbreviation   **
-
-
-
-
-
 
 * **LEXICON trab-ab-noun   **
 * **LEXICON trab-ab-adj   **
@@ -813,19 +346,13 @@ Splitting in 3 groups, because of the preprocessor
 * **LEXICON trab-ab-num   **
 * **LEXICON trab-ab-cc   **
 
-
 * **LEXICON itrab-ab-noun   **
 * **LEXICON itrab-ab-adj   **
 * **LEXICON itrab-ab-adv   **
 * **LEXICON itrab-ab-num   **
 
-
 * **LEXICON trnumab-ab-noun   **
 * **LEXICON trnumab-ab-adj   **
-
-
-
-
 
 * **LEXICON ab-nodot-noun   **   The bulk
 Here come POS and Case tags, and no period.
@@ -838,49 +365,25 @@ Here come POS and Case tags, and no period.
 
 * **LEXICON ab-nodot-cc   **
 
-
-
-
-
 * **LEXICON ab-nodot-verb   **
-
-
-
-
-
-
 
 ## Intransitive abbreviations 
 
 * **LEXICON ITRAB   **
 
-
-
-
-
-
 * **LEXICON TRNUMAB   **
-
-
-
-
-
 
 ## Transitive abbreviations 
 
 * **LEXICON TRAB   **
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/abbreviations.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/abbreviations.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/abbreviations.lexc)</small>
+
+---
+
+
 
 # Conjunctions
 
@@ -889,240 +392,60 @@ Here come POS and Case tags, and no period.
 * **LEXICON Conjunction   ** is the list.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+
 
 # Adjectives !
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Här är lexikon för adjektivsböjning.
 Först jämnstaviga, så uddastaviga, och sen kontrakta.
 Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
-
-
-
-
 * LEXICON A_EVEN_IES  
 
 * LEXICON A_EVEN_B  
 
-
 * LEXICON A_EVEN_D  ex. almelatj:almelatja, nominativ och attributiv fungerar ej
-
-
 
 * LEXICON A_EVEN_0  cs
 
-
-
-
 * LEXICON A_EVEN_NOCG_S  ex. jasska, állke
-
 
 * LEXICON A_EVEN  
 
 * LEXICON A_EVEN_NOCG  
 
-
-
 * LEXICON COMPSUP  
-
 
 * LEXICON COMPSUP_A  
 
-
 * LEXICON COMPSUP_B  
-
-
-
-
 
 * LEXICON A_ODD  är uddastaviga
 
 * LEXICON A_ODD_GIS  är uddastaviga ex.bavrek:bavreg- d
 
-
-
-
 * LEXICON A_ODD_SIS   är uddastaviga ex aset:ased-
-
-
 
 * LEXICON A_ODD_AA   är uddastaviga ex suddes.suddás-
 
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON A_ODD_S   är uddastaviga ex blávvat:blávvad-/blávvis
 
-
-
 * LEXICON A_ODD_Y   är uddastaviga ex tjuavvgat:tjuavvgad-/tjuvvgis
-
 
 * LEXICON A_ODD_Å   är uddastaviga ex lusjgos:lusjgos-
 
 * LEXICON A_ODD_Ä   är uddastaviga ex stumbu:stumbus-
 
-
-
 * LEXICON A_ODD_DD   är uddastaviga ex gilos:gillus-
-
-
-
-
-
-
 
 * LEXICON A_ODD_ÖÖ   är uddastaviga ex rádes, rádep !kolla compsup
 
 * LEXICON A_ODD_k_K   är uddastaviga ex tjuorak:tjuorag-
-
-
-
 
 * LEXICON A_EVEN_KONTR_C , exempel sjtänntjáj:sjtänntjá
 
@@ -1130,117 +453,19 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 * LEXICON A_EVEN_KONTR_E , exempel mivkes:mivkká-/mivka (attr)
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/adjectives.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/adjectives.lexc)</small>
 
-
-
+---
 
 
 
 # Even syllabled verbs
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Odd syllabled verbs
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # contracted verbs
-
-
-
-
-
-
-
-
-
-
 
 # Auxiliaries
 
@@ -1250,11 +475,7 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 
 * LEXICON LEPRT  
 
-
-
-
 * LEXICON IJ  
-
 
 * LEXICON IJPRS  
 * +Sg1:iv    K ;   
@@ -1262,24 +483,25 @@ Efteråt kommer morfologin, som också spiller över i nouns.lexc.
 * LEXICON IJPRT  
 * +Sg1:idtjiv    K ;   
 
-
 * LEXICON IJIMP  
 * +Sg2:iele  K ;  
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
 # Symbol affixes
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/affixes/symbols.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+
 # Pite Sámi morphological analyser
 
 This file contains the tags and reference to main lexica
@@ -1312,7 +534,6 @@ This file contains the tags and reference to main lexica
 * +Attr		   Attributive
 * +Comp		   Comparative
 * +Superl		   Superlative
-
 
 ## Morphosyntactic properties
 
@@ -1362,7 +583,6 @@ Derivation tags
 * +Der/Dimin 	   Derived diminutive
 * +Der/State 	   Derived state noun
 
-
 ### Nominal MSP
 * +Sg 	   Singular
 * +Pl 	   Plural
@@ -1383,7 +603,6 @@ Derivation tags
 
 Semantic properties of names
 
-
 Pssessive suffixes
 * +PxSg1     First person singular possessive suffix
 * +PxSg2     Second person singular possessive suffix
@@ -1403,8 +622,6 @@ Other tags
 * +Cmp/SplitR    
 * +Use/-Spell    
 * +Use/NGminip  
-
-
 
 ### Compounding tags
 
@@ -1439,7 +656,6 @@ be used alone, but can appear in any position
 * +CmpN/SgGenLeft  Singular genitive to the left
 * +CmpN/PlGenLeft  Plural genitive to the left
 
-
 * **+Cmp/Sg**  Singular
 * **+Cmp/SgNom**  Singular Nominative
 * **+Cmp/SgGen**  Singular Genitive
@@ -1454,15 +670,12 @@ It is important for Apertium, and useful in other cases as well.
 * **+Cmp/SplitL**  This is a split compound with the other part to the left
 * **+Cmp/Sh**  testing ShCmp
 
-
-
 ## Punctuation tags
 * +CLB      Clause boundary
 * +PUNCT    Punctuation
 * +LEFT     
 * +RIGHT    
 * +SENT     
-
 
 Morphophonological symbols 
 
@@ -1523,13 +736,8 @@ given the proper use of these flags.
 |  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
 
-
-
-
 # Key lexicon
 Lexicon Root starts the analyser and directs paths to all POS.
-
-
 
 # Lexicon ENDLEX
 And this is the ENDLEX of everything:
@@ -1539,71 +747,12 @@ And this is the ENDLEX of everything:
 The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/root.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/root.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -1765,8 +914,13 @@ raised							_r
 lowered							_o 
 advanced tongue root				_A 
 retracted tongue root			_q
+
 * * *
-<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-sje/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
+
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sje/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+
+---
+
 
 
 We describe here how abbreviations are in Pite Sami are read out, e.g.
@@ -1781,41 +935,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sje/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 P I T E   S A A M I   G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -1845,8 +986,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -1862,7 +1001,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -1925,11 +1063,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -1962,14 +1096,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -2041,22 +1171,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -2064,7 +1187,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -2079,7 +1201,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -2089,7 +1210,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -2103,50 +1223,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -2154,89 +1239,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-sje/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sje/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for sje
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2251,9 +1281,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -2267,14 +1294,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -2283,7 +1307,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-sje/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for sje
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-sje/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for sje
 
 Usage:
 ```
@@ -2295,12 +1324,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2315,9 +1339,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -2335,16 +1356,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -2353,4 +1370,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-sje/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sje/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+

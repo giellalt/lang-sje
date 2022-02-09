@@ -2,8 +2,6 @@
 # Pite Sámi TWOLC file
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
 
-
-
 * **%^WG:0**:  weak grade
 * **%^G3:0**:  marks grade three for stems w/o Cgrad
 * **%^V2E2AA:0**:  e to á in V2 (e.g. ILL.SG, DIM, 1/2-Sg)
@@ -17,22 +15,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
   %^IJ:0      * e to i in front of Plural j and Sg Com
   %^MONB4J:0  * what is this?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Rules
-
-
 
 ## Consonant gradation rules
 
@@ -42,24 +25,13 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Consonant Gradation for xdn(j):xn(j)**  
 
-
-
-
-
-
 **Consonant Gradation for xx:x**  
 
-
 **Consonant Gradation for xxy:xy**  
-
-
-
-
 
 **Consonant Gradation for xxt(j|s):xt(j|s) **  
 
 **Consonant Gradation for xxsj:xsj **  
-
 
 **Consonant Gradation for xy:y**  
 
@@ -75,23 +47,15 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Consonant Gradation for rdj:rj **  
 
-
 ## Other consonant rules 
 
 **Final C Deletion**  
 
-
-
 **Final devoicing**  
-
 
 **Word Final Simplification in -st **  
 
-
 **Word-final De-Affricatization for tj  **  
-
-
-
 
 ## Vowel rules 
 
@@ -100,19 +64,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 **Default VH **  
 
 **Default VH for 4syllables **  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Default UA in G3 **  
 
@@ -127,8 +78,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 * *gu^Odde^G3%>t*
 * *guädde00t*
 
-
-
 **Special VH for u^O **  
 
 **Special VH for ie **  
@@ -142,22 +91,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 * *hierrge%>j^V2E2AA*
 * *h0ärrgá0j0*
 
-
 **Ä in G3 **  
 
 **Ä in G3 capitalized **  
-
-
-
-
-
-
-
-
-
-
-
-
 
 **V2 E to I before j-suffixes **  
 
@@ -172,32 +108,18 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 * *máhtte^WG%>^V2E2AA*
 * *máht0á000*
 
-
 **V2 E to Á before S or R **  
 
 **V2 O to U **  
 
-
 **Final V Deletion **  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * *a*
 * *b*
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

@@ -1,11 +1,7 @@
 
 Pronouns
 
-
 * **LEXICON Pronoun   **
-
-
-
 
 * **LEXICON Personal   **
 
@@ -15,208 +11,23 @@ Pronouns
 
 * **LEXICON perspl   **
 
-
-
 * **LEXICON Demonstrative   **
-
-
-
-
-
-
-
 
 * **LEXICON Determiner   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON Relative   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON Interrogative   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON Indefinita   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON Reflexive   **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON gallacase   **
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/stems/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+

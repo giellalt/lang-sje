@@ -32,7 +32,6 @@ This file contains the tags and reference to main lexica
 * +Comp		   Comparative
 * +Superl		   Superlative
 
-
 ## Morphosyntactic properties
 
 ### Verbal MSP
@@ -81,7 +80,6 @@ Derivation tags
 * +Der/Dimin 	   Derived diminutive
 * +Der/State 	   Derived state noun
 
-
 ### Nominal MSP
 * +Sg 	   Singular
 * +Pl 	   Plural
@@ -102,7 +100,6 @@ Derivation tags
 
 Semantic properties of names
 
-
 Pssessive suffixes
 * +PxSg1     First person singular possessive suffix
 * +PxSg2     Second person singular possessive suffix
@@ -122,8 +119,6 @@ Other tags
 * +Cmp/SplitR    
 * +Use/-Spell    
 * +Use/NGminip  
-
-
 
 ### Compounding tags
 
@@ -158,7 +153,6 @@ be used alone, but can appear in any position
 * +CmpN/SgGenLeft  Singular genitive to the left
 * +CmpN/PlGenLeft  Plural genitive to the left
 
-
 * **+Cmp/Sg**  Singular
 * **+Cmp/SgNom**  Singular Nominative
 * **+Cmp/SgGen**  Singular Genitive
@@ -173,15 +167,12 @@ It is important for Apertium, and useful in other cases as well.
 * **+Cmp/SplitL**  This is a split compound with the other part to the left
 * **+Cmp/Sh**  testing ShCmp
 
-
-
 ## Punctuation tags
 * +CLB      Clause boundary
 * +PUNCT    Punctuation
 * +LEFT     
 * +RIGHT    
 * +SENT     
-
 
 Morphophonological symbols 
 
@@ -242,13 +233,8 @@ given the proper use of these flags.
 |  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
 
-
-
-
 # Key lexicon
 Lexicon Root starts the analyser and directs paths to all POS.
-
-
 
 # Lexicon ENDLEX
 And this is the ENDLEX of everything:
@@ -258,5 +244,10 @@ And this is the ENDLEX of everything:
 The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sje/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/root.lexc)</small>
+
+---
+
