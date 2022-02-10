@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-12-16T09:43:32+02:00
+! Generated at: 2022-02-10T20:29:11+01:00
 
 !! # Pite Saami Nouns
 
@@ -585,6 +585,7 @@ hårrte:hårrte N_EVEN "large dog" ; ! no. 4930
 häffne:hieffne N_EVEN "spider" ; ! no. 860
 häjbma:hiejbma N_EVEN "home" ; ! no. 2315
 hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
+hällja:hä2llja N_EVEN "holiday, festival" ; ! no. 91422
 härrá:hier'rá N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer buck, castrated reindeer buck" ; ! no. 870
 hässta+CmpN/SgN+CmpN/SgG:hiessta N_EVEN "horse" ; ! no. 4932
@@ -1186,6 +1187,7 @@ svarre:svarre N_EVEN "vibration" ; ! no. 91133
 svájnasbállká:svájnas#bállká N_EVEN "servant's wage" ; ! no. 4207
 sválla:sválla N_EVEN "mountain fox" ; ! no. 1792
 sválltjá:sválltjá N_EVEN "summer frock made of prepared hide" ; ! no. 1794
+svienska:svienska N_EVEN "Swedish (language)" ; ! no. 91423
 svijdne+CmpN/SgN+CmpN/SgG:svijdne N_EVEN "pig" ; ! no. 3601
 svijjla:svijjla N_EVEN "tray" ; ! no. 1801
 svuddnje:svuddnje N_EVEN "facial wrinkle, wrinkled face" ; ! no. 1806
