@@ -1,7 +1,5 @@
 
 
-* The set COPULAS is for predicative constructions
-
 ### Negation rules
 
 * **ConNeg3** conneg form when neg-verb to the left
@@ -34,8 +32,4 @@
 ## Add language code
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-sje/blob/main/src/cg3/disambiguator.cg3)</small>
-
----
-
