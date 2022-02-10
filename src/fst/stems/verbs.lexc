@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2021-10-25T15:13:26+03:00
+! Generated at: 2022-02-10T13:40:04+02:00
 
 !! # Pite Saami Verbs
 
@@ -88,7 +88,6 @@ dullkut:dullku V_CONTR "interpret, translate" ; ! no. 389
 dullvit:dullvi V_CONTR "have a flood" ; ! no. 90643
 durrgit:durrgi V_CONTR "lay out branches in a Saami hut" ; ! no. 90538
 durrut:durru V_CONTR "start to argue or fight" ; ! no. 90644
-däbbut:dä2bbu V_CONTR "become soaked" ; ! no. 5608
 dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
 ferrjit:ferrji V_CONTR "color" ; ! no. 2476
 fevvrit:fevvri V_CONTR "transport" ; ! no. 5549
@@ -238,6 +237,7 @@ spevvtjit:spevvtji V_CONTR "haunt" ; ! no. 4198
 spijjkit:spijjki V_CONTR "nail" ; ! no. 1722
 spillit:spilli V_CONTR "spill" ; ! no. 4276
 spirrit:spirri V_CONTR "disperse, scatter" ; ! no. 2413
+spuŋŋit:spuŋŋi V_CONTR "bridge, build a bridge" ; ! no. 91420
 spärrkit:spä2rrki V_CONTR "ride a kick-sled" ; ! no. 1725
 spärrut:spä2rru V_CONTR "save" ; ! no. 2836
 steggit:steggi V_CONTR "close, shut" ; ! no. 1750
@@ -859,6 +859,7 @@ dåhpot:dåhp V_EVEN_O "grab repeatedly or many things" ; ! no. 90965
 dållvot:dållv V_EVEN_O "try to catch up" ; ! no. 3007
 dårrjot:dårrj V_EVEN_O "support oneself" ; ! no. 429
 dårrot:dårr V_EVEN_O "wrestle, fight" ; ! no. 430
+däbbot:dä2bb V_EVEN_O "become soaked" ; ! no. 5608
 däbbtjot:diebbtj V_EVEN_O "press, knead" ; ! no. 433
 dähppot:diehpp V_EVEN_O "join (a group)" ; ! no. 90950
 dälbmot:dielbm V_EVEN_O "trample, tread" ; ! no. 408
@@ -1038,7 +1039,7 @@ allodit:allod2 V_ODD "honor, revere" ; ! no. 5258
 allvadit:allvad2 V_ODD "amaze, astonish" ; ! no. 4148
 alvadit:alvad2 V_ODD "be frightened, be amazed" ; ! no. 55
 anedit:aned2 V_ODD "hold on to" ; ! no. 59
-arranit:arran V_ODD "tan hide in water that is too hot" ; ! no. 4437
+arránit:arrán V_ODD "tan hide in water that is too hot" ; ! no. 4437
 asskelit:asskel V_ODD "yell at a dog" ; ! no. 2631
 avvadit:avvad2 V_ODD "waste time" ; ! no. 90143
 ádjánit:ádján V_ODD "delay, be late" ; ! no. 4
@@ -1228,6 +1229,7 @@ gávnadit:gávnad2 V_ODD "meet" ; ! no. 581
 gávodit:gávod2 V_ODD "turn a boat on an even keel" ; ! no. 3497
 gehtudit:gehtud2 V_ODD "tell long stories repeatedly; keep going on about" ; ! no. 91293
 gerjudit:gerjud2 V_ODD "wag" ; ! no. 4817
+giedtsedit:giedtsed2 V_ODD "make narrower" ; ! no. 4831
 giegadit:giegad2 V_ODD "intend" ; ! no. 606
 giehpedit:giehped2 V_ODD "make easier" ; ! no. 2385
 giehtjadit:giehtjad2 V_ODD "contemplate" ; ! no. 3261
@@ -1241,7 +1243,6 @@ giesatjit:giesatj V_ODD "drag, pull after oneself" ; ! no. 4627
 giesedit:giesed2 V_ODD "let someone pull (i.e. a sled)" ; ! no. 2782
 giessalit:giessal V_ODD "quickly roll together" ; ! no. 6111
 gietjastit:gietjast V_ODD "glance quickly" ; ! no. 2530
-gietsedit:gietsed2 V_ODD "make narrower" ; ! no. 4831
 gievadit:gievad2 V_ODD "cry out when one is alarmed or frightened" ; ! no. 625
 gievnjahit:gievnjah V_ODD "hold tight to one’s neck" ; ! no. 5559
 gijjtalit:gijjtal V_ODD "thank" ; ! no. 4836
