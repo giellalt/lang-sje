@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-10T20:29:11+01:00
+! Generated at: 2022-02-11T10:42:24+01:00
 
 !! # Pite Saami Nouns
 
@@ -568,6 +568,7 @@ hárre:hárre N_EVEN "direction, perspective" ; ! no. 818
 hárre:hár're N_EVEN "greyling" ; ! no. 819
 hárrje:hárrje N_EVEN "hackle" ; ! no. 90235
 hárrsa:hárrsa N_EVEN "fishing spear" ; ! no. 820
+hávva:háv'va N_EVEN "sea, ocean" ; ! no. 91425
 hávvde:hávvde N_EVEN "grave" ; ! no. 823
 hávve:hávve N_EVEN "scratch, wound from a predatory animal’s bite" ; ! no. 824
 hávvga:hávvga N_EVEN "pike" ; ! no. 2678
