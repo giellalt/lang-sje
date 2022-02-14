@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-10T13:40:04+02:00
+! Generated at: 2022-02-14T10:33:01+02:00
 
 !! # Pite Saami Verbs
 
@@ -1370,7 +1370,7 @@ jådedit:jåded2 V_ODD "migrate or move a short distance" ; ! no. 4465
 jåksådit:jåksåd2 V_ODD "catch up" ; ! no. 953
 jållárit:jållár V_ODD "spin around" ; ! no. 6051
 jårgedit:jårged2 V_ODD "turn around" ; ! no. 956
-jårrgålit:jårrgål V_ODD "turn, translate" ; ! no. 957
+jårrgålit:jårrgål V_ODD "turn, translate, convert" ; ! no. 957
 jårådit:jåråd2 V_ODD "fall over repeatedly" ; ! no. 4923
 klavdadit:klavdad2 V_ODD "lumber (for a fox)" ; ! no. 2794
 kruohkastit:kru^Ohkast V_ODD "scratch, claw" ; ! no. 3802
@@ -1782,6 +1782,7 @@ vuorralit:vu^Orral V_ODD "become crazy" ; ! no. 4071
 vuosedit:vuosed2 V_ODD "show" ; ! no. 2195
 vuotjatjit:vu^Otjatj V_ODD "shoot several times" ; ! no. 90392
 vurrkelit:vurrkel V_ODD "hide briefly" ; ! no. 90393
+vuäddjelit:vu^Oddjel V_ODD "drive away, move" ; ! no. 2204
 vädtjalit:vä2dtjal V_ODD "get quickly, procure quickly" ; ! no. 90375
 vällahit:vä2llah V_ODD "lie, rest (for humans)" ; ! no. 2221
 väludit:välud2 V_ODD "cry" ; ! no. 6055

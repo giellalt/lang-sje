@@ -96,6 +96,7 @@ dat+Pron+Dem+Sg+Com:dajna # ;
 dat+Pron+Dem+Sg+Ess:danen # ;
 
 dat+Pron+Dem+Pl+Nom:da # ;
+dat+Pron+Dem+Pl+Nom+Use/NG:daha # ;
 dat+Pron+Dem+Pl+Acc:dajt # ;
 dat+Pron+Dem+Pl+Acc+Use/NG:dajd # ;
 dat+Pron+Dem+Pl+Gen:daj # ;
