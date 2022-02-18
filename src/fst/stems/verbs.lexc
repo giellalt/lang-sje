@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-18T12:06:52+02:00
+! Generated at: 2022-02-18T18:51:42+02:00
 
 !! # Pite Saami Verbs
 
@@ -1082,6 +1082,7 @@ bálkestit:bálkest V_ODD "throw" ; ! no. 2506
 báredit:báred2 V_ODD "kill a sick or injured animal" ; ! no. 140
 bárrgedit:bárrged2 V_ODD "braid" ; ! no. 145
 bátjastit:bátjast V_ODD "wound by shooting" ; ! no. 154
+bátsadit:bátsad2 V_ODD "drop behind" ; ! no. 91439
 beggudit:beggud2 V_ODD "air out, ventilate" ; ! no. 2715
 bejvudit:bejvud2 V_ODD "sun oneself" ; ! no. 2902
 berkistit:berkist V_ODD "understand, perceive as" ; ! no. 3804
@@ -1374,6 +1375,7 @@ jårgedit:jårged2 V_ODD "turn around" ; ! no. 956
 jårrgålit:jårrgål V_ODD "turn, translate, convert" ; ! no. 957
 jårådit:jåråd2 V_ODD "fall over repeatedly" ; ! no. 4923
 klavdadit:klavdad2 V_ODD "lumber (for a fox)" ; ! no. 2794
+krájadit:krájad2 V_ODD "let (reindeer cows and calves) grunt" ; ! no. 91438
 kruohkastit:kru^Ohkast V_ODD "scratch, claw" ; ! no. 3802
 kruohkodit:kruohkod2 V_ODD "button, hook, link" ; ! no. 5481
 käffidit:käffid2 V_ODD "take a coffee break" ; ! no. 4749
