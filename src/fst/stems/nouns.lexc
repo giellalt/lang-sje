@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-14T10:32:18+02:00
+! Generated at: 2022-02-18T12:53:21+02:00
 
 !! # Pite Saami Nouns
 
@@ -1127,6 +1127,7 @@ spáhkke:spáhkke N_EVEN "unruly reindeer" ; ! no. 3638
 spárrá:spárrá N_EVEN "stick or pin for stretching hide to dry" ; ! no. 2885
 spávvte:spávvte N_EVEN "most lively mating season for reindeer" ; ! no. 1716
 spietjavdákkte:spietjav#dákkte N_EVEN "tailbone" ; ! no. 5121
+spijjka:spijjka N_EVEN "nail" ; ! no. 91435
 spissa:spis'sa N_EVEN "stove" ; ! no. 1723
 spjällka:spjiellka N_EVEN "spatula, baking board" ; ! no. 1724
 spävvtja:spievvtja N_EVEN "ghost, specter" ; ! no. 1726
@@ -1317,6 +1318,7 @@ tsisská:tsisská N_EVEN "fatty piece on the very back of a reindeer’s back" ;
 tsuabbtsa:tsu^Obbtsa N_EVEN "patch of snow in the mountains, snow bridge over a creek" ; ! no. 2013
 tsåhke:tsåhke N_EVEN "heart" ; ! no. 2958
 tsåhke:tsåhke N_EVEN "shallow water" ; ! no. 3741
+turissta:turissta N_EVEN "tourist" ; ! no. 91433
 täkksta:tiekksta N_EVEN "text" ; ! no. 4620
 tällta:tiellta N_EVEN "tent" ; ! no. 91307
 udnátjbäjjve:udnátj#biejjve N_EVEN "today" ; ! no. 5612
@@ -2255,13 +2257,13 @@ mårås:mårås N_ODD "artery" ; ! no. 2852
 mähttseviessoj:mähttse#viessoj N_ODD "forest animal, wild game" ; ! no. 90378
 mähttseårroj:mähttse#årroj N_ODD "hermit" ; ! no. 3999
 nageralmatj:nager#almatj N_ODD "sleepy person" ; ! no. 4998
-naran:naran N_ODD "nail" ; ! no. 1254
 narrak:narrag2 N_ODD "pot with a handle" ; ! no. 2671
 nábár:nábár N_ODD "drill" ; ! no. 1230
 nábok:nábog2 N_ODD "leather cap" ; ! no. 1231
 nálak:nálag2 N_ODD "male reindeer whose antlers have been sawed off" ; ! no. 3019
 nállam:nállam N_ODD "cutting off" ; ! no. 5367
 námak:námag2 N_ODD "biting midge" ; ! no. 4347
+náran:náran N_ODD "nail" ; ! no. 1254
 násstegállok:násste#gállog2 N_ODD "police chief" ; ! no. 1248
 nástak:nástag2 N_ODD "police" ; ! no. 1249
 návlek:návleg2 N_ODD "large silver button" ; ! no. 6890
