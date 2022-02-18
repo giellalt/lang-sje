@@ -468,22 +468,22 @@ LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (
 +Sg+Nom: K ;
 +Sg+Acc:av K ;
 +Sg+Gen:a K ;
-+Sg+Ill:aj K ;
-+Sg+Ine:an K ;
-+Sg+Ela:ast K ; 
-+Sg+Ela+Use/NG:as K ; 
-+Sg+Com:ajn K ;
-+Ess:an K ;
++Sg+Ill:ij K ;
++Sg+Ine:in K ;
++Sg+Ela:ist K ; 
++Sg+Ela+Use/NG:is K ; 
++Sg+Com:ijn K ;
++Ess:in K ;
 +Pl+Nom:a K ;
-+Pl+Acc:ajt K ;
-+Pl+Acc+Err/Orth:ajd K ;
-+Pl+Gen:aj K ;
-+Pl+Ill:ajda K ;
-+Pl+Ine:ajn K ;
-+Pl+Ela:ajst K ;
-+Pl+Ela+Use/NG:ajs K ;
-+Pl+Com:aj K ;
-+Pl+Com+Use/NGminip:ajgum K ;
++Pl+Acc:ijt K ;
++Pl+Acc+Err/Orth:ijd K ;
++Pl+Gen:ij K ;
++Pl+Ill:ijda K ;
++Pl+Ine:ijn K ;
++Pl+Ela:ijst K ;
++Pl+Ela+Use/NG:ijs K ;
++Pl+Com:ij K ;
++Pl+Com+Use/NGminip:ijgum K ;
 
 
 !for proper names for which the inflectional paradigms are not clear (at least until more is known about how they inflect – essentially only non-Saami names)
