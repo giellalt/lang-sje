@@ -20,8 +20,8 @@ LEXICON pcle   !!= * **@CODE@** the tag
 LEXICON Particle   !!= * **@CODE@** the list
 anj pcle ;
 dal pcle ;
-dä+Use/NG:de pcle ;
 dä pcle ;
+dä+Use/NG:de pcle ;
 degu pcle ;
 gal pcle ;
 gale pcle ;
@@ -32,7 +32,8 @@ gul pcle ;
 gus pcle ;
 jur pcle ;
 jura pcle ;
-lijk pcle ; !check!, cf. sje19210000a-lagercrantz1957a-426.050
+lik pcle "anyway" ; 
+lik+Use/NG:lijk pcle "anyway" ; 
 maj pcle ;
 má pcle ;
 nå pcle ;
