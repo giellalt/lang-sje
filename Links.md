@@ -1,6 +1,7 @@
 * `src/`
     * `cg3/`
         * [disambiguator.cg3](src-cg3-disambiguator.cg3.html) ([src](https://github.com/giellalt/lang-sje/blob/main/src/cg3/disambiguator.cg3))
+        * [korp.cg3](src-cg3-korp.cg3.html) ([src](https://github.com/giellalt/lang-sje/blob/main/src/cg3/korp.cg3))
     * `fst/`
         * `affixes/`
             * [adjectives.lexc](src-fst-affixes-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/adjectives.lexc))
