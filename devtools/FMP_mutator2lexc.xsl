@@ -185,6 +185,9 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * **@CODE@*
 
 !! ## Lexc inflectional classes (Mini-grammar)
 
+! exceptions:
+smávve+Use/NG+A+Attr:smáv # "small, little" ; ! no. 91419
+
 ! adjective classes are named after a prototypical adjective
 
 </xsl:text>
