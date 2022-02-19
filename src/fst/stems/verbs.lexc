@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-19T09:39:23+02:00
+! Generated at: 2022-02-19T12:08:51+02:00
 
 !! # Pite Saami Verbs
 
@@ -1512,7 +1512,7 @@ rárestit:rárest V_ODD "think back to" ; ! no. 90867
 rárredit:rárred2 V_ODD "come to an agreement, confer" ; ! no. 2697
 rásedit:rásed2 V_ODD "hurry some up, get ready" ; ! no. 2668
 rássjodit:rássjod2 V_ODD "rain" ; ! no. 1387
-rátkatjit:rátkatj V_ODD "divide up reindeer for each other" ; ! no. 91053
+rátkátjit:rátkátj V_ODD "divide up reindeer for each other" ; ! no. 91053
 rávaldit:rávald2 V_ODD "talk nonsense" ; ! no. 1392
 rejdnuhit:rejdnuh V_ODD "watch over reindeer" ; ! no. 2932
 riegádit:riegád2 V_ODD "be born" ; ! no. 1397
