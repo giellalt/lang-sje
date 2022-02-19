@@ -490,6 +490,8 @@ LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (
 LEXICON N_NAME_noInfl_C !C-final
 +N+Sg+Nom:%> K ; 
 +N: N_ODD_X ;
+!diminutive for C-final names:
++N+Der/Dimin+N:a%>tj N_DIM_s2 ;
 
 
 LEXICON N_NAME_noInfl_V !
@@ -515,5 +517,7 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Pl+Ela+Use/NG:js K ;
 +Pl+Com:j K ;
 +Pl+Com+Use/NGminip:jgum K ;
+!diminutive for V-final names:
++Der/Dimin+N:%>tj^V2E2AA N_DIM_s2 ;
 
 
