@@ -255,7 +255,7 @@ SET PRE-AP-HEAD = Adv OR CC ;
 SET AttrAPpossible = (A Attr) OR PRE-AP-HEAD ;
 
 SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen) OR (N Gen) OR 
-         Num OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR 
+         Num OR CC OR (Pron Dem Gen) OR (Pron Refl Gen) OR (Pron Indef) OR 
          (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (A Sg) OR (A Pl) ;
 SET NOT-NPMOD = WORD - PRE-NP-HEAD OR ABBR ; #not NP modifier (used as barrier)
 
@@ -311,7 +311,9 @@ SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)(-1C V + Pl1);
 
 #!! ### choose relative pronoun when preceded by NP and not ending in Q-mark
 SELECT:RelProAfterNP Rel IF (-1 NP-HEAD)(NOT *1 ("\?"));
-#but what about this: mån gatjádav duvste mij lä dat (I ask you what is that)
+#also works for: mån gatjádav duvste mij lä dat (I ask you what is that)
+REMOVE:RelProWO_NP Rel IF (NOT -1 NP-HEAD);
+REMOVE:RelProWO_NP Rel IF (*1 ("\?"));
 
 #!! ### choose iterrogative pronoun when ending in Q-mark and NOT preceded by NP 
 SELECT:InterrogProNoPreNP Interr IF (NOT -1 NP-HEAD)(*1 ("\?"));
@@ -383,7 +385,11 @@ REMOVE:DemPronWO-NPhead	Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMO
 #REMOVE:DemPronWO-NPhead-Ess		(Pron Ess)		IF (*1C (N Ess)    BARRIER NOT-NPMOD);
 
 #reject Determiner reading if not followed by NP-head
-REMOVE:NoDetWO-NPhead (Det) IF (NOT *1 NPpossibleNoPro BARRIER NoNP);
+REMOVE:NoDetWO-NPhead (Det) IF (NOT *1C NPpossibleNoPro BARRIER NoNP);
+
+#reject Det without NP head in same case+number:
+REMOVE:NoHeadlessDetSgIne (Det Sg Ine) IF (NOT *1C (N Sg Ine) BARRIER NoNP);
+REMOVE:NoHeadlessDetSgIll (Det Sg Ill) IF (NOT *1C (N Sg Ill) BARRIER NoNP);
 
 #select demonstrative pronoun reading if NOT directly followed by possible NP-material
 SELECT:DemPronWithoutNPhead Pron IF (1C NoNPpossible);
@@ -413,7 +419,7 @@ SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1C (N Sg Ela) BARRIER NoNPpossibl
 SELECT:NomSG-B4-FinVSg (Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC OR CLB OR N);
 
 #remove 1/2 person verb readings if NP in NOM.SG present on both sides
-REMOVE:no12Vwithout12Pron NonThirdPerson IF (*-1 (N Nom) BARRIER S-BOUNDARY)(*1 (N Nom) BARRIER S-BOUNDARY);
+REMOVE:no12Vwithout12Pron NonThirdPerson IF (*-1 (N Nom) BARRIER CLB)(*1 (N Nom) BARRIER CLB);
 	##dä lij átjárajjde jala ájjárajjde tsábmestam
 #remove 1/2 person verb readings if Rel-Pro/Interr-Pro in NOM.SG present
 REMOVE:no12VafterRelInterrProNOM NonThirdPerson IF (*-1 (Pron Pl Nom) BARRIER S-BOUNDARY);#(*1 (N Nom) BARRIER S-BOUNDARY);
@@ -452,6 +458,8 @@ REMOVE:notImptWithFiniteV (V Imprt) IF ( *-1 VFIN BARRIER CLB );
 #prefer relative pronoun when preceded by NP
 SELECT:relProAfterNP (Pron Rel) IF (-1 N);
 #SELECT:interrProStartQ (Pron Interr) IF (-1 S-BOUNDARY);# LINK *1 ("\?"));
+#remove Pron Interr if not preceded by clause boundary:
+REMOVE:noInterProWOprecedingCB (Pron Interr) IF (NOT -1 CLB);
 
 #choose adv analysis of man when directly preceding an adjective (eg. man vuoras = how old)
 SELECT:manAdvb4Adj (Adv "man") IF (1 A);
