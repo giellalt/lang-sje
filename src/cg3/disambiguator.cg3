@@ -153,6 +153,7 @@ LIST PrsPrc = PrsPrc ;
 LIST PrfPrc = PrfPrc ;
 LIST VGen = VGen ; 
 LIST VAbess = VAbess ;
+LIST Vsubst = Vsubst ;
 LIST Arab = Arab ;
 
 LIST CLB = CLB ; 
@@ -259,7 +260,7 @@ SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen)
          (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (A Sg) OR (A Pl) ;
 SET NOT-NPMOD = WORD - PRE-NP-HEAD OR ABBR ; #not NP modifier (used as barrier)
 
-LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok!)
+LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok, and sometimes CCs!)
 
 SET NPpossible = NP-HEAD OR PRE-NP-HEAD ; #possible anywhere in an NP
 SET NPpossibleNoPro = N OR PRE-NP-HEAD ; #possible anywhere in an NP excluding personal pronouns not in GEN (full NPs)
@@ -267,6 +268,7 @@ SET NoNPpossible = WORD - NPpossible ; #NOT possible anywhere in an NP
 SET NoFullNPpossible = WORD - NPpossibleNoPro ; #NOT possible anywhere in an NP
 
 
+SET NoNPbutCC = WORD - N - PRE-NP-HEAD ; #NoNP = not possibly anywhere in NP, plus CC
 SET NoAP = WORD - A - PRE-AP-HEAD ; #NoAP = not possibly anywhere in AP, plus CC
 
 
@@ -388,6 +390,7 @@ REMOVE:DemPronWO-NPhead	Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMO
 REMOVE:NoDetWO-NPhead (Det) IF (NOT *1C NPpossibleNoPro BARRIER NoNP);
 
 #reject Det without NP head in same case+number:
+REMOVE:NoHeadlessDetSgGen (Det Sg Gen) IF (NOT *1C (N Sg Gen) BARRIER NoNP);
 REMOVE:NoHeadlessDetSgIne (Det Sg Ine) IF (NOT *1C (N Sg Ine) BARRIER NoNP);
 REMOVE:NoHeadlessDetSgIll (Det Sg Ill) IF (NOT *1C (N Sg Ill) BARRIER NoNP);
 
@@ -440,6 +443,11 @@ REMOVE:noPredWithoutCopula (V GerII) IF (NEGATE (*-1 ("lä") BARRIER NoAP ) OR (
 #remove GerII reading if no AUX around
 REMOVE:noGerIIWithoutAux (V GerII) IF (NEGATE (*-1 ("lä") BARRIER CLB ) OR (*1 ("lä") BARRIER CLB ));
 
+#remove PrfPrc without a copula around:
+REMOVE:PrfPrcREQUIREScopula PrfPrc IF (NEGATE (*-1C ("lä") BARRIER CLB) OR (1C ("lä")));
+
+#remove Vsubst (for now) because the common ones have their own lexical entries (as nouns), thus avoiding common but mostly unnec. ambiguity with PrfPrc:
+REMOVE:VsubstAreLexicalForNow Vsubst ;
 
 #remove Verb reading if preceded by ATTR
 REMOVE:noVerbAfterAttr (V) IF (-1C Attr);
@@ -527,6 +535,7 @@ SELECT:comCoord (Sg Com) IF (-1 Pron + DUAL)(*-2 V + DUAL BARRIER CLB);
 #buolvast buallvaj 'from generation to generation' (removes eg. "buolvastit" V Ind Prs Sg3)
 SELECT:buolvastBuallvaj (N Sg Ela) IF (0 ("buallva"))(1C ("buallva" N Sg Ill));
 
+SELECT:PLafterIEDNAK Pl IF (*-1 ("iednak") BARRIER NoNPbutCC); 
 
 #!! # Mapping rules
 # Map rules block further tags from being added (otherwise use ADD)
