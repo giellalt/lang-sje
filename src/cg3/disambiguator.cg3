@@ -227,9 +227,11 @@ LIST 3SGV = (V Sg3) ; #finite verbs inflected for 3sg
 
 SET NOT-COP-V = V - COPULAS ;
 
+SET NOT-beCOP = V - ("lä") ;
+
 LIST MOD-ASP = "áigut" "bállet" "berret" "dáidit" "fertet" "galgat" "gillet" "lávet" "sáhttit" "seahtit" "soaitit" "viggat" ;
 
-LIST AUX-OR-MAIN = "gallgat" "máhttet" "årrot" "sihtat"; #"nagodit"  "nagadit"
+LIST AUX-OR-MAIN = "gallgat" "máhttet" "lä" "sihtat"; #"nagodit"  "nagadit"
 
 LIST ESS-Vs = "gåhttjot" "sjaddat" ;
 
@@ -390,6 +392,7 @@ REMOVE:DemPronWO-NPhead	Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMO
 REMOVE:NoDetWO-NPhead (Det) IF (NOT *1C NPpossibleNoPro BARRIER NoNP);
 
 #reject Det without NP head in same case+number:
+REMOVE:NoHeadlessDetSgAcc (Det Sg Acc) IF (NOT *1C (N Sg Acc) BARRIER NoNP);
 REMOVE:NoHeadlessDetSgGen (Det Sg Gen) IF (NOT *1C (N Sg Gen) BARRIER NoNP);
 REMOVE:NoHeadlessDetSgIne (Det Sg Ine) IF (NOT *1C (N Sg Ine) BARRIER NoNP);
 REMOVE:NoHeadlessDetSgIll (Det Sg Ill) IF (NOT *1C (N Sg Ill) BARRIER NoNP);
@@ -419,7 +422,7 @@ SELECT:DetElatSgB4NounElatSg (Det Sg Ela) IF (*1C (N Sg Ela) BARRIER NoNPpossibl
 #SELECT:3SGbeforeNomSg (V Sg3) IF (*1 Sg + @SUBJ> OR Sg3 + @SUBJ> BARRIER S-BOUNDARY OR CC OR (V PrfPrc));
 	##Dav mujjtulasav lä MUV GÅSSKE mujjtalam sån lij ietj dav vuajdnám ja gullam.
 #select Nom Sg reading if followed by a Fin-V in 3sg
-SELECT:NomSG-B4-FinVSg (Sg Nom) IF (*1 (V Sg3) BARRIER S-BOUNDARY OR CC OR CLB OR N);
+SELECT:NomSG-B4-FinVSg (Sg Nom) IF (*1C (V Sg3) BARRIER S-BOUNDARY OR CC OR CLB OR N);
 
 #remove 1/2 person verb readings if NP in NOM.SG present on both sides
 REMOVE:no12Vwithout12Pron NonThirdPerson IF (*-1 (N Nom) BARRIER CLB)(*1 (N Nom) BARRIER CLB);
@@ -493,6 +496,11 @@ SELECT:ATTRCoord (A Attr) IF (1 CC OR COMMA LINK *1 (A Attr) BARRIER NOT-NPMOD L
 #remove Attr when followed by (adj)(adv+adj)N, otherwise choose it
 REMOVE:noAttrWithoutNP (A Attr) IF (NOT 1 NPpossibleNoPro);
 SELECT:attrWithinNP (A Attr) IF (1 NPpossibleNoPro)(*1 N BARRIER NoNP);
+
+#choose number for Pred (in Nom) based on NUM of copula (not lä aux):
+SELECT:predSgNomifCopulaSg (A Sg Nom) IF ((*-1C ("lä") LINK *-1C SINGULAR BARRIER NOT-beCOP) OR (*1C ("lä") LINK *-1C SINGULAR BARRIER NOT-beCOP));
+SELECT:predPlNomifCopulaDu (A Pl Nom) IF ((*-1C ("lä") LINK *-1C DUAL BARRIER NOT-beCOP) OR (*1C ("lä") LINK *-1C DUAL BARRIER NOT-beCOP));
+SELECT:predPlNomifCopulaPl (A Pl Nom) IF ((*-1C ("lä") LINK *-1C PLURAL BARRIER NOT-beCOP) OR (*1C ("lä") LINK *-1C PLURAL BARRIER NOT-beCOP));
 
 #!! ### Agreement rule for verb triggered by PersPron
 SELECT:AgrPersPron	$$NumPers IF (0 V)(-1 Pers + Nom + $$NumPers);
