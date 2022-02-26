@@ -37,6 +37,7 @@ LEXICON N_EVEN ! giella, guolle, bissti
 +N: N_EVEN_ILL ;
 +N:^WG N_EVEN_WK ; ! CG here
 +N: N_EVEN_DIM ; !DIM derivation
+!+N: PX ; !possessive suffixes
 
 LEXICON N_EVEN_O ! rássjo-variant rässjuj
 +N: EVENCASE ;  ! Sg Nom, Ess
@@ -380,8 +381,16 @@ LEXICON N_DIM_s2 !nom.sg, then link to other forms
 !: N_ODD_X ;
 : NO_VH_X ;
 
-LEXICON PX ! possessive suffixes (to be added later, if at all (not productive))
-# ;
+LEXICON PX ! possessive suffixes (not clearly productive; initial SgNom set from Lehtiranta 1992)
++Sg+Nom+PxSg1:m # ; !cf. Lagercrantz 1957 text 426
++Sg+Nom+PxSg2:t # ; 
++Sg+Nom+PxSg3:s # ; 
++Sg+Nom+PxDu1:ma # ; 
++Sg+Nom+PxDu2:da # ; 
++Sg+Nom+PxDu3:sa # ; 
++Sg+Nom+PxPl1:men # ; 
++Sg+Nom+PxPl2:den # ; 
++Sg+Nom+PxPl3:ska # ; 
 
 
 
