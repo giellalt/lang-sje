@@ -225,6 +225,8 @@ SET VFIN = V-MOOD ;
 
 LIST 3SGV = (V Sg3) ; #finite verbs inflected for 3sg
 
+SET 3DUPLV = (V Du3) OR (V Pl3) ; #finite verbs inflected for 3du or 3pl (non-singular)
+
 SET NOT-COP-V = V - COPULAS ;
 
 SET NOT-beCOP = V - ("lä") ;
@@ -312,6 +314,7 @@ SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
 #!! ### Agreement rules for subject NP
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)(-1C V + Pl1);
+
 
 #!! ### choose relative pronoun when preceded by NP and not ending in Q-mark
 SELECT:RelProAfterNP Rel IF (-1 NP-HEAD)(NOT *1 ("\?"));
@@ -520,6 +523,8 @@ SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB OR 3SGV)
 	##dä Hiŋŋka bätsij gåhtáj niejdaj aktan. #aktan should not be chosen as "aktanit" V Ind Prs Sg3
 SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
 
+#remove nom.pl noun w/o 3pl or 3du verb #could be a problem in titles?
+REMOVE:noNomPl-WO-3PLverb (N Pl Nom) IF ((NOT *-1C 3DUPLV BARRIER CLB) OR (NOT *1C 3DUPLV BARRIER CLB));
 
 #if the following slot has a noun, choose gen.sg #!should come after verb agreement rules!
 #SELECT:GenSgB4NP (N Sg Gen) IF (1 N) ; 	# (NOT 1 (N Nom)) ;
