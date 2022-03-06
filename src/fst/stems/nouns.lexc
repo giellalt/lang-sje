@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-26T15:03:03+02:00
+! Generated at: 2022-03-06T17:42:25+02:00
 
 !! # Pite Saami Nouns
 
@@ -2329,8 +2329,7 @@ sillbabednik:sillba#bednig2 N_ODD "silver coin, silver money" ; ! no. 90568
 sirrkus:sirrkus N_ODD "circus" ; ! no. 3526
 sissŋutj:sissŋutj N_ODD "inner quarter meat of reindeer" ; ! no. 2521
 sivvun:sivvun N_ODD "smooth water (between rapids)" ; ! no. 1550
-sjaddok:sjaddog2 N_ODD "-grown" ; ! no. 91051
-sjaddok+Use/NG:sjiddug2 N_ODD "-grown" ; ! no. 91052
+sjidduk:sjiddug2 N_ODD "-grown" ; ! no. 91051
 sjluptjok:sjluptjog2 N_ODD "frock coat; long, buttoned coat for men" ; ! no. 1577
 sjnjablak:sjnjablag2 N_ODD "beetle larva" ; ! no. 5099
 sjnjierbek:sjnjierbeg2 N_ODD "strong gust of wind, whirlwind" ; ! no. 1583
@@ -2418,6 +2417,7 @@ tällik:tä2llig2 N_ODD "plate" ; ! no. 5949
 udnátj:udnátj N_ODD "today" ; ! no. 5350
 uksuk:uksug2 N_ODD "door to a Saami tent" ; ! no. 2024
 ulgutj:ulgutj N_ODD "outer quarter meat of reindeer" ; ! no. 2520
+ullgurijkak:ullgu#rijkag2 N_ODD "foreigner, person from abroad" ; ! no. 6554
 urbmas:urbmas N_ODD "gnat" ; ! no. 1182
 urdnik:urdnig2 N_ODD "monitor, order" ; ! no. 1345
 uvdutj:uvdutj N_ODD "like before" ; ! no. 6079
