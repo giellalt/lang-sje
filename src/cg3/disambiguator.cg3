@@ -525,6 +525,7 @@ SELECT:Sg3afterNomSg Sg3 IF (0 V)(*-1C NounOrNum + Sg + Nom BARRIER CLB OR 3SGV)
 SELECT:Sg3b4NomSg    Sg3 IF (0 V)(*1C  NounOrNum + Sg + Nom BARRIER CLB OR 3SGV);
 
 #remove nom.pl noun w/o 3pl or 3du verb #could be a problem in titles?
+##why doesn't this work well?? ex: bárdne ja niejda lijjin juo ållå sjidduk.
 REMOVE:noNomPl-WO-3PLverb (N Pl Nom) IF ((NOT *-1C 3DUPLV BARRIER CLB) OR (NOT *1C 3DUPLV BARRIER CLB));
 
 #if the following slot has a noun, choose gen.sg #!should come after verb agreement rules!
