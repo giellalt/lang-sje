@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
-[![Build status](https://github.com/giellalt/lang-sje/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sje/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-sje/main/badge.svg)](https://github.com/giellalt/lang-sje/actions)
 
 This page documents the work on the [Pite Sami language model](http://github.com/giellalt/lang-sje). 
 
