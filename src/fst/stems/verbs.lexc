@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-19T12:08:51+02:00
+! Generated at: 2022-06-01T07:00:59+03:00
 
 !! # Pite Saami Verbs
 
@@ -626,6 +626,8 @@ vanjgadahtjat:vanjgadahtj V_EVEN_A "begin to run briefly" ; ! no. 91016
 vannjgat:vannjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 vassjat:vassj V_EVEN_A "feel like, manage, have the energy" ; ! no. 2095
 våvvdåt+Use/NG:vavvd V_EVEN_A "become caught, become stuck" ; ! no. 5976
+vádtsadallat:vádtsadall V_EVEN_A "get cheated, be deceived" ; ! no. 91456
+vádtsastallat:vádtsastall V_EVEN_A "prance around, swagger" ; ! no. 91455
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
 veludallat:veludall V_EVEN_A "rest a little bit" ; ! no. 3024
 viegadallat:viegadall V_EVEN_A "run around after, chase back and forth" ; ! no. 5443
@@ -754,7 +756,7 @@ muähttet:mu^Ohtt V_EVEN_E "snow" ; ! no. 3956
 mållget:mållg V_EVEN_E "express oneself, say" ; ! no. 4483
 måráduhttet:måráduhtt V_EVEN_E "agitate, annoy" ; ! no. 6020
 mårrdet:mårrd V_EVEN_E "tie the upper and lower strings of a net" ; ! no. 1215
-mårret:mårr V_EVEN_E "thrive, be comfortable" ; ! no. 1217
+mårret:mårr V_EVEN_E "thrive, feel comfortable" ; ! no. 1217
 navvet:navv V_EVEN_E "remove hair (from reindeer hide)" ; ! no. 1253
 návvlet:návvl V_EVEN_E "nail" ; ! no. 4287
 nihttet:nihtt V_EVEN_E "threaten, warn" ; ! no. 1266
@@ -799,6 +801,7 @@ vaddet:vadd V_EVEN_E "give" ; ! no. 2044
 åjáldahttet+Use/NG:vajálduhtt V_EVEN_E "forget" ; ! no. 90447
 vanaldahttet:vanaldahtt V_EVEN_E "stretch out" ; ! no. 6099
 varrdet:varrd V_EVEN_E "bleed" ; ! no. 3287
+vádtsegåhtet:vádtsegåht V_EVEN_E "start walking" ; ! no. 91452
 vádtset:vádts V_EVEN_E "go, walk" ; ! no. 2049
 vájjdet:vájjd V_EVEN_E "wish" ; ! no. 5793
 válldet:válld V_EVEN_E "take" ; ! no. 2073
@@ -1733,8 +1736,12 @@ uvvádit:uvvád2 V_ODD "kiss" ; ! no. 2039
 vahtalit:vahtal V_ODD "be missing" ; ! no. 90747
 vanádit:vanád2 V_ODD "stretch" ; ! no. 2078
 vanjgadit:vanjgad2 V_ODD "run around (for humans and animals)" ; ! no. 91211
+vádtsastit:vádtsast V_ODD "jump up to go, get up to walk" ; ! no. 91453
 vádtsatjit:vádtsatj V_ODD "go for a walk, walk slowly" ; ! no. 2047
-vádtsedit:vádtsed2 V_ODD "teach a child to walk" ; ! no. 5435
+vádtsedit:vádtsed2 V_ODD "let someone walk; teach someone to walk; deceive" ; ! no. 5435
+vádtseldit:vádtseld2 V_ODD "walk back and forth constantly; walk quickly and repeatedly in a row" ; ! no. 91457
+vádtselit:vádtsel V_ODD "walk a short distance quickly one time" ; ! no. 91454
+vádtsestit:vádtsest V_ODD "walk a short distance" ; ! no. 91450
 vágodit:vágod2 V_ODD "admonish, warn" ; ! no. 2051
 vájaldit:vájald2 V_ODD "stroll" ; ! no. 2059
 vájbadit:vájbad2 V_ODD "tire out" ; ! no. 5358
