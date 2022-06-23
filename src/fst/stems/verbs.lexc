@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-06-01T08:48:32+03:00
+! Generated at: 2022-06-23T09:09:29+03:00
 
 !! # Pite Saami Verbs
 
@@ -268,7 +268,7 @@ tjillgit:tjillgi V_CONTR "explain, define" ; ! no. 1895
 tjubbmit:tjubbmi V_CONTR "scale fish" ; ! no. 3606
 tjuggit:tjuggi V_CONTR "stab, poke" ; ! no. 5331
 tjuhkkit:tjuhkki V_CONTR "gather, collect" ; ! no. 1920
-tjujdnit:tjujdni V_CONTR "stand while leaning forward considerably" ; ! no. 5328
+tjujtnit:tjujtni V_CONTR "stand while leaning forward considerably" ; ! no. 5328
 tjulbmit:tjulbmi V_CONTR "knot, make a knot" ; ! no. 5228
 tjullit:tjul'li V_CONTR "gut fish, clean fish" ; ! no. 3605
 tjullit:tjul'li V_CONTR "spit, spit out" ; ! no. 91299
@@ -1683,7 +1683,7 @@ tjijkárdit:tjijkárd2 V_ODD "see through binoculars" ; ! no. 91238
 tjuggistit:tjuggist V_ODD "poke a hole" ; ! no. 1927
 tjuhkkidit:tjuhkkid2 V_ODD "sit down" ; ! no. 1918
 tjuhkkistit:tjuhkkist V_ODD "collect quickly" ; ! no. 5321
-tjujdnahit:tjujdnah V_ODD "stand leaning forward" ; ! no. 5327
+tjujtnahit:tjujtnah V_ODD "stand leaning forward" ; ! no. 5327
 tjulestit:tjulest V_ODD "kiss" ; ! no. 90382
 tjulestit:tjulest V_ODD "kiss" ; ! no. 91300
 tjuodtjadit:tjuodtjad2 V_ODD "get up, stand up" ; ! no. 1926
