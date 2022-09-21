@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/sje/PiteSaamiDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-sje/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
