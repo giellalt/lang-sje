@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-07-12T17:09:48+03:00
+! Generated at: 2022-10-21T08:38:34+03:00
 
 !! # Pite Saami Verbs
 
@@ -240,7 +240,6 @@ spirrit:spirri V_CONTR "disperse, scatter" ; ! no. 2413
 spuŋŋit:spuŋŋi V_CONTR "bridge, build a bridge" ; ! no. 91420
 spärrkit:spä2rrki V_CONTR "ride a kick-sled" ; ! no. 1725
 spärrut:spä2rru V_CONTR "save" ; ! no. 2836
-steggit:steggi V_CONTR "close, shut" ; ! no. 1750
 stenntjit:stenntji V_CONTR "get wet, splash" ; ! no. 3357
 stihkkit:stihkki V_CONTR "knit" ; ! no. 728
 stivvrit:stivvri V_CONTR "guide, lead" ; ! no. 1734
@@ -248,6 +247,7 @@ stuhppit:stuhppi V_CONTR "darn socks" ; ! no. 6561
 sturrjit:sturrji V_CONTR "make a mess, get dirty" ; ! no. 5157
 stuvvsit:stuvvsi V_CONTR "play around with one another" ; ! no. 1743
 stäbbnut:stä2bbnu V_CONTR "sue" ; ! no. 3493
+stäggit:stä2ggi V_CONTR "close, shut" ; ! no. 1750
 stämmpit:stä2mmpi V_CONTR "stomp" ; ! no. 4273
 stänit:stä2ni V_CONTR "stop, stay, remain" ; ! no. 3292
 sjuhppit+Use/NG:suhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 90664
