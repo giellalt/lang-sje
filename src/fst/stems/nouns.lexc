@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-11-30T10:22:09+02:00
+! Generated at: 2022-11-30T13:31:37+02:00
 
 !! # Pite Saami Nouns
 
@@ -2216,7 +2216,7 @@ illtjak:illtjag2 N_ODD "stubborn, obstinate" ; ! no. 894
 iret:ired2 N_ODD "tomorrow" ; ! no. 90420
 jagak:jagag2 N_ODD "one-year-old" ; ! no. 4911
 jábmem:jábmem N_ODD "death" ; ! no. 901
-jubmel:jubmel N_ODD "God" ; ! no. 928
+jubmel:jubmel N_ODD "god" ; ! no. 91465
 jumitj:jumitj N_ODD "twin" ; ! no. 4435
 jurdisk:jurdisk N_ODD "subterranean being" ; ! no. 91135
 jåhtet+V+Der/NomAg:jåhtej N_ODD "mover, a person migrating" ; ! no. 90891
