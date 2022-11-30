@@ -303,6 +303,10 @@ g:0 <=> Vow v _ n Vow: Cns:* ( Dummy: ) %^WG: ; ! ávgŋot (unsure about this wo
 !! **@RULENAME@**  
 d:0 <=> Vow r _ j Vow: Cns:* ( Dummy: ) %^WG: ; ! girdje<->girje (non-standard variant)
 
+"Consonant Gradation for ldj:lj" 
+!! **@RULENAME@**  
+d:0 <=> Vow l _ j Vow: Cns:* ( Dummy: ) %^WG: ; ! äldja<->ielja (moose)
+
 
 !! ## Other consonant rules 
 ! =====================
