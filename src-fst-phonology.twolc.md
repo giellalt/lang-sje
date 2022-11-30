@@ -47,6 +47,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Consonant Gradation for rdj:rj **  
 
+**Consonant Gradation for ldj:lj **  
+
 ## Other consonant rules 
 
 **Final C Deletion**  
