@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-07-24T12:54:12+03:00
+! Generated at: 2022-11-30T10:22:09+02:00
 
 !! # Pite Saami Nouns
 
@@ -2334,6 +2334,7 @@ sjidduk:sjiddug2 N_ODD "-grown" ; ! no. 91051
 sjluptjok:sjluptjog2 N_ODD "frock coat; long, buttoned coat for men" ; ! no. 1577
 sjnjablak:sjnjablag2 N_ODD "beetle larva" ; ! no. 5099
 sjnjierbek:sjnjierbeg2 N_ODD "strong gust of wind, whirlwind" ; ! no. 1583
+sjoklát:sjoklád2 N_ODD "chocolate" ; ! no. 91463
 sjunjok:sjunjog2 N_ODD "hawk owl" ; ! no. 3016
 sjuohpan:sju^Ohpan N_ODD "lasso" ; ! no. 1599
 sjuvunj:sjuvunj N_ODD "really good reindeer herding dog" ; ! no. 1594

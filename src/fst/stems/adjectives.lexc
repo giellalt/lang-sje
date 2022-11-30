@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-02-19T10:20:31+02:00
+! Generated at: 2022-11-30T10:11:03+02:00
 
 !! # Pite Saami Adjectives
 
@@ -134,6 +134,7 @@ tjielgas:tjiellga A_GALMAS "clear and distinct" ; ! no. 4582
 årås:årrå A_GALMAS "new" ; ! no. 90201
 gienes:giedne A_GIENES "painful, evil, nasty" ; ! no. 2656
 gieres:gierre A_GIENES "in love, loved" ; ! no. 90194
+hálmes:hálbme A_GIENES "sweet" ; ! no. 91461
 hieves:hievve A_GIENES "proud, impressive" ; ! no. 840
 sieldes:siellde A_GIENES "terrible, huge, enormous" ; ! no. 90996
 såmes:såbme A_GIENES "some" ; ! no. 1822
