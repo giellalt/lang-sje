@@ -231,6 +231,8 @@ SET NOT-COP-V = V - COPULAS ;
 
 SET NOT-beCOP = V - ("lä") ;
 
+SET NOT-NegV = V - Neg ;
+
 LIST MOD-ASP = "áigut" "bállet" "berret" "dáidit" "fertet" "galgat" "gillet" "lávet" "sáhttit" "seahtit" "soaitit" "viggat" ;
 
 LIST AUX-OR-MAIN = "gallgat" "máhttet" "lä" "sihtat"; #"nagodit"  "nagadit"
@@ -302,8 +304,8 @@ SET S-BOUNDARY  = (Pron Interr) OR (Pron Rel) OR ("men") OR ("dä" CC) OR ("\;")
 #!! ### Negation rules
 
 #!! * **ConNeg3** conneg form when neg-verb to the left
-SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER V) ;
-REMOVE:ConNeg4 ConNeg IF (NOT *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
+SELECT:ConNeg3 ConNeg IF (*-1 Neg BARRIER NOT-NegV) ;
+REMOVE:ConNeg4 ConNeg IF (NEGATE *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
 	## Beispiel (am besten ein langes Beispiel)
 	#$ Gegenbeispiel
 SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
