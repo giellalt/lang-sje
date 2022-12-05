@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-11-30T15:55:36+02:00
+! Generated at: 2022-12-05T14:33:33+02:00
 
 !! # Pite Saami Verbs
 
@@ -727,6 +727,7 @@ hålájdahttet:hålájdahtt V_EVEN_E "address" ; ! no. 853
 hålbmet:hålbm V_EVEN_E "talk" ; ! no. 5109
 häjjtet:hiejjt V_EVEN_E "quit, stop, finish" ; ! no. 2536
 iedjet:iedj V_EVEN_E "mark someone else’s calf" ; ! no. 6552
+ierájdahttet:ierájdahtt V_EVEN_E "take away" ; ! no. 91469
 ietjájdahttet:ietjájdahtt V_EVEN_E "change, alter" ; ! no. 457
 ihtet:iht V_EVEN_E "show up, become visible, appear" ; ! no. 882
 iltjagahttet:iltjagahtt V_EVEN_E "be stubborn, willful" ; ! no. 893
@@ -811,6 +812,7 @@ vásset:váss V_EVEN_E "pass" ; ! no. 3803
 vellidasstet:vellidasst V_EVEN_E "take a break" ; ! no. 90396
 viedjet:viedj V_EVEN_E "may, shall, manage" ; ! no. 2104
 viegadasstet:viegadasst V_EVEN_E "run briefly" ; ! no. 5442
+viegaldahttet:viegaldahtt V_EVEN_E "follow after, pursue" ; ! no. 91468
 viehkedasstet:viehkedasst V_EVEN_E "help" ; ! no. 90390
 vihtanasstet:vihtanasst V_EVEN_E "witness" ; ! no. 3307
 vuasstalasstet:vuasstalasst V_EVEN_E "resist" ; ! no. 2197
