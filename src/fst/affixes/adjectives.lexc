@@ -310,13 +310,14 @@ LEXICON A_FIEROK_s2
 +Superl:^WG A_EVEN_SUP ;
 
 
-LEXICON A_IETJAA ! ietjá/ietjá/ietjáda/..?
+LEXICON A_IETJAA ! ietjá/ietjá/iehtjáda/..?
 +A+Attr:^WG%> # ;
 +A: A_IETJAA_s2 ; 
 
 LEXICON A_IETJAA_s2 
 +Sg+Nom:^WG%> K ; 
-+Pl+Nom:d%>a K ; 
+!+Pl+Nom:d%>a K ; 
+:d%> N_ODD_X ;
 +Comp:^WG A_EVEN_COMP ;
 +Superl:^WG A_EVEN_SUP ;
 
