@@ -375,6 +375,7 @@ LEXICON Interrogative   !!= * **@CODE@**
 
 !gie, predikativ ställning
 gie+Pron+Interr+Sg+Nom:gie # ;
+gie+Pron+Interr+Sg+Nom+Use/NG:guhti # ; !sje19290000a-qvigstad1929c-17.005
 gie+Pron+Interr+Sg+Acc:giev # ;
 gie+Pron+Interr+Sg+Gen:gien # ;
 gie+Pron+Interr+Sg+Ill:gesi # ;

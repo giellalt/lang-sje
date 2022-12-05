@@ -50,7 +50,7 @@ LEXICON V_EVEN_E_STR
 +GerII:e%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:á%>m # ;
 +PrsPrc:e%>j # ; 
-+Vsubst:e%>m #; 
++Vsubst:e%>m N_ODD_X ; 
 
 LEXICON V_EVEN_E_WK
 +Ind+Prs+Sg1:%>v^V2E2AA #;
