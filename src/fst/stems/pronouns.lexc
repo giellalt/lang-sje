@@ -1169,6 +1169,7 @@ ietj+Pron+Refl+Pl+Nom:ietja # ;
 ietj+Pron+Refl+Sg+Acc+PxSg1:iehtjav # ;
 ietj+Pron+Refl+Sg+Acc+PxSg1:iehtjanav # ;
 ietj+Pron+Refl+Sg+Gen+PxSg1:iehtjan # ;
+ietj+Pron+Refl+Sg+Gen+PxSg1+Use/NG:iehtjam # ; !sje20130523.110
 ietj+Pron+Refl+Sg+Ill+PxSg1:iehtjasin # ;
 ietj+Pron+Refl+Sg+Ine+PxSg1:ietjanin # ;
 ietj+Pron+Refl+Sg+Ela+PxSg1:ietjanist # ;
