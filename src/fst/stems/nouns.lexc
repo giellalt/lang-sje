@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-12-12T13:29:14+02:00
+! Generated at: 2022-12-12T13:54:43+02:00
 
 !! # Pite Saami Nouns
 
@@ -1153,6 +1153,7 @@ sturrje:sturrje N_EVEN "mud" ; ! no. 5158
 ståhkke:ståhkke N_EVEN "dry rotten birch" ; ! no. 2721
 ståhkåmåbme:ståhkåm#åbme N_EVEN "toy" ; ! no. 1744
 stållpå:stållpå N_EVEN "pole" ; ! no. 1913
+stånndå:stånndå N_EVEN "while" ; ! no. 91471
 stårrå:stårrå N_EVEN "trousers" ; ! no. 1748
 ståvvlå:ståvvlå N_EVEN "chair, stool" ; ! no. 1749
 stäbble:stiebble N_EVEN "boot" ; ! no. 3291
@@ -2224,6 +2225,7 @@ jårrem:jårrem N_ODD "eddy" ; ! no. 958
 jämik:jä2mig2 N_ODD "deceased person" ; ! no. 967
 karaalmatj:kara#almatj N_ODD "male, man" ; ! no. 3678
 klihtar:klihtar N_ODD "creature, livestock (not reindeer)" ; ! no. 90254
+klädnat:klä2dnad2 N_ODD "cloth" ; ! no. 91470
 krähppuk:krä2hppug2 N_ODD "glove" ; ! no. 984
 lafnas:lafnas N_ODD "a reindeer’s morning rest" ; ! no. 2615
 láddak:láddag2 N_ODD "cloudberry" ; ! no. 990
