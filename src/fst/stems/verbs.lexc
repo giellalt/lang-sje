@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-12-05T14:33:33+02:00
+! Generated at: 2022-12-12T13:35:40+02:00
 
 !! # Pite Saami Verbs
 
@@ -1187,7 +1187,7 @@ dåssjánit:dåssján V_ODD "not work out, become nonsense" ; ! no. 90539
 däbbodit:däbbod2 V_ODD "soak" ; ! no. 432
 däddalit:dä2ddal V_ODD "push down" ; ! no. 5751
 däddodit:däddod2 V_ODD "emphasize" ; ! no. 3275
-dälkudit:dälkud2 V_ODD "cure, heal with medicine" ; ! no. 3393
+dälkudit:dä2lkud2 V_ODD "cure, heal with medicine" ; ! no. 3393
 dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
 därrjedit:därrjed2 V_ODD "curse, swear" ; ! no. 440
 därustit:dä2rust V_ODD "speak Swedish/Norwegian" ; ! no. 91232
@@ -1310,7 +1310,7 @@ gåsådit:gåsåd2 V_ODD "cough a little bit" ; ! no. 4898
 gåvvgánit:gåvvgán V_ODD "become open" ; ! no. 91068
 gähppadit:gähppad2 V_ODD "work out easily" ; ! no. 6807
 gähttjalit:gä2httjal V_ODD "attempt, try" ; ! no. 2384
-gärrvudit:gärrvud2 V_ODD "get dressed, put on clothes" ; ! no. 793
+gärrvudit:gä2rrvud2 V_ODD "get dressed, put on clothes" ; ! no. 793
 hagŋedit:hagŋed2 V_ODD "be scared out of breath" ; ! no. 802
 hartsastit:hartsast V_ODD "execute by hanging" ; ! no. 3707
 hádjánit:hádján V_ODD "spread out, disperse" ; ! no. 859
@@ -1340,15 +1340,15 @@ håjjgådit:håjjgåd2 V_ODD "push, shove away" ; ! no. 852
 hålådit:hålåd2 V_ODD "ask for something" ; ! no. 2712
 håskålit:håskål V_ODD "incite, sic a dog on reindeer" ; ! no. 858
 håvkådit:håvkåd2 V_ODD "speak incoherently" ; ! no. 5797
-härridit+Use/NG:häddid2 V_ODD "imitate" ; ! no. 90838
+härridit+Use/NG:hä2ddid2 V_ODD "imitate" ; ! no. 90838
 hähkkaldit:hähkkald2 V_ODD "process shoe hay, beat shoe hay against something hard" ; ! no. 6544
-hähppidit:hähppid2 V_ODD "manage on time, reach" ; ! no. 3712
+hähppidit:hä2hppid2 V_ODD "manage on time, reach" ; ! no. 3712
 häjjtelit:hä2jjtel V_ODD "quit quickly" ; ! no. 5492
 häjjturit:hä2jjtur V_ODD "hurry" ; ! no. 831
-hälijdit:hälijd2 V_ODD "desire, want to have" ; ! no. 90845
+hälijdit:hä2lijd2 V_ODD "desire, want to have" ; ! no. 90845
 hämmsanit:hä2mmsan V_ODD "be mixed up, become confused, become chaotic" ; ! no. 91212
 hämmsárit:hä2mmsár V_ODD "mix, blend" ; ! no. 867
-härridit:härrid2 V_ODD "imitate" ; ! no. 869
+härridit:hä2rrid2 V_ODD "imitate" ; ! no. 869
 idjadit:idjad2 V_ODD "sleep over" ; ! no. 6895
 ieljadit:ieljad2 V_ODD "manage" ; ! no. 5162
 ieredit:iered2 V_ODD "change a reindeer earmark" ; ! no. 455
@@ -1387,7 +1387,7 @@ klavdadit:klavdad2 V_ODD "lumber (for a fox)" ; ! no. 2794
 krájadit:krájad2 V_ODD "let (reindeer cows and calves) grunt" ; ! no. 91438
 kruohkastit:kru^Ohkast V_ODD "scratch, claw" ; ! no. 3802
 kruohkodit:kruohkod2 V_ODD "button, hook, link" ; ! no. 5481
-käffidit:käffid2 V_ODD "take a coffee break" ; ! no. 4749
+käffidit:kä2ffid2 V_ODD "take a coffee break" ; ! no. 4749
 labmahit:labmah V_ODD "lay under a shelter, e.g. under an overhang" ; ! no. 3650
 ladastit:ladast V_ODD "butcher next to a joint" ; ! no. 3858
 lagadit:lagad2 V_ODD "put forth" ; ! no. 1000
@@ -1429,9 +1429,9 @@ lågådit:lågåd2 V_ODD "have someone read" ; ! no. 90651
 låhpedit:låhped2 V_ODD "promise, pledge" ; ! no. 911
 lånestit:lånest V_ODD "redeem, save" ; ! no. 4134
 lägganit:lä2ggan V_ODD "become warm" ; ! no. 3734
-lägidit:lägid2 V_ODD "have something repaired" ; ! no. 3495
+lägidit:lä2gid2 V_ODD "have something repaired" ; ! no. 3495
 läjjdistit:lä2jjdist V_ODD "go first with a lead reindeer" ; ! no. 4959
-läsjmudit:läsjmud2 V_ODD "exercise" ; ! no. 1103
+läsjmudit:lä2sjmud2 V_ODD "exercise" ; ! no. 1103
 majgerdit:majgerd2 V_ODD "not be able to eat more fatty food" ; ! no. 4307
 malganit:malgan V_ODD "trample down (by reindeer)" ; ! no. 90267
 malgedit:malged2 V_ODD "wear down by walking over (by reindeer)" ; ! no. 90269
@@ -1495,7 +1495,7 @@ njuonodit:njuonod2 V_ODD "sniff" ; ! no. 2996
 njålgåstit:njålgåst V_ODD "run away straight ahead" ; ! no. 5783
 njåmåstit:njåmåst V_ODD "hold onto someone lovingly" ; ! no. 4374
 njåtsådit:njåtsåd2 V_ODD "drag one's feet, delay" ; ! no. 1315
-njälgijdit:njälgijd2 V_ODD "taste good" ; ! no. 5011
+njälgijdit:njä2lgijd2 V_ODD "taste good" ; ! no. 5011
 nufoldit:nufold2 V_ODD "throw a large piece of wood onto a fire" ; ! no. 3063
 nuoladit:nuolad2 V_ODD "undress" ; ! no. 1321
 nurudit:nurud2 V_ODD "load up a pack animal, transport by pack animal" ; ! no. 4122
@@ -1546,7 +1546,7 @@ ruvrostit:ruvrost V_ODD "throw far away" ; ! no. 5400
 ruvvgalit:ruvvgal V_ODD "head off (for reindeer)" ; ! no. 3005
 råhkålit:råhkål V_ODD "pray to god" ; ! no. 1455
 råsodit:råsod2 V_ODD "wake up repeatedly" ; ! no. 6115
-rähkkudit:rähkkud2 V_ODD "shave" ; ! no. 5065
+rähkkudit:rä2hkkud2 V_ODD "shave" ; ! no. 5065
 rähkustit:rä2hkust V_ODD "ice fishing using nets" ; ! no. 91231
 räjjdanit:rä2jjdan V_ODD "complete, finish" ; ! no. 2629
 rässidit:rä2ssid2 V_ODD "rush, hurry" ; ! no. 91346
@@ -1576,7 +1576,7 @@ sjátjastit:sjátjast V_ODD "shove away" ; ! no. 5786
 sjevnjudit:sjevnjud2 V_ODD "become dusk or dark, darken" ; ! no. 1566
 sjirristit:sjir'rist V_ODD "clear up a bit (for weather)" ; ! no. 1563
 sjivdnjedit:sjivdnjed2 V_ODD "create (in religious sense)" ; ! no. 1571
-sjläbtjudit:sjläbtjud2 V_ODD "fan away" ; ! no. 1578
+sjläbtjudit:sjlä2btjud2 V_ODD "fan away" ; ! no. 1578
 sjnjaltjedit:sjnjaltjed2 V_ODD "deplete" ; ! no. 4390
 sjnjitjádit:sjnjitjád2 V_ODD "shout quickly" ; ! no. 6047
 sjnjuhtjadit:sjnjuhtjad2 V_ODD "take off, speed past" ; ! no. 2665
@@ -1593,7 +1593,7 @@ sjvahtjadit:sjvahtjad2 V_ODD "begin moving, move a little bit" ; ! no. 5124
 sjvasjkedit:sjvasjked2 V_ODD "begin moving" ; ! no. 3039
 sjvámbaldit:sjvámbald2 V_ODD "talk nonsense" ; ! no. 1558
 sjåbbåldit:sjåbbåld2 V_ODD "speak unclearly" ; ! no. 1608
-sjävudit:sjävud2 V_ODD "become silent" ; ! no. 3324
+sjävudit:sjä2vud2 V_ODD "become silent" ; ! no. 3324
 skáladit:skálad2 V_ODD "fence, fight (using something sharp)" ; ! no. 2760
 skámádit:skámád2 V_ODD "be ashamed" ; ! no. 2979
 skellbidit:skellbid2 V_ODD "begin to shake" ; ! no. 90889
@@ -1614,9 +1614,9 @@ smeridit:smerid2 V_ODD "ruminate" ; ! no. 1689
 smiljudit:smiljud2 V_ODD "mix together (for food)" ; ! no. 1690
 smirrjudit:smirrjud2 V_ODD "mix up, blend" ; ! no. 4395
 småredit:småred2 V_ODD "wake up" ; ! no. 2773
-smähkudit:smähkud2 V_ODD "taste" ; ! no. 5297
-smäjvidit:smäjvid2 V_ODD "chop, cut into pieces" ; ! no. 1692
-smävkudit:smävkud2 V_ODD "chop kindling" ; ! no. 2627
+smähkudit:smä2hkud2 V_ODD "taste" ; ! no. 5297
+smäjvidit:smä2jvid2 V_ODD "chop, cut into pieces" ; ! no. 1692
+smävkudit:smä2vkud2 V_ODD "chop kindling" ; ! no. 2627
 snabbredit:snabbred2 V_ODD "show disapproval, grimace" ; ! no. 5582
 snaradit:snarad2 V_ODD "wrangle (for dogs)" ; ! no. 3559
 sniemkodit:sniemkod2 V_ODD "smack" ; ! no. 1593
@@ -1659,7 +1659,7 @@ sårbmánit:sårbmán V_ODD "perish" ; ! no. 4379
 sårestit:sårest V_ODD "hurt, hurt something, injure" ; ! no. 1825
 sårjåstit:sårjåst V_ODD "seize, grab" ; ! no. 1826
 sähkkárit:sä2hkkár V_ODD "fancy someone" ; ! no. 1833
-sähkudit:sähkud2 V_ODD "saw" ; ! no. 1834
+sähkudit:sä2hkud2 V_ODD "saw" ; ! no. 1834
 säjjvelit:sä2jjvel V_ODD "point" ; ! no. 5370
 tjaradit+Use/NG:tjadad2 V_ODD "push trough" ; ! no. 90480
 tjadnalit:tjadnal V_ODD "tie quickly" ; ! no. 5182
@@ -1710,8 +1710,8 @@ tjåhkånit:tjåhkån V_ODD "meet, gather" ; ! no. 1964
 tjårbmådit:tjårbmåd2 V_ODD "punch, beat with one's fists" ; ! no. 1973
 tjårgådit:tjårgåd2 V_ODD "certify, verify" ; ! no. 3245
 tjåsskodit:tjåsskod2 V_ODD "cool down" ; ! no. 3157
-tjähkkidit:tjähkkid2 V_ODD "manage to find space" ; ! no. 5948
-tjähppudit:tjähppud2 V_ODD "become black, become dirty, sooty, filthy" ; ! no. 4472
+tjähkkidit:tjä2hkkid2 V_ODD "manage to find space" ; ! no. 5948
+tjähppudit:tjä2hppud2 V_ODD "become black, become dirty, sooty, filthy" ; ! no. 4472
 trisádit:trisád2 V_ODD "inject water or larvae into a reindeer’s nose" ; ! no. 90370
 tsaggadit:tsaggad2 V_ODD "obstruct, block, hinder, fasten" ; ! no. 91087
 tsaggastit:tsaggast V_ODD "obstruct, block, hinder" ; ! no. 1994
@@ -1801,8 +1801,8 @@ vurrkelit:vurrkel V_ODD "hide briefly" ; ! no. 90393
 vuäddjelit:vu^Oddjel V_ODD "drive away, move" ; ! no. 2204
 vädtjalit:vä2dtjal V_ODD "get quickly, procure quickly" ; ! no. 90375
 vällahit:vä2llah V_ODD "lie, rest (for humans)" ; ! no. 2221
-väludit:välud2 V_ODD "cry" ; ! no. 6055
-vänijdit:vänijd2 V_ODD "accustom, get used to" ; ! no. 2936
+väludit:vä2lud2 V_ODD "cry" ; ! no. 6055
+vänijdit:vä2nijd2 V_ODD "accustom, get used to" ; ! no. 2936
 årårdit+Use/NG:ådård2 V_ODD "draw blood, let bleed, phlebotomise" ; ! no. 91361
 åråstit+Use/NG:ådåst V_ODD "renew, update" ; ! no. 90454
 ågodit:ågod2 V_ODD "chase, hunt back and forth (for dogs and wolves)" ; ! no. 3667
@@ -1820,7 +1820,7 @@ vänijdit:vänijd2 V_ODD "accustom, get used to" ; ! no. 2936
 åtsådit:åtsåd2 V_ODD "investigate, research, search for" ; ! no. 2238
 åvdedit:åvded2 V_ODD "move ahead, progress, develop" ; ! no. 90870
 åvvdånit:åvvdån V_ODD "advance, progress" ; ! no. 3148
-äjbmudit:äjbmud2 V_ODD "manage to do something" ; ! no. 3281
+äjbmudit:ä2jbmud2 V_ODD "manage to do something" ; ! no. 3281
 ärrusit:ä2rrus V_ODD "not able to find a solution, be baffled" ; ! no. 2289
 ävvusit:ä2vvus V_ODD "become happy, become glad" ; ! no. 2291
 duabbalit:du^Obbal V_ODD_UA "pull towards oneself quickly" ; ! no. 3472

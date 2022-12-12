@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-11-30T13:31:37+02:00
+! Generated at: 2022-12-12T13:29:14+02:00
 
 !! # Pite Saami Nouns
 
@@ -1568,7 +1568,7 @@ gåhpålis:gåhpål N_EVEN4_ISA "pus-filled blister" ; ! no. 736
 gålmådis:gålmåd N_EVEN4_ISA "third (fraction)" ; ! no. 4172
 gånågis:gånåg N_EVEN4_ISA "king" ; ! no. 760
 gåsådis:gåsåd N_EVEN4_ISA "cough" ; ! no. 90866
-ieradis:ierad N_EVEN4_ISA "an altered reindeer earmark diverging from the main earmark" ; ! no. 4624
+ierádis:ierád N_EVEN4_ISA "an altered reindeer earmark diverging from the main earmark" ; ! no. 4624
 jiehtanis:jiehtan N_EVEN4_ISA "giant" ; ! no. 4210
 jielagis:jielag N_EVEN4_ISA "cold, clear weather" ; ! no. 3479
 máhkanis:máhkan N_EVEN4_ISA "six-year-old reindeer buck" ; ! no. 4354
@@ -1702,7 +1702,7 @@ sievvagádde:sievva#gádde N_EVEN_NOCG "seashore" ; ! no. 5114
 sjádde:sjádde N_EVEN_NOCG "hole dug in the snow because reindeer ate there" ; ! no. 4776
 sládjojägge:sládjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 90342
 sládjojägge+Use/NG:slájjo#jiegge N_EVEN_NOCG "mow fen, marsh with hay for harvesting" ; ! no. 91180
-släddu:slieddu N_EVEN_NOCG "puddle, mud puddle" ; ! no. 1671
+släddu:slieddu2 N_EVEN_NOCG "puddle, mud puddle" ; ! no. 1671
 slöjdu:slöjdu N_EVEN_NOCG "handicraft" ; ! no. 91432
 stádtjo:stádtjo N_EVEN_NOCG "frying pan" ; ! no. 1727
 stággo:stággo N_EVEN_NOCG "pole, stick" ; ! no. 90827
@@ -1712,7 +1712,7 @@ suddo:suddo N_EVEN_NOCG "sin; a pity" ; ! no. 2400
 såbbe:såbbe N_EVEN_NOCG "stick, pole" ; ! no. 1811
 sågge:sågge N_EVEN_NOCG "area close to the wall of a hut or tent" ; ! no. 91322
 säddo:sieddo N_EVEN_NOCG "peace, stillness" ; ! no. 1830
-säddu:sieddu N_EVEN_NOCG "sandbank" ; ! no. 3407
+säddu:sieddu2 N_EVEN_NOCG "sandbank" ; ! no. 3407
 tjarra+Use/NG:tjadda N_EVEN_NOCG "soot, coal" ; ! no. 90445
 tjátslådde:tjáts#lådde N_EVEN_NOCG "waterfowl" ; ! no. 1885
 tjátsrågge:tjáts#rågge N_EVEN_NOCG "water hole" ; ! no. 5196
