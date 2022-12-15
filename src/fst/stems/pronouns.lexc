@@ -69,9 +69,11 @@ LEXICON persdu   !!= * **@CODE@**
 LEXICON perspl   !!= * **@CODE@**
 +Nom:ij      # ;
 +Nom:ija     # ;
-!+Nom+Use/NG:ijá     # ; !check!
++Nom+Use/NG:ijá     # ; 
 +Acc:ijav    # ;
 +Acc+Use/NG:ijáv     # ;
++Acc+Use/NG:ijájt     # ; ! northern sje dialect form
++Acc+Use/NG:ijájd     # ; ! northern sje dialect form, deviant spelling
 +Gen:ijá     # ;
 +Ill:ijjaj   # ;
 +Ill+Use/NG:ijjáj   # ;
