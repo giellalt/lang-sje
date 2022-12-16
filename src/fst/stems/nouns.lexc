@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-12-16T07:58:01+02:00
+! Generated at: 2022-12-16T10:47:40+02:00
 
 !! # Pite Saami Nouns
 
@@ -432,7 +432,6 @@ gávdne:gávdne N_EVEN "thing, object" ; ! no. 577
 gávnadimsadje:gávnadim#sadje N_EVEN "meeting place" ; ! no. 5741
 gávva:gávva N_EVEN "bend, curve" ; ! no. 3518
 gávvtja:gávvtja N_EVEN "silver chalice with handles" ; ! no. 6010
-gerdis+A+Der/State:gerdisvu^Ohta N_EVEN "patience" ; ! no. 3536
 getjukmiesse:getjuk#miesse N_EVEN "unmarked calf" ; ! no. 4902
 gibme:gibme N_EVEN "capercaillie's mating display" ; ! no. 604
 girradállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
@@ -448,6 +447,7 @@ gieles+N+Der/NomAg:gielestieddje N_EVEN "liar" ; ! no. 4826
 giella:giella N_EVEN "language" ; ! no. 595
 giellabällje:giella#biellje N_EVEN "sense for language" ; ! no. 2459
 gierastimdievvá:gierastim#dievvá N_EVEN "ski slope" ; ! no. 5971
+gierdes+A+Der/State:gierdesvu^Ohta N_EVEN "patience" ; ! no. 3536
 gieres+A+Der/State:gieresvu^Ohta N_EVEN "love" ; ! no. 620
 giesse:giesse N_EVEN "summer" ; ! no. 599
 giesseájjge:giesse#ájjge N_EVEN "summer time" ; ! no. 4828
