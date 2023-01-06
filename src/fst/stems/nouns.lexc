@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-12-16T10:47:40+02:00
+! Generated at: 2023-01-06T17:23:37+02:00
 
 !! # Pite Saami Nouns
 
@@ -69,6 +69,7 @@ guolmoj:gu^Olbm N_CONTR_OJU "dusk" ; ! no. 699
 gåggoj:gågg N_CONTR_OJU "larynx" ; ! no. 2846
 ienoj:iedn N_CONTR_OJU "maternal uncle" ; ! no. 90769
 jållebåtsoj:jålle#båhts N_CONTR_OJU "fat reindeer, a good reindeer for eating" ; ! no. 3892
+muovasbåtsoj:muovasbåhts N_CONTR_OJU "light-colored reindeer" ; ! no. 4981
 nällgebåtsoj:nällge#båhts N_CONTR_OJU "hungry reindeer" ; ! no. 6864
 várrebåtsoj:várre#båhts N_CONTR_OJU "mountain reindeer" ; ! no. 90386
 gállo:gál'l N_CONTR_OU "big stone, boulder" ; ! no. 91297
@@ -1459,7 +1460,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åvdepbäjjve:åvdep#biejjve N_EVEN "the previous day" ; ! no. 2094
 åvdåmärrka:åvdå#mierrka N_EVEN "example, for example" ; ! no. 2283
 åvdåsbádne:åvdås#bádne N_EVEN "front tooth" ; ! no. 4237
-åvvdågiehtje:åvvdå#giehtje N_EVEN "front part, stem (of boat)" ; ! no. 2275
+åvvdågiehtje:åvvdågiehtje N_EVEN "front part, stem (of boat)" ; ! no. 2275
 åvvdåskåvvlå+Use/NG:åvvdå#skåvvle N_EVEN "preschool" ; ! no. 5588
 åvvdåskåvvlå:åvvdå#skåvvlå N_EVEN "preschool" ; ! no. 91042
 äddne:ieddne N_EVEN "mother" ; ! no. 2285
@@ -2181,6 +2182,7 @@ guohtomiednam:guohtom#iednam N_ODD "grazing land" ; ! no. 3273
 guoksak:gu^Oksag2 N_ODD "Siberian jay" ; ! no. 689
 guoktejagak:guokte#jagag2 N_ODD "two-year-old" ; ! no. 6098
 guolbaniednam:guolban#iednam N_ODD "heath, heathland" ; ! no. 5795
+guolgak:gu^Olgag2 N_ODD "furred" ; ! no. 91482
 guorátj:gu^Orátj N_ODD "bear’s den" ; ! no. 703
 guosatj:gu^Osatj N_ODD "light snowfall" ; ! no. 2949
 gurpak:gurpag2 N_ODD "knot" ; ! no. 712
@@ -2468,6 +2470,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
 åråk:åråg2 N_ODD "new-born puppy" ; ! no. 90294
+åvvdåmannam:åvvdåmannam N_ODD "lower front branch on male reindeer’s antlers" ; ! no. 91481
 ähppár:ä2hppár N_ODD "ghost of a murdered, unbaptized baby" ; ! no. 4312
 äjjgut:ä2jjgud2 N_ODD "intention" ; ! no. 3171
 äjjtik:ä2jjtig2 N_ODD "forefather, ancestor; parent (archaic)" ; ! no. 33
