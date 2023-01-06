@@ -4,6 +4,8 @@ All documents in one file
 
 
 
+### dealing with apostrophe before enclitic copula
+
 ### Negation rules
 
 * **ConNeg3** conneg form when neg-verb to the left
