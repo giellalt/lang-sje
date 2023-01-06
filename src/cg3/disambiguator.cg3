@@ -184,6 +184,7 @@ LIST COMMA = "," ;
 LIST CITATION = """ ; #"
 LIST HYPHEN = "-" ;
 LIST ¶ = ¶;
+LIST APOSTROPHE = "'" ;
 
 LIST NumChar = "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ;
 
@@ -294,6 +295,10 @@ SECTION # -1- this potentially run multiple times, or can be targeted in command
 
 REMOVE:trab SENT IF (-1 TRAB) ;
 
+
+#!! ### dealing with apostrophe before enclitic copula
+REMCOHORT:apostropheb4enclitic APOSTROPHE IF (1C ("lä")) ;
+	## dan namma'l Árves
 
 #examples from N-Saami:
 SET S-BOUNDARY  = (Pron Interr) OR (Pron Rel) OR ("men") OR ("dä" CC) OR ("\;") OR (":") OR ("-") OR ("–") OR CS ;
