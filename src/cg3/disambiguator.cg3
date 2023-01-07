@@ -68,6 +68,7 @@ LIST V = V ;
 LIST Pron = Pron ;
 LIST CS = CS ; 
 LIST CC = CC ; 
+LIST Det = Det ; 
 LIST Po = Po ; 
 LIST Pr = Pr ;
 LIST Pcle = Pcle ; 
@@ -378,8 +379,12 @@ REMOVE:NoPrWithoutGen Pr IF (NOT *1 Gen BARRIER NoNP);
 #remove GenSg if no noun immediately follows
 REMOVE:GenSgWOfollowingN (N Sg Gen) IF (NOT 1 PRE-NP-HEAD OR N );
 
+#allow demonstrative pronoun reading if DET followed by Attr A:
+SELECT:DetB4Attr Det IF (*1C Attr BARRIER CLB or N);
+SELECT:AttrAfterDet (A Attr) IF (*-1 Det BARRIER CLB or NoNPpossible);
+
 #reject demonstrative pronoun reading if DET followed by NP-head with same case/number
-REMOVE:DemPronWO-NPhead	Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMOD);
+REMOVE:DemPronWO-NPhead Pron + $$NumCases IF (*1 N + $$NumCases BARRIER NOT-NPMOD);
 
 #REMOVE:DemPronWO-NPhead-NomSg	(Pron Sg Nom)	IF (*1C (N Sg Nom) BARRIER NOT-NPMOD);
 #REMOVE:DemPronWO-NPhead-NomPl	(Pron Pl Nom)	IF (*1C (N Pl Nom) BARRIER NoNPpossible);
