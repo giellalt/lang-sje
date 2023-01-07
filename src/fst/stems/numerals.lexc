@@ -46,9 +46,9 @@ gákktse:gákkts NUMe "åtta, eight" ;
 
 LEXICON CARDsuppletive
 nålla:nål'la NUM0 "noll, zero" ;
-vuostas:vuostas ORDsuppl "först, first" ;
-mubbe:mubbe ORDsuppl "andra, second/other" ;
-mubbe+Use/NG:nubbe ORDsuppl "andra, second/other" ;
+vuostas:vuostas ORDsuppl1 "först, first" ;
+mubbe:mubbe ORDsuppl2 "andra, second/other" ;
+mubbe+Use/NG:nubbe ORDsuppl2 "andra, second/other" ;
 mubbe+Use/NG+A+Ord+Sg+Acc:nubbe%>v K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. pit100405b.052)
 mubbe+Use/NG+A+Ord+Sg+Ine:nubbe%>n K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
 mubbe+A+Ord+Pl+Gen:mubbe%>j K "the others'" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19210000a-lagercrantz1957a-426.061)
@@ -123,16 +123,25 @@ LEXICON NumCase ! case forms for Numerals
 
 !ORDINAL forms (add cases later)
 LEXICON ORD
-+A+Ord:át^WG # ;
++A+Attr+Ord:át^WG # ;
++A+Ord+Sg+Nom:át^WG # ;
 
 LEXICON ORD7
-+A+Ord:et # ;
++A+Attr+Ord:et # ;
++A+Ord+Sg+Nom:et # ;
 
 LEXICON ORD10
-+A+Ord:át # ;
++A+Attr+Ord:át # ;
++A+Ord+Sg+Nom:át # ;
 
-LEXICON ORDsuppl !suppletive ordinal forms
-+A+Ord: # ;
+LEXICON ORDsuppl1 !suppletive ordinal forms for vuostas
++A+Attr+Ord: # ;
++A+Ord+Sg+Nom: # ;
+
+LEXICON ORDsuppl2 !suppletive ordinal forms for mubbe
++A+Attr+Ord: # ;
++A+Ord+Sg+Nom: # ;
++A+Ord+Sg+Ill:%>j^V2E2AA # ;
 
 
 

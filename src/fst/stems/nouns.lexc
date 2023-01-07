@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-01-06T17:23:37+02:00
+! Generated at: 2023-01-07T10:18:55+02:00
 
 !! # Pite Saami Nouns
 
@@ -214,6 +214,7 @@ blárre:blárre N_EVEN "sheet, leaf (of paper)" ; ! no. 2922
 bluvvsa:bluvvsa N_EVEN "blouse" ; ! no. 1352
 blyetjpänna:blyetj#pien'na N_EVEN "pencil" ; ! no. 3739
 brievva:brievva N_EVEN "letter" ; ! no. 3406
+brihkka:brihkka N_EVEN "ear tag" ; ! no. 91486
 bruddne:bruddne N_EVEN "well" ; ! no. 3453
 bruvdna:bruvdna N_EVEN "bridge" ; ! no. 3413
 bruvvda:bruvvda N_EVEN "bride" ; ! no. 3423
@@ -433,7 +434,6 @@ gávdne:gávdne N_EVEN "thing, object" ; ! no. 577
 gávnadimsadje:gávnadim#sadje N_EVEN "meeting place" ; ! no. 5741
 gávva:gávva N_EVEN "bend, curve" ; ! no. 3518
 gávvtja:gávvtja N_EVEN "silver chalice with handles" ; ! no. 6010
-getjukmiesse:getjuk#miesse N_EVEN "unmarked calf" ; ! no. 4902
 gibme:gibme N_EVEN "capercaillie's mating display" ; ! no. 604
 girradállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
 giedtsvuolle:giedts#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
@@ -2160,6 +2160,7 @@ gálsok:gálsog2 N_ODD "leather trousers (legs sewn from leg hide of reindeer)" 
 gárgŋel:gárgŋel N_ODD "elbow" ; ! no. 542
 gáskek:gáskeg2 N_ODD "castrated reindeer" ; ! no. 5208
 gesitj:gesitj N_ODD "lots of snow, thick cover of snow" ; ! no. 6052
+getjuk:getjug2 N_ODD "unmarked" ; ! no. 91485
 giedjek:giedjeg2 N_ODD "flower" ; ! no. 585
 giehtatjállej:giehta#tjállej N_ODD "secretary" ; ! no. 5813
 giedjek+Use/NG:giejjeg2 N_ODD "flower" ; ! no. 91412
