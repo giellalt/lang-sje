@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-01-07T10:18:55+02:00
+! Generated at: 2023-01-11T13:03:05+02:00
 
 !! # Pite Saami Nouns
 
@@ -1967,9 +1967,9 @@ sjnjilltjamánno:sjnjilltja#mánno N_EVEN_O "July" ; ! no. 1587
 sjnjugglo:sjnjugglo N_EVEN_O "owl" ; ! no. 90551
 sjvahtjo:sjvahtjo N_EVEN_O "movement, motion" ; ! no. 1606
 skallo:skallo N_EVEN_O "confirmation, communion" ; ! no. 1616
-skarro:skarro N_EVEN_O "place where tent cloth overlaps" ; ! no. 5851
 skábmo:skábmo N_EVEN_O "shame" ; ! no. 4373
 skáhppo:skáhppo N_EVEN_O "wooden cheese mold or box" ; ! no. 1613
+skárro:skárro N_EVEN_O "place where tent cloth overlaps" ; ! no. 5851
 skirrto:skirrto N_EVEN_O "shirt" ; ! no. 1642
 skuvvdo:skuvvdo N_EVEN_O "ax sheath" ; ! no. 5131
 skåhto:skåhto N_EVEN_O "womb" ; ! no. 1653
