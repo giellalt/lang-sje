@@ -208,6 +208,12 @@ LEXICON N_ODD_V2E2AA !odd-syllable with change in V2 from E to Á, eg. åres->å
 +N:^V2E2AA N_ODD_X ;
 +N:^V2E2AA N_ODD_DIM ; !link to DIM
 
+LEXICON N_ODD_V2E2AA_G3 !odd-syllable with change in V2 from E to Á without C-gradation, eg. vähttjer->vähttjára-; ALWAYS followed by -s- or -r-
++N+Sg+Nom:%> K ;
++N:^V2E2AA N_ODD_X ;
++N:^V2E2AA N_ODD_DIM ; !link to DIM
+
+
 !LEXICON N_ODD_WG_aH !odd-syllable noun with CGrad, nom.sg ends in -a, extension in -ah-, eg. ruma<->rubmah-
 !+N+Sg+Nom:a^WG%> K ;
 !+N:ah N_ODD_X ;

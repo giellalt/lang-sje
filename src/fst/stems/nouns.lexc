@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-01-11T13:03:05+02:00
+! Generated at: 2023-01-11T16:10:54+02:00
 
 !! # Pite Saami Nouns
 
@@ -2515,15 +2515,13 @@ vuola:vu^Ollag N_ODD_OPEN "inebriation, drunkenness; beer" ; ! no. 91034
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
 árrvobáhper:árrvo#báhpper N_ODD_V2E2AA "security paper" ; ! no. 4177
 báhper:báhpper N_ODD_V2E2AA "paper" ; ! no. 110
-bissmer:bissmer N_ODD_V2E2AA "steelyard" ; ! no. 3267
+bismer:bissmer N_ODD_V2E2AA "steelyard balance" ; ! no. 3267
 bäggagálles:bägga#gál'les N_ODD_V2E2AA "wind god" ; ! no. 2499
-gahper:gahper N_ODD_V2E2AA "cap (part of traditional dress)" ; ! no. 6765
 garber:garber N_ODD_V2E2AA "unripe berry" ; ! no. 90542
 gáhker:gáhkker N_ODD_V2E2AA "winter scat of reindeer or moose" ; ! no. 3933
 gálles:gál'les N_ODD_V2E2AA "notable person" ; ! no. 3881
 gieles:gielles N_ODD_V2E2AA "lie, untruth" ; ! no. 613
 guoktes:gu^Okktes N_ODD_V2E2AA "twosome" ; ! no. 90200
-guähpper:gu^Ohpper N_ODD_V2E2AA "hoof" ; ! no. 684
 gålmes:gålbmes N_ODD_V2E2AA "bark sliced into during sap season" ; ! no. 2470
 kánser:kánser N_ODD_V2E2AA "cancer" ; ! no. 3521
 kåpter:kåpter N_ODD_V2E2AA "helicopter" ; ! no. 4226
@@ -2532,12 +2530,14 @@ nager:nahker N_ODD_V2E2AA "sleep, tiredness" ; ! no. 90555
 nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 báhper+Use/NG:páhpper N_ODD_V2E2AA "paper" ; ! no. 90700
 sáddebáhper:sádde#báhpper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
-sáhpes:sáhpes N_ODD_V2E2AA "small intestine" ; ! no. 90311
+sáhpes:sáhppes N_ODD_V2E2AA "small intestine" ; ! no. 90311
 skuhter:skuhtter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
 vuanntsáåres:vuanntsá#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 vuonjes:vu^Odnjes N_ODD_V2E2AA "mallard (duck)" ; ! no. 2185
-vähttjer:vä2httj^G3er N_ODD_V2E2AA "hammer" ; ! no. 2106
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
+gahper:gahper N_ODD_V2E2AA_G3 "cap (part of traditional dress)" ; ! no. 6765
+guähpper:gu^Ohpper N_ODD_V2E2AA_G3 "hoof" ; ! no. 684
+vähttjer:vä2httjer N_ODD_V2E2AA_G3 "hammer" ; ! no. 2106
 bårdnos:bårdnos N_ODD_VH "back part of a boat or Saami sled" ; ! no. 6793
 dåbbos:dåbbos N_ODD_VH "packsaddle blanket" ; ! no. 91431
 gielom:giellom N_ODD_VH "coagulated blood" ; ! no. 91303
