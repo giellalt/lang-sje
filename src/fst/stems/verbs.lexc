@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2022-12-12T18:15:01+02:00
+! Generated at: 2023-01-12T19:36:38+02:00
 
 !! # Pite Saami Verbs
 
@@ -1196,7 +1196,7 @@ därrjedit:därrjed2 V_ODD "curse, swear" ; ! no. 440
 därustit:dä2rust V_ODD "speak Swedish/Norwegian" ; ! no. 91232
 fádmastit:fádmast V_ODD "hug, embrace" ; ! no. 2410
 fággadit:fággad2 V_ODD "struggle, wrestle" ; ! no. 464
-fáhtadit:fáhtad2 V_ODD "capture, catch" ; ! no. 2651
+fáhtádit:fáhtád2 V_ODD "capture, catch" ; ! no. 2651
 fádmastit+Use/NG:fármast V_ODD "hug, embrace" ; ! no. 90563
 fielastit:fielast V_ODD "travel" ; ! no. 2813
 fielbardit:fielbard2 V_ODD "drift (for snow)" ; ! no. 4012
