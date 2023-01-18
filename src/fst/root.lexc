@@ -87,6 +87,7 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +Cmp	   	  !!= * @CODE@ Compound
 +TV		   	  !!= * @CODE@ Transitive verb
 +IV		   	  !!= * @CODE@ Intransitive verb
++Vsubst	   	  !!= * @CODE@ "actio" verb
 
 !! Other tags
 +ABBR	   	  !!= * @CODE@ Abbreviation
@@ -101,6 +102,7 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +Der/NomAg 	  !!= * @CODE@ Derived agent noun
 +Der/Dimin 	  !!= * @CODE@ Derived diminutive
 +Der/State 	  !!= * @CODE@ Derived state noun
++Der/VAdv 	  !!= * @CODE@ Derived deverbal adverb
 
 
 !! ### Nominal MSP
