@@ -66,6 +66,7 @@ Infinite forms
 * +Cmp	   	   Compound
 * +TV		   	   Transitive verb
 * +IV		   	   Intransitive verb
+* +Vsubst	   	   "actio" verb
 
 Other tags
 * +ABBR	   	   Abbreviation
@@ -79,6 +80,7 @@ Derivation tags
 * +Der/NomAg 	   Derived agent noun
 * +Der/Dimin 	   Derived diminutive
 * +Der/State 	   Derived state noun
+* +Der/VAdv 	   Derived deverbal adverb
 
 ### Nominal MSP
 * +Sg 	   Singular
