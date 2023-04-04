@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-01-12T19:36:38+02:00
+! Generated at: 2023-04-04T15:53:04+03:00
 
 !! # Pite Saami Verbs
 
@@ -119,6 +119,7 @@ gällgit:gä2llgi V_CONTR "give, stretch" ; ! no. 786
 gärrdut:gä2rrdu V_CONTR "twist, spin" ; ! no. 789
 gävdnut:gä2vdnu V_CONTR "be, exist" ; ! no. 794
 gävvit:gä2vvi V_CONTR "accept responsibility for someone else’s reindeer" ; ! no. 4440
+herrvit:herrvi V_CONTR "decorate" ; ! no. 91489
 himmsit:himmsi V_CONTR "mess" ; ! no. 6880
 hinnit:hinni V_CONTR "manage on time" ; ! no. 4926
 hivvát:hivvá V_CONTR "become thin, become sick" ; ! no. 3921
@@ -1352,6 +1353,7 @@ hälijdit:hä2lijd2 V_ODD "desire, want to have" ; ! no. 90845
 hämmsanit:hä2mmsan V_ODD "be mixed up, become confused, become chaotic" ; ! no. 91212
 hämmsárit:hä2mmsár V_ODD "mix, blend" ; ! no. 867
 härridit:hä2rrid2 V_ODD "imitate" ; ! no. 869
+härrvanit:hä2rrvan V_ODD "become decorated" ; ! no. 91490
 idjadit:idjad2 V_ODD "sleep over" ; ! no. 6895
 ieljadit:ieljad2 V_ODD "manage" ; ! no. 5162
 ieredit:iered2 V_ODD "change a reindeer earmark" ; ! no. 455

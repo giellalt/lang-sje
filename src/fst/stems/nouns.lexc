@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-01-11T16:10:54+02:00
+! Generated at: 2023-04-04T15:50:13+03:00
 
 !! # Pite Saami Nouns
 
@@ -234,7 +234,7 @@ bunndi:bunndi N_EVEN "farmer" ; ! no. 205
 bunndudahka:bunndudahka N_EVEN "wealth" ; ! no. 90535
 buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
 buogŋa:bu^Ogŋa N_EVEN "space above the belt in a Saami frock" ; ! no. 3023
-buohtja:bu^Ohtja N_EVEN "penis" ; ! no. 4538
+buohtja:bu^Ohtja N_EVEN "male genitals, penis" ; ! no. 4538
 buohtsa:bu^Ohtsa N_EVEN "small round bone between femur and marrowbone" ; ! no. 5014
 buoldáddjá:buold#áddjá N_EVEN "bear" ; ! no. 3617
 burra:bur'ra N_EVEN "storage pit" ; ! no. 5830
@@ -482,10 +482,10 @@ grásse:grásse N_EVEN "grass" ; ! no. 3604
 grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
 grubba:grub'ba N_EVEN "pit" ; ! no. 91151
 guabbla:gu^Obbla N_EVEN "cornice, hanging ice in a stream" ; ! no. 3540
-guanná+Use/NG:gu^Oddna N_EVEN "female genitals" ; ! no. 90498
+guanná+Use/NG:gu^Oddna N_EVEN "female genitals, vagina" ; ! no. 90498
 guajjka:gu^Ojjka N_EVEN "rapids" ; ! no. 90982
 guallga:gu^Ollga N_EVEN "fur" ; ! no. 2871
-guanná:gu^On'ná N_EVEN "female genitals" ; ! no. 4881
+guanná:gu^On'ná N_EVEN "female genitals, vagina" ; ! no. 4881
 guappsa:gu^Oppsa N_EVEN "milt" ; ! no. 4370
 guarrba:gu^Orrba N_EVEN "burned area (from forest fire)" ; ! no. 650
 guarrga:gu^Orrga N_EVEN "crane (bird)" ; ! no. 652
@@ -591,6 +591,7 @@ hälbme:hielbme N_EVEN "hem on a skirt" ; ! no. 865
 hällja:hä2llja N_EVEN "holiday, festival" ; ! no. 91422
 härrá:hier'rá N_EVEN "pastor" ; ! no. 868
 härrge:hierrge N_EVEN "domestic reindeer buck, castrated reindeer buck" ; ! no. 870
+härrva:hierrva N_EVEN "decoration, ornament" ; ! no. 91488
 hässta+CmpN/SgN+CmpN/SgG:hiessta N_EVEN "horse" ; ! no. 4932
 häffne+Use/NG:hievdne N_EVEN "spider" ; ! no. 90418
 ibme:ibme N_EVEN "uncle’s wife" ; ! no. 872
@@ -667,7 +668,7 @@ kruappta:kru^Oppta N_EVEN "crypt, outdoor grave" ; ! no. 981
 kruassa:kru^Os'sa N_EVEN "cross" ; ! no. 2486
 kruossadákkte:kruossa#dákkte N_EVEN "lumbar vertebrae" ; ! no. 2853
 kruossatjårrve:kruossa#tjårrve N_EVEN "crossed antler" ; ! no. 90256
-krussa:krussa N_EVEN "jug, pitcher, crock" ; ! no. 91045
+krussa:krus'sa N_EVEN "jug, pitcher, crock" ; ! no. 91045
 kruvdna:kruvdna N_EVEN "crown (currency)" ; ! no. 983
 kruähkke:kru^Ohkke N_EVEN "clasp, hook" ; ! no. 982
 kuarrta:ku^Orrta N_EVEN "quarter" ; ! no. 3676
@@ -2566,7 +2567,7 @@ barrgat+V+Der/NomAg:barrgej N_ODD_WG "worker" ; ! no. 4683
 báktjas:bákktjas N_ODD_WG "pain" ; ! no. 5739
 bierjas:bierrjas N_ODD_WG "cloth rain covering smoke hole in a tent kåta" ; ! no. 176
 bievas:bievvas N_ODD_WG "sweat" ; ! no. 4218
-buäjjdetjálmas:buäjjde#tjálmas N_ODD_WG "reticulum filled with fat" ; ! no. 5831
+buäjjdetjálmas:buäjjde#tjálbmas N_ODD_WG "reticulum filled with fat" ; ! no. 5831
 bålås:bållås N_ODD_WG "rain or snow shower" ; ! no. 245
 bårjås:bårrjås N_ODD_WG "sail" ; ! no. 248
 båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
@@ -2622,7 +2623,7 @@ suhkamvanás:suhkam#vadnás N_ODD_WG "rowboat" ; ! no. 5146
 sujtár:sujjtár N_ODD_WG "herder, keeper" ; ! no. 1759
 suorbmas:su^Orbmas N_ODD_WG "ring" ; ! no. 1772
 svájnas:svájdnas N_ODD_WG "male servant, assistant" ; ! no. 1791
-tjálmas:tjálmas N_ODD_WG "reticulum (the second reindeer stomach)" ; ! no. 2849
+tjálmas:tjálbmas N_ODD_WG "reticulum (the second reindeer stomach)" ; ! no. 2849
 tjiegar:tjiehkar N_ODD_WG "area with holes dug by grazing reindeer" ; ! no. 3274
 tjiehtsev:tjiehttsev N_ODD_WG "niece, nephew (brother’s child)" ; ! no. 3417
 tjieskas:tjiesskas N_ODD_WG "piece of firewood" ; ! no. 3411
