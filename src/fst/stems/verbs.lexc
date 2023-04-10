@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-04-10T08:38:25+03:00
+! Generated at: 2023-04-10T18:23:33+03:00
 
 !! # Pite Saami Verbs
 
@@ -554,7 +554,7 @@ sjinnjudallat:sjinnjudall V_EVEN_A "squint" ; ! no. 5709
 sjkuhtjat:sjkuhtj V_EVEN_A "giggle" ; ! no. 5120
 sjnjabbrat:sjnjabbr V_EVEN_A "become wet (for hide)" ; ! no. 3356
 sjnjuhtjat:sjnjuhtj V_EVEN_A "sharpen, sharpen (a pencil)" ; ! no. 1588
-sjnjuvvat:sjnjuvv V_EVEN_A "kindle (a fire)" ; ! no. 1591
+sjnjuvvat:sjnjuvv V_EVEN_A "flare up" ; ! no. 1591
 sjvahtjat:sjvahtj V_EVEN_A "move, exercise" ; ! no. 1605
 sjähttat:sjiehtt V_EVEN_A "fit well with, be appropriate" ; ! no. 1610
 sjäkktjat:sjiekktj V_EVEN_A "check secretly" ; ! no. 4152
@@ -822,6 +822,7 @@ vihtanasstet:vihtanasst V_EVEN_E "witness" ; ! no. 3307
 vuasstalasstet:vuasstalasst V_EVEN_E "resist" ; ! no. 2197
 vuodjet:vu^Odj V_EVEN_E "drive" ; ! no. 2371
 vuohtjet:vu^Ohtj V_EVEN_E "discharge, shoot" ; ! no. 3160
+vuojedahttet:vuojedahtt V_EVEN_E "let (something) be driven or pushed" ; ! no. 90190
 vuodjet+Use/NG:vu^Ojj V_EVEN_E "drive" ; ! no. 90945
 vuäbbdet:vu^Obbd V_EVEN_E "sell" ; ! no. 2202
 vuähttet:vu^Ohtt V_EVEN_E "discover a track or trace" ; ! no. 5461
@@ -1757,9 +1758,9 @@ vágodit:vágod2 V_ODD "admonish, warn" ; ! no. 2051
 vájaldit:vájald2 V_ODD "stroll" ; ! no. 2059
 vájbadit:vájbad2 V_ODD "tire out" ; ! no. 5358
 válgostit:válgost V_ODD "set out a string of fishing nets" ; ! no. 91244
-várodit:várod2 V_ODD "warn" ; ! no. 2083
 várrdahit:várrdah V_ODD "watch, keep watch" ; ! no. 2082
 várrjalit:várrjal V_ODD "protect, defend" ; ! no. 2090
+várrodit:várrod2 V_ODD "warn" ; ! no. 2083
 vásstedit:vássted2 V_ODD "answer" ; ! no. 90670
 vejudit:vejud2 V_ODD "polish (silver, brass)" ; ! no. 91253
 velgudit:velgud2 V_ODD "become white, paler, lighter (in color)" ; ! no. 91353
