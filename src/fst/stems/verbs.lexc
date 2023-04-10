@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from J. Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
-! Generated at: 2023-04-04T15:53:04+03:00
+! Generated at: 2023-04-10T08:38:25+03:00
 
 !! # Pite Saami Verbs
 
@@ -89,6 +89,7 @@ dullvit:dullvi V_CONTR "have a flood" ; ! no. 90643
 durrgit:durrgi V_CONTR "lay out branches in a Saami hut" ; ! no. 90538
 durrut:durru V_CONTR "start to argue or fight" ; ! no. 90644
 dällit:dä2lli V_CONTR "pack shoe hay in shoes" ; ! no. 438
+fejjlut:fejjlu V_CONTR "be lacking, be missing" ; ! no. 2068
 ferrjit:ferrji V_CONTR "color" ; ! no. 2476
 fevvrit:fevvri V_CONTR "transport" ; ! no. 5549
 filbmit:filbmi V_CONTR "film" ; ! no. 91467
