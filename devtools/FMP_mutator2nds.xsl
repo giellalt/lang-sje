@@ -77,7 +77,7 @@ For the full license text, see the link above.</lic><ref>Lexicographic work done
      <a>mailto:psdp@gmx.de</a> and/or <a>mailto:giellatekno@uit.no</a>.
      Please also note that the entries are not necessarily sorted,
      or could be wrongly sorted.
-** This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This xml file was extracted from J. Wilbur's Pite Saami lexcial database (FileMaker Pro). Translations and item numbers are from that database; see also http://saami.uni-freiburg.de/psdp/pite-lex/
+** This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This xml file was extracted from Joshua Wilbur's Pite Saami lexcial database (FileMaker Pro). Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
 ** Generated at: <xsl:value-of select="concat(date:date-time(),$nl)"/>
 
 </sourcenote></lics>
