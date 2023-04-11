@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-04-11T06:18:43+03:00
+! Generated at: 2023-04-11T19:03:28+03:00
 
 !! # Pite Saami Verbs
 
@@ -1470,6 +1470,7 @@ målåstit:målåst V_ODD "pass one another" ; ! no. 4984
 mårádit:mårád2 V_ODD "become angry" ; ! no. 1211
 mårrolit:mårrol V_ODD "turn out to be wicked" ; ! no. 3135
 mähttjánit:mä2httján V_ODD "withdraw, make room, move over" ; ! no. 3164
+mähttsedit:mähttsed2 V_ODD "be in the forest" ; ! no. 91492
 nagadit:nagad2 V_ODD "manage, be able" ; ! no. 1233
 nagerdit:nagerd2 V_ODD "become tired" ; ! no. 90289
 nammadit:nammad2 V_ODD "name someone, call someone his/her name" ; ! no. 1241
