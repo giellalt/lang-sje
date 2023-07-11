@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-05-02T13:25:02+03:00
+! Generated at: 2023-07-11T11:47:30+03:00
 
 !! # Pite Saami Nouns
 
@@ -747,8 +747,6 @@ läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
 läjjdishärrge:läjjdis#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
 lävvka:lievvka N_EVEN "silty moist clay, expansive clay" ; ! no. 1105
-maddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
-maddaráhkká:maddar#áhkká N_EVEN "female ancestor; mother earth" ; ! no. 3062
 mahte:mahte N_EVEN "a bit" ; ! no. 90569
 majoritähtta:majoritiehtta N_EVEN "majority" ; ! no. 5982
 malle:malle N_EVEN "pattern, template" ; ! no. 3736
@@ -760,6 +758,8 @@ maŋepnamma:maŋep#namma N_EVEN "last name, surname" ; ! no. 3966
 maŋŋegiehtje:maŋŋe#giehtje N_EVEN "back part, back side" ; ! no. 1138
 marrsa:marrsa N_EVEN "March" ; ! no. 91082
 marrta:marrta N_EVEN "marten" ; ! no. 1141
+máddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
+máddaráhkká:maddar#áhkká N_EVEN "female ancestor; mother earth" ; ! no. 3062
 máhka:máhka N_EVEN "brother-in-law" ; ! no. 3637
 máhttelis+A+Der/State:máhttelisvu^Ohta N_EVEN "possibility" ; ! no. 6533
 májjde:májjde N_EVEN "buckle" ; ! no. 1119
@@ -1575,7 +1575,7 @@ ierádis:ierád N_EVEN4_ISA "an altered reindeer earmark diverging from the main
 jiehtanis:jiehtan N_EVEN4_ISA "giant" ; ! no. 4210
 jielagis:jielag N_EVEN4_ISA "cold, clear weather" ; ! no. 3479
 máhkanis:máhkan N_EVEN4_ISA "six-year-old reindeer buck" ; ! no. 4354
-mujjtulis:mujjtul N_EVEN4_ISA "memory, story" ; ! no. 90283
+mujjtolis:mujjtol N_EVEN4_ISA "memory, story" ; ! no. 90283
 náranis:náran N_EVEN4_ISA "abscess, boil" ; ! no. 1245
 nieljagis:nieljag N_EVEN4_ISA "quarter" ; ! no. 5270
 njinnjelis:njinnjel N_EVEN4_ISA "reindeer cow" ; ! no. 1290
@@ -2246,8 +2246,8 @@ luomek:lu^Omeg2 N_ODD "lemming, Norwegian lemming" ; ! no. 1068
 luorrak:lu^Orrag2 N_ODD "bear skin" ; ! no. 2795
 låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
-maddar:maddar N_ODD "root, fore-" ; ! no. 90620
 máddak:máddag2 N_ODD "size" ; ! no. 1109
+máddar:máddar N_ODD "root, fore-" ; ! no. 90620
 mehtir:mehtir N_ODD "meter" ; ! no. 90634
 mejdnik:mejdnig2 N_ODD "opinion" ; ! no. 1151
 mierrem+Use/NG:mieddem^WG N_ODD "roe" ; ! no. 1149
