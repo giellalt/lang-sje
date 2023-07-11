@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-07-11T11:47:30+03:00
+! Generated at: 2023-07-11T13:54:56+03:00
 
 !! # Pite Saami Nouns
 
@@ -758,8 +758,8 @@ maŋepnamma:maŋep#namma N_EVEN "last name, surname" ; ! no. 3966
 maŋŋegiehtje:maŋŋe#giehtje N_EVEN "back part, back side" ; ! no. 1138
 marrsa:marrsa N_EVEN "March" ; ! no. 91082
 marrta:marrta N_EVEN "marten" ; ! no. 1141
-máddaráddjá:maddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
-máddaráhkká:maddar#áhkká N_EVEN "female ancestor; mother earth" ; ! no. 3062
+máddaráddjá:máddar#áddjá N_EVEN "male ancestor" ; ! no. 3061
+máddaráhkká:máddar#áhkká N_EVEN "female ancestor; mother earth" ; ! no. 3062
 máhka:máhka N_EVEN "brother-in-law" ; ! no. 3637
 máhttelis+A+Der/State:máhttelisvu^Ohta N_EVEN "possibility" ; ! no. 6533
 májjde:májjde N_EVEN "buckle" ; ! no. 1119
