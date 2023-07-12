@@ -369,7 +369,7 @@ LEXICON A_GIENES ! gienes/gienes/gädnása/?/?
 
 LEXICON A_GIENES_s2 
 +Sg+Nom:s^WG%> K ; 
-+Pl+Nom:s^V2E2AA%>a K ; 
++Pl+Nom:s^V2E2AA N_ODD_X ; 
 !+Comp:^V2E2AA A_EVEN_COMP ;
 !+Superl:^V2E2AA A_EVEN_SUP ;
 
