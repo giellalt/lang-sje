@@ -326,7 +326,7 @@ Cx:0 <=> Vow: _ %^WG: %^CDEL: ;
 !! **@RULENAME@**  
 Cx:Cy <=> _ (%^WG:) (%>:) # ;
     where Cx in ( b2 d2 g2 )
-          Cy in ( p  t 	k )
+          Cy in ( p  t  k )
           matched ; 
 
 ! !!€ gål'leg2
@@ -353,10 +353,13 @@ t2:0 <=> s _ .#. ;
 ! !!€ burist2
 ! !!€ buris0
 
-"Word-final De-Affricatization for tj " !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
+"Word-final De-Affricatization for tj" !variation (eg. dim-suffix) (descriptive, not normative) (sj - tj word-finally)
 !! **@RULENAME@**  
 s:t <=> _ j2: .#. ;
 
+"Word-final reduction for dtj" !dtj->tj, e.g. såbmelatj<->såbmeladtja
+!! **@RULENAME@**  
+d:0 <=> [a|á] _ t j (%>:0) # ;
 
 
 
