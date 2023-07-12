@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-07-12T09:13:27+03:00
+! Generated at: 2023-07-12T14:31:19+03:00
 
 !! # Pite Saami Nouns
 
@@ -48,6 +48,7 @@ fáles:fáll N_CONTR_ESAA "whale" ; ! no. 467
 giehpes:giehpp N_CONTR_ESAA "lung" ; ! no. 608
 hábres:hábbr N_CONTR_ESAA "buck (male animal)" ; ! no. 3359
 jalgŋes:jalgŋ N_CONTR_ESAA "upright tree stump" ; ! no. 920
+jådátbálges:jådát#bállg N_CONTR_ESAA "migration trail" ; ! no. 91514
 muolvaksarves:muolvak#sarrv N_CONTR_ESAA "wild reindeer buck" ; ! no. 3835
 njuorges:nju^Orrg N_CONTR_ESAA "cartilage" ; ! no. 1303
 plásses:plás's N_CONTR_ESAA "stone slab" ; ! no. 1349
@@ -152,6 +153,7 @@ bahámiella:bahá#miella N_EVEN "angry mood" ; ! no. 90629
 bahás+A+Der/State:bahásvu^Ohta N_EVEN "painfulness" ; ! no. 4168
 bahta:bahta N_EVEN "bottom, butt" ; ! no. 111
 bahtarájjge:bahta#rájjge N_EVEN "anus" ; ! no. 112
+bajásane+N+Der/NomAg:bajásanedieddje N_EVEN "holder, maintainer" ; ! no. 91517
 bajjka:bajjka N_EVEN "excrement" ; ! no. 121
 balljá:balljá N_EVEN "tub, basin" ; ! no. 3207
 ballva:ballva N_EVEN "cloud" ; ! no. 138
@@ -711,7 +713,6 @@ liebma:liebma N_EVEN "bouillon, broth" ; ! no. 2503
 liehke:liehke N_EVEN "dip in the ground" ; ! no. 1029
 liena:liena N_EVEN "province, county" ; ! no. 91160
 lienasmanne:lienas#man'ne N_EVEN "sheriff, police officer" ; ! no. 91072
-lienastivvrá:liena#stivvrá N_EVEN "provincial administration" ; ! no. 1031
 lierra:lierra N_EVEN "leather" ; ! no. 6565
 lihtte:lihtte N_EVEN "container, bowl" ; ! no. 1044
 lijdne:lijdne N_EVEN "scarf, cloth" ; ! no. 1047
@@ -1142,7 +1143,7 @@ stárra:stárra N_EVEN "city, town" ; ! no. 2558
 stijjla:stijjla N_EVEN "style" ; ! no. 90709
 stilltji:stilltji N_EVEN "snow and ice in the trees" ; ! no. 6003
 stirrgi:stirrgi N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 3778
-stivvrá:stivvrá N_EVEN "management, leadership" ; ! no. 5919
+stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
 struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
@@ -1466,7 +1467,6 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 äddne:ieddne N_EVEN "mother" ; ! no. 2285
 äjjge:iejjge N_EVEN "property" ; ! no. 3976
 älbmukbäjjve:älbmuk#biejjve N_EVEN "day of the (Saami) people" ; ! no. 91218
-älbmukstivvrá:älbmuk#stivvrá N_EVEN "democracy" ; ! no. 3579
 äldja:ieldja N_EVEN "moose" ; ! no. 91251
 ärlugis+A+Der/State:ärlugisvu^Ohta N_EVEN "honesty, integrity" ; ! no. 5917
 ärra:ier'ra N_EVEN "scar" ; ! no. 4805
@@ -1662,6 +1662,7 @@ libba:libba N_EVEN_NOCG "lamb" ; ! no. 2757
 luadda:lu^Odda N_EVEN_NOCG "footprint, track" ; ! no. 1056
 lulátbägga:lulát#biegga N_EVEN_NOCG "easterly wind" ; ! no. 1061
 luorra+Use/NG:lu^Odda N_EVEN_NOCG "ammunition, shot" ; ! no. 90432
+luojtatgädde:luojtat#giedde N_EVEN_NOCG "meadow for releasing reindeer" ; ! no. 91515
 luojtavbádde:luojtav#bádde N_EVEN_NOCG "rope tying a stick to a fishing net for ice fishing" ; ! no. 3468
 luägge:lu^Ogge N_EVEN_NOCG "canine sphincter" ; ! no. 4163
 lådde:lådde N_EVEN_NOCG "bird" ; ! no. 1083
@@ -2159,6 +2160,7 @@ gállok:gállog2 N_ODD "shoe made of leather from a reindeer's forehead" ; ! no.
 gálsok:gálsog2 N_ODD "leather trousers (legs sewn from leg hide of reindeer)" ; ! no. 528
 gárgŋel:gárgŋel N_ODD "elbow" ; ! no. 542
 gáskek:gáskeg2 N_ODD "castrated reindeer" ; ! no. 5208
+gerun:gerun N_ODD "rock ptarmigan" ; ! no. 635
 gesitj:gesitj N_ODD "lots of snow, thick cover of snow" ; ! no. 6052
 getjuk:getjug2 N_ODD "unmarked" ; ! no. 91485
 giedjek:giedjeg2 N_ODD "flower" ; ! no. 585
@@ -2166,7 +2168,6 @@ giehtatjállej:giehta#tjállej N_ODD "secretary" ; ! no. 5813
 giedjek+Use/NG:giejjeg2 N_ODD "flower" ; ! no. 91412
 gielak:gielag2 N_ODD "-speaking" ; ! no. 90758
 gieratj:gieratj N_ODD "black woodpecker" ; ! no. 615
-gieron:gieron N_ODD "rock ptarmigan" ; ! no. 635
 giessam:giessam N_ODD "large plug of tobacco" ; ! no. 6640
 giesseiednam:giesse#iednam N_ODD "summer land" ; ! no. 6059
 giesset+V+Der/NomAg:giessej N_ODD "dragger, puller" ; ! no. 91018
@@ -2248,7 +2249,7 @@ luorrak:lu^Orrag2 N_ODD "bear skin" ; ! no. 2795
 låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
 máddak:máddag2 N_ODD "size" ; ! no. 1109
-máddar:máddar N_ODD "root, fore-" ; ! no. 90620
+máddar:máddar N_ODD "root, fore-; ancestor" ; ! no. 91521
 mehtir:mehtir N_ODD "meter" ; ! no. 90634
 mejdnik:mejdnig2 N_ODD "opinion" ; ! no. 1151
 mierrem+Use/NG:mieddem^WG N_ODD "roe" ; ! no. 1149
@@ -2401,7 +2402,6 @@ tjiebot+Use/NG:tjiebed2 N_ODD "throat, neck" ; ! no. 90949
 tjiebot:tjiebod2 N_ODD "throat, neck" ; ! no. 1900
 tjiedmak:tjiedmag2 N_ODD "reindeer with small light spots on it’s nose and forehead" ; ! no. 2563
 tjiehtár:tjiehtár N_ODD "servant" ; ! no. 4377
-tjierbmak:tjierbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tjijjkár:tjijjkár N_ODD "binoculars" ; ! no. 91237
 tjijjlomehtir:tjijjlo#mehtir N_ODD "kilometer" ; ! no. 5217
 tjilgim:tjilgim N_ODD "reindeer with small hooves" ; ! no. 1908
@@ -2419,6 +2419,7 @@ tjåhkom:tjåhkom N_ODD "comb" ; ! no. 1961
 tjårvemáddak:tjårve#máddag2 N_ODD "base of reindeer antlers" ; ! no. 2380
 tjåsskem:tjåsskem N_ODD "cold" ; ! no. 91508
 tjäjjsár:tjä2jjsár N_ODD "emperor" ; ! no. 5901
+tjärbmak:tjä2rbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
 tseggim:tseggim N_ODD "rock pile, cairn" ; ! no. 6521
 tsieban:tsieban N_ODD "shrew mouse" ; ! no. 4348
 tsieggán:tsieggán^WG N_ODD "wood frame for Saami tent" ; ! no. 2007
@@ -2447,7 +2448,7 @@ vidak:vidag2 N_ODD "five crown coin" ; ! no. 4051
 viejek:viejeg2 N_ODD "fish larva, young fish" ; ! no. 2117
 vieljatj:vieljatj N_ODD "brother" ; ! no. 90384
 vienak:vienag2 N_ODD "friend" ; ! no. 2353
-vieralt:vierald2 N_ODD "world" ; ! no. 2120
+vierált:vieráld2 N_ODD "world" ; ! no. 2120
 vierrek:vierreg2 N_ODD "family, relatives" ; ! no. 2109
 viessot+V+Der/NomAg:viessoj N_ODD "a living being" ; ! no. 90377
 viessom:viessom N_ODD "life, lifestyle" ; ! no. 5453
@@ -2471,6 +2472,7 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 åjvåk:åjvåg2 N_ODD "oldest brother" ; ! no. 2254
 årek:åreg2 N_ODD "one-year-old reindeer buck" ; ! no. 2261
 årrben:årrben N_ODD "sibling" ; ! no. 2264
+årromiednam:årrom#iednam N_ODD "settlement area" ; ! no. 91512
 åråk:åråg2 N_ODD "new-born puppy" ; ! no. 90294
 åvvdåmannam:åvvdåmannam N_ODD "lower front branch on male reindeer’s antlers" ; ! no. 91481
 ähppár:ä2hppár N_ODD "ghost of a murdered, unbaptized baby" ; ! no. 4312
@@ -2484,6 +2486,7 @@ aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
 állgotjála:állgo#tjállag N_ODD_OPEN "draft, rough copy" ; ! no. 5991
 badjemádda:badje#máddag N_ODD_OPEN "upper part of reindeer antlers" ; ! no. 2376
 biena+CmpN/SgN+CmpN/SgG:biednag N_ODD_OPEN "dog" ; ! no. 160
+biera:bierrah N_ODD_OPEN "relative" ; ! no. 91516
 buallja:bu^Olljas N_ODD_OPEN "clear-cut forest" ; ! no. 5994
 garrásgiera:garrás#gierrag N_ODD_OPEN "bronchus" ; ! no. 3415
 gáma:gábmag N_ODD_OPEN "shoe" ; ! no. 531
