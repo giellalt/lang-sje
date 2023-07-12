@@ -317,7 +317,13 @@ REMOVE:ConNeg4 ConNeg IF (NEGATE *-1 Neg BARRIER S-BOUNDARY OR COMMA ) ;
 SELECT:ConNeg1 ConNeg IF (-1 Neg) ;
 SELECT:ConNeg2 ConNeg IF (-2 Neg) ;
 
-
+#pronoun enclitic to negation verb (iv-ma, i-da, ij-sa) #how to match person in rules?
+SELECT:encliticPron1 Pron + Pers + Sg1 + Nom IF (-1C Neg + Prs + Sg1) ; 
+REMOVE:noEncliticPron1 Pron + Pers + Sg1 + Nom IF (NOT -1C Neg + Prs + Sg1) ; 
+SELECT:encliticPron2 Pron + Pers + Sg2 + Nom IF (-1C Neg + Prs + Sg2) ; 
+REMOVE:noEncliticPron2 Pron + Pers + Sg2 + Nom IF (NOT -1C Neg + Prs + Sg2) ; 
+SELECT:encliticPron3 Pron + Pers + Sg3 + Nom IF (-1C Neg + Prs + Sg3) ; 
+REMOVE:noEncliticPron3 Pron + Pers + Sg3 + Nom IF (NOT -1C Neg + Prs + Sg3) ; 
 
 #!! ### Agreement rules for subject NP
 SELECT:Pl1Nom Pl1 + Nom IF (0 Pron)( 1  V + Pl1);

@@ -44,6 +44,7 @@ sån+Pron+Pers+Pl3:s  perspl ;
 
 LEXICON perssg   !!= * **@CODE@**
 +Nom:ån      # ;
++Nom:a      # ; !only encliticized to negation verb, e.g. iv-ma
 +Nom:ånnå    # ;
 +Acc:uv      # ;
 +Gen:uv      # ;
