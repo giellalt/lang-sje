@@ -279,42 +279,30 @@ LEXICON ProperNoun   !!= * **@CODE@**
   <xsl:when test="$PoS = 'adj'">
 <xsl:text>
 
-! original lemmas from A-C and Trond:
-
-almelatj:almelatj A_EVEN_D ;
-gåbbde A_EVEN_B ;
-järbme A_EVEN_B ;
-!maŋŋe A_EVEN_0 ;  !stadieväxling fungerar ej
-njállge A_EVEN_B ; !alternativ attributiv form njálga, alternativ komparering njálgap, njálgamus alt. njállgap, njallgajmus
-sjnuttjo A_EVEN_NOCG_S ;
-tjåvvgå A_EVEN_IES ;
-tjavvga A_EVEN_0 ; ! fungerar
-uhttse A_EVEN_B ; !little
-suddulatj:suddulatj A_EVEN_D ;
-vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
-ávos A_ODD_Å ; !happy, glad
-gilos:gil A_ODD_DD ; !gillus?
-grávvat:grávv A_ODD_S ;
-gullis A_ODD ;
-máhtalk:máhtal A_ODD_GIS ;
-nággár A_ODD ;
-njálmuk:njálmu A_ODD_GIS ;
-njálbmok:njálbmo A_ODD_GIS ;
-nåjdes:nåj A_ODD_SIS ;
-rádes:rád A_ODD_AA ;  !inlagt även alt.form rádep, rádemus
-rádes:rád A_ODD_ÖÖ ;  !inlagt även alt.form rádásup
-rávvat:rávv A_ODD_S ;
-sjlusgos A_ODD_Å ;
-stumbu:stumbu A_ODD_Ä ;
-suddes:sudd A_ODD_AA ; 
-suojmuk:suojmu A_ODD_GIS ;
-tjuavvgat:tju A_ODD_Y ;
-tjuorak:tjuora A_ODD_k_K ;
-tjurguk:tjurgu A_ODD_GIS ;
-låmmsje:låm A_EVEN_KONTR_D ; 
-låmsjes:låm A_EVEN_KONTR_H ; 
-mivkes:miv A_EVEN_KONTR_E ; !soft? muvkes?
-sjtänntjáj:sjtänntjá A_EVEN_KONTR_C ; !slushy?
+! ! remaining original lemmas from A-C and Trond, still need verification/incorporation:
+! 
+! gåbbde A_EVEN_B ;
+! sjnuttjo A_EVEN_NOCG_S ;
+! tjåvvgå A_EVEN_IES ;
+! suddulatj:suddulatj A_EVEN_D ;
+! vuojnodibme A_EVEN_0 ; !bm:m attr. vuojnodis
+! gilos:gil A_ODD_DD ; !gillus?
+! máhtalk:máhtal A_ODD_GIS ;
+! nággár A_ODD ;
+! njálmuk:njálmu A_ODD_GIS ;
+! njálbmok:njálbmo A_ODD_GIS ;
+! nåjdes:nåj A_ODD_SIS ;
+! rádes:rád A_ODD_AA ;  !inlagt även alt.form rádep, rádemus
+! rádes:rád A_ODD_ÖÖ ;  !inlagt även alt.form rádásup
+! rávvat:rávv A_ODD_S ;
+! sjlusgos A_ODD_Å ;
+! stumbu:stumbu A_ODD_Ä ;
+! suddes:sudd A_ODD_AA ; 
+! suojmuk:suojmu A_ODD_GIS ;
+! tjuavvgat:tju A_ODD_Y ;
+! tjuorak:tjuora A_ODD_k_K ;
+! låmmsje:låm A_EVEN_KONTR_D ; 
+! låmsjes:låm A_EVEN_KONTR_H ; 
 
 </xsl:text>
   </xsl:when>
