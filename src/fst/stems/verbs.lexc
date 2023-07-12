@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-04-11T19:03:28+03:00
+! Generated at: 2023-07-12T06:20:36+03:00
 
 !! # Pite Saami Verbs
 
@@ -61,6 +61,7 @@ bullit:bulli V_CONTR "light, ignite" ; ! no. 5522
 bulltjit:bulltji V_CONTR "form ice crust on rocks" ; ! no. 204
 burrit:bur'ri V_CONTR "drill" ; ! no. 4006
 busskit:busski V_CONTR "fart" ; ! no. 196
+buttkit:buttki V_CONTR "tear or break off; break" ; ! no. 91497
 buvvdit:buvvdi V_CONTR "invite, offer" ; ! no. 3316
 byggit:byggi V_CONTR "build" ; ! no. 91413
 bäddit:bä2ddi V_CONTR "record onto tape" ; ! no. 3544
