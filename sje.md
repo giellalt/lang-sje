@@ -172,7 +172,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Word Final Simplification in -st **  
 
-**Word-final De-Affricatization for tj  **  
+**Word-final De-Affricatization for tj **  
+
+**Word-final reduction for dtj **  
 
 ## Vowel rules 
 
