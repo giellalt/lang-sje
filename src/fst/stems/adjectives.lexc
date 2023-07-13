@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-07-12T18:30:11+03:00
+! Generated at: 2023-07-13T13:25:40+03:00
 
 !! # Pite Saami Adjectives
 
@@ -95,23 +95,23 @@ dimes:dibme A_DIMES "soft" ; ! no. 374
 duolvas:du^Ollva A_DIMES "dirty, impure" ; ! no. 400
 duallbat:du^Ollba A_DUALLBAT "flat" ; ! no. 5578
 njuallgat:nju^Ollga A_DUALLBAT "direct, straight, correct" ; ! no. 91484
-aktamielagatj:akta#mielagadtj A_ELULATJ "of one opinion" ; ! no. 3989
-aktasatj:aktasadtj A_ELULATJ "common, mutual" ; ! no. 39
-almelatj:almeladtj A_ELULATJ "heavenly" ; ! no. 91518
-ássjálatj:ássjáladtj A_ELULATJ "accessory, participating, involved" ; ! no. 3571
-bäjjvásatj:bä2jjvásadtj A_ELULATJ "of a day" ; ! no. 90805
-därbulatj:dä2rbuladtj A_ELULATJ "required, needed" ; ! no. 3242
-elulatj:eluladtj A_ELULATJ "rich in reindeer" ; ! no. 3728
-fämulatj:fä2muladtj A_ELULATJ "strong, powerful" ; ! no. 3344
-färrtabäjjvásatj:färrta#bä2jjvásadtj A_ELULATJ "daily" ; ! no. 3548
+aktamielagatj:akta#mielagatj A_ELULATJ "of one opinion" ; ! no. 3989
+aktasatj:aktasatj A_ELULATJ "common, mutual" ; ! no. 39
+almelatj:almelatj A_ELULATJ "heavenly" ; ! no. 91518
+ássjálatj:ássjálatj A_ELULATJ "accessory, participating, involved" ; ! no. 3571
+bäjjvásatj:bä2jjvásatj A_ELULATJ "of a day" ; ! no. 90805
+därbulatj:dä2rbulatj A_ELULATJ "required, needed" ; ! no. 3242
+elulatj:elulatj A_ELULATJ "rich in reindeer" ; ! no. 3728
+fämulatj:fä2mulatj A_ELULATJ "strong, powerful" ; ! no. 3344
+färrtabäjjvásatj:färrta#bä2jjvásatj A_ELULATJ "daily" ; ! no. 3548
 gålbmåtjiegak:gålbmå#tjiegag2 A_ELULATJ "triangular" ; ! no. 4892
 ihttátj:ihttátj A_ELULATJ "tomorrow's" ; ! no. 90880
-mielagatj:mielagadtj A_ELULATJ "of an opinion" ; ! no. 90804
+mielagatj:mielagatj A_ELULATJ "of an opinion" ; ! no. 90804
 nälljetjiegak:nällje#tjiegag2 A_ELULATJ "square" ; ! no. 5307
 tjiegak:tjiegag2 A_ELULATJ "angular, cornered" ; ! no. 5212
-vuorbálatj:vu^Orbáladtj A_ELULATJ "successful, fortunate" ; ! no. 3719
-vuällegatj:vu^Ol'legadtj A_ELULATJ "low, humble" ; ! no. 4547
-ånegatj:ånegadtj A_ELULATJ "short" ; ! no. 5038
+vuorbálatj:vu^Orbálatj A_ELULATJ "successful, fortunate" ; ! no. 3719
+vuällegatj:vu^Ol'legatj A_ELULATJ "low, humble" ; ! no. 4547
+ånegatj:ånegatj A_ELULATJ "short" ; ! no. 5038
 aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
 buorak:bu^Orag2 A_FIEROK "good" ; ! no. 3398
 buoraklágátj:buorak#lágátj A_FIEROK "quite good" ; ! no. 3399

@@ -357,10 +357,10 @@ t2:0 <=> s _ .#. ;
 !! **@RULENAME@**  
 s:t <=> _ j2: .#. ;
 
-"Word-final reduction for dtj" !såbmelatj<->såbmeladtja, biednagatj<->biednagadtja
+"Word-final reduction for -dtj" 
 !! **@RULENAME@**  
 d:0 <=> [a|u] (%>:) _ t j (%>:) # ;
-!d:0 <=> [a|u] _ t j (%>:0) [#|.#.] ;
+!-dtj- is a non-standard variant of -tj-, e.g. såbmelatj<->såbmeladtja, biednagatj<->biednagadtja
 !only valid as coda of a final *odd* syllable – only such stems have underlying -dtj-
 !in other words: this is dealt with in lexc
 
