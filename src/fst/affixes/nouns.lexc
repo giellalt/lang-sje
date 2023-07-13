@@ -279,7 +279,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 
 
 LEXICON N_ODD_DIM !N_ODD suffixes
-+Der/Dimin+N:a%>tj N_DIM_s2 ;
++Der/Dimin+N:a%>dtj N_DIM_s2 ;
 
 
 ! contracted
