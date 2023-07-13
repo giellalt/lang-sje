@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-07-12T13:12:41+03:00
+! Generated at: 2023-07-13T07:43:41+03:00
 
 !! # Pite Saami Verbs
 
@@ -365,6 +365,7 @@ asstat:asst V_EVEN_A "have time" ; ! no. 80
 badjelgähttjat:badjel#giehttj V_EVEN_A "look down on, disrespect" ; ! no. 90882
 bagadallat:bagadall V_EVEN_A "chastise, admonish, warn" ; ! no. 3720
 bahástallat:bahástall V_EVEN_A "be against something" ; ! no. 4705
+bajássjaddat:bajás#sjadd V_EVEN_A "grow up" ; ! no. 6229
 badjelgähttjat+Use/NG:bajjel#giehttj V_EVEN_A "look down on, disrespect" ; ! no. 91227
 ballat:ball V_EVEN_A "be scared" ; ! no. 90833
 barrgat:barrg V_EVEN_A "work, do a job" ; ! no. 144
@@ -662,6 +663,7 @@ arbmogasstet:arbmogasst V_EVEN_E "take mercy upon" ; ! no. 5397
 arrmálasstet:arrmálasst V_EVEN_E "take pity, ask for help" ; ! no. 4062
 ájjbet:ájjb V_EVEN_E "head for land" ; ! no. 19
 állget:állg V_EVEN_E "begin start" ; ! no. 52
+bajásválldet:bajás#válld V_EVEN_E "take up" ; ! no. 6104
 bajjket:bajjk V_EVEN_E "excrete" ; ! no. 6034
 ballagåhtet:ballagåht V_EVEN_E "begin to become afraid" ; ! no. 5509
 balldet:balld V_EVEN_E "scare" ; ! no. 3173
@@ -1077,6 +1079,7 @@ avvadit:avvad2 V_ODD "waste time" ; ! no. 90143
 badjánit:badján V_ODD "get up" ; ! no. 2391
 bagadit:bagad2 V_ODD "admonish, chastise" ; ! no. 99
 bagestit:bagest V_ODD "rip, tear off" ; ! no. 4417
+bajásanedit:bajás#aned2 V_ODD "hold something up, maintain" ; ! no. 5253
 bajedit:bajed2 V_ODD "raise, lift" ; ! no. 4102
 badjánit+Use/NG:bajján V_ODD "get up" ; ! no. 90980
 balládit:ballád2 V_ODD "become scared" ; ! no. 91015
