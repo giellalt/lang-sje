@@ -1261,11 +1261,11 @@ ietj+Pron+Refl+Sg+Com+PxPl3:ietjajnesieh # ;
 !galla:ll ´hur många´ , (med negation) inte många (böjs som jämnstavig e-stam), pluralis anger en ungefärligare mängd
 !galla, predikativ ställning
 !SHOULD UNDERGO VH, eg: gallijd->gillijd
-galla+Pron+Interr: gallacase ;
+galle+Pron+Interr: gallacase ;
 
 LEXICON gallacase   !!= * **@CODE@**
 
-+Sg+Nom:galla # ;
++Sg+Nom:gal'le # ;
 +Sg+Acc:gallev # ;
 +Sg+Gen:galle # ;
 +Sg+Ill:galláj # ;
@@ -1283,61 +1283,5 @@ LEXICON gallacase   !!= * **@CODE@**
 +Pl+Ela:gallijst # ;
 +Pl+Com:gallij # ;
 
-! +Sg+Nom:galla # ;
-! +Sg+Acc:galla # ;
-! +Sg+Gen:galle # ;
-! +Sg+Ill:galla # ;
-! +Sg+Ine:gallen # ;
-! +Sg+Ela:gallet # ;
-! +Sg+Com:gallijn # ;
-! +Sg+Ess:gallen # ;
-! 
-! +Pl+Nom:galle # ;
-! +Pl+Acc:gallijd # ;
-! +Pl+Gen:gallij # ;
-! +Pl+Ill:gallijda # ;
-! +Pl+Ine:gallijn # ;
-! +Pl+Ela:gallijst # ;
-! +Pl+Com:gallij # ;
-
-
-
-! galla+Pron+Interr+Sg+Nom:galla # ;
-! galla+Pron+Interr+Sg+Acc:gallev # ;
-! galla+Pron+Interr+Sg+Gen:galle # ;
-! galla+Pron+Interr+Sg+Ill:galláj # ;
-! galla+Pron+Interr+Sg+Ine:gallen # ;
-! galla+Pron+Interr+Sg+Ela:gallest # ;
-! galla+Pron+Interr+Sg+Com:gallijn # ;
-! galla+Pron+Interr+Sg+Ess:gallen # ;
-!
-! galla+Pron+Interr+Pl+Nom:galle # ;
-! galla+Pron+Interr+Pl+Acc:gallijt # ;
-! galla+Pron+Interr+Pl+Gen:gallij # ;
-! galla+Pron+Interr+Pl+Ill:gallijda # ;
-! galla+Pron+Interr+Pl+Ine:gallijn # ;
-! galla+Pron+Interr+Pl+Ela:gallijst # ;
-! galla+Pron+Interr+Pl+Com:gallij # ;
-!
-! !galla, attributiv ställning
-! galla+Pron+Interr+Sg+Nom:galla # ;
-! galla+Pron+Interr+Sg+Acc:galla # ;
-! galla+Pron+Interr+Sg+Gen:galle # ;
-! galla+Pron+Interr+Sg+Ill:galla # ;
-! galla+Pron+Interr+Sg+Ine:gallen # ;
-! galla+Pron+Interr+Sg+Ela:gallet # ;
-! galla+Pron+Interr+Sg+Com:gallijn # ;
-! galla+Pron+Interr+Sg+Ess:gallen # ;
-!
-! galla+Pron+Interr+Pl+Nom:galle # ;
-! galla+Pron+Interr+Pl+Acc:gallijt # ;
-! galla+Pron+Interr+Pl+Gen:gallij # ;
-! galla+Pron+Interr+Pl+Ill:gallijda # ;
-! galla+Pron+Interr+Pl+Ine:gallijn # ;
-! galla+Pron+Interr+Pl+Ela:gallijst # ;
-! galla+Pron+Interr+Pl+Com:gallij # ;
-
-
- ! LEXICON gallicase # ; ! kanskje skrive denne
 
 
