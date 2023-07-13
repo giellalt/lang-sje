@@ -357,6 +357,9 @@ t2:0 <=> s _ .#. ;
 !! **@RULENAME@**  
 s:t <=> _ j2: .#. ;
 
+
+!the following rule is no longer needed because this variation is dealt with in lexc;
+!leaving for now anyway
 "Word-final reduction for -dtj" 
 !! **@RULENAME@**  
 d:0 <=> [a|u] (%>:) _ t j (%>:) # ;

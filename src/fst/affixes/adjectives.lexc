@@ -334,14 +334,17 @@ LEXICON A_DUALLBAT_s2
 
 
 LEXICON A_ELULATJ ! elulatj/elulatj/elulatja/??elulatjap/??elulatjamus-a
-+A+Attr:%> # ;
++A+Attr:tj%> # ;
 +A: A_ELULATJ_s2 ; 
 
 LEXICON A_ELULATJ_s2 
-+Sg+Nom: K ; 
-:a N_EVEN4_DEFAULT ; 
-+Comp:a A_ODD_COMP ;
-+Superl:a A_ODD_SUP ;
++Sg+Nom:tj K ; 
+:tja N_EVEN4_DEFAULT ; 
++Use/NG:dtja N_EVEN4_DEFAULT ; 
++Comp:tja A_ODD_COMP ;
++Comp+Use/NG:dtja A_ODD_COMP ;
++Superl:tja A_ODD_SUP ;
++Superl+Use/NG:dtja A_ODD_SUP ;
 
 
 LEXICON A_IEDNAK ! iedna/iednak/iednaga/ienap/ienamus-a

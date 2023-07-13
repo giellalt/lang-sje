@@ -109,6 +109,11 @@ LEXICON N_EVEN4_ASA !mujjtulas<->mujjtulas-
 +N+Sg+Nom:as%> K ;
 +N:asa N_EVEN4_DEFAULT ;
 
+LEXICON N_EVEN4_TJ !såbmelatj<->såbmelatja- (variant såbmeladtja-)
++N+Sg+Nom:tj%> K ;
++N:tja N_EVEN4_DEFAULT ;
++N+Use/NG:dtja N_EVEN4_DEFAULT ;
+
 LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Sg+Acc:%>v K ;
 +Sg+Gen:%> K ;
@@ -278,9 +283,12 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Pl+Com+Use/NGminip:u2%>jgum K ;
 
 
-LEXICON N_ODD_DIM !N_ODD suffixes
-+Der/Dimin+N:a%>tj N_DIM_s2 ;
-+Der/Dimin+N+Use/NG:a%>dtj N_DIM_s2 ;
+LEXICON N_ODD_DIM !N_ODD diminutive root add v3
++Der/Dimin+N:a%> N_ODD_DIM_s2 ;
+
+LEXICON N_ODD_DIM_s2 !N_ODD diminutive root with variant 
+:tj N_DIM_s2 ;
++Use/NG:dtj NO_VH_X_s2 ; !add everything but nom.sg
 
 
 ! contracted
@@ -404,6 +412,9 @@ LEXICON PX ! possessive suffixes (not clearly productive; initial SgNom set from
 
 LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (no -i- in suffixes)
 +Sg+Nom: K ;
+: NO_VH_X_s2 ;
+
+LEXICON NO_VH_X_s2
 +Sg+Acc:av K ;
 +Sg+Gen:a K ;
 +Sg+Ill:ij K ;
