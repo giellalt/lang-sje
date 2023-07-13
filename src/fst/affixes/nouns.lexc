@@ -401,85 +401,6 @@ LEXICON PX ! possessive suffixes (not clearly productive; initial SgNom set from
 
 
 
-
-
-
-! NOTE: 
-! NOTE: below here: lexica that are referred to in adjectives (or at least outside noun-stems)
-! NOTE: 
-
-!used by adjectives - don't delete yet:
-!LEXICON EVENCASE_4 !used by adjectives - don't delete yet:
-!+Sg+Nom:^CDEL K ;
-!:a N_EVEN_ESS ; !essive
-
-!used by adjectives - don't delete yet:
-LEXICON N_EVEN_C !used by adjectives - don't delete yet:
-+Sg+Gen:%>o  K ; 
-+Sg+Acc:%>ov  K ;
-+Sg+Ine:%>on K ;
-+Sg+Ela:%>ost K ;
-+Sg+Ela+Use/NG:%>os K ;
-+Abe:%>odak K ; ! Norm
-+Pl+Nom:%>o  K ;
-+Sg+Com:%>ojn   K ; !norm
-+Sg+Com+Use/NG:%>ojna  K ; !variant
-+Pl+Gen:%>oj    K ;
-+Pl+Acc:%>ojt   K ;
-+Pl+Acc+Err/Orth:%>ojd   K ;
-+Pl+Ine:%>ojn   K ;
-+Pl+Ela:%>ojst  K ; !norm
-+Pl+Ela+Use/NG:%>ojs  K ;
-+Pl+Ill:%>ojda  K ; 
-+Pl+Com:%>oj    K ;
-+Ess:%>on K ;
-
-!used by adjectives - don't delete yet:
-LEXICON ODD_OBLIQUE_COMMON !used by adjectives - don't delete yet:
-+Sg+Acc:a%>v K ;
-+Sg+Gen:a K ;
-+Sg+Ill:i%>j K ;
-+Sg+Ine:i%>n K ;
-+Sg+Ela:i%>st K ; 
-+Sg+Ela+Use/NG:i%>s K ; 
-+Sg+Com:i%>jn K ;
-+Ess:i%>n K ;
-+Pl+Nom:a K ;
-+Pl+Acc:i%>jt K ;
-+Pl+Acc+Err/Orth:i%>jd K ;
-+Pl+Gen:i%>j K ;
-+Pl+Ill:i%>jda K ;
-+Pl+Ine:i%>jn K ;
-+Pl+Ela:i%>jst K ;
-+Pl+Ela+Use/NG:i%>js K ;
-+Pl+Com:i%>j K ;
-
-!used by adjectives - don't delete yet:
-LEXICON ODD_OBLIQUE_U_COMMON !used by adjectives - don't delete yet:
-+Sg+Acc:uv K ;
-+Sg+Gen:u K ;
-+Sg+Ill:uj K ;
-+Sg+Ine:un K ;
-+Sg+Ela:ust K ; 
-+Sg+Ela+Use/NG:us K ; 
-+Sg+Com:ujn K ;
-+Ess:un K ;
-+Pl+Nom:u K ;
-+Pl+Acc:ujt K ;
-+Pl+Acc+Err/Orth:ujd K ;
-+Pl+Gen:uj K ;
-+Pl+Ill:ujda K ;
-+Pl+Ine:ujn K ;
-+Pl+Ela:ujst K ;
-+Pl+Ela+Use/NG:ujs K ;
-+Pl+Com:uj K ;
-+Pl+Com+Use/NGminip:ujgum K ;
-
-
-LEXICON N_MONOSYL_PROPER ! monosyllabic proper nouns (mostly person names)
-+N: NO_VH_X ; !add PoS, then link to morphology
-
-!LEXICON MONOSYL_PROPER_N_S2 
 LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (no -i- in suffixes)
 +Sg+Nom: K ;
 +Sg+Acc:av K ;
@@ -502,13 +423,17 @@ LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (
 +Pl+Com+Use/NGminip:ijgum K ;
 
 
+! proper noun lexica below:
+
+LEXICON N_MONOSYL_PROPER ! monosyllabic proper nouns (mostly person names)
++N: NO_VH_X ; !add PoS, then link to morphology
+
 !for proper names for which the inflectional paradigms are not clear (at least until more is known about how they inflect – essentially only non-Saami names)
 LEXICON N_NAME_noInfl_C !C-final
 +N+Sg+Nom:%> K ; 
 +N: N_ODD_X ;
 !diminutive for C-final names:
 +N+Der/Dimin+N:a%>tj N_DIM_s2 ;
-
 
 LEXICON N_NAME_noInfl_V !
 +N: N_NAME_noInfl_V_s2 ;
