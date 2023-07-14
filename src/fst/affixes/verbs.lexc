@@ -103,7 +103,7 @@ LEXICON V_EVEN_E_STR_G3 !
 +GerII:e^G3^UAUML%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:á^G3^UAUML%>m # ;
 +PrsPrc:e^G3^UAUML%>j # ; 
-+Vsubst:e^G3^UAUML%>m #; 
++Vsubst:e^G3^UAUML%>m N_ODD_X ; 
 
 
 
@@ -134,7 +134,7 @@ LEXICON V_EVEN_A_STR
 +GerII:a%>min # ;
 +PrfPrc:a%>m # ;
 +PrsPrc:e%>j # ; 
-!+Vsubst:a%>m #; 
++Vsubst:a%>m N_ODD_X ; 
 
 LEXICON V_EVEN_A_WK
 +Ind+Prs+Sg1:%>v #;
@@ -184,7 +184,7 @@ LEXICON V_EVEN_A_STR_G3 !
 +GerII:a^G3^UAUML%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:a^G3^UAUML%>m # ;
 +PrsPrc:a^G3^UAUML%>j # ; 
-+Vsubst:e^G3^UAUML%>m #; 
++Vsubst:e^G3^UAUML%>m N_ODD_X ; 
 
 
 LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
@@ -227,7 +227,7 @@ LEXICON V_EVEN_O_STR
 +GerII:o%>min # ;
 +PrfPrc:u%>m # ;
 +PrsPrc:o%>j # ; 
-+Vsubst:o%>m #; 
++Vsubst:o%>m N_ODD_X ; 
 
 LEXICON V_EVEN_O_WK
 +Ind+Prs+Sg1:%>v #;
@@ -277,7 +277,7 @@ LEXICON V_EVEN_O_STR_G3 !
 +GerII:o^G3^UAUML%>min # ; !aka: +Actio+Ess ?
 +PrfPrc:u%>m # ;
 +PrsPrc:o^G3^UAUML%>j # ; 
-+Vsubst:o^G3^UAUML%>m #; 
++Vsubst:o^G3^UAUML%>m N_ODD_X ; 
 
 
 
@@ -306,7 +306,7 @@ LEXICON V_EVEN_Å_STR
 +GerII:å%>min # ;
 +PrfPrc:å%>m # ;
 +PrsPrc:e%>j # ; !-åt cognate with -at verbs in saL/saN, which also get -ej
-!+Vsubst:å%>m #; 
++Vsubst:å%>m N_ODD_X ; 
 
 LEXICON V_EVEN_Å_WK
 +Ind+Prs+Sg1:%>v #;
@@ -383,7 +383,7 @@ LEXICON V_ODD !ságastit
 +V+PrfPrc:a%>m # ;
 +V+ConNeg:e%> # ; 
 +V+PrsPrc:ä%>ddje # ; 
-!+V+Vsubst:a%>m #; 
++V+Vsubst:i%>m N_ODD_X ; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
@@ -427,7 +427,7 @@ LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes s
 +V+PrfPrc:u%>m # ;
 +V+ConNeg:e%> # ; 
 +V+PrsPrc:ä%>ddje # ; 
-!+V+Vsubst:a%>m #; 
++V+Vsubst:u%>m N_ODD_X ; 
 !+V+GerI:a%>din # ;  
 !+V+Sup:a%>tjit # ;
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
@@ -489,7 +489,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+PrfPrc:%>m # ;
 +V+ConNeg:%> # ; 
 +V+PrsPrc:%>jäddje # ; 
-+V+Vsubst:%>m #; !cf. sujjtim (sje19360100a.001)
++V+Vsubst:%>m N_ODD_X ; !cf. sujjtim (sje19360100a.001)
 !+V+GerI:%>din # ;  
 !+V+Sup:%>tjit # ;
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
