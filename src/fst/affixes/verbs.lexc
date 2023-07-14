@@ -672,12 +672,14 @@ LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED
 ! +Vsubst / actio initially (based somewhat on saL for now)
 LEXICON V_SUBST_EVEN_s2 !båhtem, båhtema, båhtemin, båhtemijn
 +Nom: # ;
++Cmp/SgNom: R ;
 +Gen:a # ;
 !+Ess:in # ;
 !+Com:ijn # ;
 
 LEXICON V_SUBST_ODD_s2 !málestibme, málestime, málestimen, málestimijn
 +Nom:bme # ;
+!+Cmp/SgNom: R ;
 +Gen:me # ;
 !+Ess:men # ;
 !+Com:mijn # ;
