@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-07-14T10:17:06+03:00
+! Generated at: 2023-08-02T08:03:50+03:00
 
 !! # Pite Saami Nouns
 
@@ -1311,7 +1311,7 @@ tjäkksa:tjiekksa N_EVEN "cookie" ; ! no. 5219
 guolletjäkktja+Use/NG:tjiekktja N_EVEN "osprey" ; ! no. 90983
 tjällde:tjiellde N_EVEN "reindeer herding cooperative" ; ! no. 1985
 tjällka:tjiellka N_EVEN "sled" ; ! no. 2765
-tjänntá:tjienntá N_EVEN "female servant" ; ! no. 1987
+tjänntá:tjienntá N_EVEN "female servant, housemaid" ; ! no. 1987
 tjässka:tjiesska N_EVEN "longitudinal wooden pole for hanging hides" ; ! no. 1988
 tráhppa:tráhppa N_EVEN "stairs" ; ! no. 2900
 truhkke:truhkke N_EVEN "trough" ; ! no. 5304
@@ -1858,6 +1858,7 @@ gäjdno:giejdno N_EVEN_O "unmarked trail" ; ! no. 4300
 gärrgegållo:gärrge#gållo N_EVEN_O "rock cave" ; ! no. 6525
 gärrisrájjdo:gärris#rájjdo N_EVEN_O "reindeer sled caravan" ; ! no. 4827
 hallgo:hallgo N_EVEN_O "long stick, cane" ; ! no. 2759
+háledimsjalljo:háledim#sjalljo N_EVEN_O "airport, airfield" ; ! no. 91525
 hállo:hállo N_EVEN_O "desire" ; ! no. 90844
 hárrdo:hárrdo N_EVEN_O "uppar part of back" ; ! no. 817
 hilldo:hilldo N_EVEN_O "shelf" ; ! no. 3120
@@ -1961,7 +1962,7 @@ siehko:siehko N_EVEN_O "small bone in a reindeer hoof" ; ! no. 2854
 siello:siello N_EVEN_O "soul, spirit" ; ! no. 1530
 sisgárrvo:sis#gárrvo N_EVEN_O "underwear" ; ! no. 1549
 sivvlo:sivvlo N_EVEN_O "awl; mast (boat); antenna" ; ! no. 1802
-sjalljo:sjalljo N_EVEN_O "flat area, e.g. around a Saami hut" ; ! no. 1556
+sjalljo:sjalljo N_EVEN_O "flat area" ; ! no. 1556
 sjillagáhkko:sjilla#gáhkko N_EVEN_O "ember bread" ; ! no. 1570
 sjkäbbtjaståhpo:sjkäbbtja#ståhpo N_EVEN_O "hospital" ; ! no. 1634
 sjnjállo:sjnjállo N_EVEN_O "puppy (until several months)" ; ! no. 1581
