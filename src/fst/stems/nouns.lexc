@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-08-02T08:03:50+03:00
+! Generated at: 2023-08-02T13:08:39+03:00
 
 !! # Pite Saami Nouns
 
@@ -722,6 +722,7 @@ limblánijjbe:limblá#nijjbe N_EVEN "butcher knife" ; ! no. 3031
 livva:livva N_EVEN "rest, break" ; ! no. 90602
 luakkta:lu^Okkta N_EVEN "bay" ; ! no. 2317
 lullegiehtje:lulle#giehtje N_EVEN "eastern end" ; ! no. 4235
+luojtádahka:luojtádahka N_EVEN "place where reindeer are set free" ; ! no. 91526
 luorra:lu^Orra N_EVEN "ammunition, shot" ; ! no. 1069
 luossa:lu^Ossa N_EVEN "salmon" ; ! no. 1070
 luovve:lu^Ovve N_EVEN "storage building on stilts" ; ! no. 1072
