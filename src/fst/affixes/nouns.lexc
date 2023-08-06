@@ -219,6 +219,17 @@ LEXICON N_ODD_V2E2AA_G3 !odd-syllable with change in V2 from E to Á without C-g
 +N:^V2E2AA N_ODD_X ;
 +N:^V2E2AA N_ODD_DIM ; !link to DIM
 
+LEXICON N_ODD_noCG_G3 !odd-syllable noun III-II but without CGrad, eg. guobbar<->guabbar-
++N+Sg+Nom:%> K ;
++N:^G3^UAUML N_ODD_X ;
+!+N+Cmp/SgNom: R ; !compound element !not sure!
+!+N+Cmp/SgGen:a R ; !compound element !not sure!
+
+LEXICON N_ODD_noCG_G3_OPEN !open odd-syllable noun III-II but without CGrad, eg. vuodda<->vuaddag-
++N+Sg+Nom:^WG^CDEL%> K ;
++N:^G3^UAUML N_ODD_X ;
+!+N+Cmp/SgNom: R ; !compound element !not sure!
+!+N+Cmp/SgGen:a R ; !compound element !not sure!
 
 !LEXICON N_ODD_WG_aH !odd-syllable noun with CGrad, nom.sg ends in -a, extension in -ah-, eg. ruma<->rubmah-
 !+N+Sg+Nom:a^WG%> K ;

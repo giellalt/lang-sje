@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-08-02T13:08:39+03:00
+! Generated at: 2023-08-06T09:39:27+03:00
 
 !! # Pite Saami Nouns
 
@@ -2243,7 +2243,6 @@ lávvotárrat:lávvot#árrad2 N_ODD "Saturday morning" ; ! no. 2474
 libjuk:libjug2 N_ODD "butterfly" ; ! no. 3008
 libluk:liblug2 N_ODD "butterfly" ; ! no. 1034
 liggim:liggim N_ODD "birch tree around treeline" ; ! no. 1042
-luobbal:lu^Obbal N_ODD "calm water, wide place in a stream" ; ! no. 3919
 luoddak:lu^Oddag2 N_ODD "bear skin" ; ! no. 91284
 luodjom:lu^Odjom N_ODD "complaint" ; ! no. 5705
 luojdok:lu^Ojdog2 N_ODD "white wagtail" ; ! no. 1066
@@ -2510,7 +2509,6 @@ njuovo:nju^Ovvog N_ODD_OPEN "slime on fish and intestines" ; ! no. 2939
 rijbmomuohta:rijbmo#mu^Ohttag N_ODD_OPEN "heavy snowfall" ; ! no. 1409
 ruma:rubmah N_ODD_OPEN "human corpse" ; ! no. 90925
 siebla:siebblag N_ODD_OPEN "wet spring snow" ; ! no. 2758
-sjnjierákvuodda:sjnjierák#vu^Oddag N_ODD_OPEN "multicolor woven shoestrap for men" ; ! no. 5406
 suola:su^Ollag N_ODD_OPEN "thief" ; ! no. 2738
 tjála:tjállag N_ODD_OPEN "writing, text" ; ! no. 1867
 tjåddå:tjåddåg N_ODD_OPEN "esophagus" ; ! no. 2845
@@ -2518,7 +2516,6 @@ tjåhkketjála:tjåhkke#tjállag N_ODD_OPEN "documentation" ; ! no. 5932
 tjårvegietjmádda:tjårve#gietj#máddag N_ODD_OPEN "fork in antlers" ; ! no. 2373
 tjårå:tjårråg N_ODD_OPEN "group of reindeer" ; ! no. 90924
 tjåvdå:tjåvvdåg N_ODD_OPEN "key" ; ! no. 3786
-vuodda:vu^Oddag N_ODD_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
 vuola:vu^Ollag N_ODD_OPEN "inebriation, drunkenness; beer" ; ! no. 91034
 vuällemádda:vuälle#máddag N_ODD_OPEN "lower section of reindeer antlers" ; ! no. 2381
 árrvobáhper:árrvo#báhpper N_ODD_V2E2AA "security paper" ; ! no. 4177
@@ -2598,7 +2595,6 @@ giesas:giessas N_ODD_WG "leather hame" ; ! no. 3833
 gietkam:giettkam N_ODD_WG "Saami cradle" ; ! no. 623
 gillar:gil'lar N_ODD_WG "trap" ; ! no. 4628
 gintal:ginntal N_ODD_WG "candle" ; ! no. 632
-guobbar:gu^Obbar N_ODD_WG "mushroom" ; ! no. 679
 guolban:gu^Ollban N_ODD_WG "flat pine heath" ; ! no. 692
 guolmas:gu^Olbmas N_ODD_WG "a pine tree's white inner bark" ; ! no. 6555
 guosmak:gu^Ossmag2 N_ODD_WG "coffee" ; ! no. 706
@@ -2640,7 +2636,6 @@ vanas:vadnas N_ODD_WG "boat, canoe" ; ! no. 2079
 vanas+Use/NG:vadnás N_ODD_WG "boat, canoe" ; ! no. 90448
 vátjam+CmpN/SgN+CmpN/SgG:váhtjam N_ODD_WG "reindeer cow" ; ! no. 2055
 vidas:vihtas N_ODD_WG "fivesome" ; ! no. 5439
-vieddar:vieddar N_ODD_WG "wide sandbank" ; ! no. 2727
 vuaffal:vu^Of'fal N_ODD_WG "waffle" ; ! no. 6578
 vuhtsun:vuhttsun N_ODD_WG "net stick" ; ! no. 2201
 vuojdas:vu^Ojjdas N_ODD_WG "ointment" ; ! no. 5243
@@ -2650,3 +2645,8 @@ gane:gadn N_ODD_WG_eH "invisible subterranean being" ; ! no. 6873
 riebe:riehp N_ODD_WG_eH "red fox" ; ! no. 2790
 njuono:nju^Onn N_ODD_WG_oH "the front of a reindeer herd" ; ! no. 90810
 åvlo:åvvl N_ODD_WG_oH "meltwater pool on the ground" ; ! no. 90372
+guobbar:gu^Obbar N_ODD_noCG_G3 "mushroom" ; ! no. 679
+luobbal:lu^Obbal N_ODD_noCG_G3 "calm water, wide place in a stream" ; ! no. 3919
+vieddar:vieddar N_ODD_noCG_G3 "wide sandbank" ; ! no. 2727
+sjnjierákvuodda:sjnjierák#vu^Oddag N_ODD_noCG_G3_OPEN "multicolor woven shoestrap for men" ; ! no. 5406
+vuodda:vu^Oddag N_ODD_noCG_G3_OPEN "shoestrap (for holding up Saami footwear)" ; ! no. 2150
