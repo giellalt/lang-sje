@@ -154,7 +154,8 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +Cmp/SplitR   !!= * @CODE@ 
 +Use/-Spell   !!= * @CODE@ 
 +Use/NGminip  !!= * @CODE@
-!+Use/-PLX     !!≈ * @CODE@   Excluded in PLX speller
+ +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 
 
