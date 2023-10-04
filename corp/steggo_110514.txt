@@ -5,7 +5,7 @@ Muv árbbe
 
           
         
-onsdagen den 31:e januari 2007
+# onsdagen den 31:e januari 2007
 
           
         
@@ -27,7 +27,7 @@ De urru rássjo mådde biejve ja jågå dulvvi - edna tjáhtse sjaddaj. Såmes �
 
           
         
-tisdagen den 30:e januari 2007
+# tisdagen den 30:e januari 2007
 
           
         
@@ -43,7 +43,7 @@ Nav tjalmedisa lijjin sija, idtjin dádjadi, ahte ietjá jubmel galgaj gävdnut,
 
           
         
-söndagen den 28:e januari 2007
+# söndagen den 28:e januari 2007
 
           
         
@@ -77,7 +77,7 @@ Ja de dasste le ahte biedniga ja silba gävdnuji ednama sinne. Hulli ahte gilggi
 
           
         
-fredagen den 26:e januari 2007
+# fredagen den 26:e januari 2007
 
           
         
@@ -96,7 +96,7 @@ Valla näjdda viesoj ja ullidij stráffaájgev. Budij vist Árjepluovváj ja vä
 
 
         
-torsdagen den 25:e januari 2007
+# torsdagen den 25:e januari 2007
 
           
         
@@ -121,7 +121,7 @@ Ja de sij gájk divna tjuojggájin gåde gugu. Ja gu sij buhtin gåde gugu de du
 
           
         
-måndagen den 22:e januari 2007
+# måndagen den 22:e januari 2007
 
           
         
@@ -137,7 +137,7 @@ Valla de lij mårsses dalle tjuodtjomin bruvddan dán sammá biejven. De biedjá
 
           
         
-tisdagen den 16:e januari 2007
+# tisdagen den 16:e januari 2007
 
           
         
@@ -164,7 +164,7 @@ De stállo vásstedij: Vuoj, vuoj! Báhkas lij, gula! Ja de påjttjå väldij st
 
 
         
-lördagen den 10:e februari 2007
+# lördagen den 10:e februari 2007
 
           
         
@@ -182,7 +182,7 @@ Ja de eskán ráffe sjaddaj, ij lam gätj åvddål akttak ráffe, idtjij genak l
 
           
         
-fredagen den 9:e februari 2007
+# fredagen den 9:e februari 2007
 
           
         
@@ -197,7 +197,7 @@ fredagen den 9:e februari 2007
 Dulutj ájgen lij såmes gåbdes ålmáj, gut dedij gåsse galgaj jábmet. Giđđaájgge lij vil dat. Da jahttá dat sammá ålmáj: "De le dalle ålmáj vessum guhkep ja ij le vierrodimájgge." Daj hednik äjgij sáme gätj vierrodin tjakttjaájgen ja da nåjde vierrodillin jårbbå buhttsujt vierron. De manná sån dan giđđaájgen, atja sa bivddet gulijt nuhtijn. Gu lij bivddemin, bahkása gajdno nuhtest, de gavtjaj ålmáj binujda, gahtjaj jávrráj ja de jämij. De bajedin ietjá almatja suv dat jávrest ja färrujin gåjkke lánndaj ja gräv'vijin suv såmes sulluj, mij lij jávre guovddelin. Gåbdáv bejjin sija sunji åjvevuollen. De le sån danne vuojgŋastim gitta dåbbmobäjvváj. De sa sån áj ådtjotj bálkav nåjdesvuodas ja bahásvuodas åvdåst. Dat ålmáj gåhtjoduvaj Ánná Vuollán.
 
      
-onsdagen den 7:e februari 2007
+# onsdagen den 7:e februari 2007
 
           
         
@@ -221,7 +221,7 @@ Pruossta Calleberg, mij Árjapluove suokknohärrán åroj gålbmålågevihtta j�
 
 
         
-söndagen den 27:e januari 2008
+# söndagen den 27:e januari 2008
 
           
         
@@ -240,7 +240,7 @@ Per Erik Renström lij riegadam 1815 ja jämij 17 november 1900 85 jage vuoras. 
 
           
         
-lördagen den 26:e januari 2008
+# lördagen den 26:e januari 2008
 
           
         
@@ -268,7 +268,7 @@ Per Erik Renström lij riegadam 1815 ja jämij 17 november 1900 85 jage vuoras. 
 
           
         
-lördagen den 26:e januari 2008
+# lördagen den 26:e januari 2008
 
           
         
@@ -296,7 +296,7 @@ PresensPreteritumsg1atjav 'jag ska' itjiv 'jag skulle' 2atjah 'du ska'itjih 'du 
 
           
         
-lördagen den 10:e februari 2007
+# lördagen den 10:e februari 2007
 
           
         
