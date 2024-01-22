@@ -59,7 +59,7 @@ proper nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -68,7 +68,7 @@ proper nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -101,7 +101,7 @@ proper nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -109,7 +109,7 @@ proper nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/compounding.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/compounding.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/compounding.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/compounding.lexc)</small>
 
 ---
 
@@ -238,7 +238,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -495,7 +495,7 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -548,7 +548,7 @@ Here come POS and Case tags, and no period.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/abbreviations.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/abbreviations.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/abbreviations.lexc)</small>
 
 ---
 
@@ -561,7 +561,7 @@ Here come POS and Case tags, and no period.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -578,7 +578,7 @@ Here come POS and Case tags, and no period.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adpositions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/adpositions.lexc)</small>
 
 ---
 
@@ -591,7 +591,7 @@ Adverbs
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 
@@ -605,7 +605,7 @@ Adverbs
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
 
@@ -634,7 +634,7 @@ Adverbs
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -645,7 +645,7 @@ Adverbs
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -678,7 +678,7 @@ Pronouns
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -691,7 +691,7 @@ Propernouns
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/sje-propernouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/sje-propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/sje-propernouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/sje-propernouns.lexc)</small>
 
 ---
 
@@ -716,7 +716,7 @@ Propernouns
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -883,7 +883,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sje/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sje/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -903,7 +903,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sje/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
