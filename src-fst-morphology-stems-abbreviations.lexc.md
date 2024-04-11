@@ -48,6 +48,3 @@ Here come POS and Case tags, and no period.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/abbreviations.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/abbreviations.lexc)</small>
-
----
-

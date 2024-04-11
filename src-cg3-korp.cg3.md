@@ -13,4 +13,5 @@ Here we remove semantic tags for all other words than
 proper nouns.  
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/korp.cg3](https://github.com/giellalt/lang-sje/blob/main/src/cg3/korp.cg3)</small>

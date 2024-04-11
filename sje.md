@@ -1,6 +1,10 @@
-# Pite Sami description 
+# Pite Sami language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 
 
@@ -38,7 +42,14 @@ All documents in one file
 ## Add language code
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-sje/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-korp.cg3.md 
+
+
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2014, University of Tromsø # 
@@ -53,7 +64,14 @@ Here we remove semantic tags for all other words than
 proper nouns.  
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/korp.cg3](https://github.com/giellalt/lang-sje/blob/main/src/cg3/korp.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+
 
 # Adjectives !
 
@@ -63,6 +81,8 @@ proper nouns.
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -71,6 +91,8 @@ proper nouns.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 
 
@@ -105,6 +127,8 @@ proper nouns.
 
 ---
 
+# src-fst-morphology-compounding.lexc.md 
+
 
 
 * * *
@@ -112,6 +136,8 @@ proper nouns.
 <small>This (part of) documentation was generated from [src/fst/morphology/compounding.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/compounding.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 
 # Pite Sámi TWOLC file
@@ -241,6 +267,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # Pite Sámi morphological analyser
@@ -499,6 +527,8 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 ---
 
+# src-fst-morphology-stems-abbreviations.lexc.md 
+
 
 # File containing abbreviations
 
@@ -552,6 +582,8 @@ Here come POS and Case tags, and no period.
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 
 # Pite Saami Adjectives
 
@@ -564,6 +596,8 @@ Here come POS and Case tags, and no period.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adpositions.lexc.md 
 
 
 # Adpositions
@@ -582,6 +616,8 @@ Here come POS and Case tags, and no period.
 
 ---
 
+# src-fst-morphology-stems-adverbs.lexc.md 
+
 
 Adverbs
 
@@ -594,6 +630,8 @@ Adverbs
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-conjunctions.lexc.md 
 
 
 
@@ -608,6 +646,8 @@ Adverbs
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 
 # Pite Saami Nouns
@@ -638,6 +678,8 @@ Adverbs
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 
 # Pite Saami numerals 
 
@@ -648,6 +690,8 @@ Adverbs
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 
 Pronouns
@@ -682,6 +726,8 @@ Pronouns
 
 ---
 
+# src-fst-morphology-stems-sje-propernouns.lexc.md 
+
 
 # Pite Saami ProperNouns
 
@@ -694,6 +740,8 @@ Propernouns
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/sje-propernouns.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/sje-propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 
 # Pite Saami Verbs
@@ -719,6 +767,8 @@ Propernouns
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -887,6 +937,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Pite Sami are read out, e.g.
@@ -906,6 +958,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sje/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 P I T E   S A A M I   G R A M M A R   C H E C K E R
@@ -1204,7 +1258,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sje/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for sje
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sje/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for sje
 
 Usage:
 ```
@@ -1266,6 +1327,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sje/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for sje
 
@@ -1330,6 +1393,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1391,6 +1456,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-sje/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
