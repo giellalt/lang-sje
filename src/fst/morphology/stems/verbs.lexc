@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2023-07-13T07:46:00+03:00
+! Generated at: 2024-04-11T14:08:52+03:00
 
 !! # Pite Saami Verbs
 
@@ -995,7 +995,7 @@ unnot:un'n V_EVEN_O "become smaller, shrink" ; ! no. 90570
 vassjot:vassj V_EVEN_O "become angry" ; ! no. 2097
 vasskot:vassk V_EVEN_O "scrape, scrub" ; ! no. 2098
 vasstot:vasst V_EVEN_O "become uglier" ; ! no. 5633
-váhttjot:váhttj V_EVEN_O "wave one's arms" ; ! no. 2771
+váhttjot:váhttj V_EVEN_O "wave one's arms, gesticulate" ; ! no. 2771
 vállot:váll V_EVEN_O "cry" ; ! no. 2077
 viessot:viess V_EVEN_O "live, feel" ; ! no. 2112
 vijjsot:vijjs V_EVEN_O "become wiser" ; ! no. 2514
@@ -1169,7 +1169,6 @@ dibridit:dibrid2 V_ODD "get stuck" ; ! no. 346
 didnadit:didnad2 V_ODD "repeat, nag" ; ! no. 360
 diebtjastit:diebtjast V_ODD "press down quickly" ; ! no. 5777
 diededit:dieded2 V_ODD "inform, let know, indicate" ; ! no. 2729
-diejvedit:diejved2 V_ODD "catch, hit" ; ! no. 2540
 dielmastit:dielmast V_ODD "trample" ; ! no. 4736
 diergedit:dierged2 V_ODD "jump due to being startled" ; ! no. 5871
 dieverdit:dieverd2 V_ODD "give birth to a stillborn calf" ; ! no. 356
@@ -1200,6 +1199,7 @@ dåssjánit:dåssján V_ODD "not work out, become nonsense" ; ! no. 90539
 däbbodit:däbbod2 V_ODD "soak" ; ! no. 432
 däddalit:dä2ddal V_ODD "push down" ; ! no. 5751
 däddodit:däddod2 V_ODD "emphasize" ; ! no. 3275
+däjjvedit:däjjved2 V_ODD "catch, hit" ; ! no. 2540
 dälkudit:dä2lkud2 V_ODD "cure, heal with medicine" ; ! no. 3393
 dällistit:dä2llist V_ODD "quickly stuff shoe hay into shoes" ; ! no. 6041
 därrjedit:därrjed2 V_ODD "curse, swear" ; ! no. 440
