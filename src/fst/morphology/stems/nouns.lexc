@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-04-19T10:04:45+02:00
+! Generated at: 2024-04-19T14:02:27+02:00
 
 !! # Pite Saami Nouns
 
@@ -345,6 +345,7 @@ duällje:du^Ollje N_EVEN "reindeer, moose or other hide" ; ! no. 409
 dynamijjta:dynamijjta N_EVEN "dynamite" ; ! no. 3936
 dåhpe:dåhpe N_EVEN "house" ; ! no. 416
 dåhppå:dåhppå N_EVEN "sheath" ; ! no. 3627
+dåjbmå:dåjbmå N_EVEN "activity, operation, work" ; ! no. 91536
 dållge:dållge N_EVEN "down, feathers" ; ! no. 419
 dållå:dållå N_EVEN "fire" ; ! no. 421
 dållåstihkka:dållå#stihkka N_EVEN "matchstick" ; ! no. 423
@@ -2148,6 +2149,7 @@ fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
 febir:febir N_ODD "fever" ; ! no. 4049
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
+fluhttim:fluhttim N_ODD "log driving, timber running" ; ! no. 91539
 fridjár:fridjár N_ODD "suitor, beau" ; ! no. 91337
 fridjár+Use/NG:frijjár N_ODD "suitor, beau" ; ! no. 91336
 färras:fä2rras N_ODD "migration path" ; ! no. 2810
