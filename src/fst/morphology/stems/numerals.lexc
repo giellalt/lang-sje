@@ -176,9 +176,9 @@ gákktse#lågev#:gákktse#låk# CARDbasic ;
 
 
 LEXICON ROUND10s !round 2-digit NUMs (10,20,30,etc.)
++Num+Sg+Gen:e K ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
 +Num:ev K ;
 ORD10 ;
-
 
 
 

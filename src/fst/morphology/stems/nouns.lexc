@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-04-22T16:35:22+02:00
+! Generated at: 2024-04-22T19:47:20+03:00
 
 !! # Pite Saami Nouns
 
@@ -1537,6 +1537,7 @@ vuolestak:vu^Olestag2 N_EVEN4 "reindeer back" ; ! no. 2884
 vuotjadak:vu^Otjadag2 N_EVEN4 "wolverine spear" ; ! no. 2791
 årjátaládak:årját#aládag2 N_EVEN4 "southwesterly wind" ; ! no. 91169
 årrádak:årrádag2 N_EVEN4 "bedsheet" ; ! no. 90401
+ävvtjimus:ä2vvtjimus N_EVEN4 "challenge" ; ! no. 91544
 gatjalvas:gatjalv N_EVEN4_ASA "question" ; ! no. 90189
 iehkedisråhkålvas:iehkedis#råhkålv N_EVEN4_ASA "evening prayer" ; ! no. 3076
 jugalvas:jugalv N_EVEN4_ASA "wedding" ; ! no. 3461
@@ -2149,6 +2150,7 @@ ertik:ertig2 N_ODD "side of reindeer" ; ! no. 2881
 fáhtal:fáhtal N_ODD "woven ribbon on a leather backpack" ; ! no. 90325
 febir:febir N_ODD "fever" ; ! no. 4049
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
+fiellas:fiellas N_ODD "journney, trip, travel" ; ! no. 91543
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
 fluhttim:fluhttim N_ODD "log driving, timber running" ; ! no. 91539
 fridjár:fridjár N_ODD "suitor, beau" ; ! no. 91337
@@ -2565,6 +2567,7 @@ tsábos:tsábos N_ODD_VH "thinly sliced meat" ; ! no. 5902
 tsuojkos:tsu^Ojjkos N_ODD_VH "clear, visible reindeer earmark" ; ! no. 4488
 válgos:vállgos N_ODD_VH "string of fishing nets" ; ! no. 91243
 vijor:vidjor N_ODD_VH "order, context" ; ! no. 2126
+vijor+Use/NG:vijjor N_ODD_VH "order, context" ; ! no. 91545
 vuordnos:vu^Ordnos N_ODD_VH "denial, retraction" ; ! no. 90574
 ålol:ållol N_ODD_VH "jaw" ; ! no. 2257
 ahtselisbålås:ahtselis#bållås N_ODD_WG "heavy rain shower" ; ! no. 15
