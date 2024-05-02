@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-04-19T14:03:02+02:00
+! Generated at: 2024-05-02T09:22:23+03:00
 
 !! # Pite Saami Verbs
 
@@ -785,6 +785,7 @@ ráttket:ráttk V_EVEN_E "divide up reindeer" ; ! no. 1391
 riegádahttet:riegádahtt V_EVEN_E "give birth to" ; ! no. 1396
 rievedasstet:rievedasst V_EVEN_E "pull towards oneself quickly" ; ! no. 5076
 rijjdet:rijjd V_EVEN_E "argue, quarrel" ; ! no. 1411
+rupsudahttet:rupsudahtt V_EVEN_E "turn something red, redden" ; ! no. 91547
 räkknegåhtet:räkknegåht V_EVEN_E "begin counting" ; ! no. 4402
 sadjet:sadj V_EVEN_E "sharpen (axes, knives, other tools)" ; ! no. 1473
 savvet:savv V_EVEN_E "heal, get better" ; ! no. 1520
@@ -802,6 +803,7 @@ tjassket:tjassk V_EVEN_E "throw, cast, discard" ; ! no. 1883
 tjáhkket:tjáhkk V_EVEN_E "take up little space" ; ! no. 1859
 tjállet:tjáll V_EVEN_E "write, note" ; ! no. 1875
 tjipptet:tjippt V_EVEN_E "bend ski tips" ; ! no. 6136
+tjuhkkidahttet:tjuhkkidahtt V_EVEN_E "have someone sit down" ; ! no. 91548
 tjuodtjanasstet:tjuodtjanasst V_EVEN_E "get up quickly" ; ! no. 4772
 tjuälldet:tju^Olld V_EVEN_E "divide reindeer traditionally using a pole" ; ! no. 3570
 tjågget:tjågg V_EVEN_E "pick, pick up, gather" ; ! no. 1957
