@@ -154,7 +154,8 @@ LEXICON A_BAAHKAS ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
 
 LEXICON A_BAAHKAS_s2 
 +Sg+Nom:s^WG%> K ; 
-+Pl+Nom:s%>a K ; 
+!+Pl+Nom:s%>a K ; 
+:s%> N_ODD_X ;
 +Comp:s A_EVEN_COMP ;
 +Superl:s A_EVEN_SUP ;
 

@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-05-10T06:34:13+03:00
+! Generated at: 2024-05-10T07:57:09+03:00
 
 !! # Pite Saami Verbs
 
@@ -1319,6 +1319,7 @@ gåjkådit:gåjkåd2 V_ODD "dry" ; ! no. 4224
 gåldådit:gåldåd2 V_ODD "fish with a net" ; ! no. 4565
 gålgådit:gålgåd2 V_ODD "make run, drift" ; ! no. 91538
 gåljåstit:gåljåst V_ODD "dig and catch something with antlers" ; ! no. 2802
+gållodit:gållod2 V_ODD "allow to cool or freeze" ; ! no. 91552
 gåmådit:gåmåd2 V_ODD "topple" ; ! no. 757
 gåmåstit:gåmåst V_ODD "be stored" ; ! no. 758
 gårrodit:gårrod2 V_ODD "become covered in ice" ; ! no. 4693
@@ -1581,6 +1582,7 @@ sárdnedit:sárdned2 V_ODD "preach" ; ! no. 1508
 sáredit:sáred2 V_ODD "separate tendon thread" ; ! no. 1509
 sárjestit:sárjest V_ODD "hurt, ache" ; ! no. 1514
 sátsastit:sátsast V_ODD "carve quickly" ; ! no. 4495
+sávadit:sávad2 V_ODD "wish, hope for" ; ! no. 91554
 siddardit:siddard2 V_ODD "start to rain a little bit" ; ! no. 1535
 siebdatjit:siebdatj V_ODD "attract an animal with feed, bait" ; ! no. 3661
 siegodit:siegod2 V_ODD "mix in more" ; ! no. 4141

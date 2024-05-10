@@ -467,6 +467,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Sg1:%>jiv #; 
 +V+Ind+Prt+Sg2:%>ji #; 
 +V+Ind+Prt+Sg3:%>j #;
++V+Ind+Prt+Sg3+Use/NG:%>jij #;
 +V+Ind+Prt+Du1:%>jmin #;
 +V+Ind+Prt+Du2:%>jdin #;
 +V+Ind+Prt+Du3:%>j 3DUPRT ;

@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-04-22T19:29:31+03:00
+! Generated at: 2024-05-10T06:57:49+03:00
 
 !! # Pite Saami Adjectives
 
@@ -202,6 +202,7 @@ unna+Use/NG:unnes A_VAASSE "small, little" ; ! no. 90859
 vásse:vás'se A_VAASSE "previous" ; ! no. 90395
 vierre:vierre A_VIERRE "(bad -> worse/worst)" ; ! no. 91154
 guoros:gu^Orros A_VUOJNOS "empty" ; ! no. 4862
+nanos:nannos A_VUOJNOS "strong, durable" ; ! no. 1244
 tjiegos:tjiehkos A_VUOJNOS "hidden, secret, confidential" ; ! no. 90984
 vuojnos:vu^Ojdnos A_VUOJNOS "visible, obvious" ; ! no. 90398
 bargodibme:bargod A_xDIBME "unemployed" ; ! no. 3130
