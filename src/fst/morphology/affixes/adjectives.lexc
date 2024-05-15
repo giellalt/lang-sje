@@ -108,8 +108,11 @@ LEXICON A_TJAEHPPE ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
 +A: A_TJAEHPPE_s2 ; 
 
 LEXICON A_TJAEHPPE_s2 
-+Sg+Nom:%> K ; 
-+Pl+Nom:^WG%> K ; 
+: EVENCASE ;  ! Sg Nom, Ess
+: N_EVEN_ILL ;  ! Sg Ill
+:^WG N_EVEN_WK ; ! CG here
+!+Sg+Nom:%> K ; !old
+!+Pl+Nom:^WG%> K ; !old
 +Comp:^WG A_ODD_COMP ;
 +Superl:^WG A_ODD_SUP ;
 
