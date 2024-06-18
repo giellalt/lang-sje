@@ -57,6 +57,25 @@
     | apostrophe/single quote ' : &#39;
     +-->
 
+<!-- add GT xml stylesheets to header (no idea why; appeared v18.06.2024) -->
+<xsl:processing-instruction name="xml-stylesheet">
+  <xsl:text>media="screen"              title="Dictionary view"   href="../../giella-core/dicts/scripts/gt_dictionary_XXE.css"     type="text/css"</xsl:text>
+</xsl:processing-instruction>
+<xsl:value-of select="$nl"/>
+<xsl:processing-instruction name="xml-stylesheet">
+  <xsl:text>media="screen"              title="Hierarchical view" href="../../giella-core/dicts/scripts/gt_dictionary_XXE_alt.css" type="text/css" alternate="yes" </xsl:text>
+</xsl:processing-instruction>
+<xsl:value-of select="$nl"/>
+<xsl:processing-instruction name="xml-stylesheet">
+  <xsl:text>media="print,tv,projection" title="Dictionary view"   href="../../giella-core/dicts/scripts/gt_dictionary.css"         type="text/css"</xsl:text>
+</xsl:processing-instruction>
+<xsl:value-of select="$nl"/>
+<xsl:processing-instruction name="xml-stylesheet">
+  <xsl:text>media="print,tv,projection" title="Hierarchical view" href="../../giella-core/dicts/scripts/gt_dictionary_alt.css"     type="text/css" alternate="yes" </xsl:text>
+</xsl:processing-instruction>
+<xsl:value-of select="$nl"/>
+
+
 <!-- header -->
 <r xmlns:xhtml="http://www.w3.org/1999/xhtml" id="smenob" xml:lang="sme">
    <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
