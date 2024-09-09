@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-06-18T14:40:30+02:00
+! Generated at: 2024-09-09T11:20:32+03:00
 
 !! # Pite Saami Nouns
 
@@ -2061,6 +2061,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åsstobäbbmo:åssto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
 hällsosentrálá:hällso#sentrálá N_NAME_noInfl_V "health center; hospital" ; ! no. 91477
+aktamaddak:akta#máddag2 N_ODD "same size" ; ! no. 90684
 allasjidduk:alla#sjiddug2 N_ODD "tall things or person" ; ! no. 3335
 almatj+CmpN/SgN+CmpN/SgG:almatj N_ODD "human, person" ; ! no. 54
 ananas:ananas N_ODD "pineapple" ; ! no. 3097
@@ -2258,7 +2259,7 @@ luomek:lu^Omeg2 N_ODD "lemming, Norwegian lemming" ; ! no. 1068
 luorrak:lu^Orrag2 N_ODD "bear skin" ; ! no. 2795
 låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
-máddak:máddag2 N_ODD "size" ; ! no. 1109
+maddak:máddag2 N_ODD "size" ; ! no. 1109
 máddar:máddar N_ODD "root, fore-; ancestor" ; ! no. 91521
 mehtir:mehtir N_ODD "meter" ; ! no. 90634
 mejdnik:mejdnig2 N_ODD "opinion" ; ! no. 1151
@@ -2426,7 +2427,6 @@ tjuovok:tju^Ovog2 N_ODD "reindeer following the lead reindeer" ; ! no. 3304
 tjuruk:tjurug2 N_ODD "flesh fly" ; ! no. 1945
 tjåhkkem:tjåhkkem N_ODD "collection, pile, gathering" ; ! no. 3926
 tjåhkom:tjåhkom N_ODD "comb" ; ! no. 1961
-tjårvemáddak:tjårve#máddag2 N_ODD "base of reindeer antlers" ; ! no. 2380
 tjåsskem:tjåsskem N_ODD "cold" ; ! no. 91508
 tjäjjsár:tjä2jjsár N_ODD "emperor" ; ! no. 5901
 tjärbmak:tjä2rbmag2 N_ODD "one-year reindeer calf in the spring" ; ! no. 2593
@@ -2489,7 +2489,6 @@ väjjbitj:vä2jjbitj N_ODD "person who easily becomes tired" ; ! no. 6097
 äjjgut:ä2jjgud2 N_ODD "intention" ; ! no. 3171
 äjjtik:ä2jjtig2 N_ODD "forefather, ancestor; parent (archaic)" ; ! no. 33
 älbmuk:ä2lbmug2 N_ODD "people, crowd, public" ; ! no. 44
-aktamádda:akta#máddag N_ODD_OPEN "same size" ; ! no. 90684
 ája:ádjag N_ODD_OPEN "spring, source" ; ! no. 2685
 ájjgetjála:ájjge#tjállag N_ODD_OPEN "journal" ; ! no. 90287
 ájjtetjåvdå:ájjte#tjåvvdåg N_ODD_OPEN "key for a shed" ; ! no. 4091
@@ -2509,7 +2508,7 @@ guohpa:gu^Ohppag N_ODD_OPEN "mold" ; ! no. 680
 gäjbmebiena:gäjbme#biednag N_ODD_OPEN "female dog in heat" ; ! no. 3489
 luobodisgáma:luobodis#gábmag N_ODD_OPEN "shoe which is easy to put on" ; ! no. 90307
 låvdå:låvvdåg N_ODD_OPEN "tent tarp" ; ! no. 1098
-mádda:máddag N_ODD_OPEN "lower intestine" ; ! no. 90265
+mádda:máddag N_ODD_OPEN "base, lower part; lower intestine" ; ! no. 90265
 muohta:mu^Ohttag N_ODD_OPEN "snow" ; ! no. 2360
 nievsa:nievsag N_ODD_OPEN "tinder, touchwood" ; ! no. 1259
 njára:njárrag N_ODD_OPEN "neck meat on a reindeer" ; ! no. 2882
