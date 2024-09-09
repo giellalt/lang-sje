@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-09-09T11:20:32+03:00
+! Generated at: 2024-09-09T11:31:08+03:00
 
 !! # Pite Saami Nouns
 
@@ -2061,7 +2061,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åsstobäbbmo:åssto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
 hällsosentrálá:hällso#sentrálá N_NAME_noInfl_V "health center; hospital" ; ! no. 91477
-aktamaddak:akta#máddag2 N_ODD "same size" ; ! no. 90684
+aktamaddak:akta#maddag2 N_ODD "same size" ; ! no. 90684
 allasjidduk:alla#sjiddug2 N_ODD "tall things or person" ; ! no. 3335
 almatj+CmpN/SgN+CmpN/SgG:almatj N_ODD "human, person" ; ! no. 54
 ananas:ananas N_ODD "pineapple" ; ! no. 3097
@@ -2259,7 +2259,7 @@ luomek:lu^Omeg2 N_ODD "lemming, Norwegian lemming" ; ! no. 1068
 luorrak:lu^Orrag2 N_ODD "bear skin" ; ! no. 2795
 låddebivdár:lådde#bivdár N_ODD "bird hunter" ; ! no. 1085
 låhkek:låhkeg2 N_ODD "covered Saami sled with two hatches" ; ! no. 4411
-maddak:máddag2 N_ODD "size" ; ! no. 1109
+maddak:maddag2 N_ODD "size" ; ! no. 1109
 máddar:máddar N_ODD "root, fore-; ancestor" ; ! no. 91521
 mehtir:mehtir N_ODD "meter" ; ! no. 90634
 mejdnik:mejdnig2 N_ODD "opinion" ; ! no. 1151
