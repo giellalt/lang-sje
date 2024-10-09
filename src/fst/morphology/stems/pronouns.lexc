@@ -35,12 +35,16 @@ LEXICON Personal   !!= * **@CODE@**
 mån+Pron+Pers+Sg1:m  perssg ;
 mån+Pron+Pers+Du1:m  persdu ;
 mån+Pron+Pers+Pl1:m  perspl ;
-dån+Pron+Pers+Sg2:d  perssg ;
+dån+Pron+Pers+Sg2:d  perssgA ; !adds dådnå
 dån+Pron+Pers+Du2:d  persdu ;
 dån+Pron+Pers+Pl2:d  perspl ;
-sån+Pron+Pers+Sg3:s  perssg ;
+sån+Pron+Pers+Sg3:s  perssgA ; !adds sådnå
 sån+Pron+Pers+Du3:s  persdu ;
 sån+Pron+Pers+Pl3:s  perspl ;
+
+LEXICON perssgA   !!= * **@CODE@**
++Nom:ådnå      # ;
+perssg ; !
 
 LEXICON perssg   !!= * **@CODE@**
 +Nom:ån      # ;
