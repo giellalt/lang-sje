@@ -700,6 +700,8 @@ Pronouns
 
 * **LEXICON Personal   **
 
+* **LEXICON perssgA   **
+
 * **LEXICON perssg   **
 
 * **LEXICON persdu   **
