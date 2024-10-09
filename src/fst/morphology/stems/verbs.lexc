@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-05-15T09:09:50+03:00
+! Generated at: 2024-10-09T07:54:06+03:00
 
 !! # Pite Saami Verbs
 
@@ -632,13 +632,15 @@ tsissat:tsis's V_EVEN_A "pee" ; ! no. 3700
 tsähkkat:tsiehkk V_EVEN_A "ask a certain price, cost" ; ! no. 2957
 usjudallat:usjudall V_EVEN_A "intend, consider" ; ! no. 3169
 vadjat:vadj V_EVEN_A "cut, cut to size" ; ! no. 5220
-vanjgadahtjat:vanjgadahtj V_EVEN_A "begin to run briefly" ; ! no. 91016
+vanjgadáhtjat:vanjgadáhtj V_EVEN_A "start to run briefly" ; ! no. 91016
 vannjgat:vannjg V_EVEN_A "run (for humans and animals)" ; ! no. 2080
 vassjat:vassj V_EVEN_A "feel like, manage, have the energy" ; ! no. 2095
 våvvdåt+Use/NG:vavvd V_EVEN_A "become caught, become stuck" ; ! no. 5976
 vádtsadallat:vádtsadall V_EVEN_A "get cheated, be deceived" ; ! no. 91456
 vádtsastallat:vádtsastall V_EVEN_A "prance around, swagger" ; ! no. 91455
+vádtsatjáhtjat:vádtsatjáhtj V_EVEN_A "start going for a walk" ; ! no. 91451
 vájjbat:vájjb V_EVEN_A "get tired, tire" ; ! no. 2065
+velgudáhtjat:velgudáhtj V_EVEN_A "start to turn white" ; ! no. 91559
 veludallat:veludall V_EVEN_A "rest a little bit" ; ! no. 3024
 viegadallat:viegadall V_EVEN_A "run around after, chase back and forth" ; ! no. 5443
 viehkat:viehk V_EVEN_A "run (for humans)" ; ! no. 2105
@@ -1790,6 +1792,7 @@ viegadit:viegad2 V_ODD "run briefly, run after" ; ! no. 5444
 viehkalit:viehkal V_ODD "run off, run away" ; ! no. 5699
 viehkedit:viehked2 V_ODD "help" ; ! no. 2116
 vieksaldit:vieksald2 V_ODD "exchange (eg. money)" ; ! no. 4607
+vielgeldit:vielgeld2 V_ODD "be white, appear white; shimmer" ; ! no. 91560
 vierránit:vierrán V_ODD "worsen" ; ! no. 3286
 vierrodit:vierrod2 V_ODD "sacrifice" ; ! no. 2110
 viertostit:viertost V_ODD "clear up (for weather)" ; ! no. 5451
