@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-09-09T17:17:58+03:00
+! Generated at: 2024-10-30T20:34:28+02:00
 
 !! # Pite Saami Nouns
 
@@ -321,6 +321,7 @@ diehpe:diehpe N_EVEN "shine, light" ; ! no. 90853
 dielle:dielle N_EVEN "compact snow without crust and only in the mountains" ; ! no. 3759
 dierre:dierre N_EVEN "middle layer of cowhide with a seam against the outer part of shoes" ; ! no. 4316
 dievvá:dievvá N_EVEN "hill, slope" ; ! no. 357
+diftåŋŋå:diftåŋ'ŋå N_EVEN "diphthong" ; ! no. 91565
 diggebävvdegirrje:digge#bävvde#girrje N_EVEN "minutes of parlament" ; ! no. 5604
 dihkke:dihkke N_EVEN "louse" ; ! no. 2359
 dijbmá:dijbmá N_EVEN "last year" ; ! no. 370
@@ -2248,6 +2249,7 @@ klädnat:klä2dnad2 N_ODD "cloth" ; ! no. 91470
 krähppuk:krä2hppug2 N_ODD "glove" ; ! no. 984
 lafnas:lafnas N_ODD "a reindeer’s morning rest" ; ! no. 2615
 láddak:láddag2 N_ODD "cloudberry" ; ! no. 990
+lávvlom:lávvlom N_ODD "song" ; ! no. 91564
 lávvotárrat:lávvot#árrad2 N_ODD "Saturday morning" ; ! no. 2474
 libjuk:libjug2 N_ODD "butterfly" ; ! no. 3008
 libluk:liblug2 N_ODD "butterfly" ; ! no. 1034
