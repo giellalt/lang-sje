@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-10-30T20:34:28+02:00
+! Generated at: 2024-11-04T08:40:45+02:00
 
 !! # Pite Saami Nouns
 
@@ -169,7 +169,7 @@ basse:basse N_EVEN "weekend, holidy" ; ! no. 150
 bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
 bassempánna:bassem#pán'na N_EVEN "frying pan" ; ! no. 91148
 bassemvuodja:bassem#vu^Odja N_EVEN "cooking grease" ; ! no. 152
-basstu:basstu N_EVEN "sauna" ; ! no. 1517
+basstu:basstu2 N_EVEN "sauna" ; ! no. 1517
 bateridja:bateridja N_EVEN "battery" ; ! no. 3224
 bádne:bádne N_EVEN "tooth" ; ! no. 97
 bádnedálko+N+Der/NomAg:bádne#dálkodieddje N_EVEN "dentist" ; ! no. 4671
@@ -2163,7 +2163,7 @@ gahtsem:gahtsem N_ODD "neck (humans)" ; ! no. 504
 gaksam:gaksam N_ODD "gill" ; ! no. 90541
 garrás:garrás N_ODD "windpipe" ; ! no. 546
 gartsak:gartsag2 N_ODD "rein made of tendon or leather" ; ! no. 3825
-garutj:garutj N_ODD "rubber band" ; ! no. 90253
+garutj:garu2tj N_ODD "rubber band" ; ! no. 90253
 gaskatj:gaskatj N_ODD "waist" ; ! no. 559
 gaskok:gaskog2 N_ODD "middle brother" ; ! no. 560
 gasskas:gasskas N_ODD "juniper, juniper twig" ; ! no. 566
