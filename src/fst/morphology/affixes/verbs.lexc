@@ -60,7 +60,7 @@ LEXICON V_EVEN_E_WK
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 +Der/VAdv+Adv:%>n #; !e.g. jåden "while migrating"
 !+Der/VAdv+Adv+Use/NG:%> #; !main form according to Lehtiranta 1992 (cf. p. 151)
-!+Sup:%>tjit # ;
++Sup:%>^V2E2AAtjit # ;
 +Pot:%>tj^V2E2AA V_EVEN_POT ; 
 
 LEXICON V_EVEN_E_WK_J
@@ -147,7 +147,7 @@ LEXICON V_EVEN_A_WK
 +Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
-!+Sup:%>tjit # ;
++Sup:%>tjit # ;
 +ConNeg:%> # ; 
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 +Der/VAdv+Adv:%>n #;
