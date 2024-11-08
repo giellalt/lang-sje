@@ -240,7 +240,7 @@ LEXICON V_EVEN_O_WK
 +Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
-!+Sup:%>tjit # ;
++Sup:%>tjit # ;
 +ConNeg:%> # ; 
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 +Der/VAdv+Adv:%>n #;
@@ -319,7 +319,7 @@ LEXICON V_EVEN_Å_WK
 +Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
-!+Sup:%>tjit # ;
++Sup:%>tjit # ;
 +ConNeg:%> # ; 
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 +Der/VAdv+Adv:%>n #;
@@ -381,7 +381,7 @@ LEXICON V_ODD !ságastit
 +V+PrsPrc:ä%>ddje # ; 
 +V+Vsubst:i%> V_SUBST_ODD_s2 ; 
 !+V+GerI:a%>din # ;  
-!+V+Sup:a%>tjit # ;
+!+V+Sup:a%>tjit # ; ! even Lehtiranta's paradigm 1992:153 doesn't have this
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 !+Der/VAdv+Adv:%>n #; !
 
@@ -488,7 +488,7 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+PrsPrc:%>jäddje # ; 
 +V+Vsubst:%>m V_SUBST_EVEN_s2 ; !cf. sujjtim (sje19360100a.001)
 !+V+GerI:%>din # ;  
-!+V+Sup:%>tjit # ;
++V+Sup:%>tjit # ;
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 !+Der/VAdv+Adv:%>n #; !
 
