@@ -224,6 +224,8 @@ LEXICON V_EVEN_O_STR
 +PrfPrc:u%>m # ;
 +PrsPrc:o%>j # ; 
 +Vsubst:o%>m V_SUBST_EVEN_s2 ; 
++Sup:u^WG%>tjit # ; !weak grade but with -u- i V2!! ex: urutjit (för att bo)
+
 
 LEXICON V_EVEN_O_WK
 +Ind+Prs+Sg1:%>v #;
@@ -240,7 +242,6 @@ LEXICON V_EVEN_O_WK
 +Imprt+Sg2:%> #; 
 
 +GerI:%>din # ;  
-+Sup:%>tjit # ;
 +ConNeg:%> # ; 
 !+VGen:%> #; !keeping as comment for now, but replaced with verb.adv. in next line
 +Der/VAdv+Adv:%>n #;
