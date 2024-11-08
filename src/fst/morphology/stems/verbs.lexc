@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-11-06T09:22:48+02:00
+! Generated at: 2024-11-08T09:30:12+02:00
 
 !! # Pite Saami Verbs
 
@@ -268,7 +268,7 @@ sälltit:sä2llti V_CONTR "salt" ; ! no. 3940
 säpptit:sä2ppti V_CONTR "bait" ; ! no. 3078
 telltit:tellti V_CONTR "camp, tent" ; ! no. 3520
 tjellit:tjel'li V_CONTR "jump once" ; ! no. 91197
-tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 90668
+tjerrut:tjerru V_CONTR "begin to cry" ; ! no. 91569
 tjiddnut:tjiddnu V_CONTR "constipated" ; ! no. 1899
 tjillgit:tjillgi V_CONTR "explain, define" ; ! no. 1895
 tjubbmit:tjubbmi V_CONTR "scale fish" ; ! no. 3606
@@ -1292,7 +1292,7 @@ guassŋadit:guassŋad2 V_ODD "become caught in a net (for fish)" ; ! no. 653
 gubdijdit:gubdijd2 V_ODD "migrate up" ; ! no. 674
 guddnedit:guddned2 V_ODD "honor" ; ! no. 658
 guhkedit:guhked2 V_ODD "extend" ; ! no. 4849
-gulastit:gulast V_ODD "get wind of something" ; ! no. 4856
+gulastit:gulast V_ODD "get wind of something, hear about something" ; ! no. 4856
 gulládit:gullád2 V_ODD "be in touch" ; ! no. 4770
 gulldalit:gulldal V_ODD "listen to someone, hear" ; ! no. 668
 gullgidit:gullgid2 V_ODD "run away" ; ! no. 4015
@@ -1703,8 +1703,11 @@ tjádjánit:tjádján V_ODD "get lost" ; ! no. 1853
 tjágerdit:tjágerd2 V_ODD "tickle" ; ! no. 1856
 tjájedit:tjájed2 V_ODD "point at" ; ! no. 1863
 tjádjánit+Use/NG:tjájján V_ODD "get lost" ; ! no. 90446
-tjáledit:tjáled2 V_ODD "register, record, write down" ; ! no. 5190
+tjálátjit:tjálátj V_ODD "write a bit" ; ! no. 91568
+tjáledit:tjáled2 V_ODD "register, record, write down; let write, record, register" ; ! no. 5190
+tjálestit:tjálest V_ODD "write briefly" ; ! no. 91567
 tjávkastit:tjávkast V_ODD "pull towards oneself quickly" ; ! no. 2764
+tjerudit:tjerud2 V_ODD "cry a little bit" ; ! no. 91570
 tjiegardit:tjiegard2 V_ODD "graze (for reindeer)" ; ! no. 3149
 tjiehkadit:tjiehkad2 V_ODD "hide oneself" ; ! no. 1890
 tjiektjadit:tjiektjad2 V_ODD "kick" ; ! no. 5641
