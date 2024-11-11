@@ -680,7 +680,8 @@ LEXICON V_SUBST_EVEN_s2 !båhtem, båhtema, båhtemin, båhtemijn
 !+Com:ijn # ;
 
 LEXICON V_SUBST_ODD_s2 !málestibme, málestime, málestimen, málestimijn
-+Nom:bme # ;
++Nom:bme # ; !cf. no. 5234 ságastibme "conversation"
++Nom+Use/NG:m # ; !cf. sje20231218a.079 fielastim "travel/journey"
 !+Cmp/SgNom: R ;
 +Gen:me # ;
 !+Ess:men # ;
