@@ -677,7 +677,7 @@ LEXICON V_SUBST_EVEN_s2 !båhtem, båhtema, båhtemin, båhtemijn
 +Cmp/SgNom: R ;
 +Gen:a # ;
 !+Ess:in # ;
-!+Com:ijn # ;
++Com:ijn # ; !cf. pit090609a.164 gullimijn "with the fishing"
 
 LEXICON V_SUBST_ODD_s2 !málestibme, málestime, málestimen, málestimijn
 +Nom:bme # ; !cf. no. 5234 ságastibme "conversation"
