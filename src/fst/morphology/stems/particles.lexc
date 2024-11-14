@@ -30,7 +30,7 @@ gis pcle ;
 gujt pcle ;
 gujt+Use/NG:gujd pcle ;
 gul pcle ;
-gus pcle ;
+gus pcle "q-particle" ;
 jur pcle ;
 jura pcle ;
 lik pcle "anyway" ; 
@@ -43,8 +43,6 @@ vaj pcle ;
 vanj pcle ;
 vast pcle ;
 vil pcle ;
-! vuojna pcle ; !??? vuojná? see.2sg.prs?
-å pcle ;
 
 
 
