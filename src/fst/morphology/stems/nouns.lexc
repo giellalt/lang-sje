@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-11-14T16:33:21-07:00
+! Generated at: 2024-12-11T10:32:23+02:00
 
 !! # Pite Saami Nouns
 
@@ -165,7 +165,7 @@ barrgosadje:barrgo#sadje N_EVEN "workplace" ; ! no. 4684
 barrte:barrte N_EVEN "difficult mountain" ; ! no. 2805
 basadimgárre:basadim#gárre N_EVEN "washing pan" ; ! no. 4687
 basilla:basilla N_EVEN "bacterium, germ" ; ! no. 3199
-basse:basse N_EVEN "weekend, holidy" ; ! no. 150
+basse:basse N_EVEN "weekend, holiday" ; ! no. 150
 bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
 bassempánna:bassem#pán'na N_EVEN "frying pan" ; ! no. 91148
 bassemvuodja:bassem#vu^Odja N_EVEN "cooking grease" ; ! no. 152
@@ -587,6 +587,7 @@ hushållå:hushållå N_EVEN "household" ; ! no. 91123
 huvvda:huvvda N_EVEN "skin, cowhide leather" ; ! no. 6234
 huvvsa:huvvsa N_EVEN "house" ; ! no. 2351
 hållgå:hållgå N_EVEN "stick, pole" ; ! no. 855
+hållå:hållå N_EVEN "topic, subject, talking point; monologue" ; ! no. 91573
 hårre:hårre N_EVEN "pile" ; ! no. 857
 hårrte:hårrte N_EVEN "large dog" ; ! no. 4930
 häffne:hieffne N_EVEN "spider" ; ! no. 860
