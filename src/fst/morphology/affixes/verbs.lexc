@@ -628,38 +628,40 @@ LEXICON IJPRS !!= * @CODE@
 +Sg2:i    K ; 
 +Sg3:ij    K ; 
 !+Sg3+Use/NG:ijja    K ; ! long form? not 100% sure, cf. sje20150329b.138
-+Du1:en K ; 
-+Du2:ehpen K ;   
++Du1:ien K ; 
++Du2:iehpen K ;   
 +Du3:iebá K ; 
-+Pl1:iehpe K ; 
-+Pl1:ep K ; 
-+Pl2:ehpit K ;  
++Pl1:iep K ; 
++Pl1+Use/NG:iehpe K ; 
++Pl2:ihpit K ;  
 +Pl3:ie   K ;
-+Pl3:e   K ;
++Pl3+Use/NG:e   K ;
 +Pl3#lä+V+ConNeg:ällä K ; ! = e+lä
 
 LEXICON IJPRT !!= * @CODE@ 
 +Sg1:idtjiv    K ;  !!= * @CODE@ 
 +Sg2:idtji    K ; 
 +Sg3:idtjij    K ; 
-+Du1:iejme K ; 
++Du1+Use/NG:iejmen K ; 
 +Du1:idtjijmen K ; 
-+Du2:iejde  K ; 
-+Du2:iejden  K ; 
++Du2+Use/NG:iejden  K ; 
 +Du2:idtjijden K ; 
-+Du3:iej 3DUPRT ; 
-+Du3:idtjij 3DUPRT ; 
-+Pl1:iejme K ; 
++Du3+Use/NG:iejgan 3DUPRT ; 
++Du3:idtjijga 3DUPRT ; 
++Pl1+Use/NG:iejme K ; 
 +Pl1:idtjijme K ; 
-+Pl2:iejde K ; 
++Pl2+Use/NG:iejde K ; 
 +Pl2:idtjijde K ; 
 +Pl3:idtjin    K ;
 
 
 LEXICON IJIMP !!= * @CODE@ 
-+Sg2:iele  K ; !!= * @CODE@ 
++Sg2:iele  K ; 
++Sg2+Use/NG:ilu  K ; 
 +Du2:iellen K ; 
-+Pl2:illit  K ;
++Du2+Use/NG:illun K ; 
++Pl2:iellet  K ;
++Pl2+Use/NG:illut  K ;
 
 
 LEXICON 3DUPRS !variation in 3rd-DUAL-Presence suffixes for EVEN stems
