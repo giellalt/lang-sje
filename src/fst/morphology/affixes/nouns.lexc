@@ -53,6 +53,14 @@ LEXICON N_EVEN_NOCG ! without consonant gradation, e.g. bägga<->biegga
 +N:^WG N_EVEN_WK ; !
 +N: N_EVEN_DIM ; !DIM derivation
 
+LEXICON N_EVEN_NOALT ! without any stem alternation (no C-grad, no umlaut); loan words with -iehka
++N: EVENCASE ;
++N: N_EVEN_ILL ;
++N: N_EVEN_WK ; !
++N: N_EVEN_DIM ; !DIM derivation
+
+
+
 LEXICON EVENCASE
 +Sg+Nom:^UAUML%>    K ;
 N_EVEN_ESS ; ! Essive
