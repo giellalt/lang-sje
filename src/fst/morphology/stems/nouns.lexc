@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-12-18T13:19:46+02:00
+! Generated at: 2024-12-18T14:00:05+02:00
 
 !! # Pite Saami Nouns
 
@@ -82,6 +82,7 @@ advärrba:advierrba N_EVEN "adverb" ; ! no. 3113
 ahtse:ahtse N_EVEN "difference in level" ; ! no. 4656
 akkusatijjva:akkusatijjva N_EVEN "accusative" ; ! no. 3115
 aksjuvdna:aksjuvdna N_EVEN "auction" ; ! no. 3145
+aksjuvdna+Use/NG:aksjåvdnå N_EVEN "auction" ; ! no. 91588
 aktasatj+A+Der/State:aktasatjvu^Ohta N_EVEN "unity" ; ! no. 3988
 albme:albme N_EVEN "sky, heavens, outer space" ; ! no. 43
 alfabähtta:alfabiehtta N_EVEN "alphabet" ; ! no. 3085
@@ -804,6 +805,7 @@ minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
 miŋesgiehtje:miŋes#giehtje N_EVEN "second half, end" ; ! no. 91200
 missovuasstá:misso#vu^Osstá N_EVEN "brown cheese" ; ! no. 5989
 missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
+monsuvdna:monsuvdna N_EVEN "monsoon" ; ! no. 91597
 morfijdna:morfijdna N_EVEN "morphine" ; ! no. 91580
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
 muohtadállke:muohta#dállke N_EVEN "blizzard, snow storm" ; ! no. 6559
@@ -848,6 +850,7 @@ namma:namma N_EVEN "name" ; ! no. 3433
 nanos+A+Der/State:nanosvu^Ohta N_EVEN "solidity, sustainability" ; ! no. 4046
 narra:narra N_EVEN "handle" ; ! no. 2670
 nasjuvdna:nasjuvdna N_EVEN "nation" ; ! no. 5543
+nasjuvdna+Use/NG:nasjåvdnå N_EVEN "nation" ; ! no. 91591
 natuvvra:natuvvra N_EVEN "nature" ; ! no. 5515
 náhkke:náhkke N_EVEN "leather from an animal, pelt" ; ! no. 5000
 náhpe:náhpe N_EVEN "belly button, navel" ; ! no. 1235
@@ -906,9 +909,11 @@ nässkemruävvde:nässkem#ru^Ovvde N_EVEN "leather or hide scraper" ; ! no. 1339
 nässte:niesste N_EVEN "food bag" ; ! no. 2948
 nässtevuassa:nässte#vu^Os'sa N_EVEN "food bag" ; ! no. 5009
 pansjuvdna:pansjuvdna N_EVEN "pension" ; ! no. 5050
+pansjuvdna+Use/NG:pansjåvdnå N_EVEN "pension" ; ! no. 91589
 paradijjsa:paradijjsa N_EVEN "paradise" ; ! no. 5051
 parlamännta:parlamiennta N_EVEN "parliament" ; ! no. 5052
 patruvdna:patruvdna N_EVEN "cartridge, shell" ; ! no. 5053
+patruvdna+Use/NG:patråvdnå N_EVEN "cartridge, shell" ; ! no. 91590
 pánna:pán'na N_EVEN "pan, frying pan" ; ! no. 91147
 perungavvla:perun#gavvla N_EVEN "potato foliage" ; ! no. 5907
 perunvuassa:perun#vu^Os'sa N_EVEN "potato sack" ; ! no. 5054
@@ -1151,6 +1156,8 @@ spijjka:spijjka N_EVEN "nail" ; ! no. 91435
 spissa:spis'sa N_EVEN "stove" ; ! no. 1723
 spjällka:spjiellka N_EVEN "spatula, baking board" ; ! no. 1724
 spävvtja:spievvtja N_EVEN "ghost, specter" ; ! no. 1726
+stasjuvdna:stasjuvdna N_EVEN "station" ; ! no. 91592
+stasjuvdna+Use/NG:stasjåvdnå N_EVEN "station" ; ! no. 91593
 stáhtta:stáhtta N_EVEN "state, government" ; ! no. 4167
 stálle:stálle N_EVEN "steel" ; ! no. 1730
 stállenjuolla:stálle#nju^Olla N_EVEN "steel arrow" ; ! no. 4275
@@ -1244,7 +1251,8 @@ särrga:sierrga N_EVEN "willow" ; ! no. 1845
 táhkka:táhkka N_EVEN "roof" ; ! no. 5175
 táhttja:táhttja N_EVEN "roof" ; ! no. 1846
 tea:tea N_EVEN "tea" ; ! no. 90614
-telefona:telefona N_EVEN "telephone" ; ! no. 1847
+telefuvdna:telefuvdna N_EVEN "telephone" ; ! no. 91594
+telefuvdna+Use/NG:telefåvdnå N_EVEN "telephone" ; ! no. 91595
 testamännta:testamiennta N_EVEN "testament" ; ! no. 91205
 tijbma:tijbma N_EVEN "hour" ; ! no. 1848
 tjadná:tjadná N_EVEN "birch polypore (mushroom)" ; ! no. 1854
