@@ -119,7 +119,6 @@ proper nouns.
 * +Sg1:idtjiv    K ;   
 
 * LEXICON IJIMP  
-* +Sg2:iele  K ;  
 
 * * *
 
