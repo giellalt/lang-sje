@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-12-18T14:00:05+02:00
+! Generated at: 2024-12-18T14:51:18+02:00
 
 !! # Pite Saami Nouns
 
@@ -96,6 +96,7 @@ anuráhkka:anuráhkka N_EVEN "anorak" ; ! no. 3108
 apelsijdna:apelsijdna N_EVEN "orange (fruit)" ; ! no. 3124
 apparahtta:apparahtta N_EVEN "device, machine" ; ! no. 3126
 arbmogis+A+Der/State:arbmogisvu^Ohta N_EVEN "mercy" ; ! no. 63
+arkitektuvvra:arkitektuvvra N_EVEN "architecture" ; ! no. 91601
 artånåsse:artån#åsse N_EVEN "payment for a reindeer hand in form of a slaughtered reindeer" ; ! no. 4206
 asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
@@ -171,7 +172,8 @@ bassemguolle:bassem#gu^Olle N_EVEN "grilled fish" ; ! no. 4696
 bassempánna:bassem#pán'na N_EVEN "frying pan" ; ! no. 91148
 bassemvuodja:bassem#vu^Odja N_EVEN "cooking grease" ; ! no. 152
 basstu:basstu2 N_EVEN "sauna" ; ! no. 1517
-bateridja:bateridja N_EVEN "battery" ; ! no. 3224
+batteridja:batteridja N_EVEN "battery" ; ! no. 3224
+batteridja+Use/NG:batterijja N_EVEN "battery" ; ! no. 91598
 bádne:bádne N_EVEN "tooth" ; ! no. 97
 bádnedálko+N+Der/NomAg:bádne#dálkodieddje N_EVEN "dentist" ; ! no. 4671
 báhkka:báhkka N_EVEN "warmth, heat" ; ! no. 107
@@ -373,6 +375,7 @@ fálldebåkkså:fállde#båkkså N_EVEN "old-style trousers made of homespun clo
 fálskes+A+Der/State:fálskesvu^Ohta N_EVEN "falsehood, untruth" ; ! no. 4035
 fáŋŋgagåhte:fáŋŋga#gåhte N_EVEN "prison" ; ! no. 4188
 fásstoájjge:fássto#ájjge N_EVEN "Lent" ; ! no. 4043
+figuvvra:figuvvra N_EVEN "figure" ; ! no. 91602
 fijjla:fijjla N_EVEN "soured milk" ; ! no. 5288
 fikksa:fikksa N_EVEN "barn" ; ! no. 90579
 filbma:filbma N_EVEN "film" ; ! no. 4073
@@ -380,6 +383,7 @@ fillta:fillta N_EVEN "blanket" ; ! no. 4074
 fruvva:fruvva N_EVEN "wife" ; ! no. 3284
 fuarrsa:fu^Orrsa N_EVEN "rapids" ; ! no. 648
 fuovva:fu^Ovva N_EVEN "crowd" ; ! no. 480
+futuvvra:futuvvra N_EVEN "future" ; ! no. 91603
 fuällke:fu^Ollke N_EVEN "family" ; ! no. 482
 fysijjka:fysijjka N_EVEN "physics" ; ! no. 4244
 fäjjga:fiejjga N_EVEN "warning, omen" ; ! no. 4388
@@ -439,6 +443,8 @@ gávdne:gávdne N_EVEN "thing, object" ; ! no. 577
 gávnadimsadje:gávnadim#sadje N_EVEN "meeting place" ; ! no. 5741
 gávva:gávva N_EVEN "bend, curve" ; ! no. 3518
 gávvtja:gávvtja N_EVEN "silver chalice with handles" ; ! no. 6010
+geografidja:geografidja N_EVEN "geography" ; ! no. 91599
+geografidja+Use/NG:geografijja N_EVEN "geography" ; ! no. 91600
 gibme:gibme N_EVEN "capercaillie's mating display" ; ! no. 604
 girradállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
 giedtsvuolle:giedts#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
@@ -1170,6 +1176,7 @@ stirrgi:stirrgi N_EVEN "inflammation, paralysis in a reindeer's back" ; ! no. 37
 stivvra:stivvra N_EVEN "management, leadership" ; ! no. 5919
 struahtta:stru^Ohtta N_EVEN "Christmas" ; ! no. 3829
 struhtávuasstá:struhtá#vu^Osstá N_EVEN "Christmas cheese made from reindeer milk" ; ! no. 3828
+struktuvvra:struktuvvra N_EVEN "structure" ; ! no. 91604
 struvvda:struvvda N_EVEN "cloth, broadcloth (type of cloth)" ; ! no. 1737
 struvvdagáppte:struvvda#gáppte N_EVEN "broadcloth frock" ; ! no. 5231
 strähttá:striehttá N_EVEN "Epiphany" ; ! no. 5088
@@ -1253,6 +1260,7 @@ táhttja:táhttja N_EVEN "roof" ; ! no. 1846
 tea:tea N_EVEN "tea" ; ! no. 90614
 telefuvdna:telefuvdna N_EVEN "telephone" ; ! no. 91594
 telefuvdna+Use/NG:telefåvdnå N_EVEN "telephone" ; ! no. 91595
+temperatuvvra:temperatuvvra N_EVEN "temperature" ; ! no. 91605
 testamännta:testamiennta N_EVEN "testament" ; ! no. 91205
 tijbma:tijbma N_EVEN "hour" ; ! no. 1848
 tjadná:tjadná N_EVEN "birch polypore (mushroom)" ; ! no. 1854
