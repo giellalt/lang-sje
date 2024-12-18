@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-12-11T10:32:23+02:00
+! Generated at: 2024-12-18T13:19:46+02:00
 
 !! # Pite Saami Nouns
 
@@ -92,8 +92,8 @@ alumijdna:alumijdna N_EVEN "aluminium" ; ! no. 3094
 anarkiddja:anarkiddja N_EVEN "anarchy" ; ! no. 3099
 antänna:antien'na N_EVEN "antenna" ; ! no. 3122
 anuráhkka:anuráhkka N_EVEN "anorak" ; ! no. 3108
+apelsijdna:apelsijdna N_EVEN "orange (fruit)" ; ! no. 3124
 apparahtta:apparahtta N_EVEN "device, machine" ; ! no. 3126
-appelsijdna:appelsijdna N_EVEN "orange (fruit)" ; ! no. 3124
 arbmogis+A+Der/State:arbmogisvu^Ohta N_EVEN "mercy" ; ! no. 63
 artånåsse:artån#åsse N_EVEN "payment for a reindeer hand in form of a slaughtered reindeer" ; ! no. 4206
 asske:asske N_EVEN "lap" ; ! no. 2407
@@ -361,6 +361,7 @@ ekspårrtå:ekspårrtå N_EVEN "export" ; ! no. 4002
 elefánnta:elefánnta N_EVEN "elephant" ; ! no. 3982
 emállja:emállja N_EVEN "enamel" ; ! no. 3983
 fabrijjka:fabrijjka N_EVEN "factory" ; ! no. 4029
+farijdna:fari2jdna N_EVEN "brown sugar" ; ! no. 91574
 fábmogis+A+Der/State:fábmogisvu^Ohta N_EVEN "authority, power" ; ! no. 3247
 fáddme:fáddme N_EVEN "bosom; armful; hug" ; ! no. 471
 fágga+N+Der/NomAg:fággadieddje N_EVEN "wrestler" ; ! no. 3420
@@ -393,6 +394,7 @@ gahpa:gahpa N_EVEN "weaving shuttle" ; ! no. 496
 gahpa:gahpa N_EVEN "cheese mass, cream" ; ! no. 497
 gallba:gallba N_EVEN "pointed front antler " ; ! no. 4755
 gallva:gallva N_EVEN "dry deciduous tree" ; ! no. 4757
+gardijdna:gardi2jdna N_EVEN "curtain" ; ! no. 90339
 garrtsa:garrtsa N_EVEN "twirled leather strip" ; ! no. 551
 gaskamierre:gaska#mierre N_EVEN "halfway, average" ; ! no. 90545
 gasskabäjjve:gasska#biejjve N_EVEN "dinner time" ; ! no. 564
@@ -425,7 +427,6 @@ gámasuäjdneájjge:gáma#suäjdne#ájjge N_EVEN "season to harvest shoe hay" ; 
 gámmsa:gámmsa N_EVEN "dumpling" ; ! no. 533
 gáŋŋká:gáŋŋká N_EVEN "iron pole" ; ! no. 4067
 gáppte:gáppte N_EVEN "Saami frock" ; ! no. 539
-gárdijdna:gárdijdna N_EVEN "curtain" ; ! no. 90339
 gárrde:gárrde N_EVEN "fence, pen, corral" ; ! no. 548
 gárre:gárre N_EVEN "bowl" ; ! no. 3446
 gárrvoájjte:gárrvo#ájjte N_EVEN "clothing shed" ; ! no. 3585
@@ -652,6 +653,8 @@ järrja:jierrja N_EVEN "alpine sow thistle" ; ! no. 970
 jässka:jiesska N_EVEN "large abscess" ; ! no. 2475
 jävvja:jievvja N_EVEN "white (for reindeer)" ; ! no. 6592
 kafea:kafea N_EVEN "café" ; ! no. 3519
+kamijdna:kami2jdna N_EVEN "fire place, stove" ; ! no. 91575
+kanijdna:kani2jdna N_EVEN "bunny" ; ! no. 91576
 kapälla:kapiel'la N_EVEN "chapel" ; ! no. 91475
 katetjiesa:katetjiesa N_EVEN "catechism" ; ! no. 5667
 káffa:káffa N_EVEN "coffee, package of coffee" ; ! no. 971
@@ -695,6 +698,7 @@ lasska:lasska N_EVEN "woven band at the bottom of a woman's Saami frock" ; ! no.
 lassta:lassta N_EVEN "leaf" ; ! no. 3053
 lasstavuobme:lassta#vu^Obme N_EVEN "deciduous forest" ; ! no. 5724
 lastabijjla:lasta#bijjla N_EVEN "truck" ; ! no. 90741
+latijdna:lati2jdna N_EVEN "Latin" ; ! no. 91577
 lavdnje:lavdnje N_EVEN "peat, turf" ; ! no. 4946
 lavdnjegåhte:lavdnje#gåhte N_EVEN "Saami hut with peat walls" ; ! no. 2616
 láddegiella:ládde#giella N_EVEN "the Swedish language" ; ! no. 6076
@@ -754,6 +758,7 @@ läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
 läjjdishärrge:läjjdis#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
 lävvka:lievvka N_EVEN "silty moist clay, expansive clay" ; ! no. 1105
+magasijdna:magasijdna N_EVEN "magazine; storage" ; ! no. 91578
 mahte:mahte N_EVEN "a bit" ; ! no. 90569
 majoritähtta:majoritiehtta N_EVEN "majority" ; ! no. 5982
 malle:malle N_EVEN "pattern, template" ; ! no. 3736
@@ -783,6 +788,7 @@ mánná+A+Der/State:mánnávu^Ohta N_EVEN "childhood" ; ! no. 3221
 mánnodiehpe:mánno#diehpe N_EVEN "moonlight" ; ! no. 4310
 márrtná+Use/NG:márrkná N_EVEN "market" ; ! no. 91317
 márrtná:márrtná N_EVEN "market" ; ! no. 2594
+medisijdna:medisijdna N_EVEN "medicine" ; ! no. 91579
 metuvvda:metuvvda N_EVEN "method" ; ! no. 91182
 miehtedievvá:miehte#dievvá N_EVEN "downhill slope" ; ! no. 5893
 miella:miella N_EVEN "temperament, reason, mood, senses" ; ! no. 1153
@@ -798,6 +804,7 @@ minoritähtta:minoritiehtta N_EVEN "minority" ; ! no. 5983
 miŋesgiehtje:miŋes#giehtje N_EVEN "second half, end" ; ! no. 91200
 missovuasstá:misso#vu^Osstá N_EVEN "brown cheese" ; ! no. 5989
 missovuodja:misso#vu^Odja N_EVEN "whey butter" ; ! no. 3197
+morfijdna:morfijdna N_EVEN "morphine" ; ! no. 91580
 muhtemájjge:muhtem#ájjge N_EVEN "part time" ; ! no. 3572
 muohtadállke:muohta#dállke N_EVEN "blizzard, snow storm" ; ! no. 6559
 muohtadállve:muohta#dállve N_EVEN "snowy winter" ; ! no. 2364
@@ -905,9 +912,11 @@ patruvdna:patruvdna N_EVEN "cartridge, shell" ; ! no. 5053
 pánna:pán'na N_EVEN "pan, frying pan" ; ! no. 91147
 perungavvla:perun#gavvla N_EVEN "potato foliage" ; ! no. 5907
 perunvuassa:perun#vu^Os'sa N_EVEN "potato sack" ; ! no. 5054
+pingvijdna:pingvijdna N_EVEN "penguin" ; ! no. 91581
 plássá:plás'sá N_EVEN "downtown" ; ! no. 1348
 pluovve:plu^Ovve N_EVEN "tarn" ; ! no. 1351
 plåhttå:plåhttå N_EVEN "sheet metal" ; ! no. 90296
+proteijdna:proteijdna N_EVEN "protein" ; ! no. 91582
 prunnta:prunnta N_EVEN "water hole, water pit" ; ! no. 1427
 prusjäkkta:prusjiekkta N_EVEN "project" ; ! no. 5057
 påjjkå:påjjkå N_EVEN "boy" ; ! no. 2570
@@ -947,6 +956,7 @@ risse:ris'se N_EVEN "twig, birch twig (only for deciduous trees)" ; ! no. 1416
 rissja:rissja N_EVEN "sulfur" ; ! no. 1417
 kruassa+Use/NG:ru^Os'sa N_EVEN "cross" ; ! no. 90731
 ruassta:ru^Ossta N_EVEN "rust" ; ! no. 5081
+rubijdna:rubijdna N_EVEN "ruby" ; ! no. 91583
 bruddne+Use/NG:ruddne N_EVEN "well (even in the ice to fetch water)" ; ! no. 91281
 ruhta:ruhta N_EVEN "a groom's present to his bride's parents" ; ! no. 6036
 ruhtse:ruhtse N_EVEN "trash, rubbish, garbage, waste" ; ! no. 3154
@@ -954,6 +964,7 @@ rumma:rum'ma N_EVEN "room" ; ! no. 1421
 ruŋŋka:ruŋŋka N_EVEN "raven" ; ! no. 1428
 russjma:russjma N_EVEN "evening fog (rising above water in cool weather); night fog (rising above water in cool weather)" ; ! no. 91235
 russna:russna N_EVEN "cold smoke, vapor (on a lake/ocean)" ; ! no. 1440
+rutijdna:rutijdna N_EVEN "routine" ; ! no. 91584
 ruvvdna:ruvvdna N_EVEN "uneasy feeling" ; ! no. 4429
 ruvvsa:ruvvsa N_EVEN "bottle, jug" ; ! no. 91275
 ruäjjve:ru^Ojjve N_EVEN "cut of meat" ; ! no. 1446
@@ -1349,6 +1360,7 @@ vanashuvvsa:vanas#huvvsa N_EVEN "boat house" ; ! no. 2621
 varra:varra N_EVEN "human blood" ; ! no. 2084
 varradávvda:varra#dávvda N_EVEN "blood disease" ; ! no. 6543
 varravádne:varra#vádne N_EVEN "shortage of blood, low blood count" ; ! no. 2085
+vaselijdna:vaselijdna N_EVEN "vaseline" ; ! no. 91585
 vassjalis+A+Der/State:vassjalisvu^Ohta N_EVEN "industriousness, diligence" ; ! no. 3082
 vassje:vassje N_EVEN "hate, disgust" ; ! no. 5915
 vavvle:vavvle N_EVEN "deep trench in a lake or creek" ; ! no. 2101
@@ -1380,6 +1392,7 @@ vijdna:vijdna N_EVEN "alcohol, wine" ; ! no. 3086
 vijjdudahka:vijjdudahka N_EVEN "width, breadth, extent" ; ! no. 91163
 vijkiŋaájjge:vijkiŋa#ájjge N_EVEN "the Viking era" ; ! no. 5672
 visste:visste N_EVEN "reindeer lichen" ; ! no. 2134
+vitamijdna:vitamijdna N_EVEN "vitamin" ; ! no. 91586
 vivva:vivva N_EVEN "son-in-law" ; ! no. 2136
 vuabbda:vu^Obbda N_EVEN "breast, chest" ; ! no. 2147
 vuahppa:vu^Ohppa N_EVEN "father-in-law" ; ! no. 2139
