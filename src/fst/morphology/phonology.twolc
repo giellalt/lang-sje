@@ -65,9 +65,9 @@ Alphabet
 
 Sets
   Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú ' ;
-  Cns    =   b c d   f g h     j k l m n ŋ   p q r s t   v w x   z                     '
-      		 B C D   F G H     J K L M N Ŋ   P Q R S T   V W X   Z
-             b2 d2 g2 t2 j2 ;
+  Cns    =   b c d   f g h    j k l m n ŋ   p q r s t    v w x   z                      '
+             B C D   F G H    J K L M N Ŋ   P Q R S T    V W X   Z
+             b2  d2    g2     j2                    t2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
            A       E       I               O           U           Æ Ä Ø Ö Å Á É Í Ó Ú 
                            i2              %^O         u2            ä2 ;
