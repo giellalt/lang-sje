@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-11-08T09:30:12+02:00
+! Generated at: 2024-12-20T11:01:04+02:00
 
 !! # Pite Saami Verbs
 
@@ -171,6 +171,7 @@ nisskit:nisski V_CONTR "kill a reindeer by stabbing it in the neck" ; ! no. 2777
 njimmgit:njimmgi V_CONTR "glue" ; ! no. 1287
 njullgit:njullgi V_CONTR "take a short cut, straighten out, correct" ; ! no. 3614
 nuffit:nuffi V_CONTR "skin by hand, shove loose" ; ! no. 2336
+nuhkkut:nuhkku V_CONTR "be finished, be depleted" ; ! no. 91620
 nuhttit:nuhtti V_CONTR "fish using a seine, pull up onto land" ; ! no. 4566
 näggit:nä2ggi V_CONTR "force one’s way into" ; ! no. 1334
 närrit:nä2rri V_CONTR "tell lies, deceive" ; ! no. 4283
@@ -1037,7 +1038,7 @@ jåkksåt:jåkks V_EVEN_Å "catch up, manage on time, catch" ; ! no. 952
 jårråt:jårr V_EVEN_Å "fall over" ; ! no. 2524
 jåvvgåt:jåvvg V_EVEN_Å "get snowed in" ; ! no. 962
 jåvvlåt:jåvvl V_EVEN_Å "say, utter, pronounce" ; ! no. 90855
-låhkåt:låhk V_EVEN_Å "read" ; ! no. 1089
+låhkåt:låhk V_EVEN_Å "read; study" ; ! no. 1089
 mårdnåt:mårdn V_EVEN_Å "decay, rot" ; ! no. 1212
 njållgåt:njållg V_EVEN_Å "trot (for reindeer)" ; ! no. 1312
 njårråt:njårr V_EVEN_Å "pour in" ; ! no. 1314
@@ -1524,6 +1525,7 @@ nurudit:nurud2 V_ODD "load up a pack animal, transport by pack animal" ; ! no. 4
 nurudit+Use/NG:nådod2 V_ODD "load up a pack animal, transport by pack animal" ; ! no. 90492
 nåhkedit:nåhked2 V_ODD "doze off, fall asleep" ; ! no. 4255
 nåhkådit:nåhkåd2 V_ODD "wear, wear out" ; ! no. 5888
+nåhkålit:nåhkål V_ODD "quickly be depleted or finished" ; ! no. 91621
 nåjsårdit:nåjsård2 V_ODD "be pregnant" ; ! no. 4346
 nåljåstit:nåljåst V_ODD "pull off, wriggle out of" ; ! no. 3746
 nårrdådit:nårrdåd2 V_ODD "bump into" ; ! no. 4333
@@ -1765,6 +1767,7 @@ tsåjtsedit:tsåjtsed2 V_ODD "catch on fire, explode resulting in flying debris"
 tsäggahit:tsä2ggah V_ODD "stand upright" ; ! no. 3608
 udtjudit:udtjud2 V_ODD "try to acquire, receive" ; ! no. 4404
 ullgonit:ullgon V_ODD "move to the side" ; ! no. 5035
+unnanit:unnan V_ODD "lessen, decrease, diminish" ; ! no. 91618
 unnedit:unned2 V_ODD "lessen, minimize" ; ! no. 3563
 urudit:urud2 V_ODD "be somewhere temporarily" ; ! no. 2035
 usjudit:usjud2 V_ODD "think, mean" ; ! no. 2036

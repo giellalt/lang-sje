@@ -494,7 +494,8 @@ LEXICON A_ODD_jSUP_V2E2AA
 LEXICON A_ODD_SUP_s2  
 +Attr: # ;
 +Sg+Nom: # ;
-+Pl+Nom:%>a # ;
++Sg+Ela:%>t # ; !ienamust (sje19210000a-lagercrantz1957a-427.016)
++Pl+Nom:%>u # ;
 
 
 !if odd-syllabled SUPERL-ATTR wordform, then -umos in ATTR, SG.NOM, -ubmusa in PL.NOM

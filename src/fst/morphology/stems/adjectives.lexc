@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-09-09T14:27:46+03:00
+! Generated at: 2024-12-20T11:01:11+02:00
 
 !! # Pite Saami Adjectives
 
@@ -190,12 +190,14 @@ umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
 unne:un'n A_UNNE "small, little" ; ! no. 90285
 árra:árra A_VAASSE "early" ; ! no. 91417
 färrta:fä2rrta A_VAASSE "every, each and every" ; ! no. 4190
+juohke:ju^Ohke A_VAASSE "every" ; ! no. 91616
 jåhteje:jåhteje A_VAASSE "mover, a person migrating" ; ! no. 91295
 lihkas:lihkas A_VAASSE "lame, with a limp" ; ! no. 5477
 lihkas+Use/NG:liŋkas A_VAASSE "lame, with a limp" ; ! no. 91020
 norska:norska A_VAASSE "Norwegian" ; ! no. 91002
 sämmi+Use/NG:samma A_VAASSE "same, identical" ; ! no. 91152
 sierra:sierra A_VAASSE "special, different, separate" ; ! no. 91118
+sisŋeldis:sisŋeldis A_VAASSE "internal, sincere" ; ! no. 91623
 surgos:surgos A_VAASSE "sorrowful, sad" ; ! no. 91050
 sämmi:sä2mmi A_VAASSE "same, identical" ; ! no. 1841
 unna+Use/NG:unnes A_VAASSE "small, little" ; ! no. 90859
