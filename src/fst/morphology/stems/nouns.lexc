@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-12-20T11:13:14+02:00
+! Generated at: 2025-01-24T13:26:04+02:00
 
 !! # Pite Saami Nouns
 
@@ -1001,9 +1001,9 @@ sadje:sadje N_EVEN "place, location" ; ! no. 1471
 sadje+Use/NG:sajje N_EVEN "place, location" ; ! no. 91159
 saráhkká:sar#áhkká N_EVEN "goddess of childbirth" ; ! no. 4323
 sarre:sarre N_EVEN "blueberry" ; ! no. 1512
-sarrvá:sarrvá N_EVEN "moose" ; ! no. 2358
-sarrvágussa:sarrvá#gussa N_EVEN "moose cow" ; ! no. 4512
-sarrvámiesse:sarrvá#miesse N_EVEN "moose calf" ; ! no. 4513
+sarrva:sarrva N_EVEN "moose" ; ! no. 2358
+sarvagussa:sarva#gussa N_EVEN "moose cow" ; ! no. 4512
+sarvamiesse:sarva#miesse N_EVEN "moose calf" ; ! no. 4513
 sasse:sasse N_EVEN "sleeve" ; ! no. 1516
 sassne:sassne N_EVEN "leather without fur" ; ! no. 2366
 savvrá:savvrá N_EVEN "mix of sorrel and reindeer milk" ; ! no. 3839
@@ -1999,7 +1999,7 @@ räjdno:riejdno N_EVEN_O "watching over reindeer" ; ! no. 3305
 räjdnovuorro:räjdno#vu^Orro N_EVEN_O "changing shifts while watching a reindeer herd" ; ! no. 4290
 räjjdo:riejjdo N_EVEN_O "tool" ; ! no. 1400
 sallvo:sallvo N_EVEN_O "glacier" ; ! no. 1502
-sarrvábivvdo:sarrvá#bivvdo N_EVEN_O "moose hunt" ; ! no. 2976
+sarrvabivvdo:sarrva#bivvdo N_EVEN_O "moose hunt" ; ! no. 2976
 sádjo:sádjo N_EVEN_O "seed" ; ! no. 1474
 sáhko:sáhko N_EVEN_O "saw (tool)" ; ! no. 1487
 sájjbo:sájjbo N_EVEN_O "soap, detergent" ; ! no. 1492
