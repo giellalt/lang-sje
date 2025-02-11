@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2024-12-20T11:00:57+02:00
+! Generated at: 2025-02-11T09:15:16+02:00
 
 !! # Pite Saami ProperNouns
 
@@ -77,6 +77,7 @@ Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
 Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
 Rájjavárre:Rájja#várre N_EVEN "Rájjavárre" ; ! no. 91132
+Rissájåhkå:Rissá#jåhkå N_EVEN "Rissájåhkå" ; ! no. 91625
 Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
 Sádenåjjve:Sáden#åjjve N_EVEN "Sádenåjvve" ; ! no. 91181
 Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905

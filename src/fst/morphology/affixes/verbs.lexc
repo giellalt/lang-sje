@@ -622,6 +622,7 @@ LEXICON IJ !!= * @CODE@
 !check tags!
 +V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam K ; ! = e+lam
 +V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam K ; ! = e+lam
++V+Neg+Prs+Sg3#lä+ConNeg#lä+PrfPrc:idtjam K ; ! = idtjij+lam
 
 LEXICON IJPRS !!= * @CODE@ 
 +Sg1:iv    K ;  !!= * @CODE@ 

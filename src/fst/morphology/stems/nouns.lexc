@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-01-24T13:26:04+02:00
+! Generated at: 2025-02-11T10:14:43+02:00
 
 !! # Pite Saami Nouns
 
@@ -58,7 +58,7 @@ sarves:sarrv N_CONTR_ESAA "uncastrated reindeer buck" ; ! no. 1515
 tjievres:tjievvr N_CONTR_ESAA "otter" ; ! no. 1906
 vielmes:vielbm N_CONTR_ESAA "stretch of smooth water" ; ! no. 90388
 viepses:viepps N_CONTR_ESAA "wasp" ; ! no. 2768
-vuokses:vu^Okks N_CONTR_ESAA "cattle" ; ! no. 90308
+vuokses:vu^Okks N_CONTR_ESAA "bull" ; ! no. 90308
 vuontses:vu^Onnts N_CONTR_ESAA "chicken" ; ! no. 91246
 arrambåtsoj:arram#båhts N_CONTR_OJU "fat reindeer in good condition" ; ! no. 3893
 bebbmusbåtsoj:bebbmus#båhts N_CONTR_OJU "reindeer intended as food" ; ! no. 4715
@@ -251,6 +251,7 @@ buärrde:bu^Orrde N_EVEN "table" ; ! no. 3374
 båddne:båddne N_EVEN "bottom" ; ! no. 229
 båddnje:båddnje N_EVEN "husband" ; ! no. 230
 bådnemsuodna:bådnem#su^Odna N_EVEN "twisted tendon string" ; ! no. 90994
+båhkkå:båhkkå N_EVEN "billy goat" ; ! no. 91624
 båhteájjge:båhte#ájjge N_EVEN "future" ; ! no. 3050
 båhteidja:båhte#idja N_EVEN "tonight" ; ! no. 5876
 båhtjejnäjjda:båhtjej#niejjda N_EVEN "milkmaid" ; ! no. 90907
@@ -2557,6 +2558,7 @@ njára:njárrag N_ODD_OPEN "neck meat on a reindeer" ; ! no. 2882
 njuovo:nju^Ovvog N_ODD_OPEN "slime on fish and intestines" ; ! no. 2939
 rijbmomuohta:rijbmo#mu^Ohttag N_ODD_OPEN "heavy snowfall" ; ! no. 1409
 ruma:rubmah N_ODD_OPEN "human corpse" ; ! no. 90925
+sarvabiena:sarva#biednag N_ODD_OPEN "moose-hunting dog" ; ! no. 4403
 siebla:siebblag N_ODD_OPEN "wet spring snow" ; ! no. 2758
 suola:su^Ollag N_ODD_OPEN "thief" ; ! no. 2738
 tjála:tjállag N_ODD_OPEN "writing, text" ; ! no. 1867
