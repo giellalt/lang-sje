@@ -8,7 +8,7 @@
 
 This page documents the work on the [Pite Sami language model](http://github.com/giellalt/lang-sje). 
 
-The morphological analyser contains the basic vocabulary and morphology, all in all some 9500 words
+The morphological analyser contains the basic vocabulary and morphology, all in all some 9500+ words
 plus inflectional and partly also derivatoinal patterns.
 
 The analyser was initially created by Ann-Charlott Sjaggo and Trond Trosterud,
