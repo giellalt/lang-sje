@@ -201,7 +201,7 @@ endif
 		 quit\n" | $(XFST_TOOL)
 
 # We need to add processing of language-specific tags in the analysers:
-analyser-dict-gt-desc-mobile.%: analyser-dict-gt-desc-mobile.tmp.%          \
+.generated/analyser-dict-gt-desc-mobile.%: .generated/analyser-dict-gt-desc-mobile.tmp.%          \
 					filters/remove-norm-comp-tags.%           \
 					filters/remove-derivation-position-tags.% 
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
