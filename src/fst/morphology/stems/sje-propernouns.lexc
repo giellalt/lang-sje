@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-02-11T09:15:16+02:00
+! Generated at: 2025-03-13T14:03:50+02:00
 
 !! # Pite Saami ProperNouns
 
@@ -128,6 +128,7 @@ Bengtsson:Bengtsson N_NAME_noInfl_C "Bengtsson" ; ! no. 91184
 Erik:Erig2 N_NAME_noInfl_C "Erik" ; ! no. 91191
 Erling:Erling N_NAME_noInfl_C "Erling" ; ! no. 91194
 Fjällman:Fjä2llman N_NAME_noInfl_C "Fjällman" ; ! no. 91187
+Henning:Henning N_NAME_noInfl_C "Henning" ; ! no. 91631
 Lars:Lars N_NAME_noInfl_C "Lars" ; ! no. 91190
 Lundmark:Lundmarg2 N_NAME_noInfl_C "Lundmark" ; ! no. 91549
 Rensund:Rensund N_NAME_noInfl_C "Rensund" ; ! no. 91558
