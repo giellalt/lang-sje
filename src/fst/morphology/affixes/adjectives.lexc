@@ -194,7 +194,9 @@ LEXICON A_SMAAVVE_s2
 +Sg+Nom:e%> K ; 
 +Pl+Nom:e^WG%> K ; 
 +Comp:e^WG A_ODD_COMP ;
++Comp+Use/NG:e^WG A_ODD_COMP_a ;
 +Superl:á A_ODD_jSUP ;
+
 
 
 

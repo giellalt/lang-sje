@@ -300,6 +300,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Pl+Ela+Use/NG:u2%>js K ;
 +Pl+Com:u2%>j K ;
 +Pl+Com+Use/NGminip:u2%>jgum K ;
++Der/Dimin+N:u2%> N_ODD_DIM_s2 ;
 
 
 LEXICON N_ODD_DIM !N_ODD diminutive root add v3
