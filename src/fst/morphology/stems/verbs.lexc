@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-02-11T10:15:04+02:00
+! Generated at: 2025-03-15T11:25:34+02:00
 
 !! # Pite Saami Verbs
 
@@ -1140,13 +1140,16 @@ buorránit:bu^Orrán V_ODD "improve, recover" ; ! no. 143
 buridit:burid2 V_ODD "disperse, spread out" ; ! no. 220
 buskedit:busked2 V_ODD "become angry" ; ! no. 223
 busodit:busod2 V_ODD "blow out" ; ! no. 4704
+bådnjålit:bådnjål V_ODD "twist and turn back and forth" ; ! no. 91635
+bådnjåsit:bådnjås V_ODD "turn once" ; ! no. 91636
 bådtsåstit:bådtsåst V_ODD "shake off water (for reindeer and other animals)" ; ! no. 235
 båggedit:bågged2 V_ODD "fall, tumble" ; ! no. 2409
 båhttásit:båhttás V_ODD "boil over" ; ! no. 237
 båhtånit:båhtån V_ODD "swell, bulge" ; ! no. 240
 båktjánit:båktján V_ODD "suffocate, have something stuck in one’s windpipe" ; ! no. 244
-bånjådit:bånjåd2 V_ODD "turn back and forth" ; ! no. 91017
+bånjådit:bånjåd2 V_ODD "turn back and forth repeatedly" ; ! no. 91017
 bånjåstit:bånjåst V_ODD "knock over a reindeer" ; ! no. 5204
+bånjåstit:bånjåst V_ODD "turn once" ; ! no. 91637
 bårgestit:bårgest V_ODD "smoke, give off smoke" ; ! no. 247
 bårjåstit:bårjåst V_ODD "sail" ; ! no. 249
 båskådit:båskåd2 V_ODD "sting, stab" ; ! no. 3300

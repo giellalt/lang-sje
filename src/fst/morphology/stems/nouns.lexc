@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-02-11T10:14:43+02:00
+! Generated at: 2025-03-15T11:24:50+02:00
 
 !! # Pite Saami Nouns
 
@@ -686,6 +686,7 @@ kruossatjårrve:kruossa#tjårrve N_EVEN "crossed antler" ; ! no. 90256
 krussa:krus'sa N_EVEN "jug, pitcher, crock" ; ! no. 91045
 kruvdna:kruvdna N_EVEN "crown (currency)" ; ! no. 983
 kruähkke:kru^Ohkke N_EVEN "clasp, hook" ; ! no. 982
+krämma:kriem'ma N_EVEN "cream" ; ! no. 91633
 kuarrta:ku^Orrta N_EVEN "quarter" ; ! no. 3676
 kuassta:ku^Ossta N_EVEN "broom" ; ! no. 985
 kujdna:kujdna N_EVEN "woman" ; ! no. 3554
