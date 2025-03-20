@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-03-19T13:59:49+02:00
+! Generated at: 2025-03-20T09:36:06+02:00
 
 !! # Pite Saami Nouns
 
@@ -1206,6 +1206,7 @@ suodje:su^Odje N_EVEN "leeward side" ; ! no. 1763
 suodna:su^Odna N_EVEN "tendon" ; ! no. 1764
 suogŋonåjjve:suogŋon#åjjve N_EVEN "spokesperson for a suitor" ; ! no. 2998
 suohpa:su^Ohpa N_EVEN "reindeer doe which abandons its newborn calf" ; ! no. 2014
+suodja+Use/NG:su^Ojja N_EVEN "net hook" ; ! no. 91653
 suollemálle:suolle#málle N_EVEN "thin blood" ; ! no. 2864
 suorbmastjuvvde:suorbmas#tjuvvde N_EVEN "ringfinger" ; ! no. 1773
 suovasguolle:suovas#gu^Olle N_EVEN "smoked fish" ; ! no. 5151
@@ -1369,6 +1370,7 @@ ullgurijjka:ullgu#rijjka N_EVEN "abroad" ; ! no. 5165
 uŋŋga:uŋŋga N_EVEN "youth, child" ; ! no. 4186
 urudahka:urudahka N_EVEN "settlement, camp" ; ! no. 3391
 uudnogis+A+Der/State:uudnogisvu^Ohta N_EVEN "envy" ; ! no. 3178
+uvdutjájjge:uvdutj#ájjge N_EVEN "former times" ; ! no. 91652
 uvve:uvve N_EVEN "current in a lake" ; ! no. 6053
 vahkkogiehtje:vahkko#giehtje N_EVEN "end of the week, weekend" ; ! no. 5356
 vallda:vallda N_EVEN "mountain meadow" ; ! no. 4084
@@ -2488,7 +2490,7 @@ ulgutj:ulgutj N_ODD "outer quarter meat of reindeer" ; ! no. 2520
 ullgurijkak:ullgu#rijkag2 N_ODD "foreigner, person from abroad" ; ! no. 6554
 urbmas:urbmas N_ODD "gnat" ; ! no. 1182
 urdnik:urdnig2 N_ODD "monitor, order" ; ! no. 1345
-uvdutj:uvdutj N_ODD "like before" ; ! no. 6079
+uvdutj:uvdutj N_ODD "like before, previous" ; ! no. 6079
 vaddas:vaddas N_ODD "present, gift" ; ! no. 2042
 vaddnem:vaddnem N_ODD "beaver" ; ! no. 2045
 vahák:vahág2 N_ODD "injury, damage" ; ! no. 5475
