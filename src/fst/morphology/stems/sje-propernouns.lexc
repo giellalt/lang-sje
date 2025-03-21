@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-03-20T09:55:14+02:00
+! Generated at: 2025-03-21T08:36:02+02:00
 
 !! # Pite Saami ProperNouns
 
@@ -135,6 +135,7 @@ Lars:Lars N_NAME_noInfl_C "Lars" ; ! no. 91190
 Lundmark:Lundmarg2 N_NAME_noInfl_C "Lundmark" ; ! no. 91549
 Rensund:Rensund N_NAME_noInfl_C "Rensund" ; ! no. 91558
 Sjul:Sjul N_NAME_noInfl_C "Sjul" ; ! no. 91186
+Västerås:Vä2sterås N_NAME_noInfl_C "Västerås" ; ! no. 91655
 Bo:Bo N_NAME_noInfl_V "Bo" ; ! no. 91550
 Dagny:Dagny N_NAME_noInfl_V "Dagny" ; ! no. 91174
 Elsa:Elsa N_NAME_noInfl_V "Elsa" ; ! no. 91026
