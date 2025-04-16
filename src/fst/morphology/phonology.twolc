@@ -31,7 +31,7 @@ Alphabet
   i2:i u2:u ä2:ä
   b2:b d2:d g2:g t2:t j2:j
   %^O:o
-  ':0
+  º:0
 
   %^WG:0     !!≈ * **@CODE@**:  weak grade
   %^G3:0     !!≈ * **@CODE@**:  marks grade three for stems w/o Cgrad
@@ -64,8 +64,8 @@ Alphabet
 ;
 
 Sets
-  Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú ' ;
-  Cns    =   b c d   f g h    j k l m n ŋ   p q r s t    v w x   z                      '
+  Letter = a b c d e f g h i ï j k l m n ŋ o p q r s t u v w x y z æ ä ø ö å á é í ó ú º ;
+  Cns    =   b c d   f g h    j k l m n ŋ   p q r s t    v w x   z                     º
              B C D   F G H    J K L M N Ŋ   P Q R S T    V W X   Z
              b2  d2    g2     j2                    t2 ;
   Vow    = a       e       i ï             o           u       y   æ ä ø ö å á é í ó ú 
@@ -100,15 +100,15 @@ Definitions
         v v s [j|k] |
         v v t [j|s] |
 
-        f ':0 f |
-        l ':0 l |
-        m ':0 m |
-        n ':0 n |
-        ŋ ':0 ŋ |
-        r ':0 r |
-        s ':0 s |
-        v ':0 v |
-        s ':0 s j |
+        f º:0 f |
+        l º:0 l |
+        m º:0 m |
+        n º:0 n |
+        ŋ º:0 ŋ |
+        r º:0 r |
+        s º:0 s |
+        v º:0 v |
+        s º:0 s j |
 
         b b [d|j|l|m|n|r] |
         b d n |
@@ -329,9 +329,9 @@ Cx:Cy <=> _ (%^WG:) (%>:) # ;
           Cy in ( p  t  k )
           matched ; 
 
-! !!€ gål'leg2
+! !!€ gålºleg2
 ! !!€ gål0lek
-! !!€ gål'leg2a
+! !!€ gålºleg2a
 ! !!€ gål0lega
 ! !!€ gu^Ossmag2^WG
 ! !!€ guos0mak0
@@ -480,7 +480,7 @@ d:0 <=> [a|u] (%>:) _ t j (%>:) # ;
 "Special VH for ie" ! ie:0e
 !! **@RULENAME@**  
 i:0 <=> Cns:* _ e: Cns:+ VHtrig Cns:* Dummy:* Vow:* %>: ; !iello->0elluj
-		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, häg'ga->hiegga, siebla<->säbblag-
+		Cns:* _ e: G3 Vow: \%^WG: ; !biebbmo->b0äbbmo, hägºga->hiegga, siebla<->säbblag-
 		Cns:* _ e: Cns:+ Vow:+ %^G3: ; !biegga->b0ägga
 		Cns:* _ e: noCG Vow: \%^WG: \%^WG: ; !bierdna->b0ärdna !double \%^WG: for gierbma<->gärbmaha  (ie: neither of the two elements after V2 can be ^WG)
 
@@ -513,7 +513,7 @@ e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse
 ! !!€ di0me0
 
 
-! !!€ vu^Os'sa^WG
+! !!€ vu^Osºsa^WG
 ! !!€ vuos0sa0
 
 ! !!€ fiede^G3^UAUML>0
@@ -538,11 +538,11 @@ e:Ä <=> I:0 _ G3 noVHtrig \%^WG: ; !Änntse->Ientse
 ! !!€ ku^Ordna^WG
 ! !!€ kuordna0
 
-! !!€ hieg'ga^UAUML
+! !!€ hiegºga^UAUML
 ! !!€ h0äg0ga0
-! !!€ hieg'ga^WG
+! !!€ hiegºga^WG
 ! !!€ hieg0ga0
-! !!€ hieg'ga>j^V2E2AA
+! !!€ hiegºga>j^V2E2AA
 ! !!€ h0äg0ga0j0
 ! 
 ! !!€ biebbmo^UAUML

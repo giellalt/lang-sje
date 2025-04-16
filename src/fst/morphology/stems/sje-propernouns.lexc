@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-03-21T08:36:02+02:00
+! Generated at: 2025-04-16T18:22:56+03:00
 
 !! # Pite Saami ProperNouns
 
@@ -35,7 +35,7 @@ Alesgiehtje:Ales#giehtje N_EVEN "Västerfjäll" ; ! no. 5945
 Áhkábákkte:Áhká#bákkte N_EVEN "Áhkábákkte" ; ! no. 91208
 Áhkávárre:Áhká#várre N_EVEN "Akkavare" ; ! no. 90952
 Ákksjotjålbme:Ákksjo#tjålbme N_EVEN "Ákksjotjålbme" ; ! no. 91209
-Ánna:Án'na N_EVEN "Anna" ; ! no. 91021
+Ánna:Ánºna N_EVEN "Anna" ; ! no. 91021
 Ánnda:Ánnda N_EVEN "Anders" ; ! no. 3100
 Ánnda+Use/NG:Ánnde N_EVEN "Anders" ; ! no. 90883
 Árjepluovve+Use/NG:Árjapluovve N_EVEN "Arjeplog" ; ! no. 90999
@@ -61,7 +61,7 @@ Härrgevárre:Härrge#várre N_EVEN "Renberget" ; ! no. 4123
 Inntjáválle:Inntjá#válle N_EVEN "Älvsbyn" ; ! no. 4782
 Jåhkåmåhkke:Jåhkå#måhkke N_EVEN "Jokkmokk" ; ! no. 90998
 Jåhkåmåhkke+Use/NG:Jåk#måhkke N_EVEN "Jokkmokk" ; ! no. 91000
-Jånnå:Jån'nå N_EVEN "Jon, Jonas, osv." ; ! no. 90884
+Jånnå:Jånºnå N_EVEN "Jon, Jonas, osv." ; ! no. 90884
 Jåssjå:Jåssjå N_EVEN "Joshua" ; ! no. 90219
 Jåvdná:Jåvdná N_EVEN "Jonas" ; ! no. 5979
 Katrijdna:Katri2jdna N_EVEN "Katrin" ; ! no. 91287
@@ -71,7 +71,7 @@ Krehtta:Krehtta N_EVEN "Greta" ; ! no. 91023
 Kristijna:Kristijna N_EVEN "Christina" ; ! no. 91440
 Lajratjåhkkå:Lajra#tjåhkkå N_EVEN "Lajratjåhkkå" ; ! no. 91131
 Låddávvre:Låddávvre N_EVEN "Låddávvre" ; ! no. 91640
-Lässe:Lies'se N_EVEN "Lars" ; ! no. 6035
+Lässe:Liesºse N_EVEN "Lars" ; ! no. 6035
 Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
 Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
 Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523

@@ -407,9 +407,9 @@ LEXICON A_VAASSE ! vásse, färrta, jåhteje (only ATTR, no PRED-forms!)
 !not sure about Comp/Superl !árra -> árajmus
 
 
-LEXICON A_UMASSE ! umas/umas'se/umasse 'all kinds of' 
+LEXICON A_UMASSE ! umas/umasºse/umasse 'all kinds of' 
 +A+Attr:%> # ;
-+A:'s A_UMASSE_s2 ; 
++A:ºs A_UMASSE_s2 ; 
 
 LEXICON A_UMASSE_s2 
 +Sg+Nom:%>e K ; 

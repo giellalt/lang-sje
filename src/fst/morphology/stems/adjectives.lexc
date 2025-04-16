@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-03-24T14:41:53+02:00
+! Generated at: 2025-04-16T18:34:30+03:00
 
 !! # Pite Saami Adjectives
 
@@ -60,9 +60,9 @@ fábmogis:fábmog A_ASEDIS "strong, powerful" ; ! no. 90812
 suddogis:suddog A_ASEDIS "sinful" ; ! no. 6070
 tjerrulis:tjerrul A_ASEDIS "whimpering (for children)" ; ! no. 5213
 unogis:unog A_ASEDIS "strange, unusual, odd" ; ! no. 2033
-vuällegis:vu^Ol'leg A_ASEDIS "low, humble" ; ! no. 4796
+vuällegis:vu^Olºleg A_ASEDIS "low, humble" ; ! no. 4796
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
-garras:gar'ra A_BAAHKAS "hard" ; ! no. 90186
+garras:garºra A_BAAHKAS "hard" ; ! no. 90186
 lieggas:liegga A_BAAHKAS "warm" ; ! no. 90122
 bånndá:bånndá A_BAONNDAA "rich, wealthy" ; ! no. 246
 båjjtot:båjjto A_BAOSSTOT "wrong, incorrect" ; ! no. 90533
@@ -107,7 +107,7 @@ färrtabäjjvásatj:färrta#bä2jjvása A_ELULATJ "daily" ; ! no. 3548
 ihttátj:ihttátj A_ELULATJ "tomorrow's" ; ! no. 90880
 mielagatj:mielaga A_ELULATJ "of an opinion" ; ! no. 90804
 vuorbálatj:vu^Orbála A_ELULATJ "successful, fortunate" ; ! no. 3719
-vuällegatj:vu^Ol'lega A_ELULATJ "low, humble" ; ! no. 4547
+vuällegatj:vu^Olºlega A_ELULATJ "low, humble" ; ! no. 4547
 ånegatj:ånega A_ELULATJ "short" ; ! no. 5038
 aktalágátj:akta#lágátj A_FIEROK "alike" ; ! no. 3025
 buorak:bu^Orag2 A_FIEROK "good" ; ! no. 3398
@@ -151,7 +151,7 @@ stuorak:stu^Ora A_IEDNAK "big" ; ! no. 1739
 tjuosek:tju^Ose A_IEDNAK "the normal color for reindeer" ; ! no. 1941
 ietjá:iehtjá A_IETJAA "other" ; ! no. 6882
 jårrbåt:jårrb A_JAORRBAOT "round" ; ! no. 4921
-låssåt:lås's A_JAORRBAOT "heavy, difficult" ; ! no. 1097
+låssåt:låsºs A_JAORRBAOT "heavy, difficult" ; ! no. 1097
 njuallgat+Use/NG:nju^Ollg A_JAORRBAOT "direct, straight, correct" ; ! no. 91483
 juhke:juhke A_JUHKE "alcoholic, drunkard" ; ! no. 932
 kuora:ku^Ora A_KUORA "left over, remaining" ; ! no. 986
@@ -162,7 +162,7 @@ nágan+Use/NG:nag A_NAGAN "some (-thing, -one)" ; ! no. 91170
 nágan+Use/NG:nagan A_NAGAN "some (-thing, -one)" ; ! no. 90963
 nágan:nágan A_NAGAN "some (-thing, -one)" ; ! no. 3430
 nágan+Use/NG:nagi2n A_NAGAN "some (-thing, -one)" ; ! no. 90807
-binná:bin'ná A_NUORRA "a little bit" ; ! no. 2446
+binná:binºná A_NUORRA "a little bit" ; ! no. 2446
 buorre:bu^Orre A_NUORRA "good" ; ! no. 213
 dummpi:dummpi A_NUORRA "stupid, dumb" ; ! no. 2383
 maŋŋe:maŋŋe A_NUORRA "after" ; ! no. 91011
@@ -188,7 +188,7 @@ dåbdos:dåbbdos A_TJAOSKES "known" ; ! no. 411
 gárves:gárrves A_TJAOSKES "finished, ready" ; ! no. 5826
 tjåskes:tjåsskes A_TJAOSKES "cold (for weather)" ; ! no. 1978
 umasse:umas A_UMASSE "all kinds of" ; ! no. 1343
-unne:un'n A_UNNE "small, little" ; ! no. 90285
+unne:unºn A_UNNE "small, little" ; ! no. 90285
 árra:árra A_VAASSE "early" ; ! no. 91417
 färrta:fä2rrta A_VAASSE "every, each and every" ; ! no. 4190
 juohke:ju^Ohke A_VAASSE "every" ; ! no. 91616
@@ -196,13 +196,13 @@ jåhteje:jåhteje A_VAASSE "mover, a person migrating" ; ! no. 91295
 lihkas:lihkas A_VAASSE "lame, with a limp" ; ! no. 5477
 lihkas+Use/NG:liŋkas A_VAASSE "lame, with a limp" ; ! no. 91020
 norska:norska A_VAASSE "Norwegian" ; ! no. 91002
-sämmi+Use/NG:sam'ma A_VAASSE "same, identical" ; ! no. 91152
+sämmi+Use/NG:samºma A_VAASSE "same, identical" ; ! no. 91152
 sierra:sierra A_VAASSE "special, different, separate" ; ! no. 91118
 sisŋeldis:sisŋeldis A_VAASSE "internal, sincere" ; ! no. 91623
 surgos:surgos A_VAASSE "sorrowful, sad" ; ! no. 91050
-sämmi:sä2m'mi A_VAASSE "same, identical" ; ! no. 1841
+sämmi:sä2mºmi A_VAASSE "same, identical" ; ! no. 1841
 unna+Use/NG:unnes A_VAASSE "small, little" ; ! no. 90859
-vásse:vás'se A_VAASSE "previous" ; ! no. 90395
+vásse:vásºse A_VAASSE "previous" ; ! no. 90395
 vierre:vierre A_VIERRE "(bad -> worse/worst)" ; ! no. 91154
 guoros:gu^Orros A_VUOJNOS "empty" ; ! no. 4862
 nanos:nannos A_VUOJNOS "strong, durable" ; ! no. 1244
