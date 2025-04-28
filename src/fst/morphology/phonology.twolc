@@ -182,6 +182,10 @@ Rules
  
 !! ## Consonant gradation rules
 
+"Consonant Gradation for ht(j|s):t(j|s)" !giehtje<->gietje
+!! **@RULENAME@**  
+h:0 <=> Vow: _ t ( j | s ) (Vow:+) %^WG: ;
+
 "Consonant Gradation for htt(j|s):ht(j|s)"
 !! **@RULENAME@**  
 t:0 <=> Vow: h t _ ( j | s ) (Vow:+) (Cns:+) ( Dummy: ) %^WG: ;
