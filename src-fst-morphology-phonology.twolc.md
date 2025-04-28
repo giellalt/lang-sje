@@ -19,6 +19,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 ## Consonant gradation rules
 
+**Consonant Gradation for ht(j|s):t(j|s) **  
+
 **Consonant Gradation for htt(j|s):ht(j|s)**  
 
 **Consonant Gradation for hxx:hx**  
