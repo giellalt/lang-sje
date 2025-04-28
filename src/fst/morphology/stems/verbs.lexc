@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-04-16T18:25:33+03:00
+! Generated at: 2025-04-28T16:45:08+03:00
 
 !! # Pite Saami Verbs
 
@@ -301,6 +301,7 @@ virrdut:virrdu V_CONTR "avoid being caught, get farther and farther away without
 vuaddját:vu^Oddjá V_CONTR "begin to drive" ; ! no. 90674
 vujdnut:vujdnu V_CONTR "be seen" ; ! no. 2165
 vujjgit:vujjgi V_CONTR "skim fat or cream" ; ! no. 4546
+vuorasubut:vu^Orasubu V_CONTR "become older, age" ; ! no. 91664
 vurrkit:vurrki V_CONTR "hide, store" ; ! no. 2837
 vusstit:vussti V_CONTR "make cheese" ; ! no. 91247
 vähttjit:vä2httji V_CONTR "drive around" ; ! no. 2219

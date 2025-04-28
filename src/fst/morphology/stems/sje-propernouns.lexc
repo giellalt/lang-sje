@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-04-16T18:22:56+03:00
+! Generated at: 2025-04-28T15:45:59+03:00
 
 !! # Pite Saami ProperNouns
 
@@ -136,6 +136,7 @@ Lundmark:Lundmarg2 N_NAME_noInfl_C "Lundmark" ; ! no. 91549
 Rensund:Rensund N_NAME_noInfl_C "Rensund" ; ! no. 91558
 Sjul:Sjul N_NAME_noInfl_C "Sjul" ; ! no. 91186
 Västerås:Vä2sterås N_NAME_noInfl_C "Västerås" ; ! no. 91655
+Arne:Arne N_NAME_noInfl_V "Arne" ; ! no. 91661
 Bo:Bo N_NAME_noInfl_V "Bo" ; ! no. 91550
 Dagny:Dagny N_NAME_noInfl_V "Dagny" ; ! no. 91174
 Elsa:Elsa N_NAME_noInfl_V "Elsa" ; ! no. 91026
@@ -145,6 +146,8 @@ ICA:ICA N_NAME_noInfl_V "ICA" ; ! no. 91476
 Margareta:Margareta N_NAME_noInfl_V "Margareta" ; ! no. 91185
 Maria:Maria N_NAME_noInfl_V "Maria" ; ! no. 91128
 Signe:Signe N_NAME_noInfl_V "Signe" ; ! no. 91634
+Tage:Tage N_NAME_noInfl_V "Tage" ; ! no. 91659
+Tora:Tora N_NAME_noInfl_V "Tora" ; ! no. 91660
 Alits:Alits N_ODD "Alits" ; ! no. 91327
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
 Árjepluovek+Use/NG:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 91249
