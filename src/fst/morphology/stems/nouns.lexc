@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-04-28T16:37:33+03:00
+! Generated at: 2025-05-04T20:07:53+03:00
 
 !! # Pite Saami Nouns
 
@@ -446,6 +446,7 @@ gávvtja:gávvtja N_EVEN "silver chalice with handles" ; ! no. 6010
 geografidja:geografidja N_EVEN "geography" ; ! no. 91599
 geografidja+Use/NG:geografijja N_EVEN "geography" ; ! no. 91600
 gibme:gibme N_EVEN "capercaillie's mating display" ; ! no. 604
+girra+Use/NG:gidá N_EVEN "spring (season)" ; ! no. 91665
 girradállve+Use/NG:gidda#dállve N_EVEN "spring-winter" ; ! no. 90577
 giedtsvuolle:giedts#vu^Olle N_EVEN "mouth of a river or stream" ; ! no. 4569
 giehka:giehka N_EVEN "cuckoo" ; ! no. 587
