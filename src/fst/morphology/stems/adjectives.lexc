@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-04-28T16:17:19+03:00
+! Generated at: 2025-05-04T19:19:24+03:00
 
 !! # Pite Saami Adjectives
 
@@ -209,6 +209,7 @@ guoros:gu^Orros A_VUOJNOS "empty" ; ! no. 4862
 nanos:nannos A_VUOJNOS "strong, durable" ; ! no. 1244
 tjiegos:tjiehkos A_VUOJNOS "hidden, secret, confidential" ; ! no. 90984
 vuojnos:vu^Ojdnos A_VUOJNOS "visible, obvious" ; ! no. 90398
+vuostas:vu^Osta A_VUOSTAS "first" ; ! no. 2333
 bargodibme:bargod A_xDIBME "unemployed" ; ! no. 3130
 bánedibme:báned A_xDIBME "toothless" ; ! no. 5281
 bådnedibme:bådned A_xDIBME "bottomless" ; ! no. 3397

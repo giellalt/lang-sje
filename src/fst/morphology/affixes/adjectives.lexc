@@ -291,6 +291,20 @@ LEXICON A_NUORRA_s2
 +Superl:^WG A_ODD_SUP ;
 
 
+!temporary solution until more is determined:
+LEXICON A_VUOSTAS ! vuostas/??/??/??/vuostamus (pit080924.080)
++A+Attr:s%> # ;
++A: A_VUOSTAS_s2 ; 
+
+LEXICON A_VUOSTAS_s2 
+!: EVENCASE ;
+!: N_EVEN_ILL ;
+!:^WG N_EVEN_WK ;
+!+Comp:^WG A_ODD_COMP ;
+!+Comp+Use/NG:^WG A_ODD_COMP_a ;
++Superl+Attr:%>mus # ; !A_ODD_SUP ;
+
+
 LEXICON A_STUORES ! stuorra (stuor)/stuores/stuorrá/stuoráp/stuoremus
 +A+Attr:a%> # ;
 +A: A_STUORES_s2 ; 
