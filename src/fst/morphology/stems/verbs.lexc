@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-04-28T16:45:08+03:00
+! Generated at: 2025-05-07T12:07:47+03:00
 
 !! # Pite Saami Verbs
 
@@ -799,6 +799,7 @@ sáhttet:sáhtt V_EVEN_E "be able to" ; ! no. 5934
 sjevnjudahttet:sjevnjudahtt V_EVEN_E "blacken, darken" ; ! no. 1565
 sjävudahttet:sjävudahtt V_EVEN_E "quiet down" ; ! no. 5874
 skávvget:skávvg V_EVEN_E "reprimand" ; ! no. 2480
+sládjet:sládj V_EVEN_E "harvest, harvet hay" ; ! no. 91666
 smáhkket:smáhkk V_EVEN_E "be helpful" ; ! no. 1686
 snusstet:snusst V_EVEN_E "sniff, air out" ; ! no. 1705
 snuärrtet:snu^Orrt V_EVEN_E "provoke" ; ! no. 2866
