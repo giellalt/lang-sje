@@ -75,6 +75,7 @@ Other tags
 * +Cmp/SgNom 	   Compound component using Nominative Singular form
 * +Cmp/SgGen 	   Compound component using Genitive Singular form
 * +Det	   	   Determiner
+* +Clt Clitic 'l for some forms of copula/auxiliary verb following V-final word
 
 Derivation tags
 * +Der/NomAg 	   Derived agent noun
@@ -200,7 +201,7 @@ i2   * Variable vowel, does not trigger VH
 u2   * Variable vowel, does not trigger VH
 ä2   * Variable vowel, does not undergo (further) VH
 b2 d2 g2 t2 j2   * Variable consonants, undergo final devoicing or other alternations
-^O        * o but ä in uä
+^O        * o but ä in uä, a in ua
 
 ```
  »7       * »
