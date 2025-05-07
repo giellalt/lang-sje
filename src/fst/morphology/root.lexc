@@ -97,6 +97,8 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +Cmp/SgGen 	  !!= * @CODE@ Compound component using Genitive Singular form
 +Det	   	  !!= * @CODE@ Determiner
 !+Par	   	  !!= * @CODE@ 
+!+Qst   !!= * @CODE@ Question particle (as clitic?)
++Clt !!≈ * @CODE@ Clitic 'l for some forms of copula/auxiliary verb following V-final word
 
 !! Derivation tags
 +Der/NomAg 	  !!= * @CODE@ Derived agent noun
@@ -122,7 +124,6 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +Abe   !!= * @CODE@ Abessive
 +Ord   !!= * @CODE@ Ordinal
 +Card  !!= * @CODE@ Cardinal
-!+Qst   !!= * @CODE@ Question particle (as clitic?)
 
 !! Semantic properties of names
 
@@ -244,7 +245,7 @@ i2 !!= @CODE@  * Variable vowel, does not trigger VH
 u2 !!= @CODE@  * Variable vowel, does not trigger VH
 ä2 !!= @CODE@  * Variable vowel, does not undergo (further) VH
 b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or other alternations
-^O      !!= @CODE@  * o but ä in uä
+^O      !!= @CODE@  * o but ä in uä, a in ua
 
 !! ```
 ! Symbols that need to be escaped on the lower side (towards twolc):
