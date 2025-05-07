@@ -49,9 +49,9 @@ nålla:nålºla NUM0 "noll, zero" ;
 vuostas:vuostas ORDsuppl1 "först, first" ;
 mubbe:mubbe ORDsuppl2 "andra, second/other" ;
 mubbe+Use/NG:nubbe ORDsuppl2 "andra, second/other" ;
-mubbe+Use/NG+A+Ord+Sg+Acc:nubbe%>v K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. pit100405b.052)
-mubbe+Use/NG+A+Ord+Sg+Ine:nubbe%>n K "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
-mubbe+A+Ord+Pl+Gen:mubbe%>j K "the others'" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19210000a-lagercrantz1957a-426.061)
+mubbe+Use/NG+A+Ord+Sg+Acc:nubbe%>v # "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. pit100405b.052)
+mubbe+Use/NG+A+Ord+Sg+Ine:nubbe%>n # "på den andra, on the second/other" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19521200a.044)
+mubbe+A+Ord+Pl+Gen:mubbe%>j # "the others'" ; !needs to be added later for other Nums, but definitely works for nubbe (cf. sje19210000a-lagercrantz1957a-426.061)
 lågev:låg2 NUM10 "tio, ten" ;
 tjuohte:tjuoht NUM100 "hundra, hundred"; !verify ORD form!
 tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
@@ -109,7 +109,7 @@ ORD ;
 !NUMe ;
 
 LEXICON NUM1000 ! num (1000); treat as noun and NUM
-+Num+Sg+Nom:%> K ; 
++Num+Sg+Nom:%> # ; 
 +Num: N_ODD_X ;
 ORD10 ;
 !N_ODD ;
@@ -177,7 +177,7 @@ gákktse#lågev#:gákktse#låk# CARDbasic ;
 
 LEXICON ROUND10s !round 2-digit NUMs (10,20,30,etc.)
 +Num+Sg+Gen:e K ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
-+Num:ev K ;
++Num:ev # ;
 ORD10 ;
 
 
@@ -195,18 +195,18 @@ ORD10 ;
 !+Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
 !
 !LEXICON Num_EVEN_ESS
-!+Ess:^UAUML%>n K ;
+!+Ess:^UAUML%>n # ;
 !
 !LEXICON Num_EVEN_WK
 !!+Der/Dimin:%>tj^V2E2AA N_ODD ;
 !+Sg+Gen:  K ;
-!+Sg+Acc:%>v  K ;
-!+Sg+Ine:%>n K ;
-!+Sg+Ela:%>st K ;
-!+Sg+Ela+Use/NG:%>s K ; !dialectal variant, but not standard
-!+Abe:%>dak K ; ! Norm
+!+Sg+Acc:%>v  # ;
+!+Sg+Ine:%>n # ;
+!+Sg+Ela:%>st # ;
+!+Sg+Ela+Use/NG:%>s # ; !dialectal variant, but not standard
+!+Abe:%>dak # ; ! Norm
 !!+Abe:%>htaka K ; ! Informants S and Bj 
-!!+Abe:%>htak K ; ! Informants S and Bj 
+!!+Abe:%>htak # ; ! Informants S and Bj 
 !+Pl+Nom:  K ;
 !!:^IJ%>j N_EVEN_J ;
 

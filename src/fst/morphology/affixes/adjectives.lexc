@@ -31,7 +31,7 @@ LEXICON A_JAORRBAOT ! jurrbut/jårrbåt/jårrbåda/??
 +A:åd2 A_BLAAVVAT_s2 ; 
 
 LEXICON A_BLAAVVAT_s2 
-+Sg+Nom:%> K ; 
++Sg+Nom:%> # ; 
 +Pl+Nom:%>a K ; 
 +Comp: A_EVEN_COMP ;
 +Superl: A_EVEN_SUP ;
@@ -52,7 +52,7 @@ LEXICON A_AARVAS ! árvas/árvas/árrvasa/árvasup/árvasumos/árvasubmusa
 +A: A_AARVAS_s2 ; 
 
 LEXICON A_AARVAS_s2 
-+Sg+Nom:^WG%> K ; 
++Sg+Nom:^WG%> # ; 
 +Pl+Nom:%>a K ; 
 +Comp:^WG A_EVEN_COMP ;
 +Superl:^WG A_EVEN_SUP ;
@@ -63,7 +63,7 @@ LEXICON A_BIVVAL ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
 +A: A_BIVVAL_s2 ; 
 
 LEXICON A_BIVVAL_s2 
-+Sg+Nom:%> K ; 
++Sg+Nom:%> # ; 
 +Pl+Nom:%>a K ; 
 +Comp: A_EVEN_COMP ;
 +Superl: A_EVEN_SUP ;
@@ -74,7 +74,7 @@ LEXICON A_TJAOSKES ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-
 +A: A_TJAOSKES_s2 ; 
 
 LEXICON A_TJAOSKES_s2 
-+Sg+Nom:^WG%> K ; 
++Sg+Nom:^WG%> # ; 
 +Pl+Nom:^V2E2AA%>a K ; 
 +Comp:^V2E2AA A_EVEN_COMP ;
 +Superl:^V2E2AA A_EVEN_SUP ;
@@ -85,7 +85,7 @@ LEXICON A_VUOJNOS ! vuojnos/vuojnos/vujdnusa/...?
 +A: A_VUOJNOS_s2 ; 
 
 LEXICON A_VUOJNOS_s2 ! first ADJ lexicon to link to case/number endings, for a start...
-+Sg+Nom:^WG%> K ;
++Sg+Nom:^WG%> # ;
 :^V2O2U N_ODD_X ;
 +Comp:^V2O2U A_EVEN_COMP ;
 +Superl:^V2O2U A_EVEN_SUP ;
@@ -96,7 +96,7 @@ LEXICON A_ASEDIS ! asedis / asedis / asedasa / asedup / asedumos/-bmus-
 +A: A_ASEDIS_s2 ; 
 
 LEXICON A_ASEDIS_s2 
-+Sg+Nom:is%> K ; 
++Sg+Nom:is%> # ; 
 +Pl+Nom:as%>a K ; 
 +Comp: A_EVEN_COMP ;
 +Superl: A_EVEN_SUP ;
@@ -156,7 +156,7 @@ LEXICON A_BAAHKAS ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
 +A: A_BAAHKAS_s2 ; 
 
 LEXICON A_BAAHKAS_s2 
-+Sg+Nom:s^WG%> K ; 
++Sg+Nom:s^WG%> # ; 
 !+Pl+Nom:s%>a K ; 
 :s%> N_ODD_X ;
 +Comp:s A_EVEN_COMP ;
@@ -233,7 +233,7 @@ LEXICON A_DIMES ! dibma/dimes/dibmása/dibmáp/dibmájmus-
 +A:e A_DIMES_s2 ; 
 
 LEXICON A_DIMES_s2 
-+Sg+Nom:^WG%>s K ; 
++Sg+Nom:^WG%>s # ; 
 :%>^V2E2AAs N_ODD_X ;
 !+Pl+Nom:%>^V2E2AAsa K ; 
 +Comp: A_ODD_COMP_V2E2AA ;
@@ -246,7 +246,7 @@ LEXICON A_GALMAS ! galbma/galmas/galbmasa/galbmasup/galbmasumos-
 +A: A_GALMAS_s2 ; 
 
 LEXICON A_GALMAS_s2 
-+Sg+Nom:^WG%>s K ; 
++Sg+Nom:^WG%>s # ; 
 +Pl+Nom:%>sa K ; 
 +Comp:s A_EVEN_COMP ;
 +Superl:s A_EVEN_SUP ;
@@ -271,7 +271,7 @@ LEXICON A_BAOSSTOT ! båsto/båsstot/båsstoda/?p/?mos
 +A:d2 A_BAOSSTOT_s2 ; 
 
 LEXICON A_BAOSSTOT_s2 
-+Sg+Nom:%> K ; 
++Sg+Nom:%> # ; 
 +Pl+Nom:%>a K ; 
 +Comp: A_EVEN_COMP ;
 +Superl: A_EVEN_SUP ;
@@ -313,7 +313,7 @@ LEXICON A_STUORx ! stuor (variant of stuorra (ATTR))
 +A+Attr:%> # ;
 
 LEXICON A_STUORES_s2 
-+Sg+Nom:e^WG%>s K ; 
++Sg+Nom:e^WG%>s # ; 
 +Pl+Nom:%>á K ; 
 +Comp:á^WG A_ODD_COMP ;
 +Superl:e^WG A_ODD_SUP ;
@@ -324,7 +324,7 @@ LEXICON A_FIEROK ! fierok/fierok/fieroga/fierogup/fierogumus/-bmusa
 +A: A_FIEROK_s2 ; 
 
 LEXICON A_FIEROK_s2 
-+Sg+Nom:%> K ; 
++Sg+Nom:%> # ; 
 :%> N_ODD_X ;
 +Comp:^WG A_EVEN_COMP ;
 +Superl:^WG A_EVEN_SUP ;
@@ -347,7 +347,7 @@ LEXICON A_DUALLBAT ! duallba/duallbat/duallbada/?duallbadup/?duallbadumus/?-bmus
 +A: A_DUALLBAT_s2 ; 
 
 LEXICON A_DUALLBAT_s2 
-+Sg+Nom:d2%> K ; 
++Sg+Nom:d2%> # ; 
 +Pl+Nom:d2%>a K ; 
 +Comp:d2 A_EVEN_COMP ;
 +Superl:d2 A_EVEN_SUP ;
@@ -358,7 +358,7 @@ LEXICON A_ELULATJ ! elulatj/elulatj/elulatja/??elulatjap/??elulatjamus-a
 +A: A_ELULATJ_s2 ; 
 
 LEXICON A_ELULATJ_s2 
-+Sg+Nom:tj K ; 
++Sg+Nom:tj # ; 
 :tja N_EVEN4_DEFAULT ; 
 +Use/NG:dtja N_EVEN4_DEFAULT ; 
 +Comp:tja A_ODD_COMP ;
@@ -372,7 +372,7 @@ LEXICON A_IEDNAK ! iedna/iednak/iednaga/ienap/ienamus-a
 +A: A_IEDNAK_s2 ; 
 
 LEXICON A_IEDNAK_s2 
-+Sg+Nom:g2%> K ; 
++Sg+Nom:g2%> # ; 
 :g2%> N_ODD_X ; 
 +Comp:^WG A_ODD_COMP ; ! normally ienabu (but Rensund: ienaba)
 +Comp+Use/NG:^WG A_ODD_COMP_a ;
@@ -382,7 +382,7 @@ LEXICON A_IEDNAK_s2
 
 LEXICON A_NAGAN ! nagan/nagan/nagana etc. (no COMP/SUPERL)
 +A+Attr:%> # ;
-+A+Sg+Nom:%> K ;
++A+Sg+Nom:%> # ;
 +A: N_ODD_X ; 
 
 
@@ -391,7 +391,7 @@ LEXICON A_GIENES ! gienes/gienes/gädnása/?/?
 +A: A_GIENES_s2 ; 
 
 LEXICON A_GIENES_s2 
-+Sg+Nom:s^WG%> K ; 
++Sg+Nom:s^WG%> # ; 
 +Pl+Nom:s^V2E2AA N_ODD_X ; 
 !+Comp:^V2E2AA A_EVEN_COMP ;
 !+Superl:^V2E2AA A_EVEN_SUP ;
@@ -402,7 +402,7 @@ LEXICON A_GÅJKES ! gåjjke/gåjkes/gåjjkása/gåjjkáp/gåjjkájmus-
 +A: A_GÅJKES_s2 ; 
 
 LEXICON A_GÅJKES_s2 
-+Sg+Nom:^WG%>s K ; 
++Sg+Nom:^WG%>s # ; 
 +Pl+Nom:%>^V2E2AAsa K ; 
 +Comp: A_ODD_COMP_V2E2AA ;
 +Superl: A_ODD_jSUP_V2E2AA ;
@@ -428,8 +428,8 @@ LEXICON A_UMASSE ! umas/umasºse/umasse 'all kinds of'
 LEXICON A_UMASSE_s2 
 +Sg+Nom:%>e K ; 
 +Pl+Nom:^WG%>e K ; 
-+Sg+Acc:^WG%>ev K ; 
-!+Pl+Acc:^WG%>ijd K ; not sure about this, plus VH won't work b/c 3 syllables!
++Sg+Acc:^WG%>ev # ; 
+!+Pl+Acc:^WG%>ijd # ; not sure about this, plus VH won't work b/c 3 syllables!
 !+Comp: A_ODD_COMP_V2E2AA ;
 !+Superl: A_ODD_jSUP_V2E2AA ;
 
@@ -449,8 +449,8 @@ LEXICON A_SJAEVDNJET ! sjevdnjis/sjävdnjet/sjävdnjeda/sjävdnjedup/sjävdnjemu
 +A: A_SJAEVDNJET_s2 ; 
 
 LEXICON A_SJAEVDNJET_s2 
-+Sg+Nom:d2%> K ; 
-+Pl+Nom:d2%>a K ; 
++Sg+Nom:d2%> # ; 
++Pl+Nom:d2%>a # ; 
 +Comp:^WG A_ODD_COMP ;
 +Superl:^WG A_ODD_SUP ;
 
