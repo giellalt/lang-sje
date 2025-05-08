@@ -17,7 +17,7 @@
 !! Adverbs
 
 LEXICON adv   !!= * **@CODE@** adds the tag +Adv
-+Adv: # ; !maybe some V-final ones might allow clitic K
++Adv: # ;
 
 LEXICON Adverb   !!= * **@CODE@** is the list
 agev adv ;

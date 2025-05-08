@@ -62,7 +62,7 @@ LEXICON N_EVEN_NOALT ! without any stem alternation (no C-grad, no umlaut); loan
 
 
 LEXICON EVENCASE
-+Sg+Nom:^UAUML%> K ;
++Sg+Nom:^UAUML%>    K ;
 N_EVEN_ESS ; ! Essive
 +Cmp/SgNom:^UAUML R ; !compound element in strong-grade
 +Cmp/SgGen:^WG R ; !compound element in weak-grade
@@ -71,78 +71,78 @@ LEXICON N_EVEN_ILL
 +Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
 
 LEXICON N_EVEN_ILL_O
-+Sg+Ill+Use/NG:%>j^V2O2U # ; !V2 o->u in ill.sg
++Sg+Ill+Use/NG:%>j^V2O2U K ; !V2 o->u in ill.sg
 
 LEXICON N_EVEN_ESS
-+Ess:^UAUML%>n # ;
++Ess:^UAUML%>n K ;
 
 LEXICON N_EVEN_WK
-+Sg+Gen: K ;
-+Sg+Acc:%>v # ;
-+Sg+Ine:%>n # ;
-+Sg+Ela:%>st # ;
-+Sg+Ela+Use/NG:%>s # ; !dialectal variant, but not standard
-+Abe:%>dak # ; ! Norm
++Sg+Gen:  K ;
++Sg+Acc:%>v  K ;
++Sg+Ine:%>n K ;
++Sg+Ela:%>st K ;
++Sg+Ela+Use/NG:%>s K ; !dialectal variant, but not standard
++Abe:%>dak K ; ! Norm
 !+Abe:%>htaka K ; ! Informants S and Bj 
-!+Abe:%>htak # ; ! Informants S and Bj 
+!+Abe:%>htak K ; ! Informants S and Bj 
 +Pl+Nom:  K ;
 :^IJ%>j N_EVEN_J ;
 
 LEXICON N_EVEN_J
-+Pl+Gen:    # ;
-+Pl+Acc:t   # ;
-+Pl+Acc+Err/Orth:d   # ;
-+Pl+Ine:n   # ;
-+Pl+Ela:st  # ; !norm
-+Pl+Ela+Use/NG:s  # ;
++Pl+Gen:    K ;
++Pl+Acc:t   K ;
++Pl+Acc+Err/Orth:d   K ;
++Pl+Ine:n   K ;
++Pl+Ela:st  K ; !norm
++Pl+Ela+Use/NG:s  K ;
 +Pl+Ill:da  K ; 
-+Pl+Com:    # ;
-+Pl+Com+Use/NG:gum # ;
-+Sg+Com:n # ;         !norm
++Pl+Com:    K ;
++Pl+Com+Use/NG:gum K ;
++Sg+Com:n K ;         !norm
 +Sg+Com+Use/NG:na K ; !variant
 
 
 LEXICON N_EVEN4 !mánnodak<->mánnodag-
-+N+Sg+Nom:%> # ;
++N+Sg+Nom:%> K ;
 +N:a N_EVEN4_DEFAULT ;
 +N+Cmp/SgNom:%> R ; !compound element
 !+N+Cmp/SgGen:%>a R ; !compound element !not sure this is real
 
 
 LEXICON N_EVEN4_ISA !guoksagis<->guoksagas-
-+N+Sg+Nom:i2s%> # ;
++N+Sg+Nom:i2s%> K ;
 +N:asa N_EVEN4_DEFAULT ;
 
 LEXICON N_EVEN4_ASA !mujjtulas<->mujjtulas-
-+N+Sg+Nom:as%> # ;
++N+Sg+Nom:as%> K ;
 +N:asa N_EVEN4_DEFAULT ;
 
 LEXICON N_EVEN4_TJ !såbmelatj<->såbmelatja- (variant såbmeladtja-)
-+N+Sg+Nom:tj%> # ;
++N+Sg+Nom:tj%> K ;
 +N:tja N_EVEN4_DEFAULT ;
 +N+Use/NG:dtja N_EVEN4_DEFAULT ;
 
 LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
-+Sg+Acc:%>v # ;
++Sg+Acc:%>v K ;
 +Sg+Gen:%> K ;
-+Sg+Ill:%>j # ;
-+Sg+Ine:%>n # ;
-+Sg+Ela:%>st # ;
-+Sg+Ela+Use/NG:%>s # ;
-+Sg+Com:%>jn # ;
++Sg+Ill:%>j K ;
++Sg+Ine:%>n K ;
++Sg+Ela:%>st K ;
++Sg+Ela+Use/NG:%>s K ;
++Sg+Com:%>jn K ;
 +Sg+Com+Use/NG:%>jna K ;
-+Ess:%>n # ;
-!+Abe:%>dak # ; ! XXX
++Ess:%>n K ;
+!+Abe:%>dak K ; ! XXX
 +Pl+Nom:%> K ;
-+Pl+Acc:%>jt # ;
-+Pl+Acc+Err/Orth:%>jd # ;
-+Pl+Gen:%>j # ;
++Pl+Acc:%>jt K ;
++Pl+Acc+Err/Orth:%>jd K ;
++Pl+Gen:%>j K ;
 +Pl+Ill:%>jda K ;
-+Pl+Ine:%>jn # ;
-+Pl+Ela:%>jst # ;
-+Pl+Ela+Use/NG:%>js # ;
-+Pl+Com:%>j # ;
-+Pl+Com+Use/NGminip:%>jgum # ;
++Pl+Ine:%>jn K ;
++Pl+Ela:%>jst K ;
++Pl+Ela+Use/NG:%>js K ;
++Pl+Com:%>j K ;
++Pl+Com+Use/NGminip:%>jgum K ;
 : N_EVEN_DIM ; !DIM derivation
 
 
@@ -153,7 +153,7 @@ LEXICON N_EVEN_O_DIM !gárrvo->gärvutj
 +Der/Dimin+N:^WG%>tj^V2O2U N_DIM_s2 ;
 
 LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns that have unusual morphophonology (always -a- as V3))
-+N+Sg+Nom:^UAUML%>    # ;
++N+Sg+Nom:^UAUML%>    K ;
 +N:a N_EVEN_ESS ; ! Essive
 +N:a N_EVEN_ILL ;
 +N:a^WG N_EVEN_WK ; ! CG here
@@ -161,25 +161,25 @@ LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns tha
 
 
 !LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
-!+Sg+Acc:asa%>v # ;
+!+Sg+Acc:asa%>v K ;
 !+Sg+Gen:asa%> K ;
-!+Sg+Ill:asa%>j # ;
-!+Sg+Ine:asa%>n # ;
-!+Sg+Ela:asa%>st # ;
-!+Sg+Ela+Use/NG:asa%>s # ;
-!+Sg+Com:asa%>jn # ;
+!+Sg+Ill:asa%>j K ;
+!+Sg+Ine:asa%>n K ;
+!+Sg+Ela:asa%>st K ;
+!+Sg+Ela+Use/NG:asa%>s K ;
+!+Sg+Com:asa%>jn K ;
 !+Sg+Com+Use/NG:asa%>jna K ;
-!+Ess:asa%>n # ; 
-!!+Abe:asa%>dak # ; ! XXX
+!+Ess:asa%>n K ; 
+!!+Abe:asa%>dak K ; ! XXX
 !+Pl+Nom:asa%> K ;
-!+Pl+Acc:asa%>jd # ;
-!+Pl+Gen:asa%>j # ;
+!+Pl+Acc:asa%>jd K ;
+!+Pl+Gen:asa%>j K ;
 !+Pl+Ill:asa%>jda K ;
-!+Pl+Ine:asa%>jn # ;
-!+Pl+Ela:asa%>jst # ;
-!+Pl+Ela+Use/NG:asa%>js # ;
-!+Pl+Com:asa%>j # ;
-!+Pl+Com+Use/NGminip:asa%>jgum # ;
+!+Pl+Ine:asa%>jn K ;
+!+Pl+Ela:asa%>jst K ;
+!+Pl+Ela+Use/NG:asa%>js K ;
+!+Pl+Com:asa%>j K ;
+!+Pl+Com+Use/NGminip:asa%>jgum K ;
 
 
 
@@ -189,7 +189,7 @@ LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns tha
 ! ------------
 
 LEXICON N_ODD !standard odd-syllable noun, eg. guohtom<->guohtom-
-+N+Sg+Nom:%> # ; 
++N+Sg+Nom:%> K ; 
 +N+Cmp/SgNom: R ; !compound element
 !+N+Cmp/SgGen:a R ; !compound element; not sure how it works: biednagbärrgo???
 +N: N_ODD_X ;
@@ -201,7 +201,7 @@ LEXICON N_ODD_WG !standard odd-syllable noun with CGrad, eg. vanas<->vadnas-
 !+N+Cmp/SgGen:a R ; !compound element !not sure!
 
 LEXICON N_ODD_WG_s2 !allows ADJ to dock here
-+Sg+Nom:^WG%> # ;
++Sg+Nom:^WG%> K ;
 N_ODD_X ;
 N_ODD_DIM ; !link to DIM
 
@@ -213,22 +213,22 @@ LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednag-, låvdå<->låvvdåk-
 +N: N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_VH !odd-syllable with VH, eg. ålol->ullul- 
-+N+Sg+Nom:^WG%> # ;
++N+Sg+Nom:^WG%> K ;
 +N:^V2O2U N_ODD_X ;
 +N:^V2O2U N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_V2E2AA !odd-syllable with change in V2 from E to Á, eg. åres->årrás-; ALWAYS followed by -s- or -r-
-+N+Sg+Nom:^WG%> # ;
++N+Sg+Nom:^WG%> K ;
 +N:^V2E2AA N_ODD_X ;
 +N:^V2E2AA N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_V2E2AA_G3 !odd-syllable with change in V2 from E to Á without C-gradation, eg. vähttjer->vähttjára-; ALWAYS followed by -s- or -r-
-+N+Sg+Nom:%> # ;
++N+Sg+Nom:%> K ;
 +N:^V2E2AA N_ODD_X ;
 +N:^V2E2AA N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_noCG_G3 !odd-syllable noun III-II but without CGrad, eg. guobbar<->guabbar-
-+N+Sg+Nom:%> # ;
++N+Sg+Nom:%> K ;
 +N:^G3^UAUML N_ODD_X ;
 !+N+Cmp/SgNom: R ; !compound element !not sure!
 !+N+Cmp/SgGen:a R ; !compound element !not sure!
@@ -255,51 +255,51 @@ LEXICON N_ODD_WG_oH !odd-syllable noun with CGrad, nom.sg ends in -o, extension 
 !+N: N_ODD_DIM ; !link to DIM !CHECK!
 
 LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
-+Sg+Acc:a%>v # ;
++Sg+Acc:a%>v K ;
 +Sg+Gen:a%> K ;
-+Sg+Ill:i2%>j # ;
-+Sg+Ine:i2%>n # ;
-+Sg+Ela:i2%>st # ;
-+Sg+Ela+Use/NG:i2%>s # ;
-+Sg+Com:i2%>jn # ;
-+Ess:i2%>n # ;
++Sg+Ill:i2%>j K ;
++Sg+Ine:i2%>n K ;
++Sg+Ela:i2%>st K ;
++Sg+Ela+Use/NG:i2%>s K ;
++Sg+Com:i2%>jn K ;
++Ess:i2%>n K ;
 
-!+Ess+Use/NG:^CDEL%>n # ; 
+!+Ess+Use/NG:^CDEL%>n K ; 
 !!needs to delete the final C of the stem! 
 !!but shouldn't apply to DIM-forms (currently just adds -n, without V before!)
 
 +Abe:a%>htá K ;
 +Pl+Nom:a%> K ;
-+Pl+Acc:i2%>jt # ;
-+Pl+Acc+Err/Orth:i2%>jd # ;
-+Pl+Gen:i2%>j # ;
++Pl+Acc:i2%>jt K ;
++Pl+Acc+Err/Orth:i2%>jd K ;
++Pl+Gen:i2%>j K ;
 +Pl+Ill:i2%>jda K ;
-+Pl+Ine:i2%>jn # ;
-+Pl+Ela:i2%>jst # ;
-+Pl+Ela+Use/NG:i2%>js # ;
-+Pl+Com:i2%>j # ;
-+Pl+Com+Use/NGminip:i2%>jgum # ;
++Pl+Ine:i2%>jn K ;
++Pl+Ela:i2%>jst K ;
++Pl+Ela+Use/NG:i2%>js K ;
++Pl+Com:i2%>j K ;
++Pl+Com+Use/NGminip:i2%>jgum K ;
 
 LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabic adjectives
-+Sg+Acc:u%>v # ;
++Sg+Acc:u%>v K ;
 +Sg+Gen:u%> K ;
-+Sg+Ill:u%>j # ;
-+Sg+Ine:u2%>n # ;
-+Sg+Ela:u2%>st # ;
-+Sg+Ela+Use/NG:u2%>s # ;
-+Sg+Com:u2%>jn # ;
-+Ess:u2%>n # ;
++Sg+Ill:u%>j K ;
++Sg+Ine:u2%>n K ;
++Sg+Ela:u2%>st K ;
++Sg+Ela+Use/NG:u2%>s K ;
++Sg+Com:u2%>jn K ;
++Ess:u2%>n K ;
 +Abe:u%>htá K ;
 +Pl+Nom:u%> K ;
-+Pl+Acc:u2%>jt # ;
-+Pl+Acc+Err/Orth:u2%>jd # ;
-+Pl+Gen:u2%>j # ;
++Pl+Acc:u2%>jt K ;
++Pl+Acc+Err/Orth:u2%>jd K ;
++Pl+Gen:u2%>j K ;
 +Pl+Ill:u2%>jda K ;
-+Pl+Ine:u2%>jn # ;
-+Pl+Ela:u2%>jst # ;
-+Pl+Ela+Use/NG:u2%>js # ;
-+Pl+Com:u2%>j # ;
-+Pl+Com+Use/NGminip:u2%>jgum # ;
++Pl+Ine:u2%>jn K ;
++Pl+Ela:u2%>jst K ;
++Pl+Ela+Use/NG:u2%>js K ;
++Pl+Com:u2%>j K ;
++Pl+Com+Use/NGminip:u2%>jgum K ;
 +Der/Dimin+N:u2%> N_ODD_DIM_s2 ;
 
 
@@ -315,7 +315,7 @@ LEXICON N_ODD_DIM_s2 !N_ODD diminutive root with variant
 ! ----------
 
 LEXICON N_CONTR_OJU !båtsoj<->buhtsu
-+N+Sg+Nom:oj^WG%> # ;
++N+Sg+Nom:oj^WG%> K ;
 +N+Cmp/SgNom:oj^WG%> R ; !compound element in weak-grade with final C, e.g. båtsojsujtár
 +N+Cmp/SgGen:u%> R ; !compound element in strong-grade without final C, e.g. buhtsubärrgo
 N_CONTR_O ;
@@ -327,79 +327,79 @@ LEXICON N_CONTR_OU !suolo<->sullu
 N_CONTR_O ;
 
 LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
-+N+Sg+Acc:u%>v # ;
++N+Sg+Acc:u%>v K ;
 +N+Sg+Gen:u%> K ;
-+N+Sg+Ill:u%>j # ;
-+N+Sg+Ine:u%>n # ;
-+N+Sg+Ela:u%>st # ;
-+N+Sg+Ela+Use/NG:u%>s # ;
-+N+Sg+Com:u%>jn # ;
-+N+Ess:u%>n # ;
-+N+Ess:u%>n # ;
-+N+Abe:u%>dak # ; ! XXX
++N+Sg+Ill:u%>j K ;
++N+Sg+Ine:u%>n K ;
++N+Sg+Ela:u%>st K ;
++N+Sg+Ela+Use/NG:u%>s K ;
++N+Sg+Com:u%>jn K ;
++N+Ess:u%>n K ;
++N+Ess:u%>n K ;
++N+Abe:u%>dak K ; ! XXX
 +N+Pl+Nom:u%> K ;
-+N+Pl+Acc:u%>jt # ;
-+N+Pl+Acc+Err/Orth:u%>jd # ;
-+N+Pl+Gen:u%>j # ;
++N+Pl+Acc:u%>jt K ;
++N+Pl+Acc+Err/Orth:u%>jd K ;
++N+Pl+Gen:u%>j K ;
 +N+Pl+Ill:u%>jda K ;
-+N+Pl+Ine:u%>jn # ;
-+N+Pl+Ela:u%>jst # ;
-+N+Pl+Ela+Use/NG:u%>js # ;
-+N+Pl+Com:u%>j # ;
-+N+Pl+Com+Use/NGminip:u%>jgum # ;
++N+Pl+Ine:u%>jn K ;
++N+Pl+Ela:u%>jst K ;
++N+Pl+Ela+Use/NG:u%>js K ;
++N+Pl+Com:u%>j K ;
++N+Pl+Com+Use/NGminip:u%>jgum K ;
 +N: N_CONTR_O_DIM ; !buhtsutj
 
 LEXICON N_CONTR_AJA !ålmáj<->ålmá
-+N+Sg+Nom:á^WGj%> # ;
++N+Sg+Nom:á^WGj%> K ;
 +N+Cmp/SgNom:á^WGj%> R ; !compound element in weak-grade with final-C
 +N+Cmp/SgGen:á%> R ; !compound element in strong-grade with not final-C; cf. ålbmábarrgo
-+N+Sg+Acc:á%>v # ;
++N+Sg+Acc:á%>v K ;
 +N+Sg+Gen:á%> K ;
-+N+Sg+Ill:á%>j # ;
-+N+Sg+Ine:á%>n # ;
-+N+Sg+Ela:á%>st # ;
-+N+Sg+Ela+Use/NG:á%>s # ;
-+N+Sg+Com:á%>jn # ;
-+N+Ess:á%>n # ; !check ^WG - is it required by ESS? is it implemented by twolc?
-!+N+Ess:á^WGn # ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:á%>dak # ; ! XXX
++N+Sg+Ill:á%>j K ;
++N+Sg+Ine:á%>n K ;
++N+Sg+Ela:á%>st K ;
++N+Sg+Ela+Use/NG:á%>s K ;
++N+Sg+Com:á%>jn K ;
++N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
+!+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:á%>dak K ; ! XXX
 +N+Pl+Nom:á%> K ;
-+N+Pl+Acc:á%>jt # ;
-+N+Pl+Acc+Err/Orth:á%>jd # ;
-+N+Pl+Gen:á%>j # ;
++N+Pl+Acc:á%>jt K ;
++N+Pl+Acc+Err/Orth:á%>jd K ;
++N+Pl+Gen:á%>j K ;
 +N+Pl+Ill:á%>jda K ;
-+N+Pl+Ine:á%>jn # ;
-+N+Pl+Ela:á%>jst # ;
-+N+Pl+Ela+Use/NG:á%>js # ;
-+N+Pl+Com:á%>j # ;
-+N+Pl+Com+Use/NGminip:á%>jgum # ;
++N+Pl+Ine:á%>jn K ;
++N+Pl+Ela:á%>jst K ;
++N+Pl+Ela+Use/NG:á%>js K ;
++N+Pl+Com:á%>j K ;
++N+Pl+Com+Use/NGminip:á%>jgum K ;
 +N: N_CONTR_DIM ; !ålmátj
 
 
 LEXICON N_CONTR_ESAA !sarves<->sarvvá
-+N+Sg+Nom:e^WGs%> # ;
++N+Sg+Nom:e^WGs%> K ;
 +N+Cmp/SgNom:e^WGs%> R ; !compound element in weak-grade with final-C
 +N+Cmp/SgGen:á%> R ; !compound element in weak-grade with final-C ; not sure! cf. fállábärrgo
-+N+Sg+Acc:á%>v # ;
++N+Sg+Acc:á%>v K ;
 +N+Sg+Gen:á%> K ;
-+N+Sg+Ill:á%>j # ;
-+N+Sg+Ine:á%>n # ;
-+N+Sg+Ela:á%>st # ;
-+N+Sg+Ela+Use/NG:á%>s # ;
-+N+Sg+Com:á%>jn # ;
-+N+Ess:á%>n # ; !check ^WG - is it required by ESS? is it implemented by twolc?
-!+N+Ess:á^WGn # ; !check ^WG - is it required by ESS? is it implemented by twolc?
-+N+Abe:á%>dak # ; ! XXX
++N+Sg+Ill:á%>j K ;
++N+Sg+Ine:á%>n K ;
++N+Sg+Ela:á%>st K ;
++N+Sg+Ela+Use/NG:á%>s K ;
++N+Sg+Com:á%>jn K ;
++N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
+!+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
++N+Abe:á%>dak K ; ! XXX
 +N+Pl+Nom:á%> K ;
-+N+Pl+Acc:á%>jt # ;
-+N+Pl+Acc+Err/Orth:á%>jd # ;
-+N+Pl+Gen:á%>j # ;
-+N+Pl+Ill:á%>jda # ;
-+N+Pl+Ine:á%>jn # ;
-+N+Pl+Ela:á%>jst # ;
-+N+Pl+Ela+Use/NG:á%>js # ;
-+N+Pl+Com:á%>j # ;
-+N+Pl+Com+Use/NGminip:á%>jgum # ;
++N+Pl+Acc:á%>jt K ;
++N+Pl+Acc+Err/Orth:á%>jd K ;
++N+Pl+Gen:á%>j K ;
++N+Pl+Ill:á%>jda K ;
++N+Pl+Ine:á%>jn K ;
++N+Pl+Ela:á%>jst K ;
++N+Pl+Ela+Use/NG:á%>js K ;
++N+Pl+Com:á%>j K ;
++N+Pl+Com+Use/NGminip:á%>jgum K ;
 +N: N_CONTR_DIM ; !sarrvátj
 
 
@@ -413,7 +413,7 @@ LEXICON N_CONTR_DIM ! ålmátj, sarrvátj
 
 !general addition of DIM case/number endings (avoids recursive DIM generation)
 LEXICON N_DIM_s2 !nom.sg, then link to other forms
-!+Sg+Nom: # ;
+!+Sg+Nom: K ;
 !: N_ODD_X ;
 : NO_VH_X ;
 
@@ -431,28 +431,28 @@ LEXICON PX ! possessive suffixes (not clearly productive; initial SgNom set from
 
 
 LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (no -i- in suffixes)
-+Sg+Nom: # ;
++Sg+Nom: K ;
 : NO_VH_X_s2 ;
 
 LEXICON NO_VH_X_s2
-+Sg+Acc:av # ;
++Sg+Acc:av K ;
 +Sg+Gen:a K ;
-+Sg+Ill:ij # ;
-+Sg+Ine:in # ;
-+Sg+Ela:ist # ; 
-+Sg+Ela+Use/NG:is # ; 
-+Sg+Com:ijn # ;
-+Ess:in # ;
++Sg+Ill:ij K ;
++Sg+Ine:in K ;
++Sg+Ela:ist K ; 
++Sg+Ela+Use/NG:is K ; 
++Sg+Com:ijn K ;
++Ess:in K ;
 +Pl+Nom:a K ;
-+Pl+Acc:ijt # ;
-+Pl+Acc+Err/Orth:ijd # ;
-+Pl+Gen:ij # ;
++Pl+Acc:ijt K ;
++Pl+Acc+Err/Orth:ijd K ;
++Pl+Gen:ij K ;
 +Pl+Ill:ijda K ;
-+Pl+Ine:ijn # ;
-+Pl+Ela:ijst # ;
-+Pl+Ela+Use/NG:ijs # ;
-+Pl+Com:ij # ;
-+Pl+Com+Use/NGminip:ijgum # ;
++Pl+Ine:ijn K ;
++Pl+Ela:ijst K ;
++Pl+Ela+Use/NG:ijs K ;
++Pl+Com:ij K ;
++Pl+Com+Use/NGminip:ijgum K ;
 
 
 ! proper noun lexica below:
@@ -462,7 +462,7 @@ LEXICON N_MONOSYL_PROPER ! monosyllabic proper nouns (mostly person names)
 
 !for proper names for which the inflectional paradigms are not clear (at least until more is known about how they inflect – essentially only non-Saami names)
 LEXICON N_NAME_noInfl_C !C-final
-+N+Sg+Nom:%> # ; 
++N+Sg+Nom:%> K ; 
 +N: N_ODD_X ;
 !diminutive for C-final names:
 +N+Der/Dimin+N:a%>tj N_DIM_s2 ;
@@ -472,24 +472,24 @@ LEXICON N_NAME_noInfl_V !
 
 LEXICON N_NAME_noInfl_V_s2 !V-final
 +Sg+Nom: K ;
-+Sg+Acc:v # ;
++Sg+Acc:v K ;
 +Sg+Gen: K ;
-+Sg+Ill:j # ;
-+Sg+Ine:n # ;
-+Sg+Ela:st # ; 
-+Sg+Ela+Use/NG:s # ; 
-+Sg+Com:jn # ;
-+Ess:an # ;
++Sg+Ill:j K ;
++Sg+Ine:n K ;
++Sg+Ela:st K ; 
++Sg+Ela+Use/NG:s K ; 
++Sg+Com:jn K ;
++Ess:an K ;
 +Pl+Nom: K ;
-+Pl+Acc:jt # ;
-+Pl+Acc+Err/Orth:jd # ;
-+Pl+Gen:j # ;
++Pl+Acc:jt K ;
++Pl+Acc+Err/Orth:jd K ;
++Pl+Gen:j K ;
 +Pl+Ill:jda K ;
-+Pl+Ine:jn # ;
-+Pl+Ela:jst # ;
-+Pl+Ela+Use/NG:js # ;
-+Pl+Com:j # ;
-+Pl+Com+Use/NGminip:jgum # ;
++Pl+Ine:jn K ;
++Pl+Ela:jst K ;
++Pl+Ela+Use/NG:js K ;
++Pl+Com:j K ;
++Pl+Com+Use/NGminip:jgum K ;
 !diminutive for V-final names:
 +Der/Dimin+N:%>tj^V2E2AA N_DIM_s2 ;
 

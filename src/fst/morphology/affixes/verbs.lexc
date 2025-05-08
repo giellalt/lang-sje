@@ -522,18 +522,18 @@ LEXICON LE !!= * @CODE@
 +V+Ind+Prs: LEPRS ; 
 +V+Ind+Prt: LEPRT ; 
 +V+Ind+Pot: LEPOT ;
-+V+PrfPrc:lam # ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
-+V+Inf:årrot # ; !infinitive
-+V+ConNeg:lä # ; !connegative !no clitic possible after this form
++V+PrfPrc:lam K ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
++V+Inf:årrot K ; !infinitive
++V+ConNeg:lä K ; !connegative
 
 LEXICON LEPRS !!= * @CODE@ 
 +Sg1:läv # ; 
 +Sg1+Use/NG:lev # ; 
 +Sg2:lä # ;  
 +Sg2+Use/NG:le # ;  
-+Sg2:'l # ; !enclitic (only attaches to vowel-final preceding word) 
++Sg2:'l # ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
 +Sg3:lä # ; 
-+Sg3:'l # ; !enclitic (only attaches to vowel-final preceding word) 
++Sg3:'l # ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
 !+Sg3:le # ; 
 +Du1:lin # ; 
 !+Du1:len # ; 
@@ -547,7 +547,7 @@ LEXICON LEPRS !!= * @CODE@
 +Pl2:lihpit # ; 
 +Pl2:lehpit # ; 
 +Pl3:lä # ;
-+Pl3:'l # ; !enclitic (only attaches to vowel-final preceding word) 
++Pl3:l # ; !enclitic (only attaches to vowel-final preceding word)
 
 LEXICON LEPRT !!= * @CODE@ 
 +Sg1:lijjiv    # ; 
@@ -620,49 +620,49 @@ LEXICON IJ !!= * @CODE@
 
 !cf. +V+PrfPrc:lam # ; ! lä (BE.conneg) + *am (prfprc allomorph of *lä*)
 !check tags!
-+V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam # ; ! = e+lam
-+V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam # ; ! = e+lam
-+V+Neg+Prs+Sg3#lä+ConNeg#lä+PrfPrc:idtjam # ; ! = idtjij+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam K ; ! = e+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam K ; ! = e+lam
++V+Neg+Prs+Sg3#lä+ConNeg#lä+PrfPrc:idtjam K ; ! = idtjij+lam
 
 LEXICON IJPRS !!= * @CODE@ 
-+Sg1:iv    # ;  !!= * @CODE@ 
-+Sg2:i    # ; 
-+Sg3:ij    # ; 
-+Sg3+Use/NG:ijja    # ; ! long form for short answers, cf. sje20150329b.138, pit080924.487/.489
-+Du1:ien # ; 
-+Du2:iehpen # ;   
-+Du3:iebá # ; 
-+Pl1:iep # ; 
-+Pl1+Use/NG:iehpe # ; 
-+Pl2:ihpit # ;  
-+Pl3:ie   # ;
-+Pl3+Use/NG:e   # ;
-+Pl3#lä+V+ConNeg:ällä # ; ! = e+lä
++Sg1:iv    K ;  !!= * @CODE@ 
++Sg2:i    K ; 
++Sg3:ij    K ; 
++Sg3+Use/NG:ijja    K ; ! long form for short answers, cf. sje20150329b.138, pit080924.487/.489
++Du1:ien K ; 
++Du2:iehpen K ;   
++Du3:iebá K ; 
++Pl1:iep K ; 
++Pl1+Use/NG:iehpe K ; 
++Pl2:ihpit K ;  
++Pl3:ie   K ;
++Pl3+Use/NG:e   K ;
++Pl3#lä+V+ConNeg:ällä K ; ! = e+lä
 
 LEXICON IJPRT !!= * @CODE@ 
-+Sg1:idtjiv    # ;  !!= * @CODE@ 
-+Sg2:idtji    # ; 
-+Sg3:idtjij    # ; 
-+Du1+Use/NG:iejmen # ; 
-+Du1:idtjijmen # ; 
-+Du2+Use/NG:iejden  # ; 
-+Du2:idtjijden # ; 
++Sg1:idtjiv    K ;  !!= * @CODE@ 
++Sg2:idtji    K ; 
++Sg3:idtjij    K ; 
++Du1+Use/NG:iejmen K ; 
++Du1:idtjijmen K ; 
++Du2+Use/NG:iejden  K ; 
++Du2:idtjijden K ; 
 +Du3+Use/NG:iejgan 3DUPRT ; 
 +Du3:idtjijga 3DUPRT ; 
-+Pl1+Use/NG:iejme # ; 
-+Pl1:idtjijme # ; 
-+Pl2+Use/NG:iejde # ; 
-+Pl2:idtjijde # ; 
-+Pl3:idtjin    # ;
++Pl1+Use/NG:iejme K ; 
++Pl1:idtjijme K ; 
++Pl2+Use/NG:iejde K ; 
++Pl2:idtjijde K ; 
++Pl3:idtjin    K ;
 
 
 LEXICON IJIMP !!= * @CODE@ 
-+Sg2:iele  # ; 
-+Sg2+Use/NG:ilu  # ; 
-+Du2:iellen # ; 
-+Du2+Use/NG:illun # ; 
-+Pl2:iellet  # ;
-+Pl2+Use/NG:illut  # ;
++Sg2:iele  K ; 
++Sg2+Use/NG:ilu  K ; 
++Du2:iellen K ; 
++Du2+Use/NG:illun K ; 
++Pl2:iellet  K ;
++Pl2+Use/NG:illut  K ;
 
 
 LEXICON 3DUPRS !variation in 3rd-DUAL-Presence suffixes for EVEN stems
