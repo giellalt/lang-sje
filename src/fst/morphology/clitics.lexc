@@ -16,7 +16,7 @@
 LEXICON VK ! specifically for enclitics which only attach to a V-final host ('l)
 +Clt+Use/-PMatch#:#'l ENDLEX ;  
      +Use/PMatch@P.Pmatch.Loc@:@P.Pmatch.Loc@ COPULA ;  
-ENDLEX ;
+K ;
 
 
 LEXICON K ! for other (future?) enclitics, e.g., (non-existant) Q-particle
