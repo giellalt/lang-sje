@@ -176,7 +176,7 @@ gákktse#lågev#:gákktse#låk# CARDbasic ;
 
 
 LEXICON ROUND10s !round 2-digit NUMs (10,20,30,etc.)
-+Num+Sg+Gen:e K ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
++Num+Sg+Gen:e VK ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
 +Num:ev K ;
 ORD10 ;
 
@@ -188,7 +188,7 @@ ORD10 ;
 !+Num:^WG Num_EVEN_WK ; ! CG here
 !
 !LEXICON Num_EVENCASE
-!+Sg+Nom:^UAUML%>    K ;
+!+Sg+Nom:^UAUML%>    VK ;
 !Num_EVEN_ESS ; ! Essive
 !
 !LEXICON Num_EVEN_ILL
@@ -199,15 +199,15 @@ ORD10 ;
 !
 !LEXICON Num_EVEN_WK
 !!+Der/Dimin:%>tj^V2E2AA N_ODD ;
-!+Sg+Gen:  K ;
+!+Sg+Gen:  VK ;
 !+Sg+Acc:%>v  K ;
 !+Sg+Ine:%>n K ;
 !+Sg+Ela:%>st K ;
 !+Sg+Ela+Use/NG:%>s K ; !dialectal variant, but not standard
 !+Abe:%>dak K ; ! Norm
-!!+Abe:%>htaka K ; ! Informants S and Bj 
+!!+Abe:%>htaka VK ; ! Informants S and Bj 
 !!+Abe:%>htak K ; ! Informants S and Bj 
-!+Pl+Nom:  K ;
+!+Pl+Nom:  VK ;
 !!:^IJ%>j N_EVEN_J ;
 
 

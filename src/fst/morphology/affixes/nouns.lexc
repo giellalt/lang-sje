@@ -62,7 +62,7 @@ LEXICON N_EVEN_NOALT ! without any stem alternation (no C-grad, no umlaut); loan
 
 
 LEXICON EVENCASE
-+Sg+Nom:^UAUML%>    K ;
++Sg+Nom:^UAUML%>   VK ;
 N_EVEN_ESS ; ! Essive
 +Cmp/SgNom:^UAUML R ; !compound element in strong-grade
 +Cmp/SgGen:^WG R ; !compound element in weak-grade
@@ -77,7 +77,7 @@ LEXICON N_EVEN_ESS
 +Ess:^UAUML%>n K ;
 
 LEXICON N_EVEN_WK
-+Sg+Gen:  K ;
++Sg+Gen:  VK ;
 +Sg+Acc:%>v  K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>st K ;
@@ -95,11 +95,11 @@ LEXICON N_EVEN_J
 +Pl+Ine:n   K ;
 +Pl+Ela:st  K ; !norm
 +Pl+Ela+Use/NG:s  K ;
-+Pl+Ill:da  K ; 
++Pl+Ill:da  VK ; 
 +Pl+Com:    K ;
 +Pl+Com+Use/NG:gum K ;
 +Sg+Com:n K ;         !norm
-+Sg+Com+Use/NG:na K ; !variant
++Sg+Com+Use/NG:na VK ; !variant
 
 
 LEXICON N_EVEN4 !mánnodak<->mánnodag-
@@ -124,20 +124,20 @@ LEXICON N_EVEN4_TJ !såbmelatj<->såbmelatja- (variant såbmeladtja-)
 
 LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Sg+Acc:%>v K ;
-+Sg+Gen:%> K ;
++Sg+Gen:%> VK ;
 +Sg+Ill:%>j K ;
 +Sg+Ine:%>n K ;
 +Sg+Ela:%>st K ;
 +Sg+Ela+Use/NG:%>s K ;
 +Sg+Com:%>jn K ;
-+Sg+Com+Use/NG:%>jna K ;
++Sg+Com+Use/NG:%>jna VK ;
 +Ess:%>n K ;
 !+Abe:%>dak K ; ! XXX
-+Pl+Nom:%> K ;
++Pl+Nom:%> VK ;
 +Pl+Acc:%>jt K ;
 +Pl+Acc+Err/Orth:%>jd K ;
 +Pl+Gen:%>j K ;
-+Pl+Ill:%>jda K ;
++Pl+Ill:%>jda VK ;
 +Pl+Ine:%>jn K ;
 +Pl+Ela:%>jst K ;
 +Pl+Ela+Use/NG:%>js K ;
@@ -162,19 +162,19 @@ LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns tha
 
 !LEXICON N_EVEN4_VSA !guoksagis<->guoksagas-, mujjtulas<->mujjtulas-
 !+Sg+Acc:asa%>v K ;
-!+Sg+Gen:asa%> K ;
+!+Sg+Gen:asa%> VK ;
 !+Sg+Ill:asa%>j K ;
 !+Sg+Ine:asa%>n K ;
 !+Sg+Ela:asa%>st K ;
 !+Sg+Ela+Use/NG:asa%>s K ;
 !+Sg+Com:asa%>jn K ;
-!+Sg+Com+Use/NG:asa%>jna K ;
+!+Sg+Com+Use/NG:asa%>jna VK ;
 !+Ess:asa%>n K ; 
 !!+Abe:asa%>dak K ; ! XXX
-!+Pl+Nom:asa%> K ;
+!+Pl+Nom:asa%> VK ;
 !+Pl+Acc:asa%>jd K ;
 !+Pl+Gen:asa%>j K ;
-!+Pl+Ill:asa%>jda K ;
+!+Pl+Ill:asa%>jda VK ;
 !+Pl+Ine:asa%>jn K ;
 !+Pl+Ela:asa%>jst K ;
 !+Pl+Ela+Use/NG:asa%>js K ;
@@ -206,7 +206,7 @@ N_ODD_X ;
 N_ODD_DIM ; !link to DIM
 
 LEXICON N_ODD_OPEN !open-syllable, eg. biena<->biednag-, låvdå<->låvvdåk-
-+N+Sg+Nom:^WG^CDEL%> K ;
++N+Sg+Nom:^WG^CDEL%> VK ;
 +N+Cmp/SgNom:^WG^CDEL R ; !compound element in weak-grade, no final C
 !+N+Cmp/SgGen: R ; !compound element in weak-grade, no final C ! not sure about this
 +N: N_ODD_X ;
@@ -234,29 +234,29 @@ LEXICON N_ODD_noCG_G3 !odd-syllable noun III-II but without CGrad, eg. guobbar<-
 !+N+Cmp/SgGen:a R ; !compound element !not sure!
 
 LEXICON N_ODD_noCG_G3_OPEN !open odd-syllable noun III-II but without CGrad, eg. vuodda<->vuaddag-
-+N+Sg+Nom:^WG^CDEL%> K ;
++N+Sg+Nom:^WG^CDEL%> VK ;
 +N:^G3^UAUML N_ODD_X ;
 !+N+Cmp/SgNom: R ; !compound element !not sure!
 !+N+Cmp/SgGen:a R ; !compound element !not sure!
 
 !LEXICON N_ODD_WG_aH !odd-syllable noun with CGrad, nom.sg ends in -a, extension in -ah-, eg. ruma<->rubmah-
-!+N+Sg+Nom:a^WG%> K ;
+!+N+Sg+Nom:a^WG%> VK ;
 !+N:ah N_ODD_X ;
 !!+N: N_ODD_DIM ; !link to DIM !CHECK!
 
 LEXICON N_ODD_WG_eH !odd-syllable noun with CGrad, nom.sg ends in -e, extension in -ih-, eg. gane<->gidnih-
-+N+Sg+Nom:e^WG%> K ;
++N+Sg+Nom:e^WG%> VK ;
 +N:ih N_ODD_X ;
 !+N: N_ODD_DIM ; !link to DIM !CHECK!
 
 LEXICON N_ODD_WG_oH !odd-syllable noun with CGrad, nom.sg ends in -o, extension in -uh-, eg. njuono<->njunnuh-
-+N+Sg+Nom:o^WG%> K ;
++N+Sg+Nom:o^WG%> VK ;
 +N:uh N_ODD_X ;
 !+N: N_ODD_DIM ; !link to DIM !CHECK!
 
 LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Acc:a%>v K ;
-+Sg+Gen:a%> K ;
++Sg+Gen:a%> VK ;
 +Sg+Ill:i2%>j K ;
 +Sg+Ine:i2%>n K ;
 +Sg+Ela:i2%>st K ;
@@ -268,12 +268,12 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 !!needs to delete the final C of the stem! 
 !!but shouldn't apply to DIM-forms (currently just adds -n, without V before!)
 
-+Abe:a%>htá K ;
-+Pl+Nom:a%> K ;
++Abe:a%>htá VK ;
++Pl+Nom:a%> VK ;
 +Pl+Acc:i2%>jt K ;
 +Pl+Acc+Err/Orth:i2%>jd K ;
 +Pl+Gen:i2%>j K ;
-+Pl+Ill:i2%>jda K ;
++Pl+Ill:i2%>jda VK ;
 +Pl+Ine:i2%>jn K ;
 +Pl+Ela:i2%>jst K ;
 +Pl+Ela+Use/NG:i2%>js K ;
@@ -282,19 +282,19 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 
 LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabic adjectives
 +Sg+Acc:u%>v K ;
-+Sg+Gen:u%> K ;
++Sg+Gen:u%> VK ;
 +Sg+Ill:u%>j K ;
 +Sg+Ine:u2%>n K ;
 +Sg+Ela:u2%>st K ;
 +Sg+Ela+Use/NG:u2%>s K ;
 +Sg+Com:u2%>jn K ;
 +Ess:u2%>n K ;
-+Abe:u%>htá K ;
-+Pl+Nom:u%> K ;
++Abe:u%>htá VK ;
++Pl+Nom:u%> VK ;
 +Pl+Acc:u2%>jt K ;
 +Pl+Acc+Err/Orth:u2%>jd K ;
 +Pl+Gen:u2%>j K ;
-+Pl+Ill:u2%>jda K ;
++Pl+Ill:u2%>jda VK ;
 +Pl+Ine:u2%>jn K ;
 +Pl+Ela:u2%>jst K ;
 +Pl+Ela+Use/NG:u2%>js K ;
@@ -321,14 +321,14 @@ LEXICON N_CONTR_OJU !båtsoj<->buhtsu
 N_CONTR_O ;
 
 LEXICON N_CONTR_OU !suolo<->sullu
-+N+Sg+Nom:o^WG%> K ;
++N+Sg+Nom:o^WG%> VK ;
 +N+Cmp/SgNom:o^WG%> R ; !compound element in weak-grade
 +N+Cmp/SgGen:o%> R ; !compound element in strong-grade without final C, e.g. buhtsubärrgo
 N_CONTR_O ;
 
 LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Sg+Acc:u%>v K ;
-+N+Sg+Gen:u%> K ;
++N+Sg+Gen:u%> VK ;
 +N+Sg+Ill:u%>j K ;
 +N+Sg+Ine:u%>n K ;
 +N+Sg+Ela:u%>st K ;
@@ -337,11 +337,11 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Ess:u%>n K ;
 +N+Ess:u%>n K ;
 +N+Abe:u%>dak K ; ! XXX
-+N+Pl+Nom:u%> K ;
++N+Pl+Nom:u%> VK ;
 +N+Pl+Acc:u%>jt K ;
 +N+Pl+Acc+Err/Orth:u%>jd K ;
 +N+Pl+Gen:u%>j K ;
-+N+Pl+Ill:u%>jda K ;
++N+Pl+Ill:u%>jda VK ;
 +N+Pl+Ine:u%>jn K ;
 +N+Pl+Ela:u%>jst K ;
 +N+Pl+Ela+Use/NG:u%>js K ;
@@ -354,7 +354,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Cmp/SgNom:á^WGj%> R ; !compound element in weak-grade with final-C
 +N+Cmp/SgGen:á%> R ; !compound element in strong-grade with not final-C; cf. ålbmábarrgo
 +N+Sg+Acc:á%>v K ;
-+N+Sg+Gen:á%> K ;
++N+Sg+Gen:á%> VK ;
 +N+Sg+Ill:á%>j K ;
 +N+Sg+Ine:á%>n K ;
 +N+Sg+Ela:á%>st K ;
@@ -363,11 +363,11 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 !+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:á%>dak K ; ! XXX
-+N+Pl+Nom:á%> K ;
++N+Pl+Nom:á%> VK ;
 +N+Pl+Acc:á%>jt K ;
 +N+Pl+Acc+Err/Orth:á%>jd K ;
 +N+Pl+Gen:á%>j K ;
-+N+Pl+Ill:á%>jda K ;
++N+Pl+Ill:á%>jda VK ;
 +N+Pl+Ine:á%>jn K ;
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
@@ -381,7 +381,7 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Cmp/SgNom:e^WGs%> R ; !compound element in weak-grade with final-C
 +N+Cmp/SgGen:á%> R ; !compound element in weak-grade with final-C ; not sure! cf. fállábärrgo
 +N+Sg+Acc:á%>v K ;
-+N+Sg+Gen:á%> K ;
++N+Sg+Gen:á%> VK ;
 +N+Sg+Ill:á%>j K ;
 +N+Sg+Ine:á%>n K ;
 +N+Sg+Ela:á%>st K ;
@@ -390,11 +390,11 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 !+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:á%>dak K ; ! XXX
-+N+Pl+Nom:á%> K ;
++N+Pl+Nom:á%> VK ;
 +N+Pl+Acc:á%>jt K ;
 +N+Pl+Acc+Err/Orth:á%>jd K ;
 +N+Pl+Gen:á%>j K ;
-+N+Pl+Ill:á%>jda K ;
++N+Pl+Ill:á%>jda VK ;
 +N+Pl+Ine:á%>jn K ;
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
@@ -436,18 +436,18 @@ LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (
 
 LEXICON NO_VH_X_s2
 +Sg+Acc:av K ;
-+Sg+Gen:a K ;
++Sg+Gen:a VK ;
 +Sg+Ill:ij K ;
 +Sg+Ine:in K ;
 +Sg+Ela:ist K ; 
 +Sg+Ela+Use/NG:is K ; 
 +Sg+Com:ijn K ;
 +Ess:in K ;
-+Pl+Nom:a K ;
++Pl+Nom:a VK ;
 +Pl+Acc:ijt K ;
 +Pl+Acc+Err/Orth:ijd K ;
 +Pl+Gen:ij K ;
-+Pl+Ill:ijda K ;
++Pl+Ill:ijda VK ;
 +Pl+Ine:ijn K ;
 +Pl+Ela:ijst K ;
 +Pl+Ela+Use/NG:ijs K ;
@@ -471,9 +471,9 @@ LEXICON N_NAME_noInfl_V !
 +N: N_NAME_noInfl_V_s2 ;
 
 LEXICON N_NAME_noInfl_V_s2 !V-final
-+Sg+Nom: K ;
++Sg+Nom: VK ;
 +Sg+Acc:v K ;
-+Sg+Gen: K ;
++Sg+Gen: VK ;
 +Sg+Ill:j K ;
 +Sg+Ine:n K ;
 +Sg+Ela:st K ; 
@@ -484,7 +484,7 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Pl+Acc:jt K ;
 +Pl+Acc+Err/Orth:jd K ;
 +Pl+Gen:j K ;
-+Pl+Ill:jda K ;
++Pl+Ill:jda VK ;
 +Pl+Ine:jn K ;
 +Pl+Ela:jst K ;
 +Pl+Ela+Use/NG:js K ;
