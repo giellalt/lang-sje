@@ -518,6 +518,9 @@ LEXICON V_CONTR_UVVUT ! variation in derived (passive) stems -uvºvut (~uvvat)
 
 !! # Auxiliaries
 
+LEXICON COPULA !
+lä: LE "copula/auxiliary verb" ; !!= * @CODE@ 
+
 LEXICON LE !!= * @CODE@ 
 +V+Ind+Prs: LEPRS ; 
 +V+Ind+Prt: LEPRT ; 

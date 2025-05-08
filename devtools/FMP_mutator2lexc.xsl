@@ -164,7 +164,7 @@ LEXICON </xsl:text><xsl:value-of select="$LexName"/><xsl:text>   !!= * **@CODE@*
 !! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
 
-lä: LE "copula/auxiliary verb" ; !!= * @CODE@ 
+COPULA ; ! Redirects aux/copula to get proper handling of 'l (see affixes/verbs.lexc)
 ij: IJ "negation verb" ; !!= * @CODE@ 
 
 ! special case for gallgat -> gilgij

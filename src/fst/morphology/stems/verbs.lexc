@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-07T12:07:47+03:00
+! Generated at: 2025-05-08T14:00:05+03:00
 
 !! # Pite Saami Verbs
 
@@ -36,7 +36,8 @@ LEXICON Verb   !!= * **@CODE@** is the main lexicon
 
 !! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
-COPULA ; ! Redirected to get proper clitic handling of 'l
+
+COPULA ; ! Redirects aux/copula to get proper handling of 'l (see affixes/verbs.lexc)
 ij: IJ "negation verb" ; !!= * @CODE@ 
 
 ! special case for gallgat -> gilgij
@@ -1869,6 +1870,3 @@ tjuadtjadit:tjuadtjad2 V_ODD_UA "remain standing" ; ! no. 5338
 tjuädtjelit:tju^Odtjel V_ODD_UA "get up, stand up" ; ! no. 4647
 giehpebut:giehpeb2 V_ODD_UT "make easier, simplify" ; ! no. 4821
 vierábut:vieráb2 V_ODD_UT "become worse, worsen" ; ! no. 5490
-
-LEXICON COPULA
-lä: LE "copula/auxiliary verb" ; !!= * @CODE@ 
