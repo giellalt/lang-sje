@@ -8,6 +8,8 @@
 
 # Auxiliaries
 
+* lä: LE "copula/auxiliary verb" ;  
+
 * LEXICON LE  
 
 * LEXICON LEPRS  

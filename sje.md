@@ -82,6 +82,8 @@ All doc-comment documentation in one large file.
 
 # Auxiliaries
 
+* lä: LE "copula/auxiliary verb" ;  
+
 * LEXICON LE  
 
 * LEXICON LEPRS  
@@ -767,8 +769,6 @@ Propernouns
 * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
 * ij: IJ "negation verb" ;  
-
-* lä: LE "copula/auxiliary verb" ;  
 
 * * *
 
