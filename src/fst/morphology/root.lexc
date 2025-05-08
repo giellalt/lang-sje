@@ -157,6 +157,8 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +Use/NGminip  !!= * @CODE@
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
  +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/PMatch       !!≈ * **@CODE@** means that the following is only used in the analyser feeding the disambiguator
+ +Use/-PMatch      !!≈ * **@CODE@** Do not include in fst's made for hfst-pmatch
 
 
 
@@ -283,6 +285,7 @@ b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or oth
  @U.Cap.Obl@        !!≈ |  @CODE@  | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@  | Allowing downcasing of derived names: deatnulasj.
 
+!! The following flag diacritics are used to control case inflection of numbers:
 
 !! | Flag diacritic | Explanation
 !! | :------------- |:-----------
@@ -296,6 +299,15 @@ b2 d2 g2 t2 j2 !!= @CODE@  * Variable consonants, undergo final devoicing or oth
 @U.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+
+!! The following flag diacritic look-alikes are used in hfst-pmatch/hfst-tokenise to properly
+!! handle (possibly) multitoken single strings.
+
+!! | Flag | Explanation
+!! | ---- | -----------
+ @P.Pmatch.Loc@       !!≈ |  @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ @P.Pmatch.Backtrack@ !!≈ |  @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+
 ! testing these
 +TRAB
 +ITRAB
