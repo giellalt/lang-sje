@@ -17,7 +17,7 @@
 
 
 LEXICON CS   !!= * **@CODE@**
-+CS: # ;
++CS: ENDLEX ;
 
 LEXICON Subjunction   !!= * **@CODE@**
 ahte CS ;

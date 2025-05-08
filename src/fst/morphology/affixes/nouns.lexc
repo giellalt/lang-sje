@@ -418,15 +418,15 @@ LEXICON N_DIM_s2 !nom.sg, then link to other forms
 : NO_VH_X ;
 
 LEXICON PX ! possessive suffixes (not clearly productive; initial SgNom set from Lehtiranta 1992)
-+Sg+Nom+PxSg1:m # ; !cf. Lagercrantz 1957 text 426
-+Sg+Nom+PxSg2:t # ; 
-+Sg+Nom+PxSg3:s # ; 
-+Sg+Nom+PxDu1:ma # ; 
-+Sg+Nom+PxDu2:da # ; 
-+Sg+Nom+PxDu3:sa # ; 
-+Sg+Nom+PxPl1:men # ; 
-+Sg+Nom+PxPl2:den # ; 
-+Sg+Nom+PxPl3:ska # ; 
++Sg+Nom+PxSg1:m ENDLEX ; !cf. Lagercrantz 1957 text 426
++Sg+Nom+PxSg2:t ENDLEX ; 
++Sg+Nom+PxSg3:s ENDLEX ; 
++Sg+Nom+PxDu1:ma ENDLEX ; 
++Sg+Nom+PxDu2:da ENDLEX ; 
++Sg+Nom+PxDu3:sa ENDLEX ; 
++Sg+Nom+PxPl1:men ENDLEX ; 
++Sg+Nom+PxPl2:den ENDLEX ; 
++Sg+Nom+PxPl3:ska ENDLEX ; 
 
 
 

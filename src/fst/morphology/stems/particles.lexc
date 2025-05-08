@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 
 LEXICON pcle   !!= * **@CODE@** the tag
-+Pcle: # ;
++Pcle: ENDLEX ;
 
 LEXICON Particle   !!= * **@CODE@** the list
 anj pcle ;

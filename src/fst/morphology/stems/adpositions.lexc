@@ -133,13 +133,13 @@ badjel+Use/NG:bajjel PrePost ;
 
 !only postpositions
 LEXICON PostP   !!= * **@CODE@**  adds the tag +Po
-+Po: # ;
++Po: ENDLEX ;
 
 !only prepositions -- check to see if this is a valid category!
 !LEXICON PreP   !!= * __@CODE@__  adds the tag +Pr
-!+Pr: # ;
+!+Pr: ENDLEX ;
 
 !both pre- and postpositions
 LEXICON PrePost   !!= * **@CODE@**  adds the tags +Po and +Pr
-+Po: # ;
-+Pr: # ;
++Po: ENDLEX ;
++Pr: ENDLEX ;

@@ -58,7 +58,7 @@ tuvsán:tuvsán NUM1000 "tusen, thousand" ; !verify ORD form!
 
 
 LEXICON NUM0 ! num 0
-+Num: # ; 
++Num: ENDLEX ; 
 
 LEXICON NUM1 ! num 1
 +Num:akkta NumCase ; !needs to be added later for other Nums, but definitely works for akkta
@@ -66,38 +66,38 @@ LEXICON NUM1 ! num 1
 !:akkta 10s ;
 
 LEXICON NUM2 ! num 2
-+Num:gu^Okkte # ; 
-+Num+Pl+Nom:gu^Okkte^WG # ; ! cf. sje19521200a.027 !this needs to be generalized for other case/num later
++Num:gu^Okkte ENDLEX ; 
++Num+Pl+Nom:gu^Okkte^WG ENDLEX ; ! cf. sje19521200a.027 !this needs to be generalized for other case/num later
 :#gu^Okkt ORD ; !only for 2+digit NUMs
 !:gu^Okkte 10s ;
 
 LEXICON NUMa ! a-stem num (5,6)
-+Num:a # ; 
-+Num+Pl+Nom:a^WG # ; !connect to noninal inflection lexicon?
++Num:a ENDLEX ; 
++Num+Pl+Nom:a^WG ENDLEX ; !connect to noninal inflection lexicon?
 ORD ;
 
 LEXICON NUMå ! å-stem num (3)
-+Num:å # ; 
-+Num+Pl+Nom:å^WG # ; !connect to noninal inflection lexicon? 
++Num:å ENDLEX ; 
++Num+Pl+Nom:å^WG ENDLEX ; !connect to noninal inflection lexicon? 
 ORD ;
 !:å 10s ;
 
 LEXICON NUMe ! e-stem num (4,8,9)
-+Num:e # ; 
-+Num+Pl+Nom:e^WG # ; !connect to noninal inflection lexicon?
++Num:e ENDLEX ; 
++Num+Pl+Nom:e^WG ENDLEX ; !connect to noninal inflection lexicon?
 ORD ;
 !:e 10s ;
 
 LEXICON NUM7 ! num (7)
-+Num:av^WG # ; 
++Num:av^WG ENDLEX ; 
 +Num+Pl+Nom:av N_ODD_X ; 
 ORD7 ;
 !:av 10s ; !verify this
 
 LEXICON NUM10 ! num (10)
-+Num+Sg+Gen:e # ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
-+Num:ev^WG # ; 
-+Num: # ; !in compound numbers
++Num+Sg+Gen:e ENDLEX ; !special case for gen.sg for numeral 10! without final -v! (cf. låge nanne)
++Num:ev^WG ENDLEX ; 
++Num: ENDLEX ; !in compound numbers
 ORD10 ;
 
 LEXICON NUM100 ! num (100); treat as noun and NUM
@@ -113,65 +113,65 @@ LEXICON NUM1000 ! num (1000); treat as noun and NUM
 +Num: N_ODD_X ;
 ORD10 ;
 !N_ODD ;
-!+Num: # ; 
+!+Num: ENDLEX ; 
 
 LEXICON NumCase ! case forms for Numerals
-: # ;
-+Sg+Acc:^WG%>v # ; !needs to be generalized later, but definitely works for akkta
-+Sg+Gen:^WG%> # ; !needs to be generalized later, but definitely works for akkta
+: ENDLEX ;
++Sg+Acc:^WG%>v ENDLEX ; !needs to be generalized later, but definitely works for akkta
++Sg+Gen:^WG%> ENDLEX ; !needs to be generalized later, but definitely works for akkta
 
 
 !ORDINAL forms (add cases later)
 LEXICON ORD
-+A+Attr+Ord:át^WG # ;
-+A+Ord+Sg+Nom:át^WG # ;
++A+Attr+Ord:át^WG ENDLEX ;
++A+Ord+Sg+Nom:át^WG ENDLEX ;
 
 LEXICON ORD7
-+A+Attr+Ord:et # ;
-+A+Ord+Sg+Nom:et # ;
++A+Attr+Ord:et ENDLEX ;
++A+Ord+Sg+Nom:et ENDLEX ;
 
 LEXICON ORD10
-+A+Attr+Ord:át # ;
-+A+Ord+Sg+Nom:át # ;
++A+Attr+Ord:át ENDLEX ;
++A+Ord+Sg+Nom:át ENDLEX ;
 
 LEXICON ORDsuppl1 !suppletive ordinal forms for vuostas
-+A+Attr+Ord: # ;
-+A+Ord+Sg+Nom: # ;
++A+Attr+Ord: ENDLEX ;
++A+Ord+Sg+Nom: ENDLEX ;
 
 LEXICON ORDsuppl2 !suppletive ordinal forms for mubbe
-+A+Attr+Ord: # ;
-+A+Ord+Sg+Nom: # ;
-+A+Ord+Sg+Ill:%>j^V2E2AA # ;
++A+Attr+Ord: ENDLEX ;
++A+Ord+Sg+Nom: ENDLEX ;
++A+Ord+Sg+Ill:%>j^V2E2AA ENDLEX ;
 
 
 
 LEXICON CARD10s !2-digit NUMs
 akkta#lågev:akkta#låg2 ROUND10s ; !but does akktalågev really exist??
-akkta#lågev+Num:akkta#låg2 # ; !but does akktalågev really exist??
+akkta#lågev+Num:akkta#låg2 ENDLEX ; !but does akktalågev really exist??
 akkta#lågev#:akkta#låk# CARDbasic ;
 guäkkte#lågev:guäkkte#låg2 ROUND10s ; 
-guäkkte#lågev+Num:guäkkte#låg2 # ; 
+guäkkte#lågev+Num:guäkkte#låg2 ENDLEX ; 
 guäkkte#lågev#:guäkkte#låk# CARDbasic ;
 gålbmå#lågev:gålbmå#låg2 ROUND10s ; 
-gålbmå#lågev+Num:gålbmå#låg2 # ; 
+gålbmå#lågev+Num:gålbmå#låg2 ENDLEX ; 
 gålbmå#lågev#:gålbmå#låk# CARDbasic ;
 nällje#lågev:nällje#låg2 ROUND10s ; 
-nällje#lågev+Num:nällje#låg2 # ; 
+nällje#lågev+Num:nällje#låg2 ENDLEX ; 
 nällje#lågev#:nällje#låk# CARDbasic ;
 vihta#lågev:vihta#låg2 ROUND10s ; 
-vihta#lågev+Num:vihta#låg2 # ; 
+vihta#lågev+Num:vihta#låg2 ENDLEX ; 
 vihta#lågev#:vihta#låk# CARDbasic ;
 guhta#lågev:guhta#låg2 ROUND10s ; 
-guhta#lågev+Num:guhta#låg2 # ; 
+guhta#lågev+Num:guhta#låg2 ENDLEX ; 
 guhta#lågev#:guhta#låk# CARDbasic ;
 gietjav#lågev:gietjav#låg2 ROUND10s ; 
-gietjav#lågev+Num:gietjav#låg2 # ; 
+gietjav#lågev+Num:gietjav#låg2 ENDLEX ; 
 gietjav#lågev#:gietjav#låk# CARDbasic ;
 gákktse#lågev:gákktse#låg2 ROUND10s ; 
-gákktse#lågev+Num:gákktse#låg2 # ; 
+gákktse#lågev+Num:gákktse#låg2 ENDLEX ; 
 gákktse#lågev#:gákktse#låk# CARDbasic ;
 åkktse#lågev:åkktse#låg2 ROUND10s ; 
-åkktse#lågev+Num:åkktse#låg2 # ; 
+åkktse#lågev+Num:åkktse#låg2 ENDLEX ; 
 åkktse#lågev#:åkktse#låk# CARDbasic ;
 
 

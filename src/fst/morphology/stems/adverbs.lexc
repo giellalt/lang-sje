@@ -17,7 +17,7 @@
 !! Adverbs
 
 LEXICON adv   !!= * **@CODE@** adds the tag +Adv
-+Adv: # ;
++Adv: ENDLEX ;
 
 LEXICON Adverb   !!= * **@CODE@** is the list
 agev adv ;

@@ -15,7 +15,7 @@
 ! NB: through June 2019, J. Wilbur's development work made possible by Deutsche Forschungsgemeinschaft (grant 286335341)
 
 LEXICON interj   !!= * **@CODE@** gives the tag +Interj
-+Interj: # ;
++Interj: ENDLEX ;
 
 LEXICON Interjection   !!= * **@CODE@** is the list 
 burist interj ;

@@ -22,12 +22,12 @@
 !
 ! positive form rules (based on PRED.SG as basic form)
 LEXICON A_BLAAVVAT ! blävvis/blávvat/blávvada/blávvadup/blávvadumos/-bmus-
-+A+Attr:i%>s # ;
++A+Attr:i%>s ENDLEX ;
 +A:ad2 A_BLAAVVAT_s2 ; 
 
 
 LEXICON A_JAORRBAOT ! jurrbut/jårrbåt/jårrbåda/??
-+A+Attr:i%>s # ;
++A+Attr:i%>s ENDLEX ;
 +A:åd2 A_BLAAVVAT_s2 ; 
 
 LEXICON A_BLAAVVAT_s2 
@@ -38,7 +38,7 @@ LEXICON A_BLAAVVAT_s2
 
 
 LEXICON A_AMAS ! amas/amas/abmasa/abmasup
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A: A_AMAS_s2 ; 
 
 LEXICON A_AMAS_s2 
@@ -48,7 +48,7 @@ N_ODD_WG_s2 ;
 
 
 LEXICON A_AARVAS ! árvas/árvas/árrvasa/árvasup/árvasumos/árvasubmusa
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A: A_AARVAS_s2 ; 
 
 LEXICON A_AARVAS_s2 
@@ -59,7 +59,7 @@ LEXICON A_AARVAS_s2
 
 
 LEXICON A_BIVVAL ! bivvalis/bivval/bivvala/bivvalup/bivvalumos/-bmus-
-+A+Attr:%>is # ;
++A+Attr:%>is ENDLEX ;
 +A: A_BIVVAL_s2 ; 
 
 LEXICON A_BIVVAL_s2 
@@ -70,7 +70,7 @@ LEXICON A_BIVVAL_s2
 
 
 LEXICON A_TJAOSKES ! tjåskes/tjåskes/tjåsskása/tjåsskásup/tjåsskásumos/-bmus-
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A: A_TJAOSKES_s2 ; 
 
 LEXICON A_TJAOSKES_s2 
@@ -81,7 +81,7 @@ LEXICON A_TJAOSKES_s2
 
 
 LEXICON A_VUOJNOS ! vuojnos/vuojnos/vujdnusa/...?
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A: A_VUOJNOS_s2 ; 
 
 LEXICON A_VUOJNOS_s2 ! first ADJ lexicon to link to case/number endings, for a start...
@@ -92,7 +92,7 @@ LEXICON A_VUOJNOS_s2 ! first ADJ lexicon to link to case/number endings, for a s
 
 
 LEXICON A_ASEDIS ! asedis / asedis / asedasa / asedup / asedumos/-bmus-
-+A+Attr:is%> # ;
++A+Attr:is%> ENDLEX ;
 +A: A_ASEDIS_s2 ; 
 
 LEXICON A_ASEDIS_s2 
@@ -104,7 +104,7 @@ LEXICON A_ASEDIS_s2
 
 !check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
 LEXICON A_TJAEHPPE ! tjiehpes/tjähppe/tjiehpe/tjiehpep/tjiehpemus-
-+A+Attr:^WG%>s # ;
++A+Attr:^WG%>s ENDLEX ;
 +A: A_TJAEHPPE_s2 ; 
 
 LEXICON A_TJAEHPPE_s2 
@@ -118,7 +118,7 @@ LEXICON A_TJAEHPPE_s2
 
 
 LEXICON A_ÅNEGIS ! ånegis/ådne/åne/ånep/ånemus-
-+A+Attr:^WG%>gis # ;
++A+Attr:^WG%>gis ENDLEX ;
 +A: A_ÅNEGIS_s2 ; 
 
 LEXICON A_ÅNEGIS_s2 
@@ -129,7 +129,7 @@ LEXICON A_ÅNEGIS_s2
 
 
 LEXICON A_AALLKE ! állkes/állke/állke/állkep/állkemus- (COMP-variant állkáp!)
-+A+Attr:%>s # ;
++A+Attr:%>s ENDLEX ;
 +A: A_AALLKE_s2 ; 
 
 LEXICON A_AALLKE_s2 
@@ -141,7 +141,7 @@ LEXICON A_AALLKE_s2
 
 
 LEXICON A_BAONNDAA ! båndá/bånndá/båndá/båndáp/båndájmus- (same as tjähppe except for -j- in SUPERL)
-+A+Attr:^WG%>s # ;
++A+Attr:^WG%>s ENDLEX ;
 +A: A_BAONNDAA_s2 ; 
 
 LEXICON A_BAONNDAA_s2 
@@ -152,7 +152,7 @@ LEXICON A_BAONNDAA_s2
 
 
 LEXICON A_BAAHKAS ! báhka/báhkas/báhkkasa/báhkkasup?/báhkkasumos?/-bmus-?
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A: A_BAAHKAS_s2 ; 
 
 LEXICON A_BAAHKAS_s2 
@@ -164,7 +164,7 @@ LEXICON A_BAAHKAS_s2
 
 
 LEXICON A_TJAABBE ! tjábba/tjábbe/tjábbáp-a/u/tjäbbijmus-
-+A+Attr:a%> # ;
++A+Attr:a%> ENDLEX ;
 +A: A_TJAABBE_s2 ; 
 
 LEXICON A_TJAABBE_s2 
@@ -176,7 +176,7 @@ LEXICON A_TJAABBE_s2
 +Superl+Use/NG:i A_ODD_jSUP ;
 
 LEXICON A_UNNE ! unna/unne/unnep/unnemus-
-+A+Attr:a%> # ;
++A+Attr:a%> ENDLEX ;
 +A: A_UNNE_s2 ; 
 
 LEXICON A_UNNE_s2 
@@ -187,7 +187,7 @@ LEXICON A_UNNE_s2
 !+Superl+Use/NG:i A_ODD_jSUP ;
 
 LEXICON A_SMAAVVE ! smáva/smávve/smáve/smávep-a/smávájmus-
-+A+Attr:a^WG%> # ;
++A+Attr:a^WG%> ENDLEX ;
 +A: A_SMAAVVE_s2 ; 
 
 LEXICON A_SMAAVVE_s2 
@@ -202,7 +202,7 @@ LEXICON A_SMAAVVE_s2
 
 
 LEXICON A_AAJDNA ! ájdna/ájdna/?/?-
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_AAJDNA_s2 ; 
 
 LEXICON A_AAJDNA_s2 
@@ -214,7 +214,7 @@ LEXICON A_AAJDNA_s2
 
 !check difference between A_BUOSSJE and A_TJAEHPPE (in SUPERL-j)
 LEXICON A_BUOSSJE ! buosjes/buossje/buosje/buosjep/busjijmus-
-+A+Attr:^WG%>s # ;
++A+Attr:^WG%>s ENDLEX ;
 +A: A_BUOSSJE_s2 ; 
 
 LEXICON A_BUOSSJE_s2 
@@ -229,7 +229,7 @@ LEXICON A_BUOSSJE_s2
 
 !main difference to A_GALMAS is -jSUPERL
 LEXICON A_DIMES ! dibma/dimes/dibmása/dibmáp/dibmájmus-
-+A+Attr:a%> # ;
++A+Attr:a%> ENDLEX ;
 +A:e A_DIMES_s2 ; 
 
 LEXICON A_DIMES_s2 
@@ -242,7 +242,7 @@ LEXICON A_DIMES_s2
 
 !main difference to A_DIMES is no -jSUPERL
 LEXICON A_GALMAS ! galbma/galmas/galbmasa/galbmasup/galbmasumos-
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_GALMAS_s2 ; 
 
 LEXICON A_GALMAS_s2 
@@ -254,7 +254,7 @@ LEXICON A_GALMAS_s2
 
 
 LEXICON A_xDIBME ! tjalmedis/tjalmedibme/tjalmedime/?/?-
-+A+Attr:%>is # ;
++A+Attr:%>is ENDLEX ;
 +A:%>ibme A_xDIBME_s2 ; 
 
 LEXICON A_xDIBME_s2 
@@ -267,7 +267,7 @@ LEXICON A_xDIBME_s2
 
 
 LEXICON A_BAOSSTOT ! båsto/båsstot/båsstoda/?p/?mos
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A:d2 A_BAOSSTOT_s2 ; 
 
 LEXICON A_BAOSSTOT_s2 
@@ -278,7 +278,7 @@ LEXICON A_BAOSSTOT_s2
 
 
 LEXICON A_NUORRA ! nuorra/nuorra/nuora/nuorap-a/nuoramus (?nuorasup-a/?nuorasumos)
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_NUORRA_s2 ; 
 
 LEXICON A_NUORRA_s2 
@@ -293,7 +293,7 @@ LEXICON A_NUORRA_s2
 
 !temporary solution until more is determined:
 LEXICON A_VUOSTAS ! vuostas/??/??/??/vuostamus (pit080924.080)
-+A+Attr:s%> # ;
++A+Attr:s%> ENDLEX ;
 +A: A_VUOSTAS_s2 ; 
 
 LEXICON A_VUOSTAS_s2 
@@ -302,15 +302,15 @@ LEXICON A_VUOSTAS_s2
 !:^WG N_EVEN_WK ;
 !+Comp:^WG A_ODD_COMP ;
 !+Comp+Use/NG:^WG A_ODD_COMP_a ;
-+Superl+Attr:%>mus # ; !A_ODD_SUP ;
++Superl+Attr:%>mus ENDLEX ; !A_ODD_SUP ;
 
 
 LEXICON A_STUORES ! stuorra (stuor)/stuores/stuorrá/stuoráp/stuoremus
-+A+Attr:a%> # ;
++A+Attr:a%> ENDLEX ;
 +A: A_STUORES_s2 ; 
 
 LEXICON A_STUORx ! stuor (variant of stuorra (ATTR))
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 
 LEXICON A_STUORES_s2 
 +Sg+Nom:e^WG%>s K ; 
@@ -320,7 +320,7 @@ LEXICON A_STUORES_s2
 
 
 LEXICON A_FIEROK ! fierok/fierok/fieroga/fierogup/fierogumus/-bmusa
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_FIEROK_s2 ; 
 
 LEXICON A_FIEROK_s2 
@@ -331,7 +331,7 @@ LEXICON A_FIEROK_s2
 
 
 LEXICON A_IETJAA ! ietjá/ietjá/iehtjáda/..?
-+A+Attr:^WG%> # ;
++A+Attr:^WG%> ENDLEX ;
 +A: A_IETJAA_s2 ; 
 
 LEXICON A_IETJAA_s2 
@@ -343,7 +343,7 @@ LEXICON A_IETJAA_s2
 
 
 LEXICON A_DUALLBAT ! duallba/duallbat/duallbada/?duallbadup/?duallbadumus/?-bmusa
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_DUALLBAT_s2 ; 
 
 LEXICON A_DUALLBAT_s2 
@@ -354,7 +354,7 @@ LEXICON A_DUALLBAT_s2
 
 
 LEXICON A_ELULATJ ! elulatj/elulatj/elulatja/??elulatjap/??elulatjamus-a
-+A+Attr:tj%> # ;
++A+Attr:tj%> ENDLEX ;
 +A: A_ELULATJ_s2 ; 
 
 LEXICON A_ELULATJ_s2 
@@ -368,7 +368,7 @@ LEXICON A_ELULATJ_s2
 
 
 LEXICON A_IEDNAK ! iedna/iednak/iednaga/ienap/ienamus-a
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_IEDNAK_s2 ; 
 
 LEXICON A_IEDNAK_s2 
@@ -381,13 +381,13 @@ LEXICON A_IEDNAK_s2
 
 
 LEXICON A_NAGAN ! nagan/nagan/nagana etc. (no COMP/SUPERL)
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A+Sg+Nom:%> K ;
 +A: N_ODD_X ; 
 
 
 LEXICON A_GIENES ! gienes/gienes/gädnása/?/?
-+A+Attr:s^WG%> # ;
++A+Attr:s^WG%> ENDLEX ;
 +A: A_GIENES_s2 ; 
 
 LEXICON A_GIENES_s2 
@@ -398,7 +398,7 @@ LEXICON A_GIENES_s2
 
 
 LEXICON A_GÅJKES ! gåjjke/gåjkes/gåjjkása/gåjjkáp/gåjjkájmus-
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A: A_GÅJKES_s2 ; 
 
 LEXICON A_GÅJKES_s2 
@@ -417,12 +417,12 @@ LEXICON A_KUORA_s2
 +Superl:^WG A_ODD_jSUP_V2E2AA ;
 
 LEXICON A_VAASSE ! vásse, färrta, jåhteje (only ATTR, no PRED-forms!)
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 !not sure about Comp/Superl !árra -> árajmus
 
 
 LEXICON A_UMASSE ! umas/umasºse/umasse 'all kinds of' 
-+A+Attr:%> # ;
++A+Attr:%> ENDLEX ;
 +A:ºs A_UMASSE_s2 ; 
 
 LEXICON A_UMASSE_s2 
@@ -434,7 +434,7 @@ LEXICON A_UMASSE_s2
 !+Superl: A_ODD_jSUP_V2E2AA ;
 
 LEXICON A_JUHKE !juges/juhke/juhke ??
-+A+Attr:^WG%>s # ;
++A+Attr:^WG%>s ENDLEX ;
 +A: A_JUHKE_s2 ; 
 
 LEXICON A_JUHKE_s2 
@@ -445,7 +445,7 @@ LEXICON A_JUHKE_s2
 
 
 LEXICON A_SJAEVDNJET ! sjevdnjis/sjävdnjet/sjävdnjeda/sjävdnjedup/sjävdnjemus- !unexpected forms, but evidence from wordlist
-+A+Attr:^IJ%>s # ;
++A+Attr:^IJ%>s ENDLEX ;
 +A: A_SJAEVDNJET_s2 ; 
 
 LEXICON A_SJAEVDNJET_s2 
@@ -472,15 +472,15 @@ LEXICON A_ODD_COMP_V2E2AA
 :%>^V2E2AAb2 A_EVEN_COMP_s2 ;
 
 LEXICON A_ODD_COMP_s2 
-+Attr: # ;
-+Sg+Nom: # ;
-!+Pl+Nom:%>a # ;
++Attr: ENDLEX ;
++Sg+Nom: ENDLEX ;
+!+Pl+Nom:%>a ENDLEX ;
 :%> N_ODD_X ;
 
 LEXICON A_ODD_COMP_a_s2 
-+Attr: # ;
-+Sg+Nom: # ;
-!+Pl+Nom:%>u # ;
++Attr: ENDLEX ;
++Sg+Nom: ENDLEX ;
+!+Pl+Nom:%>u ENDLEX ;
 :%> N_ODD_X_adjCompU ;
 
 !if odd-syllabled wordform COMP-ATTR, then -up in ATTR, SG.NOM, -uba/-ubo in PL.NOM (seemingly random for PL.NOM)
@@ -488,8 +488,8 @@ LEXICON A_EVEN_COMP
 :u%>b2 A_EVEN_COMP_s2 ;
 
 LEXICON A_EVEN_COMP_s2 
-+Attr: # ;
-+Sg+Nom: # ;
++Attr: ENDLEX ;
++Sg+Nom: ENDLEX ;
 +Pl+Nom:%> N_ODD_X ;
 +Pl+Nom+Use/NG:%> N_ODD_X_adjCompU ;
 
@@ -508,10 +508,10 @@ LEXICON A_ODD_jSUP_V2E2AA
 :%>^V2E2AAjmus A_ODD_SUP_s2 ;
 
 LEXICON A_ODD_SUP_s2  
-+Attr: # ;
-+Sg+Nom: # ;
-+Sg+Ela:%>t # ; !ienamust (sje19210000a-lagercrantz1957a-427.016)
-+Pl+Nom:%>u # ;
++Attr: ENDLEX ;
++Sg+Nom: ENDLEX ;
++Sg+Ela:%>t ENDLEX ; !ienamust (sje19210000a-lagercrantz1957a-427.016)
++Pl+Nom:%>u ENDLEX ;
 
 
 !if odd-syllabled SUPERL-ATTR wordform, then -umos in ATTR, SG.NOM, -ubmusa in PL.NOM
@@ -519,9 +519,9 @@ LEXICON A_EVEN_SUP
 :%>ubmos A_EVEN_SUP_s2 ;
 
 LEXICON A_EVEN_SUP_s2 
-+Attr:^WG^V2O2U # ;
-+Sg+Nom:^WG^V2O2U # ;
-+Pl+Nom:^V2O2U%>a # ;
++Attr:^WG^V2O2U ENDLEX ;
++Sg+Nom:^WG^V2O2U ENDLEX ;
++Pl+Nom:^V2O2U%>a ENDLEX ;
 
 
 
