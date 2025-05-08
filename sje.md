@@ -91,10 +91,10 @@ All doc-comment documentation in one large file.
 * LEXICON IJ  
 
 * LEXICON IJPRS  
-* +Sg1:iv    # ;   
+* +Sg1:iv    K ;   
 
 * LEXICON IJPRT  
-* +Sg1:idtjiv    # ;   
+* +Sg1:idtjiv    K ;   
 
 * LEXICON IJIMP  
 
@@ -375,6 +375,8 @@ Other tags
 * +Use/NGminip  
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/PMatch** means that the following is only used in the analyser feeding the disambiguator
+* **+Use/-PMatch** Do not include in fst's made for hfst-pmatch
 
 ### Compounding tags
 
@@ -489,6 +491,8 @@ given the proper use of these flags.
 |  @U.Cap.Obl@  | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@  | Allowing downcasing of derived names: deatnulasj.
 
+The following flag diacritics are used to control case inflection of numbers:
+
 | Flag diacritic | Explanation
 | :------------- |:-----------
 | @U.number.one@ | Flag used to give arabic numerals in smj different cases ;
@@ -501,6 +505,14 @@ given the proper use of these flags.
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+The following flag diacritic look-alikes are used in hfst-pmatch/hfst-tokenise to properly
+handle (possibly) multitoken single strings.
+
+| Flag | Explanation
+| ---- | -----------
+|  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+|  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 # Key lexicon
 Lexicon Root starts the analyser and directs paths to all POS.

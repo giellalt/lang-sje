@@ -17,10 +17,10 @@
 * LEXICON IJ  
 
 * LEXICON IJPRS  
-* +Sg1:iv    # ;   
+* +Sg1:iv    K ;   
 
 * LEXICON IJPRT  
-* +Sg1:idtjiv    # ;   
+* +Sg1:idtjiv    K ;   
 
 * LEXICON IJIMP  
 
