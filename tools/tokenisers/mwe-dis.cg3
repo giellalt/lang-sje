@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "hfst-tokenise --gtd tokeniser-gramcheck-gt-desc.pmhfst | vislcg3 -g ../../src/cg3/valency.cg3" -*-
+# -*- cg-pre-pipe: "hfst-tokenise --gtd tokeniser-gramcheck-gt-desc.pmhfst" -*-
 
 SOFT-DELIMITERS = "<,>" ;
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
