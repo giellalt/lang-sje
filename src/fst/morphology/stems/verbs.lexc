@@ -36,8 +36,7 @@ LEXICON Verb   !!= * **@CODE@** is the main lexicon
 
 !! * V_CONTR: contracted stems (e.g. gullit -j-, tjerrut -j-)
 
-
-lä: LE "copula/auxiliary verb" ; !!= * @CODE@ 
+COPULA ; ! Redirected to get proper clitic handling of 'l
 ij: IJ "negation verb" ; !!= * @CODE@ 
 
 ! special case for gallgat -> gilgij
@@ -1870,3 +1869,6 @@ tjuadtjadit:tjuadtjad2 V_ODD_UA "remain standing" ; ! no. 5338
 tjuädtjelit:tju^Odtjel V_ODD_UA "get up, stand up" ; ! no. 4647
 giehpebut:giehpeb2 V_ODD_UT "make easier, simplify" ; ! no. 4821
 vierábut:vieráb2 V_ODD_UT "become worse, worsen" ; ! no. 5490
+
+LEXICON COPULA
+lä: LE "copula/auxiliary verb" ; !!= * @CODE@ 
