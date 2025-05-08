@@ -14,5 +14,5 @@
 
 
 LEXICON K
-!+Clt:#% 'l ENDLEX ;  
-ENDLEX ;
++Clt+Use/-PMatch#:#'l ENDLEX ;  
+     +Use/PMatch@P.Pmatch.Loc@:@P.Pmatch.Loc@ LE ;  
