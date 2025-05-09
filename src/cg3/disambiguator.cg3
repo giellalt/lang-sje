@@ -58,8 +58,6 @@ LIST EOS = (<<<) (</s>) (sent) ; # vislcg and CG-2 together.
 # Parts of speech
 # ---------------
 
-
-	
 LIST SENT = SENT ;
 LIST N = N ; 
 LIST A = A ; 
@@ -491,8 +489,8 @@ REMOVE:notImptWithFiniteV (V Imprt) IF ( *-1 VFIN BARRIER CLB );
 #prefer relative pronoun when preceded by NP
 SELECT:relProAfterNP (Pron Rel) IF (-1 N);
 #SELECT:interrProStartQ (Pron Interr) IF (-1 S-BOUNDARY);# LINK *1 ("\?"));
-#remove Pron Interr if not preceded by clause boundary:
-REMOVE:noInterProWOprecedingCB (Pron Interr) IF (NOT -1 CLB);
+#remove Pron Interr if not preceded by clause boundary or :
+REMOVE:noInterProWOprecedingCB (Pron Interr) IF (NOT -1 CLB OR CC);
 
 #choose adv analysis of man when directly preceding an adjective (eg. man vuoras = how old)
 SELECT:manAdvb4Adj (Adv "man") IF (1 A);
