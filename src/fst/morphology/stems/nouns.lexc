@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-09T14:02:33+03:00
+! Generated at: 2025-05-12T08:24:45+03:00
 
 !! # Pite Saami Nouns
 
@@ -1158,6 +1158,7 @@ snurrká:snurrká N_EVEN "grunting, grunt" ; ! no. 91335
 snurrta:snurrta N_EVEN "snarl where a fish was caught in a net" ; ! no. 3643
 snuähtte:snu^Ohtte N_EVEN "initial foliage in the spring" ; ! no. 4446
 snårre:snårre N_EVEN "tangle, mess, problem" ; ! no. 1706
+sovsähkka:sovsiehkka N_EVEN "sleeping bag" ; ! no. 91670
 spáhkke:spáhkke N_EVEN "unruly reindeer" ; ! no. 3638
 spárrá:spárrá N_EVEN "stick or pin for stretching hide to dry" ; ! no. 2885
 spávvte:spávvte N_EVEN "most lively mating season for reindeer" ; ! no. 1716
