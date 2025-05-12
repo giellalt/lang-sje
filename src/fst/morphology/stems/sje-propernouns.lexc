@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-12T08:11:26+03:00
+! Generated at: 2025-05-12T14:19:29+03:00
 
 !! # Pite Saami ProperNouns
 
@@ -76,6 +76,7 @@ Lässe:Liesºse N_EVEN "Lars" ; ! no. 6035
 Mávasjávvre:Mávas#jávvre N_EVEN "Lake Mavas" ; ! no. 90938
 Märrgit+Use/NG:Mä2rrgi N_EVEN "Margareta" ; ! no. 90886
 Njassja:Njassja N_EVEN "Njassja" ; ! no. 6523
+Norrabergnäsa:Norrabergnä2sa N_EVEN "Norra Bergnäs" ; ! no. 91674
 Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
 Rájjavárre:Rájja#várre N_EVEN "Rájjavárre" ; ! no. 91132
@@ -145,20 +146,25 @@ Elsa:Elsa N_NAME_noInfl_V "Elsa" ; ! no. 91026
 Elsy:Elsy N_NAME_noInfl_V "Elsy" ; ! no. 91464
 Hännda:Hiennda N_NAME_noInfl_V "Henrick" ; ! no. 91496
 ICA:ICA N_NAME_noInfl_V "ICA" ; ! no. 91476
+Kjälla:Kjä2lla N_NAME_noInfl_V "Kjell" ; ! no. 91678
 Margareta:Margareta N_NAME_noInfl_V "Margareta" ; ! no. 91185
 Maria:Maria N_NAME_noInfl_V "Maria" ; ! no. 91128
 Signe:Signe N_NAME_noInfl_V "Signe" ; ! no. 91634
 Tage:Tage N_NAME_noInfl_V "Tage" ; ! no. 91659
 Tora:Tora N_NAME_noInfl_V "Tora" ; ! no. 91660
+Valle:Valle N_NAME_noInfl_V "Valle" ; ! no. 91675
 Alits:Alits N_ODD "Alits" ; ! no. 91327
+Astor:Astor N_ODD "Astor" ; ! no. 91676
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
 Árjepluovek+Use/NG:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 91249
 Árjepluovek:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 4609
 Bávval:Bávval N_ODD "Paul" ; ! no. 4637
 Bidám:Bidám N_ODD "Piteå" ; ! no. 167
 Bierok:Bierog2 N_ODD "Per" ; ! no. 90885
+Birgit:Birgid2 N_ODD "Birgit" ; ! no. 91677
 Bidám+Use/NG:Bisum N_ODD "Piteå" ; ! no. 90771
 Dävit:Dä2vid2 N_ODD "David" ; ! no. 91306
+Giddun:Giddun N_ODD "Gitton" ; ! no. 91673
 Halvar:Halvar N_ODD "Halvar" ; ! no. 91286
 Jesus:Jesus N_ODD "Jesus" ; ! no. 91472
 Jubmel:Jubmel N_ODD "God" ; ! no. 928
