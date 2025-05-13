@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-12T08:24:45+03:00
+! Generated at: 2025-05-13T19:05:11+03:00
 
 !! # Pite Saami Nouns
 
@@ -1108,6 +1108,7 @@ skruvvta:skruvvta N_EVEN "scrap, rubbish" ; ! no. 5748
 skråvvá:skråvvá N_EVEN "muzzle, gag" ; ! no. 3632
 skuallká:sku^Ollká N_EVEN "piece of wood used to make firewood chips" ; ! no. 2945
 skuhppa:skuhppa N_EVEN "scraper (for scraping out the white inside bark of a fir tree)" ; ! no. 6583
+skuhterväddja:skuhter#vieddja N_EVEN "snowmobile trail" ; ! no. 91683
 skuollá:sku^Ollá N_EVEN "sound, ring" ; ! no. 5210
 skurrki:skurrki N_EVEN "villain" ; ! no. 78
 skåvvlå+Use/NG:skuvvli N_EVEN "school" ; ! no. 91215

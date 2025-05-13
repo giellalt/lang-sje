@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-12T19:58:10+03:00
+! Generated at: 2025-05-13T19:33:52+03:00
 
 !! # Pite Saami ProperNouns
 
@@ -98,6 +98,7 @@ Stuornjárrga:Stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
 Sulitälbma:Sulitielbma N_EVEN "Sulitelma" ; ! no. 90942
 Sverdji:Sverdji N_EVEN "Sweden" ; ! no. 1799
 Såbmá:Såbmá N_EVEN "Finland" ; ! no. 1760
+Tjivvli:Tjivvli N_EVEN "Övernäs" ; ! no. 91682
 Tjuajjvá:Tju^Ojjvá N_EVEN "Tjuojvvá" ; ! no. 91681
 Tjuvtasvuodna:Tjuvtas#vu^Odna N_EVEN "Tysfjord" ; ! no. 4017
 Varsjajåhkå:Varsja#jåhkå N_EVEN "Varsjajokk" ; ! no. 91122
@@ -105,6 +106,7 @@ Vávvka:Vávvka N_EVEN "Vaukagården" ; ! no. 2100
 Vuallda:Vu^Ollda N_EVEN "Vuolda" ; ! no. 91172
 Vuodna:Vu^Odna N_EVEN "Norway" ; ! no. 2157
 Vuonatjluakkta:Vuonatj#lu^Okkta N_EVEN "Vuonatjviken" ; ! no. 90710
+Ånäsa:Ånä2sa N_EVEN "Ånäset" ; ! no. 91684
 Åvvlá:Åvvlá N_EVEN "Ola" ; ! no. 91127
 Änntse:Ienntse N_EVEN "Änntse" ; ! no. 90872
 Tjäggelvas:Tjä2ggelv N_EVEN4_ASA "Tjieggelvas" ; ! no. 90699
