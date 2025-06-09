@@ -266,7 +266,7 @@ SET PRE-NP-HEAD = (Prop @>N) OR AttrAPpossible OR (ABBR Attr) OR (Pron Pers Gen)
          (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (A Sg) OR (A Pl) ;
 SET NOT-NPMOD = WORD - PRE-NP-HEAD OR ABBR ; #not NP modifier (used as barrier)
 
-LIST NoNP = VFIN CC Interj Pcle \? ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok, and sometimes CCs!)
+SET NoNP = VFIN OR CC OR Interj OR Pcle ; #NoNP = not possibly anywhere in NP (but some verb forms (participles) are ok, and sometimes CCs!)
 
 SET NPpossible = NP-HEAD OR PRE-NP-HEAD ; #possible anywhere in an NP
 SET NPpossibleNoPro = N OR PRE-NP-HEAD ; #possible anywhere in an NP excluding personal pronouns not in GEN (full NPs)
