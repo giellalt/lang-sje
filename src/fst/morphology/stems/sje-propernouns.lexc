@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-13T19:33:52+03:00
+! Generated at: 2025-06-19T19:01:52+02:00
 
 !! # Pite Saami ProperNouns
 
@@ -158,6 +158,7 @@ Signe:Signe N_NAME_noInfl_V "Signe" ; ! no. 91634
 Tage:Tage N_NAME_noInfl_V "Tage" ; ! no. 91659
 Tora:Tora N_NAME_noInfl_V "Tora" ; ! no. 91660
 Valle:Valle N_NAME_noInfl_V "Valle" ; ! no. 91675
+Alek:Aleg2 N_ODD "Alek" ; ! no. 91692
 Alits:Alits N_ODD "Alits" ; ! no. 91327
 Astor:Astor N_ODD "Astor" ; ! no. 91676
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
