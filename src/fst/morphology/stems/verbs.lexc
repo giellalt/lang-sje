@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-13T19:43:24+03:00
+! Generated at: 2025-06-19T09:29:12+02:00
 
 !! # Pite Saami Verbs
 
@@ -1595,6 +1595,7 @@ sáredit:sáred2 V_ODD "separate tendon thread" ; ! no. 1509
 sárjestit:sárjest V_ODD "hurt, ache" ; ! no. 1514
 sátsastit:sátsast V_ODD "carve quickly" ; ! no. 4495
 sávadit:sávad2 V_ODD "wish, hope" ; ! no. 91554
+sidardit:sidard2 V_ODD "sprinkle, drizzle; take a shower" ; ! no. 91686
 siddardit:siddard2 V_ODD "start to rain a little bit" ; ! no. 1535
 siebdatjit:siebdatj V_ODD "attract an animal with feed, bait" ; ! no. 3661
 siegodit:siegod2 V_ODD "mix in more" ; ! no. 4141

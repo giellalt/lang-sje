@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-13T19:05:11+03:00
+! Generated at: 2025-06-19T09:29:31+02:00
 
 !! # Pite Saami Nouns
 
@@ -1303,6 +1303,7 @@ tjitjáddjá:tjitj#áddjá N_EVEN "maternal grandfather" ; ! no. 2895
 tjitjáhkká:tjitj#áhkká N_EVEN "maternal grandmother" ; ! no. 2894
 tjitjáddjá+Use/NG:tjitj#ájºjá N_EVEN "maternal grandfather" ; ! no. 90932
 tjivvda:tjivvda N_EVEN "smell and taste of reindeer in rut" ; ! no. 4413
+tjivvga:tjivvga N_EVEN "baby animal" ; ! no. 91691
 tjivvle:tjivvle N_EVEN "floater, bobber" ; ! no. 1981
 tjuajjka:tju^Ojjka N_EVEN "mosquito" ; ! no. 1912
 tjualbma:tju^Olbma N_EVEN "knot" ; ! no. 4540
@@ -1324,7 +1325,7 @@ tjuttka:tjuttka N_EVEN "reindeer doe which does not allow her newborn calf to nu
 tjuvvde:tjuvvde N_EVEN "finger" ; ! no. 1948
 tjuvvdegiehtje:tjuvvde#giehtje N_EVEN "fingertip" ; ! no. 5344
 tjuvvdesadje:tjuvvde#sadje N_EVEN "fingerprint" ; ! no. 5345
-tjuvvga:tjuvvga N_EVEN "baby animal" ; ! no. 3775
+tjivvga+Use/NG:tjuvvga N_EVEN "baby animal" ; ! no. 3775
 tjuäjjge:tju^Ojjge N_EVEN "skier" ; ! no. 1951
 tjuäkkte:tju^Okkte N_EVEN "dog bowl" ; ! no. 1952
 tjåbbme:tjåbbme N_EVEN "bump, swollen place (on a body)" ; ! no. 90331
@@ -1569,7 +1570,9 @@ tjuoladak:tju^Oladag2 N_EVEN4 "timber cutting area" ; ! no. 1933
 tsaskadak:tsaskadag2 N_EVEN4 "spring snow which neither holds one up nor breaks" ; ! no. 3195
 urudahka+Use/NG:urudag2 N_EVEN4 "settlement, camp" ; ! no. 3341
 vaddáldak:vaddáldag2 N_EVEN4 "talent, skill, gift" ; ! no. 3105
+varrodak:varrodag2 N_EVEN4 "greeting" ; ! no. 91687
 vierdádak:vierdádag2 N_EVEN4 "clear-cut area" ; ! no. 2121
+varrodak+Use/NG:virrudag2 N_EVEN4 "greeting" ; ! no. 91688
 vuohtadak:vu^Ohtadag2 N_EVEN4 "snow with tracks in it" ; ! no. 2703
 vuojŋadak:vu^Ojŋadag2 N_EVEN4 "breathing" ; ! no. 3101
 vuojŋastak:vu^Ojŋastag2 N_EVEN4 "breath, breathing" ; ! no. 2171
@@ -1899,7 +1902,7 @@ gijjto:gijjto N_EVEN_O "thanks" ; ! no. 626
 girrko:girrko N_EVEN_O "church" ; ! no. 640
 girrkobällo:girrko#bielºlo N_EVEN_O "church bell" ; ! no. 5223
 gissto:gissto N_EVEN_O "box, chest" ; ! no. 644
-kryhtto+Use/NG:gruvvdo N_EVEN_O "pot, pan" ; ! no. 91202
+kruvvto+Use/NG:gruvvdo N_EVEN_O "pot, pan" ; ! no. 91202
 gualldo:gu^Olldo N_EVEN_O "snow flurry" ; ! no. 649
 guavvlo:gu^Ovvlo N_EVEN_O "area" ; ! no. 90213
 gåddebivvdo:gådde#bivvdo N_EVEN_O "hunt for wild reindeer" ; ! no. 5697
@@ -1941,7 +1944,7 @@ jålåsájjdo:jålås#ájjdo N_EVEN_O "reindeer trail, compacted reindeer trail"
 jålåsláhtto:jålås#láhtto N_EVEN_O "track, fresh track in the snow" ; ! no. 954
 jåvvlåbäbbmo:jåvvlå#biebbmo N_EVEN_O "Christmas food" ; ! no. 90856
 jåvvlåmánno:jåvvlå#mánno N_EVEN_O "December" ; ! no. 964
-kryhtto:kryhtto N_EVEN_O "pot, pan" ; ! no. 3752
+kruvvto:kruhtto N_EVEN_O "pot, pan" ; ! no. 3752
 láhppo:láhppo N_EVEN_O "beard lichen" ; ! no. 1668
 láhtto:láhtto N_EVEN_O "ski track" ; ! no. 6549
 lájjdo:lájjdo N_EVEN_O "stretch, distance, course, journey" ; ! no. 91535

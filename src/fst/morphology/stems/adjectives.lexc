@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-05-04T19:19:24+03:00
+! Generated at: 2025-06-19T09:29:04+02:00
 
 !! # Pite Saami Adjectives
 
@@ -26,9 +26,6 @@ smávve+Use/NG+A+Attr:smáv # "small, little" ; ! no. 91419
 
 ! adjective classes are named after a prototypical adjective
 
-guhkke+Use/NG+A+Attr:guhka # "long" ; ! no. 90547
-jallgat+Use/NG+A+Attr:jallga # "even, level, flat" ; ! no. 90798
-jårrbås+Use/NG+A+Attr:jårrbå # "round, undivided" ; ! no. 90857
 sällde+Use/NG+A+Attr:sälldes # "terrible, huge, enormous" ; ! no. 91111
 ájdna:ájdna A_AAJDNA "only, only one" ; ! no. 21
 mådde:mådde A_AAJDNA "several" ; ! no. 1196
@@ -60,6 +57,7 @@ fábmogis:fábmog A_ASEDIS "strong, powerful" ; ! no. 90812
 suddogis:suddog A_ASEDIS "sinful" ; ! no. 6070
 tjerrulis:tjerrul A_ASEDIS "whimpering (for children)" ; ! no. 5213
 unogis:unog A_ASEDIS "strange, unusual, odd" ; ! no. 2033
+vienagis:vienag A_ASEDIS "friendly" ; ! no. 91690
 vuällegis:vu^Olºleg A_ASEDIS "low, humble" ; ! no. 4796
 báhkas:báhkka A_BAAHKAS "warm, hot" ; ! no. 105
 garras:garºra A_BAAHKAS "hard" ; ! no. 90186
@@ -226,6 +224,9 @@ vuojnodibme:vuojnod A_xDIBME "invisible" ; ! no. 91520
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 åjvedibme:åjved A_xDIBME "headless; dumb" ; ! no. 91140
 ådne:ådne A_ÅNEGIS "short" ; ! no. 2235
+guhkke+Use/NG+A+Attr:guhka K "long" ; ! no. 90547
+jallgat+Use/NG+A+Attr:jallga K "even, level, flat" ; ! no. 90798
+jårrbås+Use/NG+A+Attr:jårrbå K "round, undivided" ; ! no. 90857
 
 
 ! ! remaining original lemmas from A-C and Trond, still need verification/incorporation:
