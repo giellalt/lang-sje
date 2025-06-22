@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-06-19T09:29:31+02:00
+! Generated at: 2025-06-22T12:35:26+01:00
 
 !! # Pite Saami Nouns
 
@@ -1874,7 +1874,7 @@ duabbmo:du^Obbmo N_EVEN_O "verdict, judgment, sentence" ; ! no. 3897
 duddno:duddno N_EVEN_O "barrel, cask" ; ! no. 383
 dåbbdo:dåbbdo N_EVEN_O "familiarity; feeling, intuition" ; ! no. 91354
 dårrjo:dårrjo N_EVEN_O "support" ; ! no. 4732
-dårro:dårro N_EVEN_O "fight" ; ! no. 3996
+dårro:dårro N_EVEN_O "fight, battle, war" ; ! no. 3996
 dårrvo:dårrvo N_EVEN_O "safety, reliance" ; ! no. 5863
 däjjvo:diejjvo N_EVEN_O "cheese mold made of roots" ; ! no. 436
 fábmo:fábmo N_EVEN_O "power, strength" ; ! no. 462
@@ -2117,6 +2117,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åsstobäbbmo:åssto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
 hällsosentrálá:hällso#sentrálá N_NAME_noInfl_V "health center; hospital" ; ! no. 91477
+rádio:rádio N_NAME_noInfl_V "radio" ; ! no. 91694
 aktamaddak:akta#maddag2 N_ODD "same size" ; ! no. 90684
 allasjidduk:alla#sjiddug2 N_ODD "tall things or person" ; ! no. 3335
 almatj:almatj N_ODD "human, person" ; ! no. 54
