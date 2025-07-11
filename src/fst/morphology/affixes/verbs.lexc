@@ -400,40 +400,45 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prs+Sg1:a%>v ENDLEX ;
 +V+Ind+Prs+Sg2:a%> ENDLEX ;
 +V+Ind+Prs+Sg3:a%> ENDLEX ;
-+V+Ind+Prs+Sg3+Use/NG:%> ENDLEX ; !ságast, usjut
++V+Ind+Prs+Sg3+Use/NG:%> ENDLEX ; !ságast, usjut, ádján
 +V+Ind+Prs+Du1:i%>n ENDLEX ; 
 +V+Ind+Prs+Du2:ä%>hppen ENDLEX ;
 +V+Ind+Prs+Du3:e%>ba ENDLEX ;
 +V+Ind+Prs+Pl1:i%>p ENDLEX ;
-+V+Ind+Prs+Pl2:e%>hppit ENDLEX ;
++V+Ind+Prs+Pl2:i%>hpit ENDLEX ;
 +V+Ind+Prs+Pl3:i%> ENDLEX ; 
 
 +V+Ind+Prt+Sg1:i%>v ENDLEX ; 
 +V+Ind+Prt+Sg2:i%> ENDLEX ; 
 +V+Ind+Prt+Sg3:i%>j ENDLEX ;
 +V+Ind+Prt+Du1:i%>jmen ENDLEX ;
++V+Ind+Prt+Du1+Use/NG:i%>jme ENDLEX ;
 +V+Ind+Prt+Du2:i%>jden ENDLEX ;
-+V+Ind+Prt+Du3:i%>jga ENDLEX ;
++V+Ind+Prt+Du2+Use/NG:i%>jde ENDLEX ;
++V+Ind+Prt+Du3:i%>jgan ENDLEX ;
++V+Ind+Prt+Du3+Use/NG:i%>jga ENDLEX ;
 +V+Ind+Prt+Pl1:i%>jme ENDLEX ;
 +V+Ind+Prt+Pl2:i%>jde ENDLEX ;
 +V+Ind+Prt+Pl3:i%>n ENDLEX ; 
 
 +V+Imprt+Sg2:e%> ENDLEX ; 
-+V+Imprt+Sg2+Use/NG:ä%> ENDLEX ; 
-+V+Imprt+Sg2+Use/NG:i%> ENDLEX ; 
-+V+Imprt+Du2:e%>hten ENDLEX ; 
-+V+Imprt+Pl2:i%>httit ENDLEX ;
++V+Imprt+Sg2+Use/NG:%> ENDLEX ; 
++V+Imprt+Du2:ä%>htten ENDLEX ; 
++V+Imprt+Pl2:i%>htit ENDLEX ;
 
 +V+Inf:i%>t ENDLEX ; 
-+V+GerII:i%>men ENDLEX ;
-+V+PrfPrc:a%>m ENDLEX ;
 +V+ConNeg:e%> ENDLEX ; 
-+V+PrsPrc:ä%>ddje ENDLEX ; 
-+V+Vsubst:i%> V_SUBST_ODD_s2 ; 
-!+V+GerI:a%>din ENDLEX ;  
++V+PrfPrc:a%>m ENDLEX ;
++V+GerII:i%>men ENDLEX ;
++V+GerII+Use/NG:i%>me ENDLEX ;
++V+GerI:i%>n ENDLEX ;
++V+GerI+Use/NG:i%>ddin ENDLEX ;
 !+V+Sup:a%>tjit ENDLEX ; ! even Lehtiranta's paradigm 1992:153 doesn't have this
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-!+Der/VAdv+Adv:%>n ENDLEX ; !
++VGen:i%>n ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
++VGen+Use/NG:a%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
++V+PrsPrc:ä%>jje ENDLEX ; 
++V+PrsPrc+Use/NG:ä%>ddje ENDLEX ; 
++V+Vsubst:i%> V_SUBST_ODD_s2 ; 
 
 +V+Pot:a%>tj V_ODD_POT ;
 
@@ -451,34 +456,40 @@ LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes s
 +V+Ind+Prs+Du2:ä%>hppen ENDLEX ;
 +V+Ind+Prs+Du3:e%>ba ENDLEX ;
 +V+Ind+Prs+Pl1:i%>p ENDLEX ;
-+V+Ind+Prs+Pl2:i%>hppit ENDLEX ;
++V+Ind+Prs+Pl2:i%>hpit ENDLEX ;
 +V+Ind+Prs+Pl3:i%> ENDLEX ; 
 
 +V+Ind+Prt+Sg1:i%>v ENDLEX ; 
 +V+Ind+Prt+Sg2:i%> ENDLEX ; 
 +V+Ind+Prt+Sg3:i%>j ENDLEX ;
 +V+Ind+Prt+Du1:i%>jmen ENDLEX ;
++V+Ind+Prt+Du1+Use/NG:i%>jme ENDLEX ;
 +V+Ind+Prt+Du2:i%>jden ENDLEX ;
-+V+Ind+Prt+Du3:i%>jga ENDLEX ;
++V+Ind+Prt+Du2+Use/NG:i%>jde ENDLEX ;
++V+Ind+Prt+Du3:i%>jgan ENDLEX ;
++V+Ind+Prt+Du3+Use/NG:i%>jga ENDLEX ;
 +V+Ind+Prt+Pl1:i%>jme ENDLEX ;
 +V+Ind+Prt+Pl2:i%>jde ENDLEX ;
 +V+Ind+Prt+Pl3:i%>n ENDLEX ; 
 
 +V+Imprt+Sg2:e%> ENDLEX ; 
-+V+Imprt+Du2:e%>hten ENDLEX ; 
-+V+Imprt+Pl2:i%>httit ENDLEX ;
++V+Imprt+Du2:ä%>htten ENDLEX ; 
++V+Imprt+Pl2:i%>htit ENDLEX ;
+
 
 +V+Inf:u%>t ENDLEX ; 
-+V+GerII:i%>men ENDLEX ;
-+V+PrfPrc:u%>m ENDLEX ;
 +V+ConNeg:e%> ENDLEX ; 
-+V+PrsPrc:ä%>ddje ENDLEX ; 
++V+PrfPrc:a%>m ENDLEX ;
++V+GerII:i%>men ENDLEX ;
++V+GerII+Use/NG:i%>me ENDLEX ;
++V+GerI:a%>n ENDLEX ;
++V+GerI+Use/NG:a%>ddin ENDLEX ;
+!+V+Sup:a%>tjit ENDLEX ; ! even Lehtiranta's paradigm 1992:153 doesn't have this
+!+VGen:u%>n ENDLEX ; !not sure about vowel
+!+VGen+Use/NG:u%> ENDLEX ; !not sure about vowel
++V+PrsPrc:ä%>jje ENDLEX ; 
++V+PrsPrc+Use/NG:ä%>ddje ENDLEX ; 
 +V+Vsubst:u%> V_SUBST_ODD_s2 ; 
-!+V+GerI:a%>din ENDLEX ;  
-!+V+Sup:a%>tjit ENDLEX ;
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-!+Der/VAdv+Adv:%>n ENDLEX ; !
-
 
 
 !V_ODD POT forms -- check!
@@ -507,40 +518,42 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prs+Sg1:%>v ENDLEX ;
 +V+Ind+Prs+Sg2:%> ENDLEX ;
 +V+Ind+Prs+Sg3:%>ja ENDLEX ;
++V+Ind+Prs+Sg3+Use/NG:%>j ENDLEX ;
 +V+Ind+Prs+Du1:%>jin ENDLEX ; 
-+V+Ind+Prs+Du2:%>bähttin ENDLEX ;
++V+Ind+Prs+Du2:%>bähtten ENDLEX ;
 +V+Ind+Prs+Du3:%>ba ENDLEX ;
 +V+Ind+Prs+Pl1:%>p ENDLEX ;
-+V+Ind+Prs+Pl2:%>bihttit ENDLEX ;
++V+Ind+Prs+Pl2:%>bihtit ENDLEX ;
 +V+Ind+Prs+Pl3:%>ji ENDLEX ; 
 
 +V+Ind+Prt+Sg1:%>jiv ENDLEX ; 
 +V+Ind+Prt+Sg2:%>ji ENDLEX ; 
-+V+Ind+Prt+Sg3:%>j ENDLEX ;
-+V+Ind+Prt+Sg3+Use/NG:%>jij ENDLEX ;
-+V+Ind+Prt+Du1:%>jmin ENDLEX ;
-+V+Ind+Prt+Du2:%>jdin ENDLEX ;
-+V+Ind+Prt+Du3:%>j 3DUPRT ;
++V+Ind+Prt+Sg3:%>ji ENDLEX ;
++V+Ind+Prt+Du1:%>jmen ENDLEX ;
++V+Ind+Prt+Du1+Use/NG:%>jme ENDLEX ;
++V+Ind+Prt+Du2:%>jden ENDLEX ;
++V+Ind+Prt+Du2+Use/NG:%>jde ENDLEX ;
++V+Ind+Prt+Du3:%>jgan ENDLEX ;
++V+Ind+Prt+Du3+Use/NG:%>jga ENDLEX ;
 +V+Ind+Prt+Pl1:%>jme ENDLEX ;
 +V+Ind+Prt+Pl2:%>jde ENDLEX ;
-+V+Ind+Prt+Pl1+Use/NG:%>jmä ENDLEX ;
-+V+Ind+Prt+Pl2+Use/NG:%>jdä ENDLEX ;
 +V+Ind+Prt+Pl3:%>jin ENDLEX ; 
 
 +V+Imprt+Sg2:%> ENDLEX ; 
-!+V+Imprt+Du2:%>hten ENDLEX ; 
-!+V+Imprt+Pl2:%>httit ENDLEX ;
++V+Imprt+Du2:%>jähtten ENDLEX ; 
++V+Imprt+Pl2:%>jihtit ENDLEX ;
 
 +V+Inf:%>t ENDLEX ; 
-+V+GerII:%>min ENDLEX ;
-+V+PrfPrc:%>m ENDLEX ;
 +V+ConNeg:%> ENDLEX ; 
-+V+PrsPrc:%>jäddje ENDLEX ; 
-+V+Vsubst:%>m V_SUBST_EVEN_s2 ; !cf. sujjtim (sje19360100a.001)
-!+V+GerI:%>din ENDLEX ;  
++V+PrfPrc:%>m ENDLEX ;
++V+GerII:%>min ENDLEX ;
++V+GerI:%>din ENDLEX ;  
 +V+Sup:%>tjit ENDLEX ;
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-!+Der/VAdv+Adv:%>n ENDLEX ; !
++VGen:%>n ENDLEX ;
++VGen+Use/NG:%> ENDLEX ;
++V+PrsPrc:%>jäjje ENDLEX ; 
++V+PrsPrc+Use/NG:%>jäddje ENDLEX ; 
++V+Vsubst:%>m V_SUBST_EVEN_s2 ; !cf. sujjtim (sje19360100a.001)
 
 !V_CONTR POT forms -- check!
 +V+Pot:%>tj V_CONTR_POT ;
@@ -568,99 +581,86 @@ LEXICON V_CONTR_UVVUT ! variation in derived (passive) stems -uvºvut (~uvvat)
 !! # Auxiliaries
 
 LEXICON COPULA !
-lä: LE "copula/auxiliary verb" ; !!= * @CODE@ 
+lä+V: LE "copula/auxiliary verb" ; !!= * @CODE@ 
 
 LEXICON LE !!= * @CODE@ 
-+V+Ind+Prs: LEPRS ; 
-+V+Ind+Prt: LEPRT ; 
-+V+Ind+Pot: LEPOT ;
-+V+PrfPrc:lam K ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
-+V+Inf:årrot K ; !infinitive
-+V+ConNeg:lä K ; !connegative
++Ind+Prs: LEPRS ; 
++Ind+Prt: LEPRT ; 
++Ind+Imprt: LEIMP ; 
++Ind+Pot: LEPOT ;
+
++Inf:årro%>t ENDLEX ; !infinitive
++ConNeg:lä ENDLEX ; !connegative
++PrfPrc:urru%>m ENDLEX ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
++PrfPrc:lam ENDLEX ; ! lä (conneg) + *am (prfprc allomorph of *lä*)
+
++V+GerII:årro%>min ENDLEX ;
++V+GerI:åro%>din ENDLEX ;  
++V+Sup:åro%>tjit ENDLEX ;
+!+VGen: ENDLEX ; ! doesn't exist
++V+PrsPrc:årro%>j ENDLEX ; 
++V+PrsPrc+Use/NG:%>årro%> ENDLEX ; 
++V+Vsubst:årro%>m V_SUBST_EVEN_s2 ; !cf. sujjtim (sje19360100a.001)
+
+
+
+
 
 LEXICON LEPRS !!= * @CODE@ 
 +Sg1:läv ENDLEX ; 
-+Sg1+Use/NG:lev ENDLEX ; 
++Sg1+Use/NG:liv ENDLEX ; 
 +Sg2:lä ENDLEX ;  
-+Sg2+Use/NG:le ENDLEX ;  
 +Sg2:'l ENDLEX ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
 +Sg3:lä ENDLEX ; 
 +Sg3:'l ENDLEX ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
-!+Sg3:le ENDLEX ; 
 +Du1:lin ENDLEX ; 
-!+Du1:len ENDLEX ; 
-+Du2:lihpen ENDLEX ; 
 +Du2:lähppen ENDLEX ;  
-+Du3:läba ENDLEX ; 
-+Du3+Use/NG:läbá ENDLEX ; 
++Du3:läban ENDLEX ; 
++Du3+Use/NG:läba ENDLEX ; 
 +Pl1:läp ENDLEX ; 
-+Pl1:lip ENDLEX ; 
-!+Pl1:lep ENDLEX ; 
++Pl1+Use/NG:lip ENDLEX ; 
 +Pl2:lihpit ENDLEX ; 
-+Pl2:lehpit ENDLEX ; 
 +Pl3:lä ENDLEX ;
-+Pl3:l ENDLEX ; !enclitic (only attaches to vowel-final preceding word)
++Pl3:'l ENDLEX ; !enclitic (only attaches to vowel-final preceding word)
 
 LEXICON LEPRT !!= * @CODE@ 
-+Sg1:lijjiv    ENDLEX ; 
-+Sg1:lidjiv    ENDLEX ;  
-+Sg1:liv    ENDLEX ;  
-+Sg2:lijji    ENDLEX ; 
-+Sg2:lidji    ENDLEX ;  
-+Sg3:lij    ENDLEX ; 
++Sg1:liv ENDLEX ;  
++Sg1+Use/NG:lijjiv ENDLEX ; 
++Sg1+Use/NG:lidjiv ENDLEX ;  
++Sg2:li ENDLEX ; 
++Sg2+Use/NG:lijji ENDLEX ; 
++Sg2+Use/NG:lidji ENDLEX ;  
++Sg3:lij ENDLEX ; 
 +Du1:lijmen ENDLEX ; 
-+Du1:liejme ENDLEX ; 
++Du1+Use/NG:lijme ENDLEX ; 
 +Du2:lijden ENDLEX ;
-+Du2:liejde ENDLEX ; 
-+Du3:lij 3DUPRT ;
-+Du3:liej 3DUPRT ; 
++Du2+Use/NG:lijde ENDLEX ;
++Du3:lijgan ENDLEX ;
++Du3+Use/NG:lijga ENDLEX ; 
 +Pl1:lijme ENDLEX ; 
-+Pl1:liejme ENDLEX ; 
 +Pl2:lijde ENDLEX ;
-+Pl2:liejde ENDLEX ; 
-+Pl3:lidjin    ENDLEX ;  
-+Pl3:lijjin    ENDLEX ; 
-+Pl3:lin    ENDLEX ; 
++Pl3:lin ENDLEX ; 
++Pl3+Use/NG:lijjin ENDLEX ; 
++Pl3+Use/NG:lidjin ENDLEX ;  
+
+LEXICON LEIMP !!= * @CODE@ 
++Sg2:åro ENDLEX;
++Du2:årro%>n ENDLEX;
++Pl2:urru%>t ENDLEX;
 
 LEXICON LEPOT
 +Sg1:lidtjav ENDLEX ; 
 +Sg2:lidtja ENDLEX ; 
 +Sg3:litj ENDLEX ; 
 +Du1:lidtjin ENDLEX ; 
-+Du2:lidtjabehttin ENDLEX ; 
++Du2:lidtjabähttin ENDLEX ; 
 +Du3:lidtjaba ENDLEX ; 
 +Du3:lidtjaban ENDLEX ; 
 +Pl1:lidtjap ENDLEX ;  
-+Pl2:lidtjabihttit ENDLEX ; 
++Pl2:lidtjabihtit ENDLEX ; 
 +Pl3:lidtji ENDLEX ; 
 
 
-!LEXICON ATJA !!= * @CODE@ !!! originally in ACSj:  ATJA "skola" ;  !!= * @CODE@  ???
-!atja+V+Ind+Prs: ATJAPRS ; 
-!atja+V+Ind+Prt: ATJAPRT ; 
-!
-!
-!LEXICON ATJAPRS !!= * @CODE@ 
-!+Sg1:atjav      ENDLEX ;  !!= * @CODE@ 
-!+Sg2:atjah      ENDLEX ; 
-!+Sg3:atja       ENDLEX ; 
-!+Du1:itjin      ENDLEX ; 
-!+Du2:atjabihten ENDLEX ; 
-!+Du3:atjaba     ENDLEX ; 
-!+Pl1:atjap      ENDLEX ; 
-!+Pl2:atjabihtit ENDLEX ; 
-!+Pl3:itjih      ENDLEX ; 
-!
-!LEXICON ATJAPRT !!= * @CODE@ 
-!+Sg1:itjiv    ENDLEX ;  !!= * @CODE@ 
-!+Sg2:itjih    ENDLEX ; 
-!+Sg3:atjaj    ENDLEX ; 
-!+Du1:atjajmen ENDLEX ; 
-!+Du2:atjajden ENDLEX ; 
-!+Du3:atjajgan ENDLEX ; 
-!+Pl1:atjajmeh ENDLEX ; 
-!+Pl2:atjajdeh ENDLEX ; 
-!+Pl3:itjin    ENDLEX ; 
 
 LEXICON IJ !!= * @CODE@ 
 !+V+Ind+Prs: IJPRS ;
