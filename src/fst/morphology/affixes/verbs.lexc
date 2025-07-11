@@ -110,47 +110,42 @@ LEXICON V_EVEN_A !dahkat
 +V:a^WG V_EVEN_A_WK ;
 
 LEXICON V_EVEN_A_STR
-+Ind+Prs+Sg3:á%> ENDLEX ;
-+Ind+Prs+Du1:i%>n ENDLEX ; 
-+Ind+Prs+Du2:a%>behttin ENDLEX ;
-!+Ind+Prs+Du2:a%>bähtten ENDLEX ;
-+Ind+Prs+Du3:a%> 3DUPRS ;
-+Ind+Prs+Pl1:a%>p ENDLEX ;
-+Ind+Prs+Pl2:a%>behttit ENDLEX ;
-!+Ind+Prs+Pl2:a%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:i%> ENDLEX ; 
-+Ind+Prt+Sg1:i%>v ENDLEX ; 
-+Ind+Prt+Sg2:i%> ENDLEX ; 
-+Ind+Prt+Pl3:i%>n ENDLEX ; 
-
-+Imprt+Du2:e%>n ENDLEX ; 
-+Imprt+Pl2:i%>t ENDLEX ;
-
-+Inf:a%>t ENDLEX ; 
-+GerII:a%>min ENDLEX ;
-+PrfPrc:a%>m ENDLEX ;
-+PrsPrc:e%>j ENDLEX ; 
-+Vsubst:a%>m V_SUBST_EVEN_s2 ; 
+:á 3SGPRS ;
+:a 2DUPRS ;
+:a 3DUPRS ;
+:a 1PLPRS ;
+:a 2PLPRS ;
+:a INF ; 
+:a GER_II ;
+:a PRFPRC ;
+:a V_SUBST ; 
+: PRSPRC ; !vowel added later
+:e 2DUIMP ; 
+:e PRSPRC ; 
+:i 1DUPRS ; 
+:i 3PLPRS ; 
+:i 1SGPRT ; 
+:i 2SGPRT ; 
+:i 3PLPRT ; 
+:i 2PLIMP ;
 
 LEXICON V_EVEN_A_WK
-+Ind+Prs+Sg1:%>v ENDLEX ;
-+Ind+Prs+Sg2:%> ENDLEX ;
-+Ind+Prt+Sg3:%>j ENDLEX ;
-+Ind+Prt+Du1:%>jmin ENDLEX ;
-+Ind+Prt+Du2:%>jdin ENDLEX ;
-+Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme ENDLEX ;
-+Ind+Prt+Pl2:%>jde ENDLEX ;
-+Ind+Prt+Pl1+Use/NG:%>jmä ENDLEX ;
-+Ind+Prt+Pl2+Use/NG:%>jdä ENDLEX ;
+: 1SGPRS ;
+: 2SGPRS ;
+: 3SGPRT ;
+: 1DUPRT ;
+: 2DUPRT ;
+: 3DUPRT ;
+: 1PLPRT ;
+: 2PLPRT ;
 
-+Imprt+Sg2:%> ENDLEX ; 
+: 2SGIMP ; 
 
-+GerI:%>din ENDLEX ;  
-+Sup:%>tjit ENDLEX ;
-+ConNeg:%> ENDLEX ; 
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-+Der/VAdv+Adv:%>n ENDLEX ;
+: GER_I ;  
+: SUPINUM ;
+: CONNEG ; 
+: V_GEN ;
+
 +Pot:%>tj V_EVEN_POT ;
 
 
@@ -327,8 +322,57 @@ LEXICON V_EVEN_Å_WK
 +Pot:%>tj V_EVEN_POT ; 
 
 
-!LEXICON V_EVEN_Å_G3 !does not exist (V2 -å- always has V1 -å-)
 
+! post-thematic-vowel suffixes for V_EVEN_ stems
+! finite forms
+LEXICON 1SGPRS
++Ind+Prs+Sg1:%>v ENDLEX;
+LEXICON 2SGPRS ! just for systematicity
++Ind+Prs+Sg2:%> ENDLEX;
+LEXICON 3SGPRS ! just for systematicity
++Ind+Prs+Sg3:%> ENDLEX;
+LEXICON 1DUPRS
++Ind+Prs+Du1:%>n ENDLEX;
+LEXICON 2DUPRS
++Ind+Prs+Du2:%>bähtten ENDLEX;
+LEXICON 3DUPRS
++Ind+Prs+Du3:%>ban ENDLEX ;
++Ind+Prs+Du3+Use/NG:%>ba ENDLEX ;
+LEXICON 1PLPRS
++Ind+Prs+Pl1:%>p ENDLEX;
+LEXICON 2PLPRS
++Ind+Prs+Pl2:%>bihtit ENDLEX;
+LEXICON 3PLPRS ! just for systematicity
++Ind+Prs+Pl3:%> ENDLEX;
+
+LEXICON 1SGPRT
++Ind+Prt+Sg1:%>v ENDLEX;
+LEXICON 2SGPRT ! just for systematicity
++Ind+Prt+Sg2:%> ENDLEX;
+LEXICON 3SGPRT
++Ind+Prt+Sg3:%>j ENDLEX;
+LEXICON 1DUPRT
++Ind+Prt+Du1:%>jmen ENDLEX;
++Ind+Prt+Du1+Use/NG:%>jme ENDLEX ;
+LEXICON 2DUPRT
++Ind+Prt+Du2:%>jden ENDLEX;
++Ind+Prt+Du2+Use/NG:%>jde ENDLEX ;
+LEXICON 3DUPRT
++Ind+Prt+Du3:%>jgan ENDLEX;
++Ind+Prt+Du3+Use/NG:%>jga ENDLEX ;
+LEXICON 1PLPRT
++Ind+Prt+Pl1:%>jme ENDLEX;
+LEXICON 2PLPRT
++Ind+Prt+Pl2:%>jde ENDLEX;
+LEXICON 3PLPRT
++Ind+Prt+Pl3:%>n ENDLEX;
+
+LEXICON 2SGIMP ! just for systematicity
++Imprt+Sg2:%> ENDLEX ; 
+LEXICON 2DUIMP
++Imprt+Du2:%>n ENDLEX ; 
+LEXICON 2PLIMP
++Imprt+Pl2:%>t ENDLEX ; 
 
 !POT forms for V_EVEN_
 LEXICON V_EVEN_POT !
@@ -342,6 +386,32 @@ LEXICON V_EVEN_POT !
 +Pl1:i%>p ENDLEX ;
 +Pl2:i%>hppit ENDLEX ;
 +Pl3:i%> ENDLEX ; 
+
+! post-thematic-vowel suffixes for V_EVEN_; non-finite forms
+LEXICON INF
++Inf:%>t ENDLEX ; 
+LEXICON CONNEG ! just for systematicity
++ConNeg:%> ENDLEX ; 
+LEXICON PRFPRC
++PrfPrc:%>m ENDLEX ;
+LEXICON GER_I
++GerI:%>din ENDLEX ;  
+LEXICON GER_II
++GerII:%>min ENDLEX ;
+LEXICON SUPINUM
++Sup:%>tjit ENDLEX ;
+LEXICON V_GEN
++VGen:%>n ENDLEX ;
++VGen+Use/NG:%> ENDLEX ; ! just for systematicity
+!+Der/VAdv+Adv:%>n ENDLEX ; !alternative analysis for +VGen
+LEXICON PRSPRC
++PrsPrc:a%>j ENDLEX ; 
++PrsPrc+Use/NG:%>e ENDLEX ; 
+LEXICON V_SUBST
++Vsubst:%>m V_SUBST_EVEN_s2 ; 
+
+
+
 
 
 
@@ -667,14 +737,6 @@ LEXICON IJIMP !!= * @CODE@
 +Pl2:iellet  K ;
 +Pl2+Use/NG:illut  K ;
 
-
-LEXICON 3DUPRS !variation in 3rd-DUAL-Presence suffixes for EVEN stems
-:ba ENDLEX ;
-+Use/NG:ban ENDLEX ;
-
-LEXICON 3DUPRT !variation in 3rd-DUAL-Preterite suffixes for EVEN and CONTRACTED stems
-:ga ENDLEX ;
-+Use/NG:gan ENDLEX ;
 
 
 ! +Vsubst / actio initially (based somewhat on saL for now)
