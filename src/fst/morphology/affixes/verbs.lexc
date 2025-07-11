@@ -119,7 +119,7 @@ LEXICON V_EVEN_A_STR
 :a GER_II ;
 :a PRFPRC ;
 :a V_SUBST ; 
-: PRSPRC ; !vowel added later
+: PRSPRC_A ; !vowel added later
 :e 2DUIMP ; 
 :i 1DUPRS ; 
 :i 3PLPRS ; 
@@ -163,7 +163,7 @@ LEXICON V_EVEN_A_STR_G3
 :a^G3^UAUML GER_II ;
 :a^G3^UAUML PRFPRC ;
 :a^G3^UAUML V_SUBST ; 
-: PRSPRC_STR_G3 ; !vowel added later
+: PRSPRC_A_STR_G3 ; !vowel added later
 :e^G3^UAUML 2DUIMP ; 
 :i 1DUPRS ; 
 :i 3PLPRS ; 
@@ -174,18 +174,17 @@ LEXICON V_EVEN_A_STR_G3
 
 
 LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
-+V:	V_GILGIJ_FORMS ;
++V: V_GILGIJ_FORMS ;
 
 LEXICON V_GILGIJ_FORMS !see above
 +Ind+Prt+Sg3:%>j ENDLEX ;
-+Ind+Prt+Du1:%>jmin ENDLEX ;
-+Ind+Prt+Du2:%>jdin ENDLEX ;
++Ind+Prt+Du1:%>jmen ENDLEX ;
++Ind+Prt+Du2:%>jden ENDLEX ;
 +Ind+Prt+Du3:%>j 3DUPRT ;
 +Ind+Prt+Pl1:%>jme ENDLEX ;
 +Ind+Prt+Pl2:%>jde ENDLEX ;
-+Ind+Prt+Pl1+Use/NG:%>jmä ENDLEX ;
-+Ind+Prt+Pl2+Use/NG:%>jdä ENDLEX ;
-
+!+Ind+Prt+Pl1+Use/NG:%>jmä ENDLEX ;
+!+Ind+Prt+Pl2+Use/NG:%>jdä ENDLEX ;
 
 
 LEXICON V_EVEN_O !viessot, årrot
@@ -193,49 +192,42 @@ LEXICON V_EVEN_O !viessot, årrot
 +V:o^WG V_EVEN_O_WK ;
 
 LEXICON V_EVEN_O_STR
-+Ind+Prs+Sg3:u%> ENDLEX ; !should this be -u-?
-+Ind+Prs+Du1:u%>n ENDLEX ; 
-+Ind+Prs+Du2:o%>behttin ENDLEX ;
-+Ind+Prs+Du2:o%>bähtten ENDLEX ;
-+Ind+Prs+Du3:o%> 3DUPRS ;
-+Ind+Prs+Pl1:o%>p ENDLEX ;
-+Ind+Prs+Pl2:o%>behttit ENDLEX ;
-+Ind+Prs+Pl2:o%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:u%> ENDLEX ; 
-+Ind+Prt+Sg1:u%>v ENDLEX ; 
-+Ind+Prt+Sg2:u%> ENDLEX ; 
-+Ind+Prt+Pl3:u%>n ENDLEX ; 
-
-+Imprt+Du2:o%>n ENDLEX ; 
-+Imprt+Pl2:u%>t ENDLEX ;
-
-+Inf:o%>t ENDLEX ; 
-+GerII:o%>min ENDLEX ;
-+PrfPrc:u%>m ENDLEX ;
-+PrsPrc:o%>j ENDLEX ; 
-+Vsubst:o%>m V_SUBST_EVEN_s2 ; 
-+Sup:u^WG%>tjit ENDLEX ; !weak grade but with -u- i V2!! ex: urutjit (för att bo)
-
+:o 2DUPRS ;
+:o 3DUPRS ;
+:o 1PLPRS ;
+:o 2PLPRS ;
+:o INF ; 
+:o GER_II ;
+:o V_SUBST ; 
+:o 2DUIMP ; 
+:u 3SGPRS ;
+:u PRFPRC ;
+:u 1DUPRS ; 
+:u 3PLPRS ; 
+:u 1SGPRT ; 
+:u 2SGPRT ; 
+:u 3PLPRT ; 
+:u 2PLIMP ;
+: PRSPRC_O ; !vowel added later
 
 LEXICON V_EVEN_O_WK
-+Ind+Prs+Sg1:%>v ENDLEX ;
-+Ind+Prs+Sg2:%> ENDLEX ;
-+Ind+Prt+Sg3:%>j ENDLEX ;
-+Ind+Prt+Du1:%>jmin ENDLEX ;
-+Ind+Prt+Du2:%>jdin ENDLEX ;
-+Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme ENDLEX ;
-+Ind+Prt+Pl2:%>jde ENDLEX ;
-+Ind+Prt+Pl1+Use/NG:%>jmä ENDLEX ;
-+Ind+Prt+Pl2+Use/NG:%>jdä ENDLEX ;
+: 1SGPRS ;
+: 2SGPRS ;
+: 3SGPRT ;
+: 1DUPRT ;
+: 2DUPRT ;
+: 3DUPRT ;
+: 1PLPRT ;
+: 2PLPRT ;
 
-+Imprt+Sg2:%> ENDLEX ; 
+: 2SGIMP ; 
 
-+GerI:%>din ENDLEX ;  
-+ConNeg:%> ENDLEX ; 
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-+Der/VAdv+Adv:%>n ENDLEX ;
-+Pot:%>tj V_EVEN_POT ; 
+: GER_I ;  
+: SUPINUM ;
+: CONNEG ; 
+: V_GEN ;
+
++Pot:%>tj V_EVEN_POT ;
 
 
 
@@ -244,27 +236,23 @@ LEXICON V_EVEN_O_G3 !luabbot
 +V:o^WG V_EVEN_O_WK ; !same as all V_EVEN_E
 
 LEXICON V_EVEN_O_STR_G3 !
-+Ind+Prs+Sg3:u%> ENDLEX ;
-+Ind+Prs+Du1:u%>n ENDLEX ; 
-+Ind+Prs+Du2:o^G3^UAUML%>behttin ENDLEX ;
-+Ind+Prs+Du2:o^G3^UAUML%>bähtten ENDLEX ;
-+Ind+Prs+Du3:o^G3^UAUML%> 3DUPRS ;
-+Ind+Prs+Pl1:o^G3^UAUML%>p ENDLEX ;
-+Ind+Prs+Pl2:o^G3^UAUML%>behttit ENDLEX ;
-+Ind+Prs+Pl2:o^G3^UAUML%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:u%> ENDLEX ; 
-+Ind+Prt+Sg1:u%>v ENDLEX ; 
-+Ind+Prt+Sg2:u%> ENDLEX ; 
-+Ind+Prt+Pl3:u%>n ENDLEX ; 
-
-+Imprt+Du2:o^G3^UAUML%>n ENDLEX ; 
-+Imprt+Pl2:u%>t ENDLEX ;
-
-+Inf:o^G3^UAUML%>t ENDLEX ; 
-+GerII:o^G3^UAUML%>min ENDLEX ; !aka: +Actio+Ess ?
-+PrfPrc:u%>m ENDLEX ;
-+PrsPrc:o^G3^UAUML%>j ENDLEX ; 
-+Vsubst:o^G3^UAUML%>m V_SUBST_EVEN_s2 ; 
+:u 3SGPRS ;
+:u 1DUPRS ; 
+:u 3PLPRS ; 
+:u 1SGPRT ; 
+:u 2SGPRT ; 
+:u 3PLPRT ; 
+:u 2PLIMP ;
+:u^G3^UAUML PRFPRC ;
+:o^G3^UAUML 2DUPRS ;
+:o^G3^UAUML 3DUPRS ;
+:o^G3^UAUML 1PLPRS ;
+:o^G3^UAUML 2PLPRS ;
+:o^G3^UAUML INF ; 
+:o^G3^UAUML GER_II ;
+:o^G3^UAUML V_SUBST ; 
+:o^G3^UAUML 2DUIMP ; 
+: PRSPRC_O_STR_G3 ; !vowel added later
 
 
 
@@ -399,11 +387,17 @@ LEXICON V_GEN
 +VGen:%>n ENDLEX ;
 +VGen+Use/NG:%> ENDLEX ; ! just for systematicity
 !+Der/VAdv+Adv:%>n ENDLEX ; !alternative analysis for +VGen
-LEXICON PRSPRC
+LEXICON PRSPRC_A
 +PrsPrc:a%>j ENDLEX ; 
 +PrsPrc+Use/NG:e%> ENDLEX ; 
-LEXICON PRSPRC_STR_G3
+LEXICON PRSPRC_A_STR_G3
 +PrsPrc:a^G3^UAUML%>j ENDLEX ; 
++PrsPrc+Use/NG:e^G3^UAUML%> ENDLEX ; 
+LEXICON PRSPRC_O
++PrsPrc:o%>j ENDLEX ; 
++PrsPrc+Use/NG:e%> ENDLEX ; 
+LEXICON PRSPRC_O_STR_G3
++PrsPrc:o^G3^UAUML%>j ENDLEX ; 
 +PrsPrc+Use/NG:e^G3^UAUML%> ENDLEX ; 
 LEXICON V_SUBST
 +Vsubst:%>m V_SUBST_EVEN_s2 ; 
