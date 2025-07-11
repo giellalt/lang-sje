@@ -19,90 +19,71 @@
 
 
 !! # Even syllabled verbs
-
 LEXICON V_EVEN_E !båhtet
 +V:     V_EVEN_E_STR ;
 +V:e^WG V_EVEN_E_WK ;
 
 LEXICON V_EVEN_E_STR
-+Ind+Prs+Sg3:á%> ENDLEX ;
-!+Ind+Prs+Sg3+Err/Orth:a%> ENDLEX ; !just as an example, for possible later implementation
-+Ind+Prs+Du1:i%>n ENDLEX ; 
-+Ind+Prs+Du2:e%>behttin ENDLEX ;
-+Ind+Prs+Du2:e%>bähtten ENDLEX ;
-+Ind+Prs+Du3:e%> 3DUPRS ;
-+Ind+Prs+Pl1:e%>p ENDLEX ;
-+Ind+Prs+Pl2:e%>behttit ENDLEX ;
-+Ind+Prs+Pl2:e%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:i%> ENDLEX ; 
-+Ind+Prt+Sg1:i%>v ENDLEX ; 
-+Ind+Prt+Sg2:i%> ENDLEX ; 
-+Ind+Prt+Pl3:i%>n ENDLEX ; 
-
-+Imprt+Du2:e%>n ENDLEX ; 
-+Imprt+Pl2:i%>t ENDLEX ;
-
-+Inf:e%>t ENDLEX ; 
-+GerII:e%>min ENDLEX ; !aka: +Actio+Ess ?
-+PrfPrc:á%>m ENDLEX ;
-+PrsPrc:e%>j ENDLEX ; 
-+Vsubst:e%>m V_SUBST_EVEN_s2 ; 
+:á 3SGPRS ;
+:e 2DUPRS ;
+:e 3DUPRS ;
+:e 1PLPRS ;
+:e 2PLPRS ;
+:e INF ; 
+:e GER_II ;
+:á PRFPRC ;
+:e V_SUBST ; 
+:e 2DUIMP ; 
+: PRSPRC_E ; !vowel added later
+:i 1DUPRS ; 
+:i 3PLPRS ; 
+:i 1SGPRT ; 
+:i 2SGPRT ; 
+:i 3PLPRT ; 
+:i 2PLIMP ;
 
 LEXICON V_EVEN_E_WK
-+Ind+Prs+Sg1:%>v^V2E2AA ENDLEX ;
-+Ind+Prs+Sg2:%>^V2E2AA ENDLEX ;
-:^IJ%>j V_EVEN_E_WK_J ; !suffixes with -j-element that trigger e->i in V2
+: 1SGPRS_E ;
+: 2SGPRS_E ;
+:^IJ 3SGPRT ;
+:^IJ 1DUPRT ;
+:^IJ 2DUPRT ;
+:^IJ 3DUPRT ;
+:^IJ 1PLPRT ;
+:^IJ 2PLPRT ;
 
-+Imprt+Sg2:%> ENDLEX ; 
+: 2SGIMP ; 
 
-+GerI:%>din ENDLEX ;  
-+ConNeg:%> ENDLEX ; 
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-+Der/VAdv+Adv:%>n ENDLEX ; !e.g. jåden "while migrating"
-!+Der/VAdv+Adv+Use/NG:%> ENDLEX ; !main form according to Lehtiranta 1992 (cf. p. 151)
-+Sup:%>^V2E2AAtjit ENDLEX ;
-+Pot:%>tj^V2E2AA V_EVEN_POT ; 
+: GER_I ;  
+: SUPINUM_E ;
+: CONNEG ; 
+: V_GEN ;
 
-LEXICON V_EVEN_E_WK_J
-+Ind+Prt+Sg3: ENDLEX ;
-+Ind+Prt+Du1:min ENDLEX ;
-+Ind+Prt+Du2:din ENDLEX ;
-+Ind+Prt+Du3: 3DUPRT ;
-+Ind+Prt+Pl1:me ENDLEX ;
-+Ind+Prt+Pl2:de ENDLEX ;
-+Ind+Prt+Pl1+Use/NG:mä ENDLEX ;
-+Ind+Prt+Pl2+Use/NG:dä ENDLEX ;
++Pot:%>tj V_EVEN_POT ;
 
 
 LEXICON V_EVEN_E_G3 !guäddet, däddet
 +V:     V_EVEN_E_STR_G3 ; !special case to force G3 for correct output of ua/uä
 +V:e^WG V_EVEN_E_WK ; !same as all V_EVEN_E
 
-LEXICON V_EVEN_E_STR_G3 !
-+Ind+Prs+Sg3:á^G3^UAUML%> ENDLEX ;
-+Ind+Prs+Du1:i%>n ENDLEX ; 
-+Ind+Prs+Du2:e^G3^UAUML%>behttin ENDLEX ;
-+Ind+Prs+Du2:e^G3^UAUML%>bähtten ENDLEX ;
-+Ind+Prs+Du3:e^G3^UAUML%> 3DUPRS ;
-+Ind+Prs+Pl1:e^G3^UAUML%>p ENDLEX ;
-+Ind+Prs+Pl2:e^G3^UAUML%>behttit ENDLEX ;
-+Ind+Prs+Pl2:e^G3^UAUML%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:i%> ENDLEX ; 
-+Ind+Prt+Sg1:i%>v ENDLEX ; 
-+Ind+Prt+Sg2:i%> ENDLEX ; 
-+Ind+Prt+Pl3:i%>n ENDLEX ; 
-
-+Imprt+Du2:e^G3^UAUML%>n ENDLEX ; 
-+Imprt+Pl2:i%>t ENDLEX ;
-
-+Inf:e^G3^UAUML%>t ENDLEX ; 
-+GerII:e^G3^UAUML%>min ENDLEX ; !aka: +Actio+Ess ?
-+PrfPrc:á^G3^UAUML%>m ENDLEX ;
-+PrsPrc:e^G3^UAUML%>j ENDLEX ; 
-+Vsubst:e^G3^UAUML%>m V_SUBST_EVEN_s2 ; 
-
-
-
+LEXICON V_EVEN_E_STR_G3
+:á^G3^UAUML 3SGPRS ;
+:e^G3^UAUML 2DUPRS ;
+:e^G3^UAUML 3DUPRS ;
+:e^G3^UAUML 1PLPRS ;
+:e^G3^UAUML 2PLPRS ;
+:e^G3^UAUML INF ; 
+:e^G3^UAUML GER_II ;
+:á^G3^UAUML PRFPRC ;
+:e^G3^UAUML V_SUBST ; 
+:e^G3^UAUML 2DUIMP ; 
+: PRSPRC_E ; !vowel added later
+:i 1DUPRS ; 
+:i 3PLPRS ; 
+:i 1SGPRT ; 
+:i 2SGPRT ; 
+:i 3PLPRT ; 
+:i 2PLIMP ;
 
 
 LEXICON V_EVEN_A !dahkat
@@ -304,8 +285,12 @@ LEXICON V_EVEN_Å_WK
 ! finite forms
 LEXICON 1SGPRS
 +Ind+Prs+Sg1:%>v ENDLEX;
+LEXICON 1SGPRS_E
++Ind+Prs+Sg1:%>v^V2E2AA ENDLEX;
 LEXICON 2SGPRS ! just for systematicity
 +Ind+Prs+Sg2:%> ENDLEX;
+LEXICON 2SGPRS_E
++Ind+Prs+Sg1:%>^V2E2AA ENDLEX;
 LEXICON 3SGPRS ! just for systematicity
 +Ind+Prs+Sg3:%> ENDLEX;
 LEXICON 1DUPRS
@@ -377,10 +362,15 @@ LEXICON GER_II
 +GerII:%>min ENDLEX ;
 LEXICON SUPINUM
 +Sup:%>tjit ENDLEX ;
+LEXICON SUPINUM_E
++Sup:%>^V2E2AAtjit ENDLEX ;
 LEXICON V_GEN
 +VGen:%>n ENDLEX ;
 +VGen+Use/NG:%> ENDLEX ; ! just for systematicity
 !+Der/VAdv+Adv:%>n ENDLEX ; !alternative analysis for +VGen
+LEXICON PRSPRC_E
++PrsPrc:e%>j ENDLEX ; 
++PrsPrc+Use/NG:e%> ENDLEX ; 
 LEXICON PRSPRC_A
 +PrsPrc:a%>j ENDLEX ; 
 +PrsPrc+Use/NG:e%> ENDLEX ; 
