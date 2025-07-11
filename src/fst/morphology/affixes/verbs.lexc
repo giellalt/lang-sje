@@ -510,8 +510,6 @@ LEXICON V_ODD_POT !
 
 
 
-
-
 !! # contracted verbs
 
 LEXICON V_CONTR !välldut, tjerrut
@@ -663,58 +661,65 @@ LEXICON LEPOT
 
 
 LEXICON IJ !!= * @CODE@ 
-!+V+Ind+Prs: IJPRS ;
-!+V+Ind+Prt: IJPRT ;
-!+V+Imprt: IJIMP ;
 +V+Neg+Prs: IJPRS ;
 +V+Neg+Prt: IJPRT ;
 +V+Neg+Imprt: IJIMP ;
 
 !cf. +V+PrfPrc:lam ENDLEX ; ! lä (BE.conneg) + *am (prfprc allomorph of *lä*)
 !check tags!
-+V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam K ; ! = e+lam
-+V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam K ; ! = e+lam
-+V+Neg+Prs+Sg3#lä+ConNeg#lä+PrfPrc:idtjam K ; ! = idtjij+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:iellam ENDLEX ; ! = e+lam
++V+Neg+Prs+Pl3#lä+ConNeg#lä+PrfPrc:ällam ENDLEX ; ! = e+lam
++V+Neg+Prs+Sg3#lä+ConNeg#lä+PrfPrc:idtjam ENDLEX ; ! = idtjij+lam
 
 LEXICON IJPRS !!= * @CODE@ 
-+Sg1:iv    K ;  !!= * @CODE@ 
-+Sg2:i    K ; 
-+Sg3:ij    K ; 
-+Sg3+Use/NG:ijja    K ; ! long form for short answers, cf. sje20150329b.138, pit080924.487/.489
-+Du1:ien K ; 
-+Du2:iehpen K ;   
-+Du3:iebá K ; 
-+Pl1:iep K ; 
-+Pl1+Use/NG:iehpe K ; 
-+Pl2:ihpit K ;  
-+Pl3:ie   K ;
-+Pl3+Use/NG:e   K ;
-+Pl3#lä+V+ConNeg:ällä K ; ! = e+lä
++Sg1:iv ENDLEX ; 
++Sg2:i ENDLEX ;
++Sg3:ij ENDLEX ;
++Sg3+Use/NG:ijja ENDLEX ;! long form for short answers, cf. sje20150329b.138, pit080924.487/.489
++Du1:ien ENDLEX ; 
++Du1+Use/NG:en ENDLEX ; 
++Du2:iehpen ENDLEX ;   
++Du2+Use/NG:ehpen ENDLEX ;   
++Du3:ieban ENDLEX ; 
++Du3+Use/NG:ieb ENDLEX ; 
++Du3+Use/NG:eba ENDLEX ; 
++Pl1:iep ENDLEX ; 
++Pl1+Use/NG:ep ENDLEX ; 
++Pl2:ehpit ENDLEX ;  
++Pl2+Use/NG:ihpit ENDLEX ;  
++Pl3:ie   ENDLEX ;
++Pl3+Use/NG:e   ENDLEX ;
++Pl3#lä+V+ConNeg:ällä ENDLEX ; ! = e+lä
 
 LEXICON IJPRT !!= * @CODE@ 
-+Sg1:idtjiv    K ;  !!= * @CODE@ 
-+Sg2:idtji    K ; 
-+Sg3:idtjij    K ; 
-+Du1+Use/NG:iejmen K ; 
-+Du1:idtjijmen K ; 
-+Du2+Use/NG:iejden  K ; 
-+Du2:idtjijden K ; 
-+Du3+Use/NG:iejgan 3DUPRT ; 
-+Du3:idtjijga 3DUPRT ; 
-+Pl1+Use/NG:iejme K ; 
-+Pl1:idtjijme K ; 
-+Pl2+Use/NG:iejde K ; 
-+Pl2:idtjijde K ; 
-+Pl3:idtjin    K ;
-
++Sg1:idtjiv ENDLEX ; !!= * @CODE@ 
++Sg2:idtji ENDLEX ;
++Sg3:idtjij ENDLEX ;
++Du1:iejmen ENDLEX ; 
++Du1+Use/NG:ijme ENDLEX ; 
++Du1+Use/NG:idtjijmen  ENDLEX ; 
++Du1+Use/NG:idtjijme  ENDLEX ; 
++Du2:iejden ENDLEX ; 
++Du2+Use/NG:ijde ENDLEX ; 
++Du2+Use/NG:idtjijden  ENDLEX ; 
++Du2+Use/NG:idtjijde  ENDLEX ; 
++Du3:iejgan 3DUPRT ; 
++Du3+Use/NG:iejga 3DUPRT ; 
++Pl1:iejme ENDLEX ; 
++Pl1+Use/NG:ijme ENDLEX ; 
++Pl1+Use/NG:idtjijme ENDLEX ; 
++Pl2:iejde ENDLEX ; 
++Pl2+Use/NG:ijde ENDLEX ; 
++Pl2+Use/NG:idtjijde ENDLEX ; 
++Pl3:idtjin    ENDLEX ;
 
 LEXICON IJIMP !!= * @CODE@ 
-+Sg2:iele  K ; 
-+Sg2+Use/NG:ilu  K ; 
-+Du2:iellen K ; 
-+Du2+Use/NG:illun K ; 
-+Pl2:iellet  K ;
-+Pl2+Use/NG:illut  K ;
++Sg2:iele  ENDLEX ; 
++Sg2+Use/NG:ele  ENDLEX ; 
++Du2:iellen ENDLEX ; 
++Du2+Use/NG:ellen ENDLEX ; 
++Pl2:ellit  ENDLEX ;
++Pl2+Use/NG:illit  ENDLEX ;
 
 
 
