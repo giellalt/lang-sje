@@ -261,48 +261,42 @@ LEXICON V_EVEN_Å !hållåt, bårråt
 +V:å^WG V_EVEN_Å_WK ;
 
 LEXICON V_EVEN_Å_STR
-+Ind+Prs+Sg3:á%> ENDLEX ;
-+Ind+Prs+Du1:i%>n ENDLEX ; 
-+Ind+Prs+Du2:å%>behttin ENDLEX ;
-!+Ind+Prs+Du2:å%>bähtten ENDLEX ;
-+Ind+Prs+Du3:å%> 3DUPRS ;
-+Ind+Prs+Pl1:å%>p ENDLEX ;
-+Ind+Prs+Pl2:å%>behttit ENDLEX ;
-!+Ind+Prs+Pl2:å%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:i%> ENDLEX ; 
-+Ind+Prt+Sg1:i%>v ENDLEX ; 
-+Ind+Prt+Sg2:i%> ENDLEX ; 
-+Ind+Prt+Pl3:i%>n ENDLEX ; 
-
-+Imprt+Du2:e%>n ENDLEX ; 
-+Imprt+Pl2:i%>t ENDLEX ;
-
-+Inf:å%>t ENDLEX ; 
-+GerII:å%>min ENDLEX ;
-+PrfPrc:å%>m ENDLEX ;
-+PrsPrc:e%>j ENDLEX ; !-åt cognate with -at verbs in saL/saN, which also get -ej
-+Vsubst:å%>m V_SUBST_EVEN_s2 ; 
+:á 3SGPRS ;
+:å 2DUPRS ;
+:å 3DUPRS ;
+:å 1PLPRS ;
+:å 2PLPRS ;
+:å 2DUIMP ; 
+:å INF ; 
+:å GER_II ;
+:å PRFPRC ;
+:å V_SUBST ; 
+: PRSPRC_Å ; !vowel added later
+:i 1DUPRS ; 
+:i 3PLPRS ; 
+:i 1SGPRT ; 
+:i 2SGPRT ; 
+:i 3PLPRT ; 
+:i 2PLIMP ;
 
 LEXICON V_EVEN_Å_WK
-+Ind+Prs+Sg1:%>v ENDLEX ;
-+Ind+Prs+Sg2:%> ENDLEX ;
-+Ind+Prt+Sg3:%>j ENDLEX ;
-+Ind+Prt+Du1:%>jmin ENDLEX ;
-+Ind+Prt+Du2:%>jdin ENDLEX ;
-+Ind+Prt+Du3:%>j 3DUPRT ;
-+Ind+Prt+Pl1:%>jme ENDLEX ;
-+Ind+Prt+Pl2:%>jde ENDLEX ;
-+Ind+Prt+Pl1+Use/NG:%>jmä ENDLEX ;
-+Ind+Prt+Pl2+Use/NG:%>jdä ENDLEX ;
+: 1SGPRS ;
+: 2SGPRS ;
+: 3SGPRT ;
+: 1DUPRT ;
+: 2DUPRT ;
+: 3DUPRT ;
+: 1PLPRT ;
+: 2PLPRT ;
 
-+Imprt+Sg2:%> ENDLEX ; 
+: 2SGIMP ; 
 
-+GerI:%>din ENDLEX ;  
-+Sup:%>tjit ENDLEX ;
-+ConNeg:%> ENDLEX ; 
-!+VGen:%> ENDLEX ; !keeping as comment for now, but replaced with verb.adv. in next line
-+Der/VAdv+Adv:%>n ENDLEX ;
-+Pot:%>tj V_EVEN_POT ; 
+: GER_I ;  
+: SUPINUM ;
+: CONNEG ; 
+: V_GEN ;
+
++Pot:%>tj V_EVEN_POT ;
 
 
 
@@ -399,6 +393,9 @@ LEXICON PRSPRC_O
 LEXICON PRSPRC_O_STR_G3
 +PrsPrc:o^G3^UAUML%>j ENDLEX ; 
 +PrsPrc+Use/NG:e^G3^UAUML%> ENDLEX ; 
+LEXICON PRSPRC_Å
++PrsPrc:å%>j ENDLEX ; 
++PrsPrc+Use/NG:e%> ENDLEX ; 
 LEXICON V_SUBST
 +Vsubst:%>m V_SUBST_EVEN_s2 ; 
 
