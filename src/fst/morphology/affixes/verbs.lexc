@@ -121,7 +121,6 @@ LEXICON V_EVEN_A_STR
 :a V_SUBST ; 
 : PRSPRC ; !vowel added later
 :e 2DUIMP ; 
-:e PRSPRC ; 
 :i 1DUPRS ; 
 :i 3PLPRS ; 
 :i 1SGPRT ; 
@@ -154,28 +153,24 @@ LEXICON V_EVEN_A_G3 !snuaggat
 +V:     V_EVEN_A_STR_G3 ; !special case to force G3 for correct output of ua/uä
 +V:a^WG V_EVEN_A_WK ; !same as all V_EVEN_E
 
-LEXICON V_EVEN_A_STR_G3 !
-+Ind+Prs+Sg3:á^G3^UAUML%> ENDLEX ;
-+Ind+Prs+Du1:i%>n ENDLEX ; 
-+Ind+Prs+Du2:a^G3^UAUML%>behttin ENDLEX ;
-+Ind+Prs+Du2:a^G3^UAUML%>bähtten ENDLEX ;
-+Ind+Prs+Du3:a^G3^UAUML%> 3DUPRS ;
-+Ind+Prs+Pl1:a^G3^UAUML%>p ENDLEX ;
-+Ind+Prs+Pl2:a^G3^UAUML%>behttit ENDLEX ;
-+Ind+Prs+Pl2:a^G3^UAUML%>bähttet ENDLEX ;
-+Ind+Prs+Pl3:i%> ENDLEX ; 
-+Ind+Prt+Sg1:i%>v ENDLEX ; 
-+Ind+Prt+Sg2:i%> ENDLEX ; 
-+Ind+Prt+Pl3:i%>n ENDLEX ; 
-
-+Imprt+Du2:e^G3^UAUML%>n ENDLEX ; 
-+Imprt+Pl2:i%>t ENDLEX ;
-
-+Inf:a^G3^UAUML%>t ENDLEX ; 
-+GerII:a^G3^UAUML%>min ENDLEX ; !aka: +Actio+Ess ?
-+PrfPrc:a^G3^UAUML%>m ENDLEX ;
-+PrsPrc:a^G3^UAUML%>j ENDLEX ; 
-+Vsubst:e^G3^UAUML%>m V_SUBST_EVEN_s2 ; 
+LEXICON V_EVEN_A_STR_G3
+:á^G3^UAUML 3SGPRS ;
+:a^G3^UAUML 2DUPRS ;
+:a^G3^UAUML 3DUPRS ;
+:a^G3^UAUML 1PLPRS ;
+:a^G3^UAUML 2PLPRS ;
+:a^G3^UAUML INF ; 
+:a^G3^UAUML GER_II ;
+:a^G3^UAUML PRFPRC ;
+:a^G3^UAUML V_SUBST ; 
+: PRSPRC_STR_G3 ; !vowel added later
+:e^G3^UAUML 2DUIMP ; 
+:i 1DUPRS ; 
+:i 3PLPRS ; 
+:i 1SGPRT ; 
+:i 2SGPRT ; 
+:i 3PLPRT ; 
+:i 2PLIMP ;
 
 
 LEXICON V_GILGIJ !special case for deviant gilgij-forms of gallgat
@@ -406,7 +401,10 @@ LEXICON V_GEN
 !+Der/VAdv+Adv:%>n ENDLEX ; !alternative analysis for +VGen
 LEXICON PRSPRC
 +PrsPrc:a%>j ENDLEX ; 
-+PrsPrc+Use/NG:%>e ENDLEX ; 
++PrsPrc+Use/NG:e%> ENDLEX ; 
+LEXICON PRSPRC_STR_G3
++PrsPrc:a^G3^UAUML%>j ENDLEX ; 
++PrsPrc+Use/NG:e^G3^UAUML%> ENDLEX ; 
 LEXICON V_SUBST
 +Vsubst:%>m V_SUBST_EVEN_s2 ; 
 
