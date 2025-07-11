@@ -8,7 +8,7 @@
 
 # Auxiliaries
 
-* lä: LE "copula/auxiliary verb" ;  
+* lä+V: LE "copula/auxiliary verb" ;  
 
 * LEXICON LE  
 
@@ -16,13 +16,14 @@
 
 * LEXICON LEPRT  
 
+* LEXICON LEIMP  
+
 * LEXICON IJ  
 
 * LEXICON IJPRS  
-* +Sg1:iv    K ;   
 
 * LEXICON IJPRT  
-* +Sg1:idtjiv    K ;   
+* +Sg1:idtjiv ENDLEX ;  
 
 * LEXICON IJIMP  
 
