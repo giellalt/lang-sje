@@ -178,7 +178,7 @@ It is important for Apertium, and useful in other cases as well.
 * +CLB      Clause boundary
 * +PUNCT    Punctuation
 * +LEFT     
-* +RIGHT    
+* +RIGHT +MIDDLE  
 * +SENT     
 
 Morphophonological symbols 
