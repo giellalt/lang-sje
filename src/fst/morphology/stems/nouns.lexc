@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-06-22T12:35:26+01:00
+! Generated at: 2025-08-29T12:30:53+03:00
 
 !! # Pite Saami Nouns
 
@@ -194,7 +194,6 @@ bednikvuollánibme:bednik#vuollánibme N_EVEN "devaluation of money" ; ! no. 359
 bensijdna:bensijdna N_EVEN "gasoline, petrol" ; ! no. 3250
 berri:berri N_EVEN "bear" ; ! no. 2357
 bidtjársábme:bidtjár#sábme N_EVEN "Saami settler" ; ! no. 4699
-bidumsábme:bidum#sábme N_EVEN "Pite Saami" ; ! no. 91260
 biehtse:biehtse N_EVEN "pine tree" ; ! no. 2680
 biehtsevuobme:biehtse#vu^Obme N_EVEN "pine forest" ; ! no. 6075
 biejvebielle:biejve#bielle N_EVEN "sunny side" ; ! no. 2523
@@ -210,6 +209,7 @@ biologidja+Use/NG:biologijja N_EVEN "biology" ; ! no. 3312
 bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
 bissti:bissti N_EVEN "spoon" ; ! no. 190
+bisumsábme:bisum#sábme N_EVEN "Pite Saami" ; ! no. 91260
 buvdna+Use/NG:bivdna N_EVEN "village, community" ; ! no. 4202
 buvvda+Use/NG:bivvda N_EVEN "shed" ; ! no. 90466
 bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
