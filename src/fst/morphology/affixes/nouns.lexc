@@ -262,6 +262,7 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Sg+Ela:i2%>st K ;
 +Sg+Ela+Use/NG:i2%>s K ;
 +Sg+Com:i2%>jn K ;
++Sg+Com+Use/NG:i2%>jna K ;
 +Ess:i2%>n K ;
 
 !+Ess+Use/NG:^CDEL%>n K ; 
@@ -288,6 +289,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Sg+Ela:u2%>st K ;
 +Sg+Ela+Use/NG:u2%>s K ;
 +Sg+Com:u2%>jn K ;
++Sg+Com+Use/NG:u2%>jna K ;
 +Ess:u2%>n K ;
 +Abe:u%>htá VK ;
 +Pl+Nom:u%> VK ;
@@ -334,6 +336,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Sg+Ela:u%>st K ;
 +N+Sg+Ela+Use/NG:u%>s K ;
 +N+Sg+Com:u%>jn K ;
++N+Sg+Com+Use/NG:u%>jna K ;
 +N+Ess:u%>n K ;
 +N+Ess:u%>n K ;
 +N+Abe:u%>dak K ; ! XXX
@@ -360,6 +363,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Sg+Ela:á%>st K ;
 +N+Sg+Ela+Use/NG:á%>s K ;
 +N+Sg+Com:á%>jn K ;
++N+Sg+Com+Use/NG:á%>jna K ;
 +N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 !+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:á%>dak K ; ! XXX
@@ -387,6 +391,7 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Sg+Ela:á%>st K ;
 +N+Sg+Ela+Use/NG:á%>s K ;
 +N+Sg+Com:á%>jn K ;
++N+Sg+Com+Use/NG:á%>jna K ;
 +N+Ess:á%>n K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 !+N+Ess:á^WGn K ; !check ^WG - is it required by ESS? is it implemented by twolc?
 +N+Abe:á%>dak K ; ! XXX
@@ -442,6 +447,7 @@ LEXICON NO_VH_X_s2
 +Sg+Ela:st K ; 
 +Sg+Ela+Use/NG:s K ; 
 +Sg+Com:jn K ;
++Sg+Com+Use/NG:jna K ;
 +Ess:n K ;
 +Pl+Nom: VK ;
 +Pl+Acc:jt K ;
@@ -467,7 +473,7 @@ LEXICON NO_VH_X_s2_PROPER
 +Sg+Ela:ist K ; 
 +Sg+Ela+Use/NG:is K ; 
 +Sg+Com:ijn K ;
-+Sg+Com:ijna K ;
++Sg+Com+Use/NG:ijna K ;
 +Ess:in K ;
 +Pl+Nom:a VK ;
 +Pl+Acc:ijt K ;
@@ -505,6 +511,7 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Sg+Ela:st K ; 
 +Sg+Ela+Use/NG:s K ; 
 +Sg+Com:jn K ;
++Sg+Com+Use/NG:jna K ;
 +Ess:an K ;
 +Pl+Nom: K ;
 +Pl+Acc:jt K ;
