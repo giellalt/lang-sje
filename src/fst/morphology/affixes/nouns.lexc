@@ -308,7 +308,7 @@ LEXICON N_ODD_DIM !N_ODD diminutive root add v3
 
 LEXICON N_ODD_DIM_s2 !N_ODD diminutive root with variant 
 :tj N_DIM_s2 ;
-+Use/NG:dtj NO_VH_X_s2 ; !add everything but nom.sg
+!+Use/NG:dtj NO_VH_X_s2 ; !add everything but nom.sg !no real evidence for this; also not norm
 
 
 ! contracted
@@ -430,11 +430,36 @@ LEXICON PX ! possessive suffixes (not clearly productive; initial SgNom set from
 
 
 
-LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM, monosyllabic proper Ns (no -i- in suffixes)
+LEXICON NO_VH_X  !tetra-syllabic forms such as ODD+DIM
 +Sg+Nom: K ;
-: NO_VH_X_s2 ;
+:a NO_VH_X_s2 ;
 
 LEXICON NO_VH_X_s2
++Sg+Acc:v K ;
++Sg+Gen: VK ;
++Sg+Ill:j K ;
++Sg+Ine:n K ;
++Sg+Ela:st K ; 
++Sg+Ela+Use/NG:s K ; 
++Sg+Com:jn K ;
++Ess:n K ;
++Pl+Nom: VK ;
++Pl+Acc:jt K ;
++Pl+Acc+Err/Orth:jd K ;
++Pl+Gen:j K ;
++Pl+Ill:jda VK ;
++Pl+Ine:jn K ;
++Pl+Ela:jst K ;
++Pl+Ela+Use/NG:js K ;
++Pl+Com:j K ;
++Pl+Com+Use/NGminip:jgum K ;
+
+
+LEXICON NO_VH_X_PROPER  !monosyllabic proper Ns (no -i- in suffixes)
++Sg+Nom: K ;
+: NO_VH_X_s2_PROPER ;
+
+LEXICON NO_VH_X_s2_PROPER
 +Sg+Acc:av K ;
 +Sg+Gen:a VK ;
 +Sg+Ill:ij K ;
@@ -442,6 +467,7 @@ LEXICON NO_VH_X_s2
 +Sg+Ela:ist K ; 
 +Sg+Ela+Use/NG:is K ; 
 +Sg+Com:ijn K ;
++Sg+Com:ijna K ;
 +Ess:in K ;
 +Pl+Nom:a VK ;
 +Pl+Acc:ijt K ;
@@ -458,7 +484,7 @@ LEXICON NO_VH_X_s2
 ! proper noun lexica below:
 
 LEXICON N_MONOSYL_PROPER ! monosyllabic proper nouns (mostly person names)
-+N: NO_VH_X ; !add PoS, then link to morphology
++N: NO_VH_X_PROPER ; !add PoS, then link to morphology
 
 !for proper names for which the inflectional paradigms are not clear (at least until more is known about how they inflect – essentially only non-Saami names)
 LEXICON N_NAME_noInfl_C !C-final
