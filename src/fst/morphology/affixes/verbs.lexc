@@ -43,7 +43,7 @@ LEXICON V_EVEN_E_STR
 :i 2PLIMP ;
 
 LEXICON V_EVEN_E_WK
-: 1SGPRS_E ;
+:v 1SGPRS_E ;
 : 2SGPRS_E ;
 :^IJ 3SGPRT ;
 :^IJ 1DUPRT ;
@@ -290,7 +290,7 @@ LEXICON 1SGPRS_E
 LEXICON 2SGPRS ! just for systematicity
 +Ind+Prs+Sg2:%> ENDLEX;
 LEXICON 2SGPRS_E
-+Ind+Prs+Sg1:%>^V2E2AA ENDLEX;
++Ind+Prs+Sg2:%>^V2E2AA ENDLEX;
 LEXICON 3SGPRS ! just for systematicity
 +Ind+Prs+Sg3:%> ENDLEX;
 LEXICON 1DUPRS
