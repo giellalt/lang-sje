@@ -4,42 +4,42 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 
 
-### dealing with apostrophe before enclitic copula
+#### dealing with apostrophe before enclitic copula
 
-### Negation rules
+#### Negation rules
 
 * **ConNeg3** conneg form when neg-verb to the left
 
-### Agreement rules for subject NP
+#### Agreement rules for subject NP
 
-### choose relative pronoun when preceded by NP and not ending in Q-mark
+#### choose relative pronoun when preceded by NP and not ending in Q-mark
 
-### choose iterrogative pronoun when ending in Q-mark and NOT preceded by NP 
+#### choose iterrogative pronoun when ending in Q-mark and NOT preceded by NP 
 
-### rule out imperative forms in questions
+#### rule out imperative forms in questions
 
-### rule out finite verbforms after infinitive verbform
+#### rule out finite verbforms after infinitive verbform
 
-### Agreement rule for verb triggered by PersPron
+#### Agreement rule for verb triggered by PersPron
 
-### Agreement rules for verb triggered by full NP
+#### Agreement rules for verb triggered by full NP
 
-# Rules for collocations, multiword expressions etc.
+## Rules for collocations, multiword expressions etc.
 
-# Mapping rules
+## Mapping rules
 
-## Mapping CC
+### Mapping CC
 
 * **CCasCNPCVP** Map (@CNP @CVP) to CC
 
-## Mapping verbs
+### Mapping verbs
 * **+FMAINVinfv** maps to main verb followed by inf
 
-## Add language code
+### Add language code
 
 * * *
 
@@ -47,11 +47,11 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 
 
-# Adjectives !
+## Adjectives !
 
 * * *
 
@@ -59,10 +59,10 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -70,17 +70,17 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
 
 
-# Even syllabled verbs
+## Even syllabled verbs
 
-# Odd syllabled verbs
+## Odd syllabled verbs
 
-# contracted verbs
+## contracted verbs
 
-# Auxiliaries
+## Auxiliaries
 
 * lä+V: LE "copula/auxiliary verb" ;  
 
@@ -107,7 +107,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-fst-morphology-compounding.lexc.md 
+## src-fst-morphology-compounding.lexc.md 
 
 
 
@@ -117,10 +117,10 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 
-# Pite Sámi TWOLC file
+## Pite Sámi TWOLC file
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-sje/blob/main/src/fst/phonology.twolc) 
 
 * **%^WG:0**:  weak grade
@@ -136,9 +136,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
   %^IJ:0      * e to i in front of Plural j and Sg Com
   %^MONB4J:0  * what is this?
 
-# Rules
+## Rules
 
-## Consonant gradation rules
+### Consonant gradation rules
 
 **Consonant Gradation for ht(j|s):t(j|s) **  
 
@@ -172,7 +172,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Consonant Gradation for ldj:lj **  
 
-## Other consonant rules 
+### Other consonant rules 
 
 **Final C Deletion**  
 
@@ -184,9 +184,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 **Word-final reduction for -dtj **  
 
-## Vowel rules 
+### Vowel rules 
 
-###  metaphony
+####  metaphony
 
 **Default VH **  
 
@@ -250,16 +250,16 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-s
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Pite Sámi morphological analyser
+## Pite Sámi morphological analyser
 
 This file contains the tags and reference to main lexica
 
-# Multichar_Symbols  definitions
+## Multichar_Symbols  definitions
 
-## POS
+### POS
 * +N 	        Noun
 * +V 	        Verb
 * +A	        Adjective
@@ -273,7 +273,7 @@ This file contains the tags and reference to main lexica
 * +Po	        Postposition
 * +Pr	        Preposition
 
-## Subclasses
+### Subclasses
 * +Pers 		   Personal
 * +Dem 		   Demonstrative
 * +Interr 	   Interrogative
@@ -286,9 +286,9 @@ This file contains the tags and reference to main lexica
 * +Comp		   Comparative
 * +Superl		   Superlative
 
-## Morphosyntactic properties
+### Morphosyntactic properties
 
-### Verbal MSP
+#### Verbal MSP
 
 Tense-mode
 * +Prs	   	   Present tense
@@ -337,11 +337,11 @@ Derivation tags
 * +Der/State 	   Derived state noun
 * +Der/VAdv 	   Derived deverbal adverb
 
-### Nominal MSP
+#### Nominal MSP
 * +Sg 	   Singular
 * +Pl 	   Plural
 
-### Case
+#### Case
 
 * +Nom    Nominative
 * +Acc    Accusative
@@ -381,7 +381,7 @@ Other tags
 * **+Use/PMatch** means that the following is only used in the analyser feeding the disambiguator
 * **+Use/-PMatch** Do not include in fst's made for hfst-pmatch
 
-### Compounding tags
+#### Compounding tags
 
 The tags are of the following form:
 * **+CmpNP/xxx** - Normative (N), Position (P), ie. the tag describes what
@@ -428,7 +428,7 @@ It is important for Apertium, and useful in other cases as well.
 * **+Cmp/SplitL**  This is a split compound with the other part to the left
 * **+Cmp/Sh**  testing ShCmp
 
-## Punctuation tags
+### Punctuation tags
 * +CLB      Clause boundary
 * +PUNCT    Punctuation
 * +LEFT     
@@ -437,7 +437,7 @@ It is important for Apertium, and useful in other cases as well.
 
 Morphophonological symbols 
 
-### Symbols for regulating the twolc file
+#### Symbols for regulating the twolc file
 
 ^WG       * weak grade
 ^G3       * marks grade three for stems w/o Cgrad
@@ -452,7 +452,7 @@ Morphophonological symbols
 ^V2O2U    * o to u in V2 (e.g. Ill.Sg, Dim, some N_ODD) etc.
 ^MONB4J   * No rules for this one in twolc!
 
-### Archiphonemes
+#### Archiphonemes
 i2   * Variable vowel, does not trigger VH
 u2   * Variable vowel, does not trigger VH
 ä2   * Variable vowel, does not undergo (further) VH
@@ -466,7 +466,7 @@ b2 d2 g2 t2 j2   * Variable consonants, undergo final devoicing or other alterna
  %[%<%]   * <
 ```
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -517,10 +517,10 @@ handle (possibly) multitoken single strings.
 |  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
 |  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
-# Key lexicon
+## Key lexicon
 Lexicon Root starts the analyser and directs paths to all POS.
 
-# Lexicon ENDLEX
+## Lexicon ENDLEX
 And this is the ENDLEX of everything:
 ```
 @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; 
@@ -535,10 +535,10 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 ---
 
-# src-fst-morphology-stems-abbreviations.lexc.md 
+## src-fst-morphology-stems-abbreviations.lexc.md 
 
 
-# File containing abbreviations
+## File containing abbreviations
 
 Lexica for adding tags and periods
 
@@ -574,13 +574,13 @@ Here come POS and Case tags, and no period.
 
 * **LEXICON ab-nodot-verb   **
 
-## Intransitive abbreviations 
+### Intransitive abbreviations 
 
 * **LEXICON ITRAB   **
 
 * **LEXICON TRNUMAB   **
 
-## Transitive abbreviations 
+### Transitive abbreviations 
 
 * **LEXICON TRAB   **
 
@@ -590,14 +590,14 @@ Here come POS and Case tags, and no period.
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
 
-# Pite Saami Adjectives
+## Pite Saami Adjectives
 
 * **LEXICON Adjective   ** is the main lexicon
 
-## Lexc inflectional classes (Mini-grammar)
+### Lexc inflectional classes (Mini-grammar)
 
 * * *
 
@@ -605,10 +605,10 @@ Here come POS and Case tags, and no period.
 
 ---
 
-# src-fst-morphology-stems-adpositions.lexc.md 
+## src-fst-morphology-stems-adpositions.lexc.md 
 
 
-# Adpositions
+## Adpositions
 
 * **LEXICON Postposition   ** is the list
 
@@ -624,7 +624,7 @@ Here come POS and Case tags, and no period.
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
 
 Adverbs
@@ -639,11 +639,11 @@ Adverbs
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
 
 
-# Conjunctions
+## Conjunctions
 
 * **LEXICON CC   ** gives +CC
 
@@ -655,14 +655,14 @@ Adverbs
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 
-# Pite Saami Nouns
+## Pite Saami Nouns
 
 * **LEXICON Noun   ** is the main lexicon
 
-## Lexc inflectional classes (Mini-grammar)
+### Lexc inflectional classes (Mini-grammar)
 
 * Even-syllable stem patterns: 
 - N_EVEN: bisyllabic stems except those ending in -o- (e.g. juällge, bijjla, gisstá, gällu, båsskå) 
@@ -686,10 +686,10 @@ Adverbs
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
 
-# Pite Saami numerals 
+## Pite Saami numerals 
 
 * **LEXICON Numeral					   **
 
@@ -699,7 +699,7 @@ Adverbs
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
 
 Pronouns
@@ -736,10 +736,10 @@ Pronouns
 
 ---
 
-# src-fst-morphology-stems-sje-propernouns.lexc.md 
+## src-fst-morphology-stems-sje-propernouns.lexc.md 
 
 
-# Pite Saami ProperNouns
+## Pite Saami ProperNouns
 
 Propernouns
 
@@ -751,14 +751,14 @@ Propernouns
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
 
-# Pite Saami Verbs
+## Pite Saami Verbs
 
 * **LEXICON Verb   ** is the main lexicon
 
-## Lexc inflectional classes (Mini-grammar)
+### Lexc inflectional classes (Mini-grammar)
 
 * V_EVEN_E: even-syllable stems ending in -e- (e.g. båhtet)
 * V_EVEN_A: even-syllable stems ending in -a- (e.g. dahkat)
@@ -777,7 +777,7 @@ Propernouns
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -946,7 +946,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -968,26 +968,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 P I T E   S A A M I   G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1014,7 +1014,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1030,7 +1030,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1093,7 +1093,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1126,7 +1126,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1196,22 +1196,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1222,11 +1222,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1234,7 +1234,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1246,25 +1246,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -1272,9 +1272,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for sje
+## Tokeniser for sje
 
 Usage:
 ```
@@ -1318,7 +1318,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1337,9 +1337,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for sje
+## Grammar checker tokenisation for sje
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1402,9 +1402,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
