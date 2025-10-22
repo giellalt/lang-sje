@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-sje?label=CI)](https://builds.giellalt.org/pipelines/lang-sje/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the [Pite Sami language model](http://github.com/giellalt/lang-sje). 
 
