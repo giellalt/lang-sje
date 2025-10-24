@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-sje%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-sje/main/badge.svg)](https://github.com/giellalt/lang-sje/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-sje?label=CI)](https://builds.giellalt.org/pipelines/lang-sje/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/pite1240)
 
 This page documents the work on the [Pite Sami language model](http://github.com/giellalt/lang-sje). 
 
