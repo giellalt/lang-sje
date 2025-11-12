@@ -25,6 +25,7 @@
             * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-sje/blob/main/src/fst/phonetics/txt2ipa.xfscript))
         * `transcriptions/`
             * [transcriptor-abbrevs2text.lexc](src-fst-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-sje/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc))
+            * [transcriptor-symbols2text.lexc](src-fst-transcriptions-transcriptor-symbols2text.lexc.html) ([src](https://github.com/giellalt/lang-sje/blob/main/src/fst/transcriptions/transcriptor-symbols2text.lexc))
 * `tools/`
     * `grammarcheckers/`
         * [grammarchecker.cg3](tools-grammarcheckers-grammarchecker.cg3.html) ([src](https://github.com/giellalt/lang-sje/blob/main/tools/grammarcheckers/grammarchecker.cg3))
