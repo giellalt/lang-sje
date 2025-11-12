@@ -1,6 +1,3 @@
-spellername = "Pite Sami"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -23,3 +20,15 @@ legacy_product_codes = [
     { value = "37BB0BBF-0791-4E15-9746-E232D8E20C60", kind = "nsis" }
 ]
 extra_locales = { sje-SE = "sje" }
+
+[package.speller]
+name = "Pite Sami"
+version = "0.1.1"
+
+[package.grammar]
+name = "Pite Sami"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Pite Sami"
+version = "0.1.0"
