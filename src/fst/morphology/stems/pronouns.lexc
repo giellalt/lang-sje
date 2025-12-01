@@ -48,7 +48,7 @@ perssg ; !
 
 LEXICON perssg   !!= * **@CODE@**
 +Nom:ån      ENDLEX ;
-+Nom:a      ENDLEX ; !only encliticized to negation verb, e.g. iv-ma
+!+Nom:a      ENDLEX ; !only encliticized to negation verb, e.g. iv-ma
 +Nom:ånnå    ENDLEX ;
 +Acc:uv      ENDLEX ;
 +Gen:uv      ENDLEX ;
