@@ -29,7 +29,7 @@ version = "0.1.1"
 name = "Pite Sami"
 version = "0.1.0"
 
-[package.tts-text-proc]
+[package.tts-textproc]
 name = "Pite Sami"
 version = "0.1.0"
 
