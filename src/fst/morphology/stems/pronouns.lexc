@@ -58,35 +58,38 @@ LEXICON perssg   !!= * **@CODE@**
 +Ine:ujna    ENDLEX ; !nordlig variant
 +Ela:uvste   ENDLEX ;
 +Com:ujna    ENDLEX ;
-+Ess:ånnan ENDLEX ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
+!+Ess:ånnan ENDLEX ; ! Lehtiranta 1992:163
+!+Ess:uvnen ENDLEX ; ! Lehtiranta 1992:163
 
 LEXICON persdu   !!= * **@CODE@**
 +Nom:åj      ENDLEX ;
 +Nom:åjå     ENDLEX ;
-+Acc:unuv   ENDLEX ;
-+Gen:unu    ENDLEX ;
++Acc:unov   ENDLEX ;
++Gen:uno    ENDLEX ;
 +Ill:unnuj   ENDLEX ;
-+Ine:unun   ENDLEX ;
-+Ela:unust  ENDLEX ;
++Ine:unon   ENDLEX ;
++Ela:unost  ENDLEX ;
 +Com:unujn   ENDLEX ;
-+Ess:unnun ENDLEX ; ! http://www.lokalhistoriewiki.no/index.php/Pitesamisk_grammatikk
+!+Ess:unnon ENDLEX ; ! Lehtiranta 1992:163
 
 LEXICON perspl   !!= * **@CODE@**
 +Nom:ij      ENDLEX ;
 +Nom:ija     ENDLEX ;
-+Nom+Use/NG:ijá     ENDLEX ; 
++Nom+Use/NG:ijá     ENDLEX ; ! non-standard (northern sje) dialect form
 +Acc:ijav    ENDLEX ;
-+Acc+Use/NG:ijáv     ENDLEX ;
-+Acc+Use/NG:ijájt     ENDLEX ; ! northern sje dialect form
-+Acc+Use/NG:ijájd     ENDLEX ; ! northern sje dialect form, deviant spelling
-+Gen:ijá     ENDLEX ;
++Acc+Use/NG:ijáv     ENDLEX ; ! non-standard (northern sje) dialect form
++Acc+Use/NG:ijájt     ENDLEX ; ! non-standard (northern sje) dialect form
++Acc+Use/NG:ijájd     ENDLEX ; ! non-standard (northern sje) dialect form, deviant/old spelling
++Gen:ija     ENDLEX ; 
++Gen+Use/NG:ijá     ENDLEX ; ! non-standard (northern sje) dialect form
 +Ill:ijjaj   ENDLEX ;
-+Ill+Use/NG:ijjáj   ENDLEX ;
-+Ill+Use/NG:ijjij   ENDLEX ;
++Ill:ijjij   ENDLEX ;
++Ill:idjij   ENDLEX ;
++Ill+Use/NG:ijjáj   ENDLEX ; ! non-standard (northern sje) dialect form
 +Ine:ijan    ENDLEX ;
 +Ela:ijast   ENDLEX ;
 +Com:ijajn   ENDLEX ;
-
+!+Ess: ENDLEX ; ! no evidence/records
 
 
 LEXICON Demonstrative   !!= * **@CODE@**
