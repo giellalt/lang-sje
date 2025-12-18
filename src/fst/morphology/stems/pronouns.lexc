@@ -93,72 +93,105 @@ LEXICON perspl   !!= * **@CODE@**
 
 
 LEXICON Demonstrative   !!= * **@CODE@**
+!dat forms (distal, default)
 dat+Pron+Dem+Sg+Nom:dat ENDLEX ;
 dat+Pron+Dem+Sg+Nom+Use/NG:dahta ENDLEX ;
 dat+Pron+Dem+Sg+Acc:dav ENDLEX ;
 dat+Pron+Dem+Sg+Acc+Use/NG:davva ENDLEX ; !long form when isolated
 dat+Pron+Dem+Sg+Gen:dan ENDLEX ;
 dat+Pron+Dem+Sg+Ill:dasa ENDLEX ;
-dat+Pron+Dem+Sg+Ill+Use/NG:disi ENDLEX ;
-dat+Pron+Dem+Sg+Ine:dan ENDLEX ;
+dat+Pron+Dem+Sg+Ill:disi ENDLEX ; 
+dat+Pron+Dem+Sg+Ine:danne ENDLEX ;
 dat+Pron+Dem+Sg+Ela:dasste ENDLEX ;
 dat+Pron+Dem+Sg+Com:dajna ENDLEX ;
 
 dat+Pron+Dem+Pl+Nom:da ENDLEX ;
-dat+Pron+Dem+Pl+Nom+Use/NG:daha ENDLEX ;
+dat+Pron+Dem+Pl+Nom:daha ENDLEX ;
 dat+Pron+Dem+Pl+Acc:dajt ENDLEX ;
 dat+Pron+Dem+Pl+Acc+Use/NG:dajd ENDLEX ;
 dat+Pron+Dem+Pl+Gen:daj ENDLEX ;
 dat+Pron+Dem+Pl+Ill:dajda ENDLEX ;
-dat+Pron+Dem+Pl+Ine:dajn ENDLEX ;
+dat+Pron+Dem+Pl+Ill:dahajda ENDLEX ; !northern variant
 dat+Pron+Dem+Pl+Ine:dajdne ENDLEX ;
-dat+Pron+Dem+Pl+Ela:dajst ENDLEX ;
-dat+Pron+Dem+Pl+Ela:dajste ENDLEX ;
+dat+Pron+Dem+Pl+Ela:dajjste ENDLEX ;
 dat+Pron+Dem+Pl+Com:daj ENDLEX ;
 
 dat+Pron+Dem+Ess:danen ENDLEX ;
 
+!dát forms (proximal, close)
 dát+Pron+Dem+Sg+Nom:dát ENDLEX ;
 dát+Pron+Dem+Sg+Nom+Use/NG:dáhta ENDLEX ;
 dát+Pron+Dem+Sg+Acc:dáv ENDLEX ;
 dát+Pron+Dem+Sg+Acc+Use/NG:dávva ENDLEX ; !long form when isolated
 dát+Pron+Dem+Sg+Gen:dán ENDLEX ;
 dát+Pron+Dem+Sg+Ill:dása ENDLEX ;
-dát+Pron+Dem+Sg+Ill+Use/NG:däsi ENDLEX ;
-dát+Pron+Dem+Sg+Ine:dán ENDLEX ;
+dát+Pron+Dem+Sg+Ill:däsi ENDLEX ; 
+dát+Pron+Dem+Sg+Ine:dánne ENDLEX ;
 dát+Pron+Dem+Sg+Ela:dásste ENDLEX ;
 dát+Pron+Dem+Sg+Com:dájna ENDLEX ;
 
 dát+Pron+Dem+Pl+Nom:dá ENDLEX ;
+dát+Pron+Dem+Pl+Nom:dáha ENDLEX ;
 dát+Pron+Dem+Pl+Acc:dájt ENDLEX ;
 dát+Pron+Dem+Pl+Acc+Use/NG:dájd ENDLEX ;
 dát+Pron+Dem+Pl+Gen:dáj ENDLEX ;
 dát+Pron+Dem+Pl+Ill:dájda ENDLEX ;
-dát+Pron+Dem+Pl+Ine:dájn ENDLEX ;
-dát+Pron+Dem+Pl+Ine:dájdne ENDLEX ; 
-dát+Pron+Dem+Pl+Ela:dájst ENDLEX ;
-dát+Pron+Dem+Pl+Ela:dájste ENDLEX ;
+dát+Pron+Dem+Pl+Ill:dáhajda ENDLEX ; !northern variant
+dát+Pron+Dem+Pl+Ine:dájdne ENDLEX ;
+dát+Pron+Dem+Pl+Ela:dájjste ENDLEX ;
 dát+Pron+Dem+Pl+Com:dáj ENDLEX ;
 
 dát+Pron+Dem+Ess:dánen ENDLEX ;
 
+!duot forms (farther away)
+duot+Pron+Dem+Sg+Nom:duot ENDLEX ;
+duot+Pron+Dem+Sg+Nom+Use/NG:duohta ENDLEX ;
+duot+Pron+Dem+Sg+Acc:duov ENDLEX ;
+duot+Pron+Dem+Sg+Acc+Use/NG:duovva ENDLEX ; !long form when isolated
+duot+Pron+Dem+Sg+Gen:duon ENDLEX ;
+duot+Pron+Dem+Sg+Ill:duosa ENDLEX ;
+duot+Pron+Dem+Sg+Ill:dusi ENDLEX ; 
+duot+Pron+Dem+Sg+Ine:duänne ENDLEX ;
+duot+Pron+Dem+Sg+Ela:duässte ENDLEX ;
+duot+Pron+Dem+Sg+Com:duojna ENDLEX ;
+
+duot+Pron+Dem+Pl+Nom:duo ENDLEX ;
+!duot+Pron+Dem+Pl+Nom+Use/NG:duoha ENDLEX ;
+duot+Pron+Dem+Pl+Acc:duojt ENDLEX ;
+duot+Pron+Dem+Pl+Acc+Use/NG:duojd ENDLEX ;
+duot+Pron+Dem+Pl+Gen:duoj ENDLEX ;
+duot+Pron+Dem+Pl+Ill:duojda ENDLEX ;
+!duot+Pron+Dem+Pl+Ill:duohajda ENDLEX ; !northern variant
+duot+Pron+Dem+Pl+Ine:duäjdne ENDLEX ;
+duot+Pron+Dem+Pl+Ela:duäjjste ENDLEX ;
+duot+Pron+Dem+Pl+Com:duoj ENDLEX ;
+
+duot+Pron+Dem+Ess:duonen ENDLEX ;
+
+!dut forms (farthest away)
 dut+Pron+Dem+Sg+Nom:dut ENDLEX ;
-dut+Pron+Dem+Sg+Nom+Use/NG:duhta ENDLEX ;
+!dut+Pron+Dem+Sg+Nom+Use/NG:duhta ENDLEX ;
 dut+Pron+Dem+Sg+Acc:duv ENDLEX ;
+!dut+Pron+Dem+Sg+Acc+Use/NG:duvva ENDLEX ; !long form when isolated
 dut+Pron+Dem+Sg+Gen:dun ENDLEX ;
-dut+Pron+Dem+Sg+Ill:dui ENDLEX ;
-dut+Pron+Dem+Sg+Ine:du ENDLEX ;
-dut+Pron+Dem+Sg+Ela:dussta ENDLEX ;
+dut+Pron+Dem+Sg+Ill:dusa ENDLEX ;
+dut+Pron+Dem+Sg+Ill:dusi ENDLEX ;
+dut+Pron+Dem+Sg+Ine:dunne ENDLEX ;
+dut+Pron+Dem+Sg+Ela:dusste ENDLEX ;
 dut+Pron+Dem+Sg+Com:dujna ENDLEX ;
 
 dut+Pron+Dem+Pl+Nom:du ENDLEX ;
+!dut+Pron+Dem+Pl+Nom:duha ENDLEX ;
 dut+Pron+Dem+Pl+Acc:dujt ENDLEX ;
 dut+Pron+Dem+Pl+Acc+Use/NG:dujd ENDLEX ;
 dut+Pron+Dem+Pl+Gen:duj ENDLEX ;
 dut+Pron+Dem+Pl+Ill:dujda ENDLEX ;
-dut+Pron+Dem+Pl+Ine:dujn ENDLEX ;
-dut+Pron+Dem+Pl+Ela:dujs ENDLEX ;
+!dut+Pron+Dem+Pl+Ill:duhajda ENDLEX ; !northern variant
+dut+Pron+Dem+Pl+Ine:dujdne ENDLEX ;
+dut+Pron+Dem+Pl+Ela:dujjste ENDLEX ;
 dut+Pron+Dem+Pl+Com:duj ENDLEX ;
+
+dut+Pron+Dem+Ess:dunen ENDLEX ;
 
 
 
