@@ -443,13 +443,16 @@ guhtimus+Pron+Rel+Ess:guhtimussan ENDLEX ;
 !guhtimus attributiv ställning
 guhtimus+Pron+Rel+Sg+Nom:guhtimus ENDLEX ;
 
+
+
 LEXICON Interrogative   !!= * **@CODE@**
 
-!gie, predikativ ställning
+!gie (who; +HUM)
 gie+Pron+Interr+Sg+Nom:gie ENDLEX ;
 gie+Pron+Interr+Sg+Nom+Use/NG:guhti ENDLEX ; !sje19290000a-qvigstad1929c-17.005
 gie+Pron+Interr+Sg+Acc:giev ENDLEX ;
 gie+Pron+Interr+Sg+Gen:gien ENDLEX ;
+gie+Pron+Interr+Sg+Ill:giesa ENDLEX ;
 gie+Pron+Interr+Sg+Ill:gesi ENDLEX ;
 gie+Pron+Interr+Sg+Ine:gänne ENDLEX ;
 gie+Pron+Interr+Sg+Ela:gässte ENDLEX ;
@@ -461,17 +464,18 @@ gie+Pron+Interr+Pl+Acc+Use/NG:giejd ENDLEX ;
 gie+Pron+Interr+Pl+Gen:giej ENDLEX ;
 gie+Pron+Interr+Pl+Ill:giejda ENDLEX ;
 gie+Pron+Interr+Pl+Ine:gäjdne ENDLEX ;
-gie+Pron+Interr+Pl+Ela:gäjste ENDLEX ;
+gie+Pron+Interr+Pl+Ela:gäjjste ENDLEX ;
 gie+Pron+Interr+Pl+Com:giej ENDLEX ;
 
 gie+Pron+Interr+Ess:gännen ENDLEX ;
 
-!mij predikativ ställning
+!mij (what; -HUM)
 mij+Pron+Interr+Sg+Nom:mij ENDLEX ;
 mij+Pron+Interr+Sg+Acc:mav ENDLEX ;
 mij+Pron+Interr+Sg+Acc+Use/NG:mava ENDLEX ; !long form when isolated !not even mavva
 mij+Pron+Interr+Sg+Gen:man ENDLEX ;
 mij+Pron+Interr+Sg+Ill:masa ENDLEX ;
+mij+Pron+Interr+Sg+Ill:misi ENDLEX ;
 mij+Pron+Interr+Sg+Ine:manne ENDLEX ;
 mij+Pron+Interr+Sg+Ela:masste ENDLEX ;
 mij+Pron+Interr+Sg+Com:majna ENDLEX ;
@@ -482,51 +486,11 @@ mij+Pron+Interr+Pl+Acc+Use/NG:majd ENDLEX ;
 mij+Pron+Interr+Pl+Gen:maj ENDLEX ;
 mij+Pron+Interr+Pl+Ill:majda ENDLEX ;
 mij+Pron+Interr+Pl+Ine:majdne ENDLEX ;
-mij+Pron+Interr+Pl+Ela:majste ENDLEX ;
-mij+Pron+Interr+Pl+Ela:majjste ENDLEX ; ! kanskje
+mij+Pron+Interr+Pl+Ela:majjste ENDLEX ;
 mij+Pron+Interr+Pl+Com:maj ENDLEX ;
 
 mij+Pron+Interr+Ess:manen ENDLEX ;
 
-!!nothing actually differentiates the following set of ATTR for gie and mij from the PRED set above, so I'm commenting it out until there is a reason to keep it (plus it needs different tags)
-!!gie attributiv ställning
-!gie+Pron+Interr+Sg+Nom:gie ENDLEX ;
-!gie+Pron+Interr+Sg+Acc:gudi ENDLEX ;
-!gie+Pron+Interr+Sg+Gen:gien ENDLEX ;
-!gie+Pron+Interr+Sg+Ill:gien ENDLEX ;
-!gie+Pron+Interr+Sg+Ine:gudin ENDLEX ;
-!gie+Pron+Interr+Sg+Ela:gudit ENDLEX ;
-!gie+Pron+Interr+Sg+Com:gudijn ENDLEX ;
-!gie+Pron+Interr+Ess:guhtin ENDLEX ;
-!
-!gie+Pron+Interr+Pl+Nom:gie ENDLEX ;
-!gie+Pron+Interr+Pl+Acc:gudijt ENDLEX ;
-!gie+Pron+Interr+Pl+Acc+Use/NG:gudijd ENDLEX ;
-!gie+Pron+Interr+Pl+Gen:gudij ENDLEX ;
-!gie+Pron+Interr+Pl+Ill:gudijda ENDLEX ;
-!gie+Pron+Interr+Pl+Ine:gudijn ENDLEX ;
-!gie+Pron+Interr+Pl+Ela:gudijst ENDLEX ;
-!gie+Pron+Interr+Pl+Com:gudij ENDLEX ;
-!
-!!mij attributiv ställning
-!mij+Pron+Interr+Sg+Nom:mij ENDLEX ;
-!mij+Pron+Interr+Sg+Acc:mav ENDLEX ;
-!mij+Pron+Interr+Sg+Gen:man ENDLEX ;
-!mij+Pron+Interr+Sg+Ill:man ENDLEX ;
-!mij+Pron+Interr+Sg+Ine:man ENDLEX ;
-!mij+Pron+Interr+Sg+Ela:mat ENDLEX ;
-!mij+Pron+Interr+Sg+Com:majna ENDLEX ;
-!mij+Pron+Interr+Ess:manen ENDLEX ;
-!
-!mij+Pron+Interr+Pl+Nom:ma ENDLEX ;
-!mij+Pron+Interr+Pl+Acc:majt ENDLEX ;
-!mij+Pron+Interr+Pl+Acc+Use/NG:majd ENDLEX ;
-!mij+Pron+Interr+Pl+Gen:maj ENDLEX ;
-!mij+Pron+Interr+Pl+Ill:majda ENDLEX ;
-!mij+Pron+Interr+Pl+Ine:majn ENDLEX ;
-!mij+Pron+Interr+Pl+Ine:majdne ENDLEX ;
-!mij+Pron+Interr+Pl+Ela:majste ENDLEX ;
-!mij+Pron+Interr+Pl+Com:maj ENDLEX ;
 
 
 
