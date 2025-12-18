@@ -143,7 +143,7 @@ dát+Pron+Dem+Pl+Com:dáj ENDLEX ;
 
 dát+Pron+Dem+Ess:dánen ENDLEX ;
 
-!duot forms (farther away)
+!duot forms (more remote, farther away)
 duot+Pron+Dem+Sg+Nom:duot ENDLEX ;
 duot+Pron+Dem+Sg+Nom+Use/NG:duohta ENDLEX ;
 duot+Pron+Dem+Sg+Acc:duov ENDLEX ;
@@ -168,7 +168,7 @@ duot+Pron+Dem+Pl+Com:duoj ENDLEX ;
 
 duot+Pron+Dem+Ess:duonen ENDLEX ;
 
-!dut forms (farthest away)
+!dut forms (most remote, farthest away)
 dut+Pron+Dem+Sg+Nom:dut ENDLEX ;
 !dut+Pron+Dem+Sg+Nom+Use/NG:duhta ENDLEX ;
 dut+Pron+Dem+Sg+Acc:duv ENDLEX ;
@@ -197,6 +197,7 @@ dut+Pron+Dem+Ess:dunen ENDLEX ;
 
 ! Determiners (NOT Demonstrative pronouns!)
 LEXICON Determiner   !!= * **@CODE@**
+!dat forms (distal, default)
 dat+Det+Sg+Nom:dat ENDLEX ;
 dat+Det+Sg+Acc:dav ENDLEX ;
 dat+Det+Sg+Gen:dan ENDLEX ;
@@ -211,13 +212,12 @@ dat+Det+Pl+Acc+Use/NG:dajd ENDLEX ;
 dat+Det+Pl+Gen:daj ENDLEX ;
 dat+Det+Pl+Ill:dajda ENDLEX ;
 dat+Det+Pl+Ine:dajn ENDLEX ;
-dat+Det+Pl+Ine:dajdne ENDLEX ;
 dat+Det+Pl+Ela:dajst ENDLEX ;
-dat+Det+Pl+Ela:dajste ENDLEX ;
 dat+Det+Pl+Com:daj ENDLEX ;
 
 dat+Det+Ess:danen ENDLEX ;
 
+!dát forms (proximal, close)
 dát+Det+Sg+Nom:dát ENDLEX ;
 dát+Det+Sg+Acc:dáv ENDLEX ;
 dát+Det+Sg+Gen:dán ENDLEX ;
@@ -232,28 +232,50 @@ dát+Det+Pl+Acc+Use/NG:dájd ENDLEX ;
 dát+Det+Pl+Gen:dáj ENDLEX ;
 dát+Det+Pl+Ill:dájda ENDLEX ;
 dát+Det+Pl+Ine:dájn ENDLEX ;
-dát+Det+Pl+Ine:dájdne ENDLEX ; 
 dát+Det+Pl+Ela:dájst ENDLEX ;
-dát+Det+Pl+Ela:dájste ENDLEX ;
 dát+Det+Pl+Com:dáj ENDLEX ;
 
 dát+Det+Ess:dánen ENDLEX ;
 
+!duot forms (more remote, farther away)
+duot+Det+Sg+Nom:duot ENDLEX ;
+duot+Det+Sg+Acc:duov ENDLEX ;
+duot+Det+Sg+Gen:duon ENDLEX ;
+duot+Det+Sg+Ill:duon ENDLEX ;
+duot+Det+Sg+Ine:duon ENDLEX ;
+duot+Det+Sg+Ela:duot ENDLEX ;
+duot+Det+Sg+Com:duojna ENDLEX ;
+
+duot+Det+Pl+Nom:duo ENDLEX ;
+duot+Det+Pl+Acc:duojt ENDLEX ;
+duot+Det+Pl+Acc+Use/NG:duojd ENDLEX ;
+duot+Det+Pl+Gen:duoj ENDLEX ;
+duot+Det+Pl+Ill:duojda ENDLEX ;
+duot+Det+Pl+Ine:duojn ENDLEX ;
+duot+Det+Pl+Ela:duojst ENDLEX ;
+duot+Det+Pl+Com:duoj ENDLEX ;
+
+duot+Det+Ess:duonen ENDLEX ;
+
+!duot forms (most remote, farthest away)
 dut+Det+Sg+Nom:dut ENDLEX ;
 dut+Det+Sg+Acc:duv ENDLEX ;
 dut+Det+Sg+Gen:dun ENDLEX ;
-dut+Det+Sg+Ill:dut ENDLEX ;
+dut+Det+Sg+Ill:dun ENDLEX ;
 dut+Det+Sg+Ine:dun ENDLEX ;
 dut+Det+Sg+Ela:dut ENDLEX ;
 dut+Det+Sg+Com:dujna ENDLEX ;
+
 dut+Det+Pl+Nom:du ENDLEX ;
 dut+Det+Pl+Acc:dujt ENDLEX ;
 dut+Det+Pl+Acc+Use/NG:dujd ENDLEX ;
 dut+Det+Pl+Gen:duj ENDLEX ;
 dut+Det+Pl+Ill:dujda ENDLEX ;
 dut+Det+Pl+Ine:dujn ENDLEX ;
-dut+Det+Pl+Ela:dujs ENDLEX ;
+dut+Det+Pl+Ela:dujst ENDLEX ;
 dut+Det+Pl+Com:duj ENDLEX ;
+
+dut+Det+Ess:dunen ENDLEX ;
 
 
 !determiner (but does not inflect, as attr), eg: galga válldet daggár smáva muorajd
