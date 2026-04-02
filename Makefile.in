@@ -959,8 +959,8 @@ $(srcdir)/lemmacount.json:
 $(srcdir)/maturity.json:
 	$(AM_V_GEN)$(GTCORE)/scripts/make-maturity.json.sh $(REPONAME) > $@
 
-$(srcdir)/spellersuggs.json: $(srcdir)/typosreport/report.json
-	$(AM_V_GEN)$(GTCORE)/scripts/make-spellerbadge-json.sh $< > $@
+$(srcdir)/spellersuggs.json:
+	$(AM_V_GEN)$(GTCORE)/scripts/make-spellerbadge-json.sh $(srcdir)/typosreport/report.json > $@
 
 # Convert source filenames to extracted documentation filenames, VPATH safe:
 # ../../../src/fst/morphology/stems/adverbs.lexc => src-fst-morphology-stems-adverbs.lexc.md
