@@ -60,19 +60,19 @@
     "true_negative": 0,
     "slowest_lookup": {
       "secs": 0,
-      "subsec_nanos": 2601917
+      "subsec_nanos": 1397916
     },
     "fastest_lookup": {
       "secs": 0,
-      "subsec_nanos": 2373125
+      "subsec_nanos": 1331083
     },
     "average_time": {
       "secs": 0,
-      "subsec_nanos": 2487521
+      "subsec_nanos": 1364499
     },
     "average_time_95pc": {
       "secs": 0,
-      "subsec_nanos": 2487521
+      "subsec_nanos": 1364499
     },
     "average_position_of_correct": 1.0,
     "average_suggestions_for_correct": 10.0
@@ -128,6 +128,28 @@
           }
         },
         {
+          "value": "jiena",
+          "weight": 23.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 13.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "liena",
+          "weight": 23.0,
+          "weight_details": {
+            "lexicon_weight": 0.0,
+            "mutator_weight": 13.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
           "value": "biva",
           "weight": 24.0,
           "weight_details": {
@@ -170,34 +192,12 @@
             "reweight_mid": 5.0,
             "reweight_end": 10.0
           }
-        },
-        {
-          "value": "jiena",
-          "weight": 28.0,
-          "weight_details": {
-            "lexicon_weight": 0.0,
-            "mutator_weight": 13.0,
-            "reweight_start": 10.0,
-            "reweight_mid": 5.0,
-            "reweight_end": 0.0
-          }
-        },
-        {
-          "value": "liena",
-          "weight": 28.0,
-          "weight_details": {
-            "lexicon_weight": 0.0,
-            "mutator_weight": 13.0,
-            "reweight_start": 10.0,
-            "reweight_mid": 5.0,
-            "reweight_end": 0.0
-          }
         }
       ],
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 2601917
+        "subsec_nanos": 1331083
       },
       "false_accept": false
     },
@@ -320,17 +320,17 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 2373125
+        "subsec_nanos": 1397916
       },
       "false_accept": false
     }
   ],
   "start_timestamp": {
-    "secs": 1775130499,
-    "subsec_nanos": 361584000
+    "secs": 1775160792,
+    "subsec_nanos": 692326000
   },
   "total_time": {
     "secs": 0,
-    "subsec_nanos": 2978291
+    "subsec_nanos": 1633209
   }
 }
