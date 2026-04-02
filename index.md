@@ -18,6 +18,7 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 </div>
 
+
 This page documents the work on the [Pite Sami language model](http://github.com/giellalt/lang-sje). 
 
 The morphological analyser contains the basic vocabulary and morphology, all in all some 9500+ words
