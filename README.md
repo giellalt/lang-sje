@@ -1,12 +1,12 @@
 The Pite Sami morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-sje%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-sje%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-sje%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-sje%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-sje)](https://github.com/giellalt/lang-sje/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-sje/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-sje/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-sje/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-sje/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-sje/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-sje/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-sje?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-sje/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
