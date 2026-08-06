@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-05-07T13:40:31+03:00
+! Generated at: 2026-08-06T16:04:30+02:00
 
 !! # Pite Saami Nouns
 
@@ -489,6 +489,7 @@ gisstá:gisstá N_EVEN "gloves made of reindeer leather (leg leather)" ; ! no. 6
 gisstásuäjdne:gisstá#su^Ojdne N_EVEN "hay for gloves" ; ! no. 5268
 glássa:glássa N_EVEN "ice cream" ; ! no. 529
 glássatjalbme:glássa#tjalbme N_EVEN "glasses, spectacles" ; ! no. 90630
+grammatijjka:grammatijjka N_EVEN "grammar" ; ! no. 91702
 gránna:gránºna N_EVEN "neighbor" ; ! no. 91008
 grásse:grásse N_EVEN "grass" ; ! no. 3604
 grávvtsa:grávvtsa N_EVEN "porridge" ; ! no. 2720
@@ -728,18 +729,21 @@ látjavfuällke:látjav#fu^Ollke N_EVEN "fellow parents-in-law" ; ! no. 6069
 lávvdegåhte:lávvde#gåhte N_EVEN "Saami hut made of boards" ; ! no. 91100
 lávve:lávve N_EVEN "cousin" ; ! no. 1024
 lávvke:lávvke N_EVEN "step, stride" ; ! no. 2619
+leksjuvdna:leksjuvdna N_EVEN "lesson" ; ! no. 91707
 libbja:libbja N_EVEN "hanging decoration" ; ! no. 1033
 lidjá:lidjá N_EVEN "scythe" ; ! no. 4498
 liebma:liebma N_EVEN "bouillon, broth" ; ! no. 2503
 liehke:liehke N_EVEN "dip in the ground" ; ! no. 1029
 liena:liena N_EVEN "province, county" ; ! no. 91160
 lienasmanne:lienas#manºne N_EVEN "sheriff, police officer" ; ! no. 91072
+liera+N+Der/NomAg:lieradieddje N_EVEN "teacher" ; ! no. 91708
 lierra:lierra N_EVEN "leather" ; ! no. 6565
 lihtte:lihtte N_EVEN "container, bowl" ; ! no. 1044
 lijdne:lijdne N_EVEN "scarf, cloth" ; ! no. 1047
 lijjge:lijjge N_EVEN "extra, reserve" ; ! no. 1048
 lijjva:lijjva N_EVEN "life" ; ! no. 91221
 limblánijjbe:limblá#nijjbe N_EVEN "butcher knife" ; ! no. 3031
+litteratuvvra:litteratuvvra N_EVEN "literature" ; ! no. 91704
 livva:livva N_EVEN "rest, break" ; ! no. 90602
 luakkta:lu^Okkta N_EVEN "bay" ; ! no. 2317
 lullegiehtje:lulle#giehtje N_EVEN "eastern end" ; ! no. 4235
@@ -769,6 +773,7 @@ läjjbe:liejjbe N_EVEN "alder" ; ! no. 1101
 läjjbe:liejjbe N_EVEN "flat wooden ladle" ; ! no. 4806
 läjjdishärrge:läjjdis#hierrge N_EVEN "lead reindeer" ; ! no. 2941
 lännska:liennska N_EVEN "police officer" ; ! no. 2587
+läŋŋka:lieŋŋka N_EVEN "link" ; ! no. 91705
 lävvka:lievvka N_EVEN "silty moist clay, expansive clay" ; ! no. 1105
 magasijdna:magasijdna N_EVEN "magazine; storage" ; ! no. 91578
 mahte:mahte N_EVEN "a bit" ; ! no. 90569
@@ -1164,6 +1169,7 @@ sovsähkka:sovsiehkka N_EVEN "sleeping bag" ; ! no. 91670
 spáhkke:spáhkke N_EVEN "unruly reindeer" ; ! no. 3638
 spárrá:spárrá N_EVEN "stick or pin for stretching hide to dry" ; ! no. 2885
 spávvte:spávvte N_EVEN "most lively mating season for reindeer" ; ! no. 1716
+spiella:spiella N_EVEN "game" ; ! no. 91706
 spietjavdákkte:spietjav#dákkte N_EVEN "tailbone" ; ! no. 5121
 spijjka:spijjka N_EVEN "nail" ; ! no. 91435
 spissa:spisºsa N_EVEN "stove" ; ! no. 1723
@@ -1556,7 +1562,7 @@ lähppidak:lä2hppidag2 N_EVEN4 "rennet" ; ! no. 3030
 mánnodak:mánnodag2 N_EVEN4 "Monday" ; ! no. 1135
 mierrádus:mierrádus N_EVEN4 "decision" ; ! no. 5921
 muorratjuoladak:muorra#tju^Oladag2 N_EVEN4 "plot of trees being felled for firewood" ; ! no. 5553
-mållának:mållánag2 N_EVEN4 "expression, dialect, pronunciation" ; ! no. 1202
+mållának:mållánag2 N_EVEN4 "phrase; expression, dialect, pronunciation" ; ! no. 1202
 njalkadak:njalkadag2 N_EVEN4 "slipperiness, slippery road surface" ; ! no. 4196
 njunnudak:njunnudag2 N_EVEN4 "nose halter" ; ! no. 1301
 njuolgadus:nju^Olgadus N_EVEN4 "rule, principle" ; ! no. 90293
@@ -2313,6 +2319,7 @@ lávvlom:lávvlom N_ODD "song" ; ! no. 91564
 lávvotárrat:lávvot#árrad2 N_ODD "Saturday morning" ; ! no. 2474
 libjuk:libjug2 N_ODD "butterfly" ; ! no. 3008
 libluk:liblug2 N_ODD "butterfly" ; ! no. 1034
+lierok:lierog2 N_ODD "student, pupil" ; ! no. 91709
 liggim:liggim N_ODD "birch tree around treeline" ; ! no. 1042
 luoddak:lu^Oddag2 N_ODD "bear skin" ; ! no. 91284
 luodjom:lu^Odjom N_ODD "complaint" ; ! no. 5705
@@ -2452,6 +2459,7 @@ stalldak:stalldag2 N_ODD "reindeer which stays around a homestead" ; ! no. 4493
 stájnak:stájnag2 N_ODD "strong reindeer doe which has never had a calf" ; ! no. 1729
 stálek:stáleg2 N_ODD "reindeer with large white spot on its face" ; ! no. 3355
 stiehpál:stiehpál N_ODD "narrow pointed bay" ; ! no. 2806
+ståhkåm:ståhkåm N_ODD "game" ; ! no. 91703
 suohkan:su^Ohkan N_ODD "municipality" ; ! no. 1767
 suojmek:su^Ojmeg2 N_ODD "slow person" ; ! no. 2650
 suorek:su^Oreg2 N_ODD "fork, forked" ; ! no. 1774
