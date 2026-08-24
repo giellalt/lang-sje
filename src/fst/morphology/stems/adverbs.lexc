@@ -46,6 +46,7 @@ alvosláhkáj adv "frighteningly" ;
 árgan adv ;
 áramusat adv ;
 arrvogisláhkáj adv "in a worthy way" ;
+árradis adv "in the morning" ;
 
 baddjen adv "up" ;
 baddjen+Use/NG:bajjen adv "up" ;
@@ -103,7 +104,7 @@ dehki adv "towards here" ;
 dehki+Use/NG:dehk adv "towards here" ;
 diedon adv ;
 dievva adv ;
-dijbmágit adv "last year" ;
+dijbmá adv "last year" ;
 dis adv "med negation inte längre" ;
 disste adv "med negation inte längre" ;
 duggu adv ;
@@ -132,6 +133,7 @@ färrtláhkáj adv "in every way" ;
 gáddek adv ;
 gájk adv "allra; most of all" ;
 gájk+Use/NG:gajk adv "allra; most of all" ;
+garrasit adv "hard, solidly, stiffly" ;
 gasskat adv ;
 gien adv "either" ; !"neither"?
 gien+Use/NG:gienak adv "either" ; !"neither"?
@@ -180,11 +182,11 @@ ihkenis adv "som helst" ;
 ihkenas adv "som helst" ;
 iednagit adv ;
 iednak adv "much" ;
-iehkedis adv ;
+iehkedis adv "in the evening" ;
 ikktij adv "together" ;
-ikktu adv ;
-ikktu+Use/NG:ekktu adv ; !this potentially is actually the base form, and ikktu is wrong
-ikktu+Use/NG:ukktu adv ;
+ekktu adv "yesterday" ;
+ekktu+Use/NG:ikktu adv "yesterday" ;
+ekktu+Use/NG:ukktu adv "yesterday" ;
 iktuk adv "ensam" ;
 iktuk+Use/NG:uktuk adv "ensam" ;
 iktuk+Use/NG:uktu adv "ensam" ;
@@ -215,7 +217,8 @@ lullelis adv "från öster om" ;
 lulelt adv "österifrån" ;
 luoboj adv "utspridd, löst" ;
 
-maktes adv "hur, på vilket sätt" ;
+makktes adv "hur, på vilket sätt" ;
+makktes+Use/NG:maktes adv "hur, på vilket sätt" ;
 manen adv "varför, till vad, såsom var" ; !essiv av mij
 man adv "how" ; !actually an interr-adv
 maŋŋelin adv ;
@@ -226,9 +229,9 @@ maŋen adv "along with; anbei";
 marje adv "possibly, perhaps" ;
 maŋemus adv "lastly, finally" ;
 maŋemus+Use/NG:miŋimus adv "lastly, finally" ;
-mudiŋ adv "sometimes" ;
-mudiŋ+Use/NG:muhtin adv "sometimes" ;
-mudiŋ+Use/NG:mudin adv "sometimes" ;
+mudin adv "sometimes" ;
+mudin+Use/NG:muhtin adv "sometimes" ;
+mudin+Use/NG:mudiŋ adv "sometimes" ;
 muhtemláhkáj adv "partly" ;
 mäddel adv "förbi" ;
 måddeláhkáj adv "many ways" ;
