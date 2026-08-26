@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-08-25T14:43:20+03:00
+! Generated at: 2026-08-26T13:40:16+03:00
 
 !! # Pite Saami Nouns
 
@@ -1218,6 +1218,7 @@ suakksa:su^Okksa N_EVEN "worm in meat/fish" ; ! no. 4166
 suarbmagåhte:suarbma#gåhte N_EVEN "thimble" ; ! no. 4076
 suavvá:su^Ovºvá N_EVEN "hole dug by a reindeer in the snow" ; ! no. 2561
 subtsas+N+Der/NomAg:subtsastieddje N_EVEN "narrator, storyteller" ; ! no. 91136
+sugorvuassa:sugor#vu^Osºsa N_EVEN "bag of sugar" ; ! no. 5309
 suhkesmällke:suhkes#miellke N_EVEN "sour milk" ; ! no. 4072
 suhpe:suhpe N_EVEN "aspen" ; ! no. 2734
 sunnde:sunnde N_EVEN "official representative" ; ! no. 5371
@@ -1256,7 +1257,6 @@ svärrbe:svierrbe N_EVEN "hard-working (for a man working with reindeer)" ; ! no
 svärrte:svierrte N_EVEN "sword" ; ! no. 4378
 såbbtse:såbbtse N_EVEN "foothold in ice or snow" ; ! no. 4021
 sådje:sådje N_EVEN "wing" ; ! no. 3801
-sågorvuassa:sågor#vu^Osºsa N_EVEN "bag of sugar" ; ! no. 5309
 såhke:såhke N_EVEN "birch" ; ! no. 3318
 såhkedievvá:såhke#dievvá N_EVEN "slope full of birch trees" ; ! no. 5495
 såhkemuorra:såhke#mu^Orra N_EVEN "birchwood" ; ! no. 5584
@@ -2085,13 +2085,13 @@ stárro:stárºro N_EVEN_O "sedge hay" ; ! no. 6570
 ståhpo:ståhpo N_EVEN_O "hut, cabin" ; ! no. 1746
 stänntjo:stienntjo N_EVEN_O "wet clay" ; ! no. 4497
 suohkan+Use/NG:su^Okkno N_EVEN_O "municipality" ; ! no. 90824
+sugorgáhkko:sugor#gáhkko N_EVEN_O "sugar cake" ; ! no. 1816
 sujjto:sujjto N_EVEN_O "care" ; ! no. 3110
 suovasbärrgo:suovas#bierrgo N_EVEN_O "smoked meat" ; ! no. 5150
 surrgo:surrgo N_EVEN_O "sorrow" ; ! no. 1776
 suäjdneråhto:suäjdne#råhto N_EVEN_O "place for harvesting shoe hay" ; ! no. 2812
 svallfo:svallfo N_EVEN_O "swallow" ; ! no. 1793
 svánndo:svánndo N_EVEN_O "Saami from Karesuando" ; ! no. 4151
-sågorgáhkko:sågor#gáhkko N_EVEN_O "sugar cake" ; ! no. 1816
 såhkebárrko:såhke#bárrko N_EVEN_O "birch bark" ; ! no. 3951
 såvvo:såvvo N_EVEN_O "moist, lush deciduous forest area" ; ! no. 3939
 sähkko:siehkko N_EVEN_O "gooey clump of hair around a reindeer hoof" ; ! no. 3772
@@ -2649,8 +2649,8 @@ liepsos:lieppsos N_ODD_VH "fat around the rumen" ; ! no. 90552
 muotkos:mu^Ottkos N_ODD_VH "shard, splinter, fragment" ; ! no. 91081
 sjlåtjos:sjlåhtjos N_ODD_VH "diarrhea" ; ! no. 91302
 sjlåtjos+Use/NG:slåhtjos N_ODD_VH "diarrhea" ; ! no. 1681
+sugor:suhkor N_ODD_VH "sugar" ; ! no. 1815
 suvol:suvvol N_ODD_VH "heat haze" ; ! no. 1780
-sågor:såhkor N_ODD_VH "sugar" ; ! no. 1815
 tjálos:tjállos N_ODD_VH "written text" ; ! no. 90369
 tsábos:tsábos N_ODD_VH "thinly sliced meat" ; ! no. 5902
 tsuojkos:tsu^Ojjkos N_ODD_VH "clear, visible reindeer earmark" ; ! no. 4488

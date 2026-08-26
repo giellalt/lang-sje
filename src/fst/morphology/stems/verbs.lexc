@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-08-23T12:53:15+03:00
+! Generated at: 2026-08-26T13:40:25+03:00
 
 !! # Pite Saami Verbs
 
@@ -259,6 +259,7 @@ stäbbnut:stä2bbnu V_CONTR "sue" ; ! no. 3493
 stäggit:stä2ggi V_CONTR "close, shut" ; ! no. 1750
 stämmpit:stä2mmpi V_CONTR "stomp" ; ! no. 4273
 stänit:stä2ni V_CONTR "stop, stay, remain" ; ! no. 3292
+stävit:stä2vi V_CONTR "spell" ; ! no. 91726
 sjuhppit+Use/NG:suhppi V_CONTR "catch a reindeer with a lasso" ; ! no. 90664
 sujdnit:sujdni V_CONTR "examine, inspect" ; ! no. 3262
 sujdnit:sujdni V_CONTR "harvest hay" ; ! no. 4799
@@ -609,7 +610,7 @@ tjalbmat:tjalbm V_EVEN_A "sight something" ; ! no. 1869
 tjallat:tjall V_EVEN_A "rub and scrape antlers (for reindeer, moose)" ; ! no. 1874
 tjarrvat:tjarrv V_EVEN_A "when crust forms on snow" ; ! no. 1881
 tjábbrat:tjábbr V_EVEN_A "take in as much as possible" ; ! no. 1850
-tjágŋat:tjágŋ V_EVEN_A "get in, climb in" ; ! no. 1857
+tjágŋat:tjágŋ V_EVEN_A "get in, climb in; put on" ; ! no. 1857
 tjállgat:tjállg V_EVEN_A "become stronger" ; ! no. 5661
 tjárrgat:tjárrg V_EVEN_A "fit, have space" ; ! no. 3684
 tjátjástallat:tjátjástall V_EVEN_A "point with a finger" ; ! no. 90675
@@ -1677,6 +1678,7 @@ suarrganit:su^Orrgan V_ODD "become scared" ; ! no. 1775
 subtsastit:subtsast V_ODD "tell" ; ! no. 2888
 suddadit:suddad2 V_ODD "melt, thaw" ; ! no. 1753
 suddodit:suddod2 V_ODD "sin" ; ! no. 2997
+sugordit:sugord2 V_ODD "sugar, sweeten" ; ! no. 5799
 suogŋadit:suogŋad2 V_ODD "crawl back and forth" ; ! no. 5242
 suogŋalit:su^Ogŋal V_ODD "crawl in quickly" ; ! no. 5241
 suoládit:suolád2 V_ODD "steal" ; ! no. 4089
@@ -1693,7 +1695,6 @@ svindastit:svindast V_ODD "sweep with a twig" ; ! no. 1805
 sviŋgodit:sviŋgod2 V_ODD "move back and forth (for trees)" ; ! no. 90665
 sväjjluhit:svä2jjluh V_ODD "be difficult to control, untamed (for reindeer)" ; ! no. 1796
 syhkildit:syhkild2 V_ODD "bicycle" ; ! no. 1810
-sågordit:sågord2 V_ODD "sugar, sweeten" ; ! no. 5799
 såjådit:såjåd2 V_ODD "bend; decline, conjugate" ; ! no. 1819
 sårbmánit:sårbmán V_ODD "perish" ; ! no. 4379
 sårestit:sårest V_ODD "hurt, hurt something, injure" ; ! no. 1825
