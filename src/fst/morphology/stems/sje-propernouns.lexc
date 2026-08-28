@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-08-24T13:46:05+03:00
+! Generated at: 2026-08-28T07:47:55+03:00
 
 !! # Pite Saami ProperNouns
 
@@ -82,8 +82,10 @@ Piera:Piera N_EVEN "Per" ; ! no. 4215
 Rasska:Rasska N_EVEN "Rasska" ; ! no. 90695
 Rájjavárre:Rájja#várre N_EVEN "Rájjavárre" ; ! no. 91132
 Rissájåhkå:Rissá#jåhkå N_EVEN "Rissájåhkå" ; ! no. 91625
+Russi:Rusºsi N_EVEN "Russia" ; ! no. 91737
 Råmmså:Råmmså N_EVEN "Tromsø" ; ! no. 90869
 Rädepvuobme:Rädep#vu^Obme N_EVEN "Rädepvuobme" ; ! no. 91680
+Sábme:Sábme N_EVEN "Sápmi" ; ! no. 91735
 Sáddegávva:Sádde#gávva N_EVEN "Sáddegávva" ; ! no. 91650
 Sádenåjjve:Sáden#åjjve N_EVEN "Sádenåjvve" ; ! no. 91181
 Sáhkavárre:Sáhka#várre N_EVEN "Sáhkavárre" ; ! no. 5905
@@ -97,8 +99,9 @@ Stockhålbmå:Stockhålbmå N_EVEN "Stockholm" ; ! no. 91711
 Stuorlåbme:Stuor#låbme N_EVEN "Stuorluobme" ; ! no. 91088
 Stuornjárrga:Stuor#njárrga N_EVEN "Stuornjárrga" ; ! no. 90698
 Sulitälbma:Sulitielbma N_EVEN "Sulitelma" ; ! no. 90942
-Suobmá:Su^Obmá N_EVEN "Finland" ; ! no. 1760
-Sverdji:Sverdji N_EVEN "Sweden" ; ! no. 1799
+Suobma:Su^Obma N_EVEN "Finland" ; ! no. 1760
+Sverrji+Use/NG:Sverdji N_EVEN "Sweden" ; ! no. 1799
+Sverrji:Sverrji N_EVEN "Sweden" ; ! no. 91736
 Tjivvli:Tjivvli N_EVEN "Övernäs" ; ! no. 91682
 Tjuajjvá:Tju^Ojjvá N_EVEN "Tjuojvvá" ; ! no. 91681
 Tjuvtasvuodna:Tjuvtas#vu^Odna N_EVEN "Tysfjord" ; ! no. 4017
@@ -161,6 +164,7 @@ Tora:Tora N_NAME_noInfl_V "Tora" ; ! no. 91660
 Valle:Valle N_NAME_noInfl_V "Valle" ; ! no. 91675
 Alek:Aleg2 N_ODD "Alek" ; ! no. 91692
 Alits:Alits N_ODD "Alits" ; ! no. 91327
+Anár:Anár N_ODD "Inari" ; ! no. 91740
 Astor:Astor N_ODD "Astor" ; ! no. 91676
 Áhkávárák:Áhkávárág2 N_ODD "inhabitant of Akkavare" ; ! no. 90953
 Árjepluovek+Use/NG:Árjepluoveg2 N_ODD "inhabitant of Arjeplog" ; ! no. 91249
