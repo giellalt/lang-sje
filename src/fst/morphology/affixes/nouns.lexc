@@ -97,7 +97,7 @@ LEXICON N_EVEN_J
 +Pl+Ela+Use/NG:s  K ;
 +Pl+Ill:da  VK ; 
 +Pl+Com:    K ;
-+Pl+Com+Use/NG:gum K ;
++Pl+Com:gum K ;
 +Sg+Com:n K ;         !norm
 +Sg+Com+Use/NG:na VK ; !variant
 
@@ -127,7 +127,7 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Sg+Gen:%> VK ;
 +Sg+Ill:%>j K ;
 +Sg+Ine:%>n K ;
-+Sg+Ela:%>st K ;
++Sg+Ela:%>st K ;	
 +Sg+Ela+Use/NG:%>s K ;
 +Sg+Com:%>jn K ;
 +Sg+Com+Use/NG:%>jna VK ;
@@ -142,7 +142,7 @@ LEXICON N_EVEN4_DEFAULT ! from previous step, plus allows ADJs to dock here
 +Pl+Ela:%>jst K ;
 +Pl+Ela+Use/NG:%>js K ;
 +Pl+Com:%>j K ;
-+Pl+Com+Use/NGminip:%>jgum K ;
++Pl+Com+Use/NG:%>jgum K ;
 : N_EVEN_DIM ; !DIM derivation
 
 
@@ -179,7 +179,7 @@ LEXICON N_JUHAAN ! Juhán, Juhána- (special N-class for loan (proper-)nouns tha
 !+Pl+Ela:asa%>jst K ;
 !+Pl+Ela+Use/NG:asa%>js K ;
 !+Pl+Com:asa%>j K ;
-!+Pl+Com+Use/NGminip:asa%>jgum K ;
+!+Pl+Com+Use/NG:asa%>jgum K ;
 
 
 
@@ -279,7 +279,7 @@ LEXICON N_ODD_X !N_ODD suffixes (X as in suffiX)
 +Pl+Ela:i2%>jst K ;
 +Pl+Ela+Use/NG:i2%>js K ;
 +Pl+Com:i2%>j K ;
-+Pl+Com+Use/NGminip:i2%>jgum K ;
++Pl+Com+Use/NG:i2%>jgum K ;
 
 LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabic adjectives
 +Sg+Acc:u%>v K ;
@@ -301,7 +301,7 @@ LEXICON N_ODD_X_adjCompU !special case for comparative form of certain bisyllabi
 +Pl+Ela:u2%>jst K ;
 +Pl+Ela+Use/NG:u2%>js K ;
 +Pl+Com:u2%>j K ;
-+Pl+Com+Use/NGminip:u2%>jgum K ;
++Pl+Com+Use/NG:u2%>jgum K ;
 +Der/Dimin+N:u2%> N_ODD_DIM_s2 ;
 
 
@@ -349,7 +349,7 @@ LEXICON N_CONTR_O !båtsoj<->buhtsu, suolo<->sullu (except NOM.SG)
 +N+Pl+Ela:u%>jst K ;
 +N+Pl+Ela+Use/NG:u%>js K ;
 +N+Pl+Com:u%>j K ;
-+N+Pl+Com+Use/NGminip:u%>jgum K ;
++N+Pl+Com+Use/NG:u%>jgum K ;
 +N: N_CONTR_O_DIM ; !buhtsutj
 
 LEXICON N_CONTR_AJA !ålmáj<->ålmá
@@ -376,7 +376,7 @@ LEXICON N_CONTR_AJA !ålmáj<->ålmá
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
-+N+Pl+Com+Use/NGminip:á%>jgum K ;
++N+Pl+Com+Use/NG:á%>jgum K ;
 +N: N_CONTR_DIM ; !ålmátj
 
 
@@ -404,7 +404,7 @@ LEXICON N_CONTR_ESAA !sarves<->sarvvá
 +N+Pl+Ela:á%>jst K ;
 +N+Pl+Ela+Use/NG:á%>js K ;
 +N+Pl+Com:á%>j K ;
-+N+Pl+Com+Use/NGminip:á%>jgum K ;
++N+Pl+Com+Use/NG:á%>jgum K ;
 +N: N_CONTR_DIM ; !sarrvátj
 
 
@@ -458,7 +458,7 @@ LEXICON NO_VH_X_s2
 +Pl+Ela:jst K ;
 +Pl+Ela+Use/NG:js K ;
 +Pl+Com:j K ;
-+Pl+Com+Use/NGminip:jgum K ;
++Pl+Com+Use/NG:jgum K ;
 
 
 LEXICON NO_VH_X_PROPER  !monosyllabic proper Ns (no -i- in suffixes)
@@ -484,7 +484,7 @@ LEXICON NO_VH_X_s2_PROPER
 +Pl+Ela:ijst K ;
 +Pl+Ela+Use/NG:ijs K ;
 +Pl+Com:ij K ;
-+Pl+Com+Use/NGminip:ijgum K ;
++Pl+Com+Use/NG:ijgum K ;
 
 
 ! proper noun lexica below:
@@ -522,7 +522,7 @@ LEXICON N_NAME_noInfl_V_s2 !V-final
 +Pl+Ela:jst K ;
 +Pl+Ela+Use/NG:js K ;
 +Pl+Com:j K ;
-+Pl+Com+Use/NGminip:jgum K ;
++Pl+Com+Use/NG:jgum K ;
 !diminutive for V-final names:
 +Der/Dimin+N:%>tj^V2E2AA N_DIM_s2 ;
 
