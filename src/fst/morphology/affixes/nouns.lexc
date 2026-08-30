@@ -70,8 +70,8 @@ N_EVEN_ESS ; ! Essive
 LEXICON N_EVEN_ILL
 +Sg+Ill:%>j^V2E2AA K ; !V2 e->á in ill.sg, dim
 
-LEXICON N_EVEN_ILL_O
-+Sg+Ill+Use/NG:%>j^V2O2U K ; !V2 o->u in ill.sg
+LEXICON N_EVEN_ILL_O !rássjo->rässjuj; ståhpo->stuhpuj
++Sg+Ill:%>j^V2O2U K ; !V2 o->u in ill.sg
 
 LEXICON N_EVEN_ESS
 +Ess:^UAUML%>n K ;
