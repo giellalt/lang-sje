@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-08-30T18:39:25+03:00
+! Generated at: 2026-09-04T18:46:52+03:00
 
 !! # Pite Saami Nouns
 
@@ -583,7 +583,9 @@ harmeguallga:harme#gu^Ollga N_EVEN "eye brow" ; ! no. 90236
 hábme:hábme N_EVEN "characteristic, similarity; form" ; ! no. 5209
 hájjte:hájjte N_EVEN "haste, hurry" ; ! no. 90831
 hákksa:hákksa N_EVEN "steam boat, sailboat, ship" ; ! no. 3188
-hále+N+Der/NomAg:háledieddje N_EVEN "pilot" ; ! no. 5693
+háledimplána:háledimplána N_EVEN "airplane" ; ! no. 91745
+háledäjje+Use/NG:háledieddje N_EVEN "pilot" ; ! no. 5693
+háledäjje:háledäjºje N_EVEN "pilot" ; ! no. 91746
 hárre:hárre N_EVEN "direction, perspective" ; ! no. 818
 hárre:hárºre N_EVEN "greyling" ; ! no. 819
 hárrje:hárrje N_EVEN "hackle" ; ! no. 90235
@@ -648,6 +650,7 @@ juhksáhkká:juhks#áhkká N_EVEN "goddess of the hunt" ; ! no. 4325
 jukksa:jukksa N_EVEN "ski binding" ; ! no. 934
 juovva:ju^Ovva N_EVEN "scree" ; ! no. 2448
 jupptsa:jupptsa N_EVEN "gruel, porridge, soup" ; ! no. 2663
+juvvla:juvvla N_EVEN "wheel" ; ! no. 91747
 juällge:ju^Ollge N_EVEN "leg, foot" ; ! no. 943
 juällgebielle:juällge#bielle N_EVEN "one leg (as opposed to both legs)" ; ! no. 4919
 juällgeblárre:juällge#blárre N_EVEN "the sole of the foot" ; ! no. 944
@@ -1123,7 +1126,7 @@ skruvvta:skruvvta N_EVEN "scrap, rubbish" ; ! no. 5748
 skråvvá:skråvvá N_EVEN "muzzle, gag" ; ! no. 3632
 skuallká:sku^Ollká N_EVEN "piece of wood used to make firewood chips" ; ! no. 2945
 skuhppa:skuhppa N_EVEN "scraper (for scraping out the white inside bark of a fir tree)" ; ! no. 6583
-skuhterväddja:skuhter#vieddja N_EVEN "snowmobile trail" ; ! no. 91683
+skuhtirväddja:skuhtir#vieddja N_EVEN "snowmobile trail" ; ! no. 91683
 skuollá:sku^Ollá N_EVEN "sound, ring" ; ! no. 5210
 skurrki:skurrki N_EVEN "villain" ; ! no. 78
 skåvvlå+Use/NG:skuvvli N_EVEN "school" ; ! no. 91215
@@ -1374,6 +1377,7 @@ tjällde:tjiellde N_EVEN "reindeer herding cooperative" ; ! no. 1985
 tjällka:tjiellka N_EVEN "sled" ; ! no. 2765
 tjänntá:tjienntá N_EVEN "female servant, housemaid" ; ! no. 1987
 tjässka:tjiesska N_EVEN "longitudinal wooden pole for hanging hides" ; ! no. 1988
+tjöhkke:tjöhkke N_EVEN "kitchen" ; ! no. 90706
 tráhppa:tráhppa N_EVEN "stairs" ; ! no. 2900
 truhkke:truhkke N_EVEN "trough" ; ! no. 5304
 tråddjå:tråddjå N_EVEN "shirt, sweater" ; ! no. 1992
@@ -1384,6 +1388,7 @@ tsuabbtsa:tsu^Obbtsa N_EVEN "patch of snow in the mountains, snow bridge over a 
 tsåhke:tsåhke N_EVEN "heart" ; ! no. 2958
 tsåhke:tsåhke N_EVEN "shallow water" ; ! no. 3741
 turissta:turissta N_EVEN "tourist" ; ! no. 91433
+tågå:tågå N_EVEN "train" ; ! no. 91744
 täkksta:tiekksta N_EVEN "text" ; ! no. 4620
 tällta:tiellta N_EVEN "tent" ; ! no. 91307
 udnátjbäjjve:udnátj#biejjve N_EVEN "today" ; ! no. 5612
@@ -1874,7 +1879,7 @@ birrso:birrso N_EVEN_O "gun, rifle" ; ! no. 189
 bivvdo:bivvdo N_EVEN_O "catch, something caught" ; ! no. 6574
 bumullo:bumulºlo N_EVEN_O "cotton" ; ! no. 3370
 bårrgemánno:bårrge#mánno N_EVEN_O "August" ; ! no. 252
-båssjo:båsºsjo N_EVEN_O "kitchen, cooking part of a Saami hut" ; ! no. 258
+båssjo:båsºsjo N_EVEN_O "kitchen, cooking area in a Saami hut" ; ! no. 258
 båtsojbarrgo:båtsoj#barrgo N_EVEN_O "reindeer husbandry" ; ! no. 5544
 båtsojviesso:båtsoj#viesso N_EVEN_O "reindeer husbandry" ; ! no. 91164
 bäbbmo:biebbmo N_EVEN_O "food, feed" ; ! no. 266
@@ -1982,7 +1987,7 @@ liessjo:liessjo N_EVEN_O "den, lair" ; ! no. 4529
 lihkko:lihkko N_EVEN_O "happiness" ; ! no. 2431
 lihtto:lihtto N_EVEN_O "arranged meeting" ; ! no. 1045
 lissto:lissto N_EVEN_O "list; narrow trim along the bottom of a Saami frock" ; ! no. 1052
-luajjdo:lu^Ojjdo N_EVEN_O "sitting area in a kåta" ; ! no. 1057
+luajjdo:lu^Ojjdo N_EVEN_O "area in a Saami hut around the fireplace" ; ! no. 1057
 luvvko:luvvko N_EVEN_O "cape (clothing for bad weather)" ; ! no. 5483
 máhto:máhto N_EVEN_O "worm, grub" ; ! no. 1113
 májdno:májdno N_EVEN_O "praise, renown, credit" ; ! no. 3256
@@ -2239,6 +2244,7 @@ febir:febir N_ODD "fever" ; ! no. 4049
 ferrum:ferrum N_ODD "dead animal that a predator rolls in mud" ; ! no. 4501
 fiellas:fiellas N_ODD "journney, trip, travel" ; ! no. 91543
 fijnak:fijnag2 N_ODD "ptarmigan with chics not yet able to fly" ; ! no. 5868
+finnstur:finnstur N_ODD "window" ; ! no. 91742
 fluhttim:fluhttim N_ODD "log driving, timber running" ; ! no. 91539
 fridjár:fridjár N_ODD "suitor, beau" ; ! no. 91337
 fridjár+Use/NG:frijjár N_ODD "suitor, beau" ; ! no. 91336
@@ -2456,7 +2462,7 @@ skiddnak:skiddnag2 N_ODD "sickly, thin reindeer" ; ! no. 1629
 skijun:skijun N_ODD "loudspeaker" ; ! no. 1638
 skirvon:skirvon N_ODD "reindeer skeleton remained after being killed by a predator" ; ! no. 1643
 skubmuk:skubmug2 N_ODD "mouth protection" ; ! no. 5911
-skuhter+Use/NG:skuhtter N_ODD "snowmobile" ; ! no. 91285
+skuhtir:skuhtir N_ODD "snowmobile" ; ! no. 90946
 skulldik:skulldig2 N_ODD "rascal, mischief-maker" ; ! no. 3511
 skuvlik:skuvlig2 N_ODD "teacher" ; ! no. 3959
 skåddås:skåddås N_ODD "leg protection (made of leather)" ; ! no. 1651
@@ -2634,7 +2640,6 @@ nieljes:nielljes N_ODD_V2E2AA "foursome" ; ! no. 5003
 báhper+Use/NG:páhpper N_ODD_V2E2AA "paper" ; ! no. 90700
 sáddebáhper:sádde#báhpper N_ODD_V2E2AA "sandpaper" ; ! no. 1468
 sáhpes:sáhppes N_ODD_V2E2AA "small intestine" ; ! no. 90311
-skuhter:skuhtter N_ODD_V2E2AA "snowmobile" ; ! no. 90946
 vuanntsáåres:vuanntsá#årres N_ODD_V2E2AA "rooster, cock" ; ! no. 2186
 vuonjes:vu^Odnjes N_ODD_V2E2AA "mallard (duck)" ; ! no. 2185
 åres:årres N_ODD_V2E2AA "reindeer bull" ; ! no. 5914
