@@ -298,8 +298,8 @@ LEXICON 1DUPRS
 LEXICON 2DUPRS
 +Ind+Prs+Du2:%>bähtten ENDLEX;
 LEXICON 3DUPRS
-+Ind+Prs+Du3:%>ban ENDLEX ;
-+Ind+Prs+Du3+Use/NG:%>ba ENDLEX ;
++Ind+Prs+Du3:%>ba ENDLEX ;
++Ind+Prs+Du3+Use/NG:%>ban ENDLEX ;
 LEXICON 1PLPRS
 +Ind+Prs+Pl1:%>p ENDLEX;
 LEXICON 2PLPRS
@@ -320,8 +320,8 @@ LEXICON 2DUPRT
 +Ind+Prt+Du2:%>jden ENDLEX;
 +Ind+Prt+Du2+Use/NG:%>jde ENDLEX ;
 LEXICON 3DUPRT
-+Ind+Prt+Du3:%>jgan ENDLEX;
-+Ind+Prt+Du3+Use/NG:%>jga ENDLEX ;
++Ind+Prt+Du3:%>jga ENDLEX;
++Ind+Prt+Du3+Use/NG:%>jgan ENDLEX ;
 LEXICON 1PLPRT
 +Ind+Prt+Pl1:%>jme ENDLEX;
 LEXICON 2PLPRT
@@ -415,8 +415,8 @@ LEXICON V_ODD !ságastit
 +V+Ind+Prt+Du1+Use/NG:i%>jme ENDLEX ;
 +V+Ind+Prt+Du2:i%>jden ENDLEX ;
 +V+Ind+Prt+Du2+Use/NG:i%>jde ENDLEX ;
-+V+Ind+Prt+Du3:i%>jgan ENDLEX ;
-+V+Ind+Prt+Du3+Use/NG:i%>jga ENDLEX ;
++V+Ind+Prt+Du3:i%>jga ENDLEX ;
++V+Ind+Prt+Du3+Use/NG:i%>jgan ENDLEX ;
 +V+Ind+Prt+Pl1:i%>jme ENDLEX ;
 +V+Ind+Prt+Pl2:i%>jde ENDLEX ;
 +V+Ind+Prt+Pl3:i%>n ENDLEX ; 
@@ -466,8 +466,8 @@ LEXICON V_ODD_UT ! vierábut, giehpebut (Adj+Comp+Inf) !most of these suffixes s
 +V+Ind+Prt+Du1+Use/NG:i%>jme ENDLEX ;
 +V+Ind+Prt+Du2:i%>jden ENDLEX ;
 +V+Ind+Prt+Du2+Use/NG:i%>jde ENDLEX ;
-+V+Ind+Prt+Du3:i%>jgan ENDLEX ;
-+V+Ind+Prt+Du3+Use/NG:i%>jga ENDLEX ;
++V+Ind+Prt+Du3:i%>jga ENDLEX ;
++V+Ind+Prt+Du3+Use/NG:i%>jgan ENDLEX ;
 +V+Ind+Prt+Pl1:i%>jme ENDLEX ;
 +V+Ind+Prt+Pl2:i%>jde ENDLEX ;
 +V+Ind+Prt+Pl3:i%>n ENDLEX ; 
@@ -531,8 +531,8 @@ LEXICON V_CONTR !välldut, tjerrut
 +V+Ind+Prt+Du1+Use/NG:%>jme ENDLEX ;
 +V+Ind+Prt+Du2:%>jden ENDLEX ;
 +V+Ind+Prt+Du2+Use/NG:%>jde ENDLEX ;
-+V+Ind+Prt+Du3:%>jgan ENDLEX ;
-+V+Ind+Prt+Du3+Use/NG:%>jga ENDLEX ;
++V+Ind+Prt+Du3:%>jga ENDLEX ;
++V+Ind+Prt+Du3+Use/NG:%>jgan ENDLEX ;
 +V+Ind+Prt+Pl1:%>jme ENDLEX ;
 +V+Ind+Prt+Pl2:%>jde ENDLEX ;
 +V+Ind+Prt+Pl3:%>jin ENDLEX ; 
@@ -613,8 +613,8 @@ LEXICON LEPRS !!= * @CODE@
 +Sg3:'l ENDLEX ; !enclitic (only attaches to vowel-final preceding word) !apostrophe tokenized separately, which is not ideal
 +Du1:lin ENDLEX ; 
 +Du2:lähppen ENDLEX ;  
-+Du3:läban ENDLEX ; 
-+Du3+Use/NG:läba ENDLEX ; 
++Du3:läba ENDLEX ; 
++Du3+Use/NG:läban ENDLEX ; 
 +Pl1:läp ENDLEX ; 
 +Pl1+Use/NG:lip ENDLEX ; 
 +Pl2:lihpit ENDLEX ; 
@@ -633,8 +633,8 @@ LEXICON LEPRT !!= * @CODE@
 +Du1+Use/NG:lijme ENDLEX ; 
 +Du2:lijden ENDLEX ;
 +Du2+Use/NG:lijde ENDLEX ;
-+Du3:lijgan ENDLEX ;
-+Du3+Use/NG:lijga ENDLEX ; 
++Du3:lijga ENDLEX ;
++Du3+Use/NG:lijgan ENDLEX ; 
 +Pl1:lijme ENDLEX ; 
 +Pl2:lijde ENDLEX ;
 +Pl3:lin ENDLEX ; 
@@ -653,7 +653,7 @@ LEXICON LEPOT
 +Du1:lidtjin ENDLEX ; 
 +Du2:lidtjabähttin ENDLEX ; 
 +Du3:lidtjaba ENDLEX ; 
-+Du3:lidtjaban ENDLEX ; 
++Du3+Use/NG:lidtjaban ENDLEX ; 
 +Pl1:lidtjap ENDLEX ;  
 +Pl2:lidtjabihtit ENDLEX ; 
 +Pl3:lidtji ENDLEX ; 
@@ -680,7 +680,8 @@ LEXICON IJPRS !!= * @CODE@
 +Du1+Use/NG:en ENDLEX ; 
 +Du2:iehpen ENDLEX ;   
 +Du2+Use/NG:ehpen ENDLEX ;   
-+Du3:ieban ENDLEX ; 
++Du3:ieba ENDLEX ; 
++Du3+Use/NG:ieban ENDLEX ; 
 +Du3+Use/NG:ieb ENDLEX ; 
 +Du3+Use/NG:eba ENDLEX ; 
 +Pl1:iep ENDLEX ; 
@@ -703,8 +704,8 @@ LEXICON IJPRT !!= * @CODE@
 +Du2+Use/NG:ijde ENDLEX ; 
 +Du2+Use/NG:idtjijden  ENDLEX ; 
 +Du2+Use/NG:idtjijde  ENDLEX ; 
-+Du3:iejgan 3DUPRT ; 
-+Du3+Use/NG:iejga 3DUPRT ; 
++Du3:iejga 3DUPRT ; 
++Du3+Use/NG:iejgan 3DUPRT ; 
 +Pl1:iejme ENDLEX ; 
 +Pl1+Use/NG:ijme ENDLEX ; 
 +Pl1+Use/NG:idtjijme ENDLEX ; 
