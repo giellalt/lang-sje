@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-08-26T13:40:25+03:00
+! Generated at: 2026-09-05T13:23:38+03:00
 
 !! # Pite Saami Verbs
 
@@ -727,6 +727,7 @@ gásskegåhtet:gásskegåht V_EVEN_E "begin biting" ; ! no. 4398
 gássket:gássk V_EVEN_E "bite, chew; castrate" ; ! no. 3279
 gibbnjet:gibbnj V_EVEN_E "hang up" ; ! no. 603
 giesset:giess V_EVEN_E "drag, pull" ; ! no. 601
+gijjget:gijjg V_EVEN_E "glitter, shine, glisten" ; ! no. 91753
 gijjtet:gijjt V_EVEN_E "thank" ; ! no. 3866
 ginugahttet:ginugahtt V_EVEN_E "stop, come to a stop" ; ! no. 4399
 gunádahttet:gunádahtt V_EVEN_E "say goodbye" ; ! no. 5829
