@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "info": {
+      "locale": "sje",
+      "title": [
+        {
+          "lang": null,
+          "$value": "Pite Sami spellchecker"
+        }
+      ],
+      "description": "A spellchecker for Pite Sami, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway.",
+      "producer": "Giellatekno/Divvun/UiT contributors"
+    },
+    "acceptor": {
+      "type": "general",
+      "id": "acceptor.default.hfst",
+      "title": [
+        {
+          "lang": null,
+          "$value": "Pite Sami speller lexicon"
+        }
+      ],
+      "description": "Pite Sami speller lexicon compiled with HFST.",
+      "continuation": null
+    },
+    "errmodel": {
+      "id": "errmodel.default.hfst",
+      "title": [
+        {
+          "lang": null,
+          "$value": "Pite Sami error model"
+        }
+      ],
+      "description": "Error model for Pite Sami."
+    }
+  },
+  "config": {
+    "n-best": 10,
+    "max-weight": 10000.0,
+    "beam": null,
+    "reweight": {
+      "start-penalty": 10.0,
+      "end-penalty": 10.0,
+      "mid-penalty": 5.0
+    },
+    "node-pool-size": 128,
+    "recase": true,
+    "completion-marker": null
+  },
+  "summary": {
+    "total_words": 2,
+    "first_position": 2,
+    "top_five": 2,
+    "any_position": 2,
+    "no_suggestions": 0,
+    "only_wrong": 0,
+    "false_accept": 0,
+    "true_positive": 2,
+    "false_negative": 0,
+    "true_negative": 0,
+    "slowest_lookup": {
+      "secs": 0,
+      "subsec_nanos": 1682154
+    },
+    "fastest_lookup": {
+      "secs": 0,
+      "subsec_nanos": 1469129
+    },
+    "average_time": {
+      "secs": 0,
+      "subsec_nanos": 1575641
+    },
+    "average_time_95pc": {
+      "secs": 0,
+      "subsec_nanos": 1575641
+    },
+    "average_position_of_correct": 1.0,
+    "average_suggestions_for_correct": 10.0
+  },
+  "results": [
+    {
+      "input": "bena",
+      "expected": "biena",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "biena",
+          "weight": 8.0
+        },
+        {
+          "value": "bieja",
+          "weight": 23.0
+        },
+        {
+          "value": "biera",
+          "weight": 23.0
+        },
+        {
+          "value": "biesa",
+          "weight": 23.0
+        },
+        {
+          "value": "biva",
+          "weight": 24.0
+        },
+        {
+          "value": "biena-",
+          "weight": 28.0
+        },
+        {
+          "value": "bieno",
+          "weight": 28.0
+        },
+        {
+          "value": "båná",
+          "weight": 28.0
+        },
+        {
+          "value": "jiena",
+          "weight": 28.0
+        },
+        {
+          "value": "liena",
+          "weight": 28.0
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 1469129
+      },
+      "false_accept": false
+    },
+    {
+      "input": "iddja",
+      "expected": "idja",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "idja",
+          "weight": 15.0
+        },
+        {
+          "value": "iedjá",
+          "weight": 28.0
+        },
+        {
+          "value": "ideda",
+          "weight": 30.0
+        },
+        {
+          "value": "idetja",
+          "weight": 30.0
+        },
+        {
+          "value": "idijga",
+          "weight": 30.0
+        },
+        {
+          "value": "áddjá",
+          "weight": 33.0
+        },
+        {
+          "value": "gidda",
+          "weight": 35.0
+        },
+        {
+          "value": "idij",
+          "weight": 35.0
+        },
+        {
+          "value": "idja-",
+          "weight": 35.0
+        },
+        {
+          "value": "dija",
+          "weight": 40.0
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 1682154
+      },
+      "false_accept": false
+    }
+  ],
+  "start_timestamp": {
+    "secs": 1788616265,
+    "subsec_nanos": 162575092
+  },
+  "total_time": {
+    "secs": 0,
+    "subsec_nanos": 2451534
+  }
+}
