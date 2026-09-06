@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-05T12:35:31+03:00
+! Generated at: 2026-09-06T18:02:55+03:00
 
 !! # Pite Saami Nouns
 
@@ -2148,7 +2148,7 @@ värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
 ålbmábarrgo:ålbmá#barrgo N_EVEN_O "men’s work, typical male activities" ; ! no. 4208
 årromviesso:årrom#viesso N_EVEN_O "place of residence" ; ! no. 4798
 årrvo:årrvo N_EVEN_O "scythe handle" ; ! no. 3789
-årråjagmánno:årrå#jag#mánno N_EVEN_O "January" ; ! no. 2234
+årråjakmánno:årrå#jak#mánno N_EVEN_O "January" ; ! no. 2234
 årråmánno:årrå#mánno N_EVEN_O "new moon" ; ! no. 5872
 åsstobäbbmo:åssto#biebbmo N_EVEN_O "pre-cooked food, instant food" ; ! no. 4591
 hällsosentrálá:hällso#sentrálá N_NAME_noInfl_V "health center; hospital" ; ! no. 91477
@@ -2365,6 +2365,7 @@ mierek:miereg2 N_ODD "spawning fish with roe" ; ! no. 5094
 mierrem:mierrem N_ODD "roe" ; ! no. 90434
 miesak:miesag2 N_ODD "reindeer doe which has a calf" ; ! no. 1162
 miessák:miesság2 N_ODD "reindeer calf's winter hide" ; ! no. 4259
+miessemärrkom:miessemärrkom N_ODD "calf marking activity" ; ! no. 6654
 minjitj:minjitj N_ODD "respective daughter-in-law" ; ! no. 90276
 mirrgem:mirrgem N_ODD "rose root" ; ! no. 90280
 misåmmár:misåmmár N_ODD "midsommer" ; ! no. 4264
