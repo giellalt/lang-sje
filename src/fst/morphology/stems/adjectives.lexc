@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2025-06-22T11:48:58+01:00
+! Generated at: 2026-09-08T19:10:10+03:00
 
 !! # Pite Saami Adjectives
 
@@ -83,7 +83,6 @@ tjáhppat:tjáhpp A_BLAAVVAT "black" ; ! no. 1860
 visskat:vissk A_BLAAVVAT "yellow" ; ! no. 2132
 vällgat:vällg A_BLAAVVAT "white" ; ! no. 2118
 buossje:bu^Ossje A_BUOSSJE "fearless, harsh" ; ! no. 218
-guhkke:guhkke A_BUOSSJE "long" ; ! no. 662
 gähppe:giehppe A_BUOSSJE "light, lightweight" ; ! no. 782
 hiedjo:hiedjo A_BUOSSJE "poor" ; ! no. 828
 hådje:hådje A_BUOSSJE "sad, mournful" ; ! no. 90550
@@ -169,6 +168,7 @@ maŋŋe:maŋŋe A_NUORRA "after" ; ! no. 91011
 nuorra:nu^Orra A_NUORRA "young" ; ! no. 1323
 sällde:siellde A_NUORRA "terrible, huge, enormous" ; ! no. 1839
 sjävdnjet:sjievdnje A_SJAEVDNJET "dark" ; ! no. 3301
+guhkke:guhkk A_SMAAVVE "long" ; ! no. 662
 njállge:njállg A_SMAAVVE "tasty, delicious" ; ! no. 2323
 smávve:smávv A_SMAAVVE "small, little" ; ! no. 90347
 stuores:stu^Orr A_STUORES "big" ; ! no. 1742
@@ -225,7 +225,7 @@ vuojnodibme:vuojnod A_xDIBME "invisible" ; ! no. 91520
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 åjvedibme:åjved A_xDIBME "headless; dumb" ; ! no. 91140
 ådne:ådne A_ÅNEGIS "short" ; ! no. 2235
-guhkke+Use/NG+A+Attr:guhka K "long" ; ! no. 90547
+guhkke+Use/NG+A+Attr:guhkes K "long" ; ! no. 90830
 jallgat+Use/NG+A+Attr:jallga K "even, level, flat" ; ! no. 90798
 jårrbås+Use/NG+A+Attr:jårrbå K "round, undivided" ; ! no. 90857
 
