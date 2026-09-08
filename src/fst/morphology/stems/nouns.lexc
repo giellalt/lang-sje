@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-06T18:02:55+03:00
+! Generated at: 2026-09-08T19:36:11+03:00
 
 !! # Pite Saami Nouns
 
@@ -551,6 +551,7 @@ gållge:gållge N_EVEN "vagabond" ; ! no. 753
 gållgedávvda:gållge#dávvda N_EVEN "plague, epidemic" ; ! no. 4014
 gållse:gållse N_EVEN "merganser" ; ! no. 756
 gårdneåjjve:gårdne#åjjve N_EVEN "ear (of grain)" ; ! no. 3181
+gårobielle:gåro#bielle N_EVEN "left, left side" ; ! no. 91760
 gåttkå+Use/NG:gårrkå N_EVEN "ant" ; ! no. 90566
 gårrså:gårrså N_EVEN "waterfall" ; ! no. 2600
 gårrtje:gårrtje N_EVEN "ravine with a small creek" ; ! no. 3185
@@ -1508,6 +1509,7 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 åjválatj+A+Der/State:åjválatjvu^Ohta N_EVEN "talent" ; ! no. 3239
 åkkse:åkkse N_EVEN "branch" ; ! no. 2488
 åkkte:åkkte N_EVEN "thundershower, rain shower" ; ! no. 5036
+ålgesbielle:ålges#bielle N_EVEN "right, right side" ; ! no. 91758
 ållge:ållge N_EVEN "shoulder" ; ! no. 2255
 ånegisbåkkså:ånegis#båkkså N_EVEN "shorts" ; ! no. 90631
 åresmiesse:åres#miesse N_EVEN "male calf" ; ! no. 4595
