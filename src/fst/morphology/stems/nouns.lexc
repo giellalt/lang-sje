@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-08T19:36:11+03:00
+! Generated at: 2026-09-10T19:09:59+03:00
 
 !! # Pite Saami Nouns
 
@@ -685,6 +685,7 @@ knáhppa:knáhppa N_EVEN "button" ; ! no. 5820
 knikkta:knikkta N_EVEN "soldier" ; ! no. 5818
 komuvdna:komuvdna N_EVEN "municipality" ; ! no. 976
 konjáhkka:konjáhkka N_EVEN "cognac" ; ! no. 91318
+konsesjuvdnatjällde:konsesjuvdna#tjiellde N_EVEN "concession reindeer herding cooperative" ; ! no. 91763
 konsonánnta:konsonánnta N_EVEN "consonant" ; ! no. 91723
 kráhka:kráhka N_EVEN "collar" ; ! no. 6639
 kreatuvvra:kreatuvvra N_EVEN "cattle, livestock (not reindeer)" ; ! no. 91217
@@ -1431,6 +1432,7 @@ várrebákkte:várre#bákkte N_EVEN "mountain slope" ; ! no. 2087
 várregrásse:várre#grásse N_EVEN "alpine grass" ; ! no. 5583
 várresábme:várre#sábme N_EVEN "mountain Saami" ; ! no. 2717
 várretjåhkkå:várre#tjåhkkå N_EVEN "mountain top, peak, summit" ; ! no. 2088
+várretjällde:várre#tjiellde N_EVEN "mountain reindeer herding cooperative" ; ! no. 91761
 várrja+N+Der/NomAg:várrjalieddje N_EVEN "guardian" ; ! no. 3265
 viega:viega N_EVEN "road" ; ! no. 4137
 vierra:vierra N_EVEN "esker; wheel; ski pole basket" ; ! no. 2108
@@ -1480,6 +1482,7 @@ vuässe:vu^Osºse N_EVEN "handle on a pot or pan" ; ! no. 5485
 vuässtebuallda:vuässte#bu^Ollda N_EVEN "uphill slope" ; ! no. 5487
 vuässtemiella:vuässte#miella N_EVEN "aversion, reluctance" ; ! no. 2214
 vuävvde:vu^Ovvde N_EVEN "forest, woods" ; ! no. 6043
+vuävvdetjällde:vuävvde#tjiellde N_EVEN "forest reindeer herding cooperative" ; ! no. 91762
 väddegárre:vädde#gárre N_EVEN "bowl woven out of roots" ; ! no. 5237
 viega+Use/NG:vieddja N_EVEN "road, trail" ; ! no. 91268
 vähkke:viehkke N_EVEN "help, assistance" ; ! no. 2218
