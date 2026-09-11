@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-08T19:15:49+03:00
+! Generated at: 2026-09-11T18:52:41+03:00
 
 !! # Pite Saami Adjectives
 
@@ -180,6 +180,7 @@ basske:basske A_TJAEHPPE "tight, not big enough" ; ! no. 2512
 buäjjde:bu^Ojjde A_TJAEHPPE "fat" ; ! no. 90797
 fávvro:fávvro A_TJAEHPPE "beautiful, attractive" ; ! no. 472
 gallje:gallje A_TJAEHPPE "wide, spacious" ; ! no. 3783
+guhkke:guhkke A_TJAEHPPE "long" ; ! no. 90830
 gävvra:gievvra A_TJAEHPPE "strong" ; ! no. 797
 låjje:låjje A_TJAEHPPE "calm, tame" ; ! no. 4964
 tjähppe:tjiehppe A_TJAEHPPE "clever, intelligent, skilled" ; ! no. 1983
@@ -226,7 +227,6 @@ vuojnodibme:vuojnod A_xDIBME "invisible" ; ! no. 91520
 vuorbedibme:vuorbed A_xDIBME "unlucky" ; ! no. 5291
 åjvedibme:åjved A_xDIBME "headless; dumb" ; ! no. 91140
 ådne:ådne A_ÅNEGIS "short" ; ! no. 2235
-guhkke+Use/NG+A+Attr:guhkes K "long" ; ! no. 90830
 jallgat+Use/NG+A+Attr:jallga K "even, level, flat" ; ! no. 90798
 jårrbås+Use/NG+A+Attr:jårrbå K "round, undivided" ; ! no. 90857
 
