@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-08T19:35:28+03:00
+! Generated at: 2026-09-11T13:02:12+03:00
 
 !! # Pite Saami Verbs
 
@@ -320,32 +320,41 @@ värrit:vä2rri V_CONTR "be careful" ; ! no. 2226
 allvaduvvut:allvaduvv V_CONTR_UVVUT "be perplexed" ; ! no. 3282
 álgeduvvut:álgeduvv V_CONTR_UVVUT "begin" ; ! no. 6017
 bájneduvvut:bájneduvv V_CONTR_UVVUT "get painted" ; ! no. 90149
+báktjaguvvut:báktjaguvv V_CONTR_UVVUT "be in pain" ; ! no. 91764
 bálkestuvvut:bálkestuvv V_CONTR_UVVUT "be thrown" ; ! no. 2507
 báneduvvut:báneduvv V_CONTR_UVVUT "became toothless" ; ! no. 90150
 biejaduvvut:biejaduvv V_CONTR_UVVUT "be put aside" ; ! no. 90151
 bieljeduvvut:bieljeduvv V_CONTR_UVVUT "become deaf" ; ! no. 175
 bievastuvvut:bievastuvv V_CONTR_UVVUT "become sweaty" ; ! no. 6084
 bijnastuvvut:bijnastuvv V_CONTR_UVVUT "be tortured" ; ! no. 4217
+buhtsujtuvvut:buhtsujtuvv V_CONTR_UVVUT "get a lot of reindeer" ; ! no. 91770
 burgoduvvut:burgoduvv V_CONTR_UVVUT "be forbidden" ; ! no. 90153
-dagaduvvut:dagaduvv V_CONTR_UVVUT "be done" ; ! no. 90154
-dahkaduvvut:dahkaduvv V_CONTR_UVVUT "be done, be made" ; ! no. 91278
+dagaduvvut:dagaduvv V_CONTR_UVVUT "be done, be made" ; ! no. 90154
 dielmoduvvut:dielmoduvv V_CONTR_UVVUT "be trampled, stomped on" ; ! no. 5533
 dubdiduvvut:dubdiduvv V_CONTR_UVVUT "mark, characterize" ; ! no. 5679
 fámoduvvut:fámoduvv V_CONTR_UVVUT "become powerless, strengthless" ; ! no. 4187
+fuolkajtuvvut:fu^Olkajtuvv V_CONTR_UVVUT "have a larger and larger family" ; ! no. 91772
+gávkaguvvut:gávkaguvv V_CONTR_UVVUT "become boring" ; ! no. 91765
 gieladuvvut:gieladuvv V_CONTR_UVVUT "loose one’s voice, become hoarse" ; ! no. 3876
 gåhtjoduvvut:gåhtjoduvv V_CONTR_UVVUT "be commanded, be called" ; ! no. 3231
-idjaduvvut:idjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91085
+hapsaguvvut:hapsaguvv V_CONTR_UVVUT "become smelly, take on an odor" ; ! no. 91766
+ijaduvvut+Use/NG:idjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91085
 ieljaduvvut:ieljaduvv V_CONTR_UVVUT "be weak" ; ! no. 5892
 ietjájduvvut:ietjájduvv V_CONTR_UVVUT "be changed" ; ! no. 4634
-idjaduvvut+Use/NG:ijjaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91086
+ijaduvvut:ijaduvv V_CONTR_UVVUT "be forced to sleep over due to the (suprizing) onset of night" ; ! no. 91086
+jámalguvvut:jámalguvv V_CONTR_UVVUT "lose consciousness, pass out" ; ! no. 91769
+jámeduvvut:jámeduvv V_CONTR_UVVUT "be killed" ; ! no. 91775
 juogeduvvut:ju^Ogeduvv V_CONTR_UVVUT "be divided up, be distributed" ; ! no. 91408
+lieraduvvut:lieraduvv V_CONTR_UVVUT "be taught, instructed" ; ! no. 91776
 lånestuvvut:lånestuvv V_CONTR_UVVUT "be saved, be redeemed" ; ! no. 4135
+málestuvvut:málestuvv V_CONTR_UVVUT "be cooked, boiled" ; ! no. 91774
 mierreduvvut:mierreduvv V_CONTR_UVVUT "be decided, be intended" ; ! no. 90277
 måraduvvut:måraduvv V_CONTR_UVVUT "become angry" ; ! no. 91325
 nagerduvvut:nagerduvv V_CONTR_UVVUT "become sleepy" ; ! no. 1232
 nammaduvvut:nammaduvv V_CONTR_UVVUT "be named" ; ! no. 91444
 nággeduvvut:nággeduvv V_CONTR_UVVUT "be forced, be pressed" ; ! no. 91067
 náraduvvut:náraduvv V_CONTR_UVVUT "be nailed, be plugged" ; ! no. 91434
+ninusmuvvut:ninusmuvv V_CONTR_UVVUT "become strong, solid, lasting" ; ! no. 91773
 sjuvtjaguvvut:sjuvtjaguvv V_CONTR_UVVUT "be frostbitten" ; ! no. 5405
 tjalmeduvvut:tjalmeduvv V_CONTR_UVVUT "go blind, lose vision" ; ! no. 1876
 tjálleduvvut:tjálleduvv V_CONTR_UVVUT "be written" ; ! no. 91162
@@ -358,6 +367,7 @@ tseggiduvvut:tseggiduvv V_CONTR_UVVUT "be constructed, be erected" ; ! no. 90234
 vaddeduvvut:vaddeduvv V_CONTR_UVVUT "be given" ; ! no. 91411
 vájvástuvvut:vájvástuvv V_CONTR_UVVUT "anguish, squirm" ; ! no. 2069
 válldeduvvut:válldeduvv V_CONTR_UVVUT "be taken" ; ! no. 90389
+vigajtuvvut:vigajtuvv V_CONTR_UVVUT "become full of errors, mistakes" ; ! no. 91771
 vuoláduvvut:vu^Oláduvv V_CONTR_UVVUT "become inebriated, become drunk" ; ! no. 3254
 vuorastuvvut:vu^Orastuvv V_CONTR_UVVUT "age" ; ! no. 2188
 åjteduvvut:åjteduvv V_CONTR_UVVUT "be slain, be killed, be murdered" ; ! no. 91071
@@ -1345,6 +1355,7 @@ gähppadit:gähppad2 V_ODD "work out easily" ; ! no. 6807
 gähttjalit:gä2httjal V_ODD "attempt, try" ; ! no. 2384
 gärrvudit:gä2rrvud2 V_ODD "get dressed, put on clothes" ; ! no. 793
 hagŋedit:hagŋed2 V_ODD "be scared out of breath" ; ! no. 802
+hapsagit:hapsag2 V_ODD "become more and more smelly" ; ! no. 91767
 hartsastit:hartsast V_ODD "execute by hanging" ; ! no. 3707
 hádjánit:hádján V_ODD "spread out, disperse" ; ! no. 859
 háhperdit:háhperd2 V_ODD "fumble" ; ! no. 805
@@ -1392,6 +1403,7 @@ jalastit:jalast V_ODD "cut off quickly" ; ! no. 4913
 jalkahit:jalkah V_ODD "lie fully spread out" ; ! no. 916
 janntedit:jannted2 V_ODD "be irritated, annoyed" ; ! no. 4510
 jáksadit:jáksad2 V_ODD "extinguish" ; ! no. 913
+jámalgit:jámalg2 V_ODD "become numb" ; ! no. 91768
 jámedit:jámed2 V_ODD "kill" ; ! no. 90962
 jávestit:jávest V_ODD "cover" ; ! no. 3475
 jeridit:jerid2 V_ODD "clear up one's head, start thinking straight" ; ! no. 3950
