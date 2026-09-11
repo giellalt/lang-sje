@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-10T19:09:59+03:00
+! Generated at: 2026-09-11T19:09:06+03:00
 
 !! # Pite Saami Nouns
 
@@ -229,6 +229,7 @@ buallva:bu^Ollva N_EVEN "knee, kneecap" ; ! no. 200
 buavvda:bu^Ovvda N_EVEN "round treeless mountain top surrounded by forest" ; ! no. 201
 buavvdåjjve:buavvd#åjjve N_EVEN "bald head" ; ! no. 4701
 budtsusjuällge:budtsus#ju^Ollge N_EVEN "bare leg, bare-legged" ; ! no. 5743
+buhtsuduällje:buhtsu#du^Ollje N_EVEN "reindeer hide" ; ! no. 91777
 båtsojmärrka+Use/NG:buhtsu#mierrka N_EVEN "reindeer earmark" ; ! no. 91093
 buhtsutjårrve:buhtsu#tjårrve N_EVEN "reindeer antler" ; ! no. 2300
 bulla:bulla N_EVEN "bread roll, bun" ; ! no. 90705
@@ -342,8 +343,9 @@ dullve:dullve N_EVEN "flood" ; ! no. 2660
 dulutjájjge:dulutj#ájjge N_EVEN "past, old days" ; ! no. 3444
 dulutjdáhpe:dulutj#dáhpe N_EVEN "old-fashioned custom" ; ! no. 390
 dumpåjjve:dump#åjjve N_EVEN "idiot" ; ! no. 3932
-duodje:du^Odje N_EVEN "handicraft" ; ! no. 3093
+duojje+Use/NG:du^Odje N_EVEN "handicraft" ; ! no. 3093
 duohpa:du^Ohpa N_EVEN "tassel" ; ! no. 5838
+duojje:du^Ojje N_EVEN "handicraft" ; ! no. 91779
 duäjjke:du^Ojjke N_EVEN "pressure, hectic, effectivity" ; ! no. 407
 duällje:du^Ollje N_EVEN "reindeer, moose or other hide" ; ! no. 409
 dynamijjta:dynamijjta N_EVEN "dynamite" ; ! no. 3936
@@ -639,6 +641,7 @@ jallga:jallga N_EVEN "flat area" ; ! no. 90309
 jáffovuassa:jáffo#vu^Osºsa N_EVEN "flour sack" ; ! no. 4910
 jáhkka:jáhkka N_EVEN "jacket, coat" ; ! no. 907
 jahke+Use/NG:jáhpe N_EVEN "year" ; ! no. 90873
+jáhpeájjge:jáhpe#ájjge N_EVEN "season" ; ! no. 91783
 jávvre:jávvre N_EVEN "lake" ; ! no. 2316
 jávvrebåddne:jávvre#båddne N_EVEN "lake floor" ; ! no. 4368
 jiedna:jiedna N_EVEN "voice, sound; vote" ; ! no. 921
@@ -736,7 +739,7 @@ lánnda:lánnda N_EVEN "land" ; ! no. 90600
 lápptje:lápptje N_EVEN "rein made of leather" ; ! no. 4442
 lásse:lásse N_EVEN "lock" ; ! no. 3787
 látjavfuällke:látjav#fu^Ollke N_EVEN "fellow parents-in-law" ; ! no. 6069
-lávvdegåhte:lávvde#gåhte N_EVEN "Saami hut made of boards" ; ! no. 91100
+lávvdegåhte:lávvde#gåhte N_EVEN "Saami hut with peat walls" ; ! no. 91100
 lávve:lávve N_EVEN "cousin" ; ! no. 1024
 lávvke:lávvke N_EVEN "step, stride" ; ! no. 2619
 leksjuvdna:leksjuvdna N_EVEN "lesson" ; ! no. 91707
@@ -1136,7 +1139,7 @@ skuvvre:skuvvre N_EVEN "bear’s frontal bone" ; ! no. 1650
 skuäjjve:sku^Ojjve N_EVEN "shape, form, phantom" ; ! no. 90612
 skåhppå:skåhppå N_EVEN "closet, cabinet" ; ! no. 1652
 skåldnje:skåldnje N_EVEN "non-Saami woman" ; ! no. 1654
-skårre:skårre N_EVEN "dried furless leather" ; ! no. 2626
+skårre:skårºre N_EVEN "dried furless leather" ; ! no. 2626
 skårrebåkkså:skårre#båkkså N_EVEN "leather trouser" ; ! no. 3830
 skårrå:skårrå N_EVEN "velvet duck" ; ! no. 1655
 skåvve:skåvve N_EVEN "pattern" ; ! no. 90261
@@ -1390,6 +1393,7 @@ tsuabbtsa:tsu^Obbtsa N_EVEN "patch of snow in the mountains, snow bridge over a 
 tsåhke:tsåhke N_EVEN "heart" ; ! no. 2958
 tsåhke:tsåhke N_EVEN "shallow water" ; ! no. 3741
 turissta:turissta N_EVEN "tourist" ; ! no. 91433
+tyjjga:tyjjga N_EVEN "woven cloth, fabric" ; ! no. 91782
 tågå:tågå N_EVEN "train" ; ! no. 91744
 täkksta:tiekksta N_EVEN "text" ; ! no. 4620
 tällta:tiellta N_EVEN "tent" ; ! no. 91307
@@ -1457,12 +1461,13 @@ vuasstá:vu^Osstá N_EVEN "cheese" ; ! no. 2332
 vuavvda:vu^Ovvda N_EVEN "birdhouse" ; ! no. 2145
 vuavvla:vu^Ovvla N_EVEN "abdominal cavity" ; ! no. 2146
 vuobme:vu^Obme N_EVEN "forest" ; ! no. 5457
-vuodja:vu^Odja N_EVEN "butter, grease" ; ! no. 2151
+vuojja+Use/NG:vu^Odja N_EVEN "butter, grease" ; ! no. 2151
 vuodjemhärrge:vuodjem#hierrge N_EVEN "head reindeer, leading reindeer" ; ! no. 3832
 vuodna:vu^Odna N_EVEN "fjord" ; ! no. 90266
 vuohke:vu^Ohke N_EVEN "way, method, tradition" ; ! no. 2163
 vuojadimsadje:vuojadim#sadje N_EVEN "swimming hole" ; ! no. 3200
 vuojatjålbme:vuoja#tjålbme N_EVEN "place where reindeer swim across a lake, literally 'swimming bay'" ; ! no. 3954
+vuojja:vu^Ojja N_EVEN "butter, grease" ; ! no. 91781
 vuojna+N+Der/NomAg:vuojnadieddje N_EVEN "prophet, clairvoyant" ; ! no. 6532
 vuojŋanisvihke:vuojŋanis#vihke N_EVEN "brain damage" ; ! no. 2169
 vuollánibme:vuollánibme N_EVEN "reduction, deduction" ; ! no. 90970
@@ -2692,7 +2697,8 @@ båtsojsujtár:båtsoj#sujjtár N_ODD_WG "reindeer herder" ; ! no. 264
 bässátj:bä2sºsátj N_ODD_WG "Easter" ; ! no. 90231
 dálkas:dállkas N_ODD_WG "medicine" ; ! no. 317
 dimbar:dimmbar N_ODD_WG "wood, timber" ; ! no. 90322
-duodjebarrgej:duodje#barrgej N_ODD_WG "artesian" ; ! no. 5686
+duojjebarrgej+Use/NG:duodje#barrgej N_ODD_WG "artesian" ; ! no. 5686
+duojjebarrgej:duojje#barrgej N_ODD_WG "artesian" ; ! no. 91780
 dåbbdet+V+Der/NomAg:dåbbdej N_ODD_WG "expert" ; ! no. 4741
 fielbar:fiellbar N_ODD_WG "snowdrift, snowbank" ; ! no. 473
 fuvdar:fuvvdar N_ODD_WG "feed" ; ! no. 91173
