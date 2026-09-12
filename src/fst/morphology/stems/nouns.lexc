@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-11T19:09:06+03:00
+! Generated at: 2026-09-12T12:37:00+03:00
 
 !! # Pite Saami Nouns
 
@@ -101,7 +101,7 @@ asske:asske N_EVEN "lap" ; ! no. 2407
 atjarissja:atja#rissja N_EVEN "flour made of tree seeds" ; ! no. 5910
 atåmå:atåmå N_EVEN "atom" ; ! no. 3143
 avve:avve N_EVEN "belt" ; ! no. 91037
-áddjá:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
+ájjá+Use/NG:áddjá N_EVEN "grandfather, older male family member, old man" ; ! no. 3
 ádvännta:ádviennta N_EVEN "advent" ; ! no. 5854
 áhkarmuärrje:áhkar#mu^Orrje N_EVEN "arctic raspberry" ; ! no. 5955
 áhkká:áhkká N_EVEN "grandmother, closely related older female family members, goddess" ; ! no. 11
@@ -115,7 +115,7 @@ avve:avve N_EVEN "belt" ; ! no. 91037
 áhttjemija:áhttje#mija N_EVEN "the Lord's prayer" ; ! no. 90971
 ájatjáhtse:ája#tjáhtse N_EVEN "spring water" ; ! no. 2688
 ájbme:ájbme N_EVEN "leather needle" ; ! no. 4204
-áddjá+Use/NG:ájºjá N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
+ájjá:ájºjá N_EVEN "grandfather, older male family member, old man" ; ! no. 90404
 átjárájjde+Use/NG:ájjárájjde N_EVEN "thunder" ; ! no. 90906
 ájjge:ájjge N_EVEN "time" ; ! no. 22
 ájjgebielle:ájjge#bielle N_EVEN "halftime" ; ! no. 2693
@@ -210,6 +210,7 @@ bippobuŋŋga:bippo#buŋŋga N_EVEN "tobacco pouch" ; ! no. 184
 biskåhppå:biskåhppå N_EVEN "bishop" ; ! no. 3313
 bissti:bissti N_EVEN "spoon" ; ! no. 190
 bisumsábme:bisum#sábme N_EVEN "Pite Saami" ; ! no. 91260
+bisumsámegiella:bisum#sáme#giella N_EVEN "Pite Saami language" ; ! no. 91784
 buvdna+Use/NG:bivdna N_EVEN "village, community" ; ! no. 4202
 buvvda+Use/NG:bivvda N_EVEN "shed" ; ! no. 90466
 bjällka:bjiellka N_EVEN "construction beam" ; ! no. 3317
@@ -240,7 +241,8 @@ buŋŋga:buŋŋga N_EVEN "purse, wallet" ; ! no. 2527
 buogŋa:bu^Ogŋa N_EVEN "space above the belt in a Saami frock" ; ! no. 3023
 buohtja:bu^Ohtja N_EVEN "male genitals, penis" ; ! no. 4538
 buohtsa:bu^Ohtsa N_EVEN "small round bone between femur and marrowbone" ; ! no. 5014
-buoldáddjá:buold#áddjá N_EVEN "bear" ; ! no. 3617
+buoldájjá+Use/NG:buold#áddjá N_EVEN "bear" ; ! no. 3617
+buoldájjá:buold#ájºjá N_EVEN "bear" ; ! no. 91789
 burra:burºra N_EVEN "storage pit" ; ! no. 5830
 burrne:burrne N_EVEN "cellar made of rocks or earth" ; ! no. 221
 bussa:busºsa N_EVEN "bus" ; ! no. 222
@@ -652,6 +654,7 @@ juhkamgukkse:juhkam#gukkse N_EVEN "scoop for drinking" ; ! no. 3041
 juhkamlihtte:juhkam#lihtte N_EVEN "mug, drinking vessel" ; ! no. 5662
 juhksáhkká:juhks#áhkká N_EVEN "goddess of the hunt" ; ! no. 4325
 jukksa:jukksa N_EVEN "ski binding" ; ! no. 934
+julevsámegiella:julev#sáme#giella N_EVEN "Lule Saami language" ; ! no. 91787
 juovva:ju^Ovva N_EVEN "scree" ; ! no. 2448
 jupptsa:jupptsa N_EVEN "gruel, porridge, soup" ; ! no. 2663
 juvvla:juvvla N_EVEN "wheel" ; ! no. 91747
@@ -922,6 +925,7 @@ njuvvdemlihtte:njuvvdem#lihtte N_EVEN "pestle" ; ! no. 1308
 njuäbbrebässe:njuäbbre#biesºse N_EVEN "thin birch bark" ; ! no. 1310
 njållomájjge:njållom#ájjge N_EVEN "calving season" ; ! no. 5017
 nuarrta:nu^Orrta N_EVEN "north" ; ! no. 3844
+nuarrtasámegiella:nuarrta#sáme#giella N_EVEN "North Saami language" ; ! no. 91788
 nuorra+A+Der/State:nuorravu^Ohta N_EVEN "youth" ; ! no. 3055
 nuortabielle:nuorta#bielle N_EVEN "north side, north shore" ; ! no. 91090
 nuortatjbielle:nuortatj#bielle N_EVEN "north side, north shore" ; ! no. 90976
@@ -1397,6 +1401,7 @@ tyjjga:tyjjga N_EVEN "woven cloth, fabric" ; ! no. 91782
 tågå:tågå N_EVEN "train" ; ! no. 91744
 täkksta:tiekksta N_EVEN "text" ; ! no. 4620
 tällta:tiellta N_EVEN "tent" ; ! no. 91307
+ubmejesámegiella:ubmeje#sáme#giella N_EVEN "Ume Saami language" ; ! no. 91785
 udnátjbäjjve:udnátj#biejjve N_EVEN "today" ; ! no. 5612
 ugrásse:ugrásse N_EVEN "weed" ; ! no. 2755
 ukksa:ukksa N_EVEN "door, gate" ; ! no. 2022
@@ -1405,6 +1410,8 @@ ukksáhkká:ukks#áhkká N_EVEN "goddess who protects children" ; ! no. 4324
 ulla:ulla N_EVEN "greed, desire" ; ! no. 90371
 ullgurijjka:ullgu#rijjka N_EVEN "abroad" ; ! no. 5165
 uŋŋga:uŋŋga N_EVEN "youth, child" ; ! no. 4186
+urrjelsábme:urrjel#sábme N_EVEN "South Saami" ; ! no. 5046
+urrjelsámegiella:urrjel#sáme#giella N_EVEN "South Saami language" ; ! no. 91786
 urudahka:urudahka N_EVEN "settlement, camp" ; ! no. 3391
 uudnogis+A+Der/State:uudnogisvu^Ohta N_EVEN "envy" ; ! no. 3178
 uvdutjájjge:uvdutj#ájjge N_EVEN "former times" ; ! no. 91652
@@ -1527,7 +1534,6 @@ vättka:viettka N_EVEN "celt, adze, hoe" ; ! no. 2767
 årre:årºre N_EVEN "squirrel" ; ! no. 2266
 årremájjge:årrem#ájjge N_EVEN "bedtime" ; ! no. 6203
 årremsadje:årrem#sadje N_EVEN "place to sleep" ; ! no. 3677
-årrjelsábme:årrjel#sábme N_EVEN "South Saami" ; ! no. 5046
 årromsadje:årrom#sadje N_EVEN "place of residence, dwelling" ; ! no. 3373
 årromsadje+Use/NG:årrom#sajje N_EVEN "place of residence, dwelling" ; ! no. 91158
 årråjahke:årrå#jahke N_EVEN "new year" ; ! no. 5170
