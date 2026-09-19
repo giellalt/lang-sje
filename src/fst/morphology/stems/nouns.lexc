@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-09-12T12:37:00+03:00
+! Generated at: 2026-09-19T18:24:32+03:00
 
 !! # Pite Saami Nouns
 
@@ -1271,6 +1271,7 @@ svärrbe:svierrbe N_EVEN "hard-working (for a man working with reindeer)" ; ! no
 svärrte:svierrte N_EVEN "sword" ; ! no. 4378
 såbbtse:såbbtse N_EVEN "foothold in ice or snow" ; ! no. 4021
 sådje:sådje N_EVEN "wing" ; ! no. 3801
+såffá:såffá N_EVEN "sofa, couch" ; ! no. 91792
 såhke:såhke N_EVEN "birch" ; ! no. 3318
 såhkedievvá:såhke#dievvá N_EVEN "slope full of birch trees" ; ! no. 5495
 såhkemuorra:såhke#mu^Orra N_EVEN "birchwood" ; ! no. 5584
@@ -1387,9 +1388,11 @@ tjällka:tjiellka N_EVEN "sled" ; ! no. 2765
 tjänntá:tjienntá N_EVEN "female servant, housemaid" ; ! no. 1987
 tjässka:tjiesska N_EVEN "longitudinal wooden pole for hanging hides" ; ! no. 1988
 tjöhkke:tjöhkke N_EVEN "kitchen" ; ! no. 90706
+toalähtta:toaliehtta N_EVEN "toilet" ; ! no. 91791
 tráhppa:tráhppa N_EVEN "stairs" ; ! no. 2900
 truhkke:truhkke N_EVEN "trough" ; ! no. 5304
-tråddjå:tråddjå N_EVEN "shirt, sweater" ; ! no. 1992
+tråjjå+Use/NG:tråddjå N_EVEN "shirt, sweater" ; ! no. 1992
+tråjjå:tråjjå N_EVEN "shirt, sweater" ; ! no. 91790
 tsagŋa:tsagŋa N_EVEN "short stick in a cloth kåta door" ; ! no. 3639
 tsievve:tsievve N_EVEN "hardpack snow without an ice crust" ; ! no. 2510
 tsisská:tsisská N_EVEN "fatty piece on the very back of a reindeer’s back" ; ! no. 2968
@@ -2047,6 +2050,7 @@ rávvdo:rávvdo N_EVEN_O "char" ; ! no. 2679
 rijbmo:rijbmo N_EVEN_O "almanac, (Saami) calendar" ; ! no. 1408
 rijdimbärrgo:rijdim#bierrgo N_EVEN_O "meat behind the neck on the back" ; ! no. 3762
 rijjdo:rijjdo N_EVEN_O "dispute, quarrel" ; ! no. 1412
+rijjmo:rijjmo N_EVEN_O "calendar" ; ! no. 91793
 riŋŋgo:riŋŋgo N_EVEN_O "lasso ring" ; ! no. 2326
 rivvgo:rivvgo N_EVEN_O "non-Saami woman" ; ! no. 1420
 ruohko:ru^Ohko N_EVEN_O "reed, tube, pipe" ; ! no. 1430
@@ -2156,7 +2160,7 @@ vuodjaskáhppo:vuodja#skáhppo N_EVEN_O "butter dish" ; ! no. 2152
 vuojŋastimståhpo:vuojŋastim#ståhpo N_EVEN_O "shelter" ; ! no. 5692
 vuoratjismánno:vuoratjis#mánno N_EVEN_O "April" ; ! no. 2546
 vuorro:vu^Orro N_EVEN_O "base, bottom" ; ! no. 2160
-vuorro:vu^Orro N_EVEN_O "tour, round" ; ! no. 2193
+vuorro:vu^Orro N_EVEN_O "turn, round" ; ! no. 2193
 väddjo:vieddjo N_EVEN_O "health, vigor" ; ! no. 2216
 värrjo:vierrjo N_EVEN_O "weapon, tool" ; ! no. 2393
 värrto:vierrto N_EVEN_O "stable weather" ; ! no. 2227
