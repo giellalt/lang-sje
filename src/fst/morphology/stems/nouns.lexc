@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 !
 ! This is a GENERATED FILE which means any changes you make manually will probably be overwritten later. This LEXC file was extracted from Joshua Wilbur's Pite Saami lexcial database in FileMaker Pro. Translations and item numbers are from that database; see also https://sjelex.keeleressursid.ee
-! Generated at: 2026-10-07T12:53:59+03:00
+! Generated at: 2026-11-05T13:07:08+02:00
 
 !! # Pite Saami Nouns
 
@@ -1490,6 +1490,7 @@ vuäbbne:vu^Obbne N_EVEN "oven" ; ! no. 2203
 vuähppe:vu^Ohppe N_EVEN "large bay with a small entrance" ; ! no. 2206
 vuähttje:vu^Ohttje N_EVEN "good marksman" ; ! no. 4124
 vuäjjve:vu^Ojjve N_EVEN "scrap of fabric" ; ! no. 2208
+vuälle:vu^Olºle N_EVEN "below" ; ! no. 3437
 vuällegis+A+Der/State:vuällegisvu^Ohta N_EVEN "humility" ; ! no. 2210
 vuärrbe:vu^Orrbe N_EVEN "luck, success" ; ! no. 2212
 vuärrdemrumma:vuärrdem#rumºma N_EVEN "waiting room" ; ! no. 6588
