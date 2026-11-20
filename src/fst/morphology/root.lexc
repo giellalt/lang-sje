@@ -88,6 +88,7 @@ Multichar_Symbols  !!≈ # @CODE@  definitions
 +TV		   	  !!= * @CODE@ Transitive verb
 +IV		   	  !!= * @CODE@ Intransitive verb
 +Vsubst	   	  !!= * @CODE@ "actio" verb
++VGen	   	  !!= * @CODE@ verb genitive (verbal adverb)
 
 !! Other tags
 +ABBR	   	  !!= * @CODE@ Abbreviation
